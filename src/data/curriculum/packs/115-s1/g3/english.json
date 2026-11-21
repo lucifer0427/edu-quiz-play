@@ -1,0 +1,952 @@
+{
+  "packId": "115-s1-g3-english",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 3,
+  "subjectId": "english",
+  "stages": [
+    {
+      "id": "115-s1-g3-english-u0",
+      "subjectId": "english",
+      "title": "Get Ready",
+      "description": "三年級英語暖身起點！複習並聽辨、認讀 26 個英文字母大小寫順序與字形特徵，做好開學英語學習準備。",
+      "difficulty": "easy",
+      "monsterId": "slime",
+      "monsterName": "字母暖身史萊姆",
+      "monsterHp": 110,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 3,
+        "publisher": "康軒",
+        "bookSeries": "Wonder World 1（第一冊）",
+        "unitNo": 0
+      },
+      "questions": [
+        {
+          "id": "115-s1-g3-english-u0-q1",
+          "prompt": "在「Get Ready」暖身單元練習認讀 26 個英文字母時，下列哪一組「大寫與小寫」的配對完全正確？",
+          "options": [
+            "G - g",
+            "B - d",
+            "P - q",
+            "M - w"
+          ],
+          "answerIndex": 0,
+          "explanation": "大寫 G 配對小寫 g 是正確的！b 和 d 方向相反、p 和 q 方向相反、M 和 W 則是上下顛倒的兩個不同字母。",
+          "hint": "仔細看清楚方向與上下！別被長得像雙胞胎的 b、d、p、q 騙倒了喔！",
+          "speechText": "G, g",
+          "speechLang": "en-US",
+          "tags": [
+            "Get Ready",
+            "26 Letters",
+            "Uppercase & Lowercase"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u0-q2",
+          "prompt": "按照 26 個英文字母從 A 到 Z 的排列順序，接在「L, M, N」後面的三個大寫字母依序是哪一組？",
+          "options": [
+            "P, Q, R",
+            "O, P, Q",
+            "K, O, P",
+            "Q, R, S"
+          ],
+          "answerIndex": 1,
+          "explanation": "26 個字母中段順序為「... K, L, M, N, O, P, Q, R ...」，所以緊接在 N 後面的是 O, P, Q。",
+          "hint": "在心裡唱一段英語字母歌：A B C D E F G, H I J K L M N ...",
+          "speechText": "L, M, N, O, P, Q",
+          "speechLang": "en-US",
+          "tags": [
+            "Get Ready",
+            "Alphabet Order"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u0-q3",
+          "prompt": "觀察兩個常見的英文單字「apple（蘋果）」和「ant（螞蟻）」，它們開頭的小寫字母都是哪一個？",
+          "options": [
+            "e",
+            "o",
+            "a",
+            "u"
+          ],
+          "answerIndex": 2,
+          "explanation": "「apple」和「ant」的第一個字母都是小寫的 a。",
+          "hint": "聽聽看發音，再看這兩個單字最左邊的第一個字母寫成什麼！",
+          "speechText": "apple, ant",
+          "speechLang": "en-US",
+          "tags": [
+            "Get Ready",
+            "Initial Letter"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u0-q4",
+          "prompt": "按照字母順序排列，下面哪一組「小寫字母」的順序完全正確，沒有跳號或顛倒？",
+          "options": [
+            "c, d, f, e",
+            "g, h, j, i",
+            "s, u, t, v",
+            "d, e, f, g"
+          ],
+          "answerIndex": 3,
+          "explanation": "字母順序是 a, b, c, d, e, f, g, h, i, j ...，只有「d, e, f, g」順序完全連續且正確。",
+          "hint": "點喇叭或自己從 a 開始往下唸，檢查哪一組沒有跳號或排反！",
+          "speechText": "d, e, f, g",
+          "speechLang": "en-US",
+          "tags": [
+            "Get Ready",
+            "Lowercase Order"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u0-q5",
+          "prompt": "開學第一週的單元標題是「Get Ready」，當英語老師笑著對全班說「Get ready!」時，這句話最接近哪一個中文意思？",
+          "options": [
+            "準備好了！",
+            "晚安！",
+            "對不起！",
+            "生日快樂！"
+          ],
+          "answerIndex": 0,
+          "explanation": "「Get ready!」的意思是「準備好了！」或「做好準備！」，常用在活動或課程開始前。",
+          "hint": "這個單元是開學第 1 週的起始暖身單元喔！",
+          "speechText": "Get ready!",
+          "speechLang": "en-US",
+          "tags": [
+            "Get Ready",
+            "Classroom English"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u0-q6",
+          "prompt": "在 26 個英文字母的大小寫字形中，下面哪一個字母的「大寫」與「小寫」長得幾乎一模一樣，只是尺寸大小不同？",
+          "options": [
+            "A / a",
+            "B / b",
+            "C / c",
+            "E / e"
+          ],
+          "answerIndex": 2,
+          "explanation": "「C / c」的大寫與小寫形狀完全相同，只是大小寫高度與格線位置不同；而 A/a、B/b、E/e 的大小寫外形差別很大。",
+          "hint": "四組裡面只有一個字母的大寫和小寫都像一個彎彎的月亮喔！",
+          "speechText": "C, c",
+          "speechLang": "en-US",
+          "tags": [
+            "Get Ready",
+            "Letter Recognition"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g3-english-u1",
+      "subjectId": "english",
+      "title": "Unit 1 The Birthday Party",
+      "description": "走進熱鬧的生日派對情境，學會用英語送上生日祝福、詢問與回答年齡，以及禮貌表達感謝與贈禮！",
+      "difficulty": "easy",
+      "monsterId": "parrotKing",
+      "monsterName": "壽星派對鸚鵡",
+      "monsterHp": 120,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 3,
+        "publisher": "康軒",
+        "bookSeries": "Wonder World 1（第一冊）",
+        "unitNo": 1
+      },
+      "questions": [
+        {
+          "id": "115-s1-g3-english-u1-q1",
+          "prompt": "單元標題「The Birthday Party」是「生日派對」。參加好朋友的生日派對時，最常用哪一句英文獻上生日祝福？",
+          "options": [
+            "Good morning!",
+            "Happy birthday!",
+            "See you later!",
+            "Excuse me!"
+          ],
+          "answerIndex": 1,
+          "explanation": "「Happy birthday!」就是「生日快樂！」的意思，是生日派對上必備的祝福語。",
+          "hint": "點喇叭聽聽看，哪一句裡面有單元標題出現的 birthday？",
+          "speechText": "Happy birthday!",
+          "speechLang": "en-US",
+          "tags": [
+            "The Birthday Party",
+            "Greetings"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u1-q2",
+          "prompt": "三上學習目標包含詢問與回答「年齡」。在生日派對上認識新朋友時，如果想用英文問他「你幾歲？」，該用哪一句問句？",
+          "options": [
+            "What color is it?",
+            "How's the weather?",
+            "Where is the cake?",
+            "How old are you?"
+          ],
+          "answerIndex": 3,
+          "explanation": "詢問對方幾歲要用「How old are you?」（old 是年齡多大的意思）。",
+          "hint": "點喇叭聽聽看問「年齡幾歲」的句子，裡面有 old 這個字喔！",
+          "speechText": "How old are you?",
+          "speechLang": "en-US",
+          "tags": [
+            "Age",
+            "Sentence Pattern"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u1-q3",
+          "prompt": "如果朋友用英文問你「How old are you?」，今年滿 8 歲的你應該怎麼回答最適合？",
+          "options": [
+            "I am eight years old.",
+            "I am fine, thank you.",
+            "My name is Tom.",
+            "It is a birthday cake."
+          ],
+          "answerIndex": 0,
+          "explanation": "回答年齡的句型是「I am + 數字 + years old.」（或簡答 I'm eight.），8 的英文是 eight。",
+          "hint": "找找看哪一句回答裡有「歲（years old）」和數字「8（eight）」！",
+          "speechText": "I am eight years old.",
+          "speechLang": "en-US",
+          "tags": [
+            "Age",
+            "Numbers 1-10"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u1-q4",
+          "prompt": "壽星的生日蛋糕上插了「9」根蠟燭，下面哪一個英文單字代表數字「9」？",
+          "options": [
+            "five",
+            "six",
+            "nine",
+            "ten"
+          ],
+          "answerIndex": 2,
+          "explanation": "five 是 5、six 是 6、nine 是 9、ten 是 10。",
+          "hint": "從 one, two, three 數數看，nine 是第幾個數字呢？",
+          "speechText": "nine",
+          "speechLang": "en-US",
+          "tags": [
+            "Numbers 1-10",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u1-q5",
+          "prompt": "在生日派對上，你把親手做的生日卡片遞給壽星時，想用英文說「這是給你的」，哪一句最適合？",
+          "options": [
+            "Wait a minute.",
+            "This is for you.",
+            "Stand up, please.",
+            "I am hungry."
+          ],
+          "answerIndex": 1,
+          "explanation": "遞交禮物或物品給別人時，親切的說法是「This is for you.（這是給你的。）」。",
+          "hint": "點喇叭聽聽看「給你的（for you）」那一句！",
+          "speechText": "This is for you.",
+          "speechLang": "en-US",
+          "tags": [
+            "The Birthday Party",
+            "Daily English"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u1-q6",
+          "prompt": "當你收到朋友送來的生日卡片和滿滿祝福時，想要用英文禮貌地道謝，最常用哪一句？",
+          "options": [
+            "Look at me!",
+            "Open the door!",
+            "Sit down!",
+            "Thank you!"
+          ],
+          "answerIndex": 3,
+          "explanation": "收到他人贈禮或祝福時，要微笑說「Thank you!（謝謝你！）」。",
+          "hint": "這是最常用來表達「謝謝」的英語禮貌用語喔！",
+          "speechText": "Thank you!",
+          "speechLang": "en-US",
+          "tags": [
+            "Polite Expressions",
+            "The Birthday Party"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g3-english-u2",
+      "subjectId": "english",
+      "title": "Unit 2 Poor Kevin",
+      "description": "從故事「Poor Kevin」探索「情緒與感覺」英語表達，學會關心身邊家人朋友的感受，培養溫暖同理心。",
+      "difficulty": "easy",
+      "monsterId": "slime",
+      "monsterName": "心情晴雨史萊姆",
+      "monsterHp": 130,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 3,
+        "publisher": "康軒",
+        "bookSeries": "Wonder World 1（第一冊）",
+        "unitNo": 2
+      },
+      "questions": [
+        {
+          "id": "115-s1-g3-english-u2-q1",
+          "prompt": "Unit 2 的標題是「Poor Kevin」。在日常英語對話裡，聽到朋友說「Poor Kevin!」通常表達什麼樣的情感或語氣？",
+          "options": [
+            "祝賀他拿到運動會第一名",
+            "請他大聲唱一首快樂的歌",
+            "覺得他遇到倒楣或難過的事，對他表達關心與同情",
+            "問他現在手上有幾支鉛筆"
+          ],
+          "answerIndex": 2,
+          "explanation": "「Poor + 人名」在口語中常表達「真可憐、真替他難過」的同情與關懷，例如看到朋友跌倒或生病時。",
+          "hint": "想一想這個單元對應的三上主題是「情緒與感覺」以及「品德／家庭教育」喔！",
+          "speechText": "Poor Kevin!",
+          "speechLang": "en-US",
+          "tags": [
+            "Poor Kevin",
+            "Empathy",
+            "Feelings"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u2-q2",
+          "prompt": "早上到學校看見同學臉色不太對勁，想用英文親切地關心「你好嗎？／你還好嗎？」，應該用哪一句問候？",
+          "options": [
+            "How are you?",
+            "What is your name?",
+            "How many apples?",
+            "Who are you?"
+          ],
+          "answerIndex": 0,
+          "explanation": "「How are you?」是用來關心對方近況、身體或心情好不好的經典問候句。",
+          "hint": "聽聽看語音念出的經典問候句「How are you?」！",
+          "speechText": "How are you?",
+          "speechLang": "en-US",
+          "tags": [
+            "Feelings",
+            "Greetings"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u2-q3",
+          "prompt": "聽到同學開朗地回答：「I am happy today.」，這代表他現在的情緒或感覺是什麼？",
+          "options": [
+            "很生氣",
+            "非常害怕",
+            "口渴想喝水",
+            "開心、快樂"
+          ],
+          "answerIndex": 3,
+          "explanation": "「happy」的意思是快樂的、開心的；「I am happy today.」表示「我今天很開心。」",
+          "hint": "回想「Happy birthday」裡的 happy 是什麼意思！",
+          "speechText": "I am happy today.",
+          "speechLang": "en-US",
+          "tags": [
+            "Feelings",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u2-q4",
+          "prompt": "如果在單元「情緒與感覺」中，想用英文描述一個人因為弄丟心愛的玩具而覺得「難過、傷心」，應該用哪一個單字？",
+          "options": [
+            "tall",
+            "sad",
+            "red",
+            "big"
+          ],
+          "answerIndex": 1,
+          "explanation": "「sad」是指難過的、傷心的；tall 是高的、red 是紅色的、big 是大的。",
+          "hint": "這個單字只有三個字母，跟 happy 的意思剛好相反喔！",
+          "speechText": "I am sad.",
+          "speechLang": "en-US",
+          "tags": [
+            "Feelings",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u2-q5",
+          "prompt": "上完體育課跑了兩圈操場，全身流汗又想休息，想用英文說「我好累喔」，空格裡最適合填入哪一個感覺形容詞：「I am ______ .」？",
+          "options": [
+            "blue",
+            "seven",
+            "tired",
+            "yellow"
+          ],
+          "answerIndex": 2,
+          "explanation": "「tired」是「疲倦的、累的」，「I am tired.」即「我累了。」；blue 和 yellow 是顏色、seven 是數字 7。",
+          "hint": "挑出四個字當中唯一用來形容身體感受的單字！",
+          "speechText": "I am tired.",
+          "speechLang": "en-US",
+          "tags": [
+            "Feelings",
+            "Daily English"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u2-q6",
+          "prompt": "快到中午吃飯時間，肚子咕嚕咕嚕叫，下面哪一個形容感覺的英文單字意思是「飢餓的、肚子餓」？",
+          "options": [
+            "hungry",
+            "cute",
+            "new",
+            "green"
+          ],
+          "answerIndex": 0,
+          "explanation": "「hungry」的意思是飢餓的，「I am hungry.」就是「我肚子餓了。」",
+          "hint": "點喇叭聽聽看「I am hungry.」的發音！",
+          "speechText": "I am hungry.",
+          "speechLang": "en-US",
+          "tags": [
+            "Feelings",
+            "Vocabulary"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g3-english-u3",
+      "subjectId": "english",
+      "title": "Review 1",
+      "description": "期中複習關卡！整合檢查 26 個大小寫字母、年齡問答、情緒感覺詞彙與看圖預測的閱讀素養策略。",
+      "difficulty": "medium",
+      "monsterId": "bookSpirit",
+      "monsterName": "期中複習書靈",
+      "monsterHp": 140,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 3,
+        "publisher": "康軒",
+        "bookSeries": "Wonder World 1（第一冊）",
+        "unitNo": 3
+      },
+      "questions": [
+        {
+          "id": "115-s1-g3-english-u3-q1",
+          "prompt": "在「Review 1」期中複習 26 個英文字母時，請當小小糾察隊找出哪一組大小寫「完全正確」沒有寫錯？",
+          "options": [
+            "b - d",
+            "q - p",
+            "F - t",
+            "H - h"
+          ],
+          "answerIndex": 3,
+          "explanation": "「H - h」大小寫配對正確；b 與 d、p 與 q 都是容易混淆的不同字母，F 的小寫則是 f 不是 t。",
+          "hint": "排除掉長得很像的 b/d、p/q 還有 F/t，正確答案只有一個！",
+          "speechText": "H, h",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "26 Letters"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u3-q2",
+          "prompt": "對話配對複習：當好朋友用英文關心地問你「How are you?」，而你今天精神飽滿、心情很好，哪一個回答最自然？",
+          "options": [
+            "I am ten.",
+            "Happy birthday!",
+            "I am fine, thank you.",
+            "Goodbye!"
+          ],
+          "answerIndex": 2,
+          "explanation": "別人問候「How are you?（你好嗎？）」時，標準又有禮貌的回答是「I am fine, thank you.（我很好，謝謝你。）」",
+          "hint": "別人問你「好不好」，記得要先說自己很好，再向對方道謝喔！",
+          "speechText": "I am fine, thank you.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u3-q3",
+          "prompt": "數字與年齡跨科複習：小晴今年 10 歲，她的弟弟比她小 3 歲，弟弟今年幾歲？這個年齡的英文單字是哪一個？",
+          "options": [
+            "six",
+            "seven",
+            "eight",
+            "ten"
+          ],
+          "answerIndex": 1,
+          "explanation": "10 - 3 = 7，數字 7 的英文單字是 seven。",
+          "hint": "先用減法算出弟弟幾歲，再找出對應的英語數字單字！",
+          "speechText": "seven",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Numbers 1-10",
+            "Age"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u3-q4",
+          "prompt": "詞彙分類挑戰：下面四個英文單字中，有三個都屬於「情緒與感覺」主題，只有哪一個「不是」形容感覺？",
+          "options": [
+            "cake",
+            "happy",
+            "sad",
+            "angry"
+          ],
+          "answerIndex": 0,
+          "explanation": "happy（開心的）、sad（難過的）、angry（生氣的）都是情緒感覺形容詞；cake 是「蛋糕」，屬於食物名詞。",
+          "hint": "哪一個字是可以端上生日派對桌子吃的東西呢？",
+          "speechText": "happy, sad, angry",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Word Classification"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u3-q5",
+          "prompt": "「Review 1」融入了閱讀素養教育。在開始讀一篇新的英語故事前，先觀察課文標題和插圖人物的表情，這個閱讀技巧最主要能幫我們做什麼？",
+          "options": [
+            "算出課本總共有幾頁紙張",
+            "不必看文字就能把所有單字都拼出來",
+            "馬上知道作者家裡的電話號碼",
+            "先預測故事主題與角色心情，幫助更容易理解故事內容"
+          ],
+          "answerIndex": 3,
+          "explanation": "「看圖預測」是重要的英語閱讀策略，能先建立情境背景與人物情緒概念，降低閱讀陌生單字的壓力。",
+          "hint": "圖片和標題就像電影預告片一樣，能先告訴我們什麼呢？",
+          "speechText": "Look at the picture and guess the story.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Reading Literacy"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u3-q6",
+          "prompt": "觀察「birthday（生日）」和「boy（男孩）」這兩個常見的英文單字，它們字首開頭都是哪一個相同的字母？",
+          "options": [
+            "d",
+            "b",
+            "p",
+            "g"
+          ],
+          "answerIndex": 1,
+          "explanation": "birthday 和 boy 開頭都是小寫字母 b，唸起來也有相同的子音開頭喔！",
+          "hint": "看清楚這兩個字的第一個字母，圓圓的肚子在右邊，不是 d 喔！",
+          "speechText": "birthday, boy",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Phonics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g3-english-u4",
+      "subjectId": "english",
+      "title": "Unit 3 At B&J’s Toys",
+      "description": "逛逛 B&J 玩具店！認識常見玩具英文單字、練習指物詢問與回答句型，並學習珍惜玩具與分享愛心的好品德。",
+      "difficulty": "medium",
+      "monsterId": "mathCube",
+      "monsterName": "玩具屋積木魔方",
+      "monsterHp": 150,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 3,
+        "publisher": "康軒",
+        "bookSeries": "Wonder World 1（第一冊）",
+        "unitNo": 4
+      },
+      "questions": [
+        {
+          "id": "115-s1-g3-english-u4-q1",
+          "prompt": "Unit 3 的標題是「At B&J’s Toys」。從標題出現的單字「toys」可以知道，這個故事發生的場所主要與什麼物品有關？",
+          "options": [
+            "玩具與玩具店",
+            "醫院與藥局",
+            "蔬果與傳統市場",
+            "圖書館與書架"
+          ],
+          "answerIndex": 0,
+          "explanation": "「toy」是玩具，「toys」是玩具的複數形；加上店名 B&J's Toys，就是「在 B&J 玩具店」。",
+          "hint": "三上學習目標之一就是認識「常見玩具」，看看標題哪個字代表玩具！",
+          "speechText": "toys",
+          "speechLang": "en-US",
+          "tags": [
+            "At B&J's Toys",
+            "Toys",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u4-q2",
+          "prompt": "走進玩具店看到球類區擺著籃球和足球。請問下面哪一個英文單字是指「球」？",
+          "options": [
+            "kite",
+            "car",
+            "ball",
+            "doll"
+          ],
+          "answerIndex": 2,
+          "explanation": "「ball」是球；kite 是風箏、car 是汽車、doll 是洋娃娃。",
+          "hint": "點喇叭聽聽看「一顆球（a ball）」的英語發音！",
+          "speechText": "a ball",
+          "speechLang": "en-US",
+          "tags": [
+            "Toys",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u4-q3",
+          "prompt": "認識「常見玩具」英語單字時，下列哪一組英文玩具名稱與中文意思的配對「完全正確」？",
+          "options": [
+            "ball — 玩具車",
+            "doll — 洋娃娃",
+            "kite — 積木",
+            "robot — 風箏"
+          ],
+          "answerIndex": 1,
+          "explanation": "「doll」是洋娃娃；ball 是球、kite 是風箏、robot 是機器人。",
+          "hint": "想一想哪一個單字指的是小朋友常抱在懷裡的可愛人偶？",
+          "speechText": "a doll",
+          "speechLang": "en-US",
+          "tags": [
+            "Toys",
+            "Word Matching"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u4-q4",
+          "prompt": "在玩具店裡指著桌上一件從沒看過的新奇玩具，想用英文問店員「這是什麼？」，最道地的問句是哪一句？",
+          "options": [
+            "Who are you?",
+            "How old is it?",
+            "Are you happy?",
+            "What is this?"
+          ],
+          "answerIndex": 3,
+          "explanation": "詢問近處不認識的單數物品是什麼，要用「What is this?（這是什麼？）」。",
+          "hint": "點喇叭聽聽看問「這是什麼」的英語問句！",
+          "speechText": "What is this?",
+          "speechLang": "en-US",
+          "tags": [
+            "Toys",
+            "Sentence Pattern"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u4-q5",
+          "prompt": "店員親切地看著你指著的玩具盒回答：「It is a robot.」請問這個盒子裡裝的是哪一種玩具？",
+          "options": [
+            "機器人",
+            "彩色風箏",
+            "小火車",
+            "泰迪熊"
+          ],
+          "answerIndex": 0,
+          "explanation": "「robot」就是「機器人」，「It is a robot.」意思是「它是一個機器人。」",
+          "hint": "聽聽看「robot」這個字的發音，是不是很像我們常講的「機器人」？",
+          "speechText": "It is a robot.",
+          "speechLang": "en-US",
+          "tags": [
+            "Toys",
+            "Listening & Reading"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u4-q6",
+          "prompt": "本單元融入了環境教育與品德教育。當我們長大了，房間裡有許多保存完好卻已經不常玩的玩具時，哪一種處理方式最能愛惜資源又傳遞愛心？",
+          "options": [
+            "直接把它們全部砸壞再丟進一般垃圾桶",
+            "隨手丟在公園草地上讓別人踩到",
+            "假裝看不見，每次出門都再要求買一模一樣的新玩具",
+            "擦拭清潔後整理好，送給需要的弟弟妹妹或公益單位分享"
+          ],
+          "answerIndex": 3,
+          "explanation": "愛物惜物、清潔後捐贈分享玩具，既能減少資源浪費與垃圾，還能讓玩具繼續帶給別人快樂。",
+          "hint": "配合「環境教育」與「品德教育」，想一想怎樣讓舊玩具發揮第二次價值！",
+          "speechText": "Share your toys.",
+          "speechLang": "en-US",
+          "tags": [
+            "Environmental Education",
+            "Character Education"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g3-english-u5",
+      "subjectId": "english",
+      "title": "Unit 4 Baby Dragon’s Toys（課程架構表列：Baby Dragon’s Gift） & Merry Christmas!",
+      "description": "認識「常見顏色」英語單字、學會用顏色描述物品，並結合「Merry Christmas!」節慶課了解國外聖誕節祝福與習俗。",
+      "difficulty": "medium",
+      "monsterId": "flameDragon",
+      "monsterName": "聖誕小龍使者",
+      "monsterHp": 170,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 3,
+        "publisher": "康軒",
+        "bookSeries": "Wonder World 1（第一冊）",
+        "unitNo": 5
+      },
+      "questions": [
+        {
+          "id": "115-s1-g3-english-u5-q1",
+          "prompt": "三上學習目標包含認識「常見顏色」。在聖誕節布置中常看見經典的「紅色」與「綠色」，這兩種顏色的英文分別是哪一組？",
+          "options": [
+            "blue and yellow",
+            "red and green",
+            "black and white",
+            "pink and orange"
+          ],
+          "answerIndex": 1,
+          "explanation": "「red」是紅色，「green」是綠色；blue 是藍色、yellow 是黃色、black 是黑色、white 是白色。",
+          "hint": "紅色的聖誕帽是 red，綠色的聖誕樹是 green！",
+          "speechText": "red and green",
+          "speechLang": "en-US",
+          "tags": [
+            "Colors",
+            "Christmas"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u5-q2",
+          "prompt": "第 16 週節慶教學「Culture & Festivals ∣ Merry Christmas!」介紹國外重要節慶。請問在卡片上寫下「Merry Christmas!」，是祝福對方什麼節日快樂？",
+          "options": [
+            "聖誕節快樂",
+            "中秋節快樂",
+            "端午節快樂",
+            "兒童節快樂"
+          ],
+          "answerIndex": 0,
+          "explanation": "「Merry Christmas!」就是「聖誕節快樂！」，「Merry」帶有歡樂喜慶的意思。",
+          "hint": "點喇叭聽聽看 12 月冬天大街小巷常聽見的那句祝福語！",
+          "speechText": "Merry Christmas!",
+          "speechLang": "en-US",
+          "tags": [
+            "Merry Christmas",
+            "Culture & Festivals"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u5-q3",
+          "prompt": "在單元名稱「Baby Dragon's Gift」與聖誕節慶活動中，「gift」這個常見單字在中文裡通常是指什麼？",
+          "options": [
+            "作業簿",
+            "水壺",
+            "黑板",
+            "禮物"
+          ],
+          "answerIndex": 3,
+          "explanation": "「gift」的意思是「禮物」，聖誕節或生日派對互送禮物時常會看見這個字。",
+          "hint": "聖誕節大家最期待拆開包裝盒拿到的東西是什麼呢？",
+          "speechText": "a gift",
+          "speechLang": "en-US",
+          "tags": [
+            "Vocabulary",
+            "Christmas"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u5-q4",
+          "prompt": "觀察生活中的「常見顏色」單字：晴朗無雲的天空常是「blue」，亮麗的向日葵花瓣常是「yellow」。請問這兩個單字分別代表什麼顏色？",
+          "options": [
+            "紫色和咖啡色",
+            "灰色和黑色",
+            "藍色和黃色",
+            "綠色和白色"
+          ],
+          "answerIndex": 2,
+          "explanation": "「blue」是藍色，「yellow」是黃色。",
+          "hint": "想想晴天時天空是什麼顏色，向日葵又是什麼顏色！",
+          "speechText": "blue and yellow",
+          "speechLang": "en-US",
+          "tags": [
+            "Colors",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u5-q5",
+          "prompt": "本單元結合學習表現「8-Ⅱ-3 了解國外主要節慶習俗」。關於「Christmas（聖誕節）」的傳統習俗，下列哪一項敘述最符合？",
+          "options": [
+            "大家在酷熱的七月比賽划龍舟與吃肉粽",
+            "人們在 12 月常裝飾聖誕樹、唱聖誕歌，並互送卡片或禮物表達祝福",
+            "家家戶戶在門口掛艾草和香包驅蟲避邪",
+            "全國小朋友都在端午連假一起去賞月烤肉"
+          ],
+          "answerIndex": 1,
+          "explanation": "聖誕節（12 月 25 日）的重要傳統包含布置聖誕樹（Christmas tree）、交換禮物、寄送祝福卡片與唱聖誕歌曲。",
+          "hint": "挑出專屬於「Christmas」這個冬天節慶的文化習俗！",
+          "speechText": "Christmas tree",
+          "speechLang": "en-US",
+          "tags": [
+            "Culture & Festivals",
+            "8-II-3"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u5-q6",
+          "prompt": "將顏色和玩具單字合起來練習造句！如果小龍指著禮物盒裡的玩具說：「It is a red car.」，這句話是在介紹哪一個玩具？",
+          "options": [
+            "一隻綠色的青蛙",
+            "一顆黃色的氣球",
+            "一輛紅色的玩具車",
+            "一個藍色的風箏"
+          ],
+          "answerIndex": 2,
+          "explanation": "「red」是紅色的，「car」是汽車（玩具車），合起來就是「它是一輛紅色的車子。」",
+          "hint": "先把「red（顏色）」和「car（交通工具）」分開翻譯再合起來！",
+          "speechText": "It is a red car.",
+          "speechLang": "en-US",
+          "tags": [
+            "Colors & Toys",
+            "Sentence Comprehension"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g3-english-u6",
+      "subjectId": "english",
+      "title": "Review 2",
+      "description": "期末綜合總複習！整合三上 26 個字母、年齡表達、情緒與感覺、常見玩具、顏色與節慶祝福，挑戰全方位英語實力。",
+      "difficulty": "hard",
+      "monsterId": "parrotKing",
+      "monsterName": "雙語總複習鸚鵡王",
+      "monsterHp": 180,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 3,
+        "publisher": "康軒",
+        "bookSeries": "Wonder World 1（第一冊）",
+        "unitNo": 6
+      },
+      "questions": [
+        {
+          "id": "115-s1-g3-english-u6-q1",
+          "prompt": "三上單字主題總複習！如果要把單字按照「同一類別」整理進單字本，下面哪一組四個字全部都屬於「常見顏色（Colors）」？",
+          "options": [
+            "ball, doll, kite, car",
+            "happy, sad, tired, hungry",
+            "red, blue, yellow, green",
+            "one, five, eight, ten"
+          ],
+          "answerIndex": 2,
+          "explanation": "red（紅）、blue（藍）、yellow（黃）、green（綠）全部都是顏色單字；其餘三組分別是玩具、情緒感覺與數字。",
+          "hint": "點喇叭聽聽看四種顏色的念法！",
+          "speechText": "red, blue, yellow, green",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Colors",
+            "Word Classification"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u6-q2",
+          "prompt": "問答配對總複習：當同學指著桌上的玩具用英文問你「What is that?（那是什麼？）」時，下面哪一個回答文法與語意最正確？",
+          "options": [
+            "I am happy.",
+            "Yes, I am nine.",
+            "Merry Christmas!",
+            "It is a yo-yo."
+          ],
+          "answerIndex": 3,
+          "explanation": "問物品「What is that?」時，要用「It is a/an + 物品名稱.」回答，「It is a yo-yo.（它是一個溜溜球。）」最正確。",
+          "hint": "問「那是什麼東西」，記得要用「It is ...」開頭回答物品喔！",
+          "speechText": "It is a yo-yo.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Sentence Pattern"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u6-q3",
+          "prompt": "請檢查下面四組「英文詞彙與中文意思」的配對，哪一組「全部正確」沒有寫反或寫錯？",
+          "options": [
+            "happy 開心／sad 難過",
+            "ball 風箏／kite 球",
+            "red 藍色／blue 紅色",
+            "eight 十／ten 八"
+          ],
+          "answerIndex": 0,
+          "explanation": "happy 是開心、sad 是難過，完全正確！其他三組都把兩個單字的意思顛倒了。",
+          "hint": "仔細檢查看看其他三組是不是剛好把兩個字的意思對調放反了！",
+          "speechText": "happy, sad",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Feelings"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u6-q4",
+          "prompt": "26 個英文字母總複習！在英語字母順序的最後面，結尾的四個大寫字母依序是哪一組？",
+          "options": [
+            "U, V, W, X",
+            "W, X, Y, Z",
+            "T, U, V, Z",
+            "W, Y, X, Z"
+          ],
+          "answerIndex": 1,
+          "explanation": "英語字母最後六個依序是 U, V, W, X, Y, Z，所以最後四個是 W, X, Y, Z。",
+          "hint": "回想字母歌最後一句，最後唱到哪四個字母結束呢？",
+          "speechText": "W, X, Y, Z",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "26 Letters"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u6-q5",
+          "prompt": "生活祝福語大配對：下面哪一組「英文祝福語與使用情境」的搭配最合理？",
+          "options": [
+            "Poor Kevin! — 祝朋友生日快樂",
+            "Happy birthday! — 上完體育課覺得很累",
+            "I am hungry. — 送禮物給好朋友時說的話",
+            "Merry Christmas! — 在聖誕節祝福家人與朋友"
+          ],
+          "answerIndex": 3,
+          "explanation": "「Merry Christmas!」是聖誕節祝福語；Poor Kevin! 表達同情關心、Happy birthday! 是生日祝福、I am hungry. 表示肚子餓。",
+          "hint": "只有一組英文祝福語和後面寫的中文情境完全吻合喔！",
+          "speechText": "Merry Christmas!",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Greetings & Culture"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u6-q6",
+          "prompt": "經過一學期練習「打招呼與介紹年齡」後，如果在校園裡遇到外國新同學，想熱情打招呼並告訴他自己今年 9 歲，下面哪一句最正確？",
+          "options": [
+            "Hello! I am nine years old.",
+            "Hello! It is a green car.",
+            "How are you? I am a doll.",
+            "Thank you! What is this?"
+          ],
+          "answerIndex": 0,
+          "explanation": "「Hello! I am nine years old.」清楚地先打招呼「你好！」再說出年齡「我九歲。」（nine = 9）。",
+          "hint": "找到有說「Hello!」又有提到年齡數字「9（nine）」的那一句！",
+          "speechText": "Hello! I am nine years old.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Age & Greetings"
+          ]
+        }
+      ]
+    }
+  ]
+}
