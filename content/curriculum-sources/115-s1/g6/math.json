@@ -1,0 +1,228 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 6,
+    "subject": "數學",
+    "publisher": "康軒",
+    "book_series": "第十一冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:05:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 6,
+        "subject": "數學",
+        "publisher": "康軒",
+        "book_series": "第十一冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 6,
+        "subject": "數學",
+        "publisher": "康軒",
+        "book_series": "第十一冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 最大公因數與最小公倍數",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一單元 最大公因數與最小公倍數",
+          "learning_points": [
+            "20以內的質數和質因數分解：小於20的質數與合數，2、3、5的質因數判別法，以短除法做質因數分解（N-6-1、n-Ⅲ-3）。",
+            "最大公因數與最小公倍數：質因數分解法與短除法、兩數互質，運用到分數的約分與通分（N-6-2）。",
+            "第1-2週授課（4節/週）；融入人權教育、品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.318 課程架構表] 數學6上：第一單元最大公因數與最小公倍數；[PDF p.621-622 5-2教學進度總表] 第1-2週；[PDF p.316] N-6-1、N-6-2。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 分數除法",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第二單元 分數除法",
+          "learning_points": [
+            "分數的除法：整數除以分數、分數除以分數的意義，理解除以一數等於乘以其倒數之公式（N-6-3、n-Ⅲ-6）。",
+            "第3-4週授課；融入生命教育、多元文化教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.318 課程架構表] 第二單元分數除法；[PDF p.622 5-2教學進度總表] 第3-4週；[PDF p.316] N-6-3。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元 數量關係",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第三單元 數量關係",
+          "learning_points": [
+            "數量關係與表示：從具體情境或數量模式出發做觀察、推理、說明，學習以文字或符號列出數量關係的關係式（R-6-2、R-6-3、n-Ⅲ-10、r-Ⅲ-3）。",
+            "第5-6週授課；融入人權教育、品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.318 課程架構表] 第三單元數量關係；[PDF p.623 5-2教學進度總表] 第5-6週；[PDF p.317] R-6-2、R-6-3。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第四單元 小數除法",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第四單元 小數除法",
+          "learning_points": [
+            "小數的除法：整數除以小數、小數除以小數的意義與直式計算，處理商一定比被除數小的錯誤類型（N-6-4、n-Ⅲ-7）。",
+            "第7-8週授課；融入多元文化教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.318 課程架構表] 第四單元小數除法；[PDF p.623-624 5-2教學進度總表] 第7-8週；[PDF p.316] N-6-4。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "第五單元 比與比值",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第五單元 比與比值",
+          "learning_points": [
+            "比與比值：異類量的比與同類量的比之比值意義，理解相等的比中牽涉的兩種倍數關係，解決比的應用問題（N-6-6、n-Ⅲ-9）。",
+            "第9-10週授課；融入環境教育、能源教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.318 課程架構表] 第五單元比與比值；[PDF p.624 5-2教學進度總表] 第9-10週；[PDF p.316] N-6-6。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "第六單元 圓周長與扇形周長",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第六單元 圓周長與扇形周長",
+          "learning_points": [
+            "使用直尺、三角板找出圓的圓周長和直徑，認識圓周率意義並計算圓周長及扇形弧長／周長（S-6-3、s-Ⅲ-2、六上目標3）。",
+            "第11-13週授課；融入安全教育、國際教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.318 課程架構表] 第六單元圓周長與扇形周長；[PDF p.625-626 5-2教學進度總表] 第11-13週；[PDF p.317, 319] S-6-3、六上學習目標3。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 7,
+      "title": "第七單元 圓面積與扇形面積",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第七單元 圓面積與扇形面積",
+          "learning_points": [
+            "用分割說明圓面積公式，求圓面積與扇形面積，理解圓心角：360 = 扇形弧長：圓周長 = 扇形面積：圓面積（S-6-3、s-Ⅲ-2）；使用圓規畫出綁繩子的羊可以活動的範圍（六上目標3）。",
+            "第14-15週授課；融入環境教育、家庭教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.318 課程架構表] 第七單元圓面積與扇形面積；[PDF p.626 5-2教學進度總表] 第14-15週；[PDF p.317, 319] S-6-3、六上學習目標3。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 8,
+      "title": "第八單元 認識速率",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第八單元 認識速率",
+          "learning_points": [
+            "解題：速度。理解速度的意義，能做大單位到小單位的單位換算，含不同時間區段的平均速度與「距離＝速度×時間」公式（N-6-7、n-Ⅲ-9）。",
+            "第16-18週授課；融入品德教育、安全教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.318 課程架構表] 第八單元認識速率；[PDF p.627 5-2教學進度總表] 第16-18週；[PDF p.316] N-6-7。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 9,
+      "title": "第九單元 放大圖、縮圖與比例尺",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第九單元 放大圖、縮圖與比例尺",
+          "learning_points": [
+            "放大與縮小：「幾倍放大圖」、「幾倍縮小圖」，知道縮放時對應角相等、對應邊成比例，並使用直尺測量對應邊、量角器測量對應角（S-6-1、s-Ⅲ-7、六上目標3）。",
+            "地圖比例尺之意義、記號與應用：地圖上兩邊長的比和實際兩邊長的比相等（S-6-2）。",
+            "第19-21週授課；融入人權教育、品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.318 課程架構表] 第九單元放大圖、縮圖與比例尺；[PDF p.628 5-2教學進度總表] 第19-21週；[PDF p.317, 319] S-6-1、S-6-2、六上學習目標3。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].title",
+      "reason": "source_not_found",
+      "detail": "學校課程計畫書 5-1-1 課程架構表（PDF p.318）與 5-2 進度總表（PDF p.621-628）僅列康軒數學六上（第十一冊）9 個單元主標題，未列出各單元內部小節名稱（如 1-1、1-2）及課本例題題型規格。",
+      "recommended_action": "若需依課本各小節細目或特定例題設計動態題庫參數，請提供康軒國小數學第十一冊（六上）課本目次頁照片。"
+    },
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未單獨列出各單元數學專有名詞彙整表。",
+      "recommended_action": "可依學習內容條目（如質因數分解、互質、倒數、比值、圓周率、比例尺）輔以課本目次確認單元詞彙。"
+    }
+  ]
+}

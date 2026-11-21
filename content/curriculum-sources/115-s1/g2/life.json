@@ -1,0 +1,270 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 2,
+    "subject": "生活",
+    "publisher": "南一",
+    "book_series": "第三冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T12:46:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 2,
+        "subject": "生活",
+        "publisher": "南一",
+        "book_series": "第三冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 2,
+        "subject": "生活",
+        "publisher": "南一",
+        "book_series": "第三冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "主題一、標誌與生活",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元1 生活中的標誌",
+          "learning_points": [
+            "1.生活中的標誌、2.交通標誌及意義、3.簡單方便的標誌（目標1-7：注意標誌意義、交通標誌特徵與求助方式、演唱標誌歌曲）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.468 課程架構表] 主題一、標誌與生活 -> 單元1 生活中的標誌：1.生活中的標誌 2.交通標誌及意義 3.簡單方便的標誌；[PDF p.554] 第1-2週；[PDF p.471] 上學期目標1-7。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元2 標誌的妙用",
+          "learning_points": [
+            "1.校園中的標誌、2.標誌設計的原則、3.幫校園設計標誌（目標8-12：認識校園標誌及標誌設計原則與實作）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.468 課程架構表] 單元2 標誌的妙用：1.校園中的標誌 2.標誌設計的原則 3.幫校園設計標誌；[PDF p.555] 第3週；[PDF p.471] 上學期目標8-12。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "主題二、吸住了",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元1 什麼吸得住",
+          "learning_points": [
+            "1.黑板上的吸住者、2.磁鐵吸哪裡、3.磁鐵共同的特性、4.音樂活動、5.我的發現（目標13-16：歸納磁鐵能吸住像鐵的東西及磁鐵特性）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.468 課程架構表] 主題二、吸住了 -> 單元1 什麼吸得住：1.黑板上的吸住者 2.磁鐵吸哪裡 3.磁鐵共同的特性 4.音樂活動 5.我的發現；[PDF p.555] 第4-5週；[PDF p.471] 上學期目標13-16。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元2 吸住了真有用",
+          "learning_points": [
+            "1.生活中的磁鐵運用、2.自己做磁鐵玩具（目標17-18：認識生活中磁鐵應用用具並自製磁鐵玩具）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.468 課程架構表] 單元2 吸住了真有用：1.生活中的磁鐵運用 2.自己做磁鐵玩具；[PDF p.555] 第6週；[PDF p.471] 上學期目標17-18。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "主題三、我愛泡泡",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元1 泡泡怎麼來",
+          "learning_points": [
+            "1.生活中的泡泡、2.調製神奇泡泡水（目標19-23：討論泡泡形成及調製持久泡泡水濃度）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.468 課程架構表] 主題三、我愛泡泡 -> 單元1 泡泡怎麼來：1.生活中的泡泡 2.調製神奇泡泡水；[PDF p.555-556] 第7-8週；[PDF p.471-472] 上學期目標19-23。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元2 大家來吹泡泡",
+          "learning_points": [
+            "1.吹泡泡真好玩、2.用不同的工具試試看（目標24-28：比較不同粗細吸管與不同工具製造泡泡，唱跳與合作演出）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.468 課程架構表] 單元2 大家來吹泡泡：1.吹泡泡真好玩 2.用不同的工具試試看；[PDF p.556] 第9週；[PDF p.472] 上學期目標24-28。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元3 美麗的泡泡",
+          "learning_points": [
+            "1.泡泡像什麼？、2.留下泡泡美麗的樣子、3.泡泡水妙用多（目標29-32：利用泡泡創作及剩餘泡泡水用途與清潔）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.468 課程架構表] 單元3 美麗的泡泡：1.泡泡像什麼？ 2.留下泡泡美麗的樣子 3.泡泡水妙用多；[PDF p.556] 第10週；[PDF p.472] 上學期目標29-32。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "主題四、大樹",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元1 認識樹朋友",
+          "learning_points": [
+            "1.我想認識樹、2.樹的五官探索、3.撕貼表現樹枝、4.拓印表現樹葉、5.我的發現、6.看清楚高高的樹（目標33-39：五官探索樹、拓印樹葉紋路與差異）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.469 課程架構表] 主題四、大樹 -> 單元1 認識樹朋友：1~6；[PDF p.557] 第11-12週；[PDF p.472] 上學期目標33-39。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元2 親近樹朋友",
+          "learning_points": [
+            "1.親近樹朋友的方法、2.歌唱表情意（目標40-41：用行動親近樹並以歌唱表達情感）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.469 課程架構表] 單元2 親近樹朋友：1.親近樹朋友的方法 2.歌唱表情意；[PDF p.557] 第13週；[PDF p.472] 上學期目標40-41。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元3 愛護樹朋友",
+          "learning_points": [
+            "1.愛樹的方法、2.海報傳樹情（目標42-43：實踐愛樹行動並製作愛樹海報）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.469 課程架構表] 單元3 愛護樹朋友：1.愛樹的方法 2.海報傳樹情；[PDF p.557] 第14週；[PDF p.472] 上學期目標42-43。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "主題五、和風做朋友",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元1 風兒在哪裡",
+          "learning_points": [
+            "1.風來了、2.一起去找風、3.被風吹動的樣子（目標44-48：察覺非人為移動現象並推論尋找風與驗證方式）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.469 課程架構表] 主題五、和風做朋友 -> 單元1 風兒在哪裡：1.風來了 2.一起去找風 3.被風吹動的樣子；[PDF p.557] 第15週；[PDF p.472] 上學期目標44-48。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元2 風兒真奇妙",
+          "learning_points": [
+            "1.風吹的感覺和風的好處、2.這樣的風我不喜歡、3.風兒的變化（目標49-55：風對生活的好壞影響、製造風與讓風變大變小）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.469 課程架構表] 單元2 風兒真奇妙：1.風吹的感覺和風的好處 2.這樣的風我不喜歡 3.風兒的變化；[PDF p.557-558] 第16週；[PDF p.472] 上學期目標49-55。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元3 和風一起玩",
+          "learning_points": [
+            "1.風和遊戲、2.動手做玩具、3.分站闖關活動（目標56-60：自製利用風力的玩具並完成闖關活動）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.469 課程架構表] 單元3 和風一起玩：1.風和遊戲 2.動手做玩具 3.分站闖關活動；[PDF p.558] 第17週；[PDF p.472] 上學期目標56-60。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "主題六、冬天",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元1 冷冷的天氣",
+          "learning_points": [
+            "1.穿著不一樣了！、2.想要到校園的觀察、3.工作分配與討論問題、4.觀察與訪問、5.觀察分享會（目標61-68：觀察冬天衣著與自然環境改變）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.469 課程架構表] 主題六、冬天 -> 單元1 冷冷的天氣：1~5；[PDF p.558] 第18週；[PDF p.472-473] 上學期目標61-68。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元2 預防天冷好方法",
+          "learning_points": [
+            "1.天冷的改變、2.溫暖的好方法（目標69-70：思考天冷產生的問題並體驗溫暖的方法）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.469 課程架構表] 單元2 預防天冷好方法：1.天冷的改變 2.溫暖的好方法；[PDF p.558] 第19週；[PDF p.473] 上學期目標69-70。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元3 冬天送溫暖",
+          "learning_points": [
+            "1.看見需要溫暖的人、2.我們可以做的溫暖事、3.我們給予溫暖的方式愛（目標71-75：觀察周遭並討論給予他人溫暖與關懷）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.469 課程架構表] 單元3 冬天送溫暖：1.看見需要溫暖的人 2.我們可以做的溫暖事 3.我們給予溫暖的方式 愛；[PDF p.558-559] 第20週；[PDF p.473] 上學期目標71-75。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書已提供完整 6 主題、16 單元、小節標題與 75 條學習目標，未附課本具體標誌圖例清單或歌曲歌詞。",
+      "recommended_action": "若需針對課本指定交通標誌圖卡或特定磁鐵玩具範例出題，請補拍南一生活二上（第3冊）課本頁次。"
+    }
+  ]
+}

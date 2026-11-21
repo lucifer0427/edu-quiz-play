@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 6,
+    "subject": "數學",
+    "publisher": "康軒",
+    "book_series": "第十二冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:05:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 6,
+        "subject": "數學",
+        "publisher": "康軒",
+        "book_series": "第十二冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 6,
+        "subject": "數學",
+        "publisher": "康軒",
+        "book_series": null
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 小數與分數的計算",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一單元 小數與分數的計算",
+          "learning_points": [
+            "整數、分數、小數的四則混合計算與應用問題：二到三步驟的應用解題（含概數協助解題）與數的計算規律（N-6-5、R-6-1、n-Ⅲ-2、r-Ⅲ-2）。",
+            "第1-2週授課（4節/週）；融入環境教育、人權教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.318 課程架構表] 數學6下：第一單元小數與分數的計算；[PDF p.629 5-2教學進度總表] 第1-2週；[PDF p.316-317] N-6-5、R-6-1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 速率的應用",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第二單元 速率的應用",
+          "learning_points": [
+            "速度與平均速度解題應用：單位換算（大單位到小單位）、不同時間區段的平均速度與「距離＝速度×時間」公式應用，用比例思考協助解題（N-6-7、n-Ⅲ-9）。",
+            "第3-4週授課；融入品德教育、安全教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.318 課程架構表] 第二單元速率的應用；[PDF p.630 5-2教學進度總表] 第3-4週；[PDF p.316] N-6-7。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元 柱體體積與表面積",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第三單元 柱體體積與表面積",
+          "learning_points": [
+            "柱體體積與表面積（含角柱和圓柱）：利用簡單柱體理解「柱體體積＝底面積×高」公式及簡單複合形體體積、柱體表面積計算（S-6-4、s-Ⅲ-4）。",
+            "第5-7週授課；融入品德教育、生涯規劃教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.318 課程架構表] 第三單元柱體體積與表面積；[PDF p.630-631 5-2教學進度總表] 第5-7週；[PDF p.317] S-6-4。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第四單元 基準量與比較量",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第四單元 基準量與比較量",
+          "learning_points": [
+            "基準量與比較量：比和比值的應用，含交換基準時之關係（N-6-8、n-Ⅲ-9）。",
+            "第8-9週授課；融入生涯規劃教育、國際教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.318 課程架構表] 第四單元基準量與比較量；[PDF p.632 5-2教學進度總表] 第8-9週；[PDF p.316] N-6-8。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "第五單元 怎樣解題",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第五單元 怎樣解題",
+          "learning_points": [
+            "由問題中的數量關係列出恰當算式解題：含較複雜模式（座位排列）、較複雜計數（乘法與加法原理）及年齡問題、流水問題、和差問題、雞兔問題（N-6-9、R-6-4、n-Ⅲ-10、r-Ⅲ-3）。",
+            "第10-13週授課；融入品德教育、戶外教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.318 課程架構表] 第五單元怎樣解題；[PDF p.633 5-2教學進度總表] 第10-13週；[PDF p.316-317] N-6-9、R-6-4。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "第六單元 圓形圖",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第六單元 圓形圖",
+          "learning_points": [
+            "圓形圖與可能性：報讀、說明與製作生活中的圓形圖（含以百分率分配之圓形圖），使用直尺畫圓形百分圖、使用直尺及量角器畫圓形圖，並從統計圖表回答可能性問題（D-6-1、D-6-2、d-Ⅲ-1、d-Ⅲ-2、六下目標3）。",
+            "第14-17週授課（第18週為畢業週）；融入人權教育、海洋教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.318 課程架構表] 第六單元圓形圖；[PDF p.634-635 5-2教學進度總表] 第14-17週；第18週：畢業週；[PDF p.316, 319] D-6-1、D-6-2、六下學習目標3。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].title",
+      "reason": "source_not_found",
+      "detail": "學校課程計畫書 5-1-1 課程架構表（PDF p.318）與 5-2 進度總表（PDF p.629-635）僅列康軒數學六下（第十二冊）6 個單元主標題，未列出各單元內部小節名稱及課本例題規格。",
+      "recommended_action": "請提供康軒國小數學第十二冊（六下）課本目次頁照片以補齊各章小節標題。"
+    },
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未單獨列出各單元數學專有名詞彙整表。",
+      "recommended_action": "可依學習內容條目（如基準量、比較量、柱體表面積、圓形百分圖）輔以課本目次確認單元詞彙。"
+    }
+  ]
+}

@@ -1,0 +1,371 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 3,
+    "subject": "數學",
+    "publisher": "翰林",
+    "book_series": "第五冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T15:55:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 3,
+        "subject": "數學",
+        "publisher": "翰林",
+        "book_series": "第五冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 3,
+        "subject": "數學",
+        "publisher": "翰林",
+        "book_series": null
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第1章 10000 以內的數",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1-1 認識 10000 以內的數",
+          "learning_points": [
+            "認識 10000 以內的數，結合位值積木操作與位值單位「千」（N-3-1；三上學習目標1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.297 課程架構表] 第1章 10000 以內的數；[PDF p.566 5-2教學進度總表] 第1週：一、10000以內的數 1-1 認識10000以內的數。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "1-2 點數錢幣、1-3 比大小、練習園地",
+          "learning_points": [
+            "使用錢幣進行數數和做數，解決 10000 以內兩數的大小比較和應用（N-3-1；三上學習目標1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.566 5-2教學進度總表] 第2週：一、10000以內的數 1-2 點數錢幣、1-3 比大小、練習園地；[PDF p.299] 上學期學習目標1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第2章 10000 以內的加減（5-1-1 課程架構表列第3章）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "2-1 10000 以內的加法、2-2 10000 以內的減法",
+          "learning_points": [
+            "熟練 10000 以內加減的直式計算（含多次進、退位；N-3-2；三上學習目標3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.566 5-2教學進度總表] 第3週：二、10000以內的加減 2-1 10000以內的加法、2-2 10000以內的減法；[PDF p.299] 上學期學習目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2-3 加與減",
+          "learning_points": [
+            "熟練 10000 以內加減估算，並利用加減互逆做驗算（N-3-2、N-3-8；三上學習目標3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.567 5-2教學進度總表] 第4週：二、10000以內的加減 2-3 加與減；[PDF p.299] 上學期學習目標3。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第3章 毫米與數線（5-1-1 課程架構表列第5章）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "3-1 認識毫米、3-2 長度的換算與比較",
+          "learning_points": [
+            "認識毫米及毫米和公分的化聚與比較（N-3-12；三上學習目標5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.567 5-2教學進度總表] 第5週：三、毫米與數線 3-1 認識毫米、3-2 長度的換算與比較；[PDF p.299] 上學期學習目標5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "3-3 長度的加減、3-4 數線",
+          "learning_points": [
+            "進行長度複名數的加減；認識整數數線並在數線上做加、減計算（N-3-11、N-3-12；三上學習目標5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.567 5-2教學進度總表] 第6週：三、毫米與數線 3-3 長度的加減、3-4 數線；[PDF p.299] 上學期學習目標5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "遊戲中學數學(一)",
+          "learning_points": [
+            "透過數學遊戲統整前段單元概念（第6週併三、毫米與數線實施）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.297 課程架構表] 遊戲中學數學(一)；[PDF p.567 5-2教學進度總表] 第6週：三、毫米與數線、遊戲中學數學(一)。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第4章 乘法",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "4-1 二位數乘以一位數、4-2 三位數乘以一位數",
+          "learning_points": [
+            "熟練二、三位數乘以一位數的計算（三上學習目標4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.297 課程架構表] 第4章 乘法；[PDF p.568 5-2教學進度總表] 第7週：四、乘法 4-1 二位數乘以一位數、4-2 三位數乘以一位數。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "4-2 三位數乘以一位數、4-3 乘法估算",
+          "learning_points": [
+            "熟練三位數乘以一位數、乘法估算及解決生活中乘法與加、減的兩步驟問題（N-3-8；三上學習目標4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.568 5-2教學進度總表] 第8週：四、乘法 4-2 三位數乘以一位數、4-3 乘法估算；[PDF p.299] 上學期學習目標4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "學習加油讚(一) 綜合與應用、探索中學數學",
+          "learning_points": [
+            "期中階段綜合與應用、探索中學數學（第9週，融入閱讀素養教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.297 課程架構表] 學習加油讚(一)；[PDF p.568 5-2教學進度總表] 第9週：學習加油讚(一) 綜合與應用、探索中學數學。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "第5章 角與形狀（5-1-1 課程架構表列第2章）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "5-1 認識角、5-2 角的大小比較",
+          "learning_points": [
+            "初步認識角和角度，並進行角的直接比較與間接比較（N-3-13/S-3-1；三上學習目標2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.569 5-2教學進度總表] 第10週：五、角與形狀 5-1 認識角、5-2 角的大小比較；[PDF p.299] 上學期學習目標2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "5-3 認識直角、5-4 正方形與長方形",
+          "learning_points": [
+            "認識直角，並由邊長和角的特性認識正方形和長方形（N-3-13/S-3-1；三上學習目標2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.569 5-2教學進度總表] 第11週：五、角與形狀 5-3 認識直角、5-4 正方形與長方形；[PDF p.299] 上學期學習目標2。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "第6章 除法",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "6-1 分裝與除、6-2 平分與除",
+          "learning_points": [
+            "透過分裝活動與平分活動，理解除法的意義並記錄為除法算式（三上學習目標6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.297 課程架構表] 第6章 除法；[PDF p.569 5-2教學進度總表] 第12週：六、除法 6-1 分裝與除、6-2 平分與除。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "6-3 除法與直式",
+          "learning_points": [
+            "學習除法直式計算（三上學習目標6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.569 5-2教學進度總表] 第13週：六、除法 6-3 除法與直式；[PDF p.299-300] 上學期學習目標6。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "遊戲中學數學(二)",
+          "learning_points": [
+            "第13週併六、除法實施之遊戲化數學統整活動。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.297 課程架構表] 遊戲中學數學(二)；[PDF p.569 5-2教學進度總表] 第13週：六、除法、遊戲中學數學(二)。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 7,
+      "title": "第7章 公斤與公克",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "7-1 認識公斤、7-2 認識公克、7-3 幾公斤幾公克",
+          "learning_points": [
+            "能用秤測量並報讀物體重量，認識「公斤」與「公克」（N-3-16；三上學習目標7）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.297 課程架構表] 第7章 公斤與公克；[PDF p.570 5-2教學進度總表] 第14週：七、公斤與公克 7-1 認識公斤、7-2 認識公克、7-3 幾公斤幾公克。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "7-4 重量的換算與比較、7-5 重量的計算",
+          "learning_points": [
+            "進行公斤和公克換算，以解決重量比較和加減的問題（N-3-16；三上學習目標7）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.570 5-2教學進度總表] 第15週：七、公斤與公克 7-4 重量的換算與比較、7-5 重量的計算；[PDF p.300] 上學期學習目標7。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 8,
+      "title": "第8章 分數",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "8-1 幾分之幾、8-2 分數與1",
+          "learning_points": [
+            "認識簡單同分母分數，理解分數和 1 的關係，以單位分數為計數單位進行合成分解（N-3-9；三上學習目標8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.297 課程架構表] 第8章 分數；[PDF p.571 5-2教學進度總表] 第16週：八、分數 8-1 幾分之幾、8-2 分數與1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "8-3 分數的大小比較",
+          "learning_points": [
+            "進行簡單同分母分數的大小比較（N-3-9；三上學習目標8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.571 5-2教學進度總表] 第17週：八、分數 8-3 分數的大小比較；[PDF p.300] 上學期學習目標8。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 9,
+      "title": "第9章 列表與規律",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "9-1 生活中的表格、9-2 分類與製作表格",
+          "learning_points": [
+            "能報讀與製作生活中常見一維、二維表格（D-3-1、d-II-1；三上學習目標9）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.297 課程架構表] 第9章 列表與規律；[PDF p.571 5-2教學進度總表] 第18週：九、列表與規律 9-1 生活中的表格、9-2 分類與製作表格。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "9-3 圖案的規律、9-4 數形的規律",
+          "learning_points": [
+            "觀察簡單規律的圖案、數字、圖形，並找出下一個（R-3-2、r-II-2；三上學習目標9）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.572 5-2教學進度總表] 第19週：九、列表與規律 9-3 圖案的規律、9-4 數形的規律；[PDF p.300] 上學期學習目標9。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "學習加油讚(二) 綜合與應用、探索中學數學、看繪本學數學",
+          "learning_points": [
+            "期末綜合與應用、探索中學數學、看繪本學數學（第20週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.297 課程架構表] 學習加油讚(二)；[PDF p.572 5-2教學進度總表] 第20週：學習加油讚(二) 綜合與應用、探索中學數學、看繪本學數學。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "數學園地 生活中的毫米、一樣不一樣、數字預言、比大還是比小",
+          "learning_points": [
+            "期末數學園地延伸探索單元（第21週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.572 5-2教學進度總表] 第21週：數學園地 生活中的毫米、一樣不一樣、數字預言、比大還是比小。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].learning_points",
+      "reason": "source_not_found",
+      "detail": "學校課程計畫僅列章節小節名稱與三上學習目標 1-9，無課本例題數值、圖示題型與習作練習題。",
+      "recommended_action": "請提供翰林國小數學第五冊課本目次頁或各單元例題／重點整理頁照片。"
+    },
+    {
+      "field": "units[1..4]",
+      "reason": "ambiguous_edition",
+      "detail": "5-1-1 課程架構表（PDF p.297）將第2～5章排為「第2章 角與形狀、第3章 10000以內的加減、第4章 乘法、第5章 毫米與數線」，但 5-2 教學進度總表（PDF p.566-569）依實際章節小節編號「二、10000以內的加減（2-1～2-3）」、「三、毫米與數線（3-1～3-4）」、「四、乘法（4-1～4-3）」、「五、角與形狀（5-1～5-4）」排課；本檔依 5-2 實際編號順序收錄。",
+      "recommended_action": "請對照 115 學年度翰林數學第五冊實體課本目次頁確認第 2～5 章排列順序。"
+    }
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 5,
+    "subject": "藝術",
+    "publisher": "康軒",
+    "book_series": "第五冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T12:38:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 5,
+        "subject": "藝術",
+        "publisher": "康軒",
+        "book_series": "第五冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 5,
+        "subject": "藝術",
+        "publisher": "康軒",
+        "book_series": "第五冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 真善美的旋律",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1-1 電影主題曲",
+          "learning_points": [
+            "音樂課（1節/週）；認識電影歌曲等文化風格（五上目標1-2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.413 課程架構表] 藝術5上 第一單元 真善美的旋律：第一課 電影主題曲；[PDF p.604-605] 第1-3週：1-1 電影主題曲 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "1-2 舒伯特之歌",
+          "learning_points": [
+            "認識藝術歌曲及鋼琴五重奏，認識降記號、F大調音階、音程、二分休止符（五上目標1-2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.413 課程架構表] 第二課 舒伯特之歌；[PDF p.605-606] 第4-6週：1-2 舒伯特之歌 1；[PDF p.415] 五上學習目標1-2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "1-3 小小愛笛生",
+          "learning_points": [
+            "高音直笛學習降Si音指法、斷奏、圓滑奏與持續奏的運舌法（五上目標3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.413 課程架構表] 第三課 小小愛笛生；[PDF p.607] 第7-8週：1-3 小小愛笛生 1；[PDF p.415] 五上學習目標3。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 歡唱人生",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "2-1 生命的節奏",
+          "learning_points": [
+            "音樂課（1節/週）；生命與節奏探索。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.413 課程架構表] 第二單元 歡唱人生：第一課 生命的節奏；[PDF p.607-608] 第9-11週：2-1 生命的節奏 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2-2 節慶風采",
+          "learning_points": [
+            "欣賞琵琶樂曲和古箏樂曲等多元文化風格（五上目標4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.413 課程架構表] 第二課 節慶風采；[PDF p.609-610] 第12-14週：2-2 節慶風采 1；[PDF p.415] 五上學習目標4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "2-3 小小愛笛生",
+          "learning_points": [
+            "高音直笛吹奏進階練習（第15-16週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.413 課程架構表] 第三課 小小愛笛生；[PDF p.610] 第15-16週：2-3 小小愛笛生 1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元 美就在你身邊",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "3-1 繽紛的慶典",
+          "learning_points": [
+            "視覺藝術（1節/週）；欣賞不同民族慶典與儀式的服飾，找出慶典的代表色彩（五上目標5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.413 課程架構表] 第三單元 美就在你身邊：第一課 繽紛的慶典；[PDF p.604] 第1週：3-1 繽紛的慶典 1；[PDF p.415] 五上學習目標5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "3-2 色彩搜查隊",
+          "learning_points": [
+            "欣賞各國國旗的設計典故與配色後，為學校設計運動會旗（五上目標6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.413 課程架構表] 第二課 色彩搜查隊；[PDF p.604-605] 第2-3週：3-2 色彩搜查隊 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "3-3 給點顏色瞧瞧",
+          "learning_points": [
+            "欣賞藝術家如何運用色彩表達，運用工具進行調色練習（五上目標7）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.413 課程架構表] 第三課 給點顏色瞧瞧；[PDF p.605-606] 第4週：3-3 給點顏色瞧瞧 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "3-4 藝術家的法寶",
+          "learning_points": [
+            "色彩表達與藝術創作技巧。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.413 課程架構表] 第四課 藝術家的法寶；[PDF p.606] 第5-6週：3-4 藝術家的法寶 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 5,
+          "title": "3-5 小小室內設計師",
+          "learning_points": [
+            "感受色彩營造的空間氣氛，並運用設計思考進行房間改造（五上目標8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.413 課程架構表] 第五課 小小室內設計師；[PDF p.607] 第7-8週：3-5 小小室內設計師 1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第四單元 變換角度看世（PDF p.413 圖框右側裁切）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "4-1 上看、下看大不同",
+          "learning_points": [
+            "從仰角、俯角觀察物件，並比較視覺效果的差異（五上目標9）。（註：p.413 圖框右側文字略截為「變換角度看世」。）"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.413 課程架構表] 第四單元 變換角度看世：第一課 上看、下看大不同；[PDF p.607-608] 第9週：4-1 上看、下看大不同 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "4-2 移動的視角",
+          "learning_points": [
+            "賞析藝術家透過不同視點，展現作品的多元面貌（五上目標10）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.413 課程架構表] 第二課 移動的視角；[PDF p.608] 第10週：4-2 移動的視角 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "4-3 透視的魔法",
+          "learning_points": [
+            "了解藝術作品中運用透視法營造遠近空間效果，製作隧道書（五上目標11-12）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.413 課程架構表] 第三課 透視的魔法；[PDF p.608] 第11週：4-3 透視的魔法 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "4-4 跟著藝術家去旅行",
+          "learning_points": [
+            "賞析藝術家視角與風景創作。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.413 課程架構表] 第四課 跟著藝術家去旅行；[PDF p.609] 第12-13週：4-4 跟著藝術家去旅行 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 5,
+          "title": "4-5 取景變化多",
+          "learning_points": [
+            "觀察不同「景別」所呈現的視覺效果，製作立體小書（五上目標13）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.413 課程架構表] 第五課 取景變化多；[PDF p.609-610] 第14週：4-5 取景變化多 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 6,
+          "title": "4-6 換場說故事",
+          "learning_points": [
+            "視覺景別與故事呈現（第15-16週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.413 課程架構表] 第六課 換場說故事；[PDF p.610] 第15-16週：4-6 換場說故事 1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "第五單元 手的魔法世界",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "5-1 雙手的進擊",
+          "learning_points": [
+            "表演藝術（1節/週）；熟悉肢體的運用（五上目標14）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.413 課程架構表] 第五單元 手的魔法世界：第一課 雙手的進擊；[PDF p.604-605] 第1-2週：5-1 雙手的進擊 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "5-2 手偶合體來表演",
+          "learning_points": [
+            "現代偶戲的認識與操作（五上目標15）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.413 課程架構表] 第二課 手偶合體來表演；[PDF p.605-606] 第3-6週：5-2 手偶合體來表演 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "5-3 掌中戲真有趣",
+          "learning_points": [
+            "布袋戲的認識與欣賞；布袋戲的製作與表演（五上目標16-17）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.413 課程架構表] 第三課 掌中戲真有趣；[PDF p.607-610] 第7-16週：5-3 掌中戲真有趣 1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "第六單元 我們的故事",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "6-1 用物品說故事",
+          "learning_points": [
+            "為生活物件述說故事和留下紀錄；擷取物件的紋樣應用於生活用品（五上目標18-19）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.413 課程架構表] 第六單元 我們的故事：第一課 用物品說故事；[PDF p.610-612] 第17-21週：6-1 用物品說故事 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "6-2 說個故事真有趣",
+          "learning_points": [
+            "認識相聲藝術；了解故事的基本構成要素，撰寫故事大綱並合力演出（五上目標20-21）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.413 課程架構表] 第二課 說個故事真有趣；[PDF p.610-612] 第17-21週：6-2 說個故事真有趣 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "6-3 音樂裡的故事",
+          "learning_points": [
+            "透過音樂故事的欣賞，感受多元藝術之美（五上目標22）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.413 課程架構表] 第三課 音樂裡的故事；[PDF p.610-612] 第17-21週：6-3 音樂裡的故事 1。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[3].title",
+      "reason": "ambiguous_edition",
+      "detail": "PDF p.413 課程架構圖框右側因排版裁切顯示為「變換角度看世」，依語意脈絡通常為「變換角度看世界」但計畫書未呈現最末字且 5-2 進度表僅列課名「4-1~4-6」。",
+      "recommended_action": "請核對康軒藝術五上（第5冊）課本目錄確認第四單元全稱。"
+    },
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未列具體欣賞曲目清單、畫作作者作品名或直笛樂曲譜目。",
+      "recommended_action": "請提供康軒藝術五上課本目次或各課教學重點頁面。"
+    }
+  ]
+}

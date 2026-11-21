@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 6,
+    "subject": "綜合活動",
+    "publisher": "翰林",
+    "book_series": "第七冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:05:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 6,
+        "subject": "綜合活動",
+        "publisher": "翰林",
+        "book_series": "第七冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 6,
+        "subject": "綜合活動",
+        "publisher": "翰林",
+        "book_series": "第七冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "主題一 永續發展地球村",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元一 環保小達人",
+          "learning_points": [
+            "能覺察生活周遭的環境問題，擬定並執行環境友善行動改善社區環境問題（3d-III-1、Cd-III-1~3、六上目標1）。",
+            "第1-2週授課（2節/週）；融入環境教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.621-622 5-2教學進度總表] 第1-2週：主題一永續發展地球村 單元一環保小達人【環境教育】；[PDF p.447] 上學期學習目標1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元二 一起行動力量大",
+          "learning_points": [
+            "能找出邀請他人一起投入環境保護行動的方法與策略，影響他人一起實現友善「綠」生活（3d-III-1、六上目標1）。",
+            "第3-5週授課；融入環境教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.622-623 5-2教學進度總表] 第3-5週：主題一永續發展地球村 單元二一起行動力量大【環境教育】；[PDF p.447] 上學期學習目標1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "主題二 美感「藝」言堂",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元一 美感「心」體驗",
+          "learning_points": [
+            "能發現與品味生活中美感與創意的多樣性表現（2d-III-2、Bd-III-2、六上目標2）。",
+            "第6-7週授課；融入品德教育、科技教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.623 5-2教學進度總表] 第6-7週：主題二美感「藝」言堂 單元一美感「心」體驗【品德教育】【科技教育】；[PDF p.447] 上學期學習目標2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元二 創意好望角",
+          "learning_points": [
+            "認同與理解他人在生活中展現的美感與創意，並以正向態度提供建設性的回饋（2d-III-2、六上目標2）。",
+            "第7-9週授課；融入品德教育、科技教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.623-624 5-2教學進度總表] 第7-9週：主題二美感「藝」言堂 單元二創意好望角【品德教育】【科技教育】；[PDF p.447] 上學期學習目標2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元三 美感創意行動派",
+          "learning_points": [
+            "將美感與創意表現實踐於日常生活中（2d-III-2、六上目標2）。",
+            "第9-10週授課；融入品德教育、科技教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.624 5-2教學進度總表] 第9-10週：主題二美感「藝」言堂 單元三美感創意行動派【品德教育】【科技教育】；[PDF p.447] 上學期學習目標2。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "主題三 營造好關係",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元一 你來我往",
+          "learning_points": [
+            "從與別人互動及與不同性別相處的經驗中，察覺自己與別人互動時的特質（2a-III-1、Ba-III-1、六上目標3）。",
+            "第11-12週授課；融入性別平等教育、生命教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.625 5-2教學進度總表] 第11-12週：主題三營造好關係 單元一你來我往【性別平等教育】【生命教育】；[PDF p.447] 上學期學習目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元二 你的心我懂",
+          "learning_points": [
+            "增進與實踐同理心，運用同理心與溝通技巧增進人際關係（Ba-III-2、六上目標3）。",
+            "第12-13週授課；融入性別平等教育、生命教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.625-626 5-2教學進度總表] 第12-13週：主題三營造好關係 單元二你的心我懂【性別平等教育】【生命教育】；[PDF p.445, 447] Ba-III-2、上學期學習目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元三 人際好互動",
+          "learning_points": [
+            "培養正向人際關係建立與衝突解決能力，建立良好人際互動（Ba-III-3、六上目標3）。",
+            "第14-15週授課；融入性別平等教育、生命教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.626 5-2教學進度總表] 第14-15週：主題三營造好關係 單元三人際好互動【性別平等教育】【生命教育】；[PDF p.445, 447] Ba-III-3、上學期學習目標3。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "主題四 多元文化村",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元一 文化博覽會",
+          "learning_points": [
+            "在不同文化中的經驗與感受，察覺不同文化的差異，認識並理解文化差異（3c-III-1、Cc-III-3、六上目標4）。",
+            "第16-17週授課；融入多元文化教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.627 5-2教學進度總表] 第16-17週：主題四多元文化村 單元一文化博覽會【多元文化教育】；[PDF p.447] 上學期學習目標4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元二 文化大不同",
+          "learning_points": [
+            "學習尊重不同文化的方法與欣賞不同文化的方法（Cc-III-4、六上目標4）。",
+            "第17-18週授課；融入多元文化教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.627 5-2教學進度總表] 第17-18週：主題四多元文化村 單元二文化大不同【多元文化教育】；[PDF p.447] 上學期學習目標4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元三 共好世代",
+          "learning_points": [
+            "展現對不同文化的友愛行動，理解不同文化共存與尊重關懷（3c-III-1、Cc-III-4、六上目標4）。",
+            "第18-21週授課；融入多元文化教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.627-628 5-2教學進度總表] 第18-21週：主題四多元文化村 單元三共好世代【多元文化教育】；[PDF p.447] 上學期學習目標4。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "5-1-1 綜合活動課程架構表（PDF p.446）為嵌入圖表未提取出文字，且課程計畫未附翰林第七冊各活動細部學習單與實作名詞清單。",
+      "recommended_action": "請提供翰林綜合活動第七冊（六上）課本目次頁與活動說明頁，以補齊細部活動標題與情境素材。"
+    }
+  ]
+}

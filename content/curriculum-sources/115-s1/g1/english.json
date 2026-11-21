@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 1,
+    "subject": "英語（彈性學習課程：唱跳趣閱家）",
+    "publisher": "翰林（選書表）／學校自編彈性課程計畫",
+    "book_series": "Twinkle 1（選書表）／唱跳趣閱家一上（課程計畫）"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T15:55:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 1,
+        "subject": "英語（彈性學習課程：唱跳趣閱家）",
+        "publisher": "翰林（選書表）／學校自編彈性課程計畫",
+        "book_series": "Twinkle 1（選書表）／唱跳趣閱家一上（課程計畫）"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 1,
+        "subject": "英語（彈性學習課程：唱跳趣閱家）",
+        "publisher": "翰林（選書表）／學校自編彈性課程計畫",
+        "book_series": "Twinkle 1（選書表）／唱跳趣閱家一上（課程計畫）"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第1–5週：字母舞動會：我是社交小達人",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "字母舞動會：我是社交小達人（字母 ABC 與打招呼／自我介紹）",
+          "learning_points": [
+            "英語字母基礎：一上整體學習目標包含了解 26 個英文字母的字形、名稱與發音，並以簡單英文語句溝通（p.653）。",
+            "字母學習：認識字母 ABC，完成字母學習單；結合身體律動、音樂與字母元素進行小組律動表演（歌曲：Dance）。",
+            "人際互動：學習以英文打招呼與自我介紹，找同學練習並蒐集簽名。"
+          ],
+          "vocabulary": [
+            "A",
+            "B",
+            "C"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.652-654 一年級彈性學習課程【唱跳趣閱家】課程計畫] 單元名稱：字母舞動會：我是社交小達人（6-2-1 標週次1）；[PDF p.1039-1041 6-4進度總表] 第1-5週：字母舞動會：我是社交小達人。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第6–10週：禮貌小劇場：友善社交實踐家",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "禮貌小劇場：友善社交實踐家（字母 DEF 與情境禮貌表達）",
+          "learning_points": [
+            "字母學習：認識字母 DEF，完成字母學習單並結合音樂與字母律動進行小組表演。",
+            "生活應用：學習在不同情境中表現禮貌的言行，小組合作根據不同情境題上台表演並以英文表達禮貌。"
+          ],
+          "vocabulary": [
+            "D",
+            "E",
+            "F"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.654 一年級【唱跳趣閱家】課程計畫] 單元名稱：禮貌小劇場：友善社交實踐家（6-2-1 標週次2-6）；[PDF p.1042-1043 6-4進度總表] 第6-10週：禮貌小劇場：友善社交實踐家。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第11–15週：安全標誌設計師（安全教育含交通安全）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "安全標誌設計師（字母 GHI 與遊戲／交通安全標誌創作）",
+          "learning_points": [
+            "字母學習：認識字母 GHI，完成字母學習單並進行小組身體律動表演。",
+            "安全教育：認識遊戲或交通安全相關規則，針對遊戲或交通安全進行圖文標誌創作並上台分享設計理念。"
+          ],
+          "vocabulary": [
+            "G",
+            "H",
+            "I"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.654 一年級【唱跳趣閱家】課程計畫] 單元名稱：安全標誌設計師安全教育(含交通安全)（6-2-1 標週次7-11）；[PDF p.1043-1044 6-4進度總表] 第11-15週：安全標誌設計師。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第16–21週：探索大冒險：收納小管家（戶外教育）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "探索大冒險：收納小管家（字母 JKLM、教室物品分類收納與繪本 Alphapbet City）",
+          "learning_points": [
+            "字母學習與戶外尋寶：認識字母 JKLM，利用學校操場或戶外花園設置字母尋寶路線並進行律動表演。",
+            "收納與單字：辨識教室中的個人物品並依清單分類收納，能說出簡單的物品類英文單字。",
+            "繪本共讀：共讀繪本《Alphapbet City》（原檔拼寫，即 Alphabet City），複習學過字母並依圖片一角提示說出該字母。"
+          ],
+          "vocabulary": [
+            "J",
+            "K",
+            "L",
+            "M"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.654-655 一年級【唱跳趣閱家】課程計畫] 單元名稱：探索大冒險：收納小管家(戶外教育)（6-2-1 標週次12-17，18-21空白）；[PDF p.1044-1046 6-4進度總表] 第16-21週：探索大冒險：收納小管家。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "target.book_series / units[*]",
+      "reason": "ambiguous_edition",
+      "detail": "《115學年教科書版本.pdf》（src-2）於一年級英語欄列出「翰林 1 Twinkle（含 Qrcode 線上聽）」，但學校《115學年度課程計畫.pdf》（src-1）5-3-1 未設低年級英語欄，而將低年級英語納入彈性學習課程【唱跳趣閱家】（PDF p.652-655，含 A–M 字母教學與 4 個活動單元；另 6-2-1 週次欄與 6-4 進度總表起訖週次略有位移），且未載明《Twinkle 1》課本各單元名稱與單字清單。",
+      "recommended_action": "已完整記錄校訂【唱跳趣閱家】一上 4 單元與字母進度；若需依《翰林 Twinkle 1》課本單元與單字出題，請提供該書目次頁與 Word List 照片。"
+    },
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "【唱跳趣閱家】一上課程計畫僅明列目標字母 A–M、繪本《Alphapbet City》及歌曲《Dance》，未具體條列「打招呼／禮貌／物品類」英文單字與句型清單。",
+      "recommended_action": "請提供【唱跳趣閱家】自編教學簡案、字母學習單或英語讀本清單以補齊單字。"
+    }
+  ]
+}

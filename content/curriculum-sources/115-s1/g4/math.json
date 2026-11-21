@@ -1,0 +1,371 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 4,
+    "subject": "數學",
+    "publisher": "翰林",
+    "book_series": "第七冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:10:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 4,
+        "subject": "數學",
+        "publisher": "翰林",
+        "book_series": "第七冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 4,
+        "subject": "數學",
+        "publisher": "翰林",
+        "book_series": "第七冊（選書表僅列翰林，冊別由課程計畫核實）"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第1章 一億以內的數",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1-1 十萬以內的數、1-2 一億以內的數",
+          "learning_points": [
+            "能做一億以內數的說、讀、聽、寫、做（四上目標1；n-II-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.304 課程架構表] 第1章 一億以內的數；[PDF p.580] 第1週：一、一億以內的數 1-1 十萬以內的數、1-2 一億以內的數；[PDF p.306] 四上學習目標1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "1-3 大數的大小比較與加減、練習園地(一)",
+          "learning_points": [
+            "能做一億以內數的大小比較及加、減計算（四上目標1；n-II-1、n-II-2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.581] 第2週：一、一億以內的數 1-3 大數的大小比較與加減、練習園地(一)；[PDF p.306] 四上學習目標1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第2章 乘法",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "2-1 乘以一、二位數、2-2 乘以三位數",
+          "learning_points": [
+            "熟練四位數乘以一位數和一、二、三位數乘以二、三位數的直式計算（四上目標2；n-II-2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.304 課程架構表] 第2章 乘法；[PDF p.581] 第3週：二、乘法 2-1 乘以一、二位數、2-2 乘以三位數；[PDF p.306] 四上學習目標2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2-3 乘法算式的規律、練習園地(二)",
+          "learning_points": [
+            "用乘法規律解決整十、整百、整千相乘的問題（四上目標2；n-II-2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.582] 第4週：二、乘法 2-3 乘法算式的規律、練習園地(二)；[PDF p.306] 四上學習目標2。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第3章 角度",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "3-1 認識量角器、3-2 測量與畫角",
+          "learning_points": [
+            "認識「度」和量角器，能用量角器實測角度並指定角度畫角（四上目標3；S-4-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.304 課程架構表] 第3章 角度；[PDF p.583] 第5週：三、角度 3-1 認識量角器、3-2 測量與畫角；[PDF p.306] 四上學習目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "3-3 旋轉角、3-4 角度的計算、練習園地(三)",
+          "learning_points": [
+            "能做角度的加減，認識銳角、鈍角、旋轉角（順時針、逆時針）、平角與周角（四上目標3；S-4-1、S-4-2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.583] 第6週：三、角度 3-3 旋轉角、3-4 角度的計算、練習園地(三)；[PDF p.306] 四上學習目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "遊戲中學數學（一）",
+          "learning_points": [
+            "透過遊戲操作深化角度與旋轉角概念（第6週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.304 課程架構表] 遊戲中學數學（一）；[PDF p.583-584] 第6週：遊戲中學數學（一）。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第4章 假分數與帶分數",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "4-1 認識真分數、假分數與帶分數、4-2 假分數與帶分數互換",
+          "learning_points": [
+            "認識真分數、假分數和帶分數並能做互換（四上目標4；N-4-5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.304 課程架構表] 第4章 假分數與帶分數；[PDF p.584] 第7週：四、假分數與帶分數 4-1 認識真分數、假分數與帶分數、4-2 假分數與帶分數互換；[PDF p.306] 四上學習目標4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "4-3 分數的大小比較、4-4 認識分數數線、練習園地(四)",
+          "learning_points": [
+            "能做同分母分數的大小比較並認識分數數線（四上目標4；N-4-5、N-4-8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.585] 第8週：四、假分數與帶分數 4-3 分數的大小比較、4-4 認識分數數線、練習園地(四)；[PDF p.306] 四上學習目標4。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "第5章 公里（含學習加油讚一）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "5-1 認識公里、5-2 長度的換算與比較、5-3 長度的計算、練習園地(五)",
+          "learning_points": [
+            "認識「公里」，做公里和公尺的換算及大小比較，解決「公里」的加減問題（四上目標5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.304 課程架構表] 第5章 公里；[PDF p.586] 第9週：五、公里 5-1 認識公里、5-2 長度的換算與比較、5-3 長度的計算、練習園地(五)；[PDF p.307] 四上學習目標5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "學習加油讚（一）：綜合與應用、探索中學數學、看繪本學數學",
+          "learning_points": [
+            "第10週（評量週）；第1至5章概念統整與跨題材數學應用。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.304 課程架構表] 學習加油讚（一）；[PDF p.587] 第10週：學習加油讚（一） 綜合與應用、探索中學數學、看繪本學數學。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "第6章 除法",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "6-1 除以一位數、6-2 除以二位數",
+          "learning_points": [
+            "熟練四位數除以一位數及除數是二位數的直式計算（四上目標6；n-II-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.304 課程架構表] 第6章 除法；[PDF p.587] 第11週：六、除法 6-1 除以一位數、6-2 除以二位數；[PDF p.307] 四上學習目標6。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "6-3 除以三位數、6-4 多個 0 的除法問題、練習園地(六)",
+          "learning_points": [
+            "熟練除數是三位數的直式計算，並簡化被除數和除數末幾位是0的除法問題（四上目標6；n-II-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.587] 第12週：六、除法 6-3 除以三位數、6-4 多個 0 的除法問題、練習園地(六)；[PDF p.307] 四上學習目標6。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 7,
+      "title": "第7章 三角形與全等",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "7-1 三角形的分類、7-2 畫三角形",
+          "learning_points": [
+            "認識直角、銳角、鈍角三角形，認識等腰、直角和正三角形性質，並能作圖畫出三角形（四上目標7；S-4-7）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.304 課程架構表] 第7章 三角形與全等；[PDF p.588] 第13週：七、三角形與全等 7-1 三角形的分類、7-2 畫三角形；[PDF p.307] 四上學習目標7。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "7-3 認識全等、練習園地(七)",
+          "learning_points": [
+            "知道平面圖形全等的意義，能以平移、旋轉、翻轉做疊合，理解全等圖形對應角與對應邊相等（四上目標7；S-4-6、s-II-2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.588] 第14週：七、三角形與全等 7-3 認識全等、練習園地(七)；[PDF p.307] 四上學習目標7。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "遊戲中學數學（二）",
+          "learning_points": [
+            "透過操作遊戲深化三角形與全等概念（第14週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.304 課程架構表] 遊戲中學數學（二）；[PDF p.588] 第14週：遊戲中學數學（二）。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 8,
+      "title": "第8章 兩步驟問題與併式",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "8-1 加與減、8-2 乘除與加減",
+          "learning_points": [
+            "能用有括號的算式記錄兩步驟問題，並理解由左往右算、先乘除後加減、括號先算等四則混合約定（四上目標8；R-4-1、r-II-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.304 課程架構表] 第8章 兩步驟問題與併式；[PDF p.589] 第15週：八、兩步驟問題與併式 8-1 加與減、8-2 乘除與加減；[PDF p.307] 四上學習目標8。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "8-3 乘與除、練習園地(八)",
+          "learning_points": [
+            "解決生活中乘與除（連乘、連除、乘除混合）的兩步驟併式問題（四上目標8；N-4-3、R-4-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.589] 第16週：八、兩步驟問題與併式 8-3 乘與除、練習園地(八)；[PDF p.307] 四上學習目標8。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 9,
+      "title": "第9章 二位小數",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "9-1 認識二位小數、9-2 認識百分位與小數化聚",
+          "learning_points": [
+            "認識二位小數及「百分位」的位名，並能做二位小數的位值換算與化聚（四上目標9；N-4-7）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.304 課程架構表] 第9章 二位小數；[PDF p.590] 第17週：九、二位小數 9-1 認識二位小數、9-2 認識百分位與小數化聚；[PDF p.307] 四上學習目標9。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "9-3 長度與小數、9-4 小數的加法與減法、練習園地(九)",
+          "learning_points": [
+            "連結長度量經驗，能做二位小數的比較與直式加、減計算（四上目標9；N-4-7、N-4-8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.590] 第18週：九、二位小數 9-3 長度與小數、9-4 小數的加法與減法、練習園地(九)；[PDF p.307] 四上學習目標9。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 10,
+      "title": "第10章 統計圖表（含學習加油讚二與數學園地）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "10-1 報讀長條圖、10-2 製作長條圖",
+          "learning_points": [
+            "能報讀生活中的長條圖並學習繪製長條圖（四上目標10；D-4-1、d-II-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.304 課程架構表] 第10章 統計圖表；[PDF p.591] 第19週：十、統計圖表 10-1 報讀長條圖、10-2 製作長條圖；[PDF p.307] 四上學習目標10。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "10-3 報讀折線圖、學習加油讚(二)：綜合與應用、探索中學數學、看繪本學數學",
+          "learning_points": [
+            "能報讀折線圖並據以做簡單推論（四上目標10；D-4-1）；第20週（評量週）統整第6至10章學習內容。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.304 課程架構表] 學習加油讚（二）；[PDF p.591] 第20週：十、統計圖表、學習加油讚(二) 10-3 報讀折線圖、綜合與應用、探索中學數學、看繪本學數學。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "數學園地：世界最長的距離、動腦玩創意",
+          "learning_points": [
+            "第21週數學延伸閱讀與創意解題活動。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.591 5-2教學進度總表] 第21週：數學園地 世界最長的距離、動腦玩創意。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].examples_and_exercises",
+      "reason": "source_not_found",
+      "detail": "課程計畫僅載明章節小節名稱、學習表現／學習內容與單元總目標，未附翰林四上（第七冊）課本實際例題題目、圖形數據與練習園地題型。",
+      "recommended_action": "出題時依上述各小節指標與課綱範圍設計題目；若需完全對應課本圖表數據或例題編排，請提供翰林數學四上（第七冊）課本電子書或習作頁面。"
+    }
+  ]
+}

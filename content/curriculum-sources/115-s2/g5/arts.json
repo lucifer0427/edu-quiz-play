@@ -1,0 +1,385 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 5,
+    "subject": "藝術",
+    "publisher": "康軒",
+    "book_series": "第六冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T13:05:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 5,
+        "subject": "藝術",
+        "publisher": "康軒",
+        "book_series": "第六冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 5,
+        "subject": "藝術",
+        "publisher": "康軒",
+        "book_series": null
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 歌聲滿行囊",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1-1 管弦樂說故事（課程架構表作：第一課 異國風情）",
+          "learning_points": [
+            "音樂課（1節/週）；演唱不同國家／民族的歌曲，感受不同風格，透過欣賞或歌詞意境認識世界各地文化之美（五下目標1-3）。",
+            "註：課程架構表（p.414）載「第一課 異國風情」，5-2 進度總表（p.613）第1-3週載「1-1 管弦樂說故事」。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.414 課程架構表] 藝術5下 第一單元 歌聲滿行囊：第一課 異國風情；[PDF p.613] 第1-3週：1-1 管弦樂說故事 1；[PDF p.416] 五下學習目標1-3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "1-2 歡樂的市集（課程架構表作：第二課 歡唱人生）",
+          "learning_points": [
+            "透過演唱、樂器伴奏與肢體活動，體驗不同風格的歌曲，豐富生活美感（五下目標2）。",
+            "註：課程架構表（p.414）載「第二課 歡唱人生」，5-2 進度總表（p.614-615）第4-6週載「1-2 歡樂的市集」。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.414 課程架構表] 第二課 歡唱人生；[PDF p.614-615] 第4-6週：1-2 歡樂的市集 1；[PDF p.416] 五下學習目標2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "1-3 小小愛笛生",
+          "learning_points": [
+            "認識直笛二部合奏，並運用在樂曲演奏上（五下目標4；第7-8週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.414 課程架構表] 第三課 小小愛笛生；[PDF p.615] 第7-8週：1-3 小小愛笛生 1；[PDF p.416] 五下學習目標4。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 愛的樂章",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "2-1 愛的樂章（課程架構表作：第一課 愛的故事屋）",
+          "learning_points": [
+            "音樂課（1節/週）；結合故事與音樂欣賞／演唱（第9-11週）。",
+            "註：課程架構表（p.414）載「第一課 愛的故事屋」，5-2 進度總表（p.616-617）第9-11週載「2-1 愛的樂章」。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.414 課程架構表] 第二單元 愛的樂章：第一課 愛的故事屋；[PDF p.616-617] 第9-11週：2-1 愛的樂章 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2-2 歌詠故鄉（課程架構表作：第二課 我的家鄉我的歌）",
+          "learning_points": [
+            "探索家鄉音樂與歌曲意境，感受在地與多元文化美感（第12-14週）。",
+            "註：課程架構表（p.414）載「第二課 我的家鄉我的歌」，5-2 進度總表（p.617-618）第12-14週載「2-2 歌詠故鄉」。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.414 課程架構表] 第二課 我的家鄉我的歌；[PDF p.617-618] 第12-14週：2-2 歌詠故鄉 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "2-3 小小愛笛生",
+          "learning_points": [
+            "高音直笛合奏與樂曲進階吹奏練習（第15-16週；目標4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.414 課程架構表] 第三課 小小愛笛生；[PDF p.618-619] 第15-16週：2-3 小小愛笛生 1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元 漫畫與偶",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "3-1 漫畫狂想曲",
+          "learning_points": [
+            "視覺藝術（1節/週）；探索漫畫類型、風格與圖像特色（五下目標5-6；第1週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.414 課程架構表] 第三單元 漫畫與偶：第一課 漫畫狂想曲；[PDF p.613] 第1週：3-1 漫畫狂想曲 1；[PDF p.416] 五下學習目標5-6。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "3-2 漫符趣味多",
+          "learning_points": [
+            "透過漫畫符號與對話框探索漫畫元素（五下目標5；第2週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.414 課程架構表] 第二課 漫符趣味多；[PDF p.613] 第2週：3-2 漫符趣味多 1；[PDF p.416] 五下學習目標5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "3-3 表情會說話",
+          "learning_points": [
+            "學習並實踐漫畫的基本表現手法，以線條與表情營造情感效果（五下目標6-7；第3-4週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.414 課程架構表] 第三課 表情會說話；[PDF p.613-614] 第3-4週：3-3 表情會說話 1；[PDF p.416] 五下學習目標6-7。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "3-4 角色大變身",
+          "learning_points": [
+            "漫畫角色造型設計與表現（第5週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.414 課程架構表] 第四課 角色大變身；[PDF p.614] 第5週：3-4 角色大變身 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 5,
+          "title": "3-5 小小漫畫家",
+          "learning_points": [
+            "實踐漫畫的基本表現手法與創作（五下目標7；第6週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.414 課程架構表] 第五課 小小漫畫家；[PDF p.615] 第6週：3-5 小小漫畫家 1；[PDF p.416] 五下學習目標7。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 6,
+          "title": "3-6 偶是小達人",
+          "learning_points": [
+            "體驗平面角色立體化的過程（五下目標8；第7-8週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.414 課程架構表] 第六課 偶是小達人；[PDF p.615] 第7-8週：3-6 偶是小達人 1；[PDF p.416] 五下學習目標8。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第四單元 探索藝術的密碼",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "4-1 找出心情的密碼",
+          "learning_points": [
+            "視覺藝術（1節/週）；透過線條、形狀、顏色等視覺元素探索美感表達（五下目標9；第9週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.414 課程架構表] 第四單元 探索藝術的密碼：第一課 找出心情的密碼；[PDF p.616] 第9週：4-1 找出心情的密碼 1；[PDF p.416] 五下學習目標9。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "4-2 尋找生活中的密碼",
+          "learning_points": [
+            "覺察與發掘生活中的視覺元素、線條形狀與色彩規律（第10週；融入戶外教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.414 課程架構表] 第二課 尋找生活中的密碼；[PDF p.616] 第10週：4-2 尋找生活中的密碼 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "4-3 來自音樂的密碼",
+          "learning_points": [
+            "將音樂以音畫或視覺方式呈現，探索樂句、節奏與視覺形式（第11週；p.410 音樂／視覺說明）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.414 課程架構表] 第三課 來自音樂的密碼；[PDF p.616-617] 第11週：4-3 來自音樂的密碼 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "4-4 排列我的密碼",
+          "learning_points": [
+            "運用排列組合方式，表現藝術的美感（五下目標9；第12週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.414 課程架構表] 第四課 排列我的密碼；[PDF p.617] 第12週：4-4 排列我的密碼 1；[PDF p.416] 五下學習目標9。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 5,
+          "title": "4-5 有趣的漸變",
+          "learning_points": [
+            "運用漸變、排列組合方式表現線條、形狀、顏色的美感（五下目標9；第13週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.414 課程架構表] 第五課 有趣的漸變；[PDF p.617] 第13週：4-5 有趣的漸變 1；[PDF p.416] 五下學習目標9。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 6,
+          "title": "第六課 呈現我的藝術密碼（課程架構表載列，進度總表未單獨列週次）",
+          "learning_points": [
+            "列於 PDF p.414 課程架構表第四單元第六課；嘗試創作非具象之平面及立體作品並發表感受想法（五下目標10-11）。（註：5-2 進度總表第14-16週直接編排為「4-6 藝術密碼大集合」。）"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.414 課程架構表] 第四單元 探索藝術的密碼 -> 第六課 呈現我的藝術密碼 -> 第七課 藝術密碼大集合；[PDF p.416] 五下學習目標10-11。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 7,
+          "title": "4-6 藝術密碼大集合（課程架構表作：第七課 藝術密碼大集合）",
+          "learning_points": [
+            "欣賞及發表對藝術作品的感受及想法，創作非具象之平面與立體作品（五下目標10-11；進度表第14-16週標為 4-6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.414 課程架構表] 第七課 藝術密碼大集合；[PDF p.618-619] 第14-16週：4-6 藝術密碼大集合 1；[PDF p.416] 五下學習目標10-11。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "第五單元 熱鬧慶典",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "5-1 各國慶典一家親",
+          "learning_points": [
+            "表演藝術（1節/週）；認識慶典由來與表演藝術的關係（五下目標12；第1-2週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.414 課程架構表] 第五單元 熱鬧慶典：第一課 各國慶典一家親；[PDF p.613] 第1-2週：5-1 各國慶典一家親 1；[PDF p.416] 五下學習目標12。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "5-2 扮演祕笈大公開",
+          "learning_points": [
+            "認識慶典活動中服裝、臉部彩繪、面具、大型戲偶等角色扮演方式，並透過聲音和肢體展現不同角色（五下目標13-14；第3-8週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.414 課程架構表] 第二課 扮演祕笈大公開；[PDF p.613-615] 第3-8週：5-2 扮演祕笈大公開 1；[PDF p.416] 五下學習目標13-14。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "5-3 偶的創意SHOW",
+          "learning_points": [
+            "學習大型戲偶的操作方法並進行展演（五下目標15；第9-16週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.414 課程架構表] 第三課 偶的創意SHOW；[PDF p.616-619] 第9-16週：5-3 偶的創意SHOW 1；[PDF p.416] 五下學習目標15。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "第六單元 自然之美",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "6-1 大自然的禮物",
+          "learning_points": [
+            "視覺藝術（1節/週）；收集校園自然物，根據外觀和特性分類以及運用；透過設計思考流程應用多元技法進行種子迷宮的創意發想（五下目標16-17；第17-21週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.414 課程架構表] 第六單元 自然之美：第一課 大自然的禮物；[PDF p.619-621] 第17-21週（視覺藝術欄）：6-1 大自然的禮物 1；[PDF p.416] 五下學習目標16-17。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "6-2 大自然的樂章",
+          "learning_points": [
+            "音樂（1節/週）；透過歌曲習唱，探索生活與自然美感（五下目標18；第17-21週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.414 課程架構表] 第二課 大自然的樂章；[PDF p.619-621] 第17-21週（音樂欄）：6-2 大自然的樂章 1；[PDF p.416] 五下學習目標18。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "6-3 自然與神話劇場",
+          "learning_points": [
+            "表演藝術（1節/週）；分工合作完成桌上劇場的演出（五下目標19；第17-21週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.414 課程架構表] 第三課 自然與神話劇場；[PDF p.619-621] 第17-21週（表演藝術欄）：6-3 自然與神話劇場 1；[PDF p.416] 五下學習目標19。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[0..1].lessons[*].title",
+      "reason": "ambiguous_edition",
+      "detail": "PDF p.414 課程架構表在第一單元載為「第一課 異國風情、第二課 歡唱人生」，第二單元載為「第一課 愛的故事屋、第二課 我的家鄉我的歌」；但 5-2 教學進度總表（p.613-618）對應週別載為「1-1 管弦樂說故事、1-2 歡樂的市集、2-1 愛的樂章、2-2 歌詠故鄉」。",
+      "recommended_action": "請核對康軒藝術五下（第6冊）115學年度實體課本目錄，確認第一、二單元音樂課正確課名。"
+    },
+    {
+      "field": "units[3].lessons[5..6]",
+      "reason": "ambiguous_edition",
+      "detail": "PDF p.414 課程架構表在第四單元列有 7 課（含第六課「呈現我的藝術密碼」與第七課「藝術密碼大集合」），而 5-2 進度總表（p.617-619）第13週為 4-5 有趣的漸變後，第14-16週直接編為「4-6 藝術密碼大集合」，未出現「呈現我的藝術密碼」。",
+      "recommended_action": "請核對康軒藝術五下（第6冊）視覺藝術第四單元課本目錄，確認實際課數為6課或7課。"
+    },
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未列具體欣賞曲目清單、作曲家作品、漫畫示範作或直笛樂曲譜目。",
+      "recommended_action": "請提供康軒藝術五下課本目次或各課教學重點頁面。"
+    }
+  ]
+}

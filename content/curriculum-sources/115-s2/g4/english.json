@@ -1,0 +1,218 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 4,
+    "subject": "語文-英語文",
+    "publisher": "翰林",
+    "book_series": "Here We Go 第四冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:10:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 4,
+        "subject": "語文-英語文",
+        "publisher": "翰林",
+        "book_series": "Here We Go 第四冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 4,
+        "subject": "語文-英語文",
+        "publisher": "翰林",
+        "book_series": "3 Here We Go（選書表僅列單數起始冊，第四冊由課程計畫核實；5-3-1 p.638 誤植為 1 Here We Go）"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 0,
+      "title": "開學預備 & Starter",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "開學預備 Starter",
+          "learning_points": [
+            "第1-2週起始暖身單元（融入品德教育）；四下學習目標1（p.97）：能聽辨並說出數字 21-30。",
+            "彈性學習課程【雙語讀劇】第1-3週配合「數字魔法劇團」（5 的倍數與偶數節奏、雙語讀劇表達）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.96 課程架構表] 英語 四下（第四冊） Starter；[PDF p.592-593 5-2教學進度總表] 第1-2週：開學預備 Starter【品德教育】；[PDF p.97] 四下學習目標1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 1,
+      "title": "Unit 1 What Time Is It?",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "時間 — Unit 1 What Time Is It?",
+          "learning_points": [
+            "主題：時間（第3-6週）；融入國際教育。",
+            "四下字母拼讀跨單元目標（p.97目標8）：能聽辨及運用字母拼讀法，讀出以短母音與長母音 –a-, -a_e, -e-, -e_e, -i, -i_e, -o-, -o_e, -u-, -u_e 所組成的音組及例字。",
+            "彈性學習課程【雙語讀劇】第4-6週配合「時間高手」（12/24 小時制與 What time is it? / It's time to...）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.96 課程架構表] Unit 1 What Time Is It?；[PDF p.593-595] 第3-6週：時間 Unit 1 What Time Is It?【國際教育】；[PDF p.97] 四下學習目標8。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "Unit 2 What Are You Doing?（含 Festival Happy Easter）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "動作 — Unit 2 What Are You Doing?",
+          "learning_points": [
+            "主題：動作（第7-10週）；融入國際教育、品德教育。",
+            "彈性學習課程【雙語讀劇】第7-10週配合「現在進行曲」（What are you doing? / I am [action]-ing.）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.96 課程架構表] Unit 2 What Are You Doing?；[PDF p.595-596] 第7-10週：動作 Unit 2 What Are You Doing?。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "節慶教學-復活節 Festival-Easter（課程架構表作：Festival Happy Easter）",
+          "learning_points": [
+            "第10週（併同 Unit 2 實施）；認識中外主要節慶習俗及由來（四下目標9；融入國際教育）。",
+            "彈性學習課程【雙語讀劇】第11-13週亦配合「節慶文化劇場：跨越國界的對話」（復活節、母親節、端午節習俗）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.96 課程架構表] Festival Happy Easter；[PDF p.596] 第10週：動作、節慶教學- 復活節 Unit 2 What Are You Doing?、Festival-Easter【國際教育】；[PDF p.97] 四下學習目標9。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "Review 1",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "我們的學校生活 Review 1",
+          "learning_points": [
+            "第11週；統整 Unit 1 與 Unit 2 學習內容之情境複習（融入品德教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.96 課程架構表] Review 1；[PDF p.596] 第11週：我們的學校生活 Review 1【品德教育】。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "Unit 3 Where Are You?",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "房間名稱 — Unit 3 Where Are You?（含第一次評量 Exam 1）",
+          "learning_points": [
+            "主題：房間名稱（第12-15週，第12週含第一次評量 Exam 1）；融入國際教育、閱讀素養教育。",
+            "彈性學習課程【雙語讀劇】第14-16週配合「夢想『家』：空間與對話的編織」（客廳、廚房、臥室等空間詞彙）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.96 課程架構表] Unit 3 Where Are You?；[PDF p.597-599] 第12-15週：房間名稱 Unit 3 Where Are You?（第12週含第一次評量 Exam 1）。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "Unit 4 Where’s My Hat?",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "位置 — Unit 4 Where’s My Hat?",
+          "learning_points": [
+            "主題：位置（第16-19週）；融入國際教育、科技教育。",
+            "彈性學習課程【雙語讀劇】第19-21週配合「空間定位高手：誰動了我的家具？」（方位介系詞與空間指令）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.96 課程架構表] Unit 4 Where’s My Hat?；[PDF p.600-602] 第16-19週：位置 Unit 4 Where’s My Hat?【國際教育】【科技教育】。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "Review 2, Final Review & Culture Landmarks Around the World",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "我的房間、總複習 Review 2、Final Review",
+          "learning_points": [
+            "第20週；整合 Unit 3 與 Unit 4 及全冊字彙句型總複習（融入品德教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.96 課程架構表] Review 2、Final Review；[PDF p.603] 第20週：我的房間、總複習 Review 2、Final Review【品德教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第二次評量、文化單元、讀者劇場秀 Exam 2、Culture（Landmarks Around the World）、Reader’s Theater",
+          "learning_points": [
+            "第21週；進行第二次評量及讀者劇場秀，並透過 Culture 單元（Landmarks Around the World）認識外國風土民情與世界地標文化（四下目標10；融入多元文化教育、國際教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.96 課程架構表] Culture Landmarks Around the World；[PDF p.603] 第21週：第二次評量、文化單元、讀者劇場秀 Exam 2、Culture、Reader’s Theater【多元文化教育】【國際教育】；[PDF p.97] 四下學習目標10。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "target.book_series",
+      "reason": "ambiguous_edition",
+      "detail": "《115_.pdf》5-3-1 選用教科書一覽表（PDF p.638）四年級 115 學年度英語文欄誤印為「翰林 1 Here We Go」；經比對《115學年教科書版本.pdf》（src-2：四年級 翰林 3 Here We Go，僅列單數起始冊）、5-1-1 英語文領域課程計畫（PDF p.96-98 明列「翰林Here We Go 三、四冊」及四下第四冊單元架構）與 5-2 進度總表（p.592-603），已確認 115 學年度四下實際選用版本為《Here We Go 第四冊》。另本校四年級設有彈性學習課程【雙語讀劇】（6-2-1 p.731-738，每週 1 節）延伸英語單元情境實作。",
+      "recommended_action": "本檔已採 5-1-1 與 5-2 一致確認之《Here We Go 第四冊》建檔；無須改採誤植之第 1 冊。"
+    },
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "大忠國小 115 學年度課程計畫書僅明列單元名稱、主題（時間、動作、復活節、房間名稱、位置、Landmarks Around the World）、數字範圍 21-30 與長短母音拼讀音組（–a-, -a_e, -e-, -e_e, -i, -i_e, -o-, -o_e, -u-, -u_e），未附 Here We Go 第四冊各單元實際單字表。",
+      "recommended_action": "請提供《Here We Go 4》115 學年度課本 Word List／單字頁照片，或翰林官方單字清單以補齊 100% 無推論單字庫。"
+    },
+    {
+      "field": "units[*].lessons[*].learning_points",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未逐課拆解各單元的完整核心句型（僅見於單元標題問句）與各單元專屬 Phonics 對應歸屬（僅列四下整體母音拼讀音組）。",
+      "recommended_action": "請提供《Here We Go 4》課本目次頁或各課 Sentence Pattern / Phonics 頁面照片。"
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 3,
+    "subject": "健康與體育",
+    "publisher": "康軒",
+    "book_series": "第五冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T15:55:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 3,
+        "subject": "健康與體育",
+        "publisher": "康軒",
+        "book_series": "第五冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 3,
+        "subject": "健康與體育",
+        "publisher": "康軒",
+        "book_series": null
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "單元一 飲食聰明選",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第1課 吃出健康",
+          "learning_points": [
+            "健康（1節/週），第1-3週授課，融入品德教育；學習攝取適當分量的各類食物（p.497 目標1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.496 課程架構表] 健體3上 單元一 飲食聰明選：第1課 吃出健康；[PDF p.566] 第1-3週：健康 第一單元飲食聰明選 第一課吃出健康。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第2課 飲食學問大",
+          "learning_points": [
+            "健康（1節/週），第4-6週授課，融入品德教育；了解影響飲食選擇的因素（p.497 目標1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.496 課程架構表] 第2課 飲食學問大；[PDF p.567] 第4-6週：第二課飲食學問大；[PDF p.497] 三上學習目標1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "單元二 生命的樂章",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第1課 生長圓舞曲",
+          "learning_points": [
+            "健康（1節/週），第7-10週授課，融入人權教育；學習健康成長的方法（p.497 目標2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.496 課程架構表] 單元二 生命的樂章：第1課 生長圓舞曲；[PDF p.568-569] 第7-10週：第二單元生命的樂章 第一課生長圓舞曲。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第2課 人生進行曲",
+          "learning_points": [
+            "健康（1節/週），第11週授課，融入家庭教育；認識人生各階段（p.497 目標2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.496 課程架構表] 第2課 人生進行曲；[PDF p.569] 第11週：第二課人生進行曲；[PDF p.497] 三上學習目標2。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "單元三 快樂的社區",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第1課 社區新體驗",
+          "learning_points": [
+            "健康（1節/週），第12週授課，融入環境教育；認識健康社區環境（p.497 目標4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.496 課程架構表] 單元三 快樂的社區：第1課 社區新體驗；[PDF p.569] 第12週：第三單元快樂的社區 第一課社區新體驗。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第2課 社區環保",
+          "learning_points": [
+            "健康（1節/週），第13-16週授課，融入環境教育；探討改善社區汙染環境的方法（p.497 目標4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.496 課程架構表] 第2課 社區環保；[PDF p.569-571] 第13-16週：第二課社區環保；[PDF p.497] 三上學習目標4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第3課 社區藥師好朋友",
+          "learning_points": [
+            "健康（1節/週），第17-21週授課，融入安全教育；學習正確使用藥物及適當處理廢棄藥物（p.497 目標3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.496 課程架構表] 第3課 社區藥師好朋友；[PDF p.571-572] 第17-21週：第三課社區藥師好朋友；[PDF p.497] 三上學習目標3。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "單元四 與繩球同行",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第1課 隔繩對戰",
+          "learning_points": [
+            "體育（2節/週），第1-2週授課，融入品德教育；練習擊球過繩（p.497 目標5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.496 課程架構表] 單元四 與繩球同行：第1課 隔繩對戰；[PDF p.566] 第1-2週：體育 第四單元與繩球同行 第一課隔繩對戰。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第2課 玩球完勝",
+          "learning_points": [
+            "體育（2節/週），第3-4週授課，融入人權教育；練習滾球與拋球（p.497 目標5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.496 課程架構表] 第2課 玩球完勝；[PDF p.566-567] 第3-4週：第二課玩球完勝；[PDF p.497] 三上學習目標5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第3課 跳繩妙變化",
+          "learning_points": [
+            "體育（2節/週），第5-6週授課，融入品德教育；練習雙腳跳繩與單腳跳繩（p.497 目標6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.496 課程架構表] 第3課 跳繩妙變化；[PDF p.567] 第5-6週：第三課跳繩妙變化；[PDF p.497] 三上學習目標6。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "單元五 跑接樂悠游",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第1課 飛盤擲接樂",
+          "learning_points": [
+            "體育（2節/週），第7-8週授課，融入品德教育；練習飛盤擲接（p.497 目標6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.496 課程架構表] 單元五 跑接樂悠游：第1課 飛盤擲接樂；[PDF p.568] 第7-8週：第五單元跑接樂悠游 第一課飛盤擲接樂。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第2課 伸展跑步趣",
+          "learning_points": [
+            "體育（2節/週），第9-10週授課，融入安全教育；學習運動前後伸展身體與正確擺臂（p.497 目標7-8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.496 課程架構表] 第2課 伸展跑步趣；[PDF p.568-569] 第9-10週：第二課伸展跑步趣；[PDF p.497] 三上學習目標7-8。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第3課 跑步接力傳寶",
+          "learning_points": [
+            "體育（2節/週），第11-13週授課，融入品德教育；練習站立式起跑與接力跑遊戲（p.497 目標8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.496 課程架構表] 第3課 跑步接力傳寶；[PDF p.569] 第11-13週：第三課跑步接力傳寶；[PDF p.497] 三上學習目標8。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "第4課 安全漂浮游",
+          "learning_points": [
+            "體育（2節/週），第14-15週授課，融入海洋教育；認識水域安全與基礎漂浮活動。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.496 課程架構表] 第4課 安全漂浮游；[PDF p.570] 第14-15週：第四課安全漂浮游【海洋教育】。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "單元六 滾翻躍動舞歡樂",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第1課 拳腳見功夫",
+          "learning_points": [
+            "體育（2節/週），第16-17週授課，融入品德教育；練習武術踢、蹬動作與手腳聯合出招（p.497 目標9）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.496 課程架構表] 單元六 滾翻躍動舞歡樂：第1課 拳腳見功夫；[PDF p.571] 第16-17週：第六單元滾翻躍動舞歡樂 第一課拳腳見功夫。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第2課 搖滾翻轉樂",
+          "learning_points": [
+            "體育（2節/週），第18-19週授課，融入安全教育；在軟墊上練習前滾翻和後滾翻（p.497 目標10）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.496 課程架構表] 第2課 搖滾翻轉樂；[PDF p.571-572] 第18-19週：第二課搖滾翻轉樂；[PDF p.497] 三上學習目標10。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第3課 歡欣土風舞",
+          "learning_points": [
+            "體育（2節/週），第20-21週授課，融入品德教育；歡跳兔子舞與聖誕鈴聲舞曲（p.497 目標11）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.496 課程架構表] 第3課 歡欣土風舞；[PDF p.572] 第20-21週：第三課歡欣土風舞；[PDF p.497] 三上學習目標11。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].learning_points",
+      "reason": "source_not_found",
+      "detail": "課程計畫僅列單元課名與三上學習目標 1-11，無康軒健體第五冊課本之具體食物分類份量表、用藥安全步驟、水域自救細則與運動動作分解要領。",
+      "recommended_action": "請提供康軒健康與體育第五冊課本各課重點頁照片。"
+    },
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "來源未單獨列出健體專有名詞與詞彙清單。",
+      "recommended_action": "請補充課本重要名詞整理頁。"
+    }
+  ]
+}

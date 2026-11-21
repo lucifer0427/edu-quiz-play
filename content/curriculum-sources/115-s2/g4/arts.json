@@ -1,0 +1,210 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 4,
+    "subject": "藝術",
+    "publisher": "翰林",
+    "book_series": "第四冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:10:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 4,
+        "subject": "藝術",
+        "publisher": "翰林",
+        "book_series": "第四冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 4,
+        "subject": "藝術",
+        "publisher": "翰林",
+        "book_series": "第四冊（選書表僅列翰林，冊別由課程計畫核實）"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第壹單元 視覺萬花筒",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "一、這就是我",
+          "learning_points": [
+            "視覺藝術（1節/週，第1-7週）；觀察五官與表情情緒關係並彩繪可變臉作品，欣賞自畫像並利用現成物拼湊立體臉孔（四下視覺藝術目標1-13）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.401 課程架構表] 藝術(第四冊) 第壹單元 視覺萬花筒：一．這就是我；[PDF p.592-595] 第1-7週：壹、視覺萬花筒 一、這就是我；[PDF p.406] 視覺藝術目標1-13。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "二、展現自我",
+          "learning_points": [
+            "視覺藝術（第8-15週）；將複雜形象簡化，認識四格漫畫分鏡結構並以四格漫畫表現生活經驗，認識公仔與手翻動畫書原理並進行創作（四下視覺藝術目標14-29）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.401 課程架構表] 二．展現自我；[PDF p.595-599] 第8-15週：二、展現自我；[PDF p.406] 視覺藝術目標14-29。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "三、有你真好",
+          "learning_points": [
+            "視覺藝術（第16-20週）；探索立體卡片技法並利用心智圖「思考樹」規畫卡片創作傳達感恩祝福，運用科技資訊媒體展現創作與分享（四下視覺藝術目標30-40）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.401 課程架構表] 三．有你真好；[PDF p.600-603] 第16-20週：三、有你真好；[PDF p.406] 視覺藝術目標30-40。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第貳單元 表演任我行",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "一、我的身體會說話",
+          "learning_points": [
+            "表演藝術（1節/週，第1-7週）；認識肢體動作意義與小丑特色，欣賞並體驗默劇形式與旁述默劇技巧即興合作（四下表演目標1-13）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.401 課程架構表] 第貳單元 表演任我行：一．我的身體會說話；[PDF p.592-595] 第1-7週：貳、表演任我行 一、我的身體會說話；[PDF p.406-407] 表演目標1-13。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "二、童話世界",
+          "learning_points": [
+            "表演藝術（第8-12週）；模仿童話故事人物肢體動作與角色扮演，以四個「定格畫面」及「流動的畫面」呈現完整故事大意（四下表演目標14-19）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.401 課程架構表] 二．童話世界；[PDF p.595-597] 第8-12週：二、童話世界；[PDF p.407] 表演目標14-19。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "三、奇幻光影Show（架構表作：三．奇幻光SHOW）",
+          "learning_points": [
+            "表演藝術（第13-18週）；了解照明工具演進及光與影的關係，運用肢體與生活物品組合光影造型（四下表演目標20-30）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.401 課程架構表] 三．奇幻光SHOW；[PDF p.598-601] 第13-18週：三、奇幻光影Show；[PDF p.407] 表演目標20-30。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "四、影子狂想曲",
+          "learning_points": [
+            "表演藝術（第19-20週）；了解戲劇文化傳承與民間影戲藝術，結合影子作品進行創意表演與行動裝置探索（四下表演目標31-41）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.401 課程架構表] 四．影子狂想曲；[PDF p.602-603] 第19-20週：四、影子狂想曲；[PDF p.407] 表演目標31-41。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第參單元 音樂美樂地",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "一、乘著樂音逛校園",
+          "learning_points": [
+            "音樂（1節/週，第1-9週）；聆賞〈西敏寺鐘聲〉與〈軍隊進行曲〉及〈大學慶典序曲〉片段，演唱〈鐘響時刻〉並認識重音記號、斷音記號、反覆記號、C大調與G大調音階（全音與半音結構），以直笛吹奏升F指法與〈讓我們歡樂〉（四下音樂目標1-27）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.401 課程架構表] 第參單元 音樂美樂地：一．乘著樂音逛校園；[PDF p.592-596] 第1-9週：參、音樂美樂地 一、乘著樂音逛校園；[PDF p.407-408] 音樂目標1-27。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "二、傾聽音樂訴說",
+          "learning_points": [
+            "音樂（第10-15週）；認識樂句與樂段（兩段體、三段體 ABA），欣賞〈土耳其進行曲〉與〈俄羅斯之舞〉並分析〈小蜜蜂〉〈新世界〉結構，演唱〈快樂的歌聲〉，以直笛吹奏高音E指法、C大調〈西敏寺鐘聲〉與〈新世界〉（四下音樂目標28-47）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.401 課程架構表] 二．傾聽音樂訴說；[PDF p.596-599] 第10-15週：二、傾聽音樂訴說；[PDF p.408] 音樂目標28-47。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "三、熱鬧的擊樂器",
+          "learning_points": [
+            "音樂（第16-20週）；認識〈玩具兵進行曲〉與進行曲拍號，練習高低音木魚、響棒、三角鐵並分辨有音高／無固定音高擊樂器，利用環保生活物品創作頑固節奏搭配〈布穀與麻雀〉合奏（四下音樂目標48-66）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.401 課程架構表] 三．熱鬧的擊樂器；[PDF p.600-603] 第16-20週：三、熱鬧的擊樂器；[PDF p.408-409] 音樂目標48-66。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第肆單元 統整課程",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "藝術的喜怒哀樂（架構表誤印為：藝術點線面）",
+          "learning_points": [
+            "音樂、視覺藝術、表演藝術三科統整實施（第21週，融入性別平等教育、人權教育、生命教育、品德教育）。",
+            "註：PDF p.401 四下課程架構表「第肆單元 統整課程」欄位印為「藝術點線面」（疑與上學期混誤），而 5-2 進度總表 p.603 第21週音樂、視覺藝術、表演藝術三科皆明確載為「肆、統整課程 藝術的喜怒哀樂」（表演藝術欄並書「肆、藝術的喜怒哀樂」）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.603 5-2教學進度總表] 第21週：肆、統整課程 藝術的喜怒哀樂；[PDF p.401 課程架構表] 第肆單元 統整課程 藝術點線面。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[3].lessons[0].title",
+      "reason": "ambiguous_edition",
+      "detail": "PDF p.401 四下課程架構表將第肆單元統整課程印為「藝術點線面」（與上學期「藝遊點線面」疑似誤植混用），而 5-2 進度總表 p.603 第21週三科皆明確記載為「藝術的喜怒哀樂」；本檔採 5-2 實際教學單元名「藝術的喜怒哀樂」並保留架構表原文註記。",
+      "recommended_action": "如須與課本印刷完全比對，請提供翰林藝術四下（第四冊）課本目次頁照片確認。"
+    },
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未附翰林藝術四下（第四冊）獨立藝術術語詞彙表。",
+      "recommended_action": "請提供翰林藝術四下（第四冊）課本目次或各課重點頁以補充圖譜、樂譜與名詞索引。"
+    }
+  ]
+}

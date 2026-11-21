@@ -1,0 +1,209 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 1,
+    "subject": "本土語文-客語",
+    "publisher": "康軒",
+    "book_series": "第2冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T15:55:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 1,
+        "subject": "本土語文-客語",
+        "publisher": "康軒",
+        "book_series": "第2冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 1,
+        "subject": "本土語文-客語",
+        "publisher": "康軒",
+        "book_series": "第2冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元（5-1-1課程架構表為圖片，單元標題待補；第1–7週）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一課 油菜花",
+          "learning_points": [
+            "聽懂各種花卉客語名稱並說出正確客家用語，培養對日常生活的敏銳觀察力（一下目標1-2）；融入環境教育、品德教育、戶外教育（第1-3週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.547-548 5-2教學進度總表] 第1-3週：第一課油菜花 1【環境教育】【品德教育】【戶外教育】；[PDF p.120] 一下目標1-2；[PDF p.120-121] 康軒版國小客語1下、一、二冊。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第二課 麼个蟲仔",
+          "learning_points": [
+            "聽懂並說出各種昆蟲客語說法，了解昆蟲習性與特性（一下目標3-4）；融入環境教育、戶外教育（第4-6週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.548-549 5-2教學進度總表] 第4-6週：第二課麼个蟲仔 1【環境教育】【戶外教育】；[PDF p.120] 一下目標3-4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元活動一",
+          "learning_points": [
+            "認識客家傳統的掃墓習俗，培養慎終追遠的觀念（一下目標5）；融入環境教育、安全教育（第7週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.549 5-2教學進度總表] 第七週：單元活動一 1【環境教育】【安全教育】；[PDF p.120] 一下目標5。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元（5-1-1課程架構表為圖片，單元標題待補；第8–11週）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第三課 貓仔好洗面",
+          "learning_points": [
+            "聽懂各種清潔用品客語說法並了解不同功能，認識良好衛生習慣有助身體健康（一下目標6-7）；融入品德教育、安全教育（第8-10週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.550 5-2教學進度總表] 第8-10週：第三課貓仔好洗面 1【品德教育】【安全教育】；[PDF p.120] 一下目標6-7。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元活動二",
+          "learning_points": [
+            "透過故事情境認識客家油桐花，學習觀察自然環境並愛護大自然（一下目標8-9）；融入戶外教育（第11週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.551 5-2教學進度總表] 第十一週：單元活動二 1【戶外教育】；[PDF p.120] 一下目標8-9。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元（5-1-1課程架構表為圖片，單元標題待補；第12–18週）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第四課 彩色个衫",
+          "learning_points": [
+            "聽懂各種顏色的客語說法，並說出正確的客家用語（一下目標10）；融入安全教育、性別平等教育（第12-14週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.551 5-2教學進度總表] 第12-14週：第四課彩色个衫 1【安全教育】【性別平等教育】；[PDF p.120] 一下目標10。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第五課 熱天果子多",
+          "learning_points": [
+            "能用客語正確說出常見的水果名稱（一下目標11）；融入戶外教育（第15-17週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.552 5-2教學進度總表] 第15-17週：第五課熱天果子多 1【戶外教育】；[PDF p.120] 一下目標11。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元活動三",
+          "learning_points": [
+            "透過故事情境認識客家仙草（一下目標12）；融入戶外教育（第18週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.553 5-2教學進度總表] 第十八週：單元活動三 1【戶外教育】；[PDF p.120] 一下目標12。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "期末歌謠與複習活動（見 5-2 教學進度總表；第19–21週）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "火焰蟲╱（揚）蝶仔",
+          "learning_points": [
+            "第19週客家童謠活動；融入戶外教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.553 5-2教學進度總表] 第十九週：火焰蟲╱（揚）蝶仔 1【戶外教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "搞麼个？",
+          "learning_points": [
+            "第20週複習活動；融入品德教育、環境教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.553 5-2教學進度總表] 第二十週：搞麼个？ 1【品德教育】【環境教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "出任務囉！",
+          "learning_points": [
+            "第21週總結應用活動；融入品德教育、環境教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.553 5-2教學進度總表] 第廿一週：出任務囉！ 1【品德教育】【環境教育】。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].title",
+      "reason": "source_not_found",
+      "detail": "5-1-1 客語一年級課程架構表（PDF p.119）為嵌入圖片未轉出文字，故各課所屬正式單元標題尚未確認，目前依 5-2 教學進度總表（PDF p.547-553）之課次與單元活動分段整理。",
+      "recommended_action": "請核對康軒客語第 2 冊課本目錄或檢視原 PDF p.119 圖片以補齊單元名稱。"
+    },
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未附康軒客語第 2 冊各課四縣／海陸腔客語生詞表與音標。",
+      "recommended_action": "請確認使用腔別並提供康軒客語第 2 冊課本語詞頁。"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 1,
+    "subject": "英語（彈性學習課程：唱跳趣閱家）",
+    "publisher": "翰林（選書表）／學校自編彈性課程計畫",
+    "book_series": "Twinkle 1（選書表）／唱跳趣閱家一下（課程計畫）"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T15:55:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 1,
+        "subject": "英語（彈性學習課程：唱跳趣閱家）",
+        "publisher": "翰林（選書表）／學校自編彈性課程計畫",
+        "book_series": "Twinkle 1（選書表）／唱跳趣閱家一下（課程計畫）"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 1,
+        "subject": "英語（彈性學習課程：唱跳趣閱家）",
+        "publisher": "翰林（選書表）／學校自編彈性課程計畫",
+        "book_series": "Twinkle 1（選書表）／唱跳趣閱家一下（課程計畫）"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第1–5週：保持健康",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "保持健康（字母 N、O、P 身體動作與健康生活習慣）",
+          "learning_points": [
+            "英語字母基礎：一下整體學習目標包含了解 26 個英文字母的字形、名稱與發音，並能以簡單英文語句溝通（p.656-657）。",
+            "字母學習：認識字母 N、O、P，用身體創造字母並描寫字母，完成「NOP 健康密碼學習單」及小組編創「健康密碼舞」。",
+            "健康生活實踐：認識有益健康的生活習慣，為自己設計 5 個有益健康的生活習慣守則並上台分享。"
+          ],
+          "vocabulary": [
+            "N",
+            "O",
+            "P"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.655-657 一年級第二學期【唱跳趣閱家】課程計畫] 單元名稱：保持健康（6-2-1 標週次1）；[PDF p.1047-1049 6-4進度總表] 第1-5週：保持健康。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第6–9週：實地考察（安全教育含交通安全）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "實地考察（字母 QRS 與公共場所禮節／校外教學安全）",
+          "learning_points": [
+            "字母學習：認識字母 QRS，完成字母學習單並結合身體律動與音樂進行小組表演。",
+            "安全教育與禮節：學習在公共場所遵守禮節和秩序、校外教學安全注意事項與避免潛在危險，練習不同情境說話音量並演出安全小小行動劇。"
+          ],
+          "vocabulary": [
+            "Q",
+            "R",
+            "S"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.657 一年級第二學期【唱跳趣閱家】課程計畫] 單元名稱：實地考察 安全教育(含交通安全)（6-2-1 標週次2-6）；[PDF p.1049-1050 6-4進度總表] 第6-9週：實地考察。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第10–14週：活力交朋友",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "活力交朋友（問候語 Hello / Good morning / Hey、字母 HEY 與繪本 Yo! Yes?）",
+          "learning_points": [
+            "英文問候語與活力伸展：練習用英文打招呼（\"Hello\" / \"Good morning\" / \"Hey\"），結合活力密碼字母 H、E、Y 身體伸展動作編成「早安健康操」。",
+            "繪本共讀：閱讀線上繪本《Yo! Yes?》，口頭發表閱讀心得並小組討論同學間需要幫助的情況與處理方式。"
+          ],
+          "vocabulary": [
+            "Hello",
+            "Good morning",
+            "Hey",
+            "H",
+            "E",
+            "Y"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.657-658 一年級第二學期【唱跳趣閱家】課程計畫] 單元名稱：活力交朋友（6-2-1 標週次7-11）；[PDF p.1050-1051 6-4進度總表] 第10-14週：活力交朋友。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第15–21週：讓我們去玩吧（戶外教育）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "讓我們去玩吧（字母 WXYZ、邀請句 \"Let’s play!\" 與繪本 Chicka Chicka Boom Boom）",
+          "learning_points": [
+            "字母學習：認識字母 WXYZ，完成字母學習單並進行身體律動小組表演。",
+            "人際邀請對話：學習邀請同學一起到戶外玩遊戲，畫出最喜歡的遊戲或玩具並向同學說 \"Let’s play!\"。",
+            "繪本共讀：共讀繪本《Chicka Chicka Boom Boom》，複習學過的字母並完成彩繪創作字母椰子樹學習單。"
+          ],
+          "vocabulary": [
+            "W",
+            "X",
+            "Y",
+            "Z",
+            "Let’s play!"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.658 一年級第二學期【唱跳趣閱家】課程計畫] 單元名稱：讓我們去玩吧 戶外教育（6-2-1 標週次12-15，16-21空白）；[PDF p.1051-1054 6-4進度總表] 第15-21週：讓我們去玩吧。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "target.book_series / units[*]",
+      "reason": "ambiguous_edition",
+      "detail": "《115學年教科書版本.pdf》（src-2）於一年級英語欄列出「翰林 1 Twinkle（含 Qrcode 線上聽）」，但學校《115學年度課程計畫.pdf》（src-1）將低年級英語納入彈性學習課程【唱跳趣閱家】（PDF p.655-658，含 4 個活動單元；另 6-2-1 單元表未單獨列出字母 T、U、V 教學週次，且週次欄與 6-4 進度總表起訖週次略有位移），亦未載明翰林英語課本一下（Twinkle 1 或 2）之單元目錄與單字表。",
+      "recommended_action": "已完整記錄校訂【唱跳趣閱家】一下 4 單元與明列問候／邀請語；若需依翰林英語課本單元與單字出題，請提供一下課本目次頁與 Word List 照片，並確認字母 T/U/V 搭配單元。"
+    }
+  ]
+}

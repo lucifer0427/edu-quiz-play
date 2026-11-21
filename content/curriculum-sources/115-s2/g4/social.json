@@ -1,0 +1,253 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 4,
+    "subject": "社會",
+    "publisher": "南一",
+    "book_series": "第四冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:10:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 4,
+        "subject": "社會",
+        "publisher": "南一",
+        "book_series": "第四冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 4,
+        "subject": "社會",
+        "publisher": "南一",
+        "book_series": "第四冊（選書表僅列南一，冊別由課程計畫核實）"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "一、家鄉的地形與氣候",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.家鄉的地形",
+          "learning_points": [
+            "第1-2週授課（3節/週）；認識家鄉各種不同的地形，知道居民居住型態會因地形不同而有所差異（四下目標1-2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.332 課程架構表] 社會四年級下學期 一、家鄉的地形與氣候：1.家鄉的地形；[PDF p.592-593] 第1-2週；[PDF p.334] 四下學習目標1-2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.家鄉的氣候",
+          "learning_points": [
+            "第3-4週授課；了解氣候是長時間的天氣平均狀態，讀懂氣溫、雨量及風力月均統計圖以認識家鄉氣候特徵（四下目標3-5；融入環境教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.332 課程架構表] 2.家鄉的氣候；[PDF p.593-594] 第3-4週；[PDF p.334] 四下學習目標3-5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "3.地形、氣候與生活",
+          "learning_points": [
+            "第5週授課；從農產品、建築、旅遊等面向察覺地形、氣候與居民生活之間的關聯與生活智慧（四下目標6-9）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.332 課程架構表] 3.地形、氣候與生活；[PDF p.594] 第5週；[PDF p.334] 四下學習目標6-9。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "〈玩探究〉水情亮紅燈？",
+          "learning_points": [
+            "第6週授課；透過氣象各類圖表探討缺水發生的原因並提出可能的解決方案（四下目標10-11；融入環境教育、生涯規劃教育、戶外教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.332 課程架構表] 〈玩探究〉水情亮紅燈？；[PDF p.595] 第6週；[PDF p.335] 四下學習目標10-11。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "二、家鄉的產業與創新",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.家鄉的產業",
+          "learning_points": [
+            "第7-8週授課；認識不同產業與其特性並區辨差異，了解製造產品需許多產業共同合作與努力（四下目標12-13）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.332 課程架構表] 二、家鄉的產業與創新：1.家鄉的產業；[PDF p.595] 第7-8週；[PDF p.335] 四下學習目標12-13。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.翻轉產業新生命",
+          "learning_points": [
+            "第9週授課；探討地方產業面臨困境與環保政策調整時如何面對轉型、創新行銷與永續經營（四下目標14-16；融入環境教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.332 課程架構表] 2.翻轉產業新生命；[PDF p.596] 第9週；[PDF p.335] 四下學習目標14-16。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "〈玩探究〉嗨！外送員",
+          "learning_points": [
+            "第10週授課（評量週）；觀察外送等新興服務模式隨社會變遷產生的改變，蒐集可信資訊並辨別事實與意見（四下目標17-18；融入資訊教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.332 課程架構表] 〈玩探究〉嗨！外送員；[PDF p.596] 第10週；[PDF p.335] 四下學習目標17-18。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "三、家鄉的人口",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.家鄉的人口組成",
+          "learning_points": [
+            "第11週授課；透過圖表認識家鄉人口年齡分組的三階段與教育程度、職業類別的分組（四下目標19；融入資訊教育、家庭教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.332 課程架構表] 三、家鄉的人口：1.家鄉的人口組成；[PDF p.596] 第11週；[PDF p.335] 四下學習目標19。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.家鄉人口的分布與變化",
+          "learning_points": [
+            "第12週授課；說出家鄉人口變化的情形與原因，了解人口分布與家鄉生活環境之間的關係（四下目標20-21；融入資訊教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.332 課程架構表] 2.家鄉人口的分布與變化；[PDF p.597] 第12週；[PDF p.335] 四下學習目標20-21。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "〈玩探究〉彰化縣的人口危機",
+          "learning_points": [
+            "第13週授課；透過案例分析關注家鄉居民遷出與人口變化問題，並思考解決方法（四下目標22；融入閱讀素養教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.332 課程架構表] 〈玩探究〉彰化縣的人口危機；[PDF p.598] 第13週；[PDF p.335] 四下學習目標22。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "四、多元文化與願景（架構表方框略裁作：四、多元文化與願）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.家鄉的古早味",
+          "learning_points": [
+            "第14週授課；認識不同族群的傳統住居、特色飲食文化及服飾文化並探究其形成原因（四下目標23-24；融入原住民族教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.332 課程架構表] 四、多元文化與願：1.家鄉的古早味；[PDF p.598] 第14週：四、多元文化與願景 1.家鄉的古早味；[PDF p.335] 四下學習目標23-24。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.家鄉文化的變遷",
+          "learning_points": [
+            "第15週授課；從生活中觀察各式文化變遷現象與原因歷程，體會文化變遷的挑戰並尊重不同想法（四下目標25-26；融入原住民族教育、多元文化教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.332 課程架構表] 2.家鄉文化的變遷；[PDF p.599] 第15週；[PDF p.335] 四下學習目標25-26。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "3.家鄉的現今風貌",
+          "learning_points": [
+            "第16週授課；從多元飲食文化、多樣化商店型態與各式語言探究文化接觸與生活影響，欣賞異國文化（四下目標27-29；融入多元文化教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.332 課程架構表] 3.家鄉的現今風貌；[PDF p.600] 第16週；[PDF p.335] 四下學習目標27-29。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "〈玩探究〉用「你」的角度想一想",
+          "learning_points": [
+            "第17週授課；了解不同立場的人有不同想法與感受，學習換位思考並做出適當判斷（四下目標30；融入國際教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.332 課程架構表] 〈玩探究〉用「你」的角度想一想；[PDF p.601] 第17週；[PDF p.335] 四下學習目標30。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "〔探究〕想像家鄉的樣子￭探究方法123（含總複習）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "〔探究〕想像家鄉的樣子￭探究方法123（含第21週總複習）",
+          "learning_points": [
+            "第18-20週授課（第20週為評量週），第21週總複習；觀察家鄉現況和需求並運用資訊與想像力提出未來家鄉提案，與同儕合作整理資料並分享（四下目標31-33）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.332 課程架構表] 〔探究〕想像家鄉的樣子—探究方法123；[PDF p.601-603] 第18-20週：〔探究〕想像家鄉的樣子￭探究方法123；第21週：總複習；[PDF p.335] 四下學習目標31-33。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未附南一社會四下（第四冊）之詳細課文事例與專有名詞清單；另 p.332 課程架構表「四、多元文化與願」因方框略裁，已依 5-2 進度總表 p.598-601 補全為「四、多元文化與願景」。",
+      "recommended_action": "請提供南一社會四下（第四冊）課本重點頁以補充各課細節與名詞表。"
+    }
+  ]
+}

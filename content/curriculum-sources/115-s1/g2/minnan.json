@@ -1,0 +1,165 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 2,
+    "subject": "本土語文-閩南語",
+    "publisher": "真平",
+    "book_series": "第3冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T12:46:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 2,
+        "subject": "本土語文-閩南語",
+        "publisher": "真平",
+        "book_series": "第3冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 2,
+        "subject": "本土語文-閩南語",
+        "publisher": "真平",
+        "book_series": "第3冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 我的心情",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一課 歡喜的代誌（5-2進度表作「1.相借問」）",
+          "learning_points": [
+            "了解基本情緒用語的涵義與閩南語講法，養成分享討論習慣（目標1-5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.126 課程架構表] 二上 閩南語第3冊 第一單元 我的心情：第一課 歡喜的代誌；[PDF p.554-555] 第1-4週：一、我的心情 1.相借問；[PDF p.127] 二上目標1-5。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 歡迎來阮兜",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第二課 狗蟻 in 兜",
+          "learning_points": [
+            "聽懂且說出家中常見隔間用語、學會造句與運用，培養關心家裡與家人觀念（目標6-9）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.126 課程架構表] 第二單元 歡迎來阮兜：第二課 狗蟻 in 兜；[PDF p.555-556] 第5-7週：二、歡迎來阮兜 2.狗蟻in兜；[PDF p.127] 二上目標6-9。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第三課 露螺",
+          "learning_points": [
+            "正確朗讀課文並認讀重要語詞（目標10）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.126 課程架構表] 第三課 露螺；[PDF p.556-557] 第8-11週：二、歡迎來阮兜 3.露螺。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元 美麗的世界",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第四課 玉蘭花",
+          "learning_points": [
+            "自然與生命主題閩南語文閱讀與語詞認讀。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.126 課程架構表] 第三單元 美麗的世界：第四課 玉蘭花；[PDF p.557] 第12-15週：三、美麗的世界 4.玉蘭花。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第五課 蟲的世界（5-2進度表作「5.起風矣」）",
+          "learning_points": [
+            "自然主題閩南語文閱讀；注意 5-1-1（蟲的世界）與 5-2（起風矣）課名差異。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.126 課程架構表] 第五課 蟲的世界；[PDF p.557-558] 第16-19週：三、美麗的世界 5.起風矣。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "期末歌謠與故事（見 5-2 教學進度總表）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "來唱囡仔歌──蠓仔",
+          "learning_points": [
+            "第20週兒歌念謠（融入品德教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.558-559 5-2教學進度總表] 第二十週：來唱囡仔歌──蠓仔【品德教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "來聽囡仔古──水仙花的由來",
+          "learning_points": [
+            "第21週生活故事聆聽（融入品德教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.559 5-2教學進度總表] 第廿一週：來聽囡仔古──水仙花的由來【品德教育】。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[0].lessons[0].title / units[2].lessons[1].title",
+      "reason": "ambiguous_edition",
+      "detail": "同一份課程計畫中，5-1-1 課程架構表（PDF p.126）列「第一課 歡喜的代誌」、「第五課 蟲的世界」，而 5-2 教學進度總表（PDF p.554-558）則列「1.相借問」、「5.起風矣」，兩處課名不一致。",
+      "recommended_action": "請核對實際發放的 115 學年度真平閩南語第 3 冊課本目錄，確認實際授課課名與臺羅拼音生詞表。"
+    },
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未附真平閩南語第 3 冊各課語詞表與句型範例。",
+      "recommended_action": "請提供真平閩南語第 3 冊課本目次／語詞頁照片。"
+    }
+  ]
+}

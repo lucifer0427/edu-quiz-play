@@ -1,0 +1,225 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 5,
+    "subject": "自然科學",
+    "publisher": "翰林",
+    "book_series": "第五冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T12:38:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 5,
+        "subject": "自然科學",
+        "publisher": "翰林",
+        "book_series": "第五冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 5,
+        "subject": "自然科學",
+        "publisher": "翰林",
+        "book_series": "第五冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 太陽的祕密",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.太陽與生活",
+          "learning_points": [
+            "了解太陽的光和熱會影響地球生物生存；認識太陽光和熱可以轉換成生活所需的電能（INa-III-5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.372 課程架構表] 自然5上(第5冊) 第一單元 太陽的祕密：1.太陽與生活；[PDF p.604] 第1週：一、太陽的祕密 1、太陽與生活；[PDF p.374] 五上學習目標1-2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.太陽的位置變化",
+          "learning_points": [
+            "透過觀察日晷，了解不同光源位置對影子長度與方位的影響；察覺太陽在一天中的方位和高度角規律變化；察覺日出、日落方位、高度角及溫度隨季節規律變化（INc-III-13）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.372 課程架構表] 2.太陽的位置變化；[PDF p.604-605] 第2-3週：2、太陽的位置變化；[PDF p.374] 五上學習目標3-5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "3.光的折射",
+          "learning_points": [
+            "觀察彩虹現象與出現條件及與太陽相對位置關係；透過實驗發現陽光由不同色光組成；認識光的折射現象及光在不同介質中的行徑變化；理解放大鏡的聚光和成像（INe-III-7、INe-III-8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.372 課程架構表] 3.光的折射；[PDF p.605-606] 第4-5週：3、光的折射；[PDF p.374] 五上學習目標6-9。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 千變萬化的植物",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.不同環境的植物",
+          "learning_points": [
+            "觀察植物為了適應不同環境所發展出來不同形態的特徵（INb-III-7、INd-III-6、INe-III-12）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.372 課程架構表] 第二單元 千變萬化的植物：1.不同環境的植物；[PDF p.606] 第6週：二、千變萬化的植物 1.不同環境的植物；[PDF p.374] 五上學習目標10。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.植物存活的本事",
+          "learning_points": [
+            "知道植物生長所需的養分是經由光合作用從太陽光獲得的；了解植物的根吸收水分後，經由莖輸送到葉子，最後利用蒸散作用在葉子將水分排出（INa-III-9、INb-III-7）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.372 課程架構表] 2.植物存活的本事；[PDF p.607] 第7週：2.植物存活的本事；[PDF p.374] 五上學習目標11-12。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "3.植物繁衍大顯身手",
+          "learning_points": [
+            "觀察花朵的雄蕊與雌蕊及授粉形成果實產生種子；了解種子傳播方式；透過種植了解植物還可利用根、莖、葉等營養器官進行繁殖。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.372 課程架構表] 3.植物繁衍大顯身手；[PDF p.607-608] 第8-9週：3.植物繁衍大顯身手；[PDF p.374] 五上學習目標13-15。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "4.植物的特徵和分類",
+          "learning_points": [
+            "能透過實際觀察記錄植物的特徵，並根據植物的形態特徵進行分類（INb-III-8）。（註：5-2 進度表第10週寫作「4.植物的特徵與分類」。）"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.372 課程架構表] 4.植物的特徵和分類；[PDF p.608] 第10週：4.植物的特徵與分類；[PDF p.374] 五上學習目標16。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元 神奇的水溶液",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.水溶液中的物質",
+          "learning_points": [
+            "透過觀察海水水溶液，了解水溶液是不同物質溶解在水中所組成的混合物；利用水分蒸發分離水溶液中的固體物質（INa-III-3、INb-III-2、INe-III-4）。（註：5-2 進度表寫作「三、奇妙的水溶液」。）"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.372 課程架構表] 第三單元 神奇的水溶液：1.水溶液中的物質；[PDF p.608-609] 第11-12週：三、奇妙的水溶液 1.水溶液中的物質；[PDF p.374] 五上學習目標17-18。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.水溶液的酸鹼性",
+          "learning_points": [
+            "利用石蕊試紙和自製酸鹼指示劑檢驗水溶液酸鹼性並定義酸性、中性、鹼性水溶液；了解酸性和鹼性水溶液混合後會改變原酸鹼性及生活應用與影響（INe-III-5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.372 課程架構表] 2.水溶液的酸鹼性；[PDF p.609-610] 第13-15週：2.水溶液的酸鹼性；[PDF p.374-375] 五上學習目標19-21。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "3.水溶液的導電性",
+          "learning_points": [
+            "透過實驗了解許多水溶液具有導電性，並能注意生活中的用電安全。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.372 課程架構表] 3.水溶液的導電性；[PDF p.610] 第16週：3.水溶液的導電性；[PDF p.375] 五上學習目標22。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第四單元 力與運動",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.地球引力",
+          "learning_points": [
+            "察覺物體向下運動受地球引力作用；辨別接觸力與超距力；運用時間與距離描述物體速度變化；了解愈高處落下速度愈快及動能概念（INa-III-7、INc-III-6、INd-III-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.372 課程架構表] 第四單元 力與運動：1.地球引力；[PDF p.610-611] 第17-18週：四、力與運動 1、地球引力；[PDF p.375] 五上學習目標23-28。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.力的測量",
+          "learning_points": [
+            "察覺力的大小可由物體形變或運動狀態改變得知；了解彈簧受力愈大伸長愈長；察覺地球對物體引力即物體重量；了解二力方向相反大小不同時對物體移動的影響（INc-III-5、INd-III-13）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.372 課程架構表] 2.力的測量；[PDF p.611-612] 第19-20週：四、力與運動 2、力的測量；[PDF p.375] 五上學習目標29-32。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "3.摩擦力",
+          "learning_points": [
+            "能分辨物質表面的結構與性質不同，其可產生的摩擦力不同；能應用摩擦力的不同，讓生活更便利（INb-III-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.372 課程架構表] 3.摩擦力；[PDF p.612] 第21週：四、力與運動 3、摩擦力；[PDF p.375] 五上學習目標33-34。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書包含完整 4 單元 13 小節名稱及 34 條五上學習目標、教學資源器材清單，但無課本特定實驗範例植物名稱或特定酸鹼指示劑變色表。",
+      "recommended_action": "若出題需用到課本特定實驗器材／植物案例（例如特定指示劑如紫色高麗菜、特定檢驗液體清單），請提供翰林自然五上課本或習作實驗紀錄頁照片。"
+    }
+  ]
+}

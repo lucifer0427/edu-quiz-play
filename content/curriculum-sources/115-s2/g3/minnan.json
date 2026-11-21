@@ -1,0 +1,154 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 3,
+    "subject": "本土語文-閩南語",
+    "publisher": "真平",
+    "book_series": "第6冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T15:55:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 3,
+        "subject": "本土語文-閩南語",
+        "publisher": "真平",
+        "book_series": "第6冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 3,
+        "subject": "本土語文-閩南語",
+        "publisher": "真平",
+        "book_series": "第5冊（選書表僅列單數起始冊，第6冊由課程計畫核實）"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "一、做伙來𨑨迌",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.去旅行",
+          "learning_points": [
+            "第1-4週授課（1節/週），融入閱讀素養教育；認識休閒活動與場所相關閩南語語詞及對話（p.140 目標6-8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.573-574 5-2教學進度總表] 第1-4週：閩南 真平 一、做伙來𨑨迌 1.去旅行【閱讀素養】；[PDF p.140] 三下學習目標6-8。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.露營",
+          "learning_points": [
+            "第5-8週授課，融入環境教育；用閩南語討論戶外休閒活動、假期規劃與環境體驗（p.140 目標6-8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.574-575 5-2教學進度總表] 第5-8週：一、做伙來𨑨迌 2.露營【環境教育】；[PDF p.140] 三下學習目標6-8。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "二、愛細膩",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "3.緊緊緊",
+          "learning_points": [
+            "第9-12週授課，融入生涯發展教育、安全教育；用閩南語說出意外傷害名稱與安全提醒（p.140 目標9-10）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.576-577 5-2教學進度總表] 第9-12週：二、愛細膩 3.緊緊緊【生涯發展】【安全教育】；[PDF p.140] 三下學習目標9-10。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "4.好佳哉",
+          "learning_points": [
+            "第13-16週授課，融入安全教育；學會「無（動詞）著」構詞，並書寫及發表意外傷害的具體狀況與原因（p.140 目標9-10）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.577-578 5-2教學進度總表] 第13-16週：二、愛細膩 4.好佳哉【安全教育】；[PDF p.140] 三下學習目標9-10。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "三、時間",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "5.時間走傷緊",
+          "learning_points": [
+            "第17-20週授課，融入生涯發展教育；運用閩南語進行時間規劃發表與討論（p.140 目標5, 8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.578-579 5-2教學進度總表] 第17-20週：三、時間 5.時間走傷緊【生涯發展】；[PDF p.140] 三下學習目標5, 8。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "節慶教學：歡喜來過節～肉粽節",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "歡喜來過節～肉粽節",
+          "learning_points": [
+            "第21週節慶主題教學，融入家庭教育、多元文化教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.580 5-2教學進度總表] 第21週：歡喜來過節～肉粽節【家庭教育】【多元文化】。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "5-1-1 閩南語課程架構表（PDF p.139）為圖檔未擷出文字，單元課次依 5-2 進度總表補齊；來源未附真平閩南語第6冊各課課文、漢字／臺羅拼音語詞表與方音差異字例。",
+      "recommended_action": "請提供真平閩南語第6冊課本目次與各課語詞／拼音頁照片。"
+    },
+    {
+      "field": "units[*].lessons[*].learning_points",
+      "reason": "source_not_found",
+      "detail": "課程計畫僅於三下整體目標提及「無（動詞）著」構詞與休閒／意外傷害主題，未逐課列出各課完整句型與對話內容。",
+      "recommended_action": "請補充真平閩南語第6冊課本句型練習與拼音教學頁。"
+    }
+  ]
+}

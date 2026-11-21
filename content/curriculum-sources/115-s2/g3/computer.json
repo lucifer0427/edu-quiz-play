@@ -1,0 +1,244 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 3,
+    "subject": "電腦（彈性學習課程：數位創客）",
+    "publisher": "宏全資訊（選書表）／學校自編數位創客課程計畫",
+    "book_series": "Word 2021 小創客輕鬆學（選書表）／數位創客三下（課程計畫）"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T15:55:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 3,
+        "subject": "電腦（彈性學習課程：數位創客）",
+        "publisher": "宏全資訊（選書表）／學校自編數位創客課程計畫",
+        "book_series": "Word 2021 小創客輕鬆學（選書表）／數位創客三下（課程計畫）"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 3,
+        "subject": "電腦（彈性學習課程：數位創客）",
+        "publisher": "宏全資訊",
+        "book_series": "Word 2021 小創客輕鬆學"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第1–3週：生態環保小作家：北極熊的3D日記",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "生態環保小作家：北極熊的3D日記",
+          "learning_points": [
+            "觀賞生態影片並討論全球暖化議題；學習 Word 基本介面，插入 3D 北極熊模型觀察構造。",
+            "撰寫環保日記並練習字體格式（色彩、大小）、對齊方式、插入貼圖美化及文件存檔與檔名命名規範。"
+          ],
+          "vocabulary": [
+            "Word",
+            "3D 模型",
+            "字體格式",
+            "對齊方式",
+            "存檔"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.711-712 數位創客課程計畫] 週次1-3 單元名稱：生態環保小作家：北極熊的3D日記；[PDF p.1078-1080 6-4彈性進度總表] 第1-3週。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第4–6週：山岳探險家：設計我的登山計畫海報",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "山岳探險家：設計我的登山計畫海報",
+          "learning_points": [
+            "融入戶外教育、安全教育（含交通安全）、性別平等教育；討論登山必備用品與安全注意事項，進行性平海報案例分析。",
+            "運用版面配置、背景顏色與文字藝術師製作醒目海報標題；使用項目符號清單、複製格式、文字方塊排版與快速鍵（Ctrl+Z/Y）。"
+          ],
+          "vocabulary": [
+            "版面配置",
+            "文字藝術師",
+            "文字方塊",
+            "項目符號",
+            "Ctrl+Z / Ctrl+Y"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.712 數位創客課程計畫] 週次4-6 單元名稱：山岳探險家：設計我的登山計畫海報；[PDF p.1080-1081 6-4彈性進度總表] 第4-6週。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第7–9週：數位公民行動：資訊安全守則表格",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "數位公民行動：資訊安全守則表格",
+          "learning_points": [
+            "討論常見網路詐騙案例與個資保護重要性；建立上網守則表格並調整欄寬、列高及套用表格樣式。",
+            "製作表格標題，插入警語圖片並套用特效處理，透過自我檢測優化表格排版。"
+          ],
+          "vocabulary": [
+            "表格",
+            "欄寬 / 列高",
+            "表格樣式",
+            "圖片特效"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.712 數位創客課程計畫] 週次7-9 單元名稱：數位公民行動：資訊安全守則表格；[PDF p.1081-1082 6-4彈性進度總表] 第7-9週。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第10–12週：邏輯設計師：大富翁數位桌遊實作",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "邏輯設計師：大富翁數位桌遊實作",
+          "learning_points": [
+            "觀察實體大富翁棋盤分析路徑空間分布；運用表格進階功能（合併儲存格、內容置中、框線網底）設計遊戲地圖。",
+            "認識「創用 CC」授權標誌，搜尋合法免費線上圖片裝飾遊戲關卡，落實尊重著作權與合法使用。"
+          ],
+          "vocabulary": [
+            "合併儲存格",
+            "框線網底",
+            "創用 CC"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.712-713 數位創客課程計畫] 週次10-12 單元名稱：邏輯設計師：大富翁數位桌遊實作；[PDF p.1082 6-4彈性進度總表] 第10-12週。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "第13–15週：體育記者：排版我的運動日記",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "體育記者：排版我的運動日記",
+          "learning_points": [
+            "撰寫運動日記並設定段落縮排、行間距與凸排。",
+            "學習文繞圖技巧、頁面框線設定與使用「尋找與取代」功能進行文字勘誤。"
+          ],
+          "vocabulary": [
+            "段落縮排",
+            "行間距",
+            "凸排",
+            "文繞圖",
+            "頁面框線",
+            "尋找與取代"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.713 數位創客課程計畫] 週次13-15 單元名稱：體育記者：排版我的運動日記；[PDF p.1083 6-4彈性進度總表] 第13-15週。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "第16–17週：視覺化整理師：SmartArt 的智慧應用",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "視覺化整理師：SmartArt 的智慧應用",
+          "learning_points": [
+            "討論如何將零散清單整理成清楚圖表；學習建立 SmartArt 圖表快速輸入項目內容。",
+            "變更圖形色彩、樣式與圖形轉換，將資訊轉化為圖文並茂的視覺化圖表。"
+          ],
+          "vocabulary": [
+            "SmartArt"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.713 數位創客課程計畫] 週次16-17 單元名稱：視覺化整理師：SmartArt 的智慧應用；[PDF p.1084 6-4彈性進度總表] 第16-17週。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 7,
+      "title": "第18–19週：藝術設計師：交通安全創意卡片",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "藝術設計師：交通安全創意卡片",
+          "learning_points": [
+            "融入安全教育（含交通安全）；討論上下學安全守則與常見交通標誌，插入相關圖案並練習對齊、均分、群組與圖層順序管理。",
+            "使用漸層色與圖形裁剪造型美化卡片正反面，完成卡片列印、背面翻轉與裁剪 DIY 手作並互換分享交通安全小叮嚀。"
+          ],
+          "vocabulary": [
+            "對齊",
+            "均分",
+            "群組",
+            "圖層順序",
+            "漸層色",
+            "圖形裁剪"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.713 數位創客課程計畫] 週次18-19 單元名稱：藝術設計師：交通安全創意卡片；[PDF p.1085 6-4彈性進度總表] 第18-19週。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 8,
+      "title": "第20–21週：環境調查員：家鄉空污數位研究報告",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "環境調查員：家鄉空污數位研究報告",
+          "learning_points": [
+            "觀察空氣品質並討論空污對家鄉環境的影響；善用網路找尋空汙數據，製作封面與標題內文排版，設定頁碼、分頁符號與小冊子排版。",
+            "將 Word 報告轉換為 PDF 格式進行跨平台分享，並於家鄉環境發表會進行報告與討論改善空污小行動。"
+          ],
+          "vocabulary": [
+            "頁碼",
+            "分頁符號",
+            "小冊子排版",
+            "PDF"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.714 數位創客課程計畫] 週次20-21 單元名稱：環境調查員：家鄉空污數位研究報告；[PDF p.1085-1086 6-4彈性進度總表] 第20-21週。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "target.book_series",
+      "reason": "ambiguous_edition",
+      "detail": "《115學年教科書版本.pdf》（src-2）於三年級電腦欄列出《Windows11 電腦入門輕鬆學》（宏全資訊）與《Word 2021 小創客輕鬆學》（宏全資訊），而學校《115學年度課程計畫.pdf》（6-2-1 p.710-714 及 6-5 p.1134）將三年級資訊課程歸於彈性學習課程【數位創客】（楊珮宜設計，下學期為 Word 3D 模型、海報排版、表格、創用 CC、段落文繞圖、SmartArt、對齊群組卡片與 PDF 研究報告），且 6-5 教材欄寫「1.數位媒材及網路資源 2.自編教學簡案 3.IPAD 行動車」，未明確載明宏全資訊《Word 2021 小創客輕鬆學》各章課名。",
+      "recommended_action": "目前單元與教學活動已完整取自學校 115 學年度【數位創客】課程計畫（Tier 1）；若同時有使用《Word 2021 小創客輕鬆學》實體課本並需依課本章節出題，請提供該書目次頁照片。"
+    }
+  ]
+}

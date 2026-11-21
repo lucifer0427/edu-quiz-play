@@ -1,0 +1,197 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 6,
+    "subject": "語文-英語文",
+    "publisher": "翰林",
+    "book_series": "Here We Go 第八冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:05:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 6,
+        "subject": "語文-英語文",
+        "publisher": "翰林",
+        "book_series": "Here We Go 第八冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 6,
+        "subject": "語文-英語文",
+        "publisher": "翰林",
+        "book_series": "7 Here We Go（選書表僅列起始單數冊，第八冊由課程計畫核實）"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 0,
+      "title": "開學預備週 Starter",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "開學預備週 Starter",
+          "learning_points": [
+            "第1-2週起始暖身單元 Starter（融入閱讀素養教育）。",
+            "六下跨單元整體目標（PDF p.109）：能聽辨並說出生活中的數字用法；能聽懂並跟讀故事對話與簡易角色扮演；能聽懂、辨識、說出並摹寫所學單字及句子。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.108 課程架構表] 英語六下（第八冊）：Starter；[PDF p.629 5-2教學進度總表] 第1-2週：開學預備週 Starter【閱讀素養教育】；[PDF p.109] 下學期學習目標1-3。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 1,
+      "title": "Unit 1 Where Were You Yesterday?",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "地點 — Unit 1 Where Were You Yesterday?",
+          "learning_points": [
+            "主題：地點（第3-5週授課）；融入國際教育、閱讀素養教育。",
+            "六下跨單元字母拼讀目標（PDF p.109）：能聽辨及運用字母拼讀法讀出以子音音組 (l-blends) pl, bl, cl, gl、(r-blends) cr, gr, tr, dr、(s-blends) sw, sp, st, sk 及短、長母音音組 a, e, i, o, u 所組成的字詞（PDF 原文寫作「(1-blends)」）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.108 課程架構表] Unit 1 Where Were You Yesterday?；[PDF p.630 5-2教學進度總表] 第3-5週：地點 Unit 1 Where Were You Yesterday?；[PDF p.109] 下學期學習目標5。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "Unit 2 What Did You Do Last Night?",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "日常活動 — Unit 2 What Did You Do Last Night?",
+          "learning_points": [
+            "主題：日常活動（第6-8週授課）；融入國際教育、閱讀素養教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.108 課程架構表] Unit 2 What Did You Do Last Night?；[PDF p.631-632 5-2教學進度總表] 第6-8週：日常活動 Unit 2 What Did You Do Last Night?。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "Review 1",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "寫日記 & 第一次評量 Review 1、Exam 1",
+          "learning_points": [
+            "整合 Unit 1 與 Unit 2 學習內容之「寫日記」統整複習與第一次評量（第9-10週授課）；融入閱讀素養教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.108 課程架構表] Review 1；[PDF p.632-633 5-2教學進度總表] 第9週：寫日記 Review 1；第10週：寫日記、第一次評量 Review 1、Exam 1【閱讀素養教育】。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "Unit 3 How Much Is the T-shirt?",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "衣物 — Unit 3 How Much Is the T-shirt?",
+          "learning_points": [
+            "主題：衣物（第11-13週授課）；融入國際教育、環境教育、閱讀素養教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.108 課程架構表] Unit 3 How Much Is the T-shirt?；[PDF p.633 5-2教學進度總表] 第11-13週：衣物 Unit 3 How Much Is the T-shirt?。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "Unit 4 What’s Your Favorite Season?",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "季節與氣候 — Unit 4 What’s Your Favorite Season?",
+          "learning_points": [
+            "主題：季節與氣候（第14-16週授課）；融入國際教育、環境教育、閱讀素養教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.108 課程架構表] Unit 4 What’s Your Favorite Season?；[PDF p.634-635 5-2教學進度總表] 第14-16週：季節與氣候 Unit 4 What’s Your Favorite Season?。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "Review 2 & 文化教學",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "旅遊計畫 & 第二次評量 Review 2、Exam 2",
+          "learning_points": [
+            "整合 Unit 3 與 Unit 4 學習內容之「旅遊計畫」統整複習與第二次評量（第17-18週授課）；融入閱讀素養教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.108 課程架構表] Review 2；[PDF p.635 5-2教學進度總表] 第17週：旅遊計畫 Review 2；第18週：評量週 旅遊計畫、第二次評量 Review 2、Exam 2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "Culture: Sports Around the World & Let’s Explore: Sports",
+          "learning_points": [
+            "認識外國風土民情與運動文化，從多元文化觀點了解及尊重不同文化及習俗（PDF p.108、p.109 下學期目標7）。",
+            "註：列於 5-1-1 課程架構表（PDF p.108），因六年級下學期共18週畢業考／畢業典禮，5-2 進度總表第1-18週未另獨立排週。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.108 課程架構表] Culture Sports Around the World、Let’s Explore: Sports；[PDF p.109] 下學期學習目標7。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "大忠國小 115 學年度課程計畫書僅列單元名稱、主題（地點、日常活動、衣物、季節與氣候）與六下 Phonics 子音音組及短長母音清單，未附《Here We Go》第八冊各單元實際單字表與完整句型答句表。",
+      "recommended_action": "請提供《Here We Go 8》115 學年度課本 Word List／單字頁照片或翰林官方電子書單字清單。"
+    },
+    {
+      "field": "units[6].lessons[1]",
+      "reason": "source_not_found",
+      "detail": "「Culture Sports Around the World」與「Let’s Explore: Sports」列於 5-1-1 課程架構表（PDF p.108），但 5-2 教學進度總表（PDF p.629-635，共18週）未標記其獨立授課週次。",
+      "recommended_action": "請向任課教師確認該二節文化／探索單元是否併入第17-18週複習或畢業前彈性運用。"
+    }
+  ]
+}

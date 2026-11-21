@@ -1,0 +1,243 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 3,
+    "subject": "社會",
+    "publisher": "翰林",
+    "book_series": "第二冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T15:55:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 3,
+        "subject": "社會",
+        "publisher": "翰林",
+        "book_series": "第二冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 3,
+        "subject": "社會",
+        "publisher": "翰林",
+        "book_series": null
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 我居住的地方",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一課 我與鄰居的互動",
+          "learning_points": [
+            "第1-3週授課（3節/週），融入人權教育；觀察並關懷居住地方居民與鄰居互動。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.573 5-2教學進度總表] 第1-3週：第一單元 我居住的地方 第一課我與鄰居的互動【人權教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第二課 探訪居住的地方",
+          "learning_points": [
+            "第4-5週授課，融入人權教育；透過地圖繪製與觀察認識居住地方的自然與建築景觀及公共資源（p.329 目標1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.574 5-2教學進度總表] 第4-5週：第一單元 我居住的地方 第二課探訪居住的地方；[PDF p.329] 下學期學習目標1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 多元的生活空間",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一課 不同地區的空間利用",
+          "learning_points": [
+            "第6週授課，融入環境教育、海洋教育；認識居民的生活方式與空間利用和自然人文環境的關係（Ab-II-1、Bb-II-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.575 5-2教學進度總表] 第6週：第二單元 多元的生活空間 第一課不同地區的空間利用【環境教育】【海洋教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第二課 多元的生活方式與交流",
+          "learning_points": [
+            "第7-8週授課，融入環境教育、海洋教育；覺察不同工作型態、宗教與族群的多元生活方式並尊重與互助合作（p.329 目標2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.575 5-2教學進度總表] 第7-8週：第二單元 多元的生活空間 第二課多元的生活方式與交流；[PDF p.329] 下學期學習目標2。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元 生活中的各行各業",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一課 為居住地方的產業和生活",
+          "learning_points": [
+            "第9週授課，融入生涯規劃教育；了解居住地方產業與各行各業分工合作關係（Ad-II-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.576 5-2教學進度總表] 第9週：第三單元 生活中的各行各業 第一課為居住地方的產業和生活【生涯規劃教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第二課 職業甘苦談",
+          "learning_points": [
+            "第10-11週授課，融入生涯規劃教育；了解地方居民不同職業的工作與辛勞，感謝為我們服務的人（p.329 目標4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.576-577 5-2教學進度總表] 第10-11週：第三單元 生活中的各行各業 第二課職業甘苦談；[PDF p.329] 下學期學習目標4。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第四單元 生活與工作的轉變",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一課 生活需求的改變",
+          "learning_points": [
+            "第11-12週授課，融入科技教育、資訊教育；探討居民生活需求與方式隨時代的變化（Cc-II-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.576-577 5-2教學進度總表] 第11-12週：第四單元 生活與工作的轉變 第一課生活需求的改變【科技教育】【資訊教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第二課 工作方式的轉變",
+          "learning_points": [
+            "第13週授課，融入科技教育、資訊教育；探討科學與技術研發對工作方式與生活的影響（Ae-II-1、Cc-II-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.577 5-2教學進度總表] 第13週：第四單元 生活與工作的轉變 第二課工作方式的轉變【科技教育】【資訊教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第三課 社會變遷產生的影響",
+          "learning_points": [
+            "第14週授課，融入科技教育、資訊教育；探究地方發展變遷中的問題與以新科技改善環境品質（p.329 目標6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.578 5-2教學進度總表] 第14週：第四單元 生活與工作的轉變 第三課社會變遷產生的影響；[PDF p.329] 下學期學習目標6。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "第五單元 儲蓄與消費",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一課 儲蓄有計畫",
+          "learning_points": [
+            "第15週授課，融入環境教育；學習有計畫的儲蓄與消費（p.329 目標3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.578 5-2教學進度總表] 第15週：第五單元 儲蓄與消費 第一課儲蓄有計畫【環境教育】；[PDF p.329] 下學期學習目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第二課 消費有學問",
+          "learning_points": [
+            "第16週授課，融入環境教育；認識購物付費方式的改變與消費評估選擇（Db-II-1；p.329 目標3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.578 5-2教學進度總表] 第16週：第五單元 儲蓄與消費 第二課消費有學問【環境教育】；[PDF p.329] 下學期學習目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第三課 購物好習慣",
+          "learning_points": [
+            "第17週授課，融入環境教育；認識維護消費權益的方法，養成節約消費、愛護資源的習慣（p.329 目標3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.578 5-2教學進度總表] 第17週：第五單元 儲蓄與消費 第三課購物好習慣【環境教育】；[PDF p.329] 下學期學習目標3。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "第六單元 小小街道觀察家",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第六單元 小小街道觀察家（5-2 進度表未細分課次）",
+          "learning_points": [
+            "第18-21週授課，融入環境教育；探索居住地方特色與文化、主動介紹居住地方，並探究地方問題與參與地方再造（p.329 目標5-6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.579-580 5-2教學進度總表] 第18-21週：第六單元 小小街道觀察家【環境教育】；[PDF p.329] 下學期學習目標5-6。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[5].lessons",
+      "reason": "source_not_found",
+      "detail": "5-1-1 社會課程架構表（PDF p.327）為圖檔未擷出文字；5-2 進度總表第18-21週僅列出單元名稱「第六單元 小小街道觀察家」，未細分課次標題。",
+      "recommended_action": "請提供翰林社會三下（第二冊）課本目次頁照片以核實第六單元內細分課次與內容。"
+    },
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫未單獨列出課本核心專有名詞與詞彙表。",
+      "recommended_action": "請補充翰林社會第二冊課本內容與重點整理頁。"
+    }
+  ]
+}

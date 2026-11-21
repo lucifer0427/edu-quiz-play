@@ -1,0 +1,331 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 4,
+    "subject": "健康與體育",
+    "publisher": "翰林",
+    "book_series": "第七冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:10:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 4,
+        "subject": "健康與體育",
+        "publisher": "翰林",
+        "book_series": "第七冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 4,
+        "subject": "健康與體育",
+        "publisher": "翰林",
+        "book_series": "第七冊（選書表僅列翰林，冊別由課程計畫核實）"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 飲食智慧王",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "活動1 飲食新概念",
+          "learning_points": [
+            "健康（1節/週，第1-2週）；了解飲食均衡對健康的重要性，介紹各類食物的營養素與功能（四上目標1-2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.502 課程架構表] 健體4上 第一單元 飲食智慧王：活動一 飲食新概念；[PDF p.580-581] 第1-2週：單元一飲食智慧王 活動1 飲食新概念；[PDF p.504-505] 四上學習目標1-2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "活動2 飲食生活面面觀",
+          "learning_points": [
+            "健康（第3-7週）；檢視不良飲食習慣與改進方法，探討兒童體重過重因素並以自我管理改善體位（四上目標2-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.502 課程架構表] 活動二 飲食生活面面觀；[PDF p.581-584] 第3-7週：活動2 飲食生活面面觀；[PDF p.505] 四上學習目標2-3。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 快樂每一天",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "活動1 校慶運動會",
+          "learning_points": [
+            "健康（第8-10週）；認識情緒的類型及調適技巧，正向思考並建立良好人際互動（四上目標4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.502 課程架構表] 第二單元 快樂每一天：活動一 校慶運動會；[PDF p.585-587] 第8-10週：單元二快樂每一天 活動1 校慶運動會；[PDF p.505] 四上學習目標4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "活動2 明日之星",
+          "learning_points": [
+            "健康（第11-12週）；學習提升自我價值與自我實現的方法，運用正向思考解決困難（四上目標4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.502 課程架構表] 活動二 明日之星；[PDF p.587] 第11-12週：活動2 明日之星；[PDF p.505] 四上學習目標4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "活動3 我愛我的家",
+          "learning_points": [
+            "健康（第13-14週）；練習與家人進行良好溝通與和諧相處（四上目標4；融入家庭教育、品德教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.502 課程架構表] 活動三 我愛我的家；[PDF p.588] 第13-14週：活動3 我愛我的家。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元 克癮防衛隊",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "活動1 消滅菸蟲行動",
+          "learning_points": [
+            "健康（第15-17週）；認識香菸危害及拒絕香菸技巧，建立無菸家庭與無菸校園健康信念（四上目標5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.502 課程架構表] 第三單元 克癮防衛隊：活動一 消滅菸蟲行動；[PDF p.589-590] 第15-17週：單元三克癮防衛隊 活動1 消滅菸蟲行動；[PDF p.505] 四上學習目標5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "活動2 癮力效應",
+          "learning_points": [
+            "健康（第18-21週）；了解酒與檳榔等成癮物質對健康、環境與社會的影響（四上目標6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.502 課程架構表] 活動二 癮力效應；[PDF p.590-591] 第18-21週：活動2 癮力效應；[PDF p.505] 四上學習目標6。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第四單元 體能我最棒",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "活動1 體適能知多少",
+          "learning_points": [
+            "體育（2節/週，第1-2週）；體適能檢測、評估與提升之基本運動知識與能力（四上目標7）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.502 課程架構表] 第四單元 體能我最棒：活動一 體適能知多少；[PDF p.580-581] 第1-2週：單元四體能我最棒 活動1 體適能知多少；[PDF p.505] 四上學習目標7。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "活動2 體適能大挑戰",
+          "learning_points": [
+            "體育（第3週）；透過 Tabata 等體適能分站體驗與自創活動增進體適能自主學習（四上目標8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.502 課程架構表] 活動二 體適能大挑戰；[PDF p.581] 第3週：活動2 體適能大挑戰；[PDF p.505] 四上學習目標8。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "活動3 支撐擺盪",
+          "learning_points": [
+            "體育（第4-5週）；練習支撐與擺盪的體操基本動作技能，展現全身性肌肉適能與身體控制能力（四上目標9）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.502 課程架構表] 活動三 支撐擺盪；[PDF p.582-583] 第4-5週：活動3 支撐擺盪；[PDF p.505] 四上學習目標9。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "第五單元 運動力與美",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "活動1 「鈴」聲響起",
+          "learning_points": [
+            "體育（第6-7週）；學習扯鈴民俗體育活動，堅持練習並欣賞他人動作優點（四上目標9-10）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.502 課程架構表] 第五單元 運動力與美：活動一 「鈴」聲響起；[PDF p.583-584] 第6-7週：單元五運動力與美 活動1 「鈴」聲響起；[PDF p.505] 四上學習目標9。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "活動2 飛天旋轉",
+          "learning_points": [
+            "體育（第8-9週）；熟練飛盤擲、接盤動作技巧並透過遊戲策略思考體驗多元運動樂趣（四上目標10-11）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.502 課程架構表] 活動二 飛天旋轉；[PDF p.585-586] 第8-9週：活動2 飛天旋轉；[PDF p.505] 四上學習目標10-11。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "第六單元 跑跳擲我真行",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "活動1 更快、更高、更強",
+          "learning_points": [
+            "體育（第10週）；認識奧運起源、歷史貢獻與主要精神，建立對運動賽事的正向態度（四上目標12；融入多元文化教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.502 課程架構表] 第六單元 跑跳擲我真行：活動一 更快、更高、更強；[PDF p.587] 第10週：單元六跑跳擲我最行 活動1 更快、更高、更強；[PDF p.505] 四上學習目標12。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "活動2 田徑跑跳擲",
+          "learning_points": [
+            "體育（第11-13週）；透過跑步、跳躍及投擲等田徑活動體驗並熟練運動基礎動作（四上目標13）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.502 課程架構表] 活動二 田徑跑跳擲；[PDF p.587-588] 第11-13週：活動2 田徑跑跳擲；[PDF p.505] 四上學習目標13。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "活動3 誰能擲得遠",
+          "learning_points": [
+            "體育（第14-15週）；體驗並練習遠擲田徑投擲技巧與安全規範（四上目標13）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.502 課程架構表] 活動三 誰能擲得遠；[PDF p.588-589] 第14-15週：活動3 誰能擲得遠。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 7,
+      "title": "第七單元 運動衝衝衝",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "活動1 快接快傳",
+          "learning_points": [
+            "體育（第16週）；練習籃球單手傳接球動作，透過遊戲熟練傳準接穩（四上目標14-15）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.502 課程架構表] 第七單元 運動衝衝衝：活動一 快接快傳；[PDF p.589] 第16週：單元七運動衝衝衝 活動1 快接快傳；[PDF p.505] 四上學習目標14-15。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "活動2 運球好好玩",
+          "learning_points": [
+            "體育（第17週）；練習球類基礎運球動作控制與安全規範。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.502 課程架構表] 活動二 運球好好玩；[PDF p.590] 第17週：活動2 運球好好玩。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "活動3 運球追追追",
+          "learning_points": [
+            "體育（第18週）；透過運球追逐遊戲熟練運球與比賽策略討論。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.502 課程架構表] 活動三 運球追追追；[PDF p.590] 第18週：活動3 運球追追追。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "活動4 防守不漏接",
+          "learning_points": [
+            "體育（第19週）；熟悉樂樂棒球規則並熟練防守接球動作（四上目標15-16）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.502 課程架構表] 活動四 防守不漏接；[PDF p.591] 第19週：活動4 防守不漏接；[PDF p.505] 四上學習目標15-16。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 5,
+          "title": "活動5 防守九人組",
+          "learning_points": [
+            "體育（第20週）；在樂樂棒球比賽中熟練團隊防守合作與減少失分（四上目標15-16）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.502 課程架構表] 活動五 防守九人組；[PDF p.591] 第20週：活動5 防守九人組。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 6,
+          "title": "活動6 隔網出擊（架構表圖框裁切作：活動六 隔網）",
+          "learning_points": [
+            "體育（第21週）；隔網球類基礎動作與團隊合作練習。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.502 課程架構表] 活動六 隔網（右側裁切）；[PDF p.591] 第21週：活動6 隔網出擊。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未附翰林健體四上（第七冊）詞彙與細部營養數據／比賽規則條文；另「第八單元 戲水安全停看聽」於 PDF p.503 雖排版在健體4上欄末，實於四下第18-21週授課（見 115-s2/g4/health-pe.json），而 p.502 第七單元「活動六 隔網」方框右側略裁，已依 p.591 進度總表補全為「活動6 隔網出擊」。",
+      "recommended_action": "請提供翰林健體四上（第七冊）課本目次與健康／體育重點頁照片以補充細部內容。"
+    }
+  ]
+}

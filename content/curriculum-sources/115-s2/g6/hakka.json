@@ -1,0 +1,194 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 6,
+    "subject": "本土語文-客語",
+    "publisher": "康軒",
+    "book_series": "第12冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:05:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 6,
+        "subject": "本土語文-客語",
+        "publisher": "康軒",
+        "book_series": "第12冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 6,
+        "subject": "本土語文-客語",
+        "publisher": "康軒",
+        "book_series": "第11冊（選書表僅列單數起始冊，第12冊由課程計畫核實）"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "進度單元一（第1–7週）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一課 夢遊太平山",
+          "learning_points": [
+            "第1-3週授課（1節/週）；融入環境教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.629-630 5-2教學進度總表] 第1-3週：第一課夢遊太平山 1【環境教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第二課 迎媽祖",
+          "learning_points": [
+            "能聽懂並說出各地民俗活動的客家語說法；藉由課文熱鬧氛圍讓學生認識「迎媽祖」這項臺灣重要民俗活動，進而更加了解與喜愛臺灣風俗民情（六下目標1-2）。",
+            "第4-6週授課；融入海洋教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.630-631 5-2教學進度總表] 第4-6週：第二課迎媽祖 1【海洋教育】；[PDF p.184] 六下學習目標1-2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元活動一",
+          "learning_points": [
+            "第一單元統整複習與對話練習活動（第7週授課；融入戶外教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.631 5-2教學進度總表] 第7週：單元活動一 1【戶外教育】。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "進度單元二（第8–15週）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第三課 阿華忍床",
+          "learning_points": [
+            "第8-10週授課（1節/週）。六下學習目標另含增廣昔時賢文與傳統客語俗諺（p.184 目標3-4, 7）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.632-633 5-2教學進度總表] 第8-10週：第三課阿華忍床 1；[PDF p.184] 六下學習目標。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第四課 祝福个菜包",
+          "learning_points": [
+            "透過課文對「祝福个菜包」的學習延伸學習祝福語，能聽懂並說出祝福的客語說法（六下目標5-6）。",
+            "第11-13週授課。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.633 5-2教學進度總表] 第11-13週：第四課祝福个菜包 1；[PDF p.184] 六下學習目標5-6。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元活動二",
+          "learning_points": [
+            "第二單元統整複習活動（第14週授課；融入戶外教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.634 5-2教學進度總表] 第14週：單元活動二 1【戶外教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "單元活動三（含語詞運用）",
+          "learning_points": [
+            "第三單元統整複習與語詞運用（第15週授課；依進度總表於第15週接續實施「語詞運用」）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.634 5-2教學進度總表] 第15週：語詞運用 1（閩南語欄為單元活動三，客語欄列語詞運用）。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "補充與複習活動（第16–18週）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "鳳凰花開、客家本色",
+          "learning_points": [
+            "畢業季節客語歌曲與文化補充教學（第16週授課）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.635 5-2教學進度總表] 第16週：鳳凰花開、客家本色 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "送孟浩然之廣陵、搞麼个？出任務囉！",
+          "learning_points": [
+            "古典詩客語吟誦與期末任務綜合複習（第17週授課）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.635 5-2教學進度總表] 第17週：送孟浩然之廣陵 搞麼个？出任務囉！ 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "畢業週 總複習",
+          "learning_points": [
+            "畢業前客語課程總複習（第18週授課）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.635 5-2教學進度總表] 第18週：畢業週 總複習。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].title",
+      "reason": "source_not_found",
+      "detail": "5-1-1 客語課程架構表（PDF p.183）為嵌入圖表未提取出文字，僅可由 5-2 教學進度總表（PDF p.629-635，共18週）取得第一至第四課課名、單元活動一～二、語詞運用及補充活動名稱，故未推論原課本大單元標題。",
+      "recommended_action": "請提供康軒國小客語第12冊課本目次頁照片以補齊大單元名稱。"
+    },
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未列康軒客語第12冊各課實際客語詞彙（漢字、客語拼音、俗諺／增廣昔時賢文全文及四縣／海陸腔別對照）。",
+      "recommended_action": "請提供康軒國小客語第12冊各課語詞表與課文頁照片。"
+    }
+  ]
+}

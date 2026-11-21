@@ -1,0 +1,209 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 5,
+    "subject": "自然科學",
+    "publisher": "翰林",
+    "book_series": "第六冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T13:05:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 5,
+        "subject": "自然科學",
+        "publisher": "翰林",
+        "book_series": "第六冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 5,
+        "subject": "自然科學",
+        "publisher": "翰林",
+        "book_series": null
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 探索星空的奧祕",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.星空大解密",
+          "learning_points": [
+            "透過觀星經驗探討星星的亮度、大小和顏色等差異；透過中西方的星座故事認識星座由來（目標1-2；INc-III-14）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.372 課程架構表] 自然5下(第6冊) 第一單元 探索星空的奧祕：1.星空大解密；[PDF p.613-614] 第1-4週；[PDF p.375] 五下學習目標1-2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.一起觀星星",
+          "learning_points": [
+            "操作星座盤以方位和高度角描述星星位置；透過星座盤知道星星在一天中或一年中的運行規則；認識四季星空及主要亮星（目標3-5；INc-III-14、INe-III-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.372 課程架構表] 2.一起觀星星；[PDF p.614] 第4-5週；[PDF p.375] 五下學習目標3-5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "3.夜裡辨認方位",
+          "learning_points": [
+            "知道北極星在天空中的位置幾乎不會改變；利用北斗七星和仙后座尋找北極星，在夜晚辨識方位（目標6-7）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.372 課程架構表] 3.夜裡辨認方位；[PDF p.615] 第6週；[PDF p.375] 五下學習目標6-7、p.376 教學方法3。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 空氣與燃燒",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.氧氣與燃燒",
+          "learning_points": [
+            "認識空氣中主要組成氣體為氮、氧、二氧化碳等；從燃燒現象了解物質燃燒需要空氣；製造氧氣並了解其特性與用途（目標8-11；INa-III-4、INe-III-2、INe-III-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.372 課程架構表] 第二單元 空氣與燃燒：1.氧氣與燃燒；[PDF p.615] 第7-8週；[PDF p.375] 五下學習目標8-11。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.二氧化碳",
+          "learning_points": [
+            "透過實際操作製造與檢驗二氧化碳，了解其特性及在日常生活中的用途（目標10-11；p.376 教學方法5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.372 課程架構表] 2.二氧化碳；[PDF p.616] 第9-10週；[PDF p.375-376] 五下學習目標10-11、教學方法5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "3.燃燒與滅火",
+          "learning_points": [
+            "認識燃燒三要素（可燃物、助燃物、達到燃點）並利用這些條件提出滅火方法；學習火災發生的原因、預防火災措施和火災求生方法（目標12-13；INe-III-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.372 課程架構表] 3.燃燒與滅火；[PDF p.617] 第11週；[PDF p.375] 五下學習目標12-13。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元 防止生鏽與保存食物",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.生鏽知多少",
+          "learning_points": [
+            "能根據假設設計實驗進行探究活動（控制變因）；透過實地操作發現鐵生鏽的環境及原因（水、空氣等），了解防鏽的方法及原理（目標14-15；INd-III-2、INe-III-2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.372 課程架構表] 第三單元 防止生鏽與保存食物：1.生鏽知多少；[PDF p.617-618] 第12-13週；[PDF p.375] 五下學習目標14-15。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.生活中的食物保存",
+          "learning_points": [
+            "察覺食物腐敗的原因並歸納黴菌適宜生長的環境；說出黴菌對人類生活的影響及其應用；完成黴菌實驗並觀察記錄差異；說出食物保存的原理和方法（目標16-19；INe-III-2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.372 課程架構表] 2.生活中的食物保存；[PDF p.618-619] 第14-16週；[PDF p.375] 五下學習目標16-19。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第四單元 揭祕動物的世界",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.動物偵查員",
+          "learning_points": [
+            "觀察環境中常見的動物了解族群和群集的形成；了解動物的形態特徵與行為相關，身體構造不同有不同的運動方式（目標20-21；INb-III-6、INc-III-8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.372 課程架構表] 第四單元 揭祕動物的世界：1.動物偵查員；[PDF p.619] 第17週；[PDF p.375] 五下學習目標20-21。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.動物的生存之道",
+          "learning_points": [
+            "知道動物有覓食、求偶、生殖、保護、訊息傳遞以及社會性的行為（目標22；INe-III-11、p.377 教學方法8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.372 課程架構表] 2.動物的生存之道；[PDF p.619-620] 第18-19週；[PDF p.375] 五下學習目標22。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "3.動物的生命延續",
+          "learning_points": [
+            "了解動物靠不同的繁殖方式繁衍生命；了解動物具有養育、保護後代等育幼行為；比較子代與親代之間特徵的相似性與相異性（目標23-25；INd-III-4、INe-III-11）。（註：5-2 進度表第20週誤重複印為「3.動物的生存之道」，第21週方列「3.動物的生命延續」。）"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.372 課程架構表] 3.動物的生命延續；[PDF p.620] 第20週（進度表印作3.動物的生存之道）；[PDF p.621] 第21週：3.動物的生命延續；[PDF p.375-376] 五下學習目標23-25。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[3].lessons[2]",
+      "reason": "ambiguous_edition",
+      "detail": "5-2 教學進度總表第20週（PDF p.620）將第四單元第3節誤植為「3.動物的生存之道」（與第18-19週重複），第21週（p.621）方正確列為「3.動物的生命延續」，依課程架構表（p.372）確認第3節課名為「3.動物的生命延續」。",
+      "recommended_action": "已依課程架構表與第21週進度正名，教學時可參照翰林自然六冊課本確認第20週進度安排。"
+    },
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書包含完整 4 單元 11 小節名稱及 25 條五下學習目標，但無課本特定實驗藥品器材細節（如雙氧水、胡蘿蔔或小蘇打粉等指定實驗材料、四季代表星座具體名單及動物圖鑑案例）。",
+      "recommended_action": "若出題需用到課本特定星座名單或實驗藥品變因條件，請提供翰林自然五下課本（第6冊）或習作實驗紀錄頁照片。"
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 4,
+    "subject": "自然科學",
+    "publisher": "康軒",
+    "book_series": "第四冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:10:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 4,
+        "subject": "自然科學",
+        "publisher": "康軒",
+        "book_series": "第四冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 4,
+        "subject": "自然科學",
+        "publisher": "康軒",
+        "book_series": "第四冊（選書表僅列康軒，冊別由課程計畫核實）"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元（課程架構表為圖片未擷取文字；活動 1-1～3-3：太陽、月亮與月相）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "【活動1-1】白天的景象",
+          "learning_points": [
+            "第1週授課（3節/週）；觀察白天常見的天空與天體景象（四下目標1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.592 5-2教學進度總表] 第1週：【活動1-1】白天的景象；[PDF p.365] 四下學習目標1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "【活動1-2】夜晚的景象",
+          "learning_points": [
+            "第1週授課；觀察夜晚天空的月亮與星星景象（INc-Ⅱ-10）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.592 5-2教學進度總表] 第1週：【活動1-2】夜晚的景象；[PDF p.361] INc-Ⅱ-10。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "【活動2-1】太陽和影子",
+          "learning_points": [
+            "第1-2週授課；察覺太陽位置變化與影子的關係（四下目標1；INc-Ⅱ-4、INc-Ⅱ-10）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.592-593 5-2教學進度總表] 第1-2週：【活動2-1】太陽和影子；[PDF p.365] 四下學習目標1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "【活動2-2】一天中太陽位置的變化",
+          "learning_points": [
+            "第2-3週授課；藉由觀測位置變化了解太陽在天空中東升西落的規律現象（四下目標1；INc-Ⅱ-10）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.593] 第2-3週：【活動2-2】一天中太陽位置的變化；[PDF p.365] 四下學習目標1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 5,
+          "title": "【活動3-1】我知道的月亮",
+          "learning_points": [
+            "第4週授課；交流與認識月亮的基礎觀察經驗（四下目標1-2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.594] 第4週：【活動3-1】我知道的月亮。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 6,
+          "title": "【活動3-2】月亮的位置改變了",
+          "learning_points": [
+            "第4-5週授課；觀測月亮在天空中東升西落的位置變化規律（四下目標1；INc-Ⅱ-10）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.594] 第4-5週：【活動3-2】月亮的位置改變了；[PDF p.365] 四下學習目標1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 7,
+          "title": "【活動3-3】月相變化",
+          "learning_points": [
+            "第5週授課；藉由長時間觀察月相，了解一個月的時間循環與月亮盈虧變化（四下目標2；INc-Ⅱ-10）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.594] 第5週：【活動3-3】月相變化；[PDF p.365] 四下學習目標2。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元（課程架構表為圖片未擷取文字；活動 1-1～3-3：毛細、虹吸與連通管）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "【活動1-1】大自然中水的移動",
+          "learning_points": [
+            "第6週授課；透過生活經驗察覺水的移動現象（四下目標3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.595] 第6週：【活動1-1】大自然中水的移動；[PDF p.365] 四下學習目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "【活動1-2】水在細縫中的移動",
+          "learning_points": [
+            "第6-7週授課；實驗探索水在細縫中的毛細移動現象（四下目標3-4；INc-Ⅱ-6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.595] 第6-7週：【活動1-2】水在細縫中的移動；[PDF p.365] 四下學習目標3-4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "【活動1-3】生活中的毛細現象",
+          "learning_points": [
+            "第7週授課；認識生活中的毛細現象及其應用（四下目標3-4；INc-Ⅱ-6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.595] 第7週：【活動1-3】生活中的毛細現象；[PDF p.365] 四下學習目標3-4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "【活動2-1】虹吸現象的條件",
+          "learning_points": [
+            "第7-8週授課；利用實驗探索虹吸現象發生的條件及將容器中水吸出的原理（四下目標3-4；INb-Ⅱ-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.595] 第7-8週：【活動2-1】虹吸現象的條件；[PDF p.361, p.365] INb-Ⅱ-3、四下學習目標3-4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 5,
+          "title": "【活動3-1】水平的現象",
+          "learning_points": [
+            "第8週授課；觀察連通管水面的水平現象（四下目標3-4；INb-Ⅱ-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.595] 第8週：【活動3-1】水平的現象；[PDF p.361] INb-Ⅱ-3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 6,
+          "title": "【活動3-2】奇妙的連通管",
+          "learning_points": [
+            "第9週授課；實驗探索連通管原理（四下目標3-4；INb-Ⅱ-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.596] 第9週：【活動3-2】奇妙的連通管；[PDF p.365] 四下學習目標3-4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 7,
+          "title": "【活動3-3】連通管的生活應用",
+          "learning_points": [
+            "第10週授課（評量週）；了解連通管原理在生活中的各種應用（如測水平等）（四下目標4；INb-Ⅱ-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.596] 第10週：【活動3-3】連通管的生活應用；[PDF p.365] 四下學習目標4。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元（課程架構表為圖片未擷取文字；活動 1-1～3-1：昆蟲的構造、成長與生態地位）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "【活動1-1】常見的小動物",
+          "learning_points": [
+            "第11週授課；觀察比較生活周遭常見小動物的外部形態差異（四下目標5；INb-Ⅱ-5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.596] 第11週：【活動1-1】常見的小動物；[PDF p.361] INb-Ⅱ-5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "【活動1-2】昆蟲的身體構造",
+          "learning_points": [
+            "第11週授課；認識昆蟲外觀具體細部特徵（頭、軀幹等部位）（四下目標5；INb-Ⅱ-5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.596] 第11週：【活動1-2】昆蟲的身體構造；[PDF p.365] 四下學習目標5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "【活動1-3 拜訪昆蟲】",
+          "learning_points": [
+            "第11週授課；戶外或實地觀察昆蟲的習性與棲息環境（四下目標5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.596-597] 第11週：【活動1-3 拜訪昆蟲】；[PDF p.365] 四下學習目標5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "【活動2-1】昆蟲的身體構造與功能",
+          "learning_points": [
+            "第12-13週授課；了解昆蟲外部形態和身體構造與其行動、適應環境的關係（四下目標5；INb-Ⅱ-7）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.597-598] 第12-13週：【活動2-1】昆蟲的身體構造與功能；[PDF p.365] 四下學習目標5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 5,
+          "title": "【活動2-2】昆蟲的成長變化",
+          "learning_points": [
+            "第13-14週授課；了解昆蟲一生在不同階段的成長變化及繁殖行為（四下目標5；INd-Ⅱ-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.598] 第13-14週：【活動2-2】昆蟲的成長變化；[PDF p.365] 四下學習目標5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 6,
+          "title": "【活動3-1】小昆蟲大影響",
+          "learning_points": [
+            "第14週授課；以生活中昆蟲的相關例子加深認識昆蟲對其他生物和環境的重要地位（四下目標6；INe-Ⅱ-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.598] 第14週：【活動3-1】小昆蟲大影響；[PDF p.365] 四下學習目標6。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第四單元（課程架構表為圖片未擷取文字；活動 1-1～3-2 與科學閱讀：能源與自然資源）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "【活動1-1】我們需要能量",
+          "learning_points": [
+            "第15週授課；認識生物與人類日常活動需要能量（四下目標7；INa-Ⅱ-6、INa-Ⅱ-7）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.599] 第15週：【活動1-1】我們需要能量；[PDF p.365] 四下學習目標7。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "【活動1-2】不同形式的能量",
+          "learning_points": [
+            "第15週授課；察覺能量可以各種形式呈現（INa-Ⅱ-6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.599] 第15週：【活動1-2】不同形式的能量；[PDF p.361] INa-Ⅱ-6。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "【活動1-3】生活中的能源",
+          "learning_points": [
+            "第16週授課；認識日常生活中常用的能源（四下目標7；INa-Ⅱ-8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.600] 第16週：【活動1-3】生活中的能源；[PDF p.361, p.366] INa-Ⅱ-8、四下學習目標7。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "【活動2-1】自然資源",
+          "learning_points": [
+            "第16-17週授課；認識提供能量的自然資源與提供物質的自然資源（四下目標7；INg-Ⅱ-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.600-601] 第16-17週：【活動2-1】自然資源；[PDF p.366] 四下學習目標7。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 5,
+          "title": "【活動2-2】自然資源的運用",
+          "learning_points": [
+            "第17-18週授課；了解自然資源的有限性與生活運用方式（四下目標7；INg-Ⅱ-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.601] 第17-18週：【活動2-2】自然資源的運用；[PDF p.366] 四下學習目標7。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 6,
+          "title": "【活動3-1】開發及應用自然資源的影響",
+          "learning_points": [
+            "第18週授課；認識使用與開發資源對環境造成的負面衝擊（四下目標8；INf-Ⅱ-5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.601] 第18週：【活動3-1】開發及應用自然資源的影響；[PDF p.366] 四下學習目標8。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 7,
+          "title": "【活動3-2】環保行動",
+          "learning_points": [
+            "第19-20週授課；學習結合低碳、節水、垃圾減量、資源回收與節約能源等環保行動降低環境衝擊（四下目標8；INg-Ⅱ-2、INg-Ⅱ-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.602-603] 第19-20週：【活動3-2】環保行動；[PDF p.366] 四下學習目標8。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 8,
+          "title": "【科學閱讀】",
+          "learning_points": [
+            "第20-21週授課（第20週含評量週，第21週含總複習【科學閱讀】）；自然科學領域科普閱讀理解活動（融入閱讀素養教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.603] 第20-21週：【科學閱讀】；第21週：總複習【科學閱讀】。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].title",
+      "reason": "source_not_found",
+      "detail": "《115_.pdf》5-1-1 自然科學 G4 的課程架構表（PDF p.362-363）為內嵌圖片無法擷取文字，而 5-2 進度總表（p.592-603）僅列各【活動X-Y】名稱及【科學閱讀】，未印出四個單元的正式單元主標題；本檔依活動編號重設分段歸組為 4 個單元，嚴禁臆測課本單元標題。",
+      "recommended_action": "請提供康軒自然科學四下（第四冊）課本目次頁照片或檢視原 PDF p.362 圖片，以補齊各單元正式主標題。"
+    },
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未附康軒自然科學四下（第四冊）各單元專有名詞與詞彙清單。",
+      "recommended_action": "請提供課本各單元重點整理頁或習作內容以補充專有名詞表。"
+    }
+  ]
+}

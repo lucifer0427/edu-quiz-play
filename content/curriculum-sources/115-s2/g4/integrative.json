@@ -1,0 +1,198 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 4,
+    "subject": "綜合活動",
+    "publisher": "南一",
+    "book_series": "第四冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:10:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 4,
+        "subject": "綜合活動",
+        "publisher": "南一",
+        "book_series": "第四冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 4,
+        "subject": "綜合活動",
+        "publisher": "南一",
+        "book_series": "第四冊（選書表僅列南一，冊別由課程計畫核實）"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "一、溝通學問大",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.溝通有訣竅",
+          "learning_points": [
+            "第1-2週授課（2節/週）；分享與他人互動的溝通經驗，覺察溝通方式對人際的影響，探討溝通不良因素並找出合宜溝通態度與不同意見解決辦法（四下目標1-4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.434 課程架構表] 四年級下學期 一、溝通學問大：1.溝通有訣竅；[PDF p.592-593] 第1-2週；[PDF p.436] 下學期學習目標1-4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.道歉有誠意",
+          "learning_points": [
+            "第3-4週授課；探討道歉經驗並歸納合宜的道歉態度及處理方式，學習站在對方立場思考與聆聽互動（四下目標5-6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.434 課程架構表] 2.道歉有誠意；[PDF p.593-594] 第3-4週；[PDF p.436] 下學期學習目標5-6。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "二、創意生活家",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.生活創意大集合",
+          "learning_points": [
+            "第5-6週授課；透過觀察與蒐集表達生活中解決問題的經驗，覺察以創意解決生活問題的不同做法（四下目標7-9）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.434 課程架構表] 二、創意生活家：1.生活創意大集合；[PDF p.594-595] 第5-6週；[PDF p.436] 下學期學習目標7-9。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.問題解決有妙招",
+          "learning_points": [
+            "第6-8週授課；認識問題解決步驟並提出創意策略，透過實作活動省思策略並對他人做法表達正向回饋（四下目標10-12）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.434 課程架構表] 2.問題解決有妙招；[PDF p.595] 第6-8週；[PDF p.436] 下學期學習目標10-12。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "三、快樂小志工",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.散播助人種子",
+          "learning_points": [
+            "第9-10週授課（第10週含評量週）；透過受助與助人經驗覺察他人被服務的需求，了解服務應注意事項並建立助人不求回報觀念（四下目標13-15）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.434 課程架構表] 三、快樂小志工：1.散播助人種子；[PDF p.596] 第9-10週；[PDF p.436] 下學期學習目標13-15。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.校園服務開麥拉",
+          "learning_points": [
+            "第11-12週授課；做好校園志工事前準備工作，解決服務中的問題並落實助人為樂的服務精神（四下目標16-18）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.434 課程架構表] 2.校園服務開麥拉；[PDF p.596-597] 第11-12週；[PDF p.436] 下學期學習目標16-18。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "四、地球守衛隊",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.環境問題知多少",
+          "learning_points": [
+            "第13-14週授課；透過環境問題實例觀察覺察環境遭受破壞的現象，藉由體驗活動感受環境破壞對生活的影響（四下目標19-20）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.434 課程架構表] 四、地球守衛隊：1.環境問題知多少；[PDF p.598] 第13-14週；[PDF p.436] 下學期學習目標19-20。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.環保小推手",
+          "learning_points": [
+            "第14-16週授課；觀察生活周遭推動的環保行動，規畫自己的環境改善行動並分享體驗與心得（四下目標21-22）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.434 課程架構表] 2.環保小推手；[PDF p.598-600] 第14-16週；[PDF p.436] 下學期學習目標21-22。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "五、文化旅行趣",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.生活文化快樂GO",
+          "learning_points": [
+            "第17-18週授課；透過文化活動參與經驗分享與資料蒐集了解文化活動的內容、意義及其與生活的關係（四下目標23-24）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.434 課程架構表] 五、文化旅行趣：1.生活文化快樂GO；[PDF p.601] 第17-18週；[PDF p.436] 下學期學習目標23-24。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.文化之美",
+          "learning_points": [
+            "第19-20週授課（第20週含評量週；第21週為休業式）；實際參加文化活動或訪問參加者了解文化與生活的關聯性，省思對自己文化的認同與肯定（四下目標25-26）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.434 課程架構表] 2.文化之美；[PDF p.602-603] 第19-20週（第21週：休業式）；[PDF p.436-437] 下學期學習目標25-26。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未附南一綜合活動四下（第四冊）具體課文活動案例與詞彙表。",
+      "recommended_action": "請提供南一綜合活動四下（第四冊）課本或習作目次頁照片以補充細部情境內容。"
+    }
+  ]
+}

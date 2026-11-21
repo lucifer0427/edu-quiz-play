@@ -1,0 +1,208 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 5,
+    "subject": "本土語文-客語",
+    "publisher": "康軒",
+    "book_series": "第10冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T13:05:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 5,
+        "subject": "本土語文-客語",
+        "publisher": "康軒",
+        "book_series": "第10冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 5,
+        "subject": "本土語文-客語",
+        "publisher": "康軒",
+        "book_series": "第9冊（選書表僅列單數起始冊，第10冊由課程計畫核實）"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 藝術摎文化",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一課 𪹚龍還生趣",
+          "learning_points": [
+            "認識地方特色活動的客語名稱，透過參與地方特色活動體驗民俗文化生活（目標1）。",
+            "第1-3週授課（1節/週）；融入環境教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.169 課程架構表] 客語第10冊 第一單元 藝術摎文化：第一課 𪹚龍還生趣；[PDF p.613-614] 第1-3週；[PDF p.170] 五下學習目標1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第二課 阿爐伯个手藝",
+          "learning_points": [
+            "認識傳統手藝客語名稱，了解傳統手藝的緣由，培養對手工藝的認識和興趣（目標2）。",
+            "第4-6週授課；融入戶外教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.169 課程架構表] 第二課 阿爐伯个手藝；[PDF p.614-615] 第4-6週；[PDF p.170] 五下學習目標2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元活動一",
+          "learning_points": [
+            "第一單元統整與複習活動（目標3：透過故事情境認識美濃油紙傘製作過程及對客家人的象徵意義，培養對傳統手工藝的興趣並勇於傳承與創新）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.169 課程架構表] 單元活動一；[PDF p.615] 第7週：單元活動一 1；[PDF p.170] 五下學習目標3。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 大家都恁慶",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第三課 班項(上)个同學",
+          "learning_points": [
+            "認識客語稱讚詞，將習得的稱讚語詞運用在日常生活中（目標4）。",
+            "第8-10週授課；融入品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.169 課程架構表] 第二單元 大家都恁慶：第三課 班項(上)个同學；[PDF p.615-616] 第8-10週；[PDF p.170] 五下學習目標4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元活動二",
+          "learning_points": [
+            "第二單元統整與複習活動（目標5：透過故事情境認識客家生育禮俗的特色與文化，了解「做膽」的含義與特色，感恩長輩對子女的關愛與期望）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.169 課程架構表] 單元活動二；[PDF p.616] 第11週：單元活動二 1；[PDF p.170] 五下學習目標5。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元 健康安全盡(最)重要",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第四課 注意安全",
+          "learning_points": [
+            "認識常見傷害的客語詞，了解生活中的傷害事件，做好自身安全的保護（目標6）。",
+            "第12-14週授課；融入安全教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.169 課程架構表] 第三單元 健康安全盡(最)重要：第四課 注意安全；[PDF p.617-618] 第12-14週；[PDF p.170] 五下學習目標6。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第五課 寒(冷)著了",
+          "learning_points": [
+            "認識身體病痛的客語名稱，藉由課文情境養成良好的就醫習慣並學習正確的知識（目標7）。",
+            "第15-17週授課；融入品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.169 課程架構表] 第五課 寒(冷)著了；[PDF p.618-619] 第15-17週；[PDF p.170] 五下學習目標7。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元活動三",
+          "learning_points": [
+            "第三單元統整與複習活動（目標8：透過故事情境認識鼓王爭霸戰的比賽過程及文化象徵意涵，培養對鄉土文化的認知）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.169 課程架構表] 單元活動三；[PDF p.619] 第18週：單元活動三 1；[PDF p.170] 五下學習目標8。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "期末歌謠與複習活動（見 5-2 教學進度總表）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "拍拍手，唱唱歌",
+          "learning_points": [
+            "進度總表第19週課程主題（1節）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.620 5-2教學進度總表] 第十九週：拍拍手，唱唱歌 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "搞麼个？",
+          "learning_points": [
+            "進度總表第20週課程活動（1節）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.620 5-2教學進度總表] 第二十週：搞麼个？ 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "出任務囉！",
+          "learning_points": [
+            "進度總表第21週課程活動（1節）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.621 5-2教學進度總表] 第廿一週：出任務囉！ 1。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書僅列各課課名與 8 條五下學習目標，未附康軒客語第10冊各課四縣／海陸腔客語詞彙表與標音。",
+      "recommended_action": "請確認大忠國小採行之客語腔別（如四縣／海陸）並提供康軒客語第10冊課本語詞頁。"
+    }
+  ]
+}

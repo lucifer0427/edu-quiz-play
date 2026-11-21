@@ -1,0 +1,198 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 5,
+    "subject": "綜合活動",
+    "publisher": "南一",
+    "book_series": "第六冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T13:05:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 5,
+        "subject": "綜合活動",
+        "publisher": "南一",
+        "book_series": "第六冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 5,
+        "subject": "綜合活動",
+        "publisher": "南一",
+        "book_series": null
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "一、自主學習樂",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.學習有計畫",
+          "learning_points": [
+            "分析完成自主學習目標需具備的能力；依據學習目標訂定適合的學習計畫；依自主學習歷程完成學習（五下目標1-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.439 課程架構表] 五年級下學期 -> 一、自主學習樂：1.學習有計畫；[PDF p.613] 第1-2週；[PDF p.441] 下學期學習目標1-3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.自我管理策略",
+          "learning_points": [
+            "分辨事情的輕重緩急，規畫學習時間；找到適合的自我管理策略，養成自律負責的態度；隨時檢核及修正學習計畫（五下目標4-6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.439 課程架構表] 2.自我管理策略；[PDF p.613-614] 第2-4週；[PDF p.441] 下學期學習目標4-6。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "二、生活有「藝」思",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.美感過生活",
+          "learning_points": [
+            "透過設計與分享活動找出生活中美的畫面；透過討論找出不同生活場域的情境問題並思考需要改變的原因；藉由計畫擬定與行動解決生活情境中與美感或創意有關的問題（五下目標7-9）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.439 課程架構表] 二、生活有「藝」思：1.美感過生活；[PDF p.614-615] 第5-6週；[PDF p.442] 下學期學習目標7-9。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.「藝」同來賞美",
+          "learning_points": [
+            "發現生活中具有美感與創意的設計所解決的生活問題；藉由探訪活動認識生活中具有美感與創意的事物；透過辦理美展的實踐活動展現美感與創意（五下目標10-12）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.439 課程架構表] 2.「藝」同來賞美；[PDF p.615-616] 第7-8週；[PDF p.442] 下學期學習目標10-12。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "三、職業面面觀",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.職業萬花筒",
+          "learning_points": [
+            "透過訪問、調查等方式了解不同職業類別的工作型態；覺察各種職業所需專長、能力條件、工作環境、性質與待遇差異，並澄清職業中的性別、年齡等刻板印象（五下目標13-14）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.439 課程架構表] 三、職業面面觀：1.職業萬花筒；[PDF p.616] 第9-10週（第10週併註評量週）；[PDF p.442] 下學期學習目標13-14。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.職業試金石",
+          "learning_points": [
+            "認識職業典範人物成就及進行職業體驗，激發對職業世界的好奇心；探索興趣、性向、價值觀及人格特質以發展職業興趣並立下目標實踐（五下目標15-16）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.439 課程架構表] 2.職業試金石；[PDF p.617] 第11-12週；[PDF p.442] 下學期學習目標15-16。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "四、環境守護者",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.生態的悲歌",
+          "learning_points": [
+            "了解不同生態環境對生活的影響；知道生態環境變化對動植物、人類生存的影響；繪製心智圖分析環境變化的原因與影響（五下目標17-19）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.439 課程架構表] 四、環境守護者：1.生態的悲歌；[PDF p.617-618] 第13-14週；[PDF p.442] 下學期學習目標17-19。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.永續地球村",
+          "learning_points": [
+            "了解各團體保護環境採取的行動；分享保護環境的方法和行動；在生活中落實環保行動並養成珍惜生態的態度與習慣（五下目標20-22）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.439 課程架構表] 2.永續地球村；[PDF p.618-619] 第14-16週；[PDF p.442] 下學期學習目標20-22。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "五、生命共同體",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.人與自然",
+          "learning_points": [
+            "分享面對動植物經歷生命變化的想法；分享與自然界互動的經驗與感受；實踐關懷大自然生命宣言（五下目標23-25）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.439 課程架構表] 五、生命共同體：1.人與自然；[PDF p.619] 第17-18週；[PDF p.442] 下學期學習目標23-25。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.我的成長",
+          "learning_points": [
+            "覺察自己在生理、心理、能力與人際關係上的變化；表達面對生命變化的感受與想法；認識與面對青春期身心的變化；尊重與珍惜生命（五下目標26-29）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.439 課程架構表] 2.我的成長；[PDF p.620] 第19-20週（第20週併註評量週）；[PDF p.442] 下學期學習目標26-29。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書已完整列出 5 單元 10 活動名稱與 29 項五下學習目標，未列課本具體情境案例對話、典範人物名單或活動紀錄單範例。",
+      "recommended_action": "如需就特定職業典範案例或環保團體實例出題，請提供南一綜合活動五下（第6冊）課本相關頁次。"
+    }
+  ]
+}

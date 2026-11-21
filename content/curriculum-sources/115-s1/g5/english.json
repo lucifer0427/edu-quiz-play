@@ -1,0 +1,220 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 5,
+    "subject": "語文-英語文",
+    "publisher": "翰林",
+    "book_series": "Here We Go 第五冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T12:38:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 5,
+        "subject": "語文-英語文",
+        "publisher": "翰林",
+        "book_series": "Here We Go 第五冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 5,
+        "subject": "語文-英語文",
+        "publisher": "翰林",
+        "book_series": "Here We Go 第五冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 0,
+      "title": "開學預備週 & Starter",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "World Map, Phonics Review, Word & Sentence Review",
+          "learning_points": [
+            "預備週暖身：世界地圖概念、字母拼讀與舊單元字詞句型複習（融入國際教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.604 5-2教學進度總表] 第1週：開學預備週 World Map, Phonics Review, Word& Sentence Review【國際教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "Starter",
+          "learning_points": [
+            "起始暖身單元（融入閱讀素養教育）；五上學習目標含能聽辨並說出數字 60-100。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.604-605 5-2教學進度總表] 第2週：開學預備週 Starter【閱讀素養教育】；[PDF p.103] 上學期學習目標1：能聽辨並說出數字 60-100。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 1,
+      "title": "Unit 1 What Day Is Today?",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "Days of the Week 星期 — Unit 1 What Day Is Today?",
+          "learning_points": [
+            "主題：Days of the Week 星期（進度總表第3-6週）。",
+            "五上字母拼讀與語言目標（跨單元見 p.103）：能聽辨、辨識並說出所學單字及句子；能聽辨及運用字母拼讀法念出以 a_e, ai, ay, e_e, ee, ea, i_e, ie, y, o_e, oa, ow, u_e, ue, ui 所組成的字詞。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.101 課程架構表] 英語 五上（Here We Go 第五冊）：Unit 1 What Day Is Today?；[PDF p.605-606] 第3-6週：Days of the Week 星期 Unit 1 What Day Is Today?。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "Unit 2 Do You Have PE Class on Monday?",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "Subjects 科目 — Unit 2 Do You Have PE Class on Monday?",
+          "learning_points": [
+            "主題：Subjects 科目（進度總表第7-10週）。",
+            "融入國際教育、閱讀素養教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.101 課程架構表] Unit 2 Do You Have PE Class o...；[PDF p.607-608] 第7-10週：Subjects 科目 Unit 2 Do You Have PE Class on Monday?。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "Review 1",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "複習一 & 期中評量 Review 1 & Exam 1",
+          "learning_points": [
+            "整合 Unit 1 與 Unit 2 學習內容之情境漫畫、日常用語及聽讀寫複習；期中評量（第11週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.101 課程架構表] Review 1；[PDF p.608] 第11週：複習一 & 期中評量 Review 1 & Exam 1【閱讀素養教育】；[PDF p.99] 課程理念6。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "Unit 3 Where Are You Going?",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "Places 社區場所 — Unit 3 Where Are You Going?",
+          "learning_points": [
+            "主題：Places 社區場所（進度總表第12-15週）。",
+            "融入國際教育、閱讀素養教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.101 課程架構表] Unit 3 Where Are You Going?；[PDF p.609-610] 第12-15週：Places 社區場所 Unit 3 Where Are You Going?。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "Unit 4 How Many Koalas Are There? & Festival Christmas",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "Animals 動物 — Unit 4 How Many Koalas Are There?",
+          "learning_points": [
+            "主題：Animals 動物（進度總表第16-19週）。",
+            "融入國際教育、閱讀素養教育、環境教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.101 課程架構表] Unit 4 How Many Koalas Are There?；[PDF p.610-612] 第16-19週：Animals 動物 Unit 4 How Many Koalas Are There?。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "Festival Christmas（耶誕節）",
+          "learning_points": [
+            "認識中外主要節慶習俗及由來（第16週併 Unit 4 實施）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.101 課程架構表] Festival Christmas；[PDF p.610] 第16週：Animals 動物 &Christmas 耶誕節 Unit 4 How Many Koalas Are There?&Festival-Christmas；[PDF p.103] 學習目標7。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "Review 2 & 文化教學",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "複習二 & 期末評量 Review 2 & Exam 2",
+          "learning_points": [
+            "整合 Unit 3 與 Unit 4 學習內容之複習與期末評量（第20週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.101 課程架構表] Review 2；[PDF p.612] 第20週：複習二&期末評量 Review 2 & Exam 2【閱讀素養教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "文化教學 Let’s Explore & Country Profile & Comics & Look and Say",
+          "learning_points": [
+            "認識外國風土民情，從多元文化觀點瞭解及尊重不同文化及習俗（第21週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.101 課程架構表] Let’s Explore & Country Profile；[PDF p.612] 第21週：文化教學 Let’s Explore & Country Profile & Comics & Look and Say【國際教育】。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "大忠國小 115 學年度課程計畫書僅明列單元名稱、主題（Days of the Week 星期、Subjects 科目、Places 社區場所、Animals 動物、Christmas 耶誕節）、數字範圍 60-100 與 Phonics 母音組清單，未附 115 學年度 Here We Go 第五冊各單元實際單字表。",
+      "recommended_action": "請提供《Here We Go 5》115 學年度課本 Word List／單字頁照片，或翰林官方電子書／教師手冊單字清單以補齊 100% 無推論單字庫。"
+    },
+    {
+      "field": "units[*].lessons[*].learning_points",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未逐課拆解各單元的完整肯定句、否定句、疑問句答句與各單元專屬 Phonics 對應歸屬（僅列五上整體拼讀音組）。",
+      "recommended_action": "請提供《Here We Go 5》課本目次頁或各課 Sentence Pattern / Phonics 頁面照片。"
+    }
+  ]
+}

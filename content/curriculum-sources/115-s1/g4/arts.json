@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 4,
+    "subject": "藝術",
+    "publisher": "翰林",
+    "book_series": "第三冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:10:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 4,
+        "subject": "藝術",
+        "publisher": "翰林",
+        "book_series": "第三冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 4,
+        "subject": "藝術",
+        "publisher": "翰林",
+        "book_series": "第三冊（選書表僅列翰林，冊別由課程計畫核實）"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第壹單元 視覺萬花筒",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "一、點點滴滴",
+          "learning_points": [
+            "視覺藝術（1節/週，第1-8週）；探索視覺元素「點」的特性，欣賞藝術家作品與顏水龍創作，進行指印與拼貼創作（四上視覺藝術目標1-16）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.400 課程架構表] 第壹單元 視覺萬花筒：一．點點滴滴；[PDF p.580-585] 第1-8週：壹、視覺萬花筒 一、點點滴滴；[PDF p.403] 視覺藝術目標1-16。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "二、與你連線",
+          "learning_points": [
+            "視覺藝術（第9-13週）；知道線是點移動的軌跡與視覺效果，觀察葉脈速寫，運用彈珠與水彩創作及印製簡單線條版畫賀年卡（四上視覺藝術目標17-27）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.400 課程架構表] 二．與你連線；[PDF p.586-588] 第9-13週：二、與你連線；[PDF p.403-404] 視覺藝術目標17-27。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "三、面面俱到",
+          "learning_points": [
+            "視覺藝術（第14-18週）；認識視覺藝術基本元素「面」，探討藝術家如何利用面來創作並進行面的拆開重組創意創作（四上視覺藝術目標28-36）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.400 課程架構表] 三．面面俱到；[PDF p.588-590] 第14-18週：三、面面俱到；[PDF p.404] 視覺藝術目標28-36。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "四、點、線、面的組合",
+          "learning_points": [
+            "視覺藝術（第19-20週）；認識納斯卡線由來並找出生活中的點、線、面，創作包含點、線、面三種元素的作品（四上視覺藝術目標37-42）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.400 課程架構表] 四．點線面的組合；[PDF p.591] 第19-20週：四、點、線、面的組合；[PDF p.404] 視覺藝術目標37-42。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第貳單元 表演任我行",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "一、聲音百變秀",
+          "learning_points": [
+            "表演藝術（1節/週，第1-7週）；開發聲音潛能，運用口技、樂器或生活物品為聲音故事設計音效，並運用輕重、語調、情緒朗讀故事合作演出（四上表演目標1-10）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.400 課程架構表] 第貳單元 表演任我行：一．聲音百變秀；[PDF p.580-584] 第1-7週：貳、表演任我行 一、聲音百變秀；[PDF p.404] 表演目標1-10。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "二、舞動身體樂韻律",
+          "learning_points": [
+            "表演藝術（第8-14週）；開發肢體伸展性與靈活度，運用聲音與肢體合作發展創意活動關卡並練習情緒表演（四上表演目標11-16）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.400 課程架構表] 二．舞動身體樂韻律；[PDF p.585-588] 第8-14週：二、舞動身體樂韻律；[PDF p.404] 表演目標11-16。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "三、我的夢想",
+          "learning_points": [
+            "表演藝術（第15-20週）；分享夢想並認識各行各業特徵，將物品轉換為道具，建構戲劇畫面進行職業人物默劇表演（四上表演目標17-25）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.400 課程架構表] 三．我的夢想；[PDF p.589-591] 第15-20週：三、我的夢想；[PDF p.404-405] 表演目標17-25。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第參單元 音樂美樂地",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "一、繪聲繪色萬花筒",
+          "learning_points": [
+            "音樂（1節/週，第1-5週）；認識聲音特質、演唱〈美妙歌聲〉、認識升記號與本位記號，認識巴赫並欣賞／高音直笛吹奏〈彌塞特舞曲〉〈耶穌，是我們仰望的喜悅〉，認識銅管樂器與欣賞〈輕騎兵序曲〉（四上音樂目標1-13）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.400 課程架構表] 第參單元 音樂美樂地：一．繪聲繪色萬花筒；[PDF p.580-583] 第1-5週：參、音樂美樂地 一、繪聲繪色萬花筒；[PDF p.405] 音樂目標1-13。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "二、一拍擊合",
+          "learning_points": [
+            "音樂（第6-9週）；認識拍子與節奏並創作頑固伴奏，演唱〈小溪輕輕流〉，認識附點八分音符＋十六分音符節奏，欣賞歌劇《天堂與地獄》〈序曲〉（四上音樂目標14-22）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.400 課程架構表] 二．一拍擊合；[PDF p.583-586] 第6-9週：二、一拍擊合；[PDF p.405] 音樂目標14-22。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "三、美妙的樂音",
+          "learning_points": [
+            "音樂（第10-13週）；認識齊唱與輪唱、級進與跳進音型並創作簡單曲調，以高音直笛吹奏第一線ㄇ一及下一間ㄖㄨㄟ與〈祈禱〉（四上音樂目標23-30）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.400 課程架構表] 三．美妙的樂音；[PDF p.587-588] 第10-13週：三、美妙的樂音；[PDF p.405] 音樂目標23-30。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "四、歡樂感恩的樂章（架構表作：四．感恩歡樂的樂章；第18週含直笛吹奏練習）",
+          "learning_points": [
+            "音樂（第14-19週）；演唱〈We Wish You A Merry Christmas〉、〈恭喜恭喜〉、〈新年好〉，認識進行曲及老約翰．史特勞斯並欣賞〈拉德茨基進行曲〉，欣賞傳統音樂〈羅漢戲獅〉與認識鑼鼓樂器，高音直笛吹奏〈哦！蘇珊娜〉（四上音樂目標31-43）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.400 課程架構表] 四．感恩歡樂的樂章；[PDF p.588-591] 第14-19週：參、音樂美樂地 四、歡樂感恩的樂章（第18週載直笛吹奏練習）；[PDF p.405] 音樂目標31-43。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第肆單元 統整課程",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "藝遊點線面",
+          "learning_points": [
+            "音樂、視覺藝術、表演藝術三科統整實施（第20-21週）；以肢體展現樂句的點或線，認識芭蕾舞劇《胡桃鉗》與作曲家柴科夫斯基，欣賞舞蹈作品中的點線面與肢體線條（四上統整目標1-13，視覺藝術目標43-45）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.400 課程架構表] 第肆單元 統整課程：藝遊點線面；[PDF p.591] 第20-21週：肆、統整課程 藝遊點線面；[PDF p.405-406] 統整目標1-13。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未附翰林藝術四上（第三冊）獨立藝術術語詞彙表（僅於學習目標中述及點、線、面、升記號、本位記號、附點八分音符等概念），且未逐週細分第肆單元各節次之跨科分工細目。",
+      "recommended_action": "請提供翰林藝術四上（第三冊）課本目次或各課重點頁以補充圖譜、樂譜與名詞索引。"
+    }
+  ]
+}

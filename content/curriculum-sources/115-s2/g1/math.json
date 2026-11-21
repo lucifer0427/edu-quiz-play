@@ -1,0 +1,222 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 1,
+    "subject": "數學",
+    "publisher": "康軒",
+    "book_series": "第二冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T15:55:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 1,
+        "subject": "數學",
+        "publisher": "康軒",
+        "book_series": "第二冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 1,
+        "subject": "數學",
+        "publisher": "康軒",
+        "book_series": "第二冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 50以內的數",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一單元 50以內的數",
+          "learning_points": [
+            "50以內數與量之數數與表徵；2個一數、5個一數、10個一數活動；使用代表十、一的積木做數；用序數描述位置及比較大小（一下目標1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.285 課程架構表] 數學1下 第一單元50以內的數；[PDF p.547] 第1-2週：第一單元50以內的數；[PDF p.286] 一下目標1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 18以內的加法",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第二單元 18以內的加法",
+          "learning_points": [
+            "透過合十的方法解決18以內加法計算；認識加法交換律；經驗加法算式的規律並熟練基本加法（一下目標2、N-1-3、R-1-2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.285 課程架構表] 第二單元18以內的加法；[PDF p.548] 第3-4週：第二單元18以內的加法；[PDF p.286-287] 一下目標2。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元 圖形與分類",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第三單元 圖形與分類",
+          "learning_points": [
+            "認識形狀、大小一樣的圖形並仿製三角形、正方形、長方形、圓形；依給定圖示做平面鋪設；依不同特徵分類並報讀統計表（一下目標3、D-1-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.285 課程架構表] 第三單元圖形與分類；[PDF p.548-549] 第5-6週：第三單元圖形與分類；[PDF p.287] 一下目標3。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第四單元 18以內的減法",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第四單元 18以內的減法",
+          "learning_points": [
+            "解決18以內減法及比較型減法計算；透過比較型情境判斷解決加減應用問題；經驗減法算式規律並熟練基本減法（一下目標4、N-1-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.285 課程架構表] 第四單元18以內的減法；[PDF p.549-550] 第7-8週：第四單元18以內的減法；[PDF p.287] 一下目標4。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "第五單元 有多長",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第五單元 有多長",
+          "learning_points": [
+            "複製和記錄物件長度並做間接比較；利用個別單位實測物件長度並進行長度的合成分解活動（一下目標5、N-1-5、S-1-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.285 課程架構表] 第五單元有多長；[PDF p.550] 第9-10週：第五單元有多長；[PDF p.287] 一下目標5。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "第六單元 100以內的數",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第六單元 100以內的數",
+          "learning_points": [
+            "100以內數與量數數與表徵；認識「個位」、「十位」位名和位值並進行位值單位換算；比較100以內大小並觀察百數表規律（一下目標6、N-1-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.285 課程架構表] 第六單元100以內的（框線截字）；[PDF p.551] 第11-12週：第六單元100以內的數；[PDF p.287] 一下目標6。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 7,
+      "title": "第七單元 認識錢幣",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第七單元 認識錢幣",
+          "learning_points": [
+            "認識1元、5元、10元、50元和100元幣值及換算；計數100元以內錢幣組合並使用1元、5元、10元和50元進行買賣活動（一下目標7、N-1-4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.285 課程架構表] 第七單元認識錢幣；[PDF p.551] 第13-14週：第七單元認識錢幣；[PDF p.287] 一下目標7。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 8,
+      "title": "第八單元 二位數的加減",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第八單元 二位數的加減",
+          "learning_points": [
+            "透過錢幣圖像解決二位數加減問題；解決100以內加法與減法計算（一下目標8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.285 課程架構表] 第八單元二位數的加減；[PDF p.552] 第15-17週：第八單元二位數的加減；[PDF p.287] 一下目標8。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 9,
+      "title": "第九單元 幾月幾日星期幾",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第九單元 幾月幾日星期幾",
+          "learning_points": [
+            "認識及報讀日曆、月曆和年曆；認識今天、明天和昨天用語及關係；比較同一年中不同日期的先後順序（一下目標9、N-1-6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.285 課程架構表] 第九單元幾月幾日星期幾；[PDF p.553] 第18-20週：第九單元幾月幾日星期幾；[PDF p.287] 一下目標9。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "總複習：生活中的數學",
+          "learning_points": [
+            "第21週全冊總複習與生活中的數學應用（融入家庭教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.553 5-2教學進度總表] 第廿一週：總複習 生活中的數學【家庭教育】。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書已提供康軒數學第二冊完整 9 單元名稱、學習內容與目標，但未列出各單元細部小節標題（1-1、1-2）及課本插圖例題。",
+      "recommended_action": "已足夠建立一年級下學期基礎數學題庫（50與100以內數及個位十位、18以內加減、平面圖形與分類、個別單位長度、錢幣換算、二位數加減、幾月幾日星期幾）；如需細部小節名稱可補拍課本目錄頁。"
+    }
+  ]
+}

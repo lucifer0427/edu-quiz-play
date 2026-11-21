@@ -1,0 +1,259 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 1,
+    "subject": "生活",
+    "publisher": "南一",
+    "book_series": "第二冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T15:55:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 1,
+        "subject": "生活",
+        "publisher": "南一",
+        "book_series": "第二冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 1,
+        "subject": "生活",
+        "publisher": "南一",
+        "book_series": "第二冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "主題一、訊息的傳達",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元1 分享寒假生活",
+          "learning_points": [
+            "1.寒假裡做了些什麼、2.寒假生活分享（下學期目標1-2：口頭及各種方式分享寒假生活、覺察展示品訊息）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.455 課程架構表] 主題一、訊息的傳達 -> 單元1 分享寒假生活：1.寒假裡做了些什麼 2.寒假生活分享；[PDF p.547] 第1週；[PDF p.461] 下學期目標1-2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元2 訊息在哪裡",
+          "learning_points": [
+            "1.尋找教室裡的訊息、2.訊息會「說話」、3.尋找校園裡的訊息、4.音樂裡的訊息、5.傳遞訊息的遊戲、6.廣播裡的訊息（目標3-7：尋找與紀錄教室及校園訊息、聆聽音樂與廣播訊息並合宜傳達）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.455 課程架構表] 單元2 訊息在哪裡：1~6；[PDF p.547-548] 第2-4週；[PDF p.461] 下學期目標3-7。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元3 讓我告訴你",
+          "learning_points": [
+            "1.來看聯絡簿、2.放送學校大事、3.來做訊息通知單（目標8-10：從聯絡簿找重要訊息、討論傳達方式並動手製作訊息通知單）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.455 課程架構表] 單元3 讓我告訴你：1.來看聯絡簿 2.放送學校大事 3.來做訊息通知單；[PDF p.548] 第4-5週；[PDF p.461] 下學期目標8-10。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "主題二、美麗的春天",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元1 發現春天",
+          "learning_points": [
+            "1.春天來了、2.春天裡的動植物（目標11-16：從天氣變暖、衣著、植物新芽花開與小動物外形運動方式觀察春天）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.455 課程架構表] 主題二、美麗的（框線截字）-> 單元1 發現春天：1.春天來了 2.春天裡的動植物；[PDF p.549] 第5週：主題二、美麗的春天 單元1 發現春天；[PDF p.461] 下學期目標11-16。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元2 在春天裡玩",
+          "learning_points": [
+            "1.模仿動植物、2.畫下對春天的觀察、3.想和春天一起玩、4.介紹美麗的春天、5.遊戲裡的春天、6.享受春天、7.歌頌春天（目標17-29：肢體模仿與繪畫頭套、設計桌遊、演唱〈春天的活動〉）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.455 課程架構表] 單元2 在春天裡玩：1~7；[PDF p.549] 第6-7週；[PDF p.461-462] 下學期目標17-29。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "主題三、玩具總動員",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元1 什麼最好玩",
+          "learning_points": [
+            "1.下課了一起玩、2.放學後玩什麼、3.最喜歡的玩具、4.分享的快樂（目標30-36：比較學校與放學後玩玩具機會、介紹玩具玩法與遵守遊戲規則禮儀）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.455 課程架構表] 主題三、玩具總（框線截字）-> 單元1 什麼最好：1~4；[PDF p.550] 第8週：主題三、玩具總動員 單元1 什麼最好玩；[PDF p.462] 下學期目標30-36。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元2 玩具同樂會",
+          "learning_points": [
+            "1.有趣的玩具、2.自己做玩具、3.玩具同樂會、4.熱鬧的音樂故事（目標37-44：觀察玩具特色與取得管道、手作玩具改良與分享、辨識音樂情景）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.455 課程架構表] 單元2 玩具同樂：1~4；[PDF p.550] 第9-10週：單元2 玩具同樂會；[PDF p.462] 下學期目標37-44。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "主題四、有電話真方便",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元1 怎麼說比較好",
+          "learning_points": [
+            "討論撥打與接聽電話的禮貌應對與合宜話語（目標45-47）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.551 5-2教學進度總表] 第十一週：主題四、有電話真方便 單元1 怎麼說比較好；[PDF p.462] 下學期目標45-47。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元2 電話好幫手",
+          "learning_points": [
+            "提出練習撥打電話的方法並透過律動遊戲練習；知道需要撥打電話的情境與緊急狀況撥打電話應如何說（目標48-51）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.551 5-2教學進度總表] 第十二週：主題四、有電話真方便 單元2 電話好幫手；[PDF p.462] 下學期目標48-51。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元3 愛的傳聲筒",
+          "learning_points": [
+            "為問候親人準備說話內容並清楚明白表達（目標52-54）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.551 5-2教學進度總表] 第十三週：主題四、有電話真方便 單元3 愛的傳聲筒；[PDF p.462] 下學期目標52-54。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "主題五、夏天與端午",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元1 天氣變熱了",
+          "learning_points": [
+            "1.夏日生活、2.學校生活的改變、3.防晒涼快的方法、4.抗熱法寶（目標55-64：察覺夏天氣溫升高與作息改變、防暑保護自己與自製扇子遮陽）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.456 課程架構表] 主題五、夏天與（框線截字）-> 單元1 天氣變熱：1~4；[PDF p.551] 第14週：主題五、夏天與端午 單元1 天氣變熱了；[PDF p.462] 下學期目標55-64。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元2 夏天的活動",
+          "learning_points": [
+            "1.夏天喜歡的活動、2.夏天的夜晚、3.夏天的歌、4.夏天的景象（目標65-73：夏天家庭活動與注意事項、夏夜觀察、唱跳〈螢火蟲〉與三角鐵演奏、欣賞夏日光影畫作）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.456 課程架構表] 單元2 夏天的活：1~4；[PDF p.552] 第15週：單元2 夏天的活動；[PDF p.462] 下學期目標65-73。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元3 熱鬧的端午節",
+          "learning_points": [
+            "1.端午節的活動、2.端午與屈原、3.划龍舟體驗、4.做香包迎端午（目標74-82：端午習俗與屈原、龍舟體驗與〈划龍舟〉念謠、製作粽形香包掛飾）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.456 課程架構表] 單元3 熱鬧的端：1~4；[PDF p.552] 第16-17週：單元3 熱鬧的端午節；[PDF p.462-463] 下學期目標74-82。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "主題六、雨和水",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元1 天上來的水",
+          "learning_points": [
+            "1.雨前的現象、2.下雨了、3.雨的再探索、4.雨的唱唱跳跳、5.雨天的景象（目標83-87：察覺雨前現象、五官探索與模擬雨聲、演唱雨天歌曲、雨絲繪畫技法）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.456 課程架構表] 主題六、雨和水 -> 單元1 天上來的：1~5；[PDF p.553] 第18-19週：主題六、雨和水 單元1 天上來的水；[PDF p.463] 下學期目標83-87。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元2 雨後積水大清掃",
+          "learning_points": [
+            "1.尋找雨的痕跡、2.容器積水生蚊蟲、3.減少蚊蟲孳生（目標88-90：觀察雨後痕跡、認識校園易積水處、運用「巡、倒、清、刷」減少蚊蟲孳生）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.456 課程架構表] 單元2 雨後積水：1~3；[PDF p.553] 第20週：主題六、雨和水 單元2 雨後積水大清掃；[PDF p.463] 下學期目標88-90。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[3].lessons[*].activities",
+      "reason": "source_not_found",
+      "detail": "5-1-1 生活課程架構表（PDF p.455-456）未轉出「主題四、有電話真方便」之方塊文字，該主題 3 單元名稱依據 5-2 教學進度總表（PDF p.551）及下學期目標 45-54（PDF p.462）補齊，缺少主題四細部活動編號；另主題二、三、五、六部分名稱於 PDF 方框有截字，已對照 5-2 進度表確認全名。",
+      "recommended_action": "如需主題四細部活動編號（1. / 2. / 3.）或各歌曲歌詞，請補拍南一生活一下（第二冊）課本目錄頁。"
+    }
+  ]
+}

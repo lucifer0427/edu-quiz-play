@@ -1,0 +1,286 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 4,
+    "subject": "語文-國語文",
+    "publisher": "康軒",
+    "book_series": "第八冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:10:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 4,
+        "subject": "語文-國語文",
+        "publisher": "康軒",
+        "book_series": "第八冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 4,
+        "subject": "語文-國語文",
+        "publisher": "康軒",
+        "book_series": "第八冊（選書表僅列康軒，冊別由課程計畫核實）"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 擁抱正能量",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一課 一束鮮花",
+          "learning_points": [
+            "第1-2週授課（5節/週）；讀懂課文內容與文章大意，運用適當詞語與語法表達想法（四下目標1-4、9）。",
+            "相關參考選材：悲愴大地（文：殷穎）；融入戶外教育、生命教育、品德教育、人權教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.64 課程架構表] 國語4下 第一單元 擁抱正能量：第一課 一束鮮花；[PDF p.592-593 5-2教學進度總表] 第1-2週：單元主題引導／一、一束鮮花；[PDF p.66] 四下教材編選1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第二課 心動不如行動",
+          "learning_points": [
+            "第3-4週授課；相關參考選材：晨讀10 分鐘：酷少年故事集（文：諶淑婷）；融入生命教育、人權教育、品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.64 課程架構表] 第二課 心動不如行動；[PDF p.593-594] 第3-4週：二、心動不如行動；[PDF p.66] 四下教材編選2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第三課 選拔動物之星",
+          "learning_points": [
+            "第4-5週授課；相關參考選材：蝸牛：林良的78 首詩（文：林良）；融入人權教育、環境教育、品德教育、生命教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.64 課程架構表] 第三課 選拔動物之星；[PDF p.594] 第4-5週：三、選拔動物之星；[PDF p.66] 四下教材編選3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "學習地圖一",
+          "learning_points": [
+            "第5週授課；運用注音符號檢索資訊、利用字義推論詞義及第一單元統整練習（四下目標3-4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.594 5-2教學進度總表] 第5週：三、選拔動物之星／學習地圖一。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 文化廣角鏡",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第四課 米食飄香",
+          "learning_points": [
+            "第6-7週授課；相關參考選材：米食樂（文：郝廣才）；融入多元文化教育、國際教育、品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.64 課程架構表] 第二單元 文化廣角鏡：第四課 米食飄香；[PDF p.595] 第6-7週：單元主題引導／四、米食飄香；[PDF p.66] 四下教材編選4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第五課 讀書報告——藍色小洋裝",
+          "learning_points": [
+            "知道讀書報告的寫作格式，並能完成讀書報告的寫作大綱（四下目標5）。",
+            "第7-8週授課；融入家庭教育、品德教育、多元文化教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.64 課程架構表] 第五課 讀書報告——藍色小洋裝；[PDF p.595] 第7-8週：五、讀書報告——藍色小洋裝；[PDF p.66] 四下學習目標5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第六課 我愛鹿港",
+          "learning_points": [
+            "第8-9週授課；相關參考選材：出發！環遊台灣大探險（文：陳思樺）；融入多元文化教育、閱讀素養教育、品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.64 課程架構表] 第六課 我愛鹿港；[PDF p.595-596] 第8-9週：六、我愛鹿港；[PDF p.66] 四下教材編選5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "學習地圖二",
+          "learning_points": [
+            "第10週授課；第二單元閱讀理解與寫作大綱統整。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.596 5-2教學進度總表] 第10週：學習地圖二／她是我姐姐。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 5,
+          "title": "閱讀階梯一 她是我姐姐",
+          "learning_points": [
+            "第10-11週授課；長篇文本閱讀理解（融入閱讀素養教育、品德教育、人權教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.64 課程架構表] 閱讀階梯一 她是我姐姐；[PDF p.596] 第10-11週：她是我姐姐。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元 科技無極限",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第七課 未來的模樣",
+          "learning_points": [
+            "了解說明文常用的說明方法，並運用於說明文寫作中（四下目標6）。",
+            "第11-12週授課；融入國際教育、科技教育、品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.64 課程架構表] 第三單元 科技無極限：第七課 未來的模樣；[PDF p.596-597] 第11-12週：單元主題引導／七、未來的模樣；[PDF p.66] 四下學習目標6。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第八課 動物老師的智慧",
+          "learning_points": [
+            "了解說明文寫作方法與仿生科技知識；相關參考選材：給孩子的神奇仿生科學（文：穆里埃．居榭）、仿生高科技：源於自然的科技靈感（文：瑪特．富尼耶）。",
+            "第13-14週授課；融入科技教育、品德教育、資訊教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.64 課程架構表] 第八課 動物老師的智慧；[PDF p.598] 第13-14週：八、動物老師的智慧；[PDF p.67] 四下教材編選6-7。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第九課 向太空出發",
+          "learning_points": [
+            "多元閱讀經典名著（四下目標7）；相關參考選材：從地球到月球（文：凡爾納）。",
+            "第14-15週授課；融入科技教育、資訊教育、品德教育、生涯規畫教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.64 課程架構表] 第九課 向太空出發；[PDF p.598-599] 第14-15週：九、向太空出發；[PDF p.67] 四下教材編選8。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "學習地圖三",
+          "learning_points": [
+            "第15週授課；第三單元說明文結構與寫作策略統整。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.599 5-2教學進度總表] 第15週：九、向太空出發／學習地圖三。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第四單元 故事變裝秀",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第十課 小青蛙想看海",
+          "learning_points": [
+            "第16-17週授課；相關參考選材：火龍家庭故事集（文：哲也）；融入人權教育、生命教育、品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.64 課程架構表] 第四單元 故事變裝秀：第十課 小青蛙想看海；[PDF p.600-601] 第16-17週：單元主題引導／十、小青蛙想看海；[PDF p.67] 四下教材編選9。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第十一課 窗前的月光",
+          "learning_points": [
+            "第17-18週授課；相關參考選材：同一個月亮（文、圖：幾米）；融入生涯規畫教育、品德教育、人權教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.64 課程架構表] 第十一課 窗前的月光；[PDF p.601] 第17-18週：十一、窗前的月光；[PDF p.67] 四下教材編選10。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第十二課 如來佛的手掌心",
+          "learning_points": [
+            "多元閱讀經典名著，發揮想像力改寫經典名著（四下目標7-8）。",
+            "第18-19週授課；融入人權教育、生命教育、閱讀素養教育、品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.64 課程架構表] 第十二課 如來佛的手掌心；[PDF p.601-602] 第18-19週：十二、如來佛的手掌心；[PDF p.66] 四下學習目標7-8。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "學習地圖四",
+          "learning_points": [
+            "第20週授課；第四單元故事改寫與閱讀策略統整。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.603 5-2教學進度總表] 第20週：學習地圖四／南安小熊回家。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 5,
+          "title": "閱讀階梯二 南安小熊回家",
+          "learning_points": [
+            "第20-21週授課；長篇文本閱讀理解與生態關懷（融入生命教育、閱讀素養教育、品德教育、環境教育、科技教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.64 課程架構表] 閱讀階梯二 南安小熊回家；[PDF p.603] 第20-21週：南安小熊回家。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "大忠國小 115 學年度課程計畫書僅提供單元名稱、課次名稱、參考選材書目及學期學習目標，未附康軒國語四下（第八冊）各課生字、新詞及成語清單。",
+      "recommended_action": "請提供康軒國語四下（第八冊）課本生字表／語詞頁或教師手冊電子檔，以補齊各課生字詞庫。"
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 5,
+    "subject": "社會",
+    "publisher": "康軒",
+    "book_series": "第六冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T13:05:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 5,
+        "subject": "社會",
+        "publisher": "康軒",
+        "book_series": "第六冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 5,
+        "subject": "社會",
+        "publisher": "康軒",
+        "book_series": null
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 我們的經濟活動",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第1課 生產活動如何影響人們的生活？",
+          "learning_points": [
+            "理解經濟型態變遷與資源利用對人們生活的影響，以及在經濟活動中落實環境永續的重要性與行動（Ce-Ⅲ-1、Ce-Ⅲ-2；目標2）。",
+            "第1-2週授課（3節/週）；融入環境教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.339 課程架構表] 社會5下 -> 第一單元 我們的經濟活動：第1課 生產活動如何影響人們的生活？；[PDF p.613] 第1-2週；[PDF p.340] 五下學習目標2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第2課 消費與理財如何影響人們的生活？",
+          "learning_points": [
+            "理解選擇與消費權益保障、合適的理財規劃，以及在經濟活動中落實環境永續之態度（Ad-Ⅲ-1、Da-Ⅲ-1、Db-Ⅲ-1；目標2）。",
+            "第3-4週授課；融入環境教育、法治教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.339 課程架構表] 第2課 消費與理財如何影響人們的生活？；[PDF p.613-614] 第3-4週；[PDF p.340] 五下學習目標2。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 清帝國時期臺灣的發展與改變",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第1課 移民的開墾如何改變臺灣社會？",
+          "learning_points": [
+            "理解先民冒險渡海來臺開墾的過程，以及開墾造成的族群衝突與土地利用變遷（Cc-Ⅲ-2、Ca-Ⅲ-2；目標1）。",
+            "第5-6週授課；融入海洋教育、多元文化教育、原住民族教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.339 課程架構表] 第二單元 清帝國時期臺灣的發展與改變：第1課 移民的開墾如何改變臺灣社會？；[PDF p.614-615] 第5-6週；[PDF p.340] 五下學習目標1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第2課 開港通商如何影響經濟與文化？",
+          "learning_points": [
+            "理解清帝國開港通商後經濟變遷與西方人士帶來的文化交流（Cb-Ⅲ-1、Cb-Ⅲ-2、Ce-Ⅲ-1；目標1）。",
+            "第7-8週授課；融入多元文化教育、閱讀素養教育、人權教育、品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.339 課程架構表] 第2課 開港通商如何影響經濟與文化？；[PDF p.615-616] 第7-8週；[PDF p.340] 五下學習目標1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第3課 開港後清帝國的統治措施有什麼變化？",
+          "learning_points": [
+            "理解外力入侵後清帝國統治措施調整，促使臺灣逐步現代化的過程（Cb-Ⅲ-1、Ac-Ⅲ-4；目標1）。",
+            "第9-10週授課；融入海洋教育、原住民族教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.339 課程架構表] 第3課 開港後清帝國的統治措施有什麼變化？；[PDF p.616] 第9-10週；[PDF p.340] 五下學習目標1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元 日治時期人民與政府的關係",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第1課 日本帝國如何統治臺灣？",
+          "learning_points": [
+            "探討日治時期政治與殖民統治制度發展，及國家權力運用對人民的影響（Ac-Ⅲ-4、Cb-Ⅲ-1；目標3）。",
+            "第11週授課；融入人權教育、多元文化教育、國際教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.339 課程架構表] 第三單元 日治時期人民與政府的關係：第1課 日本帝國如何統治臺灣？；[PDF p.616-617] 第11週；[PDF p.340] 五下學習目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第2課 殖民統治下臺灣人如何爭取權利？",
+          "learning_points": [
+            "了解面對日本的殖民統治，臺灣人民透過爭取權利與政治改革在逆境中奮鬥的歷程（Cd-Ⅲ-1、Bc-Ⅲ-2；目標3）。",
+            "第12-13週授課；融入人權教育、原住民族教育、多元文化教育、國際教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.339 課程架構表] 第2課 殖民統治下臺灣人如何爭取權利？；[PDF p.617-618] 第12-13週；[PDF p.340] 五下學習目標3。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第四單元 日治時期的社會變遷",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第1課 日治時期的建設帶來什麼影響？",
+          "learning_points": [
+            "理解日治時期的交通、糖業、林業、水利建設如何影響臺灣人民的日常生活與空間利用（Ca-Ⅲ-1、Ca-Ⅲ-2；目標4）。",
+            "第14-15週授課；融入人權教育、多元文化教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.339 課程架構表] 第四單元 日治時期的社會變遷：第1課 日治時期的建設帶來什麼影響？；[PDF p.618] 第14-15週；[PDF p.340] 五下學習目標4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第2課 日治時期的教育有何改變與影響？",
+          "learning_points": [
+            "理解日治時期教育制度如何影響臺灣人民的日常生活與社會發展（Bc-Ⅲ-2、Cb-Ⅲ-1；目標4）。",
+            "第16-17週授課；融入性別平等教育、多元文化教育、國際教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.339 課程架構表] 第2課 日治時期的教育有何改變與影響？；[PDF p.619] 第16-17週；[PDF p.340] 五下學習目標4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第3課 日治時期的社會文化有何改變與影響？",
+          "learning_points": [
+            "理解日治時期作息制度與社會文化變遷對臺灣人民日常生活的影響（Cb-Ⅲ-2、Cc-Ⅲ-2；目標4）。",
+            "第18-19週授課；融入多元文化教育、國際教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.339 課程架構表] 第3課 日治時期的社會文化有何改變與影響？；[PDF p.619-620] 第18-19週；[PDF p.340] 五下學習目標4。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "主題探究與實作單元",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "穿越時空探家園／桃園在地化課程 賞桃園-6節",
+          "learning_points": [
+            "透過引發學生對家鄉景物留心觀察，進一步資料蒐集及探訪，了解家鄉歷史建築的原由始末及相關保護措施，引發認同與珍視（目標5）。",
+            "5-2 進度表第20週列「主題探究與實作單元 穿越時空探家園 3節【多元文化教育】【環境教育】【原住民族教育】」；課程架構表（p.339）與 6-6（p.1136-1137）另載五年級社會領域融入桃園市在地化教材《賞桃園》6 節。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.339 課程架構表] 主題探究與實作單元 -> 桃園在地化課程 賞桃園-6 節；[PDF p.620] 第20週：主題探究與實作單元 穿越時空探家園 3；[PDF p.340] 五下學習目標5；[PDF p.1137] 五年級融入《賞桃園》6節。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書包含完整 4 單元 10 課＋探究單元與《賞桃園》在地化課程註記，但未逐課詳列課本特定歷史人物、專有名詞、條約與水利工程名稱，亦未附《賞桃園》6節具體子單元列表。",
+      "recommended_action": "請提供康軒國小社會第六冊（五下）課本目次／重點整理頁及《賞桃園》教學單元頁，以確保歷史人名地名與在地化題目不出超出課本範圍。"
+    }
+  ]
+}

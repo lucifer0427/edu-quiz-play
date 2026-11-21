@@ -1,0 +1,247 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 4,
+    "subject": "電腦（彈性學習課程：數位創客）",
+    "publisher": "無限可能＋巨岩（選書表）／學校自編數位創客課程計畫",
+    "book_series": "Google網路歡樂競技場+canva（選書表）／數位創客四上（課程計畫）"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:10:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 4,
+        "subject": "電腦（彈性學習課程：數位創客）",
+        "publisher": "無限可能＋巨岩（選書表）／學校自編數位創客課程計畫",
+        "book_series": "Google網路歡樂競技場+canva（選書表）／數位創客四上（課程計畫）"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 4,
+        "subject": "電腦（彈性學習課程：數位創客）",
+        "publisher": "無限可能＋巨岩（選書表）／學校自編數位創客課程計畫",
+        "book_series": "Google網路歡樂競技場+canva"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第1週：數位啟航：座艙約定與雲端門票",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "數位啟航：座艙約定與雲端門票",
+          "learning_points": [
+            "約定電腦教室規則、正確坐姿與數位帳號安全重要性（安全教育）。",
+            "登入學校大忠 Gmail 帳號與密碼，使用 iPad 拍照並上傳至雲端系統提交作業。",
+            "演練「登出」與「移除帳號」程序以確保個人數位隱私安全。"
+          ],
+          "vocabulary": [
+            "Gmail",
+            "iPad",
+            "登出",
+            "移除帳號"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.740 數位創客課程計畫] 週次1 單元名稱：數位啟航：座艙約定與雲端門票；[PDF p.1086 6-4進度總表] 第1週：數位啟航：座艙約定與雲端門票。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第2–3週：雲端教室營地：跨平台學習護照",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "雲端教室營地：跨平台學習護照",
+          "learning_points": [
+            "區分 Gmail 與學習吧等平台的帳號與密碼差異。",
+            "進入 Google Classroom 查看作業並在留言區進行正式且有禮的數位互動詢問；登入學習吧完成數位教材閱讀與作業繳交。",
+            "開啟 Meet 線上視訊功能，體驗跨空間同步課堂互動。"
+          ],
+          "vocabulary": [
+            "Google Classroom",
+            "學習吧",
+            "Google Meet"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.740 數位創客課程計畫] 週次2-3 單元名稱：雲端教室營地：跨平台學習護照；[PDF p.1087-1088 6-4進度總表] 第2-3週。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第4週：城市航海家：捷運路網大探索",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "城市航海家：捷運路網大探索",
+          "learning_points": [
+            "認識瀏覽器常用功能、設定起始畫面、「首頁按鈕」與資料夾整理。",
+            "以「台北捷運」為關鍵字搜尋路網圖與票價資訊，將交通地圖截圖並上傳至 Google Classroom 分享成果。"
+          ],
+          "vocabulary": [
+            "瀏覽器",
+            "首頁按鈕",
+            "關鍵字搜尋",
+            "截圖"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.740 數位創客課程計畫] 週次4 單元名稱：城市航海家：捷運路網大探索；[PDF p.1088 6-4進度總表] 第4週。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第5–7週：數位偵探：萬能搜尋工具箱",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "數位偵探：萬能搜尋工具箱",
+          "learning_points": [
+            "運用搜尋列進行數學算式求解與跨幣別單位換算。",
+            "進行進階關鍵字搜尋（如排除特定關鍵字）並利用「以圖找圖」探索動植物或地標故事；建立「閱讀工具」書籤資料夾蒐集國語辭典與圖書館資源。",
+            "利用翻譯網頁功能瀏覽國外地標官網，並配合社會課本搜尋提到的地點及國家。"
+          ],
+          "vocabulary": [
+            "以圖找圖",
+            "書籤資料夾",
+            "翻譯網頁"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.741 數位創客課程計畫] 週次5-7 單元名稱：數位偵探：萬能搜尋工具箱；[PDF p.1089 6-4進度總表] 第5-7週。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "第8–10週：雲端旅行者：虛擬世界的時空旅程",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "雲端旅行者：虛擬世界的時空旅程",
+          "learning_points": [
+            "利用 Google 地圖觀察行政區範圍（如南投縣魚池鄉），理解地理分界。",
+            "運用地景功能進行「虛擬國際旅遊」（如冰島或陽明山自然環境與地質特性）、規畫「校外教學路徑」比較不同交通工具所需時間。",
+            "利用小黃人街景功能探索台北 101 等地標，並配合社會課本搜尋地點及國家。"
+          ],
+          "vocabulary": [
+            "Google 地圖",
+            "街景服務（小黃人）",
+            "路徑規畫"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.741 數位創客課程計畫] 週次8-10 單元名稱：雲端旅行者：虛擬世界的時空旅程；[PDF p.1090 6-4進度總表] 第8-10週。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "第11–13週：數位信使：跨越空間的雲端飛鴿",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "數位信使：跨越空間的雲端飛鴿",
+          "learning_points": [
+            "比較傳統書信與電子郵件優缺點與禮儀差異，認識 Email 的組成（主旨、稱呼、正文）。",
+            "建立聯絡人群組，設定個人頭像與專屬簽名檔；練習撰寫郵件並插入照片、表情符號及超連結附件。",
+            "學習郵件分類邏輯並運用星號標示重要郵件，進行小組回覆與轉寄信件接力練習。"
+          ],
+          "vocabulary": [
+            "Email",
+            "簽名檔",
+            "超連結",
+            "回覆",
+            "轉寄"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.741-742 數位創客課程計畫] 週次11-13 單元名稱：數位信使：跨越空間的雲端飛鴿；[PDF p.1091 6-4進度總表] 第11-13週。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 7,
+      "title": "第14–20週：數位設計師：動態視覺與安全派對",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "數位設計師：動態視覺與安全派對",
+          "learning_points": [
+            "登入線上多媒體設計平台 Canva，認識工作區並連接 Google 雲端硬碟儲存專案。",
+            "學習照片去背與邊框美化技巧，製作具動態效果的電子相簿及師長感謝卡。",
+            "結合安全教育（含交通安全）製作「交通安全宣導短片」並觀摩作品。"
+          ],
+          "vocabulary": [
+            "Canva",
+            "Google 雲端硬碟",
+            "照片去背",
+            "電子相簿",
+            "宣導短片"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.742 數位創客課程計畫] 週次14-20 單元名稱：數位設計師：動態視覺與安全派對；[PDF p.1091-1093 6-4進度總表] 第14-20週。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 8,
+      "title": "第21週：數位公民成果展：網路規範大解密",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "數位公民成果展：網路規範大解密",
+          "learning_points": [
+            "登入帳號完成「學校午餐滿意度」數位調查問卷，實踐以數據參與校園事務。",
+            "深入探討網路安全與網路禮儀，辨識假訊息與保護個人隱私，鞏固本學期各項操作知識。"
+          ],
+          "vocabulary": [
+            "數位問卷",
+            "網路安全",
+            "網路禮儀",
+            "個人隱私"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.742 數位創客課程計畫] 週次21 單元名稱：數位公民成果展：網路規範大解密；[PDF p.1094 6-4進度總表] 第21週。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "target.book_series",
+      "reason": "ambiguous_edition",
+      "detail": "《115學年教科書版本.pdf》（src-2）於四年級電腦欄列出《Google網路歡樂競技場+canva》（無限可能＋巨岩）與《PowerPoint 2021 小創客做簡報》（宏全資訊），而學校《115學年度課程計畫.pdf》（6-2-1 p.738-742 及 6-5 p.1134）則將四年級資訊課程歸於彈性學習課程【數位創客】（楊珮菁設計，上學期為 Google 網路服務與 Canva 單元、下學期為 PowerPoint 簡報單元），且 6-5 教材欄寫「1.數位媒材及網路資源 2.自編教學簡案 3.IPAD 行動車」，未明確載明《Google網路歡樂競技場+canva》實體書各章課名。",
+      "recommended_action": "目前單元與教學活動已完整取自學校 115 學年度【數位創客】課程計畫（Tier 1）；若同時有使用《Google網路歡樂競技場+canva》實體課本並需依課本章節出題，請提供該書目次頁照片。"
+    }
+  ]
+}

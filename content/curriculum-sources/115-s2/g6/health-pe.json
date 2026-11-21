@@ -1,0 +1,267 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 6,
+    "subject": "健康與體育",
+    "publisher": "南一",
+    "book_series": "第十二冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:05:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 6,
+        "subject": "健康與體育",
+        "publisher": "南一",
+        "book_series": "第十二冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 6,
+        "subject": "健康與體育",
+        "publisher": "南一",
+        "book_series": null
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "壹、健康 一.天生我才必有用",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "一.天生我才必有用",
+          "learning_points": [
+            "健康（1節/週）；從生理、心理、家庭、社會等面向認識自我概念，理解自我悅納與潛能定義，具備正向自我效能感（六下目標1-6）。",
+            "能藉由「特質」、「興趣」、「職業」進行潛能探索，評估適合職業並規畫未來職業藍圖（六下目標7-12）。",
+            "第1-4週授課；融入生涯規劃教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.629-630 5-2教學進度總表] 第1-4週：壹、健康 一.天生我才必有用 1【生涯規劃教育】；[PDF p.524] 六下學習目標1-12。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "壹、健康 二.解癮密碼",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "二.解癮密碼",
+          "learning_points": [
+            "健康（1節/週）；能了解電子煙對身體的影響、菸酒媒體廣告規定以及成癮性物質的特性、危害與治療方式（六下目標13-18）。",
+            "能進行媒體識讀與判斷並具備破除健康迷思技能，演練拒絕成癮性物質的健康行動策略並公開提倡拒癮信念（六下目標19-25）。",
+            "第5-9週授課；融入人權教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.630-632 5-2教學進度總表] 第5-9週：壹、健康 二.解癮密碼 1【人權教育】；[PDF p.524] 六下學習目標13-25。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "壹、健康 三.健康新攻略",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "三.健康新攻略",
+          "learning_points": [
+            "健康（1節/週）；能了解「病原體」透過「傳染途徑」傳播給「容易被感染的人」導致傳染病盛行及對應預防方法（六下目標26-28）。",
+            "能認識臺灣常見傳染病「水痘、病毒性肝炎、結核病、新冠併發重症（COVID-19）」症狀、傳染途徑、治療及預防方式，實踐預防性健康自我照護（六下目標29-33）。",
+            "第10-14週授課（第10週含評量週）；融入品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.633-634 5-2教學進度總表] 第10-14週：壹、健康 三.健康新攻略 1【品德教育】；[PDF p.524] 六下學習目標26-33。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "壹、健康 四.迎向未來",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "四.迎向未來",
+          "learning_points": [
+            "健康（1節/週）；能了解人際關係及畢業焦慮帶來的影響，學習轉換畢業分離焦慮的壓力管理技巧（六下目標34-39）。",
+            "能針對生活困擾進行批判及決定，運用人際溝通與改善畢業焦慮之生活技能，公開表達對未來的信心及健康行動（六下目標40-45）。",
+            "第15-18週授課（第18週含評量週）；融入人權教育、生涯規劃教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.634-635 5-2教學進度總表] 第15-18週：壹、健康 四.迎向未來 1【人權教育】【生涯規劃教育】；[PDF p.524-525] 六下學習目標34-45。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "貳、體育 五.身體書法家",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "五.身體書法家",
+          "learning_points": [
+            "體育（2節/週）；能分組嘗試練習用身體各部位書寫「永」字，認識身體活動與書法文化素養連結性，完成舞蹈創作編排與展演並分享美感體驗（六下目標46-53）。",
+            "第1-3週授課。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.629-630 5-2教學進度總表] 第1-3週：貳、體育 五.身體書法家 2；[PDF p.525] 六下學習目標46-53。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "貳、體育 六.鈴上雲霄",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "六.鈴上雲霄",
+          "learning_points": [
+            "體育（2節/週）；能了解扯鈴的歷史由來，說出並做出正確扯鈴動作名稱，欣賞並效仿扯鈴比賽動作與隊形，編排一場扯鈴表演（六下目標54-59）。",
+            "第3-5週授課。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.630 5-2教學進度總表] 第3-5週：貳、體育 六.鈴上雲霄 2；[PDF p.525] 六下學習目標54-59。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 7,
+      "title": "貳、體育 七.排球高手",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "七.排球高手",
+          "learning_points": [
+            "體育（2節/週）；對室內夏季奧運會排球賽事有基本認識，做出正確高手傳接球、低手動作與發球，知道輪轉方向位置與各角色職責，並以戰術板及手持裝置影片討論攻防策略（六下目標60-71）。",
+            "第6-8週授課。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.631-632 5-2教學進度總表] 第6-8週：貳、體育 七.排球高手 2；[PDF p.525] 六下學習目標60-71。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 8,
+      "title": "貳、體育 八.桌球精靈",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "八.桌球精靈",
+          "learning_points": [
+            "體育（2節/週）；能透過觀摩學習正確的擊球、正手、反手及發球動作，運用桌球拍做出指定動作與討論戰術，了解終身運動重要性並規畫運動方案（六下目標72-77）。",
+            "第8-11週授課（第10週含評量週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.632-633 5-2教學進度總表] 第8-11週：貳、體育 八.桌球精靈 2；[PDF p.525] 六下學習目標72-77。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 9,
+      "title": "貳、體育 九.角力主角我來當",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "九.角力主角我來當",
+          "learning_points": [
+            "體育（2節/週）；能認識角力運動項目的設施、場域、不同招式及動作要領，學習角力自由式基本動作與連續性技能，並實際參與模擬比賽與學習運動家精神（六下目標78-88）。",
+            "第11-13週授課。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.633 5-2教學進度總表] 第11-13週：貳、體育 九.角力主角我來當 2；[PDF p.525-526] 六下學習目標78-88。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 10,
+      "title": "貳、體育 十.百發百中",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "十.百發百中",
+          "learning_points": [
+            "體育（2節/週）；能了解拋球、擲球及滾球的使用時機，藉由迷你保齡球及木球了解標的性球類運動技能要素及攻防策略，並了解終身運動意義與選擇原則（六下目標89-94）。",
+            "第14-16週授課。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.634-635 5-2教學進度總表] 第14-16週：貳、體育 十.百發百中 2；[PDF p.526] 六下學習目標89-94。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 11,
+      "title": "貳、體育 十一.水中樂逍遙",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "十一.水中樂逍遙",
+          "learning_points": [
+            "體育（2節/週）；能學會韻律呼吸、水中轉頭換氣、岸邊與水中行進划手換氣、持浮板打水划手換氣及捷泳聯合動作，參與游泳接力賽（六下目標97-100, 103）。",
+            "能了解水球運動歷史、玩法及比賽規則，進行水中傳接球、運球、射門等水球基礎動作與水球比賽（六下目標95-96, 101-102, 104）。",
+            "第16-18週授課（第18週含評量週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.635 5-2教學進度總表] 第16-18週：貳、體育 十一.水中樂逍遙 2；[PDF p.526] 六下學習目標95-104。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].title",
+      "reason": "source_not_found",
+      "detail": "5-1-1 健康與體育課程架構表（PDF p.517-519）為嵌入圖表未提取出內文，5-2 教學進度總表（PDF p.629-635）僅列單元名稱（健康一～四、體育五～十一）與週別，未逐週列出各單元內部活動小標（如活動1、活動2）。",
+      "recommended_action": "請提供南一健康與體育第十二冊（六下）課本目次頁照片以補齊各單元內部活動標題。"
+    },
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未單獨列出成癮物質分類表、傳染病細部照護須知表或各球類與水中運動規則細則字詞。",
+      "recommended_action": "如需針對健康教育知識點細部出題，請補充南一健體第十二冊課本重點頁面。"
+    }
+  ]
+}

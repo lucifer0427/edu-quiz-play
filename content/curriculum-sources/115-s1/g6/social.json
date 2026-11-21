@@ -1,0 +1,226 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 6,
+    "subject": "社會",
+    "publisher": "康軒",
+    "book_series": "第七冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:05:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 6,
+        "subject": "社會",
+        "publisher": "康軒",
+        "book_series": "第七冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 6,
+        "subject": "社會",
+        "publisher": "康軒",
+        "book_series": "第七冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 民主政治的發展",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第1課 臺灣人民爭取民主自由的歷程為何？",
+          "learning_points": [
+            "解析特定人物、事件、制度對臺灣歷史的影響，覺知民主制度的過程得來不易（Cd-Ⅲ-1、六上目標1）。",
+            "第1-2週授課（3節/週）；融入人權教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.344 課程架構表] 社會6上 第一單元：第1課 臺灣人民爭取民主自由的歷程為何？；[PDF p.621-622] 第1-2週；[PDF p.346] 六上學習目標1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第2課 臺灣人民有哪些權利和義務？",
+          "learning_points": [
+            "體認人民享有國家制度與福利的同時也必須付出義務，使國家能順利運作（六上目標2）。",
+            "第3-4週授課；融入人權教育、法治教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.344 課程架構表] 第2課 臺灣人民有哪些權利和義務？；[PDF p.622] 第3-4週；[PDF p.346] 六上學習目標2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第3課 民主國家政府與人民的關係為何？",
+          "learning_points": [
+            "體認政府政策以民為主，卻也可能傷害個人或群體的權益，了解向政府提出救濟的方法（Cd-Ⅲ-2、六上目標3）。",
+            "第5-6週授課；融入人權教育、法治教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.344 課程架構表] 第3課 民主國家政府與人民的關係為何？；[PDF p.623] 第5-6週；[PDF p.346] 六上學習目標3。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 社會變遷下的個人發展與族群文化",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第1課 個人發展如何受到社會變遷的影響？",
+          "learning_points": [
+            "透過分享與發表了解每個人對社會事物與環境有不同的認知、感受，並能尊重差異、發展與人溝通協調的能力（Cc-Ⅲ-1、六上目標4）。",
+            "第7-8週授課；融入性別教育、家庭教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.623-624 5-2教學進度總表] 第7-8週：第二單元社會變遷下的個人發展與族群文化 第1課個人發展如何受到社會變遷的影響？；[PDF p.346] 六上學習目標4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第2課 族群交流如何影響臺灣社會？",
+          "learning_points": [
+            "透過觀察討論與實作分享，理解臺灣是個多元文化的地方，並能欣賞及尊重文化的多樣性（Bc-Ⅲ-1、Cc-Ⅲ-2、六上目標5）。",
+            "第9-10週授課；融入人權教育、國際教育、多元文化教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.344 課程架構表] 第二單元 社會變遷下的個人發展與族群文化：第2課 族群交流如何影響臺灣社會？；[PDF p.624] 第9-10週；[PDF p.346] 六上學習目標5。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元 戰後經濟發展、轉型與生活",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第1課 戰後經濟發展如何影響人們生活？",
+          "learning_points": [
+            "體認在經濟發展中人們對政策與措施有不同的感受與意見，彼此間應給予尊重（Ce-Ⅲ-1、六上目標6）。",
+            "第11-12週授課；融入人權教育、性別教育、環境教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.344 課程架構表] 第三單元 戰後經濟發展、轉型與生活：第1課 戰後經濟發展如何影響人們生活？；[PDF p.625] 第11-12週；[PDF p.346-347] 六上學習目標6。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第2課 臺灣如何邁向科技島？",
+          "learning_points": [
+            "選擇一項產品作為學習主題，探究其演進過程受經濟發展與技術創新的影響，並關注產品對生活的影響性（六上目標7）。",
+            "第13-14週授課；融入資訊教育、人權教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.344 課程架構表] 第2課 臺灣如何邁向科技島？？；[PDF p.626] 第13-14週；[PDF p.347] 六上學習目標7。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第四單元 臺灣的城鄉與區域發展",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第1課 臺灣的工業化與都市化如何發展？",
+          "learning_points": [
+            "體認工業化帶動都市化的現象，關注都市化所帶來的影響（Ca-Ⅲ-1、六上目標8）。",
+            "第15-16週授課；融入資訊教育、閱讀教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.344 課程架構表] 第四單元 臺灣的城鄉與區域發展：第1課 臺灣的工業化與都市化如何發展？；[PDF p.626-627] 第15-16週；[PDF p.347] 六上學習目標8。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第2課 生活圈如何形成與發展？",
+          "learning_points": [
+            "了解不同生活圈逐漸形成範圍更大的區域，理解臺灣四個區域畫分的目標與內容（Bb-Ⅲ-1、六上目標9）。",
+            "第17週授課；融入環境教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.344 課程架構表] 第2課 生活圈如何形成與發展？；[PDF p.627] 第17週；[PDF p.347] 六上學習目標9。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第3課 區域如何畫分與調整？",
+          "learning_points": [
+            "覺察區域發展與交流的現象，關注臺灣四大區域的特色與發展現況（Ca-Ⅲ-2、六上目標10）。",
+            "第18-19週授課；融入防災教育、環境教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.344 課程架構表] 第3課 區域如何畫分與調整？；[PDF p.627-628] 第18-19週；[PDF p.347] 六上學習目標10。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "主題探究與實作單元",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "臺灣向前行",
+          "learning_points": [
+            "能提出自己可以投入所關心公共事務的具體行動（六上目標11）。",
+            "第20週授課（第21週為總複習／休業式）；融入資訊教育、閱讀教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.344 課程架構表] 主題探究與實作單元；[PDF p.628 5-2教學進度總表] 第20週：主題探究與實作單元 臺灣向前行；第21週：總複習；[PDF p.347] 六上學習目標11。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未單獨提供康軒社會第七冊（六上）各課關鍵詞彙、歷史事件年表或專有名詞清單。",
+      "recommended_action": "請參閱康軒國小社會第七冊課本各課重點整理或教師手冊補充關鍵專有名詞。"
+    },
+    {
+      "field": "units[1].lessons[0]",
+      "reason": "source_not_found",
+      "detail": "5-1-1 課程架構表（PDF p.344）第二單元僅印出「第2課 族群交流如何影響臺灣社會？」，第1課標題文字係由 5-2 教學進度總表（PDF p.623-624）完整補實。",
+      "recommended_action": "已透過同份一手課程計畫書 5-2 進度表核實課名，無需額外補件。"
+    }
+  ]
+}

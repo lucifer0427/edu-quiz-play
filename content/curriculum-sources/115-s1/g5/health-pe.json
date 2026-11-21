@@ -1,0 +1,337 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 5,
+    "subject": "健康與體育",
+    "publisher": "翰林",
+    "book_series": "第九冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T12:38:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 5,
+        "subject": "健康與體育",
+        "publisher": "翰林",
+        "book_series": "第九冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 5,
+        "subject": "健康與體育",
+        "publisher": "翰林",
+        "book_series": "第九冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "單元一 伸出友誼的手",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "活動1 進入新班級",
+          "learning_points": [
+            "健康（1節/週）；結交新朋友的技巧、以互相尊重與信任的原則維繫友誼（p.512）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.510 課程架構表] 健體5上 第一單元 伸出友誼的手：活動一 進入新班級；[PDF p.604-605] 第1-3週：單元一伸出友誼的手 活動1 進入新班級。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "活動2 五年級的煩惱",
+          "learning_points": [
+            "與家人的衝突處理技巧、與同學相處的原則、建立自信及自我潛能開發的心法（p.512）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.510 課程架構表] 活動二 五年級的煩惱；[PDF p.605-606] 第4-6週：單元一伸出友誼的手 活動2 五年級的煩惱。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "單元二 飲食上線",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "活動1 營養QR code",
+          "learning_points": [
+            "進入青春期均衡營養食物攝取；認識飲食營養概念（p.512-513）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.510 課程架構表] 第二單元 飲食上（方框裁切）：活動一 營養 QR code；[PDF p.607-608] 第7-9週：單元二飲食上線 活動1 營養QR code。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "活動2 兒食主張",
+          "learning_points": [
+            "學會自己準備營養健康的餐食（p.512-513）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.510 課程架構表] 活動二 兒食主張；[PDF p.608-609] 第10-13週：單元二飲食上線 活動2 兒食主張。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "單元三 安全停看聽",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "活動1 規則，讓校園更安全",
+          "learning_points": [
+            "觀察校園生活中危險情境並思考因應之道，理解安全規則與校園安全救援系統（p.513）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.510 課程架構表] 第三單元 安全停（方框裁切）：活動一 規則，讓校園更安全；[PDF p.609-610] 第14-15週：單元三安全停看聽 活動1 規則，讓校園更安全。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "活動2 休閒，讓生活更有趣",
+          "learning_points": [
+            "掌握休閒活動安全須知、周全防護裝備與正確操作技巧（p.513）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.510 課程架構表] 活動二 休閒，讓生活更有趣；[PDF p.610-611] 第16-17週：單元三安全停看聽 活動2 休閒，讓生活更有趣。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "活動3 急救，讓危機減傷害",
+          "learning_points": [
+            "介紹急救與處理關節扭傷的原則、操作繃帶關節8字型包紮法及受傷後護理方式（p.513）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.510 課程架構表] 活動三 急救，讓危機減傷害；[PDF p.611-612] 第18-21週：單元三安全停看聽 活動3 急救，讓危機減傷害。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "單元四 動健康、健康動",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "活動1 運動計畫知多少",
+          "learning_points": [
+            "體育（2節/週）；了解身體活動與身體發展關係，評估體適能表現並擬定簡易體適能促進運動計畫（p.513）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.510 課程架構表] 第四單元 動健（方框裁切）：活動一 運動計畫知多少；[PDF p.604] 第1週：單元四動健康、健康動 活動1 運動計畫知多少。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "活動2 力量的泉源",
+          "learning_points": [
+            "簡易肌肉適能評估與靜態、動態肌肉適能活動（p.513）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.510 課程架構表] 活動二 力量的泉源；[PDF p.604-605] 第2週：活動2 力量的泉源。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "活動3 力拔山河",
+          "learning_points": [
+            "了解拔河動作的運動技能要素並透過拔河遊戲展現全身性肌肉控制能力（p.513）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.510 課程架構表] 活動三 力拔山河；[PDF p.605] 第3週：活動3 力拔山河。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "活動4 全心力挺",
+          "learning_points": [
+            "學會動態和靜態的體操地板支撐運動技能要領（p.513）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.510 課程架構表] 活動四 全心力挺；[PDF p.605-606] 第4週：活動4 全心力挺。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "第五單元 團結和作樂無（架構表裁切；5-2進度表誤植為「單元五 動健康、健康動」）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "活動1 敏捷大進擊",
+          "learning_points": [
+            "透過戶外遊戲發展身體反應、敏捷與協調性，並重策略思考、檢討與改進（p.513）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.510 課程架構表] 第五單元 團結和作樂無（方框裁切）：活動一 敏捷大進擊；[PDF p.606] 第5週：單元五動健康、健康動 活動1 敏捷大進擊。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "活動2 合力達標",
+          "learning_points": [
+            "合作達成體能與遊戲目標（p.513）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.510 課程架構表] 活動二 合力達標；[PDF p.606-607] 第6-7週：活動2 合力達標。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "單元六 超越自我",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "活動1 運動家精神",
+          "learning_points": [
+            "養成運動習慣，競賽時秉持運動家精神，服從裁判判決勝不驕敗不餒（p.513）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.510 課程架構表] 第六單元 超越自我：活動一 運動家精神；[PDF p.607] 第8週：單元六超越自我 活動1 運動家精神。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "活動2 跑在最前線",
+          "learning_points": [
+            "透過跑步遊戲活動體驗並熟練運動基礎動作（p.513）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.510 課程架構表] 活動二 跑在最前線；[PDF p.607-608] 第9-10週：活動2 跑在最前線。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "活動3 樂趣手球賽",
+          "learning_points": [
+            "透過樂趣化手球活動體驗並熟練基礎動作（p.513）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.510 課程架構表] 活動三 樂趣手球賽；[PDF p.608-609] 第11-12週：活動3 樂趣手球賽。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 7,
+      "title": "單元七 球類大挑戰",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "活動1 球進破網",
+          "learning_points": [
+            "學會單、雙手投籃技巧並體驗不同球類投籃力道（p.513）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.510 課程架構表] 第七單元 球類大挑戰：活動一 球進破網；[PDF p.609-610] 第13-14週：單元七球類大挑戰 活動1 球進破網。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "活動2 籃球大進擊",
+          "learning_points": [
+            "運用空手跑位、運球切入、跑位基本戰術並配合投籃技巧進行團隊籃球比賽（p.513）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.510 課程架構表] 活動二 籃球大進擊；[PDF p.610] 第15週：活動2 籃球大進擊。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "活動3 大家來鬥牛",
+          "learning_points": [
+            "三人／分組籃球對戰與團隊戰術運用（p.513）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.510 課程架構表] 活動三 大家來鬥牛；[PDF p.610] 第16週：活動3 大家來鬥牛。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "活動4 樂樂棒球大挑戰",
+          "learning_points": [
+            "打擊方向選擇以推進壘包打者；依打擊與跑者站位選擇守備傳球位置（p.513）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.510 課程架構表] 活動四 樂樂棒球大挑戰；[PDF p.610-611] 第17-18週：活動4 樂樂棒球大挑戰。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 5,
+          "title": "活動5 悠遊桌球",
+          "learning_points": [
+            "透過簡化練習與遊戲培養桌球興趣與基本動作技巧（p.513）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.510 課程架構表] 活動五 悠遊桌球；[PDF p.611-612] 第19-21週：活動5 悠遊桌球。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[4].title",
+      "reason": "ambiguous_edition",
+      "detail": "PDF p.510 課程架構表方框裁切顯示為「第五單元 團結和作樂無」（未印出末字），而 5-2 進度總表 p.606-607 則將第5-7週單元誤標與第四單元相同之「單元五動健康、健康動」。",
+      "recommended_action": "請查對翰林健康與體育五上（第9冊）課本目錄以確認第五單元正確全名。"
+    },
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未列教材內之詳細急救步驟圖解字詞或食品營養標示專有名詞表。",
+      "recommended_action": "請提供翰林健體第九冊健康教育單元課文重點頁（如營養 QR code、8字型包紮法步驟）以便出題。"
+    }
+  ]
+}

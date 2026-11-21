@@ -1,0 +1,332 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 5,
+    "subject": "健康與體育",
+    "publisher": "翰林",
+    "book_series": "第十冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T13:05:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 5,
+        "subject": "健康與體育",
+        "publisher": "翰林",
+        "book_series": "第十冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 5,
+        "subject": "健康與體育",
+        "publisher": "翰林",
+        "book_series": null
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "單元一 健康智慧行動",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "活動1 使用3C好智慧",
+          "learning_points": [
+            "健康（1節/週）；認識高年級視力、聽力與骨骼肌肉發展關鍵期，避免過度使用3C產品之危害（p.513 健康目標1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.511 課程架構表] 健體5下 第一單元 健康智慧行動：活動一 使用3C好智慧；[PDF p.613-614] 第1-5週：單元一健康智慧行動 活動1 使用3C好智慧；[PDF p.513] 健康教育目標1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "活動2 健康行動不卡關",
+          "learning_points": [
+            "在生活中達到使用3C產品與健康身體自主管理的平衡發展，改進視力保健與衛生習慣（p.513、Da-III-1、Da-III-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.511 課程架構表] 活動二 健康行動不卡關；[PDF p.615-616] 第6-8週：單元一健康智慧行動 活動2 健康行動不卡關。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "單元二 親愛的家人",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "活動1 家庭劇場",
+          "learning_points": [
+            "理解不同人生階段家人的身心需求與家庭責任，培養與家人和諧溝通與互動技能（p.513 健康目標2；Fa-III-2、Fa-III-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.511 課程架構表] 第二單元 親愛的家人：活動一 家庭劇場；[PDF p.616-617] 第9-12週：單元二親愛的家人 活動1 家庭劇場；[PDF p.513] 健康教育目標2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "活動2 同個屋簷下",
+          "learning_points": [
+            "因應家庭變故的身心調適技巧，透過面對家人老化與死亡的過程體會生命價值，珍惜家人與生命（p.513 健康目標2；Aa-III-2、Aa-III-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.511 課程架構表] 活動二 同個屋簷下；[PDF p.617-618] 第13-14週：單元二親愛的家人 活動2 同個屋簷下；[PDF p.513] 健康教育目標2。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "單元三 拒絕毒害的人生",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "活動1 「癮」藏的魔鬼",
+          "learning_points": [
+            "認識成癮性物質的特性及其與各類因素之交互影響與危害（p.513 健康目標3；Bb-III-2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.511 課程架構表] 第三單元 拒絕毒害的人生：活動一 「癮」藏的魔鬼；[PDF p.618-619] 第15-17週：單元三拒絕毒害的人生 活動1 「癮」藏的魔鬼；[PDF p.513] 健康教育目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "活動2 媒體訊息背後的真相",
+          "learning_points": [
+            "運用批判性思考的方式觀看媒體訊息對青少年吸菸、喝酒行為的影響（p.513 健康目標3；Bb-III-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.511 課程架構表] 活動二 媒體訊息背後的真相；[PDF p.619-620] 第18-19週：單元三拒絕毒害的人生 活動2 媒體訊息背後的真相；[PDF p.513] 健康教育目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "活動3 拒絕成癮小尖兵",
+          "learning_points": [
+            "願意公開表達並參與拒絕成癮物質的行動策略（p.513 健康目標3；Bb-III-4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.511 課程架構表] 活動三 拒絕成癮小尖兵；[PDF p.620-621] 第20-21週：單元三拒絕毒害的人生 活動3 拒絕成癮小尖兵；[PDF p.513] 健康教育目標3。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "單元四 挑戰自我健康美",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "活動1 戰勝體脂肪",
+          "learning_points": [
+            "體育（2節/週）；認識身體組成的評估方式與基本概念，透過自我評估檢視體位是否正常；運用「85110」（原PDF字樣）健康體位核心能力及科技資源進行體位控制（p.513 體育目標1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.511 課程架構表] 第四單元 挑戰自我健康美：活動一 戰勝體脂肪；[PDF p.613] 第1-2週：單元四挑戰自我健康美 活動1 戰勝體脂肪；[PDF p.513] 體育目標1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "活動2 繩奇寶典",
+          "learning_points": [
+            "了解跳繩的效益，自主選擇適用方式進行跳繩動作組合以提升體適能（p.513 體育目標1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.511 課程架構表] 活動二 繩奇寶典；[PDF p.613-614] 第3週：活動2 繩奇寶典；[PDF p.513] 體育目標1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "活動3 繩采飛揚",
+          "learning_points": [
+            "運用操控繩子的方式進行主題式創作舞展演，展現團體創意和肢體美感體驗（p.513 體育目標1；Ic-III-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.511 課程架構表] 活動三 繩采飛揚；[PDF p.614] 第4-5週：活動3 繩采飛揚；[PDF p.513] 體育目標1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "單元五 有趣的休閒活動（進度總表作：單元五 有趣的休閒遊戲）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "活動1 飛盤遊戲",
+          "learning_points": [
+            "利用飛盤進行多樣性團體遊戲，發展身體穩定性和協調性，探討團隊合作、同理心與溝通觀念（p.513 體育目標2；Ce-III-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.511 課程架構表] 第五單元 有趣的休閒活動：活動一 飛盤遊戲；[PDF p.615] 第6-7週：單元五有趣的休閒遊戲 活動1 飛盤遊戲；[PDF p.513] 體育目標2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "活動2 團體休閒遊戲",
+          "learning_points": [
+            "利用毛巾、繩子和交通桿等進行多樣性團體遊戲，發展身體穩定性和協調性與團隊合作（p.513 體育目標2；Cd-III-1、Ce-III-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.511 課程架構表] 活動二 團體休閒遊戲；[PDF p.615-616] 第8-9週：單元五有趣的休閒遊戲 活動2 團體休閒遊戲；[PDF p.513] 體育目標2。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "單元六 樂活運動趣",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "活動1 武術雙人對練",
+          "learning_points": [
+            "與運動夥伴進行武術雙人對練、合作規劃及運動欣賞（p.513 體育目標3；Bd-III-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.511 課程架構表] 第六單元 樂活運動趣：活動一 武術雙人對練；[PDF p.616-617] 第10-11週：單元六樂活運動趣 活動1 武術雙人對練；[PDF p.513] 體育目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "活動2 健跑體能好",
+          "learning_points": [
+            "透過中長距離跑走活動，體驗並熟練運動基礎動作，奠基良好運動能力與習慣（p.513 體育目標3；Ga-III-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.511 課程架構表] 活動二 健跑體能好；[PDF p.617] 第12週：活動2 健跑體能好；[PDF p.513-514] 體育目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "活動3 跳躍高手",
+          "learning_points": [
+            "透過急行跳遠等活動體驗並熟練跳躍基礎動作（p.513-514 體育目標3；Ga-III-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.511 課程架構表] 活動三 跳躍高手；[PDF p.617-618] 第13-14週：活動3 跳躍高手；[PDF p.513-514] 體育目標3。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 7,
+      "title": "單元七 足下羽上真功夫",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "活動1 盤球大進擊",
+          "learning_points": [
+            "運用腳內側及腳外側進行推進時快速變換方向，將球控制在腳邊並注意周遭狀況（p.514 體育目標4；Hb-III-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.511 課程架構表] 第七單元 足下羽上真功夫：活動一 盤球大進擊；[PDF p.618] 第15週：單元七足下羽上真功夫 活動1 盤球大進擊；[PDF p.514] 體育目標4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "活動2 攻防大作戰",
+          "learning_points": [
+            "運用身體貼近帶球對手製造壓力並擋住傳球路徑；配合盤球及防守技巧進行多人足球比賽及遊戲並討論策略（p.514 體育目標4；Hb-III-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.511 課程架構表] 活動二 攻防大作戰；[PDF p.619] 第16週：活動2 攻防大作戰；[PDF p.514] 體育目標4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "活動3 飛天白梭",
+          "learning_points": [
+            "體驗羽球運動，重視動作正確性和穩定性，藉由遊戲發展基本動作技巧並思考練習困難處理方式（p.514 體育目標4；Ha-III-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.511 課程架構表] 活動三 飛天白梭；[PDF p.619] 第17-18週：活動3 飛天白梭；[PDF p.514] 體育目標4。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 8,
+      "title": "單元八 大家來玩水",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "活動1 趴浪玩水去，安全要注意",
+          "learning_points": [
+            "認識趴式衝浪水域休閒運動；學習戲水安全與水中抽筋自救方法保障生命安全（p.514 體育目標5；Cc-III-1、Gb-II-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.511 課程架構表] 第八單元 大家來玩水：活動一 趴浪玩水去，安全要注意；[PDF p.620] 第19週：單元八大家來玩水 活動1趴浪玩水去，安全要注意；[PDF p.514] 體育目標5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "活動2 換氣大考驗",
+          "learning_points": [
+            "學會水中換氣並保持動作流暢，體驗自由式的速度感（p.514 體育目標5；Gb-III-2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.511 課程架構表] 活動二 換氣大考驗；[PDF p.620-621] 第20-21週：活動2換氣大考驗；[PDF p.514] 體育目標5。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[4].title",
+      "reason": "ambiguous_edition",
+      "detail": "PDF p.511 課程架構表記載「第五單元 有趣的休閒活動」，而 5-2 教學進度總表（p.615-616）則印為「單元五 有趣的休閒遊戲」。",
+      "recommended_action": "請核對翰林健康與體育五下（第10冊）課本目錄確認第五單元正式名稱。"
+    },
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未列教材內具體 3C 護眼數值守則（如距離時間）、常見成癮物質品項表、抽筋自救分解步驟或羽球／足球規則細目。",
+      "recommended_action": "請提供翰林健體第十冊健康與體育單元課文重點頁以便產出精準常識題。"
+    }
+  ]
+}

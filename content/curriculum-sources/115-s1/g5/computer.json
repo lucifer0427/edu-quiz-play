@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 5,
+    "subject": "電腦（彈性學習課程：數位創客）",
+    "publisher": "宏全資訊（選書表）／學校自編數位創客課程計畫",
+    "book_series": "Scratch3 小創客寫程式（選書表）／數位創客五上（課程計畫）"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T12:38:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 5,
+        "subject": "電腦（彈性學習課程：數位創客）",
+        "publisher": "宏全資訊（選書表）／學校自編數位創客課程計畫",
+        "book_series": "Scratch3 小創客寫程式（選書表）／數位創客五上（課程計畫）"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 5,
+        "subject": "電腦（彈性學習課程：數位創客）",
+        "publisher": "宏全資訊（選書表）／學校自編數位創客課程計畫",
+        "book_series": "Scratch3 小創客寫程式（選書表）／數位創客五上（課程計畫）"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第1–6週：邏輯思考大挑戰",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "邏輯思考大挑戰（流程圖、迴圈、真值表與 Scratch 智慧偵測器）",
+          "learning_points": [
+            "電腦教室使用規則、網路資訊安全與隱私權相關法律、網路道德禮儀（安全教育）。",
+            "數字猜猜看（1A2B）、線對稱與正多邊形規律、埃拉托斯特尼篩法找質數。",
+            "繪製程式流程圖（Flowchart）標準符號、不插電程式、迴圈（Loop）簡化重複指令。",
+            "邏輯真值表（AND、OR、NOT）條件組合推導。",
+            "使用 Scratch 製作「智慧偵測器」（條件判斷積木、偵測滑鼠點擊與顏色播放音效）及 Debug 除錯比賽。"
+          ],
+          "vocabulary": [
+            "Flowchart（流程圖）",
+            "Loop（迴圈）",
+            "AND / OR / NOT（邏輯運算）",
+            "Debug（除錯）"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.756-758 數位創客課程計畫] 週次1-6 單元名稱：邏輯思考大挑戰；[PDF p.1102-1105 6-4進度總表] 第1-6週：邏輯思考大挑戰。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第7–13週：歡樂派對設計師",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "歡樂派對設計師（座標、畫筆多邊形、隨機取數、變數與廣播）",
+          "learning_points": [
+            "座標尋寶：在 Scratch 舞臺背景座標圖將角色移動到 (100,-50) 等指定位置。",
+            "圖像效果（顏色、幻影）積木製作閃爍文字特效。",
+            "畫筆延伸集幾何挑戰：利用「重複幾次」與「轉彎角度」畫多邊形（正三角形 360/3=120 度、正方形 360/4=90 度）。",
+            "變數建立（「中獎號碼」）、邏輯判斷（如果號碼 < 10）、隨機取數與「廣播」訊息、事件觸發（當角色被點擊／按下空格鍵）。"
+          ],
+          "vocabulary": [
+            "座標 (x, y)",
+            "隨機取數",
+            "變數",
+            "廣播"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.758-759 數位創客課程計畫] 週次7-13 單元名稱：歡樂派對設計師；[PDF p.1105-1107 6-4進度總表] 第7-13週：歡樂派對設計師。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第14–21週：生態探險家",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "生態探險家（分身、碰撞偵測、造型進化、計數器與益蟲保護戰）",
+          "learning_points": [
+            "科學定義整合：昆蟲特徵（頭、胸、腹三部分，六隻腳）與蝴蝶完全變態生命週期（卵、幼蟲、蛹、成蟲）。",
+            "Scratch 繪圖與圖層順序調整；使用「重複執行」搭配「隨機取數」與「碰到邊緣就反彈」模擬移動。",
+            "碰撞偵測（「如果」碰到特定顏色／角色）、造型切換（「切換下一個造型」）、廣播「進化」訊息與變數「進食量」計數器。",
+            "「建立自己的分身」模擬大量蚜蟲並整合製作「益蟲保護戰」生態互動遊戲。"
+          ],
+          "vocabulary": [
+            "圖層順序",
+            "碰到邊緣就反彈",
+            "切換下一個造型",
+            "建立自己的分身"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.759-760 數位創客課程計畫] 週次14-21 單元名稱：生態探險家；[PDF p.1107-1110 6-4進度總表] 第14-21週：生態探險家。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "target.book_series",
+      "reason": "ambiguous_edition",
+      "detail": "《115學年教科書版本.pdf》（src-2）於五年級電腦欄列出《Scratch3 小創客寫程式》（宏全資訊）與《Inkscape+Tikercad 小創客動手畫2023》（宏全資訊），而學校《115學年度課程計畫.pdf》（6-2-1 p.756-760 及 6-5 p.1135）則將五年級資訊課程歸於彈性學習課程【數位創客】（賴冠旭設計，上學期為 Scratch 3 單元、下學期為 Inkscape + Tinkercad），且 6-5 教材欄寫「1.數位媒材及網路資源 2.自編教學簡案 3.IPAD 行動車」，未明確載明宏全資訊《Scratch3 小創客寫程式》各章課名。",
+      "recommended_action": "目前單元與教學活動已完整取自學校 115 學年度【數位創客】課程計畫（Tier 1）；若同時有使用《Scratch3 小創客寫程式》實體課本並需依課本章節出題，請提供該書目次頁照片。"
+    }
+  ]
+}

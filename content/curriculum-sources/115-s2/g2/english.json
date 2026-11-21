@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 2,
+    "subject": "英語（彈性學習課程：唱跳趣閱家）",
+    "publisher": "何嘉仁（選書表）／學校自編彈性課程計畫",
+    "book_series": "Fun World 3（選書表）／唱跳趣閱家二下（課程計畫）"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T12:46:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 2,
+        "subject": "英語（彈性學習課程：唱跳趣閱家）",
+        "publisher": "何嘉仁（選書表）／學校自編彈性課程計畫",
+        "book_series": "Fun World 3（選書表）／唱跳趣閱家二下（課程計畫）"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 2,
+        "subject": "英語（彈性學習課程：唱跳趣閱家）",
+        "publisher": "何嘉仁（選書表）／學校自編彈性課程計畫",
+        "book_series": "Fun World 3（選書表）／唱跳趣閱家二下（課程計畫）"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第1–4週：生活小達人：安全與健康的好習慣",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "生活小達人：安全與健康的好習慣（繪本 The Crocodile and the Dentist）",
+          "learning_points": [
+            "英語字母基礎：二下整體學習目標包含認識大小寫字母 Nn-Zz 正確書寫位置並正確書寫（p.677）。",
+            "繪本導讀：The Crocodile and the Dentist；連結貝氏刷牙法與紅綠燈／斑馬線交通安全判斷。",
+            "生活詞彙與課堂用語：Brush teeth, Dentist, Good habit, Bad habit!, \"May I come in?\", \"Please sit down.\"。"
+          ],
+          "vocabulary": [
+            "Brush teeth",
+            "Dentist",
+            "Good habit",
+            "Bad habit!",
+            "May I come in?",
+            "Please sit down."
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.677-678 二年級第二學期【唱跳趣閱家】課程計畫] 週次1-4 單元名稱：生活小達人：安全與健康的好習慣；[PDF p.1062-1064 6-4進度總表] 第1-4週。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第5–9週：守護地球小尖兵：安全探索與行動",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "守護地球小尖兵：安全探索與行動（繪本 The Earth Book & Somebody Swallowed Stanley）",
+          "learning_points": [
+            "繪本導讀：The Earth Book 與 Somebody Swallowed Stanley，認識節約資源與海洋塑膠袋危機。",
+            "環保字彙與生活對話：\"Reduce, Reuse, Recycle\", Tree, Water, Earth, \"Nice to meet you.\", \"May I borrow...? Sure.\"。"
+          ],
+          "vocabulary": [
+            "Reduce",
+            "Reuse",
+            "Recycle",
+            "Tree",
+            "Water",
+            "Earth",
+            "Nice to meet you.",
+            "May I borrow...? Sure."
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.678-679 唱跳趣閱家課程計畫] 週次5-9 單元名稱：守護地球小尖兵：安全探索與行動；[PDF p.1064-1066 6-4進度總表] 第5-9週。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第10–14週：生活中的守護者：超級英雄特訓班",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "生活中的守護者：超級英雄特訓班（繪本 A Hero Like You & This Is My Family）",
+          "learning_points": [
+            "繪本導讀：A Hero Like You 與 This Is My Family，探討性別平等與身邊守護者／家庭安全。",
+            "形容詞彙與禮貌對話：Brave, Kind, Helpful, \"Thank you very much.\", \"Here you are.\"。"
+          ],
+          "vocabulary": [
+            "Brave",
+            "Kind",
+            "Helpful",
+            "Thank you very much.",
+            "Here you are."
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.679-680 唱跳趣閱家課程計畫] 週次10-14 單元名稱：生活中的守護者：超級英雄特訓班；[PDF p.1066-1067 6-4進度總表] 第10-14週（6-4表第10週為守護地球小尖兵、第11-15週為生活中的守護者）。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第15–21週：夏日安全冒險王：戶外探索趣",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "夏日安全冒險王：戶外探索趣（繪本 Summer 與夏日尋寶／水域安全）",
+          "learning_points": [
+            "繪本導讀：Summer；進行夏日單字校園尋寶、大眾運輸搭乘安全與夏季水域活動安全教學。",
+            "指令與日常對話：\"Hurry up!\", \"Wait for me!\", \"Have a nice day.\"。"
+          ],
+          "vocabulary": [
+            "Hurry up!",
+            "Wait for me!",
+            "Have a nice day."
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.680-681 唱跳趣閱家課程計畫] 週次15-21 單元名稱：夏日安全冒險王：戶外探索趣；[PDF p.1068-1070 6-4進度總表] 第16-21週。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "target.book_series / units[*]",
+      "reason": "ambiguous_edition",
+      "detail": "《115學年教科書版本.pdf》（src-2）於二年級英語欄列出「何嘉仁 3 Fun World（含 Qrcode 線上聽）」，但學校《115學年度課程計畫.pdf》（src-1）將低年級英語納入彈性學習課程【唱跳趣閱家】（PDF p.675-681，含 Nn-Zz 字母目標與4個繪本單元），並未載明何嘉仁英語課本下學期（Fun World 3 或 4）的實際課本單元目錄與單字表。",
+      "recommended_action": "已完整記錄校訂【唱跳趣閱家】二下4單元與課堂用語；若需依何嘉仁英語課本單元與單字出題，請提供下學期課本目次頁與 Word List 照片。"
+    }
+  ]
+}

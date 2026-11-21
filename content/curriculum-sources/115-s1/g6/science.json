@@ -1,0 +1,227 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 6,
+    "subject": "自然科學",
+    "publisher": "南一",
+    "book_series": "第七冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:05:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 6,
+        "subject": "自然科學",
+        "publisher": "南一",
+        "book_series": "第七冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 6,
+        "subject": "自然科學",
+        "publisher": "南一",
+        "book_series": "第七冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "一、多樣的天氣變化",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.大氣中的水",
+          "learning_points": [
+            "認識大氣中水的各種形態；藉由模擬雲和霧的實驗認識雲和霧（六上目標1-2）。",
+            "認識雨、雹、雪、露和霜的成因及模擬露和霜形成的溫度差異；了解大自然中水循環過程與天氣變化的關係（六上目標3-6）。",
+            "第1-3週授課（3節/週）；融入海洋教育、品德教育、資訊教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.381 課程架構表] 自然科學六年級上學期 一、多樣的天氣變化：1.大氣中的水；[PDF p.621-622] 第1-3週；[PDF p.384] 上學期學習目標1-6。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.天氣圖與天氣變化",
+          "learning_points": [
+            "學習判讀衛星雲圖；認識地面天氣圖中的符號及其代表的意義；學習判讀衛星雲圖與地面天氣圖的關聯及鋒面通過臺灣對天氣的影響（六上目標7-9）。",
+            "第4週授課；融入海洋教育、品德教育、資訊教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.381 課程架構表] 2.天氣圖與天氣變化；[PDF p.622] 第4週；[PDF p.384] 上學期學習目標7-9。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "3.認識颱風",
+          "learning_points": [
+            "認識颱風的天氣符號、颱風路徑圖等颱風知識；討論颱風所帶來的災害及如何做好防颱工作（六上目標10-11）。",
+            "第5週授課；融入環境教育、海洋教育、品德教育、資訊教育、防災教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.381 課程架構表] 3.認識颱風；[PDF p.623] 第5週；[PDF p.384] 上學期學習目標10-11。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "二、熱對物質的影響",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.物質受熱後的變化",
+          "learning_points": [
+            "透過探究發現液體、氣體、固體都有熱脹冷縮的現象且了解其運用（六上目標12-13）。",
+            "第6-7週授課；融入品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.381 課程架構表] 二、熱對物質的影響：1.物質受熱後的變化；[PDF p.623] 第6-7週；[PDF p.384-385] 上學期學習目標12-13。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.熱的傳播方式",
+          "learning_points": [
+            "藉由實驗操作發現熱會由高溫處傳到低溫處（熱的傳導），知道熱的對流與熱輻射（六上目標14-16）。",
+            "第8-10週授課；融入品德教育、閱讀素養教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.381 課程架構表] 2.熱的傳播方式；[PDF p.624] 第8-10週；[PDF p.385] 上學期學習目標14-16。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "3.保溫與散熱",
+          "learning_points": [
+            "透過日常生活經驗知道保溫的方法與散熱的方法（六上目標17-18）。",
+            "第10週授課（與2.熱的傳播方式及評量週併週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.381 課程架構表] 3.保溫與散熱；[PDF p.624] 第10週：評量週 2.熱的傳播方式 / 3.保溫與散熱；[PDF p.385] 上學期學習目標17-18。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "三、變動的大地",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.流水的作用",
+          "learning_points": [
+            "藉由資料與流水實驗認識流水改變大地樣貌及對地表形貌的影響，發覺河流上游、中游與下游的不同地貌（六上目標19-21）。",
+            "第11週授課；融入環境教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.381 課程架構表] 三、變動的大地：1.流水的作用；[PDF p.625] 第11週；[PDF p.385] 上學期學習目標19-21。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.水岸地貌",
+          "learning_points": [
+            "藉由實驗知道河流中有凸岸與凹岸不同的地貌，透過觀察知道海水的作用會造成各種不同的海岸地形（六上目標22-23）。",
+            "第12週授課；融入環境教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.381 課程架構表] 2.水岸地貌；[PDF p.625] 第12週；[PDF p.385] 上學期學習目標22-23。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "3.地表組成",
+          "learning_points": [
+            "透過觀察認識岩石與礦物及其生活中的應用；藉由岩石風化作用了解土壤是岩石風化碎屑及生物遺體腐化分解後的物質；透過化石觀察知道古生物樣貌（六上目標24-28）。",
+            "第13-14週授課；融入環境教育、人權教育、閱讀素養教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.381 課程架構表] 3.地表組成；[PDF p.626] 第13-14週；[PDF p.385] 上學期學習目標24-28。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "四、奇妙的電磁世界",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.指北針與地磁",
+          "learning_points": [
+            "透過實驗發現指北針的指針是磁鐵，受到地磁影響而固定指向南北；了解通電的漆包線線圈會產生磁性使指北針指針偏轉（六上目標29-32）。",
+            "第15週授課；融入環境教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.381 課程架構表] 四、奇妙的電磁世界：1.指北針與地磁；[PDF p.626] 第15週；[PDF p.385] 上學期學習目標29-32。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.神奇的電磁鐵",
+          "learning_points": [
+            "透過實驗認識電磁鐵，探究影響電磁鐵磁力強弱的因素，並分辨電磁鐵與一般磁鐵的相同或不同性質（六上目標33-35）。",
+            "第16-19週授課；融入人權教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.381 課程架構表] 2.神奇的電磁鐵；[PDF p.627-628] 第16-19週；[PDF p.385] 上學期學習目標33-35。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "3.電磁作用與生活的關係",
+          "learning_points": [
+            "藉由資料認識日常生活中電磁鐵裝置應用在電器產品上（原文寫作「店器產品」），並認識日常生活中的電磁波（六上目標36-37）。",
+            "第20週授課（含評量週；第21週為休業式）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.381 課程架構表] 3.電磁作用與生活的關係；[PDF p.628] 第20週：評量週 3.電磁作用與生活的關係；第二十一週：休業式；[PDF p.385] 上學期學習目標36-37。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未單獨整理各單元核心科學名詞表與實驗器材操作步驟圖解清單。",
+      "recommended_action": "如須建立科學專有名詞配對題庫，請輔以南一自然科學第七冊（六上）課本重點整理頁。"
+    }
+  ]
+}

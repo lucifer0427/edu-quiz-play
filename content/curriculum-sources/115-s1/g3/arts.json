@@ -1,0 +1,209 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 3,
+    "subject": "藝術",
+    "publisher": "翰林",
+    "book_series": "第一冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T15:55:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 3,
+        "subject": "藝術",
+        "publisher": "翰林",
+        "book_series": "第一冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 3,
+        "subject": "藝術",
+        "publisher": "翰林",
+        "book_series": null
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第壹單元 視覺萬花筒",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "一．色彩大發現",
+          "learning_points": [
+            "視覺藝術課（1節/週），第1-4週授課，融入性別平等教育；探索色彩感知與生活之美。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.392 課程架構表] 藝術(第一冊) 第壹單元 視覺萬花筒：一．色彩大發現；[PDF p.566-567] 第1-4週：壹、視覺萬花筒 一、色彩大發現。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "二．形狀大師",
+          "learning_points": [
+            "視覺藝術課（1節/週），第5-14週授課，融入戶外教育、環境教育、生命教育；設計不同形狀並拼貼創作，欣賞畢卡索、馬諦斯、阿爾欽博多等作品（p.395 目標1-8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.392 課程架構表] 二．形狀大師；[PDF p.567-570] 第5-14週：二、形狀大師；[PDF p.395] 上學期學習目標1-8。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "三．光的魔法",
+          "learning_points": [
+            "視覺藝術課（1節/週），第15-20週授課，融入環境教育、性別平等教育、多元文化教育；觀察校園樹的光線變化、畫樹與校園、創作煙火並欣賞光線與色彩（p.395 目標9-12）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.392 課程架構表] 三．光的魔法；[PDF p.570-572] 第15-20週：三、光的魔法；[PDF p.395] 上學期學習目標9-12。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第貳單元 表演任我行",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "一．玩具總動員",
+          "learning_points": [
+            "表演藝術課（1節/週），第1-7週授課，融入人權教育、戶外教育、科技教育、品德教育；以玩具身分自我介紹、配合節奏空間走動並以肢體呈現玩具姿態（p.395 目標13-16）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.392 課程架構表] 第貳單元 表演任我行：一．玩具總動員；[PDF p.566-568] 第1-7週：貳、表演任我行 一、玩具總動員；[PDF p.395] 上學期學習目標13-16。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "二．玩具歷險記",
+          "learning_points": [
+            "表演藝術課（1節/週），第8-14週授課，融入戶外教育、品德教育、生涯規劃教育、科技教育、家庭教育；專注聆聽、肢體伸展與團隊合作發展創意活動關卡（p.395 目標17-21）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.392 課程架構表] 二．玩具歷險記；[PDF p.568-570] 第8-14週：二、玩具歷險記；[PDF p.395] 上學期學習目標17-21。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "三．玩劇大方秀",
+          "learning_points": [
+            "表演藝術課（1節/週），第15-20週授課，融入生涯規劃教育、品德教育、人權教育、閱讀素養教育；情緒表演練習、建構基本故事情節與角色扮演（p.395 目標22-27）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.392 課程架構表] 三．玩劇大方秀；[PDF p.570-572] 第15-20週：三、玩劇大方秀；[PDF p.395] 上學期學習目標22-27。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第參單元 音樂美樂地",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "一．線譜上的音樂",
+          "learning_points": [
+            "音樂課（1節/週），第1-5週授課，融入人權教育；說出音樂在生活中的功能和重要性，認識五線譜的記譜法（p.395 目標28-29）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.392 課程架構表] 第參單元 音樂美樂地：一．線譜上的音樂；[PDF p.566-567] 第1-5週：參、音樂美樂地 一、線譜上的音樂；[PDF p.395] 上學期學習目標28-29。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "二．豐富多樣的聲音",
+          "learning_points": [
+            "音樂課（1節/週），第6-10週授課，融入性別平等教育、生涯規劃教育、人權教育；探索多樣聲音與基礎歌唱／演奏表現。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.392 課程架構表] 二．豐富多樣的聲音；[PDF p.567-569] 第6-10週：二、豐富多樣的聲音。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "三．傾聽大自然",
+          "learning_points": [
+            "音樂課（1節/週），第11-15週授課，融入環境教育、多元文化教育、人權教育、海洋教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.392 課程架構表] 三．傾聽大自然；[PDF p.569-570] 第11-15週：三‧傾聽大自然。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "四．歡欣鼓舞的音樂",
+          "learning_points": [
+            "音樂課（1節/週），第16-20週授課，融入性別平等教育、人權教育、生涯規劃教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.392 課程架構表] 四．歡欣鼓舞的音樂；[PDF p.571-572] 第16-20週：四‧歡欣鼓舞的音樂。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第肆單元 統整課程",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "上上下下真有趣",
+          "learning_points": [
+            "第21週三科統整課程（音樂、視覺藝術、表演藝術），融入生命教育、閱讀素養教育、品德教育；另本教材含學校自編木作課程（p.398）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.392 課程架構表] 第肆單元 統整課程：上上下下真有趣；[PDF p.572 5-2教學進度總表] 第21週：肆、統整課程 上上下下真有趣（註：音樂與表演欄誤植缺字「上下下真有趣」）。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].learning_points",
+      "reason": "source_not_found",
+      "detail": "課程計畫未詳列音樂課各課完整歌曲曲目、音符／拍號譜例，亦未列出視覺／表演各課作品範例與實作步驟（另 5-1-1 p.398 提及含自編木作課程但未附獨立進度表）。",
+      "recommended_action": "請提供翰林藝術三上（第一冊）課本目次頁與各單元曲目／鑑賞作品清單。"
+    },
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "來源未列專有藝術／音樂術語詞彙表。",
+      "recommended_action": "請補充課本各單元重要術語與樂理整理頁。"
+    }
+  ]
+}

@@ -1,0 +1,360 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 6,
+    "subject": "藝術",
+    "publisher": "康軒",
+    "book_series": "第八冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:05:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 6,
+        "subject": "藝術",
+        "publisher": "康軒",
+        "book_series": "第八冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 6,
+        "subject": "藝術",
+        "publisher": "康軒",
+        "book_series": null
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 世界音樂",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1-1 唱遊世界",
+          "learning_points": [
+            "音樂課（1節/週）；演唱不同國家／民族的歌曲，感受世界民謠的多元性；認識特色音階並創作曲調以直笛演奏（六下目標1-2）。",
+            "第1-3週授課；融入多元文化教育、國際教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.421 課程架構表] 藝術6下 第一單元 世界音樂：第一課唱遊世界；[PDF p.629-630] 第1-3週：1-1 唱遊世界 1；[PDF p.423] 六下學習目標1-2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "1-2 樂器嘉年華",
+          "learning_points": [
+            "音樂課（1節/週）；透過欣賞傳統樂器音色及演奏方式，感受濃厚的民族風采（六下目標3）。",
+            "第4-6週授課；融入人權教育、多元文化教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.421 課程架構表] 第二課樂器嘉年華；[PDF p.630-631] 第4-6週：1-2 樂器嘉年華 1；[PDF p.423] 六下學習目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "1-3 小小愛笛生",
+          "learning_points": [
+            "音樂課（1節/週）；以直笛演奏世界音樂曲調（六下目標2；第7週授課；融入人權教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.421 課程架構表] 第三課小小愛笛生；[PDF p.631] 第7週：1-3 小小愛笛生 1；[PDF p.423] 六下學習目標2。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 展翅高歌",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "2-1 心靈旅程",
+          "learning_points": [
+            "音樂課（1節/週）；透過演唱與肢體律動體驗音樂節奏，透過欣賞或歌詞意境感受音樂之美（六下目標4-5；第8-10週授課；融入人權教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.421 課程架構表] 第二單元 展翅高歌：第一課心靈旅程；[PDF p.632-633] 第8-10週：2-1 心靈旅程 1；[PDF p.423] 六下學習目標4-5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2-2 愛的祝福",
+          "learning_points": [
+            "音樂課（1節/週）；透過演唱畢業與祝福主題歌曲感受音樂情感並體驗節奏美感（六下目標4-5；第11-13週授課；融入人權教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.421 課程架構表] 第二課愛的祝福；[PDF p.633] 第11-13週：2-2 愛的祝福 1；[PDF p.423] 六下學習目標4-5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "2-3 小小愛笛生",
+          "learning_points": [
+            "音樂課（1節/週）；複習直笛二部合奏（六下目標6；第14週授課）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.421 課程架構表] 第三課小小愛笛生；[PDF p.634] 第14週：2-3 小小愛笛生 1；[PDF p.423] 六下學習目標6。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元 歡迎來看我的畢業展",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "3-1 抓住你的目光",
+          "learning_points": [
+            "視覺藝術（1節/週）；認識平面文宣視覺吸引力與設計構成（六下目標7, 9；第1週授課；融入人權教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.421 課程架構表] 第三單元 歡迎來看 我的畢業展：第一課抓住你的目光；[PDF p.629] 第1週：3-1 抓住你的目光 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "3-2 字裡行間表情意",
+          "learning_points": [
+            "視覺藝術（1節/週）；分析字體與文案在平面設計中的表情達意效果（六下目標9-10；第2週授課；融入人權教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.421 課程架構表] 第二課字裡行間表情意；[PDF p.629] 第2週：3-2 字裡行間表情意 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "3-3 版面編排趣",
+          "learning_points": [
+            "視覺藝術（1節/週）；能描述版面設計構成要素並運用版面構成進行設計（六下目標7, 9；第3週授課；融入人權教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.421 課程架構表] 第三課版面編排趣；[PDF p.630] 第3週：3-3 版面編排趣 1；[PDF p.423] 六下學習目標7, 9。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "3-4 讓海報更「出色」",
+          "learning_points": [
+            "視覺藝術（1節/週）；運用色彩配置進行平面海報文宣設計（六下目標7-8；第4週授課；融入科技教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.421 課程架構表] 第四課讓海報更「出色」；[PDF p.630] 第4週：3-4 讓海報更「出色」 1；[PDF p.423] 六下學習目標7-8。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 5,
+          "title": "3-5 讓邀請卡動起來",
+          "learning_points": [
+            "視覺藝術（1節/週）；運用多元媒材創作平面或立體邀請卡並分析其形式特色（六下目標8, 10；第5-6週授課；融入科技教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.421 課程架構表] 第五課讓邀請卡動起來；[PDF p.630-631] 第5-6週：3-5 讓邀請卡動起來 1；[PDF p.423] 六下學習目標8, 10。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 6,
+          "title": "3-6 讓看展有「藝」思",
+          "learning_points": [
+            "視覺藝術（1節/週）；創作導覽手冊並應用多元形式呈現展覽資訊與相關內容（六下目標8, 11；第7週授課；融入科技教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.421 課程架構表] 第六課讓看展有「藝」思；[PDF p.631] 第7週：3-6 讓看展有「藝」思 1；[PDF p.423] 六下學習目標8, 11。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第四單元 校園遊戲場改造計畫",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "4-1 需求調查員",
+          "learning_points": [
+            "視覺藝術（1節/週）；運用設計思考步驟調查校園遊戲場使用需求（六下目標12, 14；第8週授課；融入人權教育、資訊教育、科技教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.421 課程架構表] 第四單元 校園遊戲場 改造計畫：第一課需求調查員；[PDF p.632] 第8週：4-1 需求調查員 1；[PDF p.423] 六下學習目標12, 14。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "4-2 尋找特色遊戲場",
+          "learning_points": [
+            "視覺藝術（1節/週）；能欣賞並說明不同遊戲場的特色與感受（六下目標13；第9週授課；融入人權教育、戶外教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.421 課程架構表] 第二課尋找特色遊戲場；[PDF p.632] 第9週：4-2 尋找特色遊戲場 1；[PDF p.423] 六下學習目標13。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "4-3 點子大集合",
+          "learning_points": [
+            "視覺藝術（1節/週）；發想具備藝術美感與使用需求之遊戲場設計點子（六下目標12, 14；第10週授課；融入人權教育、資訊教育、科技教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.421 課程架構表] 第三課點子大集合；[PDF p.633] 第10週：4-3 點子大集合 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "4-4 我們的遊戲場",
+          "learning_points": [
+            "視覺藝術（1節/週）；運用設計思考設計校園內的遊戲場草圖與空間規畫（六下目標14；第11週授課；融入人權教育、戶外教育、科技教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.421 課程架構表] 第四課我們的遊戲場；[PDF p.633] 第11週：4-4 我們的遊戲場 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 5,
+          "title": "4-5 創作遊戲場模型",
+          "learning_points": [
+            "視覺藝術（1節/週）；動手製作校園遊戲場立體模型（六下目標14；第12-13週授課；融入人權教育、戶外教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.421 課程架構表] 第五課創作遊戲場模型；[PDF p.633] 第12-13週：4-5 創作遊戲場模型 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 6,
+          "title": "4-6 展示我的遊戲場",
+          "learning_points": [
+            "視覺藝術（1節/週）；展示並分享遊戲場設計作品與設計理念（六下目標12-14；第14週授課；融入人權教育、戶外教育、資訊教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.421 課程架構表] 第六課展示我的遊戲場；[PDF p.634] 第14週：4-6 展示我的遊戲場 1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "第五單元 戲劇百寶箱",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "5-1 讓我帶你去看戲",
+          "learning_points": [
+            "表演藝術（1節/週）；認識舞臺形式（六下目標15；第1-2週授課；融入人權教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.421 課程架構表] 第五單元 戲劇百寶箱：第一課讓我帶你去看戲；[PDF p.629] 第1-2週：5-1 讓我帶你去看戲 1；[PDF p.423] 六下學習目標15。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "5-2 跨國界的表演藝術",
+          "learning_points": [
+            "表演藝術（1節/週）；欣賞東西方融合的表演藝術演出團隊（六下目標16；第3-5週授課；融入國際教育、人權教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.421 課程架構表] 第二課跨國界的表演藝術；[PDF p.630] 第3-5週：5-2 跨國界的表演藝術 1；[PDF p.423] 六下學習目標16。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "5-3 戲服說故事",
+          "learning_points": [
+            "表演藝術（1節/週）；了解舞臺服裝造型設計的概念（六下目標17；第6-14週授課；融入人權教育、國際教育、科技教育、性別平等教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.421 課程架構表] 第三課戲服說故事；[PDF p.631-634] 第6-14週：5-3 戲服說故事 1；[PDF p.423] 六下學習目標17。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "第六單元 祝福與回憶",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "6-1 珍藏自己",
+          "learning_points": [
+            "視覺藝術（1節/週）；運用多樣媒材與技法繪畫自畫像，並從藝術家自畫像中觀察視覺元素、色彩與構圖（六下目標19-20；第15-17週授課；融入人權教育、品德教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.421 課程架構表] 第六單元 祝福與回憶：第一課珍藏自己；[PDF p.634-635] 第15-17週：6-1 珍藏自己 1；[PDF p.423] 六下學習目標19-20。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "6-2 祝福的樂聲",
+          "learning_points": [
+            "音樂課（1節/週）；透過演唱與肢體律動體驗音樂節奏，以歌聲傳達畢業祝福與回憶（六下目標18；第15-17週授課；融入人權教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.421 課程架構表] 第二課祝福的樂聲；[PDF p.634-635] 第15-17週：6-2 祝福的樂聲 1；[PDF p.423] 六下學習目標18。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "6-3 屬於我們的故事",
+          "learning_points": [
+            "表演藝術（1節/週）；整合戲劇表演呈現屬於班級與畢業生的回憶故事（第15-17週授課；第18週為畢業週；融入人權教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.421 課程架構表] 第三課屬於我們的故事；[PDF p.634-635] 第15-17週：6-3 屬於我們的故事 1；第18週：畢業週。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未列康軒藝術第八冊（六下）各課實際曲目名稱、欣賞畫作／表演團隊與自畫像藝術家名錄。",
+      "recommended_action": "請提供康軒藝術第八冊課本目次頁照片以補齊各課欣賞曲目與藝術家作品名稱。"
+    }
+  ]
+}

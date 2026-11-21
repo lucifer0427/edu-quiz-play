@@ -1,0 +1,365 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 1,
+    "subject": "健康與體育",
+    "publisher": "翰林",
+    "book_series": "第二冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T15:55:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 1,
+        "subject": "健康與體育",
+        "publisher": "翰林",
+        "book_series": "第二冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 1,
+        "subject": "健康與體育",
+        "publisher": "翰林",
+        "book_series": "第二冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "單元一、心情追追追",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.情緒調色盤",
+          "learning_points": [
+            "認識並接納自己的情緒，學習克制衝動及合宜表達情緒（一下健康目標1-2）；健康雙語單元 How do you feel?（繪本 The color monster，以顏色分辨不同心情）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.483 課程架構表] 健體一下 單元一、心情追追追：1.情緒調色盤；[PDF p.547-548] 第1-5週：活動一、情緒調色盤；[PDF p.484] 下學期【健康】目標1-2；[PDF p.529] 健康雙語：How do you feel? 心情追追追。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.情緒處理機",
+          "learning_points": [
+            "學習合宜的情緒調適與表達方法（一下健康目標2、Fa-I-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.483 課程架構表] 2.情緒處理機；[PDF p.549] 第6-7週：活動二、情緒處理機；[PDF p.484] 下學期【健康】目標2。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "單元二、男女齊步走",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.做身體的主人",
+          "learning_points": [
+            "分辨舒服與不舒服的身體碰觸，認識身體隱私部位及身體自主權，建立「做自己身體的主人」觀念並學習求助應變（一下健康目標3、Db-I-2）；健康雙語單元 Body Boundary。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.483 課程架構表] 單元二、男女齊步走：1.做身體的主人；[PDF p.550] 第8-10週：活動一、做身體的主人；[PDF p.484] 下學期【健康】目標3；[PDF p.530] 健康雙語：Body Boundary 男女齊步走。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.超級比一比",
+          "learning_points": [
+            "檢視學校活動或家務工作，了解根據興趣與能力分配工作的合理性，兩性互相包容尊重（一下健康目標4、Db-I-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.483 課程架構表] 2.超級比一比（框線略裁）；[PDF p.551] 第11-13週：活動二、超級比一比；[PDF p.484] 下學期【健康】目標4。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "單元三、疾病小百科",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.生病了，怎麼辦",
+          "learning_points": [
+            "發表生病時感受和處理方法，了解如何與醫師、護士或藥師配合以恢復健康（一下健康目標5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.483 課程架構表] 單元三、疾病小百科：1.生病了，怎麼辦；[PDF p.551-552] 第14-16週：活動一、生病了怎麼辦；[PDF p.485] 下學期【健康】目標5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.用藥停看聽",
+          "learning_points": [
+            "認識藥袋說明並遵照使用方法按時用藥，培養正確用藥觀念（一下健康目標6、Bb-I-1）；健康雙語單元 Be brave.（繪本 Be brave）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.483 課程架構表] 2.用藥停看聽；[PDF p.552-553] 第17-18週：活動二、用藥停看聽；[PDF p.485] 下學期【健康】目標6；[PDF p.530] 健康雙語：Be brave. 用藥安全。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "活動三、疾病知多少（見 5-2 第19–21週教學進度總表）",
+          "learning_points": [
+            "認識疾病傳染途徑和預防方法（如腸病毒、流感），了解「預防重於治療」並增強抵抗力（一下健康目標7、Fb-I-2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.553 5-2教學進度總表] 第十九至廿一週：單元三、疾病小百科 活動三、疾病知多少；[PDF p.485] 下學期【健康】目標7；[PDF p.530] 結合疾病介紹：腸病毒、流感。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "單元四、跳一跳、動一動",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.伸展一下",
+          "learning_points": [
+            "實作伸展運動，知道運動前、後伸展的重要性（一下體育目標3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.483 課程架構表] 單元四、跳一跳、動：1.伸展一下；[PDF p.547] 第1-2週：單元四、跳一跳、動一動 活動一、伸展一下；[PDF p.485] 下學期【體育】目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.長大真好",
+          "learning_points": [
+            "了解跳躍基本動作技巧並做出單、雙腳跳聯合性動作（一下體育目標6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.483 課程架構表] 2.長大真好；[PDF p.548] 第3週：活動二、長大真好；[PDF p.485] 下學期【體育】目標6。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "3.我愛唱跳",
+          "learning_points": [
+            "唱、跳與模仿性律動遊戲（Ib-I-1）並增進運動興趣（一下體育目標1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.483 課程架構表] 3.我愛唱跳；[PDF p.548] 第4週：活動三、我愛唱跳；[PDF p.485] 下學期【體育】目標1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "單元五、高手來過招",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.功夫小子",
+          "learning_points": [
+            "經由武術模仿遊戲學會武術拳與掌的基本動作並與他人合作進行創作動作遊戲（一下體育目標4、Bd-I-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.483 課程架構表] 單元五、高手來過招：1.功夫小子；[PDF p.548-549] 第5-6週：活動一、功夫小子；[PDF p.485] 下學期【體育】目標4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.童玩世界",
+          "learning_points": [
+            "透過各式童玩體驗與遊戲提升體能與協調性，領略傳統美好（一下體育目標5、Ic-I-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.483 課程架構表] 2.童玩世界；[PDF p.549-550] 第7-8週：活動二、童玩世界；[PDF p.485] 下學期【體育】目標5。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "單元六、我愛運動",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.常運動好處多",
+          "learning_points": [
+            "知道運動的益處進而願意增加運動機會（一下體育目標1、7）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.483 課程架構表] 單元六、我愛運動：1.常運動好處多；[PDF p.550] 第9週：活動一、常運動好處多；[PDF p.485] 下學期【體育】目標1、7。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.運動場地大探索",
+          "learning_points": [
+            "認識校園運動資源並遵守使用規定（一下體育目標2、8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.483 課程架構表] 2.運動場地大探索；[PDF p.550] 第9週：活動二、運動場地大探索；[PDF p.485] 下學期【體育】目標2、8。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "3.動出好活力（5-2第10週誤作「單元六、高手來過招 活動三、動出好體力」）",
+          "learning_points": [
+            "運動技能與體能活動練習（注意 5-1-1 p.483 與 5-2 p.550 單元活動名稱差異）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.483 課程架構表] 3.動出好活力；[PDF p.550] 第10週：單元六、高手來過招 活動三、動出好體力。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "4.滾出活力",
+          "learning_points": [
+            "滾翻、支撐、平衡遊戲（Ia-I-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.483 課程架構表] 4 滾出活力；[PDF p.551] 第11週：單元六、我愛運動 活動四、滾出活力。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 5,
+          "title": "活動五、有趣的平衡遊戲（見 5-2 第12週教學進度總表）",
+          "learning_points": [
+            "平衡性身體控制遊戲（Ia-I-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.551 5-2教學進度總表] 第十二週：單元六、我愛運動 活動五、有趣的平衡遊戲。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 7,
+      "title": "單元七、球類運動樂趣多",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.飛向天空好（5-2進度表作「活動一、飛向天空」）",
+          "learning_points": [
+            "藉由氣球多樣的擊球遊戲降低運動學習門檻，引發學習興趣（一下體育目標9）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.483 課程架構表] 單元七、球類運動樂：1.飛向天空好；[PDF p.551] 第13週：單元七、球類運動樂趣多 活動一、飛向天空；[PDF p.485] 下學期【體育】目標9。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.百發百中",
+          "learning_points": [
+            "透過大、小球的拋球體驗與練習學習基本運動要領並增進運動技能（一下體育目標10）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.483 課程架構表] 2.百發百中；[PDF p.551-552] 第14-15週：活動二、百發百中；[PDF p.485] 下學期【體育】目標10。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "3.拍球樂無窮",
+          "learning_points": [
+            "透過各種用手拍球練習與遊戲增進用手控球靈活度與協調性（一下體育目標11）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.483 課程架構表] 3.拍球樂無窮；[PDF p.552] 第16-17週：活動三、拍球樂無窮；[PDF p.485] 下學期【體育】目標11。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "4.踢踢樂",
+          "learning_points": [
+            "用腳踢、控、停球類動作協調練習（Hb-I-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.483 課程架構表] 4.踢踢樂；[PDF p.553] 第18-19週：活動四、踢踢樂。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 8,
+      "title": "單元八、玩水樂無窮",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.夏日戲水停看聽",
+          "learning_points": [
+            "分享水域活動經驗並學習挑選游泳裝備方法（一下體育目標12-13）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.483 課程架構表] 單元八、玩水樂無窮：1.夏日戲水停看聽；[PDF p.553] 第20週：單元八、玩水樂無窮 活動一、夏日戲水停看聽；[PDF p.485] 下學期【體育】目標12-13。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "活動二、泳池安全知多少（見 5-2 第21週教學進度總表）",
+          "learning_points": [
+            "了解游泳池安全規範與衛生常識（一下體育目標14、Gb-I-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.553 5-2教學進度總表] 第廿一週：單元八、玩水樂無窮 活動二、泳池安全知多少；[PDF p.485] 下學期【體育】目標14。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[2].lessons[2] / units[5].lessons[2,4] / units[7].lessons[1]",
+      "reason": "ambiguous_edition",
+      "detail": "5-1-1 課程架構表（PDF p.483）未列「活動三、疾病知多少」、「活動五、有趣的平衡遊戲」、「活動二、泳池安全知多少」，但 5-2 教學進度總表（PDF p.551, 553）有列且對應下學期學習目標；另 p.483 作「單元六 3.動出好活力」，5-2 第10週誤作「單元六、高手來過招 活動三、動出好體力」。",
+      "recommended_action": "請核對翰林健體一下（第二冊）課本目錄頁確認各活動實際名稱。"
+    },
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未附藥袋閱讀細目圖例、身體界線求助具體步驟或傳染病預防細項圖表。",
+      "recommended_action": "如需就用藥安全與身體隱私知識點出細題，請補拍翰林健體一下課本單元一～三課文頁。"
+    }
+  ]
+}

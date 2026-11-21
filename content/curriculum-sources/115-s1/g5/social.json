@@ -1,0 +1,220 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 5,
+    "subject": "社會",
+    "publisher": "康軒",
+    "book_series": "第五冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T12:38:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 5,
+        "subject": "社會",
+        "publisher": "康軒",
+        "book_series": "第五冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 5,
+        "subject": "社會",
+        "publisher": "康軒",
+        "book_series": "第五冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 臺灣我的家",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第1課 臺灣的地理位置與文化發展有何關係？",
+          "learning_points": [
+            "透過認識臺灣在世界中的位置與範圍，思考人們如何和平相處（Ab-Ⅲ-1）。",
+            "融入海洋教育、國際教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.338 課程架構表] 社會5上 -> 第一單元 臺灣我的家：第1課 臺灣的地理位置與文化發展有何關係？；[PDF p.604-605] 第1-2週；[PDF p.340] 五上學習目標1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第2課 社會規範如何影響人們的行為？",
+          "learning_points": [
+            "闡述社會規範的意義並理解規範如何導引個人與群體行為（Aa-Ⅲ-2、Aa-Ⅲ-4）。",
+            "融入人權教育、品德教育、多元文化教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.338 課程架構表] 第2課 社會規範如何影響人們的行為？；[PDF p.605-606] 第3-4週。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第3課 為什麼法律與我們的生活有關係？",
+          "learning_points": [
+            "闡述法律的意義與保障人民權利、維護社會秩序之功能（Ac-Ⅲ-2）。",
+            "融入法治教育、資訊教育、多元文化教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.338 課程架構表] 第3課 為什麼法律與我們的生活有關係？；[PDF p.606] 第5-6週。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 臺灣的自然環境與生活",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第1課 地形如何影響我們的生活？",
+          "learning_points": [
+            "認識臺灣的環境及自然與人文環境的交互影響，並探討臺灣重要的資源及如何珍惜資源、永續經營（Ab-Ⅲ-3、Bb-Ⅲ-1）。",
+            "融入環境教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.338 課程架構表] 第二單元 臺灣的自然環境與生活：第1課 地形如何影響我們的生活？；[PDF p.607] 第7週；[PDF p.340] 五上學習目標2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第2課 氣候如何影響我們的生活？",
+          "learning_points": [
+            "認識臺灣的氣候環境及可能發生的自然災害，並探討珍惜資源與永續經營（Ab-Ⅲ-3、Bb-Ⅲ-1）。",
+            "融入環境教育、防災教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.338 課程架構表] 第2課 氣候如何影響我們的生活？；[PDF p.607-608] 第8-9週。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元 尋根探源話臺灣",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第1課 史前人類如何利用環境與資源來生活？",
+          "learning_points": [
+            "透過觀察史前時代人們的器物演變，體會技術的進步對生活的影響（Cb-Ⅲ-2）。",
+            "融入資訊教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.338 課程架構表] 第三單元 尋根探源話臺灣：第1課 史前人類如何利用環境與資源來生活？；[PDF p.608] 第10-11週；[PDF p.340] 五上學習目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第2課 原住民族如何與環境共存？",
+          "learning_points": [
+            "思考原住民族如何透過生活智慧，達成環境永續（Bc-Ⅲ-1、Cb-Ⅲ-2）。",
+            "融入原住民族教育、資訊教育、多元文化教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.338 課程架構表] 第2課 原住民族如何與環境共存？；[PDF p.609] 第12-13週；[PDF p.340] 五上學習目標3。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第四單元 大航海時代的臺灣",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第1課 大航海時代臺灣如何登上世界舞臺？",
+          "learning_points": [
+            "認識大航海時代下臺灣的位置與其位置的意義（Ab-Ⅲ-1、Cb-Ⅲ-1）。",
+            "融入海洋教育、國際教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.338 課程架構表] 第四單元 大航海時代的臺灣：第1課 大航海時代臺灣如何登上世界舞臺？；[PDF p.609-610] 第14-15週；[PDF p.340] 五上學習目標4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第2課 大航海時代有哪些人經營臺灣？",
+          "learning_points": [
+            "說明荷蘭人、西班牙人與鄭氏時期的歷史更迭（Cb-Ⅲ-1、Cc-Ⅲ-2）。",
+            "融入海洋教育、多元文化教育、國際教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.338 課程架構表] 第2課 大航海時代有哪些人經營臺灣？；[PDF p.610-611] 第16-17週；[PDF p.340] 五上學習目標4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第3課 大航海時代對臺灣帶來什麼影響？",
+          "learning_points": [
+            "認識大航海時代對臺灣留下的歷史變遷與文化影響（Cb-Ⅲ-1、Cb-Ⅲ-2）。",
+            "融入海洋教育、多元文化教育、資訊教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.338 課程架構表] 第3課 大航海時代對臺灣帶來什麼影響？；[PDF p.611-612] 第18-19週。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "主題探究與實作單元",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "守護臺灣最美的風景",
+          "learning_points": [
+            "透過引發學生對課本中景點的好奇，實際規劃旅遊行程並探訪，深化學習，並貼近生活，讓學生愛上自己所處的這塊土地。",
+            "另依 5-1-1（p.341）與 6-6（p.1137），五年級社會領域另融入桃園市在地化教材《賞桃園》6節（主要列於五下課程架構表）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.338 課程架構表] 主題探究與實作單元；[PDF p.612] 第20週：主題探究與實作單元 守護臺灣最美的風景 3節【資訊教育】【閱讀素養教育】；[PDF p.340] 五上學習目標5。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書包含完整 4 單元 10 課＋探究單元名稱與五上學習目標，但未逐課詳列課本提到的專有名詞（例如各史前文化遺址具體名單、原住民族各族祭典專詞或荷西鄭氏時期特定條約年份細節）。",
+      "recommended_action": "請提供康軒國小社會第五冊（五上）課本重點整理或目次／課文頁面，以確保出題不超出課本範圍。"
+    }
+  ]
+}

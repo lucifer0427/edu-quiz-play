@@ -1,0 +1,203 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 2,
+    "subject": "本土語文-客語",
+    "publisher": "康軒",
+    "book_series": "第3冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T12:46:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 2,
+        "subject": "本土語文-客語",
+        "publisher": "康軒",
+        "book_series": "第3冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 2,
+        "subject": "本土語文-客語",
+        "publisher": "康軒",
+        "book_series": "第3冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 四季仰般著",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一課 仰會",
+          "learning_points": [
+            "學習四季客語語詞，了解四季與氣候變化（目標1-2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.131 課程架構表] 客語第3冊 第一單元 四季仰般著：第一課 仰會；[PDF p.554-555] 第1-3週：第一課仰會 1；[PDF p.132] 二上目標1-2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第二課 愛著麼个衫",
+          "learning_points": [
+            "熟悉日常服裝名稱，配合天氣穿合宜服裝與場合禮節（目標3-4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.131 課程架構表] 第二課 愛著麼个衫；[PDF p.555] 第4-6週：第二課愛著麼个衫 1；[PDF p.132] 二上目標3-4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元活動一",
+          "learning_points": [
+            "認識客家藍衫的特色、價值與象徵意義（目標5-6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.131 課程架構表] 單元活動一；[PDF p.555-556] 第7週：單元活動一 1；[PDF p.132] 二上目標5-6。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 認識自家",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第三課 恁相像",
+          "learning_points": [
+            "學習描述臉部器官，欣賞自己與他人異同（目標7-8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.131 課程架構表] 第二單元 認識自家：第三課 恁相像；[PDF p.556] 第8-10週：第三課恁相像 1；[PDF p.132] 二上目標7-8。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第四課 洗身",
+          "learning_points": [
+            "熟悉身體部位語詞，愛護身體並培養每日洗澡衛生習慣（目標9-10）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.131 課程架構表] 第四課 洗身；[PDF p.557] 第11-13週：第四課洗身 1；[PDF p.132] 二上目標9-10。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元活動二",
+          "learning_points": [
+            "認識新竹內灣及客家野薑花粽（目標11）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.131 課程架構表] 單元活動二；[PDF p.557] 第14週：單元活動二 1；[PDF p.132] 二上目標11。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元 歡喜過新年",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第五課 過年",
+          "learning_points": [
+            "聽懂過年活動客語說法，了解過年文化與年節民俗風情（目標12-13）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.131 課程架構表] 第三單元 歡喜過新年：第五課 過年；[PDF p.557-558] 第15-17週：第五課過年 1；[PDF p.132] 二上目標12-13。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元活動三",
+          "learning_points": [
+            "認識客家年節準備相關習俗並欣賞客家傳統念謠（目標14-15）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.131 課程架構表] 單元活動三；[PDF p.558] 第18週：單元活動三 1；[PDF p.132] 二上目標14-15。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "期末歌謠與複習活動（見 5-2 教學進度總表）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "嘴嘟嘟╱水打一雙鞋",
+          "learning_points": [
+            "第19週客家童謠活動（目標15）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.558 5-2教學進度總表] 第十九週：嘴嘟嘟╱水打一雙鞋 1【人權教育】【環境教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "搞麼个？",
+          "learning_points": [
+            "第20週複習活動。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.558-559 5-2教學進度總表] 第二十週：搞麼个？ 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "出任務囉！",
+          "learning_points": [
+            "第21週總結應用活動。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.559 5-2教學進度總表] 第廿一週：出任務囉！ 1【人權教育】。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未附康軒客語第 3 冊各課四縣／海陸腔客語生詞表與音標。",
+      "recommended_action": "請確認使用腔別並提供康軒客語第 3 冊課本語詞頁。"
+    }
+  ]
+}

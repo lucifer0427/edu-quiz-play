@@ -1,0 +1,222 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 1,
+    "subject": "數學",
+    "publisher": "康軒",
+    "book_series": "第一冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T15:55:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 1,
+        "subject": "數學",
+        "publisher": "康軒",
+        "book_series": "第一冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 1,
+        "subject": "數學",
+        "publisher": "康軒",
+        "book_series": "第一冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 10以內的數",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一單元 10以內的數",
+          "learning_points": [
+            "能唱數1到10並確定10以內數量；以具體量、聲音、圖像與數字進行10以內數的說讀聽寫；認識0；用不同形式表徵10以內數量（一上目標1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.285 課程架構表] 數學1上 第一單元10以內的數；[PDF p.540] 第1-2週：第一單元10以內的數；[PDF p.286] 一上目標1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 比長短",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第二單元 比長短",
+          "learning_points": [
+            "認識長度並直接比較兩物件長度（長短、高矮、厚薄）；認識直線與曲線，知道兩點間連線以直線最短並能用直尺畫直線（一上目標2、S-1-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.285 課程架構表] 第二單元比長短；[PDF p.541] 第3-4週：第二單元比長短；[PDF p.286] 一上目標2。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元 排順序、比多少",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第三單元 排順序、比多少",
+          "learning_points": [
+            "具體情境中知道10以內的數詞序列；能用序數描述10以內序列物件的位置及前後關係；比較10以內兩個量的多少（一上目標3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.285 課程架構表] 第三單元排順序、比多少；[PDF p.541-542] 第5-6週：第三單元排順序、比多少；[PDF p.286] 一上目標3。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第四單元 分與合",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第四單元 分與合",
+          "learning_points": [
+            "透過操作解決10以內數的分解問題、合成問題及10的分解與合成（一上目標4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.285 課程架構表] 第四單元分與合；[PDF p.543] 第7-8週：第四單元分與合；[PDF p.286] 一上目標4。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "第五單元 方盒、圓罐、球",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第五單元 方盒、圓罐、球",
+          "learning_points": [
+            "辨認、描述與分類簡單立體形體並做堆疊；描繪或仿製簡單平面圖形做分類與造型設計（一上目標5、S-1-2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.285 課程架構表] 第五單元方盒、圓罐、球；[PDF p.543] 第9-10週：第五單元方盒、圓罐、球；[PDF p.286] 一上目標5。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "第六單元 30以內的數",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第六單元 30以內的數",
+          "learning_points": [
+            "30以內數與量的數數與表徵；用序數描述30以內數的順序與位置；比較30以內量的多少與數的大小（一上目標6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.285 課程架構表] 第六單元30以內的數；[PDF p.544] 第11-13週：第六單元30以內的數；[PDF p.286] 一上目標6。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 7,
+      "title": "第七單元 10以內的加法",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第七單元 10以內的加法",
+          "learning_points": [
+            "解決10以內量的合成問題（併加型、添加型）；認識加法算式並記錄問題和結果；了解0的加法概念（一上目標7、N-1-2、R-1-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.285 課程架構表] 第七單元10以內的加法；[PDF p.544-545] 第14-15週：第七單元10以內的加法；[PDF p.286] 一上目標7。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 8,
+      "title": "第八單元 10以內的減法",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第八單元 10以內的減法",
+          "learning_points": [
+            "解決10以內量的分解問題（拿走型、比較型）；認識減法算式並記錄；了解0的減法概念並能判斷加減問題（一上目標8、N-1-2、R-1-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.285 課程架構表] 第八單元10以內的減法；[PDF p.545-546] 第16-18週：第八單元10以內的減法；[PDF p.286] 一上目標8。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 9,
+      "title": "第九單元 幾點鐘",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第九單元 幾點鐘",
+          "learning_points": [
+            "觀察事件先後順序與長短建立時間概念；認識鐘面長針和短針並報讀整點、半點時刻；使用日常時間用語（上午、中午、下午、晚上）（一上目標9、N-1-6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.285 課程架構表] 第九單元幾點鐘；[PDF p.546] 第19-20週：第九單元幾點鐘；[PDF p.286] 一上目標9。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "總複習：生活中的數學",
+          "learning_points": [
+            "第21週全冊總複習與生活中的數學應用（融入家庭教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.547 5-2教學進度總表] 第廿一週：總複習 生活中的數學【家庭教育】。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書已提供康軒數學第一冊完整 9 單元名稱、學習內容與目標，但未列出各單元細部小節標題（1-1、1-2）及課本插圖例題。",
+      "recommended_action": "已足夠建立一年級上學期基礎數學題庫（10以內數、比長短、序數、分合、30以內數、10以內加減、整點與半點）；如需細部小節名稱可補拍課本目錄頁。"
+    }
+  ]
+}

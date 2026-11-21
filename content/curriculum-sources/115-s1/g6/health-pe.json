@@ -1,0 +1,270 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 6,
+    "subject": "健康與體育",
+    "publisher": "南一",
+    "book_series": "第十一冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:05:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 6,
+        "subject": "健康與體育",
+        "publisher": "南一",
+        "book_series": "第十一冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 6,
+        "subject": "健康與體育",
+        "publisher": "南一",
+        "book_series": "第十一冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "壹、健康 一.環境體檢大行動",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "一.環境體檢大行動",
+          "learning_points": [
+            "健康（1節/週）；能認識生活中常見的汙染形式及來源，覺察環境汙染對健康的影響，發想解決方法並實行保健與環保行動（六上目標1-4）。",
+            "能了解綠色消費 3R3E 原則的概念，完成綠色消費改善計畫與環境汙染改善計畫（六上目標5-7）。",
+            "第1-5週授課；融入環境教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.621-623 5-2教學進度總表] 第1-5週：壹、健康 一.環境體檢大行動 1【環境教育】；[PDF p.521] 六上學習目標1-7。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "壹、健康 二.人生製造公司",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "二.人生製造公司",
+          "learning_points": [
+            "健康（1節/週）；能了解影響生長發育的因素及促進健康的原則，認識人生各階段生長發育轉變與身心需求（六上目標8-12）。",
+            "能了解死亡對情緒及生活造成的影響並正向面對死亡，體悟老化現象對生活的不便並分析家庭長者友善規畫，規畫促進各階段健康生活習慣（六上目標13-22）。",
+            "第6-10週授課（第10週含評量週）；融入生命教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.623-624 5-2教學進度總表] 第6-10週：壹、健康 二.人生製造公司 1【生命教育】；[PDF p.521] 六上學習目標8-22。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "壹、健康 三.勇闖飲食島",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "三.勇闖飲食島",
+          "learning_points": [
+            "健康（1節/週）；能理解生活習慣與青少年飲食不均的相關性，理解兒童期需要的營養與熱量及六大類食物的代換分量（六上目標23-27）。",
+            "能表現對多元飲食的尊重與接納，運用營養知識分析多元飲食文化並修正飲食習慣、兼顧均衡飲食（六上目標28-33）。",
+            "第11-15週授課；融入多元文化教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.625-626 5-2教學進度總表] 第11-15週：壹、健康 三.勇闖飲食島 1【多元文化教育】；[PDF p.521-522] 六上學習目標23-33。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "壹、健康 四.守護青春",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "四.守護青春",
+          "learning_points": [
+            "健康（1節/週）；能認識性剝削、性騷擾及性侵害的定義並澄清迷思，認識身體自主權概念及維繫友誼與合宜表達情感的方式（六上目標34-38）。",
+            "能認識愛滋病傳染途徑、症狀與預防方法並展現同理關懷；覺察個資外洩嚴重性，學習因應性侵害／騷擾／剝削與預防網路霸凌（六上目標39-47）。",
+            "第16-20週授課（第20週含評量週；第21週為休業式）；融入性別平等教育、人權教育、品德教育、生命教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.627-628 5-2教學進度總表] 第16-20週：壹、健康 四.守護青春 1【性別平等教育】【人權教育】【品德教育】【生命教育】；[PDF p.522] 六上學習目標34-47。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "貳、體育 五.海陸任遨遊",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "五.海陸任遨遊",
+          "learning_points": [
+            "體育（2節/週）；認識三項全能比賽內容規則、器材與安全事項，分析所需體適能（六上目標48-49）。",
+            "完成 TABATA、循環訓練等運動模式及修改式三項全能活動，學會評估自身體適能與運動強度並安排運動計畫（六上目標50-53）。",
+            "第1-3週授課。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.621-622 5-2教學進度總表] 第1-3週：貳、體育 五.海陸任遨遊 2；[PDF p.522] 六上學習目標48-53。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "貳、體育 六.飛越極限",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "六.飛越極限",
+          "learning_points": [
+            "體育（2節/週）；了解瞬發力與跳躍高度及遠度的關係，了解跳高及跳遠技術的動作要素與要領（六上目標54-56）。",
+            "了解運動傷害處理方式、簡易貼紮、固定方式；記錄跳高、跳遠前、後測（六上目標57-60）。",
+            "第3-6週授課。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.622-623 5-2教學進度總表] 第3-6週：貳、體育 六.飛越極限 2；[PDF p.522] 六上學習目標54-60。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 7,
+      "title": "貳、體育 七.力拔山河",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "七.力拔山河",
+          "learning_points": [
+            "體育（2節/週）；了解拔河的歷史由來、裝備、握繩、預備與拔河姿勢，知道裁判手勢意義（舉繩、拉緊、調整中心線、預備、開始、結束）（六上目標61-64）。",
+            "能做出伸展運動及增強肌耐力與握力訓練，並安全進行拔河比賽（六上目標65-71）。",
+            "第6-8週授課。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.623-624 5-2教學進度總表] 第6-8週：貳、體育 七.力拔山河 2；[PDF p.522-523] 六上學習目標61-71。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 8,
+      "title": "貳、體育 八.腿上乾坤",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "八.腿上乾坤",
+          "learning_points": [
+            "體育（2節/週）；了解如何利用腳停球及內側、外側等方式傳球，認識世界盃球員身體組成（Power、speed、肌耐力），練習正確傳球及射門動作並規畫運動方案（六上目標72-78）。",
+            "第9-11週授課（第10週含評量週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.624-625 5-2教學進度總表] 第9-11週：貳、體育 八.腿上乾坤 2；[PDF p.523] 六上學習目標72-78。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 9,
+      "title": "貳、體育 九.勇闖籃球殿堂",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "九.勇闖籃球殿堂",
+          "learning_points": [
+            "體育（2節/週）；能做出正確換手運球、行進運球及傳球動作，認識 3 對 3 籃球賽奧運項目與基本規則（六上目標79-82, 85）。",
+            "在投籃大賽與 3 對 3 比賽中演練進攻及防守策略，使用 3C 用品比較投籃與上籃動作正確性（六上目標83-84, 86-87）。",
+            "第12-14週授課。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.625-626 5-2教學進度總表] 第12-14週：貳、體育 九.勇闖籃球殿堂 2；[PDF p.523] 六上學習目標79-87。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 10,
+      "title": "貳、體育 十.平衡木上的不倒翁",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "十.平衡木上的不倒翁",
+          "learning_points": [
+            "體育（2節/週）；明瞭在平衡木上行走及旋轉的動作要領，與同伴做出靜止平衡與動態平衡，學會旋轉平衡動作技巧（六上目標88-99）。",
+            "第15-17週授課。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.626-627 5-2教學進度總表] 第15-17週：貳、體育 十.平衡木上的不倒翁 2；[PDF p.523] 六上學習目標88-99。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 11,
+      "title": "貳、體育 十一.好球強強滾",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "十一.好球強強滾",
+          "learning_points": [
+            "體育（2節/週）；認識法式滾球的由來、賽事、精神規範、場地與進攻防守比賽規則，演練攻防策略並培養穩定身體控制與協調能力（六上目標100-112）。",
+            "第18-20週授課（第20週含評量週；第21週為休業式）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.627-628 5-2教學進度總表] 第18-20週：貳、體育 十一.好球強強滾 2；[PDF p.523] 六上學習目標100-112。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].title",
+      "reason": "source_not_found",
+      "detail": "5-1-1 健康與體育課程架構表（PDF p.517-519）為嵌入圖表未提取出內文，5-2 教學進度總表（PDF p.621-628）僅列單元名稱（健康一～四、體育五～十一）與週別，未逐週列出各單元內部活動小標（如活動1、活動2）。",
+      "recommended_action": "請提供南一健康與體育第十一冊（六上）課本目次頁照片以補齊各單元內部活動標題。"
+    },
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未單獨列出六大類食物代換詳表、貼紮步驟詞彙與裁判手勢圖解字詞表。",
+      "recommended_action": "如需針對健康教育知識點細部出題，請補充南一健體第十一冊課本重點頁面。"
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 2,
+    "subject": "生活",
+    "publisher": "南一",
+    "book_series": "第四冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T12:46:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 2,
+        "subject": "生活",
+        "publisher": "南一",
+        "book_series": "第四冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 2,
+        "subject": "生活",
+        "publisher": "南一",
+        "book_series": "第四冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "主題一、有你真好",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元1 謝謝你的幫忙",
+          "learning_points": [
+            "根據情境提出看法、知道適當幫忙有助解決問題、實際幫助他人並唱跳〈我真快樂〉（下學期目標1-8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.559-560 5-2教學進度總表] 第1-2週：主題一、有你真好 單元1 謝謝你的幫忙；[PDF p.473] 下學期目標1-8。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元2 校園生活中幫助我們的人",
+          "learning_points": [
+            "認識維護上學安全的人與導護志工、學校志工工作內容並製作徽章感謝志工（目標9-15）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.560] 第3週：主題一、有你真好 單元2 校園生活中幫助我們的人；[PDF p.473] 下學期目標9-15。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "主題二、小種子長大了",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元1 種子在哪裡",
+          "learning_points": [
+            "運用工具在校園尋找並用不同方式觀察種子的不同（目標16-19）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.560-561] 第4週：主題二、小種子長大了 單元1 種子在哪裡；[PDF p.473] 下學期目標16-19。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元2 一起來種吧！",
+          "learning_points": [
+            "討論生活中有哪些種子並決定種植，學習種植方法與工具（目標20-22）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.561] 第5週：主題二、小種子長大了 單元2 一起來種吧！；[PDF p.473] 下學期目標20-22。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元3 種子發芽了",
+          "learning_points": [
+            "觀察種子發芽與生長變化，討論內外在影響生長的因素及解決方法並創作（目標23-27）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.561] 第6週：主題二、小種子長大了 單元3 種子發芽了；[PDF p.473-474] 下學期目標23-27。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "主題三、美麗的彩色世界",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元1 一起找顏色",
+          "learning_points": [
+            "具體描述物體色彩名稱、觀察校園顏色種類並用形容詞表達對色彩的感覺與聯想（目標28-32）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.561] 第7週：主題三、美麗的彩色世界 單元1 一起找顏色；[PDF p.474] 下學期目標28-32。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元2 色彩真奇妙",
+          "learning_points": [
+            "探索喜歡的色彩，用水彩混色並運用色彩混色進行創作美化生活（目標33-36）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.561-562] 第8週：主題三、美麗的彩色世界 單元2 色彩真奇妙；[PDF p.474] 下學期目標33-36。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "主題四、環保達人",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元1 大掃除時間",
+          "learning_points": [
+            "分工合作整理教室、認識資源回收圖案並實作讓回收籃裝更多及清洗鋁箔包裝空盒（目標37-43）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.562-563] 第9-11週：主題四、環保達人 單元1 大掃除時間；[PDF p.474] 下學期目標37-43。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元2 垃圾減量大作戰",
+          "learning_points": [
+            "覺察教室垃圾產生原因與垃圾量太多的環境影響；學習收納塑膠袋與實踐垃圾減量（目標44-49）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.563] 第12週：主題四、環保達人 單元2 垃圾減量大作戰；[PDF p.474] 下學期目標44-49。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元3 神奇變身術",
+          "learning_points": [
+            "體驗自製環保樂器樂趣，了解舊物改造再生意涵並合作完成環保樂器演出（目標50-53）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.563] 第13週：主題四、環保達人 單元3 神奇變身術；[PDF p.474] 下學期目標50-53。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "主題五、光和影",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元1 和影子玩遊戲",
+          "learning_points": [
+            "玩踩影子遊戲、發現校園不同影子與組合影子怪獸（目標54-57）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.563] 第14週：主題五、光和影 單元1 和影子玩遊戲；[PDF p.474] 下學期目標54-57。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元2 光影好朋友",
+          "learning_points": [
+            "討論教室影子如何產生、認識常見光源並透過操作知道移動光源或物體與影子大小改變的關係（目標58-62）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.563-564] 第15週：主題五、光和影 單元2 光影好朋友；[PDF p.474] 下學期目標58-62。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元3 影子表演秀",
+          "learning_points": [
+            "討論影子表演秀內容與準備工作，製作道具並合作演出（目標63-65）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.564] 第16週：主題五、光和影 單元3 影子表演秀；[PDF p.474] 下學期目標63-65。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "主題六、成長與學習",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元1 成長的發現",
+          "learning_points": [
+            "察覺身體漸漸成長與能力變好、分擔責任、保存學習成果與展現才藝（目標66-76）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.564-565] 第17-19週：主題六、成長與學習 單元1 成長的發現；[PDF p.474-475] 下學期目標66-76。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元2 迎接新生活",
+          "learning_points": [
+            "探究三年級和二年級的差異（從課表發現學習生活不同），提出適應三年級的因應方法與努力目標（目標77-80）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.565] 第20週：評量週 主題六、成長與學習 單元2 迎接新生活；[PDF p.475] 下學期目標77-80。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].activities",
+      "reason": "source_not_found",
+      "detail": "5-1-1 生活課程計畫（PDF p.468-469）僅嵌入二上課程架構圖，未嵌入二下課程架構圖，故二下各主題與單元名稱皆取自 5-2 教學進度總表（PDF p.559-565）並對照下學期 80 條學習目標（PDF p.473-475），缺少課本內各小節活動編號。",
+      "recommended_action": "如需確認二下各單元底下之細部活動編號（1. / 2. / 3.），請補拍南一生活二下（第4冊）課本目錄頁。"
+    }
+  ]
+}

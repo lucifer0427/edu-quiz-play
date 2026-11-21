@@ -1,0 +1,215 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 3,
+    "subject": "社會",
+    "publisher": "翰林",
+    "book_series": "第一冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T15:55:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 3,
+        "subject": "社會",
+        "publisher": "翰林",
+        "book_series": "第一冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 3,
+        "subject": "社會",
+        "publisher": "翰林",
+        "book_series": null
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 升上三年級的新學習",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一課 和同學一起成長",
+          "learning_points": [
+            "第1-2週授課（3節/週），融入性別平等教育、人權教育；透過自我介紹認識同學，覺察並欣賞班上不同成員的特質及人我差異（p.328 目標1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.566 5-2教學進度總表] 第1-2週：第一單元 升上三年級的新學習 第一課和同學一起成長；[PDF p.328] 上學期學習目標1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第二課 培養有效的學習",
+          "learning_points": [
+            "第3週授課，融入性別平等教育；以小組合作學習的方式解決學習上的問題（p.328 目標2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.566 5-2教學進度總表] 第3週：第一單元 升上三年級的新學習 第二課培養有效的學習；[PDF p.328] 上學期學習目標2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第三課 善用資源來規劃學習",
+          "learning_points": [
+            "第4-6週授課，融入人權教育、環境教育；解決學習上的問題並善用學習資源（p.328 目標2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.567 5-2教學進度總表] 第4-6週：第一單元 升上三年級的新學習 第三課善用資源來規劃學習；[PDF p.328] 上學期學習目標2。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 校園規範和班級自治",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一課 遵守團體規範",
+          "learning_points": [
+            "第7週授課，融入人權教育、法治教育、安全教育；理解並討論與遵守團體規範。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.568 5-2教學進度總表] 第7週：第二單元 校園規範和班級自治 第一課遵守團體規範。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第二課 班級自治活動",
+          "learning_points": [
+            "第8-9週授課，融入人權教育、法治教育、安全教育；認識班級自治的目的與意義，培養民主法治的態度並參與學校自治活動（p.328 目標3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.568 5-2教學進度總表] 第8-9週：第二單元 校園規範和班級自治 第二課班級自治活動；[PDF p.328] 上學期學習目標3。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元 我的校園和家庭生活",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一課 參與校園活動",
+          "learning_points": [
+            "第10-11週授課，融入家庭教育；認識個人在學校與家庭中的角色、權利與責任（p.328 目標4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.569 5-2教學進度總表] 第10-11週：第三單元 我的校園和家庭生活 第一課參與校園活動；[PDF p.328] 上學期學習目標4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第二課 我的家庭生活",
+          "learning_points": [
+            "第12-14週授課，融入家庭教育；認識家庭成員組成與不同家庭所重視的價值，並在擔任不同角色時做到應有的合宜行為（p.326、p.328 目標4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.569-570 5-2教學進度總表] 第12-14週：第三單元 我的校園和家庭生活 第二課我的家庭生活；[PDF p.328] 上學期學習目標4。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第四單元 健康成長的快樂童年",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一課：守護健康和安全",
+          "learning_points": [
+            "第15週授課，融入性別平等教育、人權教育；了解兒童在生活中的健康權、生存權等權利（p.328 目標5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.570 5-2教學進度總表] 第15週：第四單元 健康成長的快樂童年 第一課：守護健康和安全；[PDF p.328] 上學期學習目標5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第二課：保護和尊重隱私",
+          "learning_points": [
+            "第16週授課，融入性別平等教育、人權教育；認識隱私權與身體界限，尊重他人身體自主權（p.328 目標5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.571 5-2教學進度總表] 第16週：第四單元 健康成長的快樂童年 第二課：保護和尊重隱私；[PDF p.328] 上學期學習目標5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第三課：和同學和諧相處",
+          "learning_points": [
+            "第17週授課，融入性別平等教育、人權教育；避免歧視與霸凌，尊重人我差異（p.328 目標5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.571 5-2教學進度總表] 第17週：第四單元 健康成長的快樂童年 第三課：和同學和諧相處；[PDF p.328] 上學期學習目標5。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "第五單元 打造更美好的班級",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第五單元 打造更美好的班級（5-2 進度表未細分課次）",
+          "learning_points": [
+            "第18-21週授課，融入人權教育；探究讓班級變得更美好的方式並能付諸實踐（p.329 目標6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.571-572 5-2教學進度總表] 第18-21週：第五單元 打造更美好的班級；[PDF p.329] 上學期學習目標6。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[4].lessons",
+      "reason": "source_not_found",
+      "detail": "5-1-1 社會課程架構表（PDF p.327）為圖檔未擷出文字；5-2 進度總表第18-21週僅列出單元名稱「第五單元 打造更美好的班級」，未細分課次標題。另 5-1-1 p.329 敘述稱「每學期六個單元的主題課程」，但 5-2 三上進度總表僅見第一～第五單元。",
+      "recommended_action": "請提供翰林社會三上（第一冊）課本目次頁照片，以核實第五單元內課次標題及是否有第六單元。"
+    },
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫未單獨列出課本核心專有名詞與詞彙表。",
+      "recommended_action": "請補充翰林社會第一冊課本內容與重點整理頁。"
+    }
+  ]
+}

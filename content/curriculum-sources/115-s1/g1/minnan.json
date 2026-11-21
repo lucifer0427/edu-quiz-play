@@ -1,0 +1,165 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 1,
+    "subject": "本土語文-閩南語",
+    "publisher": "真平",
+    "book_series": "第1冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T15:55:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 1,
+        "subject": "本土語文-閩南語",
+        "publisher": "真平",
+        "book_series": "第1冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 1,
+        "subject": "本土語文-閩南語",
+        "publisher": "真平",
+        "book_series": "第1冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "一、禮貌的囡仔（第5–8週進度表作「一、囡仔真好禮」）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.來去讀冊",
+          "learning_points": [
+            "正確使用閩南語朗誦課文並認讀重要語詞；說出常見禮貌用語並替換語詞、加長語句，應用於日常生活（一上目標1-3）；融入品德教育（第1-4週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.540-541 5-2教學進度總表] 第1-4週：一、禮貌的囡仔 1.來去讀冊【品德教育】；[PDF p.115] 一上目標1-3；[PDF p.116] 閩南語 真平 一、二。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.阮兜的人",
+          "learning_points": [
+            "正確主動使用閩南語介紹家人稱謂（一上目標4）；融入家庭教育、安全教育（第5-8週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.541-543 5-2教學進度總表] 第5-8週：一、囡仔真好禮 2.阮兜的人【家庭教育】【安全教育】；[PDF p.115] 一上目標4。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "二、我的鉛筆盒仔",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "3.鉛筆",
+          "learning_points": [
+            "說出生活中常見文具的閩南語名稱並進行語詞運用與溝通，養成維護環境整潔、愛物惜物習慣（一上目標5-7）；融入品德教育、家庭教育（第9-12週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.543-544 5-2教學進度總表] 第9-12週：二、我的鉛筆盒仔 3.鉛筆【品德教育】【家庭教育】；[PDF p.115] 一上目標5-7。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "三、古錐的動物",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "4.鳥仔",
+          "learning_points": [
+            "使用閩南語說出生活中常見動物名稱並以閩南語溝通，養成愛護動物習慣（一上目標8-10）；融入環境教育（第13-15週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.544-545 5-2教學進度總表] 第13-15週：三、古錐的動物 4.鳥仔【環境教育】；[PDF p.115] 一上目標8-10。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "5.一兩三四",
+          "learning_points": [
+            "數字運用（Bb-Ⅰ-3）與動物相關課文朗誦及語詞認讀（一上目標8-10）；融入閱讀素養教育（第16-19週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.545-546 5-2教學進度總表] 第16-19週：三、古錐的動物 5.一兩三四【閱讀素養】；[PDF p.113] 學習內容 Bb-Ⅰ-3；[PDF p.115] 一上目標8-10。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "期末歌謠與節慶（見 5-2 教學進度總表）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "傳統念謠～一放雞",
+          "learning_points": [
+            "第20週兒歌念謠（Ac-Ⅰ-1），融入閱讀素養教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.546 5-2教學進度總表] 第二十週：傳統念謠～一放雞【閱讀素養】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "歡喜來過節～農曆過年",
+          "learning_points": [
+            "第21週節慶文化活動，融入多元文化教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.547 5-2教學進度總表] 第廿一週：歡喜來過節～農曆過年【多元文化】。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[0].title",
+      "reason": "ambiguous_edition",
+      "detail": "5-1-1 課程架構表（PDF p.114）為嵌入圖片未轉出文字；5-2 教學進度總表（PDF p.540-543）第1–4週寫「一、禮貌的囡仔」，第5–8週寫「一、囡仔真好禮」。",
+      "recommended_action": "請核對真平閩南語第 1 冊課本目錄確認第一單元正式名稱。"
+    },
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未附真平閩南語第 1 冊各課課文、語詞表、句型範例與臺羅拼音標音。",
+      "recommended_action": "請提供真平閩南語第 1 冊課本目錄與語詞頁照片。"
+    }
+  ]
+}

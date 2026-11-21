@@ -1,0 +1,180 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 6,
+    "subject": "電腦（彈性學習課程：數位創客）",
+    "publisher": "無限可能（選書表）／學校自編數位創客課程計畫",
+    "book_series": "Micro:bit 程式設計萬花筒（選書表）／數位創客六上（課程計畫）"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:05:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 6,
+        "subject": "電腦（彈性學習課程：數位創客）",
+        "publisher": "無限可能（選書表）／學校自編數位創客課程計畫",
+        "book_series": "Micro:bit 程式設計萬花筒（選書表）／數位創客六上（課程計畫）"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 6,
+        "subject": "電腦（彈性學習課程：數位創客）",
+        "publisher": "無限可能／自編教材",
+        "book_series": "Micro:bit 程式設計萬花筒（選書表）／自編教材（選書表）"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第1–2週：資安大小事：安全達人上線中",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "資安大小事：安全達人上線中（大忠 Gmail、病毒防護、網路詐騙與網路霸凌防治）",
+          "learning_points": [
+            "登入大忠首頁學生專區 Gmail 信箱並練習登出和移除帳號。",
+            "認識勒索病毒與木馬程式的感染方式與預防方法；辨識釣魚信件與網路詐騙，建立個人資訊安全防護觀念（資 H-Ⅲ-3、資 a-Ⅲ-3）。",
+            "分享與討論網路霸凌案件，培養網路倫理；指導電腦截圖快捷方式並成功上傳作業至 Google Classroom（安全教育）。"
+          ],
+          "vocabulary": [
+            "勒索病毒",
+            "木馬程式",
+            "釣魚信件",
+            "網路霸凌",
+            "截圖快捷鍵"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.821 數位創客課程計畫] 週次1-2 單元名稱：資安大小事：安全達人上線中；[PDF p.1118-1119 6-4進度總表] 第1-2週：資安大小事：安全達人上線中。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第3–13週：語言新時代-幕後操盤手",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "語言新時代-幕後操盤手（MakeCode、Micro:bit 模組、變數與 LED 音樂聖誕燈）",
+          "learning_points": [
+            "建立 Google Classroom 線上課程，開啟網頁版 MakeCode 認識介面、按鈕、圖案與搖晃模組。",
+            "活動「運勢遙遙機」與簡易計步器：使用變數模組（設定 0 到 3 隨機取數顯示不同圖示）、搖晃觸發與按下 A+B 鈕清除畫面。",
+            "認識 Micro:bit 引腳正負極並將 MakeCode 程式寫入 Micro:bit 板子；認識 LED 數位與類比模組並使用鱷魚夾連接 LED 燈。",
+            "使用迴圈積木與類比信號控制 LED 亮度及按鈕開關；寫入音階旋律積木與 LED 變化程式碼製作「音樂聖誕燈」（資 P-Ⅲ-1、資 P-Ⅲ-2）。"
+          ],
+          "vocabulary": [
+            "MakeCode",
+            "Micro:bit",
+            "變數模組",
+            "搖晃模組",
+            "數位與類比信號",
+            "迴圈積木"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.821-822 數位創客課程計畫] 週次3-13 單元名稱：語言新時代-幕後操盤手；[PDF p.1120-1123 6-4進度總表] 第3-13週：語言新時代-幕後操盤手。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第14–17週：雷出新花樣-美字進化論",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "雷出新花樣-美字進化論（硬筆書法跨領域、Rdwork 向量輪廓與雷雕文創品）",
+          "learning_points": [
+            "跨領域結合校訂課程「硬筆書法」完成硬筆字書寫與截圖，登入 Gmail 下載並裁切圖片。",
+            "認識 Rdwork 軟體功能（資 T-Ⅲ-1）：開啟星星或幸運草外框檔案，匯入硬筆字圖片並縮放，執行「位圖處理 > 提取輪廓 > 刪除圖片」，並使用截點工具刪除與修補破碎線條。",
+            "觀看雷雕機切割情形並學習操作雷雕機的安全注意事項（安全教育）；上傳檔案至 Google Classroom 並將成品繫上中國節完成文創品。"
+          ],
+          "vocabulary": [
+            "Rdwork",
+            "位圖處理",
+            "提取輪廓",
+            "截點工具",
+            "雷射雕刻機"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.822 數位創客課程計畫] 週次14-17 單元名稱：雷出新花樣-美字進化論；[PDF p.1123-1124 6-4進度總表] 第14-17週：雷出新花樣-美字進化論。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第18–20週：智能小管家",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "智能小管家（Micro:bit 智慧屋套件、擴充程式與條件觸發感測）",
+          "learning_points": [
+            "認識智慧屋套件，於 MakeCode 下載智慧屋擴充程式並搭配 Micro:bit 操作。",
+            "討論居家情境模式並構思觸動條件：透過偵測套件啟動門外 LED 燈，偵測門被開啟後同時啟動室內 RGB 燈光與音效。",
+            "實作與偵錯測試：發現錯誤時能找出原因並修正程式積木設定（資 t-Ⅲ-3）。"
+          ],
+          "vocabulary": [
+            "智慧屋套件",
+            "MakeCode 擴充程式",
+            "RGB 燈光",
+            "條件偵測"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.823 數位創客課程計畫] 週次18-20 單元名稱：智能小管家；[PDF p.1125 6-4進度總表] 第18-20週：智能小管家。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "第21週：期末活動",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "期末活動（線上問卷填寫、學期總複習與網路安全禮儀）",
+          "learning_points": [
+            "登入大忠 Gmail 帳號並完成午餐滿意度調查問卷。",
+            "複習本學期所學程式與數位創作課程，重申網路安全與禮儀的重要性（資 a-Ⅲ-2、資 a-Ⅲ-3）。"
+          ],
+          "vocabulary": [
+            "網路安全",
+            "網路禮儀"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.823 數位創客課程計畫] 週次21 單元名稱：期末活動；[PDF p.1126 6-4進度總表] 第21週：期末活動。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "target.book_series",
+      "reason": "ambiguous_edition",
+      "detail": "《115學年教科書版本.pdf》（src-2）於六年級電腦欄並列《Micro:bit 程式設計萬花筒》（無限可能）與「自編教材」，而學校《115學年度課程計畫.pdf》（6-2-1 p.820-823 及 6-5 p.1135）則將六年級資訊課程歸於彈性學習課程【數位創客】（上學期由陳政鴻設計，包含資安、MakeCode/Micro:bit、Rdwork 雷雕與智慧屋），且 6-5 教材欄僅列「1.數位媒材及網路資源 2.自編教學簡案 3.IPAD 行動車」，未明確載明無限可能《Micro:bit 程式設計萬花筒》各章課名。",
+      "recommended_action": "目前單元與教學活動已完整取自學校 115 學年度【數位創客】課程計畫（Tier 1）；若課堂同時搭配《Micro:bit 程式設計萬花筒》實體課本並需依課本章節出題，請提供該書目次頁照片。"
+    }
+  ]
+}

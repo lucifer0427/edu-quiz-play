@@ -1,0 +1,203 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 5,
+    "subject": "本土語文-閩南語",
+    "publisher": "康軒",
+    "book_series": "第9冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T12:38:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 5,
+        "subject": "本土語文-閩南語",
+        "publisher": "康軒",
+        "book_series": "第9冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 5,
+        "subject": "本土語文-閩南語",
+        "publisher": "康軒",
+        "book_series": "第9冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 科技佮生活",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一課 科技顧健康",
+          "learning_points": [
+            "熟讀課文、理解文意並認識古今科技產品之不同；表達科技產品功能及生活應用感想（目標1-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.163 課程架構表] 閩南語第9冊 第一單元 科技佮生活：第一課 科技顧健康；[PDF p.604-605] 第1-3週；[PDF p.164] 五上學習目標1-3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第二課 作田人",
+          "learning_points": [
+            "熟讀課文、理解文意並認識職業類別；表達職業類別、工作內容及職業願望感想；認讀聽辨閩南語鼻化韻母符號及其拼音（目標4-7）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.163 課程架構表] 第二課 作田人；[PDF p.605-606] 第4-6週；[PDF p.165] 五上學習目標4-7。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元活動一",
+          "learning_points": [
+            "第一單元統整與複習活動（第7週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.163 課程架構表] 單元活動一；[PDF p.607] 第7週：單元活動一 1【生涯規劃教育】。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 我的心情",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第三課 向前衝",
+          "learning_points": [
+            "正確表達描述情緒感受的語句及想法；覺察、表達、諒解自己或他人心情並轉化成正向和諧情意（目標8-9）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.163 課程架構表] 第二單元 我的心情：第三課 向前衝；[PDF p.607-608] 第8-10週；[PDF p.165] 五上學習目標8-9。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元活動二",
+          "learning_points": [
+            "第二單元統整與複習活動（第11週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.163 課程架構表] 單元活動二；[PDF p.608] 第11週：單元活動二 1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元 認捌臺灣",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第四課 臺灣美麗的海翁",
+          "learning_points": [
+            "藉由本課語詞認識臺灣各縣市及其閩南語說法（目標10）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.163 課程架構表] 第三單元 認捌臺灣：第四課 臺灣美麗的海翁；[PDF p.609-610] 第12-14週；[PDF p.165] 五上學習目標10。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第五課 舊地名真趣味",
+          "learning_points": [
+            "藉由本課語詞認識舊地名及其閩南語說法（目標11）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.163 課程架構表] 第五課 舊地名真趣味；[PDF p.610-611] 第15-17週；[PDF p.165] 五上學習目標11。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元活動三",
+          "learning_points": [
+            "第三單元統整與複習活動（第18週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.163 課程架構表] 單元活動三；[PDF p.611] 第18週：單元活動三 1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "期末補充與語詞複習（見 5-2 教學進度總表）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "早安臺灣",
+          "learning_points": [
+            "進度總表第19週課程主題。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.611-612 5-2教學進度總表] 第十九週：早安臺灣 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "唸看覓‧寫看覓、箍看覓",
+          "learning_points": [
+            "進度總表第20週拼音／書寫／圈選練習。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.612 5-2教學進度總表] 第二十週：唸看覓‧寫看覓、箍看覓 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "語詞運用",
+          "learning_points": [
+            "進度總表第21週語詞綜合運用。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.612 5-2教學進度總表] 第廿一週：語詞運用 1。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書僅列各課課名與學習目標，未附康軒閩南語第9冊各課臺羅拼音生詞表、例句與舊地名／縣市清單。",
+      "recommended_action": "請提供康軒閩南語第9冊課本語詞頁或康軒閩南語線上電子書字詞表。"
+    }
+  ]
+}

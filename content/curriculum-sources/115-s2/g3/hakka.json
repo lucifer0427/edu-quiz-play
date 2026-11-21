@@ -1,0 +1,203 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 3,
+    "subject": "本土語文-客語",
+    "publisher": "康軒",
+    "book_series": "第6冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T15:55:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 3,
+        "subject": "本土語文-客語",
+        "publisher": "康軒",
+        "book_series": "第6冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 3,
+        "subject": "本土語文-客語",
+        "publisher": "康軒",
+        "book_series": "第5冊（選書表僅列單數起始冊，第6冊由課程計畫核實）"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一課 自行車、第二課 行路愛細義＆單元活動一（見 5-2 教學進度總表）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一課 自行車",
+          "learning_points": [
+            "第1-3週授課（1節/週），融入戶外教育、家庭教育；聽懂各種交通與交通設備工具的客語名稱並說出正確客語用法（p.146 目標1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.573 5-2教學進度總表] 第1-3週：客 康軒 第一課 自行車 1；[PDF p.146] 三下學習目標1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第二課 行路愛細義",
+          "learning_points": [
+            "第4-6週授課（1節/週），融入安全教育、法治教育；了解交通安全的重要性並保持警覺觀念（p.146 目標2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.574-575 5-2教學進度總表] 第4-6週：第二課 行路愛細義 1【安全教育】【法治教育】；[PDF p.146] 三下學習目標2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元活動一",
+          "learning_points": [
+            "第7週複習統整活動（1節/週），融入戶外教育；透過故事情境認識北埔古蹟、人文風情與客家擂茶文化（p.146 目標3-4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.575 5-2教學進度總表] 第7週：單元活動一 1【戶外教育】；[PDF p.146] 三下學習目標3-4。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第三課 運動會、第四課 踢毽仔＆單元活動二（見 5-2 教學進度總表）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第三課 運動會",
+          "learning_points": [
+            "第8-10週授課（1節/週），融入安全教育、品德教育；聽懂並說出各種運動項目的客語說法（p.146 目標5, 8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.575-576 5-2教學進度總表] 第8-10週：第三課 運動會 1【安全教育】【品德教育】；[PDF p.146] 三下學習目標5, 8。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第四課 踢毽仔",
+          "learning_points": [
+            "第11-13週授課（1節/週），融入人權教育、安全教育；聽懂傳統玩具的客語名稱並了解傳統玩具使用技巧與趣味（p.146 目標6-8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.576-577 5-2教學進度總表] 第11-13週：第四課 踢毽仔 1【人權教育】【安全教育】；[PDF p.146] 三下學習目標6-8。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元活動二",
+          "learning_points": [
+            "第14週複習統整活動（1節/週），融入人權教育、生涯規劃教育；認識六堆運動會由來與客家先民忠義精神（p.146 目標9）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.578 5-2教學進度總表] 第14週：單元活動二 1【人權教育】【生涯規劃教育】；[PDF p.146] 三下學習目標9。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第五課 鬧熱過五月節＆單元活動三（見 5-2 教學進度總表）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第五課 鬧熱過五月節",
+          "learning_points": [
+            "第15-17週授課（1節/週），融入多元文化教育；聽懂並說出客家傳統節日客語名稱，認識客家粄粽特色與客語拼音（p.146 目標10-12）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.578-579 5-2教學進度總表] 第15-17週：第五課 鬧熱過五月節 1【多元文化教育】；[PDF p.146] 三下學習目標10-12。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元活動三",
+          "learning_points": [
+            "第18週複習統整活動（1節/週），融入多元文化教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.579 5-2教學進度總表] 第18週：單元活動三 1【多元文化教育】。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "期末歌謠與複習活動（見 5-2 教學進度總表）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "搖搖雜雜",
+          "learning_points": [
+            "第19週課程活動（1節/週），融入品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.579 5-2教學進度總表] 第19週：搖搖雜雜 1【品德教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "搞麼个？",
+          "learning_points": [
+            "第20週課程活動（1節/週），融入品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.579 5-2教學進度總表] 第20週：搞麼个？ 1【品德教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "出任務囉！",
+          "learning_points": [
+            "第21週總複習／出任務囉！（1節/週），融入品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.580 5-2教學進度總表] 第21週：出任務囉！ 1【品德教育】。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].title / units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "5-1-1 客語課程架構表（PDF p.144）為圖檔未擷出文字，單元總稱未能取得，本檔依 5-2 進度總表分組各課與單元活動；另來源未附康軒客語第6冊課文、四縣／海陸腔別指定與詞彙標音清單。",
+      "recommended_action": "請確認大忠國小採行之客語腔別（四縣／海陸等）並提供康軒客語第6冊課本目次與語詞頁照片。"
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 3,
+    "subject": "語文-國語文",
+    "publisher": "康軒",
+    "book_series": "第五冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T15:55:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 3,
+        "subject": "語文-國語文",
+        "publisher": "康軒",
+        "book_series": "第五冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 3,
+        "subject": "語文-國語文",
+        "publisher": "康軒",
+        "book_series": null
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 語文萬花筒",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一課 字的小旅行（課程架構表列：心的悄悄話）",
+          "learning_points": [
+            "單元主題引導／第1-2週授課（5節/週），融入生命教育、人權教育。",
+            "相關參考選材（p.58）：《字字小宇宙》（文：林世仁）；注意 5-1-1 課程架構表（p.55）列「第一課 心的悄悄話」，5-2 進度總表（p.566）列「第一課 字的小旅行」。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.55 課程架構表] 第一單元 語文萬花筒：第一課 心的悄悄話；[PDF p.566 5-2教學進度總表] 第一至二週：單元主題引導／第一課字的小旅行。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第二課 妙故事點點名",
+          "learning_points": [
+            "第2-3週授課；融入生命教育、閱讀素養教育、品德教育。",
+            "相關參考選材（p.58）：《每天一篇故事，10 天學會150 個成語》（文：鄒敦怜）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.55 課程架構表] 第二課 妙故事點點名；[PDF p.566 5-2教學進度總表] 第二至三週：第二課妙故事點點名。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第三課 繞口令村",
+          "learning_points": [
+            "第3-4週授課；融入資訊教育、品德教育。",
+            "相關參考選材（p.58）：《大家來說繞口令》（文：顏福南）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.55 課程架構表] 第三課 繞口令村；[PDF p.566-567 5-2教學進度總表] 第三至四週：第三課繞口令村。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "學習地圖一",
+          "learning_points": [
+            "第4-5週單元統整練習；融入安全教育、品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.567 5-2教學進度總表] 第四週：第三課繞口令村／學習地圖一；第五週：學習地圖一／單元主題引導。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 處處有真情",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第四課 小丑魚和海葵",
+          "learning_points": [
+            "第5-6週授課；融入安全教育、品德教育、生命教育。",
+            "相關參考選材（p.58）：《青蛙和蟾蜍——快樂時光》（文：艾諾．洛貝爾）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.55 課程架構表] 第二單元 處處有真情：第四課 小丑魚和海葵；[PDF p.567 5-2教學進度總表] 第五至六週：第四課小丑魚和海葵。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第五課 飛舞的絲帶",
+          "learning_points": [
+            "第6-7週授課；融入生命教育、品德教育。",
+            "相關參考選材（p.58）：《山下同學不說話》（文：山下賢二）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.55 課程架構表] 第五課 飛舞的絲帶；[PDF p.567-568 5-2教學進度總表] 第六至七週：第五課飛舞的絲帶。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第六課 小女生",
+          "learning_points": [
+            "第8-9週授課；融入環境教育、品德教育。",
+            "相關參考選材（p.58）：《新世紀散文家：鍾怡雯精選集》（文：鍾怡雯）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.55 課程架構表] 第六課 小女生；[PDF p.568 5-2教學進度總表] 第八至九週：第六課小女生。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "學習地圖二",
+          "learning_points": [
+            "第9週單元統整練習；融入閱讀素養教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.568 5-2教學進度總表] 第九週：第六課小女生／學習地圖二／閱讀階梯一丸子與我。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 5,
+          "title": "閱讀階梯一 丸子與我",
+          "learning_points": [
+            "第9-10週閱讀素養延伸文本；融入閱讀素養教育、環境教育、品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.55 課程架構表] 丸子與我 閱讀階梯一；[PDF p.568-569 5-2教學進度總表] 第九至十週：閱讀階梯一丸子與我。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元 臺灣風情",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第七課 淡水小鎮",
+          "learning_points": [
+            "第11-12週授課；融入戶外教育、品德教育。",
+            "相關參考選材（p.58）：《臺灣河川之美——淡水河》（文：林鴻堯）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.55 課程架構表] 第三單元 臺灣風情：第七課 淡水小鎮；[PDF p.569 5-2教學進度總表] 第十一至十二週：第七課淡水小鎮。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第八課 安平古堡參觀記",
+          "learning_points": [
+            "第12-13週授課；融入戶外教育、品德教育。",
+            "相關參考選材（p.58）：《我們的安平古堡》（文：蔡明原）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.55 課程架構表] 第八課 安平古堡參觀記；[PDF p.569 5-2教學進度總表] 第十二至十三週：第八課安平古堡參觀記。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第九課 馬太鞍的巴拉告",
+          "learning_points": [
+            "第13-14週授課；融入環境教育、原住民族教育、品德教育。",
+            "相關參考選材（p.58）：《第一條魚》（文：赫爾曼．舒茲）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.55 課程架構表] 第九課 馬太鞍的巴拉告；[PDF p.569-570 5-2教學進度總表] 第十三至十四週：第九課馬太鞍的巴拉告。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "學習地圖三",
+          "learning_points": [
+            "第14-15週單元統整練習；融入環境教育、戶外教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.570 5-2教學進度總表] 第十四週：第九課馬太鞍的巴拉告／學習地圖三；第十五週：學習地圖三／單元主題引導。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第四單元 閱讀瞭望臺",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第十課 狐狸的故事",
+          "learning_points": [
+            "第15-16週授課；融入生命教育、品德教育。",
+            "相關參考選材（p.58）：《兒童故事河5：伊索寓言集》（文：伊索）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.55 課程架構表] 第四單元 閱讀瞭望臺：第十課 狐狸的故事；[PDF p.570-571 5-2教學進度總表] 第十五至十六週：第十課狐狸的故事。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第十一課 巨人的花園",
+          "learning_points": [
+            "第16-17週授課；融入生命教育、品德教育。",
+            "相關參考選材（p.58）：《巨人的花園》（《巨人和春天》文：郝廣才）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.55 課程架構表] 第十一課 巨人的花園；[PDF p.571 5-2教學進度總表] 第十六至十七週：第十一課巨人的花園。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第十二課 模仿貓（課程架構表列：奇特的朋友）",
+          "learning_points": [
+            "第18-19週授課；融入生涯規畫教育、品德教育、戶外教育。",
+            "注意 5-1-1 課程架構表（p.55）列「第十二課 奇特的朋友」（參考選材 p.59 列《大腳丫跳芭蕾》），5-2 進度總表（p.571-572）列「第十二課模仿貓」。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.55 課程架構表] 第十二課 奇特的朋友；[PDF p.571-572 5-2教學進度總表] 第十八至十九週：第十二課模仿貓。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "學習地圖四",
+          "learning_points": [
+            "第19週單元統整練習；融入生涯規畫教育、戶外教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.572 5-2教學進度總表] 第十九週：第十二課模仿貓／學習地圖四。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 5,
+          "title": "閱讀階梯二 拜訪火燒島",
+          "learning_points": [
+            "第20-21週閱讀素養延伸文本；融入閱讀素養教育、海洋教育、品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.55 課程架構表] 拜訪火燒島 閱讀階梯二；[PDF p.572 5-2教學進度總表] 第二十至廿一週：閱讀階梯二拜訪火燒島。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "學校課程計畫僅列各課課名、學習表現（如認識常用國字至少 1,800 字、使用 1,200 字）與三上整體目標，未附康軒國語第五冊逐課生字表與語詞清單。",
+      "recommended_action": "請提供 115 學年度康軒國語第五冊課本各課生字與語詞頁照片，或教師手冊電子檔字詞表。"
+    },
+    {
+      "field": "units[*].lessons[*].learning_points",
+      "reason": "source_not_found",
+      "detail": "課程計畫未列出逐課課文主旨、文體結構、句型修辭與字音字形測驗重點。",
+      "recommended_action": "請補充康軒國語第五冊各課課文與語文焦點內容頁。"
+    },
+    {
+      "field": "units[0].lessons[0].title / units[3].lessons[2].title",
+      "reason": "ambiguous_edition",
+      "detail": "同份 115 學年度課程計畫內，5-1-1 課程架構表（PDF p.55）列「第一課 心的悄悄話」、「第十二課 奇特的朋友」，但 5-2 教學進度總表（PDF p.566、p.571-572）則列「第一課 字的小旅行」、「第十二課 模仿貓」，兩處課名不一致。",
+      "recommended_action": "請核對 115 學年度實際發放之康軒國語 3 上（第五冊）課本目次頁，確認第一課與第十二課正式課名。"
+    }
+  ]
+}

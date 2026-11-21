@@ -1,0 +1,360 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 4,
+    "subject": "數學",
+    "publisher": "翰林",
+    "book_series": "第八冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:10:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 4,
+        "subject": "數學",
+        "publisher": "翰林",
+        "book_series": "第八冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 4,
+        "subject": "數學",
+        "publisher": "翰林",
+        "book_series": "第八冊（選書表僅列翰林，冊別由課程計畫核實）"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第1章 概數",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1-1 生活中的概數、1-2 無條件捨去法、1-3 無條件進入法",
+          "learning_points": [
+            "理解生活中的概數意義與近似符號「≈」的使用，能用無條件捨去法和無條件進入法取概數到指定位數（四下目標1；N-4-4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.305 課程架構表] 第1章 概數；[PDF p.592-593] 第1-2週：一、概數 1-1 生活中的概數、1-2 無條件捨去法、1-3 無條件進入法；[PDF p.307] 四下學習目標1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "1-4 四捨五入法、1-5 概數的應用、練習園地(一)",
+          "learning_points": [
+            "能用四捨五入法取概數到指定位數並做概數估算與計算應用（四下目標1；N-4-4、n-II-4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.593] 第3週：一、概數 1-4 四捨五入法、1-5 概數的應用、練習園地(一)；[PDF p.307] 四下學習目標1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第2章 四則運算",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "2-1 列式與逐步求解、2-2 先乘除後加減",
+          "learning_points": [
+            "理解有括號的先算、先乘除後加減的運算規則，並用併式解決兩步驟問題（四下目標2；r-II-3、r-II-4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.305 課程架構表] 第2章 四則運算；[PDF p.594] 第4週：二、四則運算 2-1 列式與逐步求解、2-2 先乘除後加減；[PDF p.307] 四下學習目標2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2-3 由左而右算、2-4 四則運算的性質、練習園地(二)",
+          "learning_points": [
+            "理解由左而右計算規則與加減／乘除混合計算的運算性質並應用解題（四下目標2；R-4-2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.594] 第5週：二、四則運算 2-3 由左而右算、2-4 四則運算的性質、練習園地(二)；[PDF p.307] 四下學習目標2。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第3章 垂直、平行與四邊形",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "3-1 認識垂直與做出垂直線、3-2 認識平行與做出平行線",
+          "learning_points": [
+            "認識垂直與平行的概念，並能使用工具做出垂直線與平行線（四下目標3；S-4-8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.305 課程架構表] 第3章 垂直、平行與四邊形；[PDF p.595] 第6週：三、垂直、平行與四邊形 3-1 認識垂直與做出垂直線、3-2 認識平行與做出平行線；[PDF p.307] 四下學習目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "3-3 認識四邊形家族、練習園地(三)",
+          "learning_points": [
+            "以邊與角的特徵認識正方形、長方形、菱形、平行四邊形與梯形的特性並能作圖（四下目標3；S-4-8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.595] 第7週：三、垂直、平行與四邊形 3-3 認識四邊形家族、練習園地(三)；[PDF p.307] 四下學習目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "遊戲中學數學（一）",
+          "learning_points": [
+            "透過遊戲深化垂直、平行與四邊形特徵認識（第7週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.305 課程架構表] 遊戲中學數學（一）；[PDF p.595] 第7週：遊戲中學數學（一）。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第4章 分數（一）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "4-1 同分母分數的加減法、4-2 分數的整數倍、練習園地(四)",
+          "learning_points": [
+            "能做真分數、假分數、帶分數的同分母分數加減，及分數的整數倍與其應用（四下目標4；N-4-5、n-II-6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.305 課程架構表] 第4章 分數（一）；[PDF p.595] 第8週：四、分數（一） 4-1 同分母分數的加減法、4-2 分數的整數倍、練習園地(四)；[PDF p.307] 四下學習目標4。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "第5章 形體的大小（含學習加油讚一）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "5-1 認識體積、5-2 認識立方公分、5-3 體積有多大、練習園地(五)",
+          "learning_points": [
+            "認識體積的意義與比較，認識1立方公分之正方體，並能計數正方體堆疊形體的體積（四下目標5；S-4-4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.305 課程架構表] 第5章 形體的大小；[PDF p.596] 第9週：五、形體的大小 5-1 認識體積、5-2 認識立方公分、5-3 體積有多大、練習園地(五)；[PDF p.307] 四下學習目標5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "學習加油讚（一）：綜合與應用、探索中學數學",
+          "learning_points": [
+            "第10週（評量週）；統整第1至5章學習內容與綜合應用。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.305 課程架構表] 學習加油讚（一）；[PDF p.596] 第10週：學習加油讚（一） 綜合與應用、探索中學數學。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "第6章 小數乘法",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "6-1 乘數是一位數、6-2 一位小數乘以整數、6-3 二位小數乘以整數、練習園地(六)",
+          "learning_points": [
+            "能解決一、二位小數的整數倍直式計算與應用問題（四下目標6；N-4-7）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.305 課程架構表] 第6章 小數乘法；[PDF p.596-597] 第11週：六、小數乘法 6-1 乘數是一位數、6-2 一位小數乘以整數、6-3 二位小數乘以整數、練習園地(六)；[PDF p.307] 四下學習目標6。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 7,
+      "title": "第7章 周長與面積",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "7-1 長方形與正方形的周長、7-2 長方形與正方形的面積、7-3 周長與面積",
+          "learning_points": [
+            "能理解並運用公式求正方形和長方形的周長與面積，理解邊長與周長、面積的關係（四下目標7；S-4-3、s-II-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.305 課程架構表] 第7章 周長與面積；[PDF p.597] 第12週：七、周長與面積 7-1 長方形與正方形的周長、7-2 長方形與正方形的面積、7-3 周長與面積；[PDF p.307] 四下學習目標7。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "7-4 平方公尺與平方公分、7-5 簡單複合圖形的面積、練習園地(七)",
+          "learning_points": [
+            "認識「平方公尺」並與平方公分做換算，能算出簡單複合圖形的面積（四下目標7；N-4-11、S-4-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.598] 第13週：七、周長與面積 7-4 平方公尺與平方公分、7-5 簡單複合圖形的面積、練習園地(七)；[PDF p.307] 四下學習目標7。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "遊戲中學數學（二）",
+          "learning_points": [
+            "第13週；透過遊戲練習周長與面積概念。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.305 課程架構表] 遊戲中學數學（二）；[PDF p.598] 第13週：遊戲中學數學（二）。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 8,
+      "title": "第8章 分數（二）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "8-1 等值分數、8-2 簡單異分母分數的比較",
+          "learning_points": [
+            "由操作活動中理解等值分數的意義，並能做簡單的異分母分數大小比較（四下目標8；N-4-6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.305 課程架構表] 第8章 分數（二）；[PDF p.598] 第14週：八、分數（二） 8-1 等值分數、8-2 簡單異分母分數的比較；[PDF p.307] 四下學習目標8。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "8-3 簡單異分母分數的加減、8-4 分數與小數、練習園地(八)",
+          "learning_points": [
+            "能做簡單的異分母分數加減及簡單分數與小數的互換，並在數線上標示出分數和小數（四下目標8；N-4-6、N-4-8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.599] 第15週：八、分數（二） 8-3 簡單異分母分數的加減、8-4 分數與小數、練習園地(八)；[PDF p.307] 四下學習目標8。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 9,
+      "title": "第9章 時間的計算",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "9-1 12 時制與 24 時制、9-2 日、小時的換算與計算、9-3 小時、分鐘、秒的換算與計算",
+          "learning_points": [
+            "認識12時制和24時制並做換算，能做日與時、時與分、分與秒的換算及計算（四下目標9；n-II-10）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.305 課程架構表] 第9章 時間的計算；[PDF p.600] 第16週：九、時間的計算 9-1 12 時制與24 時制、9-2 日、小時的換算與計算、9-3 小時、分鐘、秒的換算與計算；[PDF p.307] 四下學習目標9。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "9-4 跨午的時間計算、9-5 跨日的時間計算、練習園地(九)",
+          "learning_points": [
+            "能解決跨午及跨日的時間複名數加減直式計算與日常應用問題（四下目標9；n-II-10）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.601] 第17週：九、時間的計算 9-4 跨午的時間計算、9-5 跨日的時間計算、練習園地(九)；[PDF p.307] 四下學習目標9。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 10,
+      "title": "第10章 規律（含學習加油讚二與數學園地）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "10-1 數的規律、10-2 奇偶數的規律",
+          "learning_points": [
+            "能觀察日常生活與數字相關的規律及奇數與偶數的加減乘規律（四下目標10；R-4-4、r-II-2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.305 課程架構表] 第10章 規律；[PDF p.601] 第18週：十、規律 10-1 數的規律、10-2 奇偶數的規律；[PDF p.307] 四下學習目標10。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "10-3 圖案的規律、練習園地(十)",
+          "learning_points": [
+            "能觀察圖形排列與二維變化模式的規律並進行簡單推理（四下目標10；R-4-4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.602] 第19週：十、規律 10-3 圖案的規律、練習園地(十)；[PDF p.307] 四下學習目標10。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "學習加油讚(二)、看繪本學數學：綜合與應用、探索中學數學、奶奶的禮物、音符精靈和節奏餅乾",
+          "learning_points": [
+            "第20週（評量週）；統整第6至10章並透過數學繪本深化應用。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.305 課程架構表] 學習加油讚（二）；[PDF p.603] 第20週：學習加油讚(二)、看繪本學數學 綜合與應用、探索中學數學、奶奶的禮物、音符精靈和節奏餅乾。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "數學園地：星球的運動、圖案規律的美",
+          "learning_points": [
+            "第21週；數學延伸閱讀與圖案規律美感探索。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.603 5-2教學進度總表] 第21週：數學園地 星球的運動、圖案規律的美。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].examples_and_exercises",
+      "reason": "source_not_found",
+      "detail": "課程計畫僅載明章節小節名稱、學習表現／學習內容與單元總目標，未附翰林四下（第八冊）課本實際例題題目、圖形數據與練習園地題型。",
+      "recommended_action": "出題時依上述各小節指標與課綱範圍設計題目；若需完全對應課本圖表數據或例題編排，請提供翰林數學四下（第八冊）課本電子書或習作頁面。"
+    }
+  ]
+}

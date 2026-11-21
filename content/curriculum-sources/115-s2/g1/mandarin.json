@@ -1,0 +1,302 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 1,
+    "subject": "語文-國語文",
+    "publisher": "翰林",
+    "book_series": "第二冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T15:55:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 1,
+        "subject": "語文-國語文",
+        "publisher": "翰林",
+        "book_series": "第二冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 1,
+        "subject": "語文-國語文",
+        "publisher": "翰林",
+        "book_series": "第二冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第二冊第壹單元：我的發現",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一課春天來了",
+          "learning_points": [
+            "透過朗讀課文與觀察季節變化發揮想像力自由發表（下學期目標1）；融入環境教育、生命教育、閱讀素養教育、戶外教育（第1-2週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.547 5-2教學進度總表] 第一至二週：第二冊第壹單元：我的發現 第一課春天來了【環境教育】【生命教育】【閱讀素養教育】【戶外教育】；[PDF p.45] 下學期目標1；[PDF p.46] 翰林 首冊、第一冊、第二冊。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第二課小雨",
+          "learning_points": [
+            "觀察自然現象並感受課文情感；融入環境教育、生命教育、閱讀素養教育、戶外教育（第3週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.548 5-2教學進度總表] 第三週：第二冊第壹單元：我的發現 第二課小雨【環境教育】【生命教育】【閱讀素養教育】【戶外教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第三課美好的一天",
+          "learning_points": [
+            "以字音、字形、字義延伸識字並練習完整語句表達；融入環境教育、生命教育、閱讀素養教育、戶外教育（第4週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.548 5-2教學進度總表] 第四週：第二冊第壹單元：我的發現 第三課美好的一天【環境教育】【生命教育】【閱讀素養教育】【戶外教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "統整活動一",
+          "learning_points": [
+            "第壹單元字詞、句型與閱讀統整練習；融入人權教育、生涯規劃教育、閱讀素養教育（第5週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.548 5-2教學進度總表] 第五週：第二冊第壹單元：我的發現 統整活動一【人權教育】【生涯規劃教育】【閱讀素養教育】。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二冊第貳單元：怎麼辦",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第四課送什麼呢",
+          "learning_points": [
+            "引導思考遇到問題時可採取的解決方法（下學期目標3）；融入家庭教育、閱讀素養教育（第6週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.549 5-2教學進度總表] 第六週：第二冊第貳單元：怎麼辦 第四課送什麼呢【家庭教育】【閱讀素養教育】；[PDF p.45] 下學期目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第五課窗外的小麻雀",
+          "learning_points": [
+            "觀察生活情境並思考解決問題的可能方法；融入環境教育、生命教育、閱讀素養教育（第7週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.549 5-2教學進度總表] 第七週：第二冊第貳單元：怎麼辦 第五課窗外的小麻雀【環境教育】【生命教育】【閱讀素養教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第六課毛毛蟲過河",
+          "learning_points": [
+            "透過故事探究解決困難的策略；融入品德教育、閱讀素養教育（第8週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.550 5-2教學進度總表] 第八週：第二冊第貳單元：怎麼辦 第六課毛毛蟲過河【品德教育】【閱讀素養教育】；[PDF p.45] 下學期目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "統整活動二",
+          "learning_points": [
+            "第貳單元閱讀理解策略與寫作句型統整；融入品德教育、生命教育、閱讀素養教育（第9週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.550 5-2教學進度總表] 第九週：第二冊第貳單元：怎麼辦 統整活動二【品德教育】【生命教育】【閱讀素養教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 5,
+          "title": "來閱讀魯班造傘",
+          "learning_points": [
+            "引導學生勇於發問、探索問題及培養解決問題能力（下學期目標6）；融入科技教育、閱讀素養教育（第10週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.550 5-2教學進度總表] 第十週：第二冊第貳單元：怎麼辦 來閱讀魯班造傘【科技教育】【閱讀素養教育】；[PDF p.45] 下學期目標6。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 6,
+          "title": "課程統整：總複習（期中）",
+          "learning_points": [
+            "期中階段閱讀與語文能力統整複習；融入品德教育、安全教育、閱讀素養教育（第11週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.551 5-2教學進度總表] 第十一週：課程統整 總複習【品德教育】【安全教育】【閱讀素養教育】。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第二冊第參單元：好朋友",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第七課借筆",
+          "learning_points": [
+            "感受自己和他人的情緒，尊重他人並善用方法與人相處（下學期目標4）；融入品德教育、閱讀素養教育（第12週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.551 5-2教學進度總表] 第十二週：第二冊第參單元：好朋友 第七課借筆【品德教育】【閱讀素養教育】；[PDF p.45] 下學期目標4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第八課兩張卡片",
+          "learning_points": [
+            "體會同儕情誼與表達關心的方法；融入品德教育、生命教育、閱讀素養教育（第13週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.551 5-2教學進度總表] 第十三週：第二冊第參單元：好朋友 第八課兩張卡片【品德教育】【生命教育】【閱讀素養教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第九課友情的枴杖",
+          "learning_points": [
+            "引導認識自我特色與人際互動互助方法（下學期目標2、4）；融入品德教育、閱讀素養教育（第14週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.551 5-2教學進度總表] 第十四週：第二冊第參單元：好朋友 第九課友情的枴杖【品德教育】【閱讀素養教育】；[PDF p.45] 下學期目標2、4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "統整活動三",
+          "learning_points": [
+            "第參單元語詞運用與人際表達統整；融入生涯規劃教育、閱讀素養教育（第15週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.552 5-2教學進度總表] 第十五週：第二冊第參單元：好朋友 統整活動三【生涯規劃教育】【閱讀素養教育】。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第二冊第肆單元：我做到了",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第十課一棵小樹",
+          "learning_points": [
+            "思考並善用方法解決問題，培養獨立能力與信心（下學期目標5）；融入環境教育、閱讀素養教育、戶外教育（第16週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.552 5-2教學進度總表] 第十六週：第二冊第肆單元：我做到了 第十課一棵小樹【環境教育】【閱讀素養教育】【戶外教育】；[PDF p.45] 下學期目標5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第十一課鉛筆和橡皮擦",
+          "learning_points": [
+            "透過文本賞析學會合作與尊重彼此長處；融入品德教育、閱讀素養教育（第17週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.552 5-2教學進度總表] 第十七週：第二冊第肆單元：我做到了 第十一課鉛筆和橡皮擦【品德教育】【閱讀素養教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第十二課上臺說故事",
+          "learning_points": [
+            "培養獨立能力、信心與口語發表能力；融入品德教育、生涯規劃教育、閱讀素養教育（第18週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.553 5-2教學進度總表] 第十八週：第二冊第肆單元：我做到了 第十二課上臺說故事【品德教育】【生涯規劃教育】【閱讀素養教育】；[PDF p.45] 下學期目標5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "統整活動四",
+          "learning_points": [
+            "第肆單元字詞、寫作仿寫接寫與閱讀統整；融入家庭教育、閱讀素養教育（第19週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.553 5-2教學進度總表] 第十九週：第二冊第肆單元：我做到了 統整活動四【家庭教育】【閱讀素養教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 5,
+          "title": "來閱讀山頂",
+          "learning_points": [
+            "引導樂於閱讀並體會語文之美（下學期目標7）；融入生命教育、閱讀素養教育、戶外教育（第20週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.553 5-2教學進度總表] 第二十週：第二冊第肆單元：我做到了 來閱讀山頂【生命教育】【閱讀素養教育】【戶外教育】；[PDF p.45] 下學期目標7。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 6,
+          "title": "課程統整：總複習（期末）",
+          "learning_points": [
+            "一下全冊總複習與閱讀統整；融入環境教育、品德教育、閱讀素養教育（第21週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.553 5-2教學進度總表] 第廿一週：課程統整 總複習【環境教育】【品德教育】【閱讀素養教育】。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "5-1-1 國語文一年級課程架構表（PDF p.43）為嵌入圖片未轉出文字，單元與課次係依據 5-2 教學進度總表（PDF p.547-553）逐字擷取；課程計畫書未附第二冊各課生字與語詞清單。",
+      "recommended_action": "請提供翰林國語第二冊（一下）課本目次與生字／語詞表照片。"
+    }
+  ]
+}

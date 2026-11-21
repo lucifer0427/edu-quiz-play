@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 6,
+    "subject": "本土語文-客語",
+    "publisher": "康軒",
+    "book_series": "第11冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:05:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 6,
+        "subject": "本土語文-客語",
+        "publisher": "康軒",
+        "book_series": "第11冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 6,
+        "subject": "本土語文-客語",
+        "publisher": "康軒",
+        "book_series": "第11冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "進度單元一（第1–7週）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一課 地動",
+          "learning_points": [
+            "藉課文中地震後討論過程描述學習相關防災觀念；讓學生學習自然災害語詞的客家語說法，並利用自然災害語詞進行對話練習（六上目標4-6）。",
+            "第1-3週授課（1節/週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.621-622 5-2教學進度總表] 第1-3週：第一課地動 1；[PDF p.183] 六上學習目標4-6。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第二課 懶尸个草蜢(仔)",
+          "learning_points": [
+            "透過趣味的寓言故事情境，嘗試描述讀後感想與其所隱含意義；學習天氣現象語詞的客家語說法並進行對話練習（六上目標1-3）。",
+            "第4-6週授課。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.622-623 5-2教學進度總表] 第4-6週：第二課懶尸个草蜢(仔) 1；[PDF p.183] 六上學習目標1-3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元活動一",
+          "learning_points": [
+            "第一單元統整複習與對話練習活動（第7週授課）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.623 5-2教學進度總表] 第7週：單元活動一 1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "進度單元二（第8–14週）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第三課 雙堂屋",
+          "learning_points": [
+            "藉由課文對臺灣風景名勝的歌誦嘗試了解臺灣各地風光，認識臺灣名勝語詞的客家語說法並進行對話練習（六上目標10-12；註：實際單元目標對應需以課本為準）。",
+            "第8-10週授課；融入多元文化教育、環境教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.624 5-2教學進度總表] 第8-10週：第三課雙堂屋 1【多元文化教育】【環境教育】；[PDF p.184] 六上學習目標10-12。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第四課 風車个故鄉",
+          "learning_points": [
+            "透過課文描寫荷蘭風車及迷人的風景，體認其獨特的風土民情與景觀；認識各國名產語詞的客家語說法並進行對話練習（六上目標13-15）。",
+            "第11-13週授課。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.625-626 5-2教學進度總表] 第11-13週：第四課風車个故鄉 1；[PDF p.184] 六上學習目標13-15。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元活動二",
+          "learning_points": [
+            "第二單元統整複習與對話練習活動（第14週授課）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.626 5-2教學進度總表] 第14週：單元活動二 1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "進度單元三（第15–18週）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第五課 桃花開",
+          "learning_points": [
+            "透過順口、易懂的歌詞搭配傳統優美的古調陶冶藝文氣息；學習藝文活動語詞的客家語說法並進行對話練習（六上目標7-9）。",
+            "第15-17週授課。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.626-627 5-2教學進度總表] 第15-17週：第五課桃花開 1；[PDF p.184] 六上學習目標7-9。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元活動三",
+          "learning_points": [
+            "第三單元統整複習與對話練習活動（第18週授課）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.627 5-2教學進度總表] 第18週：單元活動三 1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "補充與複習活動（第19–21週）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "語詞運用",
+          "learning_points": [
+            "各課客語語詞應用練習（第19週授課）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.628 5-2教學進度總表] 第19週：語詞運用 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "天公落水",
+          "learning_points": [
+            "客家傳統歌謠補充教學與複習（第20週授課）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.628 5-2教學進度總表] 第20週：天公落水 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "搞麼个？出任務囉！",
+          "learning_points": [
+            "期末趣味任務與全冊語詞對話綜合複習（第21週授課）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.628 5-2教學進度總表] 第21週：搞麼个？出任務囉！ 1。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].title",
+      "reason": "source_not_found",
+      "detail": "5-1-1 客語課程架構表（PDF p.183）為嵌入圖表未提取出文字，僅可由 5-2 教學進度總表（PDF p.621-628）取得第一至第五課課名、單元活動一～三與補充活動名稱，故未推論原課本三個大單元標題。",
+      "recommended_action": "請提供康軒國小客語第11冊課本目次頁照片以補齊大單元名稱。"
+    },
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未列康軒客語第11冊各課實際客語詞彙（漢字、客語拼音及四縣／海陸腔別對照）。",
+      "recommended_action": "請提供康軒國小客語第11冊各課語詞表與腔調對照頁照片。"
+    }
+  ]
+}

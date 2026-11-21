@@ -1,0 +1,185 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 6,
+    "subject": "本土語文-閩南語",
+    "publisher": "康軒",
+    "book_series": "第12冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:05:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 6,
+        "subject": "本土語文-閩南語",
+        "publisher": "康軒",
+        "book_series": "第12冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 6,
+        "subject": "本土語文-閩南語",
+        "publisher": "康軒",
+        "book_series": "第11冊（選書表僅列單數起始冊，第12冊由課程計畫核實）"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 來去踅夜市",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一課 看人咧喝賣",
+          "learning_points": [
+            "理解課文裡夜市叫賣情況及角色對話扮演；學會 ABB 疊字形容詞的造句應用；認識常見的文白音，並認識生活中常見消費場所及夜市文化型態（六下目標1-4）。",
+            "第1-3週授課（1節/週）；融入家庭教育、閱讀素養教育、戶外教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.177 課程架構表] 閩南語第12冊 第一單元 來去踅夜市：第一課 看人咧喝賣；[PDF p.629-630] 第1-3週；[PDF p.178] 六下學習目標1-4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元活動一",
+          "learning_points": [
+            "第一單元統整與複習活動（第4週授課）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.177 課程架構表] 單元活動一；[PDF p.630 5-2教學進度總表] 第4週：單元活動一 1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 春天的歌詩",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第二課 苦楝若開花",
+          "learning_points": [
+            "認識現代詩以家鄉生活為題材的書寫情懷；認識且能口述臺灣原生種苦楝的四季變化；學會本課常用俗諺語並應用於生活（六下目標5-7）。",
+            "第5-7週授課。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.177 課程架構表] 第二單元 春天的歌詩：第二課 苦楝若開花；[PDF p.630-631] 第5-7週；[PDF p.178] 六下學習目標5-7。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第三課 阿媽的魔法",
+          "learning_points": [
+            "聽懂「相招來開講」的情境故事並應用於生活中的應對；從賴和的「題畫扇」認識閩南語文白音（六下目標8-9）。",
+            "第8-10週授課；融入閱讀素養教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.177 課程架構表] 第三課 阿媽的魔法；[PDF p.632-633] 第8-10週；[PDF p.178] 六下學習目標8-9。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元活動二",
+          "learning_points": [
+            "第二單元統整與複習活動（第11週授課）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.177 課程架構表] 單元活動二；[PDF p.633 5-2教學進度總表] 第11週：單元活動二 1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元 祝福的季節",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第四課 祝福的話",
+          "learning_points": [
+            "學會本課的祝福用語，認識各種花所代表的意義（六下目標10-11）。",
+            "第12-14週授課；融入生涯規劃教育、品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.177 課程架構表] 第三單元 祝福的季節：第四課 祝福的話；[PDF p.633-634] 第12-14週；[PDF p.178] 六下學習目標10-11。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元活動三",
+          "learning_points": [
+            "第三單元統整與複習活動（第15週授課）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.177 課程架構表] 單元活動三；[PDF p.634 5-2教學進度總表] 第15週：單元活動三 1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "統整與補充活動",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "大樹青青",
+          "learning_points": [
+            "學期末補充篇章與情境練習（第16週授課）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.635 5-2教學進度總表] 第16週：大樹青青 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "看圖寫看覓、箍看覓、語詞運用",
+          "learning_points": [
+            "看圖寫作、語詞辨識與全冊語詞應用複習（第17週授課；第18週為畢業週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.635 5-2教學進度總表] 第17週：看圖寫看覓、箍看覓、語詞運用 1；第18週：畢業週。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書僅列各課課名與學習目標（含 ABB 疊字形容詞、文白音、俗諺語、祝福用語與花語等方向），未列出康軒第12冊各課實際閩南語詞彙、漢字及臺羅拼音清單。",
+      "recommended_action": "請提供康軒國小閩南語第12冊課本各課生詞／語詞表及拼音對照頁照片。"
+    }
+  ]
+}

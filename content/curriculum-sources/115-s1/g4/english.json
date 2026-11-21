@@ -1,0 +1,227 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 4,
+    "subject": "語文-英語文",
+    "publisher": "翰林",
+    "book_series": "Here We Go 第三冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:10:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 4,
+        "subject": "語文-英語文",
+        "publisher": "翰林",
+        "book_series": "Here We Go 第三冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 4,
+        "subject": "語文-英語文",
+        "publisher": "翰林",
+        "book_series": "3 Here We Go"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 0,
+      "title": "開學預備週、Starter & Festival Moon Festival",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "開學預備週 World Map, ABC Review, Phonics Review, Word & Sentence Review, Classroom English",
+          "learning_points": [
+            "第1週預備暖身：世界地圖概念、26個字母與字母拼讀複習、舊冊字詞句型複習及教室用語（四上目標2、7）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.580-581 5-2教學進度總表] 第1週：開學預備週 World Map, ABC Review, Phonics Review, Word & Sentence Review, Classroom English【國際教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "Starter",
+          "learning_points": [
+            "第2週起始單元（四上目標1：能聽辨並說出數字 16-20）。",
+            "彈性學習課程【雙語讀劇】第1-3週亦配合進行「神奇魔法數字」（1-20 數字歌謠與 -teen 拼字觀察）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.95 課程架構表] Starter；[PDF p.581] 第2週：Starter【國際教育】；[PDF p.97] 四上學習目標1；[PDF p.727 雙語讀劇] 第1-3週：神奇魔法數字。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "節慶 Festival Moon Festival（中秋節）",
+          "learning_points": [
+            "第3週實施（課程架構表置於四上節慶欄）；認識中外主要節慶習俗及由來（四上目標9；C-II-2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.95 課程架構表] Festival Moon Festival；[PDF p.581] 第3週：節慶 Festival Moon Festival【國際教育】【多元文化教育】；[PDF p.97] 四上學習目標9。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 1,
+      "title": "Unit 1 How’s the Weather?",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "天氣 — Unit 1 How’s the Weather?（含第一次評量 Exam 1）",
+          "learning_points": [
+            "主題：天氣（第4-7週，第7週含第一次評量 Exam 1）；融入國際教育、多元文化教育、科技教育。",
+            "四上字母拼讀跨單元目標（p.97目標8）：能聽辨及運用字母拼讀法讀出以 b-, p-, d-, t-, g-, c-, v, f-, z-, s- 所組成的字詞並能聽讀字母拼讀韻文。",
+            "彈性學習課程【雙語讀劇】第4-6週配合「天空調色盤」（氣象報告英文單字句型與城市天氣播報）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.95 課程架構表] Unit 1 How’s the Weather?；[PDF p.582-584] 第4-7週：天氣 Unit 1 How’s the Weather?（第7週含第一次評量 Exam 1）；[PDF p.97] 四上學習目標8。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "Unit 2 Are You Thirsty?",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "感覺 — Unit 2 Are You Thirsty?",
+          "learning_points": [
+            "主題：感覺（第8-11週）；融入環境教育。",
+            "彈性學習課程【雙語讀劇】第7-9週配合「感覺便利貼」（情緒與感受表達單字句型）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.95 課程架構表] Unit 2 Are You Thirsty?；[PDF p.585-587] 第8-11週：感覺 Unit 2 Are You Thirsty?；[PDF p.728-729 雙語讀劇] 第7-9週：感覺便利貼。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "Review 1",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "複習一 Review 1",
+          "learning_points": [
+            "第11週（併同 Unit 2 收尾）；統整複習 Unit 1 與 Unit 2 所學單字、句型及故事對話（p.93 課程理念6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.95 課程架構表] Review 1；[PDF p.587 5-2教學進度總表] 第11週：感覺、複習一 Unit 2 Are You Thirsty?、Review 1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "Unit 3 What Are These?",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "食物與水果 — Unit 3 What Are These?（含第二次評量 Exam 2）",
+          "learning_points": [
+            "主題：食物與水果（第12-15週，第15週含第二次評量 Exam 2）；融入國際教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.95 課程架構表] Unit 3 What Are These?；[PDF p.587-589] 第12-15週：食物與水果 Unit 3 What Are These?（第15週含第二次評量 Exam 2）。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "Unit 4 Do You Want Some Pizza?",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "食物與飲料 — Unit 4 Do You Want Some Pizza?",
+          "learning_points": [
+            "主題：食物與飲料（第16-19週）；融入國際教育。",
+            "彈性學習課程【雙語讀劇】第14-17週配合「我最『食』在」（食物與水果單字、購物對話句型）、第18-21週配合「世界美食巡禮」。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.95 課程架構表] Unit 4 Do You Want Some Pizza?；[PDF p.589-591] 第16-19週：食物與飲料 Unit 4 Do You Want Some Pizza?。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "Review 2, Final Review & Culture Food Around the World",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "複習二、總複習 Review 2、Final Review",
+          "learning_points": [
+            "第20週；整合 Unit 3 與 Unit 4 及全冊字彙句型總複習（融入品德教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.95 課程架構表] Review 2、Final Review；[PDF p.591] 第20週：複習二、總複習 Review 2、Final Review【品德教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "文化、第三次評量 Culture Food Around the World、Exam 3、讀者劇場",
+          "learning_points": [
+            "第21週；認識外國飲食風土民情，從多元文化觀點瞭解及尊重不同文化及習俗（四上目標10；融入多元文化教育、國際教育），並進行第三次評量及讀者劇場。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.95 課程架構表] Culture Food Around the World；[PDF p.591-592] 第21週：文化、第三次評量 Culture、Exam 3、讀者劇場【多元文化教育】【國際教育】；[PDF p.97] 四上學習目標10。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "target.book_series",
+      "reason": "ambiguous_edition",
+      "detail": "《115_.pdf》5-3-1 選用教科書一覽表（PDF p.638）四年級 115 學年度英語文欄誤印為「翰林 1 Here We Go」（同表 112–114 學年度皆為「翰林 3 Here We Go」）；經比對《115學年教科書版本.pdf》（src-2：四年級 翰林 3 Here We Go）、5-1-1 英語文領域課程計畫（PDF p.95-98 明列「翰林Here We Go 三、四冊」及四上第三冊單元架構）與 5-2 進度總表（p.580-591），已確認 115 學年度四上實際選用版本為《Here We Go 第三冊》。另本校四年級設有彈性學習課程【雙語讀劇】（6-2-1 p.724-731，每週 1 節）延伸英語單元情境實作。",
+      "recommended_action": "本檔已採 5-1-1、5-2 與選書表一致確認之《Here We Go 第三冊》建檔；無須改採誤植之第 1 冊。"
+    },
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "大忠國小 115 學年度課程計畫書僅明列單元名稱、主題（天氣、感覺、食物與水果、食物與飲料、Moon Festival、Food Around the World）、數字範圍 16-20 與 Phonics 子音組清單（b-, p-, d-, t-, g-, c-, v, f-, z-, s-），未附 Here We Go 第三冊各單元實際單字表。",
+      "recommended_action": "請提供《Here We Go 3》115 學年度課本 Word List／單字頁照片，或翰林官方單字清單以補齊 100% 無推論單字庫。"
+    },
+    {
+      "field": "units[*].lessons[*].learning_points",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未逐課拆解各單元的完整核心句型（僅見於單元標題問句）與各單元專屬 Phonics 對應歸屬（僅列四上整體子音拼讀音組）。",
+      "recommended_action": "請提供《Here We Go 3》課本目次頁或各課 Sentence Pattern / Phonics 頁面照片。"
+    }
+  ]
+}

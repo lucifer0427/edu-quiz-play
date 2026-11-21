@@ -1,0 +1,350 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 5,
+    "subject": "數學",
+    "publisher": "翰林",
+    "book_series": "第十冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T13:05:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 5,
+        "subject": "數學",
+        "publisher": "翰林",
+        "book_series": "第十冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 5,
+        "subject": "數學",
+        "publisher": "翰林",
+        "book_series": null
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第1章 數的十進位結構",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1-1 億以上的大數、1-2 多位小數",
+          "learning_points": [
+            "認識億以上的大數；認識多位小數；理解數的十進位位值結構（「兆位」至「千分位」）（N-5-1、n-III-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.312 課程架構表] 第1章 數的十進位結構；[PDF p.613] 第1-2週：一、數的十進位結構 1-1 億以上的大數、1-2 多位小數【環境教育】；[PDF p.314] 五下學習目標1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "1-3 數的十進位結構、1-4 大數的乘與除、練習園地(一)",
+          "learning_points": [
+            "認識數的十進位結構及位值間的關係；解決整數末位有多個0的乘除計算（N-5-1、n-III-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.613-614] 第3週：一、數的十進位結構 1-3 數的十進位結構、1-4 大數的乘與除、練習園地(一)【環境教育】；[PDF p.314] 五下學習目標1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第2章 分數的計算",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "2-1 整數的分數倍、2-2 分數的分數倍",
+          "learning_points": [
+            "理解整數乘以分數、分數乘以分數的意義並用約分簡化乘法計算（N-5-5、n-III-6）。（註：5-2進度總表第4-5週章名簡記為「二、分數」。）"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.312 課程架構表] 第2章 分數的計算；[PDF p.614] 第4週：二、分數 2-1 整數的分數倍、2-2 分數的分數倍【國際教育】；[PDF p.314] 五下學習目標2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2-3 被乘數、乘數與積的關係、2-4 分數除以整數、練習園地(二)",
+          "learning_points": [
+            "處理乘積與被乘數大小關係之判斷；理解分數除以整數的意義並轉化為乘以單位分數（N-5-5、N-5-7、n-III-5、n-III-6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.614] 第5週：二、分數 2-3 被乘數、乘數與積的關係、2-4 分數除以整數、練習園地(二)【國際教育】；[PDF p.314] 五下學習目標2。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第3章 長方體與正方體的體積",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "3-1 長方體與正方體的體積、3-2 認識1立方公尺",
+          "learning_points": [
+            "理解長方體、正方體體積的計算公式；認識體積單位「立方公尺」並做實測及估測（N-5-14、S-5-5、s-III-4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.312 課程架構表] 第3章 長方體與正方體的體積；[PDF p.615] 第6週：三、長方體與正方體的體積 3-1 長方體與正方體的體積、3-2 認識1立方公尺【環境教育】；[PDF p.314] 五下學習目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "3-3 簡單複合形體的體積、練習園地(三)",
+          "learning_points": [
+            "計算簡單長方體和正方體複合形體的體積（S-5-5、s-III-4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.615] 第7週：三、長方體與正方體的體積 3-3 簡單複合形體的體積、練習園地(三)、工作中的數學(一)【環境教育】；[PDF p.314] 五下學習目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "工作中的數學（一）",
+          "learning_points": [
+            "結合體積／幾何概念之數學職場與生活應用單元（進度總表第7週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.312 課程架構表] 工作中的數學（一）；[PDF p.615] 第7週：工作中的數學(一)。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第4章 小數",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "4-1 多位小數乘以整數、4-2 整數乘以小數",
+          "learning_points": [
+            "理解多位小數的整數倍問題，並解決生活中的問題；解決整數乘以小數的問題（N-5-8、n-III-7）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.312 課程架構表] 第4章 小數；[PDF p.615] 第8週：四、小數 4-1 多位小數乘以整數、4-2 整數乘以小數【多元文化教育】；[PDF p.314] 五下學習目標4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "4-3 小數乘以小數、4-4 小數、整數除以整數、練習園地(四)",
+          "learning_points": [
+            "解決小數乘以小數的問題；解決小數、整數除以整數且商為小數的除法問題，並能用四捨五入法取概數處理除不盡情況（N-5-8、N-5-9、N-5-11、n-III-7、n-III-8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.616] 第9週：四、小數 4-3 小數乘以小數、4-4 小數、整數除以整數、練習園地(四)【多元文化教育】；[PDF p.314] 五下學習目標4。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "第5章 生活中的大單位",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "5-1 認識公噸",
+          "learning_points": [
+            "認識重量單位「公噸」之意義，並進行與「公斤」的換算與計算（N-5-13、n-III-11）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.312 課程架構表] 第5章 生活中的大單位；[PDF p.616] 第10週：五、生活中的大單位 5-1 認識公噸【環境教育】；[PDF p.314] 五下學習目標5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "5-2 認識公畝、公頃和平方公里、練習園地(五)",
+          "learning_points": [
+            "認識面積單位「公畝」、「公頃」、「平方公里」之意義，並進行與「平方公尺」的換算與計算（N-5-12、n-III-11）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.616-617] 第11週：五、生活中的大單位 5-2 認識公畝、公頃和平方公里、練習園地(五)【環境教育】；[PDF p.314] 五下學習目標5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "學習加油讚（一）",
+          "learning_points": [
+            "綜合與應用、探索中學數學（第12週期中統整複習）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.312 課程架構表] 學習加油讚（一）；[PDF p.617] 第12週：學習加油讚(一) 綜合與應用、探索中學數學【閱讀素養教育】。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "第6章 時間的乘除",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "6-1 時間的乘法、6-2 時間的除法",
+          "learning_points": [
+            "解決時間的乘法問題；解決時間的除法問題（N-5-16）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.312 課程架構表] 第6章 時間的乘除；[PDF p.617-618] 第13週：六、時間的乘除 6-1 時間的乘法、6-2 時間的除法【科技教育】；[PDF p.314] 五下學習目標6。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "6-3 時間的應用、練習園地(六)",
+          "learning_points": [
+            "解決生活中的時間應用問題（N-5-16）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.618] 第14週：六、時間的乘除 6-3 時間的應用、練習園地(六)【科技教育】；[PDF p.314] 五下學習目標6。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 7,
+      "title": "第7章 容積",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "7-1 認識容積、7-2 容積與容量的關係、7-3 不規則物體的體積、練習園地(七)",
+          "learning_points": [
+            "理解容積與體積的關係；理解容積與容量的關係及液體體積的意義；測量與計算不規則物體的體積（N-5-15、n-III-12）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.312 課程架構表] 第7章 容積；[PDF p.618] 第15週：七、容積 7-1 認識容積、7-2 容積與容量的關係、7-3 不規則物體的體積、練習園地(七)、工作中的數學(二)【環境教育】；[PDF p.314] 五下學習目標7。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "工作中的數學（二）",
+          "learning_points": [
+            "結合容積／測量概念之數學職場與生活應用單元（進度總表第15週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.312 課程架構表] 工作中的數學（二）；[PDF p.618] 第15週：工作中的數學(二)。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 8,
+      "title": "第8章 比率與百分率",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "8-1 認識比率、8-2 認識百分率",
+          "learning_points": [
+            "理解比率的意義；理解百分率的意義（N-5-10、n-III-9）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.312 課程架構表] 第8章 比率與百分率；[PDF p.619] 第16週：八、比率與百分率 8-1 認識比率、8-2 認識百分率【生命教育】；[PDF p.314] 五下學習目標8。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "8-3 百分率的應用、練習園地(八)",
+          "learning_points": [
+            "解決生活中與百分率有關的問題（含「折」、「成」應用）（N-5-10、n-III-9）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.619] 第17週：八、比率與百分率 8-3 百分率的應用、練習園地(八)【生命教育】；[PDF p.314] 五下學習目標8。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 9,
+      "title": "第9章 表面積",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "9-1 長方體與正方體的表面積、9-2 觀察表面積、練習園地(九)",
+          "learning_points": [
+            "計算正方體和長方體的表面積；觀察長方體與正方體切開或合併後表面積的變化（S-5-5、s-III-4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.312 課程架構表] 第9章 表面積；[PDF p.619-620] 第18週：九、表面積 9-1 長方體與正方體的表面積、9-2 觀察表面積、練習園地(九)【戶外教育】；[PDF p.314] 五下學習目標9。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 10,
+      "title": "第10章 線對稱圖形",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "10-1 認識線對稱圖形、10-2 對稱點、對稱角、對稱邊、10-3 畫線對稱圖形、練習園地(十)",
+          "learning_points": [
+            "認識線對稱圖形；知道線對稱圖形的對稱邊相等、對稱角及對稱點的性質（「對稱軸」、「對稱點」、「對稱邊」、「對稱角」）；繪製線對稱圖形（S-5-4、s-III-6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.312 課程架構表] 第10章 線對稱圖形；[PDF p.620] 第19週：十、線對稱圖形 10-1 認識線對稱圖形、10-2 對稱點、對稱角、對稱邊、10-3 畫線對稱圖形、練習園地(十)【多元文化教育】；[PDF p.314] 五下學習目標10。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "學習加油讚（二）、數學園地",
+          "learning_points": [
+            "第20週：學習加油讚(二) 綜合與應用、探索中學數學、看繪本學數學【閱讀素養教育】。",
+            "第21週：數學園地 國外常用單位、桌遊【國際教育】。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.312 課程架構表] 學習加油讚（二）；[PDF p.620] 第20週：學習加油讚(二) 綜合與應用、探索中學數學、看繪本學數學；[PDF p.621] 第21週：數學園地 國外常用單位、桌遊。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書已提供完整 10 章小節標題（含工作中的數學一、二與數學園地）與 10 條五下學習目標／課綱條目，但無課本例題數字規格與習作題型範例。",
+      "recommended_action": "若需依課本例題設計動態數學生成器參數，請提供翰林五下課本（第十冊）例題或習作頁面（選填，因數學核心概念與指標已完整）。"
+    }
+  ]
+}

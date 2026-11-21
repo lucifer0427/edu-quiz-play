@@ -1,0 +1,360 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 3,
+    "subject": "數學",
+    "publisher": "翰林",
+    "book_series": "第六冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T15:55:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 3,
+        "subject": "數學",
+        "publisher": "翰林",
+        "book_series": "第六冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 3,
+        "subject": "數學",
+        "publisher": "翰林",
+        "book_series": null
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第1章 除法",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1-1 二位數除以一位數",
+          "learning_points": [
+            "第1-2週授課（4節/週）；做二位數除以一位數的除法直式計算（三下學習目標1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.298 課程架構表] 第1章 除法；[PDF p.573 5-2教學進度總表] 第1-2週：一、除法 1-1 二位數除以一位數。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "1-2 三位數除以一位數、練習園地",
+          "learning_points": [
+            "第3週授課；做三位數除以一位數的除法直式計算（三下學習目標1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.573 5-2教學進度總表] 第3週：一、除法 1-2 三位數除以一位數、練習園地；[PDF p.300] 下學期學習目標1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第2章 公升與毫升",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "2-1 認識毫升、2-2 認識公升",
+          "learning_points": [
+            "第4週授課；認識容量單位「公升」、「毫升」（N-3-15；三下學習目標2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.298 課程架構表] 第2章 公升與毫升；[PDF p.574 5-2教學進度總表] 第4週：二、公升與毫升 2-1 認識毫升、2-2 認識公升。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2-3 容量的換算與比較、2-4 容量的計算、練習園地",
+          "learning_points": [
+            "第5週授課；進行容量換算、比較、實測、估測與計算（N-3-15；三下學習目標2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.574 5-2教學進度總表] 第5週：二、公升與毫升 2-3 容量的換算與比較、2-4 容量的計算、練習園地；[PDF p.300] 下學期學習目標2。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第3章 分數與加減",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "3-1 4 個是（PDF原檔分數符號未擷出）、3-2 分數的大小比較",
+          "learning_points": [
+            "第6週授課；在具體情境中認識單位分數的累積，並進行同分母分數的大小比較（N-3-9；三下學習目標3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.298 課程架構表] 第3章 分數與加減；[PDF p.575 5-2教學進度總表] 第6週：三、分數與加減 3-1 4 個是、3-2 分數的大小比較；[PDF p.300] 下學期學習目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "3-3 同分母分數的加減、練習園地",
+          "learning_points": [
+            "第7週授課；解決同分母分數的加減問題（N-3-9；三下學習目標3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.575 5-2教學進度總表] 第7週：三、分數與加減 3-3 同分母分數的加減、練習園地；[PDF p.300] 下學期學習目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "遊戲中學數學（一）",
+          "learning_points": [
+            "第7週併三、分數與加減實施之遊戲化數學統整活動。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.298 課程架構表] 遊戲中學數學（一）；[PDF p.575 5-2教學進度總表] 第7週：三、分數與加減、遊戲中學數學（一）。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第4章 圓",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "4-1 認識圓、4-2 使用圓規",
+          "learning_points": [
+            "第8週授課；認識圓心、半徑與直徑，並使用圓規畫圓（s-II-3；三下學習目標4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.298 課程架構表] 第4章 圓；[PDF p.575 5-2教學進度總表] 第8週：四、圓 4-1 認識圓、4-2 使用圓規；[PDF p.300] 下學期學習目標4。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "第5章 兩步驟應用問題",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "5-1 加減與除法兩步驟問題",
+          "learning_points": [
+            "第9週授課；解決生活中的加減與除兩步驟應用問題（三下學習目標5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.298 課程架構表] 第5章 兩步驟應用問題；[PDF p.576 5-2教學進度總表] 第9週：五、兩步驟應用問題 5-1 加減與除法兩步驟問題。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "5-2 乘法兩步驟問題、練習園地",
+          "learning_points": [
+            "第10週授課；解決生活中的連乘等乘法兩步驟問題（三下學習目標5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.576 5-2教學進度總表] 第10週：五、兩步驟應用問題 5-2 乘法兩步驟問題、練習園地；[PDF p.300] 下學期學習目標5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "學習加油讚（一） 綜合與應用、探索中學數學、看繪本學數學",
+          "learning_points": [
+            "第11週期中階段綜合與應用、探索中學數學、看繪本學數學。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.298 課程架構表] 學習加油讚（一）；[PDF p.576 5-2教學進度總表] 第11週：學習加油讚（一） 綜合與應用、探索中學數學、看繪本學數學。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "第6章 一位小數",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "6-1 認識一位小數、6-2 小數的大小比較",
+          "learning_points": [
+            "第12週授課；認識和比較一位小數，理解小數點與十分位（N-3-10；三下學習目標6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.298 課程架構表] 第6章 一位小數；[PDF p.577 5-2教學進度總表] 第12週：六、一位小數 6-1 認識一位小數、6-2 小數的大小比較。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "6-3 小數的加減、練習園地",
+          "learning_points": [
+            "第13週授課；用直式做一位小數的加減計算，解決生活中的問題（N-3-10；三下學習目標6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.577 5-2教學進度總表] 第13週：六、一位小數 6-3 小數的加減、練習園地；[PDF p.300] 下學期學習目標6。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "遊戲中學數學（二）",
+          "learning_points": [
+            "第13週併六、一位小數實施之遊戲化數學統整活動。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.298 課程架構表] 遊戲中學數學（二）；[PDF p.577 5-2教學進度總表] 第13週：六、一位小數 遊戲中學數學（二）。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 7,
+      "title": "第7章 時間",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "7-1 1 日是24小時、7-2 1 小時是60分鐘",
+          "learning_points": [
+            "第14週授課；認識時間單位「日」、「時」、「分」及其間的關係與換算（N-3-17；三下學習目標7）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.298 課程架構表] 第7章 時間；[PDF p.578 5-2教學進度總表] 第14週：七、時間 7-1 1 日是24小時、7-2 1 小時是60分鐘。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "7-3 1 分鐘是60秒、7-4 時間的計算、練習園地",
+          "learning_points": [
+            "第15週授課；認識「秒」及時間單位簡單換算，並做時間與時刻的計算（N-3-17；三下學習目標7）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.578 5-2教學進度總表] 第15週：七、時間 7-3 1 分鐘是60秒、7-4 時間的計算、練習園地；[PDF p.300] 下學期學習目標7。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 8,
+      "title": "第8章 乘與除",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "8-1 乘除關係",
+          "learning_points": [
+            "第16週授課；理解乘除互逆的觀念（r-II-1；三下學習目標8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.298 課程架構表] 第8章 乘與除；[PDF p.578 5-2教學進度總表] 第16週：八、乘與除 8-1 乘除關係。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "8-2 乘與除的應用、8-3 乘法估算、練習園地",
+          "learning_points": [
+            "第17週授課；運用乘除互逆於驗算與解題，並解決乘法估算問題（N-3-8、r-II-1；三下學習目標8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.578 5-2教學進度總表] 第17週：八、乘與除 8-2 乘與除的應用、8-3 乘法估算、練習園地；[PDF p.300] 下學期學習目標8。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 9,
+      "title": "第9章 面積",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "9-1 認識平方公分、9-2 用平方公分板算面積",
+          "learning_points": [
+            "第18週授課；認識面積的意義，並使用平方公分板與平方公分描述圖形面積的大小（N-3-14；三下學習目標9）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.298 課程架構表] 第9章 面積；[PDF p.579 5-2教學進度總表] 第18週：九、面積 9-1 認識平方公分、9-2 用平方公分板算面積。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "9-3 數格子算面積、練習園地",
+          "learning_points": [
+            "第19週授課；數格子算面積並進行面積綜合練習（N-3-14；三下學習目標9）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.579 5-2教學進度總表] 第19週：九、面積 9-3 數格子算面積、練習園地；[PDF p.300] 下學期學習目標9。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "學習加油讚（二） 綜合與應用、探索中學數學、看繪本學數學",
+          "learning_points": [
+            "第20週期末綜合與應用、探索中學數學、看繪本學數學。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.298 課程架構表] 學習加油讚（二）；[PDF p.579 5-2教學進度總表] 第20週：學習加油讚（二） 綜合與應用、探索中學數學、看繪本學數學。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "數學園地 圓形建築物、喀擦剪一刀",
+          "learning_points": [
+            "第21週期末數學園地延伸探索單元（融入國際教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.580 5-2教學進度總表] 第21週：數學園地 圓形建築物、喀擦剪一刀【國際教育】。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].learning_points",
+      "reason": "source_not_found",
+      "detail": "學校課程計畫僅列章節小節名稱與三下學習目標 1-9，無課本例題數值、圖形題幹與習作練習題。",
+      "recommended_action": "請提供翰林國小數學第六冊課本目次頁或各單元例題／重點整理頁照片。"
+    },
+    {
+      "field": "units[2].lessons[0].title",
+      "reason": "source_not_found",
+      "detail": "PDF 第 575 頁（5-2 三下第6週）小節名稱擷出「3-1 4 個是」，分數符號於 PDF 轉檔時遺漏，需核對原頁影像或實體課本確認完整節名。",
+      "recommended_action": "請查對翰林數學第六冊第3章 3-1 課本標題頁或檢視 PDF p.575 頁面影像。"
+    }
+  ]
+}

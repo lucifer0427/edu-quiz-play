@@ -1,0 +1,208 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 5,
+    "subject": "本土語文-閩南語",
+    "publisher": "康軒",
+    "book_series": "第10冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T13:05:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 5,
+        "subject": "本土語文-閩南語",
+        "publisher": "康軒",
+        "book_series": "第10冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 5,
+        "subject": "本土語文-閩南語",
+        "publisher": "康軒",
+        "book_series": "第9冊（選書表僅列單數起始冊，第10冊由課程計畫核實）"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 傳統人文",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一課 捏麵尪仔",
+          "learning_points": [
+            "認識各種傳統的民間技藝及其閩南語說法；學會對話句型並實踐在生活應對中（五下目標1-2）。",
+            "第1-3週授課（1節/週）；融入多元文化教育、國際教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.164 課程架構表] 閩南語第10冊 第一單元 傳統人文：第一課 捏麵尪仔；[PDF p.613] 第1-3週；[PDF p.165] 五下學習目標1-2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第二課 迎媽祖",
+          "learning_points": [
+            "認識並學會傳統祭典之閩南語說法；學會課文朗讀並理解文意（五下目標3-4）。",
+            "第4-6週授課；融入家庭教育、多元文化教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.164 課程架構表] 第二課 迎媽祖；[PDF p.614-615] 第4-6週；[PDF p.165] 五下學習目標3-4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元活動一",
+          "learning_points": [
+            "第一單元統整與複習活動（第7週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.164 課程架構表] 單元活動一；[PDF p.615] 第7週：單元活動一 1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 好喙得人疼",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第三課 祝阿媽食百二",
+          "learning_points": [
+            "正確的將讚美的話使用於生活情境中（五下目標5）。",
+            "第8-10週授課；融入品德教育、閱讀素養教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.164 課程架構表] 第二單元 好喙得人疼：第三課 祝阿媽食百二；[PDF p.615-616] 第8-10週；[PDF p.165] 五下學習目標5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元活動二",
+          "learning_points": [
+            "第二單元統整與複習活動（第11週；融入品德教育、閱讀素養教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.164 課程架構表] 單元活動二；[PDF p.616-617] 第11週：單元活動二 1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元 好山好水好光景",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第四課 島嶼",
+          "learning_points": [
+            "認識生活週遭的地形地貌及其閩南語說法（五下目標6）。",
+            "第12-14週授課；融入環境教育、閱讀素養教育、家庭教育、生涯規劃教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.164 課程架構表] 第三單元 好山好水好光景：第四課 島嶼；[PDF p.617-618] 第12-14週；[PDF p.165] 五下學習目標6。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第五課 地動",
+          "learning_points": [
+            "理解各類天然災害成因與預防之道；聽懂生活故事並學會氣候變化時懂得照顧自己（五下目標7-8）。",
+            "第15-17週授課；融入環境教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.164 課程架構表] 第五課 地動；[PDF p.618-619] 第15-17週；[PDF p.165] 五下學習目標7-8。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元活動三",
+          "learning_points": [
+            "第三單元統整與複習活動（第18週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.164 課程架構表] 單元活動三；[PDF p.619] 第18週：單元活動三 1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "期末補充與語詞複習（見 5-2 教學進度總表）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "島嶼的囡仔",
+          "learning_points": [
+            "進度總表第19週課程主題（1節）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.620 5-2教學進度總表] 第十九週：島嶼的囡仔 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "入聲韻母框看覓、語詞框看覓",
+          "learning_points": [
+            "正確讀寫入聲韻母與語詞練習（五下目標9；進度總表第20週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.620 5-2教學進度總表] 第二十週：入聲韻母框看覓、語詞框看覓 1；[PDF p.165] 五下學習目標9。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "語詞運用",
+          "learning_points": [
+            "進度總表第21週語詞綜合運用（1節）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.621 5-2教學進度總表] 第廿一週：語詞運用 1。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書僅列各課課名與 9 條五下學習目標，未附康軒閩南語第10冊各課臺羅拼音生詞表、傳統技藝／地形地貌清單、讚美語句與入聲韻母舉例字詞表。",
+      "recommended_action": "請提供康軒閩南語第10冊課本語詞頁或康軒閩南語線上電子書字詞表。"
+    }
+  ]
+}

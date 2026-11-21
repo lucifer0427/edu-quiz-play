@@ -1,0 +1,242 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 2,
+    "subject": "語文-國語文",
+    "publisher": "康軒",
+    "book_series": "第三冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T12:46:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 2,
+        "subject": "語文-國語文",
+        "publisher": "康軒",
+        "book_series": "第三冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 2,
+        "subject": "語文-國語文",
+        "publisher": "康軒",
+        "book_series": "第三冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 生活新鮮事",
+      "lessons": [
+        {
+          "lesson_no": 0,
+          "title": "查字典真簡單／單元主題引導",
+          "learning_points": [
+            "學期開學查字典工具引導與第一單元主題暖身（第1週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.554 5-2教學進度總表] 第一週：查字典真簡單／單元主題引導／第一課新學年新希望 6。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 1,
+          "title": "第一課 新學年新希望",
+          "learning_points": [
+            "能養成細心觀察的學習態度與新學年目標期許；相關參考選材：與成功有約：培養七個好習慣（兒童繪本版）；融入生涯規劃教育、品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.49 課程架構表] 國語2上 -> 第一單元 生活新鮮事：第一課 新學年新希望；[PDF p.554] 第1-2週：第一課新學年新希望。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第二課 一起做早餐",
+          "learning_points": [
+            "融入性別平等教育、品德教育、生涯規劃教育；相關參考選材：大家一起做料理去動物園（文：竹下文子）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.49 課程架構表] 第二課 一起做早餐；[PDF p.554-555] 第2-4週：第二課一起做早餐。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第三課 走過小巷",
+          "learning_points": [
+            "感受充滿在生活環境中的樂趣；相關參考選材：回奶奶家的那條路；融入環境教育、品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.49 課程架構表] 第三課 走過小巷；[PDF p.555] 第4-5週：第三課走過小巷。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 歡樂的時刻",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第四課 運動會",
+          "learning_points": [
+            "融入安全教育、品德教育；相關參考選材：傑琪的運動會。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.49 課程架構表] 國語2上 -> 第二單元 歡樂的時刻：第四課 運動會；[PDF p.555-556] 第6-7週：第四課運動會。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第五課 坐竹籃船",
+          "learning_points": [
+            "融入人權教育、品德教育；相關參考選材：蓮想（文：盧彥芬）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.49 課程架構表] 第五課 坐竹籃船；[PDF p.555-556] 第7-8週：第五課坐竹籃船。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第六課 小鎮的柿餅節",
+          "learning_points": [
+            "融入戶外教育、品德教育；相關參考選材：阿松爺爺的柿子樹。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.49 課程架構表] 第六課 小鎮的柿餅節；[PDF p.556] 第8-10週：第六課小鎮的柿餅節。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元 故事萬花筒",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第七課 國王的新衣裳",
+          "learning_points": [
+            "讀懂故事文本與主旨；相關參考選材：國王的新衣（文：安徒生）；融入生命教育、品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.49 課程架構表] 國語2上 -> 第三單元 故事萬花筒：第七課 國王的新衣裳；[PDF p.556-557] 第10-12週：第七課國王的新衣裳。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第八課 「聰明」的小熊",
+          "learning_points": [
+            "伊索寓言故事閱讀；相關參考選材：林海音奶奶80個伊索寓言；融入人權教育、品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.49 課程架構表] 第八課 「聰明」的小熊；[PDF p.557] 第12-13週：第八課「聰明」的小熊。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第九課 大象有多重？",
+          "learning_points": [
+            "融入生涯規劃教育、品德教育；相關參考選材：勇氣（文：伯納．韋伯）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.49 課程架構表] 第九課 大象有多重？；[PDF p.557] 第13-14週：第九課大象有多重？。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第四單元 冬天的悄悄話",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第十課 新年快樂",
+          "learning_points": [
+            "融入家庭教育、品德教育；相關參考選材：豬古力的跨年願望。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.49 課程架構表] 國語2上 -> 第四單元 冬天的悄悄話：第十課 新年快樂；[PDF p.557-558] 第15-16週：第十課新年快樂。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第十一課 遠方來的黑皮",
+          "learning_points": [
+            "融入環境教育、品德教育；相關參考選材：黑面琵鷺來過冬。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.49 課程架構表] 第十一課 遠方來的黑皮；[PDF p.557-558] 第16-17週：第十一課遠方來的黑皮。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第十二課 我愛冬天",
+          "learning_points": [
+            "融入環境教育、品德教育；相關參考選材：冬天是什麼樣子？（文：工藤紀子）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.49 課程架構表] 第十二課 我愛冬天；[PDF p.558] 第17-19週：第十二課我愛冬天。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "閱讀階梯",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "我最喜歡上學了",
+          "learning_points": [
+            "能讀懂課文內容，理解文章主旨大意（二上目標10）；融入閱讀素養教育、品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.49 課程架構表] 國語2上 -> 閱讀階梯：我最喜歡上學了；[PDF p.558-559] 第19-21週：我最喜歡上學了。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書僅列康軒國語第三冊各課課名、學習目標與繪本參考書目，未附各課生字、部首、筆畫與語詞清單。",
+      "recommended_action": "請提供康軒國語第三冊（二上）課本生字表／語詞表照片或電子書生字清單。"
+    }
+  ]
+}

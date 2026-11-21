@@ -1,0 +1,198 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 4,
+    "subject": "綜合活動",
+    "publisher": "南一",
+    "book_series": "第三冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:10:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 4,
+        "subject": "綜合活動",
+        "publisher": "南一",
+        "book_series": "第三冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 4,
+        "subject": "綜合活動",
+        "publisher": "南一",
+        "book_series": "第三冊（選書表僅列南一，冊別由課程計畫核實）"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "一、學習快易通",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.學習有妙方",
+          "learning_points": [
+            "第1-2週授課（2節/週）；找到影響學習的內外在因素並加以調整，培養正確學習態度及習慣，運用不同層次的學習策略（四上目標1-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.434 課程架構表] 四年級上學期 一、學習快易通：1.學習有妙方；[PDF p.580-581] 第1-2週；[PDF p.435] 上學期學習目標1-3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.學習行動力",
+          "learning_points": [
+            "第3-4週授課；透過學習自我檢核表覺察學習問題，找到適合自己的方法落實於學習中並不斷修正（四上目標4-5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.434 課程架構表] 2.學習行動力；[PDF p.581-582] 第3-4週；[PDF p.435] 上學期學習目標4-5。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "二、啟動心能量",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.生活事件簿",
+          "learning_points": [
+            "第5-7週授課；辨識自己情緒變化並覺察合宜表達及調節情緒的重要，覺察面對挑戰時的自我對話對情緒的影響（四上目標6-7）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.434 課程架構表] 二、啟動心能量：1.生活事件簿；[PDF p.583-584] 第5-7週；[PDF p.435] 上學期學習目標6-7。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.生命的舵手",
+          "learning_points": [
+            "第7-8週授課；從不同思考面向蒐集行動策略製成行動卡解決生活困難，透過典範故事學習正向思考並檢核調整行為表現（四上目標8-11）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.434 課程架構表] 2.生命的舵手；[PDF p.584-585] 第7-8週；[PDF p.435-436] 上學期學習目標8-11。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "三、行行出狀元",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.行業知多少",
+          "learning_points": [
+            "第9-10週授課（第10週含評量週）；透過經驗分享、資料蒐集與訪問調查了解家人職業種類、內容和工作的意義（四上目標12）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.434 課程架構表] 三、行行出狀元：1.行業知多少；[PDF p.586-587] 第9-10週；[PDF p.436] 上學期學習目標12。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.工作甘苦談",
+          "learning_points": [
+            "第11-12週授課；了解工作的樂趣與辛苦，透過實作演練與參訪省思各行業貢獻與重要性並表達感謝（四上目標13-15）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.434 課程架構表] 2.工作甘苦談；[PDF p.587] 第11-12週；[PDF p.436] 上學期學習目標13-15。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "四、社區好資源",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.社區資源探索",
+          "learning_points": [
+            "第13-14週授課；認識社區鄰近機構與資源及其功能，了解使用時機與方法並繪製社區資源地圖（四上目標16-18）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.434 課程架構表] 四、社區好資源：1.社區資源探索；[PDF p.588] 第13-14週；[PDF p.436] 上學期學習目標16-18。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.社區便利行",
+          "learning_points": [
+            "第14-16週授課；學習規畫社區資源與機構踏查活動，樂於使用社區機構與資源增進生活知能（四上目標19-20）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.434 課程架構表] 2.社區便利行；[PDF p.588-589] 第14-16週；[PDF p.436] 上學期學習目標19-20。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "五、危機急轉彎",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.護我行動GO",
+          "learning_points": [
+            "第17-18週授課；觀察與討論生活中潛藏危機的情境，提出辨識危機的方法並演練避免危險（四上目標21-22）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.434 課程架構表] 五、危機急轉彎：1.護我行動GO；[PDF p.590] 第17-18週；[PDF p.436] 上學期學習目標21-22。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.勇敢說出來",
+          "learning_points": [
+            "第18-21週授課；針對生活危機情境實際演練找出有效因應策略並省思執行結果（四上目標23-24；第20週含評量週、第21週含休業式）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.434 課程架構表] 2.勇敢說出來；[PDF p.590-591] 第18-21週；[PDF p.436] 上學期學習目標23-24。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未附南一綜合活動四上（第三冊）具體課文活動案例與詞彙表。",
+      "recommended_action": "請提供南一綜合活動四上（第三冊）課本或習作目次頁照片以補充細部情境內容。"
+    }
+  ]
+}

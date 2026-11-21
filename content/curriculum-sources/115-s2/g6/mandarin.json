@@ -1,0 +1,307 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 6,
+    "subject": "語文-國語文",
+    "publisher": "南一",
+    "book_series": "第十二冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:05:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 6,
+        "subject": "語文-國語文",
+        "publisher": "南一",
+        "book_series": "第十二冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 6,
+        "subject": "語文-國語文",
+        "publisher": "南一",
+        "book_series": null
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第壹單元 童年你我他",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "〔單元引導〕",
+          "learning_points": [
+            "第1週第壹單元起始引導活動（5節/週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.629 5-2教學進度總表] 第一週：第壹單元童年你我他 〔單元引導〕 5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第一課 風中騎士",
+          "learning_points": [
+            "能認識兒時記趣生動的敘寫方式，運用四字語詞生動描繪人物動作神情並善用「對話」（六下目標1-3）。",
+            "能運用自我提問（事實性問題）幫助理解課文內容，體會主角挑戰學習新技能的心情變化，感受與兒時玩伴相處的可貴情感（六下目標4-7）。",
+            "第2週授課；融入生涯規劃教育、安全教育、閱讀素養教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.629 5-2教學進度總表] 第二週：第壹單元童年你我他 第一課風中騎士 5；[PDF p.82] 六下學習目標1-7。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第二課 達駭黑熊",
+          "learning_points": [
+            "能認識營造氣氛的寫作手法──間接描寫，並運用間接描寫刻畫周圍人物或環境（六下目標8, 10）。",
+            "能了解原住民族的生態智慧與文化傳承，以及布農族「忌殺黑熊」的意義；針對文章重要內容提出推論性問題，感受人與大自然和諧相處及祖孫濃厚情感（六下目標9, 11-13）。",
+            "第3週授課；融入環境教育、原住民族教育、生命教育、閱讀素養教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.630 5-2教學進度總表] 第三週：第壹單元童年你我他 第二課達駭黑熊 5；[PDF p.82] 六下學習目標8-13。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "第三課 機智的孩子",
+          "learning_points": [
+            "能認識文言文小說的文學體裁與《世說新語》成書背景和內容特色；分辨多義字字義並將文言文改寫成白話文（六下目標14-17）。",
+            "能運用自我提問（評論性問題）幫助理解課文內容，培養適宜的待客禮節與與長輩合宜應對方式（六下目標18-20）。",
+            "第4週授課；融入品德教育、安全教育、生涯規劃教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.630 5-2教學進度總表] 第四週：第壹單元童年你我他 第三課機智的孩子 5；[PDF p.82] 六下學習目標14-20。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 5,
+          "title": "語文天地一",
+          "learning_points": [
+            "閱讀時能運用「自我提問」找出重要訊息或概念，與他人對話時專注聆聽並適時回應，依據不同情境運用直接描寫或間接描寫寫作（六下目標21-23；第5週授課；融入閱讀素養教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.630 5-2教學進度總表] 第五週：第壹單元童年你我他 語文天地一 5；[PDF p.82] 六下學習目標21-23。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第貳單元 往夢想起飛",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "〔單元引導〕",
+          "learning_points": [
+            "第6週第貳單元起始引導活動（5節/週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.631 5-2教學進度總表] 第六週：第貳單元往夢想起飛 〔單元引導〕 5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第四課 談夢想",
+          "learning_points": [
+            "能理解本文重點及論據的關聯，認識談論型議論文的論證方式，正確運用分論點分述次要想法及合適名言佳句論證論點（六下目標24-27）。",
+            "能描繪自己的夢想藍圖，反思自己追尋夢想的過程與方式（六下目標28-29）。",
+            "第7週授課；融入閱讀素養教育、生涯規劃教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.631 5-2教學進度總表] 第七週：第貳單元往夢想起飛 第四課談夢想 5；[PDF p.82] 六下學習目標24-29。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第五課 蒂烈娜",
+          "learning_points": [
+            "能認識鯝魚洄游的生物習性；了解故事情節中設計「轉折」的效果並運用生動譬喻法描寫事物，設計衝突與轉折完成故事創作（六下目標30-33）。",
+            "能換位思考同理他人感受，了解追尋夢想遇挫折時伙伴能成為陪伴前行的力量（六下目標34-35）。",
+            "第8週授課；融入人權教育、生涯規劃教育、生命教育、閱讀素養教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.632 5-2教學進度總表] 第八週：第貳單元往夢想起飛 第五課蒂烈娜 5；[PDF p.82] 六下學習目標30-35。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "第六課 不怕",
+          "learning_points": [
+            "能認識演講稿的格式及內容層次營造，區辨文中事實與作者觀點，了解及運用肢體語言幫助表達（六下目標36-38, 41）。",
+            "能詰問作者並預想可能答案，體會勇於克服害怕後的自我成就感（六下目標39-40）。",
+            "第9週授課；融入家庭教育、生命教育、生涯規劃教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.632 5-2教學進度總表] 第九週：第貳單元往夢想起飛 第六課不怕 5；[PDF p.83] 六下學習目標36-41。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 5,
+          "title": "語文天地二",
+          "learning_points": [
+            "能了解「為何型」、「什麼型」、「如何型」、「談論型」等議論類文章的內涵與形式，並運用比較閱讀方式深入認識相近主題文章（六下目標42-43；第10週授課，含評量週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.633 5-2教學進度總表] 第十週：評量週 第貳單元往夢想起飛 語文天地二 5；[PDF p.83] 六下學習目標42-43。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第參單元 給年輕的你",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "〔單元引導〕",
+          "learning_points": [
+            "第11週第參單元起始引導活動（5節/週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.633 5-2教學進度總表] 第十一週：第參單元給年輕的你 〔單元引導〕 5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第七課 打開心中的窗",
+          "learning_points": [
+            "能理解作者性格及人際關係轉變的過程與相互影響；運用觀察與聯想（相似聯想）描寫人物形象與表達情感（六下目標44-47）。",
+            "能與自我經驗連結並與人建立良好人際關係，誠懇和善待人（六下目標48-49）。",
+            "第12週授課；融入生命教育、生涯規劃教育、品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.633 5-2教學進度總表] 第十二週：第參單元給年輕的你 第七課打開心中的窗 5；[PDF p.83] 六下學習目標44-49。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第八課 努力愛春華",
+          "learning_points": [
+            "能認識「倒敘」的敘寫方式，知道「努力愛春華」在本課的涵義，運用相關事物營造特定時空場景並理解話語不同意涵（六下目標50-53）。",
+            "能珍惜同學相處的緣分、感念師長教學的用心並感受青春時光的可貴（六下目標54-56）。",
+            "第13週授課；融入生命教育、生涯規劃教育、閱讀素養教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.633 5-2教學進度總表] 第十三週：第參單元給年輕的你 第八課努力愛春華 5；[PDF p.83] 六下學習目標50-56。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "第九課 每一個孩子都有一條自己的小路",
+          "learning_points": [
+            "能了解詩中抽象情感和具體事物的關聯（意象的連結），讀懂新詩常見寫作技巧—意象與詩中各小節傳達的意涵（六下目標57-59）。",
+            "面對未來能勇敢踏上自己的路，感受師長溫暖的守護及祝福（六下目標60-61）。",
+            "第14週授課；融入生涯規劃教育、閱讀素養教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.634 5-2教學進度總表] 第十四週：第參單元給年輕的你 第九課每一個孩子都有一條自己的小路 5；[PDF p.83] 六下學習目標57-61。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 5,
+          "title": "語文天地三",
+          "learning_points": [
+            "能根據生活經驗和知識創造出新事物或新形象完成一篇想像寫作，並找出適當的名言佳句送上畢業祝福（六下目標62-64；第15週授課；融入閱讀素養教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.634 5-2教學進度總表] 第十五週：第參單元給年輕的你 語文天地三 5；[PDF p.83] 六下學習目標62-64。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "〈閱讀充電站〉",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "〈閱讀充電站〉馭風逐夢的男孩",
+          "learning_points": [
+            "能認識人物傳記的寫作方式，體會主角面對困境解決困難的積極態度，運用自我提問策略深入理解並運用網路資源歸納訊息（六下目標65-70）。",
+            "第16週授課；融入生涯規劃教育、閱讀素養教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.635 5-2教學進度總表] 第十六週：〈閱讀充電站〉馭風逐夢的男孩 5；[PDF p.83] 六下學習目標65-70。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "〈閱讀充電站〉失敗博物館",
+          "learning_points": [
+            "能理解文中各項產品失敗的原因，掌握事物類說明文結構並運用表格整理文章內容，整理「失敗博物館」相關資料並以正向態度面對失敗（六下目標71-75）。",
+            "第17週授課；融入生涯規劃教育、閱讀素養教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.635 5-2教學進度總表] 第十七週：〈閱讀充電站〉失敗博物館 5；[PDF p.83] 六下學習目標71-75。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "〈閱讀充電站〉伯樂老師的最後一堂課",
+          "learning_points": [
+            "能理解網路成癮現象及可能帶來的社會影響；換位思考同理他人遭遇、客觀分析議題並提出想法與解決方案，學會情緒管理與理性溝通（六下目標76-81）。",
+            "第18週授課（含評量週／畢業週）；融入人權教育、家庭教育、閱讀素養教育、科技教育、生命教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.635-636 5-2教學進度總表] 第十八週：評量週 〈閱讀充電站〉伯樂老師的最後一堂課 5；[PDF p.83-84] 六下學習目標76-81。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "學校課程計畫書僅列學習內容指標與各課課名，未列南一版第十二冊（六下）各課生字、部首、多音字與語詞表。",
+      "recommended_action": "請提供南一國小國語第十二冊（六下）課本目次／生字語詞表頁面照片，或南一官方電子書／教師手冊生字清單。"
+    },
+    {
+      "field": "units[*].title",
+      "reason": "source_not_found",
+      "detail": "5-1-1 國語文課程架構表（PDF p.77-78）為嵌入圖表未含可擷取文字，本檔各單元與課名係完整取自 5-2 教學進度總表（PDF p.629-636，六年級下學期共18週）並對應 p.82-84 之 81 條六下學習目標。",
+      "recommended_action": "若需核對課本印刷目次細目，請對照南一國語第十二冊課本目次頁。"
+    }
+  ]
+}

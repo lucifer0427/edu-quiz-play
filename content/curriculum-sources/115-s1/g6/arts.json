@@ -1,0 +1,369 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 6,
+    "subject": "藝術",
+    "publisher": "康軒",
+    "book_series": "第七冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:05:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 6,
+        "subject": "藝術",
+        "publisher": "康軒",
+        "book_series": "第七冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 6,
+        "subject": "藝術",
+        "publisher": "康軒",
+        "book_series": "第七冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 音樂風情",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1-1 雋永之歌",
+          "learning_points": [
+            "音樂課（1節/週）；透過演唱、樂器伴奏與律動來感受不同節奏和風格的歌曲，認識國樂團、嗩吶與小號（六上目標1-3）。",
+            "第1-3週授課；融入家庭教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.420 課程架構表] 藝術6上 第一單元 音樂風情：第一課雋永之歌；[PDF p.621-622] 第1-3週：1-1 雋永之歌 1；[PDF p.422] 六上學習目標1-3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "1-2 吟詠大地",
+          "learning_points": [
+            "音樂課（1節/週）；演唱不同國家民族的歌曲，感受以不同風格詮釋對大自然的歌頌（六上目標4）。",
+            "第4-6週授課；融入多元文化教育、品德教育、環境教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.420 課程架構表] 第二課吟詠大地；[PDF p.622-623] 第4-6週：1-2 吟詠大地 1；[PDF p.422] 六上學習目標4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "1-3 小小愛笛生",
+          "learning_points": [
+            "音樂課（1節/週）；掌握直笛高音 Fa 的指法（六上目標5）。",
+            "第7-8週授課；融入人權教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.420 課程架構表] 第三課小小愛笛生；[PDF p.623-624] 第7-8週：1-3 小小愛笛生 1；[PDF p.422] 六上學習目標5。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 齊聚藝堂",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "2-1 歌劇 Fun 聲唱",
+          "learning_points": [
+            "音樂課（1節/週）；透過演唱與肢體律動體驗音樂節奏，認識歌劇表演形式與世界各地文化之美（六上目標6-7）。",
+            "第9-12週授課；融入多元文化教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.420 課程架構表] 第二單元 齊聚藝堂：第一課歌劇Fun 聲唱；[PDF p.624-625] 第9-12週：2-1 歌劇Fun 聲唱 1；[PDF p.422] 六上學習目標6-7。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2-2 走進音樂劇世界（架構表作：音樂劇 in Taiwan）",
+          "learning_points": [
+            "音樂課（1節/週）；透過欣賞或歌詞意境來認識世界各地文化之美與音樂劇藝術（六上目標7）。",
+            "第13-15週授課；融入多元文化教育、人權教育。註：5-1-1 架構表寫作「第二課音樂劇in Taiwan」，5-2 進度表寫作「2-2 走進音樂劇世界」。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.420 課程架構表] 第二課音樂劇in Taiwan；[PDF p.626] 第13-15週：2-2 走進音樂劇世界 1；[PDF p.422] 六上學習目標7。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "2-3 小小愛笛生",
+          "learning_points": [
+            "音樂課（1節/週）；掌握直笛高音 Sol 的指法（六上目標8；第16週授課；融入人權教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.420 課程架構表] 第三課小小愛笛生；[PDF p.627] 第16週：2-3 小小愛笛生 1；[PDF p.422] 六上學習目標8。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元 插畫與繪本",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "3-1 插畫家之眼",
+          "learning_points": [
+            "視覺藝術（1節/週）；認識插畫的圖像特色（六上目標10；第1週授課；融入環境教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.420 課程架構表] 第三單元 插畫與繪本：第一課插畫家之眼；[PDF p.621] 第1週：3-1 插畫家之眼 1；[PDF p.422] 六上學習目標10。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "3-2 記錄我的靈感",
+          "learning_points": [
+            "視覺藝術（1節/週）；觀察與記錄創作靈感，準備繪本故事發想（六上目標9；第2週授課；融入人權教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.420 課程架構表] 第二課記錄我的靈感；[PDF p.622] 第2週：3-2 記錄我的靈感 1；[PDF p.422] 六上學習目標9。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "3-3 圖與文字的聯想",
+          "learning_points": [
+            "視覺藝術（1節/週）；學習圖文搭配與創意聯想（第3週授課；融入人權教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.420 課程架構表] 第三課圖與文字的聯想；[PDF p.622] 第3週：3-3 圖與文字的聯想 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "3-4 繪本之窗",
+          "learning_points": [
+            "視覺藝術（1節/週）；認識繪本形式與構成要素（第4週授課；融入人權教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.420 課程架構表] 第四課繪本之窗；[PDF p.622] 第4週：3-4 繪本之窗 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 5,
+          "title": "3-5 圖解繪本製作",
+          "learning_points": [
+            "視覺藝術（1節/週）；習得繪製繪本的流程（六上目標9；第5週授課；融入人權教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.420 課程架構表] 第五課圖解繪本製作；[PDF p.623] 第5週：3-5 圖解繪本製作 1；[PDF p.422] 六上學習目標9。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 6,
+          "title": "3-6 創作我的繪本",
+          "learning_points": [
+            "視覺藝術（1節/週）；學習並實踐繪本的製作（六上目標11；第6-8週授課；融入人權教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.420 課程架構表] 第六課創作我的繪本；[PDF p.623-624] 第6-8週：3-6 創作我的繪本 1；[PDF p.422] 六上學習目標11。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第四單元 動畫冒險王",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "4-1 動畫傳說覺醒",
+          "learning_points": [
+            "視覺藝術（1節/週）；能賞析動畫作品，進行詮釋、聯想與欣賞（六上目標14；第9週授課；融入多元文化教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.420 課程架構表] 第四單元 動畫冒險王：第一課動畫傳說覺醒；[PDF p.624] 第9週：4-1 動畫傳說覺醒 1；[PDF p.422] 六上學習目標14。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "4-2 翻轉動畫",
+          "learning_points": [
+            "視覺藝術（1節/週）；理解動態視覺原理與動畫基本創作（六上目標12-13；第10週授課；融入科技教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.420 課程架構表] 第二課翻轉動畫；[PDF p.624] 第10週：4-2 翻轉動畫 1；[PDF p.422] 六上學習目標12-13。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "4-3 幻影高手對決",
+          "learning_points": [
+            "視覺藝術（1節/週）；使用視覺元素和構成要素於動畫之構圖表現（六上目標12；第11週授課；融入科技教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.420 課程架構表] 第三課幻影高手對決；[PDF p.625] 第11週：4-3 幻影高手對決 1；[PDF p.422] 六上學習目標12。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "4-4 會動的小世界",
+          "learning_points": [
+            "視覺藝術（1節/週）；動畫場景設計與多元媒材操作（六上目標12-13；第12-13週授課；融入科技教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.420 課程架構表] 第四課會動的小世界；[PDF p.625-626] 第12-13週：4-4 會動的小世界 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 5,
+          "title": "4-5 尋寶特攻計畫",
+          "learning_points": [
+            "視覺藝術（1節/週）；以小組合作、團隊分工模式規劃動畫腳本（六上目標15；第14週授課；融入科技教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.420 課程架構表] 第五課尋寶特攻計畫；[PDF p.626] 第14週：4-5 尋寶特攻計畫 1；[PDF p.422] 六上學習目標15。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 6,
+          "title": "4-6 踏上英雄旅途",
+          "learning_points": [
+            "視覺藝術（1節/週）；習得動畫拍攝技巧與軟體應用並創作動畫影片（六上目標13, 15；第15週授課；融入人權教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.420 課程架構表] 第六課踏上英雄旅途；[PDF p.626] 第15週：4-6 踏上英雄旅途 1；[PDF p.422] 六上學習目標13, 15。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 7,
+          "title": "4-7 高手過招",
+          "learning_points": [
+            "視覺藝術（1節/週）；透過動畫影片首映會分享回饋、詮釋感受與包容異質（六上目標16；第16週授課；融入科技教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.420 課程架構表] 第七課高手過招；[PDF p.627] 第16週：4-7 高手過招 1；[PDF p.422] 六上學習目標16。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "第五單元 打開表演新視界",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "5-1 戲劇百寶箱",
+          "learning_points": [
+            "表演藝術（1節/週）；認識戲劇的種類，了解戲劇組成的元素（六上目標17-18；第1-3週授課；融入人權教育、品德教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.420 課程架構表] 第五單元 打開表演新視界：第一課戲劇百寶箱；[PDF p.621-622] 第1-3週：5-1 戲劇百寶箱 1；[PDF p.422] 六上學習目標17-18。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "5-2 影像表演的世界",
+          "learning_points": [
+            "表演藝術（1節/週）；學習影像的表演及拍攝，培養團隊合作的能力（六上目標19-20；第4-16週授課；融入科技教育、多元文化教育、品德教育、性別平等教育、人權教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.420 課程架構表] 第二課影像表演的世界；[PDF p.622-627] 第4-16週：5-2 影像表演的世界 1；[PDF p.423] 六上學習目標19-20。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "第六單元 海洋家園",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "6-1 大海的歌唱",
+          "learning_points": [
+            "音樂課（1節/週）；第六單元跨領域海洋家園統整課程之音樂表現與歌唱活動（第17-21週授課；融入環境教育、人權教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.420 課程架構表] 第六單元 海洋家園：第一課大海的歌唱；[PDF p.627-628] 第17-21週：6-1 大海的歌唱 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "6-2 美麗海樂園",
+          "learning_points": [
+            "視覺藝術（1節/週）；海洋家園主題視覺藝術設計與創作（第17-21週授課；融入人權教育、品德教育、環境教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.420 課程架構表] 第二課美麗海樂園；[PDF p.627-628] 第17-21週：6-2 美麗海樂園 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "6-3 海洋之舞",
+          "learning_points": [
+            "表演藝術（1節/週）；海洋家園主題表演與肢體舞蹈創作（第17-21週授課；融入人權教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.420 課程架構表] 第三課海洋之舞；[PDF p.627-628] 第17-21週：6-3 海洋之舞 1。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未列康軒藝術第七冊（六上）各課實際曲目名稱、欣賞畫作／動畫名錄與樂理術語表。",
+      "recommended_action": "請提供康軒藝術第七冊課本目次頁照片以補齊各課欣賞曲目與作品名稱。"
+    },
+    {
+      "field": "units[1].lessons[1].title",
+      "reason": "ambiguous_edition",
+      "detail": "5-1-1 課程架構表（PDF p.420）第二單元第二課作「音樂劇 in Taiwan」，5-2 教學進度總表（PDF p.626）作「2-2 走進音樂劇世界」，已於課名雙向並陳。",
+      "recommended_action": "可依實際課本印製課名確認。"
+    }
+  ]
+}

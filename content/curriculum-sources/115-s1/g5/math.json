@@ -1,0 +1,377 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 5,
+    "subject": "數學",
+    "publisher": "翰林",
+    "book_series": "第九冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T12:38:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 5,
+        "subject": "數學",
+        "publisher": "翰林",
+        "book_series": "第九冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 5,
+        "subject": "數學",
+        "publisher": "翰林",
+        "book_series": "第九冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第1章 折線圖",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1-1 生活中的統計圖",
+          "learning_points": [
+            "解讀長條圖與折線圖並知道其使用的時機（D-5-1、d-III-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.311 課程架構表] 第1章 折線圖；[PDF p.604] 第1週：一、折線圖 1-1 生活中的統計圖【環境教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "1-2 製作折線圖、練習園地(一)",
+          "learning_points": [
+            "整理生活中的有序資料，繪製成折線圖（D-5-1、d-III-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.604-605] 第2週：一、折線圖 1-2 製作折線圖、練習園地(一)【環境教育】；[PDF p.313] 五上學習目標1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第2章 倍數與因數",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "2-1 認識倍數、2-2 認識因數",
+          "learning_points": [
+            "理解因倍數的意義與找法（N-5-3、n-III-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.311 課程架構表] 第2章 倍數與因數；[PDF p.605] 第3週：二、倍數與因數 2-1 認識倍數、2-2 認識因數【家庭教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2-3 倍數與因數的關係和應用、練習園地(二)",
+          "learning_points": [
+            "解決倍數與因數的應用問題（N-5-3、n-III-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.605-606] 第4週：二、倍數與因數 2-3 倍數與因數的關係和應用、練習園地(二)；[PDF p.313] 五上學習目標2。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第3章 平面圖形",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "3-1 三角形的邊長關係、3-2 三角形的內角和",
+          "learning_points": [
+            "理解三角形任意兩邊和大於第三邊；理解三角形的3個內角和為180度（S-5-1、n-III-5、s-III-5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.311 課程架構表] 第3章 平面圖形；[PDF p.606] 第5週：三、平面圖形 3-1 三角形的邊長關係、3-2 三角形的內角和【科技教育】【戶外教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "3-3 四邊形的性質",
+          "learning_points": [
+            "理解四邊形的4個內角和為360度；平行四邊形的對邊相等、對角相等（S-5-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.606] 第6週：三、平面圖形 3-3 四邊形的性質【科技教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "3-4 認識多邊形、練習園地(三)",
+          "learning_points": [
+            "認識多邊形及平面圖形性質綜合練習（S-5-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.607] 第7週：三、平面圖形 3-4 認識多邊形、練習園地(三)、工作中的數學(一)；[PDF p.313] 五上學習目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "工作中的數學（一）",
+          "learning_points": [
+            "結合平面圖形概念之數學職場／生活應用單元。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.311 課程架構表] 工作中的數學（一）；[PDF p.607] 第7週：工作中的數學(一)。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第4章 公倍數與公因數",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "4-1 公倍數與最小公倍數、4-2 公因數與最大公因數",
+          "learning_points": [
+            "理解公倍數與最小公倍數的意義與找法；理解公因數與最大公因數的意義與找法（N-5-3、n-III-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.311 課程架構表] 第4章 公倍數與公因數；[PDF p.607] 第8週：四、公倍數與公因數 4-1 公倍數與最小公倍數、4-2 公因數與最大公因數【多元文化教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "4-3 解題與應用、練習園地(四)",
+          "learning_points": [
+            "解決生活中的公倍數與公因數的應用問題（N-5-3、n-III-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.607-608] 第9週：四、公倍數與公因數 4-3 解題與應用、練習園地(四)；[PDF p.313] 五上學習目標4。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "第5章 立體形體",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "5-1 面的垂直與平行、5-2 角柱與圓柱",
+          "learning_points": [
+            "理解空間中面與面的垂直或平行現象；做立體形體的分類與命名；認識柱體的構成要素與性質（S-5-6、S-5-7、s-III-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.311 課程架構表] 第5章 立體形體；[PDF p.608] 第10週：五、立體形體 5-1 面的垂直與平行、5-2 角柱與圓柱【科技教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "5-3 角錐與圓錐、5-4 認識球、練習園地(五)",
+          "learning_points": [
+            "認識錐體的構成要素與性質；認識球（S-5-7、s-III-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.608] 第11週：五、立體形體 5-3 角錐與圓錐、5-4 認識球、練習園地(五)；[PDF p.313] 五上學習目標5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "學習加油讚（一）",
+          "learning_points": [
+            "綜合與應用、探索中學數學（第12週期中統整複習）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.311 課程架構表] 學習加油讚（一）；[PDF p.609] 第12週：學習加油讚(一) 綜合與應用、探索中學數學【閱讀素養教育】。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "第6章 整數四則運算",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "6-1 三步驟的列式與逐步求解、6-2 分配律",
+          "learning_points": [
+            "用併式記錄三步驟問題，運用整數四則運算的約定計算答案；理解分配律，並用以簡化計算（N-5-2、R-5-1、R-5-2、n-III-2、r-III-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.311 課程架構表] 第6章 整數四則運算；[PDF p.609] 第13週：六、整數四則運算 6-1 三步驟的列式與逐步求解、6-2 分配律【戶外教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "6-3 連除的計算、6-4 平均問題、練習園地(六)",
+          "learning_points": [
+            "理解乘除四則運算的性質，並用以簡化計算；用併式紀錄解決平均問題（R-5-1、R-5-2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.609-610] 第14週：六、整數四則運算 6-3 連除的計算、6-4 平均問題、練習園地(六)；[PDF p.313] 五上學習目標6。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "工作中的數學(二)",
+          "learning_points": [
+            "見課程架構表所列單元（5-2教學進度總表未單獨標註授課週別）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.311 課程架構表] 第6章 整數四則運算 -> 工作中的數學(二) -> 第7章 擴、約分與加減。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 7,
+      "title": "第7章 擴、約分與加減",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "7-1 擴分與約分、7-2 通分與分數大小比較",
+          "learning_points": [
+            "理解擴分、約分與等值分數的關係；透過通分解決異分母分數大小比較問題（N-5-4、n-III-4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.311 課程架構表] 第7章 擴、約分與加減；[PDF p.610] 第15週：七、擴、約分與加減 7-1 擴分與約分、7-2 通分與分數大小比較【多元文化教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "7-3 異分母分數的加減、練習園地(七)",
+          "learning_points": [
+            "透過通分解決異分母分數加減問題（N-5-4、n-III-4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.610] 第16週：七、擴、約分與加減 7-3 異分母分數的加減、練習園地(七)；[PDF p.313] 五上學習目標7。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 8,
+      "title": "第8章 面積",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "8-1 平行四邊形的面積、8-2 三角形的面積",
+          "learning_points": [
+            "透過點數方格與切割重組活動，理解與應用平行四邊形面積公式；透過點數方格與複製拼湊活動，理解與應用三角形面積公式（S-5-2、s-III-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.311 課程架構表] 第8章 面積；[PDF p.610-611] 第17週：八、面積 8-1 平行四邊形的面積、8-2 三角形的面積【科技教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "8-3 梯形的面積、8-4 面積的變化與應用、練習園地(八)",
+          "learning_points": [
+            "透過點數方格與切割重組活動，理解與應用梯形面積公式；能計算簡單複合圖形的面積（S-5-2、s-III-1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.611] 第18週：八、面積 8-3 梯形的面積、8-4 面積的變化與應用、練習園地(八)；[PDF p.313-314] 五上學習目標8。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 9,
+      "title": "第9章 乘以幾分之一",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "9-1 分數表示整數相除的結果、9-2 整數乘以幾分之一、9-3 乘以1/2與除以2、練習園地(九)",
+          "learning_points": [
+            "用分數表示整數相除的結果；理解並解決整數的單位分數倍問題；理解除以2與乘以1/2的結果相同（N-5-5、N-5-6、n-III-6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.311 課程架構表] 第9章 乘以幾分之一；[PDF p.611-612] 第19週：九、乘以幾分之一 9-1 分數表示整數相除的結果、9-2 整數乘以幾分之一、9-3 乘以1/2與除以2、練習園地(九)；[PDF p.314] 五上學習目標9。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 10,
+      "title": "第10章 扇形",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "10-1 認識扇形、10-2 認識圓心角、10-3 幾分之幾圓、練習園地(十)",
+          "learning_points": [
+            "理解扇形的構成要素，並知道扇形是某個圓的一部分；理解「圓心角」的意義；理解「幾分之幾圓」的意義，及其與「圓心角」之間的關係；畫出指定半徑的圓心角與扇形（S-5-3、s-III-2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.311 課程架構表] 第10章 扇形；[PDF p.612] 第20週：十、扇形 10-1 認識扇形、10-2 認識圓心角、10-3 幾分之幾圓、練習園地(十)；[PDF p.314] 五上學習目標10。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "學習加油讚（二）、數學園地",
+          "learning_points": [
+            "綜合與應用、探索中學數學、看繪本學數學、數學園地、因倍數接龍。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.311 課程架構表] 學習加油讚（二）；[PDF p.612] 第21週：學習加油讚(二)、數學園地 綜合與應用、探索中學數學、看繪本學數學、數學園地、因倍數接龍。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[5].lessons[2]",
+      "reason": "source_not_found",
+      "detail": "「工作中的數學(二)」列於課程架構表（PDF p.311）第6章與第7章之間，但 5-2 教學進度總表（p.609-610）未明列其對應週別。",
+      "recommended_action": "如需確認「工作中的數學(二)」對應頁面內容，請參閱翰林數學五上（第9冊）課本目錄。"
+    },
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書已提供完整 10 章小節標題與學習目標／課綱條目，但無課本例題數字規格與習作題型範例。",
+      "recommended_action": "若需依課本例題設計動態數學生成器參數，請提供翰林五上課本例題或習作頁面（選填，因數學核心概念與指標已完整）。"
+    }
+  ]
+}

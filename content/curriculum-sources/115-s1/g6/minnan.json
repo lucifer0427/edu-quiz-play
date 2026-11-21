@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 6,
+    "subject": "本土語文-閩南語",
+    "publisher": "康軒",
+    "book_series": "第11冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:05:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 6,
+        "subject": "本土語文-閩南語",
+        "publisher": "康軒",
+        "book_series": "第11冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 6,
+        "subject": "本土語文-閩南語",
+        "publisher": "康軒",
+        "book_series": "第11冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 歡喜做公益",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一課 馬偕",
+          "learning_points": [
+            "能流暢念出課文並理解課文的內涵；能用閩南語說出公益活動名稱；能用句型「......當咧......」造句；了解閩南語聲調的基本變調，透過課文情境培養幫助他人的觀念（六上目標1-5）。",
+            "第1-3週授課（1節/週）；融入生命教育、品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.176 課程架構表] 閩南語第11冊 第一單元 歡喜做公益：第一課 馬偕；[PDF p.621-622] 第1-3週：第一課馬偕 1；[PDF p.178] 六上學習目標1-5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元活動一",
+          "learning_points": [
+            "第一單元統整與複習活動（第4週授課；融入生命教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.176 課程架構表] 單元活動一；[PDF p.622 5-2教學進度總表] 第4週：單元活動一 1【生命教育】。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 迌買特產（PDF首字缺字）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第二課 紙箱仔揣朋友",
+          "learning_points": [
+            "以閩南語說出臺灣各地農特產，以「......哪會......」造句，認讀並書寫本課閩南語語詞之漢字（六上目標6-8）。",
+            "第5-7週授課；融入多元文化教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.176 課程架構表] 第二單元  迌買特產：第二課 紙箱仔揣朋友；[PDF p.623] 第5-7週：第二課紙箱仔揣朋友 1；[PDF p.178] 六上學習目標6-8。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第三課 畢業旅行",
+          "learning_points": [
+            "以「......毋但......閣......」造句（六上目標9）。",
+            "第8-10週授課；融入戶外教育、品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.176 課程架構表] 第三課 畢業旅行；[PDF p.624] 第8-10週：第三課畢業旅行 1；[PDF p.178] 六上學習目標9。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元活動二",
+          "learning_points": [
+            "第二單元統整與複習活動（第11週授課）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.176 課程架構表] 單元活動二；[PDF p.625 5-2教學進度總表] 第11週：單元活動二 1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元 認捌各地的文化",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第四課 地球人",
+          "learning_points": [
+            "能用閩南語念出本課各國特產的語詞；能用「......到底......抑......」的句型簡單做閩南語造句（六上目標10-11）。",
+            "第12-14週授課；融入多元文化教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.176 課程架構表] 第三單元 認捌各地的文化：第四課 地球人；[PDF p.625-626] 第12-14週：第四課地球人 1；[PDF p.178] 六上學習目標10-11。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第五課 食桌",
+          "learning_points": [
+            "能理解「相招來開講」的故事內容並用閩南語念出來（六上目標12）。",
+            "第15-17週授課；融入品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.176 課程架構表] 第五課 食桌；[PDF p.626-627] 第15-17週：第五課食桌 1；[PDF p.178] 六上學習目標12。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元活動三",
+          "learning_points": [
+            "第三單元統整與複習活動（第18週授課；融入多元文化教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.176 課程架構表] 單元活動三；[PDF p.627 5-2教學進度總表] 第18週：單元活動三 1【多元文化教育】。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "統整與補充活動",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "輝煌旅行社",
+          "learning_points": [
+            "學期末補充故事與旅遊情境會話練習（第19週授課）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.628 5-2教學進度總表] 第19週：輝煌旅行社 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "對話聽看覓、語詞聲調大無仝、語句唸看覓、語句鬥看覓",
+          "learning_points": [
+            "對話聽辨、聲調變調複習與語句造句統整評量活動（第20週授課）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.628 5-2教學進度總表] 第20週：對話聽看覓、語詞聲調大無仝、語句唸看覓、語句鬥看覓 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "語詞運用",
+          "learning_points": [
+            "全冊語詞應用複習（第21週授課）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.628 5-2教學進度總表] 第21週：語詞運用 1。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書僅列各課課名、學習目標與4個核心句型（「......當咧......」、「......哪會......」、「......毋但......閣......」、「......到底......抑......」），未列出康軒第11冊各課實際閩南語詞彙、漢字及臺羅拼音清單。",
+      "recommended_action": "請提供康軒國小閩南語第11冊課本各課生詞／語詞表及拼音對照頁照片。"
+    },
+    {
+      "field": "units[1].title",
+      "reason": "source_not_found",
+      "detail": "PDF p.176 原文擷取為「第二單元  迌買特產」（單元名稱首字因字型編碼缺碼未顯示）。",
+      "recommended_action": "請對照康軒閩南語第11冊實體課本確認第二單元完整首字（如「𨑨」）。"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 2,
+    "subject": "語文-國語文",
+    "publisher": "康軒",
+    "book_series": "第四冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T12:46:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 2,
+        "subject": "語文-國語文",
+        "publisher": "康軒",
+        "book_series": "第四冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 2,
+        "subject": "語文-國語文",
+        "publisher": "康軒",
+        "book_series": "第四冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 彩色的世界",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一課 春天的顏色",
+          "learning_points": [
+            "融入環境教育、品德教育；相關參考選材：春天的短歌（文：向陽）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.49 課程架構表] 國語2下 -> 第一單元 彩色的世界：第一課 春天的顏色；[PDF p.559-560] 第1-3週：第一課春天的顏色。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第二課 花衣裳",
+          "learning_points": [
+            "融入家庭教育、品德教育；相關參考選材：我的衣裳（文：西卷茅子）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.49 課程架構表] 第二課 花衣裳；[PDF p.560-561] 第3-4週：第二課花衣裳。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第三課 彩色王國",
+          "learning_points": [
+            "融入人權教育、品德教育；相關參考選材：奇妙的花園（文：彼得‧布朗）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.49 課程架構表] 第三課 彩色王國；[PDF p.560-561] 第4-5週：第三課彩色王國。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 有你真好",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第四課 爸爸",
+          "learning_points": [
+            "融入人權教育、品德教育、家庭教育；相關參考選材：爸爸大集合（文：宮西達也）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.49 課程架構表] 國語2下 -> 第二單元 有你真好：第四課 爸爸；[PDF p.561] 第6-7週：第四課爸爸。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第五課 我的家人",
+          "learning_points": [
+            "融入家庭教育、生涯規劃教育、品德教育；相關參考選材：一個屋簷下。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.49 課程架構表] 第五課 我的家人；[PDF p.561-562] 第7-8週：第五課我的家人。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第六課 愛笑的大樹",
+          "learning_points": [
+            "融入人權教育、品德教育；相關參考選材：感恩之門。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.49 課程架構表] 第六課 愛笑的大樹；[PDF p.561-562] 第8-10週：第六課愛笑的大樹。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元 故事妙妙屋",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第七課 月光河",
+          "learning_points": [
+            "利用預測、推論與故事結構等策略理解文本；相關參考選材：孩子王老虎；融入人權教育、品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.49 課程架構表] 國語2下 -> 第三單元 故事妙妙屋：第七課 月光河；[PDF p.562-563] 第11-12週：第七課月光河。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第八課 黃狗生蛋",
+          "learning_points": [
+            "融入生命教育、品德教育、人權教育；相關參考選材：是誰受傷了。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.49 課程架構表] 第八課 黃狗生蛋；[PDF p.563] 第12-13週：第八課黃狗生蛋。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第九課 神筆馬良",
+          "learning_points": [
+            "融入人權教育、品德教育；相關參考選材：神奇的畫筆。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.49 課程架構表] 第九課 神筆馬良；[PDF p.563-564] 第13-15週：第九課神筆馬良。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第四單元 閱讀樂趣多",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第十課 小熊的邀請",
+          "learning_points": [
+            "融入閱讀素養教育、品德教育；相關參考選材：為什麼？。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.49 課程架構表] 國語2下 -> 第四單元 閱讀樂趣多：第十課 小熊的邀請；[PDF p.563-564] 第15-16週：第十課小熊的邀請。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第十一課 小讀者樂園",
+          "learning_points": [
+            "融入閱讀素養教育、品德教育；相關參考選材：圖書館老鼠。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.49 課程架構表] 第十一課 小讀者樂園；[PDF p.564] 第16-17週：第十一課小讀者樂園。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第十二課 巨人山",
+          "learning_points": [
+            "融入多元文化教育、品德教育；相關參考選材：格列佛遊記。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.49 課程架構表] 第十二課 巨人山；[PDF p.564-565] 第18-19週：第十二課巨人山。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "閱讀階梯",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "江奶奶的雜貨店",
+          "learning_points": [
+            "培養閱讀樂趣與文本重點理解（二下目標1、10）；融入環境教育、品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.49 課程架構表] 國語2下 -> 閱讀階梯：江奶奶的雜貨店；[PDF p.565] 第20-21週：江奶奶的雜貨店。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書僅列康軒國語第四冊各課課名、學習目標與繪本參考書目，未附各課生字與語詞清單。",
+      "recommended_action": "請提供康軒國語第四冊（二下）課本生字表／語詞表照片或電子書生字清單。"
+    }
+  ]
+}

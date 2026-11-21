@@ -1,0 +1,237 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 1,
+    "subject": "生活",
+    "publisher": "南一",
+    "book_series": "第一冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T15:55:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 1,
+        "subject": "生活",
+        "publisher": "南一",
+        "book_series": "第一冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 1,
+        "subject": "生活",
+        "publisher": "南一",
+        "book_series": "第一冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "主題一、我上一年級了",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元1 上學了",
+          "learning_points": [
+            "1.去上學、2.適應小學和幼兒園的不一樣、3.認識新同學、4.介紹我的好朋友、5.和好朋友一起、6.我會上廁所（目標1-12：校名班名、導護與上下學安全、幼小銜接、認識同學與友誼、正確使用蹲式馬桶）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.453 課程架構表] 主題一、我上一年級了 -> 單元1 上學了：1.去上學 2.適應小學和幼兒園的不一樣 3.認識新同學 4.介紹我的好朋友 5.和好朋友一起 6.我會上廁所；[PDF p.540-541] 第1-3週；[PDF p.459] 上學期目標1-12。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元2 學校的一天",
+          "learning_points": [
+            "1.一天學習的開始、2.上課了、3.學會好多事、4.愛整潔、5.垃圾分類做環保、6.平安回家去（目標13-18：進教室先做的事、專心與互助、整理抽屜、垃圾分一般／資源／廚餘三類、放學安全）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.453 課程架構表] 單元2 學校的一天：1.一天學習的開始 2.上課了 3.學會好多事 4.愛整潔 5.垃圾分類做環保 6.平安回家去；[PDF p.541] 第4週；[PDF p.459] 上學期目標13-18。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "主題二、認識校園",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元1 校園裡哪裡最好玩（5-2進度表作「單元1 校園哪裡最好玩」）",
+          "learning_points": [
+            "1.下課了，你會去哪裡？、2.一起到校園玩吧！（目標19-24：下課去處與遊戲、實踐安全遊戲行為、覺知校園危險處、樂器伴奏）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.453 課程架構表] 主題二、認識校園 -> 單元1 校園裡哪裡最好玩：1.下課了，你會去哪裡？ 2.一起到校園玩吧！；[PDF p.541-542] 第5-6週：單元1 校園哪裡最好玩；[PDF p.459] 上學期目標19-24。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元2 一起探索校園",
+          "learning_points": [
+            "1.校園裡還有哪些不同的地方？、2.校園尋寶趣、3.到哪裡請人幫忙？、4.請到我的祕密基地來（目標25-34：辨識校園不同空間功能與禮儀、遇困難求助處室與路線、創作表現喜歡的地方）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.453 課程架構表] 單元一起探索校園：1.校園裡還有哪些不同的地方？ 2.校園尋寶趣 3.到哪裡請人幫忙？ 4.請到我的祕密基地來；[PDF p.542-543] 第6-7週：單元2 一起探索校園；[PDF p.459-460] 上學期目標25-34。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "主題三、哇！好想吃",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元1 午餐大探索",
+          "learning_points": [
+            "1.營養午餐吃什麼？、2.來找答案吧！、3.最喜歡的菜、4.喜歡的菜怎麼來、5.營養午餐產生的過程（目標35-38：從身邊事物找資訊、說出喜歡菜餚及營養午餐產生流程並產生珍惜感謝心情）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.453 課程架構表] 主題三、哇！好想吃 -> 單元1 午餐大探索：1~5；[PDF p.543] 第8週；[PDF p.460] 上學期目標35-38。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元2 午餐家家酒",
+          "learning_points": [
+            "1.合作來扮家家酒、2.動手「做菜」啦、3.家家酒分享會、4.用餐行為說一說、5.用餐好行為歌曲、6.珍惜與感謝（目標39-43：製作扮家家酒菜餚、實踐用餐好行為與歌曲演唱、向煮菜的人表達謝意）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.453 課程架構表] 單元2 午餐家家酒：1~6；[PDF p.543] 第9-10週；[PDF p.460] 上學期目標39-43。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "主題四、一起來閱讀",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元1 不同課本比一比",
+          "learning_points": [
+            "1.課本比一比、2.認識書的構造、3.不同課本比一比活動（目標44-47：分享不同領域課本、認識一本書的構造與比較要點、遵守團體規範）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.454 課程架構表] 主題四、一起來閱讀 -> 單元1 不同課本比一比：1.課本比一比 2.認識書的構造 3.不同課本比一比活動；[PDF p.544] 第11-12週；[PDF p.460] 上學期目標44-47。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元2 我愛圖書館",
+          "learning_points": [
+            "1.在圖書館、2.應該怎麼辦？、3.獨一無二的書籤、4.音樂活動（目標48-55：認識圖書館服務與規定、處理圖書館狀況、設計製作書籤、念謠表現閱讀樂趣）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.454 課程架構表] 單元2 我愛圖書館：1.在圖書館 2.應該怎麼辦？ 3.獨一無二的書籤 4.音樂活動；[PDF p.544] 第13週；[PDF p.460] 上學期目標48-55。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "主題五、聲音好好玩",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元1 聲音哪裡來",
+          "learning_points": [
+            "1.聲音從哪裡來？、2.記錄聲音的方式、3.討論大家的紀錄、4.把找到的聲音用自己的聲音和動作模仿出來（目標56-59：找到聲音來源並了解環境聲音傳遞的訊息與記錄模仿）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.454 課程架構表] 主題五、聲音好好玩 -> 單元1 聲音哪裡來：1~4；[PDF p.544] 第14週；[PDF p.460] 上學期目標56-59。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元2 一起玩聲音",
+          "learning_points": [
+            "1.身體也可以發出聲音、2.將發現的聲音組合起來、3.身邊可以發出聲音的東西、4.來做發出聲音的樂器、5.聽聽看播放的聲音、6.聽聽看，想一想，這個聲音像什麼？、7.利用身邊的東西來模仿出其他聲音、8.模仿聲音、9.開演囉！（目標60-69：身體與物品發聲、自製發聲樂器、發展音效與演出）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.454 課程架構表] 單元2 一起玩聲音：1~9；[PDF p.545] 第15-16週；[PDF p.460-461] 上學期目標60-69。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "主題六、新的一年",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元1 迎接新的一年",
+          "learning_points": [
+            "1.跨年的活動、2.新年來了、3.年獸的傳說、4.恭喜恭喜、5.大家忙新年（目標70-77：跨年活動與兩個新年、年獸故事與過年習俗、唱〈恭喜恭喜〉與「咚」「鏘」節奏、教室年節布置）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.455 課程架構表] 主題六、新的一年 -> 單元1 迎接新的一年：1~5；[PDF p.545-546] 第17-18週；[PDF p.461] 上學期目標70-77。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元2 除夕團圓夜",
+          "learning_points": [
+            "1.準備過除夕、2.豐盛的年夜飯、3.好玩的除夕夜（目標78-81：準備過除夕、珍惜團圓時間、年夜飯食物含意與吉祥話配對）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.455 課程架構表] 單元2 除夕團圓夜：1~3；[PDF p.546] 第19週；[PDF p.461] 上學期目標78-81。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元3 過新年了",
+          "learning_points": [
+            "1.新年的活動、2.祝福感恩祈願（目標82-85：拜年方式與各地新年活動意義、製作新年願望與感恩祝福卡片）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.455 課程架構表] 單元3 過新年了：1~2；[PDF p.546] 第20週；[PDF p.461] 上學期目標82-85。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書已提供南一生活一上（第一冊）完整 6 主題、13 單元、細部活動與 85 條學習目標，未附課本圖卡範例與完整歌曲歌詞。",
+      "recommended_action": "已足夠建立一年級上學期生活知識題（垃圾分類三類、校園處室求助、書籍構造、圖書館規範、年獸與年夜飯吉祥話等）；如需歌詞或插圖細節可補拍南一生活一上課本頁次。"
+    }
+  ]
+}

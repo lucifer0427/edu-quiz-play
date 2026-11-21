@@ -1,0 +1,307 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 1,
+    "subject": "健康與體育",
+    "publisher": "翰林",
+    "book_series": "第一冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T15:55:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 1,
+        "subject": "健康與體育",
+        "publisher": "翰林",
+        "book_series": "第一冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 1,
+        "subject": "健康與體育",
+        "publisher": "翰林",
+        "book_series": "第一冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 成長變變變",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "活動一：長大真好",
+          "learning_points": [
+            "觀察自己的成長現象，透過遊戲化教學培養照顧自己身體的責任感（上學期目標1）；健康雙語單元 Me and my body（繪本 Dirty Bertie）。"
+          ],
+          "vocabulary": [
+            "dirty",
+            "clean"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.482 課程架構表] 健體1上 第一單元 成長變變：活動一 長大真好；[PDF p.540-541] 第1-3週：第一冊第一單元：成長變變變 活動一：長大真好；[PDF p.484] 上學期目標1；[PDF p.528] 健康雙語：Me and my body 成長變變變。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "活動二：清潔衛生好習慣",
+          "learning_points": [
+            "持續實踐健康行為習慣，透過觀察與演練學習各種不同的清潔步驟（上學期目標2）；辨識良好衛生習慣（clean vs. dirty）。"
+          ],
+          "vocabulary": [
+            "dirty",
+            "clean"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.482 課程架構表] 活動二 清潔衛生好習慣；[PDF p.541-543] 第4-8週：活動二：清潔衛生好習慣；[PDF p.484] 上學期目標2；[PDF p.528] 健康雙語：(dirty/clean)。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 快樂上下學",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "活動一：安全紅綠燈",
+          "learning_points": [
+            "探討平日上學或放學回家情境中周遭環境潛在危險與因應解決方法，提升危機應變能力（上學期目標4）；健康雙語單元 Safe on the road（歌曲 Green Says GO，紅綠燈號誌）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.482 課程架構表] 第二單元 快樂上下：活動一 安全紅綠燈；[PDF p.543-544] 第9-12週：第一冊第二單元：快樂上下學 活動一：安全紅綠燈；[PDF p.484] 上學期目標4；[PDF p.528-529] 健康雙語：Safe on the road 快樂上下學。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "活動二：我們是好同學",
+          "learning_points": [
+            "藉由觀察與討論學習友愛同學、與同儕和睦相處的方法（上學期目標5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.482 課程架構表] 活動二 我們是好同學；[PDF p.544-545] 第13-14週：活動二：我們是好同學；[PDF p.484] 上學期目標5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "活動三：我們的健康中心（5-1-1架構表作「活動二 我們的健康」）",
+          "learning_points": [
+            "認識學校健康中心功能與校園健康照護資源（第15週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.482 課程架構表] 活動二 我們的健康；[PDF p.545] 第15週：第一冊第二單元：快樂上下學 活動三：我們的健康中心。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元 營養的食物",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "活動一：食物調色盤",
+          "learning_points": [
+            "了解食物對生理和心理的影響，分辨食物是否健康（healthy/unhealthy）並認識多樣食物（上學期目標3）；健康雙語單元 Eat in Da Jhong 吃在大忠（繪本 The very hungry caterpillar）。"
+          ],
+          "vocabulary": [
+            "healthy",
+            "unhealthy"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.482 課程架構表] 第三單元 營養的食：活動一 食物調色盤；[PDF p.545-546] 第16-18週：第一冊第三單元：營養的食物 活動一：食物調色盤；[PDF p.484] 上學期目標3；[PDF p.529] 健康雙語：Eat in Da Jhong 吃在大忠 (healthy/unhealthy)。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "活動二：飲食好習慣",
+          "learning_points": [
+            "養成良好飲食習慣與珍惜食物，讓自己更健康（上學期目標3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.482 課程架構表] 活動二 飲食好習慣；[PDF p.546-547] 第19-21週：活動二：飲食好習慣；[PDF p.484] 上學期目標3。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第四單元 愛上體育課",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "活動一：體育課好好玩",
+          "learning_points": [
+            "建立學生上體育課的正確行為與安全觀念（上學期目標6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.482 課程架構表] 第四單元 愛上體育課：活動一 體育課好好玩；[PDF p.540] 第1-2週：第一冊第四單元：愛上體育課 活動一：體育課好好玩；[PDF p.484] 上學期目標6。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "活動二：暖身操",
+          "learning_points": [
+            "實作暖身活動，知道運動前暖身的重要性（上學期目標6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.482 課程架構表] 活動二 暖身操；[PDF p.541] 第3週：活動二：暖身操；[PDF p.484] 上學期目標6。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "活動三：安全遊樂園",
+          "learning_points": [
+            "正確使用校園遊樂設備並遵守使用規定（上學期目標7）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.482 課程架構表] 活動三 安全遊樂園；[PDF p.541-542] 第4-5週：活動三：安全遊樂園；[PDF p.484] 上學期目標7。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "第五單元 我的身體真神奇",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "活動一：身體造型遊戲",
+          "learning_points": [
+            "透過身體造型遊戲學會形狀、水平和支撐點的動作要素基本概念並應用在動作展演上（上學期目標8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.482 課程架構表] 第五單元 我的身體真神奇：活動一 身體造型遊戲；[PDF p.542-543] 第6-7週：活動一：身體造型遊戲；[PDF p.484] 上學期目標8。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "活動二：墊上模仿秀",
+          "learning_points": [
+            "墊上滾翻、支撐與模仿基本動作遊戲（Ia-I-1、上學期目標8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.482 課程架構表] 活動二 墊上模仿秀；[PDF p.543] 第8週：活動二：墊上模仿秀。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "活動三：唱跳樂趣多",
+          "learning_points": [
+            "唱、跳與模仿性律動遊戲（Ib-I-1、上學期目標8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.482 課程架構表] 活動三 唱跳樂趣多；[PDF p.543] 第9週：活動三：唱跳樂趣多。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "活動四：動物拳",
+          "learning_points": [
+            "武術模仿遊戲（Bd-I-1）與身體動作展演（上學期目標8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.482 課程架構表] 活動四 動物拳；[PDF p.543-544] 第10-11週：活動四：動物拳。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "第六單元 走走跑跑",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "活動一：跟著節奏走",
+          "learning_points": [
+            "體驗各種走路方法，經由不同節奏練習培養多走路的習慣（上學期目標9）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.482 課程架構表] 第六單元 走走跑跑：活動一 跟著節奏走；[PDF p.544] 第12-13週：活動一：跟著節奏走；[PDF p.484] 上學期目標9。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "活動二：奔跑吧",
+          "learning_points": [
+            "跑的移動性基本動作與安全遊戲活動（Ga-I-1、上學期目標9）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.482 課程架構表] 活動二 奔跑吧；[PDF p.544-545] 第14-15週：活動二：奔跑吧。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 7,
+      "title": "第七單元 大球小球真好玩",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "活動一：滾球高手",
+          "learning_points": [
+            "透過一系列滾球練習與遊戲發展協調性，培養基本運動能力與技巧（上學期目標10）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.482 課程架構表] 第七單元 大球小球真：活動一 滾球高手；[PDF p.545-546] 第16-19週：第一冊第七單元：大球小球真好玩 活動一：滾球高手；[PDF p.484] 上學期目標10。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "活動二：傳球遊戲",
+          "learning_points": [
+            "藉由團體傳球遊戲培養群性並了解團隊合作重要性（上學期目標11）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.482 課程架構表] 活動二 傳球遊戲；[PDF p.546-547] 第20-21週：活動二：傳球遊戲；[PDF p.484] 上學期目標11。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未附健康單元清潔步驟細項、紅綠燈交通安全情境圖或食物分類詳細圖解；另健康雙語單元僅提供繪本名稱及 dirty/clean、healthy/unhealthy 等部分關鍵詞。",
+      "recommended_action": "如需針對課本清潔步驟或飲食細項出題，請補拍翰林健體一上課本單元一～三課文頁。"
+    }
+  ]
+}

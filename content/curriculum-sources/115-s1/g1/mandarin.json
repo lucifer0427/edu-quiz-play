@@ -1,0 +1,325 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 1,
+    "subject": "語文-國語文",
+    "publisher": "翰林",
+    "book_series": "首冊、第一冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T15:55:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 1,
+        "subject": "語文-國語文",
+        "publisher": "翰林",
+        "book_series": "首冊、第一冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 1,
+        "subject": "語文-國語文",
+        "publisher": "翰林",
+        "book_series": "首冊、第一冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "首冊第壹單元",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "聆聽故事一、第一課手拉手",
+          "learning_points": [
+            "由語句中分析語詞、單字及注音符號，認識注音符號並融入教室活動趣味（上學期目標1-3）；融入品德教育（第1週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.540 5-2教學進度總表] 第一週：首冊第壹單元 聆聽故事一 第一課手拉手【品德教育】；[PDF p.45] 上學期目標1-3；[PDF p.46] 翰林 首冊、第一冊、第二冊。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第二課排一排",
+          "learning_points": [
+            "注音符號與語詞練習，融入學校生活規範；融入品德教育（第2週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.540 5-2教學進度總表] 第二週：首冊第壹單元 第二課排一排【品德教育】；[PDF p.45] 上學期目標2、4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "聆聽故事二、第三課來數數",
+          "learning_points": [
+            "透過聆聽故事與課文熟練注音符號及語句閱讀；融入品德教育、閱讀素養教育（第3週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.541 5-2教學進度總表] 第三週：首冊第壹單元 聆聽故事二 第三課來數數【品德教育】【閱讀素養教育】；[PDF p.45] 上學期目標1-2、5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "第四課找一找、統整活動一",
+          "learning_points": [
+            "注音符號單元統整與應用檢核；融入品德教育、閱讀素養教育、戶外教育（第4週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.541 5-2教學進度總表] 第四週：首冊第壹單元 第四課找一找 統整活動一【品德教育】【閱讀素養教育】【戶外教育】；[PDF p.46] 教學方法上學期1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "首冊第貳單元",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "聆聽故事三、第五課雨來了",
+          "learning_points": [
+            "聆聽故事與自然觀察語句練習；融入環境教育、閱讀素養教育、戶外教育（第5週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.541-542 5-2教學進度總表] 第五週：首冊第貳單元 聆聽故事三 第五課雨來了【環境教育】【閱讀素養教育】【戶外教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第六課山坡上的學校",
+          "learning_points": [
+            "融入學校與環境生活體驗，熟練注音拼讀；融入人權教育、環境教育、生命教育、戶外教育（第6週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.542 5-2教學進度總表] 第六週：首冊第貳單元 第六課山坡上的學校【人權教育】【環境教育】【生命教育】【戶外教育】；[PDF p.45] 上學期目標4-5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "聆聽故事四、第七課值日生",
+          "learning_points": [
+            "透過聆聽故事與校園生活情境培養勤學與服務態度；融入人權教育、品德教育、生涯規劃教育（第7週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.543 5-2教學進度總表] 第七週：首冊第貳單元 聆聽故事四 第七課值日生【人權教育】【品德教育】【生涯規劃教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "第八課運動會",
+          "learning_points": [
+            "聯結與同學一起玩與參與活動的生活經驗；融入人權教育、品德教育、安全教育（第8週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.543 5-2教學進度總表] 第八週：首冊第貳單元 第八課運動會【人權教育】【品德教育】【安全教育】；[PDF p.45] 上學期目標6。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 5,
+          "title": "第九課做卡片、統整活動二",
+          "learning_points": [
+            "完成注音符號全部學習與統整檢核，培養表達與閱讀能力；融入人權教育、品德教育、閱讀素養教育（第9週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.543 5-2教學進度總表] 第九週：首冊第貳單元 第九課做卡片統整活動二【人權教育】【品德教育】【閱讀素養教育】；[PDF p.46] 教學方法上學期2。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "首冊來閱讀",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "紙飛機",
+          "learning_points": [
+            "熟練注音符號音節並運用於閱讀短文，體會閱讀樂趣；融入環境教育、人權教育、品德教育、戶外教育（第10週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.543 5-2教學進度總表] 第十週：首冊來閱讀 紙飛機【環境教育】【人權教育】【品德教育】【戶外教育】；[PDF p.45] 上學期目標5、8。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第一冊第壹單元：一起玩",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一課一起走",
+          "learning_points": [
+            "學會注音符號後開始進入國字認讀與書寫，聯結與同學一起玩的生活經驗（上學期目標6）；融入人權教育、安全教育、品德教育（第11週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.544 5-2教學進度總表] 第十一週：第一冊第壹單元：一起玩 第一課一起走【人權教育】【安全教育】【品德教育】；[PDF p.45] 上學期目標6；[PDF p.46] 教學方法上學期3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第二課大風吹",
+          "learning_points": [
+            "遊戲主題課文認字與完整語句表達；融入人權教育、性別平等教育、品德教育（第12週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.544 5-2教學進度總表] 第十二週：第一冊第壹單元：一起玩 第二課大風吹【人權教育】【性別平等教育】【品德教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第三課火車過山洞",
+          "learning_points": [
+            "遊戲與人際合作主題文本閱讀與識字；融入人權教育、品德教育（第13週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.544 5-2教學進度總表] 第十三週：第一冊第壹單元：一起玩 第三課火車過山洞【人權教育】【品德教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "統整活動一",
+          "learning_points": [
+            "第一單元字音、字形、字義與語句統整練習；融入品德教育、閱讀素養教育（第14週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.544 5-2教學進度總表] 第十四週：第一冊第壹單元：一起玩 統整活動一【品德教育】【閱讀素養教育】。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "第一冊第貳單元：問問題",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第四課請問",
+          "learning_points": [
+            "引導學生勇於發問、探索問題及培養解決問題的能力（上學期目標7）；融入環境教育、戶外教育、閱讀素養教育（第15週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.545 5-2教學進度總表] 第十五週：第一冊第貳單元：問問題 第四課請問【環境教育】【戶外教育】【閱讀素養教育】；[PDF p.45] 上學期目標7。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第五課七彩的滑梯",
+          "learning_points": [
+            "透過提問與自然觀察發現語文之美；融入環境教育、人權教育、閱讀素養教育（第16週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.545 5-2教學進度總表] 第十六週：第一冊第貳單元：問問題 第五課七彩的滑梯【環境教育】【人權教育】【閱讀素養教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第六課秋千",
+          "learning_points": [
+            "探索問題與日常自然體驗閱讀；融入人權教育、環境教育、品德教育、戶外教育（第17週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.545 5-2教學進度總表] 第十七週：第一冊第貳單元：問問題 第六課秋千【人權教育】【環境教育】【品德教育】【戶外教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "第七課回音",
+          "learning_points": [
+            "聲音現象探索與好奇提問學習；融入人權教育、環境教育、品德教育、戶外教育（第18週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.546 5-2教學進度總表] 第十八週：第一冊第貳單元：問問題 第七課回音【人權教育】【環境教育】【品德教育】【戶外教育】；[PDF p.45] 上學期目標7。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 5,
+          "title": "統整活動二",
+          "learning_points": [
+            "第貳單元識字、標點符號與完整語句統整練習；融入品德教育、閱讀素養教育（第19週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.546 5-2教學進度總表] 第十九週：第一冊第貳單元：問問題 統整活動二【品德教育】【閱讀素養教育】。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "第一冊來閱讀與課程統整",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一冊來閱讀：妹妹寫的字",
+          "learning_points": [
+            "引導學生樂於閱讀、體會語文之美（上學期目標8）；融入品德教育、閱讀素養教育、家庭教育、多元文化教育（第20週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.546 5-2教學進度總表] 第二十週：第一冊來閱讀 妹妹寫的字【品德教育】【閱讀素養教育】【家庭教育】【多元文化教育】；[PDF p.45] 上學期目標8。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "課程統整：總複習",
+          "learning_points": [
+            "一上全冊總複習與閱讀統整；融入環境教育、品德教育、閱讀素養教育（第21週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.547 5-2教學進度總表] 第廿一週：課程統整 總複習【環境教育】【品德教育】【閱讀素養教育】。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "5-1-1 國語文一年級課程架構表（PDF p.43）為嵌入圖片未轉出文字，單元與課次係依據 5-2 教學進度總表（PDF p.540-547）逐字擷取；課程計畫書未附各課注音符號分課對照、生字筆畫與語詞清單。",
+      "recommended_action": "請提供翰林國語首冊、第一冊課本目次與生字／語詞表照片。"
+    }
+  ]
+}

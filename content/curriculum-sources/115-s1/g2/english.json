@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 2,
+    "subject": "英語（彈性學習課程：唱跳趣閱家）",
+    "publisher": "何嘉仁（選書表）／學校自編彈性課程計畫",
+    "book_series": "Fun World 3（選書表）／唱跳趣閱家二上（課程計畫）"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T12:46:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 2,
+        "subject": "英語（彈性學習課程：唱跳趣閱家）",
+        "publisher": "何嘉仁（選書表）／學校自編彈性課程計畫",
+        "book_series": "Fun World 3（選書表）／唱跳趣閱家二上（課程計畫）"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 2,
+        "subject": "英語（彈性學習課程：唱跳趣閱家）",
+        "publisher": "何嘉仁（選書表）／學校自編彈性課程計畫",
+        "book_series": "Fun World 3（選書表）／唱跳趣閱家二上（課程計畫）"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第1–5週：聽！安全與自然的交響曲",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "聽！安全與自然的交響曲（繪本 So Many Sounds 與課堂指令／自然聲音）",
+          "learning_points": [
+            "英語字母基礎：二上整體學習目標包含聽辨並認讀大小寫字母 Aa〜Mm、筆順描寫及其代表單字念法（p.671）。",
+            "繪本導讀：So Many Sounds；區分大自然環境音與交通警示音（救護車、消防車、倒車雷達、平交道等）。",
+            "課堂指令與安全對話：\"Listen!\", \"Louder!\", \"Hurry up!\", \"Stop!\", \"Come back!\", \"Help! Louder, please!\"；東西方動物叫聲比較（Woof vs. 汪汪）。"
+          ],
+          "vocabulary": [
+            "Listen!",
+            "Louder!",
+            "Hurry up!",
+            "Stop!",
+            "Come back!",
+            "Help! Louder, please!",
+            "Woof"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.671-672 二年級彈性學習課程【唱跳趣閱家】課程計畫] 週次1-5 單元名稱：聽！安全與自然的交響曲；[PDF p.1055-1057 6-4進度總表] 第1-5週。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第6–9週：金牌安全小將",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "金牌安全小將（繪本 The Hare and the Tortoise 與交通禮貌／道歉對話）",
+          "learning_points": [
+            "繪本導讀：The Hare and the Tortoise（龜兔賽跑），連結紅綠燈、斑馬線與停看聽安全規則。",
+            "動作動詞與問候／衝突處理對話：\"Run\", \"Crawl\", \"Good morning.\", A: \"Sorry.\" / B: \"That is OK.\"。"
+          ],
+          "vocabulary": [
+            "Run",
+            "Crawl",
+            "Good morning.",
+            "Sorry.",
+            "That is OK."
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.672-673 唱跳趣閱家課程計畫] 週次6-9 單元名稱：金牌安全小將；[PDF p.1057-1058 6-4進度總表] 第6-9週。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第10–13週：社區小探險：我的安全好鄰居",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "社區小探險：我的安全好鄰居（繪本 Our Neighbourhood 與社區設施／互動對話）",
+          "learning_points": [
+            "繪本引導：Our Neighbourhood，討論社區商店、警察局、醫務室與愛心服務站。",
+            "互動英語對話：\"I have an idea!\"（我有個主意）、\"Good idea!\"（好主意）。"
+          ],
+          "vocabulary": [
+            "I have an idea!",
+            "Good idea!"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.673-674 唱跳趣閱家課程計畫] 週次10-13 單元名稱：社區小探險：我的安全好鄰居；[PDF p.1058-1059 6-4進度總表] 第10-13週。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第14–21週：分享的快樂：安全與自然的共好行動",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "分享的快樂：安全與自然的共好行動（繪本 The Doorbell Rang 與禮貌分享對話）",
+          "learning_points": [
+            "繪本導讀：The Doorbell Rang；介紹聖尼可拉斯分享故事與路權分享概念。",
+            "分享禮貌對話：\"This is for you.\", \"Thank you.\", \"You’re welcome.\"。"
+          ],
+          "vocabulary": [
+            "This is for you.",
+            "Thank you.",
+            "You’re welcome."
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.674-675 唱跳趣閱家課程計畫] 週次14-21 單元名稱：分享的快樂：安全與自然的共好行動；[PDF p.1059-1062 6-4進度總表] 第14-21週。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "target.book_series / units[*]",
+      "reason": "ambiguous_edition",
+      "detail": "《115學年教科書版本.pdf》（src-2）於二年級英語欄列出「何嘉仁 3 Fun World（含 Qrcode 線上聽）」，但學校《115學年度課程計畫.pdf》（src-1）5-3-1 未設低年級英語欄，而將低年級英語納入彈性學習課程【唱跳趣閱家】（PDF p.670-675，含 Aa〜Mm 字母目標與4個繪本單元），且未載明《Fun World 3》課本各單元名稱與代表單字。",
+      "recommended_action": "已完整記錄校訂【唱跳趣閱家】二上4單元與課堂用語；若需依《何嘉仁 Fun World 3》課本單元與單字出題，請提供該書目次頁與 Word List 照片。"
+    }
+  ]
+}

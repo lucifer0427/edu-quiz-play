@@ -1,0 +1,254 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 4,
+    "subject": "社會",
+    "publisher": "南一",
+    "book_series": "第三冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:10:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 4,
+        "subject": "社會",
+        "publisher": "南一",
+        "book_series": "第三冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 4,
+        "subject": "社會",
+        "publisher": "南一",
+        "book_series": "第三冊（選書表僅列南一，冊別由課程計畫核實）"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "一、交通與訊息",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.陸地的運輸",
+          "learning_points": [
+            "第1-2週授課（3節/週）；認識陸運各種交通工具、用途及其功能性差異（四上目標1-3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.332 課程架構表] 社會四年級上學期 一、交通與訊息：1.陸地的運輸；[PDF p.580-581] 第1-2週；[PDF p.333] 四上學習目標1-3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.船運與空運",
+          "learning_points": [
+            "第3-4週授課；認識船運、空運各種交通工具及用途，了解整體陸運、船運、空運交通的串聯（四上目標1-3；融入海洋教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.332 課程架構表] 2.船運與空運；[PDF p.581-582] 第3-4週；[PDF p.333] 四上學習目標1-3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "3.訊息的傳播",
+          "learning_points": [
+            "第5週授課；了解訊息傳播與科技發展如何改變人類的生活樣貌，省思訊息使用者應遵守的規範（四上目標4-6；融入資訊教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.332 課程架構表] 3.訊息的傳播；[PDF p.583] 第5週；[PDF p.333] 四上學習目標4-6。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "〈玩探究〉眼見為憑？分辨真假訊息",
+          "learning_points": [
+            "第6週授課；了解分辨真假訊息以及媒體識讀的重要性，透過範例練習有根據地判讀訊息正確性（四上目標7-8；融入資訊教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.332 課程架構表] 〈玩探究〉眼見為憑？分辨真假訊息；[PDF p.583] 第6週；[PDF p.334] 四上學習目標7-8。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "二、地圖上的家鄉",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.閱讀地圖認識家鄉",
+          "learning_points": [
+            "第7-8週授課；以東、南、西、北四方位標為基礎進一步認識八方位標，學習查閱圖例與解讀地圖資訊（四上目標9-11）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.332 課程架構表] 二、地圖上的家鄉：1.閱讀地圖認識家鄉；[PDF p.584-585] 第7-8週；[PDF p.334] 四上學習目標9-11。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.家鄉的地圖",
+          "learning_points": [
+            "第8-9週授課；認識生活情境中各類地圖的功能，活用圖名、圖例、方位標等地圖要素探索家鄉（四上目標12-14；融入資訊教育、生涯規劃教育、戶外教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.332 課程架構表] 2.家鄉的地圖；[PDF p.585-586] 第8-9週；[PDF p.334] 四上學習目標12-14。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "〈玩探究〉善用地圖探究家鄉",
+          "learning_points": [
+            "第10週授課（評量週）；善用地圖資訊規畫家鄉旅遊，探究家鄉人文情懷（四上目標11、15；融入閱讀素養教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.332 課程架構表] 〈玩探究〉善用地圖探究家鄉；[PDF p.587] 第10週；[PDF p.334] 四上學習目標11、15。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "三、認識家鄉景觀",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.家鄉的景觀",
+          "learning_points": [
+            "第11週授課；認識家鄉景觀的由來，了解家鄉景觀包含自然風景與人為開發（四上目標16-18）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.332 課程架構表] 三、認識家鄉景觀：1.家鄉的景觀；[PDF p.587] 第11週；[PDF p.334] 四上學習目標16-18。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.家鄉景觀與生活",
+          "learning_points": [
+            "第12週授課；知道家鄉景觀與居民生活的關聯，學習珍惜及維護家鄉景觀的重要性（四上目標19-20）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.332 課程架構表] 2.家鄉景觀與生活；[PDF p.587] 第12週；[PDF p.334] 四上學習目標19-20。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "〈玩探究〉寫在牆上的故事",
+          "learning_points": [
+            "第13週授課；透過觀察家鄉景觀牆上的文字紀錄了解建築歷史，蒐集並分析資料形成觀點分享（四上目標21-23；融入戶外教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.332 課程架構表] 〈玩探究〉寫在牆上的故事；[PDF p.588] 第13週；[PDF p.334] 四上學習目標21-23。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "四、家鄉的節慶",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.家鄉的傳統節慶",
+          "learning_points": [
+            "第14-15週授課；說出各項漢人傳統節慶的習俗、意義或慶祝活動，並能提出疑問進行探究（四上目標24-25；融入原住民族教育、多元文化教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.332 課程架構表] 四、家鄉的節慶：1.家鄉的傳統節慶；[PDF p.588-589] 第14-15週；[PDF p.334] 四上學習目標24-25。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.家鄉的特色節慶活動",
+          "learning_points": [
+            "第16週授課；了解並比較地方特色節慶活動與外來節慶活動的由來、意義與異同（四上目標26-27；融入多元文化教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.332 課程架構表] 2.家鄉的特色節慶活動；[PDF p.589] 第16週；[PDF p.334] 四上學習目標26-27。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "3.發現生活中的節日",
+          "learning_points": [
+            "第17週授課；發現生活中的各種節日，理解不同節日慶祝活動所反映的多元價值與文化（四上目標28-29；融入原住民族教育、多元文化教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.332 課程架構表] 3.發現生活中的節日；[PDF p.590] 第17週；[PDF p.334] 四上學習目標28-29。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "〈玩探究〉尋找生活中的節慶",
+          "learning_points": [
+            "第18週授課；觀察日曆上的不同節慶活動，提出好奇的問題並探究其意義（四上目標30；融入多元文化教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.332 課程架構表] 〈玩探究〉尋找生活中的節慶；[PDF p.590] 第18週；[PDF p.334] 四上學習目標30。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "〔探究〕家鄉的生活￭探究方法123（另附桃園在地化課程《品桃園》）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "〔探究〕家鄉的生活￭探究方法123",
+          "learning_points": [
+            "第19-20週授課（第20週為評量週）；關注家鄉居民生活隨社會變遷改變的現象，蒐集可信資訊並辨別事實與意見，分享探究過程與結果（四上目標31-33）。",
+            "教材來源（p.336）另載明以桃園在地化課程教材《品桃園》為輔（p.332 課程架構表列「桃園在地化課程 品桃園-6 節」）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.332 課程架構表] 〔探究〕家鄉的生活 探究方法123、桃園在地化課程 品桃園-6 節；[PDF p.591] 第19-20週：〔探究〕家鄉的生活￭探究方法123；[PDF p.334] 四上學習目標31-33。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未附南一社會四上（第三冊）及桃園在地化教材《品桃園》之詳細課文內容與專有名詞清單；另 p.332 課程架構表所列「品桃園-6 節」未於 5-2 週次進度總表中逐週單獨標註。",
+      "recommended_action": "請提供南一社會四上（第三冊）課本重點頁及《品桃園》四年級教材內容以補充細節與詞彙。"
+    }
+  ]
+}

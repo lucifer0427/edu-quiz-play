@@ -1,0 +1,154 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 2,
+    "subject": "本土語文-閩南語",
+    "publisher": "真平",
+    "book_series": "第4冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T12:46:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 2,
+        "subject": "本土語文-閩南語",
+        "publisher": "真平",
+        "book_series": "第4冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 2,
+        "subject": "本土語文-閩南語",
+        "publisher": "真平",
+        "book_series": "第4冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 來食好食物",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一課 來買菜喔（5-2進度表作「1.菜頭」）",
+          "learning_points": [
+            "辨識生活中常見蔬菜語詞、認讀漢字並運用句型「（啥物人）＋上佮意＋食（啥物菜蔬）。」（目標1-4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.126 課程架構表] 二下 閩南語第4冊 第一單元 來食好食物：第一課 來買菜喔；[PDF p.559-560] 第1-3週：一、來食好食物 1.菜頭；[PDF p.127] 二下目標1-4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第二課 歡喜食甲飽",
+          "learning_points": [
+            "辨識生活中常見餐具語詞並運用句型「（啥物人）＋用（啥物餐具）＋（做啥物代誌）。」（目標6-8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.126 課程架構表] 第二課 歡喜食甲飽；[PDF p.560-561] 第4-7週：2.歡喜食甲飽；[PDF p.127] 二下目標6-8。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 奇妙的大自然",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第三課 月娘變魔術",
+          "learning_points": [
+            "辨識自然現象語詞並運用句型「（啥物人）＋有看著＋天頂的（自然現象）。」（目標9-10）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.126 課程架構表] 第二單元 奇妙的大自然：第三課 月娘變魔術；[PDF p.561-562] 第8-10週：二、奇妙的大自然 3.月娘變魔術；[PDF p.127-128] 二下目標9-10。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第四課 西北雨",
+          "learning_points": [
+            "自然現象（西北雨）閩南語文閱讀與防災／環境議題融入。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.126 課程架構表] 第四課 西北雨；[PDF p.562-563] 第11-14週：4.西北雨。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元 利便的交通",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第五課 騎鐵馬（5-2進度表作「5.坐火車」）",
+          "learning_points": [
+            "交通工具主題閩南語文學習；注意 5-1-1（騎鐵馬）與 5-2（坐火車）課名差異。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.126 課程架構表] 第三單元 利便的交通：第五課 騎鐵馬；[PDF p.563-565] 第15-19週：三、利便的交通 5.坐火車。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "期末故事（見 5-2 教學進度總表）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "來聽囡仔古～雷公佮爍爁婆",
+          "learning_points": [
+            "第20-21週生活故事聆聽（融入品德教育、生命教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.565 5-2教學進度總表] 第二十至廿一週：來聽囡仔古～雷公佮爍爁婆【品德教育】【生命教育】。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[0].lessons[0].title / units[2].lessons[0].title",
+      "reason": "ambiguous_edition",
+      "detail": "5-1-1 課程架構表（PDF p.126）列「第一課 來買菜喔」、「第五課 騎鐵馬」，而 5-2 進度總表（PDF p.559-565）則列「1.菜頭」、「5.坐火車」，兩處課名不一致。",
+      "recommended_action": "請核對實際發放的 115 學年度真平閩南語第 4 冊課本目錄確認實際課名及臺羅拼音語詞表。"
+    },
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書已提供二下 3 個主要句型結構，但未附真平閩南語第 4 冊蔬菜／餐具／自然現象具體臺羅拼音詞彙表。",
+      "recommended_action": "請提供真平閩南語第 4 冊課本語詞頁照片。"
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 2,
+    "subject": "數學",
+    "publisher": "翰林",
+    "book_series": "第四冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T12:46:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 2,
+        "subject": "數學",
+        "publisher": "翰林",
+        "book_series": "第四冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 2,
+        "subject": "數學",
+        "publisher": "翰林",
+        "book_series": "第四冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第1章 1000 以內的數",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1-1 數到1000、1-2 幾個百、幾個十、幾個一",
+          "learning_points": [
+            "認識1000以內的數與位值概念（下學期目標1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.292 課程架構表] 數學二下 第1章 1000以內的數；[PDF p.559-560] 第1-2週：1-1 數到1000、1-2 幾個百、幾個十、幾個一。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "1-3 數的大小比較、1-4 使用錢幣、練習園地",
+          "learning_points": [
+            "認識100元、500元和1000元幣值，並用 ＜、＝、＞ 表示數量大小關係（目標1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.560] 第3週：1-3 數的大小比較、1-4 使用錢幣、練習園地；[PDF p.293] 下學期目標1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第2章 重量",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "2-1 重量與天平",
+          "learning_points": [
+            "能認識重量與天平（N-2-12、下學期目標2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.292 課程架構表] 第2章 重量；[PDF p.560-561] 第4週：2-1 重量與天平；[PDF p.293] 下學期目標2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2-2 重量的間接比較、練習園地",
+          "learning_points": [
+            "做重量的間接比較與個別單位比較（目標2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.561] 第5週：2-2 重量的間接比較、練習園地。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第3章 加加減減",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "3-1 三位數加法、3-2 三位數減法、3-3 加減應用",
+          "learning_points": [
+            "理解三位數加減直式計算（含兩次進位及一次退位），解決生活問題（目標3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.292 課程架構表] 第3章 加加減減；[PDF p.561] 第6週：3-1 三位數加法、3-2 三位數減法、3-3 加減應用；[PDF p.293] 下學期目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "3-4 比較與加減、3-5 估算、練習園地、遊戲中學數學（一）",
+          "learning_points": [
+            "三位數加減比較應用、估算與綜合練習（第7週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.292 課程架構表] 遊戲中學數學（一）；[PDF p.561] 第7週：3-4 比較與加減、3-5 估算、練習園地、遊戲中學數學（一）。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第4章 平面圖形與立體形體",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "4-1 圖形的邊、角和頂點、4-2 圖形的周界、4-3 圖形的邊長和周長、4-4 正方體與長方體、4-5 分類、練習園地",
+          "learning_points": [
+            "認識平面圖形邊、角、頂點、周界與周長計算；認識正方體與長方體的各種性質及幾何特徵分類（S-2-1、S-2-2、S-2-4、下學期目標4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.292 課程架構表] 第4章 平面圖形與立體形體；[PDF p.561-562] 第8週：4-1～4-5、練習園地；[PDF p.293] 下學期目標4。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "第5章 乘法",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "5-1 10、1 和 0 的乘法",
+          "learning_points": [
+            "理解被乘數或乘數為 10、1 和 0 的乘法意義（下學期目標5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.292 課程架構表] 第5章 乘法；[PDF p.562] 第9週：5-1 10、1和0的乘法；[PDF p.293] 下學期目標5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "5-2 乘法的關係、5-3 十幾乘以 2 或 3、練習園地",
+          "learning_points": [
+            "理解乘法交換律可用於簡化計算，用連加方式解決十幾乘以 2 或 3 的問題（R-2-3、目標5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.562] 第10週：5-2 乘法的關係、5-3 十幾乘以2或3、練習園地。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "學習加油讚（一）",
+          "learning_points": [
+            "綜合與應用、生活中找數學、看繪本學數學（第11週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.292 課程架構表] 學習加油讚(一)；[PDF p.562-563] 第11週：學習加油讚（一）綜合與應用、生活中找數學、看繪本學數學。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "第6章 公尺與公分",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "6-1 認識公尺、6-2 公尺與公分",
+          "learning_points": [
+            "認識長度單位「公尺」及「公尺」和「公分」的關係與換算（N-2-11、下學期目標6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.292 課程架構表] 第6章 公尺與公分；[PDF p.563] 第12週：6-1 認識公尺、6-2 公尺與公分；[PDF p.293] 下學期目標6。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "6-3 長度的比較與計算、練習園地",
+          "learning_points": [
+            "三個長度量的遞移關係；以公尺為長度單位的合成或分解問題（目標6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.563] 第13週：6-3 長度的比較與計算、練習園地。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 7,
+      "title": "第7章 乘與加減兩步驟",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "7-1 乘加問題、7-2 乘減問題",
+          "learning_points": [
+            "解決具體情境中「先乘再加減」的兩步驟問題（不含併式）（N-2-8、下學期目標7）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.292 課程架構表] 第7章 乘與加減兩步驟；[PDF p.563] 第14週：7-1 乘加問題、7-2 乘減問題；[PDF p.293] 下學期目標7。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "7-3 加乘問題、7-4 減乘問題、練習園地、遊戲中學數學（二）",
+          "learning_points": [
+            "解決具體情境中「先加減再乘」的兩步驟問題（不含併式）（N-2-8、目標7）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.292 課程架構表] 遊戲中學數學（二）；[PDF p.563-564] 第15週：7-3 加乘問題、7-4 減乘問題、練習園地、遊戲中學數學（二）。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 8,
+      "title": "第8章 年、月、日",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "8-1 年和月、8-2 月和星期、8-3 天數和日期、練習園地",
+          "learning_points": [
+            "查看年曆和月曆並解決生活情境問題；理解「年」和「月」關係；點數解決以日為單位的問題（N-2-14、下學期目標8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.292 課程架構表] 第8章 年、月、日；[PDF p.564] 第16週：8-1 年和月、8-2 月和星期、8-3 天數和日期、練習園地；[PDF p.293] 下學期目標8。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 9,
+      "title": "第9章 分裝與平分",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "9-1 分裝",
+          "learning_points": [
+            "在具體情境中進行分裝活動，建立除法前置經驗（N-2-9、下學期目標9）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.292 課程架構表] 第9章 分裝與平分；[PDF p.564] 第17週：9-1 分裝；[PDF p.294] 下學期目標9。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "9-2 平分、練習園地",
+          "learning_points": [
+            "在具體情境中進行平分活動（N-2-9、目標9）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.564] 第18週：9-2 平分、練習園地。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 10,
+      "title": "第10章 認識分數",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "10-1 等分、10-2 二分之一和四分之一",
+          "learning_points": [
+            "認識等分、二分之一（一半）、四分之一（N-2-10、下學期目標10）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.292 課程架構表] 第10章 認識分數；[PDF p.564-565] 第19週：10-1 等分、10-2 二分之一和四分之一；[PDF p.294] 下學期目標10。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "10-3 幾分之一、練習園地",
+          "learning_points": [
+            "認識單位分數「幾分之一」意義（N-2-10、目標10）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.565] 第20週：10-3 幾分之一、練習園地。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "學習加油讚(二)",
+          "learning_points": [
+            "綜合與應用、生活中找數學、看繪本學數學（第21週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.565 5-2教學進度總表] 第廿一週：學習加油讚(二) 綜合與應用、生活中找數學、看繪本學數學。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書已提供完整 10 章小節、課綱與學習目標，但無課本具體例題與圖形／年曆插圖。",
+      "recommended_action": "已足夠建立二年級下學期動態數學題庫（1000以內數與幣值、三位數加減、公尺公分換算、先乘再加減／先加減再乘、年月日點數、分裝平分、幾分之一）；如需課本情境圖例可補拍習作頁面。"
+    }
+  ]
+}

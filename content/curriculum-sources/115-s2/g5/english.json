@@ -1,0 +1,210 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 5,
+    "subject": "語文-英語文",
+    "publisher": "翰林",
+    "book_series": "Here We Go 第六冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T13:05:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 5,
+        "subject": "語文-英語文",
+        "publisher": "翰林",
+        "book_series": "Here We Go 第六冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 5,
+        "subject": "語文-英語文",
+        "publisher": "翰林",
+        "book_series": "5 Here We Go（選書表僅列起始單數冊，第六冊由課程計畫核實）"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 0,
+      "title": "開學預備週 & Starter",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "開學預備週 Starter",
+          "learning_points": [
+            "第1-2週起始暖身單元（融入閱讀素養教育）。",
+            "五下整體數字目標（p.103）：能聽辨並說出數字 100-1000。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.613 5-2教學進度總表] 第1-2週：開學預備週 Starter【閱讀素養教育】；[PDF p.103] 下學期學習目標1：能聽辨並說出數字 100-1000。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 1,
+      "title": "Unit 1 What’s Wrong?",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "Body Parts 身體部位 — Unit 1 What’s Wrong?",
+          "learning_points": [
+            "主題：Body Parts 身體部位（進度總表第3-6週）。",
+            "融入安全教育、閱讀素養教育；五下字母拼讀目標（跨單元見 p.103）：能聽辨及運用字母拼讀法念出以 ng, nk, wh, ph, th (unvoiced), th (voiced), ch, sh 所組成的字詞。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.102 課程架構表] 英語 五下（Here We Go：Unit 1 What’s Wrong?；[PDF p.613-615] 第3-6週：Body Parts 身體部位 Unit 1 What’s Wrong?；[PDF p.103] 下學期學習目標5。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "Unit 2 Do You Have a Headache?",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "Illness 病症 — Unit 2 Do You Have a Headache?",
+          "learning_points": [
+            "主題：Illness 病症（進度總表第7-10週）。",
+            "融入國際教育、閱讀素養教育、家庭教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.102 課程架構表] Unit 2 Do You Have a Headache?；[PDF p.615-616] 第7-10週：Illness 病症 Unit 2 Do You Have a Headache?。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "Review 1",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "複習一 & 期中評量 Review 1 & Exam 1",
+          "learning_points": [
+            "整合 Unit 1 與 Unit 2 學習內容之情境複習與期中評量（第11週，融入閱讀素養教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.102 課程架構表] Review 1；[PDF p.616-617] 第11週：複習一&期中評量 Review 1 & Exam 1【閱讀素養教育】。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "Unit 3 What Would You Like for Dinner?",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "Meals & Food 三餐與食物 — Unit 3 What Would You Like for Dinner?",
+          "learning_points": [
+            "主題：Meals & Food 三餐與食物（進度總表第12-15週）。",
+            "融入國際教育、閱讀素養教育、環境教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.102 課程架構表] Unit 3 What Would You Like for Dinner?；[PDF p.617-618] 第12-15週：Meals & Food 三餐與食物 Unit 3 What Would You Like for Dinner?。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "Unit 4 Whose Backpack Is That? & Festival The Dragon Boat Festival",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "Items 物品 — Unit 4 Whose Backpack Is That?",
+          "learning_points": [
+            "主題：Items 物品（進度總表第16-19週）。",
+            "融入國際教育、閱讀素養教育、戶外教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.102 課程架構表] Unit 4 Whose Backpack Is That?；[PDF p.619-620] 第16-19週：Items 物品 Unit 4 Whose Backpack Is That?。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "Festival The Dragon Boat Festival（端午節）",
+          "learning_points": [
+            "認識中外主要節慶習俗及由來（第16週併 Unit 4 實施；p.103 學習目標7）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.102 課程架構表] Festival The Dragon Boat Festival；[PDF p.619] 第16週：Items 物品& 節慶教學 Unit 4 Whose Backpack Is That? & The Dragon Boat Festival；[PDF p.103] 下學期學習目標7。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "Review 2 & 文化教學",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "複習二 & 期末評量 Review 2 & Exam 2",
+          "learning_points": [
+            "整合 Unit 3 與 Unit 4 學習內容之複習與期末評量（第20週，融入閱讀素養教育）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.102 課程架構表] Review 2；[PDF p.620] 第20週：複習二&期末評量 Review 2 & Exam 2【閱讀素養教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "文化教學&漫畫教學&句型練習活動 Let’s Explore & Comics & Look and Say & Country Profile",
+          "learning_points": [
+            "認識外國風土民情，從多元文化觀點瞭解及尊重不同文化及習俗（第21週，融入國際教育；p.103 學習目標8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.102 課程架構表] Let’s Explore & Country Profile；[PDF p.621] 第21週：文化教學&漫畫教學&句型練習活動 Let’s Explore & Comics & Look and Say & Country Profile【國際教育】；[PDF p.103] 下學期學習目標8。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "大忠國小 115 學年度課程計畫書僅明列單元名稱、主題（Body Parts 身體部位、Illness 病症、Meals & Food 三餐與食物、Items 物品、The Dragon Boat Festival）、數字範圍 100-1000 與 Phonics 子音組清單，未附 115 學年度 Here We Go 第六冊各單元實際單字表。",
+      "recommended_action": "請提供《Here We Go 6》115 學年度課本 Word List／單字頁照片，或翰林官方電子書／教師手冊單字清單以補齊 100% 無推論單字庫。"
+    },
+    {
+      "field": "units[*].lessons[*].learning_points",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未逐課拆解各單元的完整肯定句、否定句、疑問句答句與各單元專屬 Phonics 對應歸屬（僅列五下整體拼讀音組）。",
+      "recommended_action": "請提供《Here We Go 6》課本目次頁或各課 Sentence Pattern / Phonics 頁面照片。"
+    }
+  ]
+}

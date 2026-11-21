@@ -1,0 +1,242 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 4,
+    "subject": "電腦（彈性學習課程：數位創客）",
+    "publisher": "宏全資訊（選書表）／學校自編數位創客課程計畫",
+    "book_series": "PowerPoint 2021 小創客做簡報（選書表）／數位創客四下（課程計畫）"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:10:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 4,
+        "subject": "電腦（彈性學習課程：數位創客）",
+        "publisher": "宏全資訊（選書表）／學校自編數位創客課程計畫",
+        "book_series": "PowerPoint 2021 小創客做簡報（選書表）／數位創客四下（課程計畫）"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 4,
+        "subject": "電腦（彈性學習課程：數位創客）",
+        "publisher": "宏全資訊（選書表）／學校自編數位創客課程計畫",
+        "book_series": "PowerPoint 2021 小創客做簡報"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第1週：海洋守護者：深海生態數位手冊",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "海洋守護者：深海生態數位手冊",
+          "learning_points": [
+            "認識海洋生態重要性並討論海洋廢棄物對生物的影響。",
+            "在雲端硬碟建立「四下電腦課」分類並下載深海生物素材；認識 PowerPoint 基本功能與簡報文字方塊設定，將海洋生態資料轉化為數位手冊。",
+            "實作雲端上傳與資料同步，確保研究資料完整儲存。"
+          ],
+          "vocabulary": [
+            "PowerPoint",
+            "文字方塊",
+            "雲端硬碟"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.743-744 數位創客課程計畫] 週次1 單元名稱：海洋守護者：深海生態數位手冊；[PDF p.1094 6-4進度總表] 第1週。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第2–3週：視力防衛隊：護眼簡報動態秀",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "視力防衛隊：護眼簡報動態秀",
+          "learning_points": [
+            "討論長時間使用 3C 產品對健康的影響並構思護眼口號。",
+            "套用教育主題範本，運用「文字藝術師」製作醒目護眼標題，並學習文字與圖片動畫設定。",
+            "插入並操作 3D 模型，理解立體檢視在衛教宣導中的應用。（註：6-4 進度總表列第2-3週，6-2-1 表格列週次2-4。）"
+          ],
+          "vocabulary": [
+            "主題範本",
+            "文字藝術師",
+            "動畫設定",
+            "3D 模型"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.744 數位創客課程計畫] 週次2-4 單元名稱：視力防衛隊：護眼簡報動態秀；[PDF p.1095-1096 6-4進度總表] 第2-3週。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第4–5週：數位剪貼簿：動植物生態筆記",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "數位剪貼簿：動植物生態筆記",
+          "learning_points": [
+            "運用「相簿範本」大量匯入動植物照片，學習快速裁剪與校正色彩技巧。",
+            "自主完成 4-5 頁包含標題、內文與圖片的生態筆記簡報並上傳至指定雲端路徑。（註：6-4 進度總表列第4-5週，6-2-1 表格列週次5-6。）"
+          ],
+          "vocabulary": [
+            "相簿範本",
+            "相片裁剪",
+            "校正色彩"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.744 數位創客課程計畫] 週次5-6 單元名稱：數位剪貼簿：動植物生態筆記；[PDF p.1096 6-4進度總表] 第4-5週。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第6–8週：戶外考察紀錄：企鵝與大象的冒險日誌",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "戶外考察紀錄：企鵝與大象的冒險日誌（戶外教育）",
+          "learning_points": [
+            "討論戶外教育安全須知，利用 Chrome 搜尋台灣藍鵲、國王企鵝等特定物種影像素材並新增投影片。",
+            "製作目錄按鈕與超連結建立互動導航邏輯；掌握 Shift 鍵同步選取物件與動畫編排，播放成品並練習口頭報告。（註：6-4 進度總表列第6-8週，6-2-1 表格列週次7-8。）"
+          ],
+          "vocabulary": [
+            "目錄按鈕",
+            "超連結",
+            "Shift 同步選取",
+            "動畫編排"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.744-745 數位創客課程計畫] 週次7-8 單元名稱：戶外考察紀錄：企鵝與大象的冒險日誌；[PDF p.1097 6-4進度總表] 第6-8週。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "第9–10週：綠能行動派：低碳生活影音報",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "綠能行動派：低碳生活影音報",
+          "learning_points": [
+            "探討低碳生活實踐方式，學習從 Word 大綱文件直接匯入投影片與複製格式技巧。",
+            "設定投影片轉場特效並將簡報匯出轉存為 MP4 影片檔，將產出影片備份至雲端硬碟。"
+          ],
+          "vocabulary": [
+            "從大綱插入投影片",
+            "複製格式",
+            "轉場特效",
+            "匯出 MP4"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.745 數位創客課程計畫] 週次9-10 單元名稱：綠能行動派：低碳生活影音報；[PDF p.1098 6-4進度總表] 第9-10週。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "第11–13週：智慧圖解師：防疫資訊視覺化",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "智慧圖解師：防疫資訊視覺化",
+          "learning_points": [
+            "運用 SmartArt 工具製作防疫作戰流程圖，學習清單階層縮排與變更色彩樣式。",
+            "利用母片功能自訂全局標題與背景漸層效果，為圖解加上註解並進行轉場特效編排與播放測試。"
+          ],
+          "vocabulary": [
+            "SmartArt",
+            "投影片母片",
+            "漸層效果",
+            "註解"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.745 數位創客課程計畫] 週次11-13 單元名稱：智慧圖解師：防疫資訊視覺化；[PDF p.1098-1099 6-4進度總表] 第11-13週。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 7,
+      "title": "第14–17週：天燈文化觀察：數位資訊整合",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "天燈文化觀察：數位資訊整合",
+          "learning_points": [
+            "認識天燈文化背景與傳統並討論文化傳承與環境保護的平衡。",
+            "從網路擷取資料與視訊、音訊影片，插入表格工具進行不同節慶資訊對比。",
+            "運用「神奇母片」設定多樣化版面配置與多重動畫設定，播放整合背景音樂、視訊與表格的文化報告。"
+          ],
+          "vocabulary": [
+            "表格工具",
+            "視訊與音訊",
+            "神奇母片",
+            "多重動畫"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.745-746 數位創客課程計畫] 週次14-17 單元名稱：天燈文化觀察：數位資訊整合；[PDF p.1099-1100 6-4進度總表] 第14-17週。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 8,
+      "title": "第18–21週：交通安全宣導員：安全資訊大揭密",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "交通安全宣導員：安全資訊大揭密（安全教育）",
+          "learning_points": [
+            "探索「168 交通安全網站」（https://168.motc.gov.tw/），討論上下學途中可能遇到的危險。",
+            "練習擷取交通安全重點整理為簡報文案，綜合運用所學 PowerPoint 技巧製作交通安全宣導簡報並上台報告，參與全校數位素養問卷調查。"
+          ],
+          "vocabulary": [
+            "PowerPoint 簡報",
+            "168 交通安全網站",
+            "資訊擷取"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.746 數位創客課程計畫] 週次18-21 單元名稱：交通安全宣導員：安全資訊大揭密；[PDF p.1101-1102 6-4進度總表] 第18-21週。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "target.book_series",
+      "reason": "ambiguous_edition",
+      "detail": "《115學年教科書版本.pdf》（src-2）於四年級電腦欄列出《Google網路歡樂競技場+canva》（無限可能＋巨岩）與《PowerPoint 2021 小創客做簡報》（宏全資訊），而學校《115學年度課程計畫.pdf》（6-2-1 p.742-746 及 6-5 p.1134）則將四年級資訊課程歸於彈性學習課程【數位創客】（楊珮菁設計，下學期為 PowerPoint 簡報製作單元），且 6-5 教材欄寫「1.數位媒材及網路資源 2.自編教學簡案 3.IPAD 行動車」，未明確載明宏全資訊《PowerPoint 2021 小創客做簡報》各章課名；另第2-4單元的週次切分於 6-2-1（p.744-745）與 6-4（p.1095-1097）略有 1 週偏移，本檔依 6-4 進度總表標示週次並加註 6-2-1 紀錄。",
+      "recommended_action": "目前單元與教學活動已完整取自學校 115 學年度【數位創客】課程計畫（Tier 1）；若同時有使用《PowerPoint 2021 小創客做簡報》實體課本並需依課本章節出題，請提供該書目次頁照片。"
+    }
+  ]
+}

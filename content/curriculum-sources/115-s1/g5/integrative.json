@@ -1,0 +1,198 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 5,
+    "subject": "綜合活動",
+    "publisher": "南一",
+    "book_series": "第五冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T12:38:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 5,
+        "subject": "綜合活動",
+        "publisher": "南一",
+        "book_series": "第五冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 5,
+        "subject": "綜合活動",
+        "publisher": "南一",
+        "book_series": "第五冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "一、危機總動員",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.自然災害防護罩",
+          "learning_points": [
+            "說出自然環境潛藏危機；使用防災網站／書籍學習防災知識；探討在地常見災害應對方式與救難設施位置（目標1-5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.439 課程架構表] 五年級上學期 -> 一、危機總動員：1.自然災害防護罩；[PDF p.604-605] 第1-2週；[PDF p.441] 上學期學習目標1-5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.人為危機急轉彎",
+          "learning_points": [
+            "知道化解人為危機的方法及資源；檢視周遭環境潛在人為危機並加以改善（目標6-7）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.439 課程架構表] 2.人為危機急轉彎；[PDF p.605-606] 第3-4週；[PDF p.441] 上學期學習目標6-7。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "二、伙伴大集合",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.角色放大鏡",
+          "learning_points": [
+            "認識自己在不同團體中的角色；分辨自己與他人角色異同；了解個性特質對角色的影響（目標8-10）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.439 課程架構表] 二、伙伴大集合：1.角色放大鏡；[PDF p.606] 第5-6週；[PDF p.441] 上學期學習目標8-10。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.伙伴 Give me five",
+          "learning_points": [
+            "找出團體運作問題並提出解決方法；提出協助阻礙團體角色的方法及為團體目標努力（目標11-13）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.439 課程架構表] 2.伙伴 Give me five；[PDF p.607] 第7-8週；[PDF p.441] 上學期學習目標11-13。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "三、我懂你的心",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.良好的互動",
+          "learning_points": [
+            "分享與不同性別者相處經驗；覺察與不同性別者互動與情感表達的方式（目標14-15）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.439 課程架構表] 三、我懂你的心：1.良好的互動；[PDF p.607-608] 第9-10週；[PDF p.441] 上學期學習目標14-15。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.關鍵同理心",
+          "learning_points": [
+            "練習同理心技巧，面對多元性別進行合宜互動與情感表達，建立正向人際關係（目標16-17）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.439 課程架構表] 2.關鍵同理心；[PDF p.608-609] 第10-12週；[PDF p.441] 上學期學習目標16-17。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "四、關懷你我他",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.族群溫馨情",
+          "learning_points": [
+            "了解不同族群生活方式、特色與優勢及生活需求；規劃與進行拜訪活動並分享心得（目標18-23）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.439 課程架構表] 四、關懷你我他：1.族群溫馨情；[PDF p.609-610] 第13-14週；[PDF p.441] 上學期學習目標18-23。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.關懷無距離",
+          "learning_points": [
+            "探討各族群生活適應問題與尊重關懷方法；實地關懷特殊需求族群並尋求社會資源協助（目標24-28）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.439 課程架構表] 2.關懷無距離；[PDF p.610] 第15-16週；[PDF p.441] 上學期學習目標24-28。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "五、社會資源網",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.資源搜查線",
+          "learning_points": [
+            "認識各種情境中可運用的社會資源與支援系統；了解其協助並選擇適用資源（目標29-30）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.439 課程架構表] 五、社會資源網：1.資源搜查線；[PDF p.610-611] 第17-18週；[PDF p.441] 上學期學習目標29-30。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.資源小尖兵",
+          "learning_points": [
+            "能靈活運用各項社會資源幫助自己和他人，並省思運用適切性（目標31-32）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.439 課程架構表] 2.資源小尖兵；[PDF p.611-612] 第19-20週；[PDF p.441] 上學期學習目標31-32。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書已完整列出 5 單元 10 活動名稱與 32 項學習目標，未列課本具體情境案例對話或專線電話清單（如防災／兒少求助資源單位）。",
+      "recommended_action": "如需就特定防災設施或社會資源機構出題，請提供南一綜合活動五上（第5冊）課本相關頁次。"
+    }
+  ]
+}

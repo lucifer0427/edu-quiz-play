@@ -1,0 +1,203 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 2,
+    "subject": "本土語文-客語",
+    "publisher": "康軒",
+    "book_series": "第4冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T12:46:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 2,
+        "subject": "本土語文-客語",
+        "publisher": "康軒",
+        "book_series": "第4冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 2,
+        "subject": "本土語文-客語",
+        "publisher": "康軒",
+        "book_series": "第4冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 大自然个變化",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一課 月光",
+          "learning_points": [
+            "用客語說出自然現象語詞（目標1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.131 課程架構表] 客語第4冊 第一單元 大自然个變化：第一課 月光；[PDF p.559-560] 第1-3週：第一課月光 1；[PDF p.132] 二下目標1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元活動一",
+          "learning_points": [
+            "透過「女媧補天」故事了解「天穿日」由來、習俗活動與客家精神連結（目標2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.131 課程架構表] 單元活動一；[PDF p.560-561] 第4週：單元活動一 1；[PDF p.132] 二下目標2。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 吾(𠊎)屋下",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第二課 姑婆來尞",
+          "learning_points": [
+            "利用接待姑婆情境學習房屋隔間客語說法，養成維護居家整潔習慣（目標3-4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.131 課程架構表] 第二單元 吾(𠊎)屋下：第二課 姑婆來尞；[PDF p.561] 第5-7週：第二課姑婆來尞 1；[PDF p.132] 二下目標3-4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第三課 拼圖走去哪",
+          "learning_points": [
+            "將各類家具客語詞運用在日常生活中（目標5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.131 課程架構表] 第三課 拼圖走去哪；[PDF p.561-562] 第8-10週：第三課拼圖走去哪 1；[PDF p.132] 二下目標5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元活動二",
+          "learning_points": [
+            "認識客家新居落成宴客禮俗、客家粢粑及愛物惜福情操（目標6-7）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.131 課程架構表] 單元活動二；[PDF p.562-563] 第11週：單元活動二 1；[PDF p.132] 二下目標6-7。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第三單元 好味緒(道)",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第四課 食夜",
+          "learning_points": [
+            "將常見餐具名稱客語運用於日常生活（目標8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.131 課程架構表] 第三單元 好味緒(道)：第四課 食夜；[PDF p.563] 第12-14週：第四課食夜 1；[PDF p.132] 二下目標8。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第五課 食冰",
+          "learning_points": [
+            "學習各種常見點心的客家話說法，培養良好飲食習慣（目標9-10）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.131 課程架構表] 第五課 食冰；[PDF p.563-564] 第15-17週：第五課食冰 1；[PDF p.132-133] 二下目標9-10。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元活動三",
+          "learning_points": [
+            "認識客家莊風貌及美濃黃蝶與鐵刀木，學習尊重生命與愛護環境（目標11-12）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.131 課程架構表] 單元活動三；[PDF p.564] 第18週：單元活動三 1；[PDF p.133] 二下目標11-12。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "期末歌謠與複習活動（見 5-2 教學進度總表）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "一張臺╱碗公摎碗",
+          "learning_points": [
+            "第19週客家念謠活動（目標13）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.564-565 5-2教學進度總表] 第十九週：一張臺╱碗公摎碗 1【家庭教育】【品德教育】【生涯規劃教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "搞麼个？",
+          "learning_points": [
+            "第20週複習活動。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.565 5-2教學進度總表] 第二十週：搞麼个？ 1【品德教育】【家庭教育】。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "出任務囉！",
+          "learning_points": [
+            "第21週總結應用活動。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.565 5-2教學進度總表] 第廿一週：出任務囉！ 1【品德教育】【家庭教育】。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未附康軒客語第 4 冊各課四縣／海陸腔客語詞彙表與標音。",
+      "recommended_action": "請確認使用腔別並提供康軒客語第 4 冊課本語詞頁。"
+    }
+  ]
+}

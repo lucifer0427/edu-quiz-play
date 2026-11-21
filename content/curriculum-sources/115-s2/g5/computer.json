@@ -1,0 +1,166 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 5,
+    "subject": "電腦（彈性學習課程：數位創客）",
+    "publisher": "宏全資訊（選書表）／學校自編數位創客課程計畫",
+    "book_series": "Inkscape+Tikercad 小創客動手畫2023（選書表）／數位創客五下（課程計畫）"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T13:05:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 5,
+        "subject": "電腦（彈性學習課程：數位創客）",
+        "publisher": "宏全資訊（選書表）／學校自編數位創客課程計畫",
+        "book_series": "Inkscape+Tikercad 小創客動手畫2023（選書表）／數位創客五下（課程計畫）"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 5,
+        "subject": "電腦（彈性學習課程：數位創客）",
+        "publisher": "宏全資訊",
+        "book_series": "Inkscape+Tikercad 小創客動手畫2023"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第1–5週：數位畫布初探",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "數位畫布初探（電腦教室規範、網路隱私與 Inkscape 基本向量繪圖）",
+          "learning_points": [
+            "電腦教室使用規則、高強度密碼設定（英數混合、不共用帳號、離開前登出）、網路隱私權相關法律及網路道德禮儀（安全教育）。",
+            "認明官方網站下載並安裝 Inkscape 軟體（嚴禁從非官方或不明論壇下載以防電腦感染病毒）。",
+            "練習工作區縮放、圖形選取、圖層移動；使用【矩形工具】、【圓形工具】與【多邊形工具】搭配填充色、邊框粗細調整與對稱設計繪製「創意輪船」。",
+            "將作品儲存為 SVG 檔並上傳至雲端教室，同儕互評配色與幾何配置美感。"
+          ],
+          "vocabulary": [
+            "Inkscape",
+            "矩形工具",
+            "圓形工具",
+            "多邊形工具",
+            "SVG"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.761-762 數位創客課程計畫] 週次1-5 單元名稱：數位畫布初探；[PDF p.1110-1112 6-4進度總表] 第1-5週：數位畫布初探。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第6–10週：幾何圖形魔術師",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "幾何圖形魔術師（群組化、翻轉對稱、星形工具與路徑運算）",
+          "learning_points": [
+            "結合數學「幾何圖形與空間」概念（圓的半徑、多邊形內角、翻轉對稱性、空間座標軸）。",
+            "繪製「可愛小章魚」：圓形工具製作頭部與眼球，透過【群組化】與【水平翻轉】完成對稱眼睛。",
+            "使用【星形工具】繪製八爪與海星，設定多邊形頂點數（如5角）、輪輻比例（如0.5）並以數值調整旋轉角度。",
+            "物件等比縮放（如縮小90%）及座標軸「縱軸置中」、「橫軸置中」對齊；運用集合概念「路徑運算」（相加、減去、交集、分割）組合鯨魚與熱帶魚造型，並設定「圖樣」進行滿版鋪排。"
+          ],
+          "vocabulary": [
+            "群組化",
+            "水平翻轉",
+            "星形工具",
+            "輪輻比例",
+            "路徑運算（相加、減去、交集、分割）",
+            "圖樣"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.762-763 數位創客課程計畫] 週次6-10 單元名稱：幾何圖形魔術師；[PDF p.1113-1114 6-4進度總表] 第6-10週：幾何圖形魔術師。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "第11–15週：海底奇幻故事",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "海底奇幻故事（貝茲曲線節點編輯、CC授權、遮罩濾鏡、圖層與圖文排版）",
+          "learning_points": [
+            "構思短篇「海底奇幻故事」，設定主題、角色個性與背景。",
+            "使用畫筆工具與節點編輯（貝茲曲線）繪製動態水草與海底岩石，學習節點合併與簡化。",
+            "至圖庫搜尋 CC 授權素材，運用「遮罩與剪裁」凸顯角色並套用「濾鏡」營造海底光影與神秘氛圍。",
+            "建立背景圖層與物件圖層，練習圖層鎖定與上下排序；使用文字工具加入標題與角色對白，調整文字間距與旋轉排版，匯出為 PNG 圖像檔並上台口語發表。"
+          ],
+          "vocabulary": [
+            "貝茲曲線",
+            "節點編輯",
+            "CC 授權",
+            "遮罩與剪裁",
+            "濾鏡",
+            "圖層鎖定",
+            "PNG"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.763 數位創客課程計畫] 週次11-15 單元名稱：海底奇幻故事；[PDF p.1114-1115 6-4進度總表] 第11-15週：海底奇幻故事。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第16–21週：守護海洋3D行動",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "守護海洋3D行動（Tinkercad 3D 建模、實體孔洞挖空與 2D 跨 3D 轉化）",
+          "learning_points": [
+            "討論海洋塑膠汙染與減塑行動；認識 3D 列印原理並註冊登入 Tinkercad 3D 建模平台。",
+            "Tinkercad 基礎與空間概念：認識工作平面、視角旋轉、物件拖曳，設定長寬高尺寸與高度拉抬（Z軸）。",
+            "實用減塑物品建模：學習「實體」與「孔洞（虛體）」相減群組功能，製作含個人名牌的「環保愛心水杯」。",
+            "2D 跨 3D 立體化：將 Inkscape 繪製的海底生物 SVG 檔匯入 Tinkercad 調整立體厚度，轉化為 3D 海洋生物模型；完成期末線上性平與資安有獎徵答及線上 3D 作品展覽。"
+          ],
+          "vocabulary": [
+            "Tinkercad",
+            "3D 列印",
+            "工作平面",
+            "Z 軸",
+            "實體與孔洞（虛體）",
+            "SVG 匯入"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.764 數位創客課程計畫] 週次16-21 單元名稱：守護海洋3D行動；[PDF p.1116-1118 6-4進度總表] 第16-21週：守護海洋3D行動。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "target.book_series",
+      "reason": "ambiguous_edition",
+      "detail": "《115學年教科書版本.pdf》（src-2）於五年級電腦欄列出宏全資訊《Inkscape+Tikercad 小創客動手畫2023》（原表拼寫作 Tikercad），而學校《115學年度課程計畫.pdf》（6-2-1 p.760-764 及 6-5 p.1135）則歸於彈性學習課程【數位創客】（陳智彥設計，使用 Inkscape 與 Tinkercad），且 6-5 教材欄寫「1.數位媒材及網路資源 2.自編教學簡案 3.IPAD 行動車」，未明確載明宏全資訊課本各章課名。",
+      "recommended_action": "目前單元與教學活動已完整取自學校 115 學年度【數位創客】課程計畫（Tier 1）；若同時有使用《Inkscape+Tinkercad 小創客動手畫2023》實體課本並需依課本章節出題，請提供該書目次頁照片。"
+    }
+  ]
+}

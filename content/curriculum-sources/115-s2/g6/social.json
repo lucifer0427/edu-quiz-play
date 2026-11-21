@@ -1,0 +1,166 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 6,
+    "subject": "社會",
+    "publisher": "康軒",
+    "book_series": "第八冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:05:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 6,
+        "subject": "社會",
+        "publisher": "康軒",
+        "book_series": "第八冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 6,
+        "subject": "社會",
+        "publisher": "康軒",
+        "book_series": null
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 世界多元文化與科技發展對臺灣的影響",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第1課 世界多元文化在臺灣如何展現？",
+          "learning_points": [
+            "了解臺灣與世界交流頻繁，認識世界多元文化在臺灣的展現（Cb-Ⅲ-2、六下目標1）。",
+            "第1-3週授課（3節/週）；融入多元文化教育、國際教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.345 課程架構表] 社會6下 第一單元 世界多元文化與科技發展對臺灣的影響：第1課 世界多元文化在臺灣如何展現？；[PDF p.629-630] 第1-3週；[PDF p.347] 六下學習目標1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第2課 能源科技的發展如何影響臺灣？",
+          "learning_points": [
+            "理解蒸汽動力的發展與傳入臺灣，理解科技發展與經濟型態的關係並體認環境永續發展的重要性（六下目標2-3）。",
+            "第4-6週授課；融入環境教育、海洋教育、能源教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.345 課程架構表] 第2課 能源科技的發展如何影響臺灣？；[PDF p.630-631] 第4-6週；[PDF p.347] 六下學習目標2-3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第3課 生物、資訊科技的發展如何影響臺灣？",
+          "learning_points": [
+            "探討生物科技與資訊科技發展對臺灣社會、生活與環境永續的影響（六下目標3）。",
+            "第7-9週授課；融入環境教育、科技教育、資訊教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.345 課程架構表] 第3課 生物、資訊科技的發展如何影響臺灣？；[PDF p.631-632] 第7-9週；[PDF p.347] 六下學習目標3。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 臺灣走向世界",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第1課 為什麼臺灣要參與國際事務？",
+          "learning_points": [
+            "透過臺灣參與國際社會的具體案例覺察臺灣的影響力，積極參與國際組織與事務、善盡世界公民責任（六下目標4, 6）。",
+            "第10-12週授課；融入國際教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.345 課程架構表] 第二單元 臺灣走向世界：第1課 為什麼臺灣要參與國際事務？；[PDF p.633] 第10-12週；[PDF p.347] 六下學習目標4, 6。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第2課 為什麼我們要關心人權議題？",
+          "learning_points": [
+            "覺察某一國家或地區發生的疾病事件影響跨越國界，損害人體健康與人權保護，理解全球醫療資源分配不均造成的衝擊（Bc-Ⅲ-2、六下目標5）。",
+            "第13-14週授課；融入人權教育、性別平等教育、多元文化教育、國際教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.345 課程架構表] 第2課 為什麼我們要關心人權議題？；[PDF p.633-634] 第13-14週；[PDF p.347] 六下學習目標5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第3課 為什麼我們要關心環境議題？",
+          "learning_points": [
+            "關心全球環境議題，體認環境永續發展重要性並善盡世界公民責任（六下目標3, 6）。",
+            "第15-16週授課；融入環境教育、國際教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.345 課程架構表] 第3課 為什麼我們要關心環境議題？；[PDF p.634-635] 第15-16週；[PDF p.347] 六下學習目標3, 6。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "主題探究與實作單元",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "科技改變生活",
+          "learning_points": [
+            "能省思關於科技未來的發展對世界的影響，並提出自己從事探究與實作的改進做法（六下目標7）。",
+            "第17週授課（第18週為畢業週）；融入科技教育、資訊教育、環境教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.345 課程架構表] 主題探究與實作單元；[PDF p.635 5-2教學進度總表] 第17週：主題探究與實作單元 科技改變生活；第18週：畢業週；[PDF p.347] 六下學習目標7。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未單獨提供康軒社會第八冊（六下）各課關鍵詞彙或專有名詞清單。",
+      "recommended_action": "請參閱康軒國小社會第八冊課本各課重點整理或教師手冊補充關鍵專有名詞。"
+    },
+    {
+      "field": "units[2]",
+      "reason": "source_not_found",
+      "detail": "5-1-1 課程架構表（PDF p.345）六下欄另載有「桃園在地化課程 讀桃園-6 節」，惟 5-2 教學進度總表第1-18週未標記獨立授課週次。",
+      "recommended_action": "請確認校內「讀桃園」6節是否融入社會課或彈性課程實施，並提供補充教材頁。"
+    }
+  ]
+}

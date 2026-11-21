@@ -1,0 +1,392 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 2,
+    "subject": "健康與體育",
+    "publisher": "翰林",
+    "book_series": "第三冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T12:46:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 2,
+        "subject": "健康與體育",
+        "publisher": "翰林",
+        "book_series": "第三冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 2,
+        "subject": "健康與體育",
+        "publisher": "翰林",
+        "book_series": "第三冊"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "單元一、吃出健康和活力",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.健康飲食",
+          "learning_points": [
+            "介紹六大類食物來源與功能，體會均衡飲食及珍惜食物（目標1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.489 課程架構表] 健體二上 單元一、吃出健康和活力：1.健康飲食；[PDF p.554-555] 第1-4週：活動一、健康飲食（W4又作健康飲食活動）；[PDF p.491] 上學期目標1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.飲食追追追",
+          "learning_points": [
+            "思考飲食問題與改善方法，培養選擇健康、安全食物的能力（目標2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.489 課程架構表] 2.飲食追追追；[PDF p.555] 第5週：活動二、飲食追追追；[PDF p.491] 上學期目標2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "3.飲食安全小秘訣",
+          "learning_points": [
+            "飲食安全常識與選擇安全食品（5-2 W7 又作「活動三、飲食安全小撇步」）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.489 課程架構表] 3.飲食安全小秘訣；[PDF p.555-556] 第6週：活動三、飲食安全小秘訣、第7週：活動三、飲食安全小撇步。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "單元二、我真的不錯",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.我喜歡自己",
+          "learning_points": [
+            "認識自己、接受自己、喜歡自己，提升自我價值感（目標3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.489 課程架構表] 單元二、我真的不錯：1.我喜歡自己；[PDF p.556] 第8-9週：活動一、我喜歡自己；[PDF p.491] 上學期目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.我是感官的好主人",
+          "learning_points": [
+            "認識眼睛、耳朵、鼻子、嘴巴等感官功能與保健常識（目標4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.489 課程架構表] 2.我是感官的好主人；[PDF p.556-557] 第10-12週：活動二、我是感官的好主人；[PDF p.491] 上學期目標4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "3.感官救護站",
+          "learning_points": [
+            "學習感官受到傷害時的緊急處理方法（目標4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.489 課程架構表] 3.感官救護站；[PDF p.557] 第13週：活動三、感官救護站；[PDF p.491] 上學期目標4。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "單元三、拒絕菸酒",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.喝酒壞處多",
+          "learning_points": [
+            "了解酒精會改變人體機能及酒後駕車對健康、家庭與社會的危害（目標5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.489 課程架構表] 單元三、拒絕菸酒：1.喝酒壞處多；[PDF p.557] 第14-15週：活動一、喝酒壞處多；[PDF p.491] 上學期目標5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.遠離菸害",
+          "learning_points": [
+            "了解長期吸菸與二手菸危害，具體演練拒絕二手菸技巧（目標5-6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.489 課程架構表] 2.遠離菸害；[PDF p.557-559] 第16-21週：活動二、遠離菸害；[PDF p.491-492] 上學期目標5-6。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "單元四、運動新視野",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.與繩同遊",
+          "learning_points": [
+            "利用繩子進行操控性創作與身體控制活動（目標7）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.489 課程架構表] 單元四、運動新視野：1.與繩同遊；[PDF p.554] 第1-2週：活動一、與繩同遊；[PDF p.492] 上學期目標7。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.伸展繩",
+          "learning_points": [
+            "體能遊戲與移動性基本動作體驗（目標7）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.489 課程架構表] 2.伸展繩；[PDF p.555] 第3週：活動二、伸展繩。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "3.繩奇活力",
+          "learning_points": [
+            "增進身體控制能力的繩子遊戲（目標7）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.489 課程架構表] 3.繩奇活力；[PDF p.555] 第4-5週：活動三、繩奇活力。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "單元五、運動有妙招",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.學校運動資源",
+          "learning_points": [
+            "認識與運用學校運動場地、運動器材和運動社團（目標8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.489 課程架構表] 單元五、運動有妙招：1.學校運動資源；[PDF p.555-556] 第6-7週：活動一、學校運動資源；[PDF p.492] 上學期目標8。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.穿鞋學問大",
+          "learning_points": [
+            "學會正確穿鞋和選鞋方法，建立正確運動習慣（目標9）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.489 課程架構表] 2.穿鞋學問大；[PDF p.556] 第8週：活動二、穿鞋學問大；[PDF p.492] 上學期目標9。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "單元六、身體動起來",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.同心協力",
+          "learning_points": [
+            "團體協作與身體動作練習。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.489 課程架構表] 單元六、身體動起來：1.同心協力；[PDF p.556] 第9週：活動一、同心協力。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.搖滾樂（5-2作「搖滾樂無窮」）",
+          "learning_points": [
+            "墊上支撐與滾翻基本動作能力（目標10）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.489 課程架構表] 2.搖滾樂；[PDF p.556] 第10週：活動二、搖滾樂無窮；[PDF p.492] 上學期目標10。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "3.我是小拳王",
+          "learning_points": [
+            "拳擊有氧模仿遊戲基本動作與同儕合作（目標10）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.489 課程架構表] 3.我是小拳王；[PDF p.557] 第11-12週：活動三、我是小拳王；[PDF p.492] 上學期目標10。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "4.圓的世界",
+          "learning_points": [
+            "呼拉圈遊戲激發創造力與身體協調性（目標8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.489 課程架構表] 4 圓的世界；[PDF p.557] 第13-14週：活動四、圓的世界。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 7,
+      "title": "單元七、我是快樂運動員",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.樂跑人生",
+          "learning_points": [
+            "透過跑步遊戲提升體能與敏捷性（目標11）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.489 課程架構表] 單元七、我是快樂運動員：1.樂跑人生；[PDF p.557] 第15週：活動一、樂跑人生；[PDF p.492] 上學期目標11。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.我是神射手",
+          "learning_points": [
+            "身體活動與投擲／射準練習（目標11）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.489 課程架構表] 2.我是神射手；[PDF p.557-558] 第16週：活動二、我是神射手。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "3.水中尋寶",
+          "learning_points": [
+            "團體水中遊戲體驗水性與基礎水中自救、衛生保健（目標11）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.489 課程架構表] 3.水中尋寶；[PDF p.558] 第17週：活動三、水中尋寶；[PDF p.492] 上學期目標11。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "4.相約戲水去",
+          "learning_points": [
+            "安全進行水上活動及衛生保健方式（目標11）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.489 課程架構表] 4.相約戲水去；[PDF p.558] 第18週：活動四、相約戲水去；[PDF p.492] 上學期目標11。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 8,
+      "title": "單元八、球兒真好玩",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.桌球初體驗",
+          "learning_points": [
+            "簡易桌球練習與遊戲提升基本運動能力與技術（目標11-12）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.489 課程架構表] 單元八、球兒真好玩：1.桌球初體驗；[PDF p.558] 第19週：活動一、桌球初體驗。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.擲球樂趣多",
+          "learning_points": [
+            "擲準練習與遊戲，學習手部運動協調能力（目標11-12）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.489 課程架構表] 2.擲球樂趣多；[PDF p.558] 第19週：活動二、擲球樂趣多。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "3.滾地躲避球",
+          "learning_points": [
+            "手眼動作協調與團隊合作遊戲（目標12）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.489 課程架構表] 3.滾地躲避球；[PDF p.558-559] 第20週：活動三、滾地躲避球。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "4.控球精靈",
+          "learning_points": [
+            "控球動作協調與球感練習（目標12）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.489 課程架構表] 4.控球精靈；[PDF p.559] 第21週：活動四、控球精靈。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 5,
+          "title": "5.跑壘遊戲",
+          "learning_points": [
+            "基礎跑壘團體遊戲體驗（目標13）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.489 課程架構表] 5.跑壘遊戲；[PDF p.559] 第21週：活動五、跑壘遊戲；[PDF p.492] 上學期目標13。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "課程計畫書未附健康單元六大類食物細項圖表或感官急救具體步驟清單。",
+      "recommended_action": "如需就健康教育知識點出選擇題，建議補拍翰林健體二上課本單元一～三課文頁。"
+    }
+  ]
+}

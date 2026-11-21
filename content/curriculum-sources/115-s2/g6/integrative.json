@@ -1,0 +1,190 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 6,
+    "subject": "綜合活動",
+    "publisher": "翰林",
+    "book_series": "第八冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T16:05:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 6,
+        "subject": "綜合活動",
+        "publisher": "翰林",
+        "book_series": "第八冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 6,
+        "subject": "綜合活動",
+        "publisher": "翰林",
+        "book_series": null
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "主題一 夢想啟程",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元一 職場大觀園",
+          "learning_points": [
+            "從認識和分享自己知道的職業開始，學習運用各種資源與方式了解各行各業的資訊與細節（1c-III-1、Ac-III-1、六下目標1）。",
+            "第1-3週授課（2節/週）；融入性別平等教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.629-630 5-2教學進度總表] 第1-3週：主題一夢想啟程 單元一職場大觀園【性別平等教育】；[PDF p.447] 下學期學習目標1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元二 興趣與職業",
+          "learning_points": [
+            "探討感興趣的職業與從事職業所要具備的條件與職業興趣（Ac-III-2、六下目標1）。",
+            "第4-5週授課；融入性別平等教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.630 5-2教學進度總表] 第4-5週：主題一夢想啟程 單元二興趣與職業【性別平等教育】；[PDF p.445, 447] Ac-III-2、下學期學習目標1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元三 職業未來式",
+          "learning_points": [
+            "了解做好充足學習與充實軟實力以面對未來世界變動，建立未來職業想像與職業藍圖（Ac-III-3、六下目標1）。",
+            "第6-7週授課；融入性別平等教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.631 5-2教學進度總表] 第6-7週：主題一夢想啟程 單元三職業未來式【性別平等教育】；[PDF p.445, 447] Ac-III-3、下學期學習目標1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "主題二 資源在身邊",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元一 「源源」不「覺」",
+          "learning_points": [
+            "分析與判讀各類資源來源是否可靠及真實性，覺察媒體對日常生活的影響（2c-III-1、Bc-III-1、Bc-III-2、六下目標2）。",
+            "第8-9週授課；融入資訊教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.632 5-2教學進度總表] 第8-9週：主題二資源在身邊 單元一「源源」不「覺」【資訊教育】；[PDF p.447] 下學期學習目標2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元二 「源」響力",
+          "learning_points": [
+            "探討如何正確妥善運用資源、不被資源誤導或將資源誤用（Bc-III-1~3、六下目標2）。",
+            "第10-11週授課；融入資訊教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.633 5-2教學進度總表] 第10-11週：主題二資源在身邊 單元二「源」響力【資訊教育】；[PDF p.447-448] 下學期學習目標2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元二 「源」來有妙方（進度表作「單元二」，為本主題第3單元）",
+          "learning_points": [
+            "培養學生學會適切運用各類資源解決生活問題的規畫，而非再製造問題（2c-III-1、Bc-III-3、六下目標2）。",
+            "第12-13週授課；融入資訊教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.633 5-2教學進度總表] 第12-13週：主題二資源在身邊 單元二「源」來有妙方【資訊教育】；[PDF p.447-448] 下學期學習目標2。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "主題三 服務特攻隊",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "單元一 我的一臂之力",
+          "learning_points": [
+            "回顧與總結過往服務工作的優缺點與正負向經驗，關心周遭人事物（3b-III-1、Cb-III-1、六下目標3）。",
+            "第14-15週授課；融入人權教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.634 5-2教學進度總表] 第14-15週：主題三服務特攻隊 單元一我的一臂之力【人權教育】；[PDF p.448] 下學期學習目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "單元二 服務關懷站",
+          "learning_points": [
+            "反思需要修正改善之處及需充實之知能與服務項目，持續進行服務並提升服務品質（Cb-III-2、六下目標3）。",
+            "第16-17週授課；融入人權教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.635 5-2教學進度總表] 第16-17週：主題三服務特攻隊 單元二服務關懷站【人權教育】；[PDF p.448] 下學期學習目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "單元三 愛的漣漪",
+          "learning_points": [
+            "省思服務學習的意義，展現感恩、利他之情懷（3b-III-1、Cb-III-2、六下目標3）。",
+            "第18週授課；融入人權教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.635 5-2教學進度總表] 第18週：主題三服務特攻隊 單元三愛的漣漪【人權教育】；[PDF p.448] 下學期學習目標3。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "5-1-1 綜合活動課程架構表（PDF p.446）為嵌入圖表未提取出文字，且課程計畫未附翰林第八冊各活動細部學習單與實作名詞清單。",
+      "recommended_action": "請提供翰林綜合活動第八冊（六下）課本目次頁與活動說明頁，以補齊細部活動標題與情境素材。"
+    },
+    {
+      "field": "units[1].lessons[2].title",
+      "reason": "ambiguous_edition",
+      "detail": "5-2 教學進度總表第12-13週（PDF p.633）於主題二將「『源』來有妙方」標註為「單元二」（與第10-11週「單元二『源』響力」編號重複，推測為單元三筆誤），本檔保留原文寫法並附註說明。",
+      "recommended_action": "可對照翰林綜合活動第八冊課本目次頁確認是否為「單元三『源』來有妙方」。"
+    }
+  ]
+}

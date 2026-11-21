@@ -1,0 +1,205 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 3,
+    "subject": "綜合活動",
+    "publisher": "南一",
+    "book_series": "第二冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T15:55:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 3,
+        "subject": "綜合活動",
+        "publisher": "南一",
+        "book_series": "第二冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 3,
+        "subject": "綜合活動",
+        "publisher": "南一",
+        "book_series": null
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "一、你我好關係",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.溝通小偵探",
+          "learning_points": [
+            "第1-2週授課（2節/週），融入性別平等教育、人權教育；覺察表達與傾聽方式會影響溝通成效，找出合宜表達方式解決問題（p.431 目標1）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.573 5-2教學進度總表] 第1-2週：一、你我好關係 1.溝通小偵探；[PDF p.431] 下學期學習目標1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.大家來溝通",
+          "learning_points": [
+            "第3-4週授課，融入性別平等教育、人權教育；找出合宜溝通方式、專心聆聽、尊重他人想法並達成團體共識（p.431 目標2）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.573-574 5-2教學進度總表] 第3-4週：一、你我好關係 2.大家來溝通；[PDF p.431] 下學期學習目標2。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "二、學習桃花源",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.分享學習經驗",
+          "learning_points": [
+            "第5-6週授課，融入生涯規劃教育、家庭教育；了解自己擅長或不擅長及有困難的課程，聆聽他人分享學習方法（p.431 目標3）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.574-575 5-2教學進度總表] 第5-6週：二、學習桃花源 1.分享學習經驗；[PDF p.431] 下學期學習目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.善用學習方法",
+          "learning_points": [
+            "第7-8週授課，融入生涯規劃教育、家庭教育；實際運用學習方法解決學習問題並落實學習行動（p.431 目標4）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.575 5-2教學進度總表] 第7-8週：二、學習桃花源 2.善用學習方法；[PDF p.431] 下學期學習目標4。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "三、一起尋美趣",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.校園發現美",
+          "learning_points": [
+            "第9-10週授課，融入人權教育、環境教育；透過校園發現美活動，利用多元方式表達生活中美的人、事、物（p.431 目標5）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.576 5-2教學進度總表] 第9-10週：三、一起尋美趣 1.校園發現美；[PDF p.431] 下學期學習目標5。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.校園的美化",
+          "learning_points": [
+            "第11-12週授課，融入人權教育、環境教育；透過校園美化活動體察美感的殊異性與獨特性，尊重並欣賞他人對美感的不同看法（p.431 目標6）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.576-577 5-2教學進度總表] 第11-12週：三、一起尋美趣 2.校園的美化；[PDF p.431] 下學期學習目標6。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "四、環保綠生活",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.綠生活的行動",
+          "learning_points": [
+            "第13-14週授課，融入環境教育、能源教育；透過垃圾問題實例觀察覺察環境危機，提出垃圾減量可行方法（p.431 目標7）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.577-578 5-2教學進度總表] 第13-14週：四、環保綠生活 1.綠生活的行動；[PDF p.431] 下學期學習目標7。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.社區環境搜查",
+          "learning_points": [
+            "第15-16週授課，融入環境教育、能源教育；觀察記錄社區環境狀況並規劃環境改善行動（p.431 目標8）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.578 5-2教學進度總表] 第15-16週：四、環保綠生活 2.社區環境搜查；[PDF p.431] 下學期學習目標8。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "五、社區文化行",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "1.社區文化活動",
+          "learning_points": [
+            "第17-19週授課，融入人權教育、家庭教育；調查與了解社區文化活動種類與內容並主動參與（p.431 目標9）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.578-579 5-2教學進度總表] 第17-19週：五、社區文化行 1.社區文化活動；[PDF p.431] 下學期學習目標9。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "2.文化生活饗宴",
+          "learning_points": [
+            "第20週授課（第21週休業式），融入人權教育、家庭教育；分享參與文化活動經過並省思文化與生活間的關係（p.431 目標10）。",
+            "5-1-1 p.432 另載下學期積木課程內容：添水、插銷、升降台車、小小機關王。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.579 5-2教學進度總表] 第20週：五、社區文化行 2.文化生活饗宴；[PDF p.431-432] 下學期學習目標10及積木課程內容。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].learning_points",
+      "reason": "source_not_found",
+      "detail": "5-1-1 課程架構表（PDF p.429）僅印列三年級上學期表件，下學期單元與活動名稱依 5-2 進度總表（p.573-579）與 5-1-1 下學期學習目標（p.431）補齊；來源未附南一綜合活動第二冊各活動情境故事與學習單細則。",
+      "recommended_action": "請提供南一綜合活動三下（第二冊）課本目次與活動頁照片。"
+    },
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "來源未單獨列出詞彙表。",
+      "recommended_action": "如有核心概念詞彙整理需求，請提供課本內容頁。"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 1,
+    "grade": 3,
+    "subject": "語文-英語文",
+    "publisher": "康軒",
+    "book_series": "Wonder World 1（第一冊）"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T15:55:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 3,
+        "subject": "語文-英語文",
+        "publisher": "康軒",
+        "book_series": "Wonder World 1（第一冊）"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 3,
+        "subject": "語文-英語文",
+        "publisher": "康軒",
+        "book_series": "1 Wonder World"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 0,
+      "title": "Get Ready",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "Get Ready",
+          "learning_points": [
+            "第1週部定英語（1節/週）起始暖身單元，融入閱讀素養教育；三上整體目標含能聽辨、認讀 26 個大小寫字母（p.91）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.90 課程架構表] Wonder World 1：Get Ready；[PDF p.566 5-2教學進度總表] 第1週：Get Ready 1【閱讀素養教育】。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 1,
+      "title": "Unit 1 The Birthday Party",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "Unit 1 The Birthday Party",
+          "learning_points": [
+            "第2-4週授課（1節/週），融入國際教育、品德教育、閱讀素養教育。",
+            "三上學習目標（p.91）：能理解故事內容（如年齡、情緒與感覺、常見玩具、常見顏色等），認讀並使用各課主題字彙、對話與歌謠。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.90 課程架構表] Unit 1 The Birthday Party；[PDF p.566-567 5-2教學進度總表] 第2-4週：Unit 1 The Birthday Party 1；[PDF p.91] 三上學習目標1-7。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "Unit 2 Poor Kevin",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "Unit 2 Poor Kevin",
+          "learning_points": [
+            "第5-8週授課（1節/週），融入家庭教育、品德教育、閱讀素養教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.90 課程架構表] Unit 2 Poor Kevin；[PDF p.567-568 5-2教學進度總表] 第5-8週：Unit 2 Poor Kevin 1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "Review 1",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "Review 1",
+          "learning_points": [
+            "第9-10週複習單元（1節/週），融入閱讀素養教育；複習前兩單元字彙、句型與字母。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.90 課程架構表] Review 1；[PDF p.568-569 5-2教學進度總表] 第9-10週：Review 1 1【閱讀素養教育】。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "Unit 3 At B&J’s Toys",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "Unit 3 At B&J’s Toys",
+          "learning_points": [
+            "第11-14週授課（1節/週），融入環境教育、品德教育、閱讀素養教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.90 課程架構表] Unit 3 At B&J’s Toys；[PDF p.569-570 5-2教學進度總表] 第11-14週：Unit 3 At B&J’s Toys 1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "Unit 4 Baby Dragon’s Toys（課程架構表列：Baby Dragon’s Gift） & Merry Christmas!",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "Unit 4 Baby Dragon’s Toys（5-1-1 課程架構表列：Baby Dragon’s Gift）",
+          "learning_points": [
+            "第15、17-18週授課（1節/週），融入科技教育、品德教育、閱讀素養教育。",
+            "注意 5-1-1 課程架構表（p.90）載「Unit 4 Baby Dragon’s Gift」，5-2 進度總表（p.570-572）載「Unit 4 Baby Dragon’s Toys」。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.90 課程架構表] Unit 4 Baby Dragon’s Gift；[PDF p.570-571 5-2教學進度總表] 第15、17-18週：Unit 4 Baby Dragon’s Toys 1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "Culture & Festivals ∣ Merry Christmas!",
+          "learning_points": [
+            "第16週節慶教學（1節/週），融入品德教育、國際教育、閱讀素養教育（學習表現 8-Ⅱ-3 了解國外主要節慶習俗）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.571 5-2教學進度總表] 第16週：Culture & Festivals ∣ Merry Christmas! 1【品德教育】【國際教育】【閱讀素養教育】。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "Review 2",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "Review 2",
+          "learning_points": [
+            "第19-21週複習單元（1節/週），融入閱讀素養教育。",
+            "補充備註：大忠國小三年級另有校訂彈性課程【雙語讀劇】（每週1節，蔡瓊瑤設計，見 6-1 p.640、6-2-1 p.691-699、6-4 p.1070-1078、6-5 p.1134），三上單元包含「我是大明星」、「中秋傳說：雙語讀劇創意家」、「數字的演繹——你幾歲？」、「萬聖節戶外讀劇——怪獸出沒中」、「這是什麼？文具異想世界」、「聖誕森林戶外讀劇體驗」、「生活裡的調色盤」、「角色『色』計師：我的自畫像」。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.90 課程架構表] Review 2；[PDF p.572 5-2教學進度總表] 第19-21週：Review 2 1；[PDF p.691-699] 三上彈性學習課程【雙語讀劇】。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "部定英語課程計畫（5-1-1 p.90-92 及 5-2 p.566-572）僅載單元名稱與主題領域（年齡、情緒與感覺、常見玩具、常見顏色、26 個大小寫字母），未列出《Wonder World 1》各單元逐課 Word List 單字與核心句型。",
+      "recommended_action": "請提供康軒《Wonder World 1》115 學年度課本目次頁及各課 Word List / Story / Pattern 頁照片。"
+    },
+    {
+      "field": "units[5].lessons[0].title",
+      "reason": "ambiguous_edition",
+      "detail": "同份課程計畫內，5-1-1 課程架構表（PDF p.90）載 Unit 4 為「Baby Dragon’s Gift」，而 5-2 教學進度總表（PDF p.570-571 第15、17-18週）則載為「Baby Dragon’s Toys」。",
+      "recommended_action": "請核對康軒《Wonder World 1》實體課本目次確認 Unit 4 正式單元標題。"
+    },
+    {
+      "field": "supplemental_flexible_curriculum",
+      "reason": "ambiguous_edition",
+      "detail": "本檔以部定語文領域英語文（康軒 Wonder World 1，1 節/週）為主體；大忠國小三年級另設校訂彈性課程【雙語讀劇】（1 節/週，使用英語讀本、自編簡案與學習單，見 6-2-1 p.691-699 與 6-5 p.1134），上學期含打招呼（How are you? / What’s your name?）、數字 1-10、文具（pencil, pen, eraser, marker, ruler）、顏色（Red, Blue, Yellow, Green）與中秋／萬聖／聖誕節慶等內容，未併入部定課本單元計數。",
+      "recommended_action": "若需為校訂彈性【雙語讀劇】獨立出題，可依 PDF p.691-699 各週課程內容另建彈性補充題庫。"
+    }
+  ]
+}

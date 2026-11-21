@@ -1,0 +1,312 @@
+{
+  "schema_version": "1.0.0",
+  "target": {
+    "school": "桃園市大忠國小",
+    "academic_year": 115,
+    "semester": 2,
+    "grade": 5,
+    "subject": "語文-國語文",
+    "publisher": "康軒",
+    "book_series": "第十冊"
+  },
+  "status": "partial",
+  "collected_at": "2026-11-21T13:05:00+08:00",
+  "sources": [
+    {
+      "id": "src-1",
+      "source_tier": "tier1",
+      "source_title": "桃園市八德區大忠國民小學115學年度學校課程計畫（桃教小字第1150071410號函備查）",
+      "source_url": "https://www.djes.tyc.edu.tw/modules/school/index.php?op=tufdl&files_sn=2&fn=%E5%A4%A7%E5%BF%A0%E5%9C%8B%E5%B0%8F115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E8%AA%B2%E7%A8%8B%E8%A8%88%E7%95%AB.pdf",
+      "local_file": "115_.pdf",
+      "retrieved_at": "2026-11-21T12:25:35+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 5,
+        "subject": "語文-國語文",
+        "publisher": "康軒",
+        "book_series": "第十冊"
+      }
+    },
+    {
+      "id": "src-2",
+      "source_tier": "tier1",
+      "source_title": "桃園市大忠國小115學年度各年級教科書選用版本一覽表",
+      "source_url": null,
+      "local_file": "115學年教科書版本.pdf",
+      "retrieved_at": "2026-11-21T12:11:19+08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": null,
+        "grade": 5,
+        "subject": "語文-國語文",
+        "publisher": "康軒",
+        "book_series": null
+      }
+    }
+  ],
+  "units": [
+    {
+      "unit_no": 1,
+      "title": "第一單元 換一個角度",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第一課 你會怎麼回答？",
+          "learning_points": [
+            "藉由閱讀名人故事及創意廣告，學習名人的機智及其處世的智慧，培養面對問題的能力與態度（五下目標1）。",
+            "單元主題引導及第1-2週授課；融入生涯規畫教育、品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.70 課程架構表] 國語5下 -> 第一單元 換一個角度：第一課 你會怎麼回答？；[PDF p.613] 第1-2週：單元主題引導／第一課你會怎麼回答？；[PDF p.72] 五下學習目標1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第二課 智救養馬人",
+          "learning_points": [
+            "藉由閱讀名人故事及創意廣告，學習名人的機智及其處世的智慧，培養面對問題的能力與態度（五下目標1）。",
+            "第3-4週授課；融入人權教育、生涯規畫教育、品德教育、國際教育、閱讀素養教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.70 課程架構表] 國語5下 -> 第一單元 換一個角度：第二課 智救養馬人；[PDF p.613-614] 第3-4週：第二課智救養馬人；[PDF p.72] 五下學習目標1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第三課 真正的「聰明」",
+          "learning_points": [
+            "藉由閱讀名人故事及創意廣告，學習名人的機智及其處世的智慧，培養面對問題的能力與態度（五下目標1）。",
+            "第4-5週授課；融入生涯規畫教育、閱讀素養教育、品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.70 課程架構表] 國語5下 -> 第一單元 換一個角度：第三課 真正的「聰明」；[PDF p.614] 第4-5週：第三課真正的「聰明」；[PDF p.72] 五下學習目標1。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "學習地圖一",
+          "learning_points": [
+            "單元統整與閱讀／寫作策略應用（進度總表第5週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.614 5-2教學進度總表] 第五週：第三課真正的「聰明」／學習地圖一。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 2,
+      "title": "第二單元 職業任意門",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第四課 小記者，出動！",
+          "learning_points": [
+            "認識不同的職業及相關工作內容，理解各行各業的辛苦，並從中探索學習，開創更寬廣的未來（五下目標2）。",
+            "單元主題引導及第6-7週授課；融入生涯規畫教育、品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.70 課程架構表] 國語5下 -> 第二單元 職業任意門：第四課 小記者，出動！；[PDF p.615] 第6-7週：單元主題引導／第四課小記者，出動！；[PDF p.72-73] 五下學習目標2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第五課 奇幻光芒的祕密",
+          "learning_points": [
+            "認識不同的職業及相關工作內容，理解各行各業的辛苦，並從中探索學習，開創更寬廣的未來（五下目標2）。",
+            "第7-8週授課；融入生涯規畫教育、品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.70 課程架構表] 國語5下 -> 第二單元 職業任意門：第五課 奇幻光芒的祕密；[PDF p.615] 第7-8週：第五課奇幻光芒的祕密；[PDF p.72-73] 五下學習目標2。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第六課 人「聲」就是戲",
+          "learning_points": [
+            "認識不同的職業及相關工作內容，理解各行各業的辛苦，並從中探索學習，開創更寬廣的未來（五下目標2）。",
+            "第8-9週授課；融入生涯規畫教育、品德教育。（康軒5下參考選材列有《玩聲音，聲優30年的養成筆記》等職業類作品。）"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.70 課程架構表] 國語5下 -> 第二單元 職業任意門：第六課 人「聲」就是戲；[PDF p.615-616] 第8-9週：第六課人「聲」就是戲；[PDF p.72-73] 五下學習目標2與教材編選書目。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "學習地圖二",
+          "learning_points": [
+            "單元統整與閱讀／寫作策略應用（進度總表第10週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.616 5-2教學進度總表] 第十週：學習地圖二／「溜」出不一樣的人生——楊元慶。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 3,
+      "title": "閱讀階梯一",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "「溜」出不一樣的人生——楊元慶",
+          "learning_points": [
+            "第10-11週授課；認識多元生涯與夢想實踐故事，培養主動閱讀與表達能力。",
+            "融入生涯規畫教育、品德教育、閱讀素養教育、戶外教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.70 課程架構表] 國語5下 -> 閱讀階梯一：「溜」出不一樣的人生——楊元慶；[PDF p.616-617] 第10-11週：「溜」出不一樣的人生——楊元慶。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 4,
+      "title": "第三單元 山與海的呼喚",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第七課 題西林壁",
+          "learning_points": [
+            "透過閱讀山與海相關的文學作品，開拓寬廣的視野，涵養包容的胸懷，並學習尊重及欣賞所有生命的存在（五下目標3）。",
+            "單元主題引導及第11-12週授課；融入戶外教育、閱讀素養教育、品德教育。（康軒5下參考選材列有《嗨！有趣的故事：蘇軾》。）"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.70 課程架構表] 國語5下 -> 第三單元 山與海的呼喚：第七課 題西林壁；[PDF p.616-617] 第11-12週：單元主題引導／第七課題西林壁；[PDF p.73] 五下學習目標3與教材編選。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第八課 海洋的殺手",
+          "learning_points": [
+            "透過閱讀山與海相關的文學作品，開拓寬廣的視野，涵養包容的胸懷，並學習尊重及欣賞所有生命的存在（五下目標3）。",
+            "第13-14週授課；融入環境教育、海洋教育、品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.70 課程架構表] 國語5下 -> 第三單元 山與海的呼喚：第八課 海洋的殺手；[PDF p.617-618] 第13-14週：第八課海洋的殺手；[PDF p.73] 五下學習目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第九課 你想做人魚嗎？",
+          "learning_points": [
+            "透過閱讀山與海相關的文學作品，開拓寬廣的視野，涵養包容的胸懷，並學習尊重及欣賞所有生命的存在（五下目標3）。",
+            "第14-15週授課；融入環境教育、海洋教育、品德教育、資訊教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.70 課程架構表] 國語5下 -> 第三單元 山與海的呼喚：第九課 你想做人魚嗎？；[PDF p.618] 第14-15週：第九課你想做人魚嗎？；[PDF p.73] 五下學習目標3。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "學習地圖三",
+          "learning_points": [
+            "單元統整與閱讀／寫作策略應用（進度總表第15週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.618 5-2教學進度總表] 第十五週：第九課你想做人魚嗎？／學習地圖三。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "第四單元 來自遠古的神話",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "第十課 玉米人的奇蹟",
+          "learning_points": [
+            "透過閱讀神話相關文學作品，欣賞神話與文學結合的藝術效果，提高賞析、評論文學作品的能力，並培養創作的興趣（五下目標4）。",
+            "單元主題引導及第16-17週授課；融入閱讀素養教育、國際教育、品德教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.70 課程架構表] 國語5下 -> 第四單元 來自遠古的神話：第十課 玉米人的奇蹟；[PDF p.619] 第16-17週：單元主題引導／第十課玉米人的奇蹟；[PDF p.73] 五下學習目標4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 2,
+          "title": "第十一課 幸福的火苗",
+          "learning_points": [
+            "透過閱讀神話相關文學作品，欣賞神話與文學結合的藝術效果，提高賞析、評論文學作品的能力，並培養創作的興趣（五下目標4）。",
+            "第17-18週授課；融入生命教育、品德教育、閱讀素養教育、國際教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.70 課程架構表] 國語5下 -> 第四單元 來自遠古的神話：第十一課 幸福的火苗；[PDF p.619] 第17-18週：第十一課幸福的火苗；[PDF p.73] 五下學習目標4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 3,
+          "title": "第十二課 神農嘗百草",
+          "learning_points": [
+            "透過閱讀神話相關文學作品，欣賞神話與文學結合的藝術效果，提高賞析、評論文學作品的能力，並培養創作的興趣（五下目標4）。",
+            "第18-19週授課；融入生命教育、品德教育、生涯規畫教育、科技教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.70 課程架構表] 國語5下 -> 第四單元 來自遠古的神話：第十二課 神農嘗百草；[PDF p.619-620] 第18-19週：第十二課神農嘗百草；[PDF p.73] 五下學習目標4。",
+          "confidence": "primary"
+        },
+        {
+          "lesson_no": 4,
+          "title": "學習地圖四",
+          "learning_points": [
+            "單元統整與閱讀／寫作策略應用（進度總表第20週）。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.620 5-2教學進度總表] 第二十週：學習地圖四／旗魚王。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "閱讀階梯二",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "旗魚王",
+          "learning_points": [
+            "透過閱讀山與海及生命故事文學作品，培養尊重自然生態與主動閱讀之素養（五下目標3、第20-21週）。",
+            "融入多元文化教育、閱讀素養教育、品德教育、海洋教育。"
+          ],
+          "vocabulary": [],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.70 課程架構表] 國語5下 -> 閱讀階梯二：旗魚王；[PDF p.620-621] 第20-21週：旗魚王。",
+          "confidence": "primary"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "units[*].lessons[*].vocabulary",
+      "reason": "source_not_found",
+      "detail": "學校課程計畫書僅列學習內容指標（Ab-Ⅲ-1 2,700個常用字的字形、字音和字義等）與各課課名，未列康軒第十冊各課生字、部首、多音字與語詞表。",
+      "recommended_action": "請提供康軒國小國語第十冊（五下）課本目次／生字語詞表頁面照片，或康軒官網電子書／教師手冊第10冊生字清單。"
+    },
+    {
+      "field": "units[*].lessons[*].learning_points",
+      "reason": "source_not_found",
+      "detail": "課程計畫書列出學期層級學習表現、學習內容與4條五下總目標及教材編選書目，但無逐課修辭法、句型、注音詞義細節與課文大意。",
+      "recommended_action": "補充康軒國語第十冊各課課文與習作重點頁面後可產出逐課閱讀理解與字音字形題目。"
+    }
+  ]
+}
