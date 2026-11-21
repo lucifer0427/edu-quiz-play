@@ -8,6 +8,17 @@ import {
   generateG5S1U8Area,
   generateG5S1U9UnitFraction,
 } from './g5s1Math.ts';
+import {
+  generateG6S1U1GcdLcm,
+  generateG6S1U2FractionDiv,
+  generateG6S1U3NumberPatterns,
+  generateG6S1U4DecimalDiv,
+  generateG6S1U5Ratio,
+  generateG6S1U6CirclePerimeter,
+  generateG6S1U7CircleArea,
+  generateG6S1U8Speed,
+  generateG6S1U9Scale,
+} from './g6Math.ts';
 
 export type QuestionGenerator = (count?: number) => Question[];
 
@@ -21,6 +32,15 @@ export const QUESTION_GENERATORS: Record<string, QuestionGenerator> = {
   'g5s1-math-u7': (count = 6) => generateG5S1U7Fractions(count),
   'g5s1-math-u8': (count = 6) => generateG5S1U8Area(count),
   'g5s1-math-u9': (count = 6) => generateG5S1U9UnitFraction(count),
+  'g6s1-math-u1': (count = 6) => generateG6S1U1GcdLcm(count),
+  'g6s1-math-u2': (count = 6) => generateG6S1U2FractionDiv(count),
+  'g6s1-math-u3': (count = 6) => generateG6S1U3NumberPatterns(count),
+  'g6s1-math-u4': (count = 6) => generateG6S1U4DecimalDiv(count),
+  'g6s1-math-u5': (count = 6) => generateG6S1U5Ratio(count),
+  'g6s1-math-u6': (count = 6) => generateG6S1U6CirclePerimeter(count),
+  'g6s1-math-u7': (count = 6) => generateG6S1U7CircleArea(count),
+  'g6s1-math-u8': (count = 6) => generateG6S1U8Speed(count),
+  'g6s1-math-u9': (count = 6) => generateG6S1U9Scale(count),
 };
 
 const DEFAULT_DYNAMIC_COUNT = 6;

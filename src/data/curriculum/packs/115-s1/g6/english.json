@@ -1,0 +1,947 @@
+{
+  "packId": "115-s1-g6-english",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 6,
+  "subjectId": "english",
+  "stages": [
+    {
+      "id": "115-s1-g6-english-u0",
+      "subjectId": "english",
+      "title": "開學預備週 & Starter",
+      "description": "複習世界地圖概念與字母拼讀，並學會用英文說出生活中的房間號碼、建築高度、降雨機率與手機號碼！",
+      "difficulty": "easy",
+      "monsterId": "slime",
+      "monsterName": "數字探險史萊姆",
+      "monsterHp": 120,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 6,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第七冊",
+        "unitNo": 0
+      },
+      "questions": [
+        {
+          "id": "115-s1-g6-english-u0-q1",
+          "prompt": "在旅館或學校尋找房間「Room 305」時，用英語唸出房號中的「0」，口語習慣通常唸成什麼音？",
+          "options": [
+            "one hundred",
+            "oh",
+            "double",
+            "ten"
+          ],
+          "answerIndex": 1,
+          "explanation": "報讀房間號碼或門牌號碼（例如 Room 305）時，習慣逐字或分段唸出數字，其中的 0 在英語口語常唸作 oh（唸成 three-oh-five）。",
+          "hint": "點喇叭聽聽看 Room three-oh-five 的唸法！",
+          "speechText": "Room three-oh-five",
+          "speechLang": "en-US",
+          "tags": [
+            "Daily Numbers",
+            "Starter"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u0-q2",
+          "prompt": "看英文氣象預報時，畫面顯示今天降雨機率為「80%」，英語要怎麼表達「百分之八十」？",
+          "options": [
+            "eighteen dollars",
+            "eighty meters",
+            "eight o'clock",
+            "eighty percent"
+          ],
+          "answerIndex": 3,
+          "explanation": "percent 表示「百分比（%）」，因此 80% 就是 eighty percent；meters 是公尺，dollars 是元。",
+          "hint": "「百分比」的英文單字開頭是 per-！",
+          "speechText": "eighty percent",
+          "speechLang": "en-US",
+          "tags": [
+            "Daily Numbers",
+            "Starter"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u0-q3",
+          "prompt": "介紹建築物高度時，如果要說「這棟大樓高 500 公尺」：\"The building is ___ meters tall.\" 空格應填入哪一項？",
+          "options": [
+            "five hundred",
+            "fifty",
+            "five thousand",
+            "fifteen"
+          ],
+          "answerIndex": 0,
+          "explanation": "500 是 five hundred；fifty 是 50，five thousand 是 5,000，fifteen 是 15。",
+          "hint": "「百」的英文是 hundred！",
+          "speechText": "The building is five hundred meters tall.",
+          "speechLang": "en-US",
+          "tags": [
+            "Daily Numbers",
+            "Starter"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u0-q4",
+          "prompt": "當朋友問你手機號碼 \"What's your phone number?\" 時，英語習慣怎麼報讀手機號碼？",
+          "options": [
+            "把全部十個數字直接唸成幾十億的大整數",
+            "只唸出最後一個數字",
+            "將數字逐一分開唸出（其中的 0 常唸作 oh 或 zero）",
+            "把數字全部換成英文的星期名稱"
+          ],
+          "answerIndex": 2,
+          "explanation": "報讀手機號碼時，英語習慣一個數字一個數字清楚分開唸（例如 0912 唸作 oh-nine-one-two），方便對方記下。",
+          "hint": "我們講手機號碼時也是每個數字分開唸，對不對？",
+          "speechText": "What's your phone number?",
+          "speechLang": "en-US",
+          "tags": [
+            "Phone Numbers",
+            "Starter"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u0-q5",
+          "prompt": "在「World Map & Fast Facts」暖身活動中，如果想說地球上有七大「洲」，「洲」的英文複數名詞是哪一個？",
+          "options": [
+            "cities",
+            "continents",
+            "seasons",
+            "months"
+          ],
+          "answerIndex": 1,
+          "explanation": "continent 指「大陸、洲」（如 Asia, Europe），複數為 continents；cities 是城市，seasons 是季節，months 是月份。",
+          "hint": "點喇叭聽聽看「洲」的英文單字怎麼唸！",
+          "speechText": "continents",
+          "speechLang": "en-US",
+          "tags": [
+            "World Map",
+            "International Education"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u0-q6",
+          "prompt": "Phonics 暖身複習：下面四個單字中，哪一個字裡的母音字母「i」發音和其他三個不同？",
+          "options": [
+            "bike",
+            "kite",
+            "five",
+            "fish"
+          ],
+          "answerIndex": 3,
+          "explanation": "bike, kite, five 皆為 i_e 結構，字母 i 發長母音 /aɪ/；只有 fish 的 i 發短母音 /ɪ/。",
+          "hint": "找找看哪一個單字字尾沒有不發音的魔法 e！",
+          "speechText": "bike, kite, five, fish",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics Review",
+            "Starter"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g6-english-u1",
+      "subjectId": "english",
+      "title": "Unit 1 Where Are You From?",
+      "description": "學會詢問與回答來自哪個國家，掌握 be 動詞搭配與 ir / ur / -er / -or 字母拼讀規則！",
+      "difficulty": "easy",
+      "monsterId": "parrotKing",
+      "monsterName": "環遊世界鸚鵡王",
+      "monsterHp": 130,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 6,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第七冊",
+        "unitNo": 1
+      },
+      "questions": [
+        {
+          "id": "115-s1-g6-english-u1-q1",
+          "prompt": "認識新朋友時，對方問你 \"Where are you from?\"，如果你想回答「我來自臺灣」，下列哪一個句子最正確？",
+          "options": [
+            "I'm go to Taiwan.",
+            "I'm at Taiwan.",
+            "I'm from Taiwan.",
+            "I'm like Taiwan."
+          ],
+          "answerIndex": 2,
+          "explanation": "詢問來自哪裡用 \"Where are you from?\"，回答使用 \"I'm from + 國家/地點.\"。",
+          "hint": "注意問句裡的關鍵介系詞 from（來自）！",
+          "speechText": "Where are you from? I'm from Taiwan.",
+          "speechLang": "en-US",
+          "tags": [
+            "Countries",
+            "Unit 1"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u1-q2",
+          "prompt": "句型填空：\"Where ___ Kevin from? — He is from the UK.\" 空格裡應該填入哪一個 be 動詞？",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "do"
+          ],
+          "answerIndex": 0,
+          "explanation": "主詞 Kevin 是第三人稱單數（相當於 He），be 動詞必須搭配 is。",
+          "hint": "主詞 Kevin 只有一個人，和 he 用一樣的 be 動詞喔！",
+          "speechText": "Where is Kevin from? He is from the UK.",
+          "speechLang": "en-US",
+          "tags": [
+            "Sentence Pattern",
+            "Unit 1"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u1-q3",
+          "prompt": "下列哪一個英語國家名稱與中文的配對「正確」？",
+          "options": [
+            "Japan — 泰國",
+            "the USA — 法國",
+            "Korea — 加拿大",
+            "the UK — 英國"
+          ],
+          "answerIndex": 3,
+          "explanation": "the UK 指英國（United Kingdom）；Japan 是日本，the USA 是美國，Korea 是韓國。",
+          "hint": "the UK 是哪一個位於歐洲的島國呢？",
+          "speechText": "the UK",
+          "speechLang": "en-US",
+          "tags": [
+            "Countries",
+            "International Education"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u1-q4",
+          "prompt": "完成簡答問句：\"___ you from Japan? — Yes, I am.\" 問句開頭空格應填入哪一個字？",
+          "options": [
+            "Do",
+            "Are",
+            "Is",
+            "Where"
+          ],
+          "answerIndex": 1,
+          "explanation": "回答是 Yes, I am.（be 動詞問答），而且問句主詞是 you，因此開頭要用 Are 提問。",
+          "hint": "看後面的回答 Yes, I am. 就可以反推前面要用 be 動詞開頭！",
+          "speechText": "Are you from Japan? Yes, I am.",
+          "speechLang": "en-US",
+          "tags": [
+            "Grammar",
+            "Unit 1"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u1-q5",
+          "prompt": "Phonics 拼讀挑戰：音組 ir 和 ur 在單字中常發同樣的捲舌音 /ɝː/。下列哪一組單字的母音發音相同？",
+          "options": [
+            "car / cat",
+            "bird / bed",
+            "bird / turtle",
+            "girl / gate"
+          ],
+          "answerIndex": 2,
+          "explanation": "bird（ir）和 turtle（ur）裡的 ir 與 ur 都發相同的捲舌音 /ɝː/。",
+          "hint": "聽聽看發音！哪兩個字都帶有「兒」的捲舌母音？",
+          "speechText": "bird, turtle",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "ir/ur"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u1-q6",
+          "prompt": "Phonics 拼讀挑戰：字尾 -er 與 -or 常出現在職業單字中發 /ɚ/。下列哪一個單字的拼寫正確？",
+          "options": [
+            "doctor",
+            "doctar",
+            "teachor",
+            "singor"
+          ],
+          "answerIndex": 0,
+          "explanation": "「醫生」拼作 doctor（字尾 -or）；teacher（老師）與 singer（歌手）字尾皆為 -er。",
+          "hint": "想一想「醫生」字尾是 -or 還是 -ar？",
+          "speechText": "doctor, teacher",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "-er/-or"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g6-english-u2",
+      "subjectId": "english",
+      "title": "Unit 2 How Do You Go to School?",
+      "description": "學習用英文問答交通方式、區分 by 與 on foot，並熟練 ar / or 字母拼讀！",
+      "difficulty": "easy",
+      "monsterId": "slime",
+      "monsterName": "交通工具史萊姆",
+      "monsterHp": 140,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 6,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第七冊",
+        "unitNo": 2
+      },
+      "questions": [
+        {
+          "id": "115-s1-g6-english-u2-q1",
+          "prompt": "同學問你 \"How do you go to school?\"，想回答「我搭公車去上學」，應搭配哪一個介系詞片語？",
+          "options": [
+            "by bus",
+            "on bus",
+            "at bus",
+            "with bus"
+          ],
+          "answerIndex": 0,
+          "explanation": "表示搭乘某種交通工具時，英文使用「by + 交通工具（單數且不加冠詞）」，例如 by bus、by MRT。",
+          "hint": "表示「搭乘…」交通工具的介系詞是 by！",
+          "speechText": "I go to school by bus.",
+          "speechLang": "en-US",
+          "tags": [
+            "Transportation",
+            "Unit 2"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u2-q2",
+          "prompt": "如果每天都是「走路、步行」上學，英文固定的表達方式是哪一個？",
+          "options": [
+            "by foot",
+            "in foot",
+            "on foot",
+            "to foot"
+          ],
+          "answerIndex": 2,
+          "explanation": "雖然交通工具多半用 by，但「步行」是特別的固定用法：on foot（用雙腳站在地上走）。",
+          "hint": "「步行」不用 by，而是用「站在腳上」的介系詞喔！",
+          "speechText": "I go to school on foot.",
+          "speechLang": "en-US",
+          "tags": [
+            "Transportation",
+            "Unit 2"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u2-q3",
+          "prompt": "注意第三人稱單數文法！\"How ___ Amy go to school? — She goes to school by MRT.\" 空格應填入哪一個助動詞？",
+          "options": [
+            "do",
+            "does",
+            "is",
+            "are"
+          ],
+          "answerIndex": 1,
+          "explanation": "句中有一般動詞 go，主詞 Amy 是第三人稱單數，因此助動詞必須使用 does，後面動詞維持原形 go。",
+          "hint": "主詞 Amy 是女生單數，搭配一般動詞 go 提問要用 do 還是 does？",
+          "speechText": "How does Amy go to school? She goes to school by MRT.",
+          "speechLang": "en-US",
+          "tags": [
+            "Grammar",
+            "Unit 2"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u2-q4",
+          "prompt": "看答句選問句：\"He goes to the park by bike.\" 如果想問「他怎麼去公園的？」，該用哪一句問？",
+          "options": [
+            "Where does he go?",
+            "Who goes to the park?",
+            "What time does he go?",
+            "How does he go to the park?"
+          ],
+          "answerIndex": 3,
+          "explanation": "詢問交通方式（如何前往）時要用疑問詞 How 開頭；Where 問地點，Who 問人物，What time 問時間。",
+          "hint": "問「如何、怎麼去」要用 H 開頭的疑問詞！",
+          "speechText": "How does he go to the park?",
+          "speechLang": "en-US",
+          "tags": [
+            "Sentence Pattern",
+            "Unit 2"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u2-q5",
+          "prompt": "Phonics 拼讀挑戰：下列哪一個單字含有音組 ar 的捲舌長音 /ɑr/（和 car 一樣）？",
+          "options": [
+            "park",
+            "fork",
+            "bird",
+            "nurse"
+          ],
+          "answerIndex": 0,
+          "explanation": "car 和 park 都含有 ar，發出 /ɑr/ 的音；fork 的 or 發 /ɔr/，bird 和 nurse 則是 /ɝː/。",
+          "hint": "聽聽看哪一個字裡也有 ar 的發音！",
+          "speechText": "car, park",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "ar"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u2-q6",
+          "prompt": "Phonics 拼讀挑戰：下面哪一個單字的音組 or 發出 /ɔr/ 的音，和「horse」相同？",
+          "options": [
+            "word",
+            "work",
+            "short",
+            "star"
+          ],
+          "answerIndex": 2,
+          "explanation": "horse 和 short 中的 or 都發 /ɔr/；word 與 work 中的 w+or 發 /ɝː/；star 則是 ar。",
+          "hint": "唸唸看 horse 和四個選項，哪一個音組相同又發一樣的音？",
+          "speechText": "horse, short",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "or"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g6-english-u3",
+      "subjectId": "english",
+      "title": "Review 1",
+      "description": "統整 Unit 1 國家問答與 Unit 2 交通方式，挑戰綜合文法與字彙拼讀！",
+      "difficulty": "medium",
+      "monsterId": "mathCube",
+      "monsterName": "期中複習方塊怪",
+      "monsterHp": 150,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 6,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第七冊",
+        "unitNo": 3
+      },
+      "questions": [
+        {
+          "id": "115-s1-g6-english-u3-q1",
+          "prompt": "綜合對話情境：遇到外國交換生，想依序問「你來自哪裡？」和「你怎麼來上學的？」，應選擇哪一組英文問句？",
+          "options": [
+            "How are you? / Where do you live?",
+            "What's your name? / What day is today?",
+            "How old are you? / Who is she?",
+            "Where are you from? / How do you go to school?"
+          ],
+          "answerIndex": 3,
+          "explanation": "\"Where are you from?\" 問來自哪裡；\"How do you go to school?\" 問如何上學。",
+          "hint": "分別回想 Unit 1 和 Unit 2 的單元標題句型！",
+          "speechText": "Where are you from? How do you go to school?",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u3-q2",
+          "prompt": "文法小偵探：請選出主詞與動詞、介系詞搭配「完全正確」的句子：",
+          "options": [
+            "They is from Canada.",
+            "They are from Japan.",
+            "He go to school by train.",
+            "She goes to school on bike."
+          ],
+          "answerIndex": 1,
+          "explanation": "They 是複數要配 are；He 後面一般動詞應為 goes；騎腳踏車應為 by bike（不是 on bike）。",
+          "hint": "檢查 be 動詞、第三人稱單數動詞變化和交通工具介系詞！",
+          "speechText": "They are from Japan.",
+          "speechLang": "en-US",
+          "tags": [
+            "Grammar",
+            "Review 1"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u3-q3",
+          "prompt": "句子排列組合：如果想用英文說「我哥哥搭火車去臺北」，下列哪一個語序最正確？",
+          "options": [
+            "My brother by train goes to Taipei.",
+            "To Taipei goes my brother by train.",
+            "My brother goes to Taipei by train.",
+            "My brother go by train to Taipei."
+          ],
+          "answerIndex": 2,
+          "explanation": "英文基本語序為「主詞 + 動詞 + 地點 + 交通方式」，且 My brother 為第三人稱單數，動詞用 goes。",
+          "hint": "主詞放最前面，動詞 goes 接在後面，交通方式 by train 放句尾！",
+          "speechText": "My brother goes to Taipei by train.",
+          "speechLang": "en-US",
+          "tags": [
+            "Sentence Structure",
+            "Review 1"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u3-q4",
+          "prompt": "對話應答練習：\"Is she from Korea?\" 下列哪一個回答文法正確且合理？",
+          "options": [
+            "No, she isn't. She's from Taiwan.",
+            "Yes, she does.",
+            "No, I'm not.",
+            "Yes, she are."
+          ],
+          "answerIndex": 0,
+          "explanation": "Is she 開頭的問句必須用 she + is/isn't 回答，不可混用 does 或 are。",
+          "hint": "問句開頭是 Is she，簡答的代名詞與動詞也要一致喔！",
+          "speechText": "Is she from Korea? No, she isn't. She's from Taiwan.",
+          "speechLang": "en-US",
+          "tags": [
+            "Dialogue",
+            "Review 1"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u3-q5",
+          "prompt": "Phonics 綜合辨音：下列哪一個單字的字尾音組發音和「teacher」字尾的 -er 相同？",
+          "options": [
+            "farm",
+            "corn",
+            "toy",
+            "sister"
+          ],
+          "answerIndex": 3,
+          "explanation": "teacher 和 sister 字尾都有 -er，發輕音 /ɚ/；farm 是 ar，corn 是 or，toy 是 oy。",
+          "hint": "找一個同樣有 -er 字尾的家庭稱謂單字！",
+          "speechText": "teacher, sister",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "Review 1"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u3-q6",
+          "prompt": "閱讀理解：\"Hi, I'm Leo. I'm from the USA. I go to school by school bus every morning.\" 請問 Leo 每天早上怎麼上學？",
+          "options": [
+            "He walks to school.",
+            "He goes to school by school bus.",
+            "He goes to school by MRT.",
+            "He rides a bike to school."
+          ],
+          "answerIndex": 1,
+          "explanation": "短文第三句清楚寫著 \"I go to school by school bus\"，代表他搭校車上學。",
+          "hint": "讀讀看最後一句裡提到的交通工具名稱！",
+          "speechText": "He goes to school by school bus.",
+          "speechLang": "en-US",
+          "tags": [
+            "Reading Comprehension",
+            "Review 1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g6-english-u4",
+      "subjectId": "english",
+      "title": "Unit 3 What Do You Do in Your Free Time?",
+      "description": "學會詢問並分享空閒時間與週末的日常活動，並掌握雙母音 oi / oy 的拼讀規則！",
+      "difficulty": "medium",
+      "monsterId": "bookSpirit",
+      "monsterName": "休閒活動精靈",
+      "monsterHp": 160,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 6,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第七冊",
+        "unitNo": 4
+      },
+      "questions": [
+        {
+          "id": "115-s1-g6-english-u4-q1",
+          "prompt": "朋友問你 \"What do you do in your free time?\"，這句話是在詢問什麼問題？",
+          "options": [
+            "你每天幾點起床？",
+            "你從哪一個國家來的？",
+            "你在空閒時間都會做些什麼活動？",
+            "你最喜歡吃哪一道晚餐？"
+          ],
+          "answerIndex": 2,
+          "explanation": "free time 指「空閒時間、閒暇時間」，整句意為「你在空閒時間做什麼？」。",
+          "hint": "注意關鍵詞組 free time（自由空閒的時間）！",
+          "speechText": "What do you do in your free time?",
+          "speechLang": "en-US",
+          "tags": [
+            "Activities",
+            "Unit 3"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u4-q2",
+          "prompt": "填入正確動詞：\"What does Mia ___ on weekends? — She ___ the piano.\" 兩個空格依序應填入什麼？",
+          "options": [
+            "does / play",
+            "doing / playing",
+            "do / play",
+            "do / plays"
+          ],
+          "answerIndex": 3,
+          "explanation": "問句已有助動詞 does，所以主要動詞用原形 do；答句主詞是 She（第三人稱單數），現在式動詞要加 -s 變成 plays。",
+          "hint": "問句有助動詞 does 後面用原形；肯定句 She 後面動詞記得加 s！",
+          "speechText": "What does Mia do on weekends? She plays the piano.",
+          "speechLang": "en-US",
+          "tags": [
+            "Grammar",
+            "Unit 3"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u4-q3",
+          "prompt": "下列哪一個英語動詞片語代表「聽音樂」？",
+          "options": [
+            "listen to music",
+            "watch TV",
+            "ride a bike",
+            "read comic books"
+          ],
+          "answerIndex": 0,
+          "explanation": "listen to music 是聽音樂；watch TV 是看電視；ride a bike 是騎腳踏車；read comic books 是看漫畫書。",
+          "hint": "聽音樂的時候會用到「聽（listen）」這個動詞喔！",
+          "speechText": "listen to music",
+          "speechLang": "en-US",
+          "tags": [
+            "Activities",
+            "Unit 3"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u4-q4",
+          "prompt": "想用英語表達「我和妹妹在空閒時間看電視」，哪一個句子文法正確？",
+          "options": [
+            "My sister and I watches TV in our free time.",
+            "My sister and I watch TV in our free time.",
+            "My sister and I watching TV in our free time.",
+            "My sister and I goes TV in our free time."
+          ],
+          "answerIndex": 1,
+          "explanation": "主詞 \"My sister and I\" 是兩個人（複數，相當於 we），因此動詞使用原形 watch 即可，不加 -es。",
+          "hint": "My sister and I 加起來有「兩個人」，動詞需要加 es 嗎？",
+          "speechText": "My sister and I watch TV in our free time.",
+          "speechLang": "en-US",
+          "tags": [
+            "Grammar",
+            "Unit 3"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u4-q5",
+          "prompt": "Phonics 拼讀挑戰：音組 oi 和 oy 都發雙母音 /ɔɪ/。請問「硬幣」的英文單字正確拼法為何？",
+          "options": [
+            "coyn",
+            "coan",
+            "coin",
+            "cone"
+          ],
+          "answerIndex": 2,
+          "explanation": "oi 通常出現在字中（如 coin、oil），oy 通常出現在字尾（如 boy、toy），「硬幣」拼作 coin。",
+          "hint": "字中間發 /ɔɪ/ 的音通常用 oi 還是 oy？",
+          "speechText": "coin",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "oi/oy"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u4-q6",
+          "prompt": "Phonics 拼讀挑戰：下面哪一組單字都含有雙母音 /ɔɪ/（oy / oi）的發音？",
+          "options": [
+            "book / look",
+            "cow / how",
+            "car / star",
+            "boy / toy"
+          ],
+          "answerIndex": 3,
+          "explanation": "boy 和 toy 都以 oy 結尾，發出 /ɔɪ/ 的雙母音；book/look 是 /ʊ/，cow/how 是 /aʊ/，car/star 是 /ɑr/。",
+          "hint": "點喇叭聽聽看 boy 和 toy 的發音！",
+          "speechText": "boy, toy",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "oi/oy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g6-english-u5",
+      "subjectId": "english",
+      "title": "Unit 4 What Time Do You Get Up?",
+      "description": "掌握日常作息片語與幾點幾分的英文問答，並挑戰雙母音 ou / ow 的字母拼讀！",
+      "difficulty": "medium",
+      "monsterId": "treeGuardian",
+      "monsterName": "作息時鐘樹靈",
+      "monsterHp": 170,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 6,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第七冊",
+        "unitNo": 5
+      },
+      "questions": [
+        {
+          "id": "115-s1-g6-english-u5-q1",
+          "prompt": "想用英文詢問朋友「你幾點起床？」，下列哪一個問句最正確？",
+          "options": [
+            "What time do you get up?",
+            "What day do you get up?",
+            "How do you get up?",
+            "Where do you get up?"
+          ],
+          "answerIndex": 0,
+          "explanation": "詢問具體「幾點鐘」用疑問詞組 What time 開頭；「起床」片語是 get up。",
+          "hint": "詢問幾點幾分要用 What time 喔！",
+          "speechText": "What time do you get up?",
+          "speechLang": "en-US",
+          "tags": [
+            "Daily Routines",
+            "Unit 4"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u5-q2",
+          "prompt": "在英文句子中表達「在六點三十分」（明確時刻），時刻前面要搭配哪一個介系詞？\"I get up ___ 6:30.\"",
+          "options": [
+            "on",
+            "at",
+            "in",
+            "by"
+          ],
+          "answerIndex": 1,
+          "explanation": "表示具體的幾點幾分（時間點）時，英文固定搭配介系詞 at（例如 at 6:30、at seven o'clock）。",
+          "hint": "「在幾點鐘」用的介系詞只有兩個字母，開頭是 a！",
+          "speechText": "I get up at six thirty.",
+          "speechLang": "en-US",
+          "tags": [
+            "Grammar",
+            "Time Preposition"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u5-q3",
+          "prompt": "在日常作息英文片語中，哪一個片語的意思是「上床睡覺」？",
+          "options": [
+            "get up",
+            "have breakfast",
+            "go to school",
+            "go to bed"
+          ],
+          "answerIndex": 3,
+          "explanation": "go to bed 是上床睡覺；get up 是起床；have breakfast 是吃早餐；go to school 是去上學。",
+          "hint": "睡覺需要去「床（bed）」上喔！",
+          "speechText": "go to bed",
+          "speechLang": "en-US",
+          "tags": [
+            "Daily Routines",
+            "Unit 4"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u5-q4",
+          "prompt": "注意第三人稱單數動詞變化！請選出文法「正確」的作息句子：",
+          "options": [
+            "Tom get up at seven.",
+            "Tom brush his teeth at seven ten.",
+            "Tom goes to school at seven thirty.",
+            "Tom have dinner at six."
+          ],
+          "answerIndex": 2,
+          "explanation": "主詞 Tom 是第三人稱單數：go 要變成 goes；錯誤選項分別漏了 gets、brushes 以及將 have 改為 has。",
+          "hint": "Tom 是一個人，動詞要記得加上 s 或 es（have 要變 has）！",
+          "speechText": "Tom goes to school at seven thirty.",
+          "speechLang": "en-US",
+          "tags": [
+            "Grammar",
+            "Unit 4"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u5-q5",
+          "prompt": "Phonics 拼讀挑戰：音組 ou 和 ow 常發 /aʊ/ 的音。下面哪一個單字的 ow 發音和「house」裡的 ou 相同？",
+          "options": [
+            "snow",
+            "cow",
+            "window",
+            "yellow"
+          ],
+          "answerIndex": 1,
+          "explanation": "house（ou）和 cow（ow）都發雙母音 /aʊ/；snow、window、yellow 中的字尾 ow 發長音 /oʊ/。",
+          "hint": "點喇叭聽聽 house 和哪一個字發音一樣有「ㄠ」的聲音！",
+          "speechText": "house, cow",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "ou/ow"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u5-q6",
+          "prompt": "Phonics 拼讀挑戰：選出含 ou /aʊ/ 發音且拼字正確的「老鼠」單字：",
+          "options": [
+            "mouse",
+            "mowse",
+            "moose",
+            "muse"
+          ],
+          "answerIndex": 0,
+          "explanation": "mouse 是「老鼠」，其中的 ou 發 /aʊ/（和 house 同韻）。moose 指駝鹿，發音不同。",
+          "hint": "和「房子 house」只有第一個字母不一樣喔！",
+          "speechText": "mouse",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "ou"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g6-english-u6",
+      "subjectId": "english",
+      "title": "Review 2 & 文化教學",
+      "description": "統整日常活動與生活作息句型，並探索世界各國的新年節慶文化與多元尊重態度！",
+      "difficulty": "hard",
+      "monsterId": "flameDragon",
+      "monsterName": "跨年煙火火龍",
+      "monsterHp": 180,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 6,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第七冊",
+        "unitNo": 6
+      },
+      "questions": [
+        {
+          "id": "115-s1-g6-english-u6-q1",
+          "prompt": "期末複習情境問答：\"What time does your brother go to bed?\" 下列哪一個回答文法與語意都正確？",
+          "options": [
+            "He goes to bed by bus.",
+            "He goes to bed at ten o'clock.",
+            "He goes to school in his free time.",
+            "Yes, he does."
+          ],
+          "answerIndex": 1,
+          "explanation": "What time 詢問幾點鐘，回答需使用時間點（at ten o'clock），且搭配第三人稱單數動詞 goes。",
+          "hint": "問的是「幾點睡覺」，找有具體時間點的回答！",
+          "speechText": "What time does your brother go to bed? He goes to bed at ten o'clock.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u6-q2",
+          "prompt": "閱讀短文理解：\"Every Saturday, Emma gets up at 8:00. In her free time, she likes to go swimming and read books.\" 請問 Emma 星期六幾點起床？",
+          "options": [
+            "At eight o'clock.",
+            "At eight thirty.",
+            "At seven o'clock.",
+            "At ten o'clock."
+          ],
+          "answerIndex": 0,
+          "explanation": "短文寫到 \"Emma gets up at 8:00\"，即八點整（eight o'clock）。",
+          "hint": "找出短文裡面的數字時間 8:00！",
+          "speechText": "Emma gets up at eight o'clock.",
+          "speechLang": "en-US",
+          "tags": [
+            "Reading Comprehension",
+            "Review 2"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u6-q3",
+          "prompt": "在「New Years Around the World」文化單元中，想用英文向世界各地的朋友祝賀「新年快樂！」，最道地的句子是哪一句？",
+          "options": [
+            "Happy Birthday!",
+            "Good night!",
+            "Happy New Year!",
+            "Merry Christmas!"
+          ],
+          "answerIndex": 2,
+          "explanation": "Happy New Year! 是祝福新年快樂；Happy Birthday 是生日快樂；Merry Christmas 是耶誕快樂。",
+          "hint": "找出句子裡有 New Year（新年）的祝賀語！",
+          "speechText": "Happy New Year!",
+          "speechLang": "en-US",
+          "tags": [
+            "Culture",
+            "New Year"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u6-q4",
+          "prompt": "在介紹世界各地的「傳統習俗」與「節慶」時，英文裡常使用的兩個對應單字依序是什麼？",
+          "options": [
+            "subject / math",
+            "animal / zoo",
+            "weather / rain",
+            "custom / festival"
+          ],
+          "answerIndex": 3,
+          "explanation": "custom 指風俗習慣（複數為 customs），festival 指節慶、節日。",
+          "hint": "聽聽看發音，想想看「節慶 festival」這個字！",
+          "speechText": "custom, festival",
+          "speechLang": "en-US",
+          "tags": [
+            "Festivals",
+            "Culture"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u6-q5",
+          "prompt": "跨年夜或新年慶祝活動中，許多城市會在夜空施放燦爛的「煙火」。請問「煙火」的英文單字是哪一個？",
+          "options": [
+            "fireworks",
+            "homework",
+            "weekdays",
+            "raincoats"
+          ],
+          "answerIndex": 0,
+          "explanation": "fireworks（fire 火 + works 作品）即指「煙火」；homework 是回家作業，weekdays 是平日，raincoats 是雨衣。",
+          "hint": "煙火在天空中像「火（fire）」一樣綻放喔！",
+          "speechText": "fireworks",
+          "speechLang": "en-US",
+          "tags": [
+            "New Year",
+            "Culture"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u6-q6",
+          "prompt": "學習「New Years Around the World」後，面對不同國家不同的新年日期與慶祝方式，下列哪一句英文最能表現多元文化素養？",
+          "options": [
+            "Think only our own holidays are fun.",
+            "Laugh at unfamiliar customs.",
+            "Refuse to learn about other countries.",
+            "Understand and respect different cultures and traditions."
+          ],
+          "answerIndex": 3,
+          "explanation": "多元文化教育的核心是「理解並尊重不同的文化與傳統習俗」（Understand and respect different cultures and traditions.）。",
+          "hint": "關鍵字是 understand（了解）與 respect（尊重）！",
+          "speechText": "Understand and respect different cultures and traditions.",
+          "speechLang": "en-US",
+          "tags": [
+            "Multicultural Education",
+            "Culture"
+          ]
+        }
+      ]
+    }
+  ]
+}
