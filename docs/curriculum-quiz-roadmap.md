@@ -38,6 +38,8 @@
 - **g2／g1 上**：各 7 科（無自然、社會、藝術、綜合、電腦，改為「生活」科）；句長簡短白話，全部提供 `hint`。
 
 ### Phase 2 重點提醒（`115-s2`）
+> 詳細 5 波平行執行計畫、58 科明細與 `generatorId` 對照表請見：[115-s2-execution-plan.md](115-s2-execution-plan.md)。
+
 - **g6 下**（18 週、54 單元、115 課次）：電腦為 Micro:bit 麥坤自駕車、Canva＋Gemini 簡報、威力導演畢業影音。
 - **g5 下**：電腦為數位創客五下（Inkscape 向量幾何與海底故事＋Tinkercad 3D 建模）；英語為 Here We Go 第六冊（看病症狀 `What's Wrong?` / `Headache`、職業／志向等單元）。
 - **g4／g3／g2／g1 下**：依 `content/curriculum-sources/115-s2/g<grade>/*.json` 各單元產出；低年級沿用 Phase 1 的低年級特化規則。
