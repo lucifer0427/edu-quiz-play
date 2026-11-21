@@ -1,0 +1,545 @@
+{
+  "packId": "115-s1-g2-english",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 2,
+  "subjectId": "english",
+  "stages": [
+    {
+      "id": "115-s1-g2-english-u1",
+      "subjectId": "english",
+      "title": "第1–5週：聽！安全與自然的交響曲",
+      "description": "認識字母 Aa 到 Mm，聽辨自然與交通警示聲音，並學會 Listen!、Stop!、Louder!、Hurry up! 等課堂與安全用語。",
+      "difficulty": "easy",
+      "monsterId": "slime",
+      "monsterName": "聲音探險史萊姆",
+      "monsterHp": 110,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 2,
+        "publisher": "何嘉仁（選書表）／學校自編彈性課程計畫",
+        "bookSeries": "Fun World 3（選書表）／唱跳趣閱家二上（課程計畫）",
+        "unitNo": 1
+      },
+      "questions": [
+        {
+          "id": "115-s1-g2-english-u1-q1",
+          "prompt": "二年級上學期要學會字母「Aa 到 Mm」。下面哪一組「大寫和小寫」字母的配對完全正確？",
+          "options": [
+            "F - f",
+            "B - d",
+            "H - n",
+            "M - w"
+          ],
+          "answerIndex": 0,
+          "explanation": "大寫 F 配對小寫 f 是正確的！b 和 d 方向相反、h 和 n 不同字母、M 和 W 則是上下顛倒。",
+          "hint": "仔細看清楚字母長相，別被方向相反的 b、d 和長得像的 h、n 騙了喔！",
+          "speechText": "F, f",
+          "speechLang": "en-US",
+          "tags": [
+            "Aa-Mm",
+            "Letters"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u1-q2",
+          "prompt": "在繪本《So Many Sounds》裡，想請同學「仔細聽！」救護車或小鳥的聲音，要說哪一句英文？",
+          "options": [
+            "Stop!",
+            "Listen!",
+            "Sorry!",
+            "Crawl!"
+          ],
+          "answerIndex": 1,
+          "explanation": "「Listen!」的意思是「聽！仔細聽！」，用來提醒大家專心聽周圍的聲音。",
+          "hint": "點喇叭聽聽看哪一個英文單字的意思是「聽」喔！",
+          "speechText": "Listen!",
+          "speechLang": "en-US",
+          "tags": [
+            "So Many Sounds",
+            "Classroom English"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u1-q3",
+          "prompt": "走在斑馬線前看到有車子開過來，想大聲提醒同伴「停下來！」，要用哪一句英文？",
+          "options": [
+            "Hurry up!",
+            "Good idea!",
+            "Stop!",
+            "Louder!"
+          ],
+          "answerIndex": 2,
+          "explanation": "「Stop!」就是「停！停下來！」的意思，是保護交通安全的重要指令。",
+          "hint": "紅燈或馬路上有危險時，要立刻喊出「停」的英文喔！",
+          "speechText": "Stop!",
+          "speechLang": "en-US",
+          "tags": [
+            "Safety",
+            "Classroom English"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u1-q4",
+          "prompt": "同學上台念英文聲音太小，如果老師笑著說「Louder!」，是在請他怎麼做？",
+          "options": [
+            "趕快跑回座位",
+            "立刻閉上眼睛",
+            "轉身向後退回去",
+            "聲音再大聲一點"
+          ],
+          "answerIndex": 3,
+          "explanation": "「Louder!」的意思是「大聲一點！」，也可以很有禮貌地說「Louder, please!」。",
+          "hint": "「Help! Louder, please!」裡的 louder 就是跟聲音大小有關喔！",
+          "speechText": "Louder!",
+          "speechLang": "en-US",
+          "tags": [
+            "Classroom English",
+            "So Many Sounds"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u1-q5",
+          "prompt": "上課鐘聲快要響了，想提醒前面還在慢慢走的朋友「快一點！」，英文怎麼說？",
+          "options": [
+            "Hurry up!",
+            "Come back!",
+            "That is OK.",
+            "Good morning."
+          ],
+          "answerIndex": 0,
+          "explanation": "「Hurry up!」的意思是「快一點！趕快！」，用來提醒別人加快腳步。",
+          "hint": "點喇叭聽聽看，哪一句在說「快點趕上去」呢？",
+          "speechText": "Hurry up!",
+          "speechLang": "en-US",
+          "tags": [
+            "Daily English",
+            "Classroom English"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u1-q6",
+          "prompt": "在《So Many Sounds》單元比對中英文動物叫聲時，英文裡的「Woof」是指哪一種動物在叫？",
+          "options": [
+            "小貓咪（喵喵）",
+            "小青蛙（呱呱）",
+            "小狗狗（汪汪）",
+            "小綿羊（咩咩）"
+          ],
+          "answerIndex": 2,
+          "explanation": "英文用「Woof」表示小狗的叫聲，就像中文說小狗會「汪汪」叫一樣。",
+          "hint": "點喇叭聽聽看「Woof, woof!」像哪一種動物的叫聲！",
+          "speechText": "Woof, woof!",
+          "speechLang": "en-US",
+          "tags": [
+            "So Many Sounds",
+            "Animal Sounds"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g2-english-u2",
+      "subjectId": "english",
+      "title": "第6–9週：金牌安全小將",
+      "description": "從繪本《The Hare and the Tortoise》認識動作字 Run、Crawl 與交通安全，並學會早安、道歉和原諒他人的禮貌對話。",
+      "difficulty": "easy",
+      "monsterId": "parrotKing",
+      "monsterName": "賽跑龜兔鸚鵡",
+      "monsterHp": 120,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 2,
+        "publisher": "何嘉仁（選書表）／學校自編彈性課程計畫",
+        "bookSeries": "Fun World 3（選書表）／唱跳趣閱家二上（課程計畫）",
+        "unitNo": 2
+      },
+      "questions": [
+        {
+          "id": "115-s1-g2-english-u2-q1",
+          "prompt": "早上走進校門看到導護老師和同學時，親切地說「早安。」，要用哪一句英文？",
+          "options": [
+            "Good idea!",
+            "Good morning.",
+            "Come back!",
+            "Thank you."
+          ],
+          "answerIndex": 1,
+          "explanation": "「Good morning.」就是「早安。」的意思，morning 指的是早上。",
+          "hint": "找找看哪一句裡面有表示「早上」的 morning！",
+          "speechText": "Good morning.",
+          "speechLang": "en-US",
+          "tags": [
+            "Greetings",
+            "Polite Expressions"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u2-q2",
+          "prompt": "讀繪本《The Hare and the Tortoise》（龜兔賽跑）時，小烏龜或小寶寶慢慢「爬行」的英文動作字是哪一個？",
+          "options": [
+            "Run",
+            "Listen",
+            "Crawl",
+            "Stop"
+          ],
+          "answerIndex": 2,
+          "explanation": "「Crawl」的意思是「爬、爬行」；「Run」才是「跑、奔跑」。",
+          "hint": "兔子的動作是「跑（Run）」，那小烏龜慢慢「爬」是哪一個字呢？",
+          "speechText": "Crawl",
+          "speechLang": "en-US",
+          "tags": [
+            "The Hare and the Tortoise",
+            "Action Words"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u2-q3",
+          "prompt": "在教室走廊不小心撞到同學時，要先有禮貌地說「對不起。」，英文要怎麼說？",
+          "options": [
+            "Louder.",
+            "Hurry up.",
+            "Run.",
+            "Sorry."
+          ],
+          "answerIndex": 3,
+          "explanation": "「Sorry.」是「對不起。」，不小心撞到人或做錯事時要真誠道歉。",
+          "hint": "點喇叭聽聽看最常聽到的道歉英文單字！",
+          "speechText": "Sorry.",
+          "speechLang": "en-US",
+          "tags": [
+            "Polite Expressions",
+            "Conflict Resolution"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u2-q4",
+          "prompt": "同學不小心踩到你的鞋子並對你說「Sorry.」，想溫柔地回答「沒關係。」，要說哪一句？",
+          "options": [
+            "That is OK.",
+            "Stop!",
+            "Help!",
+            "Come back!"
+          ],
+          "answerIndex": 0,
+          "explanation": "對方說「Sorry.」時，回答「That is OK.」表示「沒關係，不要緊。」。",
+          "hint": "裡面有 OK 的那一句，就是告訴對方「沒關係」喔！",
+          "speechText": "That is OK.",
+          "speechLang": "en-US",
+          "tags": [
+            "Polite Expressions",
+            "Conflict Resolution"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u2-q5",
+          "prompt": "在體育課玩跑步遊戲或故事裡兔子快跑時，代表「跑、奔跑」的英文單字是哪一個？",
+          "options": [
+            "Crawl",
+            "Run",
+            "Woof",
+            "Listen"
+          ],
+          "answerIndex": 1,
+          "explanation": "「Run」的意思是「跑、奔跑」，記得在走廊不要隨便 run，才安全喔！",
+          "hint": "只有三個字母、念起來像「軟（Run）」的那個動作字就是「跑」！",
+          "speechText": "Run",
+          "speechLang": "en-US",
+          "tags": [
+            "Action Words",
+            "The Hare and the Tortoise"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u2-q6",
+          "prompt": "唱字母歌複習「Aa 到 Mm」時，在三個大寫字母「H, I, J」後面接著的大寫字母是哪一個？",
+          "options": [
+            "A",
+            "D",
+            "M",
+            "K"
+          ],
+          "answerIndex": 3,
+          "explanation": "字母順序是 A, B, C, D, E, F, G, H, I, J, K, L, M，所以緊接在 J 後面的是 K。",
+          "hint": "在心裡從 H, I, J 往下唱一個字母看看！",
+          "speechText": "H, I, J, K",
+          "speechLang": "en-US",
+          "tags": [
+            "Aa-Mm",
+            "Alphabet Order"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g2-english-u3",
+      "subjectId": "english",
+      "title": "第10–13週：社區小探險：我的安全好鄰居",
+      "description": "透過繪本《Our Neighbourhood》認識社區裡的安全好幫手，並學會用英文說「我有一個主意！」與「好主意！」。",
+      "difficulty": "medium",
+      "monsterId": "treeGuardian",
+      "monsterName": "社區守望樹靈",
+      "monsterHp": 130,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 2,
+        "publisher": "何嘉仁（選書表）／學校自編彈性課程計畫",
+        "bookSeries": "Fun World 3（選書表）／唱跳趣閱家二上（課程計畫）",
+        "unitNo": 3
+      },
+      "questions": [
+        {
+          "id": "115-s1-g2-english-u3-q1",
+          "prompt": "和小組討論怎麼走上學最安全時，你突然想到一個好方法，想說「我有一個主意！」，要說哪一句英文？",
+          "options": [
+            "I have an idea!",
+            "You're welcome.",
+            "Good morning.",
+            "That is OK."
+          ],
+          "answerIndex": 0,
+          "explanation": "「I have an idea!」的意思是「我有一個主意（點子）！」，idea 就是「主意、想法」。",
+          "hint": "句子裡有「idea（主意）」和「I have（我有）」喔！",
+          "speechText": "I have an idea!",
+          "speechLang": "en-US",
+          "tags": [
+            "Our Neighbourhood",
+            "Daily English"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u3-q2",
+          "prompt": "同學說「I have an idea!」，你聽完覺得他的想法非常棒，想回答「好主意！」，英文怎麼說？",
+          "options": [
+            "Come back!",
+            "Good idea!",
+            "Sorry.",
+            "Hurry up!"
+          ],
+          "answerIndex": 1,
+          "explanation": "稱讚別人的點子很棒時，可以開心地說「Good idea!（好主意！）」。",
+          "hint": "用「好的（Good）」加上「主意（idea）」就是「好主意！」喔！",
+          "speechText": "Good idea!",
+          "speechLang": "en-US",
+          "tags": [
+            "Our Neighbourhood",
+            "Daily English"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u3-q3",
+          "prompt": "在社區探險繪本《Our Neighbourhood》裡，如果孩子在社區迷路或覺得不安全時，可以去哪裡尋求幫助？",
+          "options": [
+            "躲進沒有燈的地下室",
+            "一個人跑進陌生人的車裡",
+            "找警察局、醫務室或愛心服務站的大人幫忙",
+            "站在馬路中間大聲哭"
+          ],
+          "answerIndex": 2,
+          "explanation": "警察局、學校醫務室和社區愛心服務站，都是社區裡可以保護我們的安全好鄰居。",
+          "hint": "想一想這個單元認識了社區裡哪些安全服務的地方！",
+          "speechText": "Our Neighbourhood",
+          "speechLang": "en-US",
+          "tags": [
+            "Our Neighbourhood",
+            "Community Safety"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u3-q4",
+          "prompt": "複習字母「Aa 到 Mm」的字卡時，下面哪一組「大寫和小寫」字母是同一張字卡？",
+          "options": [
+            "A - e",
+            "B - d",
+            "M - w",
+            "H - h"
+          ],
+          "answerIndex": 3,
+          "explanation": "大寫 H 配對小寫 h 完全正確！A 應配 a、B 應配 b、M 應配 m。",
+          "hint": "找找看大寫和小寫屬於同一個字母的那一組！",
+          "speechText": "H, h",
+          "speechLang": "en-US",
+          "tags": [
+            "Aa-Mm",
+            "Uppercase & Lowercase"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u3-q5",
+          "prompt": "排排看小寫字母順序！從 a 往後數到 m 時，緊接在「c, d, e」後面的兩個小寫字母是哪一組？",
+          "options": [
+            "f, g",
+            "g, h",
+            "b, a",
+            "l, m"
+          ],
+          "answerIndex": 0,
+          "explanation": "字母順序是 a, b, c, d, e, f, g, h ...，所以接在 c, d, e 後面的是 f, g。",
+          "hint": "小聲唱一下字母歌：a, b, c, d, e ... 接下來唱哪兩個？",
+          "speechText": "c, d, e, f, g",
+          "speechLang": "en-US",
+          "tags": [
+            "Aa-Mm",
+            "Lowercase Order"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u3-q6",
+          "prompt": "二年級上學期要認識「Aa 到 Mm」共 13 個字母，排在最後一個的大寫與小寫字母是哪一組？",
+          "options": [
+            "K k",
+            "L l",
+            "J j",
+            "M m"
+          ],
+          "answerIndex": 3,
+          "explanation": "「Aa 到 Mm」從 A 開始、到 M 結束，所以最後一個字母是大寫 M 和小寫 m。",
+          "hint": "看一看題目寫的目標「Aa 到 Mm」，最後面寫著哪一個字母呢？",
+          "speechText": "M, m",
+          "speechLang": "en-US",
+          "tags": [
+            "Aa-Mm",
+            "Letters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g2-english-u4",
+      "subjectId": "english",
+      "title": "第14–21週：分享的快樂：安全與自然的共好行動",
+      "description": "從繪本《The Doorbell Rang》體會分享的快樂，並熟練用 This is for you.、Thank you. 和 You're welcome. 禮貌互動。",
+      "difficulty": "medium",
+      "monsterId": "bookSpirit",
+      "monsterName": "分享門鈴精靈",
+      "monsterHp": 140,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 2,
+        "publisher": "何嘉仁（選書表）／學校自編彈性課程計畫",
+        "bookSeries": "Fun World 3（選書表）／唱跳趣閱家二上（課程計畫）",
+        "unitNo": 4
+      },
+      "questions": [
+        {
+          "id": "115-s1-g2-english-u4-q1",
+          "prompt": "在繪本《The Doorbell Rang》的分享時間裡，把香噴噴的餅乾遞給朋友並說「這是給你的。」，英文怎麼說？",
+          "options": [
+            "This is for you.",
+            "Come back!",
+            "Good morning.",
+            "I have an idea!"
+          ],
+          "answerIndex": 0,
+          "explanation": "「This is for you.」的意思是「這是給你的。」，常用在送禮物或分享點心的時候。",
+          "hint": "句子裡有「for you（給你的）」這兩個字喔！",
+          "speechText": "This is for you.",
+          "speechLang": "en-US",
+          "tags": [
+            "The Doorbell Rang",
+            "Sharing"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u4-q2",
+          "prompt": "朋友把貼紙送給你時，你開心地收下並對他說「謝謝你。」，這句英文要怎麼說？",
+          "options": [
+            "Sorry.",
+            "Thank you.",
+            "Stop!",
+            "Crawl!"
+          ],
+          "answerIndex": 1,
+          "explanation": "收到別人的禮物、分享或幫忙時，都要記得有禮貌地說「Thank you.（謝謝你。）」。",
+          "hint": "這是最常用來道謝的禮貌英語喔！",
+          "speechText": "Thank you.",
+          "speechLang": "en-US",
+          "tags": [
+            "Polite Expressions",
+            "Sharing"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u4-q3",
+          "prompt": "當好朋友笑著對你說「Thank you.」時，你想大方回答「不客氣。」，要說哪一句英文？",
+          "options": [
+            "Hurry up!",
+            "Listen!",
+            "You're welcome.",
+            "Sorry."
+          ],
+          "answerIndex": 2,
+          "explanation": "聽到別人說謝謝時，微笑回答「You're welcome.（不客氣。）」非常有禮貌。",
+          "hint": "點喇叭聽聽看「不客氣」怎麼念喔！",
+          "speechText": "You're welcome.",
+          "speechLang": "en-US",
+          "tags": [
+            "Polite Expressions",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u4-q4",
+          "prompt": "在繪本《The Doorbell Rang》（門鈴響了）裡，每當門鈴響起、又有新朋友來作客時，大家怎麼做最快樂？",
+          "options": [
+            "假裝沒人在家不開門",
+            "把餅乾再平分，大家一起開心分享",
+            "趕快把所有餅乾藏進書包裡",
+            "只准大人吃，不讓小孩吃"
+          ],
+          "answerIndex": 1,
+          "explanation": "雖然來的人越來越多、每個人分到的餅乾變少，但大家一起分享點心與快樂，心情反而更幸福。",
+          "hint": "看看這個單元的標題：「分享的快樂」喔！",
+          "speechText": "The Doorbell Rang",
+          "speechLang": "en-US",
+          "tags": [
+            "The Doorbell Rang",
+            "Sharing"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u4-q5",
+          "prompt": "看一看下面四組「英文句子與說話時機」的配對，哪一組完全搭配正確？",
+          "options": [
+            "Stop! — 早上進教室跟老師打招呼",
+            "Thank you. — 不小心踩到同學的鞋子",
+            "This is for you. — 拿點心或卡片送給朋友",
+            "You're welcome. — 請朋友走快一點不要遲到"
+          ],
+          "answerIndex": 2,
+          "explanation": "「This is for you.」是在送東西或分享給別人時說的；問好要說 Good morning、踩到人說 Sorry、請人走快點說 Hurry up。",
+          "hint": "檢查每句英文真正的意思，只有一組情境和英文配對正確喔！",
+          "speechText": "This is for you.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review",
+            "Daily English"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u4-q6",
+          "prompt": "字母「Aa 到 Mm」總複習！下面四組英文字母卡中，哪一組的大小寫完全配對正確？",
+          "options": [
+            "B - d",
+            "D - p",
+            "L - i",
+            "J - j"
+          ],
+          "answerIndex": 3,
+          "explanation": "「J - j」的大寫與小寫配對完全正確！另外三組都把形狀相似的字母弄混了。",
+          "hint": "注意小寫 j 下面有一條彎彎的鉤子，頭上有一點喔！",
+          "speechText": "J, j",
+          "speechLang": "en-US",
+          "tags": [
+            "Aa-Mm",
+            "Review"
+          ]
+        }
+      ]
+    }
+  ]
+}
