@@ -19,6 +19,15 @@ import {
   generateG6S1U8Speed,
   generateG6S1U9Scale,
 } from './g6Math.ts';
+import {
+  generateG4S1U1BigNumbers,
+  generateG4S1U2Multiplication,
+  generateG4S1U4Fractions,
+  generateG4S1U5Kilometers,
+  generateG4S1U6Division,
+  generateG4S1U8TwoStepOps,
+  generateG4S1U9TwoPlaceDecimals,
+} from './g4Math.ts';
 
 export type QuestionGenerator = (count?: number) => Question[];
 
@@ -41,6 +50,13 @@ export const QUESTION_GENERATORS: Record<string, QuestionGenerator> = {
   'g6s1-math-u7': (count = 6) => generateG6S1U7CircleArea(count),
   'g6s1-math-u8': (count = 6) => generateG6S1U8Speed(count),
   'g6s1-math-u9': (count = 6) => generateG6S1U9Scale(count),
+  'g4s1-math-u1': (count = 6) => generateG4S1U1BigNumbers(count),
+  'g4s1-math-u2': (count = 6) => generateG4S1U2Multiplication(count),
+  'g4s1-math-u4': (count = 6) => generateG4S1U4Fractions(count),
+  'g4s1-math-u5': (count = 6) => generateG4S1U5Kilometers(count),
+  'g4s1-math-u6': (count = 6) => generateG4S1U6Division(count),
+  'g4s1-math-u8': (count = 6) => generateG4S1U8TwoStepOps(count),
+  'g4s1-math-u9': (count = 6) => generateG4S1U9TwoPlaceDecimals(count),
 };
 
 const DEFAULT_DYNAMIC_COUNT = 6;

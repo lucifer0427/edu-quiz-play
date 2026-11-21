@@ -1,0 +1,947 @@
+{
+  "packId": "115-s1-g4-english",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 4,
+  "subjectId": "english",
+  "stages": [
+    {
+      "id": "115-s1-g4-english-u0",
+      "subjectId": "english",
+      "title": "開學預備週、Starter & Festival Moon Festival",
+      "description": "複習字母拼讀、世界地圖與教室用語，學會數字 16–20 與 -teen 拼字規律，並認識中秋節（Moon Festival）英語祝福！",
+      "difficulty": "easy",
+      "monsterId": "slime",
+      "monsterName": "數字月餅史萊姆",
+      "monsterHp": 110,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 4,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第三冊",
+        "unitNo": 0
+      },
+      "questions": [
+        {
+          "id": "115-s1-g4-english-u0-q1",
+          "prompt": "在 Starter 數字暖身單元裡，數字「17」的正確英文單字是哪一個？",
+          "options": [
+            "seventeen",
+            "seventy",
+            "sixteen",
+            "nineteen"
+          ],
+          "answerIndex": 0,
+          "explanation": "17 是 seventeen（seven + teen）；seventy 是 70，sixteen 是 16，nineteen 是 19。",
+          "hint": "點喇叭聽聽看「17」的發音，字尾是 -teen 喔！",
+          "speechText": "seventeen",
+          "speechLang": "en-US",
+          "tags": [
+            "Numbers 16-20",
+            "Starter"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u0-q2",
+          "prompt": "觀察 16 到 19（sixteen, seventeen, eighteen, nineteen）都可以看到字尾「-teen」，那麼緊接在後的數字「20」，英文拼法是哪一個？",
+          "options": [
+            "twenteen",
+            "twelve",
+            "twenty",
+            "two"
+          ],
+          "answerIndex": 2,
+          "explanation": "16–19 的字尾是 -teen，但到了整十「20」字尾改為 -ty，拼作 twenty！twelve 是 12，two 是 2。",
+          "hint": "到了「20」就不加 -teen，字尾變成 -ty 囉！",
+          "speechText": "sixteen, seventeen, eighteen, nineteen, twenty",
+          "speechLang": "en-US",
+          "tags": [
+            "Numbers 16-20",
+            "Spelling Pattern"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u0-q3",
+          "prompt": "教室用語（Classroom English）複習：上課鐘響了，老師想請大家保持安靜、專心聽講，最常用哪一句英文指令？",
+          "options": [
+            "Happy Birthday!",
+            "Be quiet, please.",
+            "See you tomorrow.",
+            "I'm hungry."
+          ],
+          "answerIndex": 1,
+          "explanation": "「Be quiet, please.」意思是「請安靜。」是課堂上最常見的教室用語之一。",
+          "hint": "聽聽看哪一句是老師請大家安靜下來時說的話！",
+          "speechText": "Be quiet, please.",
+          "speechLang": "en-US",
+          "tags": [
+            "Classroom English",
+            "Review"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u0-q4",
+          "prompt": "開學複習「World Map」與 26 個英文字母大小寫：下面哪一組字母大小寫配對「正確」，而且剛好是「Taiwan」字首的大寫與小寫？",
+          "options": [
+            "D - b",
+            "P - q",
+            "B - d",
+            "T - t"
+          ],
+          "answerIndex": 3,
+          "explanation": "Taiwan 的第一個字母是 T（小寫 t）；注意區分容易混淆的字母配對：D-d、B-b、P-p、Q-q。",
+          "hint": "Taiwan 開頭唸 /t/，找大寫和小寫都對的那一組！",
+          "speechText": "Taiwan begins with the letter T.",
+          "speechLang": "en-US",
+          "tags": [
+            "ABC Review",
+            "World Map"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u0-q5",
+          "prompt": "節慶單元「Festival: Moon Festival」主要在介紹哪一個重要傳統節日？",
+          "options": [
+            "中秋節（賞月、吃月餅與家人團圓）",
+            "萬聖節（提南瓜燈、要糖果）",
+            "聖誕節（裝飾聖誕樹與互贈禮物）",
+            "端午節（划龍舟、吃粽子）"
+          ],
+          "answerIndex": 0,
+          "explanation": "Moon（月亮）Festival（節慶）就是我們熟悉的「中秋節」，家人會團聚賞月、吃月餅。",
+          "hint": "Moon 的中文意思是「月亮」喔！",
+          "speechText": "Moon Festival",
+          "speechLang": "en-US",
+          "tags": [
+            "Moon Festival",
+            "Culture"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u0-q6",
+          "prompt": "在「Moon Festival」這天，如果想用英文祝外國朋友「中秋節快樂！」，最道地的祝福語是哪一句？",
+          "options": [
+            "Good night!",
+            "Happy New Year!",
+            "Happy Moon Festival!",
+            "Excuse me!"
+          ],
+          "answerIndex": 2,
+          "explanation": "祝賀節慶快樂的常用句型是「Happy + 節慶名稱!」，所以中秋節快樂就是「Happy Moon Festival!」。",
+          "hint": "用 Happy 加上本單元的節慶名稱 Moon Festival！",
+          "speechText": "Happy Moon Festival!",
+          "speechLang": "en-US",
+          "tags": [
+            "Moon Festival",
+            "Festival Greetings"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g4-english-u1",
+      "subjectId": "english",
+      "title": "Unit 1 How’s the Weather?",
+      "description": "學會詢問並回答天氣狀況，練習英語氣象播報與四上子音字母拼讀（b-, p-, d-, t-, g-, c-, v, f-, z-, s-）。",
+      "difficulty": "easy",
+      "monsterId": "parrotKing",
+      "monsterName": "晴雨預報鸚鵡",
+      "monsterHp": 120,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 4,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第三冊",
+        "unitNo": 1
+      },
+      "questions": [
+        {
+          "id": "115-s1-g4-english-u1-q1",
+          "prompt": "早上出門前想用英文問家人「今天天氣如何？」，對應本單元的核心問句是哪一句？",
+          "options": [
+            "How old are you?",
+            "How's the weather?",
+            "What's your name?",
+            "Where are you from?"
+          ],
+          "answerIndex": 1,
+          "explanation": "詢問天氣狀況要用「How's the weather?」（= How is the weather?）。",
+          "hint": "點喇叭聽聽看問「天氣如何」的句子！",
+          "speechText": "How's the weather?",
+          "speechLang": "en-US",
+          "tags": [
+            "Weather",
+            "Sentence Pattern"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u1-q2",
+          "prompt": "當同學問你 \"How's the weather?\"，如果外面太陽很大、天氣晴朗，你要怎麼回答？",
+          "options": [
+            "It's Monday.",
+            "It's sixteen.",
+            "I'm fine.",
+            "It's sunny."
+          ],
+          "answerIndex": 3,
+          "explanation": "回答天氣使用「It's + 天氣形容詞.」，晴天就是「It's sunny.」。",
+          "hint": "sun（太陽）加上字尾變成 sunny，前面用 It's 開頭！",
+          "speechText": "How's the weather? It's sunny.",
+          "speechLang": "en-US",
+          "tags": [
+            "Weather",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u1-q3",
+          "prompt": "小主播在氣象報告看板上看到雨傘和小雨滴圖案，提醒大家出門要帶傘，代表天氣是「下雨的、多雨的」，對應哪一個英文單字？",
+          "options": [
+            "rainy",
+            "windy",
+            "cloudy",
+            "sunny"
+          ],
+          "answerIndex": 0,
+          "explanation": "rain（雨）加上 -y 成為形容詞 rainy（下雨的）；windy 是多風的，cloudy 是多雲的，sunny 是晴朗的。",
+          "hint": "哪一個單字裡藏著「雨」rain 呢？",
+          "speechText": "It's rainy.",
+          "speechLang": "en-US",
+          "tags": [
+            "Weather",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u1-q4",
+          "prompt": "英文氣象預報說：\"It's windy and cloudy today.\" 請問今天的天氣狀況是下列哪一種？",
+          "options": [
+            "晴空萬里而且非常炎熱",
+            "正在下大雪而且地面結冰",
+            "有風又多雲的陰天",
+            "無風無雲的大晴天"
+          ],
+          "answerIndex": 2,
+          "explanation": "windy 意思是「有風的」（來自 wind），cloudy 意思是「多雲的」（來自 cloud），所以是「有風又多雲」。",
+          "hint": "分別想想 wind（風）和 cloud（雲）這兩個字的意思！",
+          "speechText": "It's windy and cloudy today.",
+          "speechLang": "en-US",
+          "tags": [
+            "Weather",
+            "Reading Comprehension"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u1-q5",
+          "prompt": "Phonics 字母拼讀挑戰：在四上字首子音「b-, p-, d-, t-」中，下面哪一個單字的字首子音是「p-」（無聲氣音 /p/）？",
+          "options": [
+            "big",
+            "pig",
+            "dog",
+            "ten"
+          ],
+          "answerIndex": 1,
+          "explanation": "pig 的字首字母是 p，發無聲雙唇音 /p/；big 是 b-，dog 是 d-，ten 是 t-。",
+          "hint": "聽聽看這個單字的發音，找 p 開頭的字！",
+          "speechText": "pig",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "Consonants"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u1-q6",
+          "prompt": "Phonics 聽辨「v, f-」字首音組：下列哪一個單字是以字母「v」開頭，發音時上排牙齒輕觸下唇並發出震動聲？",
+          "options": [
+            "fan",
+            "sun",
+            "zoo",
+            "van"
+          ],
+          "answerIndex": 3,
+          "explanation": "van（廂型車）以 v 開頭，發有聲唇齒音 /v/；fan 是無聲的 f-，sun 是 s-，zoo 是 z-。",
+          "hint": "找字首字母是 v 的那一個單字，點喇叭聽聽 v 和 f 的差別！",
+          "speechText": "van",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "Consonants"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g4-english-u2",
+      "subjectId": "english",
+      "title": "Unit 2 Are You Thirsty?",
+      "description": "學會詢問與表達口渴、飢餓與各種感覺，練習 Yes/No 簡答句型以及字首子音 c-, g-, d- 拼讀。",
+      "difficulty": "medium",
+      "monsterId": "slime",
+      "monsterName": "口渴泡泡史萊姆",
+      "monsterHp": 130,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 4,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第三冊",
+        "unitNo": 2
+      },
+      "questions": [
+        {
+          "id": "115-s1-g4-english-u2-q1",
+          "prompt": "本單元標題問句 \"Are you thirsty?\" 中，單字「thirsty」表示什麼感覺？",
+          "options": [
+            "口渴的",
+            "肚子餓的",
+            "生氣的",
+            "想睡覺的"
+          ],
+          "answerIndex": 0,
+          "explanation": "thirsty 的中文意思是「口渴的」，用來詢問或表達想喝水的感覺。",
+          "hint": "大太陽底下跑步完一直想喝水，就是這個感覺！",
+          "speechText": "Are you thirsty?",
+          "speechLang": "en-US",
+          "tags": [
+            "Feelings",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u2-q2",
+          "prompt": "當同學遞給你水壺並問：\"Are you thirsty?\"，如果你真的很渴，最正確的英語簡答是哪一句？",
+          "options": [
+            "Yes, it is.",
+            "No, I don't.",
+            "Yes, I am.",
+            "Yes, you are."
+          ],
+          "answerIndex": 2,
+          "explanation": "別人用「Are you ...?」問「你……嗎？」，肯定回答自己時主詞要換成 I，所以說「Yes, I am.」。",
+          "hint": "別人問 you（你），回答時要換成「我（I）」喔！",
+          "speechText": "Are you thirsty? Yes, I am.",
+          "speechLang": "en-US",
+          "tags": [
+            "Feelings",
+            "Sentence Pattern"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u2-q3",
+          "prompt": "午餐前媽媽問你：\"Are you hungry?\" 如果你還不餓，下列哪一個否定簡答文法最正確？",
+          "options": [
+            "No, I am.",
+            "Yes, I'm not.",
+            "No, it isn't.",
+            "No, I'm not."
+          ],
+          "answerIndex": 3,
+          "explanation": "「Are you ...?」的否定簡答是「No, I'm not.」（= No, I am not.）。",
+          "hint": "先說 No，後面加上「我不是（I'm not）」！",
+          "speechText": "Are you hungry? No, I'm not.",
+          "speechLang": "en-US",
+          "tags": [
+            "Feelings",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u2-q4",
+          "prompt": "運動會剛跑完大隊接力，大華坐在椅子上喘氣說：\"I'm tired.\" 請問他現在的感覺是什麼？",
+          "options": [
+            "覺得很冷",
+            "覺得疲倦、很累",
+            "覺得很生氣",
+            "覺得很飽"
+          ],
+          "answerIndex": 1,
+          "explanation": "tired 意思是「疲倦的、累的」，跑完步休息時常說「I'm tired.」。",
+          "hint": "剛跑完大隊接力，身體最容易有哪一種感覺？",
+          "speechText": "I'm tired.",
+          "speechLang": "en-US",
+          "tags": [
+            "Feelings",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u2-q5",
+          "prompt": "在「感覺便利貼」的活動中，如果想寫一張小紙條告訴朋友「我好開心！」，應該選用哪一句英文？",
+          "options": [
+            "I'm happy.",
+            "I'm sad.",
+            "I'm angry.",
+            "I'm hungry."
+          ],
+          "answerIndex": 0,
+          "explanation": "happy 是「開心的、快樂的」；sad 是難過的，angry 是生氣的，hungry 是飢餓的。",
+          "hint": "生日快樂歌裡的「快樂」就是這個單字喔！",
+          "speechText": "I'm happy.",
+          "speechLang": "en-US",
+          "tags": [
+            "Feelings",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u2-q6",
+          "prompt": "Phonics 子音拼讀練習：下面哪一個單字開頭的字母「c」，發的音和「cat」裡的 c 一樣都是 /k/？",
+          "options": [
+            "dog",
+            "goat",
+            "cup",
+            "bus"
+          ],
+          "answerIndex": 2,
+          "explanation": "cat 和 cup 的字首字母都是 c，且都發清軟顎塞音 /k/；dog 是 d-，goat 是 g-，bus 是 b-。",
+          "hint": "找同樣以字母 c 開頭、念 /k/ 音的單字！",
+          "speechText": "cat, cup",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "Consonants"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g4-english-u3",
+      "subjectId": "english",
+      "title": "Review 1",
+      "description": "統整複習 Starter 數字、Unit 1 天氣問答、Unit 2 感覺對話，以及英語字母拼讀子音音組！",
+      "difficulty": "medium",
+      "monsterId": "bookSpirit",
+      "monsterName": "雙元複習書靈",
+      "monsterHp": 140,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 4,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第三冊",
+        "unitNo": 3
+      },
+      "questions": [
+        {
+          "id": "115-s1-g4-english-u3-q1",
+          "prompt": "情境對話：Leo 問 \"How's the weather?\"，Amy 擦擦額頭回答：\"It's hot and sunny! ___\" 接著哪一句接在後面表達想喝水的感覺最合理？",
+          "options": [
+            "It's eighteen.",
+            "I'm thirsty.",
+            "I'm rainy.",
+            "You're cloudy."
+          ],
+          "answerIndex": 1,
+          "explanation": "大熱天出太陽（hot and sunny）很容易口渴，接著說「I'm thirsty.（我口渴了）」最符合情境與文法。",
+          "hint": "天氣很熱的時候，身體通常會出現哪一種感覺？",
+          "speechText": "How's the weather? It's hot and sunny! I'm thirsty.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u3-q2",
+          "prompt": "複習疑問句開頭：想問「天氣如何？」與「你餓了嗎？」，兩個句子最前面的字分別應該填什麼？ \"___ the weather?\" / \"___ you hungry?\"",
+          "options": [
+            "What's / Is",
+            "Where's / Do",
+            "Who's / Can",
+            "How's / Are"
+          ],
+          "answerIndex": 3,
+          "explanation": "問天氣如何用「How's the weather?」，問你現在感覺如何用「Are you + 感覺形容詞?」。",
+          "hint": "回想 Unit 1 和 Unit 2 的單元標題問句！",
+          "speechText": "How's the weather? Are you hungry?",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Sentence Pattern"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u3-q3",
+          "prompt": "比較 Unit 1 與 Unit 2 的回答主詞：回答「天氣多雲」和回答「我很開心」時，句子的主詞分別要用哪一組？",
+          "options": [
+            "描述天氣用 It's ...；描述自己感覺用 I'm ...",
+            "描述天氣用 I'm ...；描述自己感覺用 It's ...",
+            "兩句都一定要用 They're ... 開頭",
+            "兩句都一定要用 He's ... 開頭"
+          ],
+          "answerIndex": 0,
+          "explanation": "英語描述天氣時用虛主詞 It（It's cloudy.），描述自己的感受則用第一人稱 I（I'm happy.）。",
+          "hint": "天氣不能用「我」，自己的感覺也不能用「它」喔！",
+          "speechText": "It's cloudy. I'm happy.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u3-q4",
+          "prompt": "綜合複習數字 16–20：運動會要點名，「19 位學生」的英文怎麼表達？",
+          "options": [
+            "nine students",
+            "ninety students",
+            "nineteen students",
+            "sixteen students"
+          ],
+          "answerIndex": 2,
+          "explanation": "19 是 nineteen；nine 是 9，ninety 是 90，sixteen 是 16。",
+          "hint": "9 是 nine，加上十幾的字尾 -teen！",
+          "speechText": "nineteen students",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Numbers 16-20"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u3-q5",
+          "prompt": "Phonics 字首音「s-, z-」辨識：下列哪一個英文單字和「zebra」一樣，開頭子音發震動的 /z/ 音？",
+          "options": [
+            "sun",
+            "zoo",
+            "fan",
+            "van"
+          ],
+          "answerIndex": 1,
+          "explanation": "zebra（斑馬）和 zoo（動物園）都以字母 z 開頭，發有聲齒齦擦音 /z/；sun 則是無聲的 s-。",
+          "hint": "斑馬通常住在哪裡呢？找同樣是 z 開頭的單字！",
+          "speechText": "zebra, zoo",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "Review 1"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u3-q6",
+          "prompt": "Phonics 韻文複習：在「bag, bed, box」這三個字中，它們共同的字首子音字母是哪一個？",
+          "options": [
+            "d-",
+            "p-",
+            "g-",
+            "b-"
+          ],
+          "answerIndex": 3,
+          "explanation": "bag（袋子）、bed（床）、box（盒子）的字首都是 b，發有聲雙唇塞音 /b/。",
+          "hint": "看看三個單字的第一個字母，並聽聽看聲音！",
+          "speechText": "bag, bed, box",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "Consonants"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g4-english-u4",
+      "subjectId": "english",
+      "title": "Unit 3 What Are These?",
+      "description": "學會詢問並回答複數的食物與水果名稱，區分單數（this / It's）與複數（these / They're）的英語用法！",
+      "difficulty": "medium",
+      "monsterId": "treeGuardian",
+      "monsterName": "水果籃守衛樹",
+      "monsterHp": 150,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 4,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第三冊",
+        "unitNo": 4
+      },
+      "questions": [
+        {
+          "id": "115-s1-g4-english-u4-q1",
+          "prompt": "單元標題問句 \"What are these?\" 用在指著近處「兩個以上」的食物或水果時，中文意思是哪一項？",
+          "options": [
+            "這一個是什麼？",
+            "你想要喝什麼？",
+            "這些是什麼？",
+            "今天天氣如何？"
+          ],
+          "answerIndex": 2,
+          "explanation": "these 指近處「這些（複數）」，所以「What are these?」意思是「這些是什麼？」。",
+          "hint": "注意句中的 are 和 these，代表數量「超過一個」喔！",
+          "speechText": "What are these?",
+          "speechLang": "en-US",
+          "tags": [
+            "Sentence Pattern",
+            "Food and Fruit"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u4-q2",
+          "prompt": "朋友指著桌上一籃蘋果問你：\"What are these?\" 下列哪一個英語回答文法最正確？",
+          "options": [
+            "They're apples.",
+            "It's an apple.",
+            "They're apple.",
+            "I'm an apple."
+          ],
+          "answerIndex": 0,
+          "explanation": "問句是複數的「What are these?」，回答要用複數主詞與動詞「They're（= They are）+ 複數名詞 apples.」。",
+          "hint": "複數問句要用「They're」開頭，而且水果字尾別忘了加 -s！",
+          "speechText": "What are these? They're apples.",
+          "speechLang": "en-US",
+          "tags": [
+            "Food and Fruit",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u4-q3",
+          "prompt": "餐桌上如果只有「一根香蕉」，你會問 \"What's this?\"；如果是「很多根香蕉」，要把問句改成哪一句？",
+          "options": [
+            "What's this?",
+            "How are you?",
+            "Are you bananas?",
+            "What are these?"
+          ],
+          "answerIndex": 3,
+          "explanation": "單數近物用「What's this?」，變成兩根以上的複數近物時，要改用「What are these?」。",
+          "hint": "把 is 換成 are，把 this 換成複數的 these！",
+          "speechText": "What are these? They're bananas.",
+          "speechLang": "en-US",
+          "tags": [
+            "Singular vs Plural",
+            "Sentence Pattern"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u4-q4",
+          "prompt": "在水果攤前，老闆拿出一盒水果介紹說：\"They're oranges.\" 請問盒子裡裝的是哪一種水果？",
+          "options": [
+            "草莓",
+            "柳橙、橘子",
+            "香蕉",
+            "西瓜"
+          ],
+          "answerIndex": 1,
+          "explanation": "orange 除了指橘色外，作為水果名詞就是「柳橙、橘子」，複數寫作 oranges。",
+          "hint": "想想看哪一種水果和「橘色」是同一個英文單字！",
+          "speechText": "They're oranges.",
+          "speechLang": "en-US",
+          "tags": [
+            "Food and Fruit",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u4-q5",
+          "prompt": "英語裡要表達「兩顆以上」的常見可數食物名詞時，通常會在字尾加上 -s 或 -es。下面哪一個複數寫法「正確」？",
+          "options": [
+            "bananaes",
+            "apple's",
+            "eggs",
+            "a grapes"
+          ],
+          "answerIndex": 2,
+          "explanation": "egg 的複數直接加 -s 變成 eggs；banana 複數是 bananas（不是 -es），apple's 是所有格，a 不能接複數 grapes。",
+          "hint": "直接找出字尾正確加 -s 的單字！",
+          "speechText": "They're eggs.",
+          "speechLang": "en-US",
+          "tags": [
+            "Plural Nouns",
+            "Food and Fruit"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u4-q6",
+          "prompt": "完成句子：\"Look! ___ are grapes.\" 因為後面的動詞是 are，且 grapes 是複數，空格應該填入哪一個字？",
+          "options": [
+            "These",
+            "This",
+            "It",
+            "He"
+          ],
+          "answerIndex": 0,
+          "explanation": "複數名詞 grapes 搭配複數動詞 are，指近處多個物品要用複數指示代名詞 These（這些）。",
+          "hint": "This 是單數「這一個」，複數「這些」要換成哪一個字？",
+          "speechText": "These are grapes.",
+          "speechLang": "en-US",
+          "tags": [
+            "Grammar",
+            "Plural Nouns"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g4-english-u5",
+      "subjectId": "english",
+      "title": "Unit 4 Do You Want Some Pizza?",
+      "description": "學習用英文詢問對方想要吃喝什麼，練習禮貌的點餐與回覆表達（Yes, please. / No, thank you.）！",
+      "difficulty": "hard",
+      "monsterId": "flameDragon",
+      "monsterName": "披薩烘焙火龍",
+      "monsterHp": 170,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 4,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第三冊",
+        "unitNo": 5
+      },
+      "questions": [
+        {
+          "id": "115-s1-g4-english-u5-q1",
+          "prompt": "本單元標題問句 \"Do you want some pizza?\" 是什麼意思？",
+          "options": [
+            "披薩多少錢？",
+            "你想要吃一些披薩嗎？",
+            "你會做披薩嗎？",
+            "披薩放在哪裡？"
+          ],
+          "answerIndex": 1,
+          "explanation": "want 是「想要」，some 是「一些」，因此「Do you want some pizza?」意思是「你想要一些披薩嗎？」。",
+          "hint": "關鍵動詞 want 表示「想要」喔！",
+          "speechText": "Do you want some pizza?",
+          "speechLang": "en-US",
+          "tags": [
+            "Food and Drinks",
+            "Sentence Pattern"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u5-q2",
+          "prompt": "主人端出剛烤好的披薩問你：\"Do you want some pizza?\" 如果你很想吃，最有禮貌又自然的英語回答是哪一句？",
+          "options": [
+            "Yes, I am.",
+            "No, I'm not.",
+            "It's pizza.",
+            "Yes, please."
+          ],
+          "answerIndex": 3,
+          "explanation": "面對別人熱心提供食物或飲料時，想接受可以禮貌地說「Yes, please.（好的，麻煩你／謝謝！）」。",
+          "hint": "答應對方好意時，別忘了加上禮貌的「請（please）」！",
+          "speechText": "Do you want some pizza? Yes, please.",
+          "speechLang": "en-US",
+          "tags": [
+            "Polite Response",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u5-q3",
+          "prompt": "朋友問你：\"Do you want some juice?\" 但你剛喝完水並不想要，最有禮貌的婉拒說法是哪一句？",
+          "options": [
+            "No, thank you.",
+            "No, I am.",
+            "Yes, it is.",
+            "How's the weather?"
+          ],
+          "answerIndex": 0,
+          "explanation": "禮貌婉拒別人提供的食物或飲料，英語最常說「No, thank you.（不用了，謝謝你。）」。",
+          "hint": "拒絕別人的好意時，要加上感謝的「thank you」喔！",
+          "speechText": "Do you want some juice? No, thank you.",
+          "speechLang": "en-US",
+          "tags": [
+            "Polite Response",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u5-q4",
+          "prompt": "在「食物與飲料」點餐活動中，店員問：\"What do you want to drink?\"（你想喝什麼？），下列哪一個回答符合「飲料」類的選項？",
+          "options": [
+            "I want some cake.",
+            "I'm thirsty.",
+            "I want some milk.",
+            "They're apples."
+          ],
+          "answerIndex": 2,
+          "explanation": "drink 指喝的飲料，milk（牛奶）是飲料；cake（蛋糕）和 apples（蘋果）屬於固體食物，I'm thirsty 沒有回答要點什麼飲料。",
+          "hint": "找出選項裡可以「用喝的」飲品名稱！",
+          "speechText": "I want some milk.",
+          "speechLang": "en-US",
+          "tags": [
+            "Food and Drinks",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u5-q5",
+          "prompt": "完成疑問句：\"___ you want some noodles?\"（你想要一些麵嗎？）空格裡應該填入哪一個助動詞？",
+          "options": [
+            "Are",
+            "Do",
+            "Is",
+            "Am"
+          ],
+          "answerIndex": 1,
+          "explanation": "want 是一般動詞，詢問「你想要……嗎？」必須用助動詞 Do 開頭，組成「Do you want ...?」。",
+          "hint": "句子裡已經有一般動詞 want 了，開頭不能用 Are 喔！",
+          "speechText": "Do you want some noodles?",
+          "speechLang": "en-US",
+          "tags": [
+            "Grammar",
+            "Sentence Pattern"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u5-q6",
+          "prompt": "在購物對話中，如果想禮貌地說「我想要一些餅乾和牛奶」，下列哪一句的文法最正確？",
+          "options": [
+            "I want a milks.",
+            "Me am cookies.",
+            "What are some cookies?",
+            "I want some cookies and milk, please."
+          ],
+          "answerIndex": 3,
+          "explanation": "milk 為不可數名詞不加 a 或 -s，cookies（複數）與 milk（不可數）都可以搭配 some，句尾加上 please 更有禮貌！",
+          "hint": "milk 不能數一兩滴，所以不加 a 也不加 -s，搭配 some 就對了！",
+          "speechText": "I want some cookies and milk, please.",
+          "speechLang": "en-US",
+          "tags": [
+            "Food and Drinks",
+            "Shopping Dialogue"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g4-english-u6",
+      "subjectId": "english",
+      "title": "Review 2, Final Review & Culture Food Around the World",
+      "description": "統整全冊天氣、感覺、食物飲料句型與子音拼讀，並透過世界美食文化單元認識及尊重各國飲食風土民情！",
+      "difficulty": "hard",
+      "monsterId": "parrotKing",
+      "monsterName": "世界美食鸚鵡王",
+      "monsterHp": 180,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 4,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第三冊",
+        "unitNo": 6
+      },
+      "questions": [
+        {
+          "id": "115-s1-g4-english-u6-q1",
+          "prompt": "Review 2 綜合對話：Lisa 指著盤子問 \"What are these?\" 老闆微笑說 \"They're cookies. Do you want some?\" 如果 Lisa 很想吃，該怎麼禮貌接話？",
+          "options": [
+            "Yes, please. Thank you!",
+            "It's sunny.",
+            "No, I'm not.",
+            "I'm seventeen."
+          ],
+          "answerIndex": 0,
+          "explanation": "回應「Do you want some?」若要接受，用「Yes, please. Thank you!」最禮貌得體。",
+          "hint": "別人問你想要吃一些嗎，開心接受的禮貌說法是什麼？",
+          "speechText": "They're cookies. Do you want some? Yes, please.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u6-q2",
+          "prompt": "期末文法總複習：問「你口渴嗎？」說 \"Are you thirsty?\"，問「你想要一些水嗎？」卻說 \"Do you want some water?\" 為什麼開頭用字不同？",
+          "options": [
+            "沒有原因，只是隨便挑選的",
+            "因為 thirsty 是天氣詞，water 是數字",
+            "因為 thirsty 是形容詞要搭配 Are；want 是一般動詞要搭配助動詞 Do",
+            "因為只有早上才用 Are，晚上都要用 Do"
+          ],
+          "answerIndex": 2,
+          "explanation": "形容詞（如 thirsty, hungry, happy）用 be 動詞 Are 形成疑問句；一般動作或意願動詞（如 want）則用助動詞 Do。",
+          "hint": "比較看看兩個句子裡的關鍵字「thirsty（形容詞）」和「want（動詞）」詞性有什麼不同！",
+          "speechText": "Are you thirsty? Do you want some water?",
+          "speechLang": "en-US",
+          "tags": [
+            "Final Review",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u6-q3",
+          "prompt": "文化單元「Food Around the World」希望我們認識外國飲食風土民情。面對世界各地不同的飲食文化與用餐習慣，下列哪一種態度最值得學習？",
+          "options": [
+            "嘲笑和自己平常習慣不一樣的餐具或吃法",
+            "抱持開放與尊重的心認識各國特色料理與背後的文化故事",
+            "認為只有自己吃過的食物才算美食",
+            "拒絕了解其他國家的飲食習俗"
+          ],
+          "answerIndex": 1,
+          "explanation": "四上學習目標強調從多元文化觀點了解並尊重不同文化及習俗，用欣賞的眼光認識世界美食能拓寬國際視野。",
+          "hint": "尊重多元文化才是最好的國際小公民表現喔！",
+          "speechText": "Food around the world is special and wonderful.",
+          "speechLang": "en-US",
+          "tags": [
+            "Culture",
+            "Food Around the World"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u6-q4",
+          "prompt": "在認識「Food Around the World」的英語字詞時，下列哪一組食物名稱與常見的飲食印象配對最合理？",
+          "options": [
+            "pizza — 一種天氣預報",
+            "milk — 固體的點心水果",
+            "bananas — 只有一個單數蘋果",
+            "sushi 與 noodles — 壽司與麵條，屬於世界常見的特色美食"
+          ],
+          "answerIndex": 3,
+          "explanation": "sushi（壽司）和 noodles（麵條）都是世界中非常具代表性的美食單字。",
+          "hint": "點喇叭聽聽看「sushi, pizza, and noodles」，哪一個配對正確？",
+          "speechText": "sushi, pizza, and noodles",
+          "speechLang": "en-US",
+          "tags": [
+            "Culture",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u6-q5",
+          "prompt": "讀者劇場期末情境總複習：朋友問 \"How's the weather?\" 又問 \"Are you hungry?\" 如果今天涼爽且你有點餓、想要點飯吃，哪一組回答全部正確？",
+          "options": [
+            "It's cool. Yes, I'm hungry. I want some rice, please.",
+            "I'm cool. Yes, it is. I want a rices.",
+            "They're weather. No, I don't. It's twenty.",
+            "It's hungry. Yes, I'm cool. No, thank you."
+          ],
+          "answerIndex": 0,
+          "explanation": "天氣用 It's cool.；自己餓了用 Yes, I'm hungry.；點餐飯食用不可數搭配 some（I want some rice, please.），三句皆正確自然。",
+          "hint": "逐句檢查：天氣用 It's，感覺用 I'm，rice 不可數搭配 some！",
+          "speechText": "It's cool. Yes, I'm hungry. I want some rice, please.",
+          "speechLang": "en-US",
+          "tags": [
+            "Final Review",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u6-q6",
+          "prompt": "全冊 Phonics 子音總複習：依序念出「sun, fish, goat, ten」這四個單字，它們的第一個子音字母分別是哪一組？",
+          "options": [
+            "z-, v-, c-, d-",
+            "s-, p-, b-, d-",
+            "s-, f-, g-, t-",
+            "c-, f-, g-, p-"
+          ],
+          "answerIndex": 2,
+          "explanation": "sun (s-)、fish (f-)、goat (g-)、ten (t-) 皆為四上課綱學習的子音拼讀音組。",
+          "hint": "依序對照四個單字的第一個字母：s, f, g, t！",
+          "speechText": "sun, fish, goat, ten",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "Final Review"
+          ]
+        }
+      ]
+    }
+  ]
+}
