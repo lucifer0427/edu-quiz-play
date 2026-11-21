@@ -1,0 +1,1495 @@
+{
+  "grade": 4,
+  "entries": [
+    {
+      "academicYear": 115,
+      "semester": 1,
+      "grade": 4,
+      "subjectId": "mandarin",
+      "subjectLabel": "語文-國語文",
+      "publisher": "康軒",
+      "bookSeries": "第七冊",
+      "status": "partial",
+      "unitCount": 4,
+      "lessonCount": 18,
+      "units": [
+        {
+          "unitNo": 1,
+          "title": "第一單元 歡樂好時光",
+          "lessonCount": 4,
+          "lessonTitles": [
+            "第一課 水路小高手（進度總表作：水陸小高手）",
+            "第二課 放學後",
+            "第三課 我的籃球夢",
+            "學習地圖一"
+          ]
+        },
+        {
+          "unitNo": 2,
+          "title": "第二單元 人物寫真",
+          "lessonCount": 5,
+          "lessonTitles": [
+            "第四課 永遠的馬偕",
+            "第五課 假如給我三天光明",
+            "第六課 攀登生命的高峰",
+            "學習地圖二",
+            "閱讀階梯一 種樹的人"
+          ]
+        },
+        {
+          "unitNo": 3,
+          "title": "第三單元 放眼看世界",
+          "lessonCount": 4,
+          "lessonTitles": [
+            "第七課 美味的一堂課",
+            "第八課 建築界的長頸鹿",
+            "第九課 請到我的家鄉來",
+            "學習地圖三"
+          ]
+        },
+        {
+          "unitNo": 4,
+          "title": "第四單元 魔法變變變",
+          "lessonCount": 5,
+          "lessonTitles": [
+            "第十課 奇幻旋律",
+            "第十一課 兔子先生等等我",
+            "第十二課 老鞋匠和小精靈",
+            "學習地圖四",
+            "閱讀階梯二 國王的噴泉"
+          ]
+        }
+      ]
+    },
+    {
+      "academicYear": 115,
+      "semester": 1,
+      "grade": 4,
+      "subjectId": "math",
+      "subjectLabel": "數學",
+      "publisher": "翰林",
+      "bookSeries": "第七冊",
+      "status": "partial",
+      "unitCount": 10,
+      "lessonCount": 23,
+      "units": [
+        {
+          "unitNo": 1,
+          "title": "第1章 一億以內的數",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "1-1 十萬以內的數、1-2 一億以內的數",
+            "1-3 大數的大小比較與加減、練習園地(一)"
+          ]
+        },
+        {
+          "unitNo": 2,
+          "title": "第2章 乘法",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "2-1 乘以一、二位數、2-2 乘以三位數",
+            "2-3 乘法算式的規律、練習園地(二)"
+          ]
+        },
+        {
+          "unitNo": 3,
+          "title": "第3章 角度",
+          "lessonCount": 3,
+          "lessonTitles": [
+            "3-1 認識量角器、3-2 測量與畫角",
+            "3-3 旋轉角、3-4 角度的計算、練習園地(三)",
+            "遊戲中學數學（一）"
+          ]
+        },
+        {
+          "unitNo": 4,
+          "title": "第4章 假分數與帶分數",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "4-1 認識真分數、假分數與帶分數、4-2 假分數與帶分數互換",
+            "4-3 分數的大小比較、4-4 認識分數數線、練習園地(四)"
+          ]
+        },
+        {
+          "unitNo": 5,
+          "title": "第5章 公里（含學習加油讚一）",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "5-1 認識公里、5-2 長度的換算與比較、5-3 長度的計算、練習園地(五)",
+            "學習加油讚（一）：綜合與應用、探索中學數學、看繪本學數學"
+          ]
+        },
+        {
+          "unitNo": 6,
+          "title": "第6章 除法",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "6-1 除以一位數、6-2 除以二位數",
+            "6-3 除以三位數、6-4 多個 0 的除法問題、練習園地(六)"
+          ]
+        },
+        {
+          "unitNo": 7,
+          "title": "第7章 三角形與全等",
+          "lessonCount": 3,
+          "lessonTitles": [
+            "7-1 三角形的分類、7-2 畫三角形",
+            "7-3 認識全等、練習園地(七)",
+            "遊戲中學數學（二）"
+          ]
+        },
+        {
+          "unitNo": 8,
+          "title": "第8章 兩步驟問題與併式",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "8-1 加與減、8-2 乘除與加減",
+            "8-3 乘與除、練習園地(八)"
+          ]
+        },
+        {
+          "unitNo": 9,
+          "title": "第9章 二位小數",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "9-1 認識二位小數、9-2 認識百分位與小數化聚",
+            "9-3 長度與小數、9-4 小數的加法與減法、練習園地(九)"
+          ]
+        },
+        {
+          "unitNo": 10,
+          "title": "第10章 統計圖表（含學習加油讚二與數學園地）",
+          "lessonCount": 3,
+          "lessonTitles": [
+            "10-1 報讀長條圖、10-2 製作長條圖",
+            "10-3 報讀折線圖、學習加油讚(二)：綜合與應用、探索中學數學、看繪本學數學",
+            "數學園地：世界最長的距離、動腦玩創意"
+          ]
+        }
+      ]
+    },
+    {
+      "academicYear": 115,
+      "semester": 1,
+      "grade": 4,
+      "subjectId": "english",
+      "subjectLabel": "語文-英語文",
+      "publisher": "翰林",
+      "bookSeries": "Here We Go 第三冊",
+      "status": "partial",
+      "unitCount": 7,
+      "lessonCount": 10,
+      "units": [
+        {
+          "unitNo": 0,
+          "title": "開學預備週、Starter & Festival Moon Festival",
+          "lessonCount": 3,
+          "lessonTitles": [
+            "開學預備週 World Map, ABC Review, Phonics Review, Word & Sentence Review, Classroom English",
+            "Starter",
+            "節慶 Festival Moon Festival（中秋節）"
+          ]
+        },
+        {
+          "unitNo": 1,
+          "title": "Unit 1 How’s the Weather?",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "天氣 — Unit 1 How’s the Weather?（含第一次評量 Exam 1）"
+          ]
+        },
+        {
+          "unitNo": 2,
+          "title": "Unit 2 Are You Thirsty?",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "感覺 — Unit 2 Are You Thirsty?"
+          ]
+        },
+        {
+          "unitNo": 3,
+          "title": "Review 1",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "複習一 Review 1"
+          ]
+        },
+        {
+          "unitNo": 4,
+          "title": "Unit 3 What Are These?",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "食物與水果 — Unit 3 What Are These?（含第二次評量 Exam 2）"
+          ]
+        },
+        {
+          "unitNo": 5,
+          "title": "Unit 4 Do You Want Some Pizza?",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "食物與飲料 — Unit 4 Do You Want Some Pizza?"
+          ]
+        },
+        {
+          "unitNo": 6,
+          "title": "Review 2, Final Review & Culture Food Around the World",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "複習二、總複習 Review 2、Final Review",
+            "文化、第三次評量 Culture Food Around the World、Exam 3、讀者劇場"
+          ]
+        }
+      ]
+    },
+    {
+      "academicYear": 115,
+      "semester": 1,
+      "grade": 4,
+      "subjectId": "science",
+      "subjectLabel": "自然科學",
+      "publisher": "康軒",
+      "bookSeries": "第三冊",
+      "status": "partial",
+      "unitCount": 4,
+      "lessonCount": 27,
+      "units": [
+        {
+          "unitNo": 1,
+          "title": "第一單元（課程架構表為圖片未擷取文字；活動 1-1～3-2：地表環境、物質與地震）",
+          "lessonCount": 6,
+          "lessonTitles": [
+            "【活動1-1】地表環境有什麼",
+            "【活動1-2】地表物質大不同",
+            "【活動2-1】變動的大地",
+            "【活動2-2】人類對大地的影響",
+            "【活動3-1】地震了",
+            "【活動3-2】地震防災準備"
+          ]
+        },
+        {
+          "unitNo": 2,
+          "title": "第二單元（課程架構表為圖片未擷取文字；活動 1-1～3-2：生物與水域環境）",
+          "lessonCount": 6,
+          "lessonTitles": [
+            "【活動1-1】認識生物生存的環境",
+            "【活動1-2】拜訪水域環境",
+            "【活動2-1】認識水生植物",
+            "【活動2-2】認識水生動物",
+            "【活動3-1】環境提供豐富資源",
+            "【活動3-2】愛護水域環境"
+          ]
+        },
+        {
+          "unitNo": 3,
+          "title": "第三單元（課程架構表為圖片未擷取文字；活動 1-1～3-2：聲音與光）",
+          "lessonCount": 8,
+          "lessonTitles": [
+            "【活動1-1】聲音的產生",
+            "【活動1-2】聲音的大小",
+            "【活動1-3】聲音的傳播",
+            "【活動2-1】生活中的光",
+            "【活動2-2】光如何行進",
+            "【活動2-3】光的反射",
+            "【活動3-1】生活中的聲與光",
+            "【活動3-2】聲光活動"
+          ]
+        },
+        {
+          "unitNo": 4,
+          "title": "第四單元（課程架構表為圖片未擷取文字；活動 1-1～3-2 與科學閱讀：電路與能源）",
+          "lessonCount": 7,
+          "lessonTitles": [
+            "【活動1-1】燈泡亮了",
+            "【活動1-2】電路與開關",
+            "【活動2-1】電池的串聯和並聯",
+            "【活動2-2】燈泡的串聯和並聯",
+            "【活動3-1】認識小馬達",
+            "【活動3-2】用電安全",
+            "【科學閱讀】"
+          ]
+        }
+      ]
+    },
+    {
+      "academicYear": 115,
+      "semester": 1,
+      "grade": 4,
+      "subjectId": "social",
+      "subjectLabel": "社會",
+      "publisher": "南一",
+      "bookSeries": "第三冊",
+      "status": "partial",
+      "unitCount": 5,
+      "lessonCount": 15,
+      "units": [
+        {
+          "unitNo": 1,
+          "title": "一、交通與訊息",
+          "lessonCount": 4,
+          "lessonTitles": [
+            "1.陸地的運輸",
+            "2.船運與空運",
+            "3.訊息的傳播",
+            "〈玩探究〉眼見為憑？分辨真假訊息"
+          ]
+        },
+        {
+          "unitNo": 2,
+          "title": "二、地圖上的家鄉",
+          "lessonCount": 3,
+          "lessonTitles": [
+            "1.閱讀地圖認識家鄉",
+            "2.家鄉的地圖",
+            "〈玩探究〉善用地圖探究家鄉"
+          ]
+        },
+        {
+          "unitNo": 3,
+          "title": "三、認識家鄉景觀",
+          "lessonCount": 3,
+          "lessonTitles": [
+            "1.家鄉的景觀",
+            "2.家鄉景觀與生活",
+            "〈玩探究〉寫在牆上的故事"
+          ]
+        },
+        {
+          "unitNo": 4,
+          "title": "四、家鄉的節慶",
+          "lessonCount": 4,
+          "lessonTitles": [
+            "1.家鄉的傳統節慶",
+            "2.家鄉的特色節慶活動",
+            "3.發現生活中的節日",
+            "〈玩探究〉尋找生活中的節慶"
+          ]
+        },
+        {
+          "unitNo": 5,
+          "title": "〔探究〕家鄉的生活￭探究方法123（另附桃園在地化課程《品桃園》）",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "〔探究〕家鄉的生活￭探究方法123"
+          ]
+        }
+      ]
+    },
+    {
+      "academicYear": 115,
+      "semester": 1,
+      "grade": 4,
+      "subjectId": "arts",
+      "subjectLabel": "藝術",
+      "publisher": "翰林",
+      "bookSeries": "第三冊",
+      "status": "partial",
+      "unitCount": 4,
+      "lessonCount": 12,
+      "units": [
+        {
+          "unitNo": 1,
+          "title": "第壹單元 視覺萬花筒",
+          "lessonCount": 4,
+          "lessonTitles": [
+            "一、點點滴滴",
+            "二、與你連線",
+            "三、面面俱到",
+            "四、點、線、面的組合"
+          ]
+        },
+        {
+          "unitNo": 2,
+          "title": "第貳單元 表演任我行",
+          "lessonCount": 3,
+          "lessonTitles": [
+            "一、聲音百變秀",
+            "二、舞動身體樂韻律",
+            "三、我的夢想"
+          ]
+        },
+        {
+          "unitNo": 3,
+          "title": "第參單元 音樂美樂地",
+          "lessonCount": 4,
+          "lessonTitles": [
+            "一、繪聲繪色萬花筒",
+            "二、一拍擊合",
+            "三、美妙的樂音",
+            "四、歡樂感恩的樂章（架構表作：四．感恩歡樂的樂章；第18週含直笛吹奏練習）"
+          ]
+        },
+        {
+          "unitNo": 4,
+          "title": "第肆單元 統整課程",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "藝遊點線面"
+          ]
+        }
+      ]
+    },
+    {
+      "academicYear": 115,
+      "semester": 1,
+      "grade": 4,
+      "subjectId": "health-pe",
+      "subjectLabel": "健康與體育",
+      "publisher": "翰林",
+      "bookSeries": "第七冊",
+      "status": "partial",
+      "unitCount": 7,
+      "lessonCount": 21,
+      "units": [
+        {
+          "unitNo": 1,
+          "title": "第一單元 飲食智慧王",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "活動1 飲食新概念",
+            "活動2 飲食生活面面觀"
+          ]
+        },
+        {
+          "unitNo": 2,
+          "title": "第二單元 快樂每一天",
+          "lessonCount": 3,
+          "lessonTitles": [
+            "活動1 校慶運動會",
+            "活動2 明日之星",
+            "活動3 我愛我的家"
+          ]
+        },
+        {
+          "unitNo": 3,
+          "title": "第三單元 克癮防衛隊",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "活動1 消滅菸蟲行動",
+            "活動2 癮力效應"
+          ]
+        },
+        {
+          "unitNo": 4,
+          "title": "第四單元 體能我最棒",
+          "lessonCount": 3,
+          "lessonTitles": [
+            "活動1 體適能知多少",
+            "活動2 體適能大挑戰",
+            "活動3 支撐擺盪"
+          ]
+        },
+        {
+          "unitNo": 5,
+          "title": "第五單元 運動力與美",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "活動1 「鈴」聲響起",
+            "活動2 飛天旋轉"
+          ]
+        },
+        {
+          "unitNo": 6,
+          "title": "第六單元 跑跳擲我真行",
+          "lessonCount": 3,
+          "lessonTitles": [
+            "活動1 更快、更高、更強",
+            "活動2 田徑跑跳擲",
+            "活動3 誰能擲得遠"
+          ]
+        },
+        {
+          "unitNo": 7,
+          "title": "第七單元 運動衝衝衝",
+          "lessonCount": 6,
+          "lessonTitles": [
+            "活動1 快接快傳",
+            "活動2 運球好好玩",
+            "活動3 運球追追追",
+            "活動4 防守不漏接",
+            "活動5 防守九人組",
+            "活動6 隔網出擊（架構表圖框裁切作：活動六 隔網）"
+          ]
+        }
+      ]
+    },
+    {
+      "academicYear": 115,
+      "semester": 1,
+      "grade": 4,
+      "subjectId": "integrative",
+      "subjectLabel": "綜合活動",
+      "publisher": "南一",
+      "bookSeries": "第三冊",
+      "status": "partial",
+      "unitCount": 5,
+      "lessonCount": 10,
+      "units": [
+        {
+          "unitNo": 1,
+          "title": "一、學習快易通",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "1.學習有妙方",
+            "2.學習行動力"
+          ]
+        },
+        {
+          "unitNo": 2,
+          "title": "二、啟動心能量",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "1.生活事件簿",
+            "2.生命的舵手"
+          ]
+        },
+        {
+          "unitNo": 3,
+          "title": "三、行行出狀元",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "1.行業知多少",
+            "2.工作甘苦談"
+          ]
+        },
+        {
+          "unitNo": 4,
+          "title": "四、社區好資源",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "1.社區資源探索",
+            "2.社區便利行"
+          ]
+        },
+        {
+          "unitNo": 5,
+          "title": "五、危機急轉彎",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "1.護我行動GO",
+            "2.勇敢說出來"
+          ]
+        }
+      ]
+    },
+    {
+      "academicYear": 115,
+      "semester": 1,
+      "grade": 4,
+      "subjectId": "computer",
+      "subjectLabel": "電腦（彈性學習課程：數位創客）",
+      "publisher": "無限可能＋巨岩（選書表）／學校自編數位創客課程計畫",
+      "bookSeries": "Google網路歡樂競技場+canva（選書表）／數位創客四上（課程計畫）",
+      "status": "partial",
+      "unitCount": 8,
+      "lessonCount": 8,
+      "units": [
+        {
+          "unitNo": 1,
+          "title": "第1週：數位啟航：座艙約定與雲端門票",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "數位啟航：座艙約定與雲端門票"
+          ]
+        },
+        {
+          "unitNo": 2,
+          "title": "第2–3週：雲端教室營地：跨平台學習護照",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "雲端教室營地：跨平台學習護照"
+          ]
+        },
+        {
+          "unitNo": 3,
+          "title": "第4週：城市航海家：捷運路網大探索",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "城市航海家：捷運路網大探索"
+          ]
+        },
+        {
+          "unitNo": 4,
+          "title": "第5–7週：數位偵探：萬能搜尋工具箱",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "數位偵探：萬能搜尋工具箱"
+          ]
+        },
+        {
+          "unitNo": 5,
+          "title": "第8–10週：雲端旅行者：虛擬世界的時空旅程",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "雲端旅行者：虛擬世界的時空旅程"
+          ]
+        },
+        {
+          "unitNo": 6,
+          "title": "第11–13週：數位信使：跨越空間的雲端飛鴿",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "數位信使：跨越空間的雲端飛鴿"
+          ]
+        },
+        {
+          "unitNo": 7,
+          "title": "第14–20週：數位設計師：動態視覺與安全派對",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "數位設計師：動態視覺與安全派對"
+          ]
+        },
+        {
+          "unitNo": 8,
+          "title": "第21週：數位公民成果展：網路規範大解密",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "數位公民成果展：網路規範大解密"
+          ]
+        }
+      ]
+    },
+    {
+      "academicYear": 115,
+      "semester": 1,
+      "grade": 4,
+      "subjectId": "minnan",
+      "subjectLabel": "本土語文-閩南語",
+      "publisher": "真平",
+      "bookSeries": "第7冊",
+      "status": "partial",
+      "unitCount": 3,
+      "lessonCount": 5,
+      "units": [
+        {
+          "unitNo": 1,
+          "title": "一、鬥鬧熱",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "1.好日",
+            "2.辦桌"
+          ]
+        },
+        {
+          "unitNo": 2,
+          "title": "二、顧安全",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "3.青紅燈"
+          ]
+        },
+        {
+          "unitNo": 3,
+          "title": "三、清氣相",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "4.洗身軀",
+            "5.摒掃"
+          ]
+        }
+      ]
+    },
+    {
+      "academicYear": 115,
+      "semester": 1,
+      "grade": 4,
+      "subjectId": "hakka",
+      "subjectLabel": "本土語文-客語",
+      "publisher": "康軒",
+      "bookSeries": "第7冊",
+      "status": "partial",
+      "unitCount": 4,
+      "lessonCount": 11,
+      "units": [
+        {
+          "unitNo": 1,
+          "title": "第一單元（課程架構表為圖片未擷取單元名；含第一課 蹶山、單元活動一）",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "第一課 蹶山",
+            "單元活動一"
+          ]
+        },
+        {
+          "unitNo": 2,
+          "title": "第二單元（課程架構表為圖片未擷取單元名；含第二至三課、單元活動二）",
+          "lessonCount": 3,
+          "lessonTitles": [
+            "第二課 幸福个味緒(道)",
+            "第三課 姐婆个菜園",
+            "單元活動二"
+          ]
+        },
+        {
+          "unitNo": 3,
+          "title": "第三單元（課程架構表為圖片未擷取單元名；含第四至五課、單元活動三）",
+          "lessonCount": 3,
+          "lessonTitles": [
+            "第四課 阿源伯个雜貨店",
+            "第五課 壞銅壞鐵變成寶",
+            "單元活動三"
+          ]
+        },
+        {
+          "unitNo": 4,
+          "title": "文化延伸與總複習（耕種人、搞麼个？、總複習 出任務囉！）",
+          "lessonCount": 3,
+          "lessonTitles": [
+            "耕種人",
+            "搞麼个？",
+            "總複習 出任務囉！"
+          ]
+        }
+      ]
+    },
+    {
+      "academicYear": 115,
+      "semester": 2,
+      "grade": 4,
+      "subjectId": "mandarin",
+      "subjectLabel": "語文-國語文",
+      "publisher": "康軒",
+      "bookSeries": "第八冊",
+      "status": "partial",
+      "unitCount": 4,
+      "lessonCount": 18,
+      "units": [
+        {
+          "unitNo": 1,
+          "title": "第一單元 擁抱正能量",
+          "lessonCount": 4,
+          "lessonTitles": [
+            "第一課 一束鮮花",
+            "第二課 心動不如行動",
+            "第三課 選拔動物之星",
+            "學習地圖一"
+          ]
+        },
+        {
+          "unitNo": 2,
+          "title": "第二單元 文化廣角鏡",
+          "lessonCount": 5,
+          "lessonTitles": [
+            "第四課 米食飄香",
+            "第五課 讀書報告——藍色小洋裝",
+            "第六課 我愛鹿港",
+            "學習地圖二",
+            "閱讀階梯一 她是我姐姐"
+          ]
+        },
+        {
+          "unitNo": 3,
+          "title": "第三單元 科技無極限",
+          "lessonCount": 4,
+          "lessonTitles": [
+            "第七課 未來的模樣",
+            "第八課 動物老師的智慧",
+            "第九課 向太空出發",
+            "學習地圖三"
+          ]
+        },
+        {
+          "unitNo": 4,
+          "title": "第四單元 故事變裝秀",
+          "lessonCount": 5,
+          "lessonTitles": [
+            "第十課 小青蛙想看海",
+            "第十一課 窗前的月光",
+            "第十二課 如來佛的手掌心",
+            "學習地圖四",
+            "閱讀階梯二 南安小熊回家"
+          ]
+        }
+      ]
+    },
+    {
+      "academicYear": 115,
+      "semester": 2,
+      "grade": 4,
+      "subjectId": "math",
+      "subjectLabel": "數學",
+      "publisher": "翰林",
+      "bookSeries": "第八冊",
+      "status": "partial",
+      "unitCount": 10,
+      "lessonCount": 22,
+      "units": [
+        {
+          "unitNo": 1,
+          "title": "第1章 概數",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "1-1 生活中的概數、1-2 無條件捨去法、1-3 無條件進入法",
+            "1-4 四捨五入法、1-5 概數的應用、練習園地(一)"
+          ]
+        },
+        {
+          "unitNo": 2,
+          "title": "第2章 四則運算",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "2-1 列式與逐步求解、2-2 先乘除後加減",
+            "2-3 由左而右算、2-4 四則運算的性質、練習園地(二)"
+          ]
+        },
+        {
+          "unitNo": 3,
+          "title": "第3章 垂直、平行與四邊形",
+          "lessonCount": 3,
+          "lessonTitles": [
+            "3-1 認識垂直與做出垂直線、3-2 認識平行與做出平行線",
+            "3-3 認識四邊形家族、練習園地(三)",
+            "遊戲中學數學（一）"
+          ]
+        },
+        {
+          "unitNo": 4,
+          "title": "第4章 分數（一）",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "4-1 同分母分數的加減法、4-2 分數的整數倍、練習園地(四)"
+          ]
+        },
+        {
+          "unitNo": 5,
+          "title": "第5章 形體的大小（含學習加油讚一）",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "5-1 認識體積、5-2 認識立方公分、5-3 體積有多大、練習園地(五)",
+            "學習加油讚（一）：綜合與應用、探索中學數學"
+          ]
+        },
+        {
+          "unitNo": 6,
+          "title": "第6章 小數乘法",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "6-1 乘數是一位數、6-2 一位小數乘以整數、6-3 二位小數乘以整數、練習園地(六)"
+          ]
+        },
+        {
+          "unitNo": 7,
+          "title": "第7章 周長與面積",
+          "lessonCount": 3,
+          "lessonTitles": [
+            "7-1 長方形與正方形的周長、7-2 長方形與正方形的面積、7-3 周長與面積",
+            "7-4 平方公尺與平方公分、7-5 簡單複合圖形的面積、練習園地(七)",
+            "遊戲中學數學（二）"
+          ]
+        },
+        {
+          "unitNo": 8,
+          "title": "第8章 分數（二）",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "8-1 等值分數、8-2 簡單異分母分數的比較",
+            "8-3 簡單異分母分數的加減、8-4 分數與小數、練習園地(八)"
+          ]
+        },
+        {
+          "unitNo": 9,
+          "title": "第9章 時間的計算",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "9-1 12 時制與 24 時制、9-2 日、小時的換算與計算、9-3 小時、分鐘、秒的換算與計算",
+            "9-4 跨午的時間計算、9-5 跨日的時間計算、練習園地(九)"
+          ]
+        },
+        {
+          "unitNo": 10,
+          "title": "第10章 規律（含學習加油讚二與數學園地）",
+          "lessonCount": 4,
+          "lessonTitles": [
+            "10-1 數的規律、10-2 奇偶數的規律",
+            "10-3 圖案的規律、練習園地(十)",
+            "學習加油讚(二)、看繪本學數學：綜合與應用、探索中學數學、奶奶的禮物、音符精靈和節奏餅乾",
+            "數學園地：星球的運動、圖案規律的美"
+          ]
+        }
+      ]
+    },
+    {
+      "academicYear": 115,
+      "semester": 2,
+      "grade": 4,
+      "subjectId": "english",
+      "subjectLabel": "語文-英語文",
+      "publisher": "翰林",
+      "bookSeries": "Here We Go 第四冊",
+      "status": "partial",
+      "unitCount": 7,
+      "lessonCount": 9,
+      "units": [
+        {
+          "unitNo": 0,
+          "title": "開學預備 & Starter",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "開學預備 Starter"
+          ]
+        },
+        {
+          "unitNo": 1,
+          "title": "Unit 1 What Time Is It?",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "時間 — Unit 1 What Time Is It?"
+          ]
+        },
+        {
+          "unitNo": 2,
+          "title": "Unit 2 What Are You Doing?（含 Festival Happy Easter）",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "動作 — Unit 2 What Are You Doing?",
+            "節慶教學-復活節 Festival-Easter（課程架構表作：Festival Happy Easter）"
+          ]
+        },
+        {
+          "unitNo": 3,
+          "title": "Review 1",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "我們的學校生活 Review 1"
+          ]
+        },
+        {
+          "unitNo": 4,
+          "title": "Unit 3 Where Are You?",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "房間名稱 — Unit 3 Where Are You?（含第一次評量 Exam 1）"
+          ]
+        },
+        {
+          "unitNo": 5,
+          "title": "Unit 4 Where’s My Hat?",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "位置 — Unit 4 Where’s My Hat?"
+          ]
+        },
+        {
+          "unitNo": 6,
+          "title": "Review 2, Final Review & Culture Landmarks Around the World",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "我的房間、總複習 Review 2、Final Review",
+            "第二次評量、文化單元、讀者劇場秀 Exam 2、Culture（Landmarks Around the World）、Reader’s Theater"
+          ]
+        }
+      ]
+    },
+    {
+      "academicYear": 115,
+      "semester": 2,
+      "grade": 4,
+      "subjectId": "science",
+      "subjectLabel": "自然科學",
+      "publisher": "康軒",
+      "bookSeries": "第四冊",
+      "status": "partial",
+      "unitCount": 4,
+      "lessonCount": 28,
+      "units": [
+        {
+          "unitNo": 1,
+          "title": "第一單元（課程架構表為圖片未擷取文字；活動 1-1～3-3：太陽、月亮與月相）",
+          "lessonCount": 7,
+          "lessonTitles": [
+            "【活動1-1】白天的景象",
+            "【活動1-2】夜晚的景象",
+            "【活動2-1】太陽和影子",
+            "【活動2-2】一天中太陽位置的變化",
+            "【活動3-1】我知道的月亮",
+            "【活動3-2】月亮的位置改變了",
+            "【活動3-3】月相變化"
+          ]
+        },
+        {
+          "unitNo": 2,
+          "title": "第二單元（課程架構表為圖片未擷取文字；活動 1-1～3-3：毛細、虹吸與連通管）",
+          "lessonCount": 7,
+          "lessonTitles": [
+            "【活動1-1】大自然中水的移動",
+            "【活動1-2】水在細縫中的移動",
+            "【活動1-3】生活中的毛細現象",
+            "【活動2-1】虹吸現象的條件",
+            "【活動3-1】水平的現象",
+            "【活動3-2】奇妙的連通管",
+            "【活動3-3】連通管的生活應用"
+          ]
+        },
+        {
+          "unitNo": 3,
+          "title": "第三單元（課程架構表為圖片未擷取文字；活動 1-1～3-1：昆蟲的構造、成長與生態地位）",
+          "lessonCount": 6,
+          "lessonTitles": [
+            "【活動1-1】常見的小動物",
+            "【活動1-2】昆蟲的身體構造",
+            "【活動1-3 拜訪昆蟲】",
+            "【活動2-1】昆蟲的身體構造與功能",
+            "【活動2-2】昆蟲的成長變化",
+            "【活動3-1】小昆蟲大影響"
+          ]
+        },
+        {
+          "unitNo": 4,
+          "title": "第四單元（課程架構表為圖片未擷取文字；活動 1-1～3-2 與科學閱讀：能源與自然資源）",
+          "lessonCount": 8,
+          "lessonTitles": [
+            "【活動1-1】我們需要能量",
+            "【活動1-2】不同形式的能量",
+            "【活動1-3】生活中的能源",
+            "【活動2-1】自然資源",
+            "【活動2-2】自然資源的運用",
+            "【活動3-1】開發及應用自然資源的影響",
+            "【活動3-2】環保行動",
+            "【科學閱讀】"
+          ]
+        }
+      ]
+    },
+    {
+      "academicYear": 115,
+      "semester": 2,
+      "grade": 4,
+      "subjectId": "social",
+      "subjectLabel": "社會",
+      "publisher": "南一",
+      "bookSeries": "第四冊",
+      "status": "partial",
+      "unitCount": 5,
+      "lessonCount": 15,
+      "units": [
+        {
+          "unitNo": 1,
+          "title": "一、家鄉的地形與氣候",
+          "lessonCount": 4,
+          "lessonTitles": [
+            "1.家鄉的地形",
+            "2.家鄉的氣候",
+            "3.地形、氣候與生活",
+            "〈玩探究〉水情亮紅燈？"
+          ]
+        },
+        {
+          "unitNo": 2,
+          "title": "二、家鄉的產業與創新",
+          "lessonCount": 3,
+          "lessonTitles": [
+            "1.家鄉的產業",
+            "2.翻轉產業新生命",
+            "〈玩探究〉嗨！外送員"
+          ]
+        },
+        {
+          "unitNo": 3,
+          "title": "三、家鄉的人口",
+          "lessonCount": 3,
+          "lessonTitles": [
+            "1.家鄉的人口組成",
+            "2.家鄉人口的分布與變化",
+            "〈玩探究〉彰化縣的人口危機"
+          ]
+        },
+        {
+          "unitNo": 4,
+          "title": "四、多元文化與願景（架構表方框略裁作：四、多元文化與願）",
+          "lessonCount": 4,
+          "lessonTitles": [
+            "1.家鄉的古早味",
+            "2.家鄉文化的變遷",
+            "3.家鄉的現今風貌",
+            "〈玩探究〉用「你」的角度想一想"
+          ]
+        },
+        {
+          "unitNo": 5,
+          "title": "〔探究〕想像家鄉的樣子￭探究方法123（含總複習）",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "〔探究〕想像家鄉的樣子￭探究方法123（含第21週總複習）"
+          ]
+        }
+      ]
+    },
+    {
+      "academicYear": 115,
+      "semester": 2,
+      "grade": 4,
+      "subjectId": "arts",
+      "subjectLabel": "藝術",
+      "publisher": "翰林",
+      "bookSeries": "第四冊",
+      "status": "partial",
+      "unitCount": 4,
+      "lessonCount": 11,
+      "units": [
+        {
+          "unitNo": 1,
+          "title": "第壹單元 視覺萬花筒",
+          "lessonCount": 3,
+          "lessonTitles": [
+            "一、這就是我",
+            "二、展現自我",
+            "三、有你真好"
+          ]
+        },
+        {
+          "unitNo": 2,
+          "title": "第貳單元 表演任我行",
+          "lessonCount": 4,
+          "lessonTitles": [
+            "一、我的身體會說話",
+            "二、童話世界",
+            "三、奇幻光影Show（架構表作：三．奇幻光SHOW）",
+            "四、影子狂想曲"
+          ]
+        },
+        {
+          "unitNo": 3,
+          "title": "第參單元 音樂美樂地",
+          "lessonCount": 3,
+          "lessonTitles": [
+            "一、乘著樂音逛校園",
+            "二、傾聽音樂訴說",
+            "三、熱鬧的擊樂器"
+          ]
+        },
+        {
+          "unitNo": 4,
+          "title": "第肆單元 統整課程",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "藝術的喜怒哀樂（架構表誤印為：藝術點線面）"
+          ]
+        }
+      ]
+    },
+    {
+      "academicYear": 115,
+      "semester": 2,
+      "grade": 4,
+      "subjectId": "health-pe",
+      "subjectLabel": "健康與體育",
+      "publisher": "翰林",
+      "bookSeries": "第八冊",
+      "status": "partial",
+      "unitCount": 8,
+      "lessonCount": 24,
+      "units": [
+        {
+          "unitNo": 1,
+          "title": "第一單元 健康從齒開始",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "活動1 食物卡齒縫了",
+            "活動2 牙齒好正"
+          ]
+        },
+        {
+          "unitNo": 2,
+          "title": "第二單元 消費高手",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "活動1 消費停看聽",
+            "活動2 聰明選安心吃（進度總表作：活動2 聰明安心吃）"
+          ]
+        },
+        {
+          "unitNo": 3,
+          "title": "第三單元 成長的喜悅",
+          "lessonCount": 3,
+          "lessonTitles": [
+            "活動1 迎接青春期",
+            "活動2 男生女生做朋友",
+            "活動3 我的未來不是夢"
+          ]
+        },
+        {
+          "unitNo": 4,
+          "title": "第四單元 防災小小兵",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "活動1 天搖地動",
+            "活動2 狂風暴雨"
+          ]
+        },
+        {
+          "unitNo": 5,
+          "title": "第五單元 運動休閒樂處多（進度總表作：運動休閒樂趣多）",
+          "lessonCount": 3,
+          "lessonTitles": [
+            "活動1 活力家庭愛運動",
+            "活動2 健走好處多",
+            "活動3 臥虎藏龍"
+          ]
+        },
+        {
+          "unitNo": 6,
+          "title": "第六單元 運動大集合",
+          "lessonCount": 4,
+          "lessonTitles": [
+            "活動1 伸展自如",
+            "活動2 柔軟支撐",
+            "活動3 用身體作畫",
+            "活動4 毽子樂"
+          ]
+        },
+        {
+          "unitNo": 7,
+          "title": "第七單元 球兒好好玩",
+          "lessonCount": 5,
+          "lessonTitles": [
+            "活動1 傳停大挑戰",
+            "活動2 盤球追追追",
+            "活動3 籃球大突破",
+            "活動4 躲避球大戰",
+            "活動5 「羽」你同樂"
+          ]
+        },
+        {
+          "unitNo": 8,
+          "title": "第八單元 戲水安全停看聽",
+          "lessonCount": 3,
+          "lessonTitles": [
+            "活動1 防溺常識說一說",
+            "活動2 救溺、自救一起來",
+            "活動3 水中小勇士"
+          ]
+        }
+      ]
+    },
+    {
+      "academicYear": 115,
+      "semester": 2,
+      "grade": 4,
+      "subjectId": "integrative",
+      "subjectLabel": "綜合活動",
+      "publisher": "南一",
+      "bookSeries": "第四冊",
+      "status": "partial",
+      "unitCount": 5,
+      "lessonCount": 10,
+      "units": [
+        {
+          "unitNo": 1,
+          "title": "一、溝通學問大",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "1.溝通有訣竅",
+            "2.道歉有誠意"
+          ]
+        },
+        {
+          "unitNo": 2,
+          "title": "二、創意生活家",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "1.生活創意大集合",
+            "2.問題解決有妙招"
+          ]
+        },
+        {
+          "unitNo": 3,
+          "title": "三、快樂小志工",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "1.散播助人種子",
+            "2.校園服務開麥拉"
+          ]
+        },
+        {
+          "unitNo": 4,
+          "title": "四、地球守衛隊",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "1.環境問題知多少",
+            "2.環保小推手"
+          ]
+        },
+        {
+          "unitNo": 5,
+          "title": "五、文化旅行趣",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "1.生活文化快樂GO",
+            "2.文化之美"
+          ]
+        }
+      ]
+    },
+    {
+      "academicYear": 115,
+      "semester": 2,
+      "grade": 4,
+      "subjectId": "computer",
+      "subjectLabel": "電腦（彈性學習課程：數位創客）",
+      "publisher": "宏全資訊（選書表）／學校自編數位創客課程計畫",
+      "bookSeries": "PowerPoint 2021 小創客做簡報（選書表）／數位創客四下（課程計畫）",
+      "status": "partial",
+      "unitCount": 8,
+      "lessonCount": 8,
+      "units": [
+        {
+          "unitNo": 1,
+          "title": "第1週：海洋守護者：深海生態數位手冊",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "海洋守護者：深海生態數位手冊"
+          ]
+        },
+        {
+          "unitNo": 2,
+          "title": "第2–3週：視力防衛隊：護眼簡報動態秀",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "視力防衛隊：護眼簡報動態秀"
+          ]
+        },
+        {
+          "unitNo": 3,
+          "title": "第4–5週：數位剪貼簿：動植物生態筆記",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "數位剪貼簿：動植物生態筆記"
+          ]
+        },
+        {
+          "unitNo": 4,
+          "title": "第6–8週：戶外考察紀錄：企鵝與大象的冒險日誌",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "戶外考察紀錄：企鵝與大象的冒險日誌（戶外教育）"
+          ]
+        },
+        {
+          "unitNo": 5,
+          "title": "第9–10週：綠能行動派：低碳生活影音報",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "綠能行動派：低碳生活影音報"
+          ]
+        },
+        {
+          "unitNo": 6,
+          "title": "第11–13週：智慧圖解師：防疫資訊視覺化",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "智慧圖解師：防疫資訊視覺化"
+          ]
+        },
+        {
+          "unitNo": 7,
+          "title": "第14–17週：天燈文化觀察：數位資訊整合",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "天燈文化觀察：數位資訊整合"
+          ]
+        },
+        {
+          "unitNo": 8,
+          "title": "第18–21週：交通安全宣導員：安全資訊大揭密",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "交通安全宣導員：安全資訊大揭密（安全教育）"
+          ]
+        }
+      ]
+    },
+    {
+      "academicYear": 115,
+      "semester": 2,
+      "grade": 4,
+      "subjectId": "minnan",
+      "subjectLabel": "本土語文-閩南語",
+      "publisher": "真平",
+      "bookSeries": "第8冊",
+      "status": "partial",
+      "unitCount": 3,
+      "lessonCount": 5,
+      "units": [
+        {
+          "unitNo": 1,
+          "title": "一、街頭巷尾",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "1.草地風景媠",
+            "2.便利商店"
+          ]
+        },
+        {
+          "unitNo": 2,
+          "title": "二、愛寶惜",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "3.烏白唬",
+            "4.欲按怎"
+          ]
+        },
+        {
+          "unitNo": 3,
+          "title": "三、日子",
+          "lessonCount": 1,
+          "lessonTitles": [
+            "5.時間表"
+          ]
+        }
+      ]
+    },
+    {
+      "academicYear": 115,
+      "semester": 2,
+      "grade": 4,
+      "subjectId": "hakka",
+      "subjectLabel": "本土語文-客語",
+      "publisher": "康軒",
+      "bookSeries": "第8冊",
+      "status": "partial",
+      "unitCount": 4,
+      "lessonCount": 11,
+      "units": [
+        {
+          "unitNo": 1,
+          "title": "第一單元（課程架構表為圖片未擷取單元名；含第一至二課、單元活動一）",
+          "lessonCount": 3,
+          "lessonTitles": [
+            "第一課 海洋世界",
+            "第二課 山貓",
+            "單元活動一"
+          ]
+        },
+        {
+          "unitNo": 2,
+          "title": "第二單元（課程架構表為圖片未擷取單元名；含第三至四課、單元活動二）",
+          "lessonCount": 3,
+          "lessonTitles": [
+            "第三課 利便个生活",
+            "第四課 圖書館",
+            "單元活動二"
+          ]
+        },
+        {
+          "unitNo": 3,
+          "title": "第三單元（課程架構表為圖片未擷取單元名；含第五課、單元活動三）",
+          "lessonCount": 2,
+          "lessonTitles": [
+            "第五課 朗讀比賽",
+            "單元活動三"
+          ]
+        },
+        {
+          "unitNo": 4,
+          "title": "文化延伸與總複習（阿啾箭，尾砣砣╱電視機、搞麼个？、總複習 出任務囉！）",
+          "lessonCount": 3,
+          "lessonTitles": [
+            "阿啾箭，尾砣砣╱電視機",
+            "搞麼个？",
+            "總複習 出任務囉！"
+          ]
+        }
+      ]
+    }
+  ]
+}

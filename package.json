@@ -5,7 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --noEmit && vite build",
+    "sync:curriculum": "node scripts/sync-curriculum.mjs",
+    "validate:content": "node scripts/sync-curriculum.mjs --check",
+    "test:generators": "node scripts/test-generators.mjs",
+    "build": "node scripts/sync-curriculum.mjs && node scripts/test-generators.mjs && tsc --noEmit && vite build",
     "preview": "vite preview"
   },
   "dependencies": {

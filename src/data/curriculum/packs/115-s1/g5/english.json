@@ -1,0 +1,959 @@
+{
+  "packId": "115-s1-g5-english",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 5,
+  "subjectId": "english",
+  "stages": [
+    {
+      "id": "115-s1-g5-english-u0",
+      "subjectId": "english",
+      "title": "開學預備週 & Starter",
+      "description": "複習世界地圖概念、字母拼讀暖身與數字 60–100，迎接五年級英語冒險！",
+      "difficulty": "easy",
+      "monsterId": "slime",
+      "monsterName": "數字史萊姆",
+      "monsterHp": 110,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 5,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第五冊",
+        "unitNo": 0
+      },
+      "questions": [
+        {
+          "id": "115-s1-g5-english-u0-q1",
+          "prompt": "Listen and choose: 數字「70」的正確英文拼字是哪一個？",
+          "options": [
+            "seventy",
+            "seventeen",
+            "sixty",
+            "sixteen"
+          ],
+          "answerIndex": 0,
+          "explanation": "seventy 是「70」；seventeen 是「17」；sixty 是「60」；sixteen 是「16」。注意字尾 -ty 代表整十，-teen 代表十幾！",
+          "hint": "聽聽看發音！整十結尾是 -ty 喔。",
+          "speechText": "seventy",
+          "speechLang": "en-US",
+          "tags": [
+            "Numbers 60-100",
+            "Starter"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u0-q2",
+          "prompt": "「85」的英文應該怎麼說？",
+          "options": [
+            "ninety-five",
+            "eight-five",
+            "eighteen-five",
+            "eighty-five"
+          ],
+          "answerIndex": 3,
+          "explanation": "「80」是 eighty，加上「5」five，中間用連字號連接，合起來就是 eighty-five！",
+          "hint": "80 是 eighty，再加上 5！",
+          "speechText": "eighty-five",
+          "speechLang": "en-US",
+          "tags": [
+            "Numbers 60-100",
+            "Starter"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u0-q3",
+          "prompt": "如果老師請大家數到「100」，「100」的英文怎麼念？",
+          "options": [
+            "ninety-nine",
+            "one hundred",
+            "sixty",
+            "one thousand"
+          ],
+          "answerIndex": 1,
+          "explanation": "100 是 one hundred（或 a hundred）；ninety-nine 是 99，one thousand 是 1,000。",
+          "hint": "點喇叭聽聽看「一百」的念法！",
+          "speechText": "one hundred",
+          "speechLang": "en-US",
+          "tags": [
+            "Numbers 60-100",
+            "Starter"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u0-q4",
+          "prompt": "在「World Map」暖身活動中，台灣（Taiwan）和日本（Japan）都在哪一洲？請選出正確英文單字：",
+          "options": [
+            "Africa",
+            "Europe",
+            "Asia",
+            "Antarctica"
+          ],
+          "answerIndex": 2,
+          "explanation": "Asia 是「亞洲」，台灣與日本都位於亞洲；Europe 是歐洲，Africa 是非洲，Antarctica 是南極洲。",
+          "hint": "點喇叭聽聽這個大洲的發音：Asia！",
+          "speechText": "Asia",
+          "speechLang": "en-US",
+          "tags": [
+            "World Map",
+            "International Education"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u0-q5",
+          "prompt": "暖身複習 Phonics：下面哪一個單字裡，字母「a」發長母音 /e/（像字母 A 本身的讀音）？",
+          "options": [
+            "cat",
+            "name",
+            "hat",
+            "map"
+          ],
+          "answerIndex": 1,
+          "explanation": "a_e 結構中字尾 e 不發音，會讓前面的 a 發長母音，所以 name 念長音；cat, hat, map 都是短母音！",
+          "hint": "找字尾有不發音的魔法 e（a_e）的單字！",
+          "speechText": "name",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "a_e"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u0-q6",
+          "prompt": "同學開學見面問候「Where are you from?」，如果你想回答「我來自台灣」，應該怎麼說？",
+          "options": [
+            "I'm ten years old.",
+            "I'm from Taiwan.",
+            "It's on the desk.",
+            "Good night!"
+          ],
+          "answerIndex": 1,
+          "explanation": "「Where are you from?」問你來自哪裡，回答用「I'm from + 地點」，所以說「I'm from Taiwan.」。",
+          "hint": "關鍵字是 from（來自）喔！",
+          "speechText": "Where are you from? I'm from Taiwan.",
+          "speechLang": "en-US",
+          "tags": [
+            "Sentence Review",
+            "Starter"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g5-english-u1",
+      "subjectId": "english",
+      "title": "Unit 1 What Day Is Today?",
+      "description": "學會星期一到星期日的英文問答，並挑戰長母音 a_e, ai, ay 的拼讀規則！",
+      "difficulty": "easy",
+      "monsterId": "parrotKing",
+      "monsterName": "星期鐘錶鸚鵡",
+      "monsterHp": 120,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 5,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第五冊",
+        "unitNo": 1
+      },
+      "questions": [
+        {
+          "id": "115-s1-g5-english-u1-q1",
+          "prompt": "當朋友問你「What day is today?」，如果今天是「星期三」，要怎麼回答？",
+          "options": [
+            "It's Tuesday.",
+            "It's Thursday.",
+            "It's Wednesday.",
+            "It's Saturday."
+          ],
+          "answerIndex": 2,
+          "explanation": "Wednesday 是星期三（注意中間的 d 不發音）；Tuesday 是星期二，Thursday 是星期四，Saturday 是星期六。",
+          "hint": "先想一想星期一 Monday、星期二 Tuesday，下一個是？",
+          "speechText": "What day is today? It's Wednesday.",
+          "speechLang": "en-US",
+          "tags": [
+            "Days of the Week",
+            "Unit 1"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u1-q2",
+          "prompt": "哪一個單字指的是「星期四」？",
+          "options": [
+            "Tuesday",
+            "Thursday",
+            "Friday",
+            "Sunday"
+          ],
+          "answerIndex": 1,
+          "explanation": "Thursday 是星期四（開頭是 Th-）；Tuesday 是星期二（Tu-）；Friday 是星期五；Sunday 是星期日。",
+          "hint": "星期二和星期四都是 T 開頭，星期四有字母 h（Th-）喔！",
+          "speechText": "Thursday",
+          "speechLang": "en-US",
+          "tags": [
+            "Days of the Week",
+            "Unit 1"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u1-q3",
+          "prompt": "「Today is Friday.」那麼明天（tomorrow）是星期幾？",
+          "options": [
+            "Thursday",
+            "Saturday",
+            "Monday",
+            "Wednesday"
+          ],
+          "answerIndex": 1,
+          "explanation": "Friday 是星期五，星期五的隔天就是星期六 Saturday！",
+          "hint": "Fri-day 是星期五，接下來就是週末第一天！",
+          "speechText": "Saturday",
+          "speechLang": "en-US",
+          "tags": [
+            "Days of the Week",
+            "Unit 1"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u1-q4",
+          "prompt": "「What ___ is today? — It's Monday.」空格裡應該填入哪一個字？",
+          "options": [
+            "day",
+            "time",
+            "color",
+            "name"
+          ],
+          "answerIndex": 0,
+          "explanation": "詢問今天星期幾的句型是「What day is today?」，用 It's + 星期 回答。",
+          "hint": "Monday 是「星期幾」，不是問時間或顏色喔！",
+          "speechText": "What day is today? It's Monday.",
+          "speechLang": "en-US",
+          "tags": [
+            "Sentence Pattern",
+            "Unit 1"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u1-q5",
+          "prompt": "Phonics 拼讀挑戰：在「day, today, Monday」裡，字尾「ay」的發音和下面哪一個單字裡的母音相同？",
+          "options": [
+            "bed",
+            "hat",
+            "rain",
+            "dog"
+          ],
+          "answerIndex": 2,
+          "explanation": "ay 和 ai 在單字中常發同樣的長母音 /e/（長音 A），所以 day 和 rain 的母音相同！",
+          "hint": "念念看 day 和 rain，哪一個也有長母音 A？",
+          "speechText": "day, rain",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "ai",
+            "ay"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u1-q6",
+          "prompt": "Phonics 聽音辨字：下面哪一個單字「沒有」a_e, ai, ay 的長母音？",
+          "options": [
+            "cake",
+            "bag",
+            "play",
+            "train"
+          ],
+          "answerIndex": 1,
+          "explanation": "cake (a_e)、train (ai)、play (ay) 都發長母音 A；bag 則是短母音，不含這三組長母音規則。",
+          "hint": "先聽聽看 bag 跟 cake 的母音一樣嗎？",
+          "speechText": "cake, train, play",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "a_e",
+            "ai",
+            "ay"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g5-english-u2",
+      "subjectId": "english",
+      "title": "Unit 2 Do You Have PE Class on Monday?",
+      "description": "認識學校各科目的英文名稱、詢問課表句型，並練習 e_e, ee, ea 長母音拼讀！",
+      "difficulty": "easy",
+      "monsterId": "bookSpirit",
+      "monsterName": "課表精靈",
+      "monsterHp": 125,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 5,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第五冊",
+        "unitNo": 2
+      },
+      "questions": [
+        {
+          "id": "115-s1-g5-english-u2-q1",
+          "prompt": "「PE class」指的是學校裡的哪一堂課？",
+          "options": [
+            "音樂課",
+            "體育課",
+            "美術課",
+            "自然課"
+          ],
+          "answerIndex": 1,
+          "explanation": "PE 是 Physical Education 的縮寫，指「體育課」！音樂課是 music，美術課是 art，自然課是 science。",
+          "hint": "操場上跑步、打球的課就是 PE class！",
+          "speechText": "PE class",
+          "speechLang": "en-US",
+          "tags": [
+            "Subjects",
+            "Unit 2"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u2-q2",
+          "prompt": "同學問：「Do you have math class on Tuesday?」如果你星期二「沒有」數學課，應該怎麼回答？",
+          "options": [
+            "Yes, I am.",
+            "No, it isn't.",
+            "Yes, I do.",
+            "No, I don't."
+          ],
+          "answerIndex": 3,
+          "explanation": "用 Do you ...? 提問時，否定回答必須用「No, I don't.」（注意助動詞是 do / don't，不是 isn't 或 am）。",
+          "hint": "問句開頭是 Do you，回答也要用 do 或 don't 喔！",
+          "speechText": "Do you have math class on Tuesday? No, I don't.",
+          "speechLang": "en-US",
+          "tags": [
+            "Sentence Pattern",
+            "Unit 2"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u2-q3",
+          "prompt": "想用英文表達「我星期五有美術課」，空格裡應該填哪一個介系詞？「I have art class ___ Friday.」",
+          "options": [
+            "on",
+            "at",
+            "in",
+            "under"
+          ],
+          "answerIndex": 0,
+          "explanation": "在英文裡，星期幾的前面固定搭配介系詞「on」，例如 on Monday, on Friday。",
+          "hint": "星期幾前面要用兩個字母的介系詞 on！",
+          "speechText": "I have art class on Friday.",
+          "speechLang": "en-US",
+          "tags": [
+            "Grammar",
+            "Unit 2"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u2-q4",
+          "prompt": "小明最喜歡畫畫，小華最喜歡唱歌，他們各自最喜歡的科目是？",
+          "options": [
+            "PE and Chinese",
+            "math and science",
+            "art and music",
+            "English and social studies"
+          ],
+          "answerIndex": 2,
+          "explanation": "art 是美術、music 是音樂；math 是數學、science 是自然、social studies 是社會。",
+          "hint": "畫畫是 art，那唱歌是哪一科？",
+          "speechText": "art and music",
+          "speechLang": "en-US",
+          "tags": [
+            "Subjects",
+            "Unit 2"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u2-q5",
+          "prompt": "Phonics 拼讀挑戰：下面哪兩個單字裡的母音組合都發長母音 E（/i/）？",
+          "options": [
+            "tree / read",
+            "pen / desk",
+            "cat / cake",
+            "box / fox"
+          ],
+          "answerIndex": 0,
+          "explanation": "tree（ee）和 read（ea）都發長母音 E 的音；pen 與 desk 則是短母音 e。",
+          "hint": "注意 ee 和 ea 這兩組拼讀都常發長母音 E！",
+          "speechText": "tree, read",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "ee",
+            "ea"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u2-q6",
+          "prompt": "Phonics 拼讀：下面哪一個單字屬於「e_e」長母音組合（與 Pete 同音組）？",
+          "options": [
+            "bed",
+            "these",
+            "red",
+            "ten"
+          ],
+          "answerIndex": 1,
+          "explanation": "these 符合 e_e 結構（字尾不發音的 e 讓前面的 e 發長音），而 bed, red, ten 都是短母音 e。",
+          "hint": "找找看哪一個單字中間有 e、字尾也有不發音的 e！",
+          "speechText": "these",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "e_e"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g5-english-u3",
+      "subjectId": "english",
+      "title": "Review 1",
+      "description": "期中複習總動員！整合星期與科目課表對話、數字 60–100 及 i_e, ie, y 長母音拼讀！",
+      "difficulty": "medium",
+      "monsterId": "mathCube",
+      "monsterName": "期中魔方考官",
+      "monsterHp": 130,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 5,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第五冊",
+        "unitNo": 3
+      },
+      "questions": [
+        {
+          "id": "115-s1-g5-english-u3-q1",
+          "prompt": "看對話選答：Amy: What day is today? / Ben: It's Thursday. / Amy: Do you have English class today? / Ben: ___ (今天課表上有英語課)",
+          "options": [
+            "I'm eighty.",
+            "It's Friday.",
+            "No, I don't.",
+            "Yes, I do."
+          ],
+          "answerIndex": 3,
+          "explanation": "Amy 問「Do you have English class today?」，既然課表上有英語課，就用「Yes, I do.」肯定回答！",
+          "hint": "題目說今天課表上有英語課，記得用 Do 問句的肯定簡答！",
+          "speechText": "Do you have English class today? Yes, I do.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u3-q2",
+          "prompt": "閱讀理解：小宇的課表上，星期一有 Chinese 和 math；星期三有 PE 和 science；星期五有 music 和 English。請問小宇哪一天要穿運動服上體育課？",
+          "options": [
+            "Monday",
+            "Sunday",
+            "Friday",
+            "Wednesday"
+          ],
+          "answerIndex": 3,
+          "explanation": "課表寫星期三有 PE（體育課）和 science（自然課），所以要選 Wednesday（星期三）！",
+          "hint": "PE 就是體育課，對照題目裡哪一天有 PE？",
+          "speechText": "Wednesday",
+          "speechLang": "en-US",
+          "tags": [
+            "Reading Comprehension",
+            "Review 1"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u3-q3",
+          "prompt": "數字小測驗：圖書館有 65 本英文繪本，今天又買了 25 本，現在一共有幾本？請選出總數的英文！",
+          "options": [
+            "eighty",
+            "seventy-five",
+            "ninety",
+            "ninety-five"
+          ],
+          "answerIndex": 2,
+          "explanation": "65 + 25 = 90，90 的英文是 ninety！注意不是 nineteen（19）喔。",
+          "hint": "先算出 65 加 25 等於多少，再找對應的英文整十單字！",
+          "speechText": "ninety",
+          "speechLang": "en-US",
+          "tags": [
+            "Numbers 60-100",
+            "Review 1"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u3-q4",
+          "prompt": "哪一句的問法「不正確」？",
+          "options": [
+            "What day is today?",
+            "Do you has PE class on Monday?",
+            "What class do you have today?",
+            "Do you have music class on Wednesday?"
+          ],
+          "answerIndex": 1,
+          "explanation": "助動詞 Do 後面要接原形動詞 have，不可以寫成 has，所以「Do you has...」是錯的！",
+          "hint": "Do you 後面應該接原形動詞 have，不能接 has 喔！",
+          "speechText": "Do you have PE class on Monday?",
+          "speechLang": "en-US",
+          "tags": [
+            "Grammar",
+            "Review 1"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u3-q5",
+          "prompt": "Phonics 拼讀挑戰：下面哪一組單字的畫線字母都發長母音 I（/aɪ/）？",
+          "options": [
+            "pig / sit / six",
+            "bike / pie / fly",
+            "cake / rain / day",
+            "tree / tea / bee"
+          ],
+          "answerIndex": 1,
+          "explanation": "bike（i_e）、pie（ie）、fly（字尾 y）都發長母音 /aɪ/！pig, sit, six 則是短母音 i。",
+          "hint": "念念看 bike, pie, fly，裡面的母音是不是都像字母 I？",
+          "speechText": "bike, pie, fly",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "i_e",
+            "ie",
+            "y"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u3-q6",
+          "prompt": "在學校裡，下面哪一組配對是「正確的」？",
+          "options": [
+            "science — 數學課",
+            "Tuesday — 星期四",
+            "Chinese — 國語課",
+            "sixty — 70"
+          ],
+          "answerIndex": 2,
+          "explanation": "Chinese 是國語／中文課！science 是自然課，Tuesday 是星期二，sixty 是 60。",
+          "hint": "一個一個檢查：science 是自然、Tuesday 是星期二、sixty 是 60。",
+          "speechText": "Chinese",
+          "speechLang": "en-US",
+          "tags": [
+            "Vocabulary",
+            "Review 1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g5-english-u4",
+      "subjectId": "english",
+      "title": "Unit 3 Where Are You Going?",
+      "description": "認識社區場所單字與去向問答句型，並練習 o_e, oa, ow 的長母音拼讀！",
+      "difficulty": "medium",
+      "monsterId": "treeGuardian",
+      "monsterName": "社區路標守衛",
+      "monsterHp": 135,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 5,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第五冊",
+        "unitNo": 4
+      },
+      "questions": [
+        {
+          "id": "115-s1-g5-english-u4-q1",
+          "prompt": "朋友看到你背著書包出門，問你：「Where are you going?」如果你想回答「我要去圖書館」，該怎麼說？",
+          "options": [
+            "I have art class.",
+            "I'm going to the supermarket.",
+            "I'm from the park.",
+            "I'm going to the library."
+          ],
+          "answerIndex": 3,
+          "explanation": "「Where are you going?」問你正要去哪裡，回答用「I'm going to the + 場所」，圖書館是 library！",
+          "hint": "圖書館的英文是 library，超市是 supermarket！",
+          "speechText": "Where are you going? I'm going to the library.",
+          "speechLang": "en-US",
+          "tags": [
+            "Places",
+            "Unit 3"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u4-q2",
+          "prompt": "週末想寄信或寄包裹給外縣市的表哥，應該要去哪一個社區場所？",
+          "options": [
+            "post office",
+            "bookstore",
+            "hospital",
+            "zoo"
+          ],
+          "answerIndex": 0,
+          "explanation": "post office 是「郵局」；bookstore 是書店，hospital 是醫院，zoo 是動物園。",
+          "hint": "post 有郵寄的意思，office 是辦公室，合起來是郵局！",
+          "speechText": "post office",
+          "speechLang": "en-US",
+          "tags": [
+            "Places",
+            "Unit 3"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u4-q3",
+          "prompt": "「Where ___ Tom going? — He's going to the park.」空格裡要填入哪一個 be 動詞？",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "do"
+          ],
+          "answerIndex": 0,
+          "explanation": "主詞 Tom 是第三人稱單數（對應 He），所以搭配 be 動詞 is：「Where is Tom going?」。",
+          "hint": "答句寫 He's（He is），問句也要用同一個 be 動詞喔！",
+          "speechText": "Where is Tom going? He's going to the park.",
+          "speechLang": "en-US",
+          "tags": [
+            "Grammar",
+            "Unit 3"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u4-q4",
+          "prompt": "媽媽想買新鮮的青菜、牛奶和麵包回家煮晚餐，她最可能會去哪裡？",
+          "options": [
+            "library",
+            "bank",
+            "post office",
+            "supermarket"
+          ],
+          "answerIndex": 3,
+          "explanation": "supermarket 是「超級市場」，可以買食物與日用品；bank 是銀行。",
+          "hint": "買菜買牛奶通常去超級市場！",
+          "speechText": "supermarket",
+          "speechLang": "en-US",
+          "tags": [
+            "Places",
+            "Unit 3"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u4-q5",
+          "prompt": "Phonics 拼讀挑戰：下面哪一組單字全都發長母音 O（/o/）？",
+          "options": [
+            "bike / kite / tie",
+            "hot / box / dog",
+            "home / boat / snow",
+            "day / train / cake"
+          ],
+          "answerIndex": 2,
+          "explanation": "home（o_e）、boat（oa）、snow（ow）都發長母音 O！hot, box, dog 則是短母音 o。",
+          "hint": "找出包含 o_e、oa、ow 這三組長母音 O 的單字！",
+          "speechText": "home, boat, snow",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "o_e",
+            "oa",
+            "ow"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u4-q6",
+          "prompt": "Phonics 聽音辨字：在「coat, road, window, frog」這四個字中，哪一個字的母音發音和其他三個「不同」？",
+          "options": [
+            "coat",
+            "road",
+            "window",
+            "frog"
+          ],
+          "answerIndex": 3,
+          "explanation": "coat（oa）、road（oa）、window（ow）都發長母音 O；frog 則是短母音 o，所以不同！",
+          "hint": "frog 是短母音，其他三個都是長母音 O 喔！",
+          "speechText": "coat, road, window",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "oa",
+            "ow"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g5-english-u5",
+      "subjectId": "english",
+      "title": "Unit 4 How Many Koalas Are There? & Festival Christmas",
+      "description": "用英語詢問動物數量、歡慶耶誕節，並掌握長母音 u_e, ue, ui 拼讀！",
+      "difficulty": "medium",
+      "monsterId": "flameDragon",
+      "monsterName": "耶誕無尾熊龍",
+      "monsterHp": 140,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 5,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第五冊",
+        "unitNo": 5
+      },
+      "questions": [
+        {
+          "id": "115-s1-g5-english-u5-q1",
+          "prompt": "在動物園看到好幾隻可愛的無尾熊，想問旁邊的同學「那裡有幾隻無尾熊？」，應該怎麼問？",
+          "options": [
+            "Where is the koala?",
+            "How much is the koala?",
+            "How many koalas are there?",
+            "What day is it?"
+          ],
+          "answerIndex": 2,
+          "explanation": "詢問「某處有多少（可數名詞）」要用「How many + 複數名詞 + are there?」，無尾熊複數是 koalas！",
+          "hint": "問數量「有多少」開頭要用 How many 喔！",
+          "speechText": "How many koalas are there?",
+          "speechLang": "en-US",
+          "tags": [
+            "Animals",
+            "Unit 4"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u5-q2",
+          "prompt": "如果看到草原上有「15 隻斑馬」，回答「How many zebras are there?」最完整正確的句子是？",
+          "options": [
+            "It's Monday.",
+            "There is fifteen zebra.",
+            "They are fifty.",
+            "There are fifteen zebras."
+          ],
+          "answerIndex": 3,
+          "explanation": "數量大於 1 時，要用複數句型「There are + 數字 + 複數名詞」，15 是 fifteen（50 才是 fifty）。",
+          "hint": "超過 1 隻要用 There are，而且 zebra 記得加 s！",
+          "speechText": "There are fifteen zebras.",
+          "speechLang": "en-US",
+          "tags": [
+            "Sentence Pattern",
+            "Animals",
+            "Unit 4"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u5-q3",
+          "prompt": "「How many lions are there? — There ___ only one lion.」空格裡應該填什麼？",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "do"
+          ],
+          "answerIndex": 0,
+          "explanation": "因為只有「一隻」獅子（one lion 是單數），所以要用「There is only one lion.」！",
+          "hint": "只有 one（單數），要用 is 還是 are？",
+          "speechText": "There is only one lion.",
+          "speechLang": "en-US",
+          "tags": [
+            "Grammar",
+            "Unit 4"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u5-q4",
+          "prompt": "12 月 25 日耶誕節（Christmas）快到了！大家在裝飾耶誕樹、交換禮物時，最常互相說哪一句祝福語？",
+          "options": [
+            "Happy New Year!",
+            "Merry Christmas!",
+            "Happy Halloween!",
+            "Happy Mother's Day!"
+          ],
+          "answerIndex": 1,
+          "explanation": "「Merry Christmas!」是「耶誕快樂！」；聖誕老公公則是 Santa Claus。",
+          "hint": "看到 Christmas 就是祝大家 Merry Christmas！",
+          "speechText": "Merry Christmas!",
+          "speechLang": "en-US",
+          "tags": [
+            "Festival Christmas",
+            "Unit 4"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u5-q5",
+          "prompt": "Phonics 拼讀挑戰：下面哪一組單字包含長母音 U（u_e, ue, ui）的拼讀規則？",
+          "options": [
+            "cute / blue / juice",
+            "cup / bus / sun",
+            "cat / bag / map",
+            "tree / read / bee"
+          ],
+          "answerIndex": 0,
+          "explanation": "cute（u_e）、blue（ue）、juice（ui）都發長母音 U（/u/ 或 /ju/）；cup, bus, sun 則是短母音 u。",
+          "hint": "看看字裡面有沒有 u_e、ue 或 ui！",
+          "speechText": "cute, blue, juice",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "u_e",
+            "ue",
+            "ui"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u5-q6",
+          "prompt": "耶誕節文化題：西方小朋友常在床邊或壁爐旁掛上哪一種物品，期待聖誕老公公放進禮物？",
+          "options": [
+            "pencil box",
+            "schoolbag",
+            "umbrella",
+            "stocking"
+          ],
+          "answerIndex": 3,
+          "explanation": "stocking 是「長筒襪／耶誕襪」！小朋友會在耶誕夜掛上耶誕襪等待禮物（gift / present）。",
+          "hint": "聖誕老公公會把禮物塞進大襪子裡喔！",
+          "speechText": "Christmas stocking",
+          "speechLang": "en-US",
+          "tags": [
+            "Festival Christmas",
+            "Culture"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g5-english-u6",
+      "subjectId": "english",
+      "title": "Review 2 & 文化教學",
+      "description": "期末大複習！串聯社區場所與動物數量問答、探索世界文化並統整全冊長母音拼讀！",
+      "difficulty": "hard",
+      "monsterId": "flameDragon",
+      "monsterName": "世界文化守護龍",
+      "monsterHp": 150,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 5,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第五冊",
+        "unitNo": 6
+      },
+      "questions": [
+        {
+          "id": "115-s1-g5-english-u6-q1",
+          "prompt": "情境對話組合：A: Where are you going? / B: I'm going to the zoo. / A: Look! How many elephants are there? / B: ___",
+          "options": [
+            "I'm going to the bank.",
+            "Yes, I have art class.",
+            "It's on Tuesday.",
+            "There are twelve elephants."
+          ],
+          "answerIndex": 3,
+          "explanation": "對話先說要去動物園（zoo），接著問「有幾隻大象？（How many elephants are there?）」，只有「There are twelve elephants.」符合情境問答！",
+          "hint": "A 問的是「有幾隻大象？」，找有數字和大象的回答！",
+          "speechText": "Where are you going? I'm going to the zoo. How many elephants are there? There are twelve elephants.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u6-q2",
+          "prompt": "Reading 閱讀推論：Today is Saturday. Mia is going to the bookstore to buy an English storybook. She sees 60 storybooks and 20 comic books on a shelf. 請問書架上總共有幾本書？",
+          "options": [
+            "seventy",
+            "ninety",
+            "eighty",
+            "one hundred"
+          ],
+          "answerIndex": 2,
+          "explanation": "60 本故事書 + 20 本漫畫書 = 80 本書，80 的英文是 eighty！",
+          "hint": "把 60 和 20 加起來，選出正確的英文數字！",
+          "speechText": "eighty",
+          "speechLang": "en-US",
+          "tags": [
+            "Reading Comprehension",
+            "Numbers 60-100"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u6-q3",
+          "prompt": "在「Let's Explore & Country Profile」文化教學單元，認識世界各地不同的語言、食物與節慶時，我們應抱持什麼態度？",
+          "options": [
+            "覺得外國文化都很奇怪而嘲笑",
+            "了解並尊重不同國家與族群的文化習俗，欣賞多元世界",
+            "認為全世界只能有一種食物",
+            "拒絕認識台灣以外的國家"
+          ],
+          "answerIndex": 1,
+          "explanation": "國際教育與多元文化素養強調「理解、尊重與欣賞差異」，同時也自信介紹自己家鄉的文化。",
+          "hint": "想一想國際教育培養的胸懷：理解並＿＿不同文化！",
+          "speechText": "Respect different cultures.",
+          "speechLang": "en-US",
+          "tags": [
+            "Culture",
+            "International Education"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u6-q4",
+          "prompt": "全冊 Phonics 總體檢：下列哪一組單字「兩個都屬於同一個長母音家族」？",
+          "options": [
+            "cake / snow （長母音 U）",
+            "tree / bike （長母音 E）",
+            "boat / glue （長母音 O）",
+            "play / train （長母音 A）"
+          ],
+          "answerIndex": 3,
+          "explanation": "play（ay）與 train（ai）都是長母音 A 家族！其他選項裡 bike 是長 I、glue 是長 U、cake 是長 A、snow 是長 O。",
+          "hint": "找出兩個發音都是長母音 A 的那一組！",
+          "speechText": "play, train",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "Review 2"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u6-q5",
+          "prompt": "Phonics 拼讀配對：哪一個單字使用了「ui」拼讀出長母音 U 的音？",
+          "options": [
+            "fruit",
+            "coat",
+            "pie",
+            "rain"
+          ],
+          "answerIndex": 0,
+          "explanation": "fruit（水果）與 juice（果汁）裡的 ui 都發長母音 /u/；coat 是 oa、pie 是 ie、rain 是 ai。",
+          "hint": "看看哪一個單字裡有字母 u 和 i 連在一起！",
+          "speechText": "fruit",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "ui"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u6-q6",
+          "prompt": "期末小挑戰：哪一句英文對話的語法「完全正確」？",
+          "options": [
+            "Where is you going? — I'm going to the park.",
+            "How many tiger are there? — There is five tigers.",
+            "What day is today? — It's Sunday. Let's go to the library!",
+            "Do you have PE class in Friday? — Yes, I am."
+          ],
+          "answerIndex": 2,
+          "explanation": "「What day is today? — It's Sunday. Let's go to the library!」文法完全正確！其他錯誤為：Where 「are」 you going、How many 「tigers」... There 「are」 five tigers、PE class 「on」 Friday... Yes, I 「do」.",
+          "hint": "檢查一下主詞配 be 動詞、複數加 s、星期前用 on、Do 問句用 do 回答！",
+          "speechText": "What day is today? It's Sunday. Let's go to the library!",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Grammar"
+          ]
+        }
+      ]
+    }
+  ]
+}

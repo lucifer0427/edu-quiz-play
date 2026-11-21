@@ -1,62 +1,6 @@
-import type { Stage, SubjectId } from '../types/quiz';
-
-export interface SubjectMeta {
-  id: SubjectId;
-  name: string;
-  subtitle: string;
-  badgeClass: string;
-  cardBgClass: string;
-  borderClass: string;
-  iconBgClass: string;
-}
-
-export const SUBJECT_META: Record<SubjectId, SubjectMeta> = {
-  math: {
-    id: 'math',
-    name: '數學王國',
-    subtitle: '加減乘除與邏輯冒險（支援無限動態出題）',
-    badgeClass: 'bg-sky-100 text-sky-700',
-    cardBgClass: 'from-sky-50 to-indigo-50',
-    borderClass: 'border-sky-200',
-    iconBgClass: 'bg-sky-500',
-  },
-  mandarin: {
-    id: 'mandarin',
-    name: '國語森林',
-    subtitle: '成語故事、字音字形與閱讀小智慧',
-    badgeClass: 'bg-rose-100 text-rose-700',
-    cardBgClass: 'from-rose-50 to-orange-50',
-    borderClass: 'border-rose-200',
-    iconBgClass: 'bg-rose-500',
-  },
-  english: {
-    id: 'english',
-    name: '英語島嶼',
-    subtitle: '單字記憶、生活對話與真人語音發音',
-    badgeClass: 'bg-violet-100 text-violet-700',
-    cardBgClass: 'from-violet-50 to-fuchsia-50',
-    borderClass: 'border-violet-200',
-    iconBgClass: 'bg-violet-500',
-  },
-  science: {
-    id: 'science',
-    name: '自然實驗室',
-    subtitle: '動植物奧秘、天氣變化與宇宙大發現',
-    badgeClass: 'bg-emerald-100 text-emerald-700',
-    cardBgClass: 'from-emerald-50 to-teal-50',
-    borderClass: 'border-emerald-200',
-    iconBgClass: 'bg-emerald-500',
-  },
-  custom: {
-    id: 'custom',
-    name: '老師自訂關卡',
-    subtitle: '來自老師匯入或分享連結的專屬考卷',
-    badgeClass: 'bg-amber-100 text-amber-800',
-    cardBgClass: 'from-amber-50 to-yellow-50',
-    borderClass: 'border-amber-200',
-    iconBgClass: 'bg-amber-500',
-  },
-};
+import type { Stage } from '../types/quiz';
+export { SUBJECT_META } from './subjects';
+export type { SubjectMeta } from './subjects';
 
 export const BUILTIN_STAGES: Stage[] = [
   {
@@ -69,6 +13,7 @@ export const BUILTIN_STAGES: Stage[] = [
     monsterName: '軟QQ加減史萊姆',
     monsterHp: 120,
     isDynamicMath: true,
+    generatorId: 'math-basic-easy',
     questions: [
       {
         id: 'math-e-1',
@@ -142,6 +87,7 @@ export const BUILTIN_STAGES: Stage[] = [
     monsterName: '魔方算術守衛',
     monsterHp: 140,
     isDynamicMath: true,
+    generatorId: 'math-basic-medium',
     questions: [
       {
         id: 'math-m-1',

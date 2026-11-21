@@ -1,4 +1,23 @@
-export type SubjectId = 'math' | 'mandarin' | 'english' | 'science' | 'custom';
+export type SubjectId =
+  | 'mandarin'
+  | 'math'
+  | 'english'
+  | 'life'
+  | 'science'
+  | 'social'
+  | 'arts'
+  | 'health-pe'
+  | 'integrative'
+  | 'computer'
+  | 'minnan'
+  | 'hakka'
+  | 'custom';
+
+export type Grade = 1 | 2 | 3 | 4 | 5 | 6;
+
+export type Semester = 1 | 2;
+
+export type MapViewMode = 'curriculum' | 'classic';
 
 export type Difficulty = 'easy' | 'medium' | 'hard';
 
@@ -10,6 +29,49 @@ export type MonsterId =
   | 'treeGuardian'
   | 'flameDragon';
 
+export interface CurriculumRef {
+  academicYear: number;
+  semester: Semester;
+  grade: Grade;
+  publisher?: string;
+  bookSeries?: string | null;
+  unitNo?: number;
+  lessonNo?: number;
+}
+
+export interface CurriculumUnitSummary {
+  unitNo: number;
+  title: string;
+  lessonCount: number;
+  lessonTitles: string[];
+}
+
+export interface CurriculumSubjectEntry {
+  academicYear: number;
+  semester: Semester;
+  grade: Grade;
+  subjectId: Exclude<SubjectId, 'custom'>;
+  subjectLabel: string;
+  publisher: string;
+  bookSeries: string | null;
+  status: 'verified' | 'partial' | 'unverified';
+  unitCount: number;
+  lessonCount: number;
+  units: CurriculumUnitSummary[];
+}
+
+export interface CurriculumCatalogMeta {
+  generatedAt: string;
+  academicYear: number;
+  school: string;
+  grades: Grade[];
+}
+
+export interface CurriculumGradeCatalog {
+  grade: Grade;
+  entries: CurriculumSubjectEntry[];
+}
+
 export interface Question {
   id: string;
   prompt: string;
@@ -19,6 +81,11 @@ export interface Question {
   hint?: string;
   speechText?: string;
   speechLang?: string;
+  imageUrl?: string;
+  audioUrl?: string;
+  tags?: string[];
+  subjectId?: SubjectId;
+  stageTitle?: string;
 }
 
 export interface Stage {
@@ -32,6 +99,17 @@ export interface Stage {
   monsterHp: number;
   questions: Question[];
   isDynamicMath?: boolean;
+  generatorId?: string;
+  curriculum?: CurriculumRef;
+}
+
+export interface QuizPack {
+  packId: string;
+  academicYear: number;
+  semester: Semester;
+  grade: Grade;
+  subjectId: Exclude<SubjectId, 'custom'>;
+  stages: Stage[];
 }
 
 export interface HeroAvatar {
@@ -46,6 +124,7 @@ export interface HeroAvatar {
 }
 
 export interface PlayerProgress {
+  schemaVersion?: number;
   nickname: string;
   selectedAvatarId: string;
   unlockedAvatarIds: string[];
@@ -58,6 +137,10 @@ export interface PlayerProgress {
   totalAnswered: number;
   soundEnabled: boolean;
   customStages: Stage[];
+  selectedView?: MapViewMode;
+  selectedGrade?: Grade;
+  selectedSemester?: Semester;
+  selectedSubject?: SubjectId | 'all';
 }
 
 export type ActiveTab = 'map' | 'wrong' | 'shop' | 'teacher';

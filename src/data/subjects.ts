@@ -1,0 +1,233 @@
+import {
+  BookOpen,
+  Calculator,
+  Compass,
+  Cpu,
+  FlaskConical,
+  Globe,
+  HeartPulse,
+  Languages,
+  MessageCircle,
+  MessagesSquare,
+  Palette,
+  Sparkles,
+  Sun,
+  type LucideIcon,
+} from 'lucide-react';
+import type { Grade, SubjectId } from '../types/quiz';
+
+export interface SubjectMeta {
+  id: SubjectId;
+  name: string;
+  shortName: string;
+  subtitle: string;
+  group: 'core' | 'extended' | 'custom';
+  icon: LucideIcon;
+  badgeClass: string;
+  cardBgClass: string;
+  borderClass: string;
+  iconBgClass: string;
+}
+
+export const SUBJECT_META: Record<SubjectId, SubjectMeta> = {
+  mandarin: {
+    id: 'mandarin',
+    name: '國語森林',
+    shortName: '國語',
+    subtitle: '成語故事、字音字形與閱讀小智慧',
+    group: 'core',
+    icon: BookOpen,
+    badgeClass: 'bg-rose-100 text-rose-700',
+    cardBgClass: 'from-rose-50 to-orange-50',
+    borderClass: 'border-rose-200',
+    iconBgClass: 'bg-rose-500',
+  },
+  math: {
+    id: 'math',
+    name: '數學王國',
+    shortName: '數學',
+    subtitle: '加減乘除與邏輯冒險（支援無限動態出題）',
+    group: 'core',
+    icon: Calculator,
+    badgeClass: 'bg-sky-100 text-sky-700',
+    cardBgClass: 'from-sky-50 to-indigo-50',
+    borderClass: 'border-sky-200',
+    iconBgClass: 'bg-sky-500',
+  },
+  english: {
+    id: 'english',
+    name: '英語島嶼',
+    shortName: '英語',
+    subtitle: '單字記憶、生活對話與真人語音發音',
+    group: 'core',
+    icon: Languages,
+    badgeClass: 'bg-violet-100 text-violet-700',
+    cardBgClass: 'from-violet-50 to-fuchsia-50',
+    borderClass: 'border-violet-200',
+    iconBgClass: 'bg-violet-500',
+  },
+  life: {
+    id: 'life',
+    name: '生活探險隊',
+    shortName: '生活',
+    subtitle: '低年級生活觀察、校園安全與創意探索',
+    group: 'core',
+    icon: Sun,
+    badgeClass: 'bg-amber-100 text-amber-800',
+    cardBgClass: 'from-amber-50 to-lime-50',
+    borderClass: 'border-amber-200',
+    iconBgClass: 'bg-amber-500',
+  },
+  science: {
+    id: 'science',
+    name: '自然實驗室',
+    shortName: '自然',
+    subtitle: '動植物奧秘、天氣變化與宇宙大發現',
+    group: 'core',
+    icon: FlaskConical,
+    badgeClass: 'bg-emerald-100 text-emerald-700',
+    cardBgClass: 'from-emerald-50 to-teal-50',
+    borderClass: 'border-emerald-200',
+    iconBgClass: 'bg-emerald-500',
+  },
+  social: {
+    id: 'social',
+    name: '社會大觀園',
+    shortName: '社會',
+    subtitle: '家鄉歷史、公民生活與臺灣地理文化',
+    group: 'core',
+    icon: Globe,
+    badgeClass: 'bg-cyan-100 text-cyan-800',
+    cardBgClass: 'from-cyan-50 to-sky-50',
+    borderClass: 'border-cyan-200',
+    iconBgClass: 'bg-cyan-600',
+  },
+  arts: {
+    id: 'arts',
+    name: '藝術星工廠',
+    shortName: '藝術',
+    subtitle: '音樂旋律、視覺美感與表演藝術賞析',
+    group: 'extended',
+    icon: Palette,
+    badgeClass: 'bg-pink-100 text-pink-700',
+    cardBgClass: 'from-pink-50 to-rose-50',
+    borderClass: 'border-pink-200',
+    iconBgClass: 'bg-pink-500',
+  },
+  'health-pe': {
+    id: 'health-pe',
+    name: '健康與體育館',
+    shortName: '健體',
+    subtitle: '均衡飲食、安全急救與運動體適能',
+    group: 'extended',
+    icon: HeartPulse,
+    badgeClass: 'bg-lime-100 text-lime-800',
+    cardBgClass: 'from-lime-50 to-emerald-50',
+    borderClass: 'border-lime-200',
+    iconBgClass: 'bg-lime-600',
+  },
+  integrative: {
+    id: 'integrative',
+    name: '綜合活動營',
+    shortName: '綜合',
+    subtitle: '自主規劃、團隊合作與生活實踐素養',
+    group: 'extended',
+    icon: Compass,
+    badgeClass: 'bg-orange-100 text-orange-800',
+    cardBgClass: 'from-orange-50 to-amber-50',
+    borderClass: 'border-orange-200',
+    iconBgClass: 'bg-orange-500',
+  },
+  computer: {
+    id: 'computer',
+    name: '數位創客基地',
+    shortName: '電腦',
+    subtitle: '資訊素養、程式設計與數位創作任務',
+    group: 'extended',
+    icon: Cpu,
+    badgeClass: 'bg-indigo-100 text-indigo-700',
+    cardBgClass: 'from-indigo-50 to-slate-50',
+    borderClass: 'border-indigo-200',
+    iconBgClass: 'bg-indigo-600',
+  },
+  minnan: {
+    id: 'minnan',
+    name: '閩南語古早味',
+    shortName: '閩南語',
+    subtitle: '俗諺童謠、日常會話與在地文化語詞',
+    group: 'extended',
+    icon: MessageCircle,
+    badgeClass: 'bg-teal-100 text-teal-800',
+    cardBgClass: 'from-teal-50 to-emerald-50',
+    borderClass: 'border-teal-200',
+    iconBgClass: 'bg-teal-600',
+  },
+  hakka: {
+    id: 'hakka',
+    name: '客語山歌村',
+    shortName: '客語',
+    subtitle: '客家諺語、節慶飲食與客庄生活會話',
+    group: 'extended',
+    icon: MessagesSquare,
+    badgeClass: 'bg-purple-100 text-purple-800',
+    cardBgClass: 'from-purple-50 to-indigo-50',
+    borderClass: 'border-purple-200',
+    iconBgClass: 'bg-purple-600',
+  },
+  custom: {
+    id: 'custom',
+    name: '老師自訂關卡',
+    shortName: '自訂',
+    subtitle: '來自老師匯入或分享連結的專屬考卷',
+    group: 'custom',
+    icon: Sparkles,
+    badgeClass: 'bg-amber-100 text-amber-800',
+    cardBgClass: 'from-amber-50 to-yellow-50',
+    borderClass: 'border-amber-200',
+    iconBgClass: 'bg-amber-500',
+  },
+};
+
+export const SUBJECT_ORDER: SubjectId[] = [
+  'mandarin',
+  'math',
+  'english',
+  'science',
+  'social',
+  'life',
+  'arts',
+  'health-pe',
+  'integrative',
+  'computer',
+  'minnan',
+  'hakka',
+  'custom',
+];
+
+const LOWER_GRADE_SUBJECTS: Array<Exclude<SubjectId, 'custom'>> = [
+  'mandarin',
+  'math',
+  'english',
+  'life',
+  'health-pe',
+  'minnan',
+  'hakka',
+];
+
+const UPPER_GRADE_SUBJECTS: Array<Exclude<SubjectId, 'custom'>> = [
+  'mandarin',
+  'math',
+  'english',
+  'science',
+  'social',
+  'arts',
+  'health-pe',
+  'integrative',
+  'computer',
+  'minnan',
+  'hakka',
+];
+
+export function getGradeSubjects(grade: Grade): Array<Exclude<SubjectId, 'custom'>> {
+  return grade <= 2 ? LOWER_GRADE_SUBJECTS : UPPER_GRADE_SUBJECTS;
+}

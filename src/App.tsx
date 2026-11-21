@@ -107,7 +107,11 @@ export function App() {
 
       result.wrongQuestions.forEach((q) => {
         wrongSet.add(q.id);
-        nextSnapshots[q.id] = q;
+        nextSnapshots[q.id] = {
+          ...q,
+          subjectId: q.subjectId ?? result.subjectId,
+          stageTitle: q.stageTitle ?? result.stageTitle,
+        };
       });
 
       return {
@@ -144,6 +148,20 @@ export function App() {
   const handleUpdateNickname = (nickname: string) => {
     setProgress((prev) => ({ ...prev, nickname }));
   };
+
+  const handleUpdateMapFilter = useCallback(
+    (
+      patch: Partial<
+        Pick<
+          PlayerProgress,
+          'selectedView' | 'selectedGrade' | 'selectedSemester' | 'selectedSubject'
+        >
+      >,
+    ) => {
+      setProgress((prev) => ({ ...prev, ...patch }));
+    },
+    [],
+  );
 
   const handleRemoveWrongId = (questionId: string) => {
     setProgress((prev) => {
@@ -255,6 +273,7 @@ export function App() {
               playTap();
               setActiveTab('teacher');
             }}
+            onUpdateMapFilter={handleUpdateMapFilter}
           />
         ) : activeTab === 'wrong' ? (
           <WrongBook

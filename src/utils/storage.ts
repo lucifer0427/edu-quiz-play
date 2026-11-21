@@ -1,8 +1,17 @@
-import type { PlayerProgress, Stage } from '../types/quiz';
+import { SUBJECT_META } from '../data/subjects';
+import type {
+  Grade,
+  MapViewMode,
+  PlayerProgress,
+  Semester,
+  Stage,
+  SubjectId,
+} from '../types/quiz';
 
 const STORAGE_KEY = 'edu_quiz_play_progress_v1';
 
 export const DEFAULT_PROGRESS: PlayerProgress = {
+  schemaVersion: 2,
   nickname: '小勇者',
   selectedAvatarId: 'hero-knight',
   unlockedAvatarIds: ['hero-knight'],
@@ -15,7 +24,38 @@ export const DEFAULT_PROGRESS: PlayerProgress = {
   totalAnswered: 0,
   soundEnabled: true,
   customStages: [],
+  selectedView: 'classic',
+  selectedGrade: 5,
+  selectedSemester: 1,
+  selectedSubject: 'all',
 };
+
+function normalizeView(value: unknown): MapViewMode {
+  return value === 'curriculum' || value === 'classic'
+    ? value
+    : (DEFAULT_PROGRESS.selectedView ?? 'classic');
+}
+
+function normalizeGrade(value: unknown): Grade {
+  const n = Number(value);
+  return n >= 1 && n <= 6 && Number.isInteger(n)
+    ? (n as Grade)
+    : (DEFAULT_PROGRESS.selectedGrade ?? 5);
+}
+
+function normalizeSemester(value: unknown): Semester {
+  return value === 1 || value === 2
+    ? value
+    : (DEFAULT_PROGRESS.selectedSemester ?? 1);
+}
+
+function normalizeSubject(value: unknown): SubjectId | 'all' {
+  if (value === 'all') return 'all';
+  if (typeof value === 'string' && value in SUBJECT_META) {
+    return value as SubjectId;
+  }
+  return DEFAULT_PROGRESS.selectedSubject ?? 'all';
+}
 
 export function loadProgress(): PlayerProgress {
   if (typeof window === 'undefined') return DEFAULT_PROGRESS;
@@ -26,6 +66,7 @@ export function loadProgress(): PlayerProgress {
     return {
       ...DEFAULT_PROGRESS,
       ...parsed,
+      schemaVersion: 2,
       unlockedAvatarIds:
         Array.isArray(parsed.unlockedAvatarIds) &&
         parsed.unlockedAvatarIds.length > 0
@@ -46,6 +87,10 @@ export function loadProgress(): PlayerProgress {
       customStages: Array.isArray(parsed.customStages)
         ? parsed.customStages
         : [],
+      selectedView: normalizeView(parsed.selectedView),
+      selectedGrade: normalizeGrade(parsed.selectedGrade),
+      selectedSemester: normalizeSemester(parsed.selectedSemester),
+      selectedSubject: normalizeSubject(parsed.selectedSubject),
     };
   } catch {
     return DEFAULT_PROGRESS;

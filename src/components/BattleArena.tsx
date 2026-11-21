@@ -10,8 +10,11 @@ import {
   Zap,
 } from 'lucide-react';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import type { Question, Stage } from '../types/quiz';
-import { generateMathQuestions } from '../utils/mathGenerator';
+import type { Question, Stage, SubjectId } from '../types/quiz';
+import {
+  isDynamicStage,
+  resolveStageQuestions,
+} from '../utils/generators/registry';
 import {
   playCorrect,
   playCrit,
@@ -26,6 +29,8 @@ import { HeroSprite, MonsterSprite } from './GameSprites';
 
 export interface BattleResult {
   stageId: string;
+  subjectId: SubjectId;
+  stageTitle: string;
   stars: number;
   xpEarned: number;
   coinsEarned: number;
@@ -54,10 +59,7 @@ const OPTION_COLORS = [
 ];
 
 function buildQuestionList(stage: Stage): Question[] {
-  if (stage.isDynamicMath) {
-    return generateMathQuestions(stage.difficulty, 6);
-  }
-  return stage.questions;
+  return resolveStageQuestions(stage);
 }
 
 export function BattleArena({
@@ -193,6 +195,8 @@ export function BattleArena({
 
     const result: BattleResult = {
       stageId: stage.id,
+      subjectId: stage.subjectId,
+      stageTitle: stage.title,
       stars,
       xpEarned,
       coinsEarned,
@@ -225,6 +229,8 @@ export function BattleArena({
     questions.length,
     solvedWrongIds,
     stage.id,
+    stage.subjectId,
+    stage.title,
     wrongQuestions,
   ]);
 
@@ -356,7 +362,7 @@ export function BattleArena({
                 className="btn-3d inline-flex items-center gap-2 rounded-2xl bg-amber-400 px-5 py-3 text-base font-black text-slate-900 shadow-[0_4px_0_#d97706] hover:bg-amber-300"
               >
                 <RotateCcw className="h-5 w-5" />
-                <span>{stage.isDynamicMath ? '換新題再戰' : '再挑戰一次'}</span>
+                <span>{isDynamicStage(stage) ? '換新題再戰' : '再挑戰一次'}</span>
               </button>
             )}
             <button
