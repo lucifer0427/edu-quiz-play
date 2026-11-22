@@ -1,0 +1,970 @@
+{
+  "packId": "115-s1-g5-math",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 5,
+  "subjectId": "math",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-math-u1",
+      "stageId": "115-s1-g5-math-u1",
+      "title": "第1章 折線圖",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "何時該用長條圖？何時用折線圖？",
+          "narrationText": "折線圖是用線段把各個時間點的數值連起來，一眼就能看出資料是變多、變少還是保持平穩。",
+          "cognitiveChunks": [
+            "長條圖比各類別大小",
+            "折線圖看隨時間變化趨勢",
+            "線段越陡代表變化越多"
+          ],
+          "analogyAnchor": "每天記錄體溫或零用錢存了多少，連成一條線就像記錄成長的路線圖。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "長條圖",
+              "leftPoints": [
+                "比較不同項目的數量",
+                "例如：最愛水果人數統計"
+              ],
+              "rightTitle": "折線圖",
+              "rightPoints": [
+                "觀察同一項目隨時間的變化",
+                "例如：七天中午氣溫變化"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "長條圖比大小",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "折線圖看趨勢",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/math#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "找變化最大的區間",
+          "narrationText": "題目問「哪兩個相鄰月份變化最多」時，一定要把相鄰兩點的差算出來比較，不能只挑最高點喔！",
+          "cognitiveChunks": [
+            "算出每段相鄰數值差",
+            "線段最斜的區間變化最大",
+            "平線代表數值沒有增減"
+          ],
+          "workedExampleData": {
+            "problemStatement": "1月到4月氣溫依序是 16℃、18℃、21℃、26℃，哪兩月之間上升最多？",
+            "steps": [
+              "第 1 步：計算 1→2 月差值：18 - 16 = 2℃",
+              "第 2 步：計算 2→3 月差值：21 - 18 = 3℃",
+              "第 3 步：計算 3→4 月差值：26 - 21 = 5℃，所以 3→4 月上升最多"
+            ],
+            "commonErrorContrast": "常見錯誤：看到 4 月溫度最高（26℃），就誤以為 4 月那段變化一定最大，忘了先算相減的差值。",
+            "selfExplanationPrompt": "想一想：如果 4 月到 5 月都是 26℃，線段會呈現什麼方向？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/math#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "圖表小技巧：縱軸省略記號",
+          "topicSignalTitle": "為什麼縱軸會有波浪鋸齒線？",
+          "narrationText": "當資料全都集中在 140 到 155 之間時，從 0 到 140 都沒有點，可以畫上省略記號把空白縮起來，讓折線起伏更清楚。",
+          "cognitiveChunks": [
+            "省略記號放在 0 附近無數據的區段",
+            "縮短空白後，每格刻度可以放得更細",
+            "不可任意把中間有資料的區間省略"
+          ],
+          "factGroundingSourceId": "115-s1/g5/math#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認折線圖的線段方向，再進場挑戰關卡！",
+          "cognitiveChunks": [
+            "上升＝增加、下降＝減少、平線＝不變"
+          ],
+          "warmupCheck": {
+            "prompt": "在每月零用錢折線圖中，8 月到 9 月是一條平平的水平線，代表什麼？",
+            "options": [
+              "9 月零用錢變成 0 元",
+              "8 月和 9 月金額一樣多",
+              "9 月比 8 月多出 10 元",
+              "9 月忘記畫圖了"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！水平線表示高度沒有變，前後兩個月數值相等。",
+            "feedbackRetry": "看一看水平線的高度有沒有升高或降低？高度一樣代表前後金額相等喔！"
+          },
+          "factGroundingSourceId": "115-s1/g5/math#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-math-u2",
+      "stageId": "115-s1-g5-math-u2",
+      "title": "第2章 倍數與因數",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "用跳格看倍數，用整除找因數",
+          "narrationText": "從 0 開始每次跳一樣的步長，落點就是倍數；反過來能把大數剛好整除的正整數，就是因數。",
+          "cognitiveChunks": [
+            "倍數＝某數 × 正整數（越乘越大）",
+            "因數＝能整除某數的正整數（不會超過原數）",
+            "1 是任何正整數的因數"
+          ],
+          "analogyAnchor": "把 12 顆糖果剛好平分成幾堆沒有剩下，每堆有幾顆或分成幾堆都是 12 的因數。",
+          "visualSpec": {
+            "templateId": "number_line",
+            "params": {
+              "min": 0,
+              "max": 20,
+              "step": 2,
+              "stepA": 3
+            },
+            "interactiveParam": {
+              "key": "stepA",
+              "label": "調整倍數步長",
+              "min": 2,
+              "max": 5,
+              "step": 1
+            },
+            "spatialLabels": [
+              {
+                "id": "u2-l1",
+                "text": "等距跳格找倍數",
+                "anchorPointId": "top"
+              },
+              {
+                "id": "u2-l2",
+                "text": "點擊＋－看倍數落點",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/math#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "成對列舉因數才不會漏掉",
+          "narrationText": "找一個數的全部因數時，從 1 開始依序試除，一次寫出一對（商和除數），就能不重複也不漏掉。",
+          "cognitiveChunks": [
+            "從 1 開始依序寫成乘法對",
+            "出現重複數字就停下來",
+            "最大因數就是自己本身"
+          ],
+          "workedExampleData": {
+            "problemStatement": "找出 18 的所有因數，一共有幾個？",
+            "steps": [
+              "第 1 步：1 × 18 = 18（得到因數 1 與 18）",
+              "第 2 步：2 × 9 = 18（得到因數 2 與 9）",
+              "第 3 步：3 × 6 = 18（得到因數 3 與 6）；下一個 4、5 都無法整除，6 已出現過就完成，共 6 個因數"
+            ],
+            "commonErrorContrast": "常見錯誤：只寫出 2、3、6、9，忘記把「1」和「18 自己」也算進因數裡。",
+            "selfExplanationPrompt": "想一想：為什麼試到出現重複數字時，就能確定所有因數都找齊了？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/math#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "試著用除法檢查，哪一個選項是倍數？",
+          "cognitiveChunks": [
+            "甲能被乙整除 → 甲是乙的倍數"
+          ],
+          "warmupCheck": {
+            "prompt": "下列哪一個數是 7 的倍數？",
+            "options": [
+              "24",
+              "35",
+              "40",
+              "50"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！35 ÷ 7 = 5 沒有餘數，所以 35 是 7 的倍數。",
+            "feedbackRetry": "用 7 去除看看四個選項，能剛好除盡沒有餘數的就是答案！"
+          },
+          "factGroundingSourceId": "115-s1/g5/math#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-math-u3",
+      "stageId": "115-s1-g5-math-u3",
+      "title": "第3章 平面圖形",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "三角形的邊長規則與多邊形內角和",
+          "narrationText": "三條線段要能圍成三角形，必須任意兩邊長度的和都大於第三邊；而三角形內角和永遠是 180°，四邊形則是 360°。",
+          "cognitiveChunks": [
+            "最短兩邊和 > 最長邊才能圍成三角形",
+            "三角形 3 個內角和＝180°",
+            "四邊形 4 個內角和＝360°",
+            "平行四邊形對邊等長、對角相等"
+          ],
+          "analogyAnchor": "把兩根短吸管接在一起還比長吸管短或一樣長，就永遠沒辦法在上方碰頭變成三角形。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "三角形性質",
+              "leftPoints": [
+                "任兩邊和 ＞ 第三邊",
+                "內角和固定為 180°"
+              ],
+              "rightTitle": "四邊形與多邊形",
+              "rightPoints": [
+                "四邊形內角和＝360°",
+                "正多邊形每邊等長且每角相等"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u3-l1",
+                "text": "內角和 180°",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u3-l2",
+                "text": "四邊形 360°",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/math#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "快速檢查三邊能不能圍成三角形",
+          "narrationText": "不需要檢查三組加法，只要挑出「較短的兩邊」加起來，看有沒有嚴格大於最長邊就行了！",
+          "cognitiveChunks": [
+            "先找出最長的那一條邊",
+            "把另外兩條短邊相加",
+            "相等也不行，一定要嚴格大於"
+          ],
+          "workedExampleData": {
+            "problemStatement": "長度為 4 cm、5 cm、9 cm 的三根木棒，可以圍成三角形嗎？",
+            "steps": [
+              "第 1 步：找出最長邊是 9 cm，其餘兩邊為 4 cm 與 5 cm",
+              "第 2 步：計算最短兩邊的和：4 + 5 = 9 cm",
+              "第 3 步：9 沒有大於 9（只會貼平重疊成一條線），所以不能圍成三角形"
+            ],
+            "commonErrorContrast": "常見錯誤：看到 4 + 5 = 9 剛好相等，就誤以為「兩邊和等於第三邊」也能圍成三角形。",
+            "selfExplanationPrompt": "想一想：如果把 9 cm 換成 8 cm，4 + 5 = 9 > 8，就可以圍成三角形了嗎？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/math#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "運用三角形內角和來解開這道角度問題吧！",
+          "cognitiveChunks": [
+            "三角形內角和＝180°"
+          ],
+          "warmupCheck": {
+            "prompt": "一個三角形的兩個內角分別是 50° 和 60°，第三個內角是多少度？",
+            "options": [
+              "60°",
+              "70°",
+              "80°",
+              "90°"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！180° - 50° - 60° = 70°。",
+            "feedbackRetry": "三角形三個角加起來是 180°，先算 50 + 60 = 110，再用 180 減 110 試試！"
+          },
+          "factGroundingSourceId": "115-s1/g5/math#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-math-u4",
+      "stageId": "115-s1-g5-math-u4",
+      "title": "第4章 公倍數與公因數",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "兩條跳躍線共同踩到的點就是公倍數",
+          "narrationText": "把兩個數的倍數同時畫在數線上，兩種顏色同時落到的位置就是公倍數，最先遇到的那一個就是最小公倍數！",
+          "cognitiveChunks": [
+            "公倍數＝兩數共同的倍數（有無限多個）",
+            "最小公倍數＝公倍數中最小的正整數",
+            "最大公因數＝兩數共同因數中最大的一個"
+          ],
+          "analogyAnchor": "公車 A 每 2 分鐘發車、公車 B 每 3 分鐘發車，每 6 分鐘就會同時一起出發。",
+          "visualSpec": {
+            "templateId": "number_line",
+            "params": {
+              "min": 0,
+              "max": 18,
+              "step": 1,
+              "stepA": 2,
+              "stepB": 3
+            },
+            "interactiveParam": {
+              "key": "max",
+              "label": "延長數線上限",
+              "min": 12,
+              "max": 24,
+              "step": 6
+            },
+            "spatialLabels": [
+              {
+                "id": "u4-l1",
+                "text": "藍2倍數 綠3倍數",
+                "anchorPointId": "top"
+              },
+              {
+                "id": "u4-l2",
+                "text": "黃點為共同公倍數",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/math#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "區分應用題要找公因數還是公倍數",
+          "narrationText": "「要平分、切割成一樣大的小塊」找公因數；「週期循環、拼成大正方形或同時再相遇」找公倍數。",
+          "cognitiveChunks": [
+            "切割分裝變小 → 找最大公因數",
+            "重複堆疊遇合 → 找最小公倍數"
+          ],
+          "workedExampleData": {
+            "problemStatement": "把 12 顆紅球與 18 顆藍球平分裝進禮盒，每盒兩種球數量各自一樣，最多可裝幾盒？",
+            "steps": [
+              "第 1 步：題目要把球「平分裝盒」，盒數必須同時整除 12 和 18（找公因數）",
+              "第 2 步：12 的因數有 1, 2, 3, 4, 6, 12；18 的因數有 1, 2, 3, 6, 9, 18",
+              "第 3 步：公因數是 1, 2, 3, 6，題目問「最多幾盒」，答案是最大公因數 6 盒"
+            ],
+            "commonErrorContrast": "常見錯誤：看到「最多」就去算最小公倍數 36，結果盒子比球還多，忘了平分是要變小。",
+            "selfExplanationPrompt": "想一想：裝成 6 盒時，每盒裡會各有幾顆紅球與藍球？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/math#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "觀察剛才數線上的黃點，選出正確的最小公倍數吧！",
+          "cognitiveChunks": [
+            "最小公倍數必定是兩數倍數中最小的正整數"
+          ],
+          "warmupCheck": {
+            "prompt": "4 和 6 的最小公倍數是多少？",
+            "options": [
+              "2",
+              "10",
+              "12",
+              "24"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！4 的倍數有 4, 8, 12…，6 的倍數有 6, 12…，最小公倍數是 12（不是直接相乘的 24）。",
+            "feedbackRetry": "注意 24 雖然也是公倍數，但還有更小的喔！把 4 和 6 的倍數列出來找第一個重複的！"
+          },
+          "factGroundingSourceId": "115-s1/g5/math#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-math-u5",
+      "stageId": "115-s1-g5-math-u5",
+      "title": "第5章 立體形體",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "角柱與角錐的構造差異",
+          "narrationText": "角柱上下有兩個全等且平行的底面，側面是長方形；角錐只有一個底面，側面是三角形且會尖尖地聚在一個頂點。",
+          "cognitiveChunks": [
+            "角柱：2 個平行底面、側面是長方形",
+            "角錐：1 個底面、側面是三角形",
+            "圓柱與圓錐底面都是圓形",
+            "球體從任何方向看都是圓形"
+          ],
+          "analogyAnchor": "角柱像上下一樣寬的鉛筆盒，角錐像只有底部坐地、頂端尖尖的金字塔。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "角柱（n 角柱）",
+              "leftPoints": [
+                "底面 2 個（上下全等平行）",
+                "側面是長方形",
+                "面數：n + 2｜頂點：2n｜邊：3n"
+              ],
+              "rightTitle": "角錐（n 角錐）",
+              "rightPoints": [
+                "底面 1 個（尖頂聚一點）",
+                "側面是三角形",
+                "面數：n + 1｜頂點：n + 1｜邊：2n"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u5-l1",
+                "text": "角柱側面長方形",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u5-l2",
+                "text": "角錐側面三角形",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/math#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用底面邊數推算面、頂點與邊",
+          "narrationText": "不用死背表，只要先看底面是幾邊形（n），再想「上下各有幾個面／點／邊」就能立刻推出來。",
+          "cognitiveChunks": [
+            "n 角柱有 n 個側面 ＋ 2 個底面",
+            "n 角錐有 n 個側面 ＋ 1 個底面"
+          ],
+          "workedExampleData": {
+            "problemStatement": "五角柱一共有幾個面、幾個頂點、幾條邊？",
+            "steps": [
+              "第 1 步：底面是五邊形（n = 5），五角柱有上下 2 個底面 + 5 個側面 = 7 個面",
+              "第 2 步：上底 5 個頂點 + 下底 5 個頂點 = 10 個頂點（2 × 5）",
+              "第 3 步：上底 5 條邊 + 下底 5 條邊 + 5 條側邊 = 15 條邊（3 × 5）"
+            ],
+            "commonErrorContrast": "常見錯誤：把角柱當成角錐，忘記算進「上底面」而少算 1 個面或 5 個頂點。",
+            "selfExplanationPrompt": "想一想：如果改成「五角錐」，頂點數量會變成幾個？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/math#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "運用剛才推導角柱的邏輯，算出六角柱的面數吧！",
+          "cognitiveChunks": [
+            "角柱總面數＝底面邊數 ＋ 2"
+          ],
+          "warmupCheck": {
+            "prompt": "一個六角柱總共有幾個面？",
+            "options": [
+              "6 個面",
+              "7 個面",
+              "8 個面",
+              "12 個面"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！6 個側面加上上下 2 個六邊形底面，一共 6 + 2 = 8 個面。",
+            "feedbackRetry": "先數看看六角柱圍一圈有 6 個側面，再加上「上面」和「下面」兩個底面喔！"
+          },
+          "factGroundingSourceId": "115-s1/g5/math#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-math-u6",
+      "stageId": "115-s1-g5-math-u6",
+      "title": "第6章 整數四則運算",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "三步驟併式順序與分配律",
+          "narrationText": "在四則運算的併式中，永遠遵守「先算括號內、再算乘與除、最後算加減」；同層級則由左往右計算。",
+          "cognitiveChunks": [
+            "1. 先算小括號裡面",
+            "2. 再從左到右算乘與除",
+            "3. 最後從左到右算加與減",
+            "分配律：(a + b) × c = a × c + b × c"
+          ],
+          "analogyAnchor": "括號就像 VIP 通行證，無論裡面是加還是減，都要讓它先算！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先算括號內",
+                "再算乘與除",
+                "最後算加減"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u6-l1",
+                "text": "同層級一律由左往右算",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/math#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用分配律把算式變好算",
+          "narrationText": "看到兩個乘法算式有相同的乘數，且中間用加號或減號相連時，可以提出相同的數字先合併！",
+          "cognitiveChunks": [
+            "找出兩邊相同的乘數",
+            "把另外兩數放進括號先加減"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何快速計算 37 × 6 + 37 × 4？",
+            "steps": [
+              "第 1 步：發現兩項都有共同乘數「37」",
+              "第 2 步：運用分配律合併：37 × (6 + 4)",
+              "第 3 步：先算括號 6 + 4 = 10，最後 37 × 10 = 370"
+            ],
+            "commonErrorContrast": "常見錯誤：沒有遵守先乘除後加減而先算 6 + 37，或者提出 37 後忘記把 6 和 4 加上括號。",
+            "selfExplanationPrompt": "想一想：37 × 6 + 37 × 4 相當於 6 個 37 加上 4 個 37，合起來是幾個 37？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/math#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "連除計算小秘訣",
+          "topicSignalTitle": "連續除以兩個數，可以先乘起來再除",
+          "narrationText": "例如 360 ÷ 4 ÷ 5，可以先算後面 4 × 5 = 20，再算 360 ÷ 20 = 18，計算會快很多！",
+          "cognitiveChunks": [
+            "a ÷ b ÷ c = a ÷ (b × c)",
+            "但注意「沒有」a ÷ (b + c) 的分配律喔！"
+          ],
+          "factGroundingSourceId": "115-s1/g5/math#u6"
+        },
+        {
+          "sceneId": "u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "試試看用分配律心算這一題！",
+          "cognitiveChunks": [
+            "提出共同乘數湊成整十"
+          ],
+          "warmupCheck": {
+            "prompt": "計算 25 × 8 + 25 × 2 的結果是多少？",
+            "options": [
+              "200",
+              "250",
+              "300",
+              "500"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "太棒了！25 × (8 + 2) = 25 × 10 = 250，一秒就算出來！",
+            "feedbackRetry": "把共同的 25 提出來：8 個 25 加上 2 個 25，一共有幾個 25 呢？"
+          },
+          "factGroundingSourceId": "115-s1/g5/math#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-math-u7",
+      "stageId": "115-s1-g5-math-u7",
+      "title": "第7章 擴、約分與加減",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u7-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "擴分與約分：切得更細，但總量完全一樣",
+          "narrationText": "把分子和分母同時乘以相同的整數叫做擴分；雖然分成的份數變多，但著色的長度與原來一模一樣！",
+          "cognitiveChunks": [
+            "擴分：分子分母同乘一個不為 0 的數",
+            "約分：分子分母同除以一個公因數",
+            "通分：先擴分成同分母再比大小或加減"
+          ],
+          "analogyAnchor": "半塊大披薩切 1 刀變成兩小塊（2/4），合起來吃的份量還是原本的 1/2 個披薩。",
+          "visualSpec": {
+            "templateId": "fraction_bar",
+            "params": {
+              "numerator": 1,
+              "denominator": 2,
+              "scaleFactor": 2
+            },
+            "interactiveParam": {
+              "key": "scaleFactor",
+              "label": "調整擴分倍率",
+              "min": 1,
+              "max": 4,
+              "step": 1
+            },
+            "spatialLabels": [
+              {
+                "id": "u7-l1",
+                "text": "原分數 1/2",
+                "anchorPointId": "top"
+              },
+              {
+                "id": "u7-l2",
+                "text": "擴分後長度不變",
+                "anchorPointId": "mid"
+              },
+              {
+                "id": "u7-l3",
+                "text": "點擊＋－看等值分數",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/math#u7"
+        },
+        {
+          "sceneId": "u7-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "異分母分數加減：先通分再加減分子",
+          "narrationText": "分母不同代表每一份的大小不同，不能直接把分子或分母相加，必須先通分成相同的分母。",
+          "cognitiveChunks": [
+            "找兩分母的公倍數作為新分母",
+            "分子跟著等比例擴分",
+            "分母不變，只加減分子"
+          ],
+          "workedExampleData": {
+            "problemStatement": "計算 1/2 + 1/3 的正確答案是多少？",
+            "steps": [
+              "第 1 步：2 和 3 的最小公倍數是 6，把分母都通分為 6",
+              "第 2 步：擴分兩分數：1/2 = 3/6，1/3 = 2/6",
+              "第 3 步：同分母相加，分母維持 6，分子 3 + 2 = 5，答案為 5/6"
+            ],
+            "commonErrorContrast": "常見錯誤：忘記通分，直接把分子加分子、分母加分母，寫成錯的 2/5。",
+            "selfExplanationPrompt": "想一想：為什麼 1/2 + 1/3 一定比 1/2 大，不可能變成更小的 2/5？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/math#u7"
+        },
+        {
+          "sceneId": "u7-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "試著先通分再相減，完成這題暖身！",
+          "cognitiveChunks": [
+            "通分後分母不變，分子相減"
+          ],
+          "warmupCheck": {
+            "prompt": "計算 3/4 - 1/2 的結果是多少？",
+            "options": [
+              "1/4",
+              "2/2",
+              "1/2",
+              "2/4"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！把 1/2 擴分變成 2/4，再算 3/4 - 2/4 = 1/4。",
+            "feedbackRetry": "先把 1/2 擴分成分母為 4 的分數（2/4），再用 3/4 減掉它看看！"
+          },
+          "factGroundingSourceId": "115-s1/g5/math#u7"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-math-u8",
+      "stageId": "115-s1-g5-math-u8",
+      "title": "第8章 面積",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u8-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "切割拼湊看懂面積公式",
+          "narrationText": "平行四邊形沿高切下三角形補到另一側就變成長方形，所以面積＝底 × 高；而三角形正好是平行四邊形的一半！",
+          "cognitiveChunks": [
+            "平行四邊形面積＝底 × 高",
+            "三角形面積＝底 × 高 ÷ 2",
+            "梯形面積＝(上底 + 下底) × 高 ÷ 2",
+            "高必須與底垂直"
+          ],
+          "analogyAnchor": "兩張完全一樣的三角形紙板倒過來拼在一起，剛好會變成一個平行四邊形。",
+          "visualSpec": {
+            "templateId": "rect_geometry",
+            "params": {
+              "shape": "parallelogram",
+              "base": 6,
+              "height": 4,
+              "unit": "cm"
+            },
+            "interactiveParam": {
+              "key": "base",
+              "label": "調整底邊長度",
+              "min": 4,
+              "max": 10,
+              "step": 1,
+              "unit": "cm"
+            },
+            "spatialLabels": [
+              {
+                "id": "u8-l1",
+                "text": "高垂直於底邊",
+                "anchorPointId": "height"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/math#u8"
+        },
+        {
+          "sceneId": "u8-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "三角形與梯形別忘了「÷ 2」",
+          "narrationText": "計算面積時，先看清楚圖形是平行四邊形、三角形還是梯形，再代入對應公式。",
+          "cognitiveChunks": [
+            "底和高要互相垂直",
+            "三角形與梯形最後一定要 ÷ 2"
+          ],
+          "workedExampleData": {
+            "problemStatement": "底為 8 cm、高為 5 cm 的三角形，面積是多少平方公分？",
+            "steps": [
+              "第 1 步：確認對應的底是 8 cm、垂直的高是 5 cm",
+              "第 2 步：先乘出同底同高平行四邊形面積：8 × 5 = 40",
+              "第 3 步：三角形是平行四邊形的一半，記得除以 2：40 ÷ 2 = 20 平方公分"
+            ],
+            "commonErrorContrast": "常見錯誤：算完 8 × 5 = 40 就直接當成答案，忘記三角形與梯形最後必須除以 2。",
+            "selfExplanationPrompt": "想一想：如果高換成旁邊斜斜的邊長而不是垂直的高，算出來還會是正確面積嗎？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/math#u8"
+        },
+        {
+          "sceneId": "u8-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "試著套用梯形面積公式算算看吧！",
+          "cognitiveChunks": [
+            "梯形面積＝(上底 ＋ 下底) × 高 ÷ 2"
+          ],
+          "warmupCheck": {
+            "prompt": "上底 4 cm、下底 6 cm、高 3 cm 的梯形，面積是多少平方公分？",
+            "options": [
+              "15 平方公分",
+              "24 平方公分",
+              "30 平方公分",
+              "36 平方公分"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！(4 + 6) × 3 ÷ 2 = 10 × 3 ÷ 2 = 15 平方公分。",
+            "feedbackRetry": "先把上底和下底加起來（4 + 6 = 10），乘以高（3）後，別忘了最後要除以 2 喔！"
+          },
+          "factGroundingSourceId": "115-s1/g5/math#u8"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-math-u9",
+      "stageId": "115-s1-g5-math-u9",
+      "title": "第9章 乘以幾分之一",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u9-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "除法變分數，乘以 1/n 就是除以 n",
+          "narrationText": "把 3 塊餅平分給 4 人，每人分到 3 ÷ 4 = 3/4 塊；而求 20 顆糖果的 1/4，其實就是把 20 平分 4 份，即 20 ÷ 4。",
+          "cognitiveChunks": [
+            "整數相除：a ÷ b = a/b",
+            "被除數寫分子、除數寫分母",
+            "整數 × 1/n ＝ 整數 ÷ n"
+          ],
+          "analogyAnchor": "拿一半的零用錢（× 1/2）跟把零用錢平分成兩份（÷ 2），拿到手的金額完全一樣。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "被除數 ÷ 除數",
+                "寫成分數 a/b",
+                "× 1/n 等於 ÷ n"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u9-l1",
+                "text": "前數放上面 後數放下面",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/math#u9"
+        },
+        {
+          "sceneId": "u9-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分清楚「誰除以誰」",
+          "narrationText": "列式時先問清楚「被分的是什麼東西」，被分的數量放在分子（÷ 號前面），分給幾份放在分母（÷ 號後面）。",
+          "cognitiveChunks": [
+            "被平分的量作分子",
+            "分成的份數作分母"
+          ],
+          "workedExampleData": {
+            "problemStatement": "將 3 公尺的彩帶平分給 5 位同學，每人分到幾公尺？20 元的 1/4 是幾元？",
+            "steps": [
+              "第 1 步：被平分的是 3 公尺彩帶，分給 5 人，列式為 3 ÷ 5",
+              "第 2 步：直接改寫為分數表示結果：3/5 公尺",
+              "第 3 步：求 20 的 1/4 倍，就是 20 × 1/4 = 20 ÷ 4 = 5 元"
+            ],
+            "commonErrorContrast": "常見錯誤：看到 3 與 5 隨意擺放，把「3 ÷ 5」寫成反過來的「5/3 公尺」。",
+            "selfExplanationPrompt": "想一想：3 公尺分給 5 人，每人分到的長度應該比 1 公尺長還是短？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/math#u9"
+        },
+        {
+          "sceneId": "u9-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "用分數記下平分的結果，準備進場挑戰！",
+          "cognitiveChunks": [
+            "a ÷ b = a/b"
+          ],
+          "warmupCheck": {
+            "prompt": "把 5 條相同吐司平分給 4 個人，每人分到幾條吐司？",
+            "options": [
+              "4/5 條",
+              "5/4 條",
+              "1/4 條",
+              "1/5 條"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！被分的 5 條吐司在分子、4 個人在分母，每人分到 5 ÷ 4 = 5/4 條（也就是 1 又 1/4 條）。",
+            "feedbackRetry": "先想清楚誰是被平分的東西？5 條吐司 ÷ 4 個人，÷ 號前面寫分子，後面寫分母喔！"
+          },
+          "factGroundingSourceId": "115-s1/g5/math#u9"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-math-u10",
+      "stageId": "115-s1-g5-math-u10",
+      "title": "第10章 扇形",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u10-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "扇形的三要素與圓心角",
+          "narrationText": "由圓心出發的兩條半徑，加上圓周上的一段圓弧所圍成的圖形叫做扇形；整個圓的圓心角合起來是 360°。",
+          "cognitiveChunks": [
+            "扇形＝兩條半徑 ＋ 一段圓弧",
+            "頂點一定位在圓心上",
+            "一個完整的圓＝360°",
+            "圓心角 ÷ 360°＝幾分之幾圓"
+          ],
+          "analogyAnchor": "從圓心切下來的一片比薩就是扇形，尖端必須剛好對準圓心才算喔！",
+          "visualSpec": {
+            "templateId": "clock_face",
+            "params": {
+              "angle": 90
+            },
+            "interactiveParam": {
+              "key": "angle",
+              "label": "調整圓心角度數",
+              "min": 30,
+              "max": 360,
+              "step": 30,
+              "unit": "°"
+            },
+            "spatialLabels": [
+              {
+                "id": "u10-l1",
+                "text": "圓心",
+                "anchorPointId": "center"
+              },
+              {
+                "id": "u10-l2",
+                "text": "周角共 360°",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/math#u10"
+        },
+        {
+          "sceneId": "u10-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "圓心角與幾分之幾圓互換",
+          "narrationText": "一個圓是 360°，知道佔幾分之幾圓時，用 360° 乘以分數就能求出圓心角；反過來用圓心角除以 360° 約分即可。",
+          "cognitiveChunks": [
+            "求圓心角：360° × 幾分之幾",
+            "求幾分之幾圓：圓心角 / 360° 約分"
+          ],
+          "workedExampleData": {
+            "problemStatement": "一個 1/6 圓的扇形，它的圓心角是多少度？",
+            "steps": [
+              "第 1 步：記住一個完整的圓有 360°",
+              "第 2 步：把 360° 平分成 6 等份：360° × 1/6 = 360° ÷ 6",
+              "第 3 步：算出圓心角為 60°"
+            ],
+            "commonErrorContrast": "常見錯誤：把平角 180° 或直角 90° 當成一整個圓，導致算成 180 ÷ 6 = 30°。",
+            "selfExplanationPrompt": "想一想：把圓心角是 60° 的扇形排成一圈，一共需要幾片才能拼回完整的圓？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/math#u10"
+        },
+        {
+          "sceneId": "u10-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "反過來由圓心角推算它是幾分之幾圓吧！",
+          "cognitiveChunks": [
+            "圓心角 / 360° 約分成最簡分數"
+          ],
+          "warmupCheck": {
+            "prompt": "一個圓心角為 120° 的扇形，是幾分之幾圓？",
+            "options": [
+              "1/2 圓",
+              "1/3 圓",
+              "1/4 圓",
+              "1/6 圓"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！120° ÷ 360° = 120/360 = 1/3 圓。",
+            "feedbackRetry": "把 120° 放在分子、完整的圓 360° 放在分母，約分看看 120/360 等於幾分之幾！"
+          },
+          "factGroundingSourceId": "115-s1/g5/math#u10"
+        }
+      ]
+    }
+  ]
+}

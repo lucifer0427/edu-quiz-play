@@ -1,22 +1,43 @@
 import { Sparkles, X } from 'lucide-react';
-import { useCallback, useEffect, useState } from 'react';
+import { lazy, Suspense, useCallback, useEffect, useState } from 'react';
 import { BattleArena, type BattleResult } from './components/BattleArena';
 import { HeroShop } from './components/HeroShop';
 import { Navbar } from './components/Navbar';
 import { TeacherPanel } from './components/TeacherPanel';
 import { WorldMap } from './components/WorldMap';
 import { WrongBook } from './components/WrongBook';
-import type { ActiveTab, PlayerProgress, Stage } from './types/quiz';
+import type { LessonScript } from './types/lesson';
+import type {
+  ActiveTab,
+  LocalProfileMeta,
+  PlayerProgress,
+  Stage,
+} from './types/quiz';
+
+const LessonPlayer = lazy(() => import('./components/LessonPlayer'));
+import { reviewFsrsCard } from './utils/fsrs';
 import { playTap, setSoundEnabled } from './utils/sound';
 import {
+  createProfile,
   decodeCustomStageFromHash,
+  deleteProfile,
+  getActiveProfileId,
+  listProfiles,
   loadProgress,
   saveProgress,
+  switchProfile,
+  syncActiveProfileMeta,
 } from './utils/storage';
 
 export function App() {
+  const [activeProfileId, setActiveProfileId] = useState<string>(() =>
+    getActiveProfileId(),
+  );
+  const [profiles, setProfiles] = useState<LocalProfileMeta[]>(() =>
+    listProfiles(),
+  );
   const [progress, setProgress] = useState<PlayerProgress>(() => {
-    const loaded = loadProgress();
+    const loaded = loadProgress(activeProfileId);
     setSoundEnabled(loaded.soundEnabled);
     return loaded;
   });
@@ -25,6 +46,10 @@ export function App() {
     stage: Stage;
     isWrongReviewMode: boolean;
   } | null>(null);
+  const [activeLesson, setActiveLesson] = useState<{
+    lesson: LessonScript;
+    stage: Stage;
+  } | null>(null);
   const [sharedStage, setSharedStage] = useState<Stage | null>(() =>
     typeof window !== 'undefined'
       ? decodeCustomStageFromHash(window.location.hash)
@@ -32,8 +57,12 @@ export function App() {
   );
 
   useEffect(() => {
-    saveProgress(progress);
-  }, [progress]);
+    saveProgress(progress, activeProfileId);
+  }, [activeProfileId, progress]);
+
+  useEffect(() => {
+    setProfiles(syncActiveProfileMeta(progress, activeProfileId));
+  }, [activeProfileId, progress.nickname, progress.selectedAvatarId]);
 
   useEffect(() => {
     const handleHashChange = () => {
@@ -85,7 +114,82 @@ export function App() {
     });
   };
 
+  const handleToggleFocusMode = useCallback(() => {
+    playTap();
+    setProgress((prev) => ({
+      ...prev,
+      focusMode: !prev.focusMode,
+    }));
+  }, []);
+
+  const handleToggleSpeechSlow = useCallback(() => {
+    playTap();
+    setProgress((prev) => ({
+      ...prev,
+      speechRateMode: prev.speechRateMode === 'slow' ? 'normal' : 'slow',
+    }));
+  }, []);
+
+  const handleSwitchProfile = useCallback((profileId: string) => {
+    playTap();
+    const res = switchProfile(profileId);
+    setActiveProfileId(res.activeProfileId);
+    setProgress(res.progress);
+    setProfiles(res.profiles);
+    setSoundEnabled(res.progress.soundEnabled);
+    setActiveBattle(null);
+    setActiveLesson(null);
+  }, []);
+
+  const handleCreateProfile = useCallback((nickname: string) => {
+    playTap();
+    const res = createProfile(nickname);
+    setActiveProfileId(res.activeProfileId);
+    setProgress(res.progress);
+    setProfiles(res.profiles);
+    setSoundEnabled(res.progress.soundEnabled);
+    setActiveBattle(null);
+    setActiveLesson(null);
+  }, []);
+
+  const handleDeleteProfile = useCallback((profileId: string) => {
+    playTap();
+    const res = deleteProfile(profileId);
+    setActiveProfileId(res.activeProfileId);
+    setProgress(res.progress);
+    setProfiles(res.profiles);
+    setSoundEnabled(res.progress.soundEnabled);
+    setActiveBattle(null);
+    setActiveLesson(null);
+  }, []);
+
+  const handleImportProgress = useCallback(
+    (imported: PlayerProgress) => {
+      playTap();
+      setProgress(imported);
+      setSoundEnabled(imported.soundEnabled);
+      saveProgress(imported, activeProfileId);
+      setProfiles(syncActiveProfileMeta(imported, activeProfileId));
+      setActiveBattle(null);
+      setActiveLesson(null);
+    },
+    [activeProfileId],
+  );
+
+  const markLessonCompleted = useCallback((lessonId: string) => {
+    setProgress((prev) => {
+      const prevIds = prev.completedLessonIds ?? [];
+      if (prevIds.includes(lessonId)) return prev;
+      return {
+        ...prev,
+        xp: prev.xp + 10,
+        completedLessonIds: [...prevIds, lessonId],
+      };
+    });
+  }, []);
+
   const handleFinishBattle = useCallback((result: BattleResult) => {
+    const now = new Date();
     setProgress((prev) => {
       const prevStars = prev.stageStars[result.stageId] ?? 0;
       const nextStageStars = result.isReviewMode
@@ -97,13 +201,7 @@ export function App() {
 
       const wrongSet = new Set(prev.wrongQuestionIds);
       const nextSnapshots = { ...(prev.wrongQuestionSnapshots ?? {}) };
-
-      if (result.isReviewMode) {
-        result.solvedWrongIds.forEach((id) => {
-          wrongSet.delete(id);
-          delete nextSnapshots[id];
-        });
-      }
+      const nextFsrsCards = { ...(prev.fsrsCards ?? {}) };
 
       result.wrongQuestions.forEach((q) => {
         wrongSet.add(q.id);
@@ -114,6 +212,34 @@ export function App() {
         };
       });
 
+      // 答錯加入錯題排程；複習答對改為推進 FSRS 記憶間隔，不再直接刪除
+      for (const outcome of result.attemptOutcomes) {
+        const q = outcome.question;
+        const shouldTrack =
+          !outcome.wasCorrect || wrongSet.has(q.id) || q.id in nextFsrsCards;
+        if (!shouldTrack) continue;
+
+        if (!outcome.wasCorrect) {
+          wrongSet.add(q.id);
+          nextSnapshots[q.id] = {
+            ...q,
+            subjectId: q.subjectId ?? result.subjectId,
+            stageTitle: q.stageTitle ?? result.stageTitle,
+          };
+        }
+
+        nextFsrsCards[q.id] = reviewFsrsCard(
+          nextFsrsCards[q.id],
+          q.id,
+          {
+            wasCorrect: outcome.wasCorrect,
+            usedHint: outcome.usedHint,
+            responseTimeMs: outcome.responseTimeMs,
+          },
+          now,
+        );
+      }
+
       return {
         ...prev,
         xp: prev.xp + result.xpEarned,
@@ -123,6 +249,7 @@ export function App() {
         stageStars: nextStageStars,
         wrongQuestionIds: Array.from(wrongSet),
         wrongQuestionSnapshots: nextSnapshots,
+        fsrsCards: nextFsrsCards,
       };
     });
   }, []);
@@ -167,12 +294,15 @@ export function App() {
     setProgress((prev) => {
       const nextSnapshots = { ...(prev.wrongQuestionSnapshots ?? {}) };
       delete nextSnapshots[questionId];
+      const nextFsrsCards = { ...(prev.fsrsCards ?? {}) };
+      delete nextFsrsCards[questionId];
       return {
         ...prev,
         wrongQuestionIds: prev.wrongQuestionIds.filter(
           (id) => id !== questionId,
         ),
         wrongQuestionSnapshots: nextSnapshots,
+        fsrsCards: nextFsrsCards,
       };
     });
   };
@@ -196,15 +326,22 @@ export function App() {
       <Navbar
         progress={progress}
         activeTab={activeTab}
+        profiles={profiles}
+        activeProfileId={activeProfileId}
         onChangeTab={(tab) => {
           playTap();
           setActiveBattle(null);
+          setActiveLesson(null);
           setActiveTab(tab);
         }}
         onToggleSound={handleToggleSound}
+        onToggleFocusMode={handleToggleFocusMode}
+        onSwitchProfile={handleSwitchProfile}
+        onCreateProfile={handleCreateProfile}
+        onDeleteProfile={handleDeleteProfile}
       />
 
-      {sharedStage && !activeBattle && (
+      {sharedStage && !activeBattle && !activeLesson && (
         <div className="mx-auto mt-4 max-w-4xl px-4">
           <div className="animate-pop-in flex flex-wrap items-center justify-between gap-3 rounded-2xl border-2 border-amber-400 bg-gradient-to-r from-amber-100 to-yellow-100 px-4 py-3 shadow-sm">
             <div className="flex items-center gap-2.5">
@@ -254,16 +391,57 @@ export function App() {
             stage={activeBattle.stage}
             selectedAvatarId={progress.selectedAvatarId}
             currentXp={progress.xp}
+            previousStars={progress.stageStars[activeBattle.stage.id] ?? 0}
             isWrongReviewMode={activeBattle.isWrongReviewMode}
+            focusMode={Boolean(progress.focusMode)}
+            speechSlowMode={progress.speechRateMode === 'slow'}
+            onToggleFocusMode={handleToggleFocusMode}
+            onToggleSpeechSlow={handleToggleSpeechSlow}
             onFinishBattle={handleFinishBattle}
             onExit={() => setActiveBattle(null)}
           />
+        ) : activeLesson ? (
+          <Suspense
+            fallback={
+              <div className="mx-auto max-w-2xl px-4 py-12 text-center text-sm font-black text-slate-600">
+                正在載入微課程內容...
+              </div>
+            }
+          >
+            <LessonPlayer
+              lesson={activeLesson.lesson}
+              stage={activeLesson.stage}
+              alreadyCompleted={Boolean(
+                progress.completedLessonIds?.includes(
+                  activeLesson.lesson.lessonId,
+                ),
+              )}
+              focusMode={Boolean(progress.focusMode)}
+              speechSlowMode={progress.speechRateMode === 'slow'}
+              onToggleSpeechSlow={handleToggleSpeechSlow}
+              onCompleteAndStartQuiz={() => {
+                markLessonCompleted(activeLesson.lesson.lessonId);
+                const targetStage = activeLesson.stage;
+                setActiveLesson(null);
+                setActiveBattle({ stage: targetStage, isWrongReviewMode: false });
+              }}
+              onCompleteAndExit={() => {
+                markLessonCompleted(activeLesson.lesson.lessonId);
+                setActiveLesson(null);
+              }}
+              onExit={() => setActiveLesson(null)}
+            />
+          </Suspense>
         ) : activeTab === 'map' ? (
           <WorldMap
             progress={progress}
             onStartStage={(stage) => {
               playTap();
               setActiveBattle({ stage, isWrongReviewMode: false });
+            }}
+            onStartLesson={(lesson, stage) => {
+              playTap();
+              setActiveLesson({ lesson, stage });
             }}
             onGoWrongBook={() => {
               playTap();
@@ -295,6 +473,7 @@ export function App() {
             progress={progress}
             onAddCustomStage={handleAddCustomStage}
             onDeleteCustomStage={handleDeleteCustomStage}
+            onImportProgress={handleImportProgress}
             onStartStage={(stage) =>
               setActiveBattle({ stage, isWrongReviewMode: false })
             }

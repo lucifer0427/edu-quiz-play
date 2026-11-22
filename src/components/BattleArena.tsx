@@ -1,16 +1,25 @@
 import confetti from 'canvas-confetti';
 import {
   ArrowLeft,
+  Focus,
   Heart,
   Lightbulb,
+  RefreshCw,
   RotateCcw,
+  Shuffle,
   Sparkles,
   Star,
   Volume2,
   Zap,
 } from 'lucide-react';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import type { Question, Stage, SubjectId } from '../types/quiz';
+import type {
+  Question,
+  QuestionAttemptOutcome,
+  Stage,
+  SubjectId,
+  WorkedExampleData,
+} from '../types/quiz';
 import {
   isDynamicStage,
   resolveStageQuestionsAsync,
@@ -25,7 +34,14 @@ import {
 } from '../utils/sound';
 import { isSpeechSupported, speakText, stopSpeech } from '../utils/speech';
 import { getLevelFromXp } from '../utils/storage';
+import {
+  buildHintLevels,
+  buildWorkedExampleFromQuestion,
+  pickEliminatedOptionIndices,
+} from '../utils/workedExample';
 import { HeroSprite, MonsterSprite } from './GameSprites';
+import { QuestionVisual } from './QuestionVisual';
+import { WorkedExampleSplit } from './WorkedExampleSplit';
 
 export interface BattleResult {
   stageId: string;
@@ -39,17 +55,31 @@ export interface BattleResult {
   wrongQuestions: Question[];
   solvedWrongIds: string[];
   isReviewMode: boolean;
+  attemptOutcomes: QuestionAttemptOutcome[];
+  repairedCount: number;
 }
 
 interface BattleArenaProps {
   stage: Stage;
   selectedAvatarId: string;
   currentXp: number;
+  previousStars?: number;
   isWrongReviewMode?: boolean;
+  focusMode?: boolean;
+  speechSlowMode?: boolean;
+  onToggleFocusMode?: () => void;
+  onToggleSpeechSlow?: () => void;
   onFinishBattle: (result: BattleResult) => void;
   onExit: () => void;
 }
 
+interface BattleQueueItem {
+  question: Question;
+  isRetry: boolean;
+  originId: string;
+}
+
+const READ_LOCK_MS = 1500;
 const OPTION_LABELS = ['1', '2', '3', '4'];
 const OPTION_COLORS = [
   'bg-sky-50 border-sky-300 hover:bg-sky-100 text-sky-900 shadow-[0_4px_0_#7dd3fc]',
@@ -58,22 +88,38 @@ const OPTION_COLORS = [
   'bg-violet-50 border-violet-300 hover:bg-violet-100 text-violet-900 shadow-[0_4px_0_#c4b5fd]',
 ];
 
+function toInitialQueue(questions: Question[]): BattleQueueItem[] {
+  return questions.map((question) => ({
+    question,
+    isRetry: false,
+    originId: question.id,
+  }));
+}
+
 export function BattleArena({
   stage,
   selectedAvatarId,
   currentXp,
+  previousStars = 0,
   isWrongReviewMode = false,
+  focusMode = false,
+  speechSlowMode = false,
+  onToggleFocusMode,
+  onToggleSpeechSlow,
   onFinishBattle,
   onExit,
 }: BattleArenaProps) {
   const isDynamic = isDynamicStage(stage);
-  const [questions, setQuestions] = useState<Question[]>(() =>
-    isDynamic ? [] : stage.questions,
+  const [queue, setQueue] = useState<BattleQueueItem[]>(() =>
+    isDynamic ? [] : toInitialQueue(stage.questions),
+  );
+  const [baseQuestionCount, setBaseQuestionCount] = useState<number>(() =>
+    isDynamic ? 6 : stage.questions.length,
   );
   const [isLoadingQuestions, setIsLoadingQuestions] = useState(isDynamic);
   const maxMonsterHp = useMemo(
-    () => Math.max(stage.monsterHp, questions.length * 20),
-    [stage.monsterHp, questions.length],
+    () => Math.max(stage.monsterHp, baseQuestionCount * 20),
+    [stage.monsterHp, baseQuestionCount],
   );
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -84,10 +130,20 @@ export function BattleArena({
   const [combo, setCombo] = useState(0);
   const [maxCombo, setMaxCombo] = useState(0);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
-  const [showHint, setShowHint] = useState(false);
+  const [hintLevel, setHintLevel] = useState<0 | 1 | 2 | 3>(0);
+  const [manualEliminatedIndices, setManualEliminatedIndices] = useState<
+    number[]
+  >([]);
+  const [activeScaffold, setActiveScaffold] =
+    useState<WorkedExampleData | null>(null);
   const [correctCount, setCorrectCount] = useState(0);
   const [wrongQuestions, setWrongQuestions] = useState<Question[]>([]);
   const [solvedWrongIds, setSolvedWrongIds] = useState<string[]>([]);
+  const [repairedIds, setRepairedIds] = useState<string[]>([]);
+  const [attemptOutcomes, setAttemptOutcomes] = useState<
+    QuestionAttemptOutcome[]
+  >([]);
+  const [readLockRemainingMs, setReadLockRemainingMs] = useState(0);
   const [heroAttacking, setHeroAttacking] = useState(false);
   const [heroHurt, setHeroHurt] = useState(false);
   const [monsterHit, setMonsterHit] = useState(false);
@@ -99,25 +155,102 @@ export function BattleArena({
   const [finishedResult, setFinishedResult] = useState<BattleResult | null>(
     null,
   );
+
   const initialXpRef = useRef(currentXp);
+  const latestPrevStarsRef = useRef(previousStars);
+  latestPrevStarsRef.current = previousStars;
   const isMountedRef = useRef(true);
   const requestSeqRef = useRef(0);
+  const queuedRetryIdsRef = useRef<Set<string>>(new Set());
+  const questionStartRef = useRef<number>(Date.now());
+  const hintUsedRef = useRef<boolean>(false);
+  const consecutiveWrongRef = useRef<number>(0);
+  const pendingScaffoldRef = useRef<WorkedExampleData | null>(null);
+  const readLockTimerRef = useRef<number | null>(null);
 
-  const currentQuestion = questions[currentIndex];
+  const currentItem = queue[currentIndex];
+  const currentQuestion = currentItem?.question;
+  const stageGrade = stage.curriculum?.grade;
+  const isLowerGrade = stageGrade !== undefined && stageGrade <= 2;
+  const autoLowerEliminated = useMemo(
+    () =>
+      currentQuestion && isLowerGrade
+        ? pickEliminatedOptionIndices(currentQuestion, 1)
+        : [],
+    [currentQuestion, isLowerGrade],
+  );
+  const visibleOptionEntries = useMemo(() => {
+    if (!currentQuestion) return [];
+    const autoSet = new Set(autoLowerEliminated);
+    return currentQuestion.options
+      .map((option, origIndex) => ({ option, origIndex }))
+      .filter((entry) => !autoSet.has(entry.origIndex));
+  }, [autoLowerEliminated, currentQuestion]);
+  const manualEliminatedSet = useMemo(
+    () => new Set(manualEliminatedIndices),
+    [manualEliminatedIndices],
+  );
+  const hintLevels = useMemo(
+    () => (currentQuestion ? buildHintLevels(currentQuestion) : null),
+    [currentQuestion],
+  );
+  const hasInterleavedQuestions = useMemo(
+    () =>
+      queue.some(
+        (item) => item.question.interleavingOriginTag === 'PREVIOUS_UNIT_REVIEW',
+      ),
+    [queue],
+  );
   const speechAvailable = isSpeechSupported();
+  const isNextLocked = readLockRemainingMs > 0;
+
+  const clearReadLock = useCallback(() => {
+    if (readLockTimerRef.current !== null) {
+      window.clearInterval(readLockTimerRef.current);
+      readLockTimerRef.current = null;
+    }
+    setReadLockRemainingMs(0);
+  }, []);
+
+  const startReadLock = useCallback(() => {
+    clearReadLock();
+    const lockUntil = Date.now() + READ_LOCK_MS;
+    setReadLockRemainingMs(READ_LOCK_MS);
+    readLockTimerRef.current = window.setInterval(() => {
+      const remaining = Math.max(0, lockUntil - Date.now());
+      setReadLockRemainingMs(remaining);
+      if (remaining <= 0) {
+        clearReadLock();
+      }
+    }, 100);
+  }, [clearReadLock]);
 
   useEffect(() => {
     isMountedRef.current = true;
     return () => {
       isMountedRef.current = false;
+      clearReadLock();
       stopSpeech();
     };
-  }, []);
+  }, [clearReadLock]);
 
   useEffect(() => {
     const seq = ++requestSeqRef.current;
+    queuedRetryIdsRef.current.clear();
+    clearReadLock();
+    setRepairedIds([]);
+    setAttemptOutcomes([]);
+    setHintLevel(0);
+    setManualEliminatedIndices([]);
+    setActiveScaffold(null);
+    consecutiveWrongRef.current = 0;
+    pendingScaffoldRef.current = null;
+    hintUsedRef.current = false;
+    questionStartRef.current = Date.now();
+
     if (!isDynamicStage(stage)) {
-      setQuestions(stage.questions);
+      setQueue(toInitialQueue(stage.questions));
+      setBaseQuestionCount(stage.questions.length);
       setMonsterHp(Math.max(stage.monsterHp, stage.questions.length * 20));
       setIsLoadingQuestions(false);
       return;
@@ -125,48 +258,144 @@ export function BattleArena({
 
     let cancelled = false;
     setIsLoadingQuestions(true);
-    void resolveStageQuestionsAsync(stage).then((nextQuestions) => {
+    void resolveStageQuestionsAsync(stage, 6, {
+      enableInterleaving: true,
+      prevStars: latestPrevStarsRef.current,
+      isReviewMode: isWrongReviewMode,
+    }).then((nextQuestions) => {
       if (cancelled || requestSeqRef.current !== seq) return;
-      setQuestions(nextQuestions);
+      setQueue(toInitialQueue(nextQuestions));
+      setBaseQuestionCount(nextQuestions.length);
       setMonsterHp(Math.max(stage.monsterHp, nextQuestions.length * 20));
       setIsLoadingQuestions(false);
+      questionStartRef.current = Date.now();
     });
 
     return () => {
       cancelled = true;
     };
-  }, [stage]);
+  }, [clearReadLock, isWrongReviewMode, stage]);
+
+  const recordMathAnswerStreak = useCallback(
+    (isCorrect: boolean, question: Question) => {
+      if (isCorrect) {
+        consecutiveWrongRef.current = 0;
+        pendingScaffoldRef.current = null;
+        setActiveScaffold(null);
+        return;
+      }
+
+      const nextWrongStreak = consecutiveWrongRef.current + 1;
+      consecutiveWrongRef.current = nextWrongStreak;
+      if (
+        nextWrongStreak >= 2 &&
+        (stage.subjectId === 'math' || question.subjectId === 'math')
+      ) {
+        pendingScaffoldRef.current = buildWorkedExampleFromQuestion(
+          question,
+          stage.curriculum?.grade,
+        );
+        setActiveScaffold(null);
+      }
+    },
+    [stage.curriculum?.grade, stage.subjectId],
+  );
 
   const handleSelectOption = useCallback(
     (optionIndex: number) => {
-      if (selectedOption !== null || finishedResult || !currentQuestion) return;
+      if (selectedOption !== null || finishedResult || !currentItem) return;
+
+      const question = currentItem.question;
+      const responseTimeMs = Math.max(0, Date.now() - questionStartRef.current);
+      const usedHint = hintUsedRef.current;
+      const isCorrect = optionIndex === question.answerIndex;
 
       setSelectedOption(optionIndex);
-      const isCorrect = optionIndex === currentQuestion.answerIndex;
+      recordMathAnswerStreak(isCorrect, question);
+
+      if (currentItem.isRetry) {
+        if (isCorrect) {
+          const baseDmg = Math.ceil(
+            maxMonsterHp / Math.max(1, baseQuestionCount),
+          );
+          setMonsterHp((prev) => Math.max(0, prev - baseDmg));
+          setRepairedIds((prev) =>
+            prev.includes(currentItem.originId)
+              ? prev
+              : [...prev, currentItem.originId],
+          );
+          setAttemptOutcomes((prev) =>
+            prev.map((item) =>
+              item.question.id === currentItem.originId
+                ? { ...item, repairedInRound: true }
+                : item,
+            ),
+          );
+          if (!focusMode) {
+            setHeroAttacking(true);
+            setMonsterHit(true);
+            setFloatingDmg({
+              id: Date.now(),
+              text: `修復 -${baseDmg}!`,
+              isCrit: false,
+            });
+            window.setTimeout(() => {
+              setHeroAttacking(false);
+              setMonsterHit(false);
+            }, 450);
+          }
+          playCorrect(1);
+        } else {
+          if (!focusMode) {
+            setHeroHurt(true);
+            window.setTimeout(() => setHeroHurt(false), 450);
+          }
+          playWrong();
+          startReadLock();
+        }
+        return;
+      }
+
+      setAttemptOutcomes((prev) => [
+        ...prev,
+        {
+          question,
+          wasCorrect: isCorrect,
+          usedHint,
+          responseTimeMs,
+        },
+      ]);
 
       if (isCorrect) {
         const nextCombo = combo + 1;
         const isCrit = nextCombo >= 3;
-        const baseDmg = Math.ceil(maxMonsterHp / questions.length);
+        const baseDmg = Math.ceil(
+          maxMonsterHp / Math.max(1, baseQuestionCount),
+        );
         const damage = isCrit ? baseDmg + 15 : baseDmg;
 
         setCombo(nextCombo);
         setMaxCombo((prev) => Math.max(prev, nextCombo));
         setCorrectCount((prev) => prev + 1);
         setMonsterHp((prev) => Math.max(0, prev - damage));
-        setHeroAttacking(true);
-        setMonsterHit(true);
-        setFloatingDmg({
-          id: Date.now(),
-          text: isCrit ? `CRIT -${damage}!` : `-${damage}`,
-          isCrit,
-        });
+
+        if (!focusMode) {
+          setHeroAttacking(true);
+          setMonsterHit(true);
+          setFloatingDmg({
+            id: Date.now(),
+            text: isCrit ? `CRIT -${damage}!` : `-${damage}`,
+            isCrit,
+          });
+          window.setTimeout(() => {
+            setHeroAttacking(false);
+            setMonsterHit(false);
+          }, 450);
+        }
 
         if (isWrongReviewMode) {
           setSolvedWrongIds((prev) =>
-            prev.includes(currentQuestion.id)
-              ? prev
-              : [...prev, currentQuestion.id],
+            prev.includes(question.id) ? prev : [...prev, question.id],
           );
         }
 
@@ -175,35 +404,54 @@ export function BattleArena({
         } else {
           playCorrect(nextCombo);
         }
-
-        window.setTimeout(() => {
-          setHeroAttacking(false);
-          setMonsterHit(false);
-        }, 450);
       } else {
+        const nextHearts = Math.max(0, hearts - 1);
         setCombo(0);
-        setHearts((prev) => Math.max(0, prev - 1));
-        setWrongQuestions((prev) => [...prev, currentQuestion]);
-        setHeroHurt(true);
+        setHearts(nextHearts);
+        setWrongQuestions((prev) => [...prev, question]);
+        if (!focusMode) {
+          setHeroHurt(true);
+          window.setTimeout(() => setHeroHurt(false), 450);
+        }
         playWrong();
-        window.setTimeout(() => setHeroHurt(false), 450);
+        startReadLock();
+
+        if (nextHearts > 0 && !queuedRetryIdsRef.current.has(currentItem.originId)) {
+          queuedRetryIdsRef.current.add(currentItem.originId);
+          setQueue((prev) => {
+            const insertIndex = Math.min(prev.length, currentIndex + 3);
+            const next = [...prev];
+            next.splice(insertIndex, 0, {
+              question,
+              isRetry: true,
+              originId: currentItem.originId,
+            });
+            return next;
+          });
+        }
       }
     },
     [
+      baseQuestionCount,
       combo,
-      currentQuestion,
+      currentIndex,
+      currentItem,
       finishedResult,
+      focusMode,
+      hearts,
       isWrongReviewMode,
       maxMonsterHp,
-      questions.length,
+      recordMathAnswerStreak,
       selectedOption,
+      startReadLock,
     ],
   );
 
   const finalizeBattle = useCallback(() => {
+    clearReadLock();
     stopSpeech();
     const survived = hearts > 0;
-    const totalCount = questions.length;
+    const totalCount = baseQuestionCount;
     const accuracy = totalCount > 0 ? correctCount / totalCount : 0;
 
     let stars = 0;
@@ -232,6 +480,8 @@ export function BattleArena({
       wrongQuestions,
       solvedWrongIds,
       isReviewMode: isWrongReviewMode,
+      attemptOutcomes,
+      repairedCount: repairedIds.length,
     };
 
     setFinishedResult(result);
@@ -239,21 +489,27 @@ export function BattleArena({
 
     if (survived) {
       playVictory();
-      void confetti({
-        particleCount: stars === 3 ? 110 : 65,
-        spread: 75,
-        origin: { y: 0.6 },
-      });
+      if (!focusMode) {
+        void confetti({
+          particleCount: stars === 3 ? 110 : 65,
+          spread: 75,
+          origin: { y: 0.6 },
+        });
+      }
     } else {
       playDefeat();
     }
   }, [
+    attemptOutcomes,
+    baseQuestionCount,
+    clearReadLock,
     correctCount,
+    focusMode,
     hearts,
     isWrongReviewMode,
     maxCombo,
     onFinishBattle,
-    questions.length,
+    repairedIds.length,
     solvedWrongIds,
     stage.id,
     stage.subjectId,
@@ -262,65 +518,101 @@ export function BattleArena({
   ]);
 
   const handleNext = useCallback(() => {
+    if (isNextLocked) return;
     playTap();
     stopSpeech();
-    const isLast = currentIndex >= questions.length - 1;
+    clearReadLock();
+    const isLast = currentIndex >= queue.length - 1;
     if (hearts <= 0 || isLast) {
       finalizeBattle();
       return;
     }
+    if (pendingScaffoldRef.current) {
+      setActiveScaffold(pendingScaffoldRef.current);
+      pendingScaffoldRef.current = null;
+    }
     setCurrentIndex((prev) => prev + 1);
     setSelectedOption(null);
-    setShowHint(false);
-  }, [currentIndex, finalizeBattle, hearts, questions.length]);
+    setHintLevel(0);
+    setManualEliminatedIndices([]);
+    hintUsedRef.current = false;
+    questionStartRef.current = Date.now();
+  }, [clearReadLock, currentIndex, finalizeBattle, hearts, isNextLocked, queue.length]);
 
   useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {
       if (finishedResult || isLoadingQuestions) return;
       if (selectedOption === null) {
-        const idx = ['1', '2', '3', '4'].indexOf(e.key);
-        if (idx !== -1) {
-          handleSelectOption(idx);
+        const keyPos = ['1', '2', '3', '4'].indexOf(e.key);
+        const target = keyPos !== -1 ? visibleOptionEntries[keyPos] : undefined;
+        if (target && !manualEliminatedSet.has(target.origIndex)) {
+          handleSelectOption(target.origIndex);
         }
-      } else if (e.key === 'Enter' || e.key === ' ') {
+      } else if ((e.key === 'Enter' || e.key === ' ') && !isNextLocked) {
         e.preventDefault();
         handleNext();
       }
     };
     window.addEventListener('keydown', onKeyDown);
     return () => window.removeEventListener('keydown', onKeyDown);
-  }, [finishedResult, handleNext, handleSelectOption, isLoadingQuestions, selectedOption]);
+  }, [
+    finishedResult,
+    handleNext,
+    handleSelectOption,
+    isLoadingQuestions,
+    isNextLocked,
+    manualEliminatedSet,
+    selectedOption,
+    visibleOptionEntries,
+  ]);
 
   const handleRetry = async () => {
     playTap();
+    clearReadLock();
     const seq = ++requestSeqRef.current;
     const dynamic = isDynamicStage(stage);
+    queuedRetryIdsRef.current.clear();
+    hintUsedRef.current = false;
+    consecutiveWrongRef.current = 0;
+    pendingScaffoldRef.current = null;
+    questionStartRef.current = Date.now();
     setCurrentIndex(0);
     setHearts(3);
     setCombo(0);
     setMaxCombo(0);
     setSelectedOption(null);
-    setShowHint(false);
+    setHintLevel(0);
+    setManualEliminatedIndices([]);
+    setActiveScaffold(null);
     setCorrectCount(0);
     setWrongQuestions([]);
     setSolvedWrongIds([]);
+    setRepairedIds([]);
+    setAttemptOutcomes([]);
     setFloatingDmg(null);
     setFinishedResult(null);
 
     if (!dynamic) {
       const nextQuestions = stage.questions;
-      setQuestions(nextQuestions);
+      setQueue(toInitialQueue(nextQuestions));
+      setBaseQuestionCount(nextQuestions.length);
       setMonsterHp(Math.max(stage.monsterHp, nextQuestions.length * 20));
       setIsLoadingQuestions(false);
       return;
     }
 
     setIsLoadingQuestions(true);
-    const nextQuestions = await resolveStageQuestionsAsync(stage);
+    const nextQuestions = await resolveStageQuestionsAsync(stage, 6, {
+      enableInterleaving: true,
+      prevStars: latestPrevStarsRef.current,
+      isReviewMode: isWrongReviewMode,
+    });
     if (!isMountedRef.current || requestSeqRef.current !== seq) return;
-    setQuestions(nextQuestions);
+    setQueue(toInitialQueue(nextQuestions));
+    setBaseQuestionCount(nextQuestions.length);
     setMonsterHp(Math.max(stage.monsterHp, nextQuestions.length * 20));
     setIsLoadingQuestions(false);
+    questionStartRef.current = Date.now();
   };
 
   if (finishedResult) {
@@ -333,7 +625,9 @@ export function BattleArena({
 
     return (
       <div className="mx-auto max-w-2xl px-4 py-8">
-        <div className="animate-pop-in rounded-3xl border-2 border-amber-200 bg-white p-6 text-center shadow-lg sm:p-8">
+        <div
+          className={`${focusMode ? '' : 'animate-pop-in '}rounded-3xl border-2 border-amber-200 bg-white p-6 text-center shadow-lg sm:p-8`}
+        >
           <div className="flex justify-center">
             <HeroSprite avatarId={selectedAvatarId} size={96} />
           </div>
@@ -387,10 +681,24 @@ export function BattleArena({
             </div>
           </div>
 
+          {finishedResult.repairedCount > 0 && (
+            <p className="mt-4 rounded-xl bg-teal-50 px-3 py-2 text-xs font-bold text-teal-800">
+              ✨ 本回合已透過即時重測修復了 {finishedResult.repairedCount} 題觀念！
+            </p>
+          )}
+
+          {finishedResult.isReviewMode &&
+            finishedResult.solvedWrongIds.length > 0 && (
+              <p className="mt-3 rounded-xl bg-emerald-50 px-3 py-2 text-xs font-bold text-emerald-800">
+                🌱 本回合完成複習 {finishedResult.solvedWrongIds.length}{' '}
+                題，FSRS 記憶引擎已自動推進下一次複習排程！
+              </p>
+            )}
+
           {finishedResult.wrongQuestions.length > 0 && (
-            <p className="mt-4 rounded-xl bg-rose-50 px-3 py-2 text-xs font-bold text-rose-700">
+            <p className="mt-3 rounded-xl bg-rose-50 px-3 py-2 text-xs font-bold text-rose-700">
               這回合答錯的 {finishedResult.wrongQuestions.length}{' '}
-              題已經自動收入「錯題本」，隨時都能回來複習喔！
+              題已排入「錯題本」FSRS 今日複習佇列，記得回來鞏固記憶喔！
             </p>
           )}
 
@@ -436,15 +744,28 @@ export function BattleArena({
     );
   }
 
-  if (!currentQuestion) return null;
+  if (!currentQuestion || !currentItem) return null;
 
   const hpPercent = Math.round((monsterHp / maxMonsterHp) * 100);
   const progressPercent = Math.round(
-    ((currentIndex + (selectedOption !== null ? 1 : 0)) / questions.length) *
+    ((currentIndex + (selectedOption !== null ? 1 : 0)) /
+      Math.max(1, queue.length)) *
       100,
   );
   const isAnswered = selectedOption !== null;
   const isAnswerCorrect = selectedOption === currentQuestion.answerIndex;
+  const heroAnimClass = focusMode
+    ? ''
+    : heroAttacking
+      ? 'animate-attack'
+      : heroHurt
+        ? 'animate-shake'
+        : 'animate-bob';
+  const monsterAnimClass = focusMode
+    ? ''
+    : monsterHit
+      ? 'animate-shake'
+      : 'animate-bob';
 
   return (
     <div className="mx-auto max-w-4xl space-y-5 px-4 py-5">
@@ -453,6 +774,7 @@ export function BattleArena({
           type="button"
           onClick={() => {
             playTap();
+            clearReadLock();
             stopSpeech();
             onExit();
           }}
@@ -464,7 +786,7 @@ export function BattleArena({
 
         <div className="flex items-center gap-2">
           <span className="text-sm font-black text-slate-700">
-            第 {currentIndex + 1} / {questions.length} 題
+            第 {currentIndex + 1} / {queue.length} 題
           </span>
           <div className="h-3 w-28 overflow-hidden rounded-full bg-slate-100 sm:w-40">
             <div
@@ -474,9 +796,35 @@ export function BattleArena({
           </div>
         </div>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2.5">
+          {onToggleFocusMode && (
+            <button
+              type="button"
+              onClick={() => {
+                playTap();
+                onToggleFocusMode();
+              }}
+              aria-pressed={focusMode}
+              title={
+                focusMode
+                  ? '專注模式已開啟（關閉晃動與彩帶干擾）'
+                  : '開啟低干擾專注模式'
+              }
+              className={`inline-flex items-center gap-1 rounded-xl border px-2.5 py-1.5 text-xs font-black transition ${
+                focusMode
+                  ? 'border-indigo-300 bg-indigo-100 text-indigo-800'
+                  : 'border-slate-200 bg-slate-50 text-slate-600 hover:bg-slate-100'
+              }`}
+            >
+              <Focus className="h-3.5 w-3.5" />
+              <span>{focusMode ? '專注中' : '專注模式'}</span>
+            </button>
+          )}
+
           {combo >= 2 && (
-            <div className="animate-pop-in inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-orange-500 to-rose-500 px-3 py-1 text-xs font-black text-white shadow-xs">
+            <div
+              className={`${focusMode ? '' : 'animate-pop-in '}inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-orange-500 to-rose-500 px-3 py-1 text-xs font-black text-white shadow-xs`}
+            >
               <Zap className="h-3.5 w-3.5 fill-yellow-300 text-yellow-300" />
               <span>
                 {combo} Combo {combo >= 3 ? '爆擊!' : ''}
@@ -484,14 +832,17 @@ export function BattleArena({
             </div>
           )}
 
-          <div className="flex items-center gap-1" aria-label={`剩餘 ${hearts} 顆愛心`}>
+          <div
+            className="flex items-center gap-1"
+            aria-label={`剩餘 ${hearts} 顆愛心`}
+          >
             {[1, 2, 3].map((h) => (
               <Heart
                 key={h}
                 className={`h-6 w-6 transition-transform ${
                   h <= hearts
                     ? 'fill-rose-500 text-rose-500'
-                    : 'fill-slate-200 text-slate-300 scale-90'
+                    : 'scale-90 fill-slate-200 text-slate-300'
                 }`}
               />
             ))}
@@ -502,15 +853,7 @@ export function BattleArena({
       <section className="relative overflow-hidden rounded-3xl border-2 border-sky-200 bg-gradient-to-b from-sky-100 via-sky-50 to-emerald-100 p-5 shadow-sm">
         <div className="grid grid-cols-2 items-center gap-4">
           <div className="flex flex-col items-center">
-            <div
-              className={`${
-                heroAttacking
-                  ? 'animate-attack'
-                  : heroHurt
-                    ? 'animate-shake'
-                    : 'animate-bob'
-              }`}
-            >
+            <div className={heroAnimClass}>
               <HeroSprite avatarId={selectedAvatarId} size={96} />
             </div>
             <span className="mt-1 rounded-full bg-white/85 px-3 py-0.5 text-xs font-black text-slate-700 shadow-2xs">
@@ -519,7 +862,7 @@ export function BattleArena({
           </div>
 
           <div className="relative flex flex-col items-center">
-            {floatingDmg && (
+            {!focusMode && floatingDmg && (
               <div
                 key={floatingDmg.id}
                 className={`animate-float-up pointer-events-none absolute -top-2 z-10 text-2xl font-black drop-shadow-sm ${
@@ -530,7 +873,7 @@ export function BattleArena({
               </div>
             )}
 
-            <div className={monsterHit ? 'animate-shake' : 'animate-bob'}>
+            <div className={monsterAnimClass}>
               <MonsterSprite
                 monsterId={stage.monsterId}
                 size={98}
@@ -558,58 +901,186 @@ export function BattleArena({
       </section>
 
       <section className="rounded-3xl border-2 border-amber-200 bg-white p-5 shadow-sm sm:p-6">
+        {activeScaffold && !isAnswered && (
+          <div className="mb-4">
+            <WorkedExampleSplit
+              compact
+              data={activeScaffold}
+              title="🧭 連錯 2 題降階鷹架：先對比正確步驟與常見陷阱，再挑戰這題！"
+              onDismiss={() => setActiveScaffold(null)}
+            />
+          </div>
+        )}
+
+        <div className="flex flex-wrap items-center gap-2">
+          {currentItem.isRetry && (
+            <div className="mb-3 inline-flex items-center gap-1.5 rounded-full border border-teal-300 bg-teal-50 px-3 py-1 text-xs font-black text-teal-800">
+              <RefreshCw className="h-3.5 w-3.5" />
+              <span>🔁 即時修復重測（不扣愛心，再想一次就能記牢！）</span>
+            </div>
+          )}
+
+          {hasInterleavedQuestions &&
+            currentQuestion.interleavingOriginTag === 'PREVIOUS_UNIT_REVIEW' && (
+              <div className="mb-3 inline-flex items-center gap-1.5 rounded-full border border-indigo-200 bg-indigo-50 px-3 py-1 text-xs font-black text-indigo-800">
+                <Shuffle className="h-3.5 w-3.5" />
+                <span>
+                  🔀 前單元交錯複習
+                  {currentQuestion.interleavingSourceUnit
+                    ? `（${currentQuestion.interleavingSourceUnit}）`
+                    : ''}
+                </span>
+              </div>
+            )}
+
+          {hasInterleavedQuestions &&
+            currentQuestion.interleavingOriginTag === 'CURRENT_UNIT' && (
+              <div className="mb-3 inline-flex items-center gap-1.5 rounded-full border border-emerald-200 bg-emerald-50 px-3 py-1 text-xs font-black text-emerald-800">
+                <span>🎯 本單元主線</span>
+              </div>
+            )}
+
+          {isLowerGrade && (
+            <div className="mb-3 inline-flex items-center gap-1 rounded-full border border-amber-200 bg-amber-50 px-3 py-1 text-xs font-black text-amber-800">
+              <span>✨ 低年級 3 選 1 減壓模式</span>
+            </div>
+          )}
+        </div>
+
         <div className="flex flex-wrap items-start justify-between gap-3">
           <h2 className="flex-1 text-xl leading-snug font-black text-slate-800 sm:text-2xl">
             {currentQuestion.prompt}
           </h2>
 
-          <div className="flex shrink-0 items-center gap-2">
+          <div className="flex flex-wrap shrink-0 items-center gap-2">
             {speechAvailable && (
+              <>
+                <button
+                  type="button"
+                  onClick={() =>
+                    speakText(
+                      currentQuestion.speechText || currentQuestion.prompt,
+                      currentQuestion.speechLang || 'zh-TW',
+                      {
+                        grade: stageGrade,
+                        slowMode: speechSlowMode,
+                        audioUrl: currentQuestion.audioUrl,
+                      },
+                    )
+                  }
+                  className="inline-flex items-center gap-1.5 rounded-xl border border-violet-200 bg-violet-50 px-3 py-2 text-xs font-black text-violet-700 hover:bg-violet-100"
+                  title="念出題目"
+                >
+                  <Volume2 className="h-4 w-4" />
+                  <span>朗讀</span>
+                </button>
+                {onToggleSpeechSlow && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      playTap();
+                      onToggleSpeechSlow();
+                    }}
+                    aria-pressed={speechSlowMode}
+                    className={`rounded-xl border px-2.5 py-2 text-xs font-black transition ${
+                      speechSlowMode
+                        ? 'border-violet-300 bg-violet-100 text-violet-800'
+                        : 'border-slate-200 bg-slate-50 text-slate-600 hover:bg-slate-100'
+                    }`}
+                    title="切換朗讀語速"
+                  >
+                    {speechSlowMode ? '慢速' : '標準語速'}
+                  </button>
+                )}
+              </>
+            )}
+
+            {!isAnswered && !isLowerGrade && (
               <button
                 type="button"
-                onClick={() =>
-                  speakText(
-                    currentQuestion.speechText || currentQuestion.prompt,
-                    currentQuestion.speechLang || 'zh-TW',
-                  )
-                }
-                className="inline-flex items-center gap-1.5 rounded-xl border border-violet-200 bg-violet-50 px-3 py-2 text-xs font-black text-violet-700 hover:bg-violet-100"
-                title="念出題目"
+                disabled={manualEliminatedIndices.length > 0}
+                onClick={() => {
+                  playTap();
+                  hintUsedRef.current = true;
+                  setManualEliminatedIndices(
+                    pickEliminatedOptionIndices(currentQuestion, 2),
+                  );
+                }}
+                className={`rounded-xl border px-2.5 py-2 text-xs font-black transition ${
+                  manualEliminatedIndices.length > 0
+                    ? 'cursor-default border-slate-200 bg-slate-100 text-slate-400'
+                    : 'border-sky-200 bg-sky-50 text-sky-800 hover:bg-sky-100'
+                }`}
+                title="排除 2 個錯誤選項"
               >
-                <Volume2 className="h-4 w-4" />
-                <span>朗讀</span>
+                {manualEliminatedIndices.length > 0 ? '已 50/50' : '50/50 減壓'}
               </button>
             )}
 
-            {currentQuestion.hint && !isAnswered && (
+            {!isAnswered && hintLevels && (
               <button
                 type="button"
+                disabled={hintLevel >= 3}
                 onClick={() => {
                   playTap();
-                  setShowHint((prev) => !prev);
+                  hintUsedRef.current = true;
+                  setHintLevel((prev) =>
+                    prev < 3 ? ((prev + 1) as 0 | 1 | 2 | 3) : 3,
+                  );
                 }}
-                className="inline-flex items-center gap-1.5 rounded-xl border border-amber-200 bg-amber-50 px-3 py-2 text-xs font-black text-amber-800 hover:bg-amber-100"
+                className={`inline-flex items-center gap-1.5 rounded-xl border px-3 py-2 text-xs font-black transition ${
+                  hintLevel >= 3
+                    ? 'cursor-default border-amber-200 bg-amber-100/60 text-amber-700'
+                    : 'border-amber-200 bg-amber-50 text-amber-800 hover:bg-amber-100'
+                }`}
               >
                 <Lightbulb className="h-4 w-4" />
-                <span>提示</span>
+                <span>
+                  {hintLevel === 0
+                    ? '提示 (1/3)'
+                    : hintLevel === 1
+                      ? '再提示 (2/3)'
+                      : hintLevel === 2
+                        ? '第一步 (3/3)'
+                        : '已全開 (3/3)'}
+                </span>
               </button>
             )}
           </div>
         </div>
 
-        {showHint && currentQuestion.hint && !isAnswered && (
-          <div className="animate-pop-in mt-3 rounded-2xl border border-amber-200 bg-amber-50 px-4 py-2.5 text-sm font-bold text-amber-900">
-            💡 小提示：{currentQuestion.hint}
+        <QuestionVisual question={currentQuestion} />
+
+        {hintLevel > 0 && hintLevels && !isAnswered && (
+          <div className="mt-3 space-y-2">
+            {hintLevels.slice(0, hintLevel).map((hintText, levelIdx) => (
+              <div
+                key={levelIdx}
+                className={`${focusMode ? '' : 'animate-pop-in '}rounded-2xl border px-4 py-2.5 text-sm font-bold ${
+                  levelIdx === 0
+                    ? 'border-sky-200 bg-sky-50 text-sky-900'
+                    : levelIdx === 1
+                      ? 'border-amber-200 bg-amber-50 text-amber-900'
+                      : 'border-emerald-200 bg-emerald-50 text-emerald-900'
+                }`}
+              >
+                {hintText}
+              </div>
+            ))}
           </div>
         )}
 
         <div className="mt-5 grid gap-3 sm:grid-cols-2">
-          {currentQuestion.options.map((option, idx) => {
-            const isThisSelected = selectedOption === idx;
-            const isCorrectOption = idx === currentQuestion.answerIndex;
+          {visibleOptionEntries.map(({ option, origIndex }, visIdx) => {
+            const isEliminated = manualEliminatedSet.has(origIndex);
+            const isThisSelected = selectedOption === origIndex;
+            const isCorrectOption = origIndex === currentQuestion.answerIndex;
 
-            let buttonStyle = OPTION_COLORS[idx];
-            if (isAnswered) {
+            let buttonStyle = OPTION_COLORS[visIdx % OPTION_COLORS.length];
+            if (isEliminated && !isAnswered) {
+              buttonStyle =
+                'cursor-not-allowed border-slate-200 bg-slate-100 text-slate-400 opacity-40 line-through';
+            } else if (isAnswered) {
               if (isCorrectOption) {
                 buttonStyle =
                   'bg-emerald-500 border-emerald-600 text-white shadow-[0_4px_0_#047857]';
@@ -624,14 +1095,14 @@ export function BattleArena({
 
             return (
               <button
-                key={idx}
+                key={origIndex}
                 type="button"
-                disabled={isAnswered}
-                onClick={() => handleSelectOption(idx)}
+                disabled={isAnswered || isEliminated}
+                onClick={() => handleSelectOption(origIndex)}
                 className={`btn-3d flex items-center gap-3 rounded-2xl border-2 px-4 py-4 text-left text-base font-black transition sm:text-lg ${buttonStyle}`}
               >
                 <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl bg-white/80 text-sm font-black text-slate-800">
-                  {OPTION_LABELS[idx]}
+                  {OPTION_LABELS[visIdx]}
                 </span>
                 <span className="flex-1">{option}</span>
               </button>
@@ -641,7 +1112,7 @@ export function BattleArena({
 
         {isAnswered && (
           <div
-            className={`animate-pop-in mt-5 rounded-2xl border-2 p-4 ${
+            className={`${focusMode ? '' : 'animate-pop-in '}mt-5 rounded-2xl border-2 p-4 ${
               isAnswerCorrect
                 ? 'border-emerald-300 bg-emerald-50'
                 : 'border-rose-300 bg-rose-50'
@@ -655,10 +1126,16 @@ export function BattleArena({
                   }`}
                 >
                   {isAnswerCorrect
-                    ? combo >= 3
-                      ? `🔥 太神啦！${combo} 連擊大爆擊！`
-                      : '✨ 答對了！漂亮的一擊！'
-                    : '💪 沒關係！看看小老師解析就會了：'}
+                    ? currentItem.isRetry
+                      ? '🎉 太棒了！你成功修復這題的觀念囉！'
+                      : combo >= 3
+                        ? `🔥 太神啦！${combo} 連擊大爆擊！`
+                        : '✨ 答對了！漂亮的一擊！'
+                    : currentItem.isRetry
+                      ? '💪 沒關係！先記進錯題本，之後我們再慢慢練熟：'
+                      : hearts > 0
+                        ? '💪 看懂解析了嗎？這題等一下還會再考一次喔！'
+                        : '💪 沒關係！看看小老師解析就會了：'}
                 </div>
                 <p className="text-sm leading-relaxed font-medium text-slate-700">
                   {currentQuestion.explanation}
@@ -667,12 +1144,19 @@ export function BattleArena({
 
               <button
                 type="button"
+                disabled={isNextLocked}
                 onClick={handleNext}
-                className="btn-3d shrink-0 rounded-2xl bg-amber-400 px-6 py-3 text-base font-black text-slate-900 shadow-[0_4px_0_#d97706] hover:bg-amber-300"
+                className={`btn-3d shrink-0 rounded-2xl px-6 py-3 text-base font-black transition ${
+                  isNextLocked
+                    ? 'cursor-not-allowed bg-slate-200 text-slate-500 shadow-none'
+                    : 'bg-amber-400 text-slate-900 shadow-[0_4px_0_#d97706] hover:bg-amber-300'
+                }`}
               >
-                {hearts <= 0 || currentIndex >= questions.length - 1
-                  ? '查看結算'
-                  : '下一題 →'}
+                {isNextLocked
+                  ? `先讀解析 (${(readLockRemainingMs / 1000).toFixed(1)}s)`
+                  : hearts <= 0 || currentIndex >= queue.length - 1
+                    ? '查看結算'
+                    : '下一題 →'}
               </button>
             </div>
           </div>

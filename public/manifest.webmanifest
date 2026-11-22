@@ -1,0 +1,19 @@
+{
+  "name": "知識大冒險 EduQuiz Play",
+  "short_name": "知識大冒險",
+  "description": "國小 1–6 年級雙軌實證記憶與題庫冒險系統",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#f59e0b",
+  "background_color": "#fffbeb",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

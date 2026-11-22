@@ -1,4 +1,4 @@
-import type { Question, Stage } from '../../types/quiz';
+import type { Question, Stage, SubjectId } from '../../types/quiz.ts';
 
 export type QuestionGenerator = (count?: number) => Question[];
 
@@ -291,6 +291,136 @@ function loadGeneratorGroup(
 }
 
 const DEFAULT_DYNAMIC_COUNT = 6;
+const GRADE_LABELS = ['', '一', '二', '三', '四', '五', '六'];
+
+/**
+ * 語文科認知邊界護欄：嚴禁跨單元混排，一律維持同單元分塊練習。
+ */
+export const BLOCKED_INTERLEAVING_SUBJECTS: ReadonlySet<SubjectId> = new Set([
+  'mandarin',
+  'english',
+  'minnan',
+  'hakka',
+]);
+
+export interface ResolveStageQuestionsOptions {
+  enableInterleaving?: boolean;
+  prevStars?: number;
+  isReviewMode?: boolean;
+}
+
+interface ParsedGeneratorId {
+  id: string;
+  grade: number;
+  semester: 1 | 2;
+  unitNo: number;
+}
+
+function parseMathGeneratorId(generatorId: string): ParsedGeneratorId | null {
+  const match = /^g([1-6])s([12])-math-u(\d+)$/.exec(generatorId);
+  if (!match) return null;
+  return {
+    id: generatorId,
+    grade: Number(match[1]),
+    semester: Number(match[2]) as 1 | 2,
+    unitNo: Number(match[3]),
+  };
+}
+
+function formatGeneratorSourceLabel(generatorId: string): string {
+  const parsed = parseMathGeneratorId(generatorId);
+  if (!parsed) return '前單元';
+  const gradeText = GRADE_LABELS[parsed.grade] ?? String(parsed.grade);
+  const semText = parsed.semester === 1 ? '上' : '下';
+  return `${gradeText}${semText} 第${parsed.unitNo}單元`;
+}
+
+/**
+ * 依同年級學期與單元順序回溯前 1–3 個已註冊數學動態單元生成器 ID（由近到遠）。
+ */
+export function getPreviousUnitGeneratorIds(
+  stage: Stage,
+  maxCount = 3,
+): string[] {
+  if (!stage.generatorId) return [];
+  const current = parseMathGeneratorId(stage.generatorId);
+  if (!current) return [];
+
+  const candidates: ParsedGeneratorId[] = [];
+  for (const id of KNOWN_GENERATOR_IDS) {
+    const parsed = parseMathGeneratorId(id);
+    if (!parsed || parsed.grade !== current.grade) continue;
+    const isEarlier =
+      parsed.semester < current.semester ||
+      (parsed.semester === current.semester && parsed.unitNo < current.unitNo);
+    if (isEarlier) {
+      candidates.push(parsed);
+    }
+  }
+
+  candidates.sort((a, b) => {
+    if (a.semester !== b.semester) return b.semester - a.semester;
+    return b.unitNo - a.unitNo;
+  });
+
+  return candidates.slice(0, maxCount).map((item) => item.id);
+}
+
+/**
+ * 檢查關卡是否符合數學交錯練習資格（分科護欄 + 動態數學 + 已熟練或複習模式 + 存在前置單元）。
+ */
+export function canInterleaveStage(
+  stage: Stage,
+  prevStars = 0,
+  isReviewMode = false,
+): boolean {
+  if (BLOCKED_INTERLEAVING_SUBJECTS.has(stage.subjectId)) return false;
+  if (stage.subjectId !== 'math') return false;
+  if (!isDynamicStage(stage) || !stage.generatorId) return false;
+  if (!isReviewMode && prevStars < 2) return false;
+  return getPreviousUnitGeneratorIds(stage, 1).length > 0;
+}
+
+async function generateByGeneratorId(
+  generatorId: string,
+  count: number,
+): Promise<Question[]> {
+  const group = ID_TO_GROUP.get(generatorId);
+  if (!group) return [];
+  const generators = await loadGeneratorGroup(group);
+  const generate = generators[generatorId];
+  return generate ? generate(count) : [];
+}
+
+function interleaveQuestions(
+  currentQuestions: Question[],
+  reviewQuestions: Question[],
+): Question[] {
+  if (reviewQuestions.length === 0) return currentQuestions;
+  if (currentQuestions.length === 0) return reviewQuestions;
+
+  const result: Question[] = [];
+  const stride = Math.max(1, Math.floor(currentQuestions.length / reviewQuestions.length));
+  let reviewIdx = 0;
+
+  for (let i = 0; i < currentQuestions.length; i++) {
+    result.push(currentQuestions[i]);
+    if (
+      reviewIdx < reviewQuestions.length &&
+      (i + 1) % stride === 0
+    ) {
+      result.push(reviewQuestions[reviewIdx]);
+      reviewIdx++;
+    }
+  }
+
+  while (reviewIdx < reviewQuestions.length) {
+    result.push(reviewQuestions[reviewIdx]);
+    reviewIdx++;
+  }
+
+  return result;
+}
 
 export function isDynamicStage(stage: Stage): boolean {
   return (
@@ -310,16 +440,84 @@ export function getStageQuestionCount(stage: Stage): number {
 export async function resolveStageQuestionsAsync(
   stage: Stage,
   count = DEFAULT_DYNAMIC_COUNT,
+  options?: ResolveStageQuestionsOptions,
 ): Promise<Question[]> {
   try {
-    if (stage.generatorId) {
-      const group = ID_TO_GROUP.get(stage.generatorId);
-      if (group) {
-        const generators = await loadGeneratorGroup(group);
-        const generate = generators[stage.generatorId];
-        if (generate) {
-          return generate(count);
+    const shouldInterleave =
+      Boolean(options?.enableInterleaving) &&
+      count >= 3 &&
+      canInterleaveStage(stage, options?.prevStars ?? 0, options?.isReviewMode ?? false);
+
+    if (shouldInterleave && stage.generatorId) {
+      const prevGeneratorIds = getPreviousUnitGeneratorIds(stage, 3);
+      const reviewCount = Math.min(2, Math.floor(count / 3));
+      const currentCount = count - reviewCount;
+      const currentUnitLabel = formatGeneratorSourceLabel(stage.generatorId);
+
+      const currentRaw = await generateByGeneratorId(
+        stage.generatorId,
+        currentCount,
+      );
+
+      if (currentRaw.length > 0 && prevGeneratorIds.length > 0) {
+        const currentTagged: Question[] = currentRaw.map((q) => ({
+          ...q,
+          interleavingOriginTag: 'CURRENT_UNIT',
+          interleavingSourceUnit: currentUnitLabel,
+        }));
+
+        const reviewTagged: Question[] = [];
+        const usedIds = new Set(currentTagged.map((q) => q.id));
+
+        if (prevGeneratorIds.length >= reviewCount) {
+          const pickedIds = prevGeneratorIds.slice(0, reviewCount);
+          const batches = await Promise.all(
+            pickedIds.map(async (prevId) => ({
+              prevId,
+              items: await generateByGeneratorId(prevId, 1),
+            })),
+          );
+          for (const { prevId, items } of batches) {
+            const label = formatGeneratorSourceLabel(prevId);
+            for (const q of items) {
+              const uniqueId = usedIds.has(q.id)
+                ? `${q.id}-rev-${reviewTagged.length + 1}`
+                : q.id;
+              usedIds.add(uniqueId);
+              reviewTagged.push({
+                ...q,
+                id: uniqueId,
+                interleavingOriginTag: 'PREVIOUS_UNIT_REVIEW',
+                interleavingSourceUnit: label,
+              });
+            }
+          }
+        } else {
+          const prevId = prevGeneratorIds[0];
+          const label = formatGeneratorSourceLabel(prevId);
+          const items = await generateByGeneratorId(prevId, reviewCount);
+          for (const q of items) {
+            const uniqueId = usedIds.has(q.id)
+              ? `${q.id}-rev-${reviewTagged.length + 1}`
+              : q.id;
+            usedIds.add(uniqueId);
+            reviewTagged.push({
+              ...q,
+              id: uniqueId,
+              interleavingOriginTag: 'PREVIOUS_UNIT_REVIEW',
+              interleavingSourceUnit: label,
+            });
+          }
         }
+
+        return interleaveQuestions(currentTagged, reviewTagged);
+      }
+    }
+
+    if (stage.generatorId) {
+      const generated = await generateByGeneratorId(stage.generatorId, count);
+      if (generated.length > 0) {
+        return generated;
       }
     }
     if (stage.isDynamicMath) {

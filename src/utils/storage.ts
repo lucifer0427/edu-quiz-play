@@ -1,109 +1,287 @@
-import { SUBJECT_META } from '../data/subjects';
 import type {
-  Grade,
-  MapViewMode,
+  LocalProfileMeta,
   PlayerProgress,
-  Semester,
   Stage,
-  SubjectId,
 } from '../types/quiz';
+import {
+  DEFAULT_PROGRESS,
+  normalizeProgress,
+  parseImportedProgressJson,
+  type ImportProgressResult,
+} from './progressImport';
 
-const STORAGE_KEY = 'edu_quiz_play_progress_v1';
-
-export const DEFAULT_PROGRESS: PlayerProgress = {
-  schemaVersion: 2,
-  nickname: '小勇者',
-  selectedAvatarId: 'hero-knight',
-  unlockedAvatarIds: ['hero-knight'],
-  xp: 0,
-  coins: 50,
-  stageStars: {},
-  wrongQuestionIds: [],
-  wrongQuestionSnapshots: {},
-  totalCorrect: 0,
-  totalAnswered: 0,
-  soundEnabled: true,
-  customStages: [],
-  selectedView: 'classic',
-  selectedGrade: 5,
-  selectedSemester: 1,
-  selectedSubject: 'all',
+export {
+  DEFAULT_PROGRESS,
+  normalizeProgress,
+  parseImportedProgressJson,
+  type ImportProgressResult,
 };
 
-function normalizeView(value: unknown): MapViewMode {
-  return value === 'curriculum' || value === 'classic'
-    ? value
-    : (DEFAULT_PROGRESS.selectedView ?? 'classic');
+const STORAGE_KEY = 'edu_quiz_play_progress_v1';
+const PROFILES_META_KEY = 'edu_quiz_play_profiles_v1';
+export const DEFAULT_PROFILE_ID = 'default';
+
+interface StoredProfileIndex {
+  activeProfileId: string;
+  profiles: LocalProfileMeta[];
 }
 
-function normalizeGrade(value: unknown): Grade {
-  const n = Number(value);
-  return n >= 1 && n <= 6 && Number.isInteger(n)
-    ? (n as Grade)
-    : (DEFAULT_PROGRESS.selectedGrade ?? 5);
+function getProfileStorageKey(profileId: string): string {
+  return profileId === DEFAULT_PROFILE_ID
+    ? STORAGE_KEY
+    : `${STORAGE_KEY}__profile_${profileId}`;
 }
 
-function normalizeSemester(value: unknown): Semester {
-  return value === 1 || value === 2
-    ? value
-    : (DEFAULT_PROGRESS.selectedSemester ?? 1);
-}
-
-function normalizeSubject(value: unknown): SubjectId | 'all' {
-  if (value === 'all') return 'all';
-  if (typeof value === 'string' && value in SUBJECT_META) {
-    return value as SubjectId;
-  }
-  return DEFAULT_PROGRESS.selectedSubject ?? 'all';
-}
-
-export function loadProgress(): PlayerProgress {
-  if (typeof window === 'undefined') return DEFAULT_PROGRESS;
+function loadRawProgressByKey(storageKey: string): PlayerProgress | null {
+  if (typeof window === 'undefined') return null;
   try {
-    const raw = window.localStorage.getItem(STORAGE_KEY);
-    if (!raw) return DEFAULT_PROGRESS;
+    const raw = window.localStorage.getItem(storageKey);
+    if (!raw) return null;
     const parsed = JSON.parse(raw) as Partial<PlayerProgress>;
+    return normalizeProgress(parsed);
+  } catch {
+    return null;
+  }
+}
+
+function readProfileIndex(): StoredProfileIndex {
+  if (typeof window === 'undefined') {
     return {
-      ...DEFAULT_PROGRESS,
-      ...parsed,
-      schemaVersion: 2,
-      unlockedAvatarIds:
-        Array.isArray(parsed.unlockedAvatarIds) &&
-        parsed.unlockedAvatarIds.length > 0
-          ? parsed.unlockedAvatarIds
-          : DEFAULT_PROGRESS.unlockedAvatarIds,
-      stageStars:
-        parsed.stageStars && typeof parsed.stageStars === 'object'
-          ? parsed.stageStars
-          : {},
-      wrongQuestionIds: Array.isArray(parsed.wrongQuestionIds)
-        ? parsed.wrongQuestionIds
-        : [],
-      wrongQuestionSnapshots:
-        parsed.wrongQuestionSnapshots &&
-        typeof parsed.wrongQuestionSnapshots === 'object'
-          ? parsed.wrongQuestionSnapshots
-          : {},
-      customStages: Array.isArray(parsed.customStages)
-        ? parsed.customStages
-        : [],
-      selectedView: normalizeView(parsed.selectedView),
-      selectedGrade: normalizeGrade(parsed.selectedGrade),
-      selectedSemester: normalizeSemester(parsed.selectedSemester),
-      selectedSubject: normalizeSubject(parsed.selectedSubject),
+      activeProfileId: DEFAULT_PROFILE_ID,
+      profiles: [
+        {
+          id: DEFAULT_PROFILE_ID,
+          nickname: DEFAULT_PROGRESS.nickname,
+          selectedAvatarId: DEFAULT_PROGRESS.selectedAvatarId,
+          createdAt: new Date(0).toISOString(),
+        },
+      ],
+    };
+  }
+
+  const defaultProgress = loadRawProgressByKey(STORAGE_KEY) ?? DEFAULT_PROGRESS;
+  const fallbackDefaultMeta: LocalProfileMeta = {
+    id: DEFAULT_PROFILE_ID,
+    nickname: defaultProgress.nickname,
+    selectedAvatarId: defaultProgress.selectedAvatarId,
+    createdAt: new Date(0).toISOString(),
+  };
+
+  try {
+    const raw = window.localStorage.getItem(PROFILES_META_KEY);
+    if (!raw) {
+      return {
+        activeProfileId: DEFAULT_PROFILE_ID,
+        profiles: [fallbackDefaultMeta],
+      };
+    }
+
+    const parsed = JSON.parse(raw) as Partial<StoredProfileIndex>;
+    const rawProfiles = Array.isArray(parsed.profiles) ? parsed.profiles : [];
+    const seen = new Set<string>();
+    const validProfiles: LocalProfileMeta[] = [];
+
+    for (const item of rawProfiles) {
+      if (
+        item &&
+        typeof item === 'object' &&
+        typeof item.id === 'string' &&
+        item.id.trim() !== '' &&
+        !seen.has(item.id)
+      ) {
+        seen.add(item.id);
+        validProfiles.push({
+          id: item.id,
+          nickname:
+            typeof item.nickname === 'string' && item.nickname.trim() !== ''
+              ? item.nickname.trim()
+              : '小勇者',
+          selectedAvatarId:
+            typeof item.selectedAvatarId === 'string' &&
+            item.selectedAvatarId.trim() !== ''
+              ? item.selectedAvatarId
+              : 'hero-knight',
+          createdAt:
+            typeof item.createdAt === 'string'
+              ? item.createdAt
+              : new Date().toISOString(),
+        });
+      }
+    }
+
+    if (!seen.has(DEFAULT_PROFILE_ID)) {
+      validProfiles.unshift(fallbackDefaultMeta);
+    }
+
+    const activeProfileId =
+      typeof parsed.activeProfileId === 'string' &&
+      validProfiles.some((p) => p.id === parsed.activeProfileId)
+        ? parsed.activeProfileId
+        : DEFAULT_PROFILE_ID;
+
+    return {
+      activeProfileId,
+      profiles: validProfiles,
     };
   } catch {
-    return DEFAULT_PROGRESS;
+    return {
+      activeProfileId: DEFAULT_PROFILE_ID,
+      profiles: [fallbackDefaultMeta],
+    };
   }
 }
 
-export function saveProgress(progress: PlayerProgress): void {
+function writeProfileIndex(index: StoredProfileIndex): void {
   if (typeof window === 'undefined') return;
   try {
-    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+    window.localStorage.setItem(PROFILES_META_KEY, JSON.stringify(index));
   } catch {
     // Ignore quota errors on restricted browsers
   }
+}
+
+export function listProfiles(): LocalProfileMeta[] {
+  return readProfileIndex().profiles;
+}
+
+export function getActiveProfileId(): string {
+  return readProfileIndex().activeProfileId;
+}
+
+export function loadProgress(profileId?: string): PlayerProgress {
+  if (typeof window === 'undefined') return DEFAULT_PROGRESS;
+  const targetId = profileId ?? getActiveProfileId();
+  return (
+    loadRawProgressByKey(getProfileStorageKey(targetId)) ?? DEFAULT_PROGRESS
+  );
+}
+
+export function saveProgress(
+  progress: PlayerProgress,
+  profileId?: string,
+): void {
+  if (typeof window === 'undefined') return;
+  const targetId = profileId ?? getActiveProfileId();
+  try {
+    window.localStorage.setItem(
+      getProfileStorageKey(targetId),
+      JSON.stringify(progress),
+    );
+  } catch {
+    // Ignore quota errors on restricted browsers
+  }
+}
+
+export function syncActiveProfileMeta(
+  progress: PlayerProgress,
+  profileId?: string,
+): LocalProfileMeta[] {
+  const index = readProfileIndex();
+  const targetId = profileId ?? index.activeProfileId;
+  const nextProfiles = index.profiles.map((profile) =>
+    profile.id === targetId
+      ? {
+          ...profile,
+          nickname: progress.nickname,
+          selectedAvatarId: progress.selectedAvatarId,
+        }
+      : profile,
+  );
+  writeProfileIndex({
+    activeProfileId: index.activeProfileId,
+    profiles: nextProfiles,
+  });
+  return nextProfiles;
+}
+
+export function switchProfile(profileId: string): {
+  activeProfileId: string;
+  progress: PlayerProgress;
+  profiles: LocalProfileMeta[];
+} {
+  const index = readProfileIndex();
+  const targetExists = index.profiles.some((p) => p.id === profileId);
+  const nextId = targetExists ? profileId : DEFAULT_PROFILE_ID;
+  writeProfileIndex({
+    activeProfileId: nextId,
+    profiles: index.profiles,
+  });
+  return {
+    activeProfileId: nextId,
+    progress: loadProgress(nextId),
+    profiles: index.profiles,
+  };
+}
+
+export function createProfile(nickname: string): {
+  activeProfileId: string;
+  progress: PlayerProgress;
+  profiles: LocalProfileMeta[];
+} {
+  const cleanName = nickname.trim().slice(0, 20) || '新勇者';
+  const index = readProfileIndex();
+  const id = `p-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 6)}`;
+  const newProgress: PlayerProgress = {
+    ...DEFAULT_PROGRESS,
+    nickname: cleanName,
+  };
+  const newMeta: LocalProfileMeta = {
+    id,
+    nickname: cleanName,
+    selectedAvatarId: newProgress.selectedAvatarId,
+    createdAt: new Date().toISOString(),
+  };
+  const nextProfiles = [...index.profiles, newMeta];
+  saveProgress(newProgress, id);
+  writeProfileIndex({
+    activeProfileId: id,
+    profiles: nextProfiles,
+  });
+  return {
+    activeProfileId: id,
+    progress: newProgress,
+    profiles: nextProfiles,
+  };
+}
+
+export function deleteProfile(profileId: string): {
+  activeProfileId: string;
+  progress: PlayerProgress;
+  profiles: LocalProfileMeta[];
+} {
+  const index = readProfileIndex();
+  if (profileId === DEFAULT_PROFILE_ID) {
+    return {
+      activeProfileId: index.activeProfileId,
+      progress: loadProgress(index.activeProfileId),
+      profiles: index.profiles,
+    };
+  }
+
+  if (typeof window !== 'undefined') {
+    try {
+      window.localStorage.removeItem(getProfileStorageKey(profileId));
+    } catch {
+      // Ignore storage error
+    }
+  }
+
+  const nextProfiles = index.profiles.filter((p) => p.id !== profileId);
+  const nextActiveId =
+    index.activeProfileId === profileId
+      ? DEFAULT_PROFILE_ID
+      : index.activeProfileId;
+
+  writeProfileIndex({
+    activeProfileId: nextActiveId,
+    profiles: nextProfiles,
+  });
+
+  return {
+    activeProfileId: nextActiveId,
+    progress: loadProgress(nextActiveId),
+    profiles: nextProfiles,
+  };
 }
 
 const LEVEL_TITLES = [

@@ -1,0 +1,165 @@
+{
+  "packId": "115-s2-g5-math",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 5,
+  "subjectId": "math",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-math-u3",
+      "stageId": "115-s2-g5-math-u3",
+      "title": "第3章 長方體與正方體的體積",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "g5s2-u3-s1",
+          "componentType": "SPATIAL_3D_SCENE",
+          "title": "一層有幾塊？堆了幾層？",
+          "narrationText": "試著拉動下方的「逐層顯示積木」滑桿，先數清楚第一層一共排了幾塊 1 立方公分的積木，再乘以疊上去的層數，就是長方體的體積！",
+          "cognitiveChunks": [
+            "底層積木數＝長 × 寬",
+            "總積木數＝一層個數 × 層數（高）",
+            "長方體體積＝長 × 寬 × 高"
+          ],
+          "analogyAnchor": "就像疊樂高積木盒，每一層都擺得一樣整齊，只要算出一層有幾顆再乘以總層數。",
+          "spatial3dSpec": {
+            "modelType": "CUBOID_BLOCKS",
+            "params": {
+              "length": 4,
+              "width": 3,
+              "height": 3,
+              "unit": "cm"
+            },
+            "allowedControls": ["LAYER_SLICE", "ORBIT_RESET"]
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u3"
+        },
+        {
+          "sceneId": "g5s2-u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "長方體體積計算與單位換算",
+          "narrationText": "計算體積時要先確認長、寬、高的單位是否相同；若問立方公尺和立方公分換算，每 1 公尺 = 100 公分，因此 1 立方公尺 = 100 × 100 × 100 = 1,000,000 立方公分！",
+          "cognitiveChunks": [
+            "長方體體積＝長 × 寬 × 高",
+            "正方體體積＝邊長 × 邊長 × 邊長",
+            "1 立方公尺＝1,000,000 立方公分"
+          ],
+          "workedExampleData": {
+            "problemStatement": "長 5 cm、寬 4 cm、高 6 cm 的長方體，體積是多少立方公分？",
+            "steps": [
+              "第 1 步：確認長、寬、高的單位都是公分（cm）",
+              "第 2 步：先算一層底面積：5 × 4 = 20 塊",
+              "第 3 步：再乘以層數（高 6 cm）：20 × 6 = 120 立方公分"
+            ],
+            "commonErrorContrast": "常見錯誤：把長、寬、高直接相加 5 + 4 + 6 = 15，或只算底面積 5 × 4 卻忘了乘上高度。",
+            "selfExplanationPrompt": "想一想：把正方體的每條邊長都變成原來的 2 倍，體積會變成原來的幾倍？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u3"
+        },
+        {
+          "sceneId": "g5s2-u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "用剛才逐層數積木的方法，完成這題體積暖身！",
+          "cognitiveChunks": [
+            "體積＝長 × 寬 × 高"
+          ],
+          "warmupCheck": {
+            "prompt": "一個正方體的每條邊長都是 4 公分，它的體積是多少立方公分？",
+            "options": [
+              "16 立方公分",
+              "48 立方公分",
+              "64 立方公分",
+              "96 立方公分"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！正方體體積＝4 × 4 × 4 = 64 立方公分。",
+            "feedbackRetry": "正方體的長、寬、高都是 4 公分，要先算一層 4 × 4 = 16，再乘以 4 層喔！"
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-math-u9",
+      "stageId": "115-s2-g5-math-u9",
+      "title": "第9章 表面積",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "g5s2-u9-s1",
+          "componentType": "SPATIAL_3D_SCENE",
+          "title": "展開長方體：6 個面剛好分成 3 組對面",
+          "narrationText": "拉動「展開／摺疊圖形」滑桿把長方體紙盒攤平，觀察相同顏色的兩塊長方形大小完全一樣：上底＝下底、前面＝後面、左面＝右面！",
+          "cognitiveChunks": [
+            "長方體共有 6 個長方形面",
+            "相對的兩個面面積相等（共 3 組）",
+            "長方體表面積＝2 × (長×寬 + 寬×高 + 長×高)"
+          ],
+          "analogyAnchor": "就像把餅乾紙盒沿著邊剪開攤平，算全部要包多少張包裝紙就是表面積。",
+          "spatial3dSpec": {
+            "modelType": "NET_UNFOLD",
+            "params": {
+              "length": 5,
+              "width": 3,
+              "height": 2,
+              "unit": "cm"
+            },
+            "allowedControls": ["UNFOLD_SLIDER", "ORBIT_RESET"]
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u9"
+        },
+        {
+          "sceneId": "g5s2-u9-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "不要把「體積」跟「表面積」搞混",
+          "narrationText": "體積算的是裡面能裝多少（長 × 寬 × 高），表面積則是把外面 6 個面的面積全部加起來。",
+          "cognitiveChunks": [
+            "先算三種不同大小的長方形面積",
+            "三組相加後乘以 2"
+          ],
+          "workedExampleData": {
+            "problemStatement": "長 5 cm、寬 3 cm、高 2 cm 的長方體，表面積是多少平方公分？",
+            "steps": [
+              "第 1 步：算上下面（長×寬）：5 × 3 = 15",
+              "第 2 步：算前後面（長×高）：5 × 2 = 10；算左右面（寬×高）：3 × 2 = 6",
+              "第 3 步：三組面各有一對（共 6 面）：(15 + 10 + 6) × 2 = 31 × 2 = 62 平方公分"
+            ],
+            "commonErrorContrast": "常見錯誤：只算出三種長方形面積（15 + 10 + 6 = 31）就忘了乘以 2，或直接拿 5 × 3 × 2 = 30 當成表面積。",
+            "selfExplanationPrompt": "想一想：如果正方體 6 個面都一模一樣，表面積只要先算 1 個面再乘以多少？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u9"
+        },
+        {
+          "sceneId": "g5s2-u9-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "用正方體 6 個正方形面完全相等的特性算這題吧！",
+          "cognitiveChunks": [
+            "正方體表面積＝邊長 × 邊長 × 6"
+          ],
+          "warmupCheck": {
+            "prompt": "邊長為 3 公分的正方體，它的表面積是多少平方公分？",
+            "options": [
+              "27 平方公分",
+              "36 平方公分",
+              "54 平方公分",
+              "72 平方公分"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！1 個正方形面積是 3 × 3 = 9，6 個面合計 9 × 6 = 54 平方公分。",
+            "feedbackRetry": "注意 3 × 3 × 3 = 27 是「體積」喔！表面積要先算 1 個面的面積（3 × 3），再乘上 6 個面！"
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u9"
+        }
+      ]
+    }
+  ]
+}

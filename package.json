@@ -6,22 +6,29 @@
   "scripts": {
     "dev": "vite",
     "sync:curriculum": "node scripts/sync-curriculum.mjs",
-    "validate:content": "node scripts/sync-curriculum.mjs --check",
+    "validate:lessons": "node scripts/validate-lessons.mjs",
+    "validate:content": "node scripts/sync-curriculum.mjs --check && node scripts/validate-lessons.mjs",
     "test:generators": "node scripts/test-generators.mjs",
-    "build": "node scripts/sync-curriculum.mjs && node scripts/test-generators.mjs && tsc --noEmit && vite build",
+    "test:fsrs": "node scripts/test-fsrs.mjs",
+    "test:interleaving": "node scripts/test-interleaving.mjs",
+    "test:phase3-4": "node scripts/test-phase3-4.mjs",
+    "build": "node scripts/sync-curriculum.mjs && node scripts/validate-lessons.mjs && node scripts/test-generators.mjs && node scripts/test-fsrs.mjs && node scripts/test-interleaving.mjs && node scripts/test-phase3-4.mjs && tsc --noEmit && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
     "canvas-confetti": "^1.9.3",
     "lucide-react": "^0.487.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "three": "^0.187.0",
+    "ts-fsrs": "^6.0.0"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.0.9",
     "@types/canvas-confetti": "^1.9.0",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
+    "@types/three": "^0.187.0",
     "@vitejs/plugin-react": "^4.3.4",
     "tailwindcss": "^4.0.9",
     "typescript": "^5.7.3",

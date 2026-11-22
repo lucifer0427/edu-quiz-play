@@ -1,0 +1,86 @@
+{
+  "packId": "115-s2-g6-math",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 6,
+  "subjectId": "math",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-math-u3",
+      "stageId": "115-s2-g6-math-u3",
+      "title": "第三單元 柱體體積與表面積",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "g6s2-u3-s1",
+          "componentType": "SPATIAL_3D_SCENE",
+          "title": "圓柱展開圖：彎曲的側面展開其實是長方形！",
+          "narrationText": "拉動「展開／摺疊圖形」滑桿把圓柱攤平：你會發現上下是兩個一樣大的圓形底面，而中間圍成一圈的側面展開後，就是一個長為「底圓周長」、寬為「柱高」的長方形！",
+          "cognitiveChunks": [
+            "柱體體積＝底面積 × 柱高（角柱、圓柱都適用）",
+            "圓柱展開後＝2 個圓底面 ＋ 1 個長方形側面",
+            "側面的長邊＝底圓周長（直徑 × 3.14）"
+          ],
+          "analogyAnchor": "就像把罐頭側面的標籤紙沿著垂直方向剪開攤平，標籤紙就是一張標準長方形。",
+          "spatial3dSpec": {
+            "modelType": "CYLINDER_UNFOLD",
+            "params": {
+              "radius": 3,
+              "height": 6,
+              "unit": "cm"
+            },
+            "allowedControls": ["UNFOLD_SLIDER", "ORBIT_RESET"]
+          },
+          "factGroundingSourceId": "115-s2/g6/math#u3"
+        },
+        {
+          "sceneId": "g6s2-u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分開算柱體的「底面積」與「側面積」",
+          "narrationText": "算柱體表面積最穩的做法，就是照著展開圖拆成「兩個底面」和「一大片側面（底面周長 × 柱高）」再相加。",
+          "cognitiveChunks": [
+            "表面積＝底面積 × 2 ＋ 側面積",
+            "側面積＝底面周長 × 柱高"
+          ],
+          "workedExampleData": {
+            "problemStatement": "底面半徑 2 cm、高 5 cm 的圓柱（圓周率以 3.14 計算），體積與表面積分別怎麼列式？",
+            "steps": [
+              "第 1 步：算單個圓底面積：2 × 2 × 3.14 = 12.56 cm²",
+              "第 2 步：算圓柱體積（底面積 × 柱高）：12.56 × 5 = 62.8 cm³",
+              "第 3 步：算展開長方形側面積（直徑 × 3.14 × 高）：(4 × 3.14) × 5 = 62.8，加上 2 個底面：62.8 + 12.56 × 2 = 87.92 cm²"
+            ],
+            "commonErrorContrast": "常見錯誤：算側面長方形時誤把「底面積」乘以柱高，或表面積忘記加「2 個」底面。",
+            "selfExplanationPrompt": "想一想：無論是三角柱、四角柱還是圓柱，側面積展開後的長方形長邊都一定等於什麼？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/math#u3"
+        },
+        {
+          "sceneId": "g6s2-u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用「底面積 × 柱高」解開這題柱體體積！",
+          "cognitiveChunks": [
+            "所有直柱體體積＝底面積 × 柱高"
+          ],
+          "warmupCheck": {
+            "prompt": "一個三角柱的底面是底 4 cm、高 3 cm 的三角形，柱體高是 10 cm，這個三角柱的體積是多少立方公分？",
+            "options": [
+              "60 立方公分",
+              "70 立方公分",
+              "120 立方公分",
+              "240 立方公分"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！三角形底面積 = 4 × 3 ÷ 2 = 6 cm²，再乘上柱高 10 cm 得到 60 cm³。",
+            "feedbackRetry": "別忘了底面是「三角形」，要先算 4 × 3 ÷ 2 = 6 得到底面積，再乘上柱高 10 喔！"
+          },
+          "factGroundingSourceId": "115-s2/g6/math#u3"
+        }
+      ]
+    }
+  ]
+}

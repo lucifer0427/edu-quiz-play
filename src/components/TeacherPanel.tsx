@@ -19,12 +19,14 @@ import { playTap, playUnlock } from '../utils/sound';
 import {
   encodeCustomStageToHash,
   exportProgressJson,
+  parseImportedProgressJson,
 } from '../utils/storage';
 
 interface TeacherPanelProps {
   progress: PlayerProgress;
   onAddCustomStage: (stage: Stage) => void;
   onDeleteCustomStage: (stageId: string) => void;
+  onImportProgress: (imported: PlayerProgress) => void;
   onStartStage: (stage: Stage) => void;
 }
 
@@ -41,6 +43,7 @@ export function TeacherPanel({
   progress,
   onAddCustomStage,
   onDeleteCustomStage,
+  onImportProgress,
   onStartStage,
 }: TeacherPanelProps) {
   const [title, setTitle] = useState('本週班級挑戰賽');
@@ -55,7 +58,38 @@ export function TeacherPanel({
     type: 'success' | 'error';
     messages: string[];
   } | null>(null);
+  const [importFeedback, setImportFeedback] = useState<{
+    type: 'success' | 'error';
+    message: string;
+  } | null>(null);
   const [copiedId, setCopiedId] = useState<string | null>(null);
+
+  const handleImportProgressFile = async (
+    e: React.ChangeEvent<HTMLInputElement>,
+  ) => {
+    const file = e.target.files?.[0];
+    e.target.value = '';
+    if (!file) return;
+    try {
+      const text = await file.text();
+      const parsed = parseImportedProgressJson(text);
+      if (!parsed.ok) {
+        setImportFeedback({ type: 'error', message: parsed.error });
+        return;
+      }
+      onImportProgress(parsed.progress);
+      playUnlock();
+      setImportFeedback({
+        type: 'success',
+        message: `已成功還原「${parsed.progress.nickname}」的學習紀錄（XP ${parsed.progress.xp}、錯題排程 ${parsed.progress.wrongQuestionIds.length} 題）！`,
+      });
+    } catch {
+      setImportFeedback({
+        type: 'error',
+        message: '讀取備份檔案失敗，請重試一次。',
+      });
+    }
+  };
 
   const createStageFromQuestions = (
     questions: Stage['questions'],
@@ -201,8 +235,30 @@ export function TeacherPanel({
               <Download className="h-4 w-4" />
               <span>匯出學習紀錄 JSON</span>
             </button>
+            <label className="inline-flex cursor-pointer items-center gap-1.5 rounded-xl border border-indigo-300 bg-indigo-50 px-3.5 py-2 text-xs font-black text-indigo-700 hover:bg-indigo-100">
+              <Upload className="h-4 w-4" />
+              <span>匯入還原 JSON</span>
+              <input
+                type="file"
+                accept=".json,application/json"
+                onChange={handleImportProgressFile}
+                className="hidden"
+              />
+            </label>
           </div>
         </div>
+
+        {importFeedback && (
+          <div
+            className={`mt-4 rounded-2xl border px-4 py-2.5 text-xs font-bold sm:text-sm ${
+              importFeedback.type === 'success'
+                ? 'border-emerald-300 bg-emerald-50 text-emerald-800'
+                : 'border-rose-300 bg-rose-50 text-rose-800'
+            }`}
+          >
+            {importFeedback.message}
+          </div>
+        )}
 
         <div className="mt-6 grid gap-4 rounded-2xl bg-amber-50/80 p-4 sm:grid-cols-2">
           <div>
