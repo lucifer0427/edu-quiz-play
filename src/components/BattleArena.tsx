@@ -13,7 +13,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { Question, Stage, SubjectId } from '../types/quiz';
 import {
   isDynamicStage,
-  resolveStageQuestions,
+  resolveStageQuestionsAsync,
 } from '../utils/generators/registry';
 import {
   playCorrect,
@@ -58,10 +58,6 @@ const OPTION_COLORS = [
   'bg-violet-50 border-violet-300 hover:bg-violet-100 text-violet-900 shadow-[0_4px_0_#c4b5fd]',
 ];
 
-function buildQuestionList(stage: Stage): Question[] {
-  return resolveStageQuestions(stage);
-}
-
 export function BattleArena({
   stage,
   selectedAvatarId,
@@ -70,9 +66,11 @@ export function BattleArena({
   onFinishBattle,
   onExit,
 }: BattleArenaProps) {
+  const isDynamic = isDynamicStage(stage);
   const [questions, setQuestions] = useState<Question[]>(() =>
-    buildQuestionList(stage),
+    isDynamic ? [] : stage.questions,
   );
+  const [isLoadingQuestions, setIsLoadingQuestions] = useState(isDynamic);
   const maxMonsterHp = useMemo(
     () => Math.max(stage.monsterHp, questions.length * 20),
     [stage.monsterHp, questions.length],
@@ -80,7 +78,9 @@ export function BattleArena({
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [hearts, setHearts] = useState(3);
-  const [monsterHp, setMonsterHp] = useState(maxMonsterHp);
+  const [monsterHp, setMonsterHp] = useState(() =>
+    Math.max(stage.monsterHp, (isDynamic ? 6 : stage.questions.length) * 20),
+  );
   const [combo, setCombo] = useState(0);
   const [maxCombo, setMaxCombo] = useState(0);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
@@ -100,15 +100,42 @@ export function BattleArena({
     null,
   );
   const initialXpRef = useRef(currentXp);
+  const isMountedRef = useRef(true);
+  const requestSeqRef = useRef(0);
 
   const currentQuestion = questions[currentIndex];
   const speechAvailable = isSpeechSupported();
 
   useEffect(() => {
+    isMountedRef.current = true;
     return () => {
+      isMountedRef.current = false;
       stopSpeech();
     };
   }, []);
+
+  useEffect(() => {
+    const seq = ++requestSeqRef.current;
+    if (!isDynamicStage(stage)) {
+      setQuestions(stage.questions);
+      setMonsterHp(Math.max(stage.monsterHp, stage.questions.length * 20));
+      setIsLoadingQuestions(false);
+      return;
+    }
+
+    let cancelled = false;
+    setIsLoadingQuestions(true);
+    void resolveStageQuestionsAsync(stage).then((nextQuestions) => {
+      if (cancelled || requestSeqRef.current !== seq) return;
+      setQuestions(nextQuestions);
+      setMonsterHp(Math.max(stage.monsterHp, nextQuestions.length * 20));
+      setIsLoadingQuestions(false);
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [stage]);
 
   const handleSelectOption = useCallback(
     (optionIndex: number) => {
@@ -249,7 +276,7 @@ export function BattleArena({
 
   useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {
-      if (finishedResult) return;
+      if (finishedResult || isLoadingQuestions) return;
       if (selectedOption === null) {
         const idx = ['1', '2', '3', '4'].indexOf(e.key);
         if (idx !== -1) {
@@ -262,16 +289,14 @@ export function BattleArena({
     };
     window.addEventListener('keydown', onKeyDown);
     return () => window.removeEventListener('keydown', onKeyDown);
-  }, [finishedResult, handleNext, handleSelectOption, selectedOption]);
+  }, [finishedResult, handleNext, handleSelectOption, isLoadingQuestions, selectedOption]);
 
-  const handleRetry = () => {
+  const handleRetry = async () => {
     playTap();
-    const nextQuestions = buildQuestionList(stage);
-    const nextHp = Math.max(stage.monsterHp, nextQuestions.length * 20);
-    setQuestions(nextQuestions);
+    const seq = ++requestSeqRef.current;
+    const dynamic = isDynamicStage(stage);
     setCurrentIndex(0);
     setHearts(3);
-    setMonsterHp(nextHp);
     setCombo(0);
     setMaxCombo(0);
     setSelectedOption(null);
@@ -281,6 +306,21 @@ export function BattleArena({
     setSolvedWrongIds([]);
     setFloatingDmg(null);
     setFinishedResult(null);
+
+    if (!dynamic) {
+      const nextQuestions = stage.questions;
+      setQuestions(nextQuestions);
+      setMonsterHp(Math.max(stage.monsterHp, nextQuestions.length * 20));
+      setIsLoadingQuestions(false);
+      return;
+    }
+
+    setIsLoadingQuestions(true);
+    const nextQuestions = await resolveStageQuestionsAsync(stage);
+    if (!isMountedRef.current || requestSeqRef.current !== seq) return;
+    setQuestions(nextQuestions);
+    setMonsterHp(Math.max(stage.monsterHp, nextQuestions.length * 20));
+    setIsLoadingQuestions(false);
   };
 
   if (finishedResult) {
@@ -377,6 +417,20 @@ export function BattleArena({
               <span>返回主畫面</span>
             </button>
           </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (isLoadingQuestions) {
+    return (
+      <div className="mx-auto max-w-2xl px-4 py-12">
+        <div className="rounded-3xl border-2 border-amber-200 bg-white p-8 text-center shadow-lg">
+          <div className="mx-auto flex h-14 w-14 animate-spin items-center justify-center rounded-full border-4 border-amber-200 border-t-amber-500" />
+          <p className="mt-4 text-lg font-black text-slate-800">
+            正在為你準備數學新題目...
+          </p>
+          <p className="mt-1 text-sm font-bold text-slate-500">{stage.title}</p>
         </div>
       </div>
     );

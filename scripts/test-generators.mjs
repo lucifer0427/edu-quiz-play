@@ -1,4 +1,7 @@
-import { QUESTION_GENERATORS } from '../src/utils/generators/registry.ts';
+import {
+  KNOWN_GENERATOR_IDS,
+  loadAllGenerators,
+} from '../src/utils/generators/registry.ts';
 
 const SAMPLE_SIZE = 24;
 const FORBIDDEN_TOKENS = ['NaN', 'Infinity', 'undefined', 'null'];
@@ -71,14 +74,25 @@ function validateQuestion(question, where, ids, errors) {
 }
 
 const errors = [];
-const generatorIds = Object.keys(QUESTION_GENERATORS);
+const generators = await loadAllGenerators();
+const generatorIds = Object.keys(generators);
 
 if (generatorIds.length === 0) {
-  errors.push('QUESTION_GENERATORS 沒有任何出題器');
+  errors.push('loadAllGenerators() 未載入任何出題器');
+}
+if (generatorIds.length !== KNOWN_GENERATOR_IDS.size) {
+  errors.push(
+    `KNOWN_GENERATOR_IDS（${KNOWN_GENERATOR_IDS.size}）與實際載入出題器數（${generatorIds.length}）不一致`,
+  );
+}
+for (const knownId of KNOWN_GENERATOR_IDS) {
+  if (!(knownId in generators)) {
+    errors.push(`KNOWN_GENERATOR_IDS 中的 ${knownId} 未在模組載入結果內`);
+  }
 }
 
 for (const generatorId of generatorIds) {
-  const generate = QUESTION_GENERATORS[generatorId];
+  const generate = generators[generatorId];
   if (typeof generate !== 'function') {
     errors.push(`出題器 ${generatorId} 不是函式`);
     continue;
