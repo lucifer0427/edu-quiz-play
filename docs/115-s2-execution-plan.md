@@ -137,11 +137,10 @@
 
 ## 五、開工或收尾時的架構優化與總驗收 Checklist
 
-1. **（建議順手優化）數學出題器按需懶載入**：
-   - 目前 90 個出題器皆靜態匯入 [registry.ts](../src/utils/generators/registry.ts)，使 `vite build` 主 chunk 達 `634 kB`（觸發 Vite >500 kB 警告）。
-   - 可將 `resolveStageQuestions`（或題目載入層）改為依年級 `g1..g6` 動態 `import('./g<grade>Math.ts')`（同時保留 `test-generators.mjs` 的測試能力），讓首屏主 bundle 降回 `~370 kB`。
+1. **（已完成 ✅）數學出題器按需懶載入**：
+   - 已於 [registry.ts](../src/utils/generators/registry.ts)、[BattleArena.tsx](../src/components/BattleArena.tsx) 與 [test-generators.mjs](../scripts/test-generators.mjs) 改為依年級模組動態 `import()` 並保留 `KNOWN_GENERATOR_IDS` 同步檢查，使 `vite build` 主 chunk 由 `634 kB` 降至 `373.78 kB`（無 >500 kB 警告）。
 2. **116 / 116 總驗收指令**：
-   - [ ] `npm run validate:content` → **116 份課綱來源、116 份題庫包（0 錯誤），覆蓋 116/116（100.0%）**，12 個槽位全數 `✓`
-   - [ ] `npm run test:generators` → **90 個出題器 × 24 題（0 錯誤）**
-   - [ ] `npm run build` → `sync:curriculum`、`test:generators`、`tsc --noEmit`、`vite build` 全部通過
-   - [ ] 同步更新 [curriculum-quiz-roadmap.md](curriculum-quiz-roadmap.md) §一 與 §二 進度表並提交收尾 commit
+   - [x] `npm run validate:content` → **116 份課綱來源、116 份題庫包（0 錯誤），覆蓋 116/116（100.0%）**，12 個槽位全數 `✓`
+   - [x] `npm run test:generators` → **90 個出題器 × 24 題（0 錯誤）**
+   - [x] `npm run build` → `sync:curriculum`、`test:generators`、`tsc --noEmit`、`vite build` 全部通過
+   - [x] 同步更新 [curriculum-quiz-roadmap.md](curriculum-quiz-roadmap.md) §一 與 §二 進度表並提交收尾 commit
