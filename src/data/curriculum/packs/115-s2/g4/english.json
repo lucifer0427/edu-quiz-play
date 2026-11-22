@@ -1,0 +1,962 @@
+{
+  "packId": "115-s2-g4-english",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 4,
+  "subjectId": "english",
+  "stages": [
+    {
+      "id": "115-s2-g4-english-u0",
+      "subjectId": "english",
+      "title": "開學預備 & Starter",
+      "description": "暖身練習四下核心數字 21–30 的英文聽讀拼寫、挑戰 5 的倍數與偶數節奏，並帶著品德友善的態度展開新學期！",
+      "difficulty": "easy",
+      "monsterId": "slime",
+      "monsterName": "數字魔法史萊姆",
+      "monsterHp": 100,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 4,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第四冊",
+        "unitNo": 0
+      },
+      "questions": [
+        {
+          "id": "115-s2-g4-english-u0-q1",
+          "prompt": "在 Starter 暖身單元要學會數字 21 到 30。請問數字「25」的正確英文拼法是哪一個？",
+          "options": [
+            "twenty-four",
+            "twenty-five",
+            "twenty-fifteen",
+            "fifty-two"
+          ],
+          "answerIndex": 1,
+          "explanation": "「20」是 twenty、「5」是 five，合起來寫成 twenty-five；fifty-two 是 52，twenty-four 是 24。",
+          "hint": "先說「20」twenty，加上連字號後接「5」five！",
+          "speechText": "twenty-five",
+          "speechLang": "en-US",
+          "tags": [
+            "Starter",
+            "Numbers 21-30"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u0-q2",
+          "prompt": "聽聽看並讀出這個英文數字：\"twenty-eight\"，請問它代表哪一個阿拉伯數字？",
+          "options": [
+            "18",
+            "23",
+            "26",
+            "28"
+          ],
+          "answerIndex": 3,
+          "explanation": "twenty 是 20，eight 是 8，合起來 twenty-eight 就是 28（18 則是 eighteen）。",
+          "hint": "twenty 是「二十」，再聽清楚後面的 eight 是幾喔！",
+          "speechText": "twenty-eight",
+          "speechLang": "en-US",
+          "tags": [
+            "Starter",
+            "Numbers 21-30"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u0-q3",
+          "prompt": "從 twenty-one 一路數到 twenty-nine 之後，緊接著登場的整十數字「30」英文怎麼說？",
+          "options": [
+            "thirty",
+            "thirteen",
+            "twenty-ten",
+            "three hundred"
+          ],
+          "answerIndex": 0,
+          "explanation": "「30」是 thirty（字尾 -ty）；thirteen 是 13（字尾 -teen），three hundred 是 300。",
+          "hint": "注意區分「13（thirteen）」和「30（字尾是 -ty）」喔！",
+          "speechText": "twenty-nine, thirty",
+          "speechLang": "en-US",
+          "tags": [
+            "Starter",
+            "Numbers 21-30"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u0-q4",
+          "prompt": "雙語讀劇「數字魔法劇團」挑戰 5 的倍數節奏！在 21 到 30 之間，哪兩個數字剛好都是「5 的倍數」？",
+          "options": [
+            "twenty-two and twenty-four",
+            "twenty-one and twenty-six",
+            "twenty-five and thirty",
+            "twenty-three and twenty-nine"
+          ],
+          "answerIndex": 2,
+          "explanation": "在 21 到 30 之間，只有 25（twenty-five）和 30（thirty）是 5 的倍數。",
+          "hint": "5 的倍數個位數字一定是 5 或 0，找找看 25 和 30 的英文！",
+          "speechText": "twenty-five and thirty",
+          "speechLang": "en-US",
+          "tags": [
+            "Starter",
+            "Numbers 21-30",
+            "Multiples of 5"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u0-q5",
+          "prompt": "偶數節奏拍拍手！如果從 twenty-two（22）開始只數「偶數」，接下來連續兩個數字是哪一組？",
+          "options": [
+            "twenty-three, twenty-four",
+            "twenty-four, twenty-six",
+            "twenty-five, twenty-seven",
+            "twenty-six, twenty-nine"
+          ],
+          "answerIndex": 1,
+          "explanation": "從 22 開始每次加 2 的偶數依序是 22（twenty-two）、24（twenty-four）、26（twenty-six）。",
+          "hint": "偶數要跳過奇數，從 22 接著數 24 和 26！",
+          "speechText": "twenty-two, twenty-four, twenty-six",
+          "speechLang": "en-US",
+          "tags": [
+            "Starter",
+            "Even Numbers"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u0-q6",
+          "prompt": "搭配開學預備週品德教育與讀劇活動：當組員上台唸數字台詞時有點緊張停頓，下列哪一句英文鼓勵最溫暖有禮貌？",
+          "options": [
+            "Be quiet and go away.",
+            "You are too slow!",
+            "Don't talk to me.",
+            "Take your time. You can do it!"
+          ],
+          "answerIndex": 3,
+          "explanation": "\"Take your time. You can do it!\" 意思是「慢慢來，你可以做到的！」，展現了鼓勵與友善的好品德。",
+          "hint": "找一句安慰同學「慢慢來、你可以的」的親切話語！",
+          "speechText": "Take your time. You can do it!",
+          "speechLang": "en-US",
+          "tags": [
+            "Starter",
+            "Character Education"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g4-english-u1",
+      "subjectId": "english",
+      "title": "Unit 1 What Time Is It?",
+      "description": "學會用 \"What time is it?\" 與 \"It's time to...\" 詢問和表達時間，理解 12/24 小時制概念，並挑戰長短母音 -a-/-a_e 與 -i-/-i_e 拼讀！",
+      "difficulty": "easy",
+      "monsterId": "mathCube",
+      "monsterName": "時間魔法方塊",
+      "monsterHp": 110,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 4,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第四冊",
+        "unitNo": 1
+      },
+      "questions": [
+        {
+          "id": "115-s2-g4-english-u1-q1",
+          "prompt": "忘記戴手錶時，想問旁邊的同學「現在幾點了？」，應該說下面哪一句英文問句？",
+          "options": [
+            "What time is it?",
+            "What are you doing?",
+            "Where are you going?",
+            "How old are you?"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"What time is it?\" 用來詢問「現在幾點了？」；time 在這裡指「時間、時刻」。",
+          "hint": "問「幾點」時，句子裡一定要有表示時間的單字 time！",
+          "speechText": "What time is it?",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Time"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u1-q2",
+          "prompt": "放學了，時鐘指在下午 4 點整（24 小時制為 16:00）。回答 \"What time is it?\" 時，哪一句最正確？",
+          "options": [
+            "It's four dollars.",
+            "It's forty o'clock.",
+            "It's four o'clock.",
+            "It's four years old."
+          ],
+          "answerIndex": 2,
+          "explanation": "整點時刻用「It's + 數字 + o'clock.」表示，所以 4 點整（或 16:00 換算為 12 小時制的 4 點）是 \"It's four o'clock.\"。",
+          "hint": "整點後面常搭配 o'clock，而且「4」是 four 不是 forty 喔！",
+          "speechText": "What time is it? It's four o'clock.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Time",
+            "12h and 24h"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u1-q3",
+          "prompt": "晚上睡覺時間到了，爸爸對你說「該上床睡覺囉！」，下面哪一句英文最正確？",
+          "options": [
+            "It's time to wake up.",
+            "It's time to go to bed.",
+            "It's time to eat breakfast.",
+            "It's time to go to school."
+          ],
+          "answerIndex": 1,
+          "explanation": "\"It's time to go to bed.\" 意思是「該去睡覺了」；wake up 是起床，eat breakfast 是吃早餐，go to school 是去上學。",
+          "hint": "bed 是「床」，找出代表「去睡覺」的句子！",
+          "speechText": "It's time to go to bed.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Time Pattern"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u1-q4",
+          "prompt": "文法小尖兵：想表達「現在是七點三十分（7:30），該吃早餐了」，下面哪一個英文句子結構完全正確？",
+          "options": [
+            "It's seven thirty. It's time to eating breakfast.",
+            "Is seven thirty. Time is breakfast.",
+            "It's thirty seven. Let's time to breakfast.",
+            "It's seven thirty. It's time to eat breakfast."
+          ],
+          "answerIndex": 3,
+          "explanation": "7:30 先唸小時再唸分鐘為 seven thirty；句型 \"It's time to + 原形動詞\" 中的 to 後面必須接原形動詞 eat，不可加 -ing。",
+          "hint": "檢查兩件事：時間要先說 7 再說 30，而且 \"It's time to\" 後面要放原形動詞喔！",
+          "speechText": "It's seven thirty. It's time to eat breakfast.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u1-q5",
+          "prompt": "Phonics 母音拼讀挑戰：請選出「兩個單字都含有長母音 -a_e（發 /eɪ/ 音）」的選項：",
+          "options": [
+            "cake, make",
+            "cat, hat",
+            "cap, map",
+            "bag, fan"
+          ],
+          "answerIndex": 0,
+          "explanation": "cake 和 make 屬於 -a_e 音組，字尾不發音的 e 讓前面的 a 發長母音 /eɪ/；cat、hat、cap、map、bag、fan 都是短母音 -a-。",
+          "hint": "找兩個單字拼法都有「a + 子音 + e」組合的選項！",
+          "speechText": "cake, make",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Phonics",
+            "Long Vowel a"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u1-q6",
+          "prompt": "Phonics 母音拼讀挑戰：「time（時間）」這個單字含有長母音「-i_e」音組，下列哪一個單字和「time」的母音發音相同？",
+          "options": [
+            "sit",
+            "pig",
+            "bike",
+            "fish"
+          ],
+          "answerIndex": 2,
+          "explanation": "time 和 bike 都是 -i_e 音組，i 發長母音 /aɪ/；sit、pig、fish 都是短母音 -i-。",
+          "hint": "點喇叭聽聽看，哪一個字也跟 time 一樣有長母音 -i_e？",
+          "speechText": "time, bike",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Phonics",
+            "Long Vowel i"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g4-english-u2",
+      "subjectId": "english",
+      "title": "Unit 2 What Are You Doing? & Happy Easter",
+      "description": "運用 \"What are you doing?\" 與 \"I am [action]-ing.\" 詢問及回答正在進行的動作，並認識復活節（Easter）的英語祝福與習俗文化！",
+      "difficulty": "easy",
+      "monsterId": "parrotKing",
+      "monsterName": "彩蛋舞步鸚鵡王",
+      "monsterHp": 115,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 4,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第四冊",
+        "unitNo": 2
+      },
+      "questions": [
+        {
+          "id": "115-s2-g4-english-u2-q1",
+          "prompt": "看見好朋友坐在桌前不知道在忙什麼，想問他「你現在正在做什麼？」，要用哪一句英文問句？",
+          "options": [
+            "Where are you?",
+            "What time is it?",
+            "What are you doing?",
+            "Who are you?"
+          ],
+          "answerIndex": 2,
+          "explanation": "\"What are you doing?\" 用來詢問對方「你正在做什麼？」；Where are you? 問在哪裡，What time is it? 問時間。",
+          "hint": "記得本單元的核心問句！doing 表示「正在做……」。",
+          "speechText": "What are you doing?",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Present Continuous"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u2-q2",
+          "prompt": "朋友問你：\"What are you doing?\" 如果你「正在畫畫（draw）」，下列哪一個英文回答的文法完全正確？",
+          "options": [
+            "I am drawing.",
+            "I am draw.",
+            "You are drawing.",
+            "I drawing now."
+          ],
+          "answerIndex": 0,
+          "explanation": "表達「我正在做某個動作」要用現在進行式「I am + 動詞-ing.」，所以畫畫要回答 \"I am drawing.\"，不能少掉 am 或 -ing。",
+          "hint": "回答「我正在……」，必須同時有 be 動詞 am 和字尾 -ing 喔！",
+          "speechText": "I am drawing.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u2-q3",
+          "prompt": "姊姊發訊息說：\"I am cooking.\" 請問姊姊現在正在做哪一件事？",
+          "options": [
+            "她正在睡覺",
+            "她正在寫功課",
+            "她正在游泳",
+            "她正在煮飯做菜"
+          ],
+          "answerIndex": 3,
+          "explanation": "cook 是「烹飪、煮飯」，加上 -ing 的 \"I am cooking.\" 表示「我正在煮飯」。",
+          "hint": "想想看 \"cook\" 這個動詞和廚房料理有關喔！",
+          "speechText": "I am cooking.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Actions"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u2-q4",
+          "prompt": "節慶教學「Festival: Easter」介紹中外重要節慶習俗。請問下列哪一項活動最具有「復活節（Easter）」的傳統代表性？",
+          "options": [
+            "吃月餅、賞滿月",
+            "彩繪復活節彩蛋（Easter eggs）、尋找彩蛋與認識復活節兔（Easter bunny）",
+            "端午節划龍舟、吃粽子",
+            "除夕夜貼春聯、領紅包"
+          ],
+          "answerIndex": 1,
+          "explanation": "復活節（Easter）在春天慶祝，象徵新生與希望，經典習俗包含彩繪復活節彩蛋（Easter eggs）、尋蛋遊戲與復活節兔（Easter bunny）。",
+          "hint": "想想春天時大家會彩繪什麼蛋，還會跟哪一種可愛長耳朵動物一起尋寶？",
+          "speechText": "Happy Easter! Let's look for Easter eggs.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Easter",
+            "Culture"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u2-q5",
+          "prompt": "在復活節這天，如果想用英文祝外國朋友「復活節快樂！」，最道地的祝福語是哪一句？",
+          "options": [
+            "Happy Birthday!",
+            "Merry Christmas!",
+            "Happy Easter!",
+            "Good night!"
+          ],
+          "answerIndex": 2,
+          "explanation": "祝福「復活節快樂」是 \"Happy Easter!\"；其他選項分別為生日快樂、聖誕快樂與晚安。",
+          "hint": "用 Happy 加上本單元的節慶單字 Easter！",
+          "speechText": "Happy Easter!",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Easter"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u2-q6",
+          "prompt": "情境對話整合：我們問忙碌的復活節小兔：\"What are you doing, Easter Bunny?\" 牠最可能用下面哪一句話來回答？",
+          "options": [
+            "I am hiding Easter eggs.",
+            "I am eight o'clock.",
+            "I am in the box.",
+            "I am twenty-five."
+          ],
+          "answerIndex": 0,
+          "explanation": "問句 \"What are you doing?\" 必須回答正在做的動作，只有 \"I am hiding Easter eggs.\"（我正在藏復活節彩蛋）符合語意與文法。",
+          "hint": "問題問的是「正在做什麼」，找有 -ing 動作的回答！",
+          "speechText": "What are you doing? I am hiding Easter eggs.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Dialogue",
+            "Easter"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g4-english-u3",
+      "subjectId": "english",
+      "title": "Review 1 我們的學校生活",
+      "description": "統整 Unit 1 與 Unit 2 的「時間」與「動作」句型到校園生活中，並複習四下短母音與長母音 -e-/-e_e、-o-/-o_e 拼讀規則！",
+      "difficulty": "medium",
+      "monsterId": "bookSpirit",
+      "monsterName": "校園鐘聲書靈",
+      "monsterHp": 120,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 4,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第四冊",
+        "unitNo": 3
+      },
+      "questions": [
+        {
+          "id": "115-s2-g4-english-u3-q1",
+          "prompt": "校園生活對話：午休前小晴看著時鐘說：\"It's twelve o'clock. It's time to ___!\" 考量學校中午 12 點的作息，空格填哪一個最適合？",
+          "options": [
+            "go to sleep at night",
+            "have lunch",
+            "wake up in the morning",
+            "wear pajamas"
+          ],
+          "answerIndex": 1,
+          "explanation": "在學校生活裡，中午 12 點（twelve o'clock）是吃午餐（have lunch）的時間。",
+          "hint": "中午 12 點在學校通常準備要吃哪一餐呢？",
+          "speechText": "It's twelve o'clock. It's time to have lunch.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "School Life",
+            "Time"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u3-q2",
+          "prompt": "問答配對檢查：下面哪一組「問句與回答」在語意與文法上都完全正確？",
+          "options": [
+            "What time is it? — I am reading.",
+            "What are you doing? — It's ten o'clock.",
+            "What time is it? — Yes, I am singing.",
+            "What are you doing? — I am writing my homework."
+          ],
+          "answerIndex": 3,
+          "explanation": "\"What are you doing?\" 問正在做的動作，回答 \"I am writing my homework.\"（我正在寫功課）最正確；問時間則要回答時刻。",
+          "hint": "問「時間」要答幾點，問「做什麼」要答正在做的事！",
+          "speechText": "What are you doing? I am writing my homework.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u3-q3",
+          "prompt": "音樂課上大家都站在臺前練合唱。如果想告訴老師「我正在唱歌」，應該說哪一句英文？",
+          "options": [
+            "I am singing.",
+            "I am sleeping.",
+            "I am cooking.",
+            "I am swimming."
+          ],
+          "answerIndex": 0,
+          "explanation": "sing 是「唱歌」，加上 -ing 為 \"I am singing.\"；sleep 是睡覺、cook 是煮飯、swim 是游泳。",
+          "hint": "點喇叭聽聽看，sing 的字首是 s，意思是「唱歌」喔！",
+          "speechText": "I am singing.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Actions"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u3-q4",
+          "prompt": "Phonics 音組複習：比較短母音「-o-」與長母音「-o_e」的差異，下面哪一個單字的母音發長音 /oʊ/（與「note」同母音）？",
+          "options": [
+            "hot",
+            "dog",
+            "home",
+            "box"
+          ],
+          "answerIndex": 2,
+          "explanation": "note 和 home 都是 -o_e 音組，發長母音 /oʊ/；hot、dog、box 都是短母音 -o-。",
+          "hint": "找單字拼法符合「o + 子音 + 不發音的 e」的字！",
+          "speechText": "note, home",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Phonics",
+            "Long Vowel o"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u3-q5",
+          "prompt": "Phonics 音組複習：在「bed, pet, Pete, red」四個單字中，哪一個單字含有長母音「-e_e」音組，唸起來發長音 /iː/？",
+          "options": [
+            "bed",
+            "Pete",
+            "pet",
+            "red"
+          ],
+          "answerIndex": 1,
+          "explanation": "Pete 含有 -e_e 音組，e 發長母音 /iː/；而 bed、pet、red 都是短母音 -e-（發 /ɛ/）。",
+          "hint": "仔細看哪一個字後面有不發音的字母 e 來幫忙拉長前面的 e！",
+          "speechText": "Pete",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Phonics",
+            "Long Vowel e"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u3-q6",
+          "prompt": "校園閱讀素養：\"It's three thirty. School is over! Tom is cleaning the classroom with his friends.\" 讀完這句話，請問下午三點半放學時 Tom 正在做什麼？",
+          "options": [
+            "他正在操場吃營養午餐",
+            "他正在臥室裡睡午覺",
+            "他正在回家的公車上睡著了",
+            "他正在和朋友們一起打掃教室"
+          ],
+          "answerIndex": 3,
+          "explanation": "\"cleaning the classroom with his friends\" 意思是「和他的朋友們一起打掃教室」。",
+          "hint": "聽聽句子裡的關鍵片語 \"cleaning the classroom\" 是什麼意思呢？",
+          "speechText": "It's three thirty. Tom is cleaning the classroom with his friends.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Reading"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g4-english-u4",
+      "subjectId": "english",
+      "title": "Unit 3 Where Are You?",
+      "description": "認識「客廳、廚房、臥室、浴室、餐廳」等常見房間單字，並熟練運用 \"Where are you?\" 與 \"I'm in the...\" 描述自己所在的空間位置！",
+      "difficulty": "medium",
+      "monsterId": "treeGuardian",
+      "monsterName": "夢想小屋樹靈",
+      "monsterHp": 125,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 4,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第四冊",
+        "unitNo": 4
+      },
+      "questions": [
+        {
+          "id": "115-s2-g4-english-u4-q1",
+          "prompt": "和家人在房子裡玩捉迷藏，想大聲問對方「你在哪裡？」，最正確的英文問句是哪一個？",
+          "options": [
+            "Where are you?",
+            "What are you doing?",
+            "What time is it?",
+            "How are you?"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"Where are you?\" 意思是「你在哪裡？」；where 是詢問地點的疑問詞。",
+          "hint": "問「在哪裡」時，疑問詞要使用 Where 開頭喔！",
+          "speechText": "Where are you?",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Rooms",
+            "Where"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u4-q2",
+          "prompt": "房間名稱單字：爸爸正站在流理臺前面洗青菜準備煮晚餐，請問他所在的「廚房」英文是哪一個單字？",
+          "options": [
+            "bedroom",
+            "bathroom",
+            "kitchen",
+            "living room"
+          ],
+          "answerIndex": 2,
+          "explanation": "kitchen 是「廚房」；bedroom 是臥室，bathroom 是浴室，living room 是客廳。",
+          "hint": "點喇叭聽聽看「廚房」的唸法，字首發 /k/ 的音！",
+          "speechText": "I'm in the kitchen.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Rooms"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u4-q3",
+          "prompt": "房間名稱單字：晚上刷完牙、關掉燈準備上床休息的「臥室」，英文怎麼拼？",
+          "options": [
+            "kitchen",
+            "bedroom",
+            "living room",
+            "dining room"
+          ],
+          "answerIndex": 1,
+          "explanation": "bed（床）加上 room（房間）就是 bedroom（臥室）。dining room 是飯廳／餐廳。",
+          "hint": "臥室裡面最重要的是床（bed），把 bed 和 room 合起來看看！",
+          "speechText": "bedroom",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Rooms"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u4-q4",
+          "prompt": "房間名稱單字：客人來家裡拜訪時，全家人坐在沙發上聊天喝茶的「客廳」，英文說法是哪一個？",
+          "options": [
+            "bathroom",
+            "bedroom",
+            "kitchen",
+            "living room"
+          ],
+          "answerIndex": 3,
+          "explanation": "living room 是「客廳」；bathroom 是浴室，bedroom 是臥室，kitchen 是廚房。",
+          "hint": "客廳是大家在裡面生活活動（living）的空間，兩個字分開寫喔！",
+          "speechText": "living room",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Rooms"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u4-q5",
+          "prompt": "空間對話文法：弟弟在浴室裡洗手，媽媽問：\"Where are you?\" 弟弟應該怎麼回答才完整又符合文法？",
+          "options": [
+            "I'm on the bedroom.",
+            "You're in the kitchen.",
+            "I'm in the bathroom.",
+            "It's in the living room."
+          ],
+          "answerIndex": 2,
+          "explanation": "別人用 \"Where are you?\" 問你時，要用第一人稱 \"I'm in the + 房間.\" 回答，在房間「裡面」介系詞要用 in，浴室是 bathroom。",
+          "hint": "回答「我在浴室裡」，主詞要用 I'm，而且在房間裡面要用介系詞 in 喔！",
+          "speechText": "Where are you? I'm in the bathroom.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Dialogue",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u4-q6",
+          "prompt": "閱讀素養：\"Mom: Where are you, Amy? / Amy: I'm in the dining room. I'm eating dinner!\" 請問 Amy 現在在哪一個空間？",
+          "options": [
+            "在餐廳（飯廳）",
+            "在臥室",
+            "在浴室",
+            "在學校操場"
+          ],
+          "answerIndex": 0,
+          "explanation": "dining room 指「餐廳／飯廳」，從後面的 \"eating dinner\"（吃晚餐）也能呼應判斷出來。",
+          "hint": "注意 Amy 說她正在吃晚餐（eating dinner），她在哪一間房呢？",
+          "speechText": "Where are you, Amy? I'm in the dining room.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Reading"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g4-english-u5",
+      "subjectId": "english",
+      "title": "Unit 4 Where's My Hat?",
+      "description": "學會使用 \"Where's my...?\" 與 \"It's in/on/under...\" 描述物品的空間位置，熟悉方位介系詞與 -u-/-u_e 母音拼讀！",
+      "difficulty": "medium",
+      "monsterId": "slime",
+      "monsterName": "藏帽頑皮史萊姆",
+      "monsterHp": 130,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 4,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第四冊",
+        "unitNo": 5
+      },
+      "questions": [
+        {
+          "id": "115-s2-g4-english-u5-q1",
+          "prompt": "出門前遍尋不著自己的帽子，想問家人「我的帽子在哪裡？」，下面哪一句英文問句最正確？",
+          "options": [
+            "Where are you?",
+            "What is my hat?",
+            "Who is my hat?",
+            "Where's my hat?"
+          ],
+          "answerIndex": 3,
+          "explanation": "\"Where's my hat?\" 是 \"Where is my hat?\" 的縮寫，用來詢問單數物品「我的帽子在哪裡？」。",
+          "hint": "問東西「在哪裡」用 Where's，hat 是帽子喔！",
+          "speechText": "Where's my hat?",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Locations"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u5-q2",
+          "prompt": "方位介系詞挑戰：如果想表達「書本在書桌『上面』」，句子裡的空格應該填入哪一個介系詞？\"The book is ___ the desk.\"",
+          "options": [
+            "in",
+            "on",
+            "under",
+            "between"
+          ],
+          "answerIndex": 1,
+          "explanation": "on 表示「在……上面（接觸表面）」；in 是「在……裡面」，under 是「在……下面」，between 是「在兩者之間」。",
+          "hint": "只有兩個字母的介系詞，表示東西平放在書桌「上面」！",
+          "speechText": "The book is on the desk.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Prepositions"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u5-q3",
+          "prompt": "空間定位高手：小貓咪正躲在椅子「下面」睡懶覺，下面哪一句英文描述最準確？",
+          "options": [
+            "The cat is in the chair.",
+            "The cat is on the chair.",
+            "The cat is under the chair.",
+            "The cat is twenty-two."
+          ],
+          "answerIndex": 2,
+          "explanation": "under 意思是「在……下面」，所以「在椅子下面」是 under the chair。",
+          "hint": "代表「在……下面」的方位介系詞是 u 開頭的單字！",
+          "speechText": "The cat is under the chair.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Prepositions"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u5-q4",
+          "prompt": "空間定位高手：整理書包時把鉛筆放進鉛筆盒「裡面」，用英文表達「鉛筆在鉛筆盒裡面」應該選哪一句？",
+          "options": [
+            "The pencil is in the pencil case.",
+            "The pencil is under the pencil case.",
+            "The pencil is on the pencil case.",
+            "The pencil is from the pencil case."
+          ],
+          "answerIndex": 0,
+          "explanation": "介系詞 in 表示「在……裡面」，因此 \"in the pencil case\" 是在鉛筆盒裡面。",
+          "hint": "表示「在……裡面」要用兩個字母的介系詞 in！",
+          "speechText": "The pencil is in the pencil case.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Prepositions"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u5-q5",
+          "prompt": "文法代名詞辨識：妹妹問你：\"Where's my hat?\" 如果那頂帽子正擺在床上，哪一個英文回答的文法完全正確？",
+          "options": [
+            "They're on the bed.",
+            "I'm on the bed.",
+            "He's in the bed.",
+            "It's on the bed."
+          ],
+          "answerIndex": 3,
+          "explanation": "my hat（一頂帽子）是單數的物品，回答時要用單數物品代名詞 It，即 \"It's on the bed.\"（They're 用於複數物品）。",
+          "hint": "hat 只有一頂而且是物品，代名詞要用 It，不能用 I 或 They 喔！",
+          "speechText": "Where's my hat? It's on the bed.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u5-q6",
+          "prompt": "Phonics 母音拼讀挑戰：依據四下長短母音規則，下面哪一組單字「兩個都含有長母音 -u_e 音組（與 tube 同音組）」？",
+          "options": [
+            "cup, bus",
+            "cute, cube",
+            "bug, sun",
+            "run, duck"
+          ],
+          "answerIndex": 1,
+          "explanation": "tube、cute 與 cube 皆屬於長母音 -u_e 音組；cup、bus、bug、sun、run、duck 都是短母音 -u-（發 /ʌ/）。",
+          "hint": "找字尾有不發音的 e、符合「u + 子音 + e」拼讀結構的那一組！",
+          "speechText": "tube, cute, cube",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Phonics",
+            "Long Vowel u"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g4-english-u6",
+      "subjectId": "english",
+      "title": "Review 2, Final Review & Culture Landmarks Around the World",
+      "description": "整合 Unit 3 房間與 Unit 4 位置句型進行全冊總複習，並跟著 Culture 單元「Landmarks Around the World」探索世界著名地標與多元文化！",
+      "difficulty": "hard",
+      "monsterId": "flameDragon",
+      "monsterName": "世界地標火龍",
+      "monsterHp": 140,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 4,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第四冊",
+        "unitNo": 6
+      },
+      "questions": [
+        {
+          "id": "115-s2-g4-english-u6-q1",
+          "prompt": "Review 2 房間整理閱讀：\"My cap is on the desk, and my shoes are under the bed.\" 讀完這句話，請問鴨舌帽（cap）和鞋子（shoes）分別在哪裡？",
+          "options": [
+            "鴨舌帽在書桌上面，鞋子在床底下",
+            "鴨舌帽在床底下，鞋子在書桌上面",
+            "鴨舌帽和鞋子都被收在盒子裡面",
+            "鴨舌帽在書桌裡面，鞋子在椅子上面"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"on the desk\" 是在書桌上面，\"under the bed\" 是在床底下。",
+          "hint": "分清楚介系詞 on（上面）和 under（下面）各自搭配的家具喔！",
+          "speechText": "My cap is on the desk, and my shoes are under the bed.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Reading",
+            "Prepositions"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u6-q2",
+          "prompt": "Final Review 句型大考驗：比較問句 \"Where are you?\" 和 \"Where's my bag?\"，下面哪一組對話的問答完全正確？",
+          "options": [
+            "Where are you? — It's under the chair.",
+            "Where's my bag? — I'm in the bedroom.",
+            "Where's my bag? — It's on the sofa in the living room.",
+            "Where are you? — It's nine o'clock."
+          ],
+          "answerIndex": 2,
+          "explanation": "問物品 \"Where's my bag?\" 要回答 \"It's...\"（例如在客廳的沙發上）；問人 \"Where are you?\" 則要回答 \"I'm...\"。",
+          "hint": "問「你在哪裡」和問「包包在哪裡」，回答的主詞（I'm 還是 It's）可不一樣喔！",
+          "speechText": "Where's my bag? It's on the sofa in the living room.",
+          "speechLang": "en-US",
+          "tags": [
+            "Final Review",
+            "Grammar",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u6-q3",
+          "prompt": "期末文化單元名稱是「Landmarks Around the World」。從這個標題判斷，文化單元主要在帶領大家認識什麼主題？",
+          "options": [
+            "超級市場裡的各種蔬菜名稱",
+            "世界各地著名的代表性地標建築與多元風土文化",
+            "從 1 數到 20 的數學減法遊戲",
+            "每天早晨起床刷牙洗臉的順序"
+          ],
+          "answerIndex": 1,
+          "explanation": "landmark 指「地標」，around the world 指「世界各地」，合起來即認識世界著名地標與各地文化特色。",
+          "hint": "\"world\" 是世界，想想 \"landmarks\" 指的是代表一個城市或國家的什麼呢？",
+          "speechText": "Landmarks Around the World",
+          "speechLang": "en-US",
+          "tags": [
+            "Culture",
+            "Landmarks Around the World"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u6-q4",
+          "prompt": "在「Landmarks Around the World」國際視野探索中，如果看見英文地標名稱「Taipei 101」，我們應該聯想到哪一個地方？",
+          "options": [
+            "London, UK",
+            "Paris, France",
+            "Tokyo, Japan",
+            "Taipei, Taiwan"
+          ],
+          "answerIndex": 3,
+          "explanation": "Taipei 101（台北 101 大樓）是位於臺灣台北（Taipei, Taiwan）的著名地標。",
+          "hint": "看看地標名稱前面的城市拼字 \"Taipei\"，就知道在哪裡囉！",
+          "speechText": "Taipei 101 is a famous landmark in Taiwan.",
+          "speechLang": "en-US",
+          "tags": [
+            "Culture",
+            "Taiwan",
+            "International Education"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u6-q5",
+          "prompt": "認識世界各地標（Landmarks Around the World）：下列哪一組「英文地標名稱」與所在國家的配對是正確的？",
+          "options": [
+            "Eiffel Tower — France（法國巴黎艾菲爾鐵塔）",
+            "Eiffel Tower — Japan（日本）",
+            "Statue of Liberty — Taiwan（臺灣）",
+            "Mount Fuji — France（法國）"
+          ],
+          "answerIndex": 0,
+          "explanation": "Eiffel Tower（艾菲爾鐵塔）位於法國巴黎（Paris, France）；Statue of Liberty（自由女神像）在美國，Mount Fuji（富士山）在日本。",
+          "hint": "點喇叭聽聽看，艾菲爾鐵塔（Eiffel Tower）在哪一個歐洲浪漫國度呢？",
+          "speechText": "The Eiffel Tower is in Paris, France.",
+          "speechLang": "en-US",
+          "tags": [
+            "Culture",
+            "Landmarks Around the World"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u6-q6",
+          "prompt": "全冊綜合閱讀：\"It's eight thirty in the evening. Dad is cooking in the kitchen, and my cat is sleeping under the table.\" 請問晚上八點半時，爸爸和貓咪分別在做什麼？",
+          "options": [
+            "爸爸正在睡覺，貓咪正在煮飯",
+            "爸爸和貓咪都在臥室裡看書",
+            "爸爸正在廚房煮飯，貓咪正在桌子底下睡覺",
+            "現在是早上八點半，大家都要去上學了"
+          ],
+          "answerIndex": 2,
+          "explanation": "evening 是晚上，eight thirty 是 8:30；\"Dad is cooking in the kitchen\" 表示爸爸正在廚房煮飯，\"my cat is sleeping under the table\" 表示貓咪正在桌子底下睡覺。",
+          "hint": "抓出三個線索：kitchen（廚房）、cooking（煮飯）和 sleeping under the table（在桌下睡覺）！",
+          "speechText": "It's eight thirty in the evening. Dad is cooking in the kitchen, and my cat is sleeping under the table.",
+          "speechLang": "en-US",
+          "tags": [
+            "Final Review",
+            "Reading"
+          ]
+        }
+      ]
+    }
+  ]
+}
