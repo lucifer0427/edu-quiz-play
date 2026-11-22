@@ -1,0 +1,546 @@
+{
+  "packId": "115-s2-g2-english",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 2,
+  "subjectId": "english",
+  "stages": [
+    {
+      "id": "115-s2-g2-english-u1",
+      "subjectId": "english",
+      "title": "第1–4週：生活小達人：安全與健康的好習慣",
+      "description": "從繪本《The Crocodile and the Dentist》學會 Brush teeth、Dentist、Good habit、Bad habit! 與教室禮貌用語，並開始認識字母 Nn 到 Zz。",
+      "difficulty": "easy",
+      "monsterId": "slime",
+      "monsterName": "刷牙健康史萊姆",
+      "monsterHp": 110,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 2,
+        "publisher": "何嘉仁（選書表）／學校自編彈性課程計畫",
+        "bookSeries": "Fun World 3（選書表）／唱跳趣閱家二下（課程計畫）",
+        "unitNo": 1
+      },
+      "questions": [
+        {
+          "id": "115-s2-g2-english-u1-q1",
+          "prompt": "早上起床和晚上睡覺前，都要用貝氏刷牙法仔細「刷牙」保護牙齒。下面哪一個英文片語是「刷牙」？",
+          "options": [
+            "Brush teeth",
+            "Sit down",
+            "Come in",
+            "Wait for me"
+          ],
+          "answerIndex": 0,
+          "explanation": "「Brush teeth」就是「刷牙」的意思；brush 是刷，teeth 是牙齒。",
+          "hint": "點喇叭聽聽看，有「teeth（牙齒）」的那一個就是「刷牙」喔！",
+          "speechText": "Brush teeth",
+          "speechLang": "en-US",
+          "tags": [
+            "The Crocodile and the Dentist",
+            "Health Habits"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u1-q2",
+          "prompt": "在繪本《The Crocodile and the Dentist》（鱷魚與牙醫）裡，幫鱷魚檢查並治療牙齒的「牙醫」，英文單字是哪一個？",
+          "options": [
+            "Earth",
+            "Dentist",
+            "Tree",
+            "Summer"
+          ],
+          "answerIndex": 1,
+          "explanation": "「Dentist」的意思是「牙醫」；記得天天刷牙，牙醫就會稱讚你的牙齒好健康！",
+          "hint": "看一看繪本英文書名裡的最後一個字就是「牙醫」喔！",
+          "speechText": "Dentist",
+          "speechLang": "en-US",
+          "tags": [
+            "The Crocodile and the Dentist",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u1-q3",
+          "prompt": "過馬路看紅綠燈、走在斑馬線上，還有每天按時刷牙，這些都是「好習慣」。英文「好習慣」怎麼說？",
+          "options": [
+            "Bad habit!",
+            "Hurry up!",
+            "Good habit",
+            "Please sit down."
+          ],
+          "answerIndex": 2,
+          "explanation": "「Good」是好，「habit」是習慣，所以「Good habit」是「好習慣」，而「Bad habit!」則是「壞習慣！」。",
+          "hint": "前面有「好的（Good）」加上「習慣（habit）」就是答案囉！",
+          "speechText": "Good habit",
+          "speechLang": "en-US",
+          "tags": [
+            "Good habit",
+            "Safety"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u1-q4",
+          "prompt": "走到老師辦公室或教室門口時，先輕輕敲門並有禮貌地問「請問我可以進來嗎？」，英文要說哪一句？",
+          "options": [
+            "Please sit down.",
+            "Have a nice day.",
+            "Here you are.",
+            "May I come in?"
+          ],
+          "answerIndex": 3,
+          "explanation": "「May I come in?」的意思是「請問我可以進來嗎？」，是非常有禮貌的進門用語。",
+          "hint": "句子最後面有「come in（進來）」和問號的那一句喔！",
+          "speechText": "May I come in?",
+          "speechLang": "en-US",
+          "tags": [
+            "Classroom English",
+            "Polite Expressions"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u1-q5",
+          "prompt": "當老師微笑著對進教室的同學說「Please sit down.」時，是在請同學做什麼動作？",
+          "options": [
+            "請坐下",
+            "請排隊",
+            "請擦黑板",
+            "請大聲念出來"
+          ],
+          "answerIndex": 0,
+          "explanation": "「Please」是「請」，「sit down」是「坐下」，合起來「Please sit down.」就是「請坐下。」。",
+          "hint": "點喇叭聽聽看「sit down」在課堂上常常聽到是做什麼動作！",
+          "speechText": "Please sit down.",
+          "speechLang": "en-US",
+          "tags": [
+            "Classroom English",
+            "Daily English"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u1-q6",
+          "prompt": "二年級下學期開始認識英文字母「Nn 到 Zz」！下面哪一組「大寫和小寫」字母的配對完全正確？",
+          "options": [
+            "N - u",
+            "P - q",
+            "R - r",
+            "Q - p"
+          ],
+          "answerIndex": 2,
+          "explanation": "大寫 R 配對小寫 r 是完全正確的！小寫 p 和 q 左右方向不同、n 和 u 則是上下開口方向相反。",
+          "hint": "小心別被左右相反的小寫 p、q 騙了，找出真正同一個字母的大小寫！",
+          "speechText": "R, r",
+          "speechLang": "en-US",
+          "tags": [
+            "Nn-Zz",
+            "Letters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g2-english-u2",
+      "subjectId": "english",
+      "title": "第5–9週：守護地球小尖兵：安全探索與行動",
+      "description": "透過繪本《The Earth Book》與《Somebody Swallowed Stanley》，學習環保 3R（Reduce, Reuse, Recycle）與節約資源單字，並熟練打招呼與借東西對話。",
+      "difficulty": "easy",
+      "monsterId": "treeGuardian",
+      "monsterName": "地球守護樹靈",
+      "monsterHp": 120,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 2,
+        "publisher": "何嘉仁（選書表）／學校自編彈性課程計畫",
+        "bookSeries": "Fun World 3（選書表）／唱跳趣閱家二下（課程計畫）",
+        "unitNo": 2
+      },
+      "questions": [
+        {
+          "id": "115-s2-g2-english-u2-q1",
+          "prompt": "在繪本《The Earth Book》裡，我們學會要一起保護人類居住的美麗「地球」。代表「地球」的英文單字是哪一個？",
+          "options": [
+            "Tree",
+            "Earth",
+            "Water",
+            "Dentist"
+          ],
+          "answerIndex": 1,
+          "explanation": "「Earth」的意思是「地球」；「Tree」是樹、「Water」是水。",
+          "hint": "看一看繪本名字《The Earth Book》裡面出現哪一個單字呢？",
+          "speechText": "Earth",
+          "speechLang": "en-US",
+          "tags": [
+            "The Earth Book",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u2-q2",
+          "prompt": "愛護地球的 3R 好方法「減量（Reduce）、重複使用（Reuse）、回收（Recycle）」中，把寶特瓶沖洗壓扁後放進資源回收桶，是哪一個字？",
+          "options": [
+            "Tree",
+            "Water",
+            "Brave",
+            "Recycle"
+          ],
+          "answerIndex": 3,
+          "explanation": "「Recycle」的意思就是「回收再利用」，幫資源找到新生命。",
+          "hint": "點喇叭聽聽看「資源回收（Recycle）」怎麼念！",
+          "speechText": "Recycle",
+          "speechLang": "en-US",
+          "tags": [
+            "The Earth Book",
+            "Eco 3R"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u2-q3",
+          "prompt": "讀完繪本《Somebody Swallowed Stanley》（有人把塑膠袋史丹利吞下去了）後，為了減少海洋塑膠袋危機，我們怎麼做最棒？",
+          "options": [
+            "出門自備環保袋重複使用（Reuse），少拿塑膠袋",
+            "把用完的塑膠袋直接丟進排水溝或海邊",
+            "買一塊橡皮擦也一定要多拿三個塑膠袋",
+            "把塑膠袋當成玩具在海面上亂丟"
+          ],
+          "answerIndex": 0,
+          "explanation": "重複使用環保袋（Reuse）並減少拿取一次性塑膠袋（Reduce），才能保護大海裡的動物不誤食塑膠袋。",
+          "hint": "想要救救海洋裡的海龜和魚兒，要用環保 3R 裡的哪一個行動呢？",
+          "speechText": "Reduce, Reuse, Recycle",
+          "speechLang": "en-US",
+          "tags": [
+            "Somebody Swallowed Stanley",
+            "Ocean Protection"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u2-q4",
+          "prompt": "開學認識新朋友或遇到新同學時，微笑著對他說「很高興認識你。」，要用哪一句英文打招呼？",
+          "options": [
+            "Hurry up!",
+            "Bad habit!",
+            "Nice to meet you.",
+            "Brush teeth."
+          ],
+          "answerIndex": 2,
+          "explanation": "「Nice to meet you.」的意思是「很高興認識你。」，meet 是見面、認識的意思。",
+          "hint": "句子裡有「Nice（很好的）」和「meet you（見到你）」喔！",
+          "speechText": "Nice to meet you.",
+          "speechLang": "en-US",
+          "tags": [
+            "Greetings",
+            "Daily English"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u2-q5",
+          "prompt": "畫畫課忘記帶蠟筆，想有禮貌地向同學借用並聽到對方爽快答應「當然可以。」，下面哪一組英文對話最正確？",
+          "options": [
+            "Wait for me! — Bad habit!",
+            "May I borrow a crayon? — Sure.",
+            "May I come in? — Recycle.",
+            "Please sit down. — Thank you."
+          ],
+          "answerIndex": 1,
+          "explanation": "「May I borrow ...?」用來禮貌地問「我可以借……嗎？」，回答「Sure.」表示「當然可以。」。",
+          "hint": "借東西要用「borrow（借）」，答應對方借用則是說「Sure.（當然）」！",
+          "speechText": "May I borrow a crayon? Sure.",
+          "speechLang": "en-US",
+          "tags": [
+            "Dialogue",
+            "Polite Expressions"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u2-q6",
+          "prompt": "在節約資源活動中，老師請大家洗完手關緊水龍頭省「水（Water）」，並愛護校園裡大大的「樹（Tree）」。請問代表「樹」的是哪一個字？",
+          "options": [
+            "Water",
+            "Earth",
+            "Reduce",
+            "Tree"
+          ],
+          "answerIndex": 3,
+          "explanation": "「Tree」就是「樹、樹木」；Water 是水、Earth 是地球、Reduce 是減量。",
+          "hint": "點喇叭聽聽看「樹（Tree）」的發音喔！",
+          "speechText": "Tree",
+          "speechLang": "en-US",
+          "tags": [
+            "Vocabulary",
+            "Environment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g2-english-u3",
+      "subjectId": "english",
+      "title": "第10–14週：生活中的守護者：超級英雄特訓班",
+      "description": "共讀繪本《A Hero Like You》與《This Is My Family》，認識 Brave、Kind、Helpful 等特質，並學會道謝與遞東西的禮貌對話。",
+      "difficulty": "medium",
+      "monsterId": "parrotKing",
+      "monsterName": "禮貌超人鸚鵡",
+      "monsterHp": 130,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 2,
+        "publisher": "何嘉仁（選書表）／學校自編彈性課程計畫",
+        "bookSeries": "Fun World 3（選書表）／唱跳趣閱家二下（課程計畫）",
+        "unitNo": 3
+      },
+      "questions": [
+        {
+          "id": "115-s2-g2-english-u3-q1",
+          "prompt": "在超級英雄特訓班裡，遇到困難時不害怕、有勇氣的「勇敢的」，可以用哪一個英文單字來稱讚他？",
+          "options": [
+            "Water",
+            "Earth",
+            "Brave",
+            "Summer"
+          ],
+          "answerIndex": 2,
+          "explanation": "「Brave」的意思是「勇敢的」，生活中的守護者都很有勇氣保護大家喔！",
+          "hint": "點喇叭聽聽看，開頭是 B 的那個字就是「勇敢的」！",
+          "speechText": "Brave",
+          "speechLang": "en-US",
+          "tags": [
+            "A Hero Like You",
+            "Adjectives"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u3-q2",
+          "prompt": "看到同學東西掉了主動幫忙撿起來，真是又「善良（Kind）」又「樂於助人的」。請問「樂於助人的」英文單字是哪一個？",
+          "options": [
+            "Helpful",
+            "Dentist",
+            "Recycle",
+            "Bad habit"
+          ],
+          "answerIndex": 0,
+          "explanation": "「Help」是幫忙，加上字尾變成「Helpful」，意思就是「樂於助人的、有幫助的」。",
+          "hint": "裡面藏著「幫忙（help）」這四個字母的單字就是答案喔！",
+          "speechText": "Helpful",
+          "speechLang": "en-US",
+          "tags": [
+            "A Hero Like You",
+            "Adjectives"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u3-q3",
+          "prompt": "同學幫你撿起掉在地上的鉛筆盒，笑著對你說「Here you are.（給你。）」，你想真誠地回答「非常謝謝你。」，要說哪一句？",
+          "options": [
+            "May I come in?",
+            "Hurry up!",
+            "Nice to meet you.",
+            "Thank you very much."
+          ],
+          "answerIndex": 3,
+          "explanation": "「Thank you very much.」的意思是「非常謝謝你。」，比「Thank you.」更表達滿滿的感謝。",
+          "hint": "看到裡面有「Thank you」和「very much（非常）」的那一句就是囉！",
+          "speechText": "Thank you very much.",
+          "speechLang": "en-US",
+          "tags": [
+            "Polite Expressions",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u3-q4",
+          "prompt": "把故事書或水壺遞到別人手上時，你禮貌地說了一句「Here you are.」，這句英文是什麼意思？",
+          "options": [
+            "快一點！",
+            "給你（在這裡）。",
+            "很高興認識你。",
+            "請問我可以借一下嗎？"
+          ],
+          "answerIndex": 1,
+          "explanation": "「Here you are.」常用在把東西拿給或遞給對方的時候，意思是「給你。」。",
+          "hint": "想一想，遞東西給朋友時最常說的一句禮貌英文是什麼？",
+          "speechText": "Here you are.",
+          "speechLang": "en-US",
+          "tags": [
+            "Polite Expressions",
+            "Daily English"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u3-q5",
+          "prompt": "讀完繪本《A Hero Like You》與《This Is My Family》，學習性別平等與身邊的守護者。誰可以成為生活中的超級英雄？",
+          "options": [
+            "只有穿上超人披風的男生才算英雄",
+            "小孩子年紀太小，不可能幫上任何忙",
+            "不論男生或女生，只要善良（Kind）、勇敢又幫助別人都是英雄",
+            "只有長得最高大、聲音最大聲的人才是英雄"
+          ],
+          "answerIndex": 2,
+          "explanation": "英雄不分性別也不分年紀！只要像課本學的 Brave、Kind、Helpful 一樣用心關懷家人與身邊的人，人人都能當英雄。",
+          "hint": "想想性別平等的精神，男生女生都可以成為溫柔又勇敢的守護者喔！",
+          "speechText": "A Hero Like You",
+          "speechLang": "en-US",
+          "tags": [
+            "A Hero Like You",
+            "Gender Equality"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u3-q6",
+          "prompt": "複習英文字母「Nn 到 Zz」的順序！從 N 往後唸時，緊接在「S, T, U」後面的兩個大寫字母是哪一組？",
+          "options": [
+            "V, W",
+            "W, X",
+            "X, Y",
+            "P, Q"
+          ],
+          "answerIndex": 0,
+          "explanation": "字母順序是 N, O, P, Q, R, S, T, U, V, W, X, Y, Z，所以接在 S, T, U 後面的是 V, W。",
+          "hint": "在心裡輕輕唱字母歌：S, T, U ... 接下來要唱哪兩個字母呢？",
+          "speechText": "S, T, U, V, W",
+          "speechLang": "en-US",
+          "tags": [
+            "Nn-Zz",
+            "Alphabet Order"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g2-english-u4",
+      "subjectId": "english",
+      "title": "第15–21週：夏日安全冒險王：戶外探索趣",
+      "description": "搭配繪本《Summer》與夏日單字校園尋寶，學習 Hurry up!、Wait for me!、Have a nice day.，認識交通與水域安全並完成 Nn 到 Zz 字母學習。",
+      "difficulty": "medium",
+      "monsterId": "bookSpirit",
+      "monsterName": "夏日尋寶書精靈",
+      "monsterHp": 135,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 2,
+        "publisher": "何嘉仁（選書表）／學校自編彈性課程計畫",
+        "bookSeries": "Fun World 3（選書表）／唱跳趣閱家二下（課程計畫）",
+        "unitNo": 4
+      },
+      "questions": [
+        {
+          "id": "115-s2-g2-english-u4-q1",
+          "prompt": "夏日尋寶遊戲就要開始了，看到同伴還在慢慢走，想提醒他「快一點！」，要用哪一句英文？",
+          "options": [
+            "Thank you very much.",
+            "Please sit down.",
+            "Have a nice day.",
+            "Hurry up!"
+          ],
+          "answerIndex": 3,
+          "explanation": "「Hurry up!」的意思是「快一點！趕快！」，用來提醒同伴動作加快一點。",
+          "hint": "點喇叭聽聽看，兩個字且帶有驚嘆號、提醒人快點的那一句！",
+          "speechText": "Hurry up!",
+          "speechLang": "en-US",
+          "tags": [
+            "Summer",
+            "Daily English"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u4-q2",
+          "prompt": "戶外探索準備出發了，你的鞋帶剛好鬆開需要綁一下，想大聲叫前面的同學「等等我！」，英文要怎麼說？",
+          "options": [
+            "May I come in?",
+            "Wait for me!",
+            "Here you are.",
+            "Good habit!"
+          ],
+          "answerIndex": 1,
+          "explanation": "「Wait」是等待，「for me」是等我，合起來「Wait for me!」就是「等等我！」。",
+          "hint": "找找看裡面有「等（Wait）」和「我（me）」的那一句喔！",
+          "speechText": "Wait for me!",
+          "speechLang": "en-US",
+          "tags": [
+            "Daily English",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u4-q3",
+          "prompt": "早上搭公車或走進校門後，你想微笑著祝福朋友「祝你有美好的一天！」，要說下面哪一句英文？",
+          "options": [
+            "Have a nice day.",
+            "Bad habit!",
+            "Brush teeth.",
+            "May I borrow a pen?"
+          ],
+          "answerIndex": 0,
+          "explanation": "「Have a nice day.」是非常親切的祝福語，意思是「祝你有美好的一天。」。",
+          "hint": "句子裡有「nice（美好的）」和「day（一天）」喔！",
+          "speechText": "Have a nice day.",
+          "speechLang": "en-US",
+          "tags": [
+            "Polite Expressions",
+            "Daily English"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u4-q4",
+          "prompt": "在「夏日安全冒險王」學過大眾運輸搭乘安全與夏季水域安全，下面哪一個戶外行為最安全？",
+          "options": [
+            "在行駛中的公車或捷運車廂裡站起來奔跑",
+            "沒有大人陪伴就自己跳進陌生的深水池玩水",
+            "搭車坐好抓緊扶手，去泳池玩水要有大人陪並先做暖身",
+            "在濕滑的游泳池岸邊和同學互相推擠追逐"
+          ],
+          "answerIndex": 2,
+          "explanation": "搭大眾運輸要坐穩不奔跑；夏季玩水要選擇安全水域、先暖身並且一定要有大人陪伴，才能玩得安全又快樂。",
+          "hint": "選一個既遵守搭車規矩，又懂得保護戲水安全的做法！",
+          "speechText": "Summer",
+          "speechLang": "en-US",
+          "tags": [
+            "Summer",
+            "Water Safety",
+            "Traffic Safety"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u4-q5",
+          "prompt": "學完「Nn 到 Zz」所有字母了！排在 26 個英文字母最後一個的大寫與小寫字母是哪一組？",
+          "options": [
+            "X - x",
+            "Y - y",
+            "W - w",
+            "Z - z"
+          ],
+          "answerIndex": 3,
+          "explanation": "「Nn 到 Zz」從 N 開始、到 Z 結束，Z 和 z 就是整個字母表的最後一個字母。",
+          "hint": "唱完字母歌最後一句「X, Y, Z」，最後一個字母是誰呢？",
+          "speechText": "Z, z",
+          "speechLang": "en-US",
+          "tags": [
+            "Nn-Zz",
+            "Letters"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u4-q6",
+          "prompt": "校園尋寶大考驗！下面四組「Nn 到 Zz」的英文字母卡中，哪一組的大小寫配對完全正確？",
+          "options": [
+            "N - m",
+            "T - t",
+            "Q - p",
+            "U - n"
+          ],
+          "answerIndex": 1,
+          "explanation": "「T - t」的大寫與小寫配對完全正確！另外三組都把長得相像的字母弄混了。",
+          "hint": "注意小寫 t 像一個小小的十字架下面彎起來，不會跟別的字母搞混喔！",
+          "speechText": "T, t",
+          "speechLang": "en-US",
+          "tags": [
+            "Nn-Zz",
+            "Review"
+          ]
+        }
+      ]
+    }
+  ]
+}
