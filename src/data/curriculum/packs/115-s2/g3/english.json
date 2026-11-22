@@ -1,0 +1,983 @@
+{
+  "packId": "115-s2-g3-english",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 3,
+  "subjectId": "english",
+  "stages": [
+    {
+      "id": "115-s2-g3-english-u0",
+      "subjectId": "english",
+      "title": "Get Ready",
+      "description": "三下開學暖身單元！複習課室英語指令、母音與子音字母辨識、親切問候語，並用閱讀素養好習慣準備好迎接新課本《Wonder World 2》。",
+      "difficulty": "easy",
+      "monsterId": "slime",
+      "monsterName": "暖身字母史萊姆",
+      "monsterHp": 100,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 3,
+        "publisher": "康軒",
+        "bookSeries": "Wonder World 2（第二冊）",
+        "unitNo": 0
+      },
+      "questions": [
+        {
+          "id": "115-s2-g3-english-u0-q1",
+          "prompt": "新學期第一節英語課開始了，老師笑著請全班同學「打開課本」，教室裡最常聽見哪一句課室英語？",
+          "options": [
+            "Open your book, please.",
+            "Close your eyes, please.",
+            "Turn off the light, please.",
+            "Go to bed, please."
+          ],
+          "answerIndex": 0,
+          "explanation": "\"Open your book, please.\" 意思是「請打開你的課本。」；open 是打開，book 是課本。",
+          "hint": "想一想「打開（open）」和「課本（book）」這兩個字合起來是哪一句！",
+          "speechText": "Open your book, please.",
+          "speechLang": "en-US",
+          "tags": [
+            "Get Ready",
+            "Classroom English"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u0-q2",
+          "prompt": "暖身練習字母拼讀基礎！在 26 個英文字母中，下列哪一組五個字母全部都是「母音字母（vowels）」？",
+          "options": [
+            "b, c, d, f, g",
+            "m, n, p, q, r",
+            "a, e, i, o, u",
+            "s, t, v, w, x"
+          ],
+          "answerIndex": 2,
+          "explanation": "英語的五個基本母音字母就是 a, e, i, o, u，學習字母拼讀（Phonics）時每個單字幾乎都離不開它們喔！",
+          "hint": "念念看五個最基本的母音字母：a, e, i, o, ...",
+          "speechText": "a, e, i, o, u",
+          "speechLang": "en-US",
+          "tags": [
+            "Get Ready",
+            "Vowels",
+            "Phonics"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u0-q3",
+          "prompt": "放完寒假回到學校，在走廊遇見好朋友時想開心地說「很高興再見到你！」，哪一句英文問候最道地？",
+          "options": [
+            "What is your favorite color?",
+            "Nice to see you again!",
+            "See you next year!",
+            "Wait a minute, please!"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Nice to see you again!\" 意思是「很高興再見到你！」；again 代表「再次」。",
+          "hint": "裡面有一個字是「再一次（again）」，代表跟認識的朋友重逢喔！",
+          "speechText": "Nice to see you again!",
+          "speechLang": "en-US",
+          "tags": [
+            "Get Ready",
+            "Greetings"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u0-q4",
+          "prompt": "老師準備播放《Wonder World 2》的聽力故事前，提醒大家要「仔細聽！」，老師會說下面哪一句？",
+          "options": [
+            "Stand up!",
+            "Draw a picture!",
+            "Jump up and down!",
+            "Listen carefully!"
+          ],
+          "answerIndex": 3,
+          "explanation": "\"Listen carefully!\" 是「仔細聽！」；listen 是聽，carefully 是仔細地。",
+          "hint": "準備用耳朵聽 CD 音檔前，老師一定會說 listen（聽）喔！",
+          "speechText": "Listen carefully!",
+          "speechLang": "en-US",
+          "tags": [
+            "Get Ready",
+            "Classroom English"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u0-q5",
+          "prompt": "搭配第 1 週「閱讀素養教育」：拿到新課本時，先翻到最前面看「單元名稱與頁碼總覽」，這個好習慣能幫我們做什麼？",
+          "options": [
+            "先了解這學期有哪些好玩的主題，並快速找到想複習的頁數",
+            "不用學任何單字就能直接考一百分",
+            "把課本拿去當作尺來量桌子長度",
+            "數清楚課本裡總共用了幾種顏色的墨水"
+          ],
+          "answerIndex": 0,
+          "explanation": "先瀏覽目錄與單元標題（Preview），能幫助大腦預先建立學習地圖，也是實用的閱讀素養技巧。",
+          "hint": "想一想，打開書之前先看「目錄」有什麼方便的地方呢？",
+          "speechText": "Let's get ready to read!",
+          "speechLang": "en-US",
+          "tags": [
+            "Get Ready",
+            "Reading Literacy"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u0-q6",
+          "prompt": "字母拼讀觀察力挑戰：比較單字「cat（貓）」和「cap（鴨舌帽）」，這兩個字在哪一個位置的字母不一樣，才變成完全不同的意思？",
+          "options": [
+            "第一個字母，一個是 c 一個是 k",
+            "中間的母音字母，一個是 a 一個是 e",
+            "最後一個子音字母，一個是 t 一個是 p",
+            "兩個字的三個字母完全一模一樣"
+          ],
+          "answerIndex": 2,
+          "explanation": "cat（c-a-t）和 cap（c-a-p）前面都是 ca，只有字尾最後一個字母（t 和 p）不同，所以字母拼讀時字尾音也要聽清楚！",
+          "hint": "把 c-a-t 和 c-a-p 排在一起比一比，前面兩個字母都一樣，哪一個位置換掉了？",
+          "speechText": "cat, cap",
+          "speechLang": "en-US",
+          "tags": [
+            "Get Ready",
+            "Phonics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g3-english-u1",
+      "subjectId": "english",
+      "title": "Unit 1 Funny Animals",
+      "description": "認識有趣的動物英文單字、練習用 a / an 與複數 s 表達動物數量，挑戰短母音 -a- 字母拼讀，並培養愛護生命的戶外與品德素養！",
+      "difficulty": "easy",
+      "monsterId": "parrotKing",
+      "monsterName": "動物樂園鸚鵡王",
+      "monsterHp": 110,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 3,
+        "publisher": "康軒",
+        "bookSeries": "Wonder World 2（第二冊）",
+        "unitNo": 1
+      },
+      "questions": [
+        {
+          "id": "115-s2-g3-english-u1-q1",
+          "prompt": "Unit 1 的標題是「Funny Animals」。在故事中看見一群做出逗趣動作的小動物時，標題裡的「funny」在中文裡是什麼意思？",
+          "options": [
+            "生氣的、兇惡的",
+            "有趣的、滑稽好玩的",
+            "生病的、難過的",
+            "非常安靜的"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"funny\" 的意思是「有趣的、好笑的」，所以 \"Funny Animals\" 可以指「有趣的動物們」。",
+          "hint": "點喇叭聽聽看 \"funny animals\"，想一想看到動物表演逗趣動作時你會怎麼笑！",
+          "speechText": "funny animals",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Funny Animals",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u1-q2",
+          "prompt": "動物主題詞彙挑戰：在動物園看到長鼻子的大象與喜歡吃香蕉的猴子，這兩種動物的英文單字依序是哪一組？",
+          "options": [
+            "bear, tiger",
+            "bird, duck",
+            "lion, zebra",
+            "elephant, monkey"
+          ],
+          "answerIndex": 3,
+          "explanation": "elephant 是大象，monkey 是猴子；bear 是熊、tiger 是老虎、bird 是鳥、duck 是鴨子、lion 是獅子、zebra 是斑馬。",
+          "hint": "找找看字數比較長、開頭是 e 的「大象」，還有 m 開頭的「猴子」！",
+          "speechText": "an elephant, a monkey",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Animals",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u1-q3",
+          "prompt": "文法小精靈：想用英文說「一隻大象」，正確寫法是「an elephant」而不是「a elephant」，這是因為什麼規則？",
+          "options": [
+            "因為 elephant 字首的「e」發母音，單數名詞前面要搭配 an",
+            "因為大象的體型比較大，所以只能用 an 不能用 a",
+            "因為所有動物單字前面不管哪個字母都一定要用 an",
+            "因為 elephant 其實代表兩隻以上的大象"
+          ],
+          "answerIndex": 0,
+          "explanation": "當單數可數名詞字首發「母音（a, e, i, o, u 的母音發音）」時，前面不定冠詞要使用 an（如 an elephant, an ant），發起來會更順口。",
+          "hint": "檢查 elephant 的第一個字母 e，想想我們在 Get Ready 學過的母音規則喔！",
+          "speechText": "an elephant",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Grammar",
+            "Articles"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u1-q4",
+          "prompt": "單複數觀察：湖面上游來「兩隻鴨子」，用英文表達數量時，下面哪一個寫法完全正確？",
+          "options": [
+            "two duck",
+            "a ducks",
+            "two ducks",
+            "an ducks"
+          ],
+          "answerIndex": 2,
+          "explanation": "超過一隻（複數）的可數動物名詞，字尾要加上 -s，而且前面不能放代表「一個」的 a 或 an，所以「兩隻鴨子」是 \"two ducks\"。",
+          "hint": "已經有「two（2）」囉！記得名詞字尾要加 s，而且不能再寫 a/an。",
+          "speechText": "two ducks",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Plurals",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u1-q5",
+          "prompt": "字母拼讀（Phonics）挑戰：「cat（貓）」裡面的母音 a 發短母音 /æ/。下面哪一個動物單字也含有和「cat」完全相同的短母音 a？",
+          "options": [
+            "dog",
+            "rat",
+            "pig",
+            "duck"
+          ],
+          "answerIndex": 1,
+          "explanation": "cat 和 rat 都屬於 -at 音組，母音 a 都發短母音 /æ/；dog 是短母音 o、pig 是短母音 i、duck 是短母音 u。",
+          "hint": "看看哪一個動物單字和 cat 押韻、結尾都是 -at 呢？",
+          "speechText": "cat, rat",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Phonics",
+            "Short Vowel a"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u1-q6",
+          "prompt": "搭配戶外教育與品德教育：假日去生態公園或動物園參觀時，看見告示牌寫著「Be kind to animals.」，這句英文在提醒我們什麼好品德？",
+          "options": [
+            "可以把自己吃的洋芋片全部丟給猴子吃",
+            "大聲拍打玻璃嚇唬正在睡覺的動物",
+            "追著小鳥和松鼠跑，想辦法抓住牠們",
+            "友善溫柔地對待每一隻動物，愛護尊重生命"
+          ],
+          "answerIndex": 3,
+          "explanation": "\"kind\" 是親切友善的，因此 \"Be kind to animals.\" 意指「要善待、友善對待動物」，呼應戶外教育與愛護生命之品德。",
+          "hint": "\"kind\" 在英文裡代表「善良、親切」的意思喔！",
+          "speechText": "Be kind to animals.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Character Education",
+            "Outdoor Education"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g3-english-u2",
+      "subjectId": "english",
+      "title": "Unit 2 Teamwork",
+      "description": "學習運用 \"Can you...?\" 與 \"I can / can't...\" 詢問並表達個人「能力」與動作單字，體驗 Teamwork 團隊合作與互相鼓勵的品德！",
+      "difficulty": "easy",
+      "monsterId": "treeGuardian",
+      "monsterName": "合作森林樹靈",
+      "monsterHp": 115,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 3,
+        "publisher": "康軒",
+        "bookSeries": "Wonder World 2（第二冊）",
+        "unitNo": 2
+      },
+      "questions": [
+        {
+          "id": "115-s2-g3-english-u2-q1",
+          "prompt": "Unit 2 的標題是「Teamwork」。在運動會大隊接力或班級分組挑戰時，老師稱讚全組展現了很棒的「Teamwork」，這個單字是什麼意思？",
+          "options": [
+            "個人獨自比賽",
+            "安靜自習時間",
+            "團隊合作、同心協力",
+            "回家功課清單"
+          ],
+          "answerIndex": 2,
+          "explanation": "\"team\" 是隊伍、團隊，\"work\" 是工作、努力，合起來 \"Teamwork\" 就是「團隊合作」。",
+          "hint": "先拆開看：「team（團隊）」加上「work（一起做）」，代表大家怎麼完成任務？",
+          "speechText": "Teamwork!",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Teamwork",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u2-q2",
+          "prompt": "夏天的泳池派對前，你想用英文問組員「你會游泳嗎？」，哪一句問句的用法最正確？",
+          "options": [
+            "Can you swim?",
+            "What color can you?",
+            "Are you swim?",
+            "How old can you swim?"
+          ],
+          "answerIndex": 0,
+          "explanation": "詢問別人「會不會做某個動作（能力）」要用「Can you + 原形動詞?」，游泳是 swim，所以問 \"Can you swim?\"。",
+          "hint": "表示「會、能夠」的字是 Can，放在句首問「你會……嗎？」！",
+          "speechText": "Can you swim?",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Abilities",
+            "Sentence Pattern"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u2-q3",
+          "prompt": "朋友看著你的滑板問：「Can you ride a bike?（你會騎腳踏車嗎？）」，如果「你還不會騎」，應該怎麼禮貌正確地回答？",
+          "options": [
+            "Yes, I can.",
+            "No, I am not.",
+            "Yes, I do.",
+            "No, I can't."
+          ],
+          "answerIndex": 3,
+          "explanation": "用 \"Can you...?\" 問能力時，否定回答要用「No, I can't.」（can't = cannot，不會、不能）。",
+          "hint": "問題是用「Can」開頭問你，否定的時候要用 \"No, I ...\" 再加上 can 的否定縮寫喔！",
+          "speechText": "No, I can't.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Abilities",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u2-q4",
+          "prompt": "動作單字大配對：下面哪一組「英文動作單字與中文意思」的配對「全部正確」？",
+          "options": [
+            "sing 睡覺 / dance 吃飯",
+            "jump 跳躍 / run 跑步",
+            "swim 飛翔 / fly 游泳",
+            "read 走路 / write 唱歌"
+          ],
+          "answerIndex": 1,
+          "explanation": "jump 是跳躍、run 是跑步，兩者完全正確！sing 是唱歌、dance 是跳舞、swim 是游泳、fly 是飛、read 是閱讀、write 是書寫。",
+          "hint": "回想體育課常做的兩個動作：往上「跳」和向前「跑」！",
+          "speechText": "jump and run",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Actions",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u2-q5",
+          "prompt": "英文文法小高手：想寫一句話介紹小鳥的能力「一隻小鳥會飛」，下面哪一個句子的文法完全正確？",
+          "options": [
+            "A bird can flying.",
+            "A bird cans fly.",
+            "A bird can fly.",
+            "A bird is can fly."
+          ],
+          "answerIndex": 2,
+          "explanation": "助動詞 can 後面一定要接「原形動詞」，本身也不會加 -s 或前面加 is，所以正確寫法是 \"A bird can fly.\"。",
+          "hint": "記住黃金規則：can 後面的動作字要保持乾淨的原形，不用變任何尾巴喔！",
+          "speechText": "A bird can fly.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Grammar",
+            "Can"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u2-q6",
+          "prompt": "本單元融入了「人權教育與品德教育」。在團隊裡每個人擅長的能力都不同，說哪一句話最能發揮 Teamwork 互相幫助的精神？",
+          "options": [
+            "Let's help each other!",
+            "Go away! I don't need you.",
+            "You are bad at everything!",
+            "Do it by yourself!"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"Let's help each other!\" 意思是「讓我們彼此幫忙吧！」，展現團隊裡尊重每個人價值與互助合作的精神。",
+          "hint": "找一句鼓勵大家「互相幫忙（help each other）」的溫暖句子！",
+          "speechText": "Let's help each other!",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Teamwork",
+            "Character Education"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g3-english-u3",
+      "subjectId": "english",
+      "title": "Review 1",
+      "description": "期中綜合複習！統整動物單字、動物與能力對話、短母音 -i- 拼讀規則與正確拼字檢查，並運用英文句子理解合作故事。",
+      "difficulty": "medium",
+      "monsterId": "bookSpirit",
+      "monsterName": "森林雙語書靈",
+      "monsterHp": 120,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 3,
+        "publisher": "康軒",
+        "bookSeries": "Wonder World 2（第二冊）",
+        "unitNo": 3
+      },
+      "questions": [
+        {
+          "id": "115-s2-g3-english-u3-q1",
+          "prompt": "跨單元知識整合！將 Unit 1 的「動物」與 Unit 2 的「能力」合起來判斷，下面哪一句英文描述最符合自然界的事實？",
+          "options": [
+            "A fish can fly in the sky.",
+            "An elephant can fly.",
+            "A turtle can run faster than a lion.",
+            "A fish can swim."
+          ],
+          "answerIndex": 3,
+          "explanation": "\"A fish can swim.\"（魚會游泳）完全符合自然事實；魚和大象都不會在天空飛，烏龜跑步也不會比獅子快。",
+          "hint": "檢查動物名稱（fish, elephant, turtle）和後面的動作（swim, fly, run）哪一個合理！",
+          "speechText": "A fish can swim.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Animals",
+            "Abilities"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u3-q2",
+          "prompt": "單字分類複習：整理單字卡時，請幫忙找出哪一組的三個英文單字「全部都是動物（Animals）」？",
+          "options": [
+            "swim, jump, run",
+            "tiger, zebra, lion",
+            "book, pencil, ruler",
+            "red, blue, green"
+          ],
+          "answerIndex": 1,
+          "explanation": "tiger（老虎）、zebra（斑馬）、lion（獅子）全都是動物單字；其他三組分別是動作、文具和顏色。",
+          "hint": "挑出三個你在動物園裡都看得到的單字！",
+          "speechText": "tiger, zebra, lion",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Word Classification",
+            "Animals"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u3-q3",
+          "prompt": "問答理解：小狗開心地在草地上蹦蹦跳跳。當老師指著這隻小狗問全班：「Can a dog jump?」，哪一個回答既符合事實、文法又正確？",
+          "options": [
+            "Yes, it can.",
+            "No, it can.",
+            "Yes, it is.",
+            "No, I can."
+          ],
+          "answerIndex": 0,
+          "explanation": "問單數動物 \"Can a dog jump?\" 時，用代名詞 it 替代 a dog，肯定回答為 \"Yes, it can.\"。",
+          "hint": "一隻小狗用 it 代替，而且用 Can 問就要用 can 回答喔！",
+          "speechText": "Can a dog jump? Yes, it can.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Dialogue",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u3-q4",
+          "prompt": "Phonics 拼讀複習：「pig（豬）」裡面的字母 i 發短母音 /ɪ/。下面哪一組單字兩個都含有和「pig」一樣的短母音 i？",
+          "options": [
+            "hat, mat",
+            "pen, ten",
+            "big, dig",
+            "box, fox"
+          ],
+          "answerIndex": 2,
+          "explanation": "big 和 dig 都是 -ig 音組，母音 i 發短母音 /ɪ/，與 pig 完全相同！",
+          "hint": "找找看兩個單字中間都有「i」，而且跟 pig 押韻的組合！",
+          "speechText": "pig, big, dig",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Phonics",
+            "Short Vowel i"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u3-q5",
+          "prompt": "小小拼字糾察隊：請仔細檢查下面四個單字的拼法，哪一個英文單字拼寫「完全正確」？",
+          "options": [
+            "rabit",
+            "monky",
+            "swiming",
+            "rabbit"
+          ],
+          "answerIndex": 3,
+          "explanation": "「兔子」的正確拼法是 r-a-b-b-i-t（中間有兩個 b）；monkey 少寫了 e、swimming 中間應有兩個 m。",
+          "hint": "兔子長長的大耳朵就像中間有兩個長得一模一樣的字母 b 喔！",
+          "speechText": "rabbit",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Spelling"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u3-q6",
+          "prompt": "Review 1 閱讀素養應用：你在英語繪本結尾讀到這句話：「They can work together.」這句話是在讚美故事角色做到了什麼事？",
+          "options": [
+            "他們決定各自回家睡大覺",
+            "他們能夠齊心協力、一起合作完成事情",
+            "他們只喜歡待在圖書館看書",
+            "他們正在比賽誰跑得比較快"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"work together\" 的意思是「一起合作、共同努力」，呼應前面單元學會的能力與團隊精神。",
+          "hint": "\"together\" 就是「一起、共同」的意思喔！",
+          "speechText": "They can work together.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Reading Literacy",
+            "Teamwork"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g3-english-u4",
+      "subjectId": "english",
+      "title": "Unit 3 The Monster Parade & Mother's Day",
+      "description": "走進熱鬧的怪獸大遊行描述可愛特徵，並結合「Culture & Festivals：Mother's Day」學會母親節的英語祝福、日期與感恩表達！",
+      "difficulty": "medium",
+      "monsterId": "flameDragon",
+      "monsterName": "遊行節慶火龍",
+      "monsterHp": 125,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 3,
+        "publisher": "康軒",
+        "bookSeries": "Wonder World 2（第二冊）",
+        "unitNo": 4
+      },
+      "questions": [
+        {
+          "id": "115-s2-g3-english-u4-q1",
+          "prompt": "Unit 3 的標題是「The Monster Parade」。故事裡的主角「monster」指的是什麼？",
+          "options": [
+            "怪獸、小怪物",
+            "超級市場",
+            "學校圖書館",
+            "彩色蠟筆"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"monster\" 是怪獸、怪物，\"The Monster Parade\" 就是「怪獸大遊行」。",
+          "hint": "聽聽看語音唸的 \"The Monster Parade\"，想像一群可愛的生物走在遊行隊伍裡！",
+          "speechText": "The Monster Parade",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "The Monster Parade",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u4-q2",
+          "prompt": "在熱鬧的遊行隊伍中，看到一隻圓滾滾、呆萌呆萌的小怪獸，想用英文誇獎「牠好可愛！」，應該說哪一句？",
+          "options": [
+            "It is seven!",
+            "It is blue and red!",
+            "It's cute!",
+            "I'm hungry!"
+          ],
+          "answerIndex": 2,
+          "explanation": "\"cute\" 的意思是「可愛的」，看到可愛的事物或小動物常說 \"It's cute!\"（或 \"So cute!\"）。",
+          "hint": "記得這個字只有四個字母 c-u-t-e，就是用來誇獎很可愛！",
+          "speechText": "It's cute!",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Adjectives",
+            "Daily English"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u4-q3",
+          "prompt": "第 13 週節慶教學「Mother's Day」融入國際教育！在母親節這天，送給媽媽親手畫的卡片時，最經典的英文祝福語是哪一句？",
+          "options": [
+            "Merry Christmas!",
+            "Happy Mother's Day!",
+            "Happy Halloween!",
+            "Good night, Mom!"
+          ],
+          "answerIndex": 1,
+          "explanation": "「母親節快樂！」的英文祝福語就是 \"Happy Mother's Day!\"（注意 Mother's 的所有格撇號與字首大寫）。",
+          "hint": "找出包含節慶單字「Mother's Day」的祝福語！",
+          "speechText": "Happy Mother's Day!",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Mother's Day",
+            "Culture & Festivals"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u4-q4",
+          "prompt": "節慶文化知識：在臺灣和許多國家，「Mother's Day（母親節）」固定在「五月的第二個星期日」。請問英文裡的「五月」和「星期日」分別是哪兩個單字？",
+          "options": [
+            "June, Monday",
+            "April, Friday",
+            "March, Saturday",
+            "May, Sunday"
+          ],
+          "answerIndex": 3,
+          "explanation": "May 是五月（M 要大寫），Sunday 是星期日（字首 S 也要大寫）。",
+          "hint": "「五月」是很短的三個字母單字 May，「星期日」則是太陽日 Sunday 喔！",
+          "speechText": "May, Sunday",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Mother's Day",
+            "Months & Days"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u4-q5",
+          "prompt": "本單元融入家庭教育與品德教育。如果你想在母親節小卡上用英文寫「媽媽，我愛您！謝謝您！」，下面哪一句寫法既溫暖又完全正確？",
+          "options": [
+            "I love you, Mom! Thank you!",
+            "I am angry, Mom! Goodbye!",
+            "Give me toys, Mom! Hurry up!",
+            "You are ten, Mom! Sorry!"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"I love you, Mom! Thank you!\" 意思是「媽媽，我愛您！謝謝您！」，真誠表達愛與感謝。",
+          "hint": "找出一句裡頭同時有愛（love）和感謝（Thank you）的話！",
+          "speechText": "I love you, Mom! Thank you!",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Family Education",
+            "Mother's Day"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u4-q6",
+          "prompt": "外觀描述文法挑戰：想用英文介紹一隻有特色的小怪獸「牠有兩隻大眼睛」，下面哪一句的單複數與動詞用法「完全正確」？",
+          "options": [
+            "It have two big eye.",
+            "It has two eye big.",
+            "It has two big eyes.",
+            "It is two big eyes."
+          ],
+          "answerIndex": 2,
+          "explanation": "主詞是單數第三人稱 It，「擁有」要用 has（不能用 have），而且形容詞 big 要放在名詞 eyes 前面，兩隻眼睛是複數 eyes。",
+          "hint": "記得兩件事：It 後面要用 has，而且兩隻眼睛「eyes」要加 s 喔！",
+          "speechText": "It has two big eyes.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Grammar",
+            "Body Parts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g3-english-u5",
+      "subjectId": "english",
+      "title": "Unit 4 Jello's Family",
+      "description": "認識「家人稱謂」與「常見職業」的英語表達，學會用 \"Who is he / she?\" 介紹家人與職業，並實踐性別平等的職業尊重精神！",
+      "difficulty": "medium",
+      "monsterId": "mathCube",
+      "monsterName": "家庭職業魔方",
+      "monsterHp": 130,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 3,
+        "publisher": "康軒",
+        "bookSeries": "Wonder World 2（第二冊）",
+        "unitNo": 5
+      },
+      "questions": [
+        {
+          "id": "115-s2-g3-english-u5-q1",
+          "prompt": "Unit 4 的標題是「Jello's Family」。標題裡的「family」代表這個單元的主要生活主題是什麼？",
+          "options": [
+            "玩具與文具",
+            "家庭與家人",
+            "蔬菜與水果",
+            "天氣與四季"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"family\" 是「家庭、家人」，\"Jello's family\" 意思就是「Jello 的家人」。",
+          "hint": "搭配三下學習目標中的「家人與職業」，猜猜看 family 指誰呢？",
+          "speechText": "Jello's family",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Family",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u5-q2",
+          "prompt": "看家庭相簿時，你想指著照片裡的一位男姓親戚問朋友「他是誰？」，應該選用哪一句正確的英文問句？",
+          "options": [
+            "Where is he?",
+            "What time is it?",
+            "How is she?",
+            "Who is he?"
+          ],
+          "answerIndex": 3,
+          "explanation": "疑問詞 \"Who\" 用來詢問「誰」，男生要用代名詞 he，因此「他是誰？」是 \"Who is he?\"。",
+          "hint": "問「是誰」要用 W 開頭的 Who，而且照片裡是男生喔！",
+          "speechText": "Who is he?",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Family",
+            "Sentence Pattern"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u5-q3",
+          "prompt": "家人稱謂字彙整理：下面哪一組英文單字「全部都是女性家庭成員」？",
+          "options": [
+            "mother, sister, grandmother",
+            "father, brother, grandfather",
+            "father, mother, brother",
+            "brother, uncle, grandfather"
+          ],
+          "answerIndex": 0,
+          "explanation": "mother（媽媽）、sister（姊妹）、grandmother（祖母／外婆）都是女性親屬稱謂。",
+          "hint": "檢查三個單字裡面是不是沒有 father 或 brother 等男性稱謂！",
+          "speechText": "mother, sister, grandmother",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Family",
+            "Word Classification"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u5-q4",
+          "prompt": "職業單字大挑戰：同學驕傲地指著爸爸穿著白袍工作的照片說：「He is a doctor.」請問這句話在介紹爸爸的職業是什麼？",
+          "options": [
+            "公車司機",
+            "學校老師",
+            "醫生",
+            "廚師"
+          ],
+          "answerIndex": 2,
+          "explanation": "\"doctor\" 的意思是「醫生、醫師」，所以 \"He is a doctor.\" 表示「他是一位醫生。」",
+          "hint": "穿白袍在醫院幫大家看病照顧健康的職業，英文叫做 doctor！",
+          "speechText": "He is a doctor.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Jobs",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u5-q5",
+          "prompt": "本單元融入了「性別平等教育」。下列哪一個關於職業與性別的英文句子，最能展現「任何性別都可以自由追尋各行各業夢想」的平等觀念？",
+          "options": [
+            "Only boys can be doctors.",
+            "A woman can be a police officer, and a man can be a nurse.",
+            "Girls cannot be cooks or drivers.",
+            "Boys should never learn to cook."
+          ],
+          "answerIndex": 1,
+          "explanation": "職業不分性別！女性也能成為警察（police officer）或醫師，男性也能擔任護理師（nurse）或廚師，每個職業都值得尊重。",
+          "hint": "找出沒有設限、肯定男女都能自由從事警察或護理師等工作的正向句子！",
+          "speechText": "A woman can be a police officer, and a man can be a nurse.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Gender Equality",
+            "Jobs"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u5-q6",
+          "prompt": "簡答句型練習：同學指著你阿姨的照片問「Is she a teacher?（她是一位老師嗎？）」，如果阿姨真的是老師，最自然簡短的肯定回答是哪一句？",
+          "options": [
+            "Yes, he is.",
+            "No, she is.",
+            "Yes, I am.",
+            "Yes, she is."
+          ],
+          "answerIndex": 3,
+          "explanation": "問句主詞是女性的 she，肯定簡答時主詞也要維持 she，回答 \"Yes, she is.\"（不可在簡答句尾縮寫成 Yes, she's.）。",
+          "hint": "問的是「she」，肯定回答「是的，她是」也要用同一個代名詞喔！",
+          "speechText": "Yes, she is.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Grammar",
+            "Jobs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g3-english-u6",
+      "subjectId": "english",
+      "title": "Review 2",
+      "description": "三下期末綜合總複習！整合職業單字、疑問詞與代名詞辨析、短母音 -o-/-u- 拼讀、節慶家庭祝福語與英語短文閱讀理解。",
+      "difficulty": "hard",
+      "monsterId": "parrotKing",
+      "monsterName": "跨界總複習鸚鵡王",
+      "monsterHp": 140,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 3,
+        "publisher": "康軒",
+        "bookSeries": "Wonder World 2（第二冊）",
+        "unitNo": 6
+      },
+      "questions": [
+        {
+          "id": "115-s2-g3-english-u6-q1",
+          "prompt": "三下字彙分類總複習：請找出下面四組單字中，哪一組「全部四個字都屬於職業（Jobs）」？",
+          "options": [
+            "lion, rabbit, elephant, duck",
+            "father, mother, sister, brother",
+            "teacher, doctor, nurse, cook",
+            "swim, jump, fly, run"
+          ],
+          "answerIndex": 2,
+          "explanation": "teacher（老師）、doctor（醫生）、nurse（護理師）、cook（廚師）全都是職業名稱；其餘三組分別是動物、家人與動作。",
+          "hint": "找出一整排都是工作頭銜的選項！",
+          "speechText": "teacher, doctor, nurse, cook",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Jobs",
+            "Word Classification"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u6-q2",
+          "prompt": "句型疑問詞總配對：想要用英文分別問「她是誰？」與「你會唱歌嗎？」，兩句的開頭空格「____ is she? / ____ you sing?」依序該填入哪兩個字？",
+          "options": [
+            "Who / Can",
+            "What / Is",
+            "How / Are",
+            "Where / Who"
+          ],
+          "answerIndex": 0,
+          "explanation": "問人「是誰」用 Who（Who is she?）；問是否擁有「能力」用 Can（Can you sing?）。",
+          "hint": "問人物身分用 W 開頭的 Who，問會不會做某個動作則用 C 開頭的 Can！",
+          "speechText": "Who is she? Can you sing?",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Grammar",
+            "Question Words"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u6-q3",
+          "prompt": "字母拼讀（Phonics）總檢測：「dog（狗）」和「box（盒子）」裡都有相同的短母音 o（/ɑ/）。請問下面哪一個單字的母音發音和它們「不同」？",
+          "options": [
+            "hot",
+            "pot",
+            "fox",
+            "bus"
+          ],
+          "answerIndex": 3,
+          "explanation": "hot, pot, fox 都和 dog, box 一樣含有短母音 o；只有 bus 是短母音 u（/ʌ/），母音字母與發音皆不同。",
+          "hint": "看看四個字中間的母音字母，哪一個不是 o 呢？",
+          "speechText": "dog, box, hot",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Phonics",
+            "Short Vowels"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u6-q4",
+          "prompt": "代名詞小測驗：介紹家庭成員和寵物時，如果想用代名詞分別代替「my brother（哥哥）」、「my sister（姊姊）」和「an elephant（一隻大象）」，依序該用哪三個字？",
+          "options": [
+            "she, he, it",
+            "he, she, it",
+            "it, he, she",
+            "he, it, she"
+          ],
+          "answerIndex": 1,
+          "explanation": "男性的 brother 用 he、女性的 sister 用 she、動物或物品 an elephant 用 it。",
+          "hint": "男生用 he，女生用 she，動物用 it，照題目的順序排排看！",
+          "speechText": "he, she, it",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Grammar",
+            "Pronouns"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u6-q5",
+          "prompt": "節慶與家庭整合情境：在母親節卡片的最後，想用英文同時寫出「母親節快樂！」以及「我愛我的家人！」，下面哪一組寫法最適合？",
+          "options": [
+            "Good morning! I am a student.",
+            "Can you jump? Look at the rabbit.",
+            "Happy Mother's Day! I love my family.",
+            "Merry Christmas! It is a big ball."
+          ],
+          "answerIndex": 2,
+          "explanation": "\"Happy Mother's Day! I love my family.\" 完整結合了母親節祝福語和愛家人的溫馨表達。",
+          "hint": "找出一句同時出現 Mother's Day 和 family（家人）的選項！",
+          "speechText": "Happy Mother's Day! I love my family.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Mother's Day",
+            "Family"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u6-q6",
+          "prompt": "英語閱讀素養測驗：讀讀看小男孩 Leo 的自我介紹短文：「Hi, I am Leo. My father is a cook. He can make yummy cakes.」從這段話中可以確定哪一項訊息？",
+          "options": [
+            "Leo 的爸爸是一位很會做美味蛋糕的廚師",
+            "Leo 的媽媽是一位很厲害的公車司機",
+            "Leo 的家裡養了十隻可愛的小鴨子",
+            "Leo 每天早上都要自己做蛋糕吃"
+          ],
+          "answerIndex": 0,
+          "explanation": "短文提到 \"My father is a cook.\"（我爸爸是一位廚師）以及 \"He can make yummy cakes.\"（他會做美味的蛋糕），符合第一個選項。",
+          "hint": "把兩個關鍵線索字找出來：「father（爸爸）」、「cook（廚師）」和「cakes（蛋糕）」！",
+          "speechText": "My father is a cook. He can make yummy cakes.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Reading Literacy",
+            "Comprehension"
+          ]
+        }
+      ]
+    }
+  ]
+}
