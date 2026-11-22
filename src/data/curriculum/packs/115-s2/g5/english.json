@@ -1,0 +1,947 @@
+{
+  "packId": "115-s2-g5-english",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 5,
+  "subjectId": "english",
+  "stages": [
+    {
+      "id": "115-s2-g5-english-u0",
+      "subjectId": "english",
+      "title": "開學預備週 Starter",
+      "description": "暖身複習五下核心數字 100–1000 的聽辨與說法，並透過課堂閱讀情境開啟五年級下學期英語旅程！",
+      "difficulty": "easy",
+      "monsterId": "slime",
+      "monsterName": "百位數字史萊姆",
+      "monsterHp": 100,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 5,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第六冊",
+        "unitNo": 0
+      },
+      "questions": [
+        {
+          "id": "115-s2-g5-english-u0-q1",
+          "prompt": "在「Starter」數字暖身練習中，數字「250」的正確英文說法是哪一個？",
+          "options": [
+            "two thousand fifty",
+            "two hundred and fifty",
+            "twenty-five hundred",
+            "two hundred fifteen"
+          ],
+          "answerIndex": 1,
+          "explanation": "「200」是 two hundred，「50」是 fifty（15 才是 fifteen），合起來是 two hundred and fifty。",
+          "hint": "先說「兩百」two hundred，再接「五十」fifty 喔！",
+          "speechText": "two hundred and fifty",
+          "speechLang": "en-US",
+          "tags": [
+            "Starter",
+            "Numbers 100-1000"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u0-q2",
+          "prompt": "聽音辨數字：請選出代表整百數字「400」的英文拼字：",
+          "options": [
+            "fourteen",
+            "forty",
+            "four thousand",
+            "four hundred"
+          ],
+          "answerIndex": 3,
+          "explanation": "four hundred 是 400；fourteen 是 14，forty 是 40，four thousand 是 4,000。",
+          "hint": "點喇叭聽聽看「百（hundred）」這個字尾！",
+          "speechText": "four hundred",
+          "speechLang": "en-US",
+          "tags": [
+            "Starter",
+            "Numbers 100-1000"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u0-q3",
+          "prompt": "學校圖書館新進了「780」本英文繪本，用英文唸出「780」時應該選哪一個？",
+          "options": [
+            "seven hundred and eighty",
+            "seven hundred and eighteen",
+            "seventeen hundred eighty",
+            "seventy-eight"
+          ],
+          "answerIndex": 0,
+          "explanation": "780 是 700（seven hundred）加上 80（eighty）；eighteen 是 18，seventy-eight 是 78。",
+          "hint": "注意十位數「80」是 -ty 結尾的 eighty，不是 -teen 結尾喔！",
+          "speechText": "seven hundred and eighty",
+          "speechLang": "en-US",
+          "tags": [
+            "Starter",
+            "Numbers 100-1000"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u0-q4",
+          "prompt": "五下目標要能聽說數字 100 到 1,000。當計數器從 999 再加 1 變成「1,000」時，英文怎麼說？",
+          "options": [
+            "one hundred",
+            "nine hundred and ninety",
+            "one thousand",
+            "ten thousand"
+          ],
+          "answerIndex": 2,
+          "explanation": "1,000 是 one thousand（或 a thousand）；one hundred 是 100，ten thousand 是 10,000。",
+          "hint": "「千」的英文單位是 thousand！",
+          "speechText": "one thousand",
+          "speechLang": "en-US",
+          "tags": [
+            "Starter",
+            "Numbers 100-1000"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u0-q5",
+          "prompt": "閱讀素養與數字應用：\"There are three hundred boys and two hundred girls at Sunshine Elementary School.\" 請問這所學校一共有幾位學生？",
+          "options": [
+            "four hundred",
+            "five hundred",
+            "six hundred",
+            "one hundred"
+          ],
+          "answerIndex": 1,
+          "explanation": "男生有 three hundred（300）人，女生有 two hundred（200）人，300 + 200 = 500（five hundred）人。",
+          "hint": "把 three hundred 和 two hundred 加起來看看是多少！",
+          "speechText": "There are three hundred boys and two hundred girls at Sunshine Elementary School.",
+          "speechLang": "en-US",
+          "tags": [
+            "Starter",
+            "Reading"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u0-q6",
+          "prompt": "開學暖身週展開英語閱讀時，老師說：\"Let's open the storybook and read together!\" 下列哪一句回應最符合課堂禮貌與學習態度？",
+          "options": [
+            "Goodbye, see you next year.",
+            "No, I can't count to ten.",
+            "I don't want any books.",
+            "Sounds great! Let's read!"
+          ],
+          "answerIndex": 3,
+          "explanation": "老師邀請大家一起打開故事書共讀時，用 \"Sounds great! Let's read!\"（太棒了！我們一起讀吧！）回應最自然積極。",
+          "hint": "找出一句開心地回應「太棒了！我們一起讀！」的句子！",
+          "speechText": "Let's open the storybook and read together! Sounds great! Let's read!",
+          "speechLang": "en-US",
+          "tags": [
+            "Starter",
+            "Reading Literacy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g5-english-u1",
+      "subjectId": "english",
+      "title": "Unit 1 What's Wrong?",
+      "description": "學習身體部位（Body Parts）單字與詢問不舒服狀況的 \"What's wrong?\" 句型，並練習 sh 與 th 子音拼讀與安全觀念！",
+      "difficulty": "easy",
+      "monsterId": "treeGuardian",
+      "monsterName": "身體部位樹靈",
+      "monsterHp": 110,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 5,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第六冊",
+        "unitNo": 1
+      },
+      "questions": [
+        {
+          "id": "115-s2-g5-english-u1-q1",
+          "prompt": "看見同學表情痛苦、一直扶著膝蓋時，想關心地問他「你怎麼了？／哪裡不舒服？」，該說哪一句英文？",
+          "options": [
+            "What's wrong?",
+            "What day is today?",
+            "How old are you?",
+            "Where are you going?"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"What's wrong?\" 用來詢問他人「怎麼了？／哪裡不舒服？」；其他選項分別在問星期幾、年齡和要去哪裡。",
+          "hint": "記得本單元的課名嗎？wrong 表示「出狀況、不對勁」喔！",
+          "speechText": "What's wrong?",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u1-q2",
+          "prompt": "同學問你：\"What's wrong?\" 如果你跑步時不小心跌倒、「腳（腿）痛」，下列哪一個英文回答最恰當？",
+          "options": [
+            "I like running.",
+            "Look at my new shoes.",
+            "My leg hurts.",
+            "Yes, I am fine."
+          ],
+          "answerIndex": 2,
+          "explanation": "表達某個身體部位疼痛可用「My + 身體部位 + hurts.」，因此「我的腿痛」是 My leg hurts.。",
+          "hint": "「痛」的動詞用 hurts，找出提到 leg（腿）的句子！",
+          "speechText": "My leg hurts.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Body Parts"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u1-q3",
+          "prompt": "Body Parts 身體部位字彙：吃點心前一定要先把哪一個身體部位洗乾淨？\"Please wash your ___ before eating.\"",
+          "options": [
+            "ears",
+            "hands",
+            "eyes",
+            "knees"
+          ],
+          "answerIndex": 1,
+          "explanation": "hands 是「雙手」，吃東西前要洗手（wash your hands）；ears 是耳朵，eyes 是眼睛，knees 是膝蓋。",
+          "hint": "吃東西前要「洗……」哪一個身體部位呢？",
+          "speechText": "Please wash your hands before eating.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Body Parts"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u1-q4",
+          "prompt": "配合安全教育（Safety Education）：騎腳踏車時戴好安全帽，主要是為了保護哪一個身體部位？\"Wear a helmet to protect your ___ when riding a bike.\"",
+          "options": [
+            "foot",
+            "arm",
+            "nose",
+            "head"
+          ],
+          "answerIndex": 3,
+          "explanation": "安全帽（helmet）戴在頭上，用來保護頭部（head）；foot 是腳，arm 是手臂，nose 是鼻子。",
+          "hint": "點喇叭聽聽最後一個單字，安全帽是保護「頭」的喔！",
+          "speechText": "Wear a helmet to protect your head when riding a bike.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Safety Education"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u1-q5",
+          "prompt": "Phonics 字母拼讀挑戰：請選出含有「sh」發音（和 ship 開頭同音）的單字：",
+          "options": [
+            "chair",
+            "chin",
+            "shoe",
+            "cheese"
+          ],
+          "answerIndex": 2,
+          "explanation": "shoe 以 sh 開頭，發音與 ship 的 sh 相同；chair、chin、cheese 都以 ch 開頭。",
+          "hint": "找一個字首字母是 sh 的單字！",
+          "speechText": "ship, shoe",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Phonics"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u1-q6",
+          "prompt": "Phonics 字母拼讀挑戰：下列哪一組單字開頭全都含有無聲的「th」音組（如 three）？",
+          "options": [
+            "thumb, thin, thank",
+            "this, that, they",
+            "whale, white, wheel",
+            "phone, photo, dolphin"
+          ],
+          "answerIndex": 0,
+          "explanation": "thumb（大拇指）、thin、thank 的 th 皆發無聲（氣音）的 /θ/；this、that、they 的 th 則是有聲（震動聲帶）的 /ð/。",
+          "hint": "把手輕放在喉嚨上念念看，哪一組的 th 念起來不會震動喉嚨（只有氣音）？",
+          "speechText": "thumb, thin, thank",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Phonics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g5-english-u2",
+      "subjectId": "english",
+      "title": "Unit 2 Do You Have a Headache?",
+      "description": "認識常見病症（Illness）英文單字與「Do you have...? / Does he have...?」問答句型，並練習 -nk 與 ph 拼讀規則！",
+      "difficulty": "easy",
+      "monsterId": "parrotKing",
+      "monsterName": "健康守護鸚鵡王",
+      "monsterHp": 115,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 5,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第六冊",
+        "unitNo": 2
+      },
+      "questions": [
+        {
+          "id": "115-s2-g5-english-u2-q1",
+          "prompt": "在學校健康中心裡，護理師問你：\"Do you have a headache?\" 如果你「真的頭痛」，正確的英語簡答是哪一個？",
+          "options": [
+            "Yes, I am.",
+            "Yes, I do.",
+            "No, I have.",
+            "Yes, I does."
+          ],
+          "answerIndex": 1,
+          "explanation": "以助動詞 Do 開頭的一般動詞問句，肯定簡答要前後一致使用 do：Yes, I do.。",
+          "hint": "用 Do 開頭問，回答也要用 do 來呼應，不能用 am 或 does 喔！",
+          "speechText": "Do you have a headache? Yes, I do.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u2-q2",
+          "prompt": "病症單字辨識：\"Leo eats too much candy, and now his tooth hurts very much.\" 請問 Leo 遇到了哪一種不舒服？",
+          "options": [
+            "a fever",
+            "a runny nose",
+            "a sore throat",
+            "a toothache"
+          ],
+          "answerIndex": 3,
+          "explanation": "tooth 是牙齒、ache 表示疼痛，組合起來 toothache 就是「牙痛」；fever 是發燒，runny nose 是流鼻水，sore throat 是喉嚨痛。",
+          "hint": "句子裡說他的 tooth（牙齒）很痛，找含有 tooth 的病症單字！",
+          "speechText": "He has a toothache.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Illness"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u2-q3",
+          "prompt": "文法挑戰（第三人稱單數）：想問「Amy 有沒有發燒？」，下列哪一個問句文法完全正確？",
+          "options": [
+            "Does Amy have a fever?",
+            "Do Amy has a fever?",
+            "Is Amy have a fever?",
+            "Does Amy has a fever?"
+          ],
+          "answerIndex": 0,
+          "explanation": "主詞 Amy 為單數第三人稱，現在簡單式疑問句要用助動詞 Does 開頭，且後方的動詞必須還原為原形 have。",
+          "hint": "Amy 是一個人，疑問助動詞要用 Does，而且助動詞出現後面的動詞要變回原形 have 喔！",
+          "speechText": "Does Amy have a fever?",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u2-q4",
+          "prompt": "搭配家庭教育（Family Education）：媽媽發現妹妹「肚子痛（stomachache）」，下列哪一句照顧建議最合理？",
+          "options": [
+            "Go eat five ice cream cones right now.",
+            "Run around the park ten times.",
+            "Lie down, get some rest, and drink warm water.",
+            "Shout loudly in the living room."
+          ],
+          "answerIndex": 2,
+          "explanation": "肚子痛時最適合躺下休息並喝點溫開水（Lie down, get some rest, and drink warm water.）；吃五支冰淇淋或劇烈跑跳只會更不舒服。",
+          "hint": "生病不舒服時需要 rest（休息）和 warm water（溫水）！",
+          "speechText": "Lie down, get some rest, and drink warm water.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Family Education"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u2-q5",
+          "prompt": "Phonics 字母拼讀挑戰：請選出字尾含有「-nk」音組（與 pink 押韻）的單字：",
+          "options": [
+            "sing",
+            "drink",
+            "king",
+            "long"
+          ],
+          "answerIndex": 1,
+          "explanation": "drink 和 pink 同樣以 -nk 結尾；sing、king、long 則屬於 -ng 音組。",
+          "hint": "生病要多「喝（drink）」水，注意這個字字尾的兩個字母是不是 nk！",
+          "speechText": "pink, drink",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Phonics"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u2-q6",
+          "prompt": "Phonics 字母拼讀挑戰：下面哪一個單字中的「ph」組合發的是 /f/ 的音？",
+          "options": [
+            "shop",
+            "watch",
+            "think",
+            "photo"
+          ],
+          "answerIndex": 3,
+          "explanation": "photo（照片）中的 ph 合起來發 /f/ 的音；shop 是 sh，watch 是 ch，think 是 th。",
+          "hint": "找含有字母 p 和 h 連在一起的單字！",
+          "speechText": "photo",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Phonics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g5-english-u3",
+      "subjectId": "english",
+      "title": "Review 1",
+      "description": "期中綜合複習！整合 Unit 1 身體部位與 Unit 2 病症對話，挑戰情境閱讀理解與 ch/sh/th 字母拼讀！",
+      "difficulty": "medium",
+      "monsterId": "bookSpirit",
+      "monsterName": "期中診療書靈",
+      "monsterHp": 120,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 5,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第六冊",
+        "unitNo": 3
+      },
+      "questions": [
+        {
+          "id": "115-s2-g5-english-u3-q1",
+          "prompt": "閱讀保健室對話：\"Nurse: What's wrong, Tim? / Tim: My throat hurts, and I have a fever.\" 根據對話，Tim 目前有哪些症狀？",
+          "options": [
+            "His hand hurts and he has a toothache.",
+            "His leg hurts and he is hungry.",
+            "He has a sore throat and a fever.",
+            "He has a stomachache after lunch."
+          ],
+          "answerIndex": 2,
+          "explanation": "Tim 說「My throat hurts（喉嚨痛 = sore throat）and I have a fever（發燒）」，因此正確選項為 C。",
+          "hint": "把 \"My throat hurts\" 和 \"a fever\" 對照成病症名稱看看！",
+          "speechText": "My throat hurts, and I have a fever.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Reading"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u3-q2",
+          "prompt": "請找出「身體部位」與「常見病症」最合理的對應配對：",
+          "options": [
+            "head — headache",
+            "foot — toothache",
+            "ear — stomachache",
+            "eye — sore throat"
+          ],
+          "answerIndex": 0,
+          "explanation": "head（頭）對應 headache（頭痛）；toothache 是牙痛、stomachache 是胃痛／肚子痛、sore throat 是喉嚨痛。",
+          "hint": "看看哪一組的病症字根和前面的身體部位長得一樣！",
+          "speechText": "head, headache",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u3-q3",
+          "prompt": "情境對話填空：A: \"What's wrong with Emma?\" / B: \"She feels very cold and can't stop coughing. ___\" 下列哪一句接續最自然？",
+          "options": [
+            "She has a new backpack.",
+            "She has a cold.",
+            "She is watching a movie.",
+            "She is at the library."
+          ],
+          "answerIndex": 1,
+          "explanation": "覺得冷（feels cold）又咳嗽不停（coughing）是感冒的典型症狀，因此接 \"She has a cold.\" 最符合語境。",
+          "hint": "Emma 覺得冷又一直咳嗽，這是哪一種常見病症呢？",
+          "speechText": "What's wrong with Emma? She has a cold.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u3-q4",
+          "prompt": "文法總體檢：下列哪一組英文健康對話的「問句與答句文法」完全正確？",
+          "options": [
+            "What's wrong? / Yes, I do.",
+            "Do you have a cold? / My arm hurts.",
+            "Does he has a fever? / No, he doesn't.",
+            "Do you have a stomachache? / No, I don't."
+          ],
+          "answerIndex": 3,
+          "explanation": "Do you have...? 可用 \"No, I don't.\" 簡答；What's wrong? 不能用 Yes/No 回答；Does he 後面應接原形 have，不可用 has。",
+          "hint": "檢查問句的開頭（What vs Do/Does）和答句有沒有配合，還有 Does 後面的動詞有沒有還原！",
+          "speechText": "Do you have a stomachache? No, I don't.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u3-q5",
+          "prompt": "Phonics 期中複習：請選出開頭皆為「ch」音組（與 chair 同音）的一組單字：",
+          "options": [
+            "sheep, shirt, fish",
+            "whale, wheel, white",
+            "cheese, chin, chicken",
+            "sing, ring, wing"
+          ],
+          "answerIndex": 2,
+          "explanation": "cheese、chin、chicken 全以 ch 開頭；sheep/shirt/fish 是 sh；whale/wheel/white 是 wh；sing/ring/wing 是 -ng。",
+          "hint": "找出三個單字字首都是 ch 的那一組！",
+          "speechText": "cheese, chin, chicken",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Phonics"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u3-q6",
+          "prompt": "配合安全與閱讀素養：校內保健海報寫著 \"Wash your hands often and cover your mouth when you cough.\" 這張海報主要是想提醒大家什麼？",
+          "options": [
+            "保持手部清潔與咳嗽遮口的好習慣，預防生病傳染",
+            "每天在教室裡大聲咳嗽比賽",
+            "上體育課的時候不可以喝水",
+            "生病不舒服時不可以告訴老師和家人"
+          ],
+          "answerIndex": 0,
+          "explanation": "wash your hands often（常洗手）與 cover your mouth when you cough（咳嗽時遮住嘴巴）是預防疾病傳播的重要衛生習慣。",
+          "hint": "讀一讀 wash your hands（洗手）和 cover your mouth（遮住嘴巴）的意思！",
+          "speechText": "Wash your hands often and cover your mouth when you cough.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Reading Literacy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g5-english-u4",
+      "subjectId": "english",
+      "title": "Unit 3 What Would You Like for Dinner?",
+      "description": "學習三餐與食物（Meals & Food）英文單字，練習禮貌點餐問句 \"What would you like for dinner?\" 與珍惜食物的環保觀念！",
+      "difficulty": "medium",
+      "monsterId": "mathCube",
+      "monsterName": "美味餐桌魔方",
+      "monsterHp": 125,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 5,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第六冊",
+        "unitNo": 4
+      },
+      "questions": [
+        {
+          "id": "115-s2-g5-english-u4-q1",
+          "prompt": "在餐廳點餐時，服務生問：\"What would you like for dinner?\" 如果你想點「麵」，下列哪一個英文回答最禮貌正確？",
+          "options": [
+            "I like eating breakfast.",
+            "Yes, I would.",
+            "It's seven o'clock.",
+            "I'd like some noodles, please."
+          ],
+          "answerIndex": 3,
+          "explanation": "回答 \"What would you like...?\" 要用 \"I'd like + 餐點, please.\"（I'd = I would）；不能用 Yes/No 回答。",
+          "hint": "用 \"What would you like?\" 問，回答時用 \"I'd like...\"（我想要……）！",
+          "speechText": "What would you like for dinner? I'd like some noodles, please.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u4-q2",
+          "prompt": "三餐單字辨識：一天當中「中午」在學校享用營養午餐的那一餐，英文單字是什麼？",
+          "options": [
+            "breakfast",
+            "lunch",
+            "dinner",
+            "snack"
+          ],
+          "answerIndex": 1,
+          "explanation": "breakfast 是早餐、lunch 是午餐、dinner 是晚餐、snack 是點心。",
+          "hint": "早上吃 breakfast，晚上吃 dinner，那「中午」吃的一餐呢？",
+          "speechText": "lunch",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Meals"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u4-q3",
+          "prompt": "朋友熱情問你：\"Would you like some apple juice?\" 如果你已經喝飽了、想禮貌婉拒，該怎麼說？",
+          "options": [
+            "No, thank you.",
+            "Yes, I am.",
+            "No, I don't have a fever.",
+            "I'd like ten bowls of rice."
+          ],
+          "answerIndex": 0,
+          "explanation": "別人詢問「你想要一些……嗎？（Would you like...?）」時，禮貌拒絕要說 \"No, thank you.\"（不用了，謝謝你）。",
+          "hint": "婉拒別人的好意時，別忘了在 No 後面加上 thank you 展現禮貌喔！",
+          "speechText": "Would you like some apple juice? No, thank you.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u4-q4",
+          "prompt": "美食字彙辨識：在餐廳菜單中，哪一個英文單字指的是由新鮮生菜蔬果拌成的「沙拉」？",
+          "options": [
+            "soup",
+            "bread",
+            "salad",
+            "steak"
+          ],
+          "answerIndex": 2,
+          "explanation": "salad 是沙拉；soup 是湯，bread 是麵包，steak 是牛排。",
+          "hint": "點喇叭聽聽看發音，哪一個字的讀音聽起來就像「沙拉」？",
+          "speechText": "salad",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Food"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u4-q5",
+          "prompt": "配合環境教育（Environmental Education）：在學校吃營養午餐或外食時，下列哪一句英文最符合環保惜食的好習慣？",
+          "options": [
+            "Throw away half of your lunch every day.",
+            "Bring your own chopsticks and finish all your food.",
+            "Use ten plastic bags for one sandwich.",
+            "Leave your food on the playground."
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Bring your own chopsticks and finish all your food.\"（自備環保筷並把食物吃完）能減少免洗餐具與廚餘浪費。",
+          "hint": "找含有 chopsticks（筷子）和 finish all your food（吃完食物）的句子！",
+          "speechText": "Bring your own chopsticks and finish all your food.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Environmental Education"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u4-q6",
+          "prompt": "Phonics 字母拼讀挑戰：在「rice, chicken, sandwich, fish」四個食物單字中，哪一個單字結尾含有「sh」音組？",
+          "options": [
+            "rice",
+            "chicken",
+            "sandwich",
+            "fish"
+          ],
+          "answerIndex": 3,
+          "explanation": "fish 字尾是 sh；chicken 開頭與 sandwich 字尾都是 ch 音組。",
+          "hint": "注意分清楚字尾是 sh 還是 ch 喔！",
+          "speechText": "fish",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Phonics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g5-english-u5",
+      "subjectId": "english",
+      "title": "Unit 4 Whose Backpack Is That? & The Dragon Boat Festival",
+      "description": "學會用 \"Whose...?\" 詢問物品屬於誰（Items）與所有格回答，並透過英文認識端午節（The Dragon Boat Festival）的傳統習俗！",
+      "difficulty": "medium",
+      "monsterId": "treeGuardian",
+      "monsterName": "尋物龍舟樹靈",
+      "monsterHp": 130,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 5,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第六冊",
+        "unitNo": 5
+      },
+      "questions": [
+        {
+          "id": "115-s2-g5-english-u5-q1",
+          "prompt": "在走廊撿到一個藍色的後背包，想問同學「那是誰的背包？」，空格應該填入哪一個疑問詞？\"___ backpack is that?\"",
+          "options": [
+            "Who",
+            "Where",
+            "Whose",
+            "What"
+          ],
+          "answerIndex": 2,
+          "explanation": "詢問「誰的（物品）」要用疑問詞 Whose；Who 問「誰」，Where 問「哪裡」，What 問「什麼」。",
+          "hint": "問物品是「誰的」要用 Wh- 開頭且字尾有 se 的那個字！",
+          "speechText": "Whose backpack is that?",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u5-q2",
+          "prompt": "當老師問：\"Whose water bottle is this?\" 如果是「凱文的（Kevin's）」，下列哪一個回答文法最正確？",
+          "options": [
+            "It's Kevin's water bottle.",
+            "It's Kevin water bottle.",
+            "They're Kevin's.",
+            "Yes, it is."
+          ],
+          "answerIndex": 0,
+          "explanation": "人名後面加上「's」表示「……的」（Kevin's），因為水壺是單數，主詞代名詞要用 It（It's）。",
+          "hint": "表示「凱文的」要在名字後面加上 's，而且水壺只有一個，要用 It's 開頭喔！",
+          "speechText": "It's Kevin's water bottle.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Possessives"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u5-q3",
+          "prompt": "單複數注意！看到桌上放著一副「眼鏡（glasses）」，想問是誰的眼鏡：\"Whose glasses ___ these? — ___ are Mom's.\" 空格應填入哪一組？",
+          "options": [
+            "is / It",
+            "are / They",
+            "is / They",
+            "are / It"
+          ],
+          "answerIndex": 1,
+          "explanation": "glasses（眼鏡，由兩片鏡片組成）在英文中通常作複數使用，因此 be 動詞要用 are，回答時也用複數代名詞 They。",
+          "hint": "glasses 字尾有 es 並且搭配 these（這些），是複數喔！",
+          "speechText": "Whose glasses are these? They are Mom's.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u5-q4",
+          "prompt": "配合戶外教育（Outdoor Education）：週末要去郊外健行，為了遮陽與防雨，背包裡最適合帶上哪兩樣隨身物品？",
+          "options": [
+            "a bed and a sofa",
+            "a TV and a desk",
+            "a stove and a fridge",
+            "a cap and an umbrella"
+          ],
+          "answerIndex": 3,
+          "explanation": "鴨舌帽（cap）可以遮陽，雨傘（umbrella）可以擋雨；床、沙發、電視和冰箱都無法隨身帶去戶外健行。",
+          "hint": "找出可以放進背包裡用來「遮太陽」和「擋雨」的小物品！",
+          "speechText": "a cap and an umbrella",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Items"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u5-q5",
+          "prompt": "節慶教學（The Dragon Boat Festival）：每年端午節大家都會吃美味的粽子。傳統「粽子」在英語文化介紹中常稱為什麼？",
+          "options": [
+            "rice dumplings",
+            "moon cakes",
+            "apple pies",
+            "french fries"
+          ],
+          "answerIndex": 0,
+          "explanation": "端午節的粽子在英文裡常譯為 rice dumplings（或 zongzi）；moon cakes 是中秋月餅。",
+          "hint": "粽子是用「米飯（rice）」包成的，像餃子（dumplings）一樣的傳統食物喔！",
+          "speechText": "rice dumplings",
+          "speechLang": "en-US",
+          "tags": [
+            "Festival",
+            "Dragon Boat Festival"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u5-q6",
+          "prompt": "認識端午節文化習俗：下列哪一個英文句子最正確地描述了「The Dragon Boat Festival（端午節）」的慶祝活動？",
+          "options": [
+            "People decorate Christmas trees and sing carols.",
+            "People go trick-or-treating in scary costumes.",
+            "People watch dragon boat races and eat rice dumplings.",
+            "People look for colorful Easter eggs in the garden."
+          ],
+          "answerIndex": 2,
+          "explanation": "端午節最重要的兩項代表性活動就是「划龍舟比賽（dragon boat races）」與「吃粽子（eat rice dumplings）」。",
+          "hint": "找含有 dragon boat races（龍舟賽）的句子！",
+          "speechText": "People watch dragon boat races and eat rice dumplings.",
+          "speechLang": "en-US",
+          "tags": [
+            "Festival",
+            "Dragon Boat Festival"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g5-english-u6",
+      "subjectId": "english",
+      "title": "Review 2 & 文化教學",
+      "description": "統整 Unit 3 食物點餐與 Unit 4 物品歸屬句型，並透過「Country Profile」與文化單元認識世界各地不同的餐桌與生活習俗！",
+      "difficulty": "hard",
+      "monsterId": "flameDragon",
+      "monsterName": "環球文化火龍",
+      "monsterHp": 140,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 5,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第六冊",
+        "unitNo": 6
+      },
+      "questions": [
+        {
+          "id": "115-s2-g5-english-u6-q1",
+          "prompt": "Review 2 情境閱讀：\"It's twelve o'clock. Mia and Ben are ready for lunch. Mia would like some rice and fish. After lunch, Mia asks, 'Whose watch is this?' Ben says, 'Oh! It's mine. Thank you!'\" 根據短文，是誰的手錶掉了？",
+          "options": [
+            "Mia.",
+            "Ben.",
+            "The teacher.",
+            "Mom."
+          ],
+          "answerIndex": 1,
+          "explanation": "對話中 Mia 問這支手錶是誰的，Ben 回答 \"Oh! It's mine.\"（喔！是我的！），所以手錶是 Ben 的。",
+          "hint": "看看短文最後一句誰說了 \"It's mine.\"（是我的）！",
+          "speechText": "Whose watch is this? Oh! It's mine. Thank you!",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Reading"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u6-q2",
+          "prompt": "Review 2 問答配對：下列哪一組英文問句與答句的搭配「完全正確」？",
+          "options": [
+            "Whose cap is that? / I'd like some soup.",
+            "What would you like for dinner? / It's Amy's cap.",
+            "Whose umbrellas are these? / It's Tim's.",
+            "What would you like for breakfast? / I'd like some bread and milk."
+          ],
+          "answerIndex": 3,
+          "explanation": "問早餐想吃什麼（What would you like for breakfast?）搭配想吃的食物（I'd like some bread and milk.），主題與文法都正確；前兩項答非所問，第三項複數 umbrellas 不能用 It's 回答。",
+          "hint": "檢查問句是在問「想吃什麼」還是「誰的物品」，也要注意單複數喔！",
+          "speechText": "What would you like for breakfast? I'd like some bread and milk.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u6-q3",
+          "prompt": "「Country Profile」各國飲食文化認識：在臺灣、日本等地吃飯常用筷子（chopsticks），而在歐美國家吃西餐主食時最常使用哪一組餐具？",
+          "options": [
+            "a fork and a knife",
+            "two chopsticks",
+            "a ruler and an eraser",
+            "a toothbrush and a cup"
+          ],
+          "answerIndex": 0,
+          "explanation": "歐美西餐文化主要使用叉子（fork）與刀子（knife）用餐；ruler 是尺、eraser 是橡皮擦、toothbrush 是牙刷。",
+          "hint": "想一想吃牛排時左右手分別拿著哪兩樣金屬餐具？",
+          "speechText": "a fork and a knife",
+          "speechLang": "en-US",
+          "tags": [
+            "Culture",
+            "Country Profile"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u6-q4",
+          "prompt": "國際教育與文化素養：在「Let's Explore & Country Profile」單元認識世界各國風土民情後，面對與我們不同的傳統習俗，應該抱持什麼態度？",
+          "options": [
+            "Laugh at their food and refuse to learn about it.",
+            "Force everyone in the world to eat the exact same meals.",
+            "Respect different cultures and try to understand their traditions.",
+            "Say our own customs are the only right ones."
+          ],
+          "answerIndex": 2,
+          "explanation": "多元文化學習的核心精神在於「尊重不同文化並試著理解各國傳統（Respect different cultures and try to understand their traditions.）」。",
+          "hint": "找含有 respect（尊重）與 different cultures（不同文化）的句子！",
+          "speechText": "Respect different cultures and try to understand their traditions.",
+          "speechLang": "en-US",
+          "tags": [
+            "Culture",
+            "International Education"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u6-q5",
+          "prompt": "期末 Phonics 總複習：下面哪一組兩個單字「含有相同的子音拼讀音組」？",
+          "options": [
+            "shop / chair",
+            "whale / white",
+            "photo / thumb",
+            "sing / think"
+          ],
+          "answerIndex": 1,
+          "explanation": "whale 與 white 都含有開頭的 wh 音組；shop(sh)/chair(ch)、photo(ph)/thumb(th)、sing(-ng)/think(-nk) 都屬於不同音組。",
+          "hint": "仔細對比每個選項兩個單字裡的子音雙字母組合是否相同！",
+          "speechText": "whale, white",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Phonics"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u6-q6",
+          "prompt": "「Comics & Look and Say」語用理解：當同學幫你撿起掉在地上的水壺並還給你時，除了回答 \"It's mine.\" 之外，補上哪一句最有禮貌？",
+          "options": [
+            "What's wrong with you?",
+            "Whose lunch is that?",
+            "Go away right now.",
+            "Thank you so much!"
+          ],
+          "answerIndex": 3,
+          "explanation": "受到同學幫忙尋回物品時，真誠道謝 \"Thank you so much!\"（非常謝謝你！）是最自然友善的日常英語禮貌。",
+          "hint": "別人撿到東西還給你時，要向對方說「謝謝」喔！",
+          "speechText": "It's mine. Thank you so much!",
+          "speechLang": "en-US",
+          "tags": [
+            "Culture",
+            "Daily English"
+          ]
+        }
+      ]
+    }
+  ]
+}
