@@ -1,0 +1,545 @@
+{
+  "packId": "115-s2-g1-english",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 1,
+  "subjectId": "english",
+  "stages": [
+    {
+      "id": "115-s2-g1-english-u1",
+      "subjectId": "english",
+      "title": "保持健康",
+      "description": "認識英文字母 N、O、P 的字形與發音，用身體律動創作健康密碼舞，並養成有益健康的生活習慣。",
+      "difficulty": "easy",
+      "monsterId": "slime",
+      "monsterName": "NOP活力史萊姆",
+      "monsterHp": 110,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 1,
+        "publisher": "翰林（選書表）／學校自編彈性課程計畫",
+        "bookSeries": "Twinkle 1（選書表）／唱跳趣閱家一下（課程計畫）",
+        "unitNo": 1
+      },
+      "questions": [
+        {
+          "id": "115-s2-g1-english-u1-q1",
+          "prompt": "在「保持健康」單元認識了字母 N、O、P。大寫字母「N」的小寫字母是哪一個？",
+          "options": [
+            "n",
+            "m",
+            "u",
+            "h"
+          ],
+          "answerIndex": 0,
+          "explanation": "大寫「N」的小寫是「n」，只有一個彎彎的小拱門；「m」有兩個拱門，方向要看清楚喔。",
+          "hint": "找找看小寫裡面只有一個小拱門、左邊沒有長長高高的線的那一個！",
+          "speechText": "N, n",
+          "speechLang": "en-US",
+          "tags": [
+            "NOP",
+            "Uppercase & Lowercase"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u1-q2",
+          "prompt": "圓圓的像甜甜圈、可以用雙手圍成一個大圓圈的是字母「O」。下面哪一組「O」的大小寫配對正確？",
+          "options": [
+            "O / c",
+            "O / a",
+            "O / o",
+            "O / e"
+          ],
+          "answerIndex": 2,
+          "explanation": "大寫「O」和小寫「o」都是封口圓圓的形狀，只是一個比較大、一個比較小。",
+          "hint": "大寫和小寫都長得圓滾滾、沒有缺口的一對好朋友是誰呢？",
+          "speechText": "O, o",
+          "speechLang": "en-US",
+          "tags": [
+            "NOP",
+            "Uppercase & Lowercase"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u1-q3",
+          "prompt": "大寫字母「P」的圓圓腦袋在右上方，它配對的小寫字母長成哪一個樣子？",
+          "options": [
+            "q",
+            "p",
+            "b",
+            "d"
+          ],
+          "answerIndex": 1,
+          "explanation": "大寫「P」的小寫是「p」，圓圈在右邊、直線往下延伸；「q」的圓圈在左邊。",
+          "hint": "「p」的圓圈方向跟大寫 P 一樣都在右邊喔！",
+          "speechText": "P, p",
+          "speechLang": "en-US",
+          "tags": [
+            "NOP",
+            "Uppercase & Lowercase"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u1-q4",
+          "prompt": "照英文字母的順序唸過去，緊接在「M」後面的三個大寫字母是哪一組？",
+          "options": [
+            "J, K, L",
+            "Q, R, S",
+            "W, X, Y",
+            "N, O, P"
+          ],
+          "answerIndex": 3,
+          "explanation": "字母順序是 ... J, K, L, M, N, O, P，所以接在 M 後面的是 N, O, P。",
+          "hint": "想想這單元「NOP 健康密碼」學了哪三個連在一起的字母！",
+          "speechText": "N, O, P",
+          "speechLang": "en-US",
+          "tags": [
+            "NOP",
+            "Alphabet Order"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u1-q5",
+          "prompt": "在「NOP 健康密碼」裡，我們要設計有益健康的生活好習慣。下面哪一個守則對身體最健康？",
+          "options": [
+            "每天吃很多糖果而且不刷牙",
+            "早睡早起、多喝開水並常運動",
+            "整天坐著看電視都不想動",
+            "吃飯以前都不去洗手"
+          ],
+          "answerIndex": 1,
+          "explanation": "早睡早起、多喝水和規律運動，能讓身體充滿活力，是最棒的健康好習慣。",
+          "hint": "想一想，怎麼做才能像「健康密碼舞」一樣頭好壯壯又有精神呢？",
+          "speechText": "N, O, P",
+          "speechLang": "en-US",
+          "tags": [
+            "Healthy Habits",
+            "NOP"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u1-q6",
+          "prompt": "在「N, O, P」這三個字母裡面，排在「N」和「P」中間的是哪一個字母？",
+          "options": [
+            "N",
+            "M",
+            "O",
+            "P"
+          ],
+          "answerIndex": 2,
+          "explanation": "按照字母順序 N, O, P 排列，在 N 和 P 中間的就是圓圓的字母 O。",
+          "hint": "唸唸看 N, ___, P，中間空著的那一個字母圓圓的喔！",
+          "speechText": "N, O, P",
+          "speechLang": "en-US",
+          "tags": [
+            "NOP",
+            "Alphabet Order"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g1-english-u2",
+      "subjectId": "english",
+      "title": "實地考察",
+      "description": "認識英文字母 Q、R、S，並結合校外教學情境學習公共場所禮節、音量控制與交通安全。",
+      "difficulty": "easy",
+      "monsterId": "mathCube",
+      "monsterName": "QRS安全方塊",
+      "monsterHp": 120,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 1,
+        "publisher": "翰林（選書表）／學校自編彈性課程計畫",
+        "bookSeries": "Twinkle 1（選書表）／唱跳趣閱家一下（課程計畫）",
+        "unitNo": 2
+      },
+      "questions": [
+        {
+          "id": "115-s2-g1-english-u2-q1",
+          "prompt": "在「實地考察」單元認識字母 Q、R、S！大寫字母「Q」的小寫字母是哪一個？",
+          "options": [
+            "p",
+            "q",
+            "g",
+            "d"
+          ],
+          "answerIndex": 1,
+          "explanation": "大寫「Q」配對的小寫字母是「q」，圓圈在左邊、直線直直往下垂。",
+          "hint": "「q」的圓圈在左邊、尾巴直直的沒有勾起來喔！",
+          "speechText": "Q, q",
+          "speechLang": "en-US",
+          "tags": [
+            "QRS",
+            "Uppercase & Lowercase"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u2-q2",
+          "prompt": "大寫字母「R」像站好往前踢出一小步的樣子，它配對的小寫字母是誰呢？",
+          "options": [
+            "n",
+            "v",
+            "k",
+            "r"
+          ],
+          "answerIndex": 3,
+          "explanation": "大寫「R」配對的小寫是「r」，像一株小小的嫩芽向右邊伸出一小點。",
+          "hint": "找找看小寫裡面像小樹苗一樣往右邊伸出小小彎芽的那一個！",
+          "speechText": "R, r",
+          "speechLang": "en-US",
+          "tags": [
+            "QRS",
+            "Uppercase & Lowercase"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u2-q3",
+          "prompt": "字母「S」扭來扭去像一條可愛的小蛇，下面哪一組「S」的大小寫配對完全正確？",
+          "options": [
+            "S / s",
+            "S / z",
+            "S / c",
+            "S / x"
+          ],
+          "answerIndex": 0,
+          "explanation": "大寫「S」和小寫「s」的形狀一模一樣，都是彎彎曲曲的 S 形，只差在大小不同。",
+          "hint": "大寫 S 縮小以後就是長得一模一樣的小寫喔！",
+          "speechText": "S, s",
+          "speechLang": "en-US",
+          "tags": [
+            "QRS",
+            "Uppercase & Lowercase"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u2-q4",
+          "prompt": "按照英文字母順序唸唸看：「P, Q, ___ , S」，空格裡應該填哪一個字母？",
+          "options": [
+            "N",
+            "T",
+            "R",
+            "O"
+          ],
+          "answerIndex": 2,
+          "explanation": "字母順序是 P, Q, R, S，所以排在 Q 後面、S 前面的是 R。",
+          "hint": "想想我們在這單元學的「Q, R, S」三個字母，中間是誰呢？",
+          "speechText": "Q, R, S",
+          "speechLang": "en-US",
+          "tags": [
+            "QRS",
+            "Alphabet Order"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u2-q5",
+          "prompt": "校外教學到安靜的博物館或圖書館進行「實地考察」時，說話音量要怎麼控制才有禮貌？",
+          "options": [
+            "放輕音量慢慢說，不吵到別人",
+            "用盡全力大聲尖叫",
+            "一邊追逐一邊大喊大叫",
+            "用力拍打展覽櫃的玻璃"
+          ],
+          "answerIndex": 0,
+          "explanation": "在不同的公共場所要調整說話音量，安靜的館舍要輕聲細語，才是有禮貌的小客人。",
+          "hint": "在安靜的地方如果大聲喊叫會吵到大家，要怎麼說話才對呢？",
+          "speechText": "Q, R, S",
+          "speechLang": "en-US",
+          "tags": [
+            "Public Manners",
+            "Field Trip"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u2-q6",
+          "prompt": "校外教學走在路上遇到紅綠燈或馬路時，為了注意「交通安全」，怎麼做才不會發生危險？",
+          "options": [
+            "自己突然跑開去看路邊的小狗",
+            "在馬路上和同學玩推來推去",
+            "不看紅綠燈就直接衝過馬路",
+            "排好隊跟緊老師，先停看聽再安全通過"
+          ],
+          "answerIndex": 3,
+          "explanation": "戶外教學外出一定要緊跟隊伍和老師，遵守交通號誌、注意左右來車才能平平安安。",
+          "hint": "外出時要保護自己的安全，能不能自己離開隊伍亂跑呢？",
+          "speechText": "Q, R, S",
+          "speechLang": "en-US",
+          "tags": [
+            "Traffic Safety",
+            "Field Trip"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g1-english-u3",
+      "subjectId": "english",
+      "title": "活力交朋友",
+      "description": "用 Hello、Good morning 與 Hey 打招呼、編創字母 HEY 早安操，並共讀繪本《Yo! Yes?》學會關心與互助。",
+      "difficulty": "medium",
+      "monsterId": "parrotKing",
+      "monsterName": "早安問候鸚鵡",
+      "monsterHp": 130,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 1,
+        "publisher": "翰林（選書表）／學校自編彈性課程計畫",
+        "bookSeries": "Twinkle 1（選書表）／唱跳趣閱家一下（課程計畫）",
+        "unitNo": 3
+      },
+      "questions": [
+        {
+          "id": "115-s2-g1-english-u3-q1",
+          "prompt": "在「活力交朋友」單元學早安操！早上到學校遇見老師或同學，想用英文說「早安！」，要說哪一句？",
+          "options": [
+            "Goodbye!",
+            "Good night!",
+            "Good morning!",
+            "Thank you!"
+          ],
+          "answerIndex": 2,
+          "explanation": "「Good morning!」是英文的「早安！」，早上見面說這句話非常有活力又有禮貌。",
+          "hint": "點喇叭聽聽看，包含 morning（早上）的那一句就是「早安」喔！",
+          "speechText": "Good morning!",
+          "speechLang": "en-US",
+          "tags": [
+            "Greeting",
+            "Good morning"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u3-q2",
+          "prompt": "想用短短又有活力的一句話跟朋友打招呼「嘿！嗨！」，除了 Hello，這個單元還學了哪一句？",
+          "options": [
+            "Hey!",
+            "No!",
+            "Stop!",
+            "Bye!"
+          ],
+          "answerIndex": 0,
+          "explanation": "「Hey!」和「Hello!」都是向朋友熱情打招呼的問候語，這個單元還把 H、E、Y 編成早安健康操。",
+          "hint": "點喇叭聽聽看，拼起來剛好就是活力密碼字母 H-E-Y 喔！",
+          "speechText": "Hey!",
+          "speechLang": "en-US",
+          "tags": [
+            "Greeting",
+            "Hey"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u3-q3",
+          "prompt": "把活力密碼大寫字母「H, E, Y」通通變成小寫字母，下面哪一組全部都配對正確？",
+          "options": [
+            "h, a, y",
+            "n, e, v",
+            "h, c, y",
+            "h, e, y"
+          ],
+          "answerIndex": 3,
+          "explanation": "H 的小寫是 h，E 的小寫是 e，Y 的小寫是 y，合起來就是 h, e, y。",
+          "hint": "H 變小寫是一把高高小椅子，E 變 e，Y 變 y 喔！",
+          "speechText": "H, E, Y",
+          "speechLang": "en-US",
+          "tags": [
+            "HEY",
+            "Uppercase & Lowercase"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u3-q4",
+          "prompt": "在「Hey」裡面最後一個字母是「Y」。下面哪一組「Y」的大小寫配對正確？",
+          "options": [
+            "Y / v",
+            "Y / y",
+            "Y / u",
+            "Y / x"
+          ],
+          "answerIndex": 1,
+          "explanation": "大寫「Y」的小寫是「y」，上面開口像 Y，下面有一條斜斜的小尾巴。",
+          "hint": "找找看下面多出一條長尾巴的那個小寫字母！",
+          "speechText": "Y, y",
+          "speechLang": "en-US",
+          "tags": [
+            "HEY",
+            "Uppercase & Lowercase"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u3-q5",
+          "prompt": "讀完繪本《Yo! Yes?》我們學會互相關心交朋友。看到同學書本掉得滿地都是，怎麼做最友善？",
+          "options": [
+            "轉身跑走假裝沒看見",
+            "站在旁邊拍手取笑他",
+            "主動走過去幫忙一起把書撿起來",
+            "故意用腳把書踢得更遠"
+          ],
+          "answerIndex": 2,
+          "explanation": "看到同學需要幫忙時主動伸出援手，就能像繪本裡一樣交到好朋友、讓教室更溫暖。",
+          "hint": "換成你的東西掉滿地時，最希望同學幫你做什麼呢？",
+          "speechText": "Yo! Yes?",
+          "speechLang": "en-US",
+          "tags": [
+            "Yo! Yes?",
+            "Friendship"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u3-q6",
+          "prompt": "再看一次「H, E, Y」裡的字母「E」！哪一組大小寫配對是正確的「E」？",
+          "options": [
+            "E / c",
+            "E / e",
+            "E / o",
+            "E / a"
+          ],
+          "answerIndex": 1,
+          "explanation": "大寫「E」的小寫是「e」，中間有一條小橫線連到圓弧上面。",
+          "hint": "「e」很像一條橫線從中間向右畫出去再繞一圈喔！",
+          "speechText": "E, e",
+          "speechLang": "en-US",
+          "tags": [
+            "HEY",
+            "Uppercase & Lowercase"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g1-english-u4",
+      "subjectId": "english",
+      "title": "讓我們去玩吧",
+      "description": "認識英文字母 W、X、Y、Z，學會說 \"Let's play!\" 邀請同學一起玩，並共讀繪本《Chicka Chicka Boom Boom》複習字母。",
+      "difficulty": "hard",
+      "monsterId": "treeGuardian",
+      "monsterName": "椰子樹字母守護靈",
+      "monsterHp": 140,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 1,
+        "publisher": "翰林（選書表）／學校自編彈性課程計畫",
+        "bookSeries": "Twinkle 1（選書表）／唱跳趣閱家一下（課程計畫）",
+        "unitNo": 4
+      },
+      "questions": [
+        {
+          "id": "115-s2-g1-english-u4-q1",
+          "prompt": "在「讓我們去玩吧」學到最後四個字母「W, X, Y, Z」。26 個英文字母裡的最後一個字母是誰？",
+          "options": [
+            "W",
+            "X",
+            "Y",
+            "Z"
+          ],
+          "answerIndex": 3,
+          "explanation": "英文字母從 A 排到 Z 一共 26 個，排在最末尾的就是 Z。",
+          "hint": "跟著字母歌從 W, X, Y 唱到最後一個音是哪一個呢？",
+          "speechText": "W, X, Y, Z",
+          "speechLang": "en-US",
+          "tags": [
+            "WXYZ",
+            "Alphabet Order"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u4-q2",
+          "prompt": "下課想邀請好朋友一起到戶外玩玩具或遊戲，要對同學說哪一句英文「我們去玩吧！」？",
+          "options": [
+            "Let's play!",
+            "I'm sorry.",
+            "Sit down.",
+            "Good night."
+          ],
+          "answerIndex": 0,
+          "explanation": "「Let's play!」的意思是「讓我們去玩吧！」，看到同學時開心說出來就能一起玩遊戲。",
+          "hint": "點喇叭聽聽看，裡面有 play（玩耍）這個字的句子就是邀請語喔！",
+          "speechText": "Let's play!",
+          "speechLang": "en-US",
+          "tags": [
+            "Invitation",
+            "Let's play!"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u4-q3",
+          "prompt": "大寫字母「W」開口朝上、有兩個尖尖的角，它的小寫字母是哪一個？",
+          "options": [
+            "m",
+            "w",
+            "v",
+            "u"
+          ],
+          "answerIndex": 1,
+          "explanation": "大寫「W」和小寫「w」長得一模一樣，只是寫起來矮小一點；「m」是開口朝下的兩個拱門喔。",
+          "hint": "找一找跟大寫 W 長得幾乎一模一樣的小寫字母！",
+          "speechText": "W, w",
+          "speechLang": "en-US",
+          "tags": [
+            "WXYZ",
+            "Uppercase & Lowercase"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u4-q4",
+          "prompt": "字母「X」像小叉叉，「Z」像閃電形狀，它們的小寫也和自己很像！下面哪一組「X」和「Z」的小寫都對？",
+          "options": [
+            "x, s",
+            "k, z",
+            "x, z",
+            "v, n"
+          ],
+          "answerIndex": 2,
+          "explanation": "大寫 X 的小寫是 x，大寫 Z 的小寫是 z，寫起來都是縮小版的自己。",
+          "hint": "兩個字母縮成小寫以後形狀都不會變，長得和 X、Z 幾乎一樣喔！",
+          "speechText": "X, x, Z, z",
+          "speechLang": "en-US",
+          "tags": [
+            "WXYZ",
+            "Uppercase & Lowercase"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u4-q5",
+          "prompt": "在「W, X, Y, Z」這四個大寫字母裡，排在「W」後面、「Y」前面的是哪一個字母？",
+          "options": [
+            "X",
+            "V",
+            "Z",
+            "U"
+          ],
+          "answerIndex": 0,
+          "explanation": "四個字母依序為 W, X, Y, Z，夾在 W 和 Y 中間的像小叉叉一樣的 X。",
+          "hint": "唸一唸 W, ___, Y, Z，中間空著的是哪一個字母呢？",
+          "speechText": "W, X, Y",
+          "speechLang": "en-US",
+          "tags": [
+            "WXYZ",
+            "Alphabet Order"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u4-q6",
+          "prompt": "共讀繪本《Chicka Chicka Boom Boom》彩繪字母椰子樹，複習一下學過的字母！哪一組大小寫配對完全正確？",
+          "options": [
+            "W / m, Z / z",
+            "X / k, Y / y",
+            "Y / v, Z / s",
+            "W / w, Z / z"
+          ],
+          "answerIndex": 3,
+          "explanation": "W 配小寫 w，Z 配小寫 z，只有這一組兩個字母的大小寫都完全正確！",
+          "hint": "兩個字母的大小寫都要對喔，仔細檢查 W 和 Z 的小寫長什麼樣子！",
+          "speechText": "W, w, Z, z",
+          "speechLang": "en-US",
+          "tags": [
+            "Chicka Chicka Boom Boom",
+            "Review"
+          ]
+        }
+      ]
+    }
+  ]
+}
