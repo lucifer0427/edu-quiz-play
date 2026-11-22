@@ -53,7 +53,7 @@ function walkJsonFiles(dir) {
   return files.sort();
 }
 
-function collectValidStageIds() {
+export function collectValidStageIds() {
   const stageIds = new Set();
   for (const filePath of walkJsonFiles(PACKS_DIR)) {
     const pack = JSON.parse(fs.readFileSync(filePath, 'utf8'));
@@ -68,7 +68,7 @@ function collectValidStageIds() {
   return stageIds;
 }
 
-function collectSourceUnitIndex() {
+export function collectSourceUnitIndex() {
   const index = new Map();
   for (const filePath of walkJsonFiles(SOURCES_DIR)) {
     const rel = path.relative(SOURCES_DIR, filePath).replace(/\\/g, '/');
@@ -494,4 +494,6 @@ function main() {
   );
 }
 
-main();
+if (process.argv[1] && path.resolve(process.argv[1]) === __filename) {
+  main();
+}

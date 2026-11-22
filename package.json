@@ -12,7 +12,8 @@
     "test:fsrs": "node scripts/test-fsrs.mjs",
     "test:interleaving": "node scripts/test-interleaving.mjs",
     "test:phase3-4": "node scripts/test-phase3-4.mjs",
-    "build": "node scripts/sync-curriculum.mjs && node scripts/validate-lessons.mjs && node scripts/test-generators.mjs && node scripts/test-fsrs.mjs && node scripts/test-interleaving.mjs && node scripts/test-phase3-4.mjs && tsc --noEmit && vite build",
+    "test:lesson-synthesizer": "node scripts/test-lesson-synthesizer.mjs",
+    "build": "node scripts/sync-curriculum.mjs && node scripts/validate-lessons.mjs && node scripts/test-generators.mjs && node scripts/test-fsrs.mjs && node scripts/test-interleaving.mjs && node scripts/test-phase3-4.mjs && node scripts/test-lesson-synthesizer.mjs && tsc --noEmit && vite build",
     "preview": "vite preview"
   },
   "dependencies": {

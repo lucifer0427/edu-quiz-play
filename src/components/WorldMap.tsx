@@ -10,10 +10,7 @@ import {
   Zap,
 } from 'lucide-react';
 import { useEffect, useMemo, useState } from 'react';
-import {
-  findLessonForStage,
-  loadLessonPack,
-} from '../data/curriculum/lessonLoader';
+import { loadLessonPack } from '../data/curriculum/lessonLoader';
 import {
   findCurriculumEntry,
   getCurriculumCatalog,
@@ -39,6 +36,7 @@ import {
   isDynamicStage,
 } from '../utils/generators/registry';
 import { countDueWrongQuestions } from '../utils/fsrs';
+import { resolveLessonForStage } from '../utils/lessonSynthesizer';
 import { playTap } from '../utils/sound';
 import { getLevelFromXp } from '../utils/storage';
 import { HeroSprite, MonsterSprite } from './GameSprites';
@@ -82,6 +80,7 @@ interface StageCardProps {
   stage: Stage;
   earnedStars: number;
   lesson?: LessonScript | null;
+  isCuratedLesson?: boolean;
   lessonCompleted?: boolean;
   onStartStage: (stage: Stage) => void;
   onStartLesson?: (lesson: LessonScript, stage: Stage) => void;
@@ -91,6 +90,7 @@ function StageCard({
   stage,
   earnedStars,
   lesson,
+  isCuratedLesson = false,
   lessonCompleted = false,
   onStartStage,
   onStartLesson,
@@ -100,6 +100,24 @@ function StageCard({
   const dynamic = isDynamicStage(stage);
   const questionCount = getStageQuestionCount(stage);
   const hasLesson = Boolean(lesson && onStartLesson);
+  const hasSpatial3D = Boolean(
+    isCuratedLesson &&
+      lesson?.scenes.some((s) => s.componentType === 'SPATIAL_3D_SCENE'),
+  );
+  const lessonBadgeText = lessonCompleted
+    ? '✓ 已學過觀念'
+    : hasSpatial3D
+      ? '附 3D 微課程'
+      : isCuratedLesson
+        ? '附精雕微課程'
+        : '附觀念微課程';
+  const lessonBadgeClass = lessonCompleted
+    ? 'bg-emerald-100 text-emerald-800'
+    : hasSpatial3D
+      ? 'bg-indigo-100 text-indigo-800'
+      : isCuratedLesson
+        ? 'bg-sky-100 text-sky-800'
+        : 'bg-sky-100/80 text-sky-700';
 
   return (
     <div
@@ -124,14 +142,10 @@ function StageCard({
             </span>
             {hasLesson && (
               <span
-                className={`inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-black ${
-                  lessonCompleted
-                    ? 'bg-emerald-100 text-emerald-800'
-                    : 'bg-sky-100 text-sky-800'
-                }`}
+                className={`inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-black ${lessonBadgeClass}`}
               >
                 <BookOpen className="h-3 w-3" />
-                {lessonCompleted ? '✓ 已學過觀念' : '附微課程'}
+                {lessonBadgeText}
               </span>
             )}
           </div>
@@ -784,14 +798,27 @@ export function WorldMap({
                 </div>
 
                 <div className="grid gap-4 md:grid-cols-2">
-                  {stages.map((stage) => (
-                    <StageCard
-                      key={stage.id}
-                      stage={stage}
-                      earnedStars={progress.stageStars[stage.id] ?? 0}
-                      onStartStage={onStartStage}
-                    />
-                  ))}
+                  {stages.map((stage) => {
+                    const { lesson, isCurated } = resolveLessonForStage(
+                      null,
+                      stage,
+                    );
+                    const lessonCompleted = Boolean(
+                      progress.completedLessonIds?.includes(lesson.lessonId),
+                    );
+                    return (
+                      <StageCard
+                        key={stage.id}
+                        stage={stage}
+                        earnedStars={progress.stageStars[stage.id] ?? 0}
+                        lesson={lesson}
+                        isCuratedLesson={isCurated}
+                        lessonCompleted={lessonCompleted}
+                        onStartStage={onStartStage}
+                        onStartLesson={onStartLesson}
+                      />
+                    );
+                  })}
                 </div>
               </section>
             );
@@ -869,10 +896,12 @@ export function WorldMap({
           {stagesByUnit.unmapped.length > 0 && (
             <div className="grid gap-4 md:grid-cols-2">
               {stagesByUnit.unmapped.map((stage) => {
-                const lesson = findLessonForStage(loadedLessonPack, stage.id);
+                const { lesson, isCurated } = resolveLessonForStage(
+                  loadedLessonPack,
+                  stage,
+                );
                 const lessonCompleted = Boolean(
-                  lesson &&
-                    progress.completedLessonIds?.includes(lesson.lessonId),
+                  progress.completedLessonIds?.includes(lesson.lessonId),
                 );
                 return (
                   <StageCard
@@ -880,6 +909,7 @@ export function WorldMap({
                     stage={stage}
                     earnedStars={progress.stageStars[stage.id] ?? 0}
                     lesson={lesson}
+                    isCuratedLesson={isCurated}
                     lessonCompleted={lessonCompleted}
                     onStartStage={onStartStage}
                     onStartLesson={onStartLesson}
@@ -895,10 +925,13 @@ export function WorldMap({
                 const unitStages = stagesByUnit.map.get(unit.unitNo) ?? [];
                 if (unitStages.length > 0) {
                   return unitStages.map((stage) => {
-                    const lesson = findLessonForStage(loadedLessonPack, stage.id);
+                    const { lesson, isCurated } = resolveLessonForStage(
+                      loadedLessonPack,
+                      stage,
+                      unit,
+                    );
                     const lessonCompleted = Boolean(
-                      lesson &&
-                        progress.completedLessonIds?.includes(lesson.lessonId),
+                      progress.completedLessonIds?.includes(lesson.lessonId),
                     );
                     return (
                       <StageCard
@@ -906,6 +939,7 @@ export function WorldMap({
                         stage={stage}
                         earnedStars={progress.stageStars[stage.id] ?? 0}
                         lesson={lesson}
+                        isCuratedLesson={isCurated}
                         lessonCompleted={lessonCompleted}
                         onStartStage={onStartStage}
                         onStartLesson={onStartLesson}
