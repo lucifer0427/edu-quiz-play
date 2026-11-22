@@ -1,0 +1,947 @@
+{
+  "packId": "115-s2-g6-english",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 6,
+  "subjectId": "english",
+  "stages": [
+    {
+      "id": "115-s2-g6-english-u0",
+      "subjectId": "english",
+      "title": "開學預備週 Starter",
+      "description": "暖身複習生活中的英文數字用法（年份、樓層、金額與溫度），並練習跟讀對話與句子摹寫！",
+      "difficulty": "easy",
+      "monsterId": "slime",
+      "monsterName": "暖身數字史萊姆",
+      "monsterHp": 100,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 6,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第八冊",
+        "unitNo": 0
+      },
+      "questions": [
+        {
+          "id": "115-s2-g6-english-u0-q1",
+          "prompt": "在介紹出生或歷史「西元年份 2026」時，英語口語最常見的唸法是哪一種？",
+          "options": [
+            "two zero twenty-six dollars",
+            "twenty twenty-six",
+            "two hundred and twenty-six",
+            "twenty-six hundred"
+          ],
+          "answerIndex": 1,
+          "explanation": "西元 2000 年以後的四位數年份在口語上常分成前兩位與後兩位來唸，2026 常唸作 twenty twenty-six（也可唸作 two thousand twenty-six）。",
+          "hint": "點喇叭聽聽看把 2026 拆成「20」和「26」怎麼唸！",
+          "speechText": "twenty twenty-six",
+          "speechLang": "en-US",
+          "tags": [
+            "Starter",
+            "Daily Numbers"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u0-q2",
+          "prompt": "搭乘電梯或報讀教室「在三樓」時，英語序數常說 \"on the ___ floor\"。請問空格應該填入哪一個字？",
+          "options": [
+            "three",
+            "thirteen",
+            "thirty",
+            "third"
+          ],
+          "answerIndex": 3,
+          "explanation": "表示樓層時要使用「序數」：一樓 first、二樓 second、三樓 third，所以「在三樓」是 on the third floor。",
+          "hint": "表達「第幾樓」要用序數（第一、第二、第三），不是基數 three 喔！",
+          "speechText": "on the third floor",
+          "speechLang": "en-US",
+          "tags": [
+            "Starter",
+            "Ordinal Numbers"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u0-q3",
+          "prompt": "看英文天氣預報時，畫面顯示氣溫為「25°C」（攝氏二十五度）。用英語唸出這個溫度時，應該說哪一項？",
+          "options": [
+            "twenty-five degrees Celsius",
+            "twenty-five meters",
+            "twenty-five percent",
+            "twenty-five o'clock"
+          ],
+          "answerIndex": 0,
+          "explanation": "degree 表示「度」，Celsius 指「攝氏」，因此 25°C 唸作 twenty-five degrees Celsius；meters 是公尺，percent 是百分比。",
+          "hint": "找找看哪一個單位是「度（degrees）」！",
+          "speechText": "twenty-five degrees Celsius",
+          "speechLang": "en-US",
+          "tags": [
+            "Starter",
+            "Daily Numbers"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u0-q4",
+          "prompt": "在英語課的「對話角色扮演（Role Play）」練習中，當同學對你說 \"Nice to see you again!\" 時，下列哪一句回應最自然？",
+          "options": [
+            "I am twelve years old.",
+            "It's on the desk.",
+            "Nice to see you, too!",
+            "Today is Monday."
+          ],
+          "answerIndex": 2,
+          "explanation": "「Nice to see you again!（很高興再次見到你！）」的禮貌回應是「Nice to see you, too!（我也很高興見到你！）」。",
+          "hint": "別人說很高興再見到你，回應時句尾加上「too（也是）」就對了！",
+          "speechText": "Nice to see you again! Nice to see you, too!",
+          "speechLang": "en-US",
+          "tags": [
+            "Starter",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u0-q5",
+          "prompt": "英文書寫與摹寫句子時，下列哪一個句子在「句首大寫與句尾標點」上完全正確？",
+          "options": [
+            "we are in Grade Six.",
+            "We are in Grade Six.",
+            "we are in grade six",
+            "We are in Grade six?"
+          ],
+          "answerIndex": 1,
+          "explanation": "直述句的第一個字母必須大寫（We），句尾要加上句點（.）；且這句是肯定句，不該用問號。",
+          "hint": "檢查句子的第一個字母有沒有大寫，而且直述句句尾要用句點喔！",
+          "speechText": "We are in Grade Six.",
+          "speechLang": "en-US",
+          "tags": [
+            "Starter",
+            "Writing"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u0-q6",
+          "prompt": "如果在運動會計分板上看到「1,200 points」，英語該怎麼唸「一千兩百」？",
+          "options": [
+            "one thousand two hundred",
+            "twelve thousand",
+            "one hundred twenty",
+            "one million two hundred"
+          ],
+          "answerIndex": 0,
+          "explanation": "1,200 拆成千位 1（one thousand）和百位 2（two hundred），合起來是 one thousand two hundred。",
+          "hint": "「千」是 thousand，「百」是 hundred！",
+          "speechText": "one thousand two hundred points",
+          "speechLang": "en-US",
+          "tags": [
+            "Starter",
+            "Daily Numbers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g6-english-u1",
+      "subjectId": "english",
+      "title": "Unit 1 Where Were You Yesterday?",
+      "description": "學習用過去式 be 動詞詢問昨天或過去在哪個地點，並練習 l-blends、r-blends、s-blends 與短長母音拼讀！",
+      "difficulty": "easy",
+      "monsterId": "treeGuardian",
+      "monsterName": "時光地點樹靈",
+      "monsterHp": 110,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 6,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第八冊",
+        "unitNo": 1
+      },
+      "questions": [
+        {
+          "id": "115-s2-g6-english-u1-q1",
+          "prompt": "當你想問同學「你昨天在哪裡？」時，下列哪一個英文問句文法最正確？",
+          "options": [
+            "Where are you yesterday?",
+            "Where do you yesterday?",
+            "Where were you yesterday?",
+            "What were you yesterday?"
+          ],
+          "answerIndex": 2,
+          "explanation": "詢問地點疑問詞用 Where，搭配主詞 you 的過去式 be 動詞要用 were，所以是 Where were you yesterday?",
+          "hint": "問「在哪裡」要用 Where，而且 yesterday（昨天）要搭配過去式 be 動詞 were！",
+          "speechText": "Where were you yesterday?",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Past Tense"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u1-q2",
+          "prompt": "朋友問：\"Where were you yesterday afternoon?\" 如果你昨天下午「在圖書館」，該怎麼回答？",
+          "options": [
+            "I was at the library.",
+            "I am at the library.",
+            "I were at the library.",
+            "Yes, I was."
+          ],
+          "answerIndex": 0,
+          "explanation": "主詞 I 搭配的過去式 be 動詞是 was（不能用 were 或現在式 am），地點「在圖書館」用 at the library；Where 問句不能用 Yes/No 回答。",
+          "hint": "主詞 I 的過去式 be 動詞是 was，別用成 am 或 were 喔！",
+          "speechText": "I was at the library.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Locations"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u1-q3",
+          "prompt": "如果想知道「Amy 昨天是不是在博物館？」，下列哪一個問句與簡答的搭配完全正確？",
+          "options": [
+            "Were Amy at the museum? / Yes, she were.",
+            "Was Amy at the museum? / Yes, she is.",
+            "Is Amy at the museum yesterday? / No, she wasn't.",
+            "Was Amy at the museum? / Yes, she was."
+          ],
+          "answerIndex": 3,
+          "explanation": "主詞 Amy 為單數第三人稱，過去式 be 動詞要用 Was，肯定簡答時動詞也要維持過去式 was。",
+          "hint": "Amy 是一個人，過去式 be 動詞要用 Was，簡答也要前後呼應喔！",
+          "speechText": "Was Amy at the museum? Yes, she was.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u1-q4",
+          "prompt": "Phonics 拼讀挑戰：請選出含有子音音組 l-blends（如 pl, bl, cl, gl）且代表「藍色」的英文單字：",
+          "options": [
+            "clap",
+            "blue",
+            "glad",
+            "play"
+          ],
+          "answerIndex": 1,
+          "explanation": "四個單字皆含有 l-blends（clap 拍手、blue 藍色、glad 高興的、play 玩），其中意思為「藍色」的是 blue。",
+          "hint": "聽聽看發音，找出開頭是 bl- 的顏色單字！",
+          "speechText": "blue",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "l-blends"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u1-q5",
+          "prompt": "Phonics 拼讀挑戰：下列哪一組單字全都包含 r-blends（cr, gr, tr, dr）開頭的字音？",
+          "options": [
+            "plan, glass, clock",
+            "swim, star, skip",
+            "train, green, draw",
+            "cat, dog, pig"
+          ],
+          "answerIndex": 2,
+          "explanation": "train（tr）、green（gr）、draw（dr）皆屬於子音＋r 的 r-blends；plan/glass/clock 是 l-blends；swim/star/skip 是 s-blends。",
+          "hint": "找三個單字第二個字母都是 r 的那一組！",
+          "speechText": "train, green, draw",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "r-blends"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u1-q6",
+          "prompt": "Phonics 短長母音辨識：下面哪一個單字的母音發的是「長母音 a」（和 cake 的 a 同音）？",
+          "options": [
+            "cap",
+            "hat",
+            "map",
+            "lake"
+          ],
+          "answerIndex": 3,
+          "explanation": "lake 符合 a_e 結構，發長母音；cap、hat、map 中的 a 皆發短母音。",
+          "hint": "找一個字尾有不發音 e（a_e 結構）的單字，聽起來跟 cake 押韻！",
+          "speechText": "cake, lake",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "Long Vowels"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g6-english-u2",
+      "subjectId": "english",
+      "title": "Unit 2 What Did You Do Last Night?",
+      "description": "練習用過去式助動詞 did 與過去式動詞，詢問並分享昨晚或週末的日常活動！",
+      "difficulty": "easy",
+      "monsterId": "parrotKing",
+      "monsterName": "昨夜任務鸚鵡王",
+      "monsterHp": 115,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 6,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第八冊",
+        "unitNo": 2
+      },
+      "questions": [
+        {
+          "id": "115-s2-g6-english-u2-q1",
+          "prompt": "想問朋友「你昨天晚上做了什麼？」，空格應該填入哪一個字？\"What ___ you do last night?\"",
+          "options": [
+            "do",
+            "did",
+            "were",
+            "does"
+          ],
+          "answerIndex": 1,
+          "explanation": "last night（昨晚）代表過去時間，句子中有一般原形動詞 do（做），因此疑問助動詞要用過去式的 did。",
+          "hint": "句尾有 last night（昨晚），而且後面有一般動詞 do，要選過去式助動詞！",
+          "speechText": "What did you do last night?",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Past Tense"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u2-q2",
+          "prompt": "回答 \"What did you do last night?\" 時，下列哪一句動詞的「過去式變化」完全正確？",
+          "options": [
+            "I watch TV last night.",
+            "I play basketball last night.",
+            "I studied English last night.",
+            "I clean my room tomorrow."
+          ],
+          "answerIndex": 2,
+          "explanation": "study 去 y 加 ied 變成過去式 studied；watch 與 play 皆漏加 ed；tomorrow 指明天，與 last night 不符。",
+          "hint": "過去時間的日常活動，動詞要變成過去式（注意字尾去 y 加 ied 或加 ed）！",
+          "speechText": "I studied English last night.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Daily Activities"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u2-q3",
+          "prompt": "當別人問你：\"Did you wash the dishes after dinner?\" 如果你「沒有洗碗」，正確的英語簡答是哪一個？",
+          "options": [
+            "No, I didn't.",
+            "No, I wasn't.",
+            "No, I don't.",
+            "Yes, I did."
+          ],
+          "answerIndex": 0,
+          "explanation": "用 Did 開頭的過去式一般動詞問句，否定簡答必須用「No, 主詞 + didn't.」來回答。",
+          "hint": "用 Did 問，否定回答就要用 did not 的縮寫喔！",
+          "speechText": "Did you wash the dishes after dinner? No, I didn't.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u2-q4",
+          "prompt": "下面哪一個英文句子正確使用了「不規則變化」的過去式動詞來描述昨晚的活動？",
+          "options": [
+            "She goed to bed at ten.",
+            "She eated a sandwich.",
+            "She writed a letter.",
+            "She read a comic book."
+          ],
+          "answerIndex": 3,
+          "explanation": "read 的過去式拼字不變但讀音不同；go、eat、write 都是不規則動詞，過去式應分別為 went、ate、wrote，不能直接加 ed。",
+          "hint": "go、eat、write 都不能直接加 ed！有一個字現在式和過去式拼法長得一模一樣喔！",
+          "speechText": "She read a comic book.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Irregular Verbs"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u2-q5",
+          "prompt": "請選出最符合句意的日常活動片語填入空格：\"Ben was tired, so he ___ early last night.\"",
+          "options": [
+            "played video games",
+            "went to bed",
+            "rode a bike",
+            "went shopping"
+          ],
+          "answerIndex": 1,
+          "explanation": "因為 Ben 很累（was tired），所以昨晚很早就「上床睡覺」（went to bed），語意最連貫。",
+          "hint": "前面說「他很累（tired）」，所以早早就去做什麼事呢？",
+          "speechText": "Ben was tired, so he went to bed early last night.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Reading"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u2-q6",
+          "prompt": "Phonics 拼讀挑戰：下列哪一組單字開頭全都是 s-blends（sw, sp, st, sk）音組？",
+          "options": [
+            "clock, glue, plate",
+            "crab, tree, drum",
+            "bake, bike, bone",
+            "swim, spoon, star"
+          ],
+          "answerIndex": 3,
+          "explanation": "swim（sw）、spoon（sp）、star（st）都屬於 s-blends；clock/glue/plate 是 l-blends；crab/tree/drum 是 r-blends。",
+          "hint": "找三個單字全部以字母 s 開頭接子音的那一組！",
+          "speechText": "swim, spoon, star",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "s-blends"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g6-english-u3",
+      "subjectId": "english",
+      "title": "Review 1",
+      "description": "統整 Unit 1 與 Unit 2 過去式時間、地點與日常活動，並透過「寫日記」短文閱讀來檢視實力！",
+      "difficulty": "medium",
+      "monsterId": "bookSpirit",
+      "monsterName": "日記時光書靈",
+      "monsterHp": 120,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 6,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第八冊",
+        "unitNo": 3
+      },
+      "questions": [
+        {
+          "id": "115-s2-g6-english-u3-q1",
+          "prompt": "閱讀日記短文：\"Sunday, May 10. It was sunny today. In the morning, I was at the park with my dog. In the afternoon, I baked cookies with Mom.\" 請問作者今天上午在哪裡？",
+          "options": [
+            "At the library.",
+            "At school.",
+            "At the park.",
+            "At the supermarket."
+          ],
+          "answerIndex": 2,
+          "explanation": "日記寫到 \"In the morning, I was at the park with my dog.\"，所以上午在公園（at the park）。",
+          "hint": "找出日記裡面 \"In the morning\" 後面的地點名詞！",
+          "speechText": "In the morning, I was at the park with my dog.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Diary Reading"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u3-q2",
+          "prompt": "承上篇日記：\"In the afternoon, I baked cookies with Mom.\" 請問作者下午做了什麼活動？",
+          "options": [
+            "She baked cookies with her mom.",
+            "She walked her dog at the museum.",
+            "She went swimming with her friends.",
+            "She watched a movie alone."
+          ],
+          "answerIndex": 0,
+          "explanation": "日記明確指出下午和媽媽一起烤餅乾（baked cookies with Mom）。",
+          "hint": "注意 \"In the afternoon\" 後面的動詞片語 baked cookies！",
+          "speechText": "In the afternoon, I baked cookies with Mom.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Diary Reading"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u3-q3",
+          "prompt": "寫英文日記記錄昨天發生的事情時，為了正確銜接地點與活動，下列哪一句文法完全正確？",
+          "options": [
+            "Yesterday, I were at home and do my homework.",
+            "Yesterday, I am at home and did my homework.",
+            "Yesterday, I was at home and do my homework.",
+            "Yesterday, I was at home and did my homework."
+          ],
+          "answerIndex": 3,
+          "explanation": "描寫昨天的事情時，be 動詞與一般動詞都要一致使用過去式：I was at home（地點狀態）and did my homework（動作）。",
+          "hint": "這句有兩個動詞（be 動詞和一般動詞 do），「昨天」發生的事兩個都要用過去式喔！",
+          "speechText": "Yesterday, I was at home and did my homework.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u3-q4",
+          "prompt": "在日記中想詢問同學「你上週六做了什麼？」，應該怎麼問最正確？",
+          "options": [
+            "Where did you do last Saturday?",
+            "What did you do last Saturday?",
+            "What were you do last Saturday?",
+            "How were you do last Saturday?"
+          ],
+          "answerIndex": 1,
+          "explanation": "詢問做了「什麼」要用 What，搭配過去式助動詞 did 與原形動詞 do：What did you do last Saturday?",
+          "hint": "問「做什麼」用 What，助動詞要用 did，不可以用 were 搭配原形動詞 do！",
+          "speechText": "What did you do last Saturday?",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u3-q5",
+          "prompt": "Phonics 綜合複習：請選出跟「home」裡的長母音 o（o_e）發音相同的單字：",
+          "options": [
+            "rose",
+            "hot",
+            "box",
+            "dog"
+          ],
+          "answerIndex": 0,
+          "explanation": "home 和 rose 都屬於 o_e 結構，發長母音；hot、box、dog 中的 o 皆發短母音。",
+          "hint": "點喇叭聽聽看 home，找出同樣字尾有不發音 e 的單字！",
+          "speechText": "home, rose",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Phonics"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u3-q6",
+          "prompt": "整理日記時間詞時，下面哪一個時間副詞「最適合」用來記錄過去發生的事？",
+          "options": [
+            "every day",
+            "tomorrow",
+            "last weekend",
+            "next week"
+          ],
+          "answerIndex": 2,
+          "explanation": "last weekend（上週末）代表過去的時間，常與過去式連用；tomorrow 與 next week 代表未來；every day 常搭配現在簡單式。",
+          "hint": "找含有 last（上一個）的時間詞！",
+          "speechText": "last weekend",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Time Expressions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g6-english-u4",
+      "subjectId": "english",
+      "title": "Unit 3 How Much Is the T-shirt?",
+      "description": "學會用英文認識衣物單字、詢問物品價格（單數與複數），並看懂生活中常見的數字標價！",
+      "difficulty": "medium",
+      "monsterId": "mathCube",
+      "monsterName": "價格標籤魔方",
+      "monsterHp": 125,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 6,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第八冊",
+        "unitNo": 4
+      },
+      "questions": [
+        {
+          "id": "115-s2-g6-english-u4-q1",
+          "prompt": "逛服飾店想問店員「這件 T 恤多少錢？」，下列哪一個問句文法最正確？",
+          "options": [
+            "How many is the T-shirt?",
+            "How old is the T-shirt?",
+            "How much are the T-shirt?",
+            "How much is the T-shirt?"
+          ],
+          "answerIndex": 3,
+          "explanation": "詢問價格使用「How much」；the T-shirt 為單數名詞，因此 be 動詞用 is。",
+          "hint": "問價格要用 How much（不是問數量的 How many），而且一件 T-shirt 是單數！",
+          "speechText": "How much is the T-shirt?",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Shopping"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u4-q2",
+          "prompt": "如果結帳時想問一雙鞋子或兩條褲子等「複數」衣物多少錢：\"How much ___ the shoes?\" 空格應填入哪一個字？",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "do"
+          ],
+          "answerIndex": 1,
+          "explanation": "shoes（鞋子，成雙成對）是複數名詞，詢問價格時 be 動詞要配合使用 are：How much are the shoes?",
+          "hint": "shoes 字尾有 s 是複數，搭配的 be 動詞要選複數形式喔！",
+          "speechText": "How much are the shoes?",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u4-q3",
+          "prompt": "店員回答一件外套的價錢時說：\"It's eight hundred and fifty dollars.\" 請問這件外套多少錢？",
+          "options": [
+            "850 元",
+            "815 元",
+            "580 元",
+            "185 元"
+          ],
+          "answerIndex": 0,
+          "explanation": "eight hundred（800）加上 fifty（50）是 850 元（dollars）。",
+          "hint": "eight hundred 是八百，fifty 是五十喔！",
+          "speechText": "It's eight hundred and fifty dollars.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Prices"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u4-q4",
+          "prompt": "如果要買兩件以上（複數）的衣物，例如一雙襪子（the socks）售價 120 元，店員該怎麼回答價格？",
+          "options": [
+            "It's one hundred and twenty dollars.",
+            "I'm one hundred and twenty dollars.",
+            "They're one hundred and twenty dollars.",
+            "Yes, they are."
+          ],
+          "answerIndex": 2,
+          "explanation": "回答複數物品（the socks）的價格時，主詞代名詞要使用 They（They are = They're），不能用單數的 It。",
+          "hint": "問的是複數 the socks，回答的代名詞要用「它們（They're）」！",
+          "speechText": "They're one hundred and twenty dollars.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u4-q5",
+          "prompt": "天氣變涼了，出門前你想找一件穿在最外面的「夾克／外套」，下列哪一個英文單字指的就是夾克？",
+          "options": [
+            "cap",
+            "shorts",
+            "socks",
+            "jacket"
+          ],
+          "answerIndex": 3,
+          "explanation": "jacket 是夾克／外套；cap 是鴨舌帽，shorts 是短褲，socks 是襪子。",
+          "hint": "點喇叭聽聽看發音，想想哪個字聽起來像「夾克」！",
+          "speechText": "jacket",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Clothes"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u4-q6",
+          "prompt": "從環保與環境教育的角度來看，在購買衣物（Unit 3）時，下列哪一句英文最符合綠色消費觀念？",
+          "options": [
+            "Throw away clean clothes every week.",
+            "Buy only what you need and donate old clothes.",
+            "Never wash your clothes.",
+            "Buy ten new jackets every day."
+          ],
+          "answerIndex": 1,
+          "explanation": "「只買需要的衣物並捐贈不再穿的舊衣（Buy only what you need and donate old clothes.）」能減少浪費，實踐環保愛地球。",
+          "hint": "找含有 donate（捐贈）和 buy only what you need（只買需要的）的句子！",
+          "speechText": "Buy only what you need and donate old clothes.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Environmental Education"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g6-english-u5",
+      "subjectId": "english",
+      "title": "Unit 4 What's Your Favorite Season?",
+      "description": "探索春夏秋冬四季單字與氣候特徵，並學會用英文詢問並分享你最喜歡的季節與原因！",
+      "difficulty": "medium",
+      "monsterId": "treeGuardian",
+      "monsterName": "四季氣候樹靈",
+      "monsterHp": 130,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 6,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第八冊",
+        "unitNo": 5
+      },
+      "questions": [
+        {
+          "id": "115-s2-g6-english-u5-q1",
+          "prompt": "想問新朋友「你最喜歡哪一個季節？」，下列哪一個英文問句最正確？",
+          "options": [
+            "What's your favorite season?",
+            "Where is your favorite season?",
+            "Who is your favorite season?",
+            "How much is your favorite season?"
+          ],
+          "answerIndex": 0,
+          "explanation": "詢問「最喜歡什麼季節」要用疑問詞 What（What is = What's），Where 問地點、Who 問人、How much 問價格。",
+          "hint": "問「最喜歡什麼」要用 What's... 開頭喔！",
+          "speechText": "What's your favorite season?",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Seasons"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u5-q2",
+          "prompt": "請將「春、夏、秋、冬」四個季節依照順序排好，下列哪一組單字完全正確？",
+          "options": [
+            "winter, fall, summer, spring",
+            "summer, spring, winter, fall",
+            "fall, winter, spring, summer",
+            "spring, summer, fall, winter"
+          ],
+          "answerIndex": 3,
+          "explanation": "spring 是春天、summer 是夏天、fall（或 autumn）是秋天、winter 是冬天，四季依序為 spring, summer, fall, winter。",
+          "hint": "春天是 spring 開頭，冬天是 winter 結尾！",
+          "speechText": "spring, summer, fall, winter",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Seasons"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u5-q3",
+          "prompt": "朋友問：\"What's the weather like in summer?\"（夏天的天氣怎麼樣？），下列哪一個回答最符合夏天的氣候特徵？",
+          "options": [
+            "It's cold and snowy.",
+            "It's cool and windy.",
+            "It's hot and sunny.",
+            "It's freezing."
+          ],
+          "answerIndex": 2,
+          "explanation": "summer（夏天）通常炎熱且晴朗（hot and sunny）；cold and snowy 是冬天特徵，cool and windy 較符合秋天。",
+          "hint": "夏天常會出大太陽又很熱，找 hot 和 sunny！",
+          "speechText": "It's hot and sunny.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Weather"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u5-q4",
+          "prompt": "當別人問你最喜歡的季節，你想回答「我最喜歡秋天，因為天氣涼爽」，下列哪一句表達最自然完整？",
+          "options": [
+            "I like winter because it is very hot.",
+            "My favorite season is fall. It's cool.",
+            "My favorite color is blue.",
+            "Yes, I like summer."
+          ],
+          "answerIndex": 1,
+          "explanation": "My favorite season is fall. It's cool. 清楚回答了最喜歡的季節（秋天）與涼爽的氣候特徵（cool）。",
+          "hint": "What's your favorite season? 要針對季節回答，不是回答 Yes 或顏色喔！",
+          "speechText": "My favorite season is fall. It's cool.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u5-q5",
+          "prompt": "看天氣圖示辨認單字：如果天空烏雲密布而且正在「下雨」，而且風也很大，最適合用哪一組天氣形容詞來描述？",
+          "options": [
+            "warm and sunny",
+            "hot and dry",
+            "rainy and windy",
+            "cool and clear"
+          ],
+          "answerIndex": 2,
+          "explanation": "rainy 表示「下雨的」、windy 表示「多風的」；sunny 是晴朗的、dry 是乾燥的、clear 是晴朗無雲的。",
+          "hint": "「雨」是 rain，「風」是 wind，字尾加上 -y 變成形容詞！",
+          "speechText": "rainy and windy",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Weather"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u5-q6",
+          "prompt": "Phonics 母音拼讀挑戰：請選出含有「長母音 u」（u_e）且與「cute」押韻的單字：",
+          "options": [
+            "flute",
+            "cut",
+            "cup",
+            "bus"
+          ],
+          "answerIndex": 0,
+          "explanation": "flute（長笛）與 cute 皆含有長母音 u_e；cut、cup、bus 中的 u 皆發短母音。",
+          "hint": "找出字尾有不發音 e（u_e 結構）的那一個單字！",
+          "speechText": "cute, flute",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "Long Vowels"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g6-english-u6",
+      "subjectId": "english",
+      "title": "Review 2 & 文化教學",
+      "description": "統整衣物價格與季節氣候句型來制定「旅遊計畫」，並探索「Sports Around the World」認識世界各地的運動文化！",
+      "difficulty": "hard",
+      "monsterId": "flameDragon",
+      "monsterName": "環球運動火龍",
+      "monsterHp": 140,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 6,
+        "publisher": "翰林",
+        "bookSeries": "Here We Go 第八冊",
+        "unitNo": 6
+      },
+      "questions": [
+        {
+          "id": "115-s2-g6-english-u6-q1",
+          "prompt": "配合「旅遊計畫（Review 2）」情境閱讀：\"We are going to Taipei in winter. It is often cold and rainy there, so take a warm coat and an umbrella.\" 根據計畫，去臺北旅遊應該帶什麼？",
+          "options": [
+            "Sunglasses and a T-shirt.",
+            "A warm coat and an umbrella.",
+            "Shorts and a cap.",
+            "Ice cream and a swimsuit."
+          ],
+          "answerIndex": 1,
+          "explanation": "旅遊計畫提到臺北冬天又冷又常下雨（cold and rainy），因此明確建議帶保暖外套（a warm coat）和雨傘（an umbrella）。",
+          "hint": "找出短文最後一句 \"so take ...\" 後面列的兩樣物品！",
+          "speechText": "It is often cold and rainy there, so take a warm coat and an umbrella.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Travel Plan"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u6-q2",
+          "prompt": "出國旅遊打包行李前，把 Unit 3 與 Unit 4 所學的句子連在一起對話，下列哪一組問答最合理？",
+          "options": [
+            "What's your favorite season? / It's five hundred dollars.",
+            "How much is the coat? / I like spring.",
+            "What's the weather like in spring? / It's warm. You can wear a T-shirt.",
+            "Where were you? / I like winter."
+          ],
+          "answerIndex": 2,
+          "explanation": "問天氣（What's the weather like in spring?）搭配天氣回答（It's warm.）以及對應的衣物建議（wear a T-shirt），語意邏輯完全正確。",
+          "hint": "檢查問句和答句的主題是不是互相對應（問季節天氣要答天氣、問價格要答金額）！",
+          "speechText": "What's the weather like in spring? It's warm. You can wear a T-shirt.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u6-q3",
+          "prompt": "在「Sports Around the World」文化單元中，我們認識了各國受歡迎的運動。哪一個英文單字在美式英語常用來稱呼在綠茵場上用「腳踢進球門」的足球運動？",
+          "options": [
+            "soccer",
+            "baseball",
+            "basketball",
+            "tennis"
+          ],
+          "answerIndex": 0,
+          "explanation": "在美式英語課本中常用 soccer（英式英語稱 football）指用腳踢的足球運動；baseball 是棒球，basketball 是籃球，tennis 是網球。",
+          "hint": "點喇叭聽聽發音，baseball 是棒球，那用腳踢的「足球」呢？",
+          "speechText": "soccer",
+          "speechLang": "en-US",
+          "tags": [
+            "Culture",
+            "Sports Around the World"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u6-q4",
+          "prompt": "認識不同國家的代表性運動時，以下哪一個「運動英文與中文」的配對完全正確？",
+          "options": [
+            "badminton — 游泳",
+            "basketball — 網球",
+            "swimming — 棒球",
+            "baseball — 棒球"
+          ],
+          "answerIndex": 3,
+          "explanation": "baseball 是「棒球」；badminton 是羽毛球，basketball 是籃球，swimming 是游泳。",
+          "hint": "找找看哪一組英文字義沒有張冠李戴，base + ball 指的就是在壘包之間跑的運動！",
+          "speechText": "baseball",
+          "speechLang": "en-US",
+          "tags": [
+            "Culture",
+            "Sports"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u6-q5",
+          "prompt": "在「Sports Around the World」與「Let's Explore: Sports」中，當朋友邀請一起參加戶外運動時，如果你想表達「我也喜歡打籃球」，該怎麼說最道地？",
+          "options": [
+            "I am basketball.",
+            "I play a basketball.",
+            "I like playing basketball, too.",
+            "I was basketball yesterday."
+          ],
+          "answerIndex": 2,
+          "explanation": "表示喜歡某項運動可用「I like playing + 球類運動（不加冠詞 a）」，球類名稱前不需要加 a 或 the。",
+          "hint": "英文裡說「打球（play basketball）」時，球類名稱前面不需要加 a 喔！",
+          "speechText": "I like playing basketball, too.",
+          "speechLang": "en-US",
+          "tags": [
+            "Culture",
+            "Sports"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u6-q6",
+          "prompt": "學習「Sports Around the World」跨文化單元後，面對不同國家流行的傳統或特色運動，我們應該抱持什麼樣的態度？",
+          "options": [
+            "Think other countries' sports are weird and boring.",
+            "Learn about and respect different sports cultures around the world.",
+            "Play only one sport and refuse to watch other games.",
+            "Say our favorite sport is the only good one."
+          ],
+          "answerIndex": 1,
+          "explanation": "多元文化素養的核心在於「認識並尊重世界各地不同的運動與風土民情」（Learn about and respect different sports cultures around the world.）。",
+          "hint": "找含有 learn about（認識）和 respect（尊重）的句子！",
+          "speechText": "Learn about and respect different sports cultures around the world.",
+          "speechLang": "en-US",
+          "tags": [
+            "Culture",
+            "Multicultural Education"
+          ]
+        }
+      ]
+    }
+  ]
+}
