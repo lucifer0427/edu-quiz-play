@@ -1,0 +1,532 @@
+{
+  "packId": "115-s1-g4-integrative",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 4,
+  "subjectId": "integrative",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-integrative-u1",
+      "stageId": "115-s1-g4-integrative-u1",
+      "title": "一、學習快易通",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "影響學習的內外在因素與學習策略",
+          "narrationText": "找到影響學習的外在環境與內在心理因素並加以調整，運用畫重點、心智圖等不同層次策略，再搭配學習自我檢核表發現問題、修正計畫，就能提升學習行動力。",
+          "cognitiveChunks": [
+            "外在因素：噪音、光線與書桌整潔",
+            "內在因素：想玩分心、疲倦或沒信心",
+            "心智圖組織策略＋自我檢核表修正"
+          ],
+          "analogyAnchor": "學習自我檢核表就像一面鏡子，照出自己哪裡卡關或計畫太大做不到，讓我們把大目標切成小步驟，越學越順手。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "調整內外在因素",
+              "leftPoints": [
+                "外在：收起玩具零食、安靜明亮書桌",
+                "內在：先專心寫完作業再休息"
+              ],
+              "rightTitle": "策略與自我檢核",
+              "rightPoints": [
+                "心智圖表格整理知識、編口訣記憶",
+                "用檢核表覺察問題並彈性修正計畫"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "調整內外在干擾",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "心智圖與自我檢核",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/integrative#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "修正不適合自己的學習計畫",
+          "narrationText": "別人的讀書方法不一定適合自己，當我們執行計畫發現太累或目標太大時，懂得彈性調整才是真正的學習行動力。",
+          "cognitiveChunks": [
+            "適合別人的不一定適合自己",
+            "把大目標拆解成每天可行小步驟"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小芸照同學方法清晨五點起床背單字卻整天想睡；目標訂一天背五十個也常挫折，該怎麼調整？",
+            "steps": [
+              "第 1 步：透過自我檢核表覺察是「作息時段」和「目標過大」導致卡關",
+              "第 2 步：彈性修正成放學精神好時分段記憶，把目標拆成每天背五個並複習",
+              "第 3 步：與同學共學互助，交流筆記方法並互相提醒達成目標"
+            ],
+            "commonErrorContrast": "常見錯誤：只寫簡單題目難題留白、直接借同學作業抄答案，或方法不適合仍硬撐不修正。",
+            "selfExplanationPrompt": "想一想：用「心智圖或分類表格」整理自然與社會課重點，比單純死背文字有什麼好處？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/integrative#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "同學共學互助的好互動",
+          "topicSignalTitle": "和同學一起學習時怎麼互助最有效？",
+          "narrationText": "互相分享好用的筆記整理或記憶小妙方，彼此鼓勵達成每天的讀書目標；遇到不會的題目做記號請教，絕不直接給人抄答案。",
+          "cognitiveChunks": [
+            "分享有效筆記與記憶策略",
+            "互相提醒目標不直接抄答案"
+          ],
+          "factGroundingSourceId": "115-s1/g4/integrative#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "檢查看看你是不是懂得區分內外在影響因素！",
+          "cognitiveChunks": [
+            "外在環境與內在心理因素"
+          ],
+          "warmupCheck": {
+            "prompt": "寫功課時客廳電視開很大聲，自己也一邊想著手機遊戲而分心。關於這兩種影響因素的分類哪一項正確？",
+            "options": [
+              "電視噪音是外在環境因素，想玩遊戲分心是內在心理因素",
+              "兩者都是別人的錯，不用調整",
+              "想玩遊戲是外在因素，書桌太整齊是內在因素",
+              "電視開最大聲就能提升專注力"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！外在環境干擾靠整理書桌遠離電視，內在分心靠調整心態先寫完再休息。",
+            "feedbackRetry": "想一想：來自周圍環境的是「外在」，來自自己腦海念頭的是「內在」喔！"
+          },
+          "factGroundingSourceId": "115-s1/g4/integrative#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-integrative-u2",
+      "stageId": "115-s1-g4-integrative-u2",
+      "title": "二、啟動心能量",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "情緒辨識、自我對話與行動卡",
+          "narrationText": "沒有不好的情緒，只有合不合宜的表達方式。覺察自我對話對情緒的影響，從不同思考面向製作解決困難「行動卡」，並向典範人物學習正向思考。",
+          "cognitiveChunks": [
+            "說出感受與原因，不對人進行攻擊",
+            "正向自我對話把注意力拉回可掌控的努力",
+            "行動卡＋典範故事：當自己生命的舵手"
+          ],
+          "analogyAnchor": "面對困難就像在海上遇到風浪，腦海裡的「自我對話」和隨身「行動卡」就是船舵，幫我們穩住方向不迷航。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "合宜表達與轉念",
+              "leftPoints": [
+                "冷靜深呼吸，說出感受並找辦法",
+                "自我對話從「一定出糗」轉成「穩穩試」"
+              ],
+              "rightTitle": "行動卡與典範學習",
+              "rightPoints": [
+                "轉念、拆步驟、求助、深呼吸策略",
+                "檢核執行成效並微調行為表現"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "合宜表達正向轉念",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "行動卡檢核與調整",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/integrative#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用行動卡克服緊張與調整生活習慣",
+          "narrationText": "不論是上台報告很緊張，還是想改掉賴床遲到的習慣，只要把行動卡上的策略做完再檢核調整，就能一次比一次更穩。",
+          "cognitiveChunks": [
+            "深呼吸＋對鏡子練習＋正向自我鼓勵",
+            "行動卡沒成功時檢核原因並微調"
+          ],
+          "workedExampleData": {
+            "problemStatement": "組員忘記帶海報紙讓你想發脾氣，或是執行減少賴床的行動卡一週卻還是遲到，該怎麼處理？",
+            "steps": [
+              "第 1 步：想發脾氣時先深呼吸，溫和說出「我現在有點著急，我們一起想替代辦法好嗎？」",
+              "第 2 步：若行動卡執行遇到阻礙，回頭檢核卡在哪一步（例如睡太晚、鬧鐘放太近）",
+              "第 3 步：調整睡覺時間與鬧鐘距離再試一週，並閱讀典範故事保有堅持的勇氣"
+            ],
+            "commonErrorContrast": "常見錯誤：掃掉組員鉛筆盒出氣、說「你每次都只會拖累別人」、行動卡失敗一次就撕掉，或取笑情緒低落的朋友。",
+            "selfExplanationPrompt": "想一想：當班上好朋友情緒低落趴在桌上不說話時，你可以怎麼溫柔陪伴他？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/integrative#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "用同理心陪伴情緒低落的夥伴",
+          "topicSignalTitle": "看見好朋友難過不說話時該怎麼關心？",
+          "narrationText": "不八卦也不當眾嘲笑，溫柔靠近他、安靜陪伴並說「你看起來有點難過，願意的話可以跟我說說看喔」，就能傳遞溫暖心能量。",
+          "cognitiveChunks": [
+            "不八卦、不嘲笑、不強迫",
+            "安靜陪伴並給他安心傾訴的空間"
+          ],
+          "factGroundingSourceId": "115-s1/g4/integrative#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "試著選出能帶來正向能量的自我對話吧！",
+          "cognitiveChunks": [
+            "正向自我對話穩定情緒"
+          ],
+          "warmupCheck": {
+            "prompt": "當朗讀比賽抽到不熟悉的題目時，腦海裡哪一種「自我對話」最能轉換出正向能量？",
+            "options": [
+              "「完蛋了，我一定會出大糗」",
+              "「如果忘詞大家一定會笑我一輩子」",
+              "「早知道不要報名了，真想逃走」",
+              "「雖然題目陌生，但我平常有練習發音語氣，當作特別挑戰穩穩唸出來吧！」"
+            ],
+            "answerIndex": 3,
+            "feedbackCorrect": "答對了！客觀肯定平時的練習並把陌生題目當作挑戰，能讓情緒回穩發揮實力。",
+            "feedbackRetry": "想一想：哪一句對自己說的話能減少恐慌，把注意力放回當下的努力上？"
+          },
+          "factGroundingSourceId": "115-s1/g4/integrative#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-integrative-u3",
+      "stageId": "115-s1-g4-integrative-u3",
+      "title": "三、行行出狀元",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "職業訪問調查、體驗甘苦與感恩",
+          "narrationText": "透過有禮貌的職業訪問了解家人與社區工作者的任務與意義，再藉由實作體驗感受每一份工作的辛苦與成就感，懂得尊重各行各業並用行動表達感謝。",
+          "cognitiveChunks": [
+            "訪問前先約時間、擬提綱並專心致謝",
+            "職業無貴賤與性別限制，各有貢獻",
+            "體驗工作甘苦，用行動體貼感謝服務者"
+          ],
+          "analogyAnchor": "社會就像一部精密的時鐘，警衛、廚工、工程師、清潔隊員與物流司機就像不同大小的齒輪，少了一個時鐘就轉不動。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "禮貌預約擬定訪問清單",
+                "了解工作內容與甘苦",
+                "實作體驗體會專業耐心",
+                "用行動向工作者表達感謝"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "禮貌訪問了解甘苦",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "實作體會與行動感謝",
+                "anchorPointId": "step4"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/integrative#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "設計有禮貌的職業訪問與感謝行動",
+          "narrationText": "訪問大人工作故事時要問到重點，不能問沒禮貌或無關的問題；了解他們的辛苦後，更要在生活中付出體貼行動。",
+          "cognitiveChunks": [
+            "問工作內容、如何助人與最有意義之處",
+            "垃圾分類、不浪費食物、道謝與寫卡片"
+          ],
+          "workedExampleData": {
+            "problemStatement": "要訪問社區早餐店老闆或警衛伯伯，事前記得做什麼準備？之後又能怎麼實際感謝為大家服務的人？",
+            "steps": [
+              "第 1 步：事前禮貌徵詢同意、約定不影響工作的時段，擬好「工作內容與意義」問題清單",
+              "第 2 步：訪問時專心傾聽記錄，結束後誠懇道謝",
+              "第 3 步：生活中上下公車微笑說謝謝、把午餐吃光不浪費、做好垃圾分類減輕清潔負擔"
+            ],
+            "commonErrorContrast": "常見錯誤：在對方最忙時突然衝去問三十題、問人一個月賺多少錢、認為穿西裝才高級，或打 119 開玩笑。",
+            "selfExplanationPrompt": "想一想：「行行出狀元」告訴我們，四年級的你現在可以培養哪些好習慣替未來職業理想鋪路？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/integrative#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "為未來的自己做準備",
+          "topicSignalTitle": "四年級現在可以如何實踐「行行出狀元」？",
+          "narrationText": "多嘗試不同活動探索興趣與專長，認真學習基本能力，並培養負責任與樂於助人的好品格，每個領域都能發光發熱。",
+          "cognitiveChunks": [
+            "多方嘗試探索個人興趣專長",
+            "培養負責任與助人的好品格"
+          ],
+          "factGroundingSourceId": "115-s1/g4/integrative#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "看看你對職業平等與工作意義的觀念正不正確！",
+          "cognitiveChunks": [
+            "正當職業無貴賤與性別限制"
+          ],
+          "warmupCheck": {
+            "prompt": "透過資料蒐集與討論後，關於「工作的意義」，下列哪一個觀念最正確？",
+            "options": [
+              "正當合法的職業都能發揮所長服務社會、維持生活，都值得尊敬",
+              "只有穿西裝坐冷氣房的工作才算偉大",
+              "某些職業只能由男生做，女生絕對不適合",
+              "工作唯一意義是讓自己不用待在家裡"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！職業不分貴賤與性別，每份正當工作都在為社會運轉貢獻力量。",
+            "feedbackRetry": "想一想：清晨掃街、煮午餐、工程師，每一種正當工作是不是都缺一不可呢？"
+          },
+          "factGroundingSourceId": "115-s1/g4/integrative#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-integrative-u4",
+      "stageId": "115-s1-g4-integrative-u4",
+      "title": "四、社區好資源",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識社區機構功能與繪製資源地圖",
+          "narrationText": "了解社區圖書館、衛生所、郵局、警察局與消防隊等機構的服務功能，繪製清楚標示地標與圖例的社區資源地圖，並學會規畫安全有禮的踏查活動。",
+          "cognitiveChunks": [
+            "衛生所接種健檢、郵局寄信儲匯、警局報案",
+            "資源地圖須含地標、圖例、名稱與功能註記",
+            "遵守各場所規範並愛惜社區公物"
+          ],
+          "analogyAnchor": "社區資源地圖就像一張生活藏寶圖，上面清楚畫出借書的圖書館、寄信的郵局和打預防針的衛生所，新鄰居一看就能輕鬆找到好資源。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "社區機構大配對",
+              "leftPoints": [
+                "圖書館：閱讀借書與報章雜誌",
+                "衛生所：接種衛教；郵局：寄信儲匯"
+              ],
+              "rightTitle": "繪圖與踏查規劃",
+              "rightPoints": [
+                "地圖標出基準地標、圖例與功能",
+                "大人陪同、事先預約、分工記錄"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "圖館衛生所與郵局",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "地圖圖例與預約踏查",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/integrative#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "規劃平安有禮的社區機構踏查",
+          "narrationText": "校外踏查社區機構不能說走就走，出發前要和師長確認路線並預約，進入機構後更要遵守秩序禮儀。",
+          "cognitiveChunks": [
+            "確認安全路線、大人陪同與事先預約",
+            "輕聲細語、專心記錄並誠懇致謝"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小組規畫校外「社區機構踏查活動」，出發前和抵達機構現場分別該做好哪些事？",
+            "steps": [
+              "第 1 步：與老師家長確認安全路線與聯絡方式，事先聯繫機構確認可參訪時間",
+              "第 2 步：組員明確分工誰負責發問、誰負責記錄與拍照",
+              "第 3 步：現場保持輕聲細語不打擾他人、禮貌問候並致謝，踏查後將成果分享給同學家人"
+            ],
+            "commonErrorContrast": "常見錯誤：不告知師長就偷跑出去、沒預約直接衝進機構大廳野餐、把圖書館繪本私藏不還，或在公園長椅刻字。",
+            "selfExplanationPrompt": "想一想：踏查結束整理出「社區便利資源介紹」後，怎麼分享與回饋才讓社區變得更好？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/integrative#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "善用並愛惜社區公共資源",
+          "topicSignalTitle": "當一個負責任的社區資源使用者要做到什麼？",
+          "narrationText": "遵守開放時間與借閱規則、借書準時歸還、在活動中心與公園隨手帶走垃圾且不大聲喧嘩，讓好資源長久造福每個人。",
+          "cognitiveChunks": [
+            "按時歸還借書、遵守開放時間",
+            "愛惜公物保持整潔安寧"
+          ],
+          "factGroundingSourceId": "115-s1/g4/integrative#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "測測看你能不能正確配對社區機構的服務功能！",
+          "cognitiveChunks": [
+            "衛生所與社區機構功能"
+          ],
+          "warmupCheck": {
+            "prompt": "認識住家或學校附近的社區機構時，下列哪一組「機構與服務功能」的配對完全正確？",
+            "options": [
+              "消防分隊—專門借閱童話故事書",
+              "公共圖書館—專門辦理出國護照",
+              "郵局—專門替小狗做手術",
+              "衛生所（健康服務中心）—提供預防接種、健康諮詢與衛教宣導"
+            ],
+            "answerIndex": 3,
+            "feedbackCorrect": "答對了！衛生所提供疫苗接種、健檢與社區衛教，圖書館借書，郵局辦理郵務儲匯。",
+            "feedbackRetry": "想一想：打預防針和做健康檢查宣導，通常是社區裡哪一個公家保健機構呢？"
+          },
+          "factGroundingSourceId": "115-s1/g4/integrative#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-integrative-u5",
+      "stageId": "115-s1-g4-integrative-u5",
+      "title": "五、危機急轉彎",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "辨識生活危機、避險與勇敢求助",
+          "narrationText": "學會辨識電線過載、積水垂落電線、瓦斯外洩與網路誘騙等生活危機，遇危險立刻遠離；面對不舒服的碰觸或脅迫要勇敢說不並迅速求助，熟記 110、119 與 113 專線。",
+          "cognitiveChunks": [
+            "遠離過載發燙電線、積水斷線與攀爬窗台",
+            "拒絕禮物虛寶誘騙、不洩漏住址個資",
+            "遇不舒服碰觸勇敢拒絕並找安全據點或 113 求助"
+          ],
+          "analogyAnchor": "危機因應策略就像汽車的「安全氣囊與方向盤」，平時多演練避險與求助步驟，真正遇到突發危險時才能及時急轉彎保護自己。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "觀察辨識潛藏危險情境",
+                "堅決說不並保持安全距離",
+                "前往超商警衛室等安全據點",
+                "撥打 110/119/113 並省思演練"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "辨識危機說不遠離",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "安全據點專線求助",
+                "anchorPointId": "step4"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/integrative#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "瓦斯外洩與陌生誘騙的正確應對",
+          "narrationText": "遇到聞到瓦斯味、看到斷落電線在積水裡，或是有人用禮物誘騙你去偏僻處時，做錯一步都可能非常危險！",
+          "cognitiveChunks": [
+            "瓦斯外洩禁開關電器、開窗通風撤離",
+            "尋求超商、愛心商店或警衛室協助"
+          ],
+          "workedExampleData": {
+            "problemStatement": "晚上聞到廚房濃濃瓦斯味；或有人在公園說送你禮物要你跟他去偏僻角落拿，該怎麼做？",
+            "steps": [
+              "第 1 步：聞到瓦斯味千萬不要開關電燈或點火，立刻掩口鼻開門窗通風、關瓦斯總開關並迅速撤離至戶外求助 119",
+              "第 2 步：對「送禮物或虛寶換個資／去偏僻處」堅決拒絕，絕不跟陌生人離開或透露住址",
+              "第 3 步：走失或遇險時走進燈光明亮的便利商店、愛心商店、學校警衛室或捷運站務台請大人協助"
+            ],
+            "commonErrorContrast": "常見錯誤：聞到瓦斯味跑去開電燈電風扇、用雨傘撥弄積水裡的斷落電線、替威脅你的人保守秘密，或演練完不檢討。",
+            "selfExplanationPrompt": "想一想：做完「生活危機情境演練」後，為什麼全班還要一起省思執行結果哪裡可以改進？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/integrative#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "熟記三大緊急求助專線",
+          "topicSignalTitle": "遇到不同危機時要撥打哪幾支緊急專線？",
+          "narrationText": "遇到治安或走失危險撥「110」、火災或緊急救護撥「119」、遇到身體受虐或騷擾侵害撥「113」，打通後冷靜說清楚地點與狀況。",
+          "cognitiveChunks": [
+            "110 報警、119 火警救護、113 保護專線",
+            "絕不把緊急專線當作惡作劇電話"
+          ],
+          "factGroundingSourceId": "115-s1/g4/integrative#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "測測看你記不記得街頭安全求助的據點！",
+          "cognitiveChunks": [
+            "明亮有工作人員的安全據點"
+          ],
+          "warmupCheck": {
+            "prompt": "和家人走散或遇到危險需要外援協助時，除了警察之外，市區街頭還有哪些地方適合進去安全求助？",
+            "options": [
+              "跟著陌生叔叔走進暗巷",
+              "躲進沒有燈光的廢棄工地",
+              "走進燈光明亮、有店員或人員駐守的愛心商店、超商、警衛室或捷運站務台",
+              "坐在路邊大哭不開口"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！選擇明亮、有制度與工作人員駐守的公開場所請大人幫忙聯絡家人最安全。",
+            "feedbackRetry": "找有穿工作制服的店員、燈光明亮又人來人往的地方最可靠喔！"
+          },
+          "factGroundingSourceId": "115-s1/g4/integrative#u5"
+        }
+      ]
+    }
+  ]
+}

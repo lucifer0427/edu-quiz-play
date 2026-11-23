@@ -1,0 +1,655 @@
+{
+  "packId": "115-s1-g1-health-pe",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 1,
+  "subjectId": "health-pe",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-health-pe-u1",
+      "stageId": "115-s1-g1-health-pe-u1",
+      "title": "第一單元 成長變變變",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "長大真好，每天清潔好習慣",
+          "narrationText": "上一年級長高長壯了！我們要學會自己洗手、刷牙、換穿乾淨衣服，從 dirty 變成 clean 的健康好寶寶。",
+          "cognitiveChunks": [
+            "長大了要學習照顧自己的身體",
+            "如廁後與吃飯前要用肥皂洗手",
+            "餐後潔牙、睡前刷牙不蛀牙"
+          ],
+          "analogyAnchor": "每天清潔身體就像幫小車子保養洗乾淨，乾淨整潔（clean）就會精神飽滿！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "髒兮兮（dirty）",
+              "leftPoints": [
+                "手沾泥巴細菌不洗手",
+                "吃完甜食不刷牙"
+              ],
+              "rightTitle": "乾淨整潔（clean）",
+              "rightPoints": [
+                "肥皂搓洗雙手並擦乾",
+                "睡前刷牙、天天洗澡換衣"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "肥皂洗手最乾淨",
+                "anchorPointId": "right"
+              },
+              {
+                "id": "l2",
+                "text": "餐後睡前要刷牙",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/health-pe#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "正確洗手與咳嗽禮儀",
+          "narrationText": "看不見的細菌最愛躲在手指縫裡，洗手和咳嗽都要用對方法才衛生。",
+          "cognitiveChunks": [
+            "用肥皂搓洗掌心手背與指縫",
+            "打噴嚏用手肘內側或衛生紙遮"
+          ],
+          "workedExampleData": {
+            "problemStatement": "準備吃營養午餐前，怎麼把手洗得真正乾淨？",
+            "steps": [
+              "第 1 步：先把雙手打濕，抹上肥皂或洗手乳",
+              "第 2 步：仔細搓洗掌心、手背和指縫",
+              "第 3 步：用清水沖乾淨並擦乾雙手"
+            ],
+            "commonErrorContrast": "常見錯誤：只用清水隨便沾一下就甩乾，或是在衣服上直接擦手。",
+            "selfExplanationPrompt": "想一想：如果手上剛好沒有衛生紙又想打噴嚏，可以用身體哪裡遮住口鼻？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/health-pe#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "先試試看這題清潔小問題，準備好就去挑戰關卡！",
+          "cognitiveChunks": [
+            "clean 代表乾淨整潔"
+          ],
+          "warmupCheck": {
+            "question": "雙語繪本裡的小男孩不愛乾淨（dirty），哪一個做法能讓他變回乾淨（clean）？",
+            "prompt": "雙語繪本裡的小男孩不愛乾淨（dirty），哪一個做法能讓他變回乾淨（clean）？",
+            "options": [
+              "每天洗手、刷牙並換穿乾淨衣服",
+              "好幾天不洗澡直接睡覺",
+              "把泥巴塗在臉上"
+            ],
+            "answerIndex": 0,
+            "explanation": "每天用肥皂洗手、睡前刷牙並洗澡換穿乾淨衣服，就能保持乾淨（clean）又健康！",
+            "feedbackCorrect": "答對了！每天洗手、刷牙和換穿乾淨衣服，就是 clean 好寶寶！",
+            "feedbackRetry": "想一想，要怎麼清潔身體才會香噴噴、乾乾淨淨呢？"
+          },
+          "factGroundingSourceId": "115-s1/g1/health-pe#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-health-pe-u2",
+      "stageId": "115-s1-g1-health-pe-u2",
+      "title": "第二單元 快樂上下學",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "安全紅綠燈與校園好夥伴",
+          "narrationText": "上下學看清楚紅綠燈、遠離大型車，到學校和同學友愛相處；如果不小心受傷了，記得去健康中心找護理師幫忙。",
+          "cognitiveChunks": [
+            "紅燈停、綠燈行，過馬路左右看",
+            "遠離大型車死角，巷子靠邊走",
+            "友愛同學、受傷去健康中心"
+          ],
+          "analogyAnchor": "紅綠燈就像路口的交通小隊長，聽它的號誌再左右看清楚，上學放學都平安！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "紅燈停下來在安全處等待",
+                "綠燈亮起先左看右看再左看",
+                "舉起手沿斑馬線專心通過"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "紅燈停下等一等",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "左右看清楚再走",
+                "anchorPointId": "step2"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/health-pe#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "安全過馬路三步驟",
+          "narrationText": "就算小綠人亮起來了，也要注意有沒有轉彎的車子靠近喔。",
+          "cognitiveChunks": [
+            "不低頭邊走邊玩",
+            "退離轉彎大卡車安全距離外"
+          ],
+          "workedExampleData": {
+            "problemStatement": "看到行人綠燈亮起要過馬路時，怎樣走最安全？",
+            "steps": [
+              "第 1 步：站在人行道邊緣，先左看、右看、再左看",
+              "第 2 步：確認沒有轉彎車輛或大型車靠近",
+              "第 3 步：舉起手讓駕駛看見，沿著斑馬線專心走過"
+            ],
+            "commonErrorContrast": "常見錯誤：綠燈一亮就低頭衝出去，或是緊貼在轉彎大卡車旁邊。",
+            "selfExplanationPrompt": "想一想：和同學玩遊戲快吵架時，先深呼吸冷靜還是動手推人比較好？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/health-pe#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "考考你學校健康中心的小常識！",
+          "cognitiveChunks": [
+            "健康中心提供傷病處理與健檢"
+          ],
+          "warmupCheck": {
+            "question": "學校的健康中心除了幫受傷的小朋友擦藥，還會做下面哪一項服務？",
+            "prompt": "學校的健康中心除了幫受傷的小朋友擦藥，還會做下面哪一項服務？",
+            "options": [
+              "定期幫小朋友量身高、體重與檢查視力",
+              "賣珍珠奶茶和漢堡",
+              "借漫畫書回家看"
+            ],
+            "answerIndex": 0,
+            "explanation": "學校健康中心負責照顧全校師生健康，除了傷病處理，還會量身高體重和檢查視力！",
+            "feedbackCorrect": "答對了！護理師阿姨會在健康中心幫大家量身高體重、檢查視力喔！",
+            "feedbackRetry": "想一想，開學後我們會在哪裡量長高了幾公分呢？"
+          },
+          "factGroundingSourceId": "115-s1/g1/health-pe#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-health-pe-u3",
+      "stageId": "115-s1-g1-health-pe-u3",
+      "title": "第三單元 營養的食物",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "食物調色盤：healthy 與 unhealthy",
+          "narrationText": "每天吃進不同顏色的天然食物，就像畫出繽紛的食物調色盤！少吃高糖高油零食，多喝白開水、細嚼慢嚥最健康。",
+          "cognitiveChunks": [
+            "多樣天然食物是健康的 healthy",
+            "高糖高油零食是 unhealthy 要少吃",
+            "每天吃早餐、喝白開水、珍惜食物"
+          ],
+          "analogyAnchor": "餐盤就像小畫家的調色盤，紅橙黃綠各種顏色的天然食物都吃一點，營養才均衡！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "健康食物（healthy）",
+              "leftPoints": [
+                "新鮮蔬菜、水果與白米飯",
+                "魚肉牛奶與乾淨白開水"
+              ],
+              "rightTitle": "少吃點心（unhealthy）",
+              "rightPoints": [
+                "糖果、蛋糕與含糖汽水",
+                "油炸薯條與洋芋片"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "天然蔬果營養多",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "高糖油炸要少吃",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/health-pe#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "養成飲食好習慣",
+          "narrationText": "吃對食物也要用正確的方法吃，身體才能好好吸收營養喔。",
+          "cognitiveChunks": [
+            "專心坐好細嚼慢嚥不邊跑邊吃",
+            "吃多少盛多少、珍惜食物"
+          ],
+          "workedExampleData": {
+            "problemStatement": "怎麼吃飯才能讓肚肚好消化又健康？",
+            "steps": [
+              "第 1 步：每天早上先吃頓營養的早餐，才有精神上課",
+              "第 2 步：吃飯時坐端正，不看螢幕、慢慢咬碎再吞",
+              "第 3 步：盛剛好的份量把飯菜吃光，口渴多喝白開水"
+            ],
+            "commonErrorContrast": "常見錯誤：邊跑邊吃或邊看平板邊含飯，或是只吃炸雞和喝甜汽水。",
+            "selfExplanationPrompt": "想一想：為什麼吃太多糖果和蛋糕容易蛀牙又肚子痛？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/health-pe#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "流汗好口渴時要選什麼喝呢？",
+          "cognitiveChunks": [
+            "白開水最解渴又不傷牙"
+          ],
+          "warmupCheck": {
+            "question": "下課玩得滿頭大汗好口渴，喝哪一種飲品對身體最好？",
+            "prompt": "下課玩得滿頭大汗好口渴，喝哪一種飲品對身體最好？",
+            "options": [
+              "乾淨的白開水",
+              "甜甜的氣泡汽水",
+              "含糖調味奶茶"
+            ],
+            "answerIndex": 0,
+            "explanation": "白開水最解渴、不含糖也不會蛀牙，每天都要記得多喝白開水！",
+            "feedbackCorrect": "答對了！白開水最解渴又健康！",
+            "feedbackRetry": "想一想，哪一種透明無味的水分最解渴又不怕蛀牙呢？"
+          },
+          "factGroundingSourceId": "115-s1/g1/health-pe#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-health-pe-u4",
+      "stageId": "115-s1-g1-health-pe-u4",
+      "title": "第四單元 愛上體育課",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "暖身操與安全遊樂園",
+          "narrationText": "上體育課穿上運動服和運動鞋，先做暖身操打開身體開關；玩溜滑梯和盪鞦韆都要排隊遵守規定！",
+          "cognitiveChunks": [
+            "穿運動服與包覆運動鞋、綁好鞋帶",
+            "運動前先做暖身操預防受傷",
+            "遊樂器材排隊輪流、遵守規定"
+          ],
+          "analogyAnchor": "暖身操就像汽車發動前先熱車，關節和肌肉熱起來後跑跳才不容易受傷！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "穿運動服鞋、收好身上尖銳物",
+                "跟著老師做暖身操伸展關節",
+                "運動後散步緩和、擦汗喝溫水"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "穿運動服與球鞋",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "運動前要做暖身",
+                "anchorPointId": "step2"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/health-pe#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "安全玩校園遊樂器材",
+          "narrationText": "校園的溜滑梯和盪鞦韆真好玩，怎麼玩才不會撞傷呢？",
+          "cognitiveChunks": [
+            "溜滑梯依序排隊、腳朝前坐好溜",
+            "盪鞦韆在安全線外等待"
+          ],
+          "workedExampleData": {
+            "problemStatement": "下課到校園遊戲區玩溜滑梯和盪鞦韆時，要遵守哪些安全守則？",
+            "steps": [
+              "第 1 步：玩溜滑梯從階梯排隊上去，坐好腳朝前、確認下方沒人再溜",
+              "第 2 步：絕不從滑梯出口逆向爬上去，也不頭朝下趴著溜",
+              "第 3 步：排隊等盪鞦韆時站在安全線外，不從鞦韆前後穿過"
+            ],
+            "commonErrorContrast": "常見錯誤：從溜滑梯下面逆向往上爬，或是站在盪鞦韆正前方等。",
+            "selfExplanationPrompt": "想一想：上體育課時，口袋裡的鑰匙或別針為什麼要先收起來？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/health-pe#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "先檢查看看體育課的安全觀念！",
+          "cognitiveChunks": [
+            "運動前暖身能避免抽筋扭傷"
+          ],
+          "warmupCheck": {
+            "question": "正式開始跑步和玩遊戲前，為什麼要先做「暖身操」？",
+            "prompt": "正式開始跑步和玩遊戲前，為什麼要先做「暖身操」？",
+            "options": [
+              "讓身體熱起來、關節變柔軟，避免受傷",
+              "做完暖身操就不用上體育課",
+              "為了故意浪費下課時間"
+            ],
+            "answerIndex": 0,
+            "explanation": "暖身操能提高體溫、增加關節活動度，大幅減少跑步跳躍時扭傷或抽筋的機會！",
+            "feedbackCorrect": "答對了！做好暖身操才能保護關節和肌肉不受傷！",
+            "feedbackRetry": "想一想，如果身體還沒活動開就突然用力跑，會不會容易抽筋扭傷呢？"
+          },
+          "factGroundingSourceId": "115-s1/g1/health-pe#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-health-pe-u5",
+      "stageId": "115-s1-g1-health-pe-u5",
+      "title": "第五單元 我的身體真神奇",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "身體造型、墊上滾翻與動物拳",
+          "narrationText": "我們的身體真神奇！可以用不同數量的支撐點擺出高、低水平造型，也能在軟墊滾翻、開心唱跳和打動物拳。",
+          "cognitiveChunks": [
+            "接觸地面的手腳數量就是支撐點",
+            "墊腳舉手是高水平、趴地爬行是低水平",
+            "動物拳與唱跳要注意周圍安全空間"
+          ],
+          "analogyAnchor": "身體就像百變積木，幾隻手幾隻腳撐在地上就是幾個支撐點，站高高或趴低低能變出各種造型！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "低水平與支撐點",
+              "leftPoints": [
+                "兩手一腳撐地 = 3 個支撐點",
+                "像小烏龜趴地是低水平動作"
+              ],
+              "rightTitle": "高水平與動作展演",
+              "rightPoints": [
+                "踮腳舉手伸長是高水平動作",
+                "打動物拳對空氣出拳不打人"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "低水平貼近地面",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "動物拳不可打人",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/health-pe#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "墊上模仿秀與圓木滾動",
+          "narrationText": "在軟墊上練習滾翻和支撐動作時，做對姿勢既安全又帥氣。",
+          "cognitiveChunks": [
+            "一定要在止滑體操軟墊上排隊輪流做",
+            "圓木頭滾動要手腳伸直併攏"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在軟墊上模仿「圓木頭滾動」時，怎樣做才安全又滾得直？",
+            "steps": [
+              "第 1 步：確認軟墊乾淨且前一位同學已離開墊子",
+              "第 2 步：嘴巴不可含食物，平躺在墊上",
+              "第 3 步：雙手舉過頭伸直、雙腳併攏伸直，像筆直木頭滾動"
+            ],
+            "commonErrorContrast": "常見錯誤：在硬水泥地上翻滾，或是前一位同學還在墊上就急著滾上去。",
+            "selfExplanationPrompt": "想一想：如果用兩隻手和兩隻腳一起撐在地上，這總共是幾個支撐點？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/health-pe#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "數一數身體支撐點，準備挑戰關卡！",
+          "cognitiveChunks": [
+            "觸地的手腳部位數 = 支撐點數"
+          ],
+          "warmupCheck": {
+            "question": "玩「身體造型遊戲」時，用兩隻手加上一隻腳撐在地上，這叫做幾個支撐點？",
+            "prompt": "玩「身體造型遊戲」時，用兩隻手加上一隻腳撐在地上，這叫做幾個支撐點？",
+            "options": [
+              "3 個支撐點",
+              "1 個支撐點",
+              "5 個支撐點"
+            ],
+            "answerIndex": 0,
+            "explanation": "2 隻手加上 1 隻腳一共 3 個部位接觸地面撐住身體，所以是 3 個支撐點！",
+            "feedbackCorrect": "答對了！2 + 1 = 3，一共是 3 個支撐點！",
+            "feedbackRetry": "把接觸地面的手和腳加起來算算看：2 隻手加 1 隻腳是多少呢？"
+          },
+          "factGroundingSourceId": "115-s1/g1/health-pe#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-health-pe-u6",
+      "stageId": "115-s1-g1-health-pe-u6",
+      "title": "第六單元 走走跑跑",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "跟著節奏走、安全快樂跑",
+          "narrationText": "每天多走路能讓雙腳更有力氣！聽到不同節奏就變換步伐，到寬敞的操場跑道安全奔跑吧！",
+          "cognitiveChunks": [
+            "抬頭挺胸目視前方走路最健康",
+            "聽鈴鼓節拍快慢調整走路速度",
+            "在寬敞操場跑道奔跑，不撞人"
+          ],
+          "analogyAnchor": "耳朵就像音樂指揮家，拍子慢就慢慢走、拍子快就跟著加快，跑步時眼睛要像小雷達一樣看清楚前方！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "抬頭挺胸，聽節奏快慢走路",
+                "跑步時手肘微彎自然前後擺動",
+                "想停下來時慢慢減速變成小步走"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "抬頭挺胸看前方",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "手臂彎曲前後擺",
+                "anchorPointId": "step2"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/health-pe#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "跑得穩又安全的秘訣",
+          "narrationText": "掌握跑步姿勢與場地選擇，就能當個安全的小飛毛腿。",
+          "cognitiveChunks": [
+            "手肘彎曲前後擺動維持平衡",
+            "眼睛看前方跑道閃避碰撞"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在操場練習跑步遊戲時，怎樣跑才穩又不會撞到同學？",
+            "steps": [
+              "第 1 步：選擇寬敞平坦的操場跑道，不在教室或走廊跑",
+              "第 2 步：眼睛看清楚前方與周圍同學，手肘微彎前後擺動",
+              "第 3 步：要停下來時慢慢減速變小步走，不突然急煞"
+            ],
+            "commonErrorContrast": "常見錯誤：在擺滿桌椅的教室或樓梯轉角奔跑，或是閉眼低頭衝刺。",
+            "selfExplanationPrompt": "想一想：聽到老師的鈴鼓拍子越敲越快時，走路的速度要怎麼跟著變？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/health-pe#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "選對安全的跑步場地就可以出發囉！",
+          "cognitiveChunks": [
+            "寬敞平坦的操場最適合跑步"
+          ],
+          "warmupCheck": {
+            "question": "想和同學比賽跑步玩遊戲，應該選擇哪一個場地？",
+            "prompt": "想和同學比賽跑步玩遊戲，應該選擇哪一個場地？",
+            "options": [
+              "平坦寬敞的操場跑道",
+              "擺滿桌椅的教室裡",
+              "樓梯轉角處"
+            ],
+            "answerIndex": 0,
+            "explanation": "操場跑道寬敞平坦沒有障礙物，最適合奔跑活動；教室和樓梯非常危險不能奔跑！",
+            "feedbackCorrect": "答對了！在寬敞平坦的操場跑道跑步最安全！",
+            "feedbackRetry": "教室有桌角、樓梯容易跌倒，哪一個地方空間大又平坦呢？"
+          },
+          "factGroundingSourceId": "115-s1/g1/health-pe#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-health-pe-u7",
+      "stageId": "115-s1-g1-health-pe-u7",
+      "title": "第七單元 大球小球真好玩",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u7-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "滾球高手與團隊傳球",
+          "narrationText": "蹲低身體把球順著地面穩穩推出，接球時雙手靠近地面包接；玩團體傳球遊戲更要互相配合與鼓勵！",
+          "cognitiveChunks": [
+            "滾球要蹲低瞄準、順著地面推出",
+            "傳球前先喊名字並確認對方看著你",
+            "下課分工把球收回籃子歸位"
+          ],
+          "analogyAnchor": "滾球就像幫小火車鋪軌道，手臂對準目標貼近地面推出，球就會直直開進終點站！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "推球：蹲低瞄準目標貼地推出",
+                "接球：移動腳步彎腰靠近地面抱住",
+                "傳球：喊名字對眼神、力氣剛好"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "蹲低貼地推球穩",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "傳球前先喊名字",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/health-pe#u7"
+        },
+        {
+          "sceneId": "u7-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "滾球與團體傳球秘訣",
+          "narrationText": "球類遊戲不但能訓練手眼協調，還能培養團隊合作精神。",
+          "cognitiveChunks": [
+            "近距離傳球力道要溫和剛好",
+            "隊友掉球時安慰加油不責怪"
+          ],
+          "workedExampleData": {
+            "problemStatement": "和同學玩團體傳球遊戲時，怎樣做才安全又有團隊精神？",
+            "steps": [
+              "第 1 步：先喊同學名字，確認他伸手看著你再傳球",
+              "第 2 步：用溫和剛好的力氣傳向對方胸前位置",
+              "第 3 步：隊友沒接穩時鼓勵他沒關係，活動結束一起收好球"
+            ],
+            "commonErrorContrast": "常見錯誤：趁同學沒看時用力猛丟，或是隊友掉球就大聲責怪他。",
+            "selfExplanationPrompt": "想一想：接別人滾過來的球時，手要放在高高的空中還是靠近地面擋住它？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/health-pe#u7"
+        },
+        {
+          "sceneId": "u7-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "答對這題就可以當滾球與傳球高手囉！",
+          "cognitiveChunks": [
+            "傳球前要先提醒接球同學準備"
+          ],
+          "warmupCheck": {
+            "question": "和同學玩「傳球遊戲」時，把球傳給對方前要先注意什麼事？",
+            "prompt": "和同學玩「傳球遊戲」時，把球傳給對方前要先注意什麼事？",
+            "options": [
+              "先喊同學名字、確定他看著你準備好再傳",
+              "趁同學轉頭沒注意時用力砸過去",
+              "自己抱著球永遠不傳給別人"
+            ],
+            "answerIndex": 0,
+            "explanation": "傳球前先確認接球夥伴有看著你並伸手準備好，既安全又能順利接力！",
+            "feedbackCorrect": "答對了！先喊名字對好眼神再傳球，最安全又有默契！",
+            "feedbackRetry": "想一想，如果同學還在看旁邊沒準備好，球傳過去會發生什麼事呢？"
+          },
+          "factGroundingSourceId": "115-s1/g1/health-pe#u7"
+        }
+      ]
+    }
+  ]
+}

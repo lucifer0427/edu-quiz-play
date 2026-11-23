@@ -1,0 +1,851 @@
+{
+  "packId": "115-s2-g4-health-pe",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 4,
+  "subjectId": "health-pe",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-health-pe-u1",
+      "stageId": "115-s2-g4-health-pe-u1",
+      "title": "第一單元 健康從齒開始",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "牙齒咀嚼功能與牙線清潔要領",
+          "narrationText": "牙齒負責切斷撕裂與磨碎食物以減輕胃腸負擔；飯後先用牙線清除齒縫殘渣，再以軟毛牙刷配合含氟牙膏刷牙。",
+          "cognitiveChunks": [
+            "牙齒咀嚼食物並與唾液混合，助胃腸消化",
+            "牙線緊貼牙齒側面上下輕刮，勿用力壓傷牙齦",
+            "每半年定期看牙醫檢查並追蹤換牙排列"
+          ],
+          "analogyAnchor": "牙刷就像掃大街的大掃把，牙線則是深入小巷弄的細清道夫；先用牙線清出縫隙菜渣，再讓含氟牙膏刷遍牙面，蛀牙蟲就沒地方躲。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "牙線貼牙面輕刮清齒縫",
+                "軟毛牙刷配含氟牙膏刷牙",
+                "每半年定期給牙醫檢查"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u1-l1",
+                "text": "牙線貼齒面勿傷牙齦",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "u1-l2",
+                "text": "定期檢查顧好換牙期",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/health-pe#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "牙齦護理與選購安全口腔產品",
+          "narrationText": "刷牙若見牙齦紅腫流血不可停刷或硬刷，應改用軟毛牙刷輕柔清潔並就醫；選購產品時要看清標示、效期與合格含氟牙膏。",
+          "cognitiveChunks": [
+            "牙縫卡菜渣勿用竹籤或迴紋針猛戳",
+            "牙齦流血改用軟毛牙刷輕刷並看牙醫",
+            "恆齒排列擁擠應請牙醫評估，勿自行硬推"
+          ],
+          "workedExampleData": {
+            "problemStatement": "青菜卡在牙縫刷不掉，而且最近刷牙牙齦容易流血、新長出的恆齒有點歪斜，該如何正確處理？",
+            "steps": [
+              "第 1 步：用牙線或牙線棒輕柔滑入牙縫，呈 C 字形緊貼牙齒側面上下刮除菜渣",
+              "第 2 步：挑選刷頭適中的合格軟毛牙刷與有效期限內的含氟牙膏，輕柔刷淨牙齦交界",
+              "第 3 步：請家長陪同定期看牙醫，檢查牙齦發炎狀況並評估換牙期齒列是否需要追蹤"
+            ],
+            "commonErrorContrast": "常見錯誤：拿尖竹籤猛戳牙縫、因流血就完全停刷，或自己用手硬推歪斜的恆齒。",
+            "selfExplanationPrompt": "想一想：在賣場選購牙刷與牙膏時，為什麼不能只看卡通包裝或便宜的特價散裝品？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/health-pe#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "聰明選購合格口腔保健產品",
+          "topicSignalTitle": "挑選牙刷與牙膏時，一定要檢查哪三件事？",
+          "narrationText": "確認外包裝完整未破損、廠商標示清楚且在有效期限內，並選擇刷頭大小適中的軟毛牙刷與合格含氟牙膏。",
+          "cognitiveChunks": [
+            "檢查完整包裝、廠商資訊與有效期限",
+            "刷頭大小適中、軟毛才不傷牙齦",
+            "選用合格含氟牙膏有效預防蛀牙"
+          ],
+          "factGroundingSourceId": "115-s2/g4/health-pe#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次清除牙縫食物殘渣的正確工具，準備闖關！",
+          "cognitiveChunks": [
+            "牙線貼著牙齒側面輕刮才能安全清齒縫"
+          ],
+          "warmupCheck": {
+            "prompt": "午餐後青菜卡在牙縫裡用牙刷刷不掉時，使用哪一種工具與方式最安全有效？",
+            "options": [
+              "用牙線或牙線棒緊貼牙齒側面輕輕上下刮除",
+              "用尖竹籤或迴紋針用力往牙縫猛戳",
+              "放著不管等菜渣自己消失"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！牙線能安全深入齒縫清出殘渣又不刺傷嬌嫩牙齦。",
+            "feedbackRetry": "尖銳竹籤或指甲很容易戳傷牙肉流血喔！哪一種工具是專門用來清牙縫的？"
+          },
+          "factGroundingSourceId": "115-s2/g4/health-pe#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-health-pe-u2",
+      "stageId": "115-s2-g4-health-pe-u2",
+      "title": "第二單元 消費高手",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "理性消費「需要 vs 想要」與購物權益",
+          "narrationText": "實體店面可現場檢查實物，網路購物省時選擇多但須留意退換貨規範；消費前分清「需要」與「想要」，結帳記得保留發票憑證。",
+          "cognitiveChunks": [
+            "不被「滿額送贈品」誘惑，先分清需要與想要",
+            "比較實體店面與網路購物的優缺點與風險",
+            "妥善保留統一發票或訂單明細保障退換貨權益"
+          ],
+          "analogyAnchor": "購物前就像在路口遇見紅綠燈：「停」下來想一想是不是真的需要、「看」清楚包裝標示與保存溫度、「聽」取理性建議並拿好發票憑證。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "實體店面購物",
+              "leftPoints": [
+                "能現場觸摸並檢查效期包裝",
+                "須花交通時間前往商店"
+              ],
+              "rightTitle": "網路購物",
+              "rightPoints": [
+                "免出門比價快、選擇豐富",
+                "須防圖文落差並留意退貨規範"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u2-l1",
+                "text": "實體可現場檢查商品",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u2-l2",
+                "text": "網購要留意退換貨規則",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/health-pe#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "聰明選安心吃：檢查包裝與食品標示",
+          "narrationText": "選購食品時要檢查包裝完整不漏氣膨脹、背面有清楚品名成分與有效日期，且冷藏飲品須確實放在低溫冷藏櫃中。",
+          "cognitiveChunks": [
+            "封口裂開、紙盒膨脹或罐頭凹陷生鏽絕不買",
+            "看清品名、成分、有效日期、過敏原與廠商資訊",
+            "拒絕標示不明或有酸味的來路不明散裝零食"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在超商買牛奶和零食，回家後又發現網購的運動鞋尺寸不合，消費高手該怎麼檢查與處理？",
+            "steps": [
+              "第 1 步：買食品前檢查包裝無破損膨脹、鮮奶確實冰在冷藏櫃、背面有效日期與成分清楚",
+              "第 2 步：結帳現場核對金額與品項，並主動索取妥善保留統一發票或交易明細",
+              "第 3 步：網購瑕疵或不合商品不丟棄也不謾罵，保留完整包裝與訂單明細依合法程序退換貨"
+            ],
+            "commonErrorContrast": "常見錯誤：為了湊滿額贈品花光零用錢、買膨脹的牛奶盒，或把發票隨手揉進垃圾桶。",
+            "selfExplanationPrompt": "想一想：為什麼公園門口沒有廠商與有效日期標示、價格又超便宜的散裝軟糖絕對不能買？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/health-pe#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "食品安全停看聽三道防線",
+          "topicSignalTitle": "選購包裝食品吃得安心，必看的三大指標是什麼？",
+          "narrationText": "包裝完整不膨脹、標示清楚沒過期、保存溫度合乎規定（如冷藏品放低溫櫃），守住這三關就能吃得健康又安心。",
+          "cognitiveChunks": [
+            "包裝無裂口漏氣、無膨脹「胖聽」",
+            "品名、成分、有效日期與廠商資訊齊全",
+            "生鮮乳製品須存放於低溫冷藏設備"
+          ],
+          "factGroundingSourceId": "115-s2/g4/health-pe#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次結帳保障消費權益的好習慣，準備進入第二關！",
+          "cognitiveChunks": [
+            "保留統一發票或購買憑證是維護退換貨權益的關鍵"
+          ],
+          "warmupCheck": {
+            "prompt": "在商店購買物品結帳時，養成哪一個好習慣最能保障日後退換貨的消費權益？",
+            "options": [
+              "把發票當場揉掉丟進垃圾桶",
+              "主動索取並妥善保留統一發票或購買憑證",
+              "不看金額與商品直接跑出店外"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！統一發票與交易明細是購買證明，遇到瑕疵時才能順利維護自身權益。",
+            "feedbackRetry": "如果回家發現買到的東西壞掉了要回去換，老闆會請你拿出什麼購買證明呢？"
+          },
+          "factGroundingSourceId": "115-s2/g4/health-pe#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-health-pe-u3",
+      "stageId": "115-s2-g4-health-pe-u3",
+      "title": "第三單元 成長的喜悅",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "接納青春期變化與尊重異性界線",
+          "narrationText": "每個人進入青春期的步調不同，長痘痘或變聲都是正常成長記號；男女生互動要平等有禮、守護身體界線並勇於拒絕騷擾。",
+          "cognitiveChunks": [
+            "以正向態度接納青春期發育速度的個別差異",
+            "不嘲笑同學青春痘或變聲，不亂擠痘痘",
+            "男女生平等相處、尊重身體界線、對性騷擾大聲說不"
+          ],
+          "analogyAnchor": "每個人就像不同品種的花朵，有的春天開、有的夏天開，不用急著跟別人比早晚；身體界線則是自己的隱形保護圈，誰都不能隨意跨越。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "迎接青春期變化",
+              "leftPoints": [
+                "身高、變聲與長痘因人而異",
+                "溫和洗臉、不擠痘、規律作息"
+              ],
+              "rightTitle": "尊重互動與夢想",
+              "rightPoints": [
+                "尊重身體界線，遇騷擾大聲說不",
+                "打破性別刻板印象勇敢追夢"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u3-l1",
+                "text": "接納成長差異不嘲笑",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u3-l2",
+                "text": "護身體界線破性別偏見",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/health-pe#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "防範性騷擾自保與突破性別刻板印象",
+          "narrationText": "遇到讓人不舒服或侵犯身體隱私的碰觸要立刻說不、離開現場並向大人求助；同時鼓勵每個人依興趣選擇社團與未來志向，不受性別限制。",
+          "cognitiveChunks": [
+            "遇騷擾錯不在己：大聲說不、快離現場、告訴師長",
+            "男生也能細心當護理師，女生也能成為工程師",
+            "國小階段多方嘗試社團與活動探索潛能"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在學校遇到令人不舒服的身體碰觸，另外有同學笑「男生參加烹飪社很怪」，該如何正確應對？",
+            "steps": [
+              "第 1 步：遇到不舒服或侵犯界線的碰觸，堅定大聲說「不！我不喜歡這樣」，立刻離開並告訴師長家人",
+              "第 2 步：不隱忍也不自責，錯在侵犯他人界線的行為者，勇敢尋求大人保護",
+              "第 3 步：反駁性別刻板印象，肯定每個人都能依自己的興趣自由選擇烹飪、程式或運動社團"
+            ],
+            "commonErrorContrast": "常見錯誤：遇到騷擾怕丟臉而默默忍耐，或用「男生就該、女生只能」的偏見嘲笑他人興趣。",
+            "selfExplanationPrompt": "想一想：青春期皮脂腺分泌較旺盛長出青春痘時，日常洗臉與飲食作息該怎麼照顧？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/health-pe#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "我的未來不是夢：多元探索潛能",
+          "topicSignalTitle": "為什麼要打破性別刻板印象？",
+          "narrationText": "細心、勇敢、專業能力與性別無關，而是取決於個人特質與努力；不畫地自限並多方嘗試，才能發現自己真正的熱情。",
+          "cognitiveChunks": [
+            "能力與職業選擇不受性別限制",
+            "多方嘗試閱讀、運動、藝術與科技活動",
+            "尊重自己與他人的獨特興趣"
+          ],
+          "factGroundingSourceId": "115-s2/g4/health-pe#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次遇到身體界線被侵犯時的自保步驟，準備闖關！",
+          "cognitiveChunks": [
+            "遇性騷擾應堅定說不、離開現場並向師長求助"
+          ],
+          "warmupCheck": {
+            "prompt": "如果遇到任何人做出讓你感到不舒服或侵犯身體隱私部位的碰觸時，最正確的自保因應步驟是什麼？",
+            "options": [
+              "怕丟臉不敢出聲，默默忍氣吞聲",
+              "堅定大聲說「不！」，迅速離開現場並立刻告訴信任的師長或家人",
+              "躲在棉被裡偷哭不告訴任何人"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！錯不在你，勇敢說不、遠離危險並找大人保護是最重要的步驟。",
+            "feedbackRetry": "遇到令人不舒服的騷擾絕對不能默默忍耐喔！要勇敢發出聲音並向誰求助呢？"
+          },
+          "factGroundingSourceId": "115-s2/g4/health-pe#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-health-pe-u4",
+      "stageId": "115-s2-g4-health-pe-u4",
+      "title": "第四單元 防災小小兵",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "地震防災準備與避難應變三步驟",
+          "narrationText": "平時固定高大家具並備妥緊急避難包；地震劇烈搖晃時立刻「趴下、掩護、穩住」，震後疏散則遵守「不語、不跑、不推」。",
+          "cognitiveChunks": [
+            "固定家具重物，避難包備飲水、乾糧、手電筒、哨子",
+            "室內地震當下：趴下、掩護、穩住（護頭頸、抓桌腳）",
+            "戶外地震遠離建物圍牆；震後疏散不語、不跑、不推"
+          ],
+          "analogyAnchor": "地震保命口訣就像兩段式安全護盾：搖晃當下用「趴下、掩護、穩住」守住原地安全，搖晃停了用「不語、不跑、不推」有序撤離到空曠操場。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "平時備避難包固定重物",
+                "震時：趴下、掩護、穩住",
+                "震後：不語、不跑、不推"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u4-l1",
+                "text": "桌下護頭頸抓緊桌腳",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "u4-l2",
+                "text": "走樓梯疏散切勿搭電梯",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/health-pe#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "颱風防範準備與豪雨積水安全判斷",
+          "narrationText": "颱風來襲前清理排水孔並收妥陽台花盆；颱風天待在室內不觀浪，山區配合預防性撤離；雨後遇混濁積水與垂落電線務必繞行通報。",
+          "cognitiveChunks": [
+            "颱風前清排水孔、移入或固定陽台花盆懸掛物",
+            "颱風天停班停課應待室內，絕不去海邊觀浪戲水",
+            "雨後遠離混濁積水與垂落電線，防觸電與坑洞"
+          ],
+          "workedExampleData": {
+            "problemStatement": "陸上颱風警報發布後，以及豪雨過後發現巷弄積水又看到路邊有垂落電線，分別該怎麼應變？",
+            "steps": [
+              "第 1 步：颱風登陸前清理排水孔、移入陽台花盆、備妥手電筒飲水，住山坡溪邊者配合預防性撤離",
+              "第 2 步：颱風期間待在堅固室內遠離窗戶，不外出觀浪或在大樹招牌下逗留",
+              "第 3 步：雨後遇混濁積水與垂落電線立即停止前進、繞行高處並告訴大人通報處理"
+            ],
+            "commonErrorContrast": "常見錯誤：颱風假去海邊看浪、地震時衝去搭電梯，或穿拖鞋直接涉過混濁積水。",
+            "selfExplanationPrompt": "想一想：如果地震發生當下人剛好在戶外空曠操場，沒有桌子可以躲時應該怎麼保護自己？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/health-pe#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "緊急避難包必備物品清單",
+          "topicSignalTitle": "放在玄關隨手可拿的緊急避難包，應該裝什麼？",
+          "narrationText": "避難包講求輕便實用並定期檢查效期，應備妥飲用水、簡易乾糧、手電筒、備用電池、哨子、急救藥品與證件影本。",
+          "cognitiveChunks": [
+            "飲用水、乾糧並定期更換未過期",
+            "手電筒、哨子（求救用）與急救藥品",
+            "放在玄關或門口易取處，不鎖在深櫃"
+          ],
+          "factGroundingSourceId": "115-s2/g4/health-pe#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次室內發生強烈地震時的保命三步驟，準備闖關！",
+          "cognitiveChunks": [
+            "室內防震優先執行趴下、掩護、穩住"
+          ],
+          "warmupCheck": {
+            "prompt": "上課時突然發生強烈地震，正在教室裡的同學第一時間應該優先執行哪三個防震應變動作？",
+            "options": [
+              "趴下、掩護、穩住（躲桌下護頭頸、抓桌腳）",
+              "立刻衝出去搭電梯下樓",
+              "全部人擠在門口推擠奔跑"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！先就地趴下掩護護住頭頸、抓緊桌腳穩住，才能避免被掉落物砸傷。",
+            "feedbackRetry": "劇烈搖晃時奔跑或搭電梯非常危險喔！還記得防災演練的三個保命動作口訣嗎？"
+          },
+          "factGroundingSourceId": "115-s2/g4/health-pe#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-health-pe-u5",
+      "stageId": "115-s2-g4-health-pe-u5",
+      "title": "第五單元 運動休閒樂趣多",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "家庭規律運動、登階、健走與武術",
+          "narrationText": "和家人挑選共同喜愛的運動並固定時段實踐；登階注意防滑鞋與穩踩階面、健走抬頭擺臂、武術則兼具協調訓練與武德禮儀。",
+          "cognitiveChunks": [
+            "家庭運動採循序漸進、固定時段與互相鼓勵",
+            "登階穿包腳止滑鞋、全腳掌踩實穩固階面",
+            "健走抬頭挺胸自然擺臂，場地限制少且全齡適宜"
+          ],
+          "analogyAnchor": "全家人一起建立運動習慣就像存健康撲滿：每週固定拿出小銅板（登階、健走或練武術），不用一次投太重，長久累積就能存出滿滿活力。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "登階與健走休閒",
+              "leftPoints": [
+                "穿止滑鞋、全腳掌穩踩階面",
+                "抬頭擺臂健走不傷膝、全齡宜"
+              ],
+              "rightTitle": "傳統武術「臥虎藏龍」",
+              "rightPoints": [
+                "馬步膝不超過腳尖、上身挺直",
+                "重協調平衡與抱拳武德禮儀"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u5-l1",
+                "text": "健走登階安全又便利",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u5-l2",
+                "text": "武術練協調與自律武德",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/health-pe#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "安全運動裝備與武術馬步團體規範",
+          "narrationText": "出門健走或登階要穿透氣衣物與合腳運動鞋並適度補水；團體練武術時須先暖身、拉開安全距離並守紀律。",
+          "cognitiveChunks": [
+            "穿透氣排汗衣與合腳防滑運動鞋，適度喝白開水",
+            "練馬步雙腳比肩寬、上身挺直、膝蓋不內夾",
+            "武術團體練習前先暖身並拉開四周安全間距"
+          ],
+          "workedExampleData": {
+            "problemStatement": "假日想帶原本少運動的爸媽一起健走或登階，在學校體育課又要進行〈臥虎藏龍〉武術團體練習，要注意哪些要領？",
+            "steps": [
+              "第 1 步：與家人商量固定時段，穿透氣衣物與止滑運動鞋，登階全腳掌踩實、健走抬頭擺臂",
+              "第 2 步：運動前後確實暖身與緩和伸展，過程中適時補充白開水",
+              "第 3 步：武術練習前先暖身並與同學拉開安全距離，蹲馬步時保持上身挺直、膝蓋對準腳尖"
+            ],
+            "commonErrorContrast": "常見錯誤：穿平底拖鞋或邊滑手機邊登階、健走把手插口袋駝背，或沒拉開距離就揮拳踢腿。",
+            "selfExplanationPrompt": "想一想：為什麼「健走」特別適合國小學生、爸媽以及爺爺奶奶一起參與？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/health-pe#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "未曾學藝先學禮的武術精神",
+          "topicSignalTitle": "學習武術除了強身，還培養了哪兩項品格？",
+          "narrationText": "武術透過行抱拳禮與專注練習，培養尊師重道、自律專注且不欺負弱小的武德精神。",
+          "cognitiveChunks": [
+            "行禮展現尊師重道與謙遜風度",
+            "訓練全身協調、平衡與下盤穩定",
+            "專注自律，絕不用武術欺負同學"
+          ],
+          "factGroundingSourceId": "115-s2/g4/health-pe#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次正確的健走姿勢特徵，準備進入第五關！",
+          "cognitiveChunks": [
+            "健走須抬頭挺胸、手肘微彎自然前後擺動"
+          ],
+          "warmupCheck": {
+            "prompt": "練習正確的「健走」姿勢時，掌握哪一項動作特徵才能獲得良好運動效果？",
+            "options": [
+              "抬頭挺胸目視前方、手肘微彎自然前後擺動、步伐穩健",
+              "低頭駝背、雙手插在褲袋裡慢慢晃",
+              "雙手背在身後一動不動"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！上半身挺直搭配雙臂自然擺動與穩健步伐，才能有效鍛鍊心肺與下肢。",
+            "feedbackRetry": "健走要有運動效果可不能把手插口袋駝背喔！上半身和雙臂應該怎麼擺動？"
+          },
+          "factGroundingSourceId": "115-s2/g4/health-pe#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-health-pe-u6",
+      "stageId": "115-s2-g4-health-pe-u6",
+      "title": "第六單元 運動大集合",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "柔軟度伸展時機與墊上創意造型",
+          "narrationText": "運動前做動態伸展活絡關節、運動後做靜態伸展放鬆肌肉；墊上柔軟支撐與多人身體作畫需要軟墊安全、高低層次與合作默契。",
+          "cognitiveChunks": [
+            "良好柔軟度使動作靈活並減少扭傷拉傷",
+            "運動前「動態伸展」熱身；運動後「靜態伸展」放鬆",
+            "靜態伸展至「微緊不痛」停留 10–20 秒並順暢呼吸"
+          ],
+          "analogyAnchor": "肌肉就像橡皮筋：運動前先「動態」動一動讓橡皮筋暖起來有彈性，運動後再「靜態」慢慢拉長放鬆，才不會硬扯受傷。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "運動前：動態伸展",
+              "leftPoints": [
+                "活絡關節並提升體溫",
+                "如擺臂繞環、高抬腿"
+              ],
+              "rightTitle": "運動後：靜態伸展",
+              "rightPoints": [
+                "慢拉肌肉至微緊不痛停留",
+                "保持呼吸不憋氣、不猛壓"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u6-l1",
+                "text": "運動前動態熱身關節",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u6-l2",
+                "text": "運動後靜態微緊不痛",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/health-pe#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "柔軟支撐安全、身體作畫與踢毽子",
+          "narrationText": "墊上支撐要先檢查軟墊平整與核心穩定；多人身體作畫善用高低層次合作；踢毽子則從拋起用腳內側單次踢接循序練習。",
+          "cognitiveChunks": [
+            "雙人支撐先溝通保護，絕不開玩笑放手",
+            "身體作畫善用高低層次、延伸方向與彼此連線",
+            "踢毽子用腳內側（足弓）從一拋一踢一接練起"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在墊上進行雙人〈柔軟支撐〉與〈用身體作畫〉造型，還有初學〈毽子樂〉一直踢偏時，各該怎麼做？",
+            "steps": [
+              "第 1 步：確認體操軟墊平整無滑動並暖身手腕肩膀，雙人支撐時收緊核心且互相保護",
+              "第 2 步：身體作畫先討論共同主題，傾聽組員點子並善用高低層次與連結呈現造型",
+              "第 3 步：踢毽子先練習用手拋起後以「腳內側」單次踢接掌握落點，熟練後再挑戰連續踢"
+            ],
+            "commonErrorContrast": "常見錯誤：拉筋時憋氣彈震或請同學猛壓、雙人支撐時故意放手，或踢毽子第一分鐘就硬拼連踢一百下。",
+            "selfExplanationPrompt": "想一想：為什麼「用身體作畫」如果每個人都只做一模一樣的立正姿勢，就很難看出創意主題？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/health-pe#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "安全伸展四字訣：慢、停、呼、不痛",
+          "topicSignalTitle": "做靜態伸展拉筋時，怎麼判斷力道剛剛好？",
+          "narrationText": "拉筋不是越痛越有效！慢慢伸展到肌肉微緊但不疼痛的位置停留十至二十秒，全程保持自然呼吸，柔軟度就會安全進步。",
+          "cognitiveChunks": [
+            "速度慢、不快速上下彈震",
+            "到微緊不痛處停留 10–20 秒",
+            "全程順暢呼吸，絕不憋氣"
+          ],
+          "factGroundingSourceId": "115-s2/g4/health-pe#u6"
+        },
+        {
+          "sceneId": "u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次動態與靜態伸展的正確時機，準備闖關！",
+          "cognitiveChunks": [
+            "運動前宜動態伸展、運動後宜靜態伸展"
+          ],
+          "warmupCheck": {
+            "prompt": "在體育課的運動流程中，「動態伸展」與「靜態伸展」分別適合安排在什麼時候？",
+            "options": [
+              "運動前做動態伸展活絡關節；運動後做靜態伸展放鬆肌肉",
+              "運動前靜態硬壓一字馬；運動後大力甩手跳躍",
+              "兩種都只有受傷時才做"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！運動前動態熱身、運動後靜態收操，最能保護肌肉關節。",
+            "feedbackRetry": "還沒運動前身體冷冷的要先動一動熱身，運動完流汗緊繃才靜下來慢拉放鬆喔！"
+          },
+          "factGroundingSourceId": "115-s2/g4/health-pe#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-health-pe-u7",
+      "stageId": "115-s2-g4-health-pe-u7",
+      "title": "第七單元 球兒好好玩",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u7-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "足籃躲羽四大球類核心技巧",
+          "narrationText": "足球用腳內側傳停、輕推小步盤球；籃球用指腹控球抬頭突破；躲避球面對來球轉身後退閃躲並快傳；羽球則先從穩定托球手感練起。",
+          "cognitiveChunks": [
+            "足球：腳內側（足弓）面積大最穩，盤球球離腳近",
+            "籃球：指腹壓控、抬頭觀察場上，勿抱球走步",
+            "躲避球與羽球：面朝球路不背對、快傳找空檔、穩握拍先托球"
+          ],
+          "analogyAnchor": "四種球類各有專屬密碼：足球靠腳內側「大勺子」穩穩接傳、籃球靠指腹「小彈簧」控球抬頭看、躲避球靠「快傳」調動防守、羽球靠「輕托」找甜區手感。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "足球與籃球突破",
+              "leftPoints": [
+                "足球腳內側傳停、小步盤球",
+                "籃球指腹控球、抬頭找隊友"
+              ],
+              "rightTitle": "躲避球與羽球基礎",
+              "rightPoints": [
+                "面向來球不背對、快傳找空檔",
+                "羽球輕輕向上托球練穩定"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u7-l1",
+                "text": "控球離身近且抬頭看",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u7-l2",
+                "text": "面朝來球不背對閃躲",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/health-pe#u7"
+        },
+        {
+          "sceneId": "u7-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "球場戰術配合與跨場地安全禮儀",
+          "narrationText": "躲避球快速傳接能調動對方防守；雙人羽球保持安全站位免撞拍；球滾進別組場地時先在場外示意再撿球致謝。",
+          "cognitiveChunks": [
+            "躲避球內外場快傳讓防守者來不及回頭",
+            "雙人打羽球保持間距並喊聲溝通，防球拍互撞",
+            "撿滾進別組場地的球前先喊「小心球」再致謝"
+          ],
+          "workedExampleData": {
+            "problemStatement": "躲避球進攻一直打不到對方、雙人打羽球怕撞到拍子，而且足球踢偏滾進別組場地時，該怎麼做？",
+            "steps": [
+              "第 1 步：躲避球進攻先與內外場隊友快速換邊傳接，調動對方防守視線再找空檔出手",
+              "第 2 步：羽球同隊保持安全站位間距並喊聲「我來！」，揮拍前留意周圍無人太靠近",
+              "第 3 步：足球滾進別組場地時不低頭亂衝，先在場外示意「借過／小心球！」，等對方暫停再撿並道謝"
+            ],
+            "commonErrorContrast": "常見錯誤：躲避球內場防守背對球亂跑、足球大腳踢飛追不到，或低頭直接衝進別組場地搶球。",
+            "selfExplanationPrompt": "想一想：初學羽球時，為什麼要先從「向上連續托球」開始練，而不是一開始就用全力殺球？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/health-pe#u7"
+        },
+        {
+          "sceneId": "u7-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "躲避球防守安全：絕不背對球",
+          "topicSignalTitle": "在躲避球內場閃躲時，為什麼一定要面朝球來的方向？",
+          "narrationText": "隨時保持面朝持球方側身移動，才能看見球路判斷閃躲或接球時機，並保護臉部與後腦不遭突襲受傷。",
+          "cognitiveChunks": [
+            "面朝持球進攻方，隨時追蹤球路",
+            "側身縮小面積，快速後退或下蹲閃躲",
+            "背對球看不見來球容易被擊中或絆倒"
+          ],
+          "factGroundingSourceId": "115-s2/g4/health-pe#u7"
+        },
+        {
+          "sceneId": "u7-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次足球短距離傳停最穩的觸球部位，準備闖關！",
+          "cognitiveChunks": [
+            "腳內側（足弓）面積大且平整最適合傳停"
+          ],
+          "warmupCheck": {
+            "prompt": "在足球〈傳停大挑戰〉中，想把球穩穩停在腳邊並準確短傳給隊友，用腳部的哪個部位觸球最穩定？",
+            "options": [
+              "腳內側（足弓處）",
+              "腳尖最前端一點點",
+              "小腿肚後方"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！腳內側寬大平坦，傳球準確又容易把來球穩穩停住。",
+            "feedbackRetry": "用尖尖的腳尖戳球很容易踢飛喔！腳掌哪一側最平坦寬大好控制？"
+          },
+          "factGroundingSourceId": "115-s2/g4/health-pe#u7"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-health-pe-u8",
+      "stageId": "115-s2-g4-health-pe-u8",
+      "title": "第八單元 戲水安全停看聽",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u8-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "防溺常識與救溺五步「叫叫伸拋划」",
+          "narrationText": "戲水須選合法有救生員水域且大人陪同，遵守禁止戲水標示；見人溺水絕不可貿然下水救人，應依「叫、叫、伸、拋、划」站在岸上施援。",
+          "cognitiveChunks": [
+            "不去無人看管溪流海邊，不忽視水深危險標示",
+            "救溺五步：大聲叫救命、叫 119/118、岸上伸竹竿或拋浮具",
+            "自己落水保持冷靜仰漂（水母漂），口鼻朝上等救援"
+          ],
+          "analogyAnchor": "看到同伴落水時，「自己跳下去」往往變成兩個人一起危險；站在安全岸邊大聲「叫」人與報警，再「伸」竹竿或「拋」綁緊的空寶特瓶，才是聰明小救星。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "叫：大聲呼救並打 119/118",
+                "伸：趴低用竹竿樹枝延伸",
+                "拋：拋送救生圈或空寶特瓶"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u8-l1",
+                "text": "絕不貿然跳下水或手拉手",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "u8-l2",
+                "text": "留在岸上伸拋浮具救援",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/health-pe#u8"
+        },
+        {
+          "sceneId": "u8-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "泳池入水準備、流線型潛行與水中換氣",
+          "narrationText": "下水前淋浴適應水溫並暖身防抽筋；水中蹬牆潛行採雙臂夾耳的「流線型」減少阻力，換氣則掌握「水中吐氣、水上吸氣」。",
+          "cognitiveChunks": [
+            "下水前淋浴、暖身、確認水深且不在池邊奔跑跳水",
+            "蹬牆潛行：雙臂伸直夾耳、低頭看池底成流線型",
+            "水中用鼻口吐泡泡、露出水面再用嘴輕鬆吸氣"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在泳池練習〈水中小勇士〉蹬牆潛行與划手換氣，以及萬一在野外不慎落水自救時，該怎麼做？",
+            "steps": [
+              "第 1 步：入水前先淋浴適應水溫並充分暖身預防抽筋，確認水深不跑跳",
+              "第 2 步：蹬牆潛行時雙手伸直重疊夾緊耳朵、低頭看池底呈流線型，水中吐氣、水上吸氣",
+              "第 3 步：若不慎落水切勿舉手亂拍，保持冷靜放鬆仰漂或利用浮物讓口鼻在水面呼吸待援"
+            ],
+            "commonErrorContrast": "常見錯誤：見同伴溺水手拉手下水救人、落水時雙手舉出水面亂拍，或在水中憋氣不吐到頭暈。",
+            "selfExplanationPrompt": "想一想：為什麼看似平靜無波的溪流或海灣，只要立有「禁止戲水」紅色警告牌就絕對不能下水？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/health-pe#u8"
+        },
+        {
+          "sceneId": "u8-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "平靜水面下的隱藏危機",
+          "topicSignalTitle": "陽光普照、水面平靜，為什麼還是不能忽視禁止戲水牌？",
+          "narrationText": "開放水域常在平靜水面下隱藏深潭、陡降落差、漩渦或離岸暗流，一旦踩空極易發生危險，必須嚴格遵守安全標示。",
+          "cognitiveChunks": [
+            "水底可能藏有深潭、暗流與陡降落差",
+            "豪雨特報時山區溪水隨時可能暴漲",
+            "只去合法且有救生員駐守的水域戲水"
+          ],
+          "factGroundingSourceId": "115-s2/g4/health-pe#u8"
+        },
+        {
+          "sceneId": "u8-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次遇見同伴溺水時的正確救援原則，準備挑戰最終關卡！",
+          "cognitiveChunks": [
+            "孩童見人溺水應大聲呼救打 119 並在岸上伸拋浮物"
+          ],
+          "warmupCheck": {
+            "prompt": "在河邊或泳池旁看見同伴落水掙扎時，四年級小朋友第一時間最正確的救援做法是什麼？",
+            "options": [
+              "大聲呼救並撥打 119/118，在安全岸上尋找救生圈、長竹竿或空寶特瓶施援，絕不跳下水",
+              "立刻手牽手一起跳進水裡拉同伴",
+              "自己游過去背後抱住同伴"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！切記不可直接下水或手拉手施救，站在岸邊呼救並利用延伸物或漂浮物才安全。",
+            "feedbackRetry": "直接跳進水裡救人非常容易被驚慌的溺水者拉下去喔！站在岸邊可以做哪兩件事？"
+          },
+          "factGroundingSourceId": "115-s2/g4/health-pe#u8"
+        }
+      ]
+    }
+  ]
+}

@@ -137,6 +137,44 @@
             "Starter",
             "Character Education"
           ]
+        },
+        {
+          "id": "115-s2-g4-english-u0-q7",
+          "prompt": "Starter 數字 21–30 挑戰：聽一聽英文數字 \"twenty-three\"，它代表哪一個阿拉伯數字？",
+          "options": [
+            "23",
+            "13",
+            "32",
+            "21"
+          ],
+          "answerIndex": 0,
+          "explanation": "twenty 是 20，three 是 3，合起來 twenty-three 就是 23（13 是 thirteen）。",
+          "hint": "twenty 是「二十」，加上後面的 three 是幾呢？",
+          "speechText": "twenty-three",
+          "speechLang": "en-US",
+          "tags": [
+            "Starter",
+            "Numbers 21-30"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u0-q8",
+          "prompt": "在 21 到 30 之間，哪一個英文數字剛好是「24」？",
+          "options": [
+            "twenty-five",
+            "fourteen",
+            "twenty-four",
+            "forty-two"
+          ],
+          "answerIndex": 2,
+          "explanation": "20 是 twenty，4 是 four，24 寫作 twenty-four（fourteen 是 14）。",
+          "hint": "用 twenty 加上連字號和 4（four）！",
+          "speechText": "twenty-four",
+          "speechLang": "en-US",
+          "tags": [
+            "Starter",
+            "Numbers 21-30"
+          ]
         }
       ]
     },
@@ -274,6 +312,45 @@
             "Phonics",
             "Long Vowel i"
           ]
+        },
+        {
+          "id": "115-s2-g4-english-u1-q7",
+          "prompt": "早上七點整（7:00），鬧鐘響起提醒該去上學了。哪一句英文最能表達「該去上學了」？",
+          "options": [
+            "It's time to go to bed.",
+            "It's time to go to school.",
+            "It's time to eat dinner.",
+            "It's time to take a bath."
+          ],
+          "answerIndex": 1,
+          "explanation": "\"It's time to go to school.\" 意思是「該去上學了」。",
+          "hint": "school 是「學校」的意思喔！",
+          "speechText": "It's time to go to school.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Time Pattern"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u1-q8",
+          "prompt": "Phonics 音組辨識：比較短母音 -a- 與長母音 -a_e，下面哪一個單字的母音發短音 /æ/（與「cat」同音組）？",
+          "options": [
+            "cake",
+            "make",
+            "name",
+            "hat"
+          ],
+          "answerIndex": 3,
+          "explanation": "cat 和 hat 都是短母音 -a-；cake、make、name 都是長母音 -a_e。",
+          "hint": "找沒有字尾不發音 e 的單字！",
+          "speechText": "cat, hat",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Phonics",
+            "Short Vowel a"
+          ]
         }
       ]
     },
@@ -409,6 +486,44 @@
             "Unit 2",
             "Dialogue",
             "Easter"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u2-q7",
+          "prompt": "下課時間大家在教室看故事書，同學問你 \"What are you doing?\"，如果你「正在閱讀」，該怎麼回答？",
+          "options": [
+            "I am read.",
+            "I am reading.",
+            "I reading.",
+            "It's reading."
+          ],
+          "answerIndex": 1,
+          "explanation": "現在進行式回答「我正在閱讀」要用「I am + reading.」。",
+          "hint": "記得同時要有 be 動詞 am 和動詞字尾 -ing！",
+          "speechText": "I am reading.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Present Continuous"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u2-q8",
+          "prompt": "看到妹妹坐在書桌前寫字，媽媽問她 \"What are you doing?\"，她回答 \"I am writing.\" 請問妹妹正在做什麼？",
+          "options": [
+            "正在跑步",
+            "正在睡覺",
+            "正在跳舞",
+            "正在寫字"
+          ],
+          "answerIndex": 3,
+          "explanation": "write 是「寫字」，去掉 e 加 -ing 變成 writing，\"I am writing.\" 表示「我正在寫字」。",
+          "hint": "write 這個動作是用鉛筆在筆記本上做的事喔！",
+          "speechText": "I am writing.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Actions"
           ]
         }
       ]
@@ -547,6 +662,45 @@
             "Review 1",
             "Reading"
           ]
+        },
+        {
+          "id": "115-s2-g4-english-u3-q7",
+          "prompt": "Review 1 校園時間問答：同學問 \"What time is it?\"，時鐘指著 9 點 15 分，下列哪一個回答正確？",
+          "options": [
+            "It's nine fifteen.",
+            "I am nine fifteen.",
+            "It's fifteen nine.",
+            "Yes, I am."
+          ],
+          "answerIndex": 0,
+          "explanation": "回答時刻用 \"It's + 小時 + 分鐘.\"，9 點 15 分是 \"It's nine fifteen.\"。",
+          "hint": "回答時間要用 It's 開頭，先唸 9 再唸 15！",
+          "speechText": "What time is it? It's nine fifteen.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Time"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u3-q8",
+          "prompt": "Phonics 音組複習：比較短母音 -o- 與長母音 -o_e，下面哪一個單字的母音發短音 /ɑ/（與「dog」同音組）？",
+          "options": [
+            "home",
+            "note",
+            "box",
+            "nose"
+          ],
+          "answerIndex": 2,
+          "explanation": "dog 和 box 都是短母音 -o-；home、note、nose 都是長母音 -o_e。",
+          "hint": "找字尾沒有不發音 e 的單字！",
+          "speechText": "dog, box",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Phonics",
+            "Short Vowel o"
+          ]
         }
       ]
     },
@@ -683,6 +837,45 @@
             "Unit 3",
             "Reading"
           ]
+        },
+        {
+          "id": "115-s2-g4-english-u4-q7",
+          "prompt": "房間名稱單字：早上起床後走進去刷牙、洗臉、洗澡的「浴室」，英文是哪一個單字？",
+          "options": [
+            "bedroom",
+            "bathroom",
+            "kitchen",
+            "dining room"
+          ],
+          "answerIndex": 1,
+          "explanation": "bath（洗澡）加上 room（房間）就是 bathroom（浴室）。",
+          "hint": "bath 有洗澡的意思，合起來就是浴室！",
+          "speechText": "bathroom",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Rooms"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u4-q8",
+          "prompt": "空間對話練習：\"Where is Dad?\"（爸爸在哪裡？），如果爸爸正在「客廳」看報紙，哪一句回答正確？",
+          "options": [
+            "I'm in the kitchen.",
+            "She's in the bedroom.",
+            "It's in the bathroom.",
+            "He's in the living room."
+          ],
+          "answerIndex": 3,
+          "explanation": "Dad（爸爸）是男性第三人稱單數，代名詞用 He，客廳是 living room，合起來是 \"He's in the living room.\"。",
+          "hint": "問 Dad（爸爸）要用 He's 回答，客廳是 living room！",
+          "speechText": "Where is Dad? He's in the living room.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Dialogue",
+            "Rooms"
+          ]
         }
       ]
     },
@@ -817,6 +1010,45 @@
             "Unit 4",
             "Phonics",
             "Long Vowel u"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u5-q7",
+          "prompt": "方位介系詞練習：球滾到桌子「下面」去了，下列哪一句英文可以正確說明球的位置？",
+          "options": [
+            "The ball is under the table.",
+            "The ball is on the table.",
+            "The ball is in the table.",
+            "The ball is twenty-one."
+          ],
+          "answerIndex": 0,
+          "explanation": "under 表示「在……下面」，所以「在桌子下面」是 under the table。",
+          "hint": "找代表「在……下面」的介系詞 under！",
+          "speechText": "The ball is under the table.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Prepositions"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u5-q8",
+          "prompt": "Phonics 音組辨識：比較短母音 -u- 與長母音 -u_e，下面哪一個單字的母音發短音 /ʌ/（與「sun」同音組）？",
+          "options": [
+            "tube",
+            "cute",
+            "cup",
+            "cube"
+          ],
+          "answerIndex": 2,
+          "explanation": "sun 和 cup 都是短母音 -u-；tube、cute、cube 都是長母音 -u_e。",
+          "hint": "找字尾沒有不發音 e 的單字！",
+          "speechText": "sun, cup",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Phonics",
+            "Short Vowel u"
           ]
         }
       ]
@@ -954,6 +1186,44 @@
           "tags": [
             "Final Review",
             "Reading"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u6-q7",
+          "prompt": "文化單元「Landmarks Around the World」：當我們在國際文化交流中介紹不同國家的著名地標與風土民情時，最值得學習的態度是什麼？",
+          "options": [
+            "認為只有自己去過的地方才算重要地標",
+            "以開放與尊重的心認識各地地標背後的歷史與多元文化",
+            "嘲笑其他國家的建築風格很奇怪",
+            "把所有國家的地標都記在同一個城市"
+          ],
+          "answerIndex": 1,
+          "explanation": "四下學習目標強調從多元文化觀點了解並尊重外國風土民情與文化特色。",
+          "hint": "尊重與欣賞各地不同的文化特色，才是國際小公民的態度喔！",
+          "speechText": "Let's learn about landmarks around the world.",
+          "speechLang": "en-US",
+          "tags": [
+            "Culture",
+            "International Education"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u6-q8",
+          "prompt": "全冊綜合問答：媽媽問 \"Where's my key?\"（我的鑰匙在哪裡？），如果鑰匙正放在書桌上的盒子「裡面」，哪一句回答最正確？",
+          "options": [
+            "I'm in the box.",
+            "They're on the box.",
+            "It's under the box.",
+            "It's in the box."
+          ],
+          "answerIndex": 3,
+          "explanation": "my key（一把鑰匙）是單數物品，代名詞用 It，在盒子「裡面」用介系詞 in，所以回答 \"It's in the box.\"。",
+          "hint": "單數物品用 It's，在盒子「裡面」要用介系詞 in！",
+          "speechText": "Where's my key? It's in the box.",
+          "speechLang": "en-US",
+          "tags": [
+            "Final Review",
+            "Dialogue"
           ]
         }
       ]

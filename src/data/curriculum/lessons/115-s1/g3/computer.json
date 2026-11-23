@@ -1,0 +1,1054 @@
+{
+  "packId": "115-s1-g3-computer",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 3,
+  "subjectId": "computer",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-computer-u1",
+      "stageId": "115-s1-g3-computer-u1",
+      "title": "第1週：數位領航員：健康座艙與空間禮儀",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識電腦基本硬體與健康座艙",
+          "narrationText": "進入電腦教室要保持直角坐姿與適當視距，不帶零食飲料。用身體比擬法來記：螢幕是眼睛、主機是大腦、鍵盤滑鼠是手腳。",
+          "cognitiveChunks": [
+            "直角坐姿、保持視距與做護眼操",
+            "螢幕像眼睛、主機像大腦、鍵鼠像手腳",
+            "正確開關機與離座三部曲"
+          ],
+          "analogyAnchor": "電腦就像一位數位夥伴：螢幕是看見畫面的眼睛，鍵盤滑鼠是動手操作的手腳，主機則是負責思考運算的大腦。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "電腦硬體比擬",
+              "leftPoints": [
+                "螢幕＝眼睛（顯示畫面）",
+                "主機＝大腦；鍵鼠＝手腳"
+              ],
+              "rightTitle": "離座三部曲",
+              "rightPoints": [
+                "1. 滑鼠鍵盤整齊歸位",
+                "2. 椅子靠攏、3. 桌面淨空"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "螢幕主機與鍵鼠",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "歸位靠攏淨空",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/computer#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "正確關機與開機檢查步驟",
+          "narrationText": "電腦不能直接拔插頭或只關螢幕，一定要透過開始選單安全關機；遇到螢幕不亮時也要懂得先檢查螢幕開關。",
+          "cognitiveChunks": [
+            "關所有視窗再從開始選單關機",
+            "主機亮但螢幕黑先檢查螢幕開關"
+          ],
+          "workedExampleData": {
+            "problemStatement": "電腦課結束準備關機離開座位，正確的關機與整理步驟是什麼？",
+            "steps": [
+              "第 1 步：先關閉所有正在使用的程式視窗",
+              "第 2 步：從作業系統「開始」選單點選「關機」，等指示燈熄滅",
+              "第 3 步：完成離座三部曲：滑鼠鍵盤歸位、椅子靠攏、桌面淨空"
+            ],
+            "commonErrorContrast": "常見錯誤：只按螢幕電源鍵就以為關機、直接拔牆上插頭，或看到設備故障就自己拉扯電線。",
+            "selfExplanationPrompt": "想一想：用電腦一陣子後，為什麼要看遠方和做護眼操，而不是換看手機？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/computer#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "愛惜公物與視力保健",
+          "topicSignalTitle": "電腦教室最重要的禮儀與保健習慣？",
+          "narrationText": "不帶水壺零食進教室避免設備短路，遇到滑鼠鍵盤故障先舉手請老師檢查，並定時望遠做護眼操保護視力。",
+          "cognitiveChunks": [
+            "不帶飲料零食進電腦教室",
+            "故障舉手報告不亂拔線"
+          ],
+          "factGroundingSourceId": "115-s1/g3/computer#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "檢查看看你是不是合格的數位領航員！",
+          "cognitiveChunks": [
+            "比擬法認識主機功能"
+          ],
+          "warmupCheck": {
+            "prompt": "用「身體比擬法」認識電腦硬體時，如果螢幕像眼睛、鍵盤滑鼠像手腳，那麼「主機」最像人體的哪個部位？",
+            "options": [
+              "頭髮",
+              "大腦，負責運算與控制",
+              "肩膀",
+              "腳趾頭"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！主機內部負責運算、記憶與處理指令，就像電腦的大腦。",
+            "feedbackRetry": "想一想：眼睛看、手腳動，那是誰負責思考與計算全部的指令呢？"
+          },
+          "factGroundingSourceId": "115-s1/g3/computer#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-computer-u2",
+      "stageId": "115-s1-g3-computer-u2",
+      "title": "第2週：手眼協調家：軟體與美學的對話",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "硬體與軟體、Ya 手勢握滑鼠",
+          "narrationText": "硬體像看得見的身體，軟體則像靈魂與思想，讓電腦能畫畫、打字與玩遊戲。用 Ya 手勢握滑鼠，練習單擊、雙擊、拖曳與滾輪。",
+          "cognitiveChunks": [
+            "硬體如身體，軟體如靈魂與思想",
+            "Ya 手勢：食指左鍵、中指右鍵、滾輪瀏覽",
+            "單擊選取、雙擊開啟、拖曳搬移"
+          ],
+          "analogyAnchor": "比出「Ya」手勢放在滑鼠上：左鍵點一下像輕拍選取，連點兩下像敲門開啟，按住不放拖曳就像用夾子搬積木。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "硬體與軟體",
+              "leftPoints": [
+                "硬體：看得到摸得到的實體設備",
+                "軟體：小畫家、遊戲等程式功能"
+              ],
+              "rightTitle": "滑鼠基本操作",
+              "rightPoints": [
+                "單擊左鍵選取、雙擊左鍵開啟",
+                "右鍵叫出選單、滾輪上下捲動"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "硬體身體軟體靈魂",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "單擊雙擊與拖曳",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/computer#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "練習滑鼠拖曳與個人化指標",
+          "narrationText": "在《連連看》《小畫家》《卡打車》中需要用到拖曳技巧，也可以調整滑鼠指標的大小與顏色讓操作更順手。",
+          "cognitiveChunks": [
+            "拖曳：按住左鍵移動再到點放開",
+            "調整指標大小與軌跡提升辨識度"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在《小畫家》或《連連看》中，想把一個物件「拖曳」到新位置，正確動作是什麼？",
+            "steps": [
+              "第 1 步：將游標移到目標物件上，食指「按住左鍵不放」",
+              "第 2 步：在桌面上平順滑動滑鼠，將物件帶到目的地",
+              "第 3 步：確認位置後再鬆開食指「放開左鍵」"
+            ],
+            "commonErrorContrast": "常見錯誤：按右鍵拖曳、還沒到目標就先放開左鍵，或結束時不關閉軟體視窗就直接拔電源。",
+            "selfExplanationPrompt": "想一想：為什麼調整滑鼠指標的顏色、大小或移動軌跡，能幫助新手操作更準確？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/computer#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "手腕放鬆與正確收尾",
+          "topicSignalTitle": "練習手眼協調時如何保護手腕？",
+          "narrationText": "手腕自然平放輕靠桌面不懸空死握，並定時起身活動；課程結束時先存檔關閉軟體視窗，再從系統安全關機。",
+          "cognitiveChunks": [
+            "手腕平放輕靠桌面不緊握",
+            "先關程式視窗再安全關機"
+          ],
+          "factGroundingSourceId": "115-s1/g3/computer#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "測測看你分不分得清楚滑鼠單擊和雙擊！",
+          "cognitiveChunks": [
+            "單擊選取與雙擊開啟"
+          ],
+          "warmupCheck": {
+            "prompt": "關於滑鼠左鍵的「單擊」與「雙擊」操作，下列哪一項說明最正確？",
+            "options": [
+              "單擊用來「選取」項目；雙擊（快速連按兩下）用來「開啟」程式或資料夾",
+              "單擊是用一隻手按，雙擊是兩隻手同時拍打",
+              "單擊會把檔案刪掉，雙擊會把電腦關機",
+              "單擊與雙擊都要按右鍵才有效"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！點一下左鍵是選取，快速連按兩下左鍵是開啟程式或資料夾。",
+            "feedbackRetry": "想一想：打開桌面上的小畫家圖示時，滑鼠左鍵要點一下還是連點兩下呢？"
+          },
+          "factGroundingSourceId": "115-s1/g3/computer#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-computer-u3",
+      "stageId": "115-s1-g3-computer-u3",
+      "title": "第3週：空間管理員：偵探基地的收納邏輯",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "桌面、視窗控制與工作列收納",
+          "narrationText": "電腦「桌面」就像書桌表面，開啟的程式則是攤開的視窗。學會最大化、最小化、關閉、雙視窗並排與釘選工作列，就能成為空間管理員。",
+          "cognitiveChunks": [
+            "桌面如書桌，捷徑是快速入口",
+            "視窗三按鈕：最小化、最大化、關閉",
+            "常用工具釘選至工作列一鍵開啟"
+          ],
+          "analogyAnchor": "桌面就像書桌、工作列就像桌前的筆筒，把常用工具「釘選」在工作列，就像把最常用的鉛筆插在最順手的位置。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "視窗控制三按鈕",
+              "leftPoints": [
+                "－ 最小化：縮小收進工作列",
+                "□ 最大化：放大佔滿；× 關閉"
+              ],
+              "rightTitle": "快速收納工具",
+              "rightPoints": [
+                "釘選工作列：快速開啟與切換",
+                "捷徑：左下角帶小箭頭快速入口"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "最小化最大化關閉",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "釘選工作列與捷徑",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/computer#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "雙視窗並排與系統內建小工具",
+          "narrationText": "偵探任務常需要一邊看圖片線索、一邊用小算盤計算，這時可以調整視窗邊界讓雙視窗並排，也能用「鬧鐘與時鐘」提醒休息。",
+          "cognitiveChunks": [
+            "拖曳視窗邊界或靠左右邊緣並排",
+            "鬧鐘與時鐘設定用眼休息提醒"
+          ],
+          "workedExampleData": {
+            "problemStatement": "想同時在畫面上並排顯示「圖片線索」和「小算盤」方便對照，該怎麼操作？",
+            "steps": [
+              "第 1 步：將滑鼠移到視窗邊框出現雙箭頭時拖曳調整大小",
+              "第 2 步：或將兩個視窗標題列分別拖曳到螢幕左、右邊緣自動貼齊佔半邊",
+              "第 3 步：也可以點選下方工作列圖示快速切換不同視窗"
+            ],
+            "commonErrorContrast": "常見錯誤：以為刪掉桌面「捷徑」就會刪掉程式本體，或把兩個視窗都按「最大化」蓋在一起。",
+            "selfExplanationPrompt": "想一想：系統內建的「小算盤」、「天氣」和「鬧鐘與時鐘」，哪一個最適合提醒自己三十分鐘休息眼睛？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/computer#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "認識小箭頭「捷徑」",
+          "topicSignalTitle": "刪除桌面捷徑會毀掉原本的軟體嗎？",
+          "narrationText": "左下角帶小箭頭的「捷徑」是指向程式存放位置的快速指引牌，刪除捷徑並不會把原本的程式本體刪掉喔！",
+          "cognitiveChunks": [
+            "捷徑是指向程式的快速入口",
+            "刪除捷徑不影響原本程式"
+          ],
+          "factGroundingSourceId": "115-s1/g3/computer#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "確認一下視窗右上角按鈕的功能吧！",
+          "cognitiveChunks": [
+            "最小化收進工作列"
+          ],
+          "warmupCheck": {
+            "prompt": "正在用網頁查資料，想暫時把視窗收起來看桌面但不結束網頁，應該按視窗右上角哪一個按鈕？",
+            "options": [
+              "×（關閉）",
+              "－（最小化），將視窗縮小收進下方工作列",
+              "□（最大化）",
+              "螢幕電源開關"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！按「－（最小化）」會把視窗收進下方工作列，點一下就能再叫回來。",
+            "feedbackRetry": "按「×」會直接關掉程式喔！哪一個符號代表縮小收起來呢？"
+          },
+          "factGroundingSourceId": "115-s1/g3/computer#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-computer-u4",
+      "stageId": "115-s1-g3-computer-u4",
+      "title": "第4週：雲端旅行者：城市搜尋與安全足跡",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "雲端服務應用與保護數位足跡",
+          "narrationText": "Google 地圖、翻譯與 YouTube 是好用的雲端服務；在 Chrome 設定首頁並搜尋「台北捷運」路徑、截圖上傳 Google Classroom 後，記得登出並移除帳號保護數位足跡。",
+          "cognitiveChunks": [
+            "地圖查路線、翻譯查字詞、YouTube 看影音",
+            "Chrome 設首頁、截圖交至 Google Classroom",
+            "公用電腦務必登出與移除帳號"
+          ],
+          "analogyAnchor": "網路世界就像沙灘，搜尋、瀏覽與上傳檔案都會留下「數位足跡」，所以在公用電腦下課前一定要登出並移除帳號，把腳印收乾淨。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "Chrome 設首頁查台北捷運",
+                "截圖保存搜尋路線畫面",
+                "上傳繳交至 Classroom",
+                "登出並移除公用電腦帳號"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "搜尋並截圖保存",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "登出移除保隱私",
+                "anchorPointId": "step4"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/computer#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "使用公用電腦的帳號安全步驟",
+          "narrationText": "在電腦教室登入學校帳號繳交雲端作業後，如果忘記登出，下一節課坐在同一台電腦的同學就能打開你的信箱與作業！",
+          "cognitiveChunks": [
+            "截圖就像是幫螢幕畫面拍照片",
+            "登出並移除帳號避免他人誤用"
+          ],
+          "workedExampleData": {
+            "problemStatement": "查好「台北捷運」路線並完成截圖後，要如何安全完成這堂雲端任務？",
+            "steps": [
+              "第 1 步：將截取下來的路線圖檔上傳至 Google Classroom 指定作業區並按繳交",
+              "第 2 步：在瀏覽器點選個人頭像，確實按下「登出」帳號",
+              "第 3 步：在公用電腦上進一步「移除帳號」登入紀錄，保護個人隱私與數位足跡"
+            ],
+            "commonErrorContrast": "常見錯誤：以為只按「×」關閉瀏覽器就算登出帳號，或把螢幕截圖隨便上傳到公開社群平臺。",
+            "selfExplanationPrompt": "想一想：除了捷運路線圖，Google 地圖還會提供哪些有用的資訊幫助我們出門旅行？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/computer#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "選對雲端服務幫手",
+          "topicSignalTitle": "生活問題該找哪一個雲端服務幫忙？",
+          "narrationText": "規劃搭車路徑找 Google 地圖、查外語單字意思找 Google 翻譯、看生態教學影片找 YouTube，選對雲端服務就能快速解決問題。",
+          "cognitiveChunks": [
+            "Google 地圖：地點與交通路徑",
+            "Google 翻譯：語言；YouTube：影音"
+          ],
+          "factGroundingSourceId": "115-s1/g3/computer#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "確認一下公用電腦的安全守則！",
+          "cognitiveChunks": [
+            "公用電腦登出與移除帳號"
+          ],
+          "warmupCheck": {
+            "prompt": "在大家輪流使用的電腦教室繳交完 Google Classroom 作業後，下課前一定要「登出與移除帳號」最主要的原因是什麼？",
+            "options": [
+              "不移除帳號電腦明天會壞掉",
+              "避免下一位同學看到自己的信件資料或誤用自己的身分",
+              "移除帳號能讓螢幕變大兩倍",
+              "因為規定每次都要忘記密碼"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！確實登出並移除帳號才能保護個人資料與數位足跡不被他人看到或誤用。",
+            "feedbackRetry": "想一想：下一節課會有別班同學使用這台電腦喔，沒登出會有什麼隱私風險？"
+          },
+          "factGroundingSourceId": "115-s1/g3/computer#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-computer-u5",
+      "stageId": "115-s1-g3-computer-u5",
+      "title": "第5–8週：指尖舞者: 鍵盤指法練習曲",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識基準列、定位鍵與英文指法",
+          "narrationText": "練習鍵盤指法前先檢查健康坐姿與視距，雙手輕放基準列 ASDF 與 JKL;，靠 F 鍵與 J 鍵上的小凸起定位，再用大拇指按空白鍵、Shift 鍵切換大小寫。",
+          "cognitiveChunks": [
+            "基準列：左手 ASDF、右手 JKL;",
+            "F 與 J 鍵小凸起幫助盲打定位",
+            "Shift 鍵輸入單一大寫；大拇指按空白鍵"
+          ],
+          "analogyAnchor": "基準列就像指尖舞者的舞台中央，十根手指各有負責的舞步區域，跳出去按上下排後都會回到 F 和 J 兩個定位小記號的家。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "基準列與定位鍵",
+              "leftPoints": [
+                "左手 ASDF、右手 JKL;",
+                "F 與 J 有小凸起記號"
+              ],
+              "rightTitle": "大小寫與空白鍵",
+              "rightPoints": [
+                "Shift＋字母：輸入單一大寫",
+                "左右大拇指：輕按空白鍵"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "基準列與FJ定位",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "Shift大寫與空白",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/computer#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "輸入英文大小寫與短文測驗準備",
+          "narrationText": "練習從基礎列進階到上下列與混合列時，堅持十指分工、先求正確再求速度，測驗時主要看速度與準確性兩個指標。",
+          "cognitiveChunks": [
+            "Shift 鍵配合另一手按字母變大寫",
+            "Caps Lock 會連續鎖定大寫"
+          ],
+          "workedExampleData": {
+            "problemStatement": "打英文句子開頭需要輸入大寫字母 `H`（如 `Hello`），正確的指法操作是什麼？",
+            "steps": [
+              "第 1 步：用一隻手的小指按住「Shift 鍵」不放",
+              "第 2 步：另一隻手用負責 H 鍵的手指輕按一下 H 鍵",
+              "第 3 步：放開 Shift 鍵，繼續用基準列指法打完後面的小寫字母"
+            ],
+            "commonErrorContrast": "常見錯誤：用一指神功戳鍵盤、一直低頭盯鍵盤不看螢幕，或誤按 Caps Lock 讓整句全變成大寫。",
+            "selfExplanationPrompt": "想一想：評估英文短文打字測驗表現時，為什麼不能只看打得有多快，還要看「準確性」？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/computer#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "打字測驗的兩個核心指標",
+          "topicSignalTitle": "如何評估英文短文打字測驗的進步？",
+          "narrationText": "打字測驗主要看「速度（每分鐘字數）」與「準確性（正確率）」，打字前先檢查坐姿與視距，保持節奏感先求準再求快。",
+          "cognitiveChunks": [
+            "速度（每分鐘字數）與準確性",
+            "先求正確穩定、再求速度提升"
+          ],
+          "factGroundingSourceId": "115-s1/g3/computer#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "摸摸鍵盤上的基準列，答對這題就開始練習！",
+          "cognitiveChunks": [
+            "F 鍵與 J 鍵的定位作用"
+          ],
+          "warmupCheck": {
+            "prompt": "鍵盤基準列上的 F 鍵與 J 鍵上方各有一條小凸起記號，這個貼心設計的目的是什麼？",
+            "options": [
+              "提醒大家這兩個鍵壞掉了",
+              "讓雙手食指不用低頭看鍵盤，用觸覺就能摸到並定位回基準列",
+              "表示只能用力敲這兩個鍵",
+              "用來把手指黏在鍵盤上"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！F 和 J 是定位鍵，小凸起能幫我們不看鍵盤就把雙手放回基準列。",
+            "feedbackRetry": "閉上眼睛摸摸看 F 和 J，那個小凸起是不是能幫我們知道手指放對位置了呢？"
+          },
+          "factGroundingSourceId": "115-s1/g3/computer#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-computer-u6",
+      "stageId": "115-s1-g3-computer-u6",
+      "title": "第9–12週：數位小主編: 安全宣導大挑戰",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "注音輸入法、鍵位方位與標點符號",
+          "narrationText": "成為數位小主編需要熟悉中文注音輸入法與全形標點符號，記住聲母多在左、介音韻母多在右的方位規律，打字宣導交通安全文章才流暢。",
+          "cognitiveChunks": [
+            "切換注音輸入法避免打出英文亂碼",
+            "聲母多在左側、介音韻母多在右側",
+            "加上全形標點符號讓語意清楚"
+          ],
+          "analogyAnchor": "注音符號在鍵盤上就像住進左右兩個社區：聲母家族大多住在左邊，介音和韻母家族大多住在右邊，記住方位找按鍵就快多了。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "確認切換為注音輸入法",
+                "依序按注音與聲調鍵",
+                "遇同音字從選字清單挑選",
+                "加入全形中文標點符號"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "拼注音與按聲調",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "同音選字與標點",
+                "anchorPointId": "step4"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/computer#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "中文打字選字與標點輸入技巧",
+          "narrationText": "打中文時常會遇到「同音字」或出現英文字母的情況，只要學會檢查選字清單與切換輸入法就能順利解決。",
+          "cognitiveChunks": [
+            "一聲按空白鍵，同音字要選字",
+            "中文文章使用全形標點符號"
+          ],
+          "workedExampleData": {
+            "problemStatement": "打中文交通安全文章時，螢幕卻跑出 `su3cl3` 字母，而且「小」字常常變成同音的「曉」字，該怎麼處理？",
+            "steps": [
+              "第 1 步：看到 `su3cl3` 代表目前是英文模式，先切換回「注音輸入法（中文模式）」",
+              "第 2 步：依序輸入注音與聲調鍵（第一聲按空白鍵）",
+              "第 3 步：遇到同音字時按向下鍵開啟選字清單，挑選正確的國字並加上全形標點符號"
+            ],
+            "commonErrorContrast": "常見錯誤：不看螢幕選字就送出錯別字、用英文半形句點「.」代替中文句號「。」。",
+            "selfExplanationPrompt": "想一想：學會中文輸入法後，除了打作業文章，還能應用在生活中的哪些溝通情境？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/computer#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "安全宣導文章的交通安全守則",
+          "topicSignalTitle": "打完交通安全文章後，日常該怎麼做到？",
+          "narrationText": "過馬路走斑馬線、遵守紅綠燈號誌、停看聽左右察看來車、不邊走邊滑手機、騎乘機車戴安全帽，就是保護自己平安的重要原則。",
+          "cognitiveChunks": [
+            "走斑馬線守號誌、停看聽",
+            "不在馬路追逐或當低頭族"
+          ],
+          "factGroundingSourceId": "115-s1/g3/computer#u6"
+        },
+        {
+          "sceneId": "u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "檢查一下你在注音輸入時會不會分辨中英模式！",
+          "cognitiveChunks": [
+            "切換注音輸入法"
+          ],
+          "warmupCheck": {
+            "prompt": "要打中文宣導海報時，發現畫面上打出來的全是 `su3cl3` 這類英文字母與數字，最可能是因為忘了切換什麼？",
+            "options": [
+              "忘了把螢幕轉成直的",
+              "目前處於英文模式，須切換成「注音輸入法（中文模式）」",
+              "忘了滾動滑鼠滾輪三次",
+              "注音貼紙被吹掉了"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！`su3cl3` 是「你好」的注音鍵位，切換回中文注音輸入法就能打出國字了。",
+            "feedbackRetry": "鍵盤上雖然有注音，但如果電腦目前在英文模式，就會打出英文字母和數字喔！"
+          },
+          "factGroundingSourceId": "115-s1/g3/computer#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-computer-u7",
+      "stageId": "115-s1-g3-computer-u7",
+      "title": "第13–14週：極速挑戰者: 數位輸入馬拉松",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u7-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "中英文混合暖身與錯鍵重點修正",
+          "narrationText": "數位輸入馬拉松考驗中英文混合輸入的流暢度。賽前先做指法暖身，測驗後從錯誤統計找出常錯鍵位重點練習，再依數據設定下一階段進步目標。",
+          "cognitiveChunks": [
+            "賽前暖身活絡手指、喚醒切換記憶",
+            "Shift 鍵（或 Ctrl+Space）快速切換中英",
+            "依錯鍵報告重點修正、設定合理目標"
+          ],
+          "analogyAnchor": "數位輸入馬拉松就像跑操場：開跑前先暖身才不會抽筋，跑完看成績單找出最弱的步伐加強練習，下次只要比昨天的自己更快更穩就是勝利。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "中英文指法暖身",
+                "中英文混合正式測驗",
+                "分析最常出錯鍵位",
+                "設定下一階段合理目標"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "暖身與混合測驗",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "錯鍵修正設目標",
+                "anchorPointId": "step4"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/computer#u7"
+        },
+        {
+          "sceneId": "u7-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "善用測驗數據設定合理進步目標",
+          "narrationText": "看到測驗系統列出的速度、正確率與錯鍵統計時，要懂得對症下藥，不能訂太誇張的目標，也不能只練已經很熟的按鍵。",
+          "cognitiveChunks": [
+            "一次按對比搶快猛敲更省時間",
+            "目標兼顧高正確率與適度增速"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小琪這次測驗結果是「每分鐘 12 字、正確率 95%」，且系統列出最常錯的五個鍵位，她該怎麼規劃下一階段？",
+            "steps": [
+              "第 1 步：把練習時間集中在前五個常出錯的鍵位，放慢速度建立正確手指記憶",
+              "第 2 步：在維持 95% 以上高正確率的前提下，設定下次挑戰每分鐘 15 至 18 字",
+              "第 3 步：客觀比較這次與上次的進步，不因別人更快而氣餒"
+            ],
+            "commonErrorContrast": "常見錯誤：搶快猛敲導致一直按刪除鍵重打、只挑已經很熟的 A 鍵練習，或一口氣設定每分鐘 200 字的不合理目標。",
+            "selfExplanationPrompt": "想一想：為什麼「稍微放慢節奏專注一次按對」，整體完成速度反而會比猛敲亂按更快？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/computer#u7"
+        },
+        {
+          "sceneId": "u7-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "中英文混合切換小訣竅",
+          "topicSignalTitle": "打中文到一半要輸入英文單字怎麼辦？",
+          "narrationText": "輕按一下 Shift 鍵（或 Ctrl+Space）就能快速切換中英文模式，同時眼睛看螢幕確認狀態指示，打錯了立刻用退格鍵修正。",
+          "cognitiveChunks": [
+            "Shift 鍵快速切換中英文",
+            "邊打邊看螢幕狀態指示"
+          ],
+          "factGroundingSourceId": "115-s1/g3/computer#u7"
+        },
+        {
+          "sceneId": "u7-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "測測看你懂不懂得利用錯鍵統計報告！",
+          "cognitiveChunks": [
+            "針對常錯鍵位重點修正"
+          ],
+          "warmupCheck": {
+            "prompt": "輸入馬拉松結束後，系統列出了「最常按錯的前五個鍵位」。面對這份統計報告，怎麼利用才能最快進步？",
+            "options": [
+              "把報告關掉假裝沒看見",
+              "針對這幾個常出錯的鍵位與對應手指重點修正練習",
+              "把那五個按鍵貼上膠帶以後不按",
+              "只重複練習已經最拿手的空白鍵"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！對症下藥加強常出錯的鍵位，整體速度與正確率才會快速提升。",
+            "feedbackRetry": "就像訂正考卷錯題一樣，只練已經會的題目能讓弱點進步嗎？"
+          },
+          "factGroundingSourceId": "115-s1/g3/computer#u7"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-computer-u8",
+      "stageId": "115-s1-g3-computer-u8",
+      "title": "第15–19週：幾何建築師: 夢想家園創作展",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u8-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "小畫家形狀工具、色彩填充與文字裝飾",
+          "narrationText": "化身幾何建築師，使用《小畫家》的形狀工具畫出三角形屋頂與矩形牆面，透過複製組合做出整齊窗戶與柵欄，再填上背景色彩、加上文字標題並正確存檔。",
+          "cognitiveChunks": [
+            "形狀工具畫出工整幾何造型",
+            "選取與複製貼上組合出整齊排列",
+            "色彩填充注意邊框封閉、A 字工具加標題"
+          ],
+          "analogyAnchor": "《小畫家》的形狀工具就像一盒幾何積木，把三角形、長方形和圓形重疊組合並複製排列，再用水彩填充和文字工具簽名，就能蓋出夢想家園。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "造型與組合工具",
+              "leftPoints": [
+                "形狀工具：三角、矩形、橢圓",
+                "選取複製貼上：排整齊窗戶柵欄"
+              ],
+              "rightTitle": "上色與裝飾工具",
+              "rightPoints": [
+                "色彩填充（油漆桶）：需封閉邊框",
+                "文字工具（A）：加上標題與署名"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "形狀工具複製組合",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "色彩填充與文字",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/computer#u8"
+        },
+        {
+          "sceneId": "u8-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "解決色彩填充溢色與正確存檔",
+          "narrationText": "用油漆桶倒顏色時如果整張畫布突然全染成同一色，或是畫完不知存在哪裡，只要照著排錯步驟就能輕鬆解決。",
+          "cognitiveChunks": [
+            "溢色先復原再檢查線條小缺口",
+            "存檔須注意檔名與指定資料夾"
+          ],
+          "workedExampleData": {
+            "problemStatement": "使用「色彩填充」工具想把天空塗成藍色，一按下去卻連房子和草地都變藍了，該怎麼辦？",
+            "steps": [
+              "第 1 步：立刻按「復原（Ctrl+Z）」讓畫面恢復上色前的樣子",
+              "第 2 步：用「放大鏡」檢查欲填色區域的線條交接處是否有小缺口未封閉",
+              "第 3 步：把缺口線條補接完整後再按一次色彩填充，完成後取清楚檔名存進指定資料夾"
+            ],
+            "commonErrorContrast": "常見錯誤：線條沒封閉就一直亂按油漆桶、隨便取名為「123」且沒看儲存位置，或觀摩時批評同學畫得醜。",
+            "selfExplanationPrompt": "想一想：在「夢想家園創作展」觀摩同學的作品時，可以從哪兩個角度給予真誠又具體的讚美？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/computer#u8"
+        },
+        {
+          "sceneId": "u8-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "創作展觀摩的禮儀與美學",
+          "topicSignalTitle": "欣賞全班夢想家園作品時要注意什麼？",
+          "narrationText": "細心欣賞同學在幾何圖形組合與色彩搭配上的巧思，給予真誠具體的鼓勵與讚美，絕不任意修改或刪除同學的檔案。",
+          "cognitiveChunks": [
+            "欣賞幾何組合與配色亮點",
+            "友善回饋不破壞他人作品"
+          ],
+          "factGroundingSourceId": "115-s1/g3/computer#u8"
+        },
+        {
+          "sceneId": "u8-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "來檢查看看哪一個小畫家工具能加上標題吧！",
+          "cognitiveChunks": [
+            "文字工具與色彩填充"
+          ],
+          "warmupCheck": {
+            "prompt": "畫完夢想家園並填好色彩後，想在畫作角落加上「三年級夢想家園」標題與署名，應該點選工具列上哪一個工具？",
+            "options": [
+              "橡皮擦工具",
+              "滴管取色工具",
+              "寫著字母「A」的文字工具",
+              "放大鏡工具"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！字母「A」就是文字工具，可以在畫面上拉出文字框打字裝飾。",
+            "feedbackRetry": "想一想：工具列上有一個大大的英文字母圖示，代表打入文字喔！"
+          },
+          "factGroundingSourceId": "115-s1/g3/computer#u8"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-computer-u9",
+      "stageId": "115-s1-g3-computer-u9",
+      "title": "第20週：數位收納大師：我的知識百寶箱",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u9-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "資料夾分類、檔案路徑與資源回收筒",
+          "narrationText": "建立資料夾分門別類收納這學期的數位作品，認識像通信地址一樣的「檔案路徑」，學會搬移與備份檔案，以及從資源回收筒救回誤刪的作品。",
+          "cognitiveChunks": [
+            "資料夾依主題類型分門別類收納",
+            "檔案路徑就像檔案一層層的地址",
+            "搬移用剪下貼上；誤刪可從回收筒還原"
+          ],
+          "analogyAnchor": "資料夾就像書櫃裡貼好標籤的收納盒，檔案路徑就是「書櫃＞第二層＞夢想家園盒子」的地址，而資源回收筒則是倒垃圾前的暫存籃。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "搬移 vs 複製",
+              "leftPoints": [
+                "剪下＋貼上：從舊位置搬走",
+                "複製＋貼上：兩邊各留一份備份"
+              ],
+              "rightTitle": "資源回收筒",
+              "rightPoints": [
+                "誤刪檔案會先暫存於回收筒",
+                "未清空前按「還原」即可救回"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "剪下搬移與複製",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "回收筒暫存還原",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/computer#u9"
+        },
+        {
+          "sceneId": "u9-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "檔案大掃除：搬移與救回誤刪檔案",
+          "narrationText": "期末整理「知識百寶箱」時，把存錯地方的截圖搬進正確資料夾，如果不小心誤刪檔案也別慌張，立刻去資源回收筒找回來！",
+          "cognitiveChunks": [
+            "好檔名包含時間、作者與主題",
+            "清空回收筒前先檢查確認清單"
+          ],
+          "workedExampleData": {
+            "problemStatement": "整理檔案時不小心把剛畫好的小畫家作品按了刪除，該怎麼急救並做好後續收納？",
+            "steps": [
+              "第 1 步：點開桌面上的「資源回收筒」，找到誤刪的作品",
+              "第 2 步：在該檔案上按右鍵選擇「還原」，讓它回到原本的位置",
+              "第 3 步：替檔案取好清楚的名稱（如「115上_班級座號_姓名_夢想家園」），再剪下貼上搬進分類資料夾"
+            ],
+            "commonErrorContrast": "常見錯誤：以為刪除後就再也救不回來、不看內容就清空資源回收筒，或把所有檔名都取成「aaa」「未命名」。",
+            "selfExplanationPrompt": "想一想：把「複製貼上」和「剪下貼上」分別用在什麼時候才不會產生一堆重複檔案？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/computer#u9"
+        },
+        {
+          "sceneId": "u9-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "清空資源回收筒前的最後防線",
+          "topicSignalTitle": "按下「清理資源回收筒」前一定要做什麼？",
+          "narrationText": "一旦清空資源回收筒，檔案就會從系統移除很難救回。按下清理前一定要先看一眼清單，確認沒有誤刪的重要作品！",
+          "cognitiveChunks": [
+            "清空回收筒後極難救回檔案",
+            "清理前先檢查清單確認無誤"
+          ],
+          "factGroundingSourceId": "115-s1/g3/computer#u9"
+        },
+        {
+          "sceneId": "u9-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "測試看看你會不會分辨檔案搬移與還原！",
+          "cognitiveChunks": [
+            "資源回收筒還原功能"
+          ],
+          "warmupCheck": {
+            "prompt": "整理電腦時一時手滑不小心把小畫家作品按了刪除，在還沒清理資源回收筒前，哪一個做法能救回那張圖？",
+            "options": [
+              "立刻拔掉電腦插頭看會不會時光倒流",
+              "點開桌面「資源回收筒」，找到檔案按右鍵選擇「還原」",
+              "打開小算盤重新輸入檔名",
+              "永遠沒辦法救回只能重畫"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！只要還沒清空資源回收筒，隨時都能進去點選「還原」把檔案救回原本資料夾。",
+            "feedbackRetry": "就像紙張丟進垃圾桶在還沒倒掉前都能撿回來一樣，電腦裡也有一個暫存區喔！"
+          },
+          "factGroundingSourceId": "115-s1/g3/computer#u9"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-computer-u10",
+      "stageId": "115-s1-g3-computer-u10",
+      "title": "第21週：雲端信使：傳遞心意的數位飛鴿",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u10-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "電子郵件格式、附件與通訊禮儀",
+          "narrationText": "登入學校帳號寫電子郵件就像派出數位飛鴿：寫上清楚的主旨、禮貌的開頭稱呼與結尾署名，用迴紋針圖示夾帶小畫家作品附件，並遵守網路誠信禮儀。",
+          "cognitiveChunks": [
+            "主旨簡短明確說明來意與寄件人",
+            "迴紋針圖示＝附加檔案（附件）",
+            "有禮貌稱呼署名、不冒名不傳假訊息"
+          ],
+          "analogyAnchor": "電子郵件的「主旨」就像信封標題，「附件」的迴紋針圖示就像用迴紋針把圖畫別在信紙後一起寄出，最後還要記得署名讓對方知道是誰的心意。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "寫清楚簡短郵件主旨",
+                "寫稱呼、問候內文與署名",
+                "點迴紋針夾帶作品附件",
+                "收信按回覆並記得登出"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "主旨稱呼與署名",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "迴紋針附件與回覆",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/computer#u10"
+        },
+        {
+          "sceneId": "u10-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "寄送數位卡片與安全收尾步驟",
+          "narrationText": "收到朋友寄來的卡片時按下「回覆」最方便；而在公用電腦完成所有任務要離開時，別忘了整學期學過的最高安全收尾守則。",
+          "cognitiveChunks": [
+            "回覆鍵會自動帶出對方信箱地址",
+            "陌生可疑中獎信件不點連結不填個資"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在學校電腦教室完成寄送數位卡片與回信練習後，準備下課離開時應完成哪些安全收尾？",
+            "steps": [
+              "第 1 步：確認信件已寄出，並確實登出學校電子郵件帳號與移除公用電腦登入紀錄",
+              "第 2 步：關閉所有視窗後從系統選單點選「關機」",
+              "第 3 步：完成離座三部曲：滑鼠鍵盤歸位、椅子靠攏、桌面淨空"
+            ],
+            "commonErrorContrast": "常見錯誤：主旨空白或寫恐怖標題嚇人、內文一個字都不寫只丟附件、點擊陌生中獎信件連結，或沒登出帳號就離開。",
+            "selfExplanationPrompt": "想一想：如果收到一封陌生人寄來寫著「恭喜中獎十萬元，快點這裡輸入帳號密碼」的信，你應該怎麼處理？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/computer#u10"
+        },
+        {
+          "sceneId": "u10-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "數位飛鴿的通訊誠信",
+          "topicSignalTitle": "寄信與回信時要遵守哪些網路禮儀？",
+          "narrationText": "只用自己的帳號寄信、不冒用他人身分惡作劇、不轉寄未查證的謠言或他人隱私，用真誠友善的文字傳遞心意。",
+          "cognitiveChunks": [
+            "不冒用他人未登出帳號",
+            "不散播謠言與他人隱私"
+          ],
+          "factGroundingSourceId": "115-s1/g3/computer#u10"
+        },
+        {
+          "sceneId": "u10-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "答對這題暖身題，就準備好派出你的數位飛鴿囉！",
+          "cognitiveChunks": [
+            "迴紋針代表附加檔案"
+          ],
+          "warmupCheck": {
+            "prompt": "想把存在「知識百寶箱」裡的小畫家圖畫附在電子郵件裡一起寄給朋友，應該點擊郵件編輯畫面中哪一個常見圖示的功能？",
+            "options": [
+              "字型顏色按鈕",
+              "垃圾桶刪除草稿按鈕",
+              "像「迴紋針」的附加檔案（附件）按鈕",
+              "文字對齊按鈕"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！迴紋針圖示代表「附加檔案（附件）」，可以把圖檔夾帶進信件一起寄出。",
+            "feedbackRetry": "想一想：在現實生活裡，我們會用哪一種文具把照片別在信紙上一起寄出呢？"
+          },
+          "factGroundingSourceId": "115-s1/g3/computer#u10"
+        }
+      ]
+    }
+  ]
+}

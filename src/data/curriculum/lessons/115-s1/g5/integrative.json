@@ -1,0 +1,545 @@
+{
+  "packId": "115-s1-g5-integrative",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 5,
+  "subjectId": "integrative",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-integrative-u1",
+      "stageId": "115-s1-g5-integrative-u1",
+      "title": "一、危機總動員",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "自然災害與人為危機的防範",
+          "narrationText": "善用中央氣象署與「全民防災 e 點通」認識防災知識，備妥並定期檢查緊急避難包；平時更要檢視逃生梯與延長線用電等潛在人為危機。",
+          "cognitiveChunks": [
+            "地震保命三步驟：趴下、掩護、穩住",
+            "避難包定期檢查飲水、乾糧、藥品與電池",
+            "逃生梯不堆雜物、延長線不過載發燙"
+          ],
+          "analogyAnchor": "防災準備就像替生活撐起一把透明防護傘：平時先檢查傘骨（避難包與逃生通道）有沒有故障，暴風雨或地震來臨時就能立刻派上用場。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "自然災害防護",
+              "leftPoints": [
+                "地震「趴下、掩護、穩住」不搭電梯",
+                "定期檢查避難包水糧電池與避難所"
+              ],
+              "rightTitle": "人為危機急轉彎",
+              "rightPoints": [
+                "淨空逃生梯、不讓延長線過載發燙",
+                "遇尾隨或詐騙往明亮處並打 110／165"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "地震避難與避難包",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "排除人為危機求助",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/integrative#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "環境安全檢視與危機求助",
+          "narrationText": "發現大樓逃生梯堆滿紙箱或延長線發燙時，要立刻透過師長或管委會改善；放學遇到陌生人尾隨或可疑電話，要迅速前往明亮人多處並撥打 110 或 165。",
+          "cognitiveChunks": [
+            "逃生通道堆放紙箱會阻礙火災逃生",
+            "電線發燙拔除多餘插頭不可潑水",
+            "遇跟蹤往超商或警衛室求助並報警"
+          ],
+          "workedExampleData": {
+            "problemStatement": "檢視環境時發現大樓逃生梯堆滿紙箱，回家又發現延長線插滿電器且電線發燙，這兩種人為危機該如何處理？",
+            "steps": [
+              "第 1 步：處理逃生梯雜物——屬於阻礙逃生的安全危機，應請管委會、師長或 1999 協助勸導淨空",
+              "第 2 步：處理用電過載——立刻拔除多餘電器插頭並請大人檢修（切勿潑水降溫以免觸電）",
+              "第 3 步：建立防災地圖——同時與家人確認住家附近的避難收容處所與疏散路線"
+            ],
+            "commonErrorContrast": "常見錯誤：地震時衝進電梯或衝出陽台、把電玩主機與玻璃花瓶放進避難包，或看到延長線發燙直接拿水潑。",
+            "selfExplanationPrompt": "想一想：為什麼家庭緊急避難包每隔半年就要檢查一次裡面的東西？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/integrative#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "災害應變官方資源",
+          "topicSignalTitle": "查詢正確防災資訊",
+          "narrationText": "查詢颱風地震警報應認明中央氣象署與消防署「全民防災 e 點通」，不輕信社群軟體未經查證的謠言。",
+          "cognitiveChunks": [
+            "颱風豪雨前清理排水溝、固定盆栽",
+            "不去海邊觀浪或山區溪谷露營"
+          ],
+          "factGroundingSourceId": "115-s1/g5/integrative#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認地震發生的保命三步驟順序，再進入第一單元挑戰！",
+          "cognitiveChunks": [
+            "趴下、掩護、穩住保護頭頸部"
+          ],
+          "warmupCheck": {
+            "prompt": "面對臺灣常見的地震災害，地震發生瞬間應該立即執行的保命三步驟，正確順序是下列哪一項？",
+            "options": [
+              "趴下 → 掩護 → 穩住",
+              "衝向電梯 → 拿手機自拍 → 尖叫",
+              "跑出陽台 → 開瓦斯 → 站著不動",
+              "關上所有窗戶 → 坐在吊燈底下"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！先「趴下」降低重心，鑽入堅固桌下或用書包「掩護」頭頸，再「穩住」緊握桌腳直到搖晃停止。",
+            "feedbackRetry": "記住三個動作：先降低身體、保護頭頸部、再抓牢桌腳不要晃倒喔！"
+          },
+          "factGroundingSourceId": "115-s1/g5/integrative#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-integrative-u2",
+      "stageId": "115-s1-g5-integrative-u2",
+      "title": "二、伙伴大集合",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "團體角色與特質互補",
+          "narrationText": "每個人在不同團體中可能扮演不同角色，每個角色都對團隊不可或缺；認識自己與夥伴的個性特質差異並善用「特質互補」，團隊運作會更順暢。",
+          "cognitiveChunks": [
+            "人在不同團體可依需求扮演不同角色",
+            "創意發想＋細心統整發揮特質互補",
+            "開會結束確認分工、期限與集合時間"
+          ],
+          "analogyAnchor": "一個團隊就像一部齒輪組裝好的時鐘：大齒輪、小齒輪形狀和速度都不同，但彼此咬合互補，時針就能準時往前走。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "角色放大鏡",
+              "leftPoints": [
+                "每個分工角色都一樣重要",
+                "依個人創意或細心優勢分工"
+              ],
+              "rightTitle": "解決團體問題",
+              "rightPoints": [
+                "輪流說優點、折衷或民主表決",
+                "拆解小任務協助逃避組員參與"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "發揮特質互補分工",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "民主溝通與助夥伴",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/integrative#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "化解意見分歧與協助夥伴",
+          "narrationText": "討論卡關時先輪流聽取雙方優點，再嘗試合併或投票表決；遇到推說「我不會」的同學，不貼標籤責罵，而是幫忙拆解成簡單小任務邀請參與。",
+          "cognitiveChunks": [
+            "不靠聲音大或冷戰決定團隊方向",
+            "先把難題拆成簡單小步驟幫夥伴上手",
+            "任務完成後感謝每位夥伴的補位付出"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小組討論園遊會主題時分成兩派吵個不停，另外有位組員一直說「我不會」跑去旁邊玩耍，該如何解決這兩個團隊問題？",
+            "steps": [
+              "第 1 步：解決意見分歧——請兩派輪流說明各自方案的優點，討論能否合併或公平投票表決",
+              "第 2 步：協助逃避組員——關心他是否覺得任務太難，把工作拆解成明確的小任務邀請他一起完成",
+              "第 3 步：建立結束習慣——每次討論結束前確認「誰負責什麼、何時完成與下次集合時間」"
+            ],
+            "commonErrorContrast": "常見錯誤：全組一起排擠拖慢進度的同學、替他做完所有事，或任務結束後把功勞都歸給自己。",
+            "selfExplanationPrompt": "想一想：當組員提出一個看起來還不太完整的新點子時，怎麼回應才不會打擊他的信心？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/integrative#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "感恩回饋凝聚向心力",
+          "topicSignalTitle": "看見每一位夥伴的貢獻",
+          "narrationText": "完成任務後記得感謝每位夥伴的付出與補位，並一起分享成就感與下次可以更好的地方，團隊感情會越來越緊密。",
+          "cognitiveChunks": [
+            "肯定不完整點子中的創意火花",
+            "正向回饋讓大家更期待下次合作"
+          ],
+          "factGroundingSourceId": "115-s1/g5/integrative#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認特質互補的分工原則，再進入第二單元挑戰！",
+          "cognitiveChunks": [
+            "依個人優勢特質分工發揮互補力量"
+          ],
+          "warmupCheck": {
+            "prompt": "小組要做海報，小安很有創意但常忘記時間，小柔做事細心有條理但不太會畫畫。運用「特質互補」原則，兩人怎麼分工最理想？",
+            "options": [
+              "小安設計版面插圖，小柔負責整理資料、校對與控管進度",
+              "小柔去畫插畫，小安負責檢查錯別字與時間",
+              "兩個人把工作全部推給第三位同學",
+              "互相嫌棄缺點並拆夥各自做"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！把任務分配給最能發揮優勢的夥伴，就能讓作品既精彩又準時完成。",
+            "feedbackRetry": "想一想誰適合發揮「創意設計」、誰適合把關「細心與時間進度」呢？"
+          },
+          "factGroundingSourceId": "115-s1/g5/integrative#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-integrative-u3",
+      "stageId": "115-s1-g5-integrative-u3",
+      "title": "三、我懂你的心",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "破除性別刻板與關鍵同理心",
+          "narrationText": "興趣與能力無關性別，要打破性別刻板印象並尊重身體界線；與人互動時運用「同理心」蹲下來感受對方情緒，並用「我訊息」取代指責。",
+          "cognitiveChunks": [
+            "打破性別刻板印象，尊重多元興趣",
+            "對方表達不舒服時立刻停止並道歉",
+            "同理心＝站在對方立場感受理解情緒"
+          ],
+          "analogyAnchor": "「同理心」就像走進對方的鞋子裡散步：先感受他腳下的石頭有多痛，而不是站在旁邊說「這點小石頭有什麼好哭的」。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "同理心與我訊息",
+              "leftPoints": [
+                "接納對方難過情緒、專注傾聽陪伴",
+                "「我訊息」：事件＋我的感受＋期待"
+              ],
+              "rightTitle": "指責與同情誤區",
+              "rightPoints": [
+                "「你每次都…」人身攻擊引發衝突",
+                "急著講大道理或說「這有什麼好難過」"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "同理陪伴與我訊息",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "避免指責與說教",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/integrative#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "我訊息表達與守護友善校園",
+          "narrationText": "發生誤會時用「事件＋我的感受＋具體期待」的「我訊息」溝通；發現同學因氣質或外貌被貼性別標籤嘲笑時，要勇敢制止並支持對方。",
+          "cognitiveChunks": [
+            "專注眼神接觸、點頭回應不滑手機",
+            "不拿「你真小氣開不起玩笑」越界",
+            "挺身制止性別取笑與霸凌，必要時找師長"
+          ],
+          "workedExampleData": {
+            "problemStatement": "朋友遲到讓你等了很久心裡很著急，另外有同學因為男生喜歡編織而被取笑「娘娘腔」，這兩種情況該如何運用同理心與我訊息回應？",
+            "steps": [
+              "第 1 步：用「我訊息」溝通遲到——說「你沒照約定時間來，我一個人等很久覺得很著急，希望下次能先告訴我」",
+              "第 2 步：不人身攻擊——避免說「你每次都這麼自私真討厭」等挑起防衛心的話",
+              "第 3 步：挺身守護多元——制止嘲笑並表達「每個人都有選擇興趣的自由」，必要時請師長協助"
+            ],
+            "commonErrorContrast": "常見錯誤：把「我訊息」誤寫成「你這個人每次都……」，或在朋友傷心時馬上講大道理或炫耀自己的事。",
+            "selfExplanationPrompt": "想一想：當朋友因為心愛的寵物過世而哭泣時，說什麼話最能讓他感受到被理解？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/integrative#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "身體界線由當事人決定",
+          "topicSignalTitle": "對方說不舒服就立刻停止",
+          "narrationText": "真正的幽默建立在雙方都開心之上，只要對方皺眉或表示不喜歡你的玩笑或觸碰，就必須立刻停止並真誠道歉。",
+          "cognitiveChunks": [
+            "不跟著起鬨或拍影片上傳網路",
+            "專注傾聽煩惱不急著搶話比較"
+          ],
+          "factGroundingSourceId": "115-s1/g5/integrative#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認什麼是真正的「同理心」，再進入第三單元挑戰！",
+          "cognitiveChunks": [
+            "同理心是站在對方立場感受理解"
+          ],
+          "warmupCheck": {
+            "prompt": "好朋友因為養了十年的寵物狗過世而非常傷心落淚，下列哪一句回應最能展現「關鍵同理心」？",
+            "options": [
+              "「不就是一隻狗嗎？再買一隻就好啦！」",
+              "「不要哭了，哭起來很醜耶！」",
+              "「你一定很捨不得也很難過吧，牠陪了你這麼久，我陪你坐一會兒。」",
+              "「我正好跟你講我今天打電動破關的事！」"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！辨識並接納對方當下的捨不得與悲傷，安靜陪伴就是最溫暖的同理回應。",
+            "feedbackRetry": "傷心的人最需要的不是被叫不要哭或找替代品，而是有人懂他的捨不得喔！"
+          },
+          "factGroundingSourceId": "115-s1/g5/integrative#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-integrative-u4",
+      "stageId": "115-s1-g5-integrative-u4",
+      "title": "四、關懷你我他",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "多元族群共融與文化拜訪",
+          "narrationText": "臺灣匯聚閩南、客家、原住民族與新住民等多元族群，文化沒有高低優劣之分；認識各族群的生活智慧與優勢，能減少偏見並互相學習。",
+          "cognitiveChunks": [
+            "欣賞各族群飲食、語言與生活智慧",
+            "拜訪前先查詢文化禮儀與禁忌",
+            "拍照或錄音前務必先徵得受訪者同意"
+          ],
+          "analogyAnchor": "多元文化就像一座百花齊放的花園：玫瑰、百合與野薑花各有各的香氣與姿態，互相欣賞才讓花園繽紛動人。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "族群溫馨情",
+              "leftPoints": [
+                "事前查文化禁忌、有禮發問並徵同意",
+                "邀請新住民同學分享家鄉文化美食"
+              ],
+              "rightTitle": "關懷無距離",
+              "rightPoints": [
+                "先問「需要幫忙嗎」尊重自主意願",
+                "不佔用無障礙斜坡、導盲磚與廁所"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "欣賞多元文化禮儀",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "先問再幫護無障礙",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/integrative#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "平等尊重的關懷與無障礙守護",
+          "narrationText": "關懷身心障礙朋友或長輩時，一定要「先問再幫、平等尊重」，配合長輩步伐不催促；平時更要保護社區斜坡道與導盲磚不被佔用。",
+          "cognitiveChunks": [
+            "不問一句就搶推輪椅會造成困擾",
+            "協助長輩放慢腳步並留意路面安全",
+            "串聯社區志工與社福機構讓關懷更長久"
+          ],
+          "workedExampleData": {
+            "problemStatement": "班上準備關懷社區裡的身心障礙朋友與獨居長輩，同時看到學校附近的導盲磚上停了一輛腳踏車，應該怎麼做才恰當？",
+            "steps": [
+              "第 1 步：先問再幫——遇到輪椅或視障朋友時，先禮貌詢問「請問需要我幫忙嗎？」，尊重對方自主能力",
+              "第 2 步：守護無障礙通道——看到導盲磚或斜坡道被腳踏車、雜物擋住時，主動協助移開或通報師長處理",
+              "第 3 步：結合專業資源——想長期關懷獨居長輩時，串聯社區志工隊或社福機構一起安全規劃"
+            ],
+            "commonErrorContrast": "常見錯誤：用對待小嬰兒的誇張語氣對待長輩或視障者、不問就硬推輪椅，或只拍完合照打卡就離開。",
+            "selfExplanationPrompt": "想一想：班上有剛來臺灣的新住民同學和家人，我們可以如何幫助他們更快適應社區生活？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/integrative#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "文化大使小禮儀",
+          "topicSignalTitle": "好奇但不冒犯的尊重",
+          "narrationText": "拜訪不同族群文化館或部落時，不嘲笑口音、不隨意觸碰神聖器物，用真誠欣賞的眼睛認識不同生活故事。",
+          "cognitiveChunks": [
+            "鼓勵與接納不同母語的交流",
+            "關懷行動結合學校與社區更安全"
+          ],
+          "factGroundingSourceId": "115-s1/g5/integrative#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認服務身心障礙朋友或長輩時的黃金守則，再進入第四單元挑戰！",
+          "cognitiveChunks": [
+            "先問再幫、平等尊重對方自主意願"
+          ],
+          "warmupCheck": {
+            "prompt": "實地關懷身心障礙朋友、長輩或特殊需求族群時，下列哪一種服務態度與做法最恰當？",
+            "options": [
+              "先禮貌詢問「請問需要我幫忙嗎？」，尊重對方真正需求與自主意願",
+              "不問一句就直接搶走輪椅推著走",
+              "用對待三歲小嬰兒的語氣對長輩說話",
+              "拍完合照上傳網路後就立刻離開"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！許多障礙朋友具備獨立能力，先詢問再協助才是最平等體貼的尊重。",
+            "feedbackRetry": "幫忙別人之前先「問問對方需不需要」，才不會變成幫倒忙喔！"
+          },
+          "factGroundingSourceId": "115-s1/g5/integrative#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-integrative-u5",
+      "stageId": "115-s1-g5-integrative-u5",
+      "title": "五、社會資源網",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識社會資源與求助專線",
+          "narrationText": "生活中藏著許多支持我們的社會資源：圖書館、公園與親子館提供公共文教休憩；遇到保護、急難或詐騙問題時，還有 113、1957、165 等專業專線。",
+          "cognitiveChunks": [
+            "圖書館、公園、親子館屬公共文教資源",
+            "113 保護專線（兒少保護／家暴）24 小時免付費",
+            "1957 福利諮詢專線、165 反詐騙專線"
+          ],
+          "analogyAnchor": "社會資源網就像一張細心編織的安全防護網：平常提供學習與休閒養分，遇到困難或緊急危機時則能接住每一個需要幫助的人。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "生活與公益資源",
+              "leftPoints": [
+                "市立圖書館、社區公園、親子館",
+                "食物銀行、家扶中心轉介愛心物資"
+              ],
+              "rightTitle": "關鍵求助專線",
+              "rightPoints": [
+                "113 保護專線、1957 福利諮詢",
+                "165 反詐騙、110 報警、119 救護"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "公共與公益資源",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "113與1957專線",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/integrative#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "選對資源、清楚求助與珍惜不浪費",
+          "narrationText": "撥打求助專線時要冷靜說清「姓名、地點與具體狀況」；使用公共或愛心資源則要省思適切性，只取所需不囤積浪費，並回饋愛心。",
+          "cognitiveChunks": [
+            "依情境選對專線（如急難找 1957）",
+            "捐贈完好食品衣物找食物銀行或社福單位",
+            "不濫用愛心待用餐，投身小小志工回饋"
+          ],
+          "workedExampleData": {
+            "problemStatement": "鄰居阿公突然失業生病急需急難救助，另外社區有批完好即期食品想捐出，自己又該如何養成正確使用社會資源的態度？",
+            "steps": [
+              "第 1 步：配對福利專線——請大人協助撥打「1957 福利諮詢專線」申請急難紓困與醫療補助轉介",
+              "第 2 步：配對物資機構——將完好安全的食品與乾淨冬衣捐給「食物銀行」或「家扶中心」等社福單位",
+              "第 3 步：珍惜與回饋——不囤積不屬於自己的愛心資源，力所能及時當小小志工或分享求助資訊"
+            ],
+            "commonErrorContrast": "常見錯誤：混淆 113（保護）與 1957（福利諮詢）或 165（反詐騙）的用途，或惡作劇撥打緊急專線。",
+            "selfExplanationPrompt": "想一想：為什麼圖書館的書要準時歸還、愛心待用餐不能自己不缺卻搶著拿？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/integrative#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "讓資源網更強大",
+          "topicSignalTitle": "需要才取用、有餘力就分享",
+          "narrationText": "當我們曾經受過社區或公益團體幫助，學會感恩並在能力所及時擔任志工或分享資訊，就能讓這張資源網更加溫暖強大。",
+          "cognitiveChunks": [
+            "撥打專線冷靜說明人、事、地",
+            "絕不惡作劇撥打佔用救援生命線"
+          ],
+          "factGroundingSourceId": "115-s1/g5/integrative#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認緊急保護專線的號碼，再進入第五單元挑戰！",
+          "cognitiveChunks": [
+            "113 為 24 小時保護專線"
+          ],
+          "warmupCheck": {
+            "prompt": "當發現身邊有兒童遭受不當對待、疏忽照顧，或家庭發生暴力衝突需要緊急保護時，應該撥打哪一支 24 小時免付費專線？",
+            "options": [
+              "104 查號台",
+              "117 報時台",
+              "113 保護專線",
+              "166 氣象查詢"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！「113」是衛生福利部 24 小時保護專線，專責兒童少年保護與家庭暴力諮詢通報。",
+            "feedbackRetry": "記住這支保護兒童與家庭安全的專線，數字比 110 和 119 稍微多一點點喔！"
+          },
+          "factGroundingSourceId": "115-s1/g5/integrative#u5"
+        }
+      ]
+    }
+  ]
+}

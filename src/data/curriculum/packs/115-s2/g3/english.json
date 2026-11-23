@@ -137,6 +137,44 @@
             "Get Ready",
             "Phonics"
           ]
+        },
+        {
+          "id": "115-s2-g3-english-u0-q7",
+          "prompt": "開學第一週複習課室英語，當老師請大家「站起來」或「坐下」時，下面哪一句英文是指「請起立」？",
+          "options": [
+            "Sit down, please.",
+            "Stand up, please.",
+            "Open your book.",
+            "Listen carefully."
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Stand up, please.\" 是「請起立。」；Sit down 是坐下，Open your book 是打開課本，Listen carefully 是仔細聽。",
+          "hint": "「站起來」是 stand up，「坐下」是 sit down 喔！",
+          "speechText": "Stand up, please.",
+          "speechLang": "en-US",
+          "tags": [
+            "Get Ready",
+            "Classroom English"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u0-q8",
+          "prompt": "比較單字「bed（床）」和「red（紅色）」，它們在哪一個位置的字母不一樣，而前面的發音是相同的？",
+          "options": [
+            "最後一個字母不同",
+            "中間的母音不同",
+            "兩個字完全一模一樣",
+            "第一個子音字母不同（一個是 b，一個是 r）"
+          ],
+          "answerIndex": 3,
+          "explanation": "bed（b-e-d）和 red（r-e-d）字尾都是 -ed，只有第一個子音字母（b 與 r）不同。",
+          "hint": "把 b-e-d 和 r-e-d 排在一起看，只有最左邊的第一個字母不同喔！",
+          "speechText": "bed, red",
+          "speechLang": "en-US",
+          "tags": [
+            "Get Ready",
+            "Phonics"
+          ]
         }
       ]
     },
@@ -276,6 +314,45 @@
             "Unit 1",
             "Character Education",
             "Outdoor Education"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u1-q7",
+          "prompt": "在動物樂園裡看見「三隻熊」，用英文表達複數動物時，下面哪一個寫法完全正確？",
+          "options": [
+            "three bears",
+            "three bear",
+            "a bears",
+            "an bear"
+          ],
+          "answerIndex": 0,
+          "explanation": "「三隻」是複數，名詞 bear 字尾要加上 -s 變成 \"three bears\"。",
+          "hint": "超過一隻時，動物單字後面要記得加 s 喔！",
+          "speechText": "three bears",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Plurals"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u1-q8",
+          "prompt": "想用英文說「一隻老虎」和「一隻猴子」，這兩個單字前面應該搭配 a 還是 an？",
+          "options": [
+            "an tiger, an monkey",
+            "an tiger, a monkey",
+            "a tiger, a monkey",
+            "a tiger, an monkey"
+          ],
+          "answerIndex": 2,
+          "explanation": "tiger（t 開頭）和 monkey（m 開頭）字首都是子音，單數前面要搭配 a（a tiger, a monkey）。",
+          "hint": "只有字首發母音（a, e, i, o, u）的單數名詞前面才用 an 喔！",
+          "speechText": "a tiger, a monkey",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Articles",
+            "Grammar"
           ]
         }
       ]
@@ -417,6 +494,46 @@
             "Teamwork",
             "Character Education"
           ]
+        },
+        {
+          "id": "115-s2-g3-english-u2-q7",
+          "prompt": "朋友問你「Can you sing?（你會唱歌嗎？）」，如果你很會唱歌，應該怎麼禮貌回答？",
+          "options": [
+            "Yes, I am.",
+            "Yes, I can.",
+            "No, I can.",
+            "Yes, it is."
+          ],
+          "answerIndex": 1,
+          "explanation": "用 \"Can you...?\" 問能力時，肯定簡答要用 \"Yes, I can.\"。",
+          "hint": "問句用 Can 開頭問你，肯定回答也要用 can 喔！",
+          "speechText": "Yes, I can.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Dialogue",
+            "Abilities"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u2-q8",
+          "prompt": "在「Teamwork」單元裡，如果想邀請同學「我們一起跳舞吧！」或「看！我會跳舞！」，下面哪一句英文意思是「我會跳舞」？",
+          "options": [
+            "I can swim.",
+            "I can run.",
+            "I can read.",
+            "I can dance."
+          ],
+          "answerIndex": 3,
+          "explanation": "\"dance\" 是跳舞，\"I can dance.\" 意思是「我會跳舞。」",
+          "hint": "點喇叭聽聽看「I can dance.」的發音！",
+          "speechText": "I can dance.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Actions",
+            "Vocabulary"
+          ]
         }
       ]
     },
@@ -555,6 +672,44 @@
             "Review 1",
             "Reading Literacy",
             "Teamwork"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u3-q7",
+          "prompt": "在「Review 1」複習單數與複數時，下面哪一組「英文數量與動物名詞」的寫法完全正確？",
+          "options": [
+            "five lions",
+            "four rabbit",
+            "an tiger",
+            "two elephant"
+          ],
+          "answerIndex": 0,
+          "explanation": "five lions（五隻獅子）複數正確加上 -s；rabbit 與 elephant 在數字大於 1 時也須加 -s，tiger 字首是子音應用 a tiger。",
+          "hint": "超過一隻的動物後面一定要加上 s 喔！",
+          "speechText": "five lions",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Plurals"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u3-q8",
+          "prompt": "對話配對複習：同學問你「Can you swim?」，如果你不會游泳，下列哪一個回答文法正確？",
+          "options": [
+            "No, I am not.",
+            "Yes, I can't.",
+            "No, I can't.",
+            "No, it isn't."
+          ],
+          "answerIndex": 2,
+          "explanation": "\"Can you...?\" 的否定簡答為 \"No, I can't.\"。",
+          "hint": "否定回答要用 No 開頭，後面搭配 can't 喔！",
+          "speechText": "No, I can't.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Dialogue"
           ]
         }
       ]
@@ -696,6 +851,46 @@
             "Grammar",
             "Body Parts"
           ]
+        },
+        {
+          "id": "115-s2-g3-english-u4-q7",
+          "prompt": "觀察遊行隊伍裡的小怪獸外觀，如果牠「有一個大鼻子（a big nose）」，下面哪一句英文描述文法完全正確？",
+          "options": [
+            "It have a big nose.",
+            "It has a big nose.",
+            "It are a big nose.",
+            "It has two big nose."
+          ],
+          "answerIndex": 1,
+          "explanation": "單數主詞 It 要搭配 has，且「一個大鼻子」是 a big nose，所以寫成 \"It has a big nose.\"。",
+          "hint": "It 後面要用 has，而且是一個鼻子喔！",
+          "speechText": "It has a big nose.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Grammar",
+            "Body Parts"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u4-q8",
+          "prompt": "在「Mother's Day」節慶單元中，想寫一張感謝卡送給媽媽並幫她做一件貼心的事，下面哪一句英文最適合？",
+          "options": [
+            "Go away, Mom!",
+            "I can't help you.",
+            "It is a monster.",
+            "I can help you, Mom!"
+          ],
+          "answerIndex": 3,
+          "explanation": "\"I can help you, Mom!\" 意思是「媽媽，我可以幫您！」，非常適合在母親節表達對媽媽的體貼。",
+          "hint": "找一句主動說「我可以幫您（help you）」的溫暖句子！",
+          "speechText": "I can help you, Mom!",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Mother's Day",
+            "Family Education"
+          ]
         }
       ]
     },
@@ -836,6 +1031,46 @@
             "Grammar",
             "Jobs"
           ]
+        },
+        {
+          "id": "115-s2-g3-english-u5-q7",
+          "prompt": "同學看著你媽媽在廚房煮出美味料理的照片問你她是做什麼工作的，你回答「She is a cook.」，請問媽媽的職業是什麼？",
+          "options": [
+            "廚師",
+            "學生",
+            "護理師",
+            "警察"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"cook\" 當職業名詞時意思是「廚師」，所以 \"She is a cook.\" 表示「她是一位廚師。」",
+          "hint": "點喇叭聽聽看「cook」的發音，想一想在廚房做菜的職業！",
+          "speechText": "She is a cook.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Jobs",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u5-q8",
+          "prompt": "指著照片裡的一位女生問「她是誰？」，下列哪一個英文問句完全正確？",
+          "options": [
+            "Who is he?",
+            "What is it?",
+            "Who is she?",
+            "Where is she?"
+          ],
+          "answerIndex": 2,
+          "explanation": "問女生「她是誰？」要用 \"Who is she?\"。",
+          "hint": "問「誰」是 Who，女生要用 she 喔！",
+          "speechText": "Who is she?",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Family",
+            "Sentence Pattern"
+          ]
         }
       ]
     },
@@ -970,6 +1205,45 @@
           "explanation": "短文提到 \"My father is a cook.\"（我爸爸是一位廚師）以及 \"He can make yummy cakes.\"（他會做美味的蛋糕），符合第一個選項。",
           "hint": "把兩個關鍵線索字找出來：「father（爸爸）」、「cook（廚師）」和「cakes（蛋糕）」！",
           "speechText": "My father is a cook. He can make yummy cakes.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Reading Literacy",
+            "Comprehension"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u6-q7",
+          "prompt": "「Review 2」家人單字總檢查：下面哪一組「英文稱謂與中文意思」的配對完全正確？",
+          "options": [
+            "father 媽媽 / mother 爸爸",
+            "brother 兄弟 / sister 姊妹",
+            "grandfather 奶奶 / grandmother 爺爺",
+            "doctor 學生 / teacher 醫生"
+          ],
+          "answerIndex": 1,
+          "explanation": "brother 是哥哥或弟弟（兄弟）、sister 是姊姊或妹妹（姊妹），配對完全正確；其他三組都把意思對調了。",
+          "hint": "仔細檢查看看其他三組是不是剛好把兩個字的意思放反了！",
+          "speechText": "brother, sister",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Family"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u6-q8",
+          "prompt": "讀一讀這段關於小怪獸的英文介紹：「It has two big ears. It is cute!」從這段話中可以知道這隻小怪獸有什麼特徵？",
+          "options": [
+            "牠有五條長尾巴",
+            "牠是一隻兇猛的大老虎",
+            "牠現在肚子很餓",
+            "牠有兩隻大耳朵，而且很可愛"
+          ],
+          "answerIndex": 3,
+          "explanation": "\"two big ears\" 是兩隻大耳朵，\"It is cute!\" 是牠很可愛，符合第四個選項。",
+          "hint": "注意聽「ears（耳朵）」和「cute（可愛）」這兩個關鍵字！",
+          "speechText": "It has two big ears. It is cute!",
           "speechLang": "en-US",
           "tags": [
             "Review 2",

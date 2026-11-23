@@ -1,0 +1,324 @@
+{
+  "packId": "115-s2-g6-science",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 6,
+  "subjectId": "science",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-science-u1",
+      "stageId": "115-s2-g6-science-u1",
+      "title": "一、巧妙的施力工具",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s2-science-u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "槓桿、滑輪、輪軸與動力傳送",
+          "narrationText": "生活中的簡單機械能幫我們省力或方便工作：槓桿看施力臂與抗力臂長短；定滑輪改變方向、動滑輪省力；輪軸施力在大輪省力；齒輪、鏈條與流體則能傳送動力。",
+          "cognitiveChunks": [
+            "施力臂 ＞ 抗力臂 → 省力（如開瓶器）；反之費力（如麵包夾）",
+            "定滑輪改變施力方向但不省力；動滑輪省力但不改變方向",
+            "輪軸同步轉動，施力在輪上帶動軸可省力（如螺絲起子）"
+          ],
+          "analogyAnchor": "施力臂就像你拿木棍撬石頭時握的那一段，握得離支點越遠，撬起來就越輕鬆！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "定滑輪 vs. 動滑輪",
+              "leftPoints": [
+                "定滑輪：固定不動，改變方向、不省力",
+                "動滑輪：隨重物移動，省力、不改方向"
+              ],
+              "rightTitle": "齒輪與鏈條傳動力",
+              "rightPoints": [
+                "直接咬合兩齒輪：轉動方向相反",
+                "鏈條連接兩齒輪：轉動方向相同"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-s-u1-l1",
+                "text": "定滑輪改方向",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s2-s-u1-l2",
+                "text": "鏈條帶動同方向",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/science#u1"
+        },
+        {
+          "sceneId": "g6s2-science-u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "計算槓桿平衡與比較流體傳動力",
+          "narrationText": "做槓桿實驗時，只要「左邊砝碼數 × 格數 ＝ 右邊砝碼數 × 格數」，槓桿就能水平平衡；用針筒裝空氣和水也能傳動力，但水不易壓縮更直接。",
+          "cognitiveChunks": [
+            "槓桿平衡：左邊(力×臂) ＝ 右邊(力×臂)",
+            "水不易壓縮（傳動直接）vs. 空氣易壓縮（有緩衝）"
+          ],
+          "workedExampleData": {
+            "problemStatement": "槓桿左邊第 2 格掛 3 個砝碼，右邊第 3 格要掛幾個砝碼才會平衡？為什麼烤肉夾設計成費力工具？",
+            "steps": [
+              "第 1 步：算左邊力矩：3 個砝碼 × 2 格 = 6",
+              "第 2 步：右邊在第 3 格達到平衡需要 6 ÷ 3 = 2 個砝碼",
+              "第 3 步：烤肉夾支點在尾端、手捏中間（施力臂 ＜ 抗力臂），雖費力但手指微動就能讓前端張合大距離，夾取更靈活"
+            ],
+            "commonErrorContrast": "常見錯誤：以為所有槓桿工具都是為了省力（其實麵包夾、筷子、掃把都是省時或靈活操作的費力工具），或以為直接咬合的齒輪會同向轉。",
+            "selfExplanationPrompt": "想一想：工地把定滑輪和動滑輪組合成「滑輪組」，有什麼雙重好處？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/science#u1"
+        },
+        {
+          "sceneId": "g6s2-science-u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "生活工具的槓桿與輪軸分類",
+          "topicSignalTitle": "找出「支點、施力點、抗力點」就能分辨省力或費力",
+          "narrationText": "開瓶器、裁紙刀、拔釘器都是「施力臂 ＞ 抗力臂」的省力工具；麵包夾、鑷子、筷子則是「施力臂 ＜ 抗力臂」的費力工具；喇叭鎖、水龍頭與螺絲起子則是輪軸應用。",
+          "cognitiveChunks": [
+            "省力槓桿：開瓶器、裁紙刀",
+            "輪軸應用：門把、螺絲起子、水龍頭"
+          ],
+          "factGroundingSourceId": "115-s2/g6/science#u1"
+        },
+        {
+          "sceneId": "g6s2-science-u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認齒輪與鏈條的轉動方向！",
+          "cognitiveChunks": [
+            "直接咬合方向相反；鏈條連接方向相同"
+          ],
+          "warmupCheck": {
+            "prompt": "腳踏車靠「鏈條」連接前面的大齒輪與後面的小齒輪，當大齒輪順時針往前轉動時，小齒輪會怎麼轉？",
+            "options": [
+              "逆時針往後轉",
+              "同樣順時針往前轉",
+              "完全不會轉動",
+              "上下左右跳動"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！透過鏈條帶動的大小齒輪，轉動方向會完全相同。",
+            "feedbackRetry": "想一想騎腳踏車時，前面踏板往前踩，後輪齒輪是不是也一起往前轉呢？"
+          },
+          "factGroundingSourceId": "115-s2/g6/science#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-science-u2",
+      "stageId": "115-s2-g6-science-u2",
+      "title": "二、地球的環境與生態",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s2-science-u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "族群、群集、食物鏈與地球生態系",
+          "narrationText": "同種生物組成「族群」，多種生物聚在一起組成「群集」，群集加上陽光、水、空氣等非生物環境就成為自給自足的「生態系」。",
+          "cognitiveChunks": [
+            "族群（同物種）→ 群集（多物種）→ 生態系（生物 ＋ 非生物）",
+            "生物互動：互利共生（如小丑魚與海葵）、掠食、競爭、寄生",
+            "食物鏈：生產者（植物/藻類）→ 消費者 → 分解者"
+          ],
+          "analogyAnchor": "如果把學校比喻成生態：六年一班的同學是同一「族群」，全校師生加起來是「群集」，師生加上教室陽光空氣水就是完整的「生態系」！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "同物種個體（族群）",
+                "多物種聚集（群集）",
+                "加上陽光水土（生態系）",
+                "食物鏈傳遞能量"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-s-u2-l1",
+                "text": "同種族群多種群集",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "g6s2-s-u2-l2",
+                "text": "食物鏈單向傳能量",
+                "anchorPointId": "step4"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/science#u2"
+        },
+        {
+          "sceneId": "g6s2-science-u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "食物鏈的連鎖反應與分解者的角色",
+          "narrationText": "食物鏈中只要其中一種生物數量大幅改變，上下層生物都會受到連鎖影響；而細菌、真菌等分解者則負責把遺體分解回土壤，完成物質循環。",
+          "cognitiveChunks": [
+            "能量由生產者往消費者單向傳遞",
+            "環境變化（如乾旱）會直接限制族群生長"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在「草 → 蝗蟲 → 青蛙 → 蛇」食物鏈中，如果青蛙大量減少會發生什麼事？小丑魚和海葵又是什麼關係？",
+            "steps": [
+              "第 1 步：青蛙是蝗蟲的天敵，青蛙變少後，蝗蟲會因天敵減少而大量增加、吃掉更多草",
+              "第 2 步：同時以青蛙為食物的蛇，也會因為食物不足而數量減少",
+              "第 3 步：小丑魚躲進海葵避敵並幫忙清理海葵，雙方都獲得好處，這叫做「互利共生」"
+            ],
+            "commonErrorContrast": "常見錯誤：把「群集」當成單一物種的「族群」，或忘記生態系必須包含陽光、水、土壤等非生物環境。",
+            "selfExplanationPrompt": "想一想：水域生態系（如海洋、溪流）和陸域生態系（如森林、沙漠）各有什麼典型生物？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/science#u2"
+        },
+        {
+          "sceneId": "g6s2-science-u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "認識多樣的水域與陸域生態系",
+          "topicSignalTitle": "生物會演化出適應環境的構造",
+          "narrationText": "沙漠乾燥少雨，仙人掌葉退化成針狀、駱駝耐旱；海洋水域廣大含鹽，孕育珊瑚與各種魚類。每種生態系都有獨特的環境條件與居民。",
+          "cognitiveChunks": [
+            "陸域生態系：森林、草原、沙漠、極地",
+            "水域生態系：淡水（溪流湖泊）、鹹水（河口海洋）"
+          ],
+          "factGroundingSourceId": "115-s2/g6/science#u2"
+        },
+        {
+          "sceneId": "g6s2-science-u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認「族群」與「群集」的差別！",
+          "cognitiveChunks": [
+            "同種＝族群；多種＝群集"
+          ],
+          "warmupCheck": {
+            "prompt": "在學校生態池裡，「所有的蓋斑鬥魚」合起來稱為族群；那池子裡的蓋斑鬥魚、水蘊草、福壽螺與蜻蜓幼蟲共同生活在一起，合起來稱為什麼？",
+            "options": [
+              "單一族群",
+              "群集",
+              "分解者",
+              "非生物環境"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！同一區域內多種不同生物族群的集合，就稱為「群集」。",
+            "feedbackRetry": "裡面有魚、有水草、有螺還有昆蟲幼蟲，好多種不同生物聚在一起叫什麼呢？"
+          },
+          "factGroundingSourceId": "115-s2/g6/science#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-science-u3",
+      "stageId": "115-s2-g6-science-u3",
+      "title": "三、我們只有一個地球",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s2-science-u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "臺灣特有種、外來入侵種與全球環境變遷",
+          "narrationText": "臺灣因地形多變與四面環海隔離，孕育許多特有種；但外來入侵種、水空汙染與過量溫室氣體正威脅地球，我們需要用行動減少碳足跡與水足跡。",
+          "cognitiveChunks": [
+            "臺灣特有種：如臺灣藍鵲、櫻花鉤吻鮭",
+            "外來入侵種：缺乏天敵排擠原生種，絕不棄養放生",
+            "溫室氣體過多導致全球暖化、極端氣候與海平面上升"
+          ],
+          "analogyAnchor": "每一樣商品從生產到送到我們手上，都會在地球留下「碳腳印（碳足跡）」和「水腳印（水足跡）」，吃在地當季、自備環保杯就能讓腳印變輕！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "碳足跡 vs. 水足跡",
+              "leftPoints": [
+                "碳足跡：產品生命週期溫室氣體總排放",
+                "水足跡：過程中直接與間接消耗淡水總量"
+              ],
+              "rightTitle": "永續家園日常行動",
+              "rightPoints": [
+                "優先選購當季在地食材（縮短里程）",
+                "自備環保餐具水壺、隨手關燈省水"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-s-u3-l1",
+                "text": "認識碳與水足跡",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s2-s-u3-l2",
+                "text": "在地當季減塑省水",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/science#u3"
+        },
+        {
+          "sceneId": "g6s2-science-u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "認識外來入侵種危害與汙染防治",
+          "narrationText": "福壽螺、紅火蟻與綠鬣蜥都是危害臺灣生態的外來入侵種；而生活汙水、工廠廢氣與露天燃燒則會造成水汙染與空汙。",
+          "cognitiveChunks": [
+            "不隨意放生、不棄養外來寵物",
+            "汙水經處理再排放、搭大眾運輸減空汙"
+          ],
+          "workedExampleData": {
+            "problemStatement": "為什麼不能把養膩的外來種烏龜或蜥蜴拿到溪邊「放生」？遇到空汙紅色警示又該怎麼保護自己？",
+            "steps": [
+              "第 1 步：外來種在臺灣野外往往沒有天敵，容易大量繁殖並搶奪本土生物的食物與棲地（如綠鬣蜥、福壽螺）",
+              "第 2 步：因此飼養寵物應負責任到底，絕不隨意棄養或放生",
+              "第 3 步：空汙嚴重（PM2.5 偏高）時，應減少戶外劇烈運動、外出配戴口罩，並適度關閉門窗"
+            ],
+            "commonErrorContrast": "常見錯誤：以為把動物放回大自然就是愛護動物（其實放生外來種反而會毀掉本土生態），或誤以為碳足跡只是腳踩木炭留下的印記。",
+            "selfExplanationPrompt": "想一想：為什麼買當地、當季盛產的蔬果，比買從國外搭飛機運來的水果更環保？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/science#u3"
+        },
+        {
+          "sceneId": "g6s2-science-u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "打造永續家園：小學生做得到的減碳行動",
+          "topicSignalTitle": "從食、衣、住、行一起降低碳足跡與水足跡",
+          "narrationText": "少用免洗餐具、多搭乘大眾運輸或騎腳踏車、珍惜每一滴水、隨手關閉不必要電源，每一個小習慣都能守護我們唯一的地球。",
+          "cognitiveChunks": [
+            "減少食物里程（吃在地當季）",
+            "不露天燃燒垃圾，減少細懸浮微粒"
+          ],
+          "factGroundingSourceId": "115-s2/g6/science#u3"
+        },
+        {
+          "sceneId": "g6s2-science-u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認臺灣特有種與永續減碳行動！",
+          "cognitiveChunks": [
+            "當季在地、省水省電、自備環保用具"
+          ],
+          "warmupCheck": {
+            "prompt": "下列哪一項日常行為最能減少「碳足跡」與「水足跡」，落實打造永續家園？",
+            "options": [
+              "選購在地當季食材、隨手關燈省水並自備環保水壺",
+              "每天買搭飛機空運來臺的水果與瓶裝水",
+              "在空地直接露天燃燒塑膠垃圾",
+              "把不養的外來種寵物放生到學校後山"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！吃在地當季、節約水電與自備環保器具，是最直接有效的永續行動。",
+            "feedbackRetry": "找出那個能減少長途運輸耗能、節省水資源與減少一次性垃圾的做法喔！"
+          },
+          "factGroundingSourceId": "115-s2/g6/science#u3"
+        }
+      ]
+    }
+  ]
+}

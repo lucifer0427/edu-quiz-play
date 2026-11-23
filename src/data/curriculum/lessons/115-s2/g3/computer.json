@@ -1,0 +1,850 @@
+{
+  "packId": "115-s2-g3-computer",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 3,
+  "subjectId": "computer",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-computer-u1",
+      "stageId": "115-s2-g3-computer-u1",
+      "title": "第1–3週：生態環保小作家：北極熊的3D日記",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "全球暖化、Word 3D 模型與排版存檔",
+          "narrationText": "透過生態影片了解全球暖化讓北極海冰融化，再利用 Word 插入 3D 北極熊模型立體觀察構造，學會調整字體格式、對齊方式、貼圖美化與清楚命名存檔。",
+          "cognitiveChunks": [
+            "全球暖化使北極海冰縮小威脅北極熊",
+            "Word 3D 模型可 360 度旋轉觀察構造",
+            "標題置中加粗、內文靠左、存檔寫清姓名主題"
+          ],
+          "analogyAnchor": "Word 的 3D 模型就像把一隻立體北極熊小模型放進電子筆記本裡，滑鼠一轉就能看正面、側面和背面，比平面照片更生動。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "日記版面設計",
+              "leftPoints": [
+                "主標題：置中對齊、放大深色粗體",
+                "日記正文：靠左或左右對齊"
+              ],
+              "rightTitle": "3D 與存檔規範",
+              "rightPoints": [
+                "3D 模型：可拖曳立體旋轉觀察",
+                "檔名含班級座號、姓名與主題"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "標題置中內文靠左",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "3D旋轉與規範檔名",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/computer#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "字體對比、貼圖點綴與存檔命名",
+          "narrationText": "編輯環保日記時，字體顏色要與白色紙張有足夠對比、貼圖不能蓋住國字，最後還要取一個讓老師一眼認出的好檔名。",
+          "cognitiveChunks": [
+            "深色字體搭淺底才清楚好讀",
+            "貼圖擺空白處適度點綴不遮字"
+          ],
+          "workedExampleData": {
+            "problemStatement": "打完「北極熊的 3D 日記」並加上貼圖後，準備存檔繳交，該注意哪些細節？",
+            "steps": [
+              "第 1 步：檢查標題是否置中、字色是否深色清晰、貼圖有沒有遮住正文",
+              "第 2 步：點選儲存檔案並確認存進指定的作業資料夾",
+              "第 3 步：命名為清楚包含班級座號、姓名與主題的檔名（如 301-05-王小明-北極熊日記）"
+            ],
+            "commonErrorContrast": "常見錯誤：用空白鍵敲三十格去推標題、貼圖疊滿蓋住文字、字色設得太淺，或檔名亂取為「12345」。",
+            "selfExplanationPrompt": "想一想：寫完北極熊的日記後，我們在日常生活中能用哪一個小行動幫忙減緩全球暖化？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/computer#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "生活中的減碳護熊小行動",
+          "topicSignalTitle": "除了寫環保日記，平常怎麼守護北極熊？",
+          "narrationText": "隨手關燈節約用電、自備環保餐具與水壺、減少一次性塑膠垃圾，就能為地球降溫盡一份心力。",
+          "cognitiveChunks": [
+            "隨手關燈節約用電",
+            "自備環保餐具減少垃圾"
+          ],
+          "factGroundingSourceId": "115-s2/g3/computer#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "測試一下你對 Word 3D 模型的認識！",
+          "cognitiveChunks": [
+            "3D 模型立體旋轉特點"
+          ],
+          "warmupCheck": {
+            "prompt": "在 Word 環保日記裡插入「3D 北極熊模型」後，3D 模型比起一般平面照片多出了哪一項方便觀察的特點？",
+            "options": [
+              "會把日記自動翻譯成北極熊叫聲",
+              "可以用滑鼠拖曳從正面、側面、背面等不同角度立體旋轉觀察",
+              "能把電腦螢幕真的冷凍起來",
+              "只能看到一個小黑點不能轉動"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！3D 模型可以自由旋轉 360 度，從不同方向觀察北極熊的構造。",
+            "feedbackRetry": "想一想：3D 是立體的，比起平面的照片，我們可以用滑鼠控制點對它做什麼旋轉操作呢？"
+          },
+          "factGroundingSourceId": "115-s2/g3/computer#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-computer-u2",
+      "stageId": "115-s2-g3-computer-u2",
+      "title": "第4–6週：山岳探險家：設計我的登山計畫海報",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "海報版面設計與快速鍵法寶",
+          "narrationText": "設計登山計畫海報前先備妥安全裝備並打破性別刻板印象。在 Word 運用版面配置、背景顏色、文字藝術師、項目符號、複製格式、文字方塊與 Ctrl+Z / Ctrl+Y 完成海報。",
+          "cognitiveChunks": [
+            "登山不分性別，人人皆須注意安全裝備",
+            "文字藝術師做標題、項目符號列裝備",
+            "複製格式小刷子統一風格；Ctrl+Z 復原"
+          ],
+          "analogyAnchor": "「複製格式」就像一把魔法小油漆刷（這裡指常用區的小刷子圖示），把好看標題的顏色字體吸起來，一刷就能讓其他文字方塊立刻統一風格。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "海報排版工具",
+              "leftPoints": [
+                "版面配置：紙張方向與背景色",
+                "文字藝術師、項目符號、文字方塊"
+              ],
+              "rightTitle": "效率快捷工具",
+              "rightPoints": [
+                "複製格式：小刷子統一文字風格",
+                "Ctrl+Z 復原；Ctrl+Y 重做"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "藝術字與項目符號",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "複製格式與復原",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/computer#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用文字方塊與快速鍵救援誤刪",
+          "narrationText": "海報裡有很多區塊要擺放說明，用文字方塊就像貼便利貼一樣自由；萬一不小心刪掉文字，立刻按下後悔藥快速鍵就能救回來！",
+          "cognitiveChunks": [
+            "文字方塊可自由拖曳調整位置",
+            "Ctrl+Z 復原上一步、Ctrl+Y 重做"
+          ],
+          "workedExampleData": {
+            "problemStatement": "排版登山海報時，不小心把剛打好的一大段安全注意事項刪掉了，又想統一四個小標題格式，該怎麼做？",
+            "steps": [
+              "第 1 步：立刻按下鍵盤快速鍵「Ctrl+Z」，把剛才誤刪的文字復原回來",
+              "第 2 步：若復原後想改回原本修改後的樣子，可按「Ctrl+Y」重做",
+              "第 3 步：選取設定好格式的第一個標題，點「複製格式（小刷子）」再刷到其他三個文字方塊標題上"
+            ],
+            "commonErrorContrast": "常見錯誤：誤刪文字後慌張重打整段、認為登山探險只有男生能參加，或上山穿拖鞋不帶飲水與雨具。",
+            "selfExplanationPrompt": "想一想：為什麼「項目符號」特別適合用來條列飲用水、雨衣、急救包等登山必備用品清單？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/computer#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "山林探索的安全與性別平等",
+          "topicSignalTitle": "山岳探險家的海報標語要傳達什麼精神？",
+          "narrationText": "勇氣與能力不分男生或女生，只要事前準備好飲水、保暖衣物與雨具並遵守山區及交通安全，每個人都能成為優秀的山岳探險家。",
+          "cognitiveChunks": [
+            "備妥飲水雨具並注意交通安全",
+            "能力不分性別，打破刻板印象"
+          ],
+          "factGroundingSourceId": "115-s2/g3/computer#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "考考你是否記得誤刪文字時的救援快速鍵！",
+          "cognitiveChunks": [
+            "Ctrl+Z 復原誤刪"
+          ],
+          "warmupCheck": {
+            "prompt": "排版登山海報時不小心按錯鍵把一大段文字刪掉了！按下哪一組鍵盤快速鍵可以立刻「復原」剛才的動作？",
+            "options": [
+              "Alt+F4",
+              "Ctrl+P",
+              "Ctrl+Z",
+              "Ctrl+A"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！Ctrl+Z 是最常用的「復原」快速鍵，能立刻撤銷上一步操作。",
+            "feedbackRetry": "想一想：字母最後一個字 Z 搭配 Ctrl 鍵，就是我們最常按的復原快速鍵喔！"
+          },
+          "factGroundingSourceId": "115-s2/g3/computer#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-computer-u3",
+      "stageId": "115-s2-g3-computer-u3",
+      "title": "第7–9週：數位公民行動：資訊安全守則表格",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "防詐個資保護與 Word 表格設計",
+          "narrationText": "認識常見網路詐騙與個資保護守則後，運用 Word 插入表格整理守則內容，調整欄寬列高、套用表格樣式，並插入警語圖片加上圖片特效。",
+          "cognitiveChunks": [
+            "不外洩個資密碼與簡訊驗證碼",
+            "插入表格、調整欄寬列高與套用樣式",
+            "插入警語圖片並套用陰影外框特效"
+          ],
+          "analogyAnchor": "Word 表格就像整齊的置物櫃，每一欄放類別、危險情況與正確做法，再套上現成的「表格樣式」換上漂亮顏色，大家一眼就能記住防詐守則。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "討論防詐與個資守則",
+                "插入表格調整欄寬列高",
+                "套用表格樣式與圖片特效",
+                "自我檢測無錯字不遮擋"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "調整欄寬與列高",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "表格樣式與檢測",
+                "anchorPointId": "step4"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/computer#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "調整欄寬列高與新增表格列",
+          "narrationText": "做表格常遇到「序號太寬、說明太窄」或想在下面多加一條守則的情況，不用重做整張表格，用簡單幾步就能修好。",
+          "cognitiveChunks": [
+            "拉動格線調整欄寬與列高",
+            "最後一格按 Tab 鍵自動新增一列"
+          ],
+          "workedExampleData": {
+            "problemStatement": "資安守則表格左邊序號格太寬、右邊說明格太窄，而且還想在最下面多加第 5 條守則，怎麼改最快？",
+            "steps": [
+              "第 1 步：用滑鼠拖曳欄線（或進表格版面配置）縮小序號「欄寬」、拉寬說明欄",
+              "第 2 步：將游標點在表格最後一格，按一下「Tab 鍵」自動在下方新增一列",
+              "第 3 步：套用「表格樣式」統一配色，並自我檢測文字無誤、圖片不遮擋表格"
+            ],
+            "commonErrorContrast": "常見錯誤：用減號和空白鍵自己手畫表格、多加一列就把整張表格刪掉重做，或相信「免費送遊戲寶物」的不明連結。",
+            "selfExplanationPrompt": "想一想：在表格旁插入「防詐騙警語圖片」後，可以套用哪些圖片特效讓它更吸睛？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/computer#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "網路防詐三不原則",
+          "topicSignalTitle": "收到陌生人說送免費寶物或中獎該怎麼辦？",
+          "narrationText": "不點擊不明連結、不透露真實姓名住址與密碼、不提供手機簡訊驗證碼，有疑問立刻向師長或家長查證。",
+          "cognitiveChunks": [
+            "不點不明連結、不給驗證碼",
+            "遇可疑訊息先向師長家長求證"
+          ],
+          "factGroundingSourceId": "115-s2/g3/computer#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "確認一下表格排版的自我檢測重點！",
+          "cognitiveChunks": [
+            "表格樣式與排版優化"
+          ],
+          "warmupCheck": {
+            "prompt": "想替原本黑白單調的資安守則表格快速加上標題底色與隔行淺底色，在「表格設計」工具列使用哪一項功能最快？",
+            "options": [
+              "一格一格手動塗上六十種螢光色",
+              "直接套用現成的「表格樣式」",
+              "把字體放大到撐破表格",
+              "按下全部復原把表格刪掉"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！「表格樣式」能一鍵套用專業設計好的配色與隔行底色，清楚又美觀。",
+            "feedbackRetry": "不用一格一格慢慢塗色喔！表格設計工具列有現成的範本可以一鍵套用。"
+          },
+          "factGroundingSourceId": "115-s2/g3/computer#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-computer-u4",
+      "stageId": "115-s2-g3-computer-u4",
+      "title": "第10–12週：邏輯設計師：大富翁數位桌遊實作",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "棋盤邏輯規劃、合併儲存格與創用 CC",
+          "narrationText": "設計大富翁數位桌遊前先分析棋盤路徑分布，再用 Word 表格「合併儲存格」、九宮格「內容置中」與「框線網底」做出地圖，並用「創用 CC」合法圖片裝飾關卡。",
+          "cognitiveChunks": [
+            "先分析棋盤路徑格數與轉角邏輯",
+            "合併儲存格做中央區、九宮格置中文字",
+            "認識創用 CC 授權標誌合法取用圖片"
+          ],
+          "analogyAnchor": "「合併儲存格」就像把大富翁棋盤中間的隔間牆打通，變出一個寬敞的大廣場來擺放遊戲標題和機會命運卡。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "表格進階設計",
+              "leftPoints": [
+                "合併儲存格：做出中央大區塊",
+                "內容置中＋框線網底美化關卡"
+              ],
+              "rightTitle": "創用 CC 與著作權",
+              "rightPoints": [
+                "能右鍵下載不等於沒版權",
+                "依創用 CC 標示原作者姓名出處"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "合併置中框線網底",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "創用CC合法標示",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/computer#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "製作大富翁棋盤與合法找圖步驟",
+          "narrationText": "把桌子格線變成有趣的大富翁地圖，還要記得遵守智慧財產權並親自試走一圈測試遊戲邏輯！",
+          "cognitiveChunks": [
+            "框線網底區分獎勵與懲罰格",
+            "試玩測試路線是否順暢連貫"
+          ],
+          "workedExampleData": {
+            "problemStatement": "要用 Word 表格做出中央有大標題區、外圍文字上下左右置中、且圖片合法的大富翁棋盤，步驟是什麼？",
+            "steps": [
+              "第 1 步：選取表格中央相鄰的格子執行「合併儲存格」，外圍格子設定「正中央置中」與「框線及網底」",
+              "第 2 步：搜尋明確標示合法免費或「創用 CC」授權的圖片裝飾關卡，並依規定標註作者姓名",
+              "第 3 步：請同學試玩前自己先走一圈，檢查路線連接是否順暢、規則是否清楚公平"
+            ],
+            "commonErrorContrast": "常見錯誤：以為網路上能右鍵另存新檔的圖片就全部免費沒版權、把作者簽名剪掉，或棋盤路線走起來卡死不通。",
+            "selfExplanationPrompt": "想一想：創用 CC 的小人圖示「姓名標示（BY）」提醒我們在使用別人圖片時要做到什麼？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/computer#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "尊重著作權從創用 CC 開始",
+          "topicSignalTitle": "為什麼不能隨便拿網路圖片當自己的作品？",
+          "narrationText": "每張圖片都受著作權保護。選擇標示「創用 CC」等合法授權圖庫並誠實標註出處與作者，才是尊重創作者的數位公民。",
+          "cognitiveChunks": [
+            "右鍵可下載不等於可任意使用",
+            "使用創用 CC 圖片並標註來源"
+          ],
+          "factGroundingSourceId": "115-s2/g3/computer#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "看看你記不記得把多個小格子合成一大格的工具！",
+          "cognitiveChunks": [
+            "合併儲存格與創用 CC"
+          ],
+          "warmupCheck": {
+            "prompt": "想把大富翁棋盤中央好幾個相鄰的小儲存格「合成一大塊空格」來擺放桌遊大標題與插圖，應使用表格的哪一項功能？",
+            "options": [
+              "刪除整張表格",
+              "字體加粗",
+              "合併儲存格",
+              "列印預覽"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！「合併儲存格」能把選取的多個相鄰格子打通合成一個大區塊。",
+            "feedbackRetry": "想一想：把好幾個小格子「合」起來「併」成一格的功能叫什麼呢？"
+          },
+          "factGroundingSourceId": "115-s2/g3/computer#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-computer-u5",
+      "stageId": "115-s2-g3-computer-u5",
+      "title": "第13–15週：體育記者：排版我的運動日記",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "段落縮排、行間距、文繞圖與尋找取代",
+          "narrationText": "扮演體育記者排版運動日記，學會「首行縮排」與「凸排」、加大「行間距」讓閱讀更輕鬆，用「文繞圖」讓文字繞過照片，加上「頁面框線」並用「尋找與取代」快速勘誤。",
+          "cognitiveChunks": [
+            "首行縮排空兩格；凸排第一行凸在最左",
+            "加大行間距讓上下行文字有呼吸空間",
+            "文繞圖選矩形或緊密；尋找與取代改錯字"
+          ],
+          "analogyAnchor": "「文繞圖」就像小溪流遇到石頭（照片）時，會自然地從石頭左右兩邊順暢流過去，不會撞在一起遮住文字。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "首行縮排 vs 凸排",
+              "leftPoints": [
+                "首行縮排：第一行內縮空兩格",
+                "凸排：第一行靠邊、後面行內縮"
+              ],
+              "rightTitle": "圖文與勘誤工具",
+              "rightPoints": [
+                "文繞圖（矩形／緊密）：字繞圖片",
+                "尋找與取代（Ctrl+H）：一次改錯字"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "首行縮排與凸排",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "文繞圖與尋找取代",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/computer#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "解決圖文重疊與大量錯字勘誤",
+          "narrationText": "運動日記裡如果照片擋住文字、或是把朋友的名字在四頁裡打錯了十幾次，只要用對 Word 工具幾秒鐘就能搞定！",
+          "cognitiveChunks": [
+            "矩形或緊密文繞圖避免文字被遮",
+            "Ctrl+F 快速尋找關鍵字位置"
+          ],
+          "workedExampleData": {
+            "problemStatement": "運動日記的照片遮住了比賽分數文字，而且把「宇軒」全部誤打成「雨軒」十五次，該怎麼處理？",
+            "steps": [
+              "第 1 步：點選照片，將「文繞圖」設定改為「矩形」或「緊密」並移到適當空白處",
+              "第 2 步：開啟「尋找與取代（Ctrl+H）」，尋找目標輸入「雨軒」、取代為輸入「宇軒」",
+              "第 3 步：按下「全部取代」，一次精準更正整篇文件所有錯字"
+            ],
+            "commonErrorContrast": "常見錯誤：每段開頭自己手按空白鍵導致換字型就歪掉、照片蓋住字就把文字刪掉，或一頁一頁肉眼慢慢找錯字。",
+            "selfExplanationPrompt": "想一想：替整張紙張四週加上花邊裝飾的「頁面框線」，和只框住一段話的段落框線有什麼不同？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/computer#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "讓長篇文章好讀的小秘密",
+          "topicSignalTitle": "上下行文字貼太緊讀起來很吃力怎麼辦？",
+          "narrationText": "在段落設定中適度加大「行間距」（例如設為 1.5 倍行高），並用「第一行縮排 2 字元」，整篇運動日記就會像報紙特刊一樣整齊好讀。",
+          "cognitiveChunks": [
+            "適度加大行間距（如 1.5 倍行高）",
+            "設定第一行縮排 2 字元"
+          ],
+          "factGroundingSourceId": "115-s2/g3/computer#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "測測看你知不知道哪個功能可以一次改掉所有重複錯字！",
+          "cognitiveChunks": [
+            "尋找與取代一次勘誤"
+          ],
+          "warmupCheck": {
+            "prompt": "寫完四頁運動日記後，發現自己把好朋友名字「宇軒」全部誤打成「雨軒」共十五次，使用哪一個功能能最快速一次全部更正？",
+            "options": [
+              "尋找與取代功能，輸入「雨軒」全部取代為「宇軒」",
+              "從頭到尾肉眼一個字一個字慢慢刪",
+              "按下 Ctrl+Z 二百次全部重寫",
+              "請好朋友去改名字"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！「尋找與取代」是長文件文字勘誤的神器，一鍵就能全部更正不遺漏。",
+            "feedbackRetry": "在長文章裡要找出錯字並一口氣全部換掉，Word 有一個專用的勘誤工具喔！"
+          },
+          "factGroundingSourceId": "115-s2/g3/computer#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-computer-u6",
+      "stageId": "115-s2-g3-computer-u6",
+      "title": "第16–17週：視覺化整理師：SmartArt 的智慧應用",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "用 SmartArt 把清單變身視覺化圖表",
+          "narrationText": "SmartArt 能把零散的文字清單轉化為有箭頭、方塊與層級關係的圖表，利用左側「文字窗格」快速打字與縮排，還能隨時變更色彩、樣式與轉換圖形版面。",
+          "cognitiveChunks": [
+            "流程看步驟順序、階層看上下分類",
+            "左側文字窗格：Enter 新增、Tab 降階",
+            "資料與圖形分離，可隨時轉換版面"
+          ],
+          "analogyAnchor": "SmartArt 就像自動排版積木盒：只要在左側文字窗格打入精簡關鍵字，右邊的方塊就會自己排整齊，換圖形造型也不必重新打字。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "選對 SmartArt 類型",
+              "leftPoints": [
+                "流程：先後步驟（如洗手五步驟）",
+                "階層架構：上下分類（如社團分類）"
+              ],
+              "rightTitle": "編輯與美化技巧",
+              "rightPoints": [
+                "文字窗格：Enter 新增、Tab 縮成子項",
+                "變更色彩、樣式與直接轉換版面"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "流程與階層類型",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "文字窗格與轉換",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/computer#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "精簡關鍵字與一鍵轉換 SmartArt 版面",
+          "narrationText": "做 SmartArt 最忌諱把長篇大論全塞進一個方塊，而且想換圖表形狀時，完全不需要刪掉重打喔！",
+          "cognitiveChunks": [
+            "方塊內放入精華關鍵字與短句",
+            "變更版面配置直接保留文字轉換"
+          ],
+          "workedExampleData": {
+            "problemStatement": "做好橫向清單 SmartArt 後，想改成圓圈循環圖形，而且發現方塊裡的字太長變太小，怎麼調整最專業？",
+            "steps": [
+              "第 1 步：選取原本的 SmartArt，到「SmartArt 設計」→「版面配置」直接點選新的循環圖版面（文字會自動保留）",
+              "第 2 步：開啟左側「文字窗格」，把長篇文字精簡成清楚的關鍵字與簡短重點句",
+              "第 3 步：使用「變更色彩」與「SmartArt 樣式」讓圖表層次分明又立體"
+            ],
+            "commonErrorContrast": "常見錯誤：想換圖形就把整個 SmartArt 刪掉重打一遍，或把五百字作文全部塞進一個小小圓圈方塊裡。",
+            "selfExplanationPrompt": "想一想：在文字窗格打字時，按下 Enter 鍵和按下 Tab 鍵分別會有什麼效果？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/computer#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "看關係選對圖表類型",
+          "topicSignalTitle": "洗手步驟和社團分類分別該用哪種 SmartArt？",
+          "narrationText": "有先後步驟順序（如濕搓沖捧擦）要用帶箭頭的「流程」圖；有總主題與大小分類層級（如學校社團分類）則要用「階層架構」圖。",
+          "cognitiveChunks": [
+            "步驟順序選「流程」圖",
+            "上下分類選「階層架構」圖"
+          ],
+          "factGroundingSourceId": "115-s2/g3/computer#u6"
+        },
+        {
+          "sceneId": "u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "測試一下你會不會把 SmartArt 圖形直接轉換版面！",
+          "cognitiveChunks": [
+            "變更版面配置不需重打字"
+          ],
+          "warmupCheck": {
+            "prompt": "做完 SmartArt 後突然想把橫向清單方塊換成圓圈循環圖形，最聰明又不需重新打字的做法是什麼？",
+            "options": [
+              "刪掉重來，建立新圖表再把文字全部重打",
+              "直接選取原 SmartArt，在「變更版面配置」中點選新圖表版面",
+              "關掉檔案不存檔",
+              "用奇異筆在螢幕上把方塊畫成圓圈"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！SmartArt 的資料與圖形分離，直接變更版面配置就會保留文字立刻轉換。",
+            "feedbackRetry": "不用刪掉重打喔！SmartArt 設計工具列裡有直接切換其他圖表版面的功能。"
+          },
+          "factGroundingSourceId": "115-s2/g3/computer#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-computer-u7",
+      "stageId": "115-s2-g3-computer-u7",
+      "title": "第18–19週：藝術設計師：交通安全創意卡片",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u7-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "對齊均分、群組、圖層與漸層裁剪",
+          "narrationText": "結合上下學交通安全守則製作創意卡片：在 Word 插入圖案後用「對齊」與「均分」排整齊、用「群組」綁定組合圖形、調整「圖層順序」，再加上漸層色與圖形裁剪美化。",
+          "cognitiveChunks": [
+            "對齊切齊同一線、均分讓間距一致",
+            "群組將多個小圖案綁定為一個整體",
+            "圖層順序控制前後遮擋；漸層與裁剪美化"
+          ],
+          "analogyAnchor": "「群組」就像把幾塊拼好的紅綠燈積木黏在一起搬動不會散；「圖層順序」就像桌上疊紙張，下面的圖案被蓋住時要把它「移到最上層」。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "排列與組合管理",
+              "leftPoints": [
+                "對齊與均分：排整齊且間距相等",
+                "群組與圖層：綁定整體、前後移層"
+              ],
+              "rightTitle": "美化與雙面 DIY",
+              "rightPoints": [
+                "漸層色填滿、裁剪成愛心星形",
+                "雙面列印注意對齊與翻轉方向"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "對齊均分群組圖層",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "漸層裁剪雙面列印",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/computer#u7"
+        },
+        {
+          "sceneId": "u7-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "解決圖形遮擋與群組後微調",
+          "narrationText": "放上彩色底圖後小汽車不見了，或是群組好的紅綠燈有一顆顏色塗錯，只要懂得圖層順序與取消群組就能輕鬆修改。",
+          "cognitiveChunks": [
+            "移到最上層讓被蓋住的圖案浮現",
+            "取消群組修改零件後再重新群組"
+          ],
+          "workedExampleData": {
+            "problemStatement": "卡片底圖把畫好的小汽車蓋住了，而且已經「群組」的紅綠燈有一顆顏色塗錯，該怎麼修改？",
+            "steps": [
+              "第 1 步：調整「圖層順序」，選取底圖按「移到最下層」（或把小汽車移到最上層）",
+              "第 2 步：在紅綠燈上執行「取消群組」，單獨修改錯誤的那顆圓形顏色",
+              "第 3 步：改好後再重新「群組」，雙面列印時確認正反面對齊與翻轉方向再安全裁剪"
+            ],
+            "commonErrorContrast": "常見錯誤：底圖蓋住圖案就以為不見了重畫、群組改錯色就把整座紅綠燈刪掉，或雙面列印沒檢查翻面方向。",
+            "selfExplanationPrompt": "想一想：卡片做好互換分享時，寫上一句什麼交通安全小叮嚀最實用又溫暖？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/computer#u7"
+        },
+        {
+          "sceneId": "u7-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "卡片裡的交通安全小叮嚀",
+          "topicSignalTitle": "上下學過馬路最重要的安全守則？",
+          "narrationText": "穿越馬路走斑馬線、看清紅綠燈並左看右看再通過，不翻越分隔島也不邊走邊滑手機，才能把平安祝福傳給每一位同學。",
+          "cognitiveChunks": [
+            "走斑馬線、停看聽遵守號誌",
+            "不翻越護欄、不當低頭族"
+          ],
+          "factGroundingSourceId": "115-s2/g3/computer#u7"
+        },
+        {
+          "sceneId": "u7-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "測測看你知不知道如何把四個圖示排整齊！",
+          "cognitiveChunks": [
+            "對齊與均分工具"
+          ],
+          "warmupCheck": {
+            "prompt": "卡片上插入了四個交通安全圖示，但高低不齊、左右空隙也不同，選取後應使用哪兩個排列工具就能瞬間排整齊？",
+            "options": [
+              "刪除與列印",
+              "對齊與均分",
+              "插入頁碼與凸排",
+              "尋找與合併儲存格"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！先「對齊」讓它們切齊同一條線，再「均分」讓彼此間距完全一致。",
+            "feedbackRetry": "讓大家排在同一條線上叫做「對齊」，讓空隙距離一樣叫做「均分」喔！"
+          },
+          "factGroundingSourceId": "115-s2/g3/computer#u7"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-computer-u8",
+      "stageId": "115-s2-g3-computer-u8",
+      "title": "第20–21週：環境調查員：家鄉空污數位研究報告",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u8-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "空污數據調查、報告排版與 PDF 分享",
+          "narrationText": "擔任環境調查員查詢官方空污數據，在 Word 插入分頁符號、設定頁碼（封面勾選首頁不同）與小冊子排版，最後轉存為不易跑版的 PDF 格式上台發表護環境行動。",
+          "cognitiveChunks": [
+            "查詢官方環境監測網確保數據可靠",
+            "分頁符號換頁、頁碼勾選首頁不同",
+            "小冊子對摺成冊、轉存 PDF 跨平台不跑版"
+          ],
+          "analogyAnchor": "把 Word 轉存成 PDF 就像把畫好的研究報告裝進透明護貝套裡，不管傳到哪一台手機、平板或電腦打開，字型和圖表都不會跑位亂掉。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "查詢官方可靠空污數據",
+                "插分頁符號與頁碼排版",
+                "設定小冊子並轉存 PDF",
+                "上台發表改善空污行動"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "插分頁符號與頁碼",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "轉存PDF防跑版",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/computer#u8"
+        },
+        {
+          "sceneId": "u8-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "封面不顯示頁碼與固定換頁技巧",
+          "narrationText": "做長篇研究報告最怕前面改幾個字後面全亂掉，也希望第一頁封面乾乾淨淨不出現頁碼 1，學會這兩個設定就搞定了！",
+          "cognitiveChunks": [
+            "分頁符號取代連按三十次 Enter",
+            "頁首頁尾勾選首頁不同隱藏封面頁碼"
+          ],
+          "workedExampleData": {
+            "problemStatement": "想讓研究報告的封面單獨留在第一頁且不顯示頁碼 1，前言穩穩從第二頁頂端開始，再轉傳給家長手機看，該怎麼做？",
+            "steps": [
+              "第 1 步：在封面結尾處插入「分頁符號」，強制將前言放到第二頁最頂端",
+              "第 2 步：插入「頁碼」後，在頁首及頁尾工具列勾選「首頁不同」，讓封面不顯示頁碼",
+              "第 3 步：將完成的報告另存或匯出為「PDF」格式，固定版面方便跨平台分享"
+            ],
+            "commonErrorContrast": "常見錯誤：連按三十次 Enter 換頁導致跑版、隨便在聊天室問網友當成空污數據，或直接傳 Word 檔到手機造成排版亂掉。",
+            "selfExplanationPrompt": "想一想：在家鄉環境發表會上報告時，除了展示漂亮的圖表，我們可以提出哪些日常生活中做得到的減污小行動？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/computer#u8"
+        },
+        {
+          "sceneId": "u8-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "從生活做起改善家鄉空污",
+          "topicSignalTitle": "小學生可以落實哪些改善空污小行動？",
+          "narrationText": "短程多步行或搭乘大眾運輸減少汽機車廢氣、隨手關燈節約用電、拒絕露天燃燒垃圾與落葉，並用自信宏亮的聲音在發表會分享護環境理念。",
+          "cognitiveChunks": [
+            "步行或搭大眾運輸減少廢氣",
+            "節約用電、不露天燃燒垃圾"
+          ],
+          "factGroundingSourceId": "115-s2/g3/computer#u8"
+        },
+        {
+          "sceneId": "u8-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "測測看你知不知道為什麼分享報告要轉存成 PDF！",
+          "cognitiveChunks": [
+            "PDF 固定版面不跑版"
+          ],
+          "warmupCheck": {
+            "prompt": "完成家鄉空污研究報告後，將 Word 檔案「轉換為 PDF 格式」分享給手機或平板閱讀，最主要的優勢是什麼？",
+            "options": [
+              "轉成 PDF 後任何人都能隨便竄改報告文字",
+              "會自動把報告翻譯成二十國語言",
+              "能固定住版面配置、圖表與字型，在不同裝置打開都不容易跑版",
+              "會讓所有字體變成霓虹閃爍動畫"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！PDF 能鎖定原本的排版樣貌，跨平台分享與列印時最安全穩定。",
+            "feedbackRetry": "想一想：把 Word 檔傳給不同電腦或手機時最怕文字圖表亂掉「跑版」，PDF 能解決什麼問題呢？"
+          },
+          "factGroundingSourceId": "115-s2/g3/computer#u8"
+        }
+      ]
+    }
+  ]
+}

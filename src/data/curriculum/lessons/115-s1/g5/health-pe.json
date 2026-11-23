@@ -1,0 +1,759 @@
+{
+  "packId": "115-s1-g5-health-pe",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 5,
+  "subjectId": "health-pe",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-health-pe-u1",
+      "stageId": "115-s1-g5-health-pe-u1",
+      "title": "單元一 伸出友誼的手",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "友誼經營與自信心法",
+          "narrationText": "升上五年級面臨新班級與新挑戰，微笑打招呼、專心傾聽並互相尊重信任能建立穩固友誼；面對挫折時肯定優勢並把弱項當成練習機會，自信就會成長。",
+          "cognitiveChunks": [
+            "微笑問候與真誠傾聽拉近距離",
+            "互相尊重界線與信任維繫友情",
+            "欣賞自我優點、把弱項當練習機會"
+          ],
+          "analogyAnchor": "友誼就像照顧一株小樹苗：尊重與信任是陽光和水分，而冷靜溝通則是修剪枯枝，讓彼此的關係越長越穩固。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "友善交友原則",
+              "leftPoints": [
+                "微笑打招呼、記住名字與興趣",
+                "守住秘密、尊重界線與包容差異"
+              ],
+              "rightTitle": "情緒與衝突處理",
+              "rightPoints": [
+                "深呼吸冷靜、用平和語氣溝通",
+                "適時向家人師長或輔導室求助"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "尊重信任交新友",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "冷靜溝通解衝突",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/health-pe#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "化解家庭衝突與同儕互動",
+          "narrationText": "與家人意見不合時，先深呼吸降溫，再用平和語氣說出需求並聆聽家人擔心；與同學互動時接納真誠道歉並共同善後。",
+          "cognitiveChunks": [
+            "氣頭上先暫停深呼吸不說傷人話",
+            "表達自身想法也同理家人出發點",
+            "主動邀請內向組員發表看法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小宇想多玩一下手機而與媽媽發生爭執，另外在班上分組時有位組員安靜不敢發言，該怎麼處理這兩種人際情境？",
+            "steps": [
+              "第 1 步：冷靜降溫——先深呼吸不摔門或大吼，等情緒平復再對話",
+              "第 2 步：雙向溝通——平和說出自己的時間安排，同時傾聽媽媽對視力與課業的擔心",
+              "第 3 步：友善邀請——在小組討論時主動溫和詢問安靜組員的想法並專心傾聽"
+            ],
+            "commonErrorContrast": "常見錯誤：在氣頭上冷戰甩門，或在分組討論時忽略內向同學、只由愛講話的人決定。",
+            "selfExplanationPrompt": "想一想：當同學不小心弄濕你的作業本並誠懇道歉時，怎麼回應最能展現風度？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/health-pe#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "開發自我潛能",
+          "topicSignalTitle": "接納不完美、持續進步",
+          "narrationText": "每個人都有獨特的優勢與成長節奏，遇到不擅長的事不急著放棄，而是把挑戰當成進步的起點。",
+          "cognitiveChunks": [
+            "不靠嘲笑他人來襯托自己",
+            "煩惱時可向信任的大人傾訴"
+          ],
+          "factGroundingSourceId": "115-s1/g5/health-pe#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認與家人衝突時的健康處理方式，再進入第一單元挑戰！",
+          "cognitiveChunks": [
+            "冷靜情緒與理性對話化解衝突"
+          ],
+          "warmupCheck": {
+            "prompt": "五年級課業與生活安排常與家人有不同意見，遇到「與家人發生爭執衝突」時，哪一種處理方式最能解決問題？",
+            "options": [
+              "先深呼吸冷靜下來，再用平和語氣說出想法並聽聽家人的擔心",
+              "大吼大叫摔門回房間，連續三天不說話",
+              "偷偷把東西藏起來不讓家人知道",
+              "認定大人一定故意找麻煩，完全不溝通"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！先降溫再理性表達需求與同理對方，才能商量出雙方都接受的辦法。",
+            "feedbackRetry": "在生氣的當下說話容易傷人，應該先做什麼讓自己冷靜下來溝通呢？"
+          },
+          "factGroundingSourceId": "115-s1/g5/health-pe#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-health-pe-u2",
+      "stageId": "115-s1-g5-health-pe-u2",
+      "title": "單元二 飲食上線",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "我的餐盤與青春期均衡營養",
+          "narrationText": "五年級正值青春期發育關鍵期，依據「我的餐盤」口訣攝取六大類食物，並補充充足鈣質與優質蛋白質幫助骨骼與肌肉成長。",
+          "cognitiveChunks": [
+            "每天早晚一杯奶、每餐水果拳頭大",
+            "菜比水果多一點、飯跟蔬菜一樣多",
+            "豆魚蛋肉一掌心、堅果種子一茶匙"
+          ],
+          "analogyAnchor": "把每天吃的食物想像成蓋房子的建材：鈣質與蛋白質是鋼筋水泥幫助長高長壯，蔬菜水果則是讓身體運作順暢的潤滑油。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "我的餐盤比例",
+              "leftPoints": [
+                "菜比水果多一點、飯跟菜一樣多",
+                "早晚一杯奶、堅果種子一茶匙"
+              ],
+              "rightTitle": "看懂食品標示",
+              "rightPoints": [
+                "核對「每份」含量與「本包裝含幾份」",
+                "成分表依重量「由多到少」排列"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "六大類均衡攝取",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "營養標示與成分表",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/health-pe#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "營養標示判讀與健康備餐",
+          "narrationText": "選購包裝食品時要看清「本包裝含幾份」與成分表排序；自己動手準備餐點時則要洗淨雙手、生熟食砧板分開，採用清蒸水煮少油鹽。",
+          "cognitiveChunks": [
+            "整包熱量＝每份熱量 × 份數",
+            "成分排越前面表示含量越多",
+            "生熟食分開處理避免交叉汙染"
+          ],
+          "workedExampleData": {
+            "problemStatement": "一瓶果汁飲料標示「每份 250 毫升、含糖 20 公克，本包裝含 2 份」，且成分表前兩名為「水、蔗糖」。請問喝完一整瓶共攝取多少糖？成分表說明了什麼？",
+            "steps": [
+              "第 1 步：計算總份數——整瓶共有 2 份，不是只看每份的 20 公克",
+              "第 2 步：算出總糖量——20 公克 × 2 份 = 40 公克糖，遠超每日建議上限",
+              "第 3 步：判讀成分表——原料由高到低排列，水和蔗糖排最前面代表原汁含量很少"
+            ],
+            "commonErrorContrast": "常見錯誤：誤把「每份」熱量或糖分當成整包含量，或切完生肉沒洗砧板就直接切水果。",
+            "selfExplanationPrompt": "想一想：如果自己準備一份健康早餐，如何同時包含全穀雜糧、優質蛋白與蔬菜？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/health-pe#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "兒食主張：動手做健康餐",
+          "topicSignalTitle": "生熟分開、少油少鹽",
+          "narrationText": "備餐前用肥皂徹底洗手，多用清蒸、水煮或蔥薑蒜天然調味，減少油炸與過多醬料，吃得美味又安心。",
+          "cognitiveChunks": [
+            "全麥蔬菜蛋吐司配鮮奶／無糖豆漿",
+            "鈣質與蛋白質助青春期發育"
+          ],
+          "factGroundingSourceId": "115-s1/g5/health-pe#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認食品成分表的排列規則，再進入第二單元挑戰！",
+          "cognitiveChunks": [
+            "成分表依含量由高到低排序"
+          ],
+          "warmupCheck": {
+            "prompt": "依法規，包裝食品背面的「成分表」排列有一定規則。如果在某款飲料成分表中排在最前面的是「水、蔗糖」，這代表什麼意思？",
+            "options": [
+              "這瓶飲料完全不含糖分",
+              "這款飲料中含量最多的是水和糖，原汁含量較少",
+              "廠商是依照筆畫順序隨便排列",
+              "代表這瓶飲料只能用來澆花"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！成分表必須按照重量由多到少依序標示，糖排在越前面代表加了越多糖喔！",
+            "feedbackRetry": "想一想成分表是依照成分重量的「從多到少」還是「筆畫順序」排列呢？"
+          },
+          "factGroundingSourceId": "115-s1/g5/health-pe#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-health-pe-u3",
+      "stageId": "115-s1-g5-health-pe-u3",
+      "title": "單元三 安全停看聽",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "校園、休閒與水域安全防護",
+          "narrationText": "在校園走廊放慢腳步靠右行、遇緊急傷病通報師長與健康中心；從事單車、直排輪或戲水等休閒活動時，務必穿戴合格護具並做好行前檢查。",
+          "cognitiveChunks": [
+            "走廊不奔跑、樓梯靠右不推擠",
+            "單車戴安全帽、直排輪加護膝腕肘",
+            "不私自前往無救生員的野溪深潭"
+          ],
+          "analogyAnchor": "安全防護裝備就像身體的專屬安全氣囊：平時多花一分鐘檢查扣好，意外發生那瞬間就能替頭部和關節擋下最大傷害。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "行前檢查器材與穿戴完整安全護具",
+                "遵守校園與合格水域安全規範",
+                "遇急症通報師長或正確執行扭傷急救"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "護具與行前檢查",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "遵守校園水域規則",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l3",
+                "text": "正確通報與急救",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/health-pe#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "關節扭傷急救與 8 字型包紮法",
+          "narrationText": "急性關節扭傷（紅腫熱痛）切忌熱敷或推拿！應採休息、隔毛巾冰敷 15–20 分鐘、彈性繃帶 8 字型加壓固定並抬高患肢。",
+          "cognitiveChunks": [
+            "急性期 48 小時內冰敷不熱敷揉按",
+            "8 字型包紮法交叉固定關節",
+            "隨時檢查末梢是否發紫或發麻"
+          ],
+          "workedExampleData": {
+            "problemStatement": "同學打球拐傷腳踝立刻紅腫疼痛，該如何依序進行初步急救與 8 字型彈性繃帶包紮？",
+            "steps": [
+              "第 1 步：休息與冰敷——停止運動，用毛巾包裹冰袋敷患處約 15–20 分鐘（避免冰塊直接凍傷皮膚）",
+              "第 2 步：8 字型包紮——先在關節下方定帶，再以「8」字形交叉纏繞固定關節並抬高患肢超過心臟",
+              "第 3 步：檢查循環與護理——確認腳趾沒有發麻發紫（太緊須重包），後續多休息必要時就醫"
+            ],
+            "commonErrorContrast": "常見錯誤：剛扭傷就馬上熱敷揉開、繼續跑步，或把彈性繃帶勒到腳趾變白冰冷。",
+            "selfExplanationPrompt": "想一想：如果在校園看到同學突然昏倒或受傷，為什麼不可以隨便把人用力搖醒或背著跑？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/health-pe#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "校園救援與防溺意識",
+          "topicSignalTitle": "通報師長與健康中心",
+          "narrationText": "發生意外時由人留守陪伴安撫傷者、同時派人通知師長與健康中心；遇到溺水不盲目下水，大聲呼救並拋出救生圈或長竹竿。",
+          "cognitiveChunks": [
+            "重大傷病切忌隨意大幅搬動",
+            "遠離沒有救生員的危險水域"
+          ],
+          "factGroundingSourceId": "115-s1/g5/health-pe#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認急性關節扭傷的正確處理原則，再進入第三單元挑戰！",
+          "cognitiveChunks": [
+            "急性扭傷應休息冰敷並抬高患部"
+          ],
+          "warmupCheck": {
+            "prompt": "打球不小心拐傷腳踝造成「急性關節扭傷」（紅腫熱痛）時，送醫前的正確處理方式是哪一項？",
+            "options": [
+              "馬上用熱水袋熱敷並用力搓揉",
+              "繼續跑步把腳踝「跑開」",
+              "隔毛巾冰敷約 15–20 分鐘並將受傷的腳抬高休息",
+              "用冰塊直接緊貼皮膚冰敷兩小時"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！急性扭傷切忌熱敷或推拿，應休息、隔毛巾冰敷並抬高患肢。",
+            "feedbackRetry": "剛扭傷時裡面在發炎腫脹，應該降溫消腫還是加熱按摩呢？"
+          },
+          "factGroundingSourceId": "115-s1/g5/health-pe#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-health-pe-u4",
+      "stageId": "115-s1-g5-health-pe-u4",
+      "title": "單元四 動健康、健康動",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "運動計畫三階段與體適能",
+          "narrationText": "一次安全有效的運動包含「暖身運動 → 主要運動 → 緩和伸展」三階段；透過規律有氧運動與肌力訓練，能全面提升心肺與肌肉適能。",
+          "cognitiveChunks": [
+            "運動三階段：暖身 → 主要運動 → 緩和",
+            "規律有氧（慢跑、跳繩、游泳）強心肺",
+            "平板撐、捲腹、蹲舉鍛鍊肌肉適能"
+          ],
+          "analogyAnchor": "身體就像一台精密的跑車：上路前要暖身讓關節預熱、主要運動全力奔馳，結束後還要緩和伸展讓引擎慢慢降溫。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "暖身運動 5–10 分鐘預防拉傷",
+                "進行有氧或肌力主要運動",
+                "緩和伸展 15–30 秒幫助肌肉恢復"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "暖身預熱防拉傷",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "心肺與肌肉適能",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l3",
+                "text": "緩和伸展助恢復",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/health-pe#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "力拔山河與全力心挺動作要領",
+          "narrationText": "拔河時雙腳踩穩壓低重心、絕不可將繩子繞在手腕或腰上；體操地板支撐則要收緊核心與臀部，讓頭、背、臀到腳呈一直線並自然呼吸。",
+          "cognitiveChunks": [
+            "拔河繩只能雙手握緊，嚴禁纏繞身體",
+            "聽從統一口號齊力後拉發揮合力",
+            "地板支撐核心收緊、腰部不塌陷"
+          ],
+          "workedExampleData": {
+            "problemStatement": "班上要練習「拔河」與「平板撐（地板支撐）」，有同學想把繩子繞在手腕上增加抓力，另有人做平板撐時腰部往下塌陷，該如何指導修正？",
+            "steps": [
+              "第 1 步：修正拔河安全——立刻停止把繩子繞在手腕或腰上，改用雙手握緊繩索",
+              "第 2 步：建立拔河合力——雙腳前後踩穩、重心壓低微後傾，搭配統一口號齊力後拉",
+              "第 3 步：修正平板撐線條——雙手與肩同寬，收緊腹部與臀部讓身體呈直線，保持順暢呼吸"
+            ],
+            "commonErrorContrast": "常見錯誤：拔河纏繩導致勒傷骨折風險，或做平板撐時憋氣、屁股翹太高或腰部塌陷傷到下背。",
+            "selfExplanationPrompt": "想一想：如果執行每週運動計畫時發現小腿痠痛或目標太難達成，應該如何調整？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/health-pe#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "循序漸進的伸展與調整",
+          "topicSignalTitle": "量力而為、不彈震硬扯",
+          "narrationText": "運動後靜態伸展停留 15–30 秒即可，不可用力彈震；若身體疲勞痠痛，適度降強度並增加休息就是最聰明的計畫調整。",
+          "cognitiveChunks": [
+            "伸展至微緊繃維持呼吸 15–30 秒",
+            "依身體狀況微調每週運動計畫"
+          ],
+          "factGroundingSourceId": "115-s1/g5/health-pe#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認拔河比賽的安全鐵則，再進入第四單元挑戰！",
+          "cognitiveChunks": [
+            "拔河嚴禁將繩索纏繞手腕或腰部"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈力拔山河〉進行校園拔河比賽時，下列哪一項做法是正確且安全的動作要領？",
+            "options": [
+              "把拔河繩在手腕或腰部繞兩圈綁緊",
+              "雙腳前後踩穩、重心壓低微後傾，雙手握緊繩索聽口令齊力後拉",
+              "比賽還沒吹哨就偷拉，吹哨後突然放開繩子",
+              "閉著眼睛往前趴在地上"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！拔河繩絕不能纏繞身體以免發生危險，壓低重心並聽口令齊力後拉最安全有力。",
+            "feedbackRetry": "想一想如果拔河繩瞬間用力拉扯，綁在手腕或腰上會不會非常危險呢？"
+          },
+          "factGroundingSourceId": "115-s1/g5/health-pe#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-health-pe-u5",
+      "stageId": "115-s1-g5-health-pe-u5",
+      "title": "單元五 團結合作樂無窮",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "敏捷變向、手眼協調與安全場地",
+          "narrationText": "戶外敏捷遊戲能鍛鍊快速反應與手眼協調；轉彎時壓低重心縮小步幅、眼睛提前看向下一個方向，並隨時注意場地障礙物與隊友動線。",
+          "cognitiveChunks": [
+            "預備站姿：雙腳微開屈膝、重心前傾",
+            "轉彎降重心小碎步、眼神先行看方向",
+            "清除障礙物、抬頭跑動防衝撞"
+          ],
+          "analogyAnchor": "轉彎減速就像汽車過彎：進彎前先降重心踩煞車（小碎步），眼睛看準出口再加速出去，才不會打滑衝出跑道。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "個人敏捷協調",
+              "leftPoints": [
+                "屈膝降重心、小碎步快速變向",
+                "拋接球與傳接飛盤練手眼協調"
+              ],
+              "rightTitle": "團隊合作策略",
+              "rightPoints": [
+                "依隊友專長分工並確認共同目標",
+                "隊友失誤時給予鼓勵並迅速補位"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "降重心敏捷變向",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "分工補位與檢討",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/health-pe#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "策略溝通、情緒支持與賽後檢討",
+          "narrationText": "〈合力達標〉需要團隊先依專長分工，過程中包容鼓勵失誤隊友並配合大家步調；賽後檢討要聚焦「哪個流程可改進」而非互相指責。",
+          "cognitiveChunks": [
+            "賽前依速度或準度專長清楚分工",
+            "失誤時喊「沒關係」並迅速補位",
+            "賽後檢討找出卡關原因與改善方法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "第一回合接力闖關時，有隊友不小心掉球導致全組落後，部分組員開始互相抱怨，接下來該如何調整才能在第二回合進步？",
+            "steps": [
+              "第 1 步：穩定情緒——先鼓勵失誤的隊友「沒關係，下一趟繼續」，停止互相指責",
+              "第 2 步：聚焦流程檢討——找出剛才傳接或交接速度不順的原因，調整站位或喊口令節奏",
+              "第 3 步：照顧全隊步調——依隊友專長微調分工，配合共同節奏安全完成任務"
+            ],
+            "commonErrorContrast": "常見錯誤：把落後歸咎於某一位隊友或推給最慢的同學，或賽後檢討只找天氣和對手藉口。",
+            "selfExplanationPrompt": "想一想：在多人追逐或繞角錐遊戲中，如何同時跑得快又不會撞到其他同學？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/health-pe#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "安全遊戲三檢查",
+          "topicSignalTitle": "平坦場地、邊界、抬頭看路",
+          "narrationText": "遊戲前確認地面乾燥無書包石頭等障礙物，劃定安全邊界，跑動時抬頭觀察四周隊友動線，玩得盡興又平安。",
+          "cognitiveChunks": [
+            "不看腳尖低頭衝刺以免互撞",
+            "溼滑地面不進行急停折返跑"
+          ],
+          "factGroundingSourceId": "115-s1/g5/health-pe#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認變向折返跑的動作要領，再進入第五單元挑戰！",
+          "cognitiveChunks": [
+            "降重心與小碎步讓變向更穩更快"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈敏捷大進擊〉進行折返跑或 S 形繞角錐變向遊戲時，哪一個動作要領能幫助你轉彎既快又不容易滑倒？",
+            "options": [
+              "身體筆直僵硬不彎膝蓋，跨大步衝過去",
+              "接近轉折點時降低身體重心、縮小步幅加快步頻，眼睛提前看下一方向",
+              "雙手插在腰上不擺動",
+              "閉上眼睛轉身再睜開"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！降低重心讓腳底抓地更穩，小碎步減速蹬轉加上眼神先行，轉彎又快又安全。",
+            "feedbackRetry": "轉彎時把重心蹲低一點、腳步踩密一點，是不是比直挺挺跨大步更穩呢？"
+          },
+          "factGroundingSourceId": "115-s1/g5/health-pe#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-health-pe-u6",
+      "stageId": "115-s1-g5-health-pe-u6",
+      "title": "單元六 超越自我",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "運動家精神與田徑手球基礎",
+          "narrationText": "真正令人敬佩的運動員不只看勝負，更重視「服從裁判、勝不驕敗不餒」的運動家精神，並在跑步、接力與手球賽中熟練基礎動作與團隊配合。",
+          "cognitiveChunks": [
+            "服從裁判判決，賽後向對手致謝握手",
+            "跑步微前傾、雙臂自然前後擺動",
+            "手球用雙手傳運射門，不踩入球門區"
+          ],
+          "analogyAnchor": "運動家精神就像比賽場上的黃金獎牌：分數會隨著比賽結束而過去，但尊重規則與大方祝賀對手的風度會一直留在大家心中。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "運動家品格",
+              "leftPoints": [
+                "尊重規則與裁判判決不抗議",
+                "贏不嘲笑、輸不氣餒並檢討再練"
+              ],
+              "rightTitle": "跑步與手球技能",
+              "rightPoints": [
+                "接力區內配合口令確實遞交棒",
+                "手球張指接球微收緩衝不踩禁區"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "勝不驕敗不餒風度",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "接力與手球動作要領",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/health-pe#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "接力交棒、跑後緩和與手球規則",
+          "narrationText": "大隊接力須在接力區內伸穩接棒手遞交棒子；跑完步先慢走緩和不可立刻坐下；手球接球時五指張開微彎迎球並順勢後收緩衝。",
+          "cognitiveChunks": [
+            "接力不可用丟的，須在區內交進手中",
+            "跑後慢走緩和讓心跳血循平穩恢復",
+            "手球不可用腳踢球，接球微收緩衝"
+          ],
+          "workedExampleData": {
+            "problemStatement": "運動會前班上練習「大隊接力」與「樂趣手球賽」，有同學交棒時用丟的導致掉棒，跑完步就馬上坐地上；另外手球接球常吃蘿蔔乾，該如何改善？",
+            "steps": [
+              "第 1 步：修正接力交棒——接棒者在接力區內起跑配合口令伸穩接棒手，交棒者確實遞進手中才放開",
+              "第 2 步：落實跑後緩和——衝過終點線後先慢走一圈調整呼吸，不可立刻坐下或躺下",
+              "第 3 步：改善手球接球——雙手五指張開呈微彎漏斗狀迎球，觸球瞬間順勢往懷裡微收緩衝"
+            ],
+            "commonErrorContrast": "常見錯誤：接力跨出接力區交棒、手球抱球跑十步不運球或踩進守門員球門區射門。",
+            "selfExplanationPrompt": "想一想：如果平常沒有運動習慣，要如何從自己喜歡的活動開始「超越自我」？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/health-pe#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "養成規律運動習慣",
+          "topicSignalTitle": "由少到多、記錄進步",
+          "narrationText": "從自己有興趣且能負擔的快走、跳繩或打球開始，逐步記錄並拉長運動時間，每次超越昨天的自己就是最棒的成就。",
+          "cognitiveChunks": [
+            "不第一天就勉強挑戰高強度",
+            "記錄運動天數累積成就感"
+          ],
+          "factGroundingSourceId": "115-s1/g5/health-pe#u6"
+        },
+        {
+          "sceneId": "u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認手球比賽的基本規則，再進入第六單元挑戰！",
+          "cognitiveChunks": [
+            "手球用雙手傳運射門且不踩球門區"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈樂趣手球賽〉中，進攻球員想要傳球給隊友並射門得分，下列哪一項規則或動作觀念是正確的？",
+            "options": [
+              "主要用雙手傳接球與運球前進，射門時不可踩進守門員的球門區內",
+              "可以用腳踢球過人或抱著球跑十步",
+              "可以直接用手推倒守門員再投球",
+              "站在自己半場就可以永遠不運球"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！手球不可故意用腳踢球，持球未運球有限定步數，且不可踩入球門區內射門。",
+            "feedbackRetry": "記得這項運動叫「手球」喔，而且守門員面前有一塊禁止進攻球員踩進去的區域！"
+          },
+          "factGroundingSourceId": "115-s1/g5/health-pe#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-health-pe-u7",
+      "stageId": "115-s1-g5-health-pe-u7",
+      "title": "單元七 球類大挑戰",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u7-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "籃球、樂樂棒球與桌球關鍵技巧",
+          "narrationText": "多元球類各有技巧與規則：籃球投籃下肢微彎延伸壓腕、運球低於腰部並抬頭觀察；樂樂棒球注意推進壘包與安全放棒；桌球發球則須先彈己方桌面一次。",
+          "cognitiveChunks": [
+            "籃球投籃：微彎伸直壓腕；鬥牛守轉攻須回三分線外",
+            "樂樂棒球：不甩棒才安全；一壘有人優先傳二壘封殺",
+            "桌球：發球先彈己方桌面一次再過網"
+          ],
+          "analogyAnchor": "團隊球類就像一場默契合奏：拿球的人是主唱，沒有拿球的人則要積極「空手跑位」跑到空檔位置當合音，才能讓進攻流暢得分。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "籃球與鬥牛戰術",
+              "leftPoints": [
+                "空手跑位拉開空間接應隊友",
+                "半場搶籃板須回三分線外再進攻"
+              ],
+              "rightTitle": "樂樂棒與桌球規則",
+              "rightPoints": [
+                "擊球後安全放棒絕不甩棒",
+                "桌球發球先彈己方桌面再過網"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "空手跑位與回線規則",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "不甩棒與桌球發球",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/health-pe#u7"
+        },
+        {
+          "sceneId": "u7-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "場上戰術與守備傳球判斷",
+          "narrationText": "無論籃球空手跑位或樂樂棒球守備傳球，都要先看清場上隊友與跑者位置再做決定，同時把安全規則（如不甩棒）放在第一位。",
+          "cognitiveChunks": [
+            "隊友被包夾時往無防守空檔跑位接應",
+            "一壘有跑者打滾地球優先傳二壘封殺",
+            "桌球初學放輕力道盯緊來球穩定拍面"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在〈樂樂棒球大挑戰〉中，一壘上有跑者且無人出局，打者擊出滾地球到三壘方向。打者與三壘手各自該注意什麼？",
+            "steps": [
+              "第 1 步：打者安全放棒——打者擊球後將球棒輕放在規定區（絕不甩棒傷人），再全力衝向一壘",
+              "第 2 步：判斷強迫進壘——一壘跑者被迫必須往二壘跑，只要守備踩二壘壘包就能封殺",
+              "第 3 步：三壘手傳球——優先快速傳給二壘手完成封殺，甚至有機會再傳一壘雙殺"
+            ],
+            "commonErrorContrast": "常見錯誤：打者擊球後興奮甩棒、籃球半場鬥牛搶到籃板原地直接投籃（未出三分線），或桌球發球直接打過網不碰己方桌面。",
+            "selfExplanationPrompt": "想一想：打籃球時如果隊友正在運球被防守，其他沒有拿球的隊友擠在他身邊好，還是跑開到空檔好？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/health-pe#u7"
+        },
+        {
+          "sceneId": "u7-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "桌球控球與發球細節",
+          "topicSignalTitle": "輕擊穩拍、先彈己桌",
+          "narrationText": "桌球非常輕巧，初學時放輕手腕力道、眼睛盯緊球並穩定拍面角度，發球時記得先拋起擊球彈跳己方球桌一次再過網。",
+          "cognitiveChunks": [
+            "揮拍過猛容易讓桌球飛出界",
+            "準備接球雙腳微開微蹲靈活移動"
+          ],
+          "factGroundingSourceId": "115-s1/g5/health-pe#u7"
+        },
+        {
+          "sceneId": "u7-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認樂樂棒球的重要安全規則，再進入第七單元挑戰！",
+          "cognitiveChunks": [
+            "打擊後安全放棒、絕不甩棒"
+          ],
+          "warmupCheck": {
+            "prompt": "輪到在樂樂棒球打擊區揮棒打擊時，擊中球準備跑向一壘前，應該遵守哪一項最重要的安全規則？",
+            "options": [
+              "把球棒輕放在規定位置（不甩棒），再全力跑向一壘",
+              "揮完棒後用力把球棒往後甩飛出去再跑",
+              "拿著球棒一路跑完四個壘包不放手",
+              "站在原地跳起來拍手直到被觸殺"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！「安全放棒、不甩棒」能保護後方捕手與隊友不受傷，放好球棒再全力衝刺！",
+            "feedbackRetry": "後面站著捕手和同學，打完球手上的球棒千萬不可以怎麼做呢？"
+          },
+          "factGroundingSourceId": "115-s1/g5/health-pe#u7"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "packId": "115-s2-g3-arts",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 3,
+  "subjectId": "arts",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-arts-u1",
+      "stageId": "115-s2-g3-arts-u1",
+      "title": "第一單元 視覺萬花筒",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "對稱、重複排列與大小漸變",
+          "narrationText": "對摺色紙剪出「左左右右長一樣」的對稱之美；讓圖形依規律「反反覆覆排著隊」產生秩序與韻律；再用「由小到大變變變」營造遠近空間層次！",
+          "cognitiveChunks": [
+            "對摺剪紙以摺線為對稱軸，左右完全對稱",
+            "重複與交替排列圖形色彩形成秩序韻律",
+            "由小到大搭配色彩漸層營造空間深度"
+          ],
+          "analogyAnchor": "視覺萬花筒就像三把美感魔術尺：鏡子對稱、排隊重複、望遠鏡大小漸變，讓平凡圖案立刻變精彩！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "左右對稱：對摺色紙沿摺線剪半邊再攤開",
+                "反覆排隊：選定圖形依固定順序間隔排列",
+                "大小漸變：遠小近大搭配色彩深淺漸層"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "對摺剪紙左右對稱",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "遠小近大有空間感",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/arts#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "環保安全創作與對稱漸變技巧",
+          "narrationText": "動手剪紙、拼貼或蓋印時，如何兼顧視覺美感、環保與安全？",
+          "cognitiveChunks": [
+            "洗淨瓶蓋、瓦楞紙條安全又環保",
+            "尊重同學色彩選擇，不分性別自由創作"
+          ],
+          "workedExampleData": {
+            "problemStatement": "想用環保材料練習「反反覆覆排著隊」，並畫出「由遠到近游來的魚群」，該怎麼做？",
+            "steps": [
+              "第 1 步：選用洗淨的飲料瓶蓋、瓦楞紙條或落葉，避免尖銳玻璃或鐵釘",
+              "第 2 步：依固定順序或上下交替方向重複蓋印，形成有節奏的花邊",
+              "第 3 步：畫魚群時把遠處畫小、近處逐漸畫大，營造空間深度"
+            ],
+            "commonErrorContrast": "常見錯誤：使用生鏽鐵釘或拔取活盆栽，或把所有魚都畫得一樣大讓畫面顯得平面。",
+            "selfExplanationPrompt": "想一想：剪紙前先將色紙對摺，那條摺線在美術上稱為什麼呢？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/arts#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看剪出對稱蝴蝶的小巧思！",
+          "cognitiveChunks": [
+            "對摺剪紙能確保左右對稱不剪歪"
+          ],
+          "warmupCheck": {
+            "question": "在〈1.左左右右長一樣〉想用色紙剪出一隻「左右兩邊一模一樣」的蝴蝶，最巧的方法是什麼？",
+            "prompt": "在〈1.左左右右長一樣〉想用色紙剪出一隻「左右兩邊一模一樣」的蝴蝶，最巧的方法是什麼？",
+            "options": [
+              "先把色紙左右對摺，沿摺線畫半邊輪廓剪下再攤開",
+              "把色紙揉成紙球後隨便剪一刀",
+              "沒摺紙直接在左邊畫大翅膀、右邊畫三角形"
+            ],
+            "answerIndex": 0,
+            "explanation": "利用色紙對摺後的摺線當作對稱軸，只剪半邊再攤開，就能得到左右完全對稱的蝴蝶！",
+            "feedbackCorrect": "答對了！對摺剪紙再攤開就能讓左右兩邊一模一樣！",
+            "feedbackRetry": "想讓紙張左右兩邊剪出來完全相同，動剪刀前可以先對色紙做什麼動作呢？"
+          },
+          "factGroundingSourceId": "115-s2/g3/arts#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-arts-u2",
+      "stageId": "115-s2-g3-arts-u2",
+      "title": "第二單元 表演任我行",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "無聲模仿、自信秀與團隊演戲",
+          "narrationText": "在〈猜猜我是誰〉放大關鍵動作特徵；〈我來秀一下〉站穩舞台、眼神交流並讀懂故事角色；〈我們來演戲〉則要幕前幕後各司其職、並做個有風度的優質小觀眾！",
+          "cognitiveChunks": [
+            "無聲模仿靠動作重心、肌肉張力與神情",
+            "上台展現儀態穩定、眼神交流、聲音宏亮",
+            "戲劇分工主角配角旁白道具缺一不可"
+          ],
+          "analogyAnchor": "一齣好戲就像交響樂團，主角、配角、旁白和音效道具都是重要樂器，加上優質觀眾的掌聲才算完整！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "台上表演關鍵技巧",
+              "leftPoints": [
+                "放大關鍵動作與放慢節奏讓觀眾看清",
+                "面向觀眾、不搶話，讀懂角色個性"
+              ],
+              "rightTitle": "團隊分工與觀賞禮儀",
+              "rightPoints": [
+                "旁白與音效道具能打造臨場立體感",
+                "台下安靜專注欣賞、謝幕真誠鼓掌"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "面向觀眾不搶話",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "優質觀眾掌聲鼓勵",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/arts#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "提升無聲模仿與閱讀改編力",
+          "narrationText": "如果台下同學猜不出你在模仿什麼，或是要把故事書改編上台，該怎麼準備？",
+          "cognitiveChunks": [
+            "掌握故事主角個性與心情變化",
+            "放大關鍵特徵與重心張力"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在〈猜猜我是誰〉模仿搬運重物的工人，或改編故事上台演出時，如何讓觀眾一眼看懂？",
+            "steps": [
+              "第 1 步：先讀懂角色特性或故事情節，掌握主角的心情與動作重點",
+              "第 2 步：模仿搬重物時雙手抱箱、膝蓋微彎用力、臉露吃力表情並放慢節奏",
+              "第 3 步：講台詞時面向觀眾且聲音宏亮，等對手說完再接話"
+            ],
+            "commonErrorContrast": "常見錯誤：直接喊出謎底、背對觀眾席唸台詞，或認為道具與音效組不重要。",
+            "selfExplanationPrompt": "想一想：當別組同學上台演出不小心忘詞時，台下的優質小觀眾應該怎麼反應？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/arts#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看戲劇分工合作的正確觀念！",
+          "cognitiveChunks": [
+            "幕前幕後每個角色都讓戲劇更完整"
+          ],
+          "warmupCheck": {
+            "question": "在〈3.我們來演戲〉排練時，有同學抱怨擔任音效或道具組沒人看，這時正確的觀念是什麼？",
+            "prompt": "在〈3.我們來演戲〉排練時，有同學抱怨擔任音效或道具組沒人看，這時正確的觀念是什麼？",
+            "options": [
+              "每個幕前幕後角色都缺一不可，音效與道具能讓戲更精彩",
+              "只有站在中間的主角重要，其他人都不用做事",
+              "大家全部爭著演同一個主角就好"
+            ],
+            "answerIndex": 0,
+            "explanation": "戲劇是團體合作的藝術，主角、配角、旁白、音效與道具彼此互補，才能共同完成精彩演出！",
+            "feedbackCorrect": "答對了！幕前幕後各司其職，才能讓整齣戲立體又精彩！",
+            "feedbackRetry": "如果一齣戲沒有背景交代、道具和音效配合，看起來是不是會少了臨場感呢？"
+          },
+          "factGroundingSourceId": "115-s2/g3/arts#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-arts-u3",
+      "stageId": "115-s2-g3-arts-u3",
+      "title": "第三單元 音樂美樂地",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "歡愉節奏、歌詠春天與山魔王宮殿",
+          "narrationText": "在〈歡愉的音樂〉感受輕快節拍與性別平權合奏；〈歌詠春天〉放鬆微笑歌唱並愛護自然；走進〈山魔王的宮殿〉體驗漸快與漸強營造的緊張追逐張力！",
+          "cognitiveChunks": [
+            "樂器與聲部選擇不分性別，合奏重平衡",
+            "唱歌放鬆肩頸微笑、唱後愛護校園花木",
+            "速度漸快與力度漸強能營造戲劇緊張感"
+          ],
+          "analogyAnchor": "音樂的速度和音量就像說故事的語氣，輕輕慢慢像躡手躡腳，越來越快越大聲就像緊張的追逐冒險！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "歡愉音樂：輕快拍子律動、樂器選擇不設限",
+                "歌詠春天：放鬆微笑清亮唱、伴奏音量平衡",
+                "山魔王宮殿：漸快漸強推張力、尊重多元聯想"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "樂器選擇不分性別",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "漸快漸強造張力",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/arts#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "歌唱呼吸與欣賞音樂元素變化",
+          "narrationText": "唱春天歌曲要怎麼發聲才悅耳？欣賞故事性樂曲時又要聽哪些變化？",
+          "cognitiveChunks": [
+            "放鬆肩頸微笑、氣息穩定自然唱",
+            "音樂欣賞沒有唯一標準答案，尊重多元感受"
+          ],
+          "workedExampleData": {
+            "problemStatement": "演唱〈歌詠春天〉並欣賞〈山魔王的宮殿〉時，分別要掌握哪些音樂重點？",
+            "steps": [
+              "第 1 步：唱〈歌詠春天〉時放鬆肩頸並微笑，用清亮穩定的氣息自然歌唱",
+              "第 2 步：若用樂器伴奏，音量要適中配合拍子，不把歌聲蓋過去",
+              "第 3 步：聽〈山魔王的宮殿〉時感受速度由慢變快、音量由弱漸強的緊張氣氛"
+            ],
+            "commonErrorContrast": "常見錯誤：唱歌時用力吼叫、規定鈴鼓只能女生拿，或認為樂曲只能有一種標準故事。",
+            "selfExplanationPrompt": "想一想：如果同學分享對〈山魔王的宮殿〉的聯想和你不一樣，我們應該怎麼回應？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/arts#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看作曲家怎麼用音樂營造冒險緊張氣氛！",
+          "cognitiveChunks": [
+            "漸快、漸強與緊湊節奏能營造緊張追逐感"
+          ],
+          "warmupCheck": {
+            "question": "在〈3.山魔王的宮殿〉欣賞帶有奇幻冒險故事感的樂曲時，作曲家通常如何營造神秘又刺激緊張的氣氛？",
+            "prompt": "在〈3.山魔王的宮殿〉欣賞帶有奇幻冒險故事感的樂曲時，作曲家通常如何營造神秘又刺激緊張的氣氛？",
+            "options": [
+              "透過速度由慢變快、音量由弱漸強與緊湊節奏動機",
+              "整首曲子用極慢極小聲重複同一顆音五分鐘",
+              "把所有樂器換成每秒滴答的時鐘不讓旋律出現"
+            ],
+            "answerIndex": 0,
+            "explanation": "運用速度漸快、力度漸強與重複緊湊的節奏動機，能讓聽眾彷彿置身緊張刺激的冒險追逐中！",
+            "feedbackCorrect": "答對了！速度與力度的變化能創造出滿滿的戲劇張力！",
+            "feedbackRetry": "想一想電影裡越來越緊張刺激的時候，背景音樂的速度和音量會怎麼變呢？"
+          },
+          "factGroundingSourceId": "115-s2/g3/arts#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-arts-u4",
+      "stageId": "115-s2-g3-arts-u4",
+      "title": "第四單元 統整課程",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "無所不在的美感與生命教育",
+          "narrationText": "美感不只在美術館！用心觀察日常餐桌擺盤、樹葉水珠與校園大樹搖曳沙沙聲，透過三科統整展演與安全木作課程，看見每個生命的獨特溫度與價值。",
+          "cognitiveChunks": [
+            "生活處處有美感，整合視覺、音樂與表演",
+            "生命教育：珍惜動植物與家人陪伴的溫度",
+            "木作課程欣賞天然木紋、安全操作不嬉鬧"
+          ],
+          "analogyAnchor": "美感就像隨身帶著的放大鏡，只要打開眼睛、耳朵和心去感受，平常的早餐、樹影和木頭紋理都是藝術！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "跨領域生活美感",
+              "leftPoints": [
+                "餐桌色彩、雨後水珠、大樹搖曳與葉聲",
+                "對稱布景（視覺）＋配樂＋演故事（表演）"
+              ],
+              "rightTitle": "生命關懷與木作安全",
+              "rightPoints": [
+                "不傷害動植物，感謝家人日常付出",
+                "欣賞木紋、安全用工具、難處請師長協助"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "日常處處藏著美感",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "珍惜生命與木作安全",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/arts#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "設計跨科展演與給予正向回饋",
+          "narrationText": "如何策劃一場融合視覺、音樂與表演的小型展演，並給同學溫暖的鼓勵？",
+          "cognitiveChunks": [
+            "布景海報＋合適配樂＋生動肢體演戲",
+            "具體說出作品優點與帶給自己的感受"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何設計期末「三科統整小型展演」，並在欣賞後給同學有建設性的回饋？",
+            "steps": [
+              "第 1 步：用對稱圖案裝飾海報與布景（視覺），搭配符合氣氛的配樂（音樂）",
+              "第 2 步：由演員用生動肢體與表情演出校園故事（表演）",
+              "第 3 步：木作道具操作遇到困難先停下討論請老師協助；欣賞後具體稱讚同學的創意優點"
+            ],
+            "commonErrorContrast": "常見錯誤：以為只有出國看美術館才算美感、為了創作傷害蝴蝶花草，或只挑同學小失誤指責。",
+            "selfExplanationPrompt": "想一想：在你的日常生活中，有哪一個平凡的畫面或聲音讓你覺得很有美感？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/arts#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看生活中處處藏著的美感小細節！",
+          "cognitiveChunks": [
+            "用心觀察日常細節就能發現生活美感"
+          ],
+          "warmupCheck": {
+            "question": "〈無所不在的美感〉提醒我們觀察周遭美好。下列哪一個生活片段最能體現「美感就在平凡日常中」？",
+            "prompt": "〈無所不在的美感〉提醒我們觀察周遭美好。下列哪一個生活片段最能體現「美感就在平凡日常中」？",
+            "options": [
+              "細心配色擺盤的早餐、雨後樹葉水珠與整潔可愛的招牌",
+              "一定要出國走進世界級美術館才看得到美",
+              "關起門窗盯著手機遊戲完全不看窗外風景"
+            ],
+            "answerIndex": 0,
+            "explanation": "美感不需要昂貴門票！打開感官細心觀察，生活裡的餐桌色彩、自然光影與整潔街道處處都是美！",
+            "feedbackCorrect": "答對了！用心觀察生活細節，平凡日常處處都是美！",
+            "feedbackRetry": "想一想，發現美一定要去很遠的地方嗎？家裡和上學路上有哪些漂亮的小細節？"
+          },
+          "factGroundingSourceId": "115-s2/g3/arts#u4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,454 @@
+{
+  "packId": "115-s1-g2-mandarin",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 2,
+  "subjectId": "mandarin",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-mandarin-u1",
+      "stageId": "115-s1-g2-mandarin-u1",
+      "title": "第一單元 生活新鮮事",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "用字典和細心雙眼發現生活樂趣",
+          "narrationText": "升上二年級，我們學會查字典幫自己認字，還能訂下好習慣、和家人一起做早餐，在小巷裡發現有趣的事。",
+          "cognitiveChunks": [
+            "不會念的字可以查字典",
+            "新學年訂下做得到的好習慣",
+            "細心觀察身邊的生活小事"
+          ],
+          "analogyAnchor": "字典就像隨身小老師，而我們細心的眼睛就像放大鏡，能幫我們找到生活裡的快樂！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "step1": "查字典認新字",
+              "step2": "訂下新希望",
+              "step3": "細心觀察生活"
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "查字音與意思",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "放慢腳步觀察",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/mandarin#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "怎麼訂一個好做到的新希望？",
+          "narrationText": "讀第一課《新學年新希望》時，要挑自己每天做得到的小目標，才能真正進步。",
+          "cognitiveChunks": [
+            "目標要具體又清楚",
+            "每天都能練習做到"
+          ],
+          "workedExampleData": {
+            "problemStatement": "想替二年級訂一個「新學年新希望」，下面哪一個最容易做到又有用？",
+            "steps": [
+              "第 1 步：想一想自己每天需要做什麼事（例如整理書包）",
+              "第 2 步：把目標說清楚：「每天睡前自己整理好書包」",
+              "第 3 步：天天練習做到，就是最棒的好習慣"
+            ],
+            "commonErrorContrast": "常見錯誤：訂下「每天不用寫功課」或「一分鐘背完一整本書」這種做不到的目標。",
+            "selfExplanationPrompt": "想一想：在家裡和家人《一起做早餐》時，你可以幫忙做哪一件小事？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/mandarin#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先答對這題，再開始挑戰第一單元！",
+          "cognitiveChunks": [
+            "分工合作與愛護環境"
+          ],
+          "warmupCheck": {
+            "prompt": "讀故事書遇到不認識的國字時，用什麼工具查讀音和意思最方便？",
+            "options": [
+              "字典",
+              "直尺",
+              "橡皮擦"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！字典可以查出字音和字義，是讀書的好幫手。",
+            "feedbackRetry": "想一想，單元一開始我們學了「什麼工具真簡單」呢？"
+          },
+          "factGroundingSourceId": "115-s1/g2/mandarin#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-mandarin-u2",
+      "stageId": "115-s1-g2-mandarin-u2",
+      "title": "第二單元 歡樂的時刻",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "一起參加活動的快樂時光",
+          "narrationText": "不管是熱鬧的《運動會》、特別的《坐竹籃船》，還是香甜的《小鎮的柿餅節》，和大家一起參與最開心。",
+          "cognitiveChunks": [
+            "運動會要暖身、守規則",
+            "尊重不同地方的文化特色",
+            "戶外活動愛護環境有公德心"
+          ],
+          "analogyAnchor": "就像全班一起開同樂會，大家守規矩、互相加油，每個人都能留下快樂的回憶！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "校內活動",
+              "leftPoints": [
+                "運動會先暖身再比賽",
+                "替每位選手拍手加油"
+              ],
+              "rightTitle": "戶外與文化體驗",
+              "rightPoints": [
+                "坐竹籃船穿好救生衣",
+                "參加柿餅節愛惜果樹"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "運動會守規則",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "尊重各地文化",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/mandarin#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "怎樣才是有運動家精神？",
+          "narrationText": "在運動會或戶外活動裡，除了自己玩得開心，也要懂得尊重別人、保護安全。",
+          "cognitiveChunks": [
+            "安全第一：先暖身、不推擠",
+            "替別人加油更有風度"
+          ],
+          "workedExampleData": {
+            "problemStatement": "運動會大隊接力時，別班同學跑得很快，我們在場邊怎麼做最好？",
+            "steps": [
+              "第 1 步：站在場邊安全的位置觀看，不跑進跑道",
+              "第 2 步：不喝倒彩，也不生氣",
+              "第 3 步：替每位努力奔跑的選手拍手加油"
+            ],
+            "commonErrorContrast": "常見錯誤：看到別班領先就大聲喝倒彩，或是沒做暖身就用力衝刺。",
+            "selfExplanationPrompt": "想一想：去參加《小鎮的柿餅節》時，怎樣做才是有公德心的小客人？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/mandarin#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "試試看這題活動安全與禮貌的題目！",
+          "cognitiveChunks": [
+            "對不同文化抱持好奇與尊重"
+          ],
+          "warmupCheck": {
+            "prompt": "認識《坐竹籃船》這樣特別的地方文化時，應該抱著什麼心情？",
+            "options": [
+              "覺得奇怪就取笑別人",
+              "抱著好奇和尊重的心情欣賞",
+              "完全不想聽介紹"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！尊重和欣賞不同地方的文化，能讓我們學到更多新知識。",
+            "feedbackRetry": "每個地方都有自己的特色，用尊重和好奇的心情來認識最好喔！"
+          },
+          "factGroundingSourceId": "115-s1/g2/mandarin#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-mandarin-u3",
+      "stageId": "115-s1-g2-mandarin-u3",
+      "title": "第三單元 故事萬花筒",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "讀懂故事裡藏著的道理",
+          "narrationText": "這個單元有童話、寓言和動腦故事，像萬花筒一樣精彩，讀完還要想想故事教了我們什麼。",
+          "cognitiveChunks": [
+            "《國王的新衣裳》教我們誠實",
+            "《「聰明」的小熊》引號常表反話",
+            "《大象有多重？》鼓勵冷靜動腦"
+          ],
+          "analogyAnchor": "好故事就像一顆包裝漂亮的糖果，打開包裝看故事發生什麼事，裡面的甜味就是做人的道理！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "看故事表面",
+              "leftPoints": [
+                "誰是主角、發生什麼事",
+                "注意標題上的標點符號"
+              ],
+              "rightTitle": "想背後道理",
+              "rightPoints": [
+                "誠實不盲從",
+                "遇到困難勇敢動腦"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "誠實說真話",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "冷靜想辦法",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/mandarin#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "為什麼「聰明」要加上引號？",
+          "narrationText": "讀課文標題時，如果看到特別的標點符號，例如引號「 」，要多想一下作者為什麼這樣寫。",
+          "cognitiveChunks": [
+            "引號可表示強調或反話",
+            "讀寓言要思考主角對不對"
+          ],
+          "workedExampleData": {
+            "problemStatement": "第八課課名《「聰明」的小熊》把「聰明」加上引號，是在提醒讀者什麼？",
+            "steps": [
+              "第 1 步：注意「聰明」兩個字外面有引號「 」",
+              "第 2 步：在故事裡，加上引號常表示「其實不是真的這樣」（反話）",
+              "第 3 步：提醒我們讀的時候要想想：小熊是真的聰明，還是愛耍小聰明？"
+            ],
+            "commonErrorContrast": "常見錯誤：以為加上引號只是因為課本排版好看，沒有發現作者在暗示小熊可能做錯事。",
+            "selfExplanationPrompt": "想一想：《國王的新衣裳》裡，為什麼最後只有小孩子敢說出國王沒穿衣服？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/mandarin#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "考考你這三個故事的主旨！",
+          "cognitiveChunks": [
+            "讀寓言要找出做人處事的道理"
+          ],
+          "warmupCheck": {
+            "prompt": "讀完《國王的新衣裳》，這個故事最主要想告訴我們什麼？",
+            "options": [
+              "要穿很貴的衣服",
+              "要誠實說真話，不跟著別人說謊",
+              "不要聽小孩子說話"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！誠實面對事實、不盲從別人才是最勇敢的表現。",
+            "feedbackRetry": "想想看，故事裡的大人們為什麼不敢說出真相，最後誰說了真話呢？"
+          },
+          "factGroundingSourceId": "115-s1/g2/mandarin#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-mandarin-u4",
+      "stageId": "115-s1-g2-mandarin-u4",
+      "title": "第四單元 冬天的悄悄話",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "感受冬天的溫暖與生命",
+          "narrationText": "冬天有熱鬧的新年、遠方來過冬的黑面琵鷺，還有吹著北風喝熱湯的溫暖生活。",
+          "cognitiveChunks": [
+            "新年對家人說祝福的話",
+            "安靜遠觀、愛護過冬候鳥",
+            "用眼睛和感覺描寫冬天"
+          ],
+          "analogyAnchor": "冬天外面雖然風冷冷的，但家人互相照顧、我們一起愛護來過冬的小鳥，心裡就會暖暖的！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "step1": "新年快樂（家庭溫暖）",
+              "step2": "遠方來的黑皮（愛護候鳥）",
+              "step3": "我愛冬天（季節觀察）"
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "祝福家人新年好",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "安靜不打擾候鳥",
+                "anchorPointId": "step2"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/mandarin#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "怎麼描寫「冬天的樣子」？",
+          "narrationText": "寫季節的時候，可以想一想天氣怎麼樣、穿什麼衣服、吃什麼東西，才不會寫成夏天或春天。",
+          "cognitiveChunks": [
+            "找出冬天專屬的天氣與穿著",
+            "排除夏天或春天的特色"
+          ],
+          "workedExampleData": {
+            "problemStatement": "下面哪一句描寫的才是「冬天」的樣子？",
+            "steps": [
+              "第 1 步：先找冬天的線索：北風吹、穿厚外套、戴圍巾、喝熱湯",
+              "第 2 步：檢查選項：「海邊吃剉冰」和「蟬叫」是夏天，「春雨」是春天",
+              "第 3 步：選出「北風呼呼吹，大家圍上圍巾喝熱湯」"
+            ],
+            "commonErrorContrast": "常見錯誤：沒有看清楚季節線索，把夏天的蟬叫或春天的嫩芽當成冬天的樣子。",
+            "selfExplanationPrompt": "想一想：看到遠方飛來臺灣過冬的黑面琵鷺時，我們可以怎麼保護牠們？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/mandarin#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "練習一題愛護過冬候鳥的做法吧！",
+          "cognitiveChunks": [
+            "保持距離安靜看，不嚇唬動物"
+          ],
+          "warmupCheck": {
+            "prompt": "看到來臺灣溼地過冬的黑面琵鷺時，怎麼做最愛護牠們？",
+            "options": [
+              "大聲喊叫讓牠們飛起來",
+              "保持距離安靜看，不丟石頭也不餵零食",
+              "跑進水裡去追牠們"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！安靜遠遠欣賞、愛護溼地環境，才不會嚇到遠道而來的候鳥。",
+            "feedbackRetry": "野生動物需要安靜安全的環境休息，哪一個做法才不會嚇到牠們呢？"
+          },
+          "factGroundingSourceId": "115-s1/g2/mandarin#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-mandarin-u5",
+      "stageId": "115-s1-g2-mandarin-u5",
+      "title": "閱讀階梯",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "自己讀懂長文章的三個好方法",
+          "narrationText": "在閱讀階梯《我最喜歡上學了》，我們要練習自己找出文章主要想說什麼，遇到不懂的詞也有辦法解決。",
+          "cognitiveChunks": [
+            "從題目和每段重點找大意",
+            "不懂的詞先看前後文再查字典",
+            "邊讀邊想人物在做什麼、心情如何"
+          ],
+          "analogyAnchor": "讀長故事就像爬樓梯，一階一階照順序看「開頭、經過、結果」，就能輕鬆看懂整篇文章！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "step1": "看題目猜主題",
+              "step2": "讀前後文解詞意",
+              "step3": "串起各段找大意"
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "題目點出主題",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "整理故事大意",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/mandarin#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "遇到不懂的詞語怎麼辦？",
+          "narrationText": "自己讀故事時遇到沒看過的詞語別慌張，先讀前後句猜猜看，再查字典或問老師。",
+          "cognitiveChunks": [
+            "先讀前後的句子找線索",
+            "再查字典或請教老師同學"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在閱讀階梯讀比較長的故事時，遇到不懂的詞語該怎麼辦？",
+            "steps": [
+              "第 1 步：把這個詞語前面和後面的句子再讀一遍，猜猜看意思",
+              "第 2 步：拿出字典查清楚讀音和解釋",
+              "第 3 步：如果還是不懂，有禮貌地請教老師或同學"
+            ],
+            "commonErrorContrast": "常見錯誤：一遇到看不懂的字詞就跳過整頁不看，或是直接把書蓋起來放棄。",
+            "selfExplanationPrompt": "想一想：讀完好聽的故事想推薦給朋友時，要怎麼介紹最清楚？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/mandarin#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "試試看找出文章主旨大意的方法吧！",
+          "cognitiveChunks": [
+            "題目＋各段重點＝文章大意"
+          ],
+          "warmupCheck": {
+            "prompt": "讀完《我最喜歡上學了》，想快速找出文章「主要想說什麼（大意）」，看哪裡最快知道？",
+            "options": [
+              "看題目和每一段一直提到的共同重點",
+              "數一數文章一共有幾個句號",
+              "只看課本最後一頁的頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！題目和每一段反覆寫到的重點，就是文章的主旨大意。",
+            "feedbackRetry": "句號數量和頁碼沒辦法告訴我們故事內容喔，再想一想哪裡有內容線索！"
+          },
+          "factGroundingSourceId": "115-s1/g2/mandarin#u5"
+        }
+      ]
+    }
+  ]
+}

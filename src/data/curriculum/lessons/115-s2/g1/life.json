@@ -1,0 +1,625 @@
+{
+  "packId": "115-s2-g1-life",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 1,
+  "subjectId": "life",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-life-u1",
+      "stageId": "115-s2-g1-life-u1",
+      "title": "主題一、訊息的傳達",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "生活中的訊息藏在哪裡？",
+          "narrationText": "寒假照片、教室布告欄、學校廣播、音樂和家庭聯絡簿，都在幫我們傳達重要的訊息與提醒！",
+          "cognitiveChunks": [
+            "照片或門票能分享寒假故事",
+            "聽到廣播要安靜仔細聽",
+            "聯絡簿記錄明天要帶的東西"
+          ],
+          "analogyAnchor": "布告欄的海報和每天寫的家庭聯絡簿，就像會說話的小精靈，提醒我們重要事情不會忘記。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "看得到的訊息",
+              "leftPoints": [
+                "寒假出遊照片、布告欄海報",
+                "家庭聯絡簿與訊息通知單"
+              ],
+              "rightTitle": "聽得到的訊息",
+              "rightPoints": [
+                "學校廣播重要提醒",
+                "午休或放學的校園音樂"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "聯絡簿與布告欄",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "廣播與音樂提醒",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/life#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "製作清楚的訊息通知單",
+          "narrationText": "寫一張訊息通知單請家人來學校參加活動時，一定要把最重要的三個重點寫清楚。",
+          "cognitiveChunks": [
+            "寫清楚時間、地點和事項",
+            "傳遞訊息要聽清楚再轉達"
+          ],
+          "workedExampleData": {
+            "problemStatement": "做「訊息通知單」提醒家人來學校參加活動時，一定要寫清楚什麼？",
+            "steps": [
+              "第 1 步：寫清楚「什麼時候」（日期和幾點鐘）",
+              "第 2 步：寫清楚「在哪裡」（學校或哪一間教室）",
+              "第 3 步：寫清楚「要做什麼事」（活動名稱與要帶的物品）"
+            ],
+            "commonErrorContrast": "常見錯誤：只畫了漂亮的插圖或寫自己喜歡的果汁口味，卻忘了寫時間和地點。",
+            "selfExplanationPrompt": "想一想：在學校聽到廣播響起來時，教室裡應該保持什麼樣子才聽得清楚？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/life#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "專心聆聽與傳話遊戲",
+          "topicSignalTitle": "怎樣才不會把訊息傳錯？",
+          "narrationText": "聽到廣播要安靜下來仔細聽；玩傳話遊戲或幫老師傳話時，要先聽清楚內容，再用清楚的聲音傳給下一位同學。",
+          "cognitiveChunks": [
+            "聽到廣播先安靜聆聽",
+            "傳話不亂改、講清楚重點"
+          ],
+          "factGroundingSourceId": "115-s2/g1/life#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "試試看這題訊息小偵探題目！",
+          "cognitiveChunks": [
+            "聯絡簿記錄明天要帶的學用品"
+          ],
+          "warmupCheck": {
+            "prompt": "想知道老師交代明天要帶什麼學用品，翻開哪裡找最清楚？",
+            "options": [
+              "自己的家庭聯絡簿",
+              "走廊的資源回收箱",
+              "操場旁的溜滑梯"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！每天睡前翻開家庭聯絡簿檢查，就不會忘記帶東西囉！",
+            "feedbackRetry": "老師每天會把回家功課和明天要帶的東西寫在哪一本小本子上呢？"
+          },
+          "factGroundingSourceId": "115-s2/g1/life#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-life-u2",
+      "stageId": "115-s2-g1-life-u2",
+      "title": "主題二、美麗的春天",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "感受暖暖的春天與動植物",
+          "narrationText": "春天來了，天氣變暖和，換穿輕便的衣服；樹枝長出綠芽、花兒盛開，蝴蝶和蜜蜂也飛來了。",
+          "cognitiveChunks": [
+            "春天天氣變暖、換穿輕便衣服",
+            "樹枝發芽、花朵盛開、蝴蝶飛舞",
+            "用眼睛欣賞，不亂摘花草動物"
+          ],
+          "analogyAnchor": "春天像大自然穿上了新衣服，枯樹冒出綠綠的小嫩芽，小蝴蝶也在花叢裡拍拍翅膀飛舞。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "春天的發現",
+              "leftPoints": [
+                "天氣變暖和，穿輕便薄長袖",
+                "樹枝發芽開花、蝴蝶飛舞"
+              ],
+              "rightTitle": "在春天裡玩",
+              "rightPoints": [
+                "模仿小蝴蝶張開雙手輕輕飛",
+                "戴頭套不遮眼、桌遊先訂規則"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "發芽開花天變暖",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "安全開心玩春天",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/life#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "戴頭套表演與設計春天桌遊",
+          "narrationText": "畫好春天動物頭套戴在頭上時，要注意不能擋住視線；設計春天桌遊時，要先和同學說好公平的遊戲規則。",
+          "cognitiveChunks": [
+            "頭套大小要剛好不遮眼睛",
+            "桌遊先說好清楚規則才好玩"
+          ],
+          "workedExampleData": {
+            "problemStatement": "畫好春天的花朵或動物頭套戴在頭上表演時，要注意哪一件事？",
+            "steps": [
+              "第 1 步：試戴看看頭圍大小合不合適",
+              "第 2 步：確認頭套不會滑下來擋住兩隻眼睛",
+              "第 3 步：不要用尖尖的竹籤插在頭套上，安全慢慢走"
+            ],
+            "commonErrorContrast": "常見錯誤：把頭套做得太大蓋住整個臉和眼睛，這樣走路很容易跌倒。",
+            "selfExplanationPrompt": "想一想：全班一起唱〈春天的活動〉時，怎麼表現才最有朝氣？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/life#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "愛護春天的花朵與小動物",
+          "topicSignalTitle": "看到花朵和小蜜蜂怎麼觀察才對？",
+          "narrationText": "用眼睛看、輕輕靠近觀察，不摘花也不用手抓或趕走小蜜蜂，一起保護春天美麗的生態。",
+          "cognitiveChunks": [
+            "不踩花圃、不亂摘花",
+            "不驚擾或抓小蜜蜂"
+          ],
+          "factGroundingSourceId": "115-s2/g1/life#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "來認認看春天的校園景象吧！",
+          "cognitiveChunks": [
+            "春天樹枝長出嫩芽、花兒開了"
+          ],
+          "warmupCheck": {
+            "prompt": "春天來到校園的花園觀察植物，最常看見哪一種可愛的景象？",
+            "options": [
+              "樹葉全都掉光只剩乾樹枝",
+              "樹枝長出嫩芽，花兒開了",
+              "大樹全部結成硬硬的冰塊"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！春天暖洋洋有雨水，樹枝會冒出綠芽、開出漂亮的花！",
+            "feedbackRetry": "冬天光禿禿的樹枝到了暖暖的春天，會冒出什麼新生命呢？"
+          },
+          "factGroundingSourceId": "115-s2/g1/life#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-life-u3",
+      "stageId": "115-s2-g1-life-u3",
+      "title": "主題三、玩具總動員",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "介紹玩具、動手做與分享同樂",
+          "narrationText": "介紹最喜歡的玩具要說出外形、特色和玩法；我們還可以用回收材料自己做玩具，遇到卡住就檢查改良，並輪流分享玩！",
+          "cognitiveChunks": [
+            "介紹玩具的外形、特色和玩法",
+            "手作玩具失敗時檢查哪裡卡住並改良",
+            "輪流玩、遵守規則、玩完歸還並道謝"
+          ],
+          "analogyAnchor": "用乾淨紙盒或瓶蓋自己做玩具，飛不遠時就像小科學家一樣檢查看看是不是翅膀歪了，修一修就會更好玩。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "用回收物做玩具",
+                "試玩發現飛不遠",
+                "檢查改良變得更好玩"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "環保自製玩具",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "試玩並調整改良",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/life#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "參加玩具同樂會的禮貌",
+          "narrationText": "大家帶玩具來同樂會一起玩時，要遵守規則、輪流玩；上課鐘響要立刻收好玩具回座位。",
+          "cognitiveChunks": [
+            "輪流玩不搶玩具",
+            "借來的玩具玩完說謝謝並還給主人"
+          ],
+          "workedExampleData": {
+            "problemStatement": "開心的「玩具同樂會」結束了，借來的玩具應該怎麼處理才對？",
+            "steps": [
+              "第 1 步：把借來的玩具零件整理乾淨、檢查有沒有掉",
+              "第 2 步：雙手拿好交還給原本的主人",
+              "第 3 步：笑著對同學說一聲「謝謝你借我玩！」"
+            ],
+            "commonErrorContrast": "常見錯誤：玩完直接把別人的玩具塞進自己書包帶回家，或隨便丟在地板上。",
+            "selfExplanationPrompt": "想一想：聽「熱鬧的音樂故事」時，要聽音樂的什麼變化才能猜出故事正在發生什麼事？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/life#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "音樂裡的快慢與大小聲",
+          "topicSignalTitle": "怎麼從音樂猜出故事發生什麼事？",
+          "narrationText": "音樂變快可能表示小動物在奔跑，變慢表示在散步；聲音變大或變小也在告訴我們故事裡熱鬧或安靜的情景。",
+          "cognitiveChunks": [
+            "聽音樂快慢與大小聲變化",
+            "稱讚同學自製玩具的創意"
+          ],
+          "factGroundingSourceId": "115-s2/g1/life#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "試試看這題介紹玩具的方法吧！",
+          "cognitiveChunks": [
+            "介紹外形、特色和玩法最清楚"
+          ],
+          "warmupCheck": {
+            "prompt": "想把最喜歡的玩具介紹給同學認識，說什麼最能讓大家聽懂？",
+            "options": [
+              "昨天晚上自己吃了幾碗飯",
+              "玩具的樣子、特色和玩法",
+              "店員那天穿著什麼色衣服"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！說清楚玩具的樣子、特色和怎麼玩，大家一聽就懂！",
+            "feedbackRetry": "沒看過這個玩具的同學，最想知道它長什麼樣子以及怎麼玩對不對？"
+          },
+          "factGroundingSourceId": "115-s2/g1/life#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-life-u4",
+      "stageId": "115-s2-g1-life-u4",
+      "title": "主題四、有電話真方便",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "打電話與接電話的好禮貌",
+          "narrationText": "電話裡看不到對方的臉，所以接聽要先說「你好，請問找哪一位？」；打電話要問好並自我介紹；掛電話前說再見再輕輕掛好。",
+          "cognitiveChunks": [
+            "接電話：你好，請問找哪一位？",
+            "打電話：先問好並報出自己名字",
+            "緊急狀況冷靜說出發生什麼事與地點"
+          ],
+          "analogyAnchor": "打電話就像在看不到彼此的門外說話，先報上名字再說事情，對方才不會一頭霧水。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "接通先問好報名字",
+                "清楚說出事情或留言",
+                "說再見後輕輕掛電話"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "先問好並報名字",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "說再見輕輕掛",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/life#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "緊急求助電話怎麼說才清楚？",
+          "narrationText": "遇到緊急狀況打電話求助時，一定要先冷靜說出「我在哪裡」和「發生什麼事」，救援人員才能最快趕到。",
+          "cognitiveChunks": [
+            "說清楚地點與發生什麼事",
+            "幫家人留言記下誰、找誰、什麼事"
+          ],
+          "workedExampleData": {
+            "problemStatement": "遇到緊急狀況需要打電話求助時，哪一件事一定要先冷靜說清楚？",
+            "steps": [
+              "第 1 步：深呼吸冷靜下來，不要只顧著哭",
+              "第 2 步：先說清楚「發生了什麼事」",
+              "第 3 步：再說清楚「自己現在在哪裡」（地址或明顯地點）"
+            ],
+            "commonErrorContrast": "常見錯誤：急著講跟救援無關的事（例如穿什麼鞋），或者沒說地點就掛掉電話。",
+            "selfExplanationPrompt": "想一想：打電話問候住得比較遠的阿公阿嬤之前，可以先做什麼準備？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/life#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "愛的傳聲筒：問候親人",
+          "topicSignalTitle": "怎樣用電話傳遞對阿公阿嬤的關心？",
+          "narrationText": "打電話前先想好或寫下想問候的話，用溫暖親切的聲音問候阿公阿嬤最近好不好，掛斷前說再見輕輕掛好。",
+          "cognitiveChunks": [
+            "先想好要說的問候語",
+            "表達關心讓家人好開心"
+          ],
+          "factGroundingSourceId": "115-s2/g1/life#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "接起響不停的電話要怎麼說呢？",
+          "cognitiveChunks": [
+            "接電話先說你好，請問找哪一位"
+          ],
+          "warmupCheck": {
+            "prompt": "家裡的電話響了拿起來接聽時，第一句話怎麼說最有禮貌？",
+            "options": [
+              "喂！你是誰？快點講！",
+              "一直不講話等對方掛掉",
+              "你好，請問要找哪一位？"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！先說「你好，請問要找哪一位？」，親切又有禮貌！",
+            "feedbackRetry": "像客人來家裡一樣，先問好並問對方找誰，是不是最親切呢？"
+          },
+          "factGroundingSourceId": "115-s2/g1/life#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-life-u5",
+      "stageId": "115-s2-g1-life-u5",
+      "title": "主題五、夏天與端午",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "夏天的生活改變與端午習俗",
+          "narrationText": "夏天太陽好大好熱，出門要戴帽撐傘多喝水、穿輕薄短袖、做紙扇；夏夜看螢火蟲、敲三角鐵；端午節紀念屈原、划龍舟、做香包！",
+          "cognitiveChunks": [
+            "夏天防晒戴帽撐傘、多喝水穿短袖",
+            "夏夜看螢火蟲、懸空輕敲三角鐵",
+            "端午紀念屈原、整齊划龍舟、做粽形香包"
+          ],
+          "analogyAnchor": "三角鐵要提著吊繩讓它懸在空中輕敲，聲音才會像夏夜的螢火蟲一樣清脆閃亮。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "夏天生活法寶",
+              "leftPoints": [
+                "戴帽撐傘多喝水、穿輕薄短袖",
+                "自製手搖紙扇、夏夜看螢火蟲"
+              ],
+              "rightTitle": "熱鬧端午節",
+              "rightPoints": [
+                "紀念屈原、包粽子",
+                "聽鼓聲整齊划龍舟、做香包掛飾"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "防晒喝水搖紙扇",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "屈原、龍舟與香包",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/life#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用三角鐵敲出夏夜亮亮的聲音",
+          "narrationText": "演奏三角鐵時，千萬不能用手緊緊握住鐵框，要提著吊繩讓三角鐵自由震動，聲音才好聽。",
+          "cognitiveChunks": [
+            "手提吊繩讓三角鐵懸空",
+            "用小鐵棒輕輕敲出清脆聲"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在音樂活動用「三角鐵」演奏出亮亮的聲音時，要怎麼拿和敲才好聽？",
+            "steps": [
+              "第 1 步：手指提著三角鐵上面的吊繩，讓鐵框懸空",
+              "第 2 步：手掌不要碰到金屬框，免得聲音被悶住",
+              "第 3 步：用小鐵棒輕輕敲擊，就會發出清脆響亮的聲音"
+            ],
+            "commonErrorContrast": "常見錯誤：兩隻手緊緊握住鐵條用力打，結果聲音變得悶悶的「叩」一聲。",
+            "selfExplanationPrompt": "想一想：端午節手作的「粽形香包」，做完後可以拿來做什麼？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/life#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "端午節的故事與活動",
+          "topicSignalTitle": "為什麼要划龍舟、吃粽子和做香包？",
+          "narrationText": "端午節紀念愛國古人屈原；划龍舟時大家聽著鼓聲整齊一起划才快又穩；做的粽形香包可以掛在書包或身上當香香掛飾。",
+          "cognitiveChunks": [
+            "端午節紀念屈原",
+            "香包可當書包或身上的掛飾"
+          ],
+          "factGroundingSourceId": "115-s2/g1/life#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "試試看這題夏日防晒小常識！",
+          "cognitiveChunks": [
+            "夏天戶外活動要防晒補水"
+          ],
+          "warmupCheck": {
+            "prompt": "夏天太陽好大好熱，在戶外玩耍或走路時，怎麼做才能防晒又健康？",
+            "options": [
+              "戴帽子、撐傘並多補充水分",
+              "流好多汗也堅持不喝半口水",
+              "穿兩件厚毛衣在大太陽下跑"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！戴帽子、撐傘加上多喝白開水，夏天才不會中暑！",
+            "feedbackRetry": "太陽好晒又流汗時，頭上要戴什麼、嘴巴要喝什麼呢？"
+          },
+          "factGroundingSourceId": "115-s2/g1/life#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-life-u6",
+      "stageId": "115-s2-g1-life-u6",
+      "title": "主題六、雨和水",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "觀察下雨前後與清理積水",
+          "narrationText": "快下雨前天空變暗、飄來烏雲；我們能拍手或拍大腿模仿雨聲、畫出斜斜的雨絲；雨後要一起「巡、倒、清、刷」防蚊蟲！",
+          "cognitiveChunks": [
+            "快下雨前天空變暗有烏雲",
+            "拍手拍大腿模仿雨聲、畫斜細雨絲",
+            "雨後「巡、倒、清、刷」清積水防蚊"
+          ],
+          "analogyAnchor": "積水容器就像蚊子的小搖籃，雨停後大家一起「巡、倒、清、刷」，就能讓蚊子沒地方住。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "雨前烏雲天空變暗",
+                "雨中畫雨絲、拍手模仿雨聲",
+                "雨後巡倒清刷防蚊蟲"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "雨前烏雲變暗",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "雨後巡倒清刷",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/life#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "雨後清掃口訣：巡、倒、清、刷",
+          "narrationText": "大雨停了以後，花盆底盤和水桶容易積水讓蚊子產卵，只要記住四個字口訣就能把蚊蟲趕走！",
+          "cognitiveChunks": [
+            "巡視積水、倒掉積水",
+            "清除雜物、刷洗容器內壁"
+          ],
+          "workedExampleData": {
+            "problemStatement": "雨後整理積水容器時，哪四個動作口訣能有效減少蚊蟲長大？",
+            "steps": [
+              "第 1 步：「巡」→ 巡視家裡和校園哪裡有積水容器",
+              "第 2 步：「倒」→ 把裡面的積水倒乾淨",
+              "第 3 步：「清、刷」→ 清除雜物並刷洗容器內壁，去掉蚊蟲卵"
+            ],
+            "commonErrorContrast": "常見錯誤：以為只要把水倒掉就好，忘了蚊子卵可能還黏在桶壁上，需要「刷」乾淨。",
+            "selfExplanationPrompt": "想一想：畫雨天的景象時，想把細細長長落下的「雨絲」畫出來，要怎麼畫？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/life#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "雨天安全與五官探索",
+          "topicSignalTitle": "雨天上學與畫雨絲小提醒",
+          "narrationText": "下雨天穿雨衣或撐雨傘、走人行道慢慢走最安全；用畫筆畫斜斜細線能表現雨絲，拍手拍大腿能模仿嘩啦雨聲。",
+          "cognitiveChunks": [
+            "雨天穿雨衣撐傘慢走最安全",
+            "雨停後葉子有水珠、地面有水窪"
+          ],
+          "factGroundingSourceId": "115-s2/g1/life#u6"
+        },
+        {
+          "sceneId": "u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "考考你快下雨前的天空變化！",
+          "cognitiveChunks": [
+            "快下雨前天空變暗、飄來烏雲"
+          ],
+          "warmupCheck": {
+            "prompt": "快要下大雨之前，抬頭看天空通常會發現什麼樣的變化？",
+            "options": [
+              "太陽變得比平時更加刺眼",
+              "天空變暗，飄來黑黑的烏雲",
+              "空中飄下白茫茫的大雪花"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！天空變暗、飄來厚厚的黑烏雲，就是快下雨的信號！",
+            "feedbackRetry": "雨水藏在厚厚的雲朵裡，快下雨時天上的雲會變成什麼顏色呢？"
+          },
+          "factGroundingSourceId": "115-s2/g1/life#u6"
+        }
+      ]
+    }
+  ]
+}

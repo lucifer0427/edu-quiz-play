@@ -1,0 +1,426 @@
+{
+  "packId": "115-s2-g6-computer",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 6,
+  "subjectId": "computer",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-computer-u1",
+      "stageId": "115-s2-g6-computer-u1",
+      "title": "第1週：資安小尖兵–勒索病毒、木馬程式的傳染途徑",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s2-computer-u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "密碼強化、惡意軟體傳染途徑與反霸凌",
+          "narrationText": "新學期登入大忠 Gmail 後應設定安全強密碼並牢記公用電腦登出。認識勒索病毒與木馬程式常透過釣魚信件、盜版軟體或帶毒隨身碟傳染，遇到詐騙與網路霸凌要冷靜查證與留證求助。",
+          "cognitiveChunks": [
+            "強密碼須混合大小寫、數字與符號且不共用",
+            "惡意程式常經釣魚附件、盜版載點與隨身碟傳染",
+            "遇網路霸凌不對罵、立即截圖並向師長求助"
+          ],
+          "analogyAnchor": "帳號密碼就像數位世界的大門鑰匙，不只鑰匙要夠複雜（強密碼），更不能把鑰匙複製留在公用電腦上，也不能看到免費中獎招牌就隨便開門。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "常見資安威脅途徑",
+              "leftPoints": [
+                "釣魚信件與限時中獎短網址",
+                "不明免費／盜版軟體與隨身碟"
+              ],
+              "rightTitle": "資安小尖兵防禦術",
+              "rightPoints": [
+                "強密碼不外流、拒絕記住密碼",
+                "公用電腦登出移除＋定期備份"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-cmp-u1-l1",
+                "text": "阻斷惡意傳染途徑",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s2-cmp-u1-l2",
+                "text": "強密碼與備份防護",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/computer#u1"
+        },
+        {
+          "sceneId": "g6s2-computer-u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "抓出釣魚信件疑點與網路霸凌應變",
+          "narrationText": "在「資安防護與反霸凌」情境中，學會拆解詐騙信件的破綻，並掌握面對網路霸凌或可疑短網址的正確應變步驟。",
+          "cognitiveChunks": [
+            "無故中獎＋限時催促＋索取帳密卡號＝詐騙",
+            "「快看你醜照」短網址極可能是盜號釣魚陷阱"
+          ],
+          "workedExampleData": {
+            "problemStatement": "信箱收到假冒學校資訊中心寄來的信件，宣稱你抽中平板並要求「10 分鐘內點短網址輸入銀行卡號與 Gmail 密碼」，該如何辨識疑點與處置？",
+            "steps": [
+              "第 1 步：抓出三大詐騙疑點——寄件單位可疑且無故中獎、用「10 分鐘內」製造急迫感、異常要求金融卡號與密碼",
+              "第 2 步：絕不點擊短網址也不輸入任何個人資料或帳號密碼",
+              "第 3 步：向師長或官方管道求證並刪除封鎖；若是遇到網路霸凌訊息，則先截圖留證再向家長與師長求助"
+            ],
+            "commonErrorContrast": "常見錯誤：在公用電腦按「記住密碼」、把霸凌訊息直接刪掉導致沒有證據，或出於好奇點開「快看你的醜照」可疑短網址。",
+            "selfExplanationPrompt": "想一想：為什麼把密碼設成 123456 或生日非常危險？好的密碼應該包含哪些元素？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/computer#u1"
+        },
+        {
+          "sceneId": "g6s2-computer-u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "保護密碼與定期備份好習慣",
+          "topicSignalTitle": "公用電腦拒絕儲存密碼，離開前務必登出移除",
+          "narrationText": "即使密碼再強，一旦讓公用電腦記住密碼或在釣魚網頁輸入就會失效；養成定期備份習慣，才能真正防範勒索病毒威脅。",
+          "cognitiveChunks": [
+            "不告訴他人密碼，不同網站不共用密碼",
+            "定期備份檔案並使用官方正版軟體"
+          ],
+          "factGroundingSourceId": "115-s2/g6/computer#u1"
+        },
+        {
+          "sceneId": "g6s2-computer-u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認如何設定最安全可靠的 Gmail 新密碼！",
+          "cognitiveChunks": [
+            "長度足夠且混合大小寫英文、數字與符號"
+          ],
+          "warmupCheck": {
+            "prompt": "變更自己的大忠 Gmail 密碼以提升帳號安全時，下列哪一種密碼設定最安全可靠？",
+            "options": [
+              "設成「123456」或自己的出生年月日方便記憶",
+              "混合英文大小寫、數字與符號且長度足夠，避開生日學號且不共用",
+              "寫在便利貼上直接貼在電腦教室螢幕下方",
+              "只設定單一個英文字母當密碼"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！足夠長度加上英數符號混合且專屬不共用，最能抵擋駭客猜測。",
+            "feedbackRetry": "想一想：生日與 123456 太容易被猜到，貼在螢幕上更會直接曝光，選一個最難被破解的組合！"
+          },
+          "factGroundingSourceId": "115-s2/g6/computer#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-computer-u2",
+      "stageId": "115-s2-g6-computer-u2",
+      "title": "第2–6週：未來城市：智慧自駕車探索",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s2-computer-u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "麥坤小車感測避障、循跡與雙板無線遙控",
+          "narrationText": "透過 bDesigner 與 MakeCode 設計麥坤小車程式：利用左右輪速差控制轉向、超音波感測器測距模擬汽車自動緊急煞車系統（AEB）、循跡感測器模擬車道維持輔助，並用兩塊 Micro:bit 實現無線遙控。",
+          "cognitiveChunks": [
+            "左右輪速差決定轉彎（右轉：左輪快、右輪慢或停）",
+            "超音波測回波時間差防撞，對應汽車 AEB 與防禦駕駛",
+            "紅外線循跡感測黑白反射差異，模擬車道維持"
+          ],
+          "analogyAnchor": "超音波就像蝙蝠發出聲音聽回音來閃避障礙物；底部的循跡感測器則像一雙盯著車道線的眼睛，隨時微調左右輪讓車子不偏離車道。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "超音波避障 (對應 AEB)",
+              "leftPoints": [
+                "發射高頻聲波計算回波時間差",
+                "小於安全距離即煞停或轉彎迴避"
+              ],
+              "rightTitle": "紅外線循跡 (對應車道維持)",
+              "rightPoints": [
+                "白底反射強、黑線吸收弱反射",
+                "即時微調輪速保持在車道內行駛"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-cmp-u2-l1",
+                "text": "聲波測距安全煞停",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s2-cmp-u2-l2",
+                "text": "紅外線感測維持車道",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/computer#u2"
+        },
+        {
+          "sceneId": "g6s2-computer-u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "循跡過彎偵錯與分組無線遙控設定",
+          "narrationText": "實作自駕車常會遇到「過彎衝出黑線」與「多組同時展示無線訊號互相干擾」的問題，透過有條理的偵錯與頻道設定就能順利解決。",
+          "cognitiveChunks": [
+            "衝出黑線可調降車速並加大左右輪轉向差速",
+            "同組須設相同廣播群組，各組間須錯開編號"
+          ],
+          "workedExampleData": {
+            "problemStatement": "測試麥坤小車時遇到兩個狀況：(1) 自動循跡走到急轉彎常衝出黑線；(2) 全班分組同時無線遙控展示時小車會被隔壁組誤控。該怎麼解決？",
+            "steps": [
+              "第 1 步：針對「循跡衝出黑線」，適度降低基準前進速度、加大轉彎時的左右輪速差幅度，並確認底部感測器對準黑線高度",
+              "第 2 步：針對「無線遙控干擾」，為每一組分配專屬且互不重複的「無線廣播群組編號」（如第 1 組設 1、第 2 組設 2）",
+              "第 3 步：確保同一組的遙控發送端與小車接收端群組編號及發送／接收指令值完全對齊"
+            ],
+            "commonErrorContrast": "常見錯誤：所有組別都把廣播群組設成預設數字 0 導致全班大亂鬥，或只把車速開到最高卻忽略急彎時感測器反應時間。",
+            "selfExplanationPrompt": "想一想：從麥坤小車的自動緊急煞車與車道維持實作中，我們在真實馬路上應該養成哪些守法與防禦駕駛觀念？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/computer#u2"
+        },
+        {
+          "sceneId": "g6s2-computer-u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "自駕科技與道路安全守法觀念",
+          "topicSignalTitle": "輔助系統再先進，用路人仍須守法並保持安全距離",
+          "narrationText": "無論是自動緊急煞車系統（AEB）或車道維持輔助系統，都是協助提升安全的工具；真實上路仍須遵守紅綠燈、不逆向、不任意跨越車道。",
+          "cognitiveChunks": [
+            "左輪往前、右輪慢或停可帶動小車向右轉",
+            "無線通訊就像對講機，同組須調至同頻道"
+          ],
+          "factGroundingSourceId": "115-s2/g6/computer#u2"
+        },
+        {
+          "sceneId": "g6s2-computer-u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認麥坤小車「超音波感測器」測量距離的科學原理！",
+          "cognitiveChunks": [
+            "發射高頻聲波並計算反彈回波的時間差"
+          ],
+          "warmupCheck": {
+            "prompt": "麥坤小車前方的「超音波感測器」是透過什麼原理來測量與前方障礙物的距離？",
+            "options": [
+              "發射高頻聲波並接收反彈回波，依聲波往返時間差換算出前方距離",
+              "從車頭伸出一條隱形塑膠尺去碰觸牆壁",
+              "用鏡頭辨識障礙物顏色來猜測距離",
+              "靠計算電池剩餘電量來推估障礙物位置"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！超音波感測器利用發射與接收聲波的時間差來測距，就像蝙蝠的回聲定位一樣。",
+            "feedbackRetry": "想一想大自然裡蝙蝠與海豚是怎麼在黑暗中避開障礙物的呢？"
+          },
+          "factGroundingSourceId": "115-s2/g6/computer#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-computer-u3",
+      "stageId": "115-s2-g6-computer-u3",
+      "title": "第7–12週：數位編輯室：AI 協作與視覺設計",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s2-computer-u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "Canva 雲端共編視覺設計與 Gemini 資料查證",
+          "narrationText": "在 Canva 教育版連接 Google 硬碟，能快速匯入畢業照運用「去背」與「邊框」製作感謝卡，並與組員協作共編空氣／水汙染自然簡報。使用 Gemini 發想靈感時，務必向政府或學術機構查證可靠數據。",
+          "cognitiveChunks": [
+            "Canva 連接 Google 硬碟＋去背與邊框做謝卡",
+            "共編簡報須事前分工並約定統一字型配色",
+            "Gemini 當草稿助手，關鍵數據須經官方查證"
+          ],
+          "analogyAnchor": "Gemini 就像一位擅長快速整理草稿的編輯助理，但最終把關事實正確與否、去政府或大學網站找真實數據佐證的總編輯，還是我們自己！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "Canva 連雲端硬碟取素材",
+                "去背做謝卡與規劃簡報架構",
+                "Gemini 輔助構思簡報草稿",
+                "查證政府／學術數據並標註出處"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-cmp-u3-l1",
+                "text": "雲端協作統一風格",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "g6s2-cmp-u3-l2",
+                "text": "官方查證標明出處",
+                "anchorPointId": "step4"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/computer#u3"
+        },
+        {
+          "sceneId": "g6s2-computer-u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "科學專題簡報架構與 AI 查證步驟",
+          "narrationText": "製作〈空氣汙染或水汙染〉自然科學簡報時，要有清晰的簡報結構，並在團隊共編與使用 AI 輔助時落實分工與數據查證。",
+          "cognitiveChunks": [
+            "簡報架構：標題頁→定義→成因→防治方法",
+            "引用官方統計須忠實呈現並標註單位年份"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小組要使用 Canva 共編〈水汙染防治〉自然領域簡報，並搭配 Gemini 協助整理概念，應該依循什麼步驟才能兼顧美感與資料可靠性？",
+            "steps": [
+              "第 1 步：全組先確認簡報架構（標題頁、汙染定義、成因分析、預防／防治方法），並分配頁面與約定統一字型配色",
+              "第 2 步：給予 Gemini 明確主題與對象需求取得大綱草稿靈感，絕不未經檢查就直接複製貼上",
+              "第 3 步：至政府機關（如環境部）或學術研究機構網站查證關鍵水質數據，忠實放進簡報並清楚標註資料來源與年份"
+            ],
+            "commonErrorContrast": "常見錯誤：全組擠在同一頁互相覆蓋、完全信任 AI 產出的數字而不查證，或為了讓圖表好看而擅自修改官方統計數字。",
+            "selfExplanationPrompt": "想一想：在 Canva 連接 Google 硬碟後，對製作去背畢業感謝卡與小組簡報有什麼好處？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/computer#u3"
+        },
+        {
+          "sceneId": "g6s2-computer-u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "生成式 AI 時代的查證素養",
+          "topicSignalTitle": "AI 可能會產生錯誤資訊，數據一律回歸公信力一手來源",
+          "narrationText": "網路匿名論壇與內容農場缺乏嚴謹查核，唯有政府專責機關或正式學術報告才具備高度公信力；引用時也別忘了標明出處與年份。",
+          "cognitiveChunks": [
+            "環境部與學術機構報告比內容農場更可靠",
+            "不可竄改官方數據，引用須標註來源年份"
+          ],
+          "factGroundingSourceId": "115-s2/g6/computer#u3"
+        },
+        {
+          "sceneId": "g6s2-computer-u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認面對生成式 AI（如 Gemini）產出內容時應抱持的態度！",
+          "cognitiveChunks": [
+            "將 AI 內容視為靈感草稿，務必交叉查證"
+          ],
+          "warmupCheck": {
+            "prompt": "使用生成式 AI 工具「Gemini」幫忙發想簡報大綱或查詢概念時，面對 AI 產出的文字與統計數據，哪一種觀念最正確？",
+            "options": [
+              "AI 回答的每一個數字都百分之百正確，不必核對",
+              "連看都不看直接複製貼上投影片交差",
+              "只要問兩次得到類似答案，就代表是官方最新數據",
+              "將 AI 內容視為靈感草稿與參考，並保持查證意識，回到政府或學術來源核對"
+            ],
+            "answerIndex": 3,
+            "feedbackCorrect": "完全正確！生成式 AI 擅長整理與啟發靈感，但仍可能出現錯誤資訊，務必回到權威來源查證。",
+            "feedbackRetry": "想一想：AI 有時候會自信滿滿地講出錯誤數據，所以最後把關事實的責任在誰身上呢？"
+          },
+          "factGroundingSourceId": "115-s2/g6/computer#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-computer-u4",
+      "stageId": "115-s2-g6-computer-u4",
+      "title": "第13–18週：畢業影音專題製作",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s2-computer-u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "威力導演多軌剪輯、字幕配樂與影片匯出",
+          "narrationText": "在威力導演設立專案後，先修剪多餘片段並加上轉場，運用片軌重疊（A/B 鏡頭）呈現豐富視角、製作清晰易讀的簡易字幕、依段落情緒搭配情境音樂並調整音量，最後輸出標準影片格式。",
+          "cognitiveChunks": [
+            "先修剪晃動多餘片段，再於緊鄰交界處加轉場",
+            "片軌重疊（A/B 鏡頭）可呈現子母或對照畫面",
+            "人聲旁白優先，須適度調低背景配樂音量"
+          ],
+          "analogyAnchor": "剪輯影片就像烹飪料理：修剪是挑掉菜葉枯黃部分、轉場是讓口味順口融合、A/B 鏡頭與字幕是擺盤，最後「輸出算圖」才是把菜端上桌！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "修剪多餘片段並緊接加轉場",
+                "多軌重疊 A/B 鏡頭豐富畫面",
+                "加上高對比易讀字幕與情境配樂",
+                "壓低配樂保人聲並輸出 MP4"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-cmp-u4-l1",
+                "text": "修剪轉場與雙軌重疊",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "g6s2-cmp-u4-l2",
+                "text": "調低配樂匯出成品",
+                "anchorPointId": "step4"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/computer#u4"
+        },
+        {
+          "sceneId": "g6s2-computer-u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "字幕易讀性、音軌平衡與輸出檢查",
+          "narrationText": "製作畢業專題短片時，常遇到轉場無法套用、配樂太大聲蓋過旁白，或只存專案檔卻忘記輸出影片導致別台電腦打不開的問題。",
+          "cognitiveChunks": [
+            "字幕擺下方安全區、對比明確且停留時間充足",
+            "專案檔非影片成品，須執行「輸出／匯出」"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在威力導演剪輯畢業專題時，發現背景音樂蓋住了同學的訪談旁白，且交件後別台電腦無法播放專案檔，該如何修正並完成最終成品？",
+            "steps": [
+              "第 1 步：在音樂軌道中調低背景音樂音量（或在人聲旁白區段降低配樂音量線），確保同學講話聲音清晰清楚",
+              "第 2 步：確認字幕放在下方安全區、色彩對比明確、不擋住人臉，且各段影片緊密相連順利套用轉場",
+              "第 3 步：選用合法授權（軟體內建或創用 CC）配樂後，執行「輸出／匯出」選擇相容格式（如 MP4）算圖並試播檢查"
+            ],
+            "commonErrorContrast": "常見錯誤：只複製威力導演專案檔或桌面捷徑交件、讓字幕跳動閃過半秒就消失、或未經授權直接剪入流行歌曲公開發表。",
+            "selfExplanationPrompt": "想一想：如果專題影片前段是「環境汙染的嚴肅數據分析」、後段是「感人的畢業祝福結論」，兩段的背景音樂風格應該怎麼挑選？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/computer#u4"
+        },
+        {
+          "sceneId": "g6s2-computer-u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "尊重素材版權，完成標準影片輸出",
+          "topicSignalTitle": "選用合法授權素材標註來源，務必匯出 MP4 並試播",
+          "narrationText": "公開發表的畢業專題短片應使用軟體內建配樂或創用 CC 合法授權素材；完成編輯後一定要執行輸出並完整試播一遍確認畫面聲音無誤。",
+          "cognitiveChunks": [
+            "轉場交界兩段須緊密相連且片長足夠",
+            "使用創用 CC 或內建授權配樂並標註來源"
+          ],
+          "factGroundingSourceId": "115-s2/g6/computer#u4"
+        },
+        {
+          "sceneId": "g6s2-computer-u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認專案檔與最終可播放「畢業專題短片」之間的差別！",
+          "cognitiveChunks": [
+            "須執行輸出匯出成標準格式（如 MP4）"
+          ],
+          "warmupCheck": {
+            "prompt": "在威力導演完成剪輯、字幕與配樂調整後，為了產出能在一般電腦或畢業典禮大螢幕直接播放的「畢業專題短片」，最後必須執行哪一個步驟？",
+            "options": [
+              "只把桌面上的威力導演捷徑圖示複製到隨身碟",
+              "只儲存編輯中的專案檔就以為所有設備都能直接播放",
+              "執行「輸出／匯出」選擇指定相容影片格式（如 MP4），算圖完成後再試播檢查",
+              "拿手機對著預覽視窗翻拍一圈當作正式成品"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "完全正確！專案檔只是編輯紀錄，必須執行「輸出／匯出」算圖合併成 MP4 等標準影片格式才能跨設備播放。",
+            "feedbackRetry": "想一想：正在編輯的專案檔就像還在烤盤裡的蛋糕材料，最後要經過哪一個步驟才能端出來分享呢？"
+          },
+          "factGroundingSourceId": "115-s2/g6/computer#u4"
+        }
+      ]
+    }
+  ]
+}

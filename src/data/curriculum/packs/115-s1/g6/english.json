@@ -136,6 +136,44 @@
             "Phonics Review",
             "Starter"
           ]
+        },
+        {
+          "id": "115-s1-g6-english-u0-q7",
+          "prompt": "在 Starter 單元練習說出生活中的數字，若想用英文唸出房間號碼「Room 1204」，最常怎麼報讀？",
+          "options": [
+            "Room twelve-oh-four",
+            "Room twelve hundred and four dollars",
+            "Room one-two-forty",
+            "Room twelve percent"
+          ],
+          "answerIndex": 0,
+          "explanation": "四位數的房間號碼常兩位兩位分開唸（twelve-oh-four），其中 0 唸作 oh。",
+          "hint": "點喇叭聽聽看 Room twelve-oh-four 的唸法！",
+          "speechText": "Room twelve-oh-four",
+          "speechLang": "en-US",
+          "tags": [
+            "Daily Numbers",
+            "Starter"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u0-q8",
+          "prompt": "Phonics 暖身複習：下列哪一個單字裡「a_e」發長母音 /eɪ/（和 cake 相同）？",
+          "options": [
+            "cat",
+            "map",
+            "lake",
+            "bag"
+          ],
+          "answerIndex": 2,
+          "explanation": "cake 和 lake 都是 a_e 結構，字母 a 發長母音 /eɪ/；cat、map、bag 中的 a 皆發短母音 /æ/。",
+          "hint": "找一個字尾有不發音 e 的單字！",
+          "speechText": "cake, lake",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics Review",
+            "Starter"
+          ]
         }
       ]
     },
@@ -269,6 +307,44 @@
           "tags": [
             "Phonics",
             "-er/-or"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u1-q7",
+          "prompt": "句型應用：\"Where are Ken and Leo from? — ___ from the USA.\" 回答的開頭應填入哪一項？",
+          "options": [
+            "He's",
+            "They're",
+            "She's",
+            "I'm"
+          ],
+          "answerIndex": 1,
+          "explanation": "問句主詞 Ken and Leo 是兩個人（複數），因此回答使用代名詞 They 搭配 are，縮寫為 They're。",
+          "hint": "Ken 和 Leo 有兩個人，要用「他們」來代替喔！",
+          "speechText": "Where are Ken and Leo from? They're from the USA.",
+          "speechLang": "en-US",
+          "tags": [
+            "Sentence Pattern",
+            "Unit 1"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u1-q8",
+          "prompt": "Phonics 拼讀挑戰：下列哪一個單字含有和「girl」相同的音組 ir 發音 /ɝː/？",
+          "options": [
+            "gift",
+            "pig",
+            "sit",
+            "shirt"
+          ],
+          "answerIndex": 3,
+          "explanation": "girl 和 shirt 都含有 ir，發捲舌長音 /ɝː/；gift、pig、sit 都是短母音 /ɪ/。",
+          "hint": "聽聽看發音，找一個拼字裡有 ir 的單字！",
+          "speechText": "girl, shirt",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "ir/ur"
           ]
         }
       ]
@@ -404,6 +480,44 @@
             "Phonics",
             "or"
           ]
+        },
+        {
+          "id": "115-s1-g6-english-u2-q7",
+          "prompt": "簡答練習：\"Does Mia go to school by scooter? — No, she ___. She goes to school by car.\"",
+          "options": [
+            "isn't",
+            "doesn't",
+            "don't",
+            "aren't"
+          ],
+          "answerIndex": 1,
+          "explanation": "以 Does 開頭的問句，否定簡答必須使用 doesn't（does not）來回應。",
+          "hint": "用 Does 問，否定簡答就用對應的助動詞縮寫回答！",
+          "speechText": "Does Mia go to school by scooter? No, she doesn't.",
+          "speechLang": "en-US",
+          "tags": [
+            "Grammar",
+            "Unit 2"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u2-q8",
+          "prompt": "下列哪一個英語單字是指「捷運」？",
+          "options": [
+            "train",
+            "ship",
+            "plane",
+            "MRT"
+          ],
+          "answerIndex": 3,
+          "explanation": "在臺灣英語教材中「捷運」使用 MRT（Mass Rapid Transit）；train 是火車，ship 是船，plane 是飛機。",
+          "hint": "臺北和高雄都有這個三個大寫字母組成的交通工具！",
+          "speechText": "I go to school by MRT.",
+          "speechLang": "en-US",
+          "tags": [
+            "Transportation",
+            "Unit 2"
+          ]
         }
       ]
     },
@@ -536,6 +650,44 @@
           "speechLang": "en-US",
           "tags": [
             "Reading Comprehension",
+            "Review 1"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u3-q7",
+          "prompt": "綜合應答：\"How do you and your sister go to school?\" 下列哪一個回答最正確？",
+          "options": [
+            "We go to school on foot.",
+            "I am from Taiwan.",
+            "She goes to school by bus.",
+            "Yes, we do."
+          ],
+          "answerIndex": 0,
+          "explanation": "問句詢問「你和妹妹（你們）怎麼去上學？」，回答應使用 We（我們）搭配原形動詞 go 與交通方式。",
+          "hint": "問的是「你和你妹妹」，回答時要用「我們（We）」！",
+          "speechText": "How do you and your sister go to school? We go to school on foot.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u3-q8",
+          "prompt": "Phonics 綜合辨音：下面哪一個單字的母音發音和「nurse」裡的 ur 相同？",
+          "options": [
+            "sun",
+            "cup",
+            "purple",
+            "bus"
+          ],
+          "answerIndex": 2,
+          "explanation": "nurse 和 purple 都含有 ur，發捲舌音 /ɝː/；sun、cup、bus 中的 u 發短母音 /ʌ/。",
+          "hint": "找一個有 ur 捲舌音的顏色單字！",
+          "speechText": "nurse, purple",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
             "Review 1"
           ]
         }
@@ -672,6 +824,44 @@
             "Phonics",
             "oi/oy"
           ]
+        },
+        {
+          "id": "115-s1-g6-english-u4-q7",
+          "prompt": "日常活動配對：如果想用英文說「去游泳」或「去爬山健行」，片語開頭常使用 go + V-ing。下列哪一項寫法正確？",
+          "options": [
+            "go swimming / go hiking",
+            "go swim / go hike",
+            "do swimming / do hiking",
+            "play swimming / play hiking"
+          ],
+          "answerIndex": 0,
+          "explanation": "戶外休閒活動常用「go + 動詞-ing」，如 go swimming（去游泳）、go hiking（去健行）、go biking（去騎腳踏車）。",
+          "hint": "「去做某項運動休閒」要用 go 加上動詞 -ing 喔！",
+          "speechText": "go swimming, go hiking",
+          "speechLang": "en-US",
+          "tags": [
+            "Activities",
+            "Unit 3"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u4-q8",
+          "prompt": "對話填空：\"Do you play basketball in your free time? — ___, I don't. I like to read books.\"",
+          "options": [
+            "Yes",
+            "No",
+            "Not",
+            "Isn't"
+          ],
+          "answerIndex": 1,
+          "explanation": "後面接著 \"I don't.\" 表示否定回答，前面應填入 No。",
+          "hint": "看到後面的 I don't. 就知道是肯定還是否定簡答囉！",
+          "speechText": "Do you play basketball in your free time? No, I don't.",
+          "speechLang": "en-US",
+          "tags": [
+            "Dialogue",
+            "Unit 3"
+          ]
         }
       ]
     },
@@ -806,6 +996,44 @@
             "Phonics",
             "ou"
           ]
+        },
+        {
+          "id": "115-s1-g6-english-u5-q7",
+          "prompt": "時間表達練習：現在是早上「7:15」，英文直接報讀數字可以怎麼說？",
+          "options": [
+            "seven fifty",
+            "seventy fifteen",
+            "seven fifteen",
+            "fifteen seven"
+          ],
+          "answerIndex": 2,
+          "explanation": "報讀時刻的直讀法為「點鐘 + 分鐘」，7:15 就是 seven fifteen；seven fifty 則是 7:50。",
+          "hint": "先唸 7（seven），再唸 15（fifteen）！",
+          "speechText": "seven fifteen",
+          "speechLang": "en-US",
+          "tags": [
+            "Telling Time",
+            "Unit 4"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u5-q8",
+          "prompt": "日常作息問答：\"What time does your dad go home? — He goes home ___ 6:00.\"",
+          "options": [
+            "in",
+            "on",
+            "to",
+            "at"
+          ],
+          "answerIndex": 3,
+          "explanation": "具體的幾點幾分（6:00）前面必須使用時間介系詞 at。",
+          "hint": "具體的時刻前面要用哪一個介系詞呢？",
+          "speechText": "He goes home at six o'clock.",
+          "speechLang": "en-US",
+          "tags": [
+            "Grammar",
+            "Unit 4"
+          ]
         }
       ]
     },
@@ -939,6 +1167,44 @@
           "tags": [
             "Multicultural Education",
             "Culture"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u6-q7",
+          "prompt": "期末複習文法檢查：請選出「完全沒有文法錯誤」的句子：",
+          "options": [
+            "She get up at six thirty every day.",
+            "Does he plays the guitar on weekends?",
+            "What time does your sister have dinner?",
+            "My brother go to bed at nine."
+          ],
+          "answerIndex": 2,
+          "explanation": "問句中有助動詞 does 時，後面的主要動詞要用原形 have，因此 \"What time does your sister have dinner?\" 正確。",
+          "hint": "注意第三人稱單數肯定句要加 s/es，但問句有 does 後面要變回原形動詞！",
+          "speechText": "What time does your sister have dinner?",
+          "speechLang": "en-US",
+          "tags": [
+            "Grammar",
+            "Review 2"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u6-q8",
+          "prompt": "閱讀短文理解：\"On weekends, Ben doesn't get up early. He gets up at 9:30 and plays basketball with his friends in the afternoon.\" 請問 Ben 週末下午做什麼？",
+          "options": [
+            "He goes to school by bus.",
+            "He plays basketball with his friends.",
+            "He watches TV at 9:30.",
+            "He goes to bed early."
+          ],
+          "answerIndex": 1,
+          "explanation": "短文提到 \"plays basketball with his friends in the afternoon\"，表示他下午和朋友打籃球。",
+          "hint": "在短文裡找找看 in the afternoon 前面寫了什麼活動！",
+          "speechText": "He plays basketball with his friends in the afternoon.",
+          "speechLang": "en-US",
+          "tags": [
+            "Reading Comprehension",
+            "Review 2"
           ]
         }
       ]

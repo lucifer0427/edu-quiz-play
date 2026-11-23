@@ -1,0 +1,431 @@
+{
+  "packId": "115-s2-g6-mandarin",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 6,
+  "subjectId": "mandarin",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-mandarin-u1",
+      "stageId": "115-s2-g6-mandarin-u1",
+      "title": "第壹單元 童年你我他",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "g6s2-mandarin-u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "直接與間接描寫、文言改寫與三層次自我提問",
+          "narrationText": "本單元透過〈風中騎士〉、〈達駭黑熊〉與〈機智的孩子〉，學習人物動作神情與對話描寫、間接烘托手法、文言改寫白話，以及三層次自我提問策略。",
+          "cognitiveChunks": [
+            "直接描寫正面刻畫；間接描寫由環境或他人反應烘托",
+            "《世說新語》為簡練文言筆記小說，改寫須分辨多義字",
+            "自我提問三層次：事實性、推論性、評論性"
+          ],
+          "analogyAnchor": "直接描寫像用聚光燈直接照主角，間接描寫則像拍攝周圍觀眾驚訝的表情，讓讀者感受到主角有多厲害！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "直接描寫",
+              "leftPoints": [
+                "正面描寫主角的外貌、動作與對話",
+                "例如：〈風中騎士〉生動動作神情"
+              ],
+              "rightTitle": "間接描寫",
+              "rightPoints": [
+                "透過周圍環境氣氛或旁人反應烘托",
+                "例如：〈達駭黑熊〉營造山林敬畏感"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-m-u1-l1",
+                "text": "直接描寫正面刻畫",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s2-m-u1-l2",
+                "text": "間接描寫側面烘托",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/mandarin#u1"
+        },
+        {
+          "sceneId": "g6s2-mandarin-u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "區分三層次自我提問與文言文改寫",
+          "narrationText": "閱讀文章時邊讀邊問自己問題：字面找得到的是「事實性」，要推想原因的是「推論性」，表達個人評價的是「評論性」。",
+          "cognitiveChunks": [
+            "事實性：人、事、時、地（文本直接寫出）",
+            "推論性：為什麼、反映什麼（須結合線索推想）",
+            "評論性：合不合理、如果是你怎麼做"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何區分「為什麼主角要那樣回應長輩？」與「你覺得主角那樣回應合宜嗎？」這兩種提問層次？",
+            "steps": [
+              "第 1 步：問「為什麼主角要那樣回應？」需要從課文線索推敲背後動機，屬於「推論性問題」",
+              "第 2 步：問「你覺得合宜嗎？如果是你會怎麼做？」需要讀者表達個人價值判斷，屬於「評論性問題」",
+              "第 3 步：改寫〈機智的孩子〉文言文時，先查清多義字在語境中的意思，再補足省略的主詞與對話語氣"
+            ],
+            "commonErrorContrast": "常見錯誤：把需要動腦推想原因的推論性問題，當成只要在課文裡直接找字面的事實性問題。",
+            "selfExplanationPrompt": "想一想：布農族「忌殺黑熊」的傳統文化，展現了原住民族什麼樣的生態智慧？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/mandarin#u1"
+        },
+        {
+          "sceneId": "g6s2-mandarin-u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "尊重生態文化與專注聆聽的禮儀",
+          "topicSignalTitle": "〈達駭黑熊〉的生態智慧與〈語文天地一〉的溝通力",
+          "narrationText": "從〈達駭黑熊〉體會人與大自然和諧共處與祖孫親情；在日常對話中則學習專注聆聽、不隨意打斷並給予切題的禮貌回應。",
+          "cognitiveChunks": [
+            "尊重原住民族生態智慧與生命教育",
+            "對話時專注聆聽並適時回應"
+          ],
+          "factGroundingSourceId": "115-s2/g6/mandarin#u1"
+        },
+        {
+          "sceneId": "g6s2-mandarin-u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認三層次自我提問的分類！",
+          "cognitiveChunks": [
+            "事實看字面、推論想原因、評論談看法"
+          ],
+          "warmupCheck": {
+            "prompt": "閱讀文章時，提出「你認同故事裡主角的選擇嗎？為什麼？」這個問題，屬於哪一種自我提問？",
+            "options": [
+              "事實性問題",
+              "推論性問題",
+              "評論性問題",
+              "字數統計問題"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "完全正確！請讀者發表「認同與否」的個人價值判斷，屬於評論性問題。",
+            "feedbackRetry": "這個問題要請你發表自己的評價與看法喔！屬於哪一個層次呢？"
+          },
+          "factGroundingSourceId": "115-s2/g6/mandarin#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-mandarin-u2",
+      "stageId": "115-s2-g6-mandarin-u2",
+      "title": "第貳單元 往夢想起飛",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "g6s2-mandarin-u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "議論文架構、故事轉折與演講稿的事實觀點",
+          "narrationText": "本單元從〈談夢想〉學議論說理、從〈蒂烈娜〉學衝突轉折與譬喻、從〈不怕〉學演講稿區辨事實與觀點，並在〈語文天地二〉統整四種議論文類型。",
+          "cognitiveChunks": [
+            "談論型議論文：核心論點 ＋ 分論點 ＋ 名言事例論據",
+            "故事設計衝突與轉折，能凸顯角色成長與夥伴力量",
+            "演講稿須區辨「客觀事實」與「主觀觀點」"
+          ],
+          "analogyAnchor": "寫議論文就像蓋大樓，核心論點是地基，分論點是樓層，名言佳句與事例則是撐起大樓的鋼筋。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "客觀事實（Fact）",
+              "leftPoints": [
+                "可被實際查證對錯的數據或事件",
+                "例：五月十五日共有十二位同學參賽"
+              ],
+              "rightTitle": "主觀觀點（Opinion）",
+              "rightPoints": [
+                "帶有個人評價、感受或看法的詞句",
+                "例：這是我聽過最精彩的一場演講"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-m-u2-l1",
+                "text": "事實可客觀查證",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s2-m-u2-l2",
+                "text": "觀點帶個人評價",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/mandarin#u2"
+        },
+        {
+          "sceneId": "g6s2-mandarin-u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分辨四種議論類型與進行比較閱讀",
+          "narrationText": "〈語文天地二〉將議論類文章分為「為何型、什麼型、如何型、談論型」，讀相近主題文章時可做比較閱讀。",
+          "cognitiveChunks": [
+            "為何型：探討原因理由；什麼型：界定內涵性質",
+            "如何型：說明做法步驟；談論型：抒發看法論證"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何判斷文章屬於「為何型」還是「如何型」議論文，並運用比較閱讀學習？",
+            "steps": [
+              "第 1 步：看文章核心都在回答什麼問題：回答「為什麼要這樣做」就是為何型；回答「要怎麼做才對」就是如何型",
+              "第 2 步：寫談論型議論文時，把中心主張拆成 2–3 個分論點，並搭配名言佳句論證",
+              "第 3 步：比較閱讀兩篇追夢文章時，並排對照兩者的論點、舉例方式與表達層次"
+            ],
+            "commonErrorContrast": "常見錯誤：把演講稿裡作者主觀的感受（如「我覺得最棒」）當成客觀事實。",
+            "selfExplanationPrompt": "想一想：上台發表〈不怕〉這類演講時，除了講稿有層次，眼神交流與手勢能帶來什麼幫助？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/mandarin#u2"
+        },
+        {
+          "sceneId": "g6s2-mandarin-u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "追夢路上的夥伴力量與肢體表達",
+          "topicSignalTitle": "遇挫折時互相陪伴，上台時善用肢體語言",
+          "narrationText": "追夢遇到困難時，換位思考並與夥伴互相支持能成為前進的力量；口語發表時配合適當的眼神、手勢與站姿，能讓表達更有自信與感染力。",
+          "cognitiveChunks": [
+            "譬喻法讓事物描寫更生動（如鯝魚洄游）",
+            "勇於克服害怕能獲得自我成就感"
+          ],
+          "factGroundingSourceId": "115-s2/g6/mandarin#u2"
+        },
+        {
+          "sceneId": "g6s2-mandarin-u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題練習區辨客觀事實與主觀觀點！",
+          "cognitiveChunks": [
+            "數據日期事件＝事實；評價感受＝觀點"
+          ],
+          "warmupCheck": {
+            "prompt": "下列哪一句話屬於「客觀的事實」，而不是個人主觀觀點？",
+            "options": [
+              "這本書絕對是今年最感人的作品",
+              "我覺得每天早上跑步是一件很辛苦的事",
+              "本校六年級共有六個班級，於六月舉行畢業典禮",
+              "沒有夢想的人不可能獲得真正的快樂"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！班級數量與畢業典禮月份都是可以客觀查證的事實。",
+            "feedbackRetry": "找一句沒有「我覺得、最感人、不可能」這類個人評價，而是單純陳述可查證資訊的句子！"
+          },
+          "factGroundingSourceId": "115-s2/g6/mandarin#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-mandarin-u3",
+      "stageId": "115-s2-g6-mandarin-u3",
+      "title": "第參單元 給年輕的你",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "g6s2-mandarin-u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "相似聯想、倒敘法與新詩意象的畢業祝福",
+          "narrationText": "本單元陪伴六年級迎向畢業：從〈打開心中的窗〉學相似聯想、從〈努力愛春華〉學倒敘與場景營造，並從新詩讀懂「意象」的連結。",
+          "cognitiveChunks": [
+            "相似聯想：由觀察到的特徵聯想到性質相近事物",
+            "倒敘法：先寫現在畫面或結果，再追述過去回憶",
+            "新詩意象：把抽象情感寄託在具體事物上（如小路）"
+          ],
+          "analogyAnchor": "新詩的「意象」就像把看不見的「祝福與勇氣」，裝進一條看得見的「小路」或一盞「燈火」裡送給對方。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "順敘法（由早到晚）",
+              "leftPoints": [
+                "照時間先後順序依序敘述",
+                "脈絡清楚，適合記錄事件經過"
+              ],
+              "rightTitle": "倒敘法（先果後因）",
+              "rightPoints": [
+                "先寫眼前場景或結果再回想過去",
+                "能吸引讀者並深化懷舊情感"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-m-u3-l1",
+                "text": "順敘照時間順序",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s2-m-u3-l2",
+                "text": "倒敘先寫眼前結果",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/mandarin#u3"
+        },
+        {
+          "sceneId": "g6s2-mandarin-u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "營造畢業時空場景與想像寫作",
+          "narrationText": "〈努力愛春華〉善用特定事物營造時空場景；〈語文天地三〉則引導根據生活經驗進行想像寫作，並挑選畢業祝福名言。",
+          "cognitiveChunks": [
+            "用鳳凰花、畢業紀念冊等具體事物營造離別氛圍",
+            "想像寫作須連結生活經驗創造新形象"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何運用「相似聯想」描寫人物形象，並用「具體事物」營造畢業前夕的校園場景？",
+            "steps": [
+              "第 1 步：觀察對象特質（例如老師溫暖的眼神），聯想到性質相似的事物（如和煦春風或燈塔）寫成比喻",
+              "第 2 步：挑選能代表畢業季的具體景物（鳳凰花、紀念冊、空教室）來營造懷舊氛圍",
+              "第 3 步：結尾可搭配「海闊憑魚躍，天高任鳥飛」等佳句送上誠摯祝福"
+            ],
+            "commonErrorContrast": "常見錯誤：寫想像作文時完全脫離生活經驗胡亂拼湊，或寫畢業場景卻只寫跟校園毫無關係的日常購物。",
+            "selfExplanationPrompt": "想一想：在〈每一個孩子都有一條自己的小路〉中，「小路」這個具體事物象徵什麼抽象意義？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/mandarin#u3"
+        },
+        {
+          "sceneId": "g6s2-mandarin-u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "珍惜春華時光，打開心中的窗",
+          "topicSignalTitle": "誠懇待人、感念師恩，勇敢踏上自己的路",
+          "narrationText": "打開心扉誠懇與人相處能收穫真摯友誼；面對即將到來的畢業，感念師長守護並珍惜青春時光，就能自信邁向下一段旅程。",
+          "cognitiveChunks": [
+            "誠懇和善待人建立良好人際關係",
+            "感念師長用心、珍惜同窗緣分"
+          ],
+          "factGroundingSourceId": "115-s2/g6/mandarin#u3"
+        },
+        {
+          "sceneId": "g6s2-mandarin-u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認倒敘法與新詩意象的觀念！",
+          "cognitiveChunks": [
+            "倒敘法先寫現在或結局，再回頭追述過去"
+          ],
+          "warmupCheck": {
+            "prompt": "文章第一段先寫「我看著手中泛黃的畢業紀念冊，想起了六年前剛入學的那天」，這運用了哪一種敘事方法？",
+            "options": [
+              "順敘法",
+              "倒敘法",
+              "設問法",
+              "對比法"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！先從眼前的畢業紀念冊寫起，再倒回去追述六年前的回憶，就是倒敘法。",
+            "feedbackRetry": "注意時間順序！從「現在」倒回去講「六年前」，這是哪一種敘事方法？"
+          },
+          "factGroundingSourceId": "115-s2/g6/mandarin#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-mandarin-u4",
+      "stageId": "115-s2-g6-mandarin-u4",
+      "title": "〈閱讀充電站〉",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "g6s2-mandarin-u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "傳記閱讀、表格整理說明文與數位生活思辨",
+          "narrationText": "最後一個單元結合〈馭風逐夢的男孩〉、〈失敗博物館〉與〈伯樂老師的最後一堂課〉，整合傳記閱讀、表格歸納與網路成癮議題思辨。",
+          "cognitiveChunks": [
+            "人物傳記：關注「困境—行動—積極態度」",
+            "事物說明文：用表格並列整理各項案例原因與結構",
+            "科技議題：客觀分析網路成癮，做好情緒管理與理性溝通"
+          ],
+          "analogyAnchor": "閱讀充電站就像畢業前的三項裝備檢查：勇敢面對困境、把失敗變成經驗、管理好自己的數位時間！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "閱讀傳記：看主角克服困境",
+                "整理說明：用表格歸納原因",
+                "思辨議題：多角度分析成癮",
+                "理性溝通：管理情緒與時間"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-m-u4-l1",
+                "text": "表格整理說明文",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "g6s2-m-u4-l2",
+                "text": "管理情緒理性溝通",
+                "anchorPointId": "step4"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/mandarin#u4"
+        },
+        {
+          "sceneId": "g6s2-mandarin-u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "網路查證歸納與衝突時的理性溝通",
+          "narrationText": "運用網路搜尋背景資料時要交叉比對來源並自己歸納；面對網路成癮或 3C 使用衝突時，先穩住情緒再換位思考溝通。",
+          "cognitiveChunks": [
+            "網路查資料：下精準關鍵字、比對來源、自己歸納",
+            "面對失敗：檢討原因，成為未來改進養分"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在整理〈失敗博物館〉多項失敗產品時該用什麼工具？面對家人對使用手機的意見不合又該怎麼溝通？",
+            "steps": [
+              "第 1 步：用「表格」列出各項產品名稱、特色與失敗原因，方便比較並理解失敗其實是創新的養分",
+              "第 2 步：若想上網補充資料，先下精準關鍵字並比對可靠來源，再用自己的話歸納",
+              "第 3 步：面對 3C 使用衝突，先做好情緒管理、換位思考對方的擔憂，再理性約定每日使用時間"
+            ],
+            "commonErrorContrast": "常見錯誤：把網路搜尋到的整段文字直接複製貼上當報告，或遇到手機使用爭執就生氣冷戰。",
+            "selfExplanationPrompt": "想一想：為什麼〈失敗博物館〉要把不成功的產品展示出來？它想告訴我們什麼態度？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/mandarin#u4"
+        },
+        {
+          "sceneId": "g6s2-mandarin-u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "做科技的主人，正向面對每一次挑戰",
+          "topicSignalTitle": "自主規劃時間，把失敗經驗化為成長養分",
+          "narrationText": "科技工具能幫助我們查資料與學習，但要記得約定每日使用上限並留時間給運動與閱讀；面對人生中的失敗也不必氣餒，每次修正都是進步。",
+          "cognitiveChunks": [
+            "約定 3C 使用時間，兼顧運動與人際互動",
+            "以正向態度看待失敗與檢討改進"
+          ],
+          "factGroundingSourceId": "115-s2/g6/mandarin#u4"
+        },
+        {
+          "sceneId": "g6s2-mandarin-u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認事物類說明文的整理工具與正向態度！",
+          "cognitiveChunks": [
+            "表格能清楚對照多項案例的異同"
+          ],
+          "warmupCheck": {
+            "prompt": "閱讀〈失敗博物館〉這類介紹多個產品案例的文章時，使用哪一種方法最能清楚整理各產品的失敗原因？",
+            "options": [
+              "運用比較表格並列整理各項產品與原因",
+              "把所有產品名稱的筆畫算出來",
+              "只背誦第一段的第一句話",
+              "跳過所有案例，只看頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！用表格並列整理，能讓不同產品的失敗原因與啟示一目了然。",
+            "feedbackRetry": "當文章同時介紹好幾個同類產品的案例時，用什麼工具把它們整齊排在一起比較最清楚？"
+          },
+          "factGroundingSourceId": "115-s2/g6/mandarin#u4"
+        }
+      ]
+    }
+  ]
+}

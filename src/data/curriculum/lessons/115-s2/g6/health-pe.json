@@ -1,0 +1,1160 @@
+{
+  "packId": "115-s2-g6-health-pe",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 6,
+  "subjectId": "health-pe",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-health-pe-u1",
+      "stageId": "115-s2-g6-health-pe-u1",
+      "title": "壹、健康 一.天生我才必有用",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s2-hp-u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "自我概念、自我效能感與生涯潛能探索",
+          "narrationText": "認識自己要從生理、心理、家庭與社會四個面向出發。接納自己的獨特與不足（自我悅納），具備「只要練習就能克服」的正向自我效能感，並透過特質、興趣與職業線索規劃未來藍圖。",
+          "cognitiveChunks": [
+            "自我悅納：欣賞長處並接納不足持續成長",
+            "自我效能感：相信透過努力與策略能克服挑戰",
+            "潛能多元，結合「特質、興趣、職業」探索"
+          ],
+          "analogyAnchor": "認識自己就像組裝一張專屬的藏寶圖，性格特質是指南針、興趣是動力，家人師長的支持則是照亮前路的燈塔。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "多面向認識生理心理家庭社會",
+                "自我悅納與正向自我效能感",
+                "連結特質、興趣與多元潛能",
+                "彈性規劃未來職業藍圖"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-hp-u1-l1",
+                "text": "悅納自己肯定潛能",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "g6s2-hp-u1-l2",
+                "text": "特質興趣連結職涯",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u1"
+        },
+        {
+          "sceneId": "g6s2-hp-u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "從特質與興趣規劃六年級起的生涯準備",
+          "narrationText": "發掘潛能不局限於考試分數，包含傾聽、手作、組織或溝通都是寶貴能力；六年級學生可從日常閱讀與通用能力打好基礎。",
+          "cognitiveChunks": [
+            "不以單一學科成績否定整體自我價值",
+            "六年級可培養閱讀、時間管理與合作能力"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小華數學偶爾考不好，但他個性細心有耐心、很喜歡動手修腳踏車與組裝零件，也很熱心幫助同學。他應該怎麼看待自己並從現在開始準備未來？",
+            "steps": [
+              "第 1 步：多元自我評價——肯定自己在人際助人與動手實作上的長處，同時針對數學較弱部分找方法逐步練習改善",
+              "第 2 步：探索連結——將「細心耐心」特質與「修車組零件」興趣連結，認識機械維修、工程技術等領域工作",
+              "第 3 步：踏實行動——從六年級起多閱讀相關書籍或參加體驗活動，培養時間管理、溝通合作等通用能力並保持彈性調整"
+            ],
+            "commonErrorContrast": "常見錯誤：因為單科成績不理想就否定全部自己、認為潛能只有滿分或金牌才算，或覺得職業藍圖訂了就不能改變。",
+            "selfExplanationPrompt": "想一想：為什麼行行出狀元，且每一種正當職業都不該受到性別刻板印象限制？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u1"
+        },
+        {
+          "sceneId": "g6s2-hp-u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "尊重多元職業價值與支持系統",
+          "topicSignalTitle": "善用師長同儕肯定看見閃光點，職業規劃保持彈性",
+          "narrationText": "家庭與社會的正面回饋能幫助我們發現自己忽略的優點；每種正當職業都值得尊敬，未來的藍圖也會隨著成長探索而更清晰。",
+          "cognitiveChunks": [
+            "破除性別職業限制，行行出狀元皆具價值",
+            "師長鼓勵與健康同儕互動增強自信"
+          ],
+          "factGroundingSourceId": "115-s2/g6/health-pe#u1"
+        },
+        {
+          "sceneId": "g6s2-hp-u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認面對未知新挑戰時「正向自我效能感」的表現！",
+          "cognitiveChunks": [
+            "相信透過練習與策略能克服困難"
+          ],
+          "warmupCheck": {
+            "prompt": "當面對一項沒學過的新挑戰時，擁有較高「正向自我效能感」的同學通常會抱持什麼想法？",
+            "options": [
+              "還沒試就覺得不可能成功，立刻放棄",
+              "相信只要透過練習、找方法並請教他人，自己有能力逐步克服困難",
+              "認為自己天生什麼都會，不需聽老師指導",
+              "把成功與失敗全部歸咎於運氣"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！正向自我效能感相信「努力與方法」能帶來進步，是克服挑戰的重要力量。",
+            "feedbackRetry": "想一想：相信自己「透過練習與請教有機會做到」，是不是會更願意嘗試呢？"
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-health-pe-u2",
+      "stageId": "115-s2-g6-health-pe-u2",
+      "title": "壹、健康 二.解癮密碼",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s2-hp-u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "破除電子煙迷思、成癮機制與媒體識讀",
+          "narrationText": "電子煙絕非無害水蒸氣，多含尼古丁與化學溶劑會傷肺傷腦。成癮物質會改變大腦獎賞機制讓人越陷越深；學會媒體識讀看穿帥氣廣告包裝，並演練堅定拒絕策略保護自己。",
+          "cognitiveChunks": [
+            "電子煙含尼古丁與有害化學物，我國全面禁止",
+            "成癮物質改變大腦產生耐受性與戒斷反應",
+            "純檳榔子亦為第一類致癌物，青少年零接觸"
+          ],
+          "analogyAnchor": "成癮物質就像披著水果香味糖衣的陷阱，一旦讓大腦習慣了它，想停下來就會變得很困難，最好的方法就是從一開始就堅定拒絕。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "廣告迷思 vs. 科學事實",
+              "leftPoints": [
+                "迷思：電子煙水蒸氣很無害",
+                "事實：含尼古丁毒物傷腦傷肺"
+              ],
+              "rightTitle": "拒癮行動與協助",
+              "rightPoints": [
+                "堅定說不＋轉移話題離場",
+                "成癮尋求戒菸／戒癮專業門診"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-hp-u2-l1",
+                "text": "識讀媒體看穿包裝",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s2-hp-u2-l2",
+                "text": "堅定拒絕遠離風險",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u2"
+        },
+        {
+          "sceneId": "g6s2-hp-u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "演練拒絕誘惑策略與專業戒治觀念",
+          "narrationText": "面對同儕或陌生人遞來可疑電子煙或咖啡包時，運用安全拒絕步驟能守住原則；若親友已有成癮依賴，則須陪伴尋求專業醫療。",
+          "cognitiveChunks": [
+            "堅定說不＋健康替代方案＋迅速離開現場",
+            "戒癮須靠醫院專業門診與心理支持"
+          ],
+          "workedExampleData": {
+            "problemStatement": "好朋友私訊邀約「爸媽不在家，來我家試抽水果味電子煙或喝點酒」，同時你也想幫助家裡有菸癮的長輩，該怎麼做？",
+            "steps": [
+              "第 1 步：堅定拒絕——禮貌而堅定表達「我不碰菸酒與電子煙」，並提出健康替代方案（如改約去打球或看電影）",
+              "第 2 步：安全脫身——若對方持續施壓或遞來不明咖啡包、糖果，立刻拒絕赴約或迅速離開現場，必要時告知師長",
+              "第 3 步：專業協助——對已有菸酒依賴的親友，陪伴他們尋求醫院「戒菸／戒癮門診」或撥打免費戒菸專線接受治療"
+            ],
+            "commonErrorContrast": "常見錯誤：以為不加紅灰的純檳榔子不致癌、以為多喝水就能把成癮物質排掉，或怕被笑膽小而勉強收下電子煙。",
+            "selfExplanationPrompt": "想一想：六年級學生可以用哪些安全又尊重人權的方式，在學校或社區公開提倡拒癮信念？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u2"
+        },
+        {
+          "sceneId": "g6s2-hp-u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "正向紓壓與公開倡議拒癮",
+          "topicSignalTitle": "用運動閱讀取代成癮紓壓，理性數據倡議無菸生活",
+          "narrationText": "運用真實科學數據設計海報或短劇，推廣運動、音樂與閱讀等健康紓壓方法，就是最有說服力的拒癮倡議。",
+          "cognitiveChunks": [
+            "我國禁止菸品促銷，酒類廣告須加註警語",
+            "青少年發育期對菸酒電子煙檳榔應零接觸"
+          ],
+          "factGroundingSourceId": "115-s2/g6/health-pe#u2"
+        },
+        {
+          "sceneId": "g6s2-hp-u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認對「電子煙」健康危害的正確認知！",
+          "cognitiveChunks": [
+            "電子煙含尼古丁與化學溶劑會成癮並傷腦傷肺"
+          ],
+          "warmupCheck": {
+            "prompt": "近年部分商人把「電子煙」包裝成水果香味或酷炫造型吸引青少年，關於電子煙對身體的影響，哪一項認知才正確？",
+            "options": [
+              "電子煙吐出來的是單純水蒸氣，完全無害",
+              "抽電子煙能幫青少年提神並增強肺活量",
+              "電子煙多含有尼古丁與多種有害化學溶劑，會導致成癮並傷害肺部與腦部發育",
+              "選購水果香味的電子煙油就不會有健康風險"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "完全正確！電子煙絕非水蒸氣，對發育中的青少年大腦與肺部危害極大。",
+            "feedbackRetry": "想一想：別被水果香味騙了，電子煙裡常添加哪種會令人上癮又傷身的物質？"
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-health-pe-u3",
+      "stageId": "115-s2-g6-health-pe-u3",
+      "title": "壹、健康 三.健康新攻略",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s2-hp-u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "傳染病三要素與四大常見傳染病防治",
+          "narrationText": "傳染病盛行必須具備「病原體」、「傳染途徑」與「容易被感染的人」三大環節。認識水痘、A/B/C 型病毒性肝炎、結核病與新冠併發重症的傳播與預防，就能有效阻斷傳染鏈。",
+          "cognitiveChunks": [
+            "傳染鏈：病原體 → 傳染途徑 → 易感宿主",
+            "洗手戴口罩阻斷途徑；疫苗減少易感人數",
+            "A 肝重飲食衛生；B/C 肝防血液體液共用針具"
+          ],
+          "analogyAnchor": "傳染病三要素就像一座橋的起點、橋面與終點；洗手戴口罩是把橋面封起來，打疫苗則是幫終點的人穿上堅固防護衣。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "病原體（病毒／細菌）",
+                "傳染途徑（飛沫／糞口／血液）",
+                "容易被感染的人（缺乏抗體）",
+                "阻斷：衛生清潔＋疫苗＋按規服藥"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-hp-u3-l1",
+                "text": "洗手口罩阻斷途徑",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "g6s2-hp-u3-l2",
+                "text": "接種疫苗保護自身",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u3"
+        },
+        {
+          "sceneId": "g6s2-hp-u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分辨常見傳染病警訊與照護原則",
+          "narrationText": "不同傳染病有不同的傳染途徑與關鍵照護細節，學會對症防護與遵從醫囑，並以同理心對待康復同學。",
+          "cognitiveChunks": [
+            "結核病咳嗽逾兩週速就醫，須按規完整服藥",
+            "水痘切忌抓破水疱；新冠重症警訊須立即就醫"
+          ],
+          "workedExampleData": {
+            "problemStatement": "面對臺灣常見的「水痘」、「病毒性肝炎」、「結核病」與「新冠併發重症」，日常預防與發現症狀時的關鍵照護做法有哪些？",
+            "steps": [
+              "第 1 步：水痘與新冠——接種疫苗預防，得水痘切勿抓破水疱並在家休養至結痂；新冠維持通風洗手戴口罩，出現呼吸困難或持續胸痛立即就醫",
+              "第 2 步：病毒性肝炎——A 肝靠飯前便後肥皂洗手、食物煮熟與公筷母匙防範；B、C 肝避免共用牙刷刮鬍刀與針具並依建議接種疫苗",
+              "第 3 步：結核病——出現咳嗽超過兩週等症狀及早就醫，確診後嚴格「按醫囑規律完成療程」切勿擅自停藥"
+            ],
+            "commonErrorContrast": "常見錯誤：結核病吃藥兩週覺得沒咳就自己停藥、抓破水痘水疱引發感染，或排擠已康復返校的同學。",
+            "selfExplanationPrompt": "想一想：當同學染病休養康復返校後，全班應該抱持什麼樣的品德與相處態度？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u3"
+        },
+        {
+          "sceneId": "g6s2-hp-u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "防疫自我照護與友善校園",
+          "topicSignalTitle": "生病在家休養不帶病上課，康復返校不歧視不貼標籤",
+          "narrationText": "維持教室通風、勤洗手與尊重康復同學，將品德教育融入日常防疫，就能打造健康又溫暖的班級。",
+          "cognitiveChunks": [
+            "生熟食分開處理、飲水煮沸降腸胃傳染風險",
+            "生病非個人過錯，康復即不具傳染力"
+          ],
+          "factGroundingSourceId": "115-s2/g6/health-pe#u3"
+        },
+        {
+          "sceneId": "g6s2-hp-u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認傳染病在人群中盛行必備的三大環節！",
+          "cognitiveChunks": [
+            "病原體、傳染途徑、容易被感染的人"
+          ],
+          "warmupCheck": {
+            "prompt": "傳染病為何會在人群中盛行？必須同時具備哪三個環節連成傳染鏈？",
+            "options": [
+              "「病原體」、「傳染途徑」與「容易被感染的人」",
+              "「發燒症狀」、「醫院掛號」與「天氣變冷」",
+              "「消毒酒精」、「口罩數量」與「感冒藥水」",
+              "「氣溫變化」、「喝水量」與「運動鞋材質」"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！切斷這三個環節中的任何一環，就能有效阻止傳染病擴散。",
+            "feedbackRetry": "想一想疾病是誰引起的、怎麼傳出去，最後又傳給了誰呢？"
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-health-pe-u4",
+      "stageId": "115-s2-g6-health-pe-u4",
+      "title": "壹、健康 四.迎向未來",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s2-hp-u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "調適畢業分離焦慮與人際溝通決定",
+          "narrationText": "面對即將離開熟悉小學進入國中，出現不捨、心神不寧或緊張的「畢業焦慮」是正常反應。學會壓力管理、用「我訊息」溝通與理性做決定技能，能讓我們帶著信心迎向未來。",
+          "cognitiveChunks": [
+            "畢業分離焦慮是面對環境轉換的正常反應",
+            "傾訴、運動呼吸與感恩道別有助轉化不安",
+            "遇誤會用「我訊息」溝通並認真傾聽對方"
+          ],
+          "analogyAnchor": "畢業就像準備搭乘列車前往下一座美麗車站，不捨的心情是珍貴的行李，學會壓力管理與溝通技能則是幫我們順利啟程的車票。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "覺察畢業分離焦慮為正常反應",
+                "傾訴運動與感恩道別轉換情緒",
+                "「我訊息」溝通與理性做決定",
+                "規劃作息與健康行動迎向國中"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-hp-u4-l1",
+                "text": "接納並轉換分離壓力",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "g6s2-hp-u4-l2",
+                "text": "理性評估做負責決定",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u4"
+        },
+        {
+          "sceneId": "g6s2-hp-u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "解決同儕誤會與做決定的思考步驟",
+          "narrationText": "畢業前若與同學發生誤會冷戰，或面對升學新環境的兩難困擾，運用人際溝通與系統化的做決定步驟，能避免留下遺憾。",
+          "cognitiveChunks": [
+            "界定困擾→列可行方案→比較優缺後果→決定",
+            "把小學學會的友善尊重帶往國中交新朋友"
+          ],
+          "workedExampleData": {
+            "problemStatement": "畢業前夕你和好朋友因為分組誤會陷入冷戰，同時又擔心升上國中後課業變重、交不到新朋友，該如何處理這些困擾？",
+            "steps": [
+              "第 1 步：人際溝通——冷靜後找合適時間，用「我感覺……」表達真實心情並認真傾聽對方想法，解開誤會不留遺憾",
+              "第 2 步：批判與決定——將「擔心交不到朋友」轉換為「把小學學會的尊重與友善帶去新環境」，並事先了解新學校路線與規劃作息",
+              "第 3 步：健康承諾——寫下感謝卡片好好道別，承諾升上國中仍維持運動紓壓、規律睡眠與主動求助的好習慣"
+            ],
+            "commonErrorContrast": "常見錯誤：故意和好朋友吵架讓離別不難過、沉迷手遊麻痺焦慮，或暑假整天熬夜不調整作息。",
+            "selfExplanationPrompt": "想一想：在面對生活兩難抉擇時，為什麼「列出可行方案並比較優缺點與後果」能幫我們減少後悔？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u4"
+        },
+        {
+          "sceneId": "g6s2-hp-u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "踏實的健康未來宣言",
+          "topicSignalTitle": "感恩道別留下美好回憶，維持作息與運動迎向國中",
+          "narrationText": "良好的友誼可以跨越畢業延續，新環境也會有新的緣分；帶著感恩與具體的健康生活行動，自信迎向國中新生活。",
+          "cognitiveChunks": [
+            "寫感謝卡與彼此祝福能療癒分離不捨",
+            "規律作息與運動習慣提升心理安全感"
+          ],
+          "factGroundingSourceId": "115-s2/g6/health-pe#u4"
+        },
+        {
+          "sceneId": "g6s2-hp-u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認畢業前與同學發生誤會時，人際溝通的第一步！",
+          "cognitiveChunks": [
+            "冷靜下來用「我感覺……」表達並傾聽對方"
+          ],
+          "warmupCheck": {
+            "prompt": "畢業前若與同儕因為小誤會而冷戰，運用良好的「人際溝通技能」解決問題的第一步通常是什麼？",
+            "options": [
+              "立刻在網路發文指責對方，叫大家別理他",
+              "冷靜下來約合適時間好好說話，用「我感覺……」表達心情並認真傾聽對方想法",
+              "用力把對方的課本掃到地上",
+              "假裝沒事但背地裡說對方壞話"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！溫和表達自己感受並給對方說明機會，才能真正化解誤會。",
+            "feedbackRetry": "想一想：大罵或冷戰只會讓誤會更深，該怎麼開口溝通與傾聽才能好好解決？"
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-health-pe-u5",
+      "stageId": "115-s2-g6-health-pe-u5",
+      "title": "貳、體育 五.身體書法家",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s2-hp-u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "永字八法與身體部位創意書寫",
+          "narrationText": "書法「永」字包含八種筆法變化，最適合轉化為肢體動作練習。用頭、肩、肘、膝或足尖當作隱形筆尖，透過呼吸與肌肉收放表現輕重緩急，就能創作出充滿書法韻味的群舞。",
+          "cognitiveChunks": [
+            "「永」字含八種筆法，展現多樣方向與勁道",
+            "手肘、肩膀、膝蓋與足尖皆可書寫空間軌跡",
+            "調節呼吸與肌肉張力表現輕盈滑動與頓筆定格"
+          ],
+          "analogyAnchor": "我們的身體就像一支立體的大毛筆，深吸一口氣輕快滑步是「掠撇」，瞬間收緊核心定住造型則是毛筆有力的「頓點」。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "毛筆筆法特徵",
+              "leftPoints": [
+                "輕盈滑動（掠、挑）",
+                "用力收筆定住（頓筆）"
+              ],
+              "rightTitle": "肢體舞蹈表現",
+              "rightPoints": [
+                "放鬆延伸高低層次移動",
+                "瞬間收緊核心定格造型"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-hp-u5-l1",
+                "text": "輕重緩急筆墨韻味",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s2-hp-u5-l2",
+                "text": "全身部位立體舞動",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u5"
+        },
+        {
+          "sceneId": "g6s2-hp-u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "群舞結構編排與安全暖身要領",
+          "narrationText": "小組編排〈身體書法家〉舞蹈時，從關節暖身、對準音樂節拍到隊形呼應，每個環節都決定了演出的安全與美感。",
+          "cognitiveChunks": [
+            "暖身肩頸腰背膝踝，防滑場地安全伸展",
+            "起承轉合隊形與接力呼應呈現流暢墨跡"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小組要以「永」字為靈感編排一場〈身體書法家〉舞蹈展演，該如何兼顧身體安全、團隊默契與書法美感？",
+            "steps": [
+              "第 1 步：安全暖身——先確實活動肩頸、腰背與膝踝關節，確保場地乾燥防滑並保有足夠伸展空間",
+              "第 2 步：編排呼應——安排起承轉合段落與高低錯落隊形，運用眼神交流、鏡面模仿或「一人收筆、另一人緊接起筆」的接力動作，配合音樂節拍移動",
+              "第 3 步：美感分享——展演後具體欣賞同學如何用空間、速度與停頓定格展現毛筆力道感"
+            ],
+            "commonErrorContrast": "常見錯誤：不做關節暖身就大跨步深蹲扭腰、全組擠在角落各自亂揮，或回饋時只說「跳得很吵看不懂」。",
+            "selfExplanationPrompt": "想一想：除了雙手手臂，你還可以用身體哪些部位寫出立體的空間線條？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u5"
+        },
+        {
+          "sceneId": "g6s2-hp-u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "用心感受動作與文化的連結",
+          "topicSignalTitle": "對準音樂節拍掌控頓挫延伸，具體分享動作美感",
+          "narrationText": "音樂的強弱快慢能引導團隊整齊掌握筆畫節奏；欣賞演出時用空間、力道與書法意象詞彙回饋，更能提升美感素養。",
+          "cognitiveChunks": [
+            "音樂節拍是團隊整齊掌握起承轉合的線索",
+            "具體指出空間變化與定格力道展現欣賞力"
+          ],
+          "factGroundingSourceId": "115-s2/g6/health-pe#u5"
+        },
+        {
+          "sceneId": "g6s2-hp-u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認為什麼「永」字特別適合作為身體書法家的代表字！",
+          "cognitiveChunks": [
+            "「永」字包含八種基礎筆法變化"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈身體書法家〉嘗試用身體各部位來書寫「永」字時，為什麼「永」字特別適合作為代表字？",
+            "options": [
+              "因為「永」字筆畫最少，站著不動一秒就寫完",
+              "因為寫「永」字規定只能用右手大拇指畫圓圈",
+              "因為「永」字包含了八種基礎筆法變化，能引導身體做出多樣方向、速度與勁道表現",
+              "因為古代規定跳舞前一定要背誦三百遍「永」字"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "完全正確！「永字八法」涵蓋點、橫、豎、鉤、挑、撇、捺等多樣變化，能激發豐富的肢體動作。",
+            "feedbackRetry": "想一想書法裡常說的「永字八法」，這個字裡藏了多少種不同的筆畫走勢呢？"
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-health-pe-u6",
+      "stageId": "115-s2-g6-health-pe-u6",
+      "title": "貳、體育 六.鈴上雲霄",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s2-hp-u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "扯鈴由來、運鈴加速與調鈴平衡",
+          "narrationText": "扯鈴源自中國傳統民俗「空竹」。操作時先穩固運鈴加速，利用陀螺效應維持旋轉平衡；若發生偏鈴要及時調鈴，高拋接鈴則須拉緊棉線順勢緩衝。",
+          "cognitiveChunks": [
+            "源自傳統民俗「空竹」（抖空竹）",
+            "運鈴加速產生陀螺效應，轉速穩才不易掉落",
+            "偏鈴時透過棍端前後微調讓軸心回到水平"
+          ],
+          "analogyAnchor": "高速旋轉的扯鈴就像地面上的陀螺，轉得越快越穩就越不容易晃動，因此先把「運鈴加速」練穩是所有酷炫招式的基礎。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "運鈴加速：右手帶動產生穩定轉速",
+                "調鈴修正：微調棍端保持鈴軸水平",
+                "招式變化：高拋、繞腳、雙人對傳",
+                "編排展演：隊形變換與失誤應變"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-hp-u6-l1",
+                "text": "轉速穩定軸心不偏",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "g6s2-hp-u6-l2",
+                "text": "預留間距安全拋接",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u6"
+        },
+        {
+          "sceneId": "g6s2-hp-u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "扯鈴練習安全間距與表演編排原則",
+          "narrationText": "進行拋鈴、繞腳與雙人對傳練習時，場地安全距離與眼神默契至關重要；即使表演中發生掉鈴，也要沉著拾起展現風度。",
+          "cognitiveChunks": [
+            "保持足夠安全間距，不朝他人方向低平拋鈴",
+            "對傳前眼神確認，平穩向上拋出適當高度"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小組要練習「高拋接鈴」與「雙人對傳」並編排一場扯鈴表演，該注意哪些安全原則？萬一上台表演不小心掉鈴該怎麼辦？",
+            "steps": [
+              "第 1 步：場地安全——選擇寬敞室外或挑高場地，同學間拉開足夠安全距離，嚴禁把扯鈴當武器低平甩向他人",
+              "第 2 步：拋接要領——高拋接鈴時眼神追隨扯鈴、將線拉緊並順勢緩衝接回；雙人對傳前先眼神確認，垂直或微弧線平穩拋出",
+              "第 3 步：隊形與應變——設計進退隊形與高低層次變化；若表演中不慎掉鈴，保持微笑冷靜撿起重新運鈴接續演出，展現大將之風"
+            ],
+            "commonErrorContrast": "常見錯誤：同學站太近揮棍打到人、扯鈴沒加速就急著高拋導致歪斜亂飛，或掉鈴後當場生氣丟掉鈴棍不演了。",
+            "selfExplanationPrompt": "想一想：運鈴時發現扯鈴越轉越歪快要從棉線滑掉（偏鈴），棍子該怎麼微調修正？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u6"
+        },
+        {
+          "sceneId": "g6s2-hp-u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "冷靜應變與團隊隊形之美",
+          "topicSignalTitle": "練穩基礎加速、拉開安全距離、微笑面對小失誤",
+          "narrationText": "扯鈴表演不只看單人技巧，更看重隊形變化與遇到小失誤時的沉著風度，團隊互相掩護鼓勵就能演出精彩。",
+          "cognitiveChunks": [
+            "接鈴時將線拉緊並順勢下壓緩衝接住",
+            "表演掉鈴不慌張，冷靜撿起重新加速接續"
+          ],
+          "factGroundingSourceId": "115-s2/g6/health-pe#u6"
+        },
+        {
+          "sceneId": "g6s2-hp-u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認扯鈴這項民俗運動的歷史起源名稱！",
+          "cognitiveChunks": [
+            "源自中國傳統民俗技藝「空竹」"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈鈴上雲霄〉認識扯鈴的歷史由來時，這項運動最早源自古代傳統遊戲的哪一種稱呼？",
+            "options": [
+              "最早源自古代的乒乓木拍",
+              "起源於古代划龍舟使用的木漿",
+              "源自中國傳統民俗技藝「空竹」（又稱抖空竹）",
+              "二十世紀才由太空總署發明的鋼鐵齒輪"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "完全正確！扯鈴由傳統「空竹」童玩演變而來，如今已成為結合體育與藝術的競技運動。",
+            "feedbackRetry": "想一想古代竹木製成、扯動時中間會發出嗡嗡響聲的傳統童玩叫什麼名字？"
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-health-pe-u7",
+      "stageId": "115-s2-g6-health-pe-u7",
+      "title": "貳、體育 七.排球高手",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s2-hp-u7-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "排球高手托球、低手墊球與順時針輪轉",
+          "narrationText": "室內奧運排球為六人制，每隊最多觸球三次（接、舉、攻）便須過網。獲得發球權時全隊須「順時針輪轉」一個位置；練習高手托球與低手墊球，並搭配戰術板與影片檢討攻防。",
+          "cognitiveChunks": [
+            "一傳接發 → 二傳舉球 → 三攻扣球過網",
+            "獲得發球權時全隊採「順時針方向」輪轉",
+            "低手用雙手腕上方前臂平面墊球，不打手腕"
+          ],
+          "analogyAnchor": "排球團隊進攻就像接力傳遞：一傳墊高穩住節奏、二傳舉球員像指揮官精準分配球路，三攻攻擊手負責完成最後一擊。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "高手托球 vs. 低手墊球",
+              "leftPoints": [
+                "高手：額前十指張開如碗彈性托出",
+                "低手：雙臂伸直夾緊以前臂平面墊球"
+              ],
+              "rightTitle": "比賽規則與戰術輔助",
+              "rightPoints": [
+                "獲發球權全隊順時針輪轉一位",
+                "戰術板＋手持裝置影片分析站位"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-hp-u7-l1",
+                "text": "前臂平面穩健墊球",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s2-hp-u7-l2",
+                "text": "發球權順時針輪轉",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u7"
+        },
+        {
+          "sceneId": "g6s2-hp-u7-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "排球場上溝通安全與科技戰術討論",
+          "narrationText": "練習排球除了技巧正確外，修剪指甲與追球喊聲能避免受傷與相撞；搭配戰術板與手機影片更能看清隊形補位盲點。",
+          "cognitiveChunks": [
+            "追球大聲喊「我來！」防隊友搶球相撞",
+            "修剪指甲並取下手錶飾品保護手指關節"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在排球比賽練習時，常發生兩位同學同時追一顆球撞在一起，或是低手墊球時球一直打痛手腕亂飛，該怎麼改善？",
+            "steps": [
+              "第 1 步：場上安全——課前修剪指甲、取下手錶飾品，追球時大聲喊出「我來！」提醒隊友讓開避免相撞",
+              "第 2 步：低手修正——雙手相握、兩手腕伸直下壓並夾緊手臂，利用手腕上方平坦的前臂肌肉平面觸球，配合屈膝蹬腿向上送球",
+              "第 3 步：戰術討論——利用戰術板標示「順時針輪轉」與分工位置，並用平板錄影回放檢視高手托球與防守補位空間"
+            ],
+            "commonErrorContrast": "常見錯誤：用兩隻手掌心或大拇指關節去敲球、獲得發球權後逆時針亂轉位置，或搶球時完全不出聲互撞。",
+            "selfExplanationPrompt": "想一想：用戰術板加上手持裝置影片輔助排球練習，對團隊進步有什麼好處？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u7"
+        },
+        {
+          "sceneId": "g6s2-hp-u7-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "發球站位與三觸進攻配合",
+          "topicSignalTitle": "各司其職接舉扣，發球不可踩踏底線",
+          "narrationText": "發球員站在發球區擊球時不可踩線，其餘隊友須在場內依規定站位，發球過網後立刻積極補位進入「接、舉、扣」節奏。",
+          "cognitiveChunks": [
+            "舉球員在網前用高手托球穩定分配進攻",
+            "戰術板＋影片回放客觀發現站位空檔"
+          ],
+          "factGroundingSourceId": "115-s2/g6/health-pe#u7"
+        },
+        {
+          "sceneId": "g6s2-hp-u7-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認正式排球賽球隊「獲得發球權」時的輪轉方向！",
+          "cognitiveChunks": [
+            "全隊採「順時針方向」輪轉一個位置"
+          ],
+          "warmupCheck": {
+            "prompt": "正式排球賽規定每當球隊「獲得發球權」時，場上六名球員必須改變站位，請問標準的「輪轉方向」是什麼？",
+            "options": [
+              "每個人隨便挑自己喜歡的位置站",
+              "逆時針方向輪轉兩個位置",
+              "不需要輪轉，整場永遠站在同一個位置",
+              "全隊依「順時針方向」輪轉一個位置，讓每位球員輪流擔任發球與前後排角色"
+            ],
+            "answerIndex": 3,
+            "feedbackCorrect": "完全正確！獲得發球權時全隊順時針輪轉一格，右前排的球員會輪到右後排去發球。",
+            "feedbackRetry": "想一想時鐘指針轉動的方向！排球輪轉是順時針還是逆時針移動一格呢？"
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u7"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-health-pe-u8",
+      "stageId": "115-s2-g6-health-pe-u8",
+      "title": "貳、體育 八.桌球精靈",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s2-hp-u8-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "桌球發球規範、正反手擊球與雙打配合",
+          "narrationText": "桌球講究細膩拍面控制與手腳協調。發球須在端線外垂直拋起且不遮擋，先觸己方檯面再過網；擊球配合腰部轉動重心移轉，雙打更須遵守搭檔一人一球輪流擊球的默契。",
+          "cognitiveChunks": [
+            "發球：端線外公開垂直拋球，先落己方再過網",
+            "正手攻球搭配重心從右腳轉至左腳（右手拍）",
+            "雙打須「一人一球」輪流擊球並讓出空間"
+          ],
+          "analogyAnchor": "桌球拍面就像一面導向鏡，拍面太仰球就會飛高出界，微向前傾加上腰腿重心帶動，球就能穩穩落在對手檯面。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "發球與拍面修正",
+              "leftPoints": [
+                "端線外垂直上拋不遮擋",
+                "球常飛高出界須微前傾下壓拍面"
+              ],
+              "rightTitle": "戰術與雙打規則",
+              "rightPoints": [
+                "調動對手左右空檔（打左打右）",
+                "雙打嚴格一人一拍輪流擊球"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-hp-u8-l1",
+                "text": "拍面微傾防飛高出界",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s2-hp-u8-l2",
+                "text": "雙打輪流擊球讓位",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u8"
+        },
+        {
+          "sceneId": "g6s2-hp-u8-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "破解出界失誤與針對對手站位戰術",
+          "narrationText": "練習桌球常遇到球高高飛出界外，或面對死守單邊角落的對手不知如何得分；學會調整拍面角度與調動球路就能突破。",
+          "cognitiveChunks": [
+            "飛高出界因拍面太仰，須微前傾並控制力道",
+            "對手死守右角時，調動回擊至左側空檔"
+          ],
+          "workedExampleData": {
+            "problemStatement": "對打時發現球常高高飛出球檯底線界外，而且比賽對手總是死守在球檯右角不動，該如何調整自己的技術與戰術？",
+            "steps": [
+              "第 1 步：拍面修正——察覺拍面過度仰天打開且揮拍過猛，將拍面稍微向前傾下壓，並配合重心穩定向前上方推揮",
+              "第 2 步：戰術調動——不跟對手硬拚他最擅長的右角球路，改以「調右打左」或長短結合打向對方左側空檔，迫使對手移動露出破綻",
+              "第 3 步：培養球感——課後多做球拍連續顛球或對牆擊球練習，並將桌球納入不分晴雨皆可玩的終身運動計畫"
+            ],
+            "commonErrorContrast": "常見錯誤：只靠僵硬的手臂揮拍不用腰腿重心、發球時將球拋在身體後方遮擋視線，或雙打時搶著連續擊球兩次。",
+            "selfExplanationPrompt": "想一想：為什麼桌球經常被推薦為適合各年齡層一起參與的「終身運動」？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u8"
+        },
+        {
+          "sceneId": "g6s2-hp-u8-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "從球感練習邁向終身運動",
+          "topicSignalTitle": "不受天候限制、無劇烈衝撞，適合全家終身樂活",
+          "narrationText": "每天花幾分鐘練習顛球培養球感，注意左右手協調與雙打讓位默契，桌球能陪伴我們從小學一路健康到銀髮階段。",
+          "cognitiveChunks": [
+            "左手偏來球可用反手推擋／攻球迅速回擊",
+            "選擇安全且不受天氣限制的終身運動"
+          ],
+          "factGroundingSourceId": "115-s2/g6/health-pe#u8"
+        },
+        {
+          "sceneId": "g6s2-hp-u8-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認桌球「發球動作」必須遵守的公平規則！",
+          "cognitiveChunks": [
+            "在端線外將球垂直上拋且不遮擋視線"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈桌球精靈〉練習正確的「桌球發球動作」時，為了符合公平規則並發出穩定好球，發球員拋球與擊球時必須遵守什麼規範？",
+            "options": [
+              "在球檯端線外把球放在張開的掌心垂直向上拋起（至少 16 公分），不遮擋對手視線，擊球後先落己方檯面再過網",
+              "用身體完全擋住球不讓對手看見再偷偷打出去",
+              "直接把球拿在手上不拋起來就直接揮拍擊出",
+              "發球時要讓球直接飛過球網落在對方檯面而不碰自己這半邊"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！公開垂直拋球、不遮擋，且先彈己方檯面再過網，是桌球發球的公平規範。",
+            "feedbackRetry": "想一想：正式桌球發球能不能不拋球或遮住球？球過網前要先彈跳在哪一邊的檯面？"
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u8"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-health-pe-u9",
+      "stageId": "115-s2-g6-health-pe-u9",
+      "title": "貳、體育 九.角力主角我來當",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s2-hp-u9-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "自由式角力規則、預備站姿與護身安全",
+          "narrationText": "角力自由式允許運用全身控制對手並禁用任何拳打腳踢，在厚實彈性的圓形角力墊上競技。保持屈膝低重心站姿、熟練下肢後撤防禦與護身倒法，並展現賽前賽後敬禮的運動家精神。",
+          "cognitiveChunks": [
+            "厚實彈性圓形角力墊緩衝跌倒撞擊並界定範圍",
+            "屈膝低重心、雙腳微錯開防失衡，禁抓衣領拉髮",
+            "護身倒法：收下巴護頭、不直臂撐地、大片拍墊"
+          ],
+          "analogyAnchor": "角力就像一場墊上的「重心平衡象棋」，不能用拳腳攻擊，而是靠穩固底盤、靈活步伐與智慧技巧讓對手失去平衡。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "自由式角力特色",
+              "leftPoints": [
+                "可用全身抱摔控制但禁拳腳打擊",
+                "使對手雙肩同時壓地 (Fall) 獲勝"
+              ],
+              "rightTitle": "課堂安全與禮儀",
+              "rightPoints": [
+                "取下飾品、修剪指甲、禁鎖喉反關節",
+                "收下巴護頭不直臂撐地＋賽後敬禮"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-hp-u9-l1",
+                "text": "智取控制禁拳腳攻擊",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s2-hp-u9-l2",
+                "text": "護身倒法保護頭與肘",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u9"
+        },
+        {
+          "sceneId": "g6s2-hp-u9-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "模擬比賽防禦步伐、安全禁忌與運動風度",
+          "narrationText": "參與角力模擬比賽前，服裝與危險禁忌檢查絕不能少；比賽中運用低重心與下肢後撤防禦，倒地時做好護身動作。",
+          "cognitiveChunks": [
+            "對方撲抱腿部時敏捷後撤雙腿並下壓重心防禦",
+            "服裝不戴拉鍊硬物與手錶，嚴禁抓指扯髮鎖喉"
+          ],
+          "workedExampleData": {
+            "problemStatement": "即將在課堂進行角力自由式模擬對戰，賽前要檢查哪些安全禁忌？對戰中遇到對手撲抱腿部或自己即將摔倒時又該如何反應？",
+            "steps": [
+              "第 1 步：賽前檢查——穿著無尖銳拉鍊鈕扣的合身運動服、修剪指甲並取下眼鏡手錶，記住嚴禁鎖喉、反關節、抓衣服或抓手指等危險動作",
+              "第 2 步：低姿防禦——保持屈膝、重心壓低且雙手護胸；對手撲抱腿部時立刻「下肢後撤防禦」拉開距離並下壓重心化解",
+              "第 3 步：護身與禮儀——若即將摔倒，立刻收緊下巴保護頭部、絕不直臂撐地，以大片面積拍墊分散衝擊；賽前賽後皆向對手與裁判握手敬禮"
+            ],
+            "commonErrorContrast": "常見錯誤：直直站立重心太高、被扳倒時伸直手腕去撐墊子導致骨折，或輸掉比賽拒絕握手敬禮。",
+            "selfExplanationPrompt": "想一想：為什麼角力比賽必須在鋪有厚實彈性的圓形角力墊上進行？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u9"
+        },
+        {
+          "sceneId": "g6s2-hp-u9-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "力與智的對話：崇高運動家精神",
+          "topicSignalTitle": "絕不惡意鎖喉抓扯，勝負後真誠握手致意",
+          "narrationText": "角力最可貴的是在近距離身體對抗中依然嚴守安全規範、服從裁判判決並尊重對手。",
+          "cognitiveChunks": [
+            "雙肩同時緊貼墊面經裁判確認即獲勝",
+            "屈膝低重心與雙腳微錯開提升前後左右穩定"
+          ],
+          "factGroundingSourceId": "115-s2/g6/health-pe#u9"
+        },
+        {
+          "sceneId": "g6s2-hp-u9-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認角力選手在即將摔倒接觸墊面時最關鍵的保護動作！",
+          "cognitiveChunks": [
+            "收下巴保護頭部、不直臂撐地、大片拍墊"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈角力主角我來當〉練習中，如果即將被對手扳倒接觸角力墊面，身體應如何反應才不會傷害手肘或頭部？",
+            "options": [
+              "把單手手臂伸得直直的用力去撐地板",
+              "把頭仰高讓後腦勺直接重重撞在墊子上",
+              "收下巴保護頭部並順勢讓身體圓背滾動或大片面積拍墊分散衝擊力",
+              "緊閉雙眼把身體繃成一根硬木棍"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "完全正確！收下巴護頭與不直臂撐地，是所有墊上運動保護自己的黃金護身倒法。",
+            "feedbackRetry": "想一想：如果手肘伸直硬撐或頭往後仰，手腕和後腦勺會不會非常危險呢？"
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u9"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-health-pe-u10",
+      "stageId": "115-s2-g6-health-pe-u10",
+      "title": "貳、體育 十.百發百中",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s2-hp-u10-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "標的性球類運動：迷你保齡球與木球",
+          "narrationText": "迷你保齡球與臺灣發明的木球都屬於「標的性球類運動」，以精準送球命中目標為核心。學會分辨拋、擲、滾的使用時機，並透過穩定鐘擺擺臂與即時修正偏差，就能達成百發百中。",
+          "cognitiveChunks": [
+            "拋（近拋接）、擲（遠傳射）、滾（貼地穩定）",
+            "木球由臺灣人發明，須擊倒球門內高腳酒杯",
+            "標的性運動講求路線判斷、力道與自我修正"
+          ],
+          "analogyAnchor": "玩木球和迷你保齡球就像用雙手操控一輛沒有方向盤的小車，靠眼神瞄準路線、像鐘擺一樣平順擺臂控制力道。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "木球 (臺灣發明)",
+              "leftPoints": [
+                "雙腳踩穩微屈膝、鐘擺平順揮桿",
+                "擊球通過球門並擊倒門內高腳杯"
+              ],
+              "rightTitle": "迷你保齡球",
+              "rightPoints": [
+                "屈膝壓低重心貼地平穩「滾球」",
+                "瞄準第 1 與第 3 號瓶之間斜角進擊"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-hp-u10-l1",
+                "text": "鐘擺揮桿平穩過門",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s2-hp-u10-l2",
+                "text": "貼地滾球瞄準瓶縫",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u10"
+        },
+        {
+          "sceneId": "g6s2-hp-u10-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "瞄準修正技巧與攻防策略規劃",
+          "narrationText": "標的性運動第一球沒中沒關係，最重要的是冷靜觀察球偏左、偏右或力道輕重並微調；分組對抗時更要思考攻防路徑。",
+          "cognitiveChunks": [
+            "觀察第一球軌跡偏差，微調瞄準點與力道",
+            "攻防對抗兼顧進攻得點與安全阻擋對手路線"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在木球與迷你保齡球對抗練習中，如果第一球偏離了目標球門或球瓶，接下來該怎麼自我修正才能越來越準？",
+            "steps": [
+              "第 1 步：姿勢檢視——木球檢查是否雙腳踩穩、鐘擺揮桿平順正對球心；保齡球檢查是否壓低重心貼地滾出而非空中重砸",
+              "第 2 步：觀察修正——冷靜觀察剛剛球偏左、偏右或力道太輕太重的原因，微調站位瞄準點與擺臂力道再嘗試",
+              "第 3 步：終身樂活——欣賞這類運動強度溫和、安全且能與家人跨代同樂的特質，學會依年齡與體能選擇合適的終身運動"
+            ],
+            "commonErrorContrast": "常見錯誤：第一球沒中就生氣亂丟、保齡球用力往空中拋砸損壞球道，或不改變站位與力道繼續盲目重複錯誤動作。",
+            "selfExplanationPrompt": "想一想：生活中「拋球、擲球、滾球」這三種送球動作分別適合用在什麼情境？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u10"
+        },
+        {
+          "sceneId": "g6s2-hp-u10-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "溫和安全的跨代終身運動",
+          "topicSignalTitle": "觀察偏差微調力道，享受與家人跨代同樂的樂趣",
+          "narrationText": "標的性球類運動不需要與人激烈衝撞，重點在專注與精準控制，非常適合陪阿公阿嬤與爸媽假日一起同樂。",
+          "cognitiveChunks": [
+            "迷你保齡球貼地滾出才不會偏離彈跳",
+            "依體能安全選擇能持續一輩子的終身運動"
+          ],
+          "factGroundingSourceId": "115-s2/g6/health-pe#u10"
+        },
+        {
+          "sceneId": "g6s2-hp-u10-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認第一球偏離目標時最聰明的自我修正方式！",
+          "cognitiveChunks": [
+            "觀察偏差原因，微調瞄準點與出手力道"
+          ],
+          "warmupCheck": {
+            "prompt": "進行「迷你保齡球」或「木球」這類標的性球類運動時，如果第一球沒有擊中目標或偏離路線，接下來最有助於提升準確度的調整方式是什麼？",
+            "options": [
+              "冷靜觀察剛剛球偏左、偏右或力道太輕太重的原因，微調瞄準點與出手力道再嘗試",
+              "怪罪場地壞掉並生氣用力亂丟下一球",
+              "完全不改變站位與力道，閉眼用一模一樣的方式亂揮",
+              "站到距離目標十公分處直接用手推倒"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！每次出手後觀察軌跡並做細微調整，就是標的性運動越打越準的秘訣。",
+            "feedbackRetry": "想一想：如果一直用完全一樣的方式卻打偏，是不是應該觀察偏去哪裡然後微調方向與力氣？"
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u10"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-health-pe-u11",
+      "stageId": "115-s2-g6-health-pe-u11",
+      "title": "貳、體育 十一.水中樂逍遙",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s2-hp-u11-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "捷泳（自由式）換氣與水球團隊運動",
+          "narrationText": "游泳基礎是水中吐氣、轉頭吸氣的韻律呼吸；進階捷泳要保持流線水平與划手、打水、轉頭換氣協調。水球則是奧運歷史悠久的水上團體運動，靠踩水浮力單手運球傳接射門。",
+          "cognitiveChunks": [
+            "韻律呼吸：水中鼻子／嘴巴吐氣，轉頭水面吸氣",
+            "捷泳不可抬頭過高以免下肢下沉增加水阻",
+            "水球須踩水維持浮力，一般球員僅限單手控球"
+          ],
+          "analogyAnchor": "游捷泳就像一艘流線型小船，在水中吐光氣、輕轉頭偷吸一口氣而不抬高頭，船尾（雙腿）才不會沉下去拖慢速度。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "捷泳聯合動作要領",
+              "leftPoints": [
+                "水中持續吐氣、側轉頭快速吸氣",
+                "身體保持水平流線、手腳協調推進"
+              ],
+              "rightTitle": "水球比賽與技巧",
+              "rightPoints": [
+                "雙腳踩水維持身體高位浮力",
+                "單手推波運球、接傳合作射門"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-hp-u11-l1",
+                "text": "水中吐氣側轉頭吸氣",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s2-hp-u11-l2",
+                "text": "踩水浮起單手控球",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u11"
+        },
+        {
+          "sceneId": "g6s2-hp-u11-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "游泳接力與水球課堂安全規範",
+          "narrationText": "無論是下水前準備、游泳接力交棒，還是水球比賽中的防守對抗，水域安全永遠排在第一位。",
+          "cognitiveChunks": [
+            "課前暖身淋浴適應水溫，池畔嚴禁奔跑跳水",
+            "游泳接力須等隊友觸壁後才能出發，不壓人"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在學校游泳池進行捷泳接力賽與水球分組對抗賽時，從下水前到比賽中必須遵守哪些安全與規則細節？",
+            "steps": [
+              "第 1 步：下水前準備——在老師與救生員監督下確實做好暖身與淋浴適應水溫，池畔溼滑不奔跑推擠、不跳水也不剛吃飽就劇烈下水",
+              "第 2 步：游泳接力——下一棒必須等前一位隊友手確實觸壁（觸牆）後才能安全出發，避免空中或水中碰撞",
+              "第 3 步：水球規則——一般球員不得站立池底且只能單手控球（僅守門員在禁區可雙手），防守時絕不把對手頭部或身體壓入水中"
+            ],
+            "commonErrorContrast": "常見錯誤：游捷泳換氣時把整個頭高高抬出水面導致下半身下沉、水球比賽用雙手抱球跑或壓人下水，或接力搶跳出發。",
+            "selfExplanationPrompt": "想一想：為什麼水球選手在水中傳球與接球時需要持續運用「踩水」動作？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u11"
+        },
+        {
+          "sceneId": "g6s2-hp-u11-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "安全樂逍遙的水域運動禮儀",
+          "topicSignalTitle": "聽從救生指導、不壓人下水、觸壁後安全接棒",
+          "narrationText": "水球運球是靠划手推進水波或額頭／鼻尖帶球前進，不需用手抓死；遵守安全規範就能盡情享受水中團隊運動的樂趣。",
+          "cognitiveChunks": [
+            "踩水能騰出雙手進行空中接傳與射門",
+            "禁止將對手壓入水底或搶跳出發接力"
+          ],
+          "factGroundingSourceId": "115-s2/g6/health-pe#u11"
+        },
+        {
+          "sceneId": "g6s2-hp-u11-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認捷泳「韻律呼吸與轉頭換氣」的正確要領！",
+          "cognitiveChunks": [
+            "水中吐氣、轉頭向側面水面吸氣"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈水中樂逍遙〉學習游泳最基礎的「韻律呼吸」與「水中轉頭換氣」時，下列哪一個呼吸節奏與方向要領才是正確的？",
+            "options": [
+              "臉浸入水中時憋住一口氣完全不吐，轉頭到水面再又吐又吸",
+              "臉部在水中時持續平穩用鼻或口吐氣，划手時頭部微向側面轉出水面吸氣",
+              "永遠把頭高高抬出水面看著天花板游",
+              "在水底下張大嘴巴大口吸氣"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！水中把氣吐乾淨，側轉頭出水面就能快速吸進新鮮空氣，身體也更能維持水平！",
+            "feedbackRetry": "想一想：如果在水裡一直憋氣不吐，轉頭出來的短短時間還來得及先吐氣再吸氣嗎？"
+          },
+          "factGroundingSourceId": "115-s2/g6/health-pe#u11"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "packId": "115-s2-g2-english",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 2,
+  "subjectId": "english",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-english-u1",
+      "stageId": "115-s2-g2-english-u1",
+      "title": "第1–4週：生活小達人：安全與健康的好習慣",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "好習慣、壞習慣與教室禮貌",
+          "narrationText": "從繪本《The Crocodile and the Dentist》學會每天刷牙（Brush teeth）的好習慣，也學會進教室的禮貌英文。",
+          "cognitiveChunks": [
+            "Brush teeth（刷牙）、Dentist（牙醫）",
+            "Good habit（好習慣）、Bad habit!（壞習慣）",
+            "May I come in?（請問我可以進來嗎？）"
+          ],
+          "analogyAnchor": "就像每天早晚刷牙、過馬路看紅綠燈都是 Good habit，進辦公室前先問 May I come in? 非常有禮貌！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "健康與安全習慣",
+              "leftPoints": [
+                "Brush teeth（刷牙）",
+                "Good habit（好習慣）"
+              ],
+              "rightTitle": "教室禮貌對話",
+              "rightPoints": [
+                "May I come in?（我能進來嗎？）",
+                "Please sit down.（請坐下。）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "Good habit",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "進門說Come in",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/english#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分清楚 Nn 到 Zz 的大小寫字母",
+          "narrationText": "這學期開始認識字母 Nn 到 Zz，要特別小心 p 和 q、n 和 u 這種長得很像的字母。",
+          "cognitiveChunks": [
+            "注意小寫 p 和 q 的方向",
+            "注意小寫 n 和 u 的開口"
+          ],
+          "workedExampleData": {
+            "problemStatement": "下面哪一組「大寫和小寫」英文字母的配對完全正確？",
+            "steps": [
+              "第 1 步：檢查「N - u」：大寫 N 要配小寫 n，u 是開口朝上的 U",
+              "第 2 步：檢查「P - q」：大寫 P 要配小寫 p，q 是另一邊",
+              "第 3 步：檢查「R - r」：大小寫完全配對正確"
+            ],
+            "commonErrorContrast": "常見錯誤：沒有看清楚 p（圓圈在右）和 q（圓圈在左）的方向，把兩個字母搞混。",
+            "selfExplanationPrompt": "想一想：敲門想進教室時，最有禮貌的問法是 May I come in? 還是 Please sit down.？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/english#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先練習這題健康習慣單字，再進場挑戰！",
+          "cognitiveChunks": [
+            "teeth＝牙齒，brush＝刷"
+          ],
+          "warmupCheck": {
+            "prompt": "早上起床和睡覺前都要「刷牙」保護牙齒，英文怎麼說？",
+            "options": [
+              "Brush teeth",
+              "Please sit down",
+              "Bad habit"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！Brush teeth 就是「刷牙」。",
+            "feedbackRetry": "找找看裡面有「牙齒（teeth）」的那一個片語喔！"
+          },
+          "factGroundingSourceId": "115-s2/g2/english#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-english-u2",
+      "stageId": "115-s2-g2-english-u2",
+      "title": "第5–9週：守護地球小尖兵：安全探索與行動",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "愛護地球的 3R 行動與借東西對話",
+          "narrationText": "從《The Earth Book》學會愛護地球（Earth）、樹（Tree）與水（Water），並實踐減量、重複使用和回收。",
+          "cognitiveChunks": [
+            "Reduce 減量、Reuse 重複使用",
+            "Recycle 資源回收",
+            "May I borrow...? Sure.（借東西）"
+          ],
+          "analogyAnchor": "就像保護大海裡的動物不誤食塑膠袋，出門帶環保袋 Reuse、寶特瓶拿去 Recycle，人人都是地球小尖兵！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "step1": "Reduce（減量少拿）",
+              "step2": "Reuse（重複使用）",
+              "step3": "Recycle（資源回收）"
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "環保3R愛地球",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "寶特瓶去Recycle",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/english#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "有禮貌地向同學借東西",
+          "narrationText": "忘記帶蠟筆或橡皮擦想向同學借用時，記得說 May I borrow ...?，願意借人時就笑著回答 Sure.。",
+          "cognitiveChunks": [
+            "borrow＝借用",
+            "Sure.＝當然可以"
+          ],
+          "workedExampleData": {
+            "problemStatement": "忘記帶蠟筆，想有禮貌地向同學借用並聽到對方答應「當然可以。」，要怎麼對話？",
+            "steps": [
+              "第 1 步：要借東西時用「May I borrow a crayon?（我可以借一枝蠟筆嗎？）」",
+              "第 2 步：對方答應借你時回答「Sure.（當然可以。）」",
+              "第 3 步：接到手後別忘了說一聲 Thank you!"
+            ],
+            "commonErrorContrast": "常見錯誤：把進門問句「May I come in?」拿來當作借東西的問句。",
+            "selfExplanationPrompt": "想一想：認識新朋友時，要說哪一句「很高興認識你。」？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/english#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "練習一題認識新朋友的打招呼英文！",
+          "cognitiveChunks": [
+            "Nice to meet you.＝很高興認識你"
+          ],
+          "warmupCheck": {
+            "prompt": "開學遇到新同學時，微笑著說「很高興認識你。」要用哪一句英文？",
+            "options": [
+              "Bad habit!",
+              "Nice to meet you.",
+              "Brush teeth."
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！Nice to meet you. 就是「很高興認識你。」。",
+            "feedbackRetry": "找找看裡面有「見到你（meet you）」的那一句喔！"
+          },
+          "factGroundingSourceId": "115-s2/g2/english#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-english-u3",
+      "stageId": "115-s2-g2-english-u3",
+      "title": "第10–14週：生活中的守護者：超級英雄特訓班",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "人人都能當生活中的超級英雄",
+          "narrationText": "讀完《A Hero Like You》，我們知道不論男生女生，只要勇敢（Brave）、善良（Kind）、樂於助人（Helpful），就是超級英雄！",
+          "cognitiveChunks": [
+            "Brave 勇敢的、Kind 善良的",
+            "Helpful 樂於助人的",
+            "Here you are.（給你）、Thank you very much."
+          ],
+          "analogyAnchor": "就像同學東西掉了你幫忙撿起來，遞給他說 Here you are.，他開心說 Thank you very much.，這就是溫柔的超能力！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "英雄好特質",
+              "leftPoints": [
+                "Brave（勇敢的）、Kind（善良的）",
+                "Helpful（樂於助人的）"
+              ],
+              "rightTitle": "互助禮貌對話",
+              "rightPoints": [
+                "Here you are.（給你。）",
+                "Thank you very much.（非常謝謝你。）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "助人是Helpful",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "Here you are",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/english#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "排排看 Nn 到 Zz 的後半段順序",
+          "narrationText": "字母表後半段從 N 到 Z，可以用分段唱字母歌的方式記住：N O P Q R、S T U V W、X Y Z。",
+          "cognitiveChunks": [
+            "先唱 N O P Q R",
+            "再接 S T U V W X Y Z"
+          ],
+          "workedExampleData": {
+            "problemStatement": "從 N 往後唸字母順序時，緊接在「S, T, U」後面的兩個大寫字母是哪一組？",
+            "steps": [
+              "第 1 步：在心裡從頭唱一遍後半段：N, O, P, Q, R, S, T, U",
+              "第 2 步：接著往下唱兩個字母：V, W",
+              "第 3 步：確認完整順序 S, T, U, V, W 正確"
+            ],
+            "commonErrorContrast": "常見錯誤：直接跳過 V 唸成 W, X，或是把 P, Q 順序搞反。",
+            "selfExplanationPrompt": "想一想：把書遞給同學時說的「Here you are.」是什麼意思？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/english#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "練習一題超級英雄的特質單字吧！",
+          "cognitiveChunks": [
+            "help＝幫忙，helpful＝樂於助人的"
+          ],
+          "warmupCheck": {
+            "prompt": "看到同學東西掉了主動幫忙撿起來，形容他「樂於助人的」英文單字是哪一個？",
+            "options": [
+              "Helpful",
+              "Summer",
+              "Dentist"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！Helpful 就是「樂於助人的」。",
+            "feedbackRetry": "這個字裡面藏著「幫忙（help）」四個字母喔！"
+          },
+          "factGroundingSourceId": "115-s2/g2/english#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-english-u4",
+      "stageId": "115-s2-g2-english-u4",
+      "title": "第15–21週：夏日安全冒險王：戶外探索趣",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "夏日戶外冒險與安全口令",
+          "narrationText": "夏天（Summer）出去探險時，學會用 Hurry up!、Wait for me! 和 Have a nice day.，還要記住搭車和玩水的安全。",
+          "cognitiveChunks": [
+            "Hurry up!（快一點）、Wait for me!（等等我）",
+            "Have a nice day.（祝你有美好的一天）",
+            "搭車坐穩、玩水要有大人陪"
+          ],
+          "analogyAnchor": "就像出門搭公車或去尋寶，和朋友互相等一等（Wait for me!）、道別祝福（Have a nice day.），安全又開心！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "戶外探索對話",
+              "leftPoints": [
+                "Hurry up!（快一點！）",
+                "Wait for me!（等等我！）"
+              ],
+              "rightTitle": "夏日安全守則",
+              "rightPoints": [
+                "搭大眾運輸坐穩抓扶手",
+                "戲水要有大人陪並暖身"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "Wait for me",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "戲水安全最重要",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/english#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "完成 Nn 到 Zz 字母總複習",
+          "narrationText": "二下學完 Nn 到 Zz 後，我們就認識全部 26 個英文字母了！最後一個字母是 Z z。",
+          "cognitiveChunks": [
+            "26 個字母從 Aa 到 Zz",
+            "最後一個字母是 Z z"
+          ],
+          "workedExampleData": {
+            "problemStatement": "下面四組「Nn 到 Zz」的英文字母卡中，哪一組的大小寫配對完全正確？",
+            "steps": [
+              "第 1 步：檢查「N - m」：大寫 N 應配小寫 n，m 是 M 的小寫",
+              "第 2 步：檢查「U - n」：大寫 U 開口朝上應配 u，n 是 N 的小寫",
+              "第 3 步：檢查「T - t」：大小寫完全配對正確"
+            ],
+            "commonErrorContrast": "常見錯誤：把 N 和 M、U 和 n 這種字形相似的字母混在一起。",
+            "selfExplanationPrompt": "想一想：早上和朋友道別時，說「祝你有美好的一天。」要用哪一句英文？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/english#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "練習一題戶外探索的常用句子！",
+          "cognitiveChunks": [
+            "Wait＝等待，for me＝等我"
+          ],
+          "warmupCheck": {
+            "prompt": "鞋帶鬆開要綁一下，想請前面的同學「等等我！」，英文要說哪一句？",
+            "options": [
+              "Here you are.",
+              "Please sit down.",
+              "Wait for me!"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！Wait for me! 就是「等等我！」。",
+            "feedbackRetry": "找找看裡面有「等（Wait）」和「我（me）」的那一句喔！"
+          },
+          "factGroundingSourceId": "115-s2/g2/english#u4"
+        }
+      ]
+    }
+  ]
+}

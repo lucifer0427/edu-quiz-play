@@ -1,0 +1,438 @@
+{
+  "packId": "115-s2-g5-computer",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 5,
+  "subjectId": "computer",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-computer-u1",
+      "stageId": "115-s2-g5-computer-u1",
+      "title": "第1–5週：數位畫布初探",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識 Inkscape 向量繪圖與安全規範",
+          "narrationText": "使用電腦教室時要設定英數混合的高強度密碼、下課登出帳號，並從官方網站安全下載 Inkscape；運用矩形、圓形與多邊形工具即可拼出創意輪船。",
+          "cognitiveChunks": [
+            "認明官方網站下載軟體防範病毒",
+            "矩形、圓形、多邊形搭配填充與邊框",
+            "存成 SVG 向量檔可無限放大不失真"
+          ],
+          "analogyAnchor": "向量圖形（SVG）就像用數學公式記錄的積木藍圖，不管把輪船放大多少倍，線條邊緣依然平滑銳利，不會變成馬賽克鋸齒。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "遵守密碼安全規範並從官網取得 Inkscape",
+                "用矩形、圓形、多邊形與對稱設計創意輪船",
+                "儲存 SVG 檔上傳雲端教室進行同儕互評"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "官網下載密碼保護",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "基本幾何拼組輪船",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l3",
+                "text": "存 SVG 上傳互評",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/computer#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "輪船幾何拼組與同儕互評禮儀",
+          "narrationText": "調整「填充色」與「邊框粗細」讓輪船零件更有層次，善用工作區縮放檢視細節；上傳雲端教室後，用友善具體的語言欣賞同學的配色與對稱美感。",
+          "cognitiveChunks": [
+            "填充決定內部顏色、邊框決定外圍線條",
+            "工作區縮放只改視野不改物件尺寸",
+            "同儕互評聚焦配色與幾何配置"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小美想用 Inkscape 畫一艘有長方形船艙、圓形舷窗與三角形旗幟的創意輪船，並且希望下次還能繼續修改每個零件，該怎麼選擇工具與存檔格式？",
+            "steps": [
+              "第 1 步：挑選幾何工具——依序使用矩形工具、圓形工具與 3 頂點的多邊形工具",
+              "第 2 步：設定外觀與對稱——調整填充色與邊框粗細，搭配縮放檢視讓左右配置對稱平衡",
+              "第 3 步：選擇正確格式——儲存為 SVG 向量格式，保留所有獨立幾何物件以便日後編輯"
+            ],
+            "commonErrorContrast": "常見錯誤：從不明論壇下載破解版軟體導致中毒，或急著下課直接關螢幕卻忘記登出雲端帳號。",
+            "selfExplanationPrompt": "想一想：在雲端教室進行同儕互評時，寫出「哪些內容」才能真正幫助同學改進作品？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/computer#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "高強度密碼三守則",
+          "topicSignalTitle": "保護隱私從自己做起",
+          "narrationText": "密碼要使用英數混合且不共用帳號，離開公用電腦前務必確實登出，保護個人資料與創作心血。",
+          "cognitiveChunks": [
+            "英數混合高強度密碼",
+            "不共用帳號、離開前登出"
+          ],
+          "factGroundingSourceId": "115-s2/g5/computer#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認 Inkscape 的原生向量存檔格式，再進入第一單元挑戰！",
+          "cognitiveChunks": [
+            "SVG 保留向量物件且放大不失真"
+          ],
+          "warmupCheck": {
+            "prompt": "將 Inkscape 設計的「創意輪船」存檔上傳至雲端教室，希望下次打開還能單獨修改每個零件且放大不失真，應存成哪一種格式？",
+            "options": [
+              "TXT",
+              "MP3",
+              "SVG",
+              "XLSX"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！SVG（可縮放向量圖形）是 Inkscape 的標準向量格式，可保留物件結構且放大不模糊。",
+            "feedbackRetry": "想一想，Inkscape 屬於「向量繪圖軟體」，它的專屬向量格式縮寫是哪三個英文字母？"
+          },
+          "factGroundingSourceId": "115-s2/g5/computer#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-computer-u2",
+      "stageId": "115-s2-g5-computer-u2",
+      "title": "第6–10週：幾何圖形魔術師",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "對稱群組、星形參數與路徑運算",
+          "narrationText": "結合數學幾何與座標軸概念，運用群組化與水平翻轉做出對稱小章魚，調整星形頂點數與輪輻比例畫海星，再用路徑運算組合海洋生物。",
+          "cognitiveChunks": [
+            "群組化綁定零件、水平翻轉做左右對稱",
+            "星形工具：頂點數控制角數、輪輻比例控制銳利度",
+            "等比縮放維持比例、縱軸／橫軸置中對齊"
+          ],
+          "analogyAnchor": "「路徑運算」就像把幾塊色紙用膠水黏起來或用剪刀剪出缺口：相加是黏成一塊、減去是挖掉重疊處、交集則是只留下共同重疊的那一塊。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "對稱與座標對齊",
+              "leftPoints": [
+                "群組化 + 水平翻轉製作對稱雙眼",
+                "縱軸置中 + 橫軸置中讓中心重疊"
+              ],
+              "rightTitle": "路徑運算與圖樣",
+              "rightPoints": [
+                "相加合併、減去挖除、交集保留重疊",
+                "物件轉圖樣完成滿版鋪排"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "群組翻轉與置中對齊",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "加減交集與滿版圖樣",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/computer#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "路徑運算與滿版圖樣應用",
+          "narrationText": "熟練「相加、減去、交集、分割」四種路徑運算，就能用簡單圓形與曲線拼出鯨魚與熱帶魚；將魚兒轉成「圖樣」即可一鍵滿版鋪排背景。",
+          "cognitiveChunks": [
+            "相加：合併成單一外框",
+            "減去：用上層形狀挖掉下層重疊處",
+            "分割：沿路徑切開成獨立色塊"
+          ],
+          "workedExampleData": {
+            "problemStatement": "設計鯨魚與海底背景時，想把鯨魚身體與尾巴合併成一個輪廓、用小圓從大圓邊緣挖出魚嘴缺口，最後讓小魚重複鋪滿整個大背景，依序該用什麼功能？",
+            "steps": [
+              "第 1 步：合併輪廓——選取身體與尾巴執行路徑運算「相加」",
+              "第 2 步：挖出缺口——將小圓疊在魚嘴位置上方，執行路徑運算「減去」",
+              "第 3 步：滿版鋪排——將畫好的小魚轉為「圖樣（Pattern）」，直接套用為背景物件的填充"
+            ],
+            "commonErrorContrast": "常見錯誤：縮放物件時忘記鎖定長寬比例導致海星被壓扁，或手動複製貼上幾百次來鋪背景。",
+            "selfExplanationPrompt": "想一想：如何讓大圓與小圓的中心點在左右與上下方向都完全重疊在正中央？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/computer#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "幾何參數精準控制",
+          "topicSignalTitle": "頂點數、輪輻比例與旋轉數值",
+          "narrationText": "透過數值欄位調整星形頂點數（如 5 角）、輪輻比例（如 0.5）與旋轉角度，能讓向量設計比徒手拖曳更精準。",
+          "cognitiveChunks": [
+            "頂點數決定星形尖角數量",
+            "輪輻比例決定星角銳利或飽滿"
+          ],
+          "factGroundingSourceId": "115-s2/g5/computer#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認路徑運算的集合概念，再進入第二單元挑戰！",
+          "cognitiveChunks": [
+            "減去與交集對應不同重疊處理"
+          ],
+          "warmupCheck": {
+            "prompt": "在 Inkscape 中有大圓與小圓部分重疊，如果想「只保留兩者共同重疊的那一塊區域」，應該使用哪一種路徑運算？",
+            "options": [
+              "相加",
+              "減去",
+              "交集",
+              "群組"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！路徑運算「交集」會只留下兩個圖形共同重疊的交會區域。",
+            "feedbackRetry": "想一想數學集合概念：兩個圈圈「共同重疊」的地方叫做什麼呢？"
+          },
+          "factGroundingSourceId": "115-s2/g5/computer#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-computer-u3",
+      "stageId": "115-s2-g5-computer-u3",
+      "title": "第11–15週：海底奇幻故事",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "貝茲曲線、CC 授權與圖層管理",
+          "narrationText": "構思海底奇幻故事時，用貝茲曲線節點編輯與簡化繪製流暢水草，合法搜尋 CC 授權素材，並善用圖層鎖定與上下排序管理複雜畫面。",
+          "cognitiveChunks": [
+            "節點編輯微調曲線、簡化刪減冗餘節點",
+            "CC 授權素材須遵守標示出處等條款",
+            "鎖定背景圖層防止誤移、排序控制遮擋"
+          ],
+          "analogyAnchor": "圖層就像一疊透明膠片：把畫好的海底背景那張膠片加上「鎖頭」固定好，再調整角色膠片的上下順序，就不會老是點歪背景了。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "貝茲曲線節點編輯與簡化繪製水草岩石",
+                "搜尋 CC 授權素材並用遮罩與濾鏡營造光影",
+                "鎖定排序圖層、文字排版並匯出 PNG 發表"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "貝茲曲線與節點簡化",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "CC 素材遮罩與濾鏡",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l3",
+                "text": "圖層管理匯出 PNG",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/computer#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "遮罩濾鏡、文字排版與匯出發表",
+          "narrationText": "「遮罩與剪裁」可非破壞性地只露出特定形狀視窗，「濾鏡」營造神祕海底光影；最後調整字距與旋轉完成對白，匯出 PNG 檔案上台口語發表。",
+          "cognitiveChunks": [
+            "遮罩與剪裁不破壞原圖、可隨時調整",
+            "濾鏡可製作光暈、水波與陰影氛圍",
+            "匯出 PNG 方便放進簡報跨電腦展示"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在製作「海底奇幻故事」時，小安一直不小心拖歪背景、小魚又被水草遮住，且需要將完稿放進簡報到別台電腦上台報告，該怎麼處理？",
+            "steps": [
+              "第 1 步：鎖定背景——在圖層面板將背景圖層按下「鎖定」，避免滑鼠誤觸移動",
+              "第 2 步：調整順序——將小魚所在的物件圖層「上移」到水草圖層上方",
+              "第 3 步：匯出展示——執行「匯出 PNG 圖像」，產生跨平台都能清楚開啟的圖片放進簡報發表"
+            ],
+            "commonErrorContrast": "常見錯誤：未經授權直接盜用網路圖片或擦掉作者名字，或是只存 SVG 卻在沒安裝軟體的教室電腦打不開。",
+            "selfExplanationPrompt": "想一想：使用「CC 授權（創用 CC）」素材時，我們應該注意遵守哪些授權條款？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/computer#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "尊重智慧財產權",
+          "topicSignalTitle": "合法使用創用 CC 素材",
+          "narrationText": "使用創用 CC（Creative Commons）圖庫時，應看清楚原作者設定的條件（如姓名標示、非商業性），養成尊重著作權的好習慣。",
+          "cognitiveChunks": [
+            "遵守作者標示與使用範圍規定",
+            "上台發表結合故事與創作巧思"
+          ],
+          "factGroundingSourceId": "115-s2/g5/computer#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認圖層管理的功能，再進入第三單元挑戰！",
+          "cognitiveChunks": [
+            "圖層鎖定與上下排序解決誤觸與遮擋"
+          ],
+          "warmupCheck": {
+            "prompt": "在 Inkscape 編輯多層海底故事畫面時，為了避免滑鼠一直誤點拖歪背景，同時讓主角小魚顯示在水草前面，應該使用哪兩項圖層功能？",
+            "options": [
+              "圖層鎖定與圖層上下排序",
+              "全部刪除與重新開機",
+              "文字旋轉與調大字距",
+              "匯出 MP3 與取消群組"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！鎖定背景圖層可防止誤移，調整物件圖層上下排序則能讓小魚顯示在水草上方。",
+            "feedbackRetry": "把背景「鎖起來」才不會動到，再把小魚那層「往上移」到水草前面喔！"
+          },
+          "factGroundingSourceId": "115-s2/g5/computer#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-computer-u4",
+      "stageId": "115-s2-g5-computer-u4",
+      "title": "第16–21週：守護海洋3D行動",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "Tinkercad 3D 空間與減塑實作",
+          "narrationText": "從海洋塑膠汙染與減塑行動出發，學習 Tinkercad 工作平面、Z 軸高度拉抬與「實體＋孔洞」相減群組，製作環保愛心水杯並將 2D SVG 轉為 3D 模型。",
+          "cognitiveChunks": [
+            "工作平面為基準面、Z 軸控制垂直高度",
+            "實體減去孔洞（虛體）群組挖出空間",
+            "匯入 SVG 調整 Z 軸厚度實現 2D 跨 3D"
+          ],
+          "analogyAnchor": "在 Tinkercad 裡「孔洞（虛體）」就像雕刻用的隱形模具：把它塞進實心圓柱裡再按下「群組」，模具佔據的地方就會被完美挖空。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "認識工作平面、視角旋轉與 Z 軸拉抬",
+                "實體與孔洞抬高群組製作環保愛心水杯",
+                "匯入 2D SVG 轉為 3D 海洋生物並線上展覽"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "工作平面與 Z 軸高度",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "實體孔洞挖空群組",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l3",
+                "text": "SVG 轉 3D 模型",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/computer#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "環保愛心水杯挖空與多角度檢查",
+          "narrationText": "製作環保水杯時，孔洞圓柱必須沿 Z 軸往上拉抬保留杯底厚度；黏貼個人名牌與愛心裝飾後，務必旋轉視角從上下左右檢查是否確實貼合。",
+          "cognitiveChunks": [
+            "孔洞需沿 Z 軸抬高以免挖穿杯底",
+            "視角旋轉檢查物件是否懸空或歪斜",
+            "SVG 匯入後調整 Z 軸決定模型厚度"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小華在 Tinkercad 放了一個實心大圓柱準備做環保水杯，並在杯壁貼上個人名牌，如何確保杯子真的能裝水且名牌不會懸空掉落？",
+            "steps": [
+              "第 1 步：挖空保留杯底——放入較小的「孔洞」圓柱，沿 Z 軸往上拉抬 2～3 mm 後，與大圓柱一起「群組」相減",
+              "第 2 步：多角度檢查——使用滑鼠右鍵或視角方塊進行「視角旋轉」，從俯視與側視確認名牌確實貼緊杯壁",
+              "第 3 步：跨軟體延伸——若要加入 Inkscape 畫的海洋生物裝飾，先存 SVG 再匯入調整 Z 軸厚度"
+            ],
+            "commonErrorContrast": "常見錯誤：孔洞沒有往上抬高導致杯底被挖穿，或只從單一正面看以為名牌貼好了，轉個角度才發現懸空。",
+            "selfExplanationPrompt": "想一想：把 Inkscape 畫的平面海洋生物轉成 3D 模型後，可以用在哪些減塑生活用品或裝飾上？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/computer#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "科技減塑與線上展覽素養",
+          "topicSignalTitle": "性平、資安與溫暖回饋",
+          "narrationText": "期末參與線上性平與資安有獎徵答及 3D 作品展覽時，遵守網路禮儀、誠實作答並給予同學創意正向回饋。",
+          "cognitiveChunks": [
+            "數位創作結合海洋減塑行動",
+            "尊重性別平等與資安隱私規範"
+          ],
+          "factGroundingSourceId": "115-s2/g5/computer#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認 Tinkercad 三維座標軸的垂直方向，再進入第四單元挑戰！",
+          "cognitiveChunks": [
+            "Z 軸代表 3D 空間的垂直高度"
+          ],
+          "warmupCheck": {
+            "prompt": "在 Tinkercad 的三維空間中，藍色方格底面稱為「工作平面」，如果要把物件往上抬高或調整立體厚度，應該沿著哪一個座標軸調整？",
+            "options": [
+              "Z 軸",
+              "圖層軸",
+              "濾鏡軸",
+              "翻轉軸"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！X 與 Y 軸控制工作平面上的前後左右，Z 軸則控制垂直上下的高度與厚度。",
+            "feedbackRetry": "平面有 X 軸和 Y 軸，3D 空間多出來的垂直上下方向是哪一個英文字母呢？"
+          },
+          "factGroundingSourceId": "115-s2/g5/computer#u4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "packId": "115-s2-g6-hakka",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 6,
+  "subjectId": "hakka",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-hakka-u1",
+      "stageId": "115-s2-g6-hakka-u1",
+      "title": "進度單元一：夢遊太平山、迎媽祖",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "g6s2-hakka-u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "山林環境保護與迎媽祖民俗文化",
+          "narrationText": "第一課〈夢遊太平山〉帶我們感受臺灣山林之美並實踐環境教育；第二課〈迎媽祖〉則融入海洋教育，認識先民渡海祈求平安的媽祖信仰，並學習「鬧熱（熱鬧）」等民俗活動客語說法。",
+          "cognitiveChunks": [
+            "太平山步道應無痕山林，不亂丟垃圾不折花木",
+            "媽祖為海神守護航海漁民，與海洋文化緊密相連",
+            "客語「鬧熱」指熱鬧；「毋好亂擲」指不要亂丟"
+          ],
+          "analogyAnchor": "這兩課帶我們上山又下海：在太平山學會用「愛惜自然環境」守護森林，到廟會迎媽祖則感受先民與大海共生的熱鬧信仰文化。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "夢遊太平山 (環境教育)",
+              "leftPoints": [
+                "山林當靚（很漂亮）、空氣清新",
+                "垃圾毋好亂擲，共下保護山林"
+              ],
+              "rightTitle": "迎媽祖 (海洋與民俗)",
+              "rightPoints": [
+                "先民橫渡黑水溝祈求海上平安",
+                "廟會「當鬧熱」，尊重秩序減少空汙"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-hak-u1-l1",
+                "text": "愛惜山林不亂丟",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s2-hak-u1-l2",
+                "text": "認識海洋民俗文化",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/hakka#u1"
+        },
+        {
+          "sceneId": "g6s2-hakka-u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "戶外教育勸導對話與民俗觀賞素養",
+          "narrationText": "到戶外山林走訪或參觀迎媽祖等地方民俗活動時，要能用客語友善邀約與提醒環保，並展現尊重傳統文化的公民素養。",
+          "cognitiveChunks": [
+            "「共下愛惜自然環境」＝一起愛護自然環境",
+            "參觀民俗活動遵守交通動線、不亂丟垃圾"
+          ],
+          "workedExampleData": {
+            "problemStatement": "週末學校舉辦戶外教育走訪山林與家鄉迎媽祖廟會，遇到同學想用客語邀約並提醒環境保護，下列句子該怎麼正確理解與回應？",
+            "steps": [
+              "第 1 步：客語邀約——用「這隻拜六，𠊎兜共下去戶外行行、看迎媽祖，好無？」親切邀請同伴同行",
+              "第 2 步：環保勸導——看見有人想亂丟垃圾時，禮貌提醒「垃圾毋好亂擲，愛共下保護山林環境哦！」",
+              "第 3 步：民俗尊重——欣賞「當鬧熱（很熱鬧）」的迎媽祖陣頭時，遵守秩序不隨意觸摸儀仗文物，以正向好奇心認識先民海洋信仰"
+            ],
+            "commonErrorContrast": "常見錯誤：把客語「鬧熱」誤解成天氣太熱中暑、把媽祖信仰說成迷信毫無文化價值，或在山林步道隨手丟棄飲料瓶。",
+            "selfExplanationPrompt": "想一想：為什麼「媽祖信仰」在臺灣的發展會與「海洋教育」緊密相連？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/hakka#u1"
+        },
+        {
+          "sceneId": "g6s2-hakka-u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "從山林到海洋的文化關懷",
+          "topicSignalTitle": "山林無痕「毋好亂擲」，廟會「鬧熱」守秩序",
+          "narrationText": "無論是山林生態還是傳統民俗節慶，帶著尊重、愛護環境的心去參與，就能用客語分享最美的家鄉故事。",
+          "cognitiveChunks": [
+            "「當靚」形容很漂亮，「共下」指一起",
+            "尊重地方民俗儀式與文物，維護現場整潔"
+          ],
+          "factGroundingSourceId": "115-s2/g6/hakka#u1"
+        },
+        {
+          "sceneId": "g6s2-hakka-u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認第二課〈迎媽祖〉中形容廟會氣氛的客語詞彙「鬧熱」！",
+          "cognitiveChunks": [
+            "鬧熱＝熱鬧、人潮眾多且氣氛歡騰"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈迎媽祖〉認識臺灣民俗活動時，常聽長輩說迎神賽會現場「當鬧熱」！請問客語「鬧熱」是指國語的什麼意思？",
+            "options": [
+              "熱鬧、人潮眾多且氣氛歡騰",
+              "天氣太熱到中暑",
+              "大家吵架生氣",
+              "安靜沒有聲音"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！客語「鬧熱」和國語「熱鬧」剛好字序相反，意思完全一樣喔！",
+            "feedbackRetry": "把「鬧熱」兩個字順序倒過來念念看，廟會人群聚集時是什麼感覺？"
+          },
+          "factGroundingSourceId": "115-s2/g6/hakka#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-hakka-u2",
+      "stageId": "115-s2-g6-hakka-u2",
+      "title": "進度單元二：阿華忍床、祝福个菜包",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "g6s2-hakka-u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "生活詞彙〈阿華忍床〉、賢文俗諺與〈祝福个菜包〉",
+          "narrationText": "第三課〈阿華忍床〉教我們「忍床（賴床）」與「䟘床（起床）」等作息詞彙，並結合增廣昔時賢文與客語俗諺勉勵惜時；第四課〈祝福个菜包〉則認識傳統豬籠粄（菜包）分享福氣與客語祝福語。",
+          "cognitiveChunks": [
+            "忍床（賴床）、䟘床（起床）、來毋掣（來不及）",
+            "一寸光陰一寸金，寧賣祖宗田莫忘祖宗言",
+            "菜包外型似豬籠象徵豐收，分送鄰里傳祝福"
+          ],
+          "analogyAnchor": "早晨不「忍床」早早「䟘床」讀書，就像客家人用心揉製一顆飽滿的「祝福个菜包」，把惜時勤學與溫暖祝福都包進生活裡。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "生活作息與昔時賢文",
+              "leftPoints": [
+                "忍床（賴床）vs. 䟘床（起床）",
+                "一寸光陰一寸金、莫忘祖宗言"
+              ],
+              "rightTitle": "傳統米食與客語祝福",
+              "rightPoints": [
+                "菜包（豬籠粄）分送親友傳福氣",
+                "祝福詞：加油煞猛、順順利利"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-hak-u2-l1",
+                "text": "早起惜時莫忘母語",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s2-hak-u2-l2",
+                "text": "傳統米食分享祝福",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/hakka#u2"
+        },
+        {
+          "sceneId": "g6s2-hakka-u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "辨析早起詞彙、客家俗諺與祝福語應用",
+          "narrationText": "在家庭日常對話與朋友比賽畢業前夕，能準確使用「䟘床」、「莫過忍床」與親切的客語祝福語表達關心。",
+          "cognitiveChunks": [
+            "「愛早早䟘床，莫過忍床咧，去學校會來毋掣」",
+            "「祝福你順順利利、加油煞猛！」傳達鼓勵"
+          ],
+          "workedExampleData": {
+            "problemStatement": "媽媽早上催促：「阿華，愛早早䟘床，莫過忍床咧，去學校會來毋掣！」這句話是什麼意思？另外「寧賣祖宗田，莫忘祖宗言」又傳達什麼文化信念？",
+            "steps": [
+              "第 1 步：解析晨起對話——「䟘床」是起床、「忍床」是賴床、「來毋掣」是來不及，整句在提醒阿華不要賴床免得上學遲到",
+              "第 2 步：體會賢文俗諺——「寧賣祖宗田，莫忘祖宗言」勉勵後代珍惜傳承母語文化；「一寸光陰一寸金」則提醒珍惜時間",
+              "第 3 步：傳遞祝福——認識客家菜包（豬籠粄）敦親睦鄰分享福氣的習俗，並用客語祝福朋友「加油煞猛（努力加油）、順順利利！」"
+            ],
+            "commonErrorContrast": "常見錯誤：把「忍床」誤以為是忍住不睡覺、把「䟘床」和「睡目（睡覺）」搞混，或忘記菜包象徵豐收圓滿祝福。",
+            "selfExplanationPrompt": "想一想：當好朋友即將參加重要比賽或畢業時，你想送給他哪一句客語祝福話？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/hakka#u2"
+        },
+        {
+          "sceneId": "g6s2-hakka-u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "惜時勤學、傳承母語與分享福氣",
+          "topicSignalTitle": "早早䟘床不忍床，多用客語傳遞溫暖祝福",
+          "narrationText": "語言與米食都是客家文化最溫暖的載體，每天早起不賴床、記住先民智慧名言，並樂於用客語祝福身邊的人。",
+          "cognitiveChunks": [
+            "「煞猛」指勤奮努力，「承蒙」指感謝",
+            "傳統米食分享展現敦親睦鄰與惜福美德"
+          ],
+          "factGroundingSourceId": "115-s2/g6/hakka#u2"
+        },
+        {
+          "sceneId": "g6s2-hakka-u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認第三課核心詞彙「忍床」與「䟘床」的意思！",
+          "cognitiveChunks": [
+            "忍床＝賴床；䟘床＝起床"
+          ],
+          "warmupCheck": {
+            "prompt": "第三課課名〈阿華忍床〉是生活裡非常實用的客語詞彙。請問客家話說的「忍床（ngiùn-tshòng）」是指什麼行為？",
+            "options": [
+              "在床上跳躍玩耍",
+              "賴床（早上醒來捨不得離開被窩）",
+              "幫忙摺好棉被整理房間",
+              "晚上準時上床睡覺"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！早上醒來還想留在被窩裡捨不得起來就是「忍床（賴床）」喔！",
+            "feedbackRetry": "想一想媽媽早上叫你快起來上學時，會說「莫過忍床咧」，是指什麼行為呢？"
+          },
+          "factGroundingSourceId": "115-s2/g6/hakka#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-hakka-u3",
+      "stageId": "115-s2-g6-hakka-u3",
+      "title": "補充與複習活動",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "g6s2-hakka-u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "畢業季歌謠〈鳳凰花開〉、〈客家本色〉與吟詩",
+          "narrationText": "畢業前夕透過〈鳳凰花開〉與經典名曲〈客家本色〉感受勤奮打拚、不忘本的客家精神，以客語吟誦李白〈送孟浩然之廣陵〉體會依依惜別之情，並運用全學期詞彙完成畢業總複習。",
+          "cognitiveChunks": [
+            "〈客家本色〉傳達勤儉打拚、不忘祖宗言精神",
+            "〈鳳凰花開〉象徵六月畢業季節與師友祝福",
+            "客語吟誦古典詩保存平仄韻味與離別情誼"
+          ],
+          "analogyAnchor": "畢業前的客語總複習就像一場滿載收穫的畢業典禮：有〈鳳凰花開〉的祝福、〈送孟浩然之廣陵〉的惜別，更有〈客家本色〉勉勵我們帶著志氣邁向國中。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "鳳凰花開：感恩師長六年教導",
+                "客家本色：硬頸打拚、人愛有志氣",
+                "客語吟詩：送孟浩然之廣陵惜別情",
+                "出任務囉：統整全學期詞彙與對話"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-hak-u3-l1",
+                "text": "歌謠傳承打拚精神",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "g6s2-hak-u3-l2",
+                "text": "感恩道別迎向未來",
+                "anchorPointId": "step4"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/hakka#u3"
+        },
+        {
+          "sceneId": "g6s2-hakka-u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "畢業感謝對話、吟詩意境與諺語勉勵",
+          "narrationText": "在畢業週總複習中，把本學期學到的稱呼、感謝與祝福詞彙串聯起來，向師長表達感謝並帶著客家諺語的勇氣邁向新階段。",
+          "cognitiveChunks": [
+            "「承蒙先生六年來个教導，𠊎會永遠記得你！」",
+            "「人愛有志氣，愛打拚正會成功」勉勵未來"
+          ],
+          "workedExampleData": {
+            "problemStatement": "畢業典禮當天，小華想用客語感謝老師六年來的教導、與同學道別，並把〈客家本色〉的勉勵帶去國中，該怎麼表達才自然得體？",
+            "steps": [
+              "第 1 步：感恩師長——對老師說「承蒙先生六年來个教導，𠊎會永遠記得你！」（承蒙老師六年來的教導，我會永遠記得您）",
+              "第 2 步：惜別祝福——透過〈鳳凰花開〉與〈送孟浩然之廣陵〉的詩意，體會對好友依依不捨的祝福，互相道賀「前程似錦、順順利利」",
+              "第 3 步：志氣前行——牢記「人愛有志氣，愛打拚正會成功」與「早早䟘床無忍床」的好習慣，自信迎接國中新生活"
+            ],
+            "commonErrorContrast": "常見錯誤：忘記客語稱呼老師為「先生（sin-sang）」、把〈送孟浩然之廣陵〉誤以為在寫戰場打仗，或以為客語只能用在過去生活而不適合現代。",
+            "selfExplanationPrompt": "想一想：用客語吟誦唐詩〈送孟浩然之廣陵〉時，跟用國語朗讀有什麼特別的韻味感受？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/hakka#u3"
+        },
+        {
+          "sceneId": "g6s2-hakka-u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "帶著客家本色自信展翅",
+          "topicSignalTitle": "承蒙師恩、珍重同窗，有志氣肯打拚迎向國中",
+          "narrationText": "畢業不是學習客語的終點，帶著六年累積的詞彙、俗諺智慧與歌謠記憶，繼續在生活中說出美麗的客家話吧。",
+          "cognitiveChunks": [
+            "稱呼老師為「先生」，道謝為「承蒙你」",
+            "〈客家本色〉勉勵勤奮努力、不忘本源"
+          ],
+          "factGroundingSourceId": "115-s2/g6/hakka#u3"
+        },
+        {
+          "sceneId": "g6s2-hakka-u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認經典客語名曲〈客家本色〉想要傳達的核心精神！",
+          "cognitiveChunks": [
+            "勤儉樸實、努力打拚與不忘本源的客家精神"
+          ],
+          "warmupCheck": {
+            "prompt": "補充課程選唱的經典客語名曲〈客家本色〉傳唱海內外，這首歌主要傳達哪一種珍貴的客家精神？",
+            "options": [
+              "勤儉樸實、努力打拚與不忘本源的硬頸精神",
+              "鼓勵大家每天忍床睡到中午都不工作",
+              "教大家怎麼做荷蘭起司與木鞋",
+              "只描寫冬天滑雪的旅遊風景"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！〈客家本色〉唱出了客家人吃苦耐勞、重情義與不忘根本的寶貴精神。",
+            "feedbackRetry": "想一想歌名「客家本色」，歌詞裡是不是勉勵大家做人要勤勞打拚、不能忘記根本呢？"
+          },
+          "factGroundingSourceId": "115-s2/g6/hakka#u3"
+        }
+      ]
+    }
+  ]
+}

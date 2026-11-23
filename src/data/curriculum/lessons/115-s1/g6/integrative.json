@@ -1,0 +1,433 @@
+{
+  "packId": "115-s1-g6-integrative",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 6,
+  "subjectId": "integrative",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-integrative-u1",
+      "stageId": "115-s1-g6-integrative-u1",
+      "title": "主題一 永續發展地球村",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "覺察社區環境問題與綠生活號召",
+          "narrationText": "從實地走訪觀察發現社區環境問題，擬定安全可行的友善行動，並用身教與貼心協助邀請家人朋友一起實踐綠生活。",
+          "cognitiveChunks": [
+            "實地踏查、拍照記錄與訪談居民找出環境問題",
+            "事先分工攝影、安全提醒與工具準備",
+            "以身作則示範並解決長輩不便，帶動綠生活"
+          ],
+          "analogyAnchor": "推動環保就像點燃一盞小蠟燭再分火給大家：先從自己帶環保杯、掛好折疊環保袋開始，再邀請鄰居與家人一起加入，力量就會越來越大。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "實地踏查覺察環境問題",
+                "團隊分工執行友善行動",
+                "反思修正並號召綠生活"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u1-l1",
+                "text": "實地觀察訪談找痛點",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "u1-l2",
+                "text": "滾動修正擴大影響力",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/integrative#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "解決抗拒與滾動式修正行動策略",
+          "narrationText": "邀請阿公使用環保袋遇到「容易忘記」的抗拒時，幫忙解決生活不便比責怪有效；海報沒人看時也要檢討並調整宣導地點。",
+          "cognitiveChunks": [
+            "體諒長輩需求，把輕巧環保袋掛在鑰匙旁",
+            "結合里長與志工在安全合法下執行公園巡檢",
+            "海報無效時移到公告欄或市集互動宣導"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小組發現公園常有空杯亂丟，海報貼在偏僻巷尾卻沒人看，且阿公覺得帶環保袋很麻煩，該如何調整策略？",
+            "steps": [
+              "第 1 步：聯繫里長與社區志工發起安全清淨巡檢，並分工記錄改善前後成果",
+              "第 2 步：把海報移到社區公告欄或配合市集進行互動宣導，誠實修正計畫",
+              "第 3 步：體諒阿公方便需求，幫忙把折疊環保袋掛在鑰匙旁，取代指責說教"
+            ],
+            "commonErrorContrast": "常見錯誤：指責長輩不愛地球、把海報重印一百張貼在無人牆壁，或認為環保是大人的事與小學生無關。",
+            "selfExplanationPrompt": "想一想：在日常校園與家庭生活中，有哪些每天都能持續做到的減廢與節能綠生活行動？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/integrative#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "地球村公民的日常綠色選擇",
+          "topicSignalTitle": "為什麼六年級學生也能改變永續發展地球村？",
+          "narrationText": "每個日常選擇都與地球相連：自備環保杯餐具、惜食減廢、隨手關燈關水，千萬人的微行動就能匯聚成改變力量。",
+          "cognitiveChunks": [
+            "自備環保杯與餐具，落實資源分類",
+            "養成隨手關燈、關水與惜食習慣",
+            "全年實踐而非只在地球日當天行動"
+          ],
+          "factGroundingSourceId": "115-s1/g6/integrative#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次發現社區環境問題的可靠方法，準備闖關！",
+          "cognitiveChunks": [
+            "實地觀察、拍照與訪談居民能精準找出問題"
+          ],
+          "warmupCheck": {
+            "prompt": "展開改善社區環境行動前，哪一種覺察生活周遭環境問題的做法最客觀有效？",
+            "options": [
+              "實際走訪社區與校園觀察、拍照記錄並訪談鄰居或師長",
+              "坐在教室裡靠自己猜測",
+              "只看一片落葉就認定整座城市沒救"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！實地踏查與訪談能幫我們看清社區真正需要改善的環境痛點。",
+            "feedbackRetry": "想找出社區真實的環境問題，一定要親眼走訪還是關在室內猜測呢？"
+          },
+          "factGroundingSourceId": "115-s1/g6/integrative#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-integrative-u2",
+      "stageId": "115-s1-g6-integrative-u2",
+      "title": "主題二 美感「藝」言堂",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "發現生活美感多樣性與三明治回饋",
+          "narrationText": "美感就藏在日常光影、整潔秩序與手作巧思中；欣賞多元風格並練習用「先肯定、再建議」提供建設性回饋。",
+          "cognitiveChunks": [
+            "留意陽光影紋、書櫃秩序與擺盤中的生活美",
+            "尊重極簡、繽紛等多元審美風格與創意故事",
+            "先肯定亮點、再溫和提出具體改善建議"
+          ],
+          "analogyAnchor": "建設性回饋就像一份美味的三明治：上層先放「肯定對方的優點」讓人安心，中間夾「具體可改進的小建議」，幫助創作者把作品變得更好。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "建設性正向回饋",
+              "leftPoints": [
+                "具體說出配色或排版亮點",
+                "溫和建議字體放大更好看"
+              ],
+              "rightTitle": "無效或傷害性評論",
+              "rightPoints": [
+                "只批評「好醜、重畫」",
+                "敷衍說「還好、沒意見」"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u2-l1",
+                "text": "先肯定優點再給建議",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u2-l2",
+                "text": "避免空洞敷衍或批評",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/integrative#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "美感實踐：兼顧實用、安全與科技輔助",
+          "narrationText": "在教室實踐美感要兼顧實用性與安全不擋走道；接到同學建議時感謝調整，並善用數位工具預覽配色與版面。",
+          "cognitiveChunks": [
+            "整理掃具與書櫃、貼一致分類標籤就是美感",
+            "回收材料美化須清潔安全不割手且不擋走道",
+            "數位排版工具方便預覽配色並分享創意"
+          ],
+          "workedExampleData": {
+            "problemStatement": "同學設計的班級海報配色很清新但字體太小，另外我們想用回收瓶美化教室雜亂的掃具與書櫃區，該怎麼做？",
+            "steps": [
+              "第 1 步：回饋時先讚美清新的配色，再溫和建議「標題字再放大加粗一點，後排也能看清」",
+              "第 2 步：收到建議時感謝對方觀察並試著調整；整理掃具與書櫃，貼上一致美觀的分類標籤",
+              "第 3 步：確認回收瓶清潔安全不割手、穩固擺放不妨礙動線，也可用平板預覽配色效果"
+            ],
+            "commonErrorContrast": "常見錯誤：在黑板中間貼滿氣球遮住板書、只說「字小得像螞蟻重畫」，或認為美感只存在美術館。",
+            "selfExplanationPrompt": "想一想：為什麼整理出秩序井然、取用順手的書櫃與掃具區，也是重要的生活美感實踐？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/integrative#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "科技工具助力生活美感創作",
+          "topicSignalTitle": "數位相機與排版軟體能怎麼幫助我們實踐美感？",
+          "narrationText": "透過拍照記錄校園美感角落、用簡報或設計軟體快速試驗不同配色與版面草圖，能讓創意與分享更有效率。",
+          "cognitiveChunks": [
+            "拍照記錄日常被忽略的自然光影與設計",
+            "快速預覽對比不同配色與文字排版",
+            "尊重原創，不用修圖惡搞他人照片"
+          ],
+          "factGroundingSourceId": "115-s1/g6/integrative#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次正向建設性回饋的說法，準備進入第二關！",
+          "cognitiveChunks": [
+            "先肯定亮點再具體建議能幫助創作者進步"
+          ],
+          "warmupCheck": {
+            "prompt": "看到同學的班級海報配色舒服，但標題字太小遠處看不清，哪一句回饋最貼心且具建設性？",
+            "options": [
+              "「我喜歡你清新的配色！如果標題再放大加粗，後排同學也能看更清楚喔！」",
+              "「字小得像螞蟻，乾脆重畫算了。」",
+              "「還好，跟我沒關係。」"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！先肯定用心之處，再給出具體可改進的方向，這就是最棒的回饋。",
+            "feedbackRetry": "想像如果是自己做的海報，先聽到優點還是直接被否定會更有動力修改呢？"
+          },
+          "factGroundingSourceId": "115-s1/g6/integrative#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-integrative-u3",
+      "stageId": "115-s1-g6-integrative-u3",
+      "title": "主題三 營造好關係",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "自我察覺、同理心與積極傾聽",
+          "narrationText": "察覺自己在互動中容易著急或害羞的特質，並透過不拿外表性別開玩笑、同理陪伴失落朋友與積極傾聽，營造好關係。",
+          "cognitiveChunks": [
+            "自我察覺互動盲點，練習放慢腳步傾聽",
+            "開玩笑以對方自在為準，不舒服立刻停止道歉",
+            "同理心：先理解並說出對方的感受再溫暖陪伴"
+          ],
+          "analogyAnchor": "人際互動就像雙人舞：察覺自己的步伐、用眼神與點頭「積極傾聽」對方的節奏，發生踩腳誤會時誠懇道歉調整，就能跳出默契。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "同理陪伴與積極傾聽",
+              "leftPoints": [
+                "專心注視、點頭並重述確認",
+                "理解對方失落並溫暖陪伴"
+              ],
+              "rightTitle": "容易破壞關係的做法",
+              "rightPoints": [
+                "滑手機敷衍或急著搶話說教",
+                "群組文字誤會時隔空互罵"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u3-l1",
+                "text": "傾聽同理讓對方被重視",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u3-l2",
+                "text": "搶話敷衍易生誤會衝突",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/integrative#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "雙贏解決衝突、數位誤會與友情界線",
+          "narrationText": "意見不合時冷靜傾聽彼此理由找雙贏方案；群組文字誤會改約面對面講清楚；面對朋友不當邀約更要堅定守住原則。",
+          "cognitiveChunks": [
+            "衝突協商：先降溫、聽理由、找交集或公平投票",
+            "群組火藥味升高時暫停打字，改語音或當面說清",
+            "不慎傷人真誠道歉；拒絕朋友違反校規的邀約"
+          ],
+          "workedExampleData": {
+            "problemStatement": "園遊會攤位意見僵持不下，同時班級群組也因文字語氣產生誤會，另外好朋友邀你做違反校規的事，該怎麼處理？",
+            "steps": [
+              "第 1 步：意見不合時先冷靜聽彼此考量（如成本衛生），尋找搭配販售或公平表決的雙贏方案",
+              "第 2 步：群組起誤會先暫停打字互責，改用語音或面對面心平氣和把原意講清楚",
+              "第 3 步：不小心傷人就真誠道歉；面對朋友不當邀約則溫和堅定拒絕並改約正向活動"
+            ],
+            "commonErrorContrast": "常見錯誤：為了維持友情硬著頭皮陪做壞事、在群組連發怒氣貼圖，或笑被害羞同學「開不起玩笑」。",
+            "selfExplanationPrompt": "想一想：當好朋友因為才藝比賽失常而在座位上落淚時，怎麼回應最能讓他感到被同理？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/integrative#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "守護健康的性別互動界線",
+          "topicSignalTitle": "自己覺得好笑的玩笑，什麼時候應該立刻停止？",
+          "narrationText": "玩笑是否合宜取決於「聽的人是否感到自在受尊重」，不拿外表、身材或性別刻板印象開玩笑，對方不自在就立刻停止並道歉。",
+          "cognitiveChunks": [
+            "以對方感受為準，察覺不自在立刻踩煞車",
+            "不拿外表、身材與性別特質取笑",
+            "不小心冒犯時真誠道歉不硬拗"
+          ],
+          "factGroundingSourceId": "115-s1/g6/integrative#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次通訊群組發生誤會時的處理方式，準備闖關！",
+          "cognitiveChunks": [
+            "文字缺乏語氣表情，起誤會宜改用通話或面對面溝通"
+          ],
+          "warmupCheck": {
+            "prompt": "在班級通訊群組用文字討論事情不慎產生誤會吵起來時，怎麼處理最能守護好關係？",
+            "options": [
+              "暫停在群組隔空指責，改用通話或約面對面把原意講清楚",
+              "在群組連傳二十個生氣貼圖反擊",
+              "把對話截圖外傳給別班評理"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！文字容易讓人腦補語氣，面對面或語音溝通最能快速化解誤會。",
+            "feedbackRetry": "冰冷的文字看不到表情很容易越吵越僵喔！換成哪種看得見表情或聽得見語氣的溝通方式比較好？"
+          },
+          "factGroundingSourceId": "115-s1/g6/integrative#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-integrative-u4",
+      "stageId": "115-s1-g6-integrative-u4",
+      "title": "主題四 多元文化村",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "文化平等觀與入鄉問俗的尊重",
+          "narrationText": "每種文化都是回應當地環境與歷史的生活智慧，只有差異沒有優劣；對待不同文化應好奇求教、遵守場域禮儀並避免取笑禁忌。",
+          "cognitiveChunks": [
+            "文化只有差異之別，沒有優劣高低之分",
+            "飲食、服飾與建築反映各地氣候與先民智慧",
+            "進入宗教或文化場域遵守脫鞋、安靜與飲食禁忌"
+          ],
+          "analogyAnchor": "地球村就像一座大花園：每種文化是不同顏色形狀的花朵，正因為各自綻放才讓花園如此繽紛美麗，不需要把每朵花都修剪成同一個樣子。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "尊重與欣賞的行動",
+              "leftPoints": [
+                "事前了解並遵守禮儀禁忌",
+                "學一句問候語、專心欣賞分享"
+              ],
+              "rightTitle": "不當的偏見行為",
+              "rightPoints": [
+                "取笑姓名、口音或異國食物",
+                "在網路附和或轉傳歧視言論"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u4-l1",
+                "text": "入鄉問俗尊重多元禁忌",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u4-l2",
+                "text": "不附和歧視打造共好",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/integrative#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "跨文化友愛行動與反對網路偏見",
+          "narrationText": "當班上有還在適應中文的新同學時，用微笑、圖卡與遊戲邀請讓他感到溫暖；面對網路族群嘲笑言論則不附和並傳遞尊重。",
+          "cognitiveChunks": [
+            "用圖卡、肢體或簡單語句陪新同學熟悉校園",
+            "邀請跨文化新夥伴一起參與下課遊戲與分組",
+            "看到網路歧視言論不轉傳，傳遞正確理解"
+          ],
+          "workedExampleData": {
+            "problemStatement": "班上轉來剛來臺定居、中文還不流利的新同學，同時在網路上看到有人嘲笑新住民文化，我們可以怎麼展現共好行動？",
+            "steps": [
+              "第 1 步：主動微笑打招呼，用圖卡與簡單清楚語句陪新同學熟悉作息並邀請一起遊戲",
+              "第 2 步：文化交流日時專心聆聽、學一句問候語並尊重對方的飲食與宗教禮儀",
+              "第 3 步：在網路看到偏見嘲笑言論時不按讚也不轉傳，保持理性並傳遞多元尊重觀念"
+            ],
+            "commonErrorContrast": "常見錯誤：因語言慢就排除對方分組、教對方不禮貌字眼捉弄他，或把不同文化的口音當外號嘲笑。",
+            "selfExplanationPrompt": "想一想：為什麼接納並欣賞多元文化，是打造「共好地球村」不可或缺的公民素養？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/integrative#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "從好奇理解走向共好世代",
+          "topicSignalTitle": "看到陌生祭儀或習俗覺得好奇時，第一步該怎麼做？",
+          "narrationText": "陌生往往來自不了解，放掉成見並虛心請教長輩或查資料，理解背後的感恩與祝福故事，陌生就會化為真誠敬意。",
+          "cognitiveChunks": [
+            "先理解文化背後的歷史與環境脈絡",
+            "不任意闖入禁忌區或觸碰神聖器物",
+            "跨越偏見，讓每種文化在社會安居發光"
+          ],
+          "factGroundingSourceId": "115-s1/g6/integrative#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次理解文化差異的核心觀念，準備挑戰最終關卡！",
+          "cognitiveChunks": [
+            "各種文化只有差異之別，沒有優劣高低之分"
+          ],
+          "warmupCheck": {
+            "prompt": "認識世界各國與臺灣多元族群在飲食、服飾與禮儀上的不同時，哪一個核心觀念最正確？",
+            "options": [
+              "每種文化都是當地人因應環境與歷史發展的智慧，只有差異沒有優劣高低之分",
+              "自己沒看過的習俗一定是落後的習慣",
+              "所有國家最後都該改成完全一樣的生活方式"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！承認差異、平等對待與互相欣賞，就是共好世代最重要的精神。",
+            "feedbackRetry": "熱帶和寒帶的人穿的衣服、吃的食物不同，是因為哪裡比較高貴，還是生活環境不同呢？"
+          },
+          "factGroundingSourceId": "115-s1/g6/integrative#u4"
+        }
+      ]
+    }
+  ]
+}

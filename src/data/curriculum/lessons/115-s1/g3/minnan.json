@@ -1,0 +1,290 @@
+{
+  "packId": "115-s1-g3-minnan",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 3,
+  "subjectId": "minnan",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-minnan-u1",
+      "stageId": "115-s1-g3-minnan-u1",
+      "title": "一、食食",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "食晝、踅夜市與 ABB 疊字詞",
+          "narrationText": "三餐在閩南語叫「食早頓、食晝、食暗頓」！週末「踅夜市（逛夜市）」時，可以用「燒燙燙、芳貢貢、鹹篤篤」等 ABB 疊字詞形容美食滋味，買東西要對頭家說「多謝、勞力」！",
+          "cognitiveChunks": [
+            "食早頓（早餐）、食晝（午餐）、食暗頓（晚餐）",
+            "踅夜市＝逛夜市，點餐問「愛偌濟錢？勞力」",
+            "ABB 疊字詞：燒燙燙、芳貢貢、鹹篤篤"
+          ],
+          "analogyAnchor": "ABB 疊字詞就像美食的魔法形容詞：第 1 個字點出溫度或香味，後面 2 個疊字把美味感覺放大兩倍！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "三餐與夜市對話",
+              "leftPoints": [
+                "早頓（早餐）、食晝（午餐）、暗頓（晚餐）",
+                "頭家請問愛偌濟錢？勞力！"
+              ],
+              "rightTitle": "ABB 食物滋味疊字詞",
+              "rightPoints": [
+                "燒燙燙（熱騰騰）、芳貢貢（香氣四溢）",
+                "鹹篤篤（很鹹），生動描寫口感溫度"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "食晝就是吃午餐",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "ABB詞形容食物滋味",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/minnan#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分辨 ABB 結構與團隊領餐對話",
+          "narrationText": "如何從語詞結構一眼認出 ABB 疊字詞，並在領午餐時邀請同學合作？",
+          "cognitiveChunks": [
+            "ABB 為第 1 字不重複、第 2 與 3 字相同",
+            "作伙（一起）鬥相共（互相幫忙）"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何分辨「ABB 結構」疊字詞，並用閩南語邀請同學一起合作領營養午餐？",
+            "steps": [
+              "第 1 步：檢查字形結構：第 1 字不同、後 2 字相同，如「燒燙燙」、「芳貢貢」",
+              "第 2 步：排除 AABB（歡歡喜喜）與 ABAB（討論討論）",
+              "第 3 步：領餐時說「咱作伙鬥相共，你發湯匙，我提湯桶！」，用餐後說「多謝」不浪費"
+            ],
+            "commonErrorContrast": "常見錯誤：把「歡歡喜喜（AABB）」誤認為 ABB，或把「食晝」當成吃早餐。",
+            "selfExplanationPrompt": "想一想：在逛夜市買豆花時，向「頭家」問價錢並道謝要怎麼說最禮貌？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/minnan#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看三餐說法的正確配對吧！",
+          "cognitiveChunks": [
+            "早頓＝早餐、晝＝午餐、暗頓＝晚餐"
+          ],
+          "warmupCheck": {
+            "question": "在臺灣閩南語的日常時間用語裡，早、中、晚三餐的說法配對，哪一項完全正確？",
+            "prompt": "在臺灣閩南語的日常時間用語裡，早、中、晚三餐的說法配對，哪一項完全正確？",
+            "options": [
+              "食早頓＝吃早餐；食晝＝吃午餐；食暗頓＝吃晚餐",
+              "食早頓＝吃宵夜；食晝＝吃下午茶；食暗頓＝吃早餐",
+              "食早頓＝吃午餐；食晝＝吃晚餐；食暗頓＝吃點心"
+            ],
+            "answerIndex": 0,
+            "explanation": "「早」對應早晨、「晝」指正午、「暗」指天黑傍晚，所以食早頓、食晝、食暗頓分別是吃早、午、晚餐！",
+            "feedbackCorrect": "答對了！食早頓、食晝、食暗頓就是早、午、晚餐！",
+            "feedbackRetry": "依「早（早晨）、晝（中午）、暗（夜晚）」的順序想想看喔！"
+          },
+          "factGroundingSourceId": "115-s1/g3/minnan#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-minnan-u2",
+      "stageId": "115-s1-g3-minnan-u2",
+      "title": "二、健康的生活",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "運動會詞彙、加油句型與運動家精神",
+          "narrationText": "運動會來囉！學會「拍球（打球）」、「跳索（跳繩）」、「搝大索（拔河）」和「走標（賽跑）」；用「上（最）」和「gâu（擅長）」造句，賽後大方讚美對手、運動後記得「啉水佮拭汗」！",
+          "cognitiveChunks": [
+            "拍球（打球）、跳索（跳繩）、搝大索（拔河）",
+            "「上」＝最、「gâu」＝擅長很會",
+            "運動前熱身、後啉水拭汗，勝不驕敗不餒"
+          ],
+          "analogyAnchor": "「索」是繩子，所以跳繩是「跳索」、拔河用力拉大繩子就是「搝大索」，從字面拆解就能立刻記起來！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "運動項目：拍球、跳索、搝大索、走標",
+                "加油保健：細膩跤步！熱身、啉水佮拭汗",
+                "運動風度：多謝指教！恁走甲真緊！"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "搝大索就是拔河",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "運動後啉水佮拭汗",
+                "anchorPointId": "step2"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/minnan#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "讀懂「上」與「gâu」的句型應用",
+          "narrationText": "在運動會情境中，如何用閩南語介紹自己最喜歡、同學最擅長的項目？",
+          "cognitiveChunks": [
+            "上（siōng）＝最；gâu（賢）＝很會、擅長",
+            "細膩（小心）跤步（腳步）提醒安全"
+          ],
+          "workedExampleData": {
+            "problemStatement": "同學說「我上愛拍籃球，伊上 gâu 跳索。」，這句話是什麼意思？賽後又該怎麼展現運動家風度？",
+            "steps": [
+              "第 1 步：拆解「上（siōng）」等同於國語的「最」，「拍籃球」是打籃球",
+              "第 2 步：「gâu（賢）」是指很會、很擅長，所以「上 gâu 跳索」是最擅長跳繩",
+              "第 3 步：賽後向對手說「多謝恁的指教，恁走甲真緊，後擺咱閣作伙比賽！」展現風度"
+            ],
+            "commonErrorContrast": "常見錯誤：把「上」誤解為上課或上面，或賽後指責裁判與對手。",
+            "selfExplanationPrompt": "想一想：運動會除了當選手，幫忙畫海報、計時或整理場地對生涯探索有什麼幫助？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/minnan#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看「搝大索」和「跳索」是指哪兩項運動！",
+          "cognitiveChunks": [
+            "拍球＝打球、跳索＝跳繩、搝大索＝拔河"
+          ],
+          "warmupCheck": {
+            "question": "下列校園運動會活動的「閩南語詞彙 ↔ 國語意思」配對，哪一個完全正確？",
+            "prompt": "下列校園運動會活動的「閩南語詞彙 ↔ 國語意思」配對，哪一個完全正確？",
+            "options": [
+              "拍球＝打球；跳索＝跳繩；搝大索＝拔河",
+              "拍球＝寫書法；跳索＝畫水彩",
+              "搝大索＝彈鋼琴；走標＝看電影"
+            ],
+            "answerIndex": 0,
+            "explanation": "「拍」是打、「索」是繩子，所以拍球是打球、跳索是跳繩、搝大索是拔河！",
+            "feedbackCorrect": "答對了！拍球、跳索、搝大索就是打球、跳繩和拔河！",
+            "feedbackRetry": "記得「索」是繩子的意思，用力拉大繩子的比賽是哪一項呢？"
+          },
+          "factGroundingSourceId": "115-s1/g3/minnan#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-minnan-u3",
+      "stageId": "115-s1-g3-minnan-u3",
+      "title": "三、行行出狀元",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "擔仔位、咱的英雄與一枝草一點露",
+          "narrationText": "走進社區的「擔仔位（攤位）」、「菜市仔」、「柑仔店」和「冊店（書店）」！感謝郵差、醫生、警察等「咱的英雄」，記住「一枝草，一點露」，行行都能出狀元！",
+          "cognitiveChunks": [
+            "擔仔位＝攤位；菜市仔、柑仔店（雜貨店）、冊店（書店）",
+            "咱的＝我們的；尊重各行各業工作者",
+            "俗諺「一枝草，一點露」勉勵每個人都有機會"
+          ],
+          "analogyAnchor": "「一枝草，一點露」就像老天爺會給每株小草一滴露水，每個人都有自己的天分，只要努力打拚就會發光！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "社區商店與攤位",
+              "leftPoints": [
+                "擔仔位（攤位）、菜市仔（市場）",
+                "柑仔店（雜貨店）、冊店（書店）"
+              ],
+              "rightTitle": "咱的英雄與俗諺",
+              "rightPoints": [
+                "郵差、醫生、警察、消防員守護社區",
+                "「一枝草，一點露」與「七分靠打拚」"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "冊店就是賣書的書店",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "一枝草一點露勉努力",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/minnan#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "社區對話與俗諺意涵解析",
+          "narrationText": "如何用溫暖的閩南語和社區頭家互動，並讀懂「一枝草，一點露」的道理？",
+          "cognitiveChunks": [
+            "「頭家早！」、「哪一款上甜？」、「多謝勞力」",
+            "打破職業高低偏見，尊重每份付出"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在社區「菜市仔」買水果時怎麼展現人情味？俗諺「一枝草，一點露」又想勉勵我們什麼？",
+            "steps": [
+              "第 1 步：微笑向老闆問候：「頭家早！請問今仔日的水果哪一款上甜？」",
+              "第 2 步：結帳後真誠道謝：「多謝，勞力！」，建立社區歸屬感",
+              "第 3 步：記住「一枝草，一點露」與「行行出狀元」，尊重各行各業並努力發掘自我興趣"
+            ],
+            "commonErrorContrast": "常見錯誤：把「柑仔店」誤以為是水果攤、把「咱的」當成別人的，或認為只有辦公室工作才值得尊敬。",
+            "selfExplanationPrompt": "想一想：如果沒有郵差、清潔隊員、醫生和攤販頭家的付出，我們的社區生活會變成什麼樣子？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/minnan#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看社區商店的閩南語名稱配對！",
+          "cognitiveChunks": [
+            "菜市仔＝菜市場、柑仔店＝雜貨店、冊店＝書店"
+          ],
+          "warmupCheck": {
+            "question": "配合〈4.擔仔位〉學習社區商店說法，下列哪一組「閩南語場所名稱 ↔ 國語意思」配對完全正確？",
+            "prompt": "配合〈4.擔仔位〉學習社區商店說法，下列哪一組「閩南語場所名稱 ↔ 國語意思」配對完全正確？",
+            "options": [
+              "菜市仔＝菜市場；柑仔店＝傳統雜貨店；冊店＝書店",
+              "菜市仔＝游泳池；柑仔店＝汽車修理廠",
+              "冊店＝水果攤；柑仔店＝消防局"
+            ],
+            "answerIndex": 0,
+            "explanation": "「菜市仔」是菜市場、「柑仔店」是傳統雜貨店、「冊店」是賣書的書店！",
+            "feedbackCorrect": "答對了！菜市仔、柑仔店、冊店全部配對正確！",
+            "feedbackRetry": "記得「冊」是書本，所以「冊店」是賣什麼的店呢？"
+          },
+          "factGroundingSourceId": "115-s1/g3/minnan#u3"
+        }
+      ]
+    }
+  ]
+}

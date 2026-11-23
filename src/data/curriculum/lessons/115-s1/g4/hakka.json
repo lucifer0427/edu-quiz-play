@@ -1,0 +1,385 @@
+{
+  "packId": "115-s1-g4-hakka",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 4,
+  "subjectId": "hakka",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-hakka-u1",
+      "stageId": "115-s1-g4-hakka-u1",
+      "title": "第一單元 蹶山與自然探索",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "蹶山感受、五感體驗與無痕山林",
+          "narrationText": "假日去「蹶山（爬山）」！用眼睛、耳朵、鼻子與皮膚五感親近大自然；流汗「當悿（很累）」想「飲水（喝水）」時，邀請同伴在樹蔭下「歇一下仔（休息一下）」，還要把垃圾帶下山守護山林！",
+          "cognitiveChunks": [
+            "蹶山＝爬山、當悿＝很累、飲水＝喝水",
+            "歇一下仔＝休息一下、好無＝好嗎",
+            "打開五感體驗山林，垃圾帶下山不摘花"
+          ],
+          "analogyAnchor": "「無痕山林」就像到好朋友家作客：打開五感欣賞風景，離開時只帶走回憶與照片，不留下一點垃圾！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "行前準備：運動鞋、透氣衣與飲用水",
+                "途中對話：當悿、想飲水、先歇一下仔",
+                "五感環保：聽風鳥鳴、垃圾與果皮帶下山"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "蹶山就是爬山健行",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "當悿飲水歇一下仔",
+                "anchorPointId": "step2"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/hakka#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "讀懂蹶山對話與照顧同伴感受",
+          "narrationText": "看看同學在爬山時說的客語句子，每個關鍵詞分別表達了什麼感受？",
+          "cognitiveChunks": [
+            "當（很、非常）、悿（累）、飲水（喝水）",
+            "這搭（這裡）、歇（休息）"
+          ],
+          "workedExampleData": {
+            "problemStatement": "同學在爬山時說「𠊎這下當悿，又當想愛飲水！」以及「這搭當涼爽，咱兜先歇一下仔，好無？」是什麼意思？",
+            "steps": [
+              "第 1 步：「當」是很、「悿」是累、「飲水」是喝水，表達「我現在很累又很想喝水」",
+              "第 2 步：「這搭」是這裡、「歇一下仔」是休息一下，「好無」是禮貌問「好嗎？」",
+              "第 3 步：停下來喝水休息並把空瓶與果皮帶下山，兼顧身體照護與無痕山林"
+            ],
+            "commonErrorContrast": "常見錯誤：以為「橘子皮會腐爛」就可以隨手丟進山林草叢，或是穿滑溜拖鞋去蹶山。",
+            "selfExplanationPrompt": "想一想：走在山林步道時，除了用眼睛看，還可以用哪些感官體驗自然環境？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/hakka#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看「蹶山」和「當悿」的意思吧！",
+          "cognitiveChunks": [
+            "蹶山＝爬山、登山健行"
+          ],
+          "warmupCheck": {
+            "question": "第一課課名〈蹶山〉是客家話裡生動的戶外活動詞彙。請問客語說的「蹶山」相當於國語的什麼活動？",
+            "prompt": "第一課課名〈蹶山〉是客家話裡生動的戶外活動詞彙。請問客語說的「蹶山」相當於國語的什麼活動？",
+            "options": [
+              "爬山、登山健行",
+              "潛水看珊瑚",
+              "在室內打籃球"
+            ],
+            "answerIndex": 0,
+            "explanation": "客語的「蹶」有向上攀登的意思，「蹶山」就是爬山、登山健行！",
+            "feedbackCorrect": "答對了！「蹶山」就是爬山、登山健行！",
+            "feedbackRetry": "留意詞彙裡的「山」字，假日帶水壺穿球鞋走山路是什麼活動呢？"
+          },
+          "factGroundingSourceId": "115-s1/g4/hakka#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-hakka-u2",
+      "stageId": "115-s1-g4-hakka-u2",
+      "title": "第二單元 福菜味緒與菜園",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "福菜、桔醬與姐婆个菜園",
+          "narrationText": "「味緒」就是食物的滋味！客家人將芥菜日曬醃漬、塞進瓶甕「倒覆」熟成做成「福菜（覆菜）」，又把酸桔熬成去油解膩的「桔醬」，展現「姐婆（外婆）」菜園裡惜物與健康的飲食智慧！",
+          "cognitiveChunks": [
+            "味緒＝味道滋味；姐婆＝外婆（外祖母）",
+            "福菜（覆菜）：芥菜日曬揉鹽倒扣瓶甕熟成",
+            "客家桔醬：金桔去籽熬煮，沾肉菜去油解膩"
+          ],
+          "analogyAnchor": "客家福菜又叫「覆菜」，因為把半乾的酸菜塞進瓶甕「倒扣」起來發酵，既保留美味又祈求福氣！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "福菜與味覺詞彙",
+              "leftPoints": [
+                "味緒＝味道；當芳（好香）、當甜、當脆",
+                "芥菜曬鹽醃漬再倒覆瓶甕＝福菜（覆菜）"
+              ],
+              "rightTitle": "姐婆菜園與桔醬",
+              "rightPoints": [
+                "姐婆＝外婆；菜頭、番薯、白菜助消化",
+                "酸桔熬成桔醬，沾肉蔬去油解膩"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "福菜由芥菜倒覆熟成",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "姐婆就是外婆",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/hakka#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "拆解客家醃漬與飲食文化智慧",
+          "narrationText": "為什麼客家人要把芥菜做成福菜、把酸桔做成桔醬？這背後藏著什麼惜物精神？",
+          "cognitiveChunks": [
+            "芥菜盛產時醃漬保存，惜物愛物",
+            "酸桔不直接生吃，熬成桔醬增添風味"
+          ],
+          "workedExampleData": {
+            "problemStatement": "傳統客家「福菜（覆菜）」和「客家桔醬」分別是如何製作的？又表現出什麼生活智慧？",
+            "steps": [
+              "第 1 步：冬天盛產的芥菜經日曬揉鹽成酸菜，再曬乾塞入瓶甕「倒覆」密封熟成即為福菜",
+              "第 2 步：不適合生吃的酸桔去籽磨泥加鹽糖熬煮成「客家桔醬」，沾肉菜能去油解膩",
+              "第 3 步：兩者都展現了客庄珍惜食材、不浪費並延長食物美味的智慧"
+            ],
+            "commonErrorContrast": "常見錯誤：把「姐婆」記成姑姑或姊姊，或誤以為「味緒」是指衣服顏色。",
+            "selfExplanationPrompt": "想一想：吃到「姐婆」菜園裡種的菜頭、番薯和白菜時，我們應該抱持什麼心意？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/hakka#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看親屬稱謂「姐婆」是指哪一位長輩！",
+          "cognitiveChunks": [
+            "姐婆＝媽媽的媽媽（外婆）"
+          ],
+          "warmupCheck": {
+            "question": "第三課課名是〈姐婆个菜園〉，請問客語親屬稱謂「姐婆（tsiá-phò）」是指家裡的哪一位長輩？",
+            "prompt": "第三課課名是〈姐婆个菜園〉，請問客語親屬稱謂「姐婆（tsiá-phò）」是指家裡的哪一位長輩？",
+            "options": [
+              "媽媽的媽媽（外婆／外祖母）",
+              "爸爸的妹妹（姑姑）",
+              "哥哥的妻子（嫂嫂）"
+            ],
+            "answerIndex": 0,
+            "explanation": "在客語稱謂中，「阿公、阿婆」是爺爺奶奶，而「姐公、姐婆」則是外公外婆喔！",
+            "feedbackCorrect": "答對了！「姐婆」就是親切的外婆！",
+            "feedbackRetry": "在客語稱謂裡，爸爸的父母叫阿公阿婆，那「姐公、姐婆」是哪一邊的長輩呢？"
+          },
+          "factGroundingSourceId": "115-s1/g4/hakka#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-hakka-u3",
+      "stageId": "115-s1-g4-hakka-u3",
+      "title": "第三單元 雜貨店與資源再生",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "雜貨店禮貌與壞銅壞鐵變成寶",
+          "narrationText": "到〈阿源伯个雜貨店〉買醬油要說「恁早！」、「恁仔細（謝謝）！」；認識藥房與書店不同功能，還要把「壞銅壞鐵（舊物）」分類回收、巧思再生變成實用的寶貝！",
+          "cognitiveChunks": [
+            "恁早（早安）、恁仔細（謝謝）、對毋住（對不起）",
+            "藥房買藥、書店買文具、雜貨店買日用品",
+            "寶特瓶紙箱歸資源回收，果皮菜葉歸廚餘"
+          ],
+          "analogyAnchor": "「壞銅壞鐵變成寶」就像幫舊東西施展創意魔法：玻璃罐變筆筒、單面廢紙變草稿本，減少垃圾又環保！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "商店功能與購物禮儀",
+              "leftPoints": [
+                "藥房買藥、書店買文具、雜貨店買油鹽",
+                "問候「恁早」、道謝「恁仔細」、誠實找零"
+              ],
+              "rightTitle": "分類與壞銅壞鐵變寶",
+              "rightPoints": [
+                "寶特瓶與舊紙箱→資源回收；果皮→廚餘",
+                "空玻璃罐變筆筒、廢紙變草稿本"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "恁仔細就是謝謝",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "壞銅壞鐵再生變寶",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/hakka#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "垃圾分類與再生利用實作",
+          "narrationText": "整理家裡的廢棄物時，怎麼分類才正確？又能怎麼讓舊物重新變成寶呢？",
+          "cognitiveChunks": [
+            "減量、重複使用、回收（3R 原則）",
+            "洗淨寶特瓶與紙箱交給資源回收"
+          ],
+          "workedExampleData": {
+            "problemStatement": "家裡有「洗淨寶特瓶」、「舊報紙紙箱」、「果皮菜葉」與「空玻璃罐」，該怎麼分類與再生利用？",
+            "steps": [
+              "第 1 步：將喝完洗淨的寶特瓶、舊報紙與紙箱交給「資源回收」",
+              "第 2 步：把吃剩的果皮與菜葉歸入「廚餘」回收，製成堆肥再利用",
+              "第 3 步：發揮巧思把空玻璃罐彩繪成筆筒、單面廢紙裝訂成草稿本，實踐再生利用"
+            ],
+            "commonErrorContrast": "常見錯誤：把果皮與寶特瓶全部裝在同一袋丟一般垃圾，或把「壞銅壞鐵」當成新黃金。",
+            "selfExplanationPrompt": "想一想：像阿源伯一樣經營好社區雜貨店，最需要具備哪幾項工作態度與能力？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/hakka#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看「壞銅壞鐵」原本是指什麼東西！",
+          "cognitiveChunks": [
+            "壞銅壞鐵＝破舊銅器鐵片或廢棄舊物"
+          ],
+          "warmupCheck": {
+            "question": "第五課課名是〈壞銅壞鐵變成寶〉，請問客語裡所說的「壞銅壞鐵」原本指的是什麼東西？",
+            "prompt": "第五課課名是〈壞銅壞鐵變成寶〉，請問客語裡所說的「壞銅壞鐵」原本指的是什麼東西？",
+            "options": [
+              "破舊生鏽的銅器鐵片、廢棄金屬或舊物品",
+              "剛買回來的新亮手機與平板電腦",
+              "菜市場裡新鮮翠綠的高麗菜"
+            ],
+            "answerIndex": 0,
+            "explanation": "客語「壞（fai）」是壞掉、廢棄的意思，「壞銅壞鐵」泛指破銅爛鐵等舊物，透過分類與巧思就能變成寶！",
+            "feedbackCorrect": "答對了！破舊廢棄的器物只要好好分類再生就能變成寶！",
+            "feedbackRetry": "「壞」是指舊的、損壞的，「銅、鐵」是金屬，合起來指家裡哪些要整理的東西呢？"
+          },
+          "factGroundingSourceId": "115-s1/g4/hakka#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-hakka-u4",
+      "stageId": "115-s1-g4-hakka-u4",
+      "title": "第四單元 文化延伸與總複習",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "耕種人、伯公信仰與總複習",
+          "narrationText": "客家人親切稱呼土地公為「伯公」！像高雄「美濃開基伯公」就是無屋頂、不雕神像、僅立石碑的傳統「壇式」伯公壇，守護著〈耕種人〉；最後用「搞麼个？」與禮貌客語出任務吧！",
+          "cognitiveChunks": [
+            "客語尊稱土地公為「伯公」，守護耕種人",
+            "美濃開基伯公為半圓石砌壇式、無屋頂無神像",
+            "搞麼个？＝在做什麼；恁仔細＝謝謝"
+          ],
+          "analogyAnchor": "「伯公」就像家族裡最慈祥的伯祖父，坐在沒有屋頂的石砌伯公壇裡，吹著自然風守護著田頭田尾的耕種人！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "客家伯公信仰特色",
+              "leftPoints": [
+                "土地公稱為「伯公」，守護田園豐收",
+                "美濃開基伯公：半圓壇式無屋頂、立石碑"
+              ],
+              "rightTitle": "四上客語總複習",
+              "rightPoints": [
+                "搞麼个（做什麼）、恁仔細（謝謝）",
+                "有兜悿矣（有點累）、飲水歇一下仔"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "伯公壇無屋頂立石碑",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "搞麼个就是做什麼",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/hakka#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "美濃開基伯公特色與綜合對話",
+          "narrationText": "把文化知識與整學期的客語問候、道謝與休息對話串起來應用！",
+          "cognitiveChunks": [
+            "傳統伯公壇刻「福德正神香位」石碑",
+            "結合「恁仔細」、「飲水」、「歇一下仔」"
+          ],
+          "workedExampleData": {
+            "problemStatement": "「美濃開基伯公」有什麼建築特色？參加社區導覽結束時又該如何用客語向長輩與夥伴道謝相約？",
+            "steps": [
+              "第 1 步：美濃開基伯公採「壇式／化胎式」半圓石砌無屋頂設計，不雕神像僅立「福德正神香位」碑",
+              "第 2 步：向協助的長輩誠懇道謝說「恁仔細！」",
+              "第 3 步：邀夥伴休息時說「這下有兜悿矣，咱兜先飲水歇一下仔！」"
+            ],
+            "commonErrorContrast": "常見錯誤：以為所有伯公壇都有高大屋頂與雕像，或把「搞麼个」拿來當作道謝。",
+            "selfExplanationPrompt": "想一想：俗諺「田頭田尾土地公（伯公）」說明了伯公與農村耕種人之間什麼樣的關係？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/hakka#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看客語對「土地公」的親切稱呼吧！",
+          "cognitiveChunks": [
+            "客家人親切稱土地公為「伯公」"
+          ],
+          "warmupCheck": {
+            "question": "在臺灣客家語裡，客家人通常把守護農田與家園的「土地公」親切地稱作什麼？",
+            "prompt": "在臺灣客家語裡，客家人通常把守護農田與家園的「土地公」親切地稱作什麼？",
+            "options": [
+              "伯公（pak-kûng）",
+              "山神兄",
+              "海龍王"
+            ],
+            "answerIndex": 0,
+            "explanation": "客家人把土地公當成家裡受敬重的長輩（伯祖父）一樣親切尊稱為「伯公」！",
+            "feedbackCorrect": "答對了！客家人親切稱呼土地公為「伯公」！",
+            "feedbackRetry": "這個稱呼把土地公當成家族長輩，名字裡有個「伯」也有個「公」喔！"
+          },
+          "factGroundingSourceId": "115-s1/g4/hakka#u4"
+        }
+      ]
+    }
+  ]
+}

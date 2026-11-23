@@ -1,0 +1,427 @@
+{
+  "packId": "115-s1-g1-english",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 1,
+  "subjectId": "english",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-english-u1",
+      "stageId": "115-s1-g1-english-u1",
+      "title": "第1–5週：字母舞動會：我是社交小達人",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識字母 A、B、C 與打招呼",
+          "narrationText": "這單元我們認識英文字母 A、B、C，跟著歌曲《Dance》一起律動，並用 Hello! 和 I am... 跟同學打招呼。",
+          "cognitiveChunks": [
+            "字母順序：A、B、C",
+            "打招呼說 Hello!，再見說 Goodbye!",
+            "自我介紹說 I am ..."
+          ],
+          "analogyAnchor": "大寫字母像爸爸媽媽高高大大的，小寫字母像小朋友小小可愛的，兩個是一對好朋友。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "字母大小寫",
+              "leftPoints": [
+                "A 配 a、B 配 b",
+                "C 配 c，照順序排隊"
+              ],
+              "rightTitle": "社交打招呼",
+              "rightPoints": [
+                "Hello! 你好",
+                "I am... 我是…"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "A/a B/b C/c",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "Hello! 打招呼",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/english#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "配對大小寫與英文自我介紹",
+          "narrationText": "認識 A、B、C 時要注意小寫 b 的圓肚子在右邊；想跟新朋友介紹自己時，先說 Hello! 再說 I am...",
+          "cognitiveChunks": [
+            "小寫 b 的圓肚子在右邊",
+            "見面先說 Hello!，介紹名字用 I am"
+          ],
+          "workedExampleData": {
+            "problemStatement": "早上見到新同學，想用英文說「你好！我是小宇」，要怎麼說？",
+            "steps": [
+              "第 1 步：先親切打招呼說「Hello!」",
+              "第 2 步：接著說「I am ...」（我是……）",
+              "第 3 步：加上名字，合起來就是「Hello! I am 小宇.」"
+            ],
+            "commonErrorContrast": "常見錯誤：不小心把道別用的「Goodbye!」當成見面打招呼的話。",
+            "selfExplanationPrompt": "想一想：歌曲《Dance》裡的 dance 是什麼動作呢？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/english#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "跟著音樂《Dance》一起動一動",
+          "topicSignalTitle": "dance 和 Goodbye! 是什麼意思？",
+          "narrationText": "dance 是「跳舞」的意思，跟著節奏動動身體最開心；下課要跟同學道別時，記得揮揮手說 Goodbye!。",
+          "cognitiveChunks": [
+            "dance ＝ 跳舞",
+            "Goodbye! ＝ 再見"
+          ],
+          "factGroundingSourceId": "115-s1/g1/english#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "試試看這題字母配對，準備好就出發吧！",
+          "cognitiveChunks": [
+            "A, B, C 的順序與大小寫"
+          ],
+          "warmupCheck": {
+            "prompt": "按照字母順序「A, B, ___」，第三個大寫字母是誰？",
+            "options": [
+              "D",
+              "C",
+              "E"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！A, B, C，第三個字母就是 C！",
+            "feedbackRetry": "從頭唸一次字母歌：A, B, ..."
+          },
+          "factGroundingSourceId": "115-s1/g1/english#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-english-u2",
+      "stageId": "115-s1-g1-english-u2",
+      "title": "第6–10週：禮貌小劇場：友善社交實踐家",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識字母 D、E、F 與禮貌用語",
+          "narrationText": "這單元我們學字母 D、E、F，並在禮貌小劇場裡練習說 Please、Thank you! 和 I'm sorry.。",
+          "cognitiveChunks": [
+            "字母順序：D、E、F",
+            "請別人幫忙說 Please",
+            "謝謝說 Thank you!，道歉說 I'm sorry."
+          ],
+          "analogyAnchor": "小寫 b 和 d 就像照鏡子的雙胞胎，b 的肚子在右邊，d 的肚子在左邊。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "字母 D E F",
+              "leftPoints": [
+                "D 配 d（肚子在左邊）",
+                "E 配 e、F 配 f"
+              ],
+              "rightTitle": "禮貌三寶",
+              "rightPoints": [
+                "Please（請）",
+                "Thank you!（謝謝）／ I'm sorry.（對不起）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "D/d E/e F/f",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "有禮貌的小劇場",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/english#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分辨不同情境的禮貌英文",
+          "narrationText": "收到同學幫忙要說謝謝，不小心撞到人要說對不起，請別人幫忙時加上 Please。",
+          "cognitiveChunks": [
+            "道謝：Thank you!",
+            "回答不客氣：You're welcome."
+          ],
+          "workedExampleData": {
+            "problemStatement": "同學借你橡皮擦，你要說什麼？同學回答「不客氣」又怎麼說？",
+            "steps": [
+              "第 1 步：收到同學幫忙，有禮貌地說「Thank you!」（謝謝你！）",
+              "第 2 步：聽到別人道謝時，微笑回答「You're welcome.」（不客氣）",
+              "第 3 步：如果是不小心撞到同學，則要改說「I'm sorry.」（對不起）"
+            ],
+            "commonErrorContrast": "常見錯誤：把「Thank you!」和「I'm sorry.」搞混，借到東西卻說對不起。",
+            "selfExplanationPrompt": "想一想：大寫字母 D 的小寫 d，圓肚子在哪一邊呢？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/english#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "小心分清楚 b 和 d",
+          "topicSignalTitle": "小寫 b 和 d 長得很像怎麼分？",
+          "narrationText": "比出兩隻手的拳頭大拇指朝上：左手像 b，肚子在右邊；右手像 d，肚子在左邊，伸出小手比一比就不會錯！",
+          "cognitiveChunks": [
+            "b 肚子向右、d 肚子向左",
+            "F 的小寫 f 像彎彎小拐杖"
+          ],
+          "factGroundingSourceId": "115-s1/g1/english#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "選對有禮貌的英文句子就過關囉！",
+          "cognitiveChunks": [
+            "不小心撞到人要說 I'm sorry."
+          ],
+          "warmupCheck": {
+            "prompt": "走路不小心輕輕撞到同學時，要用哪一句英文說「對不起」？",
+            "options": [
+              "Thank you!",
+              "I'm sorry.",
+              "Please.",
+              "Hello!"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "好棒！不小心撞到別人時說「I'm sorry.」很有禮貌喔！",
+            "feedbackRetry": "想一想，哪一句裡面有 sorry 這個道歉的字呢？"
+          },
+          "factGroundingSourceId": "115-s1/g1/english#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-english-u3",
+      "stageId": "115-s1-g1-english-u3",
+      "title": "第11–15週：安全標誌設計師（安全教育含交通安全）",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識字母 G、H、I 與安全標誌",
+          "narrationText": "這單元我們認識字母 G、H、I，並學到交通與遊戲安全標誌上的重要單字 STOP（停）和 Go（走）。",
+          "cognitiveChunks": [
+            "字母順序：G、H、I",
+            "STOP ＝ 停下來",
+            "Go ＝ 走、前進"
+          ],
+          "analogyAnchor": "紅燈亮了像大大的 STOP 提醒我們停下腳步；綠燈亮了看清楚左右沒車，才能 Go 安全通過。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "看到紅燈 / STOP",
+                "停下來看左右來車",
+                "綠燈 Go 安全通過"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "STOP 停下來",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "Go 安全前進",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/english#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "設計看得懂的安全標誌",
+          "narrationText": "設計交通安全或遊戲安全標誌時，要用醒目的顏色和清楚的英文字，讓大家一眼就看懂。",
+          "cognitiveChunks": [
+            "G/g、H/h、I/i 大小寫配對",
+            "紅色配 STOP 提醒停下來"
+          ],
+          "workedExampleData": {
+            "problemStatement": "過馬路看到路牌上寫著「STOP」，是什麼意思？要怎麼做？",
+            "steps": [
+              "第 1 步：認出英文單字「STOP」是「停下來」的意思",
+              "第 2 步：馬上停下腳步，站在安全的地方",
+              "第 3 步：左右看看有沒有來車，確認安全再行動"
+            ],
+            "commonErrorContrast": "常見錯誤：把「STOP」看成「Go」，看到標誌還繼續往前衝。",
+            "selfExplanationPrompt": "想一想：小寫字母 i 頭上有一顆小圓點，它的大寫字母是誰？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/english#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "G、H、I 小寫長什麼樣子？",
+          "topicSignalTitle": "記住 g、h、i 的小特徵",
+          "narrationText": "g 的底下有彎彎小尾巴，h 的左邊有一條高高像椅背的線，i 的頭頂戴著一顆小圓點。",
+          "cognitiveChunks": [
+            "g 有小尾巴、h 有高椅背",
+            "i 頭頂有小圓點"
+          ],
+          "factGroundingSourceId": "115-s1/g1/english#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "來認認看這組字母順序！",
+          "cognitiveChunks": [
+            "A 到 I 的字母順序"
+          ],
+          "warmupCheck": {
+            "prompt": "接在「D, E, F」後面的三個大寫字母是哪一組？",
+            "options": [
+              "A, B, C",
+              "G, H, I",
+              "J, K, L"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！D, E, F 後面就是 G, H, I！",
+            "feedbackRetry": "從 A 開始唱一遍到 F，接下來三個字母是誰呢？"
+          },
+          "factGroundingSourceId": "115-s1/g1/english#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-english-u4",
+      "stageId": "115-s1-g1-english-u4",
+      "title": "第16–21週：探索大冒險：收納小管家（戶外教育）",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識字母 J、K、L、M 與收納單字",
+          "narrationText": "這單元認識字母 J、K、L、M，學說教室裡的書本 book、書包 bag、鉛筆 pencil，並共讀《Alphabet City》複習 A 到 M。",
+          "cognitiveChunks": [
+            "字母順序：J、K、L、M",
+            "book（書本）、bag（書包）、pencil（鉛筆）",
+            "複習這學期學過的 A 到 M"
+          ],
+          "analogyAnchor": "當個小小收納管家，把 book 收進 bag，pencil 放回鉛筆盒，教室桌面就乾淨整齊。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "字母 J K L M",
+              "leftPoints": [
+                "J/j（小雨傘鉤子）、K/k",
+                "L/l、M/m（兩個小拱門）"
+              ],
+              "rightTitle": "教室收納單字",
+              "rightPoints": [
+                "book（書本）、bag（書包）",
+                "pencil（鉛筆）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "JKLM 複習 A–M",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "book 和 bag",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/english#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "整理教室物品與複習 A 到 M",
+          "narrationText": "整理書包時可以一邊說出物品的英文單字，複習《Alphabet City》時則把 A 到 M 依序唸一遍。",
+          "cognitiveChunks": [
+            "J, K, L, M 排在 I 後面",
+            "book 是書本、bag 是書包"
+          ],
+          "workedExampleData": {
+            "problemStatement": "這學期我們一共學了哪些英文字母？「Z」有在裡面嗎？",
+            "steps": [
+              "第 1 步：第一單元學 A–C，第二單元學 D–F",
+              "第 2 步：第三單元學 G–I，第四單元學 J–M",
+              "第 3 步：這學期學到 M 為止，「Z」在 26 個字母最後面，還沒學到"
+            ],
+            "commonErrorContrast": "常見錯誤：以為這學期已經把 A 到 Z 全部 26 個字母都學完了。",
+            "selfExplanationPrompt": "想一想：小寫字母 m 有幾個彎彎的小拱門呢？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/english#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "m 和 n 怎麼分？",
+          "topicSignalTitle": "小寫 m 和 n 差在哪裡？",
+          "narrationText": "m 有「兩個」小拱門，n 只有「一個」小拱門；M/m 是這個單元最後一個字母好朋友喔！",
+          "cognitiveChunks": [
+            "m 有兩個拱門",
+            "j 頭上有小點像雨傘握把"
+          ],
+          "factGroundingSourceId": "115-s1/g1/english#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "答對這題，就可以出發尋寶去！",
+          "cognitiveChunks": [
+            "book 是書本"
+          ],
+          "warmupCheck": {
+            "prompt": "當「收納小管家」要把桌上的「書本」收整齊，「書本」的英文怎麼說？",
+            "options": [
+              "book",
+              "bag",
+              "pencil",
+              "stop"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！book 就是書本！",
+            "feedbackRetry": "想一想，開頭是 b、中間有兩個 oo 的那個單字喔！"
+          },
+          "factGroundingSourceId": "115-s1/g1/english#u4"
+        }
+      ]
+    }
+  ]
+}

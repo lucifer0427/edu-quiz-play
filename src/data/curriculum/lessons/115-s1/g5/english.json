@@ -1,0 +1,758 @@
+{
+  "packId": "115-s1-g5-english",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 5,
+  "subjectId": "english",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-english-u0",
+      "stageId": "115-s1-g5-english-u0",
+      "title": "開學預備週 & Starter",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u0-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "數字 60–100 與世界地圖暖身",
+          "narrationText": "五年級英語一開始先複習世界地圖大洲、自我介紹句型 Where are you from?，並學會聽辨與說出數字 60 到 100。",
+          "cognitiveChunks": [
+            "整十結尾是 -ty，十幾結尾是 -teen",
+            "85 寫作 eighty-five，中間加連字號",
+            "Taiwan 與 Japan 位於 Asia（亞洲）"
+          ],
+          "analogyAnchor": "把數字想成積木組合：先拿出整十積木（sixty, seventy, eighty, ninety），再接上個位數積木，就能拼出 60 到 99。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "十幾 (-teen)",
+              "leftPoints": [
+                "sixteen (16)",
+                "seventeen (17)"
+              ],
+              "rightTitle": "整十 (-ty)",
+              "rightPoints": [
+                "sixty (60)",
+                "seventy (70)"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "十幾字尾 -teen",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "整十字尾 -ty",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/english#u0"
+        },
+        {
+          "sceneId": "u0-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分辨長短母音與國籍問答",
+          "narrationText": "暖身週也要複習字母拼讀中的字尾不發音 e 規則，只要字尾有不發音的 e，前面的母音就會念長音。",
+          "cognitiveChunks": [
+            "a_e 讓 a 發長音（如 name）",
+            "i_e 讓 i 發長音（如 kite）",
+            "Where are you from? 配 I'm from..."
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何分辨 cat 和 name 中的字母 a 哪一個發長母音？",
+            "steps": [
+              "第 1 步：觀察字尾——cat 沒有字尾 e，a 發短母音",
+              "第 2 步：看 name——符合 a_e 結構，字尾 e 不發音",
+              "第 3 步：確認讀音——name 中的 a 發長母音 /e/"
+            ],
+            "commonErrorContrast": "常見錯誤：看到數字 seventy 卻誤聽成 seventeen，忘記聽清楚字尾是短促的 -ty 還是拉長的 -teen。",
+            "selfExplanationPrompt": "想一想：數字 100 的英文怎麼說？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/english#u0"
+        },
+        {
+          "sceneId": "u0-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "國際教育：認識五大洲",
+          "topicSignalTitle": "從 World Map 看見自己與世界",
+          "narrationText": "在 World Map 活動中，我們可以練習用英文說出 Asia（亞洲）、Europe（歐洲）、Africa（非洲）等大洲名稱，認識臺灣在世界上的位置。",
+          "cognitiveChunks": [
+            "Asia 亞洲、Europe 歐洲、Africa 非洲",
+            "用 I'm from Taiwan. 介紹家鄉"
+          ],
+          "factGroundingSourceId": "115-s1/g5/english#u0"
+        },
+        {
+          "sceneId": "u0-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認整十數字的拼字，再開始挑戰開學預備週！",
+          "cognitiveChunks": [
+            "整十字尾為 -ty"
+          ],
+          "warmupCheck": {
+            "prompt": "數字「70」的正確英文拼字是哪一個？",
+            "options": [
+              "seventeen",
+              "seventy",
+              "sixty",
+              "sixteen"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！seventy 是 70，seventeen 則是 17。",
+            "feedbackRetry": "注意整十結尾是 -ty，不是 -teen 喔！"
+          },
+          "factGroundingSourceId": "115-s1/g5/english#u0"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-english-u1",
+      "stageId": "115-s1-g5-english-u1",
+      "title": "Unit 1 What Day Is Today?",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "詢問星期幾與星期單字",
+          "narrationText": "Unit 1 學習用「What day is today?」詢問今天星期幾，並用「It's + 星期.」回答，記得星期一到星期日的開頭字母都要大寫。",
+          "cognitiveChunks": [
+            "What day is today? 問今天星期幾",
+            "星期單字字首永遠大寫",
+            "區分 Tuesday（二）與 Thursday（四）"
+          ],
+          "analogyAnchor": "星期二的 Tuesday 有 u（二），星期四的 Thursday 有 h（四），記住字母差別就不會把兩天搞混。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "容易混淆的星期",
+              "leftPoints": [
+                "Tuesday (星期二, Tu-)",
+                "Thursday (星期四, Th-)"
+              ],
+              "rightTitle": "問答核心句型",
+              "rightPoints": [
+                "What day is today?",
+                "It's Wednesday."
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "Tu週二 / Th週四",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "星期問答句型",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/english#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "長母音 A 拼讀規則：a_e, ai, ay",
+          "narrationText": "每個星期單字都以 -day 結尾，其中的 ay 正是長母音 A 的拼讀組合，和 a_e、ai 發出相同的長音。",
+          "cognitiveChunks": [
+            "a_e（cake, make）發長音 A",
+            "ai（rain, train）通常在字中",
+            "ay（day, play, say）通常在字尾"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何從 cake, rain, play, bag 四個字中找出不屬於長母音 A 的單字？",
+            "steps": [
+              "第 1 步：檢查拼讀規則——cake (a_e)、rain (ai)、play (ay) 都符合長母音 A 規則",
+              "第 2 步：唸出四個字——cake, rain, play 都有長音 /e/",
+              "第 3 步：找出不同項——bag 沒有不發音的 e 也沒有 ai/ay，發短母音"
+            ],
+            "commonErrorContrast": "常見錯誤：看到問句「What ___ is today?」時誤填 time，忘了問星期幾要用 day。",
+            "selfExplanationPrompt": "想一想：Wednesday 中間哪一個字母是不發音的？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/english#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "一週七天的順序記憶",
+          "topicSignalTitle": "Monday 到 Sunday 的順序與拼寫",
+          "narrationText": "依序朗讀 Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday，搭配行事曆推算「明天（tomorrow）」是星期幾。",
+          "cognitiveChunks": [
+            "Friday 隔天是 Saturday",
+            "週六 Saturday、週日 Sunday"
+          ],
+          "factGroundingSourceId": "115-s1/g5/english#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認 Tuesday 和 Thursday 的差別，再進入 Unit 1 挑戰！",
+          "cognitiveChunks": [
+            "Thursday 開頭是 Th-"
+          ],
+          "warmupCheck": {
+            "prompt": "下列哪一個單字指的是「星期四」？",
+            "options": [
+              "Tuesday",
+              "Thursday",
+              "Wednesday",
+              "Saturday"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！Thursday 是星期四，Tuesday 是星期二。",
+            "feedbackRetry": "再看一次開頭字母：星期四是 Th- 開頭的 Thursday 喔！"
+          },
+          "factGroundingSourceId": "115-s1/g5/english#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-english-u2",
+      "stageId": "115-s1-g5-english-u2",
+      "title": "Unit 2 Do You Have PE Class on Monday?",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "科目名稱與課表問答",
+          "narrationText": "Unit 2 結合了 Unit 1 的星期與學校科目（Chinese, English, math, science, social studies, PE, art, music），學會用「Do you have ... on ...?」詢問課表。",
+          "cognitiveChunks": [
+            "星期幾前面固定搭配介系詞 on",
+            "Do you ...? 用 Yes, I do. / No, I don't. 回答",
+            "PE 是體育課，social studies 是社會課"
+          ],
+          "analogyAnchor": "介系詞 on 就像把課表卡片「貼在」星期的格子上，所以星期幾前面都要用 on（如 on Monday）。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "常見科目單字",
+              "leftPoints": [
+                "PE (體育) / art (美術)",
+                "math (數學) / science (自然)"
+              ],
+              "rightTitle": "課表問答文法",
+              "rightPoints": [
+                "on + 星期 (on Friday)",
+                "Yes, I do. / No, I don't."
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "科目名稱",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "on配星期/do簡答",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/english#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "長母音 E 拼讀規則：e_e, ee, ea",
+          "narrationText": "Unit 2 的 Phonics 重點是長母音 E，包含 e_e（these）、ee（tree, green, sheep）與 ea（read, beach）三種常見組合。",
+          "cognitiveChunks": [
+            "e_e 組合（these, Pete）發長音 E",
+            "ee 與 ea 常發長音 /i/",
+            "區分短母音 e（bed, desk, ten）"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何判斷「Do you have math class on Tuesday?」的正確否定簡答？",
+            "steps": [
+              "第 1 步：看問句開頭助動詞——開頭是「Do you...」",
+              "第 2 步：確定答句主詞與助動詞——回答要對應 I 與 do",
+              "第 3 步：寫出否定簡答——「No, I don't.」"
+            ],
+            "commonErrorContrast": "常見錯誤：看到問句後誤答成「No, I am not.」或「No, it isn't.」，忘記 Do 問句必須用 do/don't 回答。",
+            "selfExplanationPrompt": "想一想：如果星期五有美術課，I have art class ___ Friday. 空格要填哪個介系詞？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/english#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "科目英文縮寫與拼法",
+          "topicSignalTitle": "PE 全寫大寫，語言科目首字母大寫",
+          "narrationText": "PE 是 Physical Education 的縮寫，兩個字母都要大寫；而 Chinese、English 屬於語言與國名相關科目，字首也要大寫喔！",
+          "cognitiveChunks": [
+            "PE 兩字皆大寫",
+            "Chinese, English 首字母大寫"
+          ],
+          "factGroundingSourceId": "115-s1/g5/english#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認星期前面的介系詞與科目意義，再進入關卡！",
+          "cognitiveChunks": [
+            "星期前用 on"
+          ],
+          "warmupCheck": {
+            "prompt": "「I have art class ___ Friday.」空格裡應該填入哪一個介系詞？",
+            "options": [
+              "in",
+              "at",
+              "on",
+              "under"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "完全正確！星期幾前面固定使用介系詞 on。",
+            "feedbackRetry": "回想一下課表小口訣：把課表「貼在」星期幾上，要用 on 喔！"
+          },
+          "factGroundingSourceId": "115-s1/g5/english#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-english-u3",
+      "stageId": "115-s1-g5-english-u3",
+      "title": "Review 1",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "期中統整：星期、課表與數字",
+          "narrationText": "Review 1 整合前兩單元所學，讓我們在情境對話與課表閱讀中，熟練星期、科目、數字 60–100 與長母音 I 拼讀。",
+          "cognitiveChunks": [
+            "Do 後面必須接原形動詞 have",
+            "依課表圖表核對星期與科目",
+            "長母音 I 規則：i_e, ie, 字尾 y"
+          ],
+          "analogyAnchor": "期中複習就像整理書包：把星期、科目、數字與拼讀四本筆記本放進正確夾層，對話時就能馬上抽出來用。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "確認問句是問星期還是問科目",
+                "檢查主詞與助動詞 Do + 原形動詞",
+                "唸出長母音 I (i_e, ie, y)"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "辨別問句類型",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "Do + 原形動詞",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l3",
+                "text": "長母音 I 拼讀",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/english#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "抓出常見文法錯誤與長母音 I",
+          "narrationText": "在期中複習中，最常出現的文法陷阱就是「Do you has...」，記住只要有 Do 幫忙，後面的動詞就要保持原形 have。",
+          "cognitiveChunks": [
+            "Do you have... 不可寫成 has",
+            "bike (i_e), pie (ie), fly (y) 同音"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何檢查「Do you has PE class on Monday?」哪裡錯了？",
+            "steps": [
+              "第 1 步：圈出助動詞——句首是助動詞 Do",
+              "第 2 步：檢查後面動詞——助動詞後要接原形動詞",
+              "第 3 步：改正句子——把 has 改回原形 have"
+            ],
+            "commonErrorContrast": "常見錯誤：混淆數字 90（ninety）與 19（nineteen），或把 science（自然）誤記成數學。",
+            "selfExplanationPrompt": "想一想：my, cry, sky 的字尾 y 和哪一個單字的母音一樣發 /aɪ/？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/english#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "閱讀素養：看懂英文課表短文",
+          "topicSignalTitle": "先圈星期，再找對應科目",
+          "narrationText": "讀課表短文時，先把出現的星期單字圈起來，再對照後面的科目名稱，就能準確回答哪一天要帶什麼學用品。",
+          "cognitiveChunks": [
+            "先圈出星期再核對科目",
+            "區分 60 (sixty) 到 100 (one hundred)"
+          ],
+          "factGroundingSourceId": "115-s1/g5/english#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題測試長母音 I 的拼讀組合，準備迎戰 Review 1！",
+          "cognitiveChunks": [
+            "i_e, ie, y 發長母音 I"
+          ],
+          "warmupCheck": {
+            "prompt": "下面哪一組單字全部都發長母音 I（/aɪ/）？",
+            "options": [
+              "pig / sit / six",
+              "bike / pie / fly",
+              "tree / tea / bee",
+              "cake / rain / day"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "太棒了！bike (i_e)、pie (ie)、fly (y) 都發長母音 I！",
+            "feedbackRetry": "念念看選項，找出母音聽起來像字母 I 讀音的那一組！"
+          },
+          "factGroundingSourceId": "115-s1/g5/english#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-english-u4",
+      "stageId": "115-s1-g5-english-u4",
+      "title": "Unit 3 Where Are You Going?",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "社區場所與去向問答",
+          "narrationText": "Unit 3 帶我們認識社區裡的場所，如 library（圖書館）、supermarket（超市）、post office（郵局）、hospital（醫院）、bookstore（書店）與 park（公園）。",
+          "cognitiveChunks": [
+            "Where are you going? 問正要去哪裡",
+            "I'm going to the + 場所",
+            "注意主詞搭配的 be 動詞 (is / are / am)"
+          ],
+          "analogyAnchor": "問去向的句型就像設定導航目的地：Where is/are + 人 + going? 先選對人稱的 be 動詞，再把目的地接在 going to the 後面。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "社區場所功能",
+              "leftPoints": [
+                "post office 寄信 / hospital 看病",
+                "supermarket 買菜 / library 借書"
+              ],
+              "rightTitle": "去向問答搭配",
+              "rightPoints": [
+                "Where are you going? -> I'm...",
+                "Where is Tom going? -> He's..."
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "認識社區場所",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "主詞配 be 動詞",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/english#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "主詞與 be 動詞搭配及長母音 O",
+          "narrationText": "詢問別人要去哪裡時，要看主詞決定用 is 還是 are；同時練習 o_e（home）、oa（boat, coat）、ow（snow, window）的長母音 O 拼讀。",
+          "cognitiveChunks": [
+            "Tom / he / she 搭配 is",
+            "you / they 搭配 are",
+            "o_e, oa, ow 常發長母音 O"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何完成問句「Where ___ Tom going? — He's going to the park.」？",
+            "steps": [
+              "第 1 步：看問句主詞——主詞是 Tom（第三人稱單數）",
+              "第 2 步：對照答句線索——答句寫 He's（He is）",
+              "第 3 步：填入 be 動詞——選擇 is"
+            ],
+            "commonErrorContrast": "常見錯誤：死背 Where are you going? 結果看到主詞是 Tom 或 Amy 時也誤填成 are。",
+            "selfExplanationPrompt": "想一想：coat, road, window 和 frog 四個字中，哪一個不是長母音 O？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/english#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "生活場所情境配對",
+          "topicSignalTitle": "區分 bookstore 與 library 的不同",
+          "narrationText": "bookstore 是付錢買書的「書店」，library 則是免費借書與閱讀的「圖書館」，讀題目時要看清楚是要買書（buy）還是借書或讀書喔！",
+          "cognitiveChunks": [
+            "bookstore 買書 / library 借書",
+            "post office 郵局 / bank 銀行"
+          ],
+          "factGroundingSourceId": "115-s1/g5/english#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認長母音 O 的三種拼讀規則，再開始挑戰 Unit 3！",
+          "cognitiveChunks": [
+            "o_e, oa, ow 發長母音 O"
+          ],
+          "warmupCheck": {
+            "prompt": "下面哪一組單字全都發長母音 O（/o/）？",
+            "options": [
+              "hot / box / dog",
+              "home / boat / snow",
+              "bike / kite / tie",
+              "day / train / cake"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！home (o_e)、boat (oa)、snow (ow) 都發長母音 O！",
+            "feedbackRetry": "找出包含 o_e、oa、ow 拼讀組合的那一組單字喔！"
+          },
+          "factGroundingSourceId": "115-s1/g5/english#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-english-u5",
+      "stageId": "115-s1-g5-english-u5",
+      "title": "Unit 4 How Many Koalas Are There? & Festival Christmas",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "動物數量問答與耶誕節",
+          "narrationText": "Unit 4 學會用「How many + 複數名詞 + are there?」詢問動物數量，並搭配耶誕節（Christmas）認識節慶詞彙與長母音 U（u_e, ue, ui）。",
+          "cognitiveChunks": [
+            "How many 後面一定要接複數名詞",
+            "只有 1 隻用 There is；2 隻以上用 There are",
+            "耶誕祝福語 Merry Christmas!"
+          ],
+          "analogyAnchor": "數量就像天平兩端：單數 1 隻走 There is 這條路，複數 2 隻以上走 There are 並讓名詞加上 s 這條路。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "單數 (1 隻)",
+              "leftPoints": [
+                "There is only one lion.",
+                "名詞不加 s"
+              ],
+              "rightTitle": "複數 (2 隻以上)",
+              "rightPoints": [
+                "There are fifteen zebras.",
+                "名詞記得加 s"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "單數There is",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "複數There are",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/english#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "There is / There are 判斷與長母音 U",
+          "narrationText": "回答「How many ... are there?」時，要先看動物有幾隻再選 is 或 are，同時也要注意 15（fifteen）和 50（fifty）的差別。",
+          "cognitiveChunks": [
+            "問句固定用 How many + 複數 + are there?",
+            "答句依實際數量選 There is 或 There are",
+            "u_e (cute), ue (blue), ui (juice) 發長音 U"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何正確回答「How many zebras are there?」（草原上有 15 隻斑馬）",
+            "steps": [
+              "第 1 步：判斷數量單複數——15 隻大於 1，為複數",
+              "第 2 步：選擇句型開頭——複數使用「There are」",
+              "第 3 步：拼出數字與複數名詞——「There are fifteen zebras.」"
+            ],
+            "commonErrorContrast": "常見錯誤：看見問句裡有 are there，結果只有 1 隻時也誤寫成 There are one lion，或忘記幫複數動物加上 s。",
+            "selfExplanationPrompt": "想一想：在床邊掛上等待聖誕老人放禮物的物品，英文叫做什麼？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/english#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "節慶文化：Festival Christmas",
+          "topicSignalTitle": "耶誕節祝福與習俗詞彙",
+          "narrationText": "每年 12 月 25 日是耶誕節（Christmas），常見習俗有掛上耶誕襪（stocking）、裝飾耶誕樹與互道「Merry Christmas!」。",
+          "cognitiveChunks": [
+            "Merry Christmas! 祝賀耶誕快樂",
+            "stocking 是耶誕襪"
+          ],
+          "factGroundingSourceId": "115-s1/g5/english#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認單數句型的正確用法，再進入 Unit 4 挑戰！",
+          "cognitiveChunks": [
+            "單數 one lion 搭配 There is"
+          ],
+          "warmupCheck": {
+            "prompt": "「How many lions are there? — There ___ only one lion.」空格該填什麼？",
+            "options": [
+              "are",
+              "is",
+              "am",
+              "do"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！因為只有 one lion（單數），所以要用 There is！",
+            "feedbackRetry": "注意後面是「only one lion（只有一隻獅子）」，單數要用哪一個 be 動詞呢？"
+          },
+          "factGroundingSourceId": "115-s1/g5/english#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-english-u6",
+      "stageId": "115-s1-g5-english-u6",
+      "title": "Review 2 & 文化教學",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "期末統整與多元文化素養",
+          "narrationText": "Review 2 串聯 Unit 3 的場所問答與 Unit 4 的動物數量問答，並透過 Let's Explore & Country Profile 學習尊重世界各地的文化與習俗。",
+          "cognitiveChunks": [
+            "依對話上下文連接場所與數量問答",
+            "尊重並欣賞不同國家文化與習俗",
+            "統整五大長母音 Phonics 家族"
+          ],
+          "analogyAnchor": "五上全部五個長母音家族就像五把鑰匙，只要認出 a_e/ai/ay、e_e/ee/ea、i_e/ie/y、o_e/oa/ow、u_e/ue/ui，就能打開各種新單字的讀音。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "先看對話問「去哪裡」還是「有幾個」",
+                "核對數字拼字與名詞單複數",
+                "依長母音家族規則拼讀單字"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "場所與數量對話",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "數字與單複數",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l3",
+                "text": "五大長母音統整",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/english#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "期末文法總體檢",
+          "narrationText": "作答綜合文法題時，可以一次檢查四個關鍵：主詞配 be 動詞、How many 後接複數名詞、星期前用 on、Do 問句用 do 回答。",
+          "cognitiveChunks": [
+            "Where are you going?（you 配 are）",
+            "How many tigers are there?",
+            "fruit / juice 屬於 ui 長母音 U"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何找出「How many tiger are there? — There is five tigers.」中的兩處錯誤？",
+            "steps": [
+              "第 1 步：檢查問句名詞——How many 後面要接複數 tigers，不能寫 tiger",
+              "第 2 步：檢查答句數量——數量是 five（5 隻），屬於複數",
+              "第 3 步：修正 be 動詞——把 There is 改為 There are"
+            ],
+            "commonErrorContrast": "常見錯誤：做閱讀算術題時只看到第一個數字 60 就直接選 sixty，忘了把後面的 20 加起來。",
+            "selfExplanationPrompt": "想一想：認識外國不同的飲食、語言與節慶時，我們應該抱持什麼態度？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/english#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "國際視野：Let's Explore",
+          "topicSignalTitle": "從多元文化觀點理解與尊重差異",
+          "narrationText": "每個國家都有獨特的風土民情與生活習慣，透過英文認識世界各國資料時，我們要保持好奇、包容與尊重的態度。",
+          "cognitiveChunks": [
+            "理解並尊重不同文化與習俗",
+            "五大長母音 A/E/I/O/U 家族總複習"
+          ],
+          "factGroundingSourceId": "115-s1/g5/english#u6"
+        },
+        {
+          "sceneId": "u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認長母音家族配對，再完成五上英語的期末挑戰！",
+          "cognitiveChunks": [
+            "ai 與 ay 同屬長母音 A 家族"
+          ],
+          "warmupCheck": {
+            "prompt": "下列哪一組單字兩個都屬於「長母音 A」家族？",
+            "options": [
+              "play / train",
+              "cake / snow",
+              "tree / bike",
+              "boat / glue"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "太棒了！play (ay) 和 train (ai) 都屬於長母音 A 家族！",
+            "feedbackRetry": "找一找同時包含 ay 與 ai 這兩組長母音 A 規則的選項！"
+          },
+          "factGroundingSourceId": "115-s1/g5/english#u6"
+        }
+      ]
+    }
+  ]
+}

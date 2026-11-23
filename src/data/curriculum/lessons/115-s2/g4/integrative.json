@@ -1,0 +1,528 @@
+{
+  "packId": "115-s2-g4-integrative",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 4,
+  "subjectId": "integrative",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-integrative-u1",
+      "stageId": "115-s2-g4-integrative-u1",
+      "title": "一、溝通學問大",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "合宜溝通態度、誠意道歉與同理傾聽",
+          "narrationText": "溫和友善的語氣能拉近人際距離，打岔或翻白眼則會破壞溝通；遇到不同意見要傾聽折衷或表決；犯錯時誠懇認錯、不找藉口並站在對方立場思考，友誼就能修復。",
+          "cognitiveChunks": [
+            "友善語氣＋眼神專心傾聽不插嘴",
+            "意見不同時傾聽理由、折衷或公平表決",
+            "誠意道歉四要：正視、認錯、不推託、補救"
+          ],
+          "analogyAnchor": "溝通就像兩個人互相傳接球：用溫和清楚的語氣好好丟球、眼神專注接球不打斷，不小心丟偏了也誠懇道歉撿回，友誼的比賽才玩得開心。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "有效溝通訣竅",
+              "leftPoints": [
+                "溫和清楚表達，不命令嘲諷",
+                "眼神專心傾聽、不打斷不翻白眼"
+              ],
+              "rightTitle": "誠意道歉與接納",
+              "rightPoints": [
+                "站在對方立場想，承認錯誤不推託",
+                "即使非故意也要道歉並主動補救"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "溫和表達專心傾聽",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "誠懇認錯同理補救",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/integrative#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "處理意見不合與練習有誠意的道歉",
+          "narrationText": "不管是海報主題談不攏，還是不小心弄濕了同學的習作本，只要照著合宜溝通與誠意道歉的步驟做，都能化解衝突。",
+          "cognitiveChunks": [
+            "結合雙方創意折衷或公平表決",
+            "被道歉時專心聆聽並給改過機會"
+          ],
+          "workedExampleData": {
+            "problemStatement": "不小心打翻水壺弄濕同學的習作本，或是小組討論海報主題意見不同僵持不下，該怎麼辦？",
+            "steps": [
+              "第 1 步：弄濕習作時立刻停下手邊動作看著同學誠懇說對不起，不找藉口（就算不是故意也要負責）並拿衛生紙擦拭補救",
+              "第 2 步：意見不同時專心聽雙方理由，試著折衷融合創意或公平投票表決",
+              "第 3 步：當別人真誠道歉時，專心聆聽並溫和說出感受，給對方改過的機會"
+            ],
+            "commonErrorContrast": "常見錯誤：說「對不起啦誰叫你要放那裡」、話沒聽完就插嘴翻白眼，或拿小失誤嘲笑對方一整年。",
+            "selfExplanationPrompt": "想一想：為什麼「站在對方立場思考（同理心）」能讓道歉真正觸動對方的心並修復友誼？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/integrative#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "做個讓朋友安心的傾聽者",
+          "topicSignalTitle": "當同學跟你分享煩惱時，怎麼聽才禮貌？",
+          "narrationText": "面向對方並保持眼神交流、不邊聽邊滑平板或整理抽屜、不隨意打斷搶話，適時點頭回應表示有聽懂，就是最好的傾聽。",
+          "cognitiveChunks": [
+            "面向對方眼神交流不插嘴",
+            "點頭回應讓對方感受尊重"
+          ],
+          "factGroundingSourceId": "115-s2/g4/integrative#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "測測看你分不分得出哪一種道歉才真正有誠意！",
+          "cognitiveChunks": [
+            "誠意道歉不找藉口並主動補救"
+          ],
+          "warmupCheck": {
+            "prompt": "不小心打翻水壺弄濕了同桌同學的習作本，怎樣道歉才真正有誠意？",
+            "options": [
+              "撇過頭喊「反正是你放太近，算我對不起行了吧！」",
+              "裝作沒發生趕快把椅子移開",
+              "真心看著同學誠懇說對不起、承認自己沒注意、不找藉口並幫忙擦拭補救",
+              "叫對方先謝謝你提醒他收好東西才道歉"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！正視對方、承認過失、不推卸責任並採取補救行動，才是有誠意的道歉。",
+            "feedbackRetry": "找藉口推託或裝作沒看到都不能修復關係喔！誠懇的道歉要怎麼做？"
+          },
+          "factGroundingSourceId": "115-s2/g4/integrative#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-integrative-u2",
+      "stageId": "115-s2-g4-integrative-u2",
+      "title": "二、創意生活家",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "觀察困擾與問題解決四步驟",
+          "narrationText": "生活創意源自敏銳觀察日常小困擾！依照「發現釐清問題→發想並比較策略→動手實作→省思改良」四步驟，就能用回收材料做出實用又環保的好幫手，並學會給同學正向回饋。",
+          "cognitiveChunks": [
+            "先觀察日常不便，多想幾種創意方案比較",
+            "步驟：發現問題→擬定策略→實作→省思改良",
+            "廢物利用兼顧收納與環保，具體讚美同學"
+          ],
+          "analogyAnchor": "創意生活家就像生活小發明家：遇到書擋容易倒下時不生氣放棄，而是把失敗當成線索，幫它加上三角支撐或配重再試一次。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "觀察發現生活困擾原因",
+                "發想多種策略並畫圖準備",
+                "動手實作解決問題小物",
+                "測試省思改良與正向回饋"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "發想策略畫草圖",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "實作省思與改良",
+                "anchorPointId": "step4"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/integrative#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "解決實作卡關與給予正向回饋",
+          "narrationText": "做完創意小物測試時發現不夠穩固，或是聽同學上台發表作品時，該怎麼改良並給予最有建設性的鼓勵呢？",
+          "cognitiveChunks": [
+            "實作前畫草圖盤點工具保安全",
+            "回饋先肯定具體巧思再提善意建議"
+          ],
+          "workedExampleData": {
+            "problemStatement": "用回收厚紙板做的書擋太輕容易歪倒，且同學用牛奶盒做了桌面垃圾分類盒，該如何改良並給同學回饋？",
+            "steps": [
+              "第 1 步：把失敗當線索，在書擋底部加上三角支撐結構或增加配重（如裝沙的密封寶特瓶）再測試",
+              "第 2 步：實作前先畫草圖確認尺寸與刀具使用安全，減少材料浪費",
+              "第 3 步：對同學作品給予具體正向回饋：「你用牛奶盒好沖洗又環保！外層貼防水膠帶會更耐用喔！」"
+            ],
+            "commonErrorContrast": "常見錯誤：書擋倒了就撕碎踩扁、未經觀察就買最貴機器、不經省思就收工，或批評同學作品「醜死了」。",
+            "selfExplanationPrompt": "想一想：用家裡喝完的乾淨寶特瓶和舊鞋盒改造成筆筒與分類盒，兼顧了哪兩項好處？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/integrative#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "為什麼「省思」步驟不能少？",
+          "topicSignalTitle": "動手做完創意小物後，為什麼還要省思？",
+          "narrationText": "透過實際試用並回顧優缺點，能看清原本策略哪裡有效、哪裡還卡卡的，把失敗經驗變成下次改良得更順手的關鍵線索。",
+          "cognitiveChunks": [
+            "測試檢視哪裡好用、哪裡卡住",
+            "做中學、學中思讓點子越改越好"
+          ],
+          "factGroundingSourceId": "115-s2/g4/integrative#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "排排看問題解決的正確流程順序！",
+          "cognitiveChunks": [
+            "問題解決四步驟順序"
+          ],
+          "warmupCheck": {
+            "prompt": "按部就班運用「問題解決步驟」來解決生活困擾時，下列哪一個流程順序最合乎邏輯？",
+            "options": [
+              "先隨便剪完材料 → 問別人要解決什麼 → 丟掉成品",
+              "發現與釐清問題 → 發想策略評估選擇 → 動手實作 → 省思改良",
+              "只要做省思就好，不必實作也不必觀察",
+              "發現問題就宣布放棄 → 改抄同學的成品"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！先觀察釐清問題、再擬策略、動手實作並省思改良，條理分明最有效率。",
+            "feedbackRetry": "做事前要先看懂問題在哪裡，想好辦法再動手，最後回頭檢查改良喔！"
+          },
+          "factGroundingSourceId": "115-s2/g4/integrative#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-integrative-u3",
+      "stageId": "115-s2-g4-integrative-u3",
+      "title": "三、快樂小志工",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "覺察受助需求、不求回報與校園服務",
+          "narrationText": "從曾經受人幫助的經驗出發，覺察他人的真實需要；協助他人前先禮貌詢問尊重意願，建立助人不求回報的觀念，並做好校園志工的事前分工與應變準備。",
+          "cognitiveChunks": [
+            "助人前先禮貌詢問是否需要與如何幫忙",
+            "助人不求回報：看見他人開心就感到滿足",
+            "事前明確分工、遇突發狀況冷靜找替代法"
+          ],
+          "analogyAnchor": "快樂小志工就像在社區播下溫暖種子的人：不急著問有沒有禮物拿，而是先問對方需要什麼幫忙，準備周全再去服務，自己心裡也會開出快樂的花。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "同理覺察受助者需求",
+                "事前分工認識規則檢查用具",
+                "禮貌詢問安全服務不求回報",
+                "服務後團隊檢討延續助人"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "同理需求事前分工",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "禮貌服務與反思",
+                "anchorPointId": "step4"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/integrative#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "志工事前準備與現場突發狀況應變",
+          "narrationText": "去圖書室或走廊當校園小志工時，如果沒事先分工就容易手忙腳亂；萬一水桶破了等突發狀況發生，也要懂得冷靜解決。",
+          "cognitiveChunks": [
+            "認識書架分類規則並分配好職務",
+            "工具壞掉商量替代方法或向師長報告"
+          ],
+          "workedExampleData": {
+            "problemStatement": "擔任圖書室或校園整潔小志工，出勤前要準備什麼？服務中突然發現水桶破洞不能裝水怎麼辦？",
+            "steps": [
+              "第 1 步：出勤前明確分配整書、引導或清潔職務，了解規則、時間與檢查用具",
+              "第 2 步：服務中水桶破洞時冷靜商量共用好水桶或先做不需用水的工作，必要時向指導師長報告協調",
+              "第 3 步：服務結束後全組討論優點與可改進處，並把助人精神延續到家庭日常生活"
+            ],
+            "commonErrorContrast": "常見錯誤：沒問過對方就一把搶走物品幫忙、為了貼紙餅乾才當志工、水桶破了就藏進草叢溜走，或只挑輕鬆拍照的職務。",
+            "selfExplanationPrompt": "想一想：看到拿拐杖的同學慢慢走上樓梯時，怎麼開口詢問與協助最尊重對方？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/integrative#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "助人不求回報的內在快樂",
+          "topicSignalTitle": "什麼才是真正「助人不求回報」的心態？",
+          "narrationText": "不為了榮譽貼紙、餅乾或上台表揚才幫忙，也不四處炫耀，而是看見環境變整潔、學弟妹露出笑容時，打從心裡感到充實快樂。",
+          "cognitiveChunks": [
+            "不計較禮物獎狀與炫耀",
+            "看見他人受益就感到充實快樂"
+          ],
+          "factGroundingSourceId": "115-s2/g4/integrative#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "檢查看看你在幫忙他人時有沒有注意到禮貌與界線！",
+          "cognitiveChunks": [
+            "協助前先禮貌詢問對方意願"
+          ],
+          "warmupCheck": {
+            "prompt": "協助低年級學弟妹或行動不便的同學時，下列哪一項做法最恰當且有禮貌？",
+            "options": [
+              "不打招呼直接衝過去把對方手上的東西搶走",
+              "先微笑禮貌詢問是否需要協助與希望怎麼幫忙，尊重意願並注意安全",
+              "幫完忙後規定對方要叫自己十聲大哥哥",
+              "嫌對方走太慢一直大聲催促"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！先微笑詢問對方需求與意願、配合節奏注意安全，才是最溫暖貼心的服務。",
+            "feedbackRetry": "就算好心想幫忙，突然搶走別人東西會讓人嚇一跳喔！服務前應該先做什麼？"
+          },
+          "factGroundingSourceId": "115-s2/g4/integrative#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-integrative-u4",
+      "stageId": "115-s2-g4-integrative-u4",
+      "title": "四、地球守衛隊",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "察覺環境破壞與規畫個人環保行動",
+          "narrationText": "觀察河川塑膠油污、空氣霧濛濛與亂倒垃圾等環境破壞問題，體會它對人類與海洋生物的傷害；進而從源頭減塑節能開始，規畫具體可行的改善行動並分享激勵大家。",
+          "cognitiveChunks": [
+            "塑膠垃圾流入海洋易被海龜海鳥誤食纏繞",
+            "源頭減量：自備水壺購物袋、分類與關燈",
+            "計畫須具體可行、天天落實並與人分享"
+          ],
+          "analogyAnchor": "地球守衛隊不是靠超能力拯救世界，而是靠每天帶環保水壺購物袋、把計算紙兩面用完、隨手關燈並帶動家人一起做的小小行動。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "環境問題與影響",
+              "leftPoints": [
+                "河川塑膠油污、廢氣與山坡垃圾",
+                "海龜誤食塑膠、傷害健康與生態"
+              ],
+              "rightTitle": "可行改善行動",
+              "rightPoints": [
+                "自備水壺環保袋、重複用計算紙",
+                "貼關燈小提醒、邀大人安全淨園"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "塑膠廢氣傷害生態",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "減塑節能具體實踐",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/integrative#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "訂定可行環保計畫與安全社區淨園",
+          "narrationText": "想當地球守衛隊不能只喊遙遠的口號，要訂出每天做得到的具體計畫；如果要去公園淨園撿垃圾，更要注意安全與分類。",
+          "cognitiveChunks": [
+            "目標貼近能力、可記錄檢核",
+            "淨園邀家長陪同、戴手套夾子並分類"
+          ],
+          "workedExampleData": {
+            "problemStatement": "想訂一份四年級做得到的「個人環保行動計畫」，以及假日和同學去做「社區公園淨園」，該怎麼規劃？",
+            "steps": [
+              "第 1 步：個人計畫訂得具體可行，例如「每天帶水壺餐具、畫畫剩餘空白紙當計算紙，並做每週記錄檢核」",
+              "第 2 步：公園淨園前先邀約家長陪同確保安全，準備手套與夾子",
+              "第 3 步：撿拾後將可回收寶特瓶與一般垃圾確實分類裝袋，回班後分享心得激勵大家"
+            ],
+            "commonErrorContrast": "常見錯誤：訂「週末去太平洋撈十噸漁網」等空泛口號、晚上偷跑進暗草叢撿垃圾、把寶特瓶踩扁踢進水溝，或發脾氣指責家人沒關燈。",
+            "selfExplanationPrompt": "想一想：完成環保行動後回到班上分享體驗與心得，對全班會產生什麼正面影響？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/integrative#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "用溫暖示範帶動家人愛地球",
+          "topicSignalTitle": "怎麼邀請家人和鄰居一起加入環保行列？",
+          "narrationText": "在電燈開關旁貼上溫馨手繪「隨手關燈」小提醒，並自己以身作則每天帶環保袋與水壺出門，溫柔示範比發脾氣指責更有感染力。",
+          "cognitiveChunks": [
+            "手繪隨手關燈溫馨小提醒",
+            "以身作則自備環保袋與水壺"
+          ],
+          "factGroundingSourceId": "115-s2/g4/integrative#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "挑出最能實踐「源頭減量與愛護地球」的行為吧！",
+          "cognitiveChunks": [
+            "源頭減塑與節約能源"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈環保小推手〉觀察生活周遭推動的環保行動時，下列哪一項真正體現了「源頭減量與愛護地球」？",
+            "options": [
+              "每樣小東西都單獨裝一個新塑膠袋",
+              "把沒喝完的飲料和塑膠瓶塞進一般垃圾桶",
+              "白天陽光充足仍把電燈冷氣開到最大",
+              "隨身帶環保水壺與購物袋、做好垃圾分類並隨手關掉不必要電源"
+            ],
+            "answerIndex": 3,
+            "feedbackCorrect": "答對了！從一開始就減少一次性塑膠與浪費能源，是最有力量的環保實踐。",
+            "feedbackRetry": "想一想：「從源頭就不要製造多餘垃圾和浪費電」，是哪一個選項的好習慣？"
+          },
+          "factGroundingSourceId": "115-s2/g4/integrative#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-integrative-u5",
+      "stageId": "115-s2-g4-integrative-u5",
+      "title": "五、文化旅行趣",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "探索生活文化、尊重多元與文化認同",
+          "narrationText": "透過書籍、官方網站與請教長輩深入認識文化活動與日常生活的關係；參與或訪問文化活動時懷抱尊重與禮儀，並肯定自己家鄉文化的價值且主動傳承分享。",
+          "cognitiveChunks": [
+            "文化源自順應自然、感恩與生活智慧",
+            "靠書籍、官網與長輩口述蒐集可靠資料",
+            "尊重多元文化習俗、肯定並傳承家鄉文化"
+          ],
+          "analogyAnchor": "每種文化就像一座獨特的寶藏花園：先用尊敬與好奇的眼神欣賞別人的花園，同時更懂得愛惜照顧自己家鄉這座花園，把它的故事分享給世界。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "多方蒐集可靠文化資料",
+                "禮貌預約訪問活動參加者",
+                "尊重習俗禁忌體驗文化之美",
+                "肯定自我文化並創意傳承"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "可靠資料禮貌訪談",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "尊重體驗與文化傳承",
+                "anchorPointId": "step4"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/integrative#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "文化訪談禮儀與接待外地朋友",
+          "narrationText": "不論是去訪問文化活動的主辦人員與參加者，或是帶外縣市的表弟認識自己家鄉的文化，事前準備與尊重態度都非常重要。",
+          "cognitiveChunks": [
+            "訪談先預約、擬提綱、專心記錄道謝",
+            "帶親友走訪古蹟老街並體驗飲食手作"
+          ],
+          "workedExampleData": {
+            "problemStatement": "想訪問傳統文化活動的參加者，以及帶外縣市表弟認識自己家鄉的文化之美，該怎麼安排最棒？",
+            "steps": [
+              "第 1 步：訪問前事先預約說明目的並擬好有條理的提問單，訪問時專心傾聽記錄並誠懇道謝",
+              "第 2 步：參加不同族群或新住民同學的文化分享時，尊重當地習俗禁忌不嘲笑",
+              "第 3 步：帶表弟先聽家鄉文化與老街故事，再實地走訪、品嚐在地飲食與體驗手作並交流感受"
+            ],
+            "commonErrorContrast": "常見錯誤：拿路邊傳單或網路謠言當文化資料、在莊嚴儀式現場跑跳嬉鬧、覺得文化認同就是要排斥其他文化，或帶朋友只逛連鎖超商。",
+            "selfExplanationPrompt": "想一想：我們可以怎麼用拍照記錄、繪製海報或創意分享，讓家鄉的傳統文化在現代繼續發光？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/integrative#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "肯定自我文化不等於排外",
+          "topicSignalTitle": "建立家鄉文化認同感會帶來什麼成長？",
+          "narrationText": "認識自己成長土地的歷史與特色會讓我們更自信驕傲、願意珍惜與傳承；同時也更有寬廣的胸襟去欣賞世界各族群的多元文化之美。",
+          "cognitiveChunks": [
+            "對家鄉文化感到自信並主動傳承",
+            "保有胸襟欣賞世界多元文化"
+          ],
+          "factGroundingSourceId": "115-s2/g4/integrative#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "檢查看看你會去哪裡蒐集最可靠豐富的文化資料！",
+          "cognitiveChunks": [
+            "多方查證可靠文化資料"
+          ],
+          "warmupCheck": {
+            "prompt": "想深入認識一項台灣在地文化活動的內容與意義，下列哪一種「資料蒐集」方式最可靠又豐富？",
+            "options": [
+              "憑空編造一個沒有根據的故事",
+              "到圖書館查鄉土文化書籍、瀏覽官方文化館網站，並向熟悉活動的長輩請教",
+              "只看路邊明信片十秒鐘就下結論",
+              "聽信網路論壇的搞笑謠言當正式報告"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！圖書文獻、官方網站加上在地長輩的口述故事，資料最真實豐富。",
+            "feedbackRetry": "寫文化報告要講求真實根據喔！去哪裡查資料和問誰最可靠？"
+          },
+          "factGroundingSourceId": "115-s2/g4/integrative#u5"
+        }
+      ]
+    }
+  ]
+}

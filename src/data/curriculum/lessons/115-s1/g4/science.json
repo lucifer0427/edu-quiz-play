@@ -1,0 +1,442 @@
+{
+  "packId": "115-s1-g4-science",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 4,
+  "subjectId": "science",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-science-u1",
+      "stageId": "115-s1-g4-science-u1",
+      "title": "第一單元 地表環境、物質與地震",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "地表三種物質比較與變動的大地",
+          "narrationText": "地球表面由岩石、礫石、沙與土壤等物質構成，顆粒大小決定了透水性與保水性；流水、風和地震則會不斷改變地貌。",
+          "cognitiveChunks": [
+            "顆粒大小：礫石 > 沙 > 土壤",
+            "透水性：礫石最快；保水性：土壤最好",
+            "流水坡度越陡、水量越大，沖刷力越強"
+          ],
+          "analogyAnchor": "把礫石、沙和土壤想成三種篩網：礫石孔隙像大洞容易讓水直接漏光，土壤孔隙細密能留住水分與養分讓植物生長。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "礫石（顆粒最大）",
+              "leftPoints": [
+                "石頭間孔隙寬大",
+                "水流最快、保水性最差"
+              ],
+              "rightTitle": "土壤（顆粒細小）",
+              "rightPoints": [
+                "孔隙細小含養分",
+                "保水性佳，最適合種植物"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u1-l1",
+                "text": "礫石孔大水快漏",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u1-l2",
+                "text": "土壤保水養植物",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/science#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "流水實驗變因與水土保持觀念",
+          "narrationText": "在斜坡土堆實驗中，調陡坡度或加大水量都會增加水流沖刷力；山坡種植樹木草皮則能用根部抓住土壤、減少水土流失。",
+          "cognitiveChunks": [
+            "坡度越陡、水量越大，搬運沙石越多",
+            "植被根部抓緊土壤、枝葉緩衝雨滴",
+            "過度開發山坡會加劇土石流失"
+          ],
+          "workedExampleData": {
+            "problemStatement": "進行模擬流水實驗時，把斜坡墊得更陡且開大水量，土堆會有什麼變化？如何保護山坡？",
+            "steps": [
+              "第 1 步：坡度更陡、水量更大時，水流速度與沖刷力量明顯變強",
+              "第 2 步：更多泥沙被沖刷、搬運到下方堆積，土堆出現更深溝痕",
+              "第 3 步：現實中在山坡種植樹木與草皮，利用根系抓緊土壤減少流失"
+            ],
+            "commonErrorContrast": "常見錯誤：誤以為顆粒細小的土壤透水最快，或誤以為地震發生時可以搭電梯快速逃生。",
+            "selfExplanationPrompt": "想一想：為什麼砍光山坡樹木改成光禿禿的坡地後，下大雨容易發生土石流失？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/science#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "地震防災與室內避難三步驟",
+          "topicSignalTitle": "地震搖晃當下，室內保命口訣是什麼？",
+          "narrationText": "平時應固定高處書櫃重物並準備緊急避難包；地震發生在室內時立刻「趴下、掩護、穩住」躲在堅固桌下護住頭頸，切勿搭電梯或靠近玻璃窗。",
+          "cognitiveChunks": [
+            "平時：固定重物、備妥緊急避難包",
+            "當下：趴下、掩護、穩住（護頭頸）",
+            "禁止：不可搭電梯、遠離玻璃窗"
+          ],
+          "factGroundingSourceId": "115-s1/g4/science#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認地表物質的透水與保水特性，再進入關卡！",
+          "cognitiveChunks": [
+            "顆粒越大孔隙越大，透水越快、保水越差"
+          ],
+          "warmupCheck": {
+            "prompt": "將等量的水同時倒入裝有「礫石」、「沙」和「土壤」的三個漏水杯，哪一種讓水最快流出來？",
+            "options": [
+              "土壤",
+              "沙",
+              "礫石",
+              "三種速度一樣快"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "完全正確！礫石顆粒最大、孔隙最寬，水最容易直接流過。",
+            "feedbackRetry": "比較石頭（礫石）、沙和泥土，哪一種中間的縫隙最大、最留不住水呢？"
+          },
+          "factGroundingSourceId": "115-s1/g4/science#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-science-u2",
+      "stageId": "115-s1-g4-science-u2",
+      "title": "第二單元 生物與水域環境",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "水生植物與水生動物如何適應水域環境",
+          "narrationText": "不同環境孕育不同生物。水域中的植物與動物各自演化出獨特形態與構造，幫助自己在水中呼吸、浮起、抵抗水流與游泳。",
+          "cognitiveChunks": [
+            "水生植物：中空膨大葉柄（浮力）或細長柔韌莖葉",
+            "魚類：流線型身體、鰭控制游泳平衡、鰓呼吸",
+            "兩棲類（青蛙）：後腳趾間有蹼方便划水"
+          ],
+          "analogyAnchor": "水中生物就像配備專業潛水裝備的運動員：魚有流線型泳衣與鰓、青蛙有蛙鞋（蹼）、布袋蓮有充氣救生圈（膨大葉柄）。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "水生植物適應構造",
+              "leftPoints": [
+                "膨大充滿空氣的葉柄助漂浮",
+                "細長柔軟莖葉隨水擺動不斷"
+              ],
+              "rightTitle": "水生動物適應構造",
+              "rightPoints": [
+                "魚類用鰓呼吸、鰭協助游泳",
+                "青蛙後腳有蹼方便水中划水"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u2-l1",
+                "text": "植物中空葉柄漂浮",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u2-l2",
+                "text": "魚鰓呼吸、鰭平衡",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/science#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "水域生態資源與戶外觀察守則",
+          "narrationText": "水域不僅提供飲用水、灌溉與漁業資源，更是眾多生物的家園；拜訪水域時要遵守安全與不破壞棲地原則。",
+          "cognitiveChunks": [
+            "安全觀察：師長陪同、遠離深水濕滑處",
+            "尊重生態：不捕捉帶走、不丟垃圾、不餵食",
+            "永續行動：不任意放生外來種生物"
+          ],
+          "workedExampleData": {
+            "problemStatement": "到生態池進行觀察活動後，如何兼顧觀察收穫與保護水域環境？",
+            "steps": [
+              "第 1 步：在師長陪同下待在安全岸邊靜靜觀察水草、魚蝦與水鳥",
+              "第 2 步：只用眼睛與紙筆記錄，不把生物撈回家也不踩踏水草",
+              "第 3 步：平時節約用水、不亂倒廢油廢水，也不把外來種龜魚放生進池塘"
+            ],
+            "commonErrorContrast": "常見錯誤：以為把家裡不養的烏龜放生到生態池是好心，其實會掠食本土生物、破壞生態平衡。",
+            "selfExplanationPrompt": "想一想：如果荷花葉子挺出水面、水蘊草沉在水底，為什麼它們各有不同的生長構造？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/science#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "愛護水域從日常小動作開始",
+          "topicSignalTitle": "為什麼不能把過期藥水或廢油倒進排水溝？",
+          "narrationText": "家庭排水溝最終常流向河川與海洋。減少過量清潔劑、妥善回收廢油與垃圾，才能守護乾淨的水源與水生生物家園。",
+          "cognitiveChunks": [
+            "節約用水、珍惜水資源",
+            "廢油與垃圾不排入河川溝渠",
+            "不隨意放生外來物種"
+          ],
+          "factGroundingSourceId": "115-s1/g4/science#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "用這題確認水生動物的適應構造，準備進入關卡挑戰！",
+          "cognitiveChunks": [
+            "魚類用鰓呼吸、鰭游泳；青蛙腳趾有蹼"
+          ],
+          "warmupCheck": {
+            "prompt": "關於魚類適應水域環境的身體構造，下列哪一項配對正確？",
+            "options": [
+              "用肺在深水底吸空氣",
+              "用鰓在水中呼吸，並靠鰭協助游泳與平衡",
+              "靠羽毛拍打水面飛行",
+              "沒有任何附肢只能靠風吹動"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！鰓幫助魚類吸收水中溶氧，流線型身軀與鰭幫助游泳和平衡。",
+            "feedbackRetry": "回想我們觀察小魚時，魚鰓蓋開合是在呼吸，魚鰭則用來控制方向與平衡喔！"
+          },
+          "factGroundingSourceId": "115-s1/g4/science#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-science-u3",
+      "stageId": "115-s1-g4-science-u3",
+      "title": "第三單元 聲音與光",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "聲音由振動產生與傳播，光的直線與反射",
+          "narrationText": "物體振動才會發出聲音，聲音可透過固體、液體、氣體傳播；光在均勻空間中沿直線行進，遇到光滑鏡面會發生有方向的反射。",
+          "cognitiveChunks": [
+            "物體振動產生聲音，停止振動聲音就停",
+            "用力越大、振動幅度越大，聲音越大聲",
+            "光沿直線行進（形成影子），遇鏡面會反射"
+          ],
+          "analogyAnchor": "聲音像水波一樣需要靠固體、液體或氣體傳遞振動；光線則像筆直前進的雷射光束，遇到不透明物會形成影子，碰到鏡子會按角度彈回。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "聲音的特性",
+              "leftPoints": [
+                "由物體振動產生，振幅越大越大聲",
+                "可經固體、液體、氣體傳播"
+              ],
+              "rightTitle": "光的特性",
+              "rightPoints": [
+                "沿直線行進（遇阻擋形成影子）",
+                "照射光滑鏡面會依一定方向反射"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u3-l1",
+                "text": "振動生聲固液氣傳",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u3-l2",
+                "text": "光直線行進會反射",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/science#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "實驗觀察：三孔紙板直線穿光與紙杯話筒",
+          "narrationText": "三張小孔紙板必須對齊成一直線，手電筒光才能順利穿過照到紙屏；紙杯傳聲筒則證明振動能透過拉緊的棉線（固體）傳播。",
+          "cognitiveChunks": [
+            "光不會自己轉彎繞過錯位的紙板",
+            "手按住鼓面讓振動停止，鼓聲就停止",
+            "木桌與棉線等固體都能清楚傳聲"
+          ],
+          "workedExampleData": {
+            "problemStatement": "手電筒光線要穿過三張各有小圓孔的紙板照在紙屏上，紙板該怎麼擺放？",
+            "steps": [
+              "第 1 步：因為光線在均勻空氣中沿直線行進，無法轉彎",
+              "第 2 步：把三張紙板的小圓孔與光源對齊在同一條直線上",
+              "第 3 步：如果中間紙板往旁移開，光線就會被紙板擋住無法到達紙屏"
+            ],
+            "commonErrorContrast": "常見錯誤：以為聲音只能在空氣中傳播（其實固體如木桌、棉線和液體如水都能傳聲）。",
+            "selfExplanationPrompt": "想一想：生活中有哪些交通或安全設施同時運用了「聲音」和「光」來提醒大家？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/science#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "生活中的聲與光安全應用",
+          "topicSignalTitle": "為什麼救護車與平交道要同時有閃燈和聲音？",
+          "narrationText": "閃亮的警示燈（光）能從遠處提醒駕駛視覺注意，響亮的警笛或鈴聲（聲）能提醒沒看到方向的人或視障朋友，雙重守護更安全。",
+          "cognitiveChunks": [
+            "救護車：警示燈＋警笛聲",
+            "平交道：紅燈閃爍＋鈴聲",
+            "導盲有聲號誌：綠燈＋提示音"
+          ],
+          "factGroundingSourceId": "115-s1/g4/science#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "用這題確認聲音大小與振動幅度的關係，準備進場挑戰！",
+          "cognitiveChunks": [
+            "用力越大，振動幅度越大，聲音越響亮"
+          ],
+          "warmupCheck": {
+            "prompt": "用同一條橡皮筋套在紙盒上，用力撥動和輕輕撥動相比，哪一種發出的聲音比較大聲？為什麼？",
+            "options": [
+              "輕輕撥動較大聲，因為空氣阻力小",
+              "用力撥動較大聲，因為橡皮筋振動幅度較大",
+              "兩次聲音大小完全一樣",
+              "用力撥動會讓橡皮筋停止振動"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！用力越大，物體來回振動的幅度越大，發出的聲音就越響亮。",
+            "feedbackRetry": "想一想用力敲鼓面和輕輕敲鼓面時，哪一種鼓面跳得比較劇烈、聲音也比較大？"
+          },
+          "factGroundingSourceId": "115-s1/g4/science#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-science-u4",
+      "stageId": "115-s1-g4-science-u4",
+      "title": "第四單元 電路與能源",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "形成電路通路與比較串聯、並聯特性",
+          "narrationText": "電流必須從電池一極出發，經過燈泡底部接點與側邊螺紋金屬殼回到另一極形成通路才會發亮；電池串聯較亮，燈泡並聯各燈互不影響。",
+          "cognitiveChunks": [
+            "通路必接電池正負極與燈泡兩金屬處",
+            "電池串聯亮度較亮；電池並聯電力較久",
+            "燈泡並聯各自獨立，拔一顆另一顆仍亮"
+          ],
+          "analogyAnchor": "電池串聯像兩位推手排成一列同方向推車，推動力變大讓燈泡更亮；燈泡並聯則像兩條獨立車道，一條施工封閉也不會擋住另一條車道。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "電池串聯 vs. 並聯",
+              "leftPoints": [
+                "電池串聯（正接負）：燈泡更亮",
+                "電池並聯（正接正）：亮度如單顆但較久"
+              ],
+              "rightTitle": "燈泡串聯 vs. 並聯",
+              "rightPoints": [
+                "燈泡串聯：拔一顆全熄滅",
+                "燈泡並聯：拔一顆另一顆仍亮"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u4-l1",
+                "text": "電池串聯會更亮",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u4-l2",
+                "text": "燈泡並聯互不干擾",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/science#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "良導體開關、小馬達轉向與電路檢修",
+          "narrationText": "銅、鐵等金屬是電的良導體可當開關接點，塑膠與橡皮是不良導體用作絕緣外皮；把小馬達的電池正負極對調，轉向就會相反。",
+          "cognitiveChunks": [
+            "金屬（銅鑰匙、迴紋針）是良導體",
+            "塑膠、橡皮、乾木頭是不良導體",
+            "電池正負極反接，小馬達轉動方向相反"
+          ],
+          "workedExampleData": {
+            "problemStatement": "兩個小燈泡「並聯」接上電池都發亮，取下其中一顆燈泡後另一顆會如何？小馬達反接電池又會如何？",
+            "steps": [
+              "第 1 步：燈泡並聯時，兩顆燈泡各自有獨立通往電池的電流迴路",
+              "第 2 步：取下其中一顆，另一顆的路徑依然完整暢通，所以繼續發亮",
+              "第 3 步：將連接小馬達的電池正負極對調，電流方向顛倒，小馬達改成相反方向旋轉"
+            ],
+            "commonErrorContrast": "常見錯誤：把電池並聯誤以為會變最亮，或接燈泡時兩條電線都接在電池同一個正極上。",
+            "selfExplanationPrompt": "想一想：家裡天花板的電燈，為什麼關掉其中一盞，其他盞燈還能繼續亮著？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/science#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "生活中的用電安全守則",
+          "topicSignalTitle": "為什麼不能濕手摸開關或用力拉電線？",
+          "narrationText": "自來水會導電，濕手碰插座開關容易觸電；拉扯電線會傷及內部銅線；同一延長線插滿高功率電器會過載發熱。拔插頭一定要握住插頭本體！",
+          "cognitiveChunks": [
+            "手部乾燥才碰開關與插頭",
+            "握住插頭本體拔除，不拉扯電線",
+            "避免延長線過載、不插金屬物進插座"
+          ],
+          "factGroundingSourceId": "115-s1/g4/science#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "用這題確認良導體與不良導體的分辨，準備進場挑戰！",
+          "cognitiveChunks": [
+            "金屬屬於良導體，塑膠橡皮屬於不良導體"
+          ],
+          "warmupCheck": {
+            "prompt": "把下列哪一樣物品夾進電路測試器中，能接通電路讓小燈泡亮起來？",
+            "options": [
+              "橡皮擦",
+              "塑膠直尺",
+              "銅製鑰匙",
+              "乾燥木頭冰棒棍"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "完全正確！銅製鑰匙是金屬，屬於電的良導體，能讓電流通過使燈泡發亮。",
+            "feedbackRetry": "想一想電線裡面是用哪一種材質來導電的呢？"
+          },
+          "factGroundingSourceId": "115-s1/g4/science#u4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,432 @@
+{
+  "packId": "115-s2-g1-english",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 1,
+  "subjectId": "english",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-english-u1",
+      "stageId": "115-s2-g1-english-u1",
+      "title": "保持健康",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識字母 N、O、P 與健康好習慣",
+          "narrationText": "這單元我們認識英文字母 N、O、P，用身體跳「健康密碼舞」，並設計 5 個有益健康的生活守則。",
+          "cognitiveChunks": [
+            "字母順序：N、O、P",
+            "大小寫配對：N/n、O/o、P/p",
+            "早睡早起、多喝水、常運動"
+          ],
+          "analogyAnchor": "雙手圍成一個大圓圈像字母 O，每天多喝水、多運動，身體就圓圓滿滿充滿活力。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "字母 N O P",
+              "leftPoints": [
+                "N 配 n（1 個小拱門）",
+                "O 配 o、P 配 p（圓圈在右）"
+              ],
+              "rightTitle": "健康生活守則",
+              "rightPoints": [
+                "早睡早起、多喝開水",
+                "飯前洗手、天天吃蔬果"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "N/n O/o P/p",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "健康生活好習慣",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/english#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分辨 N、O、P 的小寫字母",
+          "narrationText": "小寫 n 只有一個彎彎拱門（m 有兩個）；小寫 p 的圓圈在右邊，跟大寫 P 同方向。",
+          "cognitiveChunks": [
+            "n 一個拱門、m 兩個拱門",
+            "p 的圓圈在右邊"
+          ],
+          "workedExampleData": {
+            "problemStatement": "把大寫字母「N, O, P」通通變成小寫，要怎麼寫？",
+            "steps": [
+              "第 1 步：大寫 N 變小寫是 n（一個小拱門）",
+              "第 2 步：大寫 O 變小寫是 o（圓滾滾縮小）",
+              "第 3 步：大寫 P 變小寫是 p（圓圈在右邊），合起來是 n, o, p"
+            ],
+            "commonErrorContrast": "常見錯誤：把 n 寫成兩個拱門的 m，或是把圓圈在右邊的 p 寫成圓圈在左邊的 q。",
+            "selfExplanationPrompt": "想一想：在 N, O, P 這三個字母裡，排在 N 和 P 中間的是誰？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/english#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "我的健康密碼守則",
+          "topicSignalTitle": "哪些習慣對身體最健康？",
+          "narrationText": "早睡早起、多喝開水、常做運動、飯前洗手和天天吃蔬菜水果，都是保護身體不生病的好習慣。",
+          "cognitiveChunks": [
+            "少吃糖果汽水、多喝白開水",
+            "天天運動睡飽飽"
+          ],
+          "factGroundingSourceId": "115-s2/g1/english#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "認認看接在 M 後面的字母吧！",
+          "cognitiveChunks": [
+            "M 後面是 N, O, P"
+          ],
+          "warmupCheck": {
+            "prompt": "照英文字母順序唸過去，緊接在「M」後面的三個大寫字母是哪一組？",
+            "options": [
+              "J, K, L",
+              "N, O, P",
+              "Q, R, S"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！M 後面就是 N, O, P！",
+            "feedbackRetry": "從 J, K, L, M 接著往下唸，後面三個字母是誰呢？"
+          },
+          "factGroundingSourceId": "115-s2/g1/english#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-english-u2",
+      "stageId": "115-s2-g1-english-u2",
+      "title": "實地考察",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識字母 Q、R、S 與校外教學安全",
+          "narrationText": "這單元我們學字母 Q、R、S，並練習校外教學時在公共場所控制音量、排隊守秩序和注意交通安全。",
+          "cognitiveChunks": [
+            "字母順序：Q、R、S",
+            "大小寫配對：Q/q、R/r、S/s",
+            "公共場所輕聲細語、過馬路停看聽"
+          ],
+          "analogyAnchor": "小寫 s 像彎彎的小蛇，校外教學大家就像排隊的小火車，跟緊老師守秩序最安全。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "字母 Q R S",
+              "leftPoints": [
+                "Q 配 q（圓圈在左）、R 配 r",
+                "S 配 s（彎彎像小蛇）"
+              ],
+              "rightTitle": "實地考察禮儀安全",
+              "rightPoints": [
+                "安靜館舍輕聲細語、排隊不推擠",
+                "跟緊老師，過馬路先停看聽"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "Q/q R/r S/s",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "排隊守秩序安全",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/english#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分清楚 p 和 q 的方向",
+          "narrationText": "小寫 p 和 q 常常讓人看錯！記住：p 的圓圈在右邊，q 的圓圈在左邊，尾巴直直往下。",
+          "cognitiveChunks": [
+            "q 的圓圈在左邊、尾巴直直",
+            "r 像小嫩芽向右伸出"
+          ],
+          "workedExampleData": {
+            "problemStatement": "下面哪一個小寫字母是「Q」的好朋友？",
+            "steps": [
+              "第 1 步：記住 Q 的小寫圓肚子在左邊",
+              "第 2 步：檢查右邊的直線，是直直往下沒有彎勾的（g 才有彎勾）",
+              "第 3 步：找到圓圈在左、直線直直的「q」"
+            ],
+            "commonErrorContrast": "常見錯誤：把圓圈在左邊但尾巴彎起來的「g」，或圓圈在右邊的「p」當成 q。",
+            "selfExplanationPrompt": "想一想：在 P, Q, ___, S 裡面，中間空著的大寫字母是誰？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/english#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "公共場所音量與交通安全",
+          "topicSignalTitle": "校外教學要注意哪些事？",
+          "narrationText": "在博物館或圖書館參觀時要放輕說話音量；走在馬路上要排好隊跟緊老師，過馬路先停看聽再走。",
+          "cognitiveChunks": [
+            "安靜場所放輕音量慢慢說",
+            "跟緊隊伍不脫隊、過馬路停看聽"
+          ],
+          "factGroundingSourceId": "115-s2/g1/english#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "試試看這題字母大小寫配對！",
+          "cognitiveChunks": [
+            "R 配 r，S 配 s"
+          ],
+          "warmupCheck": {
+            "prompt": "大寫字母「R」的小寫字母是哪一個？",
+            "options": [
+              "r",
+              "n",
+              "v",
+              "k"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！R 的小寫就是像小嫩芽一樣的 r！",
+            "feedbackRetry": "找找看小寫裡面像小樹苗往右邊伸出小小彎芽的那一個！"
+          },
+          "factGroundingSourceId": "115-s2/g1/english#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-english-u3",
+      "stageId": "115-s2-g1-english-u3",
+      "title": "活力交朋友",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "用 Hello、Good morning、Hey 交朋友",
+          "narrationText": "這單元我們用 Hello!、Good morning! 和 Hey! 跟大家打招呼，編創 H-E-Y 早安操，並共讀《Yo! Yes?》學會關心同學。",
+          "cognitiveChunks": [
+            "Good morning! ＝ 早安！",
+            "Hello! / Hey! ＝ 你好！嘿！",
+            "共讀《Yo! Yes?》主動幫忙交朋友"
+          ],
+          "analogyAnchor": "早上進校門大聲說一句 Good morning!，就像送給老師和同學一個陽光微笑。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "英文問候語",
+              "leftPoints": [
+                "Good morning!（早安！）",
+                "Hello! / Hey!（你好！嘿！）"
+              ],
+              "rightTitle": "活力密碼 H E Y",
+              "rightPoints": [
+                "H 配 h、E 配 e、Y 配 y",
+                "主動幫忙掉東西的同學"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "Good morning",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "H/h E/e Y/y",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/english#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "配對活力密碼 H、E、Y",
+          "narrationText": "把大寫 H, E, Y 變成小寫時，H 變成有高椅背的 h，E 變成笑臉般的 e，Y 變成有小尾巴的 y。",
+          "cognitiveChunks": [
+            "H → h、E → e、Y → y",
+            "早上見面說 Good morning!"
+          ],
+          "workedExampleData": {
+            "problemStatement": "早上到學校遇見老師，要說哪一句英文？把「H, E, Y」變成小寫是什麼？",
+            "steps": [
+              "第 1 步：早上見面打招呼，說「Good morning!」（早安！）",
+              "第 2 步：朋友間熱情打招呼也可以說「Hey!」或「Hello!」",
+              "第 3 步：大寫 H, E, Y 變成小寫是「h, e, y」"
+            ],
+            "commonErrorContrast": "常見錯誤：把早安說成晚安「Good night!」，或是把小寫 h 寫成 n。",
+            "selfExplanationPrompt": "想一想：讀完《Yo! Yes?》後，看到同學書本掉滿地時該怎麼做？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/english#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "《Yo! Yes?》交朋友小秘訣",
+          "topicSignalTitle": "怎麼讓害羞的新同學開心起來？",
+          "narrationText": "看到害羞或需要幫忙的同學，主動微笑說 Hello!、幫忙撿起掉落的書本，就能交到好朋友！",
+          "cognitiveChunks": [
+            "主動伸出援手幫忙同學",
+            "用微笑和問候交朋友"
+          ],
+          "factGroundingSourceId": "115-s2/g1/english#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "選選看早上見面要說哪一句！",
+          "cognitiveChunks": [
+            "Good morning! 是早安"
+          ],
+          "warmupCheck": {
+            "prompt": "早上到學校遇見老師或同學，想用英文說「早安！」，要說哪一句？",
+            "options": [
+              "Good night!",
+              "Good morning!",
+              "Goodbye!"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！Good morning! 就是早安！",
+            "feedbackRetry": "morning 是早上的意思，找找看有 morning 的那一句喔！"
+          },
+          "factGroundingSourceId": "115-s2/g1/english#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-english-u4",
+      "stageId": "115-s2-g1-english-u4",
+      "title": "讓我們去玩吧",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識字母 W、X、Y、Z 與 Let's play!",
+          "narrationText": "這單元學到 26 個字母的最後四個 W、X、Y、Z，學說邀請句 \"Let's play!\"，並共讀《Chicka Chicka Boom Boom》複習全部字母。",
+          "cognitiveChunks": [
+            "最後四個字母：W、X、Y、Z",
+            "邀請同學一起玩：Let's play!",
+            "大小寫配對：W/w、X/x、Y/y、Z/z"
+          ],
+          "analogyAnchor": "大寫 W 和小寫 w 都像開口朝上的皇冠；X 像小叉叉、Z 像閃電，縮小版就是小寫 x 和 z。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "字母 W X Y Z",
+              "leftPoints": [
+                "W/w（開口朝上）、X/x（小叉叉）",
+                "Y/y、Z/z（最後一個字母）"
+              ],
+              "rightTitle": "邀請一起玩",
+              "rightPoints": [
+                "Let's play!（我們去玩吧！）",
+                "Yes! Let's play!（好啊！）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "W X Y Z 最後四字",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "Let's play!",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/english#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "區分 w 和 m，開口方向不一樣",
+          "narrationText": "W 和 M 長得很像倒過來的朋友！W 開口朝上，小寫是 w；M 開口朝下，小寫是 m。",
+          "cognitiveChunks": [
+            "W/w 開口朝上",
+            "X/x 與 Z/z 大小寫形狀一樣"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在《Chicka Chicka Boom Boom》裡找一找，大寫「W, X, Z」的小寫分別是什麼？",
+            "steps": [
+              "第 1 步：大寫 W 開口朝上，小寫是縮小版的 w（不是開口朝下的 m）",
+              "第 2 步：大寫 X 像叉叉，小寫是 x",
+              "第 3 步：大寫 Z 像閃電，小寫是 z，排在 26 個字母的最後一個"
+            ],
+            "commonErrorContrast": "常見錯誤：把大寫 W 的小寫誤選成倒過來的 m，或把 Z 和 S 搞混。",
+            "selfExplanationPrompt": "想一想：下課想邀請同學一起玩遊戲時，要說哪一句英文？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/english#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "開心邀請同學：Let's play!",
+          "topicSignalTitle": "聽到 Let's play! 要怎麼回答？",
+          "narrationText": "對同學說 \"Let's play!\" 就是「我們一起去玩吧！」；想一起玩可以開心回答 \"Yes! Let's play!\"。",
+          "cognitiveChunks": [
+            "Let's play! ＝ 我們去玩吧！",
+            "Z 是第 26 個、最後一個字母"
+          ],
+          "factGroundingSourceId": "115-s2/g1/english#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "答對這題就能把 26 個字母都收進寶盒囉！",
+          "cognitiveChunks": [
+            "Let's play! 邀請同學一起玩"
+          ],
+          "warmupCheck": {
+            "prompt": "下課想邀請好朋友一起到戶外玩遊戲，要對同學說哪一句英文？",
+            "options": [
+              "Let's play!",
+              "I'm sorry.",
+              "Good night.",
+              "Sit down."
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "太棒了！Let's play! 我們一起去玩吧！",
+            "feedbackRetry": "找找看裡面有 play（玩耍）這個字的句子喔！"
+          },
+          "factGroundingSourceId": "115-s2/g1/english#u4"
+        }
+      ]
+    }
+  ]
+}

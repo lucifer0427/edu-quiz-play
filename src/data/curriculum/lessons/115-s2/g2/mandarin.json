@@ -1,0 +1,454 @@
+{
+  "packId": "115-s2-g2-mandarin",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 2,
+  "subjectId": "mandarin",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-mandarin-u1",
+      "stageId": "115-s2-g2-mandarin-u1",
+      "title": "第一單元 彩色的世界",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "發現春天與生活裡的彩色世界",
+          "narrationText": "在〈春天的顏色〉、〈花衣裳〉和〈彩色王國〉裡，我們用雙眼觀察大自然色彩，也學習愛護環境與尊重不同喜好。",
+          "cognitiveChunks": [
+            "細心看春天的新芽和小花",
+            "把草地寫成穿上花衣裳更生動",
+            "尊重每個人喜歡的顏色與不同"
+          ],
+          "analogyAnchor": "世界就像一盒水彩筆，每種顏色都很重要，大家互相尊重合作，就能畫出最漂亮的圖畫！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "自然觀察與寫作",
+              "leftPoints": [
+                "用眼睛欣賞花草不摘採",
+                "想像草地穿上花衣裳"
+              ],
+              "rightTitle": "品德與人權",
+              "rightPoints": [
+                "對家人道謝並摺好衣服",
+                "尊重同學不同的喜好"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "愛護花草不摘採",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "尊重彼此的不同",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "怎麼把句子寫得像《花衣裳》一樣生動？",
+          "narrationText": "寫風景時，把草地或大樹當成小人兒一樣「換上衣裳」，句子就會變得很有想像力。",
+          "cognitiveChunks": [
+            "想像植物也會穿衣服",
+            "加上顏色和小花細節"
+          ],
+          "workedExampleData": {
+            "problemStatement": "想把大自然「穿上花衣裳」的畫面寫進句子裡，下面哪一句最有想像力？",
+            "steps": [
+              "第 1 步：先看看句子裡有沒有寫出大自然的景色（例如草地、春天）",
+              "第 2 步：找找看有沒有把景色當成人一樣「換上衣裳」",
+              "第 3 步：選出「春天來了，草地換上一件開滿小花的衣裳。」"
+            ],
+            "commonErrorContrast": "常見錯誤：只寫「衣櫃裡有三件襯衫」，雖然有寫到衣服，但沒有寫出大自然的想像力。",
+            "selfExplanationPrompt": "想一想：在公園看到開滿漂亮的花朵時，愛護環境的好孩子會怎麼做？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先答對這題，再開始挑戰第一單元！",
+          "cognitiveChunks": [
+            "尊重每個人的不同喜好"
+          ],
+          "warmupCheck": {
+            "prompt": "在《彩色王國》的學習裡，如果班上同學喜歡的顏色和想法都不同，大家怎麼相處最好？",
+            "options": [
+              "強迫大家都喜歡同一種顏色",
+              "尊重每個人不同的喜好，快樂合作",
+              "嘲笑喜歡別種顏色的人"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！尊重每個人的不同，班級才會像彩色王國一樣豐富美好。",
+            "feedbackRetry": "只有一種顏色太單調了，大家喜好不同時要懂得互相怎麼對待呢？"
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-mandarin-u2",
+      "stageId": "115-s2-g2-mandarin-u2",
+      "title": "第二單元 有你真好",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "珍惜家人與對幫忙懷抱感恩",
+          "narrationText": "從〈爸爸〉、〈我的家人〉到〈愛笑的大樹〉，我們學習看見家人的付出、分擔做得到的小家事，並常說謝謝。",
+          "cognitiveChunks": [
+            "家事不分男女，全家一起合作",
+            "幫忙擦桌子、整理書包",
+            "受人幫忙要感恩並說謝謝"
+          ],
+          "analogyAnchor": "就像〈愛笑的大樹〉把陰涼分享給大家，家人每天照顧我們也很辛苦，一句謝謝和一個擁抱能讓家更溫暖！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "step1": "看見家人的辛苦",
+              "step2": "分擔安全的小家事",
+              "step3": "說謝謝並傳遞愛"
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "擦桌子整理書包",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "常說謝謝與擁抱",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "二年級可以幫忙做哪些家事？",
+          "narrationText": "分擔家事要挑選自己能力做得到、而且安全不危險的事情，每天練習就會越來越厲害。",
+          "cognitiveChunks": [
+            "挑選安全又做得到的事",
+            "從整理自己的物品開始"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在《我的家人》裡，二年級的我們可以主動幫忙做哪一件家事？",
+            "steps": [
+              "第 1 步：檢查選項是否安全（爬高修理電燈、開車買菜都太危險）",
+              "第 2 步：挑選自己做得到的小事：吃完飯幫忙擦桌子",
+              "第 3 步：每天自己整理書包和收拾玩具"
+            ],
+            "commonErrorContrast": "常見錯誤：以為自己還小什麼都不能做，全部都等爸爸媽媽幫忙收拾。",
+            "selfExplanationPrompt": "想一想：如果想寫一段話介紹自己的家人，寫出他們的什麼特色最生動？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "練習一題感恩與家庭互動的題目！",
+          "cognitiveChunks": [
+            "對幫忙我們的人真誠道謝"
+          ],
+          "warmupCheck": {
+            "prompt": "在《愛笑的大樹》裡，當身邊的人幫了我們一個忙時，最有禮貌的回應是什麼？",
+            "options": [
+              "真誠說聲謝謝，以後也願意幫助別人",
+              "當成理所當然不說話",
+              "轉身跑走假裝沒事"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！常懷感恩的心並把善意傳下去，大家都喜歡和你做朋友。",
+            "feedbackRetry": "受人幫助時要記得「感恩」，開口說什麼最有禮貌呢？"
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-mandarin-u3",
+      "stageId": "115-s2-g2-mandarin-u3",
+      "title": "第三單元 故事妙妙屋",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "讀故事的三大法寶：預測、推論、故事結構",
+          "narrationText": "走進〈月光河〉、〈黃狗生蛋〉與〈神筆馬良〉，學會邊讀邊猜（預測）、找線索（推論）和整理故事重點。",
+          "cognitiveChunks": [
+            "預測：先猜接下來會發生什麼",
+            "推論：從動作表情線索想答案",
+            "故事結構：有誰、遇到什麼問題、怎麼解決"
+          ],
+          "analogyAnchor": "讀故事就像當小偵探，用「預測」猜劇情，用「推論」找線索，再用「故事結構」把案件整理清楚！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "step1": "看題目先預測",
+              "step2": "從動作表情推論",
+              "step3": "整理故事結構"
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "先猜後面怎麼演",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "誰遇問題怎解決",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "怎麼從線索「推論」角色的心情？",
+          "narrationText": "有時候作者不會直接寫出「他好生氣」或「他好傷心」，而是寫出人物的表情和動作，讓我們自己推論出來。",
+          "cognitiveChunks": [
+            "注意人物說的話",
+            "觀察人物的表情和動作"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如果故事裡寫「小熊皺起眉頭、雙手握緊拳頭」，你可以推論小熊現在心情怎麼樣？",
+            "steps": [
+              "第 1 步：圈出動作和表情線索：「皺起眉頭」、「握緊拳頭」",
+              "第 2 步：想一想我們什麼時候會做出這樣的表情和動作",
+              "第 3 步：推論出小熊現在可能「很生氣」"
+            ],
+            "commonErrorContrast": "常見錯誤：只會看有沒有出現「生氣」兩個字，忽略了表情和動作的線索。",
+            "selfExplanationPrompt": "想一想：如果讓你擁有一枝《神筆馬良》的神筆，拿來做什麼事最有愛心？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "考考你這三個故事裡的閱讀策略！",
+          "cognitiveChunks": [
+            "預測＝事先猜想故事發展"
+          ],
+          "warmupCheck": {
+            "prompt": "閱讀時使用「預測」策略，是指怎麼做？",
+            "options": [
+              "直接翻到最後一頁看結局",
+              "看了題目或前幾段後，猜猜看接下來會發生什麼事",
+              "把不懂的字用筆畫掉"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！利用已經讀到的線索猜猜看後面會怎麼演，就是預測策略。",
+            "feedbackRetry": "「預」是事先的意思，在還沒讀到後面時先動腦想想看喔！"
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-mandarin-u4",
+      "stageId": "115-s2-g2-mandarin-u4",
+      "title": "第四單元 閱讀樂趣多",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "寫邀請卡、逛圖書館與欣賞多元故事",
+          "narrationText": "在〈小熊的邀請〉、〈小讀者樂園〉與〈巨人山〉裡，我們學會寫清楚邀請卡、遵守圖書館公德，也學會尊重不同文化。",
+          "cognitiveChunks": [
+            "邀請卡要寫清對象、時間、地點",
+            "圖書館輕聲細語、愛惜書本歸原位",
+            "邊讀邊問「為什麼」想得更深入"
+          ],
+          "analogyAnchor": "圖書館就像故事樂園，只要大家輕聲細語、把書放回原位，每個人都能找到自己最愛的故事寶藏！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "小熊的邀請",
+              "leftPoints": [
+                "邀請卡寫清誰、幾點、哪裡",
+                "讀書多問「為什麼」"
+              ],
+              "rightTitle": "小讀者樂園",
+              "rightPoints": [
+                "安靜閱讀、不折書不塗鴉",
+                "看封面和試讀來選書"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "寫清時間與地點",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "圖書館輕聲細語",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "怎麼在圖書館挑到適合自己的書？",
+          "narrationText": "面對書架上滿滿的書，學會看書名、封面、目錄和試讀一頁，就不會挑到太難或看不懂的書。",
+          "cognitiveChunks": [
+            "先看書名、封面和目錄",
+            "翻開一頁試讀看看字多不多"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在《小讀者樂園》的書架前，想挑一本適合二年級自己讀的課外書，怎麼挑最好？",
+            "steps": [
+              "第 1 步：看書名和封面插圖，確認自己對這個主題有興趣",
+              "第 2 步：看看目錄，知道這本書大概有哪些章節",
+              "第 3 步：隨便翻開一頁試讀，字不會太多、又有注音幫忙就剛剛好"
+            ],
+            "commonErrorContrast": "常見錯誤：閉著眼睛隨便抽一本最厚的書，結果回家發現字太多看不懂。",
+            "selfExplanationPrompt": "想一想：寫一張邀請卡請好朋友來參加故事會，卡片裡一定要寫清楚哪三件事？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "練習一題圖書館的禮貌守則！",
+          "cognitiveChunks": [
+            "輕聲細語、愛惜公物"
+          ],
+          "warmupCheck": {
+            "prompt": "走進像樂園一樣的圖書館看書時，哪一個行為最有公德心？",
+            "options": [
+              "輕聲細語慢慢翻書，看完放回原位",
+              "在圖書館的書上畫自己的插圖",
+              "邊吃餅乾邊把書頁折起來"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！輕聲細語又愛惜書本，才是最棒的小讀者。",
+            "feedbackRetry": "圖書館的書是大家共用的，吃東西或畫圖會把書弄髒喔！"
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-mandarin-u5",
+      "stageId": "115-s2-g2-mandarin-u5",
+      "title": "閱讀階梯",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "分段抓重點與愛護社區環境",
+          "narrationText": "讀《江奶奶的雜貨店》這類比較長的故事時，一段一段整理出小重點，再串起來就能看懂整篇文章。",
+          "cognitiveChunks": [
+            "從題目猜測故事地點和人物",
+            "每讀完一段用一句話說重點",
+            "買東西自備環保袋、對長輩有禮貌"
+          ],
+          "analogyAnchor": "就像把一串珠子穿起來，每讀完一段就串上一顆「小重點」珠子，整串連起來就是整篇故事的大意！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "step1": "看題目猜故事",
+              "step2": "每段說一句重點",
+              "step3": "串成整篇大意"
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "江奶奶的雜貨店",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "逐段整理小重點",
+                "anchorPointId": "step2"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "遇到不會的生字怎麼辦才不會卡住？",
+          "narrationText": "自己讀長故事時，遇到一兩個不會念的字先別停下來，讀前後句子猜意思，讀完一段再去查字典。",
+          "cognitiveChunks": [
+            "先讀前後句子猜意思",
+            "讀完一段再查字典確認"
+          ],
+          "workedExampleData": {
+            "problemStatement": "自己在「閱讀階梯」讀故事時，突然遇到一個不認識的新生字，怎麼做最好？",
+            "steps": [
+              "第 1 步：先把這個字前面和後面的句子多讀一遍，猜猜看意思",
+              "第 2 步：繼續把這一段讀完，才不會打斷故事的樂趣",
+              "第 3 步：等讀完一段，再打開字典查清楚讀音和意思"
+            ],
+            "commonErrorContrast": "常見錯誤：一遇到不會的字就立刻合上書不讀，或自己隨便亂編意思都不查證。",
+            "selfExplanationPrompt": "想一想：陪家人去巷口的小店買東西時，怎麼做最環保愛地球？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "練習一題抓文章重點的方法吧！",
+          "cognitiveChunks": [
+            "每段一句話抓重點"
+          ],
+          "warmupCheck": {
+            "prompt": "讀比較長的故事《江奶奶的雜貨店》時，想抓住文章重點，哪一個方法最有用？",
+            "options": [
+              "讀完每一段後，用一句話說出這段在講誰和什麼事",
+              "只看第一句和最後一句，中間全部跳過",
+              "數一數總共有幾個「的」字"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！每段用一句話整理出小重點，再連起來就能掌握整篇文章。",
+            "feedbackRetry": "跳過中間的故事就看不懂經過了，試試看一段一段整理小重點喔！"
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u5"
+        }
+      ]
+    }
+  ]
+}

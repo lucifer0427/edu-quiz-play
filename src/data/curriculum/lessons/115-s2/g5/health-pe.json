@@ -1,0 +1,866 @@
+{
+  "packId": "115-s2-g5-health-pe",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 5,
+  "subjectId": "health-pe",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-health-pe-u1",
+      "stageId": "115-s2-g5-health-pe-u1",
+      "title": "單元一 健康智慧行動",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "智慧使用 3C 與身體發展關鍵期",
+          "narrationText": "五年級是視力、聽力與骨骼肌肉發展關鍵期，過度使用 3C、耳機開太大聲或低頭窩坐都會造成傷害；養成 3010 護眼與自主時間管理才能享受科技又健康。",
+          "cognitiveChunks": [
+            "3C 過度使用易傷視力、聽力與骨骼肌肉",
+            "用眼 30 分鐘休息 10 分鐘、多戶外望遠",
+            "背部挺直不低頭、耳機音量適中定時休息"
+          ],
+          "analogyAnchor": "眼睛、耳朵和脊椎就像陪伴我們一輩子的精密儀器：每次 30 分鐘讓它休息 10 分鐘、調好姿勢與音量，才不會提早耗損故障。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "3C 傷身陷阱",
+              "leftPoints": [
+                "關燈看螢幕、近距離用眼傷視力",
+                "吵雜處開大耳機、低頭窩沙發"
+              ],
+              "rightTitle": "健康智慧守則",
+              "rightPoints": [
+                "3010 原則、充足光線與戶外活動",
+                "先做功課運動、約定時間設鬧鐘"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "避免藍光噪音低頭",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "3010 與自主管理",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/health-pe#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "3C 時間管理與數位衛生習慣",
+          "narrationText": "放學後先完成功課與運動，再與家人約定使用時間並設鬧鐘提醒；睡前一小時遠離藍光，摸完公用鍵盤與手機後用肥皂洗手、不揉眼睛。",
+          "cognitiveChunks": [
+            "先功課與運動，再用鬧鐘控制 3C 時間",
+            "睡前看藍光螢幕會降低睡眠品質",
+            "摸完公用設備先洗手、不共用耳機"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小豪放學後想玩平板遊戲，又常窩在沙發低頭滑手機到半夜，隔天上課打瞌睡且肩頸痠痛。他該如何調整？",
+            "steps": [
+              "第 1 步：安排順序——先完成功課與戶外運動，再於約定時段使用平板並設定 30 分鐘休息鬧鐘",
+              "第 2 步：調整姿勢——坐在書桌前保持背部挺直、螢幕高度適中，避免低頭窩在沙發或床上",
+              "第 3 步：睡前斷網與衛生——睡前一小時收起 3C 確保睡眠品質，使用前後用肥皂洗手不揉眼"
+            ],
+            "commonErrorContrast": "常見錯誤：關掉房間大燈只靠螢幕亮光看平板、戴耳機在吵雜處開到最大聲，或用濕紙巾隨便擦鍵盤就當消毒。",
+            "selfExplanationPrompt": "想一想：為什麼下課走出教室到操場看遠方綠色景物，能幫助預防近視？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/health-pe#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "衛生保健小細節",
+          "topicSignalTitle": "勤洗手、不揉眼、不共用耳機",
+          "narrationText": "手機螢幕、滑鼠與公用鍵盤常附著細菌病毒，使用前後徹底洗手並避免用手揉眼口鼻，貼身耳機也不與他人共用。",
+          "cognitiveChunks": [
+            "不邊吃油膩食物邊滑螢幕",
+            "耳朵不適立刻停用耳機並告知家長"
+          ],
+          "factGroundingSourceId": "115-s2/g5/health-pe#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認過度使用 3C 最容易危害的身體部位，再進入第一單元挑戰！",
+          "cognitiveChunks": [
+            "過度用 3C 傷視力、聽力與骨骼肌肉"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈使用3C好智慧〉認識五年級發展關鍵期時，長期過度盯著螢幕、戴耳機開大音量且姿勢不良，最容易直接危害哪三個部位的健康？",
+            "options": [
+              "視力、聽力與骨骼肌肉",
+              "頭髮生長速度、指甲硬度與鞋碼",
+              "指紋紋路、耳垂形狀與牙齒顏色",
+              "身高比例與說話語速"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！近距離用眼傷視力、大音量耳機傷聽力、低頭駝背不動傷骨骼肌肉。",
+            "feedbackRetry": "用眼睛看螢幕、用耳朵聽聲音、身體固定姿勢不動，想一想是哪三個部位呢？"
+          },
+          "factGroundingSourceId": "115-s2/g5/health-pe#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-health-pe-u2",
+      "stageId": "115-s2-g5-health-pe-u2",
+      "title": "單元二 親愛的家人",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "同理家人需求與家庭責任",
+          "narrationText": "每個年齡層的家人都有不同的身心需求：長輩需要耐心與安全環境、父母也會疲累、弟妹需要引導；高年級學生能主動承擔家務並用溫暖溝通維繫親情。",
+          "cognitiveChunks": [
+            "站在長輩、父母與手足立場體諒需求",
+            "主動整理房間、分擔洗碗倒垃圾等家務",
+            "說話放慢耐心陪長輩，留意居家防跌"
+          ],
+          "analogyAnchor": "家就像一艘大家一起划的船：每個人力氣大小不同，互相體諒並主動拿起屬於自己的小船槳，船就會划得又穩又溫暖。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "日常相處與責任",
+              "leftPoints": [
+                "主動自理房間、分擔能力所及家務",
+                "把感謝說出口並用行動關懷家人"
+              ],
+              "rightTitle": "衝突溝通與調適",
+              "rightPoints": [
+                "冷靜傾聽彼此理由再協商折衷時間",
+                "遇家庭變故向師長或輔導室求助"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "體諒分擔家庭責任",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "和諧溝通與調適",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/health-pe#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "因應家庭變故與珍惜生命",
+          "narrationText": "面對親人生病、家庭變故或家人老化死亡時，感到難過害怕是正常的；主動向信任的大人傾訴求助，並學會把握當下珍惜共處時光。",
+          "cognitiveChunks": [
+            "接納悲傷情緒，向家人師長輔導室傾訴",
+            "理解生老病死自然歷程，把握當下相聚",
+            "安靜真誠陪伴遭遇悲傷的同學"
+          ],
+          "workedExampleData": {
+            "problemStatement": "班上有一位同學因為家中長輩過世而眼神落寞常發呆；另外你自己週末想找朋友玩，但爸爸希望你留下整理出遊行李，這兩種情況該怎麼處理？",
+            "steps": [
+              "第 1 步：溫暖陪伴同學——不追問八卦也不嘲笑，安靜陪伴並溫柔告訴對方「需要說話我都在」",
+              "第 2 步：冷靜傾聽家人——先聽清楚爸爸對整理行李的期待，不甩門也不偷溜",
+              "第 3 步：協商雙贏方案——禮貌表達想法，例如約定先花二十分鐘整理完行李再去和朋友會合"
+            ],
+            "commonErrorContrast": "常見錯誤：把家務當成要零用錢的交易、遇家庭變故過度自責憋在心裡，或對悲傷的同學追問隱私。",
+            "selfExplanationPrompt": "想一想：為什麼了解生命的有限與自然循環後，反而會讓我們更懂得把握當下珍惜家人？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/health-pe#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "把愛說出口",
+          "topicSignalTitle": "感謝與陪伴的力量",
+          "narrationText": "在日常生活中常對家人說「謝謝」、「辛苦了」，並用耐心的態度陪伴年邁長輩，能讓家的溫度一直保持溫暖。",
+          "cognitiveChunks": [
+            "具體表達感謝、不把付出當理所當然",
+            "留意家中長輩防滑與扶手安全"
+          ],
+          "factGroundingSourceId": "115-s2/g5/health-pe#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認與家人意見不合時的溝通技巧，再進入第二單元挑戰！",
+          "cognitiveChunks": [
+            "傾聽與雙向協商能化解家庭衝突"
+          ],
+          "warmupCheck": {
+            "prompt": "當自己想和朋友出門玩，但家人希望你先幫忙整理家務而產生意見衝突時，哪一種做法最合適？",
+            "options": [
+              "先冷靜聽清楚家人的期待，再禮貌表達想法並協商折衷時間",
+              "表面答應卻偷偷溜出門不接電話",
+              "用力甩門回房間一整天不說話",
+              "推給年紀更小的弟弟妹妹去做"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！冷靜傾聽並商量出可行的時間安排，既能完成家庭責任又能兼顧朋友約會。",
+            "feedbackRetry": "甩門冷戰或欺瞞只會讓家人更擔心喔，試試看用「傾聽與協商」的方法吧！"
+          },
+          "factGroundingSourceId": "115-s2/g5/health-pe#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-health-pe-u3",
+      "stageId": "115-s2-g5-health-pe-u3",
+      "title": "單元三 拒絕毒害的人生",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識成癮機制與風險因子",
+          "narrationText": "成癮物質會改變大腦獎賞機制並產生耐受性與戒斷不適，讓人越陷越深；青少年大腦與器官仍在發育，接觸菸酒或成癮物質的危害更加深遠。",
+          "cognitiveChunks": [
+            "成癮物質改變大腦機制，產生耐受與戒斷",
+            "個人壓力、同儕慫恿與環境易取得會提高風險",
+            "來路不明或偽裝成糖果咖啡包的食品一律不碰"
+          ],
+          "analogyAnchor": "成癮就像一個越滾越大的雪球：一開始以為只是好奇試一口，但大腦機制一旦被改變，想停下來就會非常痛苦困難，所以第一口絕對不能碰。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "認識成癮物質對大腦與發育的不可逆傷害",
+                "用批判性思考看穿媒體美化菸酒的包裝",
+                "堅定拒絕誘惑並遠離現場、通報師長"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "認清成癮大腦危害",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "看穿媒體美化迷思",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l3",
+                "text": "堅定拒絕遠離通報",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/health-pe#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "媒體識讀與安全拒絕策略",
+          "narrationText": "運用批判性思考看穿戲劇與廣告美化菸酒的包裝；面對同儕遞來電子煙或不明飲料時，堅定溫和說不、找理由快速離開並立刻通報師長。",
+          "cognitiveChunks": [
+            "影像帥氣包裝不等於真實健康後果",
+            "拒絕時立場堅定、語氣不挑釁衝突",
+            "脫身後立即告知信任的師長或家長"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如果有校外人士在巷口拿出包裝炫麗的「免費調味電子煙」或不明咖啡包，笑說「不試就是不夠朋友」，該怎麼安全應對？",
+            "steps": [
+              "第 1 步：堅定拒絕不猶豫——眼神堅定但語氣平和地說「我還要去練球／家人等我，不用了謝謝」，不搶奪也不挑釁",
+              "第 2 步：迅速離開現場——找好下台階後快步走往人多安全的地方或學校",
+              "第 3 步：立刻通報求助——第一時間告訴老師、家長或學務處，保護自己也保護其他同學"
+            ],
+            "commonErrorContrast": "常見錯誤：為了合群面子想說「只試一口沒關係」、把不明物品收進書包帶回家，或搶過來踩爛引發暴力衝突。",
+            "selfExplanationPrompt": "想一想：為什麼影視作品常把主角煩惱時抽菸喝酒拍得很帥，卻沒拍出後面的真實代價？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/health-pe#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "拒絕成癮小尖兵",
+          "topicSignalTitle": "正向倡議與資源支持",
+          "narrationText": "小學生也能透過設計拒菸反毒海報、分享正確知識與鼓勵親友撥打戒菸專線，成為守護健康無毒環境的小尖兵。",
+          "cognitiveChunks": [
+            "以正向海報與宣導取代網路肉搜霸凌",
+            "健康作息與運動是遠離成癮的保護力"
+          ],
+          "factGroundingSourceId": "115-s2/g5/health-pe#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認面對媒體菸酒訊息的批判性思考能力，再進入第三單元挑戰！",
+          "cognitiveChunks": [
+            "看穿媒體刻意美化菸酒的包裝"
+          ],
+          "warmupCheck": {
+            "prompt": "看到影視戲劇把主角遇煩惱就抽菸喝酒的畫面拍得很帥氣時，運用「批判性思考」應該看出什麼問題？",
+            "options": [
+              "證明抽菸喝酒能讓人立刻解決所有煩惱",
+              "刻意美化與浪漫化菸酒行為，卻隱藏了致癌與器官損傷的真實危害",
+              "代表小學生也可以模仿戲劇去買菸酒",
+              "說明最新醫療研究鼓勵大家多喝酒"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！影像包裝不等於真實後果，看穿媒體迷思才不會被誘導模仿。",
+            "feedbackRetry": "戲劇只拍出帥氣的樣子，有沒有把真實生活裡生病、成癮的後果拍出來呢？"
+          },
+          "factGroundingSourceId": "115-s2/g5/health-pe#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-health-pe-u4",
+      "stageId": "115-s2-g5-health-pe-u4",
+      "title": "單元四 挑戰自我健康美",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "身體組成、健康體位與跳繩效益",
+          "narrationText": "了解體位不能只看總體重，還要看肌肉、骨骼與體脂肪比例；運用 85210 健康體位原則與科技紀錄工具，搭配跳繩運動能有效提升心肺與協調。",
+          "cognitiveChunks": [
+            "身體組成：同重量肌肉體積比脂肪更緊實",
+            "健康體位：五蔬果、睡 8 時、動 30 分、零含糖飲",
+            "跳繩提升心肺耐力、下肢肌耐力與協調性"
+          ],
+          "analogyAnchor": "同樣一公斤的鐵塊和棉花，體積大小差很多；身體裡的肌肉和脂肪也是如此，所以維持結實健康要靠均衡飲食與規律運動。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "健康體位管理",
+              "leftPoints": [
+                "原型食物、少含糖飲料、睡滿 8 小時",
+                "計步器與運動 App 追蹤每日活動量"
+              ],
+              "rightTitle": "跳繩安全與展演",
+              "rightPoints": [
+                "穿運動鞋、前腳掌落地微屈膝緩衝",
+                "配合音樂節拍變化隊形與雙人互動"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "身體組成與85210",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "前掌緩衝與節奏展演",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/health-pe#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "安全減脂與跳繩動作調整",
+          "narrationText": "發育期絕不可節食或穿雨衣逼汗減重；練習跳繩時穿運動鞋在平整地面用前腳掌輕巧落地、微彎膝蓋吸震，團體展演則用統一節拍對拍練習。",
+          "cognitiveChunks": [
+            "均衡原型食物＋全身有氧肌力減多餘脂肪",
+            "不穿拖鞋或用腳跟直腿重踩硬地",
+            "團體跳繩對拍練習、從慢到快建立默契"
+          ],
+          "workedExampleData": {
+            "problemStatement": "有同學想快速減重而打算不吃早餐、穿厚雨衣跑步；另外小組排練〈繩采飛揚〉團體跳繩舞時常絆到繩子且腳踝微痠，該怎麼調整？",
+            "steps": [
+              "第 1 步：導正體位觀念——發育期不可節食或高溫逼汗脫水，改為均衡飲食、零含糖飲料並規律運動",
+              "第 2 步：修正跳繩落地——換穿合腳運動鞋在平整地面練習，用腳前掌輕巧落地並微彎膝蓋緩衝",
+              "第 3 步：統一團體節拍——選定清楚音樂節拍或口令倒數，從慢速開始大家一起對拍練習"
+            ],
+            "commonErrorContrast": "常見錯誤：買來路不明減肥藥、修圖自欺，或跳繩時用腳後跟直腿重重撞擊水泥地。",
+            "selfExplanationPrompt": "想一想：計步器或運動紀錄 App 這類科技資源，如何正確幫助我們維持健康體位？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/health-pe#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "肢體創意與美感",
+          "topicSignalTitle": "繩采飛揚的團體藝術",
+          "narrationText": "把跳繩結合音樂節奏、高低層次、隊形變換與波浪甩繩等創意，能讓體育動作展現充滿力與美的團隊藝術。",
+          "cognitiveChunks": [
+            "融入雙人跳、交叉跳等多元變化",
+            "科技工具用於客觀監測而非盲目比較"
+          ],
+          "factGroundingSourceId": "115-s2/g5/health-pe#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認跳繩時保護關節的落地要領，再進入第四單元挑戰！",
+          "cognitiveChunks": [
+            "前腳掌落地並微屈膝吸震"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈繩奇寶典〉練習跳繩時，為了保護膝蓋與腳踝關節避免運動傷害，落地與場地選擇應該注意哪一項要領？",
+            "options": [
+              "穿避震運動鞋，以腳前掌輕巧落地、膝蓋微彎緩衝，並選平整地面",
+              "用腳後跟直腿重重撞擊水泥地",
+              "穿夾腳拖鞋在濕滑磁磚地上猛跳",
+              "不用看周圍有沒有人直接甩長繩"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！前腳掌著地加上膝蓋微彎就像彈簧吸震，能好好保護下肢關節。",
+            "feedbackRetry": "想一想像彈簧一樣輕輕落地吸震，和用腳跟直直撞地板，哪個才不傷膝蓋呢？"
+          },
+          "factGroundingSourceId": "115-s2/g5/health-pe#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-health-pe-u5",
+      "stageId": "115-s2-g5-health-pe-u5",
+      "title": "單元五 有趣的休閒活動",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "飛盤傳接與器材團體遊戲",
+          "narrationText": "傳擲飛盤時配合側身跨步轉腰與手腕平順甩出，接盤則用雙手上下夾擊（鱷魚嘴式）；利用毛巾、繩子與交通桿進行團體遊戲，最考驗步調協調與合作。",
+          "cognitiveChunks": [
+            "接飛盤：雙腳屈膝平衡、雙手上下夾接",
+            "擲飛盤：側身跨步轉腰、維持盤面水平",
+            "風大時縮短距離並壓低飛盤高度"
+          ],
+          "analogyAnchor": "雙手接飛盤就像鱷魚上下合嘴咬住獵物一樣穩當；而多人共拉一條繩子或毛巾前進，就像大家一起踩高蹺，必須配合共同口號才能穩穩向前。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "飛盤協調技巧",
+              "leftPoints": [
+                "跨步轉腰水平甩出、雙手上下夾接",
+                "不朝人臉近距離投擲保安全"
+              ],
+              "rightTitle": "團體合作與同理",
+              "rightPoints": [
+                "配合統一口號調整高低與步調",
+                "失誤時同理鼓勵、賽後分工收器材"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "跨步平擲與夾接",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "同理合作與收器材",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/health-pe#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "團隊步調整合與遊戲安全",
+          "narrationText": "團隊成員高矮速度不同時，透過統一節奏口號與調整握持位置照顧彼此；隊友因風向失誤時給予鼓勵並溝通調整距離，遊戲後分工整理歸位器材。",
+          "cognitiveChunks": [
+            "以全隊穩妥能跟上的步調共同前進",
+            "場地淨空、不踩踏交通桿或拿繩絆人",
+            "課後分工清點並整齊收納共用器材"
+          ],
+          "workedExampleData": {
+            "problemStatement": "組員要一起用長繩與毛巾運送物品繞過交通桿，但組內有人身高較矮、有人跑得較慢，且風大時飛盤傳接常失誤，該如何調整？",
+            "steps": [
+              "第 1 步：整合步調——調整手握高度並由專人喊統一節奏口號，以全隊最穩的速度前進",
+              "第 2 步：同理與調整——安慰失誤隊友，強風時適度縮短飛盤傳接距離並壓低盤面",
+              "第 3 步：安全與收尾——確認場地無障礙物不推擠，下課前分工把繩子繞整齊、器材歸位"
+            ],
+            "commonErrorContrast": "常見錯誤：跑快的人扯著繩子狂奔拖倒隊友、對失誤同學抱怨責罵，或下課把長繩打結塞進籃子。",
+            "selfExplanationPrompt": "想一想：用毛巾、繩子和交通桿這類生活器材玩團體遊戲，能培養我們哪些運動以外的能力？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/health-pe#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "休閒場地安全守則",
+          "topicSignalTitle": "淨空動線、不朝臉丟擲",
+          "narrationText": "操場上同時有繩子、角錐與跑動同學時，務必保持視線安全距離、不踩踏傾倒交通桿，也不近距離朝同學臉部投擲飛盤。",
+          "cognitiveChunks": [
+            "多餘長繩不隨意丟在起跑線上",
+            "繞行角錐不從背後推擠對手"
+          ],
+          "factGroundingSourceId": "115-s2/g5/health-pe#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認接飛盤的安全手勢，再進入第五單元挑戰！",
+          "cognitiveChunks": [
+            "雙手上下夾擊最安全穩固"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈飛盤遊戲〉練習接住隊友傳來的飛盤時，哪一種接盤手勢與預備動作最不容易漏接或傷到手指？",
+            "options": [
+              "雙腳微開屈膝保持平衡，雙手上下夾擊（鱷魚嘴式）穩穩合掌接住",
+              "伸出單手兩根手指在臉前面硬夾",
+              "閉上眼睛把雙手背在身後用胸口硬接",
+              "背對飛盤轉身向後盲抓"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！屈膝降重心並用雙手上下夾接，能保護臉部與手指並穩穩接住飛盤。",
+            "feedbackRetry": "想像鱷魚上下合嘴咬住東西的樣子，雙手上下對合是不是比單手戳更安全呢？"
+          },
+          "factGroundingSourceId": "115-s2/g5/health-pe#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-health-pe-u6",
+      "stageId": "115-s2-g5-health-pe-u6",
+      "title": "單元六 樂活運動趣",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "武術對練、中長距離跑與急行跳遠",
+          "narrationText": "武術雙人對練重視抱拳禮與點到為止的安全距離；中長距離跑走講求穩定配速與呼吸節律；急行跳遠則須流暢銜接助跑、單腳起跳與屈膝落地。",
+          "cognitiveChunks": [
+            "武術對練：行抱拳禮、控制力道不真打傷人",
+            "中長跑：不盲目衝刺，配合呼吸穩定配速",
+            "急行跳遠：單腳蹬伸擺臂，落地屈膝重心前移"
+          ],
+          "analogyAnchor": "急行跳遠就像飛機在跑道加速起飛：助跑累積速度後順勢單腳蹬地飛起，千萬不能在起跳板前煞車停頓，落地則像彈簧屈膝往前緩衝。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "檢查沙坑無異物並耙平鬆軟",
+                "助跑流暢銜接單腳有力蹬伸與擺臂",
+                "雙腳前伸屈膝緩衝、重心前移向前走離"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "沙坑檢查與耙平",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "助跑單腳蹬伸擺臂",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l3",
+                "text": "屈膝緩衝重心前移",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/health-pe#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "運動安全監測與動作細節",
+          "narrationText": "長跑時若出現呼吸急促或側腹微痛，應慢慢降為快走調整深呼吸並移到跑道旁；跳遠落地後不可往後坐倒或往回走進起跳線。",
+          "cognitiveChunks": [
+            "武術欣賞精氣神、步法穩健與雙人默契",
+            "長跑不適時降速改走步，不急停坐跑道中",
+            "跳遠落地後須從沙坑前方走出"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在〈健跑體能好〉跑步時突然感到側腹微痛喘不過氣；另外練習〈跳躍高手〉急行跳遠時總是在板前停頓立定跳且落地向後坐倒，該如何改善？",
+            "steps": [
+              "第 1 步：長跑安全調整——慢慢降速改為快走調整深呼吸，移至跑道外側休息並告知老師",
+              "第 2 步：修正跳遠助跑——保持助跑流暢節奏不煞車，以單腳有力蹬板並積極向上前擺臂",
+              "第 3 步：修正跳遠落地——雙腳接觸鬆軟沙面時順勢屈膝緩衝，身體重心向前傾並往前走出沙坑"
+            ],
+            "commonErrorContrast": "常見錯誤：長跑一開始拼命百米衝刺導致力竭、不適時直接坐在內側跑道中央，或跳遠落地雙手往後撐地。",
+            "selfExplanationPrompt": "想一想：與同學進行〈武術雙人對練〉時，為什麼必須事前約定動作順序並控制距離？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/health-pe#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "武德禮儀與運動欣賞",
+          "topicSignalTitle": "以禮始、以禮終",
+          "narrationText": "武術雙人對練前後互行抱拳禮展現敬意，觀看展演時細心欣賞動作流暢度、重心穩健與雙人攻防節奏的默契呼應。",
+          "cognitiveChunks": [
+            "抱拳禮象徵切磋學習與尊重夥伴",
+            "點到為止控制寸止距離保安全"
+          ],
+          "factGroundingSourceId": "115-s2/g5/health-pe#u6"
+        },
+        {
+          "sceneId": "u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認急行跳遠的落地安全與規則，再進入第六單元挑戰！",
+          "cognitiveChunks": [
+            "屈膝緩衝且重心前移不往後坐倒"
+          ],
+          "warmupCheck": {
+            "prompt": "進行急行跳遠準備「落地」進入沙坑或厚軟墊時，為了保護關節並維持有效成績，落地瞬間應該注意什麼？",
+            "options": [
+              "雙腳伸直鎖死膝蓋硬撞沙坑",
+              "一碰到沙子就往後仰躺或雙手向後撐地",
+              "雙腳前伸接觸地面時順勢屈膝緩衝吸震，並讓重心順勢向前傾",
+              "落地後立刻往回走回起跳點"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！屈膝緩衝能保護膝踝關節，重心前移則避免向後撐地影響安全與成績。",
+            "feedbackRetry": "落地時如果往後坐倒，不只手撐地容易受傷，量成績還會從後面算起喔！"
+          },
+          "factGroundingSourceId": "115-s2/g5/health-pe#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-health-pe-u7",
+      "stageId": "115-s2-g5-health-pe-u7",
+      "title": "單元七 足下羽上真功夫",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u7-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "足球盤球攻防與羽球基本功",
+          "narrationText": "足球交替使用腳內側與腳外側盤球可靈活變向，停球微收緩衝並抬頭觀察視野；羽球則要放慢節奏盯緊球頭、發球後舉拍回位並注意揮拍空間。",
+          "cognitiveChunks": [
+            "腳內外側交替觸球靈活左右變向",
+            "停球用腳內側輕迎並微收緩衝卸力",
+            "羽球發球後立刻舉拍微屈膝回預備位"
+          ],
+          "analogyAnchor": "在球場上盤球或打羽球就像在車陣中安全駕駛：腳下或手上的力量要柔和可控，眼睛更要不時抬頭掃視隊友與對手的位置。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "足球盤球與攻防",
+              "leftPoints": [
+                "腳內外側交替控球、停球微收緩衝",
+                "防守壓低重心卡位、無球跑位接應"
+              ],
+              "rightTitle": "羽球穩定與安全",
+              "rightPoints": [
+                "盯緊球頭、近距離顛球培養球感",
+                "注意揮拍空間、雙人喊聲避免撞拍"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "盤球變向與卡位跑位",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "盯緊球頭與揮拍安全",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/health-pe#u7"
+        },
+        {
+          "sceneId": "u7-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "團隊攻防策略與突破練習瓶頸",
+          "narrationText": "足球防守靠壓低重心卡位擋線而非拉人絆腳；進攻隊友被包夾時無球隊友要跑向空檔接應。羽球初學常揮空拍時，應放慢速度從近距離顛球練起。",
+          "cognitiveChunks": [
+            "防守壓低重心擋住傳球路徑不犯規",
+            "持球隊友被圍堵時跑向空檔大聲呼應",
+            "羽球揮空拍可放慢揮拍練擊球點"
+          ],
+          "workedExampleData": {
+            "problemStatement": "足球賽時持球隊友被兩人圍堵，其他隊友該怎麼跑位？另外小涵打羽球常揮空拍覺得挫折，該如何突破瓶頸？",
+            "steps": [
+              "第 1 步：足球無球跑位——主動移動到沒有防守者的空檔位置並大聲呼應，拉開三角傳球路線",
+              "第 2 步：足球規範防守——輪到防守時壓低重心張開步伐擋線卡位，不拉衣服也不絆腳",
+              "第 3 步：羽球突破瓶頸——放慢揮拍速度、眼睛盯緊球頭軌跡，從近距離托球或定點顛球練球感"
+            ],
+            "commonErrorContrast": "常見錯誤：足球低頭死盯球不看周圍人、無球隊友全擠在持球者旁邊，或拿羽球拍敲打水泥地板。",
+            "selfExplanationPrompt": "想一想：雙打接羽球時，兩位隊友之間為什麼要出聲喊「我來」或「你的」互相呼應？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/health-pe#u7"
+        },
+        {
+          "sceneId": "u7-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "球具愛護與安全空間",
+          "topicSignalTitle": "安全揮拍、不敲擊地面",
+          "narrationText": "羽球拍框輕巧易損且揮速快，練習前先確認揮拍範圍內無其他同學，也不拿球拍敲打地面或牆壁，發球更不可故意朝人臉擊球。",
+          "cognitiveChunks": [
+            "輕柔握拍不死抓、拍面正對來球",
+            "雙人移動接球出聲呼應防撞拍"
+          ],
+          "factGroundingSourceId": "115-s2/g5/health-pe#u7"
+        },
+        {
+          "sceneId": "u7-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認足球同時使用腳內側與腳外側盤球的原因，再進入第七單元挑戰！",
+          "cognitiveChunks": [
+            "腳內外側交替觸球能靈活左右變向"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈盤球大進擊〉學習足球推進技巧時，為什麼要練習同時運用「腳內側」與「腳外側」推球前進？",
+            "options": [
+              "可以幫助跑者靈活左右變向過人，並將球穩穩控制在腳邊",
+              "純粹為了避免把同一邊的球鞋磨破",
+              "因為足球規則規定每走一步都要換腳",
+              "因為用腳尖用力猛踢才能把球控在腳邊"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！腳內側與腳外側交替觸球，能讓你依防守者位置隨時往左或往右靈巧變向。",
+            "feedbackRetry": "如果場上左邊右邊都可能有防守同學，會用腳的內側和外側交替推球是不是更好轉彎呢？"
+          },
+          "factGroundingSourceId": "115-s2/g5/health-pe#u7"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-health-pe-u8",
+      "stageId": "115-s2-g5-health-pe-u8",
+      "title": "單元八 大家來玩水",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u8-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "水域安全、抽筋自救與自由式換氣",
+          "narrationText": "戲水與趴式衝浪須選擇有救生員的合格水域並做好暖身；遇水中抽筋先冷靜水母漂或仰漂維持呼吸再伸展；自由式則要水下吐氣、貼水側轉頭吸氣。",
+          "cognitiveChunks": [
+            "合格水域、救生員陪同、守警戒線不飽食下水",
+            "抽筋自救：冷靜漂浮呼吸 → 緩慢伸展求救",
+            "自由式：髖關節帶動打水、水下吐氣側頭吸氣"
+          ],
+          "analogyAnchor": "自由式換氣就像在水中開一扇小側窗：在水下時先穩穩把氣吐完，轉頭露出水面那短短一瞬間只要輕鬆吸進一口氣，身體就不會像翹翹板一樣下沉。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "下水前暖身檢查裝備與合格救生水域",
+                "遇抽筋先冷靜漂浮呼吸再伸展求救",
+                "循序練習水下吐氣與貼水側頭換氣"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "合格水域暖身檢查",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "冷靜漂浮抽筋自救",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l3",
+                "text": "水下吐氣側頭吸氣",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/health-pe#u8"
+        },
+        {
+          "sceneId": "u8-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "岸上救援五字口訣與換氣流暢度",
+          "narrationText": "發現有人溺水牢記「叫、叫、伸、拋、划」，不可直接跳水徒手救人；練習自由式換氣常嗆水時，要從扶牆與浮板練穩水下吐氣與側頭吸氣。",
+          "cognitiveChunks": [
+            "叫（呼救）叫（119/110）伸、拋、划",
+            "水下持續吐氣，出水面只做快速吸氣",
+            "高抬頭會讓臀腿下沉，須貼水側轉頭"
+          ],
+          "workedExampleData": {
+            "problemStatement": "泳池練習自由式時，小宇在水下一直閉氣，直到轉頭出水面才想吐氣又吸氣，結果常常嗆水且雙腿下沉；另外若看到同伴水中抽筋或溺水該怎麼辦？",
+            "steps": [
+              "第 1 步：修正呼吸節奏——先靠浮板練習「水下口鼻穩定吐氣、貼水側轉頭張口快速吸氣」",
+              "第 2 步：保持流線打水——吸氣時不高抬頭，以髖關節帶動雙腿輕快打水維持水平",
+              "第 3 步：冷靜自救與救人——抽筋時先水母漂或仰漂呼吸再伸展；救人守「叫叫伸拋划」不貿然跳水"
+            ],
+            "commonErrorContrast": "常見錯誤：水下不吐氣造成換氣來不及嗆水、把頭高高抬離水面看天花板、或誤以為充氣游泳圈可以代替救生衣。",
+            "selfExplanationPrompt": "想一想：為什麼「表面平靜無波」的溪流底下，依然可能隱藏危險？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/health-pe#u8"
+        },
+        {
+          "sceneId": "u8-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "循序漸進克服怕水",
+          "topicSignalTitle": "浮板輔助建立節奏與自信",
+          "narrationText": "從池邊扶牆與持浮板練習韻律呼吸開始，把分解動作練穩後再結合划手與打水，就能從緊張一步步游出自信與速度感。",
+          "cognitiveChunks": [
+            "不勉強第一天就長距離不換氣",
+            "隨時注意天氣雷雨與漲潮警示"
+          ],
+          "factGroundingSourceId": "115-s2/g5/health-pe#u8"
+        },
+        {
+          "sceneId": "u8-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認水中抽筋自救的第一步，再進入第八單元挑戰！",
+          "cognitiveChunks": [
+            "抽筋時先冷靜漂浮維持呼吸"
+          ],
+          "warmupCheck": {
+            "prompt": "如果在游泳或戲水時小腿突然發生「水中抽筋」，實施安全自救時第一步最應該保持什麼動作與心態？",
+            "options": [
+              "大聲尖叫亂揮雙手，拚命掙扎",
+              "保持冷靜不慌張、吸氣轉為水母漂或仰漂維持呼吸，再緩慢伸展並求救",
+              "閉氣沉到池底不要動",
+              "忍痛加速游進更深的深水區"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！慌張掙扎只會耗盡體力嗆水，先冷靜漂起確保能呼吸，再舒緩伸展並呼救最安全。",
+            "feedbackRetry": "在水中抽筋如果緊張亂踢喊叫，只會吸不到氣沉下去喔！第一步一定要先穩住什麼？"
+          },
+          "factGroundingSourceId": "115-s2/g5/health-pe#u8"
+        }
+      ]
+    }
+  ]
+}

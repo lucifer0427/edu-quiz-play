@@ -1,0 +1,634 @@
+{
+  "packId": "115-s2-g6-arts",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 6,
+  "subjectId": "arts",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-arts-u1",
+      "stageId": "115-s2-g6-arts-u1",
+      "title": "第一單元 世界音樂",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s2-arts-u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "世界特色音階、傳統樂器與多元文化欣賞",
+          "narrationText": "各地民謠常使用獨特音階（如五聲音階）展現濃厚地域色彩，傳統樂器也多就地取材反映自然環境與文化。透過直笛創作與合奏，我們學會以開放心胸欣賞世界音樂之美。",
+          "cognitiveChunks": [
+            "五聲音階少半音衝突，容易創作出流暢民謠",
+            "傳統樂器多就地取材反映地理與文化特色",
+            "演唱結合直笛演奏須互相傾聽保持音量平衡"
+          ],
+          "analogyAnchor": "世界音樂就像一張用聲音繪製的世界地圖，每個國家的特色音階與傳統樂器，都訴說著當地獨特的山川風土與生活故事。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "認識各國特色音階與民謠韻味",
+                "欣賞就地取材的多元傳統樂器",
+                "運用五聲音階創作四小節曲調",
+                "直笛演奏並與歌聲平衡合奏"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-art-u1-l1",
+                "text": "音階展現地域色彩",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "g6s2-art-u1-l2",
+                "text": "創作旋律直笛吹奏",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/arts#u1"
+        },
+        {
+          "sceneId": "g6s2-arts-u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "直笛穩定音色與多元文化觀賞態度",
+          "narrationText": "用直笛吹奏自己創作的世界風曲調時，常遇到爆音或與歌聲音量不平衡的問題；欣賞陌生文化唱腔時更要保持尊重。",
+          "cognitiveChunks": [
+            "穩定平緩氣息＋手指確實按緊氣孔防爆音",
+            "帶著好奇與尊重認識不同民族的唱腔節拍"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在〈小小愛笛生〉用直笛演奏世界音樂曲調，並與歌聲搭配演出時，如何避免爆音且讓整體音樂更動聽？遇到不熟悉的異國唱腔又該怎麼欣賞？",
+            "steps": [
+              "第 1 步：直笛吹奏——保持平緩穩定的氣息（不猛吹），並確認每一根按孔手指指腹都緊密蓋好氣孔不漏氣",
+              "第 2 步：合奏平衡——歌聲與直笛演奏者互相傾聽彼此音量與節拍，不搶拍不蓋過對方，達成和諧默契",
+              "第 3 步：多元欣賞——聽到不同於流行歌的傳統唱腔或奇特節拍時，以尊重與好奇心認識其文化背景，感受樂器材質與形制之美"
+            ],
+            "commonErrorContrast": "常見錯誤：嘲笑傳統民謠唱腔很老土、吹直笛用盡全力猛吹導致尖銳爆音，或歌聲與直笛各演各的不看拍子。",
+            "selfExplanationPrompt": "想一想：為什麼「創作旋律再親自用直笛吹奏出來」的學習流程，能讓我們對音階結構與節奏掌握更深刻？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/arts#u1"
+        },
+        {
+          "sceneId": "g6s2-arts-u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "用耳朵環遊世界",
+          "topicSignalTitle": "就地取材見證文化智慧，尊重欣賞世界音樂多樣性",
+          "narrationText": "從樂器的製作材料、發聲原理到演奏場合，都能看見各民族的生活智慧；沒有哪一種音樂比較高級，每一種都值得細細品味。",
+          "cognitiveChunks": [
+            "五聲音階（Do Re Mi Sol La）協和易創作",
+            "傾聽歌聲與直笛合奏的音量平衡"
+          ],
+          "factGroundingSourceId": "115-s2/g6/arts#u1"
+        },
+        {
+          "sceneId": "g6s2-arts-u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認用「五聲音階」創作曲調特別流暢和諧的原因！",
+          "cognitiveChunks": [
+            "五聲音階少了易產生不協和感的半音"
+          ],
+          "warmupCheck": {
+            "prompt": "認識特色音階後，嘗試用「五聲音階（Do Re Mi Sol La）」創作四小節曲調並用直笛吹奏時，為什麼特別容易創作出好聽的旋律？",
+            "options": [
+              "因為五聲音階規定只能吹同一個音",
+              "因為五聲音階少了容易產生強烈不協和感的半音，無論怎麼排列都容易流暢和諧且富民謠韻味",
+              "因為只有這五個音直笛才吹得出聲音",
+              "因為吹出五聲音階時直笛會自動發出鼓聲"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！五聲音階音與音之間協和度高，非常適合旋律創作與即興發揮。",
+            "feedbackRetry": "想一想五聲音階為什麼常出現在世界民謠中？是不是因為少了尖銳的半音衝突呢？"
+          },
+          "factGroundingSourceId": "115-s2/g6/arts#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-arts-u2",
+      "stageId": "115-s2-g6-arts-u2",
+      "title": "第二單元 展翅高歌",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s2-arts-u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "歌詞意境、節奏律動與直笛二部合奏",
+          "narrationText": "透過演唱搭配肢體律動與品味歌詞意境，我們能唱出充滿祝福與回憶的畢業歌聲。在直笛二部合奏中，兩個不同旋律聲部同時交織和聲，讓音樂聽起來更加立體豐富。",
+          "cognitiveChunks": [
+            "肢體律動讓抽象拍點具象化，記住節奏型態",
+            "附點與切分節奏增添推動力與情感張力",
+            "二部合奏：兩聲部同時吹奏不同旋律形成和聲"
+          ],
+          "analogyAnchor": "直笛二部合奏就像兩條並肩流淌的溪水，第一部主旋律明亮清晰，第二部和聲溫柔襯托，一起匯聚成豐富的音樂河流。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "畢業合唱與律動",
+              "leftPoints": [
+                "品味歌詞傳達深厚祝福情意",
+                "傾聽同伴音量音準融入團隊"
+              ],
+              "rightTitle": "直笛二部合奏",
+              "rightPoints": [
+                "兩組同時吹奏不同旋律聲部",
+                "看指揮預備拍同步呼吸起音"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-art-u2-l1",
+                "text": "傾聽同伴合唱融合",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s2-art-u2-l2",
+                "text": "雙聲部交織和聲美",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/arts#u2"
+        },
+        {
+          "sceneId": "g6s2-arts-u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "克服二部合奏跑拍與同步起收技巧",
+          "narrationText": "吹奏直笛二部合奏時，第二部同學常不小心被第一部主旋律吸走而吹錯音；學會分段獨立練習與看指揮同步呼吸就能輕鬆克服。",
+          "cognitiveChunks": [
+            "先獨自吹熟第二部旋律，再看譜跟著拍點合奏",
+            "看指揮預備拍＋眼神點頭呼吸同步起收"
+          ],
+          "workedExampleData": {
+            "problemStatement": "進行直笛二部合奏時，吹奏第二部（和聲聲部）的小傑常被第一部主旋律吸引而吹成一樣的音，演出時兩部起音與收尾也常不夠整齊，該怎麼練習？",
+            "steps": [
+              "第 1 步：穩固獨立——先與同聲部夥伴把第二部旋律吹到非常純熟，合奏時專注看自己的樂譜並聽共同節拍",
+              "第 2 步：同步起收——演出前注意看指揮手勢（或聽預備拍），彼此用呼吸點頭暗號同步起音，並在最後一拍一起收氣",
+              "第 3 步：合唱融合——演唱畢業祝福歌曲時，不靠喉嚨硬喊，而是傾聽身旁同學與伴奏音量，唱出溫暖真摯的情感"
+            ],
+            "commonErrorContrast": "常見錯誤：只顧著聽主旋律而忘記自己聲部、低頭死盯樂譜不看指揮起收拍，或合唱時比賽誰吼得最大聲。",
+            "selfExplanationPrompt": "想一想：樂譜中出現「附點節奏」或「切分音」時，通常會帶給歌曲什麼樣的聽覺感受？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/arts#u2"
+        },
+        {
+          "sceneId": "g6s2-arts-u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "用和諧歌聲與笛聲傳遞祝福",
+          "topicSignalTitle": "邊唱邊傾聽團隊融合，二部合奏專注聲部同步呼吸",
+          "narrationText": "無論是歌唱還是直笛合奏，傾聽同伴、理解歌詞情感與保持呼吸同步，就能為畢業留下最動人的樂章。",
+          "cognitiveChunks": [
+            "理解歌詞意涵有助於調整音色與情緒起伏",
+            "二部合奏須先熟練各自聲部再進行合奏"
+          ],
+          "factGroundingSourceId": "115-s2/g6/arts#u2"
+        },
+        {
+          "sceneId": "g6s2-arts-u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認什麼是「直笛二部合奏」！",
+          "cognitiveChunks": [
+            "兩個聲部同時吹奏不同旋律線條形成和聲"
+          ],
+          "warmupCheck": {
+            "prompt": "在第二單元〈小小愛笛生〉複習「直笛二部合奏」時，哪一個敘述最準確說明了什麼是二部合奏？",
+            "options": [
+              "將吹奏者分為兩組，同時各自吹奏不同的旋律線條，交織出豐富的和聲層次",
+              "把一支直笛拆成兩半讓兩個人分開吹",
+              "全班只吹同一條一模一樣的單音旋律",
+              "第一組先吹完整首曲子，第二組再從頭吹一次"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！兩組同時吹奏不同聲部交織出和聲，正是二部合奏的魅力所在。",
+            "feedbackRetry": "想一想「二部」與「合奏」的意思：兩個聲部是輪流吹，還是同時一起吹出和聲呢？"
+          },
+          "factGroundingSourceId": "115-s2/g6/arts#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-arts-u3",
+      "stageId": "115-s2-g6-arts-u3",
+      "title": "第三單元 歡迎來看我的畢業展",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s2-arts-u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "畢業展海報設計、立體邀請卡與導覽手冊",
+          "narrationText": "設計畢業展文宣要能第一眼「抓住你的目光」：字體表情意、版面善用留白與資訊分層、色彩配置高對比易讀，加上立體互動邀請卡與路線清楚的導覽手冊，讓看展更有「藝」思。",
+          "cognitiveChunks": [
+            "主視覺焦點清晰＋重要展覽資訊完整（時地名）",
+            "適當留白與資訊分層（主標＞副標＞內文）",
+            "立體卡須兼顧結構牢固與文字書寫清晰"
+          ],
+          "analogyAnchor": "好的展覽文宣就像一位親切的領路人：海報用亮眼焦點招手，邀請卡用立體巧思製造驚喜，導覽手冊則帶大家不迷路地看懂每件作品。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "平面海報四大要素",
+              "leftPoints": [
+                "明確視覺焦點＋貼切表情字體",
+                "適當留白、資訊分層、清楚時地"
+              ],
+              "rightTitle": "邀請卡與導覽手冊",
+              "rightPoints": [
+                "立體彈跳機關增進互動驚喜",
+                "展場平面動線＋作品簡介導覽"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-art-u3-l1",
+                "text": "留白分層資訊清楚",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s2-art-u3-l2",
+                "text": "互動巧思與看展動線",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/arts#u3"
+        },
+        {
+          "sceneId": "g6s2-arts-u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "海報色彩對比、訊息傳達與手冊規劃",
+          "narrationText": "設計海報與邀請卡時，常不小心把畫面塞太滿、字色跟底色太相近看不清，或忘記標註展出時間地點；檢核這些細節就能做出專業文宣。",
+          "cognitiveChunks": [
+            "暖色主調搭配互補色或深淺對比讓文字清晰",
+            "海報必含主題、日期時間、地點與主辦單位"
+          ],
+          "workedExampleData": {
+            "problemStatement": "設計畢業展「夏日慶典風」海報與立體邀請卡時，如何讓作品既吸睛又有溫度，且不會讓參觀者找不到展覽時間地點或看錯動線？",
+            "steps": [
+              "第 1 步：視覺與色彩——設定清晰主視覺焦點，運用暖色（橘、黃）營造慶典熱情，並讓文字與背景保持明確明暗對比，同時保留適當留白",
+              "第 2 步：資訊分層——字體選擇符合主題（如手寫或圓潤字體表現溫馨），依「主標題＞副標＞內文」分層，清楚標示展覽主題、日期時間、地點與主辦班級",
+              "第 3 步：立體卡與導覽——邀請卡選用夠挺卡紙牢固黏貼機關並留書寫區；導覽手冊繪製展場平面圖動線與作品亮點介紹"
+            ],
+            "commonErrorContrast": "常見錯誤：用十幾種花俏字體把整張紙塞滿不留白、忘記寫日期地點，或黃字配淺白底導致文字模糊看不清。",
+            "selfExplanationPrompt": "想一想：在〈讓看展有「藝」思〉製作的導覽手冊裡，包含哪些內容最能幫助參觀者順暢看懂展覽？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/arts#u3"
+        },
+        {
+          "sceneId": "g6s2-arts-u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "美感與實用兼具的設計思維",
+          "topicSignalTitle": "視覺吸睛更要資訊明確，留白讓設計會呼吸",
+          "narrationText": "平面設計不只是畫得漂亮，更要站在讀者的角度思考閱讀動線與清晰度，讓每一張海報和邀請卡都發揮最大溝通力。",
+          "cognitiveChunks": [
+            "留白幫助眼睛聚焦重點，減少視覺壓迫感",
+            "字體造型與色彩配置能直接傳達情緒氛圍"
+          ],
+          "factGroundingSourceId": "115-s2/g6/arts#u3"
+        },
+        {
+          "sceneId": "g6s2-arts-u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認畢業展海報一定要清楚標示哪些實用展覽資訊！",
+          "cognitiveChunks": [
+            "展覽主題、日期時間、地點與主辦單位"
+          ],
+          "warmupCheck": {
+            "prompt": "設計畢業展海報時，海報上至少必須清楚標示哪些實用展覽資訊，參觀者才知道何時何地來看展？",
+            "options": [
+              "只寫設計者最喜歡吃的零食與身高體重",
+              "把所有字寫成看不懂的裝飾符號",
+              "清楚標示展覽主題名稱、展出日期時間、展覽地點以及主辦班級或單位",
+              "只畫一張大花朵，不寫任何時間與地點"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "完全正確！除了視覺美感，海報更要清楚傳達「什麼展覽、何時、何地、誰主辦」的關鍵資訊。",
+            "feedbackRetry": "想一想如果你在走廊看到一張超漂亮海報，卻找不到上面寫的日期跟教室地點，能去看展嗎？"
+          },
+          "factGroundingSourceId": "115-s2/g6/arts#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-arts-u4",
+      "stageId": "115-s2-g6-arts-u4",
+      "title": "第四單元 校園遊戲場改造計畫",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s2-arts-u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "設計思考、共融遊戲場與立體模型製作",
+          "narrationText": "運用設計思考改造校園遊戲場：先訪談觀察了解使用者需求（同理心）、欣賞融合不同能力需求的「共融式遊戲場」、腦力激盪收斂點子、規劃安全緩衝空間動線，最後做出等比例立體模型並分享設計理念。",
+          "cognitiveChunks": [
+            "設計思考第一步：觀察訪談掌握真實痛點",
+            "共融式設計考量不同年齡與身障者使用權",
+            "模型須注意比例尺度協調與空間安全動線"
+          ],
+          "analogyAnchor": "改造遊戲場就像幫全校同學訂製一件合身的衣服，必須先「量身詢問需求」（需求調查），才能設計出既好玩又安全、人人都開心的空間。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "需求調查：訪談觀察分類痛點",
+                "點子發想：腦力激盪兼顧美感實用",
+                "空間規劃：比例動線與安全緩衝區",
+                "立體模型：製作比例模型並分享理念"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-art-u4-l1",
+                "text": "同理需求定義問題",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "g6s2-art-u4-l2",
+                "text": "動線緩衝與比例模型",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/arts#u4"
+        },
+        {
+          "sceneId": "g6s2-arts-u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "從調查到空間規劃與立體模型要點",
+          "narrationText": "設計遊戲場不只是畫出可愛遊具，更要解決日曬、排隊動線、輪椅無障礙與安全緩衝等真實問題，並在立體模型中用一致比例呈現。",
+          "cognitiveChunks": [
+            "規劃溜滑梯出口緩衝區與鞦韆擺盪安全距離",
+            "統一模型比例尺以免人物與遊具大小失衡"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小組完成低年級與身障同學的訪談後，發現原有遊戲場「夏天太曬、出口會撞人、輪椅進不去」，接下來該如何規劃空間草圖與立體模型？",
+            "steps": [
+              "第 1 步：分類歸納需求——將「遮陽、動線緩衝、無障礙通道」列為改造核心目標，先腦力激盪大量點子再挑選兼顧美感與安全的可行方案",
+              "第 2 步：空間配置——在基地草圖標示充足的溜滑梯出口緩衝區與鞦韆擺盪半徑，規劃平緩無障礙坡道與遮陽綠蔭休息區",
+              "第 3 步：模型與展示——以「一致的比例尺度」製作遊戲場立體模型（如小人偶高度配合遊具大小），上台展示時說明此設計解決了哪些使用需求與人權考量"
+            ],
+            "commonErrorContrast": "常見錯誤：還沒調查需求就只畫自己喜歡的遊具、溜滑梯出口直接對著走道，或模型裡小人偶比整座溜滑梯還要高。",
+            "selfExplanationPrompt": "想一想：什麼是「共融式遊戲場」？為什麼保障每個人遊戲的權利也是人權教育的重要一環？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/arts#u4"
+        },
+        {
+          "sceneId": "g6s2-arts-u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "美感、安全與人權兼具的空間設計",
+          "topicSignalTitle": "以同理心傾聽需求，用比例模型展現設計解決力",
+          "narrationText": "好的藝術設計能真實改善生活環境！展示模型時除了介紹造型與色彩，更要講清楚如何解決同學的需求與安全問題。",
+          "cognitiveChunks": [
+            "腦力激盪階段不急著批評，先鼓勵多元創意",
+            "動線流暢與安全緩衝是遊戲場設計基本底線"
+          ],
+          "factGroundingSourceId": "115-s2/g6/arts#u4"
+        },
+        {
+          "sceneId": "g6s2-arts-u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認設計思考進行校園遊戲場改造時，第一步要先做訪談觀察的原因！",
+          "cognitiveChunks": [
+            "用同理心真正了解使用者的需求與困擾"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈需求調查員〉運用「設計思考」展開校園遊戲場改造時，為什麼第一步要先訪談同學、觀察使用現況，而不是直接開始畫設計圖？",
+            "options": [
+              "因為老師要求大家要先拖延時間才能畫圖",
+              "為了用同理心了解真正使用者的困擾與需求，避免設計出好看卻不好用或不安全的設施",
+              "為了直接抄襲別的學校的遊戲場圖案",
+              "因為訪談完就不用動手畫草圖了"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！先同理並找出使用者的真實痛點，設計出來的改造方案才真正有價值。",
+            "feedbackRetry": "想一想如果沒問過低年級或身障同學就自己畫圖，可能會忽略哪些真實使用上的困難？"
+          },
+          "factGroundingSourceId": "115-s2/g6/arts#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-arts-u5",
+      "stageId": "115-s2-g6-arts-u5",
+      "title": "第五單元 戲劇百寶箱",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s2-arts-u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "舞臺形式、跨文化表演融合與戲服設計",
+          "narrationText": "劇場舞臺有鏡框式（如透過相框看戲）、三面式與圓形環形舞臺。跨國界表演團隊常將東方傳統武術戲曲與西方現代劇場融合；舞臺戲服則透過色彩材質幫角色說話，同時兼顧活動安全與性別平權。",
+          "cognitiveChunks": [
+            "鏡框式舞臺觀眾在正前方；環形舞臺須顧及各面視角",
+            "東西方表演融合展現跨文化對話與創新魅力",
+            "戲服造型反映角色個性身分，並須兼顧伸展安全"
+          ],
+          "analogyAnchor": "舞臺戲服就像角色的「無聲名片」，不用開口說一句台詞，觀眾光看顏色、剪裁與配件，就能猜出角色的身分、性格與時代背景。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "鏡框式舞臺",
+              "leftPoints": [
+                "觀眾集中坐在正前方單面觀看",
+                "利於切換大型背景與舞台機關"
+              ],
+              "rightTitle": "三面式／圓形舞臺",
+              "rightPoints": [
+                "觀眾圍繞多方向近距離看戲",
+                "演員走位須兼顧各方向不被背對"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-art-u5-l1",
+                "text": "正前方鏡框觀賞",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s2-art-u5-l2",
+                "text": "多面圍繞走位均衡",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/arts#u5"
+        },
+        {
+          "sceneId": "g6s2-arts-u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "戲服平權設計、舞台實用性與劇場禮儀",
+          "narrationText": "設計戲服時除了美觀與打破性別刻板印象外，更要讓演員能安全跑跳；走進劇場看戲時，守時與關閉閃光燈和鈴聲是基本禮儀。",
+          "cognitiveChunks": [
+            "戲服須具活動伸展性、透氣度與安全性",
+            "破除性別服裝限制，依角色特質自由創意"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小組正為班級創意戲劇設計戲服，並準備前往專業劇場欣賞跨國界演出，在戲服設計與劇場觀演禮儀上應注意哪些重點？",
+            "steps": [
+              "第 1 步：戲服平權與敘事——運用色彩、剪裁與配件突顯角色性格與年代，且打破「女生只能穿裙、男生不能穿亮色」的性別刻板框架",
+              "第 2 步：舞臺實用性——確保戲服材質透氣、安全且具備足夠活動伸展空間，方便演員跑跳動作與快速換裝",
+              "第 3 步：劇場禮儀——準時入座、手機調靜音、演出中不飲食交談與不開閃光燈拍照，於適當段落與謝幕時給予熱烈掌聲"
+            ],
+            "commonErrorContrast": "常見錯誤：戲服做得太重或太緊讓演員走不動、演出中開手機閃光燈拍照影響演員視線，或輕視傳統文化在跨界融合中的價值。",
+            "selfExplanationPrompt": "想一想：在「圓形／環形舞臺」演戲時，演員的走位與面向和在傳統「鏡框式舞臺」有什麼不同？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/arts#u5"
+        },
+        {
+          "sceneId": "g6s2-arts-u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "欣賞跨界藝術，守護劇場禮儀",
+          "topicSignalTitle": "尊重不同文化融合創新，手機靜音不開閃光燈",
+          "narrationText": "跨國界的表演藝術讓東方與西方文化彼此對話激盪出新火花；每位好觀眾的安靜專注與掌聲，都是舞台演出不可或缺的一部分。",
+          "cognitiveChunks": [
+            "尊重傳統藝術底蘊與多元跨文化創新",
+            "戲服造型須同時考慮視覺效果與穿著安全"
+          ],
+          "factGroundingSourceId": "115-s2/g6/arts#u5"
+        },
+        {
+          "sceneId": "g6s2-arts-u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認劇場最常見、觀眾坐在正前方看戲的「舞臺形式」名稱！",
+          "cognitiveChunks": [
+            "鏡框式舞臺（Proscenium Stage）"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈讓我帶你去看戲〉認識劇場常見的舞臺形式時，觀眾集中坐在正前方，像透過一個大相框向內觀看布景與演出的舞臺稱為什麼？",
+            "options": [
+              "圓形／環形舞臺",
+              "伸展式（三面式）舞臺",
+              "鏡框式舞臺",
+              "露天草地流水舞臺"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "完全正確！學校大禮堂與許多傳統戲劇院都是觀眾面向正前方的「鏡框式舞臺」。",
+            "feedbackRetry": "想一想題目裡的線索：「像透過一個大相框一樣」坐在正前方往裡面看，這是哪一種舞臺？"
+          },
+          "factGroundingSourceId": "115-s2/g6/arts#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-arts-u6",
+      "stageId": "115-s2-g6-arts-u6",
+      "title": "第六單元 祝福與回憶",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s2-arts-u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "自畫像自我對話、畢業歌聲與回憶戲劇",
+          "narrationText": "單元統整視覺、音樂與表演藝術作為畢業禮物：從藝術家自畫像讀出內心情感並創作專屬自畫像，全班律動合唱傳達祝福，並以六年校園真實點滴編演屬於我們的畢業故事。",
+          "cognitiveChunks": [
+            "從自畫像色彩構圖與背景物件讀出內心故事",
+            "歌唱搭配溫柔整齊律動讓情感更立體動人",
+            "統整視覺、音樂、戲劇，人人皆有角色參與"
+          ],
+          "analogyAnchor": "〈祝福與回憶〉就像把六年的美好時光裝進三個藝術寶盒：畫框留住獨特的我、歌聲傳遞祝福、戲劇重現我們一起長大的故事。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "珍藏自己：色彩物件繪出獨特自畫像",
+                "祝福的樂聲：合唱搭配溫柔肢體律動",
+                "屬於我們的故事：真實校園點滴編戲劇",
+                "平等參與：幕前幕後凝聚畢業回憶"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-art-u6-l1",
+                "text": "自畫像訴說內心故事",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "g6s2-art-u6-l2",
+                "text": "多元角色人人參與",
+                "anchorPointId": "step4"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/arts#u6"
+        },
+        {
+          "sceneId": "g6s2-arts-u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "畢業自畫像巧思與人權包容戲劇排練",
+          "narrationText": "畫自畫像不只是描摹五官，加入代表自己興趣的物件與色調更能訴說故事；排練畢業戲劇時更要尊重每位同學的特質，安排多元參與方式。",
+          "cognitiveChunks": [
+            "加入書本、籃球或畫筆等背景物件展現個性",
+            "尊重害羞同學，安排旁白、音效或道具等角色"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何讓畢業自畫像不只是證件照式的臨摹？在排練班級畢業戲劇〈屬於我們的故事〉時，若有些同學比較害羞不敢說大段台詞，小組該怎麼辦？",
+            "steps": [
+              "第 1 步：自畫像創作——觀察藝術家自畫像的色彩與構圖，嘗試在自己的自畫像中加入代表興趣或夢想的物件（如書本、籃球、畫筆）與貼切色調",
+              "第 2 步：劇本來源——全班一起回憶運動會、校外教學或平日相處的真實感人點滴，改編成有共鳴的畢業劇本",
+              "第 3 步：平權參與——融入人權教育精神尊重害羞同學意願，為他們安排簡短台詞的群體角色、溫馨旁白或燈光音效與道具設計，讓每個人都能自在發光"
+            ],
+            "commonErrorContrast": "常見錯誤：強迫害羞同學背大段獨白造成恐懼或把他排除在外、完全照抄網路無關劇本，或自畫像只畫呆板正面無任何個性色彩。",
+            "selfExplanationPrompt": "想一想：全班合唱畢業歌時搭配溫柔整齊的肢體律動，對台上同學與台下觀眾有什麼影響？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/arts#u6"
+        },
+        {
+          "sceneId": "g6s2-arts-u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "將感謝化為永恆的藝術紀念",
+          "topicSignalTitle": "真誠創作自畫像、合唱與戲劇，讓每位同學都能參與",
+          "narrationText": "畢業前的藝術統整合作，最珍貴的是大家傾聽彼此回憶、互相補位，一起把六年成長與感謝留在心中。",
+          "cognitiveChunks": [
+            "從真實班級生活萃取劇本最有共鳴",
+            "共同排練凝聚班級向心力與珍貴情誼"
+          ],
+          "factGroundingSourceId": "115-s2/g6/arts#u6"
+        },
+        {
+          "sceneId": "g6s2-arts-u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認欣賞藝術家自畫像時觀察視覺元素、色彩與構圖的主要收穫！",
+          "cognitiveChunks": [
+            "讀出藝術家想傳達的內心情感、性格與時代訊息"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈珍藏自己〉欣賞藝術家的自畫像作品時，觀察畫面裡的「視覺元素、色彩與構圖」最主要能幫助我們讀出什麼？",
+            "options": [
+              "讀出藝術家透過筆觸、色調與姿態想傳達的內心情感、性格特質與生活訊息",
+              "算藝術家買這張畫布總共花了多少元",
+              "檢查藝術家的臉有沒有左右完全對稱到一毫米不差",
+              "猜測畫家當天早餐吃了什麼食物"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！自畫像是畫家與自己的對話，色彩與構圖裡往往藏著最真實的心境與故事。",
+            "feedbackRetry": "想一想畫家畫自己時為什麼會選用憂鬱的藍色或熱情的橘紅色？這傳達了什麼內在感受？"
+          },
+          "factGroundingSourceId": "115-s2/g6/arts#u6"
+        }
+      ]
+    }
+  ]
+}

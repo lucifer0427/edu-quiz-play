@@ -1,0 +1,438 @@
+{
+  "packId": "115-s1-g6-minnan",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 6,
+  "subjectId": "minnan",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-minnan-u1",
+      "stageId": "115-s1-g6-minnan-u1",
+      "title": "第一單元 歡喜做公益",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "公益詞彙、馬偕精神與「當咧」句型",
+          "narrationText": "從馬偕醫師行醫辦學的公益典範出發，學習「做志工、捐物資、幫贊」等閩南語語詞、句型「……當咧……」與連讀變調規律。",
+          "cognitiveChunks": [
+            "公益詞彙：做志工、捐物資、幫贊（幫忙協助）",
+            "句型「……當咧……」表示動作正在進行",
+            "連讀變調：詞語連唸時末字常維持本調，前字變調"
+          ],
+          "analogyAnchor": "閩南語「連讀變調」就像排隊接力：最後一位（末字）穩穩站著保持原本的「本調」，前面的字則會配合節奏自然「變調」，唸起來就會順口好聽。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "句型「……當咧……」",
+              "leftPoints": [
+                "意思：正在進行某個動作",
+                "例：這馬阿兄當咧整理舊冊"
+              ],
+              "rightTitle": "連讀變調基本規律",
+              "rightPoints": [
+                "最後一個字多維持「本調」",
+                "前面的字依規則轉成「變調」"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u1-l1",
+                "text": "當咧表示動作正在進行",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u1-l2",
+                "text": "詞語末字常維持本調",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/minnan#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "情境句閱讀與公益行動的同理心",
+          "narrationText": "讀懂「鄰居阿婆的跤無爽快，阮全家人當咧幫贊伊拚掃厝內」的鄰里互助精神，並知道真正做公益要先了解對方實際需求。",
+          "cognitiveChunks": [
+            "跤無爽快（腳不舒服）、拚掃厝內（打掃家裡）",
+            "捐贈物資須乾淨實用，先了解受助者真正需要",
+            "馬偕免費拔牙治病與辦學展現無私奉獻"
+          ],
+          "workedExampleData": {
+            "problemStatement": "想用「……當咧……」造出「大家現在正在操場撿垃圾做環保」的閩南語句子，並選出真正符合公益精神的做法，該怎麼思考？",
+            "steps": [
+              "第 1 步：找出關鍵詞「逐家（大家）」、「這馬（現在）」、「當咧（正在）」、「抾垃圾（撿垃圾）」",
+              "第 2 步：組合成句「逐家這馬當咧操場抾垃圾做環保。」",
+              "第 3 步：做公益前先了解受助者需求，整理乾淨實用的物資或用心參與志工服務"
+            ],
+            "commonErrorContrast": "常見錯誤：把「已經（完成）」或「毋曾（未曾）」誤當成表示正在進行的「當咧」，或把破舊不能穿的衣服當公益捐出。",
+            "selfExplanationPrompt": "想一想：為什麼「好心有好報／助人為快樂之本」能呼應第一單元的公益精神？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/minnan#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "生命與品德教育的實踐",
+          "topicSignalTitle": "響應「歡喜做公益」時，最重要的心意是什麼？",
+          "narrationText": "真正的公益不是打卡作秀或強迫同學，而是秉持尊重與同理心，獻上乾淨實用且切合受助者需要的幫助。",
+          "cognitiveChunks": [
+            "先了解受助對象的實際需求",
+            "捐贈物資保持乾淨完整可用",
+            "用心服務，體會助人為樂的喜悅"
+          ],
+          "factGroundingSourceId": "115-s1/g6/minnan#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次「……當咧……」的句型意義，準備闖關！",
+          "cognitiveChunks": [
+            "「當咧」表示動作正在進行"
+          ],
+          "warmupCheck": {
+            "prompt": "句子「這馬阿兄＿＿整理舊冊，準備愛捐予偏鄉圖書館。」想表達哥哥「正在」整理，應填入哪一個詞？",
+            "options": [
+              "當咧（tng-leh）",
+              "已經（í-king）",
+              "毋曾（m̄-bat）"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！「當咧」搭配「這馬（現在）」，表示動作正在進行中。",
+            "feedbackRetry": "句首有「這馬（現在）」，想表達「正在」進行動作要用哪一個詞呢？"
+          },
+          "factGroundingSourceId": "115-s1/g6/minnan#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-minnan-u2",
+      "stageId": "115-s1-g6-minnan-u2",
+      "title": "第二單元 迌買特產",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "漢字認讀與「哪會」、「毋但……閣……」句型",
+          "narrationText": "認識臺灣各地農特產與常用漢字「揣（找）」、「閣（又／再／還）」，並熟練「……哪會……」驚訝問句與「……毋但……閣……」遞進句型。",
+          "cognitiveChunks": [
+            "揣（tshuē）＝尋找；閣（koh）＝又、再、還、而且",
+            "句型「……哪會……」表達「怎麼會」的驚訝疑問",
+            "句型「……毋但……閣……」表達「不但……而且……」"
+          ],
+          "analogyAnchor": "「毋但……閣……」就像裝進特產禮盒的雙重驚喜：盒裡「不但」有好吃的水果，「而且（閣）」還有在地的文化故事，讓收禮的人一次收穫兩份快樂。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "「……哪會……」",
+              "leftPoints": [
+                "意思：怎麼會……（驚訝疑問）",
+                "例：這箱荔枝哪會遮爾甜？"
+              ],
+              "rightTitle": "「……毋但……閣……」",
+              "rightPoints": [
+                "意思：不但……而且……",
+                "例：毋但好耍，閣認捌文化"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u2-l1",
+                "text": "哪會表驚訝疑問語氣",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u2-l2",
+                "text": "毋但閣表遞進雙重收穫",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/minnan#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "臺灣各地農特產與畢業旅行品德",
+          "narrationText": "認識臺南麻豆文旦、臺東池上米、新竹米粉貢丸等在地農特產，並在畢業旅行實踐守時、愛護環境與團隊互助的品德。",
+          "cognitiveChunks": [
+            "麻豆文旦、池上米、新竹米粉貢丸、大溪豆干",
+            "「遮爾（tsiah-nī）」表示「這麼」，常配「哪會」",
+            "畢旅守時集合、垃圾帶走、不脫隊且關心夥伴"
+          ],
+          "workedExampleData": {
+            "problemStatement": "想用閩南語稱讚「這盒水蜜桃怎麼會這麼香甜！」，以及用關聯詞說「畢旅不但去博物館，還認識許多農特產」，該怎麼選詞？",
+            "steps": [
+              "第 1 步：驚訝讚歎「怎麼會這麼香甜」，使用「哪會遮爾芳甜！」",
+              "第 2 步：連接兩件正面收穫「不但……還……」，填入「毋但……閣……」",
+              "第 3 步：辨識漢字「揣」是尋找，「閣」是又／再／還，切勿誤認為忘記（袂記得）"
+            ],
+            "commonErrorContrast": "常見錯誤：把「閣（又／再／而且）」誤當成忘記，或把「毋但……閣……」前後接成矛盾不合理的事。",
+            "selfExplanationPrompt": "想一想：六年級參加畢業旅行時，有哪些表現能同時展現「戶外教育」與「品德教育」的素養？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/minnan#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "常用漢字「揣」與「閣」快速記",
+          "topicSignalTitle": "「紙箱仔揣朋友」裡的「揣」和「閣」分別是什麼意思？",
+          "narrationText": "「揣（tshuē）」是找、尋找，「閣（koh）」則是又、再、還或而且，這兩個都是日常對話超高頻率出現的閩南語漢字。",
+          "cognitiveChunks": [
+            "揣人＝找人、揣資料＝查資料",
+            "閣食一碗＝再吃一碗",
+            "袂記得＝忘記（與「閣」不同）"
+          ],
+          "factGroundingSourceId": "115-s1/g6/minnan#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次「揣」這個漢字的意思，準備進入第二關！",
+          "cognitiveChunks": [
+            "閩南語「揣（tshuē）」是尋找的意思"
+          ],
+          "warmupCheck": {
+            "prompt": "第二課課名〈紙箱仔揣朋友〉中，閩南語常用漢字「揣」是什麼意思？",
+            "options": [
+              "剪開、拆掉",
+              "尋找、找尋",
+              "用力推開"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！「紙箱仔揣朋友」就是紙箱去找朋友的意思。",
+            "feedbackRetry": "放進句子「書包不見矣，緊去共伊揣出來！」猜猜看是要去做什麼動作？"
+          },
+          "factGroundingSourceId": "115-s1/g6/minnan#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-minnan-u3",
+      "stageId": "115-s1-g6-minnan-u3",
+      "title": "第三單元 認捌各地的文化",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "「到底……抑……」句型與各國特產、食桌文化",
+          "narrationText": "學會選擇疑問句型「……到底……抑……」，認識日本壽司抹茶、法國長棍起司等各國特產，並了解臺灣「食桌」與「相招來開講」文化。",
+          "cognitiveChunks": [
+            "句型「……到底……抑……」表示「到底……還是……」",
+            "食桌＝吃宴席辦桌；相招來開講＝相約來聊天談心",
+            "好料＝美味佳餚；豐沛＝菜色豐盛澎湃"
+          ],
+          "analogyAnchor": "「到底……抑……」就像文化美食的雙叉路口：左邊是日本壽司、右邊是臺灣辦桌，用這組句型問問夥伴到底想走哪一條，再相招來開講分享。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "「到底……抑……」選擇問句",
+              "leftPoints": [
+                "意思：到底……還是……",
+                "例：到底欲食壽司，抑是披薩？"
+              ],
+              "rightTitle": "「食桌」與「開講」詞彙",
+              "rightPoints": [
+                "食桌＝圍桌吃辦桌喜宴",
+                "相招來開講＝揪伴聊天談心"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u3-l1",
+                "text": "到底抑是串起二選一",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u3-l2",
+                "text": "食桌重長輩禮儀與惜食",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/minnan#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "餐桌禮儀與面對跨國飲食差異的態度",
+          "narrationText": "與長輩同桌「食桌」要請長輩先動筷、用公筷母匙且不浪費食物；面對異國香料料理則抱持好奇與尊重，不排斥嘲笑。",
+          "cognitiveChunks": [
+            "食桌禮儀：請長輩先動筷、公筷母匙、不浪費",
+            "面對異國料理好奇尊重，認識背後故事",
+            "讀懂對話中結合「到底抑是」與「毋但閣」的決定"
+          ],
+          "workedExampleData": {
+            "problemStatement": "想問同學「明天文化交流到底要穿傳統服飾，還是穿便服？」，且和長輩同桌「食桌」時要注意什麼禮儀？",
+            "steps": [
+              "第 1 步：套用選擇疑問句型「咱明仔載到底欲穿傳統服飾，抑是穿便服？」",
+              "第 2 步：認讀「好料（美味佳餚）」與「豐沛（豐盛澎湃）」等辦桌常見讚美詞",
+              "第 3 步：同桌食桌請長輩先動筷、使用公筷母匙並依食量夾取不浪費"
+            ],
+            "commonErrorContrast": "常見錯誤：只用自己的筷子在湯裡翻攪、看到異國料理大喊好噁心，或把「開講」誤以為是上臺演講。",
+            "selfExplanationPrompt": "想一想：當跨國家庭同學帶來沒吃過的家鄉香料料理時，怎樣的回應最能展現「地球人」的胸懷？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/minnan#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "人情味滿滿的「食桌」與「開講」",
+          "topicSignalTitle": "臺灣傳統「食桌」文化裡藏著哪些美德？",
+          "narrationText": "圍著圓桌吃辦桌不只是品嚐豐沛好料，更包含請長輩先動筷的敬老美德、公筷母匙的衛生習慣與大家相招開講的情誼。",
+          "cognitiveChunks": [
+            "敬老尊賢：請長輩先動筷",
+            "衛生整潔：使用公筷母匙夾菜",
+            "珍惜食物：吃多少夾多少不浪費"
+          ],
+          "factGroundingSourceId": "115-s1/g6/minnan#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次選擇疑問句型的填空，準備進入第三關！",
+          "cognitiveChunks": [
+            "「到底……抑……」用於兩個選項之間的詢問"
+          ],
+          "warmupCheck": {
+            "prompt": "文化體驗時想問：「咱欲食＿＿是日本壽司，＿＿是義大利披薩？」兩個空格依序應填入什麼？",
+            "options": [
+              "當咧 ／ 閣",
+              "到底 ／ 抑",
+              "毋但 ／ 哪會"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！「到底……抑……」正好對應「到底……還是……」。",
+            "feedbackRetry": "這是一個二選一的疑問句，要用哪一組連接詞來問「到底……還是……」呢？"
+          },
+          "factGroundingSourceId": "115-s1/g6/minnan#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-minnan-u4",
+      "stageId": "115-s1-g6-minnan-u4",
+      "title": "統整與補充活動",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "全冊四大句型與「輝煌旅行社」會話總複習",
+          "narrationText": "透過「輝煌旅行社」情境複習問路道謝禮儀、時間詞（「這馬、明仔載、逐工」）、「無仝」與「鬥」詞意，以及全冊四大核心句型。",
+          "cognitiveChunks": [
+            "道謝「真感謝／多謝你」、問路「請問一下，車頭欲按怎行」",
+            "無仝＝不一樣；鬥＝拼湊組合起來",
+            "這馬（現在）、明仔載（明天）、逐工（每天）"
+          ],
+          "analogyAnchor": "〈語句鬥看覓〉就像玩文字積木：把主詞「你」、連接詞「到底……抑是」和兩個選項積木依照順序「鬥（拼組）」在一起，就能造出流利又道地的句子。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "四大核心句型總覽",
+              "leftPoints": [
+                "當咧（正在）、哪會（怎麼會）",
+                "毋但…閣…（不但…而且…）"
+              ],
+              "rightTitle": "選擇問句與常用時間詞",
+              "rightPoints": [
+                "到底…抑…（到底…還是…）",
+                "這馬（現在）、明仔載（明天）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u4-l1",
+                "text": "依語意選對核心句型",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u4-l2",
+                "text": "分清過去現在未來時間詞",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/minnan#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "語句重組「鬥看覓」與短文閱讀理解",
+          "narrationText": "重組閩南語選擇問句要依「主詞＋到底＋選項一＋抑是＋選項二？」順序；閱讀短文則要抓準「毋但……閣……」與「相招來開講」的正面意義。",
+          "cognitiveChunks": [
+            "語序：主詞（你）＋到底＋選項 A＋抑是＋選項 B",
+            "「欲出發矣（快出發了）」須搭配現在詞「這馬」",
+            "讀短文注意「相招來開講」是開心聊天討論"
+          ],
+          "workedExampleData": {
+            "problemStatement": "要把詞卡「去畢業旅行」、「抑是」、「欲留佇學校整理圖書」、「你到底」重組為通順問句，並幫導遊填入「各位旅客，咱＿＿欲出發矣！」，該怎麼做？",
+            "steps": [
+              "第 1 步：確認導遊後面說「欲出發矣（就要出發了）」，因此時間詞填入「這馬（現在）」",
+              "第 2 步：依「主詞＋到底＋選項一＋抑是＋選項二」排成「你到底欲留佇學校整理圖書，抑是去畢業旅行？」",
+              "第 3 步：記得旅行中受到幫忙要說「多謝你，辛苦你矣」，問路開頭說「請問一下」"
+            ],
+            "commonErrorContrast": "常見錯誤：把「昨昏（昨天）」或「頂擺（上次）」填入即將出發的句子，或把「無仝（不同）」誤以為是完全一樣。",
+            "selfExplanationPrompt": "想一想：「語詞聲調大無仝」和「語句鬥看覓」這兩個活動名稱裡的「無仝」與「鬥」各是什麼意思？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/minnan#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "旅遊情境的親切閩南語禮儀",
+          "topicSignalTitle": "出門旅遊問路或受人幫忙時，怎麼說最有禮貌？",
+          "narrationText": "先有禮貌說「請問一下」，受到導遊或居民熱情指路與幫忙後真誠說「真感謝／多謝你，辛苦你矣」，展現最美的臺灣人情味。",
+          "cognitiveChunks": [
+            "問路先說「請問一下（tshiánn-mn̄g--tsi̍t-ē）」",
+            "道謝說「真感謝／多謝你（to-siā lí）」",
+            "分清「昨昏（昨天）、這馬（現在）、明仔載（明天）」"
+          ],
+          "factGroundingSourceId": "115-s1/g6/minnan#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次「無仝」與「鬥」的詞彙意思，準備挑戰總複習關卡！",
+          "cognitiveChunks": [
+            "無仝＝不一樣；鬥＝拼湊組合"
+          ],
+          "warmupCheck": {
+            "prompt": "活動名稱〈語詞聲調大無仝〉與〈語句鬥看覓〉中，「無仝（bô-kāng）」和「鬥（tàu）」分別是什麼意思？",
+            "options": [
+              "無仝＝不一樣、不同；鬥＝拼湊、組合起來",
+              "無仝＝完全一樣；鬥＝互相吵架",
+              "無仝＝沒有聲音；鬥＝用紅筆畫線"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！「相仝」是相同、「無仝」是不同，而把詞卡拼組起來造句就是「鬥」起來。",
+            "feedbackRetry": "「仝」是相同的意思，「無仝」就是相反喔；把詞語拼成一句話又是哪個動作呢？"
+          },
+          "factGroundingSourceId": "115-s1/g6/minnan#u4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "packId": "115-s2-g4-mandarin",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 4,
+  "subjectId": "mandarin",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-mandarin-u1",
+      "stageId": "115-s2-g4-mandarin-u1",
+      "title": "第一單元 擁抱正能量",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "用字義推論詞義，將善意化為溫暖行動",
+          "narrationText": "本單元透過〈一束鮮花〉、〈心動不如行動〉、〈選拔動物之星〉與〈學習地圖一〉，練習由字義推論詞義、注音檢索，並把善意化為具體行動。",
+          "cognitiveChunks": [
+            "拆開單字字義再串連推論詞義",
+            "「身體力行」把好點子付諸實踐",
+            "注音檢索要讀準聲母、韻母與聲調"
+          ],
+          "analogyAnchor": "「雪中送炭」就像在寒冷下雪天把溫暖木炭送到急需的人手裡，把四個單字的意思串起來，就能讀懂在別人最需要時給予援助的含義。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "1. 拆解成語中的每個單字",
+                "2. 想出每個單字的意思",
+                "3. 串連畫面推論比喻含義",
+                "4. 檢索注音確認讀音與聲調"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u1-l1",
+                "text": "拆字想畫面",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "u1-l2",
+                "text": "串連推比喻",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/mandarin#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "字義推論詞義與童詩閱讀體會",
+          "narrationText": "閱讀〈選拔動物之星〉的童詩時，細細品味簡潔優美的節奏與對小生命的尊重同理；遇到「雪中送炭」等詞語時用單字字義推論。",
+          "cognitiveChunks": [
+            "雪（寒冬）、中（困境）、送（贈與）、炭（取暖）",
+            "表達正面感受需具體寫出感動原因與細節",
+            "注音檢索需分清 ㄧㄣ 與 ㄧㄤ 韻母及聲調"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何利用字義推論「雪中送炭」的意思，並用注音檢索作家「林良」？",
+            "steps": [
+              "第 1 步：拆開字義：「雪」指寒冷下雪、「送」指贈與、「炭」指取暖木炭",
+              "第 2 步：串連比喻：在他人最困難需要幫助時，及時伸出援手",
+              "第 3 步：檢索「林良」時，讀準 ㄌㄧㄣˊ ㄌㄧㄤˊ 的聲母、韻母與聲調再查詢"
+            ],
+            "commonErrorContrast": "常見錯誤：寫正向感受時只重複「好開心、好棒」，或查注音時忽略聲調與前後鼻音差異。",
+            "selfExplanationPrompt": "想一想：為什麼「心動不如行動」提醒我們光想還不夠，還要身體力行？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/mandarin#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "尊重自然與人際關懷的正能量",
+          "topicSignalTitle": "如何在生活中實踐〈一束鮮花〉與童詩的精神？",
+          "narrationText": "走進戶外細心欣賞花草生命之美而不任意採摘，看見同學需要幫忙時主動伸出援手，就是最棒的正能量行動。",
+          "cognitiveChunks": [
+            "欣賞自然花草不任意破壞",
+            "同理並尊重每個小生命的價值",
+            "用實際行動幫助身邊同學"
+          ],
+          "factGroundingSourceId": "115-s2/g4/mandarin#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題練習字義推論詞義，再進入關卡挑戰！",
+          "cognitiveChunks": [
+            "逐字理解意思再串連成整體詞義"
+          ],
+          "warmupCheck": {
+            "prompt": "利用字義推論詞義，「雪中送炭」最適合用來比喻下列哪一種情形？",
+            "options": [
+              "在別人最需要幫忙的困難時刻及時協助",
+              "在夏天請朋友吃冰棒消暑",
+              "在別人的難題解決後才來慶祝",
+              "冬天出門買一袋木炭回家"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！下雪天最需要炭火取暖，比喻在困境中給予最及時的幫助。",
+            "feedbackRetry": "把「雪、中、送、炭」四個字連成畫面想一想，在寒冷下雪天收到木炭是什麼感覺？"
+          },
+          "factGroundingSourceId": "115-s2/g4/mandarin#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-mandarin-u2",
+      "stageId": "115-s2-g4-mandarin-u2",
+      "title": "第二單元 文化廣角鏡",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "寫作讀書報告大綱，欣賞多元與地方文化",
+          "narrationText": "本單元結合〈米食飄香〉、〈讀書報告——藍色小洋裝〉、〈我愛鹿港〉與〈她是我姐姐〉，學會列寫讀書報告大綱，並品味文化薪火相傳之美。",
+          "cognitiveChunks": [
+            "讀書報告三大要素：書目資料、內容摘要、個人心得",
+            "寫作大綱像建築藍圖，讓報告更有條理",
+            "長篇文本可用段落筆記追蹤人物情感變化"
+          ],
+          "analogyAnchor": "寫讀書報告前先列「寫作大綱」，就像蓋房子前先畫好設計藍圖，能預先安排好書目、大意與心得順序，寫起來就不會離題。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "1. 書籍基本資料（書名、作者）",
+                "2. 全書重點內容摘要",
+                "3. 動人情節與個人心得",
+                "4. 結語與推薦理由"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u2-l1",
+                "text": "先列書目與摘要",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "u2-l2",
+                "text": "再寫心得與推薦",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/mandarin#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "讀書報告格式與介紹地方文化寫法",
+          "narrationText": "寫讀書報告的心得要連結書中具體情節與自身感悟；介紹家鄉小鎮則要寫出古蹟、傳統美食與先民智慧。",
+          "cognitiveChunks": [
+            "讀書報告不含無關的私人隱私資訊",
+            "介紹地方文化抓出代表性古蹟、美食或匠人故事",
+            "「薪火相傳」形容文化一代接一代延續"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何規劃〈讀書報告——藍色小洋裝〉這類報告的寫作大綱，並避免常見錯誤？",
+            "steps": [
+              "第 1 步：開頭列出書名、作者與出版者等基本書目資料",
+              "第 2 步：中段用簡潔文字摘要全書重點與精彩情節",
+              "第 3 步：結尾寫出最打動自己的段落與真實生活啟發"
+            ],
+            "commonErrorContrast": "常見錯誤：心得只寫「這本書很好看」幾個字，或以為列完大綱就不用寫正文摘要與心得。",
+            "selfExplanationPrompt": "想一想：閱讀〈她是我姐姐〉這類較長篇的故事時，邊讀邊做什麼筆記最能掌握人物關係？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/mandarin#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "文化廣角鏡的多元文化態度",
+          "topicSignalTitle": "面對不同地方的傳統米食或習俗時，怎麼欣賞？",
+          "narrationText": "各地的傳統米食與城鎮風華來自當地的物產與歷史背景。帶著欣賞與好奇心認識背後的文化故事，能讓我們看見更寬廣的世界。",
+          "cognitiveChunks": [
+            "不因習慣不同就隨意批評",
+            "認識飲食與建築背後的風土智慧"
+          ],
+          "factGroundingSourceId": "115-s2/g4/mandarin#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認讀書報告寫作大綱的好處，再進入關卡挑戰！",
+          "cognitiveChunks": [
+            "寫作大綱能規劃重點順序、避免離題"
+          ],
+          "warmupCheck": {
+            "prompt": "動筆寫讀書報告前，先列出「寫作大綱」的最大好處是什麼？",
+            "options": [
+              "可以把整本書一字不漏抄進報告",
+              "能預先規劃各段重點與順序，讓報告架構清楚不離題",
+              "列完大綱就不用再寫內容摘要",
+              "可以隨便填沒看過的書名"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！寫作大綱就像建築藍圖，能讓報告架構清楚、條理分明。",
+            "feedbackRetry": "想想蓋房子前畫設計圖的功用，寫大綱能幫我們先規劃好什麼呢？"
+          },
+          "factGroundingSourceId": "115-s2/g4/mandarin#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-mandarin-u3",
+      "stageId": "115-s2-g4-mandarin-u3",
+      "title": "第三單元 科技無極限",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "說明文的說明方法與「總說—分說—總結」結構",
+          "narrationText": "本單元透過〈未來的模樣〉、〈動物老師的智慧〉與〈向太空出發〉，學習「舉例子」等說明方法與「總說—分說—總結」結構，並探索仿生科技與太空夢想。",
+          "cognitiveChunks": [
+            "舉例說明法：用「例如……」讓抽象概念變具體",
+            "說明文架構：總說主題 → 分說原理舉例 → 總結展望",
+            "仿生科技：觀察動物構造獲得發明靈感"
+          ],
+          "analogyAnchor": "寫說明文就像當自然博物館的導覽員：先介紹主角是誰（總說），再分區講解原理並舉例（分說），最後說明對未來的意義（總結）。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "1. 總說：清楚點出說明對象",
+                "2. 分說：說明科學原理與特色",
+                "3. 舉例：用「例如…」具體說明",
+                "4. 總結：統整意義與未來展望"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u3-l1",
+                "text": "總說點出主題",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "u3-l2",
+                "text": "分說原理與舉例",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/mandarin#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "辨識說明文邏輯與舉例說明法",
+          "narrationText": "讀寫科普說明文時，要特別檢查因果順序是否正確（先觀察自然，再獲得發明靈感），不能倒果為因或前後矛盾。",
+          "cognitiveChunks": [
+            "先觀察生物構造，才設計出科技工具",
+            "「例如」常用來帶出具體生活實例",
+            "「精益求精」讚美不斷追求更進步"
+          ],
+          "workedExampleData": {
+            "problemStatement": "「未來的智慧家庭能節省能源，例如自動感應燈泡會在人離開後自動熄滅。」這運用了哪種說明方法？",
+            "steps": [
+              "第 1 步：句中先提出抽象概念「智慧家庭能節省能源」",
+              "第 2 步：接著出現關鍵詞「例如……」，帶出自動感應燈泡的具體實例",
+              "第 3 步：這種用具體實例幫助讀者理解的方法，就是「舉例說明法」"
+            ],
+            "commonErrorContrast": "常見錯誤：在說明文中寫出「因為發明了飛機，所以鳥才長出羽毛」這種倒果為因的語病。",
+            "selfExplanationPrompt": "想一想：閱讀凡爾納《從地球到月球》等經典科幻名著，對我們的科技想像與生涯探索有什麼啟發？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/mandarin#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "為什麼把動物稱作科技發明的「老師」？",
+          "topicSignalTitle": "大自然裡藏著哪些仿生科技靈感？",
+          "narrationText": "動物歷經長久演化，發展出許多精巧的身體構造與本領。科學家向大自然觀察學習，才能轉化成便利人類生活的科技設計。",
+          "cognitiveChunks": [
+            "仔細觀察生物構造與特性",
+            "將自然靈感轉化為實用發明",
+            "保持好奇心探索未知科學"
+          ],
+          "factGroundingSourceId": "115-s2/g4/mandarin#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認說明文的寫作架構，準備進入關卡！",
+          "cognitiveChunks": [
+            "總說點題 → 分說原理舉例 → 總結展望"
+          ],
+          "warmupCheck": {
+            "prompt": "想寫一篇介紹「新科技發明」的說明文，下列哪一種段落安排最有條理？",
+            "options": [
+              "先寫昨天晚餐吃什麼，最後再提科技",
+              "把同一句讚美重複寫五遍",
+              "先總說點出主題，再分段說明原理與舉例，最後總結未來展望",
+              "整篇不分段也不用標點符號"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "完全正確！「總說—分說—總結」能讓說明文條理清晰、容易閱讀。",
+            "feedbackRetry": "說明文最清楚的三段式架構是「開頭總說、中間分說舉例、結尾總結」喔！"
+          },
+          "factGroundingSourceId": "115-s2/g4/mandarin#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-mandarin-u4",
+      "stageId": "115-s2-g4-mandarin-u4",
+      "title": "第四單元 故事變裝秀",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "經典故事變裝改寫與景物情感烘托",
+          "narrationText": "本單元透過〈小青蛙想看海〉、〈窗前的月光〉、〈如來佛的手掌心〉與〈南安小熊回家〉，學習改寫經典故事的創意策略與生態關懷。",
+          "cognitiveChunks": [
+            "改寫＝保留核心精神，創意改變視角、時空或結局",
+            "借景抒情：用自然景象襯托人物心情",
+            "「各顯神通」形容大家各自展現創意才華"
+          ],
+          "analogyAnchor": "經典故事改寫就像替老故事換上新裝：主角還是大家熟悉的角色，但換成現代校園背景、另一位配角的視角，或意想不到的新結局。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "單純抄寫（無新意）",
+              "leftPoints": [
+                "只換主角名字或封面顏色",
+                "情節與視角完全照搬原著"
+              ],
+              "rightTitle": "創意變裝改寫",
+              "rightPoints": [
+                "保留原著核心精神或角色設定",
+                "創意改變視角、時空背景或結局"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u4-l1",
+                "text": "不能只換名字",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u4-l2",
+                "text": "改變視角或時空",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/mandarin#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "讓改寫角色活靈活現的寫作技巧",
+          "narrationText": "改寫故事時，如果角色只有名字沒有個性，故事就會很平淡。具體寫出角色面臨選擇時的語氣、動作與內心想法變化，才能打動讀者。",
+          "cognitiveChunks": [
+            "刻畫角色的對話口吻與神情動作",
+            "寫出面對兩難選擇時的內心想法變化",
+            "自然景象（如窗前月光）可烘托思念或靜心反思"
+          ],
+          "workedExampleData": {
+            "problemStatement": "運用〈學習地圖四〉改寫經典故事時，如何讓角色活靈活現、情節更有新意？",
+            "steps": [
+              "第 1 步：選定改寫方向，例如改變敘事視角或把背景搬到現代校園",
+              "第 2 步：設計角色遇到新問題時的反應，細寫他的語氣、動作與內心想法變化",
+              "第 3 步：適時用月光等景物烘托人物情感，讓故事更有餘韻"
+            ],
+            "commonErrorContrast": "常見錯誤：以為改寫就是把原故事重抄一遍只改名字，或讓每個配角都說一樣的話。",
+            "selfExplanationPrompt": "想一想：在〈小青蛙想看海〉這類童話中，小青蛙追尋夢想的勇氣帶給我們什麼啟發？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/mandarin#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "閱讀階梯二〈南安小熊回家〉的生態關懷",
+          "topicSignalTitle": "遇到迷途野生動物，怎樣才是真正的愛護？",
+          "narrationText": "野生動物真正的家在山林自然棲地！人類應尊重其習性、不隨意餵食或打擾，並透過專業醫療與科學追蹤協助牠獨立重返山林。",
+          "cognitiveChunks": [
+            "不把野生動物當寵物飼養或餵食",
+            "保護山林棲地，減少不當干擾",
+            "結合專業照護與科學追蹤助牠回家"
+          ],
+          "factGroundingSourceId": "115-s2/g4/mandarin#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認故事變裝改寫的原則，準備完成本學期壓軸挑戰！",
+          "cognitiveChunks": [
+            "保留核心精神，創意改變視角、時空或結局"
+          ],
+          "warmupCheck": {
+            "prompt": "下列哪一種創作方式，才稱得上是成功的「故事變裝改寫」？",
+            "options": [
+              "只換封面顏色，內文一個字都不動",
+              "把原故事照抄，只把主角改成同學綽號",
+              "保留原著核心設定，創意改變敘事視角、時空背景或結局走向",
+              "把所有情節刪掉只留標點符號"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "完全正確！留住經典精神並加入視角、時空或結局的新創意，才是精彩的變裝改寫。",
+            "feedbackRetry": "改寫不能只是換個名字照抄喔，要加入新的視角、時空或結局創意！"
+          },
+          "factGroundingSourceId": "115-s2/g4/mandarin#u4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,575 @@
+{
+  "packId": "115-s1-g5-arts",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 5,
+  "subjectId": "arts",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-arts-u1",
+      "stageId": "115-s1-g5-arts-u1",
+      "title": "第一單元 真善美的旋律",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "電影主題曲、舒伯特與高音直笛",
+          "narrationText": "電影主題曲烘托劇情情感！「歌曲之王」舒伯特創作藝術歌曲與《鱒魚》鋼琴五重奏；在樂理上認識 F 大調降 Si、降記號與二分休止符，並練好直笛運舌法！",
+          "cognitiveChunks": [
+            "舒伯特為歌曲之王，《鱒魚》為鋼琴五重奏",
+            "F 大調有 1 個降 Si（B♭），二分休止符 2 拍",
+            "直笛區分斷奏、圓滑奏與持續奏運舌法"
+          ],
+          "analogyAnchor": "運舌法就像說話的語氣：斷奏是一字一句清脆跳出、圓滑奏是一口氣流暢連貫、持續奏則飽滿吹滿拍子！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "樂理與名曲欣賞",
+              "leftPoints": [
+                "F 大調固定降 Si（♭ 降半音）",
+                "二分休止符休止 2 拍，音程為音高距離"
+              ],
+              "rightTitle": "高音直笛運舌法",
+              "rightPoints": [
+                "斷奏：每音輕吐 tu 且短促分開",
+                "圓滑奏：同一口氣連吹，僅吐首音"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "F大調調號為降Si",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "斷奏分開、圓滑連貫",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/arts#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "F 大調樂理與直笛運舌辨析",
+          "narrationText": "看懂降記號與休止符拍數，吹直笛時就能準確換氣並表現不同運舌表情。",
+          "cognitiveChunks": [
+            "降記號（♭）將原音降低半音",
+            "圓滑奏僅第一個音運舌"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在 F 大調樂曲中遇到二分休止符與圓滑線，該如何判讀拍數與吹奏直笛？",
+            "steps": [
+              "第 1 步：確認 F 大調調號固定將第三線 Si 降半音吹成降 Si（B♭）",
+              "第 2 步：以四分音符為 1 拍時，遇到二分休止符應安靜休止 2 拍",
+              "第 3 步：遇到圓滑線時用同一口氣連貫吹奏，僅第一個音輕吐「tu」"
+            ],
+            "commonErrorContrast": "常見錯誤：把二分休止符當成休止 1 拍，或是在圓滑奏時每個音都吐舌切斷。",
+            "selfExplanationPrompt": "想一想：《鱒魚》鋼琴五重奏是由鋼琴加上哪四件弦樂器一起合奏的？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/arts#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看「歌曲之王」是哪一位音樂家吧！",
+          "cognitiveChunks": [
+            "舒伯特創作逾六百首藝術歌曲，譽為歌曲之王"
+          ],
+          "warmupCheck": {
+            "question": "奧地利作曲家舒伯特創作了超過六百首藝術歌曲，在音樂史上被譽為什麼稱號？",
+            "prompt": "奧地利作曲家舒伯特創作了超過六百首藝術歌曲，在音樂史上被譽為什麼稱號？",
+            "options": [
+              "歌曲之王",
+              "交響曲之父",
+              "鋼琴詩人"
+            ],
+            "answerIndex": 0,
+            "explanation": "舒伯特以優美旋律結合詩詞創作大量藝術歌曲，被譽為「歌曲之王」！",
+            "feedbackCorrect": "答對了！舒伯特就是音樂史上的「歌曲之王」！",
+            "feedbackRetry": "想一想，海頓是交響曲之父、蕭邦是鋼琴詩人，擅長寫藝術歌曲的舒伯特是什麼稱號呢？"
+          },
+          "factGroundingSourceId": "115-s1/g5/arts#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-arts-u2",
+      "stageId": "115-s1-g5-arts-u2",
+      "title": "第二單元 歡唱人生",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "節奏拍律、傳統樂器與合奏",
+          "narrationText": "感受四四拍「強、弱、次強、弱」與附點音符的律動！欣賞直抱彈撥的琵琶與平放雁柱的古箏，並注意直笛合奏的氣息、反覆記號與聲部聆聽。",
+          "cognitiveChunks": [
+            "4/4 拍強弱為強、弱、次強、弱；附點四分 1.5 拍",
+            "琵琶梨形四弦直抱彈；古箏長方有雁柱平放彈",
+            "直笛合奏控氣、看換氣與反覆記號並互聽"
+          ],
+          "analogyAnchor": "附點就像給音符加上一半的延長尾巴：1 拍的四分音符加上 0.5 拍尾巴，就變成 1.5 拍的附點四分音符！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "節奏與附點樂理",
+              "leftPoints": [
+                "四四拍強弱：強、弱、次強、弱",
+                "附點四分音符＝1＋0.5＝1.5 拍"
+              ],
+              "rightTitle": "琵琶與古箏特色",
+              "rightPoints": [
+                "琵琶：半梨形四弦，直抱懷中彈撥",
+                "古箏：長方形木箱有雁柱，平放雙手彈"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "附點加原音符一半",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "琵琶直抱、古箏平放",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/arts#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "計算附點音符與分辨彈撥樂器",
+          "narrationText": "掌握附點的計算規則，以及琵琶和古箏的外形與演奏差異。",
+          "cognitiveChunks": [
+            "附點增加原音符一半時值",
+            "合奏重視共同速度與氣息穩定"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在四四拍樂曲中看到附點四分音符時占幾拍？合奏直笛時又要如何維持整齊？",
+            "steps": [
+              "第 1 步：四分音符本身占 1 拍，右邊的附點再加原本一半（0.5 拍）",
+              "第 2 步：1 + 0.5 = 1.5 拍，所以附點四分音符一共占 1.5 拍",
+              "第 3 步：合奏時保持氣息穩定、依照換氣與反覆記號吹奏並傾聽其他聲部"
+            ],
+            "commonErrorContrast": "常見錯誤：誤把附點當成固定加 1 拍，或誤以為古箏是直抱在懷裡演奏。",
+            "selfExplanationPrompt": "想一想：在節慶樂曲中，琵琶和古箏通常運用什麼樣的節奏來表現熱鬧喜慶？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/arts#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看四四拍的強弱規律！",
+          "cognitiveChunks": [
+            "四四拍強弱規律為強、弱、次強、弱"
+          ],
+          "warmupCheck": {
+            "question": "常見的四四拍（4/4）樂曲，每一小節四拍的強弱規律通常是如何進行？",
+            "prompt": "常見的四四拍（4/4）樂曲，每一小節四拍的強弱規律通常是如何進行？",
+            "options": [
+              "強、弱、次強、弱",
+              "強、強、強、強",
+              "弱、弱、強、弱"
+            ],
+            "answerIndex": 0,
+            "explanation": "四四拍第一拍最重（強）、第二拍輕（弱）、第三拍中等（次強）、第四拍輕（弱）！",
+            "feedbackCorrect": "答對了！強、弱、次強、弱就是四四拍的穩定律動！",
+            "feedbackRetry": "數數「1、2、3、4」時，第一拍最重，第三拍比第二拍稍微重一點喔！"
+          },
+          "factGroundingSourceId": "115-s1/g5/arts#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-arts-u3",
+      "stageId": "115-s1-g5-arts-u3",
+      "title": "第三單元 美就在你身邊",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "色彩三原色、旗幟與空間設計",
+          "narrationText": "從節慶代表色與各國國旗學高辨識度配色！認識顏料三原色「紅、黃、藍」與寒暖色系，再運用「以人為本」的設計思考與高明度色彩改造小房間！",
+          "cognitiveChunks": [
+            "顏料三原色：紅、黃、藍；暖色：紅、橙、黃",
+            "旗幟重簡潔幾何與對比色，遠看才醒目",
+            "室內設計先同理需求，淺色讓小房間顯寬敞"
+          ],
+          "analogyAnchor": "淺色和高明度色彩就像幫小房間打開一扇明亮的窗戶，反光多、視覺有膨脹感，房間立刻變寬敞！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "色彩理論與旗幟設計",
+              "leftPoints": [
+                "顏料三原色：紅、黃、藍（加白變粉）",
+                "運動會旗：簡潔幾何＋對比強的主色"
+              ],
+              "rightTitle": "設計思考與室內色彩",
+              "rightPoints": [
+                "第一步：觀察與同理居住者生活需求",
+                "小房間用淺米白或淺藍顯得開闊專心"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "顏料三原色紅黃藍",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "淺色讓小空間顯大",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/arts#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "設計思考改造小書房步驟",
+          "narrationText": "當個小小室內設計師，從了解使用者需求開始挑選最合適的牆面色彩。",
+          "cognitiveChunks": [
+            "以人為本先同理使用者需求與困擾",
+            "淺色與低彩度色彩助於開闊與專心"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何幫「空間較小且採光偏暗」的書房運用設計思考與色彩進行改造？",
+            "steps": [
+              "第 1 步：運用設計思考第一步——先觀察並同理居住者讀書、收納的實際需求",
+              "第 2 步：牆面選用高明度淺色（如淺米白、淡天藍），反射光線讓空間顯寬敞",
+              "第 3 步：閱讀角落避免刺眼螢光或大紅，選擇柔和低彩度色彩幫助專心"
+            ],
+            "commonErrorContrast": "常見錯誤：不問居住者習慣就照自己喜好買家具，或把小暗房漆成深黑、大紅。",
+            "selfExplanationPrompt": "想一想：設計學校運動會旗幟時，為什麼要避免把幾十種複雜文字寫滿旗面？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/arts#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看繪畫顏料的三原色是哪三種顏色！",
+          "cognitiveChunks": [
+            "顏料三原色為紅、黃、藍"
+          ],
+          "warmupCheck": {
+            "question": "在顏料調色的基礎概念中，「美術三原色」是指哪三種無法透過其他顏色調配出來的純色？",
+            "prompt": "在顏料調色的基礎概念中，「美術三原色」是指哪三種無法透過其他顏色調配出來的純色？",
+            "options": [
+              "紅、黃、藍",
+              "紅、綠、藍",
+              "紫、橘、綠"
+            ],
+            "answerIndex": 0,
+            "explanation": "繪畫顏料（減法混色）的三原色是紅、黃、藍，相互混合可以調出橘、綠、紫等豐富色彩！",
+            "feedbackCorrect": "答對了！繪畫顏料的三原色就是紅、黃、藍！",
+            "feedbackRetry": "注意是「繪畫顏料」的三原色，紅加黃變橘、黃加藍變綠喔！"
+          },
+          "factGroundingSourceId": "115-s1/g5/arts#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-arts-u4",
+      "stageId": "115-s1-g5-arts-u4",
+      "title": "第四單元 變換角度看世界",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "仰角俯角、透視法與景別敘事",
+          "narrationText": "由下往上看（仰角）顯得高大雄偉，由上往下看（俯角）看清整體格局！利用「近大遠小」透視法製作隧道書，再切換遠景、中景與特寫來說精彩故事。",
+          "cognitiveChunks": [
+            "仰角由下往上看顯高大；俯角由上往下看全貌",
+            "透視法為近大遠小、近實遠虛，應用於隧道書",
+            "遠景交代地點、中景拍互動、特寫放大細節情緒"
+          ],
+          "analogyAnchor": "景別就像故事的放大鏡：遠景看森林全貌、中景看朋友聊天、特寫放大眼角一滴淚，節奏立刻生動起來！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "變換視角：仰角顯雄偉、俯角看整體格局",
+                "透視魔法：近大遠小與多層紙卡做隧道書",
+                "景別切換：遠景（環境）→ 中景 → 特寫（細節）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "仰角高大、俯角看格局",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "遠景中景到特寫",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/arts#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "運用景別與透視法編排立體故事",
+          "narrationText": "製作〈取景變化多〉立體小書或隧道書時，怎麼安排畫面順序最吸引人？",
+          "cognitiveChunks": [
+            "隧道書前景框大、後景框小呈景深",
+            "從環境遠景逐步推進到細節特寫"
+          ],
+          "workedExampleData": {
+            "problemStatement": "設計三格連環故事與隧道書時，如何運用「透視法」與「景別切換」製造空間感與張力？",
+            "steps": [
+              "第 1 步：第一格用「遠景」拍整座森林或老街，交代故事發生的整體環境",
+              "第 2 步：第二格切換「中景」拍主角互動，第三格用「特寫」放大眼淚或神祕地圖",
+              "第 3 步：製作隧道書時讓近的物體大且清晰、遠的物體小且退後，層層排列出立體景深"
+            ],
+            "commonErrorContrast": "常見錯誤：所有畫面都用同一距離取景，或把遠景物體畫得比前景還大。",
+            "selfExplanationPrompt": "想一想：當我們移動視角從側面看茶壺，再從正上方俯視茶壺，看到的形狀會一樣嗎？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/arts#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看想看清主角細微表情時要選哪一種景別！",
+          "cognitiveChunks": [
+            "特寫鏡頭聚焦臉部或局部細節情緒"
+          ],
+          "warmupCheck": {
+            "question": "如果想讓觀眾仔細看清楚主角「眼角流下一滴眼淚的悲傷表情」，應該選擇哪一種景別？",
+            "prompt": "如果想讓觀眾仔細看清楚主角「眼角流下一滴眼淚的悲傷表情」，應該選擇哪一種景別？",
+            "options": [
+              "特寫",
+              "大遠景",
+              "俯瞰全景"
+            ],
+            "answerIndex": 0,
+            "explanation": "特寫會把鏡頭拉近只框住臉部或局部細節，最適合放大人物的細微表情與情緒張力！",
+            "feedbackCorrect": "答對了！要看清一滴眼淚的細節就要用「特寫」！",
+            "feedbackRetry": "想看清楚一滴眼淚這麼小的細節，鏡頭要拉近還是拉遠呢？"
+          },
+          "factGroundingSourceId": "115-s1/g5/arts#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-arts-u5",
+      "stageId": "115-s1-g5-arts-u5",
+      "title": "第五單元 手的魔法世界",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "雙手肢體、現代手偶與布袋戲",
+          "narrationText": "靈活的雙手能變出各種表演！操作現代手偶要「偶動口才動」口手同步；認識臺灣傳統布袋戲（掌中戲），包含「生旦淨末丑」行當與熱鬧的「後場」鑼鼓音樂！",
+          "cognitiveChunks": [
+            "手偶說話時配合節奏動作，未說話者傾聽",
+            "布袋戲又稱掌中戲，行當分生、旦、淨、末、丑",
+            "後場鑼鼓北管音樂營造武打與情緒氛圍"
+          ],
+          "analogyAnchor": "手偶就像戴在手上的小演員，誰講話誰就點頭張嘴、沒講話的偶就轉頭看著他聽，畫面立刻生動不混亂！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "現代手偶操偶技巧",
+              "leftPoints": [
+                "偶動口才動：說話者動，安靜者看對方",
+                "襪子紙袋環保製作，輕巧留手指空間"
+              ],
+              "rightTitle": "傳統布袋戲（掌中戲）",
+              "rightPoints": [
+                "生（男）、旦（女）、淨（大花臉）、丑",
+                "主演變換口白聲線，後場鑼鼓添張力"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "說話偶動、靜者傾聽",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "旦代表女性角色",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/arts#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "偶戲情緒表達與口白區分",
+          "narrationText": "手偶不會皺眉頭也不會笑，要怎麼演出害羞難過，或一人分飾多角呢？",
+          "cognitiveChunks": [
+            "低頭靠臉與放慢動作表現害羞難過",
+            "主演變換不同聲線區分角色"
+          ],
+          "workedExampleData": {
+            "problemStatement": "操作手偶或布袋戲演出時，如何讓觀眾分辨「誰在說話」以及「偶的心情」？",
+            "steps": [
+              "第 1 步：輪到哪隻偶說話就配合台詞點頭張合，其餘手偶保持靜止並面向說話者",
+              "第 2 步：表現害羞或難過時，讓手偶微微低頭、雙手靠向臉旁並放慢動作節奏",
+              "第 3 步：布袋戲一人分飾多角時，依生旦淨丑變換不同口白聲線，並配合後場鑼鼓氛圍"
+            ],
+            "commonErrorContrast": "常見錯誤：所有手偶同時瘋狂亂甩，或用沉重易碎材料做手偶。",
+            "selfExplanationPrompt": "想一想：傳統布袋戲中，「三分前場、七分後場」這句話說明了後場音樂有什麼重要性？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/arts#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看布袋戲行當裡的女性角色稱呼！",
+          "cognitiveChunks": [
+            "生指男性、旦指女性、淨指花臉、丑指幽默"
+          ],
+          "warmupCheck": {
+            "question": "傳統布袋戲裡的人物角色分為「生、旦、淨、末、丑」等行當。請問代表「女性角色」的是哪一個行當？",
+            "prompt": "傳統布袋戲裡的人物角色分為「生、旦、淨、末、丑」等行當。請問代表「女性角色」的是哪一個行當？",
+            "options": [
+              "旦",
+              "生",
+              "淨"
+            ],
+            "answerIndex": 0,
+            "explanation": "傳統戲曲行當中，「旦」代表女性角色（如花旦、小旦），「生」代表男性角色！",
+            "feedbackCorrect": "答對了！「旦」就是傳統戲曲裡的女性角色！",
+            "feedbackRetry": "想一想「花旦」、「小旦」都是形容哪一類戲曲人物呢？"
+          },
+          "factGroundingSourceId": "115-s1/g5/arts#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-arts-u6",
+      "stageId": "115-s1-g5-arts-u6",
+      "title": "第六單元 我們的故事",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "物品紋樣、對口相聲與音樂故事",
+          "narrationText": "把生活物件簡化成重複或對稱的「紋樣」；練好相聲基本功「說、學、逗、唱」與逗哏捧哏默契；再用不同樂器音色與速度音量變化，講出動人的音樂故事！",
+          "cognitiveChunks": [
+            "簡化生活物件輪廓重複或對稱排列成紋樣",
+            "相聲四功：說、學、逗、唱，逗哏捧哏互相傾聽",
+            "故事要素：人時地事；特定樂器代表特定角色"
+          ],
+          "analogyAnchor": "對口相聲的逗哏和捧哏就像打乒乓球，你來一球、我接一球，仔細聽對方節奏與留白，笑點才會準確落地！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "紋樣與相聲合作",
+              "leftPoints": [
+                "物件簡化重複或對稱排列成紋樣",
+                "相聲「說學逗唱」，聆聽接話留白"
+              ],
+              "rightTitle": "故事結構與音樂敘事",
+              "rightPoints": [
+                "大綱要素：人、時、地、事（起因經過結果）",
+                "特定樂器代表角色（如《彼得與狼》）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "相聲四功說學逗唱",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "樂器音色代表角色",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/arts#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "撰寫故事大綱與設計戲劇配樂",
+          "narrationText": "想為短劇編寫大綱並設計隨劇情起伏的配樂，怎麼安排最合適？",
+          "cognitiveChunks": [
+            "人、時、地與起因、經過、結果",
+            "躲藏用輕慢聲、逃跑加快並加重音量"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何撰寫完整故事大綱，並為「悄悄躲藏、忽然被發現而驚慌逃跑」的短劇設計配樂？",
+            "steps": [
+              "第 1 步：先寫出完整故事大綱，包含人物、時間、地點與事件的起因、經過、結果",
+              "第 2 步：主角悄悄躲藏時，配樂採用輕柔、緩慢且斷續的聲音營造屏息緊張感",
+              "第 3 步：被怪物發現逃跑時，突然加快速度並加重音量，烘托危機感"
+            ],
+            "commonErrorContrast": "常見錯誤：故事只寫結局沒有過程，或配樂從頭到尾速度音量固定不變。",
+            "selfExplanationPrompt": "想一想：兩位同學演出對口相聲時，為什麼不能搶話大喊而要留出停頓時間？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/arts#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看相聲的四門基本功夫是哪四個字！",
+          "cognitiveChunks": [
+            "相聲基本功為說、學、逗、唱"
+          ],
+          "warmupCheck": {
+            "question": "在〈說個故事真有趣〉認識傳統語言藝術「相聲」時，相聲演員必須練習的四門基本功夫簡稱為什麼？",
+            "prompt": "在〈說個故事真有趣〉認識傳統語言藝術「相聲」時，相聲演員必須練習的四門基本功夫簡稱為什麼？",
+            "options": [
+              "說、學、逗、唱",
+              "唱、念、做、打",
+              "琴、棋、書、畫"
+            ],
+            "answerIndex": 0,
+            "explanation": "相聲的四門基本功是「說（講述繞口令）、學（模仿）、逗（幽默）、唱（唱曲）」！",
+            "feedbackCorrect": "答對了！說、學、逗、唱就是相聲的四門基本功！",
+            "feedbackRetry": "「唱念做打」是京劇的基本功，那講笑話一搭一唱的相聲是哪四個字呢？"
+          },
+          "factGroundingSourceId": "115-s1/g5/arts#u6"
+        }
+      ]
+    }
+  ]
+}

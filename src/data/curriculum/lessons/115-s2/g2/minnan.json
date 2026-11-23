@@ -1,0 +1,381 @@
+{
+  "packId": "115-s2-g2-minnan",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 2,
+  "subjectId": "minnan",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-minnan-u1",
+      "stageId": "115-s2-g2-minnan-u1",
+      "title": "第一單元 來食好食物",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識蔬菜、餐具與美食句型",
+          "narrationText": "「菜頭」是白蘿蔔，「食甲飽」是吃得飽飽的。我們可以用「上佮意食……」分享喜歡的蔬菜，也可以用「用……做啥物代誌」介紹餐具！",
+          "cognitiveChunks": [
+            "菜頭＝白蘿蔔、菜蔬＝蔬菜",
+            "上佮意＝最喜歡、食＝吃",
+            "碗公、筷仔、湯匙是常見餐具"
+          ],
+          "analogyAnchor": "造句子就像煮一碗熱呼呼的菜頭湯，把「誰」、「最喜歡吃什麼蔬菜」或「用什麼餐具」照順序放進去就完成啦！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第一課：來買菜喔",
+              "leftPoints": [
+                "菜頭（白蘿蔔）、菜蔬（蔬菜）",
+                "句型：我上佮意食菜頭。"
+              ],
+              "rightTitle": "第二課：歡喜食甲飽",
+              "rightPoints": [
+                "餐具：碗公、湯匙、筷仔",
+                "句型：弟弟用湯匙啉湯。"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "上佮意食健康蔬菜",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "正確用餐具食甲飽",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/minnan#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "套用兩個飲食句型造句",
+          "narrationText": "跟著順序把人、餐具或蔬菜放進去，就能說出完整的閩南語句子。",
+          "cognitiveChunks": [
+            "誰＋上佮意＋食＋什麼蔬菜",
+            "誰＋用＋什麼餐具＋做什麼",
+            "飯前洗手、細嚼慢嚥不挑食"
+          ],
+          "workedExampleData": {
+            "problemStatement": "想用「（啥物人）＋用（啥物餐具）＋（做啥物代誌）。」造句，怎麼組合才合理？",
+            "steps": [
+              "第 1 步：先選一個人當主詞 →「弟弟」。",
+              "第 2 步：再選一樣吃飯用的餐具 →「用湯匙」。",
+              "第 3 步：接上搭配這個餐具的動作 →「啉湯（喝湯）」，完成「弟弟用湯匙啉湯」。"
+            ],
+            "commonErrorContrast": "常見錯誤：把人和物品位置寫反（變成「碗公用小華跳繩」），或用了非餐具的鉛筆。",
+            "selfExplanationPrompt": "想一想：媽媽問「你上佮意食啥物菜蔬？」時，你要怎麼回答她？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/minnan#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "美食小廚師暖身題",
+          "narrationText": "答對這題就可以去菜市場買菜囉！",
+          "cognitiveChunks": [
+            "菜頭就是白色的白蘿蔔"
+          ],
+          "warmupCheck": {
+            "prompt": "陪媽媽去買菜時常聽到的「菜頭」，是指哪一種蔬菜？",
+            "options": [
+              "白色長長的白蘿蔔",
+              "紅色甜甜的西瓜",
+              "黃色彎彎的香蕉"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！菜頭就是白蘿蔔，可以煮湯也可以做菜頭粿喔！",
+            "feedbackRetry": "西瓜和香蕉都是水果喔！哪一個才是煮湯常用的白色蔬菜呢？"
+          },
+          "factGroundingSourceId": "115-s2/g2/minnan#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-minnan-u2",
+      "stageId": "115-s2-g2-minnan-u2",
+      "title": "第二單元 奇妙的大自然",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "月娘變魔術與夏天的西北雨",
+          "narrationText": "夜晚的月亮叫「月娘」，形狀有時彎彎有時圓圓；夏天午後常有又急又大的「西北雨」，下完後天邊有時還會出現美麗的「虹」。",
+          "cognitiveChunks": [
+            "月娘＝月亮、天頂的＝天上的",
+            "有看著＝有看見",
+            "西北雨＝夏天午後雷陣雨"
+          ],
+          "analogyAnchor": "天空就像一個大舞台，晚上有會變形狀的「月娘」，夏天下午有急急忙忙跑來又跑走的「西北雨」。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第三課：月娘變魔術",
+              "leftPoints": [
+                "月亮形狀有時彎彎有時圓圓",
+                "我有看著天頂的月娘"
+              ],
+              "rightTitle": "第四課：西北雨與防災",
+              "rightPoints": [
+                "夏天午後又急又快雷陣雨",
+                "打雷閃電要進屋內避雨"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "抬頭看著天頂月娘",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "遇西北雨進屋避雷",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/minnan#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "自然現象句型與西北雨防災",
+          "narrationText": "學會「有看著天頂的……」句型，還要懂得遇到西北雨閃電時保護自己。",
+          "cognitiveChunks": [
+            "誰＋有看著＋天頂的＋自然現象",
+            "遇閃電打雷不躲大樹下",
+            "盡快進到安全的屋內或騎樓"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在戶外玩時突然下起伴隨閃電雷聲的「西北雨」，怎麼保護自己？",
+            "steps": [
+              "第 1 步：立刻停止戶外玩耍，不靠近溪水邊或空曠操場。",
+              "第 2 步：遠離高大的樹木和電線桿，不撐鐵柄雨傘。",
+              "第 3 步：趕快進到堅固的屋內或騎樓安全避雨。"
+            ],
+            "commonErrorContrast": "常見錯誤：下雨時躲在高高的大樹底下避雨，或跑去水溝溪邊玩水。",
+            "selfExplanationPrompt": "想一想：晚上在陽台吹風時，怎麼用閩南語跟阿公說「我有看見天上的月亮」？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/minnan#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小小氣象員暖身題",
+          "narrationText": "答對這題就能一起仰望奇妙的大自然！",
+          "cognitiveChunks": [
+            "月娘是夜晚天空裡的月亮"
+          ],
+          "warmupCheck": {
+            "prompt": "第三課「月娘變魔術」裡的「月娘」，是指天空裡的什麼？",
+            "options": [
+              "晚上的月亮",
+              "草地上的蜻蜓",
+              "白天的白雲"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！閩南語把月亮親切地叫做「月娘」，有時彎有時圓真像變魔術！",
+            "feedbackRetry": "晚上天黑黑時出現在空中、亮亮的還會變圓變彎的是誰呢？"
+          },
+          "factGroundingSourceId": "115-s2/g2/minnan#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-minnan-u3",
+      "stageId": "115-s2-g2-minnan-u3",
+      "title": "第三單元 利便的交通",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "利便的「鐵馬」與「火車」",
+          "narrationText": "「利便」就是便利、方便。近的地方可以「騎鐵馬」（騎腳踏車），去外縣市旅遊可以「坐火車」，出門安全又開心。",
+          "cognitiveChunks": [
+            "利便＝方便、便利",
+            "鐵馬＝腳踏車（自行車）",
+            "騎車戴安全帽、搭車守秩序"
+          ],
+          "analogyAnchor": "以前的人看腳踏車用鐵做成、跑得像馬一樣快，就叫它「鐵馬」；而「火車」走在長長鐵軌上，帶大家去遠方。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "騎鐵馬（近距離）",
+              "leftPoints": [
+                "用腳踩踏板前進的腳踏車",
+                "戴安全帽、雙手握車把禮讓行人"
+              ],
+              "rightTitle": "坐火車（遠距離）",
+              "rightPoints": [
+                "沿著鐵軌行駛載很多乘客",
+                "站月台黃線後、車廂輕聲細語"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "鐵馬是腳踏車",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "火車排隊守秩序",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/minnan#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "騎鐵馬與坐火車安全守則",
+          "narrationText": "交通工具很「利便」，不過一定要遵守交通規則才安全喔！",
+          "cognitiveChunks": [
+            "騎鐵馬戴好安全帽看路況",
+            "月台候車站在黃線後面",
+            "感謝導護老師說多謝、辛苦矣"
+          ],
+          "workedExampleData": {
+            "problemStatement": "全家人準備「坐火車」去旅行時，在月台和車廂內要遵守哪些安全與禮儀？",
+            "steps": [
+              "第 1 步：在月台等車時，站在黃色安全線後面不奔跑。",
+              "第 2 步：車門打開後排隊依序上下車，不推擠前面的人。",
+              "第 3 步：坐好後在車廂內輕聲說話，頭和手不伸出窗外。"
+            ],
+            "commonErrorContrast": "常見錯誤：在車廂走道追逐跑跳，或騎鐵馬放開雙手不戴安全帽。",
+            "selfExplanationPrompt": "想一想：每天早上過馬路時，可以用哪一句閩南語感謝導護老師和志工？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/minnan#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "交通小達人暖身題",
+          "narrationText": "答對這題就可以安全出發囉！",
+          "cognitiveChunks": [
+            "鐵馬就是腳踏車"
+          ],
+          "warmupCheck": {
+            "prompt": "閩南語常說的「騎鐵馬」，是指哪一種交通工具？",
+            "options": [
+              "在天上飛的飛機",
+              "用腳踩踏板前進的腳踏車",
+              "在水上開的輪船"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！鐵馬就是腳踏車，騎鐵馬時記得要戴好安全帽喔！",
+            "feedbackRetry": "早期的車架用鐵做成，要靠雙腳踩踏板跑得像馬一樣快喔！"
+          },
+          "factGroundingSourceId": "115-s2/g2/minnan#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-minnan-u4",
+      "stageId": "115-s2-g2-minnan-u4",
+      "title": "第四單元 期末故事",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "來聽〈雷公佮爍爁婆〉學品德",
+          "narrationText": "在「雷公佮爍爁婆」的故事裡，「佮」是和，「雷公」是打雷，「爍爁」是閃電。故事提醒我們打雷閃電要待在屋內保安全，也要對人與小動物有愛心。",
+          "cognitiveChunks": [
+            "佮＝和、與、跟",
+            "雷公＝打雷、爍爁＝閃電",
+            "愛護生命、友愛互助好品德"
+          ],
+          "analogyAnchor": "「佮」就像一條小繩子，把「雷公」和「爍爁婆」牽在一起；在生活裡，我們也要用愛心和禮貌把大家牽在一起。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "認識「雷公」打雷與「爍爁」閃電",
+                "打雷閃電時待室內關門窗",
+                "溫柔安慰害怕的家人與寵物"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "佮＝和、跟、與",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "防雷安全待室內",
+                "anchorPointId": "step2"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/minnan#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "防雷安全與「佮」的造句練習",
+          "narrationText": "學會自然現象的說法，也把品德教育與防雷安全記在心裡。",
+          "cognitiveChunks": [
+            "打雷閃電進堅固室內關門窗",
+            "不嘲笑害怕的同學或寵物",
+            "用「佮」連接兩個人一起活動"
+          ],
+          "workedExampleData": {
+            "problemStatement": "聽到外面「雷公」大響、看見「爍爁」閃電時，保護自己最重要的步驟是什麼？",
+            "steps": [
+              "第 1 步：立刻離開空曠操場、頂樓和大樹底下。",
+              "第 2 步：趕緊進到堅固的室內並關好門窗。",
+              "第 3 步：不要碰觸電器插頭或戶外金屬物品，也可順便安撫害怕的小狗或弟妹。"
+            ],
+            "commonErrorContrast": "常見錯誤：跑到大樹下聽雷聲，或去頂樓陽台看閃電拍照。",
+            "selfExplanationPrompt": "想一想：怎麼用「佮（和、跟）」造一句和好朋友一起玩的閩南語句子？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/minnan#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "期末故事小考驗",
+          "narrationText": "答對這題就可以參加期末總挑戰囉！",
+          "cognitiveChunks": [
+            "雷公是打雷、爍爁是閃電、佮是和"
+          ],
+          "warmupCheck": {
+            "prompt": "故事題目「雷公佮爍爁婆」裡的「佮」，是什麼意思？",
+            "options": [
+              "討厭、不要",
+              "飛走、不見",
+              "和、與、跟"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！「佮」就是「和、跟」的意思，連接前後兩個詞喔！",
+            "feedbackRetry": "把「雷公」和「爍爁婆」兩個人物連在一起的字是什麼意思呢？"
+          },
+          "factGroundingSourceId": "115-s2/g2/minnan#u4"
+        }
+      ]
+    }
+  ]
+}

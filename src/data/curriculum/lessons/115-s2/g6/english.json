@@ -1,0 +1,747 @@
+{
+  "packId": "115-s2-g6-english",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 6,
+  "subjectId": "english",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-english-u0",
+      "stageId": "115-s2-g6-english-u0",
+      "title": "開學預備週 Starter",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "g6s2-english-u0-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "生活中的年份、樓層、溫度與金額英語表達",
+          "narrationText": "六下 Starter 單元複習生活中的數字用法：包含西元年份、樓層序數、攝氏溫度與金額，以及對話角色扮演與句子書寫規範。",
+          "cognitiveChunks": [
+            "年份 2026：twenty twenty-six（兩位兩位唸）",
+            "樓層用序數：on the third floor（在三樓）",
+            "溫度 25°C：twenty-five degrees Celsius"
+          ],
+          "analogyAnchor": "不同場合的數字有各自的專用單位：樓層用序數、溫度配 degrees、金額配 dollars！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "序數與年份",
+              "leftPoints": [
+                "三樓 → on the third floor",
+                "2026 年 → twenty twenty-six"
+              ],
+              "rightTitle": "溫度與金額",
+              "rightPoints": [
+                "25°C → twenty-five degrees Celsius",
+                "$350 → three hundred and fifty dollars"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-e-u0-l1",
+                "text": "樓層用序數third",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s2-e-u0-l2",
+                "text": "溫度與金額表達",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/english#u0"
+        },
+        {
+          "sceneId": "g6s2-english-u0-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "句子書寫規範與對話禮貌回應",
+          "narrationText": "摹寫英文句子時記得「句首大寫、單字間留空格、句尾加標點」；角色扮演對話則注意對方語氣與回應詞。",
+          "cognitiveChunks": [
+            "直述句句首大寫、句尾加句點（.）",
+            "Nice to see you again! → Nice to see you, too!"
+          ],
+          "workedExampleData": {
+            "problemStatement": "檢查句子：\"we are in Grade six?\" 哪裡需要修正？又該如何唸出 1,200？",
+            "steps": [
+              "第 1 步：句首字母 w 必須大寫為 We",
+              "第 2 步：這是一句肯定直述句（我們在六年級），句尾不能用問號，要改成句點：We are in Grade Six.",
+              "第 3 步：1,200 拆成千位與百位唸作 one thousand two hundred"
+            ],
+            "commonErrorContrast": "常見錯誤：說「在三樓」時誤用基數 three（誤寫成 on the three floor），忘記樓層要用序數 third。",
+            "selfExplanationPrompt": "想一想：當朋友即將轉學或參加比賽時，可以用哪一句兩個字的英文祝福他？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/english#u0"
+        },
+        {
+          "sceneId": "g6s2-english-u0-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "句首大寫與標點符號檢查",
+          "topicSignalTitle": "寫完英文句子必做的 3 秒檢查",
+          "narrationText": "每次寫完英文句子，檢查：1. 第一個字母大寫了嗎？2. 專有名詞或 I 大寫了嗎？3. 句尾放對句點（.）或問號（?）了嗎？",
+          "cognitiveChunks": [
+            "Good luck!（祝你好運！）",
+            "Nice to see you, too!（我也很高興見到你！）"
+          ],
+          "factGroundingSourceId": "115-s2/g6/english#u0"
+        },
+        {
+          "sceneId": "g6s2-english-u0-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認樓層序數與數字唸法！",
+          "cognitiveChunks": [
+            "樓層要用序數 first, second, third"
+          ],
+          "warmupCheck": {
+            "prompt": "要告訴同學「音樂教室在二樓」，英文 \"on the ___ floor\" 的空格應填入哪一個字？",
+            "options": [
+              "two",
+              "second",
+              "twelve",
+              "twenty"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！二樓要用序數 second，即 on the second floor。",
+            "feedbackRetry": "樓層要用「第幾」的序數，二樓不是 two，而是 second 喔！"
+          },
+          "factGroundingSourceId": "115-s2/g6/english#u0"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-english-u1",
+      "stageId": "115-s2-g6-english-u1",
+      "title": "Unit 1 Where Were You Yesterday?",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "g6s2-english-u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "用過去式 be 動詞（was / were）詢問昨天在哪裡",
+          "narrationText": "詢問過去時間（yesterday）某人在哪裡時，be 動詞要從 am/is/are 變成過去式的 was/were：I/he/she 配 was，you/we/they 配 were。",
+          "cognitiveChunks": [
+            "Where were you yesterday? → I was at the library.",
+            "Was Amy at the museum? → Yes, she was. / No, she wasn't.",
+            "Phonics：l-blends (bl, cl, gl, pl)、r-blends (cr, gr, tr, dr)"
+          ],
+          "analogyAnchor": "was 和 were 就像時光機的過去按鈕：am 和 is 坐上時光機變成 was，are 坐上時光機變成 were！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "單數主詞配 was",
+              "leftPoints": [
+                "I / He / She / Amy → was",
+                "否定縮寫：wasn't"
+              ],
+              "rightTitle": "複數與 you 配 were",
+              "rightPoints": [
+                "You / We / They / Leo and Ken → were",
+                "否定縮寫：weren't"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-e-u1-l1",
+                "text": "I/He/She用was",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s2-e-u1-l2",
+                "text": "複數配were",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/english#u1"
+        },
+        {
+          "sceneId": "g6s2-english-u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "切換問句與答句的過去式 be 動詞",
+          "narrationText": "特別注意：問句問 \"Were you...?\" 時，回答主詞從 you 變成 I，所以 be 動詞也要跟著從 were 變成 was！",
+          "cognitiveChunks": [
+            "Were you...? → Yes, I was. / No, I wasn't.",
+            "Were Leo and Ken...? → Yes, they were."
+          ],
+          "workedExampleData": {
+            "problemStatement": "完成對話：\"Where ___ you yesterday? — I ___ at the library.\"",
+            "steps": [
+              "第 1 步：問句主詞是 you，且時間是 yesterday（昨天），所以第一格填 were",
+              "第 2 步：回答的主詞變成 I（第一人稱單數），過去式 be 動詞必須用 was",
+              "第 3 步：若是問兩個人 \"Where were Leo and Ken?\"，回答用 They were..."
+            ],
+            "commonErrorContrast": "常見錯誤：看到問句有 were，回答 \"I ___\" 時就跟著寫 I were（其實 I 要配 was），或是誤用成現在式 I am。",
+            "selfExplanationPrompt": "想一想：l-blends（如 blue, play）和 r-blends（如 train, green）在拼讀時有什麼差異？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/english#u1"
+        },
+        {
+          "sceneId": "g6s2-english-u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "Phonics 焦點：複合子音 blends 與長母音 a_e",
+          "topicSignalTitle": "pl/bl/cl/gl、cr/gr/tr/dr 與 a_e（cake, lake）",
+          "narrationText": "本單元練習子音音組 l-blends（blue, clap, glad, play）與 r-blends（train, green, draw），以及字尾有不發音 e 使 a 發長音的 a_e（cake, lake）。",
+          "cognitiveChunks": [
+            "l-blends：play, blue, clap, glad",
+            "r-blends：train, green, draw；長母音：cake, lake"
+          ],
+          "factGroundingSourceId": "115-s2/g6/english#u1"
+        },
+        {
+          "sceneId": "g6s2-english-u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認過去式 be 動詞 was 與 were 的搭配！",
+          "cognitiveChunks": [
+            "單數用 was，複數與 you 用 were"
+          ],
+          "warmupCheck": {
+            "prompt": "填空：\"Where ___ Amy yesterday afternoon? — She ___ at the museum.\"",
+            "options": [
+              "were / were",
+              "was / was",
+              "is / was",
+              "did / was"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！Amy 和 She 都是單數第三人稱，過去式 be 動詞都要用 was。",
+            "feedbackRetry": "Amy 只有一個人，時間是昨天（yesterday），要用過去式單數的 was 喔！"
+          },
+          "factGroundingSourceId": "115-s2/g6/english#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-english-u2",
+      "stageId": "115-s2-g6-english-u2",
+      "title": "Unit 2 What Did You Do Last Night?",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "g6s2-english-u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "用過去式助動詞 did 與過去式動詞談論昨晚活動",
+          "narrationText": "詢問過去做了「什麼動作」時，用 \"What did + 主詞 + do + 過去時間?\"；回答肯定句時，動詞要變成過去式（規則加 -ed 或不規則變化）。",
+          "cognitiveChunks": [
+            "What did you do last night?（助動詞 did 後用原形 do）",
+            "規則過去式：watched, played, studied（去 y 加 ied）",
+            "不規則過去式：go → went、eat → ate、do → did、read → read"
+          ],
+          "analogyAnchor": "助動詞 did 就像一顆「過去式吸塵器」，只要問句裡出現 did，後面的動作就通通吸回原形；回答沒有 did 時，動詞才自己穿上過去式外衣！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "問句／否定句（有 did / didn't）",
+              "leftPoints": [
+                "What did you do last night?",
+                "I didn't wash the dishes.（用原形）"
+              ],
+              "rightTitle": "肯定答句（無 did，動詞變過去式）",
+              "rightPoints": [
+                "規則：studied, watched, baked",
+                "不規則：went, ate, read, did"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-e-u2-l1",
+                "text": "有did後面用原形",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s2-e-u2-l2",
+                "text": "肯定句動詞變過去式",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/english#u2"
+        },
+        {
+          "sceneId": "g6s2-english-u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握規則與不規則過去式動詞變化",
+          "narrationText": "背不規則過去式動詞時可以成對記憶（go / went、eat / ate、write / wrote），特別注意 read 過去式拼字不變但唸法不同！",
+          "cognitiveChunks": [
+            "子音 + y 結尾：去 y 加 ied（study → studied）",
+            "不規則變化不能直接加 -ed"
+          ],
+          "workedExampleData": {
+            "problemStatement": "將錯誤的過去式句子改正：\"What did she did last night? — She goed to bed early.\"",
+            "steps": [
+              "第 1 步：問句已經有過去式助動詞 did，後面的主要動詞必須變回原形 do：What did she do last night?",
+              "第 2 步：go 是不規則動詞，過去式不是 goed，要改成 went",
+              "第 3 步：正確答句為 She went to bed early."
+            ],
+            "commonErrorContrast": "常見錯誤：在問句寫成 What did she watched，或把 go、eat 直接加 ed 寫成 goed、eated。",
+            "selfExplanationPrompt": "想一想：s-blends（sw, sp, st, sk）開頭的單字，你能舉出哪三個？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/english#u2"
+        },
+        {
+          "sceneId": "g6s2-english-u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "Phonics 焦點：s-blends（sw, sp, st, sk）",
+          "topicSignalTitle": "swim、spoon、star、skip 的子音連綴",
+          "narrationText": "練習 s-blends 時，先把 /s/ 的氣音發輕，緊接著發出後面的子音（如 swim, spoon, star, skip），不要在中間多加母音喔。",
+          "cognitiveChunks": [
+            "s-blends：swim, spoon, star, skip"
+          ],
+          "factGroundingSourceId": "115-s2/g6/english#u2"
+        },
+        {
+          "sceneId": "g6s2-english-u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認過去式疑問句與否定簡答！",
+          "cognitiveChunks": [
+            "Did 問句用 did / didn't 簡答"
+          ],
+          "warmupCheck": {
+            "prompt": "對話填空：\"Did you clean your room last night? — No, I ___.\"",
+            "options": [
+              "wasn't",
+              "don't",
+              "didn't",
+              "weren't"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "完全正確！用 Did 開頭的問句，否定簡答要用 didn't。",
+            "feedbackRetry": "問句開頭的助動詞是 Did，否定簡答就要用對應的過去式助動詞縮寫喔！"
+          },
+          "factGroundingSourceId": "115-s2/g6/english#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-english-u3",
+      "stageId": "115-s2-g6-english-u3",
+      "title": "Review 1",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "g6s2-english-u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "寫日記總複習：過去地點（was/were）＋ 過去活動（did）",
+          "narrationText": "Review 1 透過「寫日記」把 Unit 1 與 Unit 2 結合起來：記錄過去在哪裡用 was/were，記錄當時做了什麼事用過去式動詞。",
+          "cognitiveChunks": [
+            "地點狀態：I was at the park.（我在公園）",
+            "動作事件：I baked cookies.（我烤了餅乾）",
+            "過去時間詞：yesterday, last night, last weekend"
+          ],
+          "analogyAnchor": "寫英文日記就像拍兩張連環照片：第一張拍「你在哪裡」（was/were），第二張拍「你在做什麼」（過去式動詞）！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "寫下過去時間（last weekend）",
+                "寫出當時地點（was at the park）",
+                "寫出做的活動（baked cookies）",
+                "檢查全部動詞皆為過去式"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-e-u3-l1",
+                "text": "地點配was/were",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "g6s2-e-u3-l2",
+                "text": "動作配過去式動詞",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/english#u3"
+        },
+        {
+          "sceneId": "g6s2-english-u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "閱讀英文日記與檢查時態一致",
+          "narrationText": "在同一篇記錄昨天的日記裡，所有的動詞都要保持「過去式」一致，不可以一半用現在式、一半用過去式。",
+          "cognitiveChunks": [
+            "and 連接兩個過去動作時，前後都要過去式",
+            "讀日記先圈時間詞（morning / afternoon）與地點"
+          ],
+          "workedExampleData": {
+            "problemStatement": "找出句子錯誤並修正：\"Yesterday, I was at home and do my homework.\"",
+            "steps": [
+              "第 1 步：句首時間是 Yesterday（昨天），前半句 I was at home 是正確的過去式",
+              "第 2 步：後半句的動詞 do 也是昨天發生的動作，必須改成過去式 did",
+              "第 3 步：修正後為 Yesterday, I was at home and did my homework."
+            ],
+            "commonErrorContrast": "常見錯誤：只記得把第一個動詞變成過去式（was），後面的第二個動詞（do）就忘記改了。",
+            "selfExplanationPrompt": "想一想：在日記中看到 wasn't at the zoo, was at the museum 時，作者到底去哪裡了？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/english#u3"
+        },
+        {
+          "sceneId": "g6s2-english-u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "Phonics 長母音複習：i_e 與 o_e",
+          "topicSignalTitle": "bike / kite（i_e）與 home / rose（o_e）",
+          "narrationText": "複習長母音組合：字尾不發音的 e 會讓前面的母音唸出字母本身的名稱，例如 bike / kite 的 /aɪ/ 與 home / rose 的 /oʊ/。",
+          "cognitiveChunks": [
+            "i_e：bike, kite；o_e：home, rose",
+            "過去時間副詞：yesterday, last weekend"
+          ],
+          "factGroundingSourceId": "115-s2/g6/english#u3"
+        },
+        {
+          "sceneId": "g6s2-english-u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認日記時間副詞與過去式文法！",
+          "cognitiveChunks": [
+            "last + 時間 ＝ 過去式線索"
+          ],
+          "warmupCheck": {
+            "prompt": "下列哪一個句子最適合寫在「記錄昨天的英文日記」裡？",
+            "options": [
+              "Yesterday, I am at the zoo and see pandas.",
+              "Yesterday, I was at the zoo and saw pandas.",
+              "Tomorrow, I was at the zoo and saw pandas.",
+              "Yesterday, I were at the zoo and see pandas."
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！Yesterday 搭配過去式 was 與過去式 saw（see 的過去式），前後時態完全一致。",
+            "feedbackRetry": "記錄昨天（Yesterday）的事，兩個動詞都要用過去式（I 配 was，see 的過去式是 saw）喔！"
+          },
+          "factGroundingSourceId": "115-s2/g6/english#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-english-u4",
+      "stageId": "115-s2-g6-english-u4",
+      "title": "Unit 3 How Much Is the T-shirt?",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "g6s2-english-u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "用 How much 詢問單數與複數衣物的價格",
+          "narrationText": "購物詢問價格要用 \"How much...\"：單數衣物（T-shirt, cap, jacket）配 is，回答用 It's...；複數衣物（shoes, socks, shorts）配 are，回答用 They're...。",
+          "cognitiveChunks": [
+            "單數：How much is the T-shirt? → It's ... dollars.",
+            "複數：How much are the shoes? → They're ... dollars.",
+            "環保消費：Buy only what you need and donate old clothes."
+          ],
+          "analogyAnchor": "買一件東西（單數）用 is 和 It's；買一雙或兩件以上（複數）用 are 和 They're！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "單數衣物（is / It's）",
+              "leftPoints": [
+                "the T-shirt / jacket / cap",
+                "How much is...? → It's ... dollars."
+              ],
+              "rightTitle": "複數衣物（are / They're）",
+              "rightPoints": [
+                "the shoes / socks / shorts",
+                "How much are...? → They're ... dollars."
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-e-u4-l1",
+                "text": "單數配is與It's",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s2-e-u4-l2",
+                "text": "複數配are",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/english#u4"
+        },
+        {
+          "sceneId": "g6s2-english-u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "讀懂百位數英文標價與單複數衣物詞",
+          "narrationText": "聽到價格 \"eight hundred and fifty dollars\" 時，拆成 800 + 50 = 850 元；也要記住成對穿戴的鞋子、襪子與短褲恆為複數。",
+          "cognitiveChunks": [
+            "hundred（百）＋ 個十位數字 ＝ 金額",
+            "shoes, socks, shorts 恆為複數"
+          ],
+          "workedExampleData": {
+            "problemStatement": "完成對話：\"How much ___ the socks? — ___ one hundred and twenty dollars.\"",
+            "steps": [
+              "第 1 步：socks（襪子）通常成雙購買且字尾有 s，屬於複數名詞，所以問句 be 動詞填 are",
+              "第 2 步：回答複數物品的價格時，代名詞使用 They're（They are）",
+              "第 3 步：one hundred and twenty dollars 就是 120 元"
+            ],
+            "commonErrorContrast": "常見錯誤：用 How many 問價錢（How many 是問數量「幾個」），或回答複數鞋子價格時誤用單數的 It's。",
+            "selfExplanationPrompt": "想一想：在環境教育觀念下，買衣服時如何做到不浪費？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/english#u4"
+        },
+        {
+          "sceneId": "g6s2-english-u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "衣物單字與綠色消費觀念",
+          "topicSignalTitle": "只買需要的衣物，舊衣可捐贈或再利用",
+          "narrationText": "認識常見衣物（T-shirt, jacket, cap, shorts, shoes, socks）的同時，實踐 \"Buy only what you need and donate old clothes.\"（只買需要的並捐贈舊衣）。",
+          "cognitiveChunks": [
+            "jacket（夾克）、cap（帽子）、shorts（短褲）",
+            "donate old clothes（捐贈舊衣愛地球）"
+          ],
+          "factGroundingSourceId": "115-s2/g6/english#u4"
+        },
+        {
+          "sceneId": "g6s2-english-u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認問價格的句型與單複數搭配！",
+          "cognitiveChunks": [
+            "問價格用 How much"
+          ],
+          "warmupCheck": {
+            "prompt": "在服飾店想問店員「這雙鞋子多少錢？」，下列哪一句最正確？",
+            "options": [
+              "How many are the shoes?",
+              "How much is the shoes?",
+              "How much are the shoes?",
+              "How old are the shoes?"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "完全正確！問價格用 How much，且 the shoes 是複數要搭配 are。",
+            "feedbackRetry": "問價格要用 How much（不是 How many），而且 shoes 是複數要搭配 are 喔！"
+          },
+          "factGroundingSourceId": "115-s2/g6/english#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-english-u5",
+      "stageId": "115-s2-g6-english-u5",
+      "title": "Unit 4 What's Your Favorite Season?",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "g6s2-english-u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "用英文談論最喜歡的季節與四季氣候",
+          "narrationText": "用 \"What's your favorite season?\" 詢問最喜歡的季節，用 \"What's the weather like in...?\" 詢問天氣，搭配春夏秋冬與天氣形容詞回答。",
+          "cognitiveChunks": [
+            "四季：spring（春）、summer（夏）、fall（秋）、winter（冬）",
+            "天氣：warm（暖）、hot（熱）、cool（涼）、cold（冷）",
+            "天氣現象：sunny, rainy, windy, snowy"
+          ],
+          "analogyAnchor": "四季和溫度剛好配成對：spring 配 warm、summer 配 hot、fall 配 cool、winter 配 cold！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "春夏季節與天氣",
+              "leftPoints": [
+                "spring（春）→ warm and sunny",
+                "summer（夏）→ hot and sunny"
+              ],
+              "rightTitle": "秋冬季節與天氣",
+              "rightPoints": [
+                "fall（秋）→ cool and windy",
+                "winter（冬）→ cold and snowy"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-e-u5-l1",
+                "text": "春warm夏hot",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s2-e-u5-l2",
+                "text": "秋cool冬cold",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/english#u5"
+        },
+        {
+          "sceneId": "g6s2-english-u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "區分季節問句與天氣問句的回答方式",
+          "narrationText": "問「最喜歡什麼季節」回答 \"My favorite season is...\"；問「天氣怎麼樣」則用 \"It's + 天氣形容詞.\" 回答。",
+          "cognitiveChunks": [
+            "What's your favorite season? → My favorite season is fall.",
+            "What's the weather like? → It's cool and windy."
+          ],
+          "workedExampleData": {
+            "problemStatement": "完成對話：\"What's your favorite season? — My favorite season is ___. It's ___ and sunny.\"",
+            "steps": [
+              "第 1 步：若想回答「夏天」，第一格填入季節名詞 summer",
+              "第 2 步：形容夏天炎熱晴朗，第二格填入溫度形容詞 hot（It's hot and sunny.）",
+              "第 3 步：若改問冬天，則是 winter 搭配 cold and snowy"
+            ],
+            "commonErrorContrast": "常見錯誤：問 \"What's your favorite season?\" 時用 Yes/No 回答，或把季節和天氣配錯（如夏天配 cold）。",
+            "selfExplanationPrompt": "想一想：cute 和 flute 都是 u_e 結構（長母音 u），那 cut、cup 中的 u 發的是短母音還是長母音？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/english#u5"
+        },
+        {
+          "sceneId": "g6s2-english-u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "Phonics 焦點：長母音 e 與長母音 u",
+          "topicSignalTitle": "these / tree（長母音 e）與 cute / flute（長母音 u）",
+          "narrationText": "複習長母音拼讀：these 與 tree 發長母音 /iː/（區別於 bed, pen 的短母音）；cute 與 flute 發長母音 /uː/（區別於 cut, cup, bus 的短母音）。",
+          "cognitiveChunks": [
+            "長母音 e：these, tree",
+            "長母音 u：cute, flute"
+          ],
+          "factGroundingSourceId": "115-s2/g6/english#u5"
+        },
+        {
+          "sceneId": "g6s2-english-u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認四季名稱與天氣形容詞！",
+          "cognitiveChunks": [
+            "rainy（下雨的）、windy（多風的）"
+          ],
+          "warmupCheck": {
+            "prompt": "如果秋天的天氣涼爽又常刮風，英文 \"It's ___ and ___.\" 最適合填入哪一組形容詞？",
+            "options": [
+              "hot / snowy",
+              "cool / windy",
+              "freezing / sunny",
+              "warm / snowy"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！秋天的典型氣候就是涼爽（cool）且多風（windy）。",
+            "feedbackRetry": "「涼爽」是 cool，「多風的」是 windy，找這兩個字就對了！"
+          },
+          "factGroundingSourceId": "115-s2/g6/english#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-english-u6",
+      "stageId": "115-s2-g6-english-u6",
+      "title": "Review 2 & 文化教學",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "g6s2-english-u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "旅遊計畫統整 ＋ 世界運動文化（Sports Around the World）",
+          "narrationText": "Review 2 結合季節天氣與衣物價格來規劃「旅遊計畫」；文化單元則帶我們認識世界各地受歡迎的運動（soccer, baseball, basketball）並培養多元尊重。",
+          "cognitiveChunks": [
+            "旅遊計畫：依目的地季節天氣決定攜帶衣物",
+            "運動單字：soccer（足球）、baseball（棒球）、basketball（籃球）",
+            "球類運動前面不加冠詞（play basketball）"
+          ],
+          "analogyAnchor": "出發去旅行前要看氣象選衣服，到了當地還能跟外國朋友一起打球交流運動文化！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "Review 2 旅遊計畫",
+              "leftPoints": [
+                "天氣冷又下雨 → take a warm coat and an umbrella",
+                "購物問價 → How much is/are...?"
+              ],
+              "rightTitle": "世界運動文化",
+              "rightPoints": [
+                "soccer（足球）/ baseball（棒球）",
+                "Learn about and respect different sports cultures."
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-e-u6-l1",
+                "text": "依天氣準備衣物",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s2-e-u6-l2",
+                "text": "尊重各國運動文化",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/english#u6"
+        },
+        {
+          "sceneId": "g6s2-english-u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "讀懂旅遊計畫並正確使用球類運動片語",
+          "narrationText": "閱讀旅遊計畫短文時，先抓「地點、季節天氣、建議物品／活動」三個重點；說到「喜歡打球」時記得球類前面不加 a。",
+          "cognitiveChunks": [
+            "I like playing basketball.（不加 a）",
+            "問價格：複數眼鏡（sunglasses）用 are / They're"
+          ],
+          "workedExampleData": {
+            "problemStatement": "旅遊計畫寫道：\"We are going to Taipei in winter. It is cold and rainy, so take a coat and an umbrella.\" 去臺北該帶什麼？又該如何正確表達「我喜歡打棒球」？",
+            "steps": [
+              "第 1 步：從計畫找到天氣線索 \"cold and rainy\"，因此要帶外套（a coat）和雨傘（an umbrella）",
+              "第 2 步：表達喜歡某項運動可用 \"I like playing + 運動名稱\"",
+              "第 3 步：球類運動前面不加冠詞 a，所以正確寫法是 I like playing baseball."
+            ],
+            "commonErrorContrast": "常見錯誤：寫成 I play a basketball（多加了 a），或沒看清目的地天氣就選錯要帶的衣物。",
+            "selfExplanationPrompt": "想一想：認識世界各國不同的特色運動時，我們應該抱持什麼樣的文化態度？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/english#u6"
+        },
+        {
+          "sceneId": "g6s2-english-u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "多元文化素養：Sports Around the World",
+          "topicSignalTitle": "Learn about and respect different sports cultures around the world.",
+          "narrationText": "每個國家都有自己熱愛的代表性運動（如美式英語稱足球為 soccer、臺灣與日本熱愛 baseball），學習認識並尊重不同運動文化，能讓我們更有國際視野。",
+          "cognitiveChunks": [
+            "soccer（足球）、baseball（棒球）、badminton（羽球）",
+            "認識（learn about）並尊重（respect）多元文化"
+          ],
+          "factGroundingSourceId": "115-s2/g6/english#u6"
+        },
+        {
+          "sceneId": "g6s2-english-u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認運動單字與球類文法！",
+          "cognitiveChunks": [
+            "play + 球類（不加 a）"
+          ],
+          "warmupCheck": {
+            "prompt": "下列哪一句英文正確表達了「我喜歡踢足球」？",
+            "options": [
+              "I like playing a soccer.",
+              "I like playing soccer.",
+              "I am soccer.",
+              "I was soccer yesterday."
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！球類運動 soccer 前面不需要加冠詞 a，說 I like playing soccer. 就對了。",
+            "feedbackRetry": "記得「打球、踢球」在英文裡，球類名稱前面不需要加 a 喔！"
+          },
+          "factGroundingSourceId": "115-s2/g6/english#u6"
+        }
+      ]
+    }
+  ]
+}

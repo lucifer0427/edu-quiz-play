@@ -8,6 +8,186 @@
   "lessons": [
     {
       "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-math-u1",
+      "stageId": "115-s2-g5-math-u1",
+      "title": "第1章 數的十進位結構",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "從兆位到千分位的十進位階梯",
+          "narrationText": "數的十進位結構就像一座整齊的階梯：每往左一格就是原來的 10 倍，每往右一格就是原來的十分之一，大數每四位分成一節（個、萬、億、兆）。",
+          "cognitiveChunks": [
+            "每進四位一節：1 兆＝10000 億",
+            "小數點右邊依序：十分、百分、千分位",
+            "往左移 1 位 ×10，往右移 1 位 ÷10"
+          ],
+          "analogyAnchor": "把位值表想像成樓梯：每往上一階放大 10 倍，往下一階縮小成十分之一，小數點就是一樓和地下室的界線。",
+          "visualSpec": {
+            "templateId": "number_line",
+            "params": {
+              "min": 0.001,
+              "max": 1000,
+              "markers": [
+                { "value": 0.001, "label": "千分位" },
+                { "value": 0.01, "label": "百分位" },
+                { "value": 0.1, "label": "十分位" },
+                { "value": 1, "label": "個位" }
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "左移一位×10",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "右移一位÷10",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "小數點移動與大數末位有 0 的乘除",
+          "narrationText": "計算末位有多個 0 的乘除法時，先把前面的非零數字算好，再數清楚要補幾個 0 或同時劃掉幾個 0。",
+          "cognitiveChunks": [
+            "×100 小數點右移 2 位",
+            "大數乘法先算非零數再補 0",
+            "大數除法可同時劃掉相同個數的 0"
+          ],
+          "workedExampleData": {
+            "problemStatement": "計算大數乘法 45000 × 300 與除法 7200000 ÷ 9000。",
+            "steps": [
+              "第 1 步：乘法先算 45 × 3 = 135",
+              "第 2 步：數末尾的 0：3 個 + 2 個 = 5 個 0，得 13500000",
+              "第 3 步：除法同時劃掉 3 個 0，變成 7200 ÷ 9 = 800"
+            ],
+            "commonErrorContrast": "常見錯誤：乘法時少補一個 0，或除法時把被除數全部的 0 都劃掉，忘了只能劃掉「相同個數」的 0。",
+            "selfExplanationPrompt": "想一想：把十分位的 0.1 除以 10，會變成哪一個位值？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認多位小數的位值名稱，再開始挑戰第 1 章！",
+          "cognitiveChunks": [
+            "小數點後第三位是千分位"
+          ],
+          "warmupCheck": {
+            "prompt": "在多位小數「3.485」中，數字「5」所在的位值名稱是什麼？",
+            "options": [
+              "十分位",
+              "百分位",
+              "千分位",
+              "萬分位"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！小數點後依序為十分位（4）、百分位（8）、千分位（5）。",
+            "feedbackRetry": "從小數點右邊第一位「十分位」開始往右數三格看看！"
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-math-u2",
+      "stageId": "115-s2-g5-math-u2",
+      "title": "第2章 分數的計算",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "分數乘法的約分與積的大小",
+          "narrationText": "計算分數乘法時，先交叉約分再相乘能讓數字變小更好算；而且看乘數跟 1 比大小，就能直接判斷積會變大還是變小。",
+          "cognitiveChunks": [
+            "帶分數先換假分數再相乘",
+            "乘數 < 1 積變小；乘數 > 1 積變大",
+            "分數除以整數＝乘以該整數的倒數"
+          ],
+          "analogyAnchor": "把一條彩帶再切一半（÷2），就跟只拿原本彩帶的 1/2（×1/2）結果完全一樣。",
+          "visualSpec": {
+            "templateId": "fraction_bar",
+            "params": {
+              "numerator": 3,
+              "denominator": 4,
+              "splitFactor": 2
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "乘數小於1積變小",
+                "anchorPointId": "top"
+              },
+              {
+                "id": "l2",
+                "text": "除以2等於乘1/2",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分數乘法交叉約分與除法轉化",
+          "narrationText": "算 4/9 × 3/8 時不用硬乘 4×3 和 9×8，先約分就能一眼看出答案；算 3/4 ÷ 2 時則改寫成 3/4 × 1/2。",
+          "cognitiveChunks": [
+            "分子與分母先約分再相乘",
+            "÷ 整數 ＝ × 1/整數"
+          ],
+          "workedExampleData": {
+            "problemStatement": "計算 4/9 × 3/8 與 3/4 ÷ 2。",
+            "steps": [
+              "第 1 步：交叉約分：4 與 8 同除以 4 得 1 與 2；3 與 9 同除以 3 得 1 與 3",
+              "第 2 步：分子乘分子、分母乘分母：(1×1)/(3×2) = 1/6",
+              "第 3 步：分數除以整數改寫為乘法：3/4 ÷ 2 = 3/4 × 1/2 = 3/8"
+            ],
+            "commonErrorContrast": "常見錯誤：算 3/4 ÷ 2 時誤把分子 3 乘以 2 得到 6/4，忘了除以整數是「分母變大（乘以倒數）」。",
+            "selfExplanationPrompt": "想一想：不直接算出來，5/6 × 3/4 和 5/6 哪一個比較大？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認乘數與 1 的大小關係，再開始挑戰第 2 章！",
+          "cognitiveChunks": [
+            "乘數大於 1 積變大，小於 1 積變小"
+          ],
+          "warmupCheck": {
+            "prompt": "不直接算出答案，下列哪一個算式的積會「小於」被乘數 5/6？",
+            "options": [
+              "5/6 × 4/3",
+              "5/6 × 3/4",
+              "5/6 × 1",
+              "5/6 × 1又1/2"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！因為乘數 3/4 < 1，所以乘起來會比原本的 5/6 小。",
+            "feedbackRetry": "找出後面那個「乘數」比 1 小的真分數喔！"
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
       "lessonId": "lesson-115-s2-g5-math-u3",
       "stageId": "115-s2-g5-math-u3",
       "title": "第3章 長方體與正方體的體積",
@@ -86,6 +266,453 @@
     },
     {
       "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-math-u4",
+      "stageId": "115-s2-g5-math-u4",
+      "title": "第4章 小數",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "小數乘法的小數點位數規則",
+          "narrationText": "計算小數乘法時，可以先當作整數乘法來算，最後再把被乘數和乘數的小數位數加起來，從積的右邊往左數並點上小數點。",
+          "cognitiveChunks": [
+            "積的小數位數＝被乘數小數位＋乘數小數位",
+            "小數除法商的小數點要對齊被除數",
+            "除不盡時用四捨五入法取概數"
+          ],
+          "analogyAnchor": "小數點就像算完整數乘法後的收尾貼紙，把兩邊小數位數加起來，就知道要貼在從右邊數來第幾格。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "先遮住小數點做整數乘法",
+                "加總被乘數與乘數的小數位數",
+                "從右往左數並點上小數點"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "先算整數乘法",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "位數相加點小數",
+                "anchorPointId": "step2"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "小數乘小數與四捨五入取概數",
+          "narrationText": "當除不盡需要四捨五入到小數第一位時，直式除法至少要算到小數「第二位」，才能決定要進位還是捨去。",
+          "cognitiveChunks": [
+            "2.4 (1位) × 0.35 (2位) 積有 3 位小數",
+            "取概數到第 1 位要看第 2 位數字"
+          ],
+          "workedExampleData": {
+            "problemStatement": "計算 2.4 × 0.35，以及 20 ÷ 7 用四捨五入法取概數到小數點後第一位。",
+            "steps": [
+              "第 1 步：算 24 × 35 = 840；小數位數 1 + 2 = 3 位，點上小數點得 0.840 = 0.84",
+              "第 2 步：算 20 ÷ 7 = 2.857...",
+              "第 3 步：取到小數第一位看第二位「5」，進位得約 2.9"
+            ],
+            "commonErrorContrast": "常見錯誤：小數乘法對齊小數點後就忘記把兩邊的小數位數相加，或取概數到第一位卻忘了看第二位數字。",
+            "selfExplanationPrompt": "想一想：0.840 最後面的 0 為什麼可以省略不寫？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認積的小數位數，再開始挑戰第 4 章！",
+          "cognitiveChunks": [
+            "積的小數位數為兩數小數位之和"
+          ],
+          "warmupCheck": {
+            "prompt": "計算「1.5 × 0.04」的結果是多少？",
+            "options": [
+              "0.6",
+              "0.06",
+              "0.006",
+              "6"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！15 × 4 = 60，總共 1 + 2 = 3 位小數，所以是 0.060 = 0.06。",
+            "feedbackRetry": "1.5 有 1 位小數、0.04 有 2 位小數，合起來共有 3 位小數，不夠位數要補 0 喔！"
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-math-u5",
+      "stageId": "115-s2-g5-math-u5",
+      "title": "第5章 生活中的大單位",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "公噸與大面積單位的進位階梯",
+          "narrationText": "生活中的大型重量用公噸（1 公噸＝1000 公斤）；面積大單位從平方公尺開始，每往上一級就放大 100 倍：公畝、公頃、平方公里。",
+          "cognitiveChunks": [
+            "1 公噸＝1000 公斤",
+            "1 公畝＝100 m²；1 公頃＝100 公畝",
+            "1 平方公里＝100 公頃＝1,000,000 m²"
+          ],
+          "analogyAnchor": "面積大單位就像百倍跳棋：平方公尺 → 公畝 → 公頃 → 平方公里，每跳一格剛好都是 100 倍。",
+          "visualSpec": {
+            "templateId": "number_line",
+            "params": {
+              "min": 1,
+              "max": 1000000,
+              "markers": [
+                { "value": 1, "label": "平方公尺" },
+                { "value": 100, "label": "1公畝" },
+                { "value": 10000, "label": "1公頃" },
+                { "value": 1000000, "label": "1平方公里" }
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "面積每級×100",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "1公噸＝1000公斤",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "統一單位再比較面積大小",
+          "narrationText": "題目同時出現平方公里、公頃、公畝與平方公尺時，全部換算成「平方公尺」或「公頃」再比較，就不會被數字大小騙到。",
+          "cognitiveChunks": [
+            "大單位換小單位用乘法",
+            "小單位換大單位用除法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "比較 0.05 平方公里、4 公頃、350 公畝哪一個面積最大？",
+            "steps": [
+              "第 1 步：全部換算成公頃：0.05 平方公里 × 100 = 5 公頃",
+              "第 2 步：350 公畝 ÷ 100 = 3.5 公頃",
+              "第 3 步：比較大小：5 公頃 > 4 公頃 > 3.5 公頃，所以 0.05 平方公里最大"
+            ],
+            "commonErrorContrast": "常見錯誤：只看數字 350 最大就誤選 350 公畝，忘了不同單位不能直接比數字。",
+            "selfExplanationPrompt": "想一想：3.45 公噸等於多少公斤？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認公頃與平方公尺的換算，再開始挑戰第 5 章！",
+          "cognitiveChunks": [
+            "1 公頃＝10000 平方公尺"
+          ],
+          "warmupCheck": {
+            "prompt": "一座公園的面積是 2.5 公頃，相當於多少平方公尺？",
+            "options": [
+              "250 平方公尺",
+              "2500 平方公尺",
+              "25000 平方公尺",
+              "250000 平方公尺"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！2.5 × 10000 = 25000 平方公尺。",
+            "feedbackRetry": "1 公頃是 100 公畝，也就是 100 × 100 = 10000 平方公尺喔！"
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-math-u6",
+      "stageId": "115-s2-g5-math-u6",
+      "title": "第6章 時間的乘除",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "分清 60 進位與 24 進位",
+          "narrationText": "時間計算最關鍵的是進位規則：時、分、秒之間是 60 進位，而日與小時之間是 24 進位，千萬不能當成 10 進位或 100 進位。",
+          "cognitiveChunks": [
+            "1 小時＝60 分、1 分＝60 秒",
+            "1 日＝24 小時",
+            "時間除法先換成較小單位再除更不易錯"
+          ],
+          "analogyAnchor": "時鐘的秒針和分針走滿 60 格才進 1 格，地球自轉 24 小時才過完 1 日，各有各的滿格規則。",
+          "visualSpec": {
+            "templateId": "clock_face",
+            "params": {
+              "hours": 1,
+              "minutes": 25
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "時分秒60進位",
+                "anchorPointId": "top"
+              },
+              {
+                "id": "l2",
+                "text": "日時24進位",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "時間乘法進位與時間除法換算",
+          "narrationText": "做時間乘法時，各單位分開乘好後再由右往左進位；做時間除以時間（如 30 分 ÷ 3 分 45 秒）時，先全部換成秒再除。",
+          "cognitiveChunks": [
+            "乘法各單位分開乘再依 60 或 24 進位",
+            "時間 ÷ 時間先統一成最小單位"
+          ],
+          "workedExampleData": {
+            "problemStatement": "每次烤餅乾要 1 小時 25 分鐘，烤 5 批共要多少時間？",
+            "steps": [
+              "第 1 步：時、分分別乘以 5：1×5 = 5 小時，25×5 = 125 分鐘",
+              "第 2 步：把分鐘滿 60 進位：125 ÷ 60 = 2 小時 餘 5 分鐘",
+              "第 3 步：加進小時：5 + 2 = 7 小時 5 分鐘"
+            ],
+            "commonErrorContrast": "常見錯誤：把 125 分鐘誤當作 1 小時 25 分鐘（用了 100 進位），或把 32 小時誤進位成 1 日 2 小時。",
+            "selfExplanationPrompt": "想一想：32 小時換算成幾日幾小時，要除以 24 還是 60？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認日與小時的 24 進位，再開始挑戰第 6 章！",
+          "cognitiveChunks": [
+            "1 日＝24 小時"
+          ],
+          "warmupCheck": {
+            "prompt": "衛星繞行一圈需要 1 日 8 小時，繞行 4 圈一共需要幾日幾小時？",
+            "options": [
+              "4 日 8 小時",
+              "5 日 4 小時",
+              "5 日 8 小時",
+              "6 日 2 小時"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！4 日加上 32 小時（1 日 8 小時），合計 5 日 8 小時。",
+            "feedbackRetry": "8 小時 × 4 = 32 小時，滿 24 小時進位 1 日，還剩幾小時呢？"
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-math-u7",
+      "stageId": "115-s2-g5-math-u7",
+      "title": "第7章 容積",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u7-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "容積、容量與排水法測體積",
+          "narrationText": "容積是容器內部空間的大小；液體體積常以公升、毫升表示，而 1 毫升剛好等於 1 立方公分，1 公秉等於 1 立方公尺。",
+          "cognitiveChunks": [
+            "有蓋扣 2 倍厚度；無蓋高只扣 1 倍",
+            "1 公升＝1000 毫升＝1000 立方公分",
+            "1 公秉＝1 立方公尺＝1000 公升"
+          ],
+          "analogyAnchor": "把石頭放進裝水的水槽裡，水面上升的那一層水，體積就跟石頭一模一樣大。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "有蓋容器",
+              "leftPoints": [
+                "長、寬、高皆減 2 倍厚度",
+                "內部空間較小"
+              ],
+              "rightTitle": "無蓋容器",
+              "rightPoints": [
+                "長、寬減 2 倍厚度",
+                "高只減 1 倍底部厚度"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "有蓋全減2倍厚",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "無蓋高減1倍厚",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u7"
+        },
+        {
+          "sceneId": "u7-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "容器厚度扣減與排水法計算",
+          "narrationText": "題目給的是容器「外面」的長寬高時，一定要先扣掉木板或玻璃厚度，算出「裡面」的長寬高才能算容積。",
+          "cognitiveChunks": [
+            "先扣厚度求內部長寬高",
+            "不規則物體體積＝底面積 × 水面上升高"
+          ],
+          "workedExampleData": {
+            "problemStatement": "長 20 cm、寬 15 cm 的水槽，放入完全沉沒的石頭後水面從 10 cm 升到 14 cm，石頭體積是多少？",
+            "steps": [
+              "第 1 步：算水面上升的高度：14 - 10 = 4 cm",
+              "第 2 步：算水槽底面積：20 × 15 = 300 平方公分",
+              "第 3 步：相乘得上升水體積＝石頭體積：300 × 4 = 1200 立方公分"
+            ],
+            "commonErrorContrast": "常見錯誤：直接用放入後的水位高度 14 cm 去乘以底面積，忘了要先減掉原本的水位 10 cm。",
+            "selfExplanationPrompt": "想一想：如果水杯原本已經裝滿水，放進鋼珠後溢出 65 毫升的水，鋼珠體積是多少立方公分？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u7"
+        },
+        {
+          "sceneId": "u7-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認立方公分與公升的換算，再開始挑戰第 7 章！",
+          "cognitiveChunks": [
+            "1000 立方公分＝1 公升"
+          ],
+          "warmupCheck": {
+            "prompt": "一個內部容積是 4500 立方公分的水壺，最多可以裝幾公升的水？",
+            "options": [
+              "0.45 公升",
+              "4.5 公升",
+              "45 公升",
+              "450 公升"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！4500 ÷ 1000 = 4.5 公升。",
+            "feedbackRetry": "1 公升等於 1000 立方公分，把 4500 除以 1000 看看！"
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u7"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-math-u8",
+      "stageId": "115-s2-g5-math-u8",
+      "title": "第8章 比率與百分率",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u8-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "比率、百分率與生活中的折扣",
+          "narrationText": "比率＝部分量 ÷ 全部量，把比率寫成百分之幾就是百分率（%）。生活中買東西常見「打幾折」或「幾% off」，都能用百分率算出正確價錢。",
+          "cognitiveChunks": [
+            "比率＝部分量 ÷ 全部量",
+            "打七五折＝原價 × 75%（0.75）",
+            "加二成五＝原價 × (1 + 25%)"
+          ],
+          "analogyAnchor": "把原價想像成 100 塊錢：打八折就是只要付 80 塊，20% off（減價 20%）也是扣掉 20 塊付 80 塊，兩種說法其實一樣划算！",
+          "visualSpec": {
+            "templateId": "fraction_bar",
+            "params": {
+              "numerator": 75,
+              "denominator": 100
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "七五折＝75%",
+                "anchorPointId": "top"
+              },
+              {
+                "id": "l2",
+                "text": "20% off＝八折",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u8"
+        },
+        {
+          "sceneId": "u8-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "區分「打折」與「減價（off）」",
+          "narrationText": "計算折扣價錢時，一定要看清楚是「打八折」（付 80%）還是「減價 20%」（扣掉 20%，也是付 80%），才不會算成只付 20%。",
+          "cognitiveChunks": [
+            "打七折＝付 70%；30% off＝減 30% 付 70%",
+            "加一成＝原價 + 10%"
+          ],
+          "workedExampleData": {
+            "problemStatement": "外套成本 800 元，老闆加「二成五」作為定價，定價是多少元？",
+            "steps": [
+              "第 1 步：把「二成五」換算成百分率：25%（0.25）",
+              "第 2 步：算加價金額：800 × 0.25 = 200 元",
+              "第 3 步：加上原本成本：800 + 200 = 1000 元"
+            ],
+            "commonErrorContrast": "常見錯誤：只算出 800 × 0.25 = 200 元就當成定價，忘了「加二成五」還要加上原本的成本 800 元。",
+            "selfExplanationPrompt": "想一想：原價 1000 元的書包特價 850 元，相當於打了幾折？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u8"
+        },
+        {
+          "sceneId": "u8-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認比率與百分率的計算，再開始挑戰第 8 章！",
+          "cognitiveChunks": [
+            "部分量 ÷ 全部量 → 換算成 %"
+          ],
+          "warmupCheck": {
+            "prompt": "全班有 40 位學生，其中 14 位參加合唱團，參加合唱團的人數佔全班的百分率是多少？",
+            "options": [
+              "14%",
+              "26%",
+              "35%",
+              "40%"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！14 ÷ 40 = 0.35 = 35%。",
+            "feedbackRetry": "先算 14 除以 40 得到小數，再往右移兩位寫成百分率喔！"
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u8"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
       "lessonId": "lesson-115-s2-g5-math-u9",
       "stageId": "115-s2-g5-math-u9",
       "title": "第9章 表面積",
@@ -158,6 +785,93 @@
             "feedbackRetry": "注意 3 × 3 × 3 = 27 是「體積」喔！表面積要先算 1 個面的面積（3 × 3），再乘上 6 個面！"
           },
           "factGroundingSourceId": "115-s2/g5/math#u9"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-math-u10",
+      "stageId": "115-s2-g5-math-u10",
+      "title": "第10章 線對稱圖形",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u10-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "對稱軸與對稱點、邊、角性質",
+          "narrationText": "平面圖形沿著一條直線對折後兩側完全重合，就是線對稱圖形，這條折線叫做對稱軸；對折重合的點、邊、角叫做對稱點、對稱邊與對稱角。",
+          "cognitiveChunks": [
+            "對稱軸垂直平分兩對稱點的連線",
+            "對稱邊等長、對稱角相等",
+            "正方形 4 條、正三角形 3 條、長方形 2 條對稱軸"
+          ],
+          "analogyAnchor": "對稱軸就像一面鏡子，鏡子兩邊的點到鏡面的距離一模一樣，且兩點連線與鏡面垂直成 90 度。",
+          "visualSpec": {
+            "templateId": "rect_geometry",
+            "params": {
+              "width": 6,
+              "height": 4,
+              "showSymmetryAxes": true
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "對稱邊等長",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "對稱軸垂直平分",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u10"
+        },
+        {
+          "sceneId": "u10-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "判斷幾何圖形對稱軸與畫另一半",
+          "narrationText": "長方形（長寬不等）沿對角線對折時兩邊不會重合，所以只有 2 條對稱軸；一般平行四邊形則一條對稱軸也沒有。",
+          "cognitiveChunks": [
+            "一般平行四邊形有 0 條對稱軸",
+            "畫對稱圖形先找垂直等距的對稱點"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在方格紙上畫出線對稱圖形的另一半，最準確的步驟是什麼？",
+            "steps": [
+              "第 1 步：從已知圖形的每個頂點向對稱軸作垂直線",
+              "第 2 步：在對稱軸另一側量出「相等距離」標出對稱點",
+              "第 3 步：依照原本頂點的連接順序，把對稱點連起來"
+            ],
+            "commonErrorContrast": "常見錯誤：直接把左半邊的圖形向右「平移」過去，或誤以為長方形的對角線也是對稱軸。",
+            "selfExplanationPrompt": "想一想：標準大寫英文字母 A、F、G、Z 中，哪一個是線對稱圖形？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u10"
+        },
+        {
+          "sceneId": "u10-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認常見四邊形的對稱軸數量，再挑戰第 10 章！",
+          "cognitiveChunks": [
+            "正方形 4 條、長方形 2 條、正三角形 3 條"
+          ],
+          "warmupCheck": {
+            "prompt": "下列哪一個平面幾何圖形「剛好有 4 條」對稱軸？",
+            "options": [
+              "正三角形",
+              "長方形（長寬不等）",
+              "正方形",
+              "一般平行四邊形"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！正方形有 2 條對邊中點連線與 2 條對角線，共 4 條對稱軸。",
+            "feedbackRetry": "長方形沿對角線對折不會重合只有 2 條，想想看四邊等長又四個直角的正方形有幾條！"
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u10"
         }
       ]
     }

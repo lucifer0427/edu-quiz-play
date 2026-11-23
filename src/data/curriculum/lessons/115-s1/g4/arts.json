@@ -1,0 +1,377 @@
+{
+  "packId": "115-s1-g4-arts",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 4,
+  "subjectId": "arts",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-arts-u1",
+      "stageId": "115-s1-g4-arts-u1",
+      "title": "第壹單元 視覺萬花筒",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "點、線、面的視覺造型密碼",
+          "narrationText": "視覺藝術從最基本的「點」出發，點移動成為「線」，線條圍合或擴張成為「面」，三者組合就能構成豐富構圖與像納斯卡線一樣的壯觀地畫！",
+          "cognitiveChunks": [
+            "點密集凝聚焦點、分散顯輕盈",
+            "線是點移動的軌跡，各有性格",
+            "面拆開重組創造層次與空間感"
+          ],
+          "analogyAnchor": "點像畫布上的小種子，動起來就長成線條枝幹，展開成色塊面，三者合作就能拼出千變萬化的視覺萬花筒。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "點（指印拼貼、疏密聚散）",
+                "線（葉脈速寫、彈珠滾畫、版畫）",
+                "面（色塊拆開重組、納斯卡線）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "點密集產生視覺焦點",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "線條展現方向與肌理",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l3",
+                "text": "面重組出空間層次",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/arts#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用點線面分析生活中的造型",
+          "narrationText": "試著用藝術家的眼睛觀察身邊物品和藝術作品中的點、線、面。",
+          "cognitiveChunks": [
+            "小圓點與鈕扣呈現「點」",
+            "欄杆、葉脈與軌跡呈現「線」",
+            "桌面、色塊與牆面呈現「面」"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何把「點、線、面」三個元素靈活運用在〈點、線、面的組合〉作品中？",
+            "steps": [
+              "第 1 步：用色塊剪貼出背景的「面」，建立畫面的穩定區塊。",
+              "第 2 步：用直立、斜線或曲線引導視線方向，增添動感或優雅感。",
+              "第 3 步：在重點位置加上密集的「點」或指印拼貼，形成視覺焦點。"
+            ],
+            "commonErrorContrast": "常見錯誤：以為色紙剪開後不能重組，或只畫單調直線忽略疏密與色面層次。",
+            "selfExplanationPrompt": "想一想：祕魯高原上的「納斯卡線」是古人運用什麼方式在大地上形成巨大圖案的？"
+          },
+          "factGroundingSourceId": "115-s1/g4/arts#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "視覺元素暖身檢查",
+          "narrationText": "答對這題就能啟動視覺萬花筒的創作關卡！",
+          "cognitiveChunks": [
+            "點的疏密排列影響視覺焦點與厚重感"
+          ],
+          "warmupCheck": {
+            "prompt": "在畫紙上把許多大小相近的圓點「排列得非常密集」，通常會帶給觀眾什麼視覺感受？",
+            "options": [
+              "視覺焦點集中、面積感變大且有厚重感",
+              "圓點會全部消失看不見",
+              "畫面一定會變成純白色"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！點密集聚集時會產生凝聚焦點與厚重的視覺效果！",
+            "feedbackRetry": "想像沙子聚成一堆跟散開在紙上的畫面，哪一種看起來比較集中有份量？"
+          },
+          "factGroundingSourceId": "115-s1/g4/arts#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-arts-u2",
+      "stageId": "115-s1-g4-arts-u2",
+      "title": "第貳單元 表演任我行",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "聲音音效、肢體韻律與默劇道具",
+          "narrationText": "表演藝術不必靠昂貴設備：生活物品能變出逼真音效，伸展暖身讓肢體靈活傳達情緒，平凡物品也能在默劇裡化為職業道具！",
+          "cognitiveChunks": [
+            "利用生活物品材質設計擬真音效",
+            "語調輕重快慢傳達角色情緒",
+            "招牌動作與空間重量演活默劇"
+          ],
+          "analogyAnchor": "演員的身體和聲音就像百變魔術箱，塑膠袋能變成風雨聲、木棍與圓盤能變成鍋鏟與平底鍋。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "聲音百變秀",
+              "leftPoints": [
+                "塑膠袋、豆子鐵罐模擬風雨",
+                "語速快慢、音量強弱表達情緒"
+              ],
+              "rightTitle": "肢體與職業默劇",
+              "rightPoints": [
+                "先暖身伸展保護關節與肌肉",
+                "放大職業招牌動作與道具重量"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "生活物品巧變音效",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "暖身後演活默劇",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/arts#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "讓台下觀眾秒懂你的默劇與朗讀",
+          "narrationText": "不論是有聲的故事朗讀還是無聲的默劇，抓住關鍵技巧就能打動觀眾。",
+          "cognitiveChunks": [
+            "分析台詞情緒決定語速與氣音",
+            "先伸展關節再做大幅度肢體動作",
+            "物品轉換道具要表現重量與空間"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在〈我的夢想〉挑戰「職業人物默劇猜猜看」時，如何不開口就讓同學猜出你的職業？",
+            "steps": [
+              "第 1 步：挑選該職業最具代表性的招牌工作動作（例如炒菜、聽診、滅火）。",
+              "第 2 步：把動作適度放大、速度放清楚，並表現工具的重量感。",
+              "第 3 步：配合專注的眼神視線與臉部表情，定格呈現清楚畫面。"
+            ],
+            "commonErrorContrast": "常見錯誤：只顧著快速轉圈圈沒做代表動作，或動作太小太快讓觀眾看不清。",
+            "selfExplanationPrompt": "想一想：朗讀「你真的要一個人去嗎？」時，用顫抖放慢的語氣和生氣大吼的語氣有什麼不同？"
+          },
+          "factGroundingSourceId": "115-s1/g4/arts#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "表演小導演暖身題",
+          "narrationText": "答對這題就能站上〈表演任我行〉的舞台！",
+          "cognitiveChunks": [
+            "肢體伸展暖身能提升靈活度並預防受傷"
+          ],
+          "warmupCheck": {
+            "prompt": "進行〈舞動身體樂韻律〉肢體活動前，先做頭頸、肩膀、腰部與腳踝伸展暖身的主要目的是什麼？",
+            "options": [
+              "把上課時間耗完就不用上台",
+              "拉開關節與肌肉活動度，讓肢體靈活並預防拉傷",
+              "讓身體保持僵硬不動"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！暖身伸展能喚醒肌肉與關節，表演大動作才安全又靈活！",
+            "feedbackRetry": "如果肌肉還沒活動開就做大幅度動作，身體可能會怎麼樣呢？"
+          },
+          "factGroundingSourceId": "115-s1/g4/arts#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-arts-u3",
+      "stageId": "115-s1-g4-arts-u3",
+      "title": "第參單元 音樂美樂地",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "樂譜記號、直笛低音與進行曲節奏",
+          "narrationText": "從升記號（♯）與本位記號（♮）、附點八分音符＋十六分音符的跳躍節奏，到齊唱與輪唱、級進與跳進，還有銅管與傳統鑼鼓樂器，音樂世界真精采！",
+          "cognitiveChunks": [
+            "升記號升半音、本位記號還原音高",
+            "附點八分＋十六分音符合占一拍",
+            "級進像走樓梯、跳進像跨格子"
+          ],
+          "analogyAnchor": "樂譜就像音樂家的地圖：升記號與本位記號指明音高高低，級進與跳進像在樓梯上一步步走或跨階跳。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "樂理與節奏",
+              "leftPoints": [
+                "♯升半音、♮取消升降還原原音",
+                "附點八分＋十六分＝前長後短1拍"
+              ],
+              "rightTitle": "吹奏與鑑賞",
+              "rightPoints": [
+                "高音直笛Re/Mi氣息輕柔穩定",
+                "銅管樂器唇振吹嘴、進行曲節奏整齊"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "升記號與本位記號",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "直笛低音氣息輕柔",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/arts#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分辨樂譜記號與高音直笛吹奏訣竅",
+          "narrationText": "看懂五線譜上的音高與節奏記號，直笛就能吹得準又好聽！",
+          "cognitiveChunks": [
+            "五線譜越下方音越低（Re < Mi）",
+            "低音域按孔多，送氣要輕柔穩定",
+            "區分齊唱（同時）與輪唱（接力）"
+          ],
+          "workedExampleData": {
+            "problemStatement": "吹奏高音直笛〈祈禱〉的「第一線 Mi」和「下一間 Re」時，怎麼吹才不會破音？",
+            "steps": [
+              "第 1 步：確認五線譜位置：下一間 Re 比第一線 Mi 低一個音。",
+              "第 2 步：手指確實把對應的指孔按嚴實不漏氣。",
+              "第 3 步：因為低音域按孔多，用較輕柔穩定的氣息吹奏，避免氣太猛破音。"
+            ],
+            "commonErrorContrast": "常見錯誤：吹低音 Re 和 Mi 時使盡全力猛吹，反而吹出刺耳的高八度破音。",
+            "selfExplanationPrompt": "想一想：附點八分音符（3/4 拍）加上十六分音符（1/4 拍）合起來一共有幾拍？"
+          },
+          "factGroundingSourceId": "115-s1/g4/arts#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "音樂小達人暖身題",
+          "narrationText": "答對這題就能敲響〈音樂美樂地〉的大門！",
+          "cognitiveChunks": [
+            "本位記號能取消升降效果還原音高"
+          ],
+          "warmupCheck": {
+            "prompt": "樂譜上一個音符前面出現了「升記號（♯）」，同小節後面又出現「本位記號（♮）」，本位記號的作用是什麼？",
+            "options": [
+              "讓音量突然變得非常大聲",
+              "取消前面的升降效果，恢復原本的音高",
+              "把音符拉長兩倍"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！本位記號（♮）就像還原鍵，讓音高回到原本的位置！",
+            "feedbackRetry": "「本位」就是回到「原本的位置」，想想看它對前面的升記號會做什麼事？"
+          },
+          "factGroundingSourceId": "115-s1/g4/arts#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-arts-u4",
+      "stageId": "115-s1-g4-arts-u4",
+      "title": "第肆單元 統整課程",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "藝遊點線面：三科藝術大串聯",
+          "narrationText": "音樂的短促斷奏就像「點」、連貫樂句就像「線」；我們用耳朵聽、用畫筆畫、用身體跳出柴科夫斯基《胡桃鉗》的點線面世界！",
+          "cognitiveChunks": [
+            "斷奏跳音對應「點」、長樂句對應「線」",
+            "柴科夫斯基創作芭蕾舞劇《胡桃鉗》",
+            "舞者以舞姿、線條與佈景講故事"
+          ],
+          "analogyAnchor": "《胡桃鉗》舞台就像一張立體大畫紙：舞者輕巧踮腳定格是「點」，隊形與手臂延伸是「線」，群舞區塊則是「面」。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "聽音樂：分辨斷奏（點）與連貫樂句（線）",
+                "動身體：用頓點與伸展呼應《胡桃鉗》",
+                "畫筆記：用點線面記錄舞台軌跡"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "聽覺節奏對應點與線",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "芭蕾舞劇以肢體敘事",
+                "anchorPointId": "step2"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/arts#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "把音樂與舞蹈轉譯成點線面",
+          "narrationText": "試著把聽到的《胡桃鉗》樂句，同時用肢體與視覺筆記表現出來。",
+          "cognitiveChunks": [
+            "短促音符→指尖輕點、跳躍定格",
+            "連貫樂句→雙臂流暢弧線延伸",
+            "視覺筆記用點線面記下移動軌跡"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何把《胡桃鉗》的音樂與舞蹈特色，轉化成結合「點、線、面」的視覺筆記與肢體動作？",
+            "steps": [
+              "第 1 步：聽到短促輕快音符時，肢體做輕點定格，筆記畫圓點標記位置。",
+              "第 2 步：聽到柔美長樂句時，雙臂畫流暢曲線，筆記畫弧線記錄移動路線。",
+              "第 3 步：群舞聚在一起的區域，在筆記上用色塊「面」表現空間感。"
+            ],
+            "commonErrorContrast": "常見錯誤：以為點線面只能用在畫圖，忽略音樂與舞蹈中也有點與線的節奏對比。",
+            "selfExplanationPrompt": "想一想：欣賞同學跨科創作發表時，可以怎麼具體稱讚對方的亮點？"
+          },
+          "factGroundingSourceId": "115-s1/g4/arts#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "統整藝術小專家",
+          "narrationText": "答對這題就能完成四上藝術總複習！",
+          "cognitiveChunks": [
+            "柴科夫斯基創作了芭蕾舞劇《胡桃鉗》"
+          ],
+          "warmupCheck": {
+            "prompt": "〈藝遊點線面〉介紹的經典芭蕾舞劇《胡桃鉗》，是由哪一位俄羅斯作曲家創作的？",
+            "options": [
+              "巴赫",
+              "柴科夫斯基",
+              "老約翰．史特勞斯"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！柴科夫斯基創作了《胡桃鉗》、《天鵝湖》等知名芭蕾舞劇！",
+            "feedbackRetry": "他是一位俄羅斯浪漫樂派作曲家，名字有五個字喔！"
+          },
+          "factGroundingSourceId": "115-s1/g4/arts#u4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "packId": "115-s2-g4-arts",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 4,
+  "subjectId": "arts",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-arts-u1",
+      "stageId": "115-s2-g4-arts-u1",
+      "title": "第壹單元 視覺萬花筒",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "變臉表情、四格漫畫與思考樹卡片",
+          "narrationText": "觀察五官變化表現喜怒驚訝，用現成物拼貼立體臉孔；把形象簡化畫進四格漫畫與手翻動畫書，再用思考樹設計感恩立體卡片！",
+          "cognitiveChunks": [
+            "五官線條變化傳達不同情緒",
+            "四格漫畫採起、承、轉、合結構",
+            "手翻動畫利用相鄰頁微小變化"
+          ],
+          "analogyAnchor": "四格漫畫像把生活故事裝進四節小火車（起承轉合），而心智圖「思考樹」則是幫立體卡片先長出滿滿創意枝葉。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "這就是我（五官情緒、現成物拼貼）",
+                "展現自我（簡化形象、四格漫畫、手翻書）",
+                "有你真好（思考樹、立體卡片、數位分享）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "安全現成物拼貼臉孔",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "連續微調做出手翻書",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l3",
+                "text": "思考樹規畫立體卡片",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/arts#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "四格漫畫與手翻動畫書設計訣竅",
+          "narrationText": "想讓畫出來的故事好懂又會動起來，掌握分鏡與連續變化就對了。",
+          "cognitiveChunks": [
+            "簡化造型保留最顯眼的個人特徵",
+            "四格依序安排起、承、轉、合",
+            "手翻書每頁動作只改變一點點"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何做出一本快速翻頁時圖案會流暢動起來的「手翻動畫書」？",
+            "steps": [
+              "第 1 步：先簡化主角造型，讓每一頁容易重複繪製。",
+              "第 2 步：相鄰兩頁的圖案位置或動作只做些微連續改變。",
+              "第 3 步：整疊對齊訂好後快速撥動書頁，利用視覺暫留產生動態效果。"
+            ],
+            "commonErrorContrast": "常見錯誤：第一頁畫小狗、第二頁突然跳去畫大樓，或只畫第一頁後面都留白。",
+            "selfExplanationPrompt": "想一想：用手機或平板拍攝〈有你真好〉立體卡片分享給親友時，要注意哪些數位素養？"
+          },
+          "factGroundingSourceId": "115-s2/g4/arts#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "視覺創作小專家",
+          "narrationText": "答對這題就能展開四下視覺萬花筒挑戰！",
+          "cognitiveChunks": [
+            "心智圖思考樹幫助卡片創作發散聯想"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈有你真好〉製作感恩立體卡片前，畫心智圖「思考樹」最主要能幫助我們做到什麼？",
+            "options": [
+              "規定全班做出一模一樣的卡片",
+              "發散思考感謝對象、難忘回憶與立體結構點子",
+              "把心智圖直接取代卡片寄出去"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！思考樹能幫我們先整理靈感與祝福心意，讓卡片更有創意！",
+            "feedbackRetry": "在動手剪貼立體機關前，畫一棵寫滿關鍵字的樹枝圖有什麼好處？"
+          },
+          "factGroundingSourceId": "115-s2/g4/arts#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-arts-u2",
+      "stageId": "115-s2-g4-arts-u2",
+      "title": "第貳單元 表演任我行",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "旁述默劇、定格流動與奇幻光影",
+          "narrationText": "身體不用說話也能透過肌力與表情演活默劇；四個定格畫面串成流動的童話故事；調整物件與光源距離就能變出奇幻巨影，讓傳統影戲在行動裝置上展現新生命！",
+          "cognitiveChunks": [
+            "旁述默劇講求說演節奏與傾聽",
+            "定格畫面呈現關鍵情節與關係",
+            "靠近光源、遠離牆面可放大影子"
+          ],
+          "analogyAnchor": "定格畫面就像把故事拍成四張立體照片，加上「流動」走位就變成動態電影；而光影戲則讓牆壁變成會說話的魔法布幕（奇幻舞台）。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "默劇與童話畫面",
+              "leftPoints": [
+                "旁述留白、表演者傾聽呼應",
+                "定格凝結瞬間、流動順暢轉場"
+              ],
+              "rightTitle": "光影與影子狂想",
+              "rightPoints": [
+                "物近光源、遠離牆面影子變大",
+                "強光不直射眼睛、結合影戲創新"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "定格串接成流動畫面",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "調距離放大影子輪廓",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/arts#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "把四個定格畫面變成流動戲劇",
+          "narrationText": "和組員一起把童話故事拆成四幕定格，再順暢地串連起來！",
+          "cognitiveChunks": [
+            "每個定格維持幾秒清楚姿勢表情",
+            "角色視線互動展現彼此關係",
+            "用符合角色的步態走位轉場"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在〈童話世界〉如何把四個「定格畫面」串接成連貫的「流動的畫面」？",
+            "steps": [
+              "第 1 步：先設計四個代表故事開頭、經過、轉折與結局的定格姿勢。",
+              "第 2 步：定格時保持數秒靜止，眼神與表情要確實傳達角色關係。",
+              "第 3 步：切換時用符合角色特色的步伐或慢動作移動，自然過渡到下一幕。"
+            ],
+            "commonErrorContrast": "常見錯誤：定格時邊聊天邊晃動身體，或每次換幕都全員跑下台再重上。",
+            "selfExplanationPrompt": "想一想：使用手電筒玩〈奇幻光影Show〉時，為什麼不能讓強光直射同學的眼睛？"
+          },
+          "factGroundingSourceId": "115-s2/g4/arts#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "光影默劇小導演",
+          "narrationText": "答對這題就能點亮光影舞台！",
+          "cognitiveChunks": [
+            "遮光物靠近光源、遠離牆面可放大影子"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈奇幻光影Show〉想讓牆面上的影子「看起來變得更巨大」，應該怎麼調整距離？",
+            "options": [
+              "把物品緊貼牆面、光源拿很遠",
+              "讓物品或雙手更靠近光源、並離投影牆面遠一點",
+              "把燈泡直接關掉"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！物體越靠近光源、離布幕越遠，擋住的光錐越寬，影子就會放得越大！",
+            "feedbackRetry": "光沿直線前進，手靠近手電筒燈泡時，牆上的手影會變大還是變小呢？"
+          },
+          "factGroundingSourceId": "115-s2/g4/arts#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-arts-u3",
+      "stageId": "115-s2-g4-arts-u3",
+      "title": "第參單元 音樂美樂地",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "音階曲式、高音直笛與擊樂器合奏",
+          "narrationText": "認識重音、斷音與反覆記號，從 C 大調走向需要升 F 的 G 大調音階；分辨兩段體與三段體 ABA，練好直笛高音 E 半開背孔，再分清擊樂器有沒有固定音高！",
+          "cognitiveChunks": [
+            "斷音輕巧短促、重音（>）加強力度",
+            "G大調音階須將F升高為升F",
+            "三段體ABA為主體-對比-再現"
+          ],
+          "analogyAnchor": "三段體（ABA）就像出門旅行再回家：A 段出發、B 段去新風景探險、最後再回到熟悉的 A 段，聽起來最平衡完整。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "樂理與曲式",
+              "leftPoints": [
+                "大調結構：全全半全全全半（G調升F）",
+                "三段體 ABA：主題→對比→再現"
+              ],
+              "rightTitle": "直笛與擊樂器",
+              "rightPoints": [
+                "高音E指法：左手拇指半開背孔",
+                "響棒、三角鐵、木魚無固定音高"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "G大調須將F升半音",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "高音E拇指半開背孔",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/arts#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分辨擊樂器音高與吹好直笛高音 E",
+          "narrationText": "掌握兩個四年級下學期音樂課最重要的實作技巧！",
+          "cognitiveChunks": [
+            "拇指半開背孔、氣息集中平穩",
+            "木魚響棒三角鐵無固定音高",
+            "頑固節奏伴奏須注意音量平衡"
+          ],
+          "workedExampleData": {
+            "problemStatement": "直笛吹奏〈新世界〉的「高音 E」時，怎樣做才不會發出刺耳破音？",
+            "steps": [
+              "第 1 步：檢查左手大拇指，確實「半開」背孔（留出一點小縫隙）。",
+              "第 2 步：其餘指孔按緊不漏氣。",
+              "第 3 步：用集中、平穩且適度的氣息輕柔吹奏，不要過度猛吹。"
+            ],
+            "commonErrorContrast": "常見錯誤：吹高音 E 時把背孔完全封死，並鼓起雙頰用盡全身力氣亂吹。",
+            "selfExplanationPrompt": "想一想：為什麼鐵琴、木琴是有固定音高擊樂器，而木魚、響棒與三角鐵屬於無固定音高擊樂器？"
+          },
+          "factGroundingSourceId": "115-s2/g4/arts#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "音樂樂理小專家",
+          "narrationText": "答對這題就能加入〈熱鬧的擊樂器〉合奏團！",
+          "cognitiveChunks": [
+            "響棒、三角鐵、木魚屬於無固定音高擊樂器"
+          ],
+          "warmupCheck": {
+            "prompt": "下列哪一組擊樂器全都屬於「無固定音高擊樂器」？",
+            "options": [
+              "響棒、三角鐵、木魚",
+              "高音鐵琴、低音木琴、響棒",
+              "三角鐵、中音木琴、定音鼓"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！響棒、三角鐵與木魚主要敲奏節奏與音色，無法演奏完整音階！",
+            "feedbackRetry": "找找看哪一組樂器全都只能打出節奏點，不能敲出 Do Re Mi Fa Sol 旋律？"
+          },
+          "factGroundingSourceId": "115-s2/g4/arts#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-arts-u4",
+      "stageId": "115-s2-g4-arts-u4",
+      "title": "第肆單元 統整課程",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "藝術的喜怒哀樂：多感官抒發與尊重",
+          "narrationText": "喜、怒、哀、樂都能透過畫筆色彩、音樂速度與肢體姿態表現。不論男生女生都有權利自由表達真實情緒，並用同理心接納自己與同學！",
+          "cognitiveChunks": [
+            "視覺強烈對比與折線可表現憤怒",
+            "輕快節奏與上揚旋律可表現快樂",
+            "尊重每個人表達情緒的平等權利"
+          ],
+          "analogyAnchor": "喜怒哀樂就像四季天氣各有價值，藝術幫我們把心裡說不出口的晴天、雷雨或烏雲，安全地畫出來、唱出來、演出來。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "三科表現情緒",
+              "leftPoints": [
+                "視覺（怒）：紅黑對比與尖銳折線",
+                "音樂（喜）：輕快跳躍、表演（哀）：低垂緩慢"
+              ],
+              "rightTitle": "生命與平權素養",
+              "rightPoints": [
+                "接納孤單難過等真實生命感受",
+                "不分性別皆可自由表現各種情緒"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "眼耳身多感官抒發",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "性別平等與同理心",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/arts#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "設計跨科「喜怒哀樂」情緒短劇",
+          "narrationText": "小組合作時，把色彩、音樂和動作一起對齊情緒主題！",
+          "cognitiveChunks": [
+            "先共同討論每個段落的情緒主題",
+            "色彩佈景、配樂速度與肢體同步",
+            "欣賞他人情緒作品給予尊重鼓勵"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小組要演出包含「喜、怒、哀、樂」轉換的短劇，怎樣讓三科元素完美融合？",
+            "steps": [
+              "第 1 步：全組一起討論故事裡每段要表現的情緒（例如先喜後哀）。",
+              "第 2 步：美術設計對應色調佈景（喜用明朗色、怒用強烈折線），音樂搭配相符速度節奏。",
+              "第 3 步：演員隨音樂與佈景變化調整身體高低、重心與步伐速度。"
+            ],
+            "commonErrorContrast": "常見錯誤：認為男生不能演出哀傷流淚、女生只能演安靜微笑，或嘲笑畫出難過心情的同學。",
+            "selfExplanationPrompt": "想一想：看見同學用作品表現自己孤單難過的心情時，怎麼回應最有同理心？"
+          },
+          "factGroundingSourceId": "115-s2/g4/arts#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "藝術與情感小博士",
+          "narrationText": "答對這題就完成四年級藝術課程總挑戰啦！",
+          "cognitiveChunks": [
+            "性別平等與人權教育尊重每個人的表達權"
+          ],
+          "warmupCheck": {
+            "prompt": "配合〈藝術的喜怒哀樂〉所融入的性別平等與人權教育，下列哪一種創作觀念最正確？",
+            "options": [
+              "男生只能演生氣，不能表現悲傷",
+              "不論男生或女生都有權利自由感受並用藝術展現喜怒哀樂各種情緒",
+              "女生只能安靜微笑，不能參加擊樂合奏"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！每個人都有平等的情感表達權與創作自由，不受性別框架限制！",
+            "feedbackRetry": "喜怒哀樂是每個人都會有的真實心情，沒有哪種情緒是專屬男生或女生的喔！"
+          },
+          "factGroundingSourceId": "115-s2/g4/arts#u4"
+        }
+      ]
+    }
+  ]
+}

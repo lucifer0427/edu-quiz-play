@@ -1,0 +1,429 @@
+{
+  "packId": "115-s2-g3-science",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 3,
+  "subjectId": "science",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-science-u1",
+      "stageId": "115-s2-g3-science-u1",
+      "title": "一、快樂小農夫",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "從播種到收成：照顧小菜苗的秘密",
+          "narrationText": "種菜前先查資料了解適合季節與環境，播種後觀察植物經歷發芽、長出根莖葉到開花結果，並學會解決向光性、缺水、太密集與蟲害問題。",
+          "cognitiveChunks": [
+            "種植前先查資料備齊工具與土壤",
+            "植物生長順序：發芽→根莖葉→開花結果",
+            "菜苗朝陽光彎曲＝向光性"
+          ],
+          "analogyAnchor": "小菜苗就像剛入學的新生，需要剛好的陽光、鬆軟透氣的土壤、適量水分，以及足夠不擁擠的座位才能健康長大。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "查資料備土選種",
+                "發芽長出根莖葉",
+                "疏苗澆水與防蟲"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "定期轉盆防歪斜",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "疏苗與友善防蟲",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "解決菜園四大常見難題",
+          "narrationText": "菜苗歪向窗外時要定期轉動花盆；種太擠時要適當疏苗；土乾葉垂時要適量澆水；長菜蟲時則用人工捉除或防蟲網等友善方法。",
+          "cognitiveChunks": [
+            "向光性歪斜 → 定期轉動花盆",
+            "太密集 → 疏苗；長菜蟲 → 友善防蟲"
+          ],
+          "workedExampleData": {
+            "problemStatement": "發現菜苗種得太密集，而且葉片軟軟下垂、土壤乾裂時，怎麼辦？",
+            "steps": [
+              "第 1 步：過於擁擠會互搶陽光與養分，所以要「適當疏苗分株」",
+              "第 2 步：土壤乾裂、葉片軟垂是缺水徵兆，要「適度澆水保持濕潤」",
+              "第 3 步：持續在小農夫日記記錄改善後的生長變化"
+            ],
+            "commonErrorContrast": "常見錯誤：看到長菜蟲就直接倒漂白水或放火燒，或播種後每天灌滿水淹過盆口讓種子無法呼吸。",
+            "selfExplanationPrompt": "想一想：我們常吃的空心菜、白蘿蔔和番茄，分別是吃植物的哪一個部位？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "菜園大發現：餐桌蔬菜的食用部位",
+          "topicSignalTitle": "我們吃的是葉子、根還是果實？",
+          "narrationText": "空心菜、菠菜吃葉與嫩莖；白蘿蔔、胡蘿蔔吃地下膨大的根；小黃瓜和番茄則是吃果實喔！",
+          "cognitiveChunks": [
+            "葉菜類：空心菜、菠菜",
+            "根菜類：白蘿蔔、胡蘿蔔"
+          ],
+          "factGroundingSourceId": "115-s2/g3/science#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認蔬菜的向光性該怎麼照顧！",
+          "cognitiveChunks": [
+            "向光性＝朝光源方向生長"
+          ],
+          "warmupCheck": {
+            "prompt": "窗台上的小菜苗總是歪著身體朝有陽光的那一側長，這是什麼現象？該怎麼處理？",
+            "options": [
+              "菜苗生病了，應該丟進垃圾桶",
+              "這是向光性，可以定期轉動花盆讓它長得端正",
+              "被電風扇吹歪了，用膠帶黏住",
+              "把植物關進全黑的箱子裡"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！植物朝向陽光生長叫作向光性，定期轉動花盆就能讓它均衡直立。",
+            "feedbackRetry": "植物喜歡陽光所以會往有光的地方彎過去，試著轉動花盆換個方向照太陽看看！"
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-science-u2",
+      "stageId": "115-s2-g3-science-u2",
+      "title": "二、千變萬化的水",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "毛細現象與水的三態變化",
+          "narrationText": "水能沿著衛生紙、棉線或抹布裡的細小縫隙移動，這叫「毛細現象」。水也會隨溫度變成固態冰塊、液態水或看不見的氣態水蒸氣。",
+          "cognitiveChunks": [
+            "毛細現象：水沿細小縫隙移動",
+            "三態：固態（冰）、液態（水）、氣態（水蒸氣）",
+            "氣態水蒸氣是透明看不見的"
+          ],
+          "analogyAnchor": "就像用棉質毛巾擦乾手、用抹布吸乾打翻的飲料，都是靠布料纖維裡的細縫把水吸進去的毛細現象。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "毛細現象",
+              "leftPoints": [
+                "衛生紙、棉線、抹布有細縫",
+                "塑膠尺光滑沒有細縫，不會吸水"
+              ],
+              "rightTitle": "水的三態變化",
+              "rightPoints": [
+                "冰塊吸熱融化成液態水",
+                "水蒸氣遇冷（冰杯壁／冷空氣）凝結成小水珠"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "細縫產生毛細",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "遇冷會凝結成水",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "冰杯外的水珠與熱水壺白煙從哪來？",
+          "narrationText": "冰杯子外壁冒水珠不是杯子漏水，熱水壺冒出的白煙也不是氣態水蒸氣！兩者都是空氣或水蒸氣「遇冷」凝結成液態小水珠。",
+          "cognitiveChunks": [
+            "冰杯外水珠＝空氣中水蒸氣遇冷凝結",
+            "熱水壺白煙＝高溫水蒸氣遇冷凝結成小水滴"
+          ],
+          "workedExampleData": {
+            "problemStatement": "把冰塊放進常溫桌上的杯子裡，為什麼杯子外壁會冒出許多小水珠？",
+            "steps": [
+              "第 1 步：冰塊吸熱融化，讓杯壁變得冰冰涼涼的",
+              "第 2 步：杯子周圍空氣裡原本就有看不見的「水蒸氣」",
+              "第 3 步：水蒸氣碰到冰冷杯壁遇冷，凝結成液態小水珠附著在杯外"
+            ],
+            "commonErrorContrast": "常見錯誤：以為杯外小水珠是從杯底漏出來的，或以為水壺口的「白煙」就是氣態水蒸氣。",
+            "selfExplanationPrompt": "想一想：在生活中，我們有哪些簡單又有效的「節約用水」好方法？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "珍惜有限的淡水資源",
+          "topicSignalTitle": "為什麼地球表面水很多卻還要省水？",
+          "narrationText": "大海裡的水是鹹的不能直接喝，人類和動植物依賴的乾淨淡水資源有限，所以刷牙抹肥皂時要關水、洗米水拿來澆花拖地！",
+          "cognitiveChunks": [
+            "可用淡水資源有限，海水太鹹不能直接飲用",
+            "一水多用（洗米水澆花）與隨手關水"
+          ],
+          "factGroundingSourceId": "115-s2/g3/science#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先檢核一下哪一種物品會產生毛細現象吧！",
+          "cognitiveChunks": [
+            "有細小縫隙的物品才能產生毛細現象"
+          ],
+          "warmupCheck": {
+            "prompt": "把下列四樣物品一端放進紅水杯裡，哪一樣最容易觀察到紅水往上爬的「毛細現象」？",
+            "options": [
+              "塑膠尺",
+              "玻璃棒",
+              "棉線或擦手紙",
+              "不鏽鋼湯匙"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！棉線與擦手紙內部有很多細小縫隙，水會透過毛細現象往上爬。",
+            "feedbackRetry": "塑膠、玻璃和不鏽鋼表面光滑沒有細縫，水爬不上去喔！"
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-science-u3",
+      "stageId": "115-s2-g3-science-u3",
+      "title": "三、天氣停看聽",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "觀測氣溫、雨量與查詢氣象預報",
+          "narrationText": "觀測天氣看雲量陰晴雨、氣溫與風勢。量氣溫要放陰涼通風處平視液柱；做簡易雨量器要選上下一樣粗細的直筒平底容器並放空曠處。",
+          "cognitiveChunks": [
+            "氣溫計放通風陰涼處、平視液柱頂端",
+            "雨量器：上下同寬平底直筒、放空曠處",
+            "降雨機率＝下雨的可能性（機會大小）"
+          ],
+          "analogyAnchor": "氣象工具就像天氣小偵探的放大鏡：不能被大太陽曬到或被屋簷滴水干擾，量出來的數據才會真實。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "氣溫計正確用法",
+              "leftPoints": [
+                "放在通風無太陽直射的陰涼處",
+                "眼睛視線與液柱頂端保持水平"
+              ],
+              "rightTitle": "簡易雨量器原則",
+              "rightPoints": [
+                "上下一樣粗細、平底直筒容器",
+                "放在空曠無遮蔽物的平坦處"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "陰涼通風處平視",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "直筒平底放空曠",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "看懂氣象預報並做好生活因應",
+          "narrationText": "出門前上中央氣象署網站查詢氣溫與降雨機率，就能決定要帶雨傘還是穿保暖外套；看到強風冷氣團預報時也要固定陽台物品。",
+          "cognitiveChunks": [
+            "降雨機率 80%＝八成機會下雨（非下 80 小時）",
+            "依預報準備雨具或保暖衣物"
+          ],
+          "workedExampleData": {
+            "problemStatement": "明天氣象預報「冷氣團報到、氣溫大幅下降且風勢強勁」，該怎麼準備？",
+            "steps": [
+              "第 1 步：穿衣方面：準備保暖外套、帽子與圍巾預防著涼",
+              "第 2 步：居家安全：提醒家人固定陽台容易被強風吹落的物品",
+              "第 3 步：持續留意中央氣象署最新預報調整戶外計畫"
+            ],
+            "commonErrorContrast": "常見錯誤：以為「降雨機率 10%」代表只會下 10 分鐘的雨，或測氣溫時用手緊握底部的紅色液囊。",
+            "selfExplanationPrompt": "想一想：根據臺灣四季溫度變化，夏季、冬季與春秋各有什麼不同的氣候與生活影響？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "一天氣溫變化與臺灣四季特色",
+          "topicSignalTitle": "一天什麼時候較熱？臺灣四季有什麼變化？",
+          "narrationText": "受太陽照射影響，一天當中通常中午較熱、早晚較涼；臺灣夏季炎熱、冬季受冷氣團影響較冷，春秋較溫和，影響著人們衣著與飲食。",
+          "cognitiveChunks": [
+            "一天中中午時段氣溫較高",
+            "臺灣夏季炎熱、冬季較冷、春秋溫和"
+          ],
+          "factGroundingSourceId": "115-s2/g3/science#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "來檢核一下自製簡易雨量器的挑選與擺放原則吧！",
+          "cognitiveChunks": [
+            "上下一樣粗細的平底直筒容器"
+          ],
+          "warmupCheck": {
+            "prompt": "製作「簡易雨量器」測量雨量時，哪一種容器與擺放方式最正確？",
+            "options": [
+              "上寬下窄的漏斗，放在大樹下",
+              "上下一樣粗細的平底直筒容器，放在空曠平坦處",
+              "窄口花瓶，放在屋簷底下接水",
+              "有破洞的塑膠杯，撐傘遮在上面"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！雨量看雨水高度，必須用上下同寬的平底直筒容器並放在空曠無遮蔽處。",
+            "feedbackRetry": "如果瓶子上下粗細不同，或放在屋簷樹下被遮住，量出來的雨水高度就會不準喔！"
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-science-u4",
+      "stageId": "115-s2-g3-science-u4",
+      "title": "四、動物王國",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "動物身體構造、生存條件與保育",
+          "narrationText": "不同動物有適合棲息環境的身體構造（如羽毛、鱗片、發達後腿），牠們都需要養分能量、陽光、空氣、水和土壤才能生存，我們要珍愛並保育動物。",
+          "cognitiveChunks": [
+            "觀察記錄：身體分部、附肢與體表覆蓋物",
+            "生存要件：養分能量、陽光、空氣、水、土壤",
+            "愛護動物：不驚擾野鳥、不棄養寵物"
+          ],
+          "analogyAnchor": "動物的身體構造就像量身訂做的運動裝備：魚有鰭游泳、鳥有羽毛飛翔、兔子有強壯後腳跳躍。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "動物構造與功能",
+              "leftPoints": [
+                "體表：鳥羽毛、魚鱗片、犬貓毛髮",
+                "運動：兔後腳跳躍、蛇身體扭動"
+              ],
+              "rightTitle": "生物生存要素",
+              "rightPoints": [
+                "進食獲取能量與養分",
+                "陽光、空氣、水與土壤"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "構造配合環境",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "不驚擾不棄養",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "客觀記錄動物特徵與實踐愛護行動",
+          "narrationText": "畫動物觀察紀錄表時要忠實畫出看到的部位，不亂加帽子或眼鏡；愛護動物則要從不亂丟垃圾、不拿鳥蛋和不任意棄養做起。",
+          "cognitiveChunks": [
+            "科學紀錄要客觀忠實",
+            "進食是為了獲取能量與養分維持生命"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在公園散步看見一窩正在孵蛋的野鳥，回家又想照顧好寵物狗，該怎麼做？",
+            "steps": [
+              "第 1 步：對待野生動物：保持安全距離靜靜觀察，不拿鳥蛋、不破壞棲地",
+              "第 2 步：對待家中寵物：事前了解習性與需求，長期負責照顧絕不棄養",
+              "第 3 步：平時做好垃圾分類與環境整潔，守護所有動物的家園"
+            ],
+            "commonErrorContrast": "常見錯誤：覺得寵物長大不可愛就帶去山區「放生」，或為了好玩把野鳥蛋帶回家。",
+            "selfExplanationPrompt": "想一想：如果去郊遊時把零食包裝袋隨手丟在溪邊草叢，對動物的生存會有什麼危害？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "小學生也能做到的動物保育行動",
+          "topicSignalTitle": "我們在日常生活中能為動物做什麼？",
+          "narrationText": "不亂丟垃圾危害棲地、拒買瀕危動物製品、飼養前先評估責任，並和家人分享尊重生命的觀念，就是最棒的保育行動力！",
+          "cognitiveChunks": [
+            "不買瀕危保育類動物製品",
+            "保護自然環境整潔就是保護棲地"
+          ],
+          "factGroundingSourceId": "115-s2/g3/science#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "確認一下生物生存必備的自然環境要素再進場挑戰吧！",
+          "cognitiveChunks": [
+            "陽光、空氣、水與土壤"
+          ],
+          "warmupCheck": {
+            "prompt": "自然界的動物和植物除了養分與能量外，還必須依賴哪一組基本自然環境要素才能生存？",
+            "options": [
+              "電視、電動玩具、塑膠袋、霓虹燈",
+              "陽光、空氣、水和土壤",
+              "汽車、柏油路、冷氣機、音響",
+              "彈珠、汽水、手電筒、鉛筆"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！陽光、空氣、水與土壤是維持生物生命與活動的重要環境要素。",
+            "feedbackRetry": "挑出只有「大自然原本就有」的基本生存條件喔！"
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u4"
+        }
+      ]
+    }
+  ]
+}

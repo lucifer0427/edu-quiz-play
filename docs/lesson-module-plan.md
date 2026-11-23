@@ -4,7 +4,7 @@
 > 理論依據：NotebookLM《學童記憶策略實證白皮書》（雙重編碼、示範題效應、認知負荷理論、雙層 Zod Schema）
 > 關聯文件：[實證記憶策略與認知防禦升級計畫](./cognitive-memory-upgrade-plan.md)
 > 建立日期：2026-11-22
-> 執行進度：Phase A、Phase B 與 Phase C 全部已完成 ✅（`LessonPlayer` + 6 種 SVG 模板 + `Spatial3DScene` 按需渲染 3D + 3 份試點微課程 13 單元 41 幕 + 雙層護欄）
+> 執行進度：Phase A–D 全部已完成 ✅（`LessonPlayer` + 6 種 SVG 模板 + `Spatial3DScene` 按需渲染 3D + 雙層護欄；2026-11-23 Phase D 完成全校 116 份專屬微課程包、650 單元、2,399 幕，題庫同步擴充為每關 8 題、共 5,200 題）
 
 ---
 
@@ -172,3 +172,4 @@ export interface LessonScript {
 | **Phase A：播放器與基礎架構（已完成 ✅）** | 1. `src/types/lesson.ts`、`lessonLoader.ts`<br>2. `LessonPlayer.tsx`（含 4 種元件與朗讀，`React.lazy` 懶載入）<br>3. 6 個通用 SVG 模板（`LessonDiagram.tsx`：分數、幾何、數線、流程、對比、扇形時鐘，含互動參數）<br>4. `scripts/validate-lessons.mjs` 雙層護欄腳本<br>5. `WorldMap.tsx` 雙入口整合 ＋ `App.tsx` `+10 XP` 獎勵 | `npm run validate:content` 通過；`LessonPlayer` 獨立 async chunk（21.87 kB）；`npm run build` 零錯誤 |
 | **Phase B：試點科目內容產出（已完成 ✅）** | 完成 **G5 上學期數學（`115-s1/g5/math.json`）** 全 10 單元共 32 幕微課程 | 全 10 單元通過雙層護欄（含自測）與 `npm run build` |
 | **Phase C：記憶升級匯流與 3D 空間擴充（已完成 ✅）** | 1. 數學連錯 2 題自動抽出共用 `WorkedExampleSplit` 作為降階鷹架<br>2. 以 `React.lazy()` 導入純 `three` `Spatial3DScene`（試點 G5 下 `u3` 體積積木分層、`u9` 長方體展開圖與 G6 下 `u3` 圓柱展開圖） | 連錯降階已通過；`Spatial3DScene` 拆為獨立 async chunk（`539.62 kB` / gzip `135.59 kB`），首屏 `index` 維持 `449.16 kB`（未引入 `three`）；`npm run build` 零錯誤 |
+| **Phase D：全校專屬微課程與題庫擴充（已完成 ✅）** | 1. 1–6 年級上下學期 116 份題庫包每關由 6 題擴充至 8 題（3,900 → 5,200 題，原題 0 更動）<br>2. 116 份手寫專屬微課程包，涵蓋全部 650 關（2,399 幕），取代通用自動合成 | `validate:content` 116/116 0 錯誤；`npm run build` 全數通過 |

@@ -1,0 +1,377 @@
+{
+  "packId": "115-s2-g5-hakka",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 5,
+  "subjectId": "hakka",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-hakka-u1",
+      "stageId": "115-s2-g5-hakka-u1",
+      "title": "第一單元 藝術摎文化",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "𪹚龍、傳統手藝與美濃油紙傘",
+          "narrationText": "「𪹚龍還生趣」帶我們認識苗栗元宵節真有趣的舞龍迎福活動；「阿爐伯个手藝」教我們尊敬職人並守住工坊禮儀；「美濃油紙傘」則以諧音「有子」與圓滿傘面寄託祝福！",
+          "cognitiveChunks": [
+            "𪹚龍＝苗栗元宵迎龍、還生趣＝真有趣",
+            "油紙諧音「有子」，傘面圓象徵團圓",
+            "傘面刷「桐油」能防水防潮更耐用"
+          ],
+          "analogyAnchor": "美濃油紙傘就像一把撐開祝福的小天空：竹骨撐起團圓的形狀，桐油像雨衣一樣保護紙面，更需要我們用現代創意繼續傳承。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "𪹚龍與職人手藝",
+              "leftPoints": [
+                "𪹚龍觀賞守距、環保減煙清垃圾",
+                "參訪工坊專心聽、愛惜工具與作品"
+              ],
+              "rightTitle": "美濃油紙傘",
+              "rightPoints": [
+                "「油紙」＝有子，圓傘＝團圓祝福",
+                "刷桐油防水耐用，兼顧傳承與創新"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "慶典愛環境守安全",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "油紙傘刷桐油防水",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/hakka#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "認識傳統工藝的「傳承與創新」",
+          "narrationText": "老祖宗留下來的手藝，怎麼在現代繼續發光發熱呢？",
+          "cognitiveChunks": [
+            "保留手工削竹、糊紙與刷桐油核心",
+            "結合現代文創燈飾、導覽與新圖樣",
+            "參訪工坊時尊重師傅並保持禮貌"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何為「美濃油紙傘」等客家傳統手工藝做到「傳承與創新」？",
+            "steps": [
+              "第 1 步：傳承核心技法 → 保存手工削竹骨架、糊棉紙與塗刷「桐油」防水的傳統工序。",
+              "第 2 步：加入現代創新 → 設計新穎圖樣，或結合文創燈飾、社區導覽吸引年輕人喜愛。",
+              "第 3 步：參訪工坊時禮貌請教老師傅手藝緣由，並愛惜展示作品。"
+            ],
+            "commonErrorContrast": "常見錯誤：以為傳統工藝只給長輩看，或認為刷桐油只是為了讓紙傘聞起來像油飯。",
+            "selfExplanationPrompt": "想一想：參與熱鬧的苗栗「𪹚龍」活動時，怎樣做能兼顧人身安全與環境保護？"
+          },
+          "factGroundingSourceId": "115-s2/g5/hakka#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "文化工藝小達人",
+          "narrationText": "答對這題就能撐起祝福的油紙傘前進下一關！",
+          "cognitiveChunks": [
+            "油紙傘刷桐油能防水防潮且更堅韌耐用"
+          ],
+          "warmupCheck": {
+            "prompt": "製作美濃油紙傘時，糊好棉紙並彩繪之後，為什麼還要在傘面均勻刷上「桐油」？",
+            "options": [
+              "為了讓紙傘防水、防潮且更堅韌耐用",
+              "為了把彩繪圖案全部洗掉",
+              "為了讓紙傘重到打不開"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！天然桐油乾燥後形成保護膜，能讓紙傘遮風擋雨又耐用！",
+            "feedbackRetry": "下雨撐傘最怕紙張被水淋爛，塗上「桐油」能發揮什麼保護作用呢？"
+          },
+          "factGroundingSourceId": "115-s2/g5/hakka#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-hakka-u2",
+      "stageId": "115-s2-g5-hakka-u2",
+      "title": "第二單元 大家都恁慶",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "客語稱讚詞「恁慶」與客家「做膽」禮俗",
+          "narrationText": "「恁慶」是這麼厲害優秀、「班項」是班上、「當煞猛」是很勤勞！在單元活動二更認識新生兒洗三朝用圓石祈福的「做膽」生育禮俗，感受長輩滿滿的愛！",
+          "cognitiveChunks": [
+            "恁慶＝這麼厲害、班項＝班上",
+            "用「當煞猛、盡熱心、真靚」讚美同學",
+            "做膽用平滑膽石祝寶寶健壯不畏驚"
+          ],
+          "analogyAnchor": "「做膽」的那顆圓潤「膽石」，就像長輩送給新生寶寶的第一份勇敢祝福；而「恁慶」與「當煞猛」則是同學間最溫暖的鼓勵禮物。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "班項个稱讚詞",
+              "leftPoints": [
+                "恁慶（這麼厲害）、當煞猛（很勤勞）",
+                "真靚（很漂亮）、盡熱心（很熱心）"
+              ],
+              "rightTitle": "客家「做膽」禮俗",
+              "rightPoints": [
+                "出生滿三天（洗三朝）以膽石輕撫祈福",
+                "祝福孩子健壯穩重、平安不驚嚇"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "真心稱讚班上同學",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "感恩長輩自細關愛",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/hakka#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "日常客語稱讚與理解「做膽」心意",
+          "narrationText": "把好聽的客語稱讚詞用出來，也要讀懂長輩對孩子的期許！",
+          "cognitiveChunks": [
+            "誇勤勞說「你做事當煞猛」",
+            "誇作品漂亮說「真靚、恁慶喔」",
+            "向長輩道謝關愛說「承蒙」"
+          ],
+          "workedExampleData": {
+            "problemStatement": "想誇獎勤勞熱心的同學，並讀懂阿婆講的「做膽」故事，重點詞彙有哪些？",
+            "steps": [
+              "第 1 步：稱讚同學 →「你做事當煞猛（很勤奮）又盡熱心，實在當慶！」。",
+              "第 2 步：認識「做膽」 → 新生兒洗三朝用光滑「膽石」放入水中輕撫祈福。",
+              "第 3 步：感恩長輩從小（「自細」）關愛 → 回應「承蒙阿婆摎爸姆！」。"
+            ],
+            "commonErrorContrast": "常見錯誤：以為做膽的「勇敢」是要去二樓往下跳或推撞低年級，其實是勇於負責與保護他人。",
+            "selfExplanationPrompt": "想一想：在班上練習多發現同學的長處並用客語讚美，對班級氣氛有什麼改變？"
+          },
+          "factGroundingSourceId": "115-s2/g5/hakka#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "讚美與禮俗小考驗",
+          "narrationText": "答對這題就能把溫暖的稱讚送給同學！",
+          "cognitiveChunks": [
+            "做膽準備圓潤小石頭（膽石）祈求寶寶健壯穩重"
+          ],
+          "warmupCheck": {
+            "prompt": "客家傳統生育禮俗「做膽」，長輩會在洗三朝時準備什麼物品放進洗澡水中輕撫寶寶祈福？",
+            "options": [
+              "一顆圓潤平滑的小石頭（膽石）",
+              "剪刀和鐵鎚",
+              "冰塊和辣椒"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！長輩用圓潤的「膽石」並念吉祥話，祝福寶寶像石頭一樣健壯穩重不害怕！",
+            "feedbackRetry": "什麼自然界圓滑堅實的物品，能象徵寶寶穩重有膽量呢？"
+          },
+          "factGroundingSourceId": "115-s2/g5/hakka#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-hakka-u3",
+      "stageId": "115-s2-g5-hakka-u3",
+      "title": "第三單元 健康安全盡(最)重要",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "傷害詞彙、病痛就醫與鼓王爭霸戰",
+          "narrationText": "「盡重要」是最重要、「寒著了」是感冒著涼了！認得「烏青、割著、頭那痛、肚屎痛」並養成正確就醫習慣，也要認識花蓮客庄合力扛鼓競技的「鼓王爭霸戰」！",
+          "cognitiveChunks": [
+            "盡＝最、烏青＝瘀青、寒著了＝感冒",
+            "頭那＝頭、肚屎＝肚子、燒燒＝發燒",
+            "鼓王爭霸戰以人力「扛大鼓」展現硬頸"
+          ],
+          "analogyAnchor": "身體不適的「頭那痛、肚屎痛」就像身體發出的警報器，要及時就醫戴口罩；而「鼓王爭霸戰」的齊心扛鼓則像社區團結的心跳聲。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "健康與安全詞彙",
+              "leftPoints": [
+                "烏青（瘀青）、跌倒、割著（割傷）",
+                "頭那痛（頭痛）、肚屎痛（肚子痛）"
+              ],
+              "rightTitle": "就醫習慣與鼓王戰",
+              "rightPoints": [
+                "不吃舊藥偏方、看醫生戴口罩",
+                "花蓮瑞穗人力扛鼓展現團隊硬頸"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "頭那痛肚屎痛快就醫",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "合力扛鼓拚硬頸精神",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/hakka#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "看懂身體警訊與正確就醫步驟",
+          "narrationText": "聽得懂客語病痛詞彙，還要學會照顧自己與保護別人的衛生品德！",
+          "cognitiveChunks": [
+            "清楚告訴家人「頭那痛、燒燒」",
+            "不吃別人剩藥或來路不明偏方",
+            "戴口罩保護同學並多喝溫水休息"
+          ],
+          "workedExampleData": {
+            "problemStatement": "發現自己「寒著了」，覺得「頭那痛」又「額頭燒燒」時，正確的處理步驟是什麼？",
+            "steps": [
+              "第 1 步：立刻用清楚的話告訴家人或老師自己的症狀（頭痛、發燒、肚子痛）。",
+              "第 2 步：由家人陪同就醫看醫生，依醫囑按時服藥，絕不亂吃舊藥或偏方。",
+              "第 3 步：戴好口罩避免傳染同學，多喝溫水並好好休息。"
+            ],
+            "commonErrorContrast": "常見錯誤：生病硬撐不講還對同學大聲咳嗽，或用美工刀沒墊切割墊就割紙板。",
+            "selfExplanationPrompt": "想一想：花蓮瑞穗客庄流傳的〈鼓王爭霸戰〉，最獨特的比賽方式與文化精神是什麼？"
+          },
+          "factGroundingSourceId": "115-s2/g5/hakka#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "健康安全小醫生",
+          "narrationText": "答對這題就能領取健康安全小博士勳章！",
+          "cognitiveChunks": [
+            "頭那是頭、肚屎是肚子、燒燒是發燒"
+          ],
+          "warmupCheck": {
+            "prompt": "妹妹跟媽媽說：「阿姆，𠊎『頭那痛』又『肚屎痛』，額頭也燒燒！」她正在反映什麼身體不適？",
+            "options": [
+              "牙齒痛與腳底發癢",
+              "頭痛與肚子痛（且伴隨發燒）",
+              "眼睛進沙與手臂扭傷"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！頭那是頭、肚屎是肚子、燒燒是發燒，要趕快就醫休息喔！",
+            "feedbackRetry": "看看句子裡的「頭那」和「肚屎」，各自對應身體上哪兩個部位呢？"
+          },
+          "factGroundingSourceId": "115-s2/g5/hakka#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-hakka-u4",
+      "stageId": "115-s2-g5-hakka-u4",
+      "title": "第四單元 期末歌謠與複習活動",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "拍拍手唱唱歌、搞麼个與文化總統整",
+          "narrationText": "「大家共下拍拍手、唱唱歌，當歡喜喔！」把〈𪹚龍〉、〈美濃油紙傘〉、〈做膽〉、〈鼓王爭霸戰〉和關心感冒朋友的暖心客語串在一起，迎接〈出任務囉！〉總挑戰！",
+          "cognitiveChunks": [
+            "共下＝一起、當歡喜＝很開心",
+            "關心同學：穿燒暖、多啉溫水、看醫生",
+            "煞猛打拚，正有好收成（勤奮踏實）"
+          ],
+          "analogyAnchor": "五下客語期末就像打開一場文化嘉年華：左手拿著油紙傘、右手敲著鼓王大鼓，嘴裡說著「恁慶」與「無要緊」，快樂完成所有任務！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "生活關懷（寒著了提醒穿燒暖、多啉溫水）",
+                "三大文化（油紙傘、做膽、鼓王爭霸戰）",
+                "俗諺勉勵（煞猛打拚，正有好收成）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "溫暖關懷健康安全",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "煞猛打拚收穫好果",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/hakka#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "串聯五下三大文化與暖心關懷對話",
+          "narrationText": "複習三大文化線索與最實用的關心語句，闖關一定拿滿分！",
+          "cognitiveChunks": [
+            "油紙傘：竹骨糊紙刷桐油、有子圓滿",
+            "做膽：洗三朝膽石祈福勇敢健壯",
+            "鼓王戰：合力扛鼓展現硬頸精神"
+          ],
+          "workedExampleData": {
+            "problemStatement": "看到好朋友不斷打噴嚏似乎「寒著了」，怎麼用客語送上健康又暖心的關心？",
+            "steps": [
+              "第 1 步：先表達關切 →「你敢係寒著了？（你是不是著涼了？）」。",
+              "第 2 步：提醒日常照護 →「愛記得穿燒暖（穿暖和）、多啉溫水（多喝溫水）」。",
+              "第 3 步：叮嚀就醫休息 →「早兜去看醫生休息喔！」。"
+            ],
+            "commonErrorContrast": "常見錯誤：把「寒著了（感冒著涼）」記成「比賽拿第一名」，或看到學妹跌倒烏青卻在旁邊笑。",
+            "selfExplanationPrompt": "想一想：客家俗諺「一日無做，一日無食；煞猛打拚，正有好收成」想勉勵我們什麼？"
+          },
+          "factGroundingSourceId": "115-s2/g5/hakka#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "五下客語總複習暖身題",
+          "narrationText": "答對這題就順利完成五年級客語總挑戰啦！",
+          "cognitiveChunks": [
+            "三大文化：美濃油紙傘、做膽禮俗、鼓王爭霸戰"
+          ],
+          "warmupCheck": {
+            "prompt": "三大文化線索配對：① 竹骨糊紙塗桐油；② 洗三朝圓石祈福；③ 合力扛鼓競技。依序是哪三項客家文化？",
+            "options": [
+              "美濃油紙傘 → 做膽生育禮俗 → 鼓王爭霸戰",
+              "鼓王爭霸戰 → 美濃油紙傘 → 做膽",
+              "做膽 → 鼓王爭霸戰 → 美濃油紙傘"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經把五年級下學期的三大客家文化與客語精華都掌握住囉！",
+            "feedbackRetry": "抓住三個線索的關鍵字：「桐油紙傘」、「圓石做膽」和「扛鼓競技」的順序喔！"
+          },
+          "factGroundingSourceId": "115-s2/g5/hakka#u4"
+        }
+      ]
+    }
+  ]
+}

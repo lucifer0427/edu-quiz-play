@@ -1,0 +1,925 @@
+{
+  "packId": "115-s2-g3-math",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 3,
+  "subjectId": "math",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-math-u1",
+      "stageId": "115-s2-g3-math-u1",
+      "title": "第1章 除法",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "二、三位數除以一位數的直式",
+          "narrationText": "除法直式從最高位（百位或十位）開始除。如果這一位不夠除，商要寫 0 補位（中間或尾巴補 0），或往右邊一位合起來一起除。",
+          "cognitiveChunks": [
+            "從最高位開始依序往右除",
+            "不夠除時商要補 0 佔位",
+            "餘數一定要比除數小"
+          ],
+          "analogyAnchor": "就像把 618 顆雞蛋裝盒，百位 6 夠分 1 盒，十位 1 顆不夠分 6 盒所以寫 0，再和個位 8 合起來成 18 顆去分。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "先除最高位",
+                "不夠除商補0",
+                "合下一位續除"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "從最高位除起",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "不夠除商寫0",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/math#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "商中間有 0 的三位數除法",
+          "narrationText": "計算 618 ÷ 6 時，十位的 1 不夠除以 6，一定要在商的十位寫上 0，不能直接跳過變成 13 喔！",
+          "cognitiveChunks": [
+            "十位不夠除時商寫 0",
+            "用「商 × 除數」檢查位數對不對"
+          ],
+          "workedExampleData": {
+            "problemStatement": "計算 618 ÷ 6。",
+            "steps": [
+              "第 1 步：百位 6 ÷ 6 = 1，商的百位寫 1",
+              "第 2 步：十位 1 不夠除以 6，商的十位寫 0 佔位",
+              "第 3 步：把個位 8 放下來成 18，18 ÷ 6 = 3，答案是 103"
+            ],
+            "commonErrorContrast": "常見錯誤：十位忘記寫 0 補位，直接把答案寫成 13。",
+            "selfExplanationPrompt": "想一想：如果題目問「148 顆氣球每箱裝 8 顆，全部裝完至少要幾個箱子」，餘數 4 顆怎麼辦？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/math#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "除法應用：剩下的要不要多加 1？",
+          "topicSignalTitle": "「全部裝完」的箱子數量怎麼算？",
+          "narrationText": "當題目說「全部都要裝進箱子裡」時，只要還有餘數（哪怕只有 1 顆），就必須多準備 1 個箱子，所以商要加 1。",
+          "cognitiveChunks": [
+            "餘數＞0 且要全部裝完 → 商＋1",
+            "840 ÷ 4＝210（尾巴的 0 也要補）"
+          ],
+          "factGroundingSourceId": "115-s2/g3/math#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "試著算一算這題商中間有 0 的除法吧！",
+          "cognitiveChunks": [
+            "不夠除時商要補 0"
+          ],
+          "warmupCheck": {
+            "prompt": "計算「412 ÷ 4」，正確的商是多少？",
+            "options": [
+              "13",
+              "103",
+              "130",
+              "102"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！百位 4÷4=1，十位 1 不夠除寫 0，個位 12÷4=3，商是 103。",
+            "feedbackRetry": "十位的 1 不夠除以 4，記得要在十位寫 0 佔位再把 2 放下來喔！"
+          },
+          "factGroundingSourceId": "115-s2/g3/math#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-math-u2",
+      "stageId": "115-s2-g3-math-u2",
+      "title": "第2章 公升與毫升",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識公升（L）與毫升（mL）",
+          "narrationText": "測量液體的容量時，小瓶子用「毫升（mL）」，大桶子用「公升（L）」。1 公升剛好等於 1000 毫升！",
+          "cognitiveChunks": [
+            "1 公升＝1000 毫升",
+            "小容量用毫升，大容量用公升",
+            "千位是公升，百十個位是毫升"
+          ],
+          "analogyAnchor": "1000 毫升的鮮奶盒就是 1 公升；而一盒 10 毫升的小奶精球，需要 100 盒才湊得到 1 公升。",
+          "visualSpec": {
+            "templateId": "number_line",
+            "params": {
+              "min": 0,
+              "max": 2000,
+              "step": 500,
+              "highlight": [
+                1000,
+                2000
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "1公升=1000mL",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "滿1000進1公升",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/math#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "容量的換算與退位減法",
+          "narrationText": "把「幾公升幾毫升」換成毫升時，沒提到的百位或十位要補 0；做加減時，毫升滿 1000 進位 1 公升，不夠減就借 1 公升換成 1000 毫升。",
+          "cognitiveChunks": [
+            "3 公升 60 毫升＝3060 毫升",
+            "借 1 公升＝1000 毫升"
+          ],
+          "workedExampleData": {
+            "problemStatement": "4 公升 200 毫升的紅茶喝掉 1 公升 650 毫升，還剩多少？",
+            "steps": [
+              "第 1 步：200 毫升不夠減 650 毫升，向 4 公升借 1 公升",
+              "第 2 步：4 公升 200 毫升變成 3 公升 1200 毫升",
+              "第 3 步：1200 - 650 = 550 毫升，3 - 1 = 2 公升，剩 2 公升 550 毫升"
+            ],
+            "commonErrorContrast": "常見錯誤：把 3 公升 60 毫升直接寫成 360 毫升，忘了百位要補 0。",
+            "selfExplanationPrompt": "想一想：5280 毫升改寫成幾公升幾毫升時，千位的 5 代表什麼單位？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/math#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "比較容量大小先統一單位",
+          "topicSignalTitle": "2 公升 150 毫升和 2090 毫升誰比較少？",
+          "narrationText": "比較兩個容量大小時，先全部換成「毫升」再比數字：2 公升 150 毫升是 2150 毫升，比 2090 毫升多。",
+          "cognitiveChunks": [
+            "全部換成毫升最不易比錯",
+            "注意百位數的大小比較"
+          ],
+          "factGroundingSourceId": "115-s2/g3/math#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "來做一題容量單位換算暖暖身！",
+          "cognitiveChunks": [
+            "1 公升＝1000 毫升"
+          ],
+          "warmupCheck": {
+            "prompt": "「4 公升 80 毫升」換算成毫升是多少毫升？",
+            "options": [
+              "480 毫升",
+              "4080 毫升",
+              "4800 毫升",
+              "4008 毫升"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！4 公升是 4000 毫升，加上 80 毫升就是 4080 毫升。",
+            "feedbackRetry": "4 公升是 4000 毫升，80 毫升沒有百位，百位要記得寫 0 喔！"
+          },
+          "factGroundingSourceId": "115-s2/g3/math#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-math-u3",
+      "stageId": "115-s2-g3-math-u3",
+      "title": "第3章 分數與加減",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "同分母分數的加減計算",
+          "narrationText": "同分母分數相加或相減時，平分的總份數（分母）沒有改變，所以分母維持不變，只要把分子相加或相減就好！",
+          "cognitiveChunks": [
+            "同分母加減：分母不變，分子加減",
+            "1 可以換成 6/6、8/8、12/12",
+            "同分母比大小：分子越大分數越大"
+          ],
+          "analogyAnchor": "把 2 片 1/10 個西瓜和 5 片 1/10 個西瓜合起來，一共是 7 片 1/10 個，每片的大小（分母 10）沒有變。",
+          "visualSpec": {
+            "templateId": "fraction_bar",
+            "params": {
+              "denominator": 10,
+              "numerator": 7
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "分母10維持不變",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "分子2+5=7",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/math#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "「1 減分數」怎麼算？",
+          "narrationText": "遇到 1 減掉一個分數（例如 1 - 2/6）時，先把 1 變成跟減數同分母的分數（6/6），就能輕鬆相減。",
+          "cognitiveChunks": [
+            "先把 1 改寫成「分母/分母」",
+            "再用分子相減"
+          ],
+          "workedExampleData": {
+            "problemStatement": "1 個披薩吃掉 2/6 個，還剩下幾個披薩？",
+            "steps": [
+              "第 1 步：把完整 1 個披薩想成 6/6 個",
+              "第 2 步：計算 6/6 - 2/6，分母 6 不變，分子 6 - 2 = 4",
+              "第 3 步：盤子上還剩下 4/6 個披薩"
+            ],
+            "commonErrorContrast": "常見錯誤：做分數加法時把分母也加起來（例如把 2/10 + 5/10 錯算成 7/20）。",
+            "selfExplanationPrompt": "想一想：3/7 + 4/7 算出來是 7/7，這個數也可以直接寫成哪一個整數？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/math#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "分母絕對不能相加減！",
+          "topicSignalTitle": "為什麼 2/10 + 5/10 不是 7/20？",
+          "narrationText": "分母 10 代表「東西原本被平分成 10 份」，我們只是在數拿了幾份（分子），並不是把披薩重新切成 20 份喔！",
+          "cognitiveChunks": [
+            "分母表示平分份數，計算時不變",
+            "分子表示拿取的份數"
+          ],
+          "factGroundingSourceId": "115-s2/g3/math#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "來練一題同分母分數減法暖暖身！",
+          "cognitiveChunks": [
+            "分母不變、分子相減"
+          ],
+          "warmupCheck": {
+            "prompt": "計算「7/8 - 3/8」，結果是多少？",
+            "options": [
+              "4/16",
+              "4/8",
+              "10/8",
+              "4/0"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！分母 8 維持不變，分子 7 - 3 = 4，結果是 4/8。",
+            "feedbackRetry": "同分母相減時，分母 8 不用減掉喔！"
+          },
+          "factGroundingSourceId": "115-s2/g3/math#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-math-u4",
+      "stageId": "115-s2-g3-math-u4",
+      "title": "第4章 圓",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識圓心、半徑與直徑",
+          "narrationText": "圓正中央的點是圓心；從圓心連到圓周是「半徑」；穿過圓心且兩端在圓周上是「直徑」。直徑剛好是半徑的 2 倍長！",
+          "cognitiveChunks": [
+            "直徑＝半徑 × 2",
+            "半徑＝直徑 ÷ 2",
+            "同一個圓裡有無數條等長的半徑與直徑"
+          ],
+          "analogyAnchor": "就像腳踏車的輪胎：輪軸中心是圓心，每一根輻條是半徑，從輪胎一邊穿過中心到對面就是直徑。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "半徑",
+              "leftPoints": [
+                "從圓心連到圓周",
+                "圓規張開的距離＝半徑"
+              ],
+              "rightTitle": "直徑",
+              "rightPoints": [
+                "通過圓心連到圓周兩端",
+                "圓內最長的線段（＝半徑×2）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "圓規張開=半徑",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "直徑=半徑×2",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/math#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用圓規畫指定直徑的圓",
+          "narrationText": "用圓規畫圓時，針尖固定在圓心，筆尖繞一圈，所以圓規張開的距離是「半徑」。如果題目給你直徑，記得先除以 2！",
+          "cognitiveChunks": [
+            "圓規張開寬度＝半徑",
+            "比較兩個圓大小要統一換成半徑或直徑"
+          ],
+          "workedExampleData": {
+            "problemStatement": "想用圓規畫出一個「直徑是 10 公分」的圓，圓規兩腳要張開幾公分？",
+            "steps": [
+              "第 1 步：確認圓規張開的距離是圓的「半徑」",
+              "第 2 步：已知直徑是 10 公分，半徑＝直徑 ÷ 2",
+              "第 3 步：算出 10 ÷ 2 = 5 公分，圓規兩腳張開 5 公分"
+            ],
+            "commonErrorContrast": "常見錯誤：看到直徑 10 公分就直接把圓規張開 10 公分，結果畫出直徑 20 公分的大圓。",
+            "selfExplanationPrompt": "想一想：甲圓半徑 6 公分、乙圓直徑 10 公分，哪一個圓比較大？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/math#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "直徑是圓裡面最長的線段",
+          "topicSignalTitle": "隨便連圓周上的兩個點都是直徑嗎？",
+          "narrationText": "不是喔！一定要「通過圓心」的線段才叫直徑，沒有通過圓心的線段一定比直徑還要短。",
+          "cognitiveChunks": [
+            "直徑一定要通過圓心",
+            "直徑是圓內最長的線段"
+          ],
+          "factGroundingSourceId": "115-s2/g3/math#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "來算算看半徑與直徑的關係吧！",
+          "cognitiveChunks": [
+            "直徑＝半徑 × 2"
+          ],
+          "warmupCheck": {
+            "prompt": "一個圓形時鐘的半徑是 8 公分，這個時鐘的「直徑」是多少公分？",
+            "options": [
+              "4 公分",
+              "8 公分",
+              "16 公分",
+              "32 公分"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！直徑是半徑的 2 倍，8 × 2 = 16 公分。",
+            "feedbackRetry": "從圓心到邊邊是 8 公分，那穿過圓心從左到右一共是幾個 8 公分呢？"
+          },
+          "factGroundingSourceId": "115-s2/g3/math#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-math-u5",
+      "stageId": "115-s2-g3-math-u5",
+      "title": "第5章 兩步驟應用問題",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "拆解兩步驟應用題的思考順序",
+          "narrationText": "遇到題目裡有兩個動作或三種數字時，不要急著把數字亂湊！先找出「第一步要先算出什麼中間答案」，再算最後題目問的結果。",
+          "cognitiveChunks": [
+            "第 1 步：先找中間要先算的量",
+            "第 2 步：再用中間結果算最終答案",
+            "注意「每份」與「全部」的單位對應"
+          ],
+          "analogyAnchor": "就像做兩層蛋糕：先算好第一層（例如總共有幾盆花），才能接著做第二層（平均排成 8 列）。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "讀懂題目最後問什麼",
+                "先算第一步中間結果",
+                "再算第二步最終答案"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "先算中間答案",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "再求最終問題",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/math#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "先除後加／先減後乘的題型",
+          "narrationText": "當題目給「6 枝筆共 108 元，買 1 枝筆和 1 本 45 元筆記本共幾元」時，不能直接 108 + 45，必須先算出「1 枝筆」的價錢！",
+          "cognitiveChunks": [
+            "多件總價先除以數量→得單價",
+            "特價每件便宜 60 元→先減再乘件數"
+          ],
+          "workedExampleData": {
+            "problemStatement": "原價 350 元的上衣每件便宜 60 元，買 5 件特價上衣共要幾元？",
+            "steps": [
+              "第 1 步：先算特價後「1 件」上衣幾元：350 - 60 = 290 元",
+              "第 2 步：再算買 5 件一共要幾元：290 × 5 = 1450 元"
+            ],
+            "commonErrorContrast": "常見錯誤：先算 350 × 5 = 1750 元後只減掉 1 個 60 元，忘了每件都便宜 60 元。",
+            "selfExplanationPrompt": "想一想：如果這題先算 60 × 5 = 300 元，再用 1750 - 300，結果是不是也一樣是 1450 元？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/math#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "檢查答案有沒有漏掉第二步",
+          "topicSignalTitle": "為什麼算出第一步後還不能停？",
+          "narrationText": "很多同學算出第一步（例如 4 張門票 480 元）就以為寫完了，忘了題目其實是問「付 500 元要找回幾元」！寫完記得再看一次題目最後一句。",
+          "cognitiveChunks": [
+            "算完檢查題目最後一問",
+            "注意「找回多少」要用減法"
+          ],
+          "factGroundingSourceId": "115-s2/g3/math#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "試著用兩步驟解決這題分裝問題！",
+          "cognitiveChunks": [
+            "先加起來再平分"
+          ],
+          "warmupCheck": {
+            "prompt": "紅球有 26 顆、藍球有 22 顆，全部平分裝進 6 個袋子，每個袋子有幾顆球？",
+            "options": [
+              "48 顆",
+              "8 顆",
+              "6 顆",
+              "9 顆"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！先算 26 + 22 = 48 顆，再 48 ÷ 6 = 8 顆。",
+            "feedbackRetry": "第一步先把紅球和藍球加起來算出總數，第二步再除以 6 喔！"
+          },
+          "factGroundingSourceId": "115-s2/g3/math#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-math-u6",
+      "stageId": "115-s2-g3-math-u6",
+      "title": "第6章 一位小數",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識 0.1、十分位與小數點對齊",
+          "narrationText": "小數點右邊第一位叫「十分位」，代表有幾個 0.1。10 個 0.1 合起來就是 1；列直式加減時，最重要就是把小數點上下對齊！",
+          "cognitiveChunks": [
+            "10 個 0.1＝1",
+            "小數點右邊第一位是「十分位」",
+            "直式加減：小數點一定要對齊"
+          ],
+          "analogyAnchor": "直尺上 1 公分分成 10 毫米，每 1 毫米就是 0.1 公分，所以 14 公分 8 毫米就是 14.8 公分。",
+          "visualSpec": {
+            "templateId": "number_line",
+            "params": {
+              "min": 0,
+              "max": 3,
+              "step": 1,
+              "highlight": [
+                0.7,
+                2.7
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "10個0.1等於1",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "小數點上下對齊",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/math#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "整數減一位小數怎麼列直式？",
+          "narrationText": "計算「3 - 0.7」時，整數 3 的小數點其實藏在個位 3 的右邊，我們可以把 3 寫成「3.0」來對齊十分位！",
+          "cognitiveChunks": [
+            "整數 3 可以寫成 3.0",
+            "借 1 當作 10 個 0.1"
+          ],
+          "workedExampleData": {
+            "problemStatement": "計算 3 - 0.7。",
+            "steps": [
+              "第 1 步：把整數 3 寫成 3.0，並將 0.7 的小數點上下對齊",
+              "第 2 步：十分位 0 不夠減 7，向個位 3 借 1 當成 10 個 0.1",
+              "第 3 步：十分位 10 - 7 = 3，個位剩 2 - 0 = 2，點上小數點得 2.3"
+            ],
+            "commonErrorContrast": "常見錯誤：沒有把 3 寫成 3.0，直接用 7 - 3 寫成 0.4 或 2.7。",
+            "selfExplanationPrompt": "想一想：2.6 + 1.8 時，十分位 6 + 8 = 14 個 0.1，為什麼要往個位進 1？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/math#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "小心！賽跑秒數越小越快",
+          "topicSignalTitle": "小數比大小先比哪一位？",
+          "narrationText": "比較一位小數大小時，先比整數部分（個位、十位），整數一樣大再比十分位。記得賽跑比賽是「秒數越少跑越快」喔！",
+          "cognitiveChunks": [
+            "先比整數部分，再比十分位",
+            "個位是 0 時不可漏寫（如 0.6）"
+          ],
+          "factGroundingSourceId": "115-s2/g3/math#u6"
+        },
+        {
+          "sceneId": "u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先練習一題「幾個 0.1」合起來是多少！",
+          "cognitiveChunks": [
+            "10 個 0.1＝1"
+          ],
+          "warmupCheck": {
+            "prompt": "把「35 個 0.1」合起來，用一位小數記作多少？",
+            "options": [
+              "0.35",
+              "35",
+              "3.5",
+              "30.5"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！30 個 0.1 是 3，加上 5 個 0.1 就是 3.5。",
+            "feedbackRetry": "每 10 個 0.1 會變成 1，35 個 0.1 裡面有 3 個 1 和 5 個 0.1 喔！"
+          },
+          "factGroundingSourceId": "115-s2/g3/math#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-math-u7",
+      "stageId": "115-s2-g3-math-u7",
+      "title": "第7章 時間",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u7-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "時間的 24 進位與 60 進位",
+          "narrationText": "時間計算不是 10 進位也不是 100 進位！1 日是 24 小時，1 小時是 60 分鐘，1 分鐘是 60 秒鐘，進退位時要特別記清楚。",
+          "cognitiveChunks": [
+            "1 日＝24 小時",
+            "1 小時＝60 分鐘",
+            "1 分鐘＝60 秒"
+          ],
+          "analogyAnchor": "時鐘的長針走完一圈是 60 分鐘，就會讓短針往前跳 1 小時。",
+          "visualSpec": {
+            "templateId": "clock_face",
+            "params": {
+              "hour": 9,
+              "minute": 30
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "1小時=60分",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "1日=24小時",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/math#u7"
+        },
+        {
+          "sceneId": "u7-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "跨過中午 12 時的時間計算",
+          "narrationText": "計算從上午到下午經過了幾小時幾分鐘時，先把「下午時刻」加上 12 換成 24 時制，再直接相減就不會算錯！",
+          "cognitiveChunks": [
+            "下午時刻＋12＝24 時制",
+            "借 1 小時＝借 60 分鐘"
+          ],
+          "workedExampleData": {
+            "problemStatement": "上午 9 時 30 分到下午 2 時 10 分，一共經過了幾小時幾分鐘？",
+            "steps": [
+              "第 1 步：把下午 2 時 10 分加 12，換成 24 時制的「14 時 10 分」",
+              "第 2 步：10 分不夠減 30 分，向 14 時借 1 小時換成 60 分鐘，變成 13 時 70 分",
+              "第 3 步：70 - 30 = 40 分，13 - 9 = 4 時，共經過 4 小時 40 分鐘"
+            ],
+            "commonErrorContrast": "常見錯誤：借 1 小時卻只當成 100 分鐘或 10 分鐘來減。",
+            "selfExplanationPrompt": "想一想：3 分 25 秒換算成秒時，為什麼不是 325 秒？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/math#u7"
+        },
+        {
+          "sceneId": "u7-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "24 時制讓時刻計算更輕鬆",
+          "topicSignalTitle": "下午 4 時 20 分在 24 時制怎麼寫？",
+          "narrationText": "過了中午 12 時之後，只要把下午的「時」加上 12（例如 4 + 12 = 16），就能寫成 16 時 20 分囉。",
+          "cognitiveChunks": [
+            "下午 1 時＝13 時，下午 4 時＝16 時",
+            "分鐘超過 60 要進位成 1 小時"
+          ],
+          "factGroundingSourceId": "115-s2/g3/math#u7"
+        },
+        {
+          "sceneId": "u7-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "試著把「分和秒」換算成秒數看看！",
+          "cognitiveChunks": [
+            "1 分鐘＝60 秒"
+          ],
+          "warmupCheck": {
+            "prompt": "「2 分 15 秒」換算成秒，一共是多少秒？",
+            "options": [
+              "215 秒",
+              "135 秒",
+              "125 秒",
+              "75 秒"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！2 分是 60 × 2 = 120 秒，加上 15 秒就是 135 秒。",
+            "feedbackRetry": "1 分鐘是 60 秒，所以 2 分鐘是 120 秒喔，再加上 15 秒算算看！"
+          },
+          "factGroundingSourceId": "115-s2/g3/math#u7"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-math-u8",
+      "stageId": "115-s2-g3-math-u8",
+      "title": "第8章 乘與除",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u8-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "乘除互逆與未知數求解",
+          "narrationText": "乘法和除法是一對好朋友！知道「甲 × 乙 = 丙」，就能用「丙 ÷ 乙 = 甲」找回未知數；也能用乘法來驗算除法有沒有算對。",
+          "cognitiveChunks": [
+            "( ) × 除數＝積 → 用除法求 ( )",
+            "( ) ÷ 除數＝商 → 用乘法求 ( )",
+            "有餘數驗算：除數 × 商＋餘數＝被除數"
+          ],
+          "analogyAnchor": "就像拆禮物再裝回去：乘起來變大的數，除以其中一個數就能變回原來的另一個數。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "乘法找未知數",
+              "leftPoints": [
+                "( ) × 7 = 168",
+                "用 168 ÷ 7 = 24"
+              ],
+              "rightTitle": "除法找被除數",
+              "rightPoints": [
+                "( ) ÷ 6 = 19",
+                "用 19 × 6 = 114"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "乘除互為逆運算",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "求被除數用乘法",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/math#u8"
+        },
+        {
+          "sceneId": "u8-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分辨除法未知數何時用乘、何時用除",
+          "narrationText": "看到除法算式裡的括號時，要看清楚括號是在最前面（被除數）還是在中間（除數），兩種算法不一樣喔！",
+          "cognitiveChunks": [
+            "求最前面的被除數 → 除數 × 商",
+            "求中間的除數 → 被除數 ÷ 商"
+          ],
+          "workedExampleData": {
+            "problemStatement": "比較「( ) ÷ 6 = 19」和「144 ÷ ( ) = 8」的解法。",
+            "steps": [
+              "第 1 步：第一題括號在最前面（被除數最大），用 19 × 6 = 114",
+              "第 2 步：第二題括號在中間（除數），用 144 ÷ 8 = 18",
+              "第 3 步：把算出的數字代回原算式檢查一次，確認完全正確"
+            ],
+            "commonErrorContrast": "常見錯誤：看到除以 6 就直接把 19 除以 6，或看到 144 ÷ ( ) = 8 就拿 144 去乘 8。",
+            "selfExplanationPrompt": "想一想：計算 215 ÷ 6 = 35 …… 5 後，要怎麼列式驗算才對？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/math#u8"
+        },
+        {
+          "sceneId": "u8-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "生活中的整百乘法估算",
+          "topicSignalTitle": "198 元買 4 張票大約需要幾百元？",
+          "narrationText": "198 元非常接近 200 元，把 198 看成 200 來乘以 4，很快就知道大約需要 800 元！",
+          "cognitiveChunks": [
+            "找最接近的整百數估算",
+            "算出後記得代回原式驗算"
+          ],
+          "factGroundingSourceId": "115-s2/g3/math#u8"
+        },
+        {
+          "sceneId": "u8-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "用乘除互逆關係算算看這題未知數吧！",
+          "cognitiveChunks": [
+            "積 ÷ 已知數＝未知數"
+          ],
+          "warmupCheck": {
+            "prompt": "已知「( ) × 5 = 120」，括號裡應該填入多少？",
+            "options": [
+              "24",
+              "22",
+              "115",
+              "600"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！用 120 ÷ 5 = 24（驗算 24 × 5 = 120）。",
+            "feedbackRetry": "什麼數乘以 5 會等於 120 呢？用除法 120 除以 5 算算看！"
+          },
+          "factGroundingSourceId": "115-s2/g3/math#u8"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-math-u9",
+      "stageId": "115-s2-g3-math-u9",
+      "title": "第9章 面積",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u9-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識「平方公分」與數格子算面積",
+          "narrationText": "「面積」是指圖形表面占有多大，邊長 1 公分的小正方形面積就是「1 平方公分」。只要數出圖形蓋住幾個 1 平方公分格子，就知道面積大小！",
+          "cognitiveChunks": [
+            "邊長 1 公分正方形＝1 平方公分",
+            "長方形格數＝每排格數 × 排數",
+            "2 個半格可以拼成 1 平方公分"
+          ],
+          "analogyAnchor": "就像在地板鋪 1 平方公分的小磁磚，鋪滿需要幾塊磁磚，面積就是幾平方公分。",
+          "visualSpec": {
+            "templateId": "rect_geometry",
+            "params": {
+              "width": 8,
+              "height": 5,
+              "unit": "cm",
+              "showGrid": true
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "每格1平方公分",
+                "anchorPointId": "top-left"
+              },
+              {
+                "id": "l2",
+                "text": "2半格拼成1整格",
+                "anchorPointId": "bottom-right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/math#u9"
+        },
+        {
+          "sceneId": "u9-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "整格加半格與挖空圖形面積",
+          "narrationText": "數格子遇到三角形斜邊切出來的「半格」時，每 2 個半格可以拼成 1 個整格；遇到中間挖空的圖形，就用大面積減去挖掉的小面積。",
+          "cognitiveChunks": [
+            "半格數 ÷ 2＝拼成的整格數",
+            "挖空面積＝原本大面積－挖掉面積"
+          ],
+          "workedExampleData": {
+            "problemStatement": "一個圖形在 1 平方公分方格板上占了 14 個整格和 6 個半格，面積是多少？",
+            "steps": [
+              "第 1 步：先算 6 個半格能拼成幾個整格：6 ÷ 2 = 3 個整格",
+              "第 2 步：把整格和拼成的整格加起來：14 + 3 = 17",
+              "第 3 步：得到面積是 17 平方公分"
+            ],
+            "commonErrorContrast": "常見錯誤：把半格也直接當成 1 整格加上去（錯算成 20），或把面積單位寫成「公分」而不是「平方公分」。",
+            "selfExplanationPrompt": "想一想：把甲（15 平方公分）和乙（12 平方公分）兩張貼紙「不重疊」拼在一起，總面積會變嗎？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/math#u9"
+        },
+        {
+          "sceneId": "u9-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "分清楚「周長」和「面積」的單位",
+          "topicSignalTitle": "為什麼每排 8 格、共 5 排不是 26 平方公分？",
+          "narrationText": "繞外圍一圈的長度叫「周長」（單位是公分）；裡面鋪滿的格子數量叫「面積」（單位是平方公分），兩者不要混在一起喔！",
+          "cognitiveChunks": [
+            "周長單位：公分（繞一圈長度）",
+            "面積單位：平方公分（裡面占幾格）"
+          ],
+          "factGroundingSourceId": "115-s2/g3/math#u9"
+        },
+        {
+          "sceneId": "u9-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "來算算看這個方格圖形的面積吧！",
+          "cognitiveChunks": [
+            "每排格數 × 排數＝面積"
+          ],
+          "warmupCheck": {
+            "prompt": "在 1 平方公分的方格板上，一個長方形每排 6 格、共有 4 排，它的面積是多少？",
+            "options": [
+              "10 平方公分",
+              "20 平方公分",
+              "24 平方公分",
+              "24 公分"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！6 × 4 = 24 格，而且面積單位是「平方公分」，所以是 24 平方公分。",
+            "feedbackRetry": "注意算出 6 × 4 = 24 之後，面積的單位一定要選「平方公分」喔！"
+          },
+          "factGroundingSourceId": "115-s2/g3/math#u9"
+        }
+      ]
+    }
+  ]
+}

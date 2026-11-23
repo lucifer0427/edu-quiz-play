@@ -1,0 +1,376 @@
+{
+  "packId": "115-s1-g2-hakka",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 2,
+  "subjectId": "hakka",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-hakka-u1",
+      "stageId": "115-s1-g2-hakka-u1",
+      "title": "第一單元 四季仰般著",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "看四季天氣選衣服與客家藍衫",
+          "narrationText": "客語的「著」是穿、「衫」是衣服。春夏秋冬四季變化時，要看天氣選合適的衣服，也要認識勤儉樸實的「客家藍衫」！",
+          "cognitiveChunks": [
+            "著＝穿、衫＝衣服",
+            "冷穿長袖外套、熱穿短袖",
+            "客家藍衫耐髒勤儉大袖口"
+          ],
+          "analogyAnchor": "季節就像四位不同的小客人，冷的時候穿長袖外套迎接，熱的時候穿短袖，看場合選衣服就有禮貌！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "看天氣著衫",
+              "leftPoints": [
+                "寒天（冬天）：穿長袖、加外套",
+                "熱天（夏天）：穿短袖、透氣舒適"
+              ],
+              "rightTitle": "傳統客家藍衫",
+              "rightPoints": [
+                "靛藍布料耐髒耐洗又大方",
+                "寬大袖口反摺可當小口袋"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "依天氣場合選衣服",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "藍衫象徵勤儉樸實",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/hakka#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用客語回答「愛著麼个衫」",
+          "narrationText": "出門前如果下大雨又變冷，怎麼用客語告訴媽媽你要穿什麼衣服？",
+          "cognitiveChunks": [
+            "「今晡日」是今天",
+            "「著長袖摎外套」穿長袖和外套",
+            "下雨天帶「遮仔（雨傘）」"
+          ],
+          "workedExampleData": {
+            "problemStatement": "媽媽問：「今晡日有較寒，你愛著麼个衫？」怎麼回答最貼切？",
+            "steps": [
+              "第 1 步：先聽懂「有較寒」是指天氣比較冷。",
+              "第 2 步：挑選保暖衣物 →「𠊎愛著長袖摎外套」。",
+              "第 3 步：若外面正在下雨，再補上一句「還愛帶遮仔（雨傘）」。"
+            ],
+            "commonErrorContrast": "常見錯誤：天氣變冷又下雨，還說要穿短袖背心去海邊玩。",
+            "selfExplanationPrompt": "想一想：明天要去參觀安靜莊嚴的博物館，應該穿哪一種衣服才合乎場合禮節？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/hakka#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "換季穿搭小考驗",
+          "narrationText": "答對這題就能把暖暖的衣服放進衣櫃！",
+          "cognitiveChunks": [
+            "著是穿、衫是衣服"
+          ],
+          "warmupCheck": {
+            "prompt": "單元「四季仰般著」和第二課「愛著麼个衫」裡，「著」和「衫」各是什麼意思？",
+            "options": [
+              "著＝穿；衫＝衣服",
+              "著＝睡覺；衫＝餅乾",
+              "著＝吃飯；衫＝鉛筆"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！著就是穿、衫就是衣服，合起來就是「要穿什麼衣服」！",
+            "feedbackRetry": "換季時大家都在想「要穿什麼衣服」，找找看穿和衣服的配對喔！"
+          },
+          "factGroundingSourceId": "115-s1/g2/hakka#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-hakka-u2",
+      "stageId": "115-s1-g2-hakka-u2",
+      "title": "第二單元 認識自家",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "五官詞語、洗身習慣與內灣野薑花粽",
+          "narrationText": "「自家」就是自己。照鏡子認識「目珠、耳公、鼻公、嘴」，每天記得「洗身」，還要認識新竹內灣清香的「野薑花粽」！",
+          "cognitiveChunks": [
+            "目珠＝眼睛、耳公＝耳朵",
+            "鼻公＝鼻子、嘴＝嘴巴",
+            "洗身＝洗澡、欣賞彼此異同"
+          ],
+          "analogyAnchor": "五官就像臉上的五位小精靈，每天照鏡子叫叫它們的名字，再好好洗臉「洗身」，身體就會清爽又有精神。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "認識自家五官",
+              "leftPoints": [
+                "目珠（眼睛）、耳公（耳朵）",
+                "鼻公（鼻子）、嘴（嘴巴）"
+              ],
+              "rightTitle": "衛生與客家美食",
+              "rightPoints": [
+                "流汗玩耍後要「洗身」洗澡",
+                "新竹內灣特色：野薑花粽"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "欣賞自己也尊重人",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "每天洗身保持乾淨",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/hakka#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "愛護身體與五官三件事",
+          "narrationText": "學會五官客語後，在每天的生活裡要怎麼照顧身體才健康？",
+          "cognitiveChunks": [
+            "不揉目珠、不亂挖耳公",
+            "飯前便後用肥皂洗手",
+            "每天晚上睡前好好洗身"
+          ],
+          "workedExampleData": {
+            "problemStatement": "怎樣當一個愛護身體五官的好管家？",
+            "steps": [
+              "第 1 步：不用髒手揉「目珠（眼睛）」，看書保持光線充足。",
+              "第 2 步：不拿尖尖的東西掏「耳公（耳朵）」，遠離巨大噪音。",
+              "第 3 步：飯前便後肥皂洗手，流汗或睡前好好「洗身（洗澡）」。"
+            ],
+            "commonErrorContrast": "常見錯誤：取笑長相跟自己不一樣的同學，或好幾天不洗身就睡覺。",
+            "selfExplanationPrompt": "想一想：新竹內灣的「野薑花粽」為什麼聞起來特別清香？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/hakka#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "身體小管家暖身題",
+          "narrationText": "答對這題就能認識更多關於「自家」的秘密！",
+          "cognitiveChunks": [
+            "洗身就是洗澡的意思"
+          ],
+          "warmupCheck": {
+            "prompt": "第四課課名是「洗身」，請問客語的「洗身」是指每天哪一個好習慣？",
+            "options": [
+              "洗衣服",
+              "洗澡，讓身體乾淨清爽",
+              "洗書包"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！洗身就是洗澡，流汗玩耍後洗個澡最舒服健康了！",
+            "feedbackRetry": "玩得滿身大汗黏黏的時候，進浴室沖水擦肥皂叫做什麼呢？"
+          },
+          "factGroundingSourceId": "115-s1/g2/hakka#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-hakka-u3",
+      "stageId": "115-s1-g2-hakka-u3",
+      "title": "第三單元 歡喜過新年",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "大掃除、甜粄與過年拜年話",
+          "narrationText": "過年前全家一起「拚掃（大掃除）」、貼春聯、炊「甜粄（年糕）」，大年初一穿上新衣向長輩拜年說吉祥話，收到祝福要說「承蒙你」！",
+          "cognitiveChunks": [
+            "拚掃、貼春聯、圍爐吃年夜飯",
+            "甜粄＝甜年糕、象徵步步高升",
+            "說恭喜發財、感謝說承蒙你"
+          ],
+          "analogyAnchor": "過年就像一場熱鬧的家庭慶典，香甜的「甜粄」送上祝福，溫暖的「承蒙你」讓長輩笑得合不攏嘴。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "過年前：全家拚掃、貼春聯、炊甜粄",
+                "初一時：穿新衣向長輩拜年祝福",
+                "收紅包：雙手接過並說「承蒙你」"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "甜粄祝福團圓高升",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "雙手接祝福說承蒙",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/hakka#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "過年拜年與收紅包禮儀",
+          "narrationText": "過年見到阿公阿婆和親戚時，怎麼說、怎麼做最有禮貌？",
+          "cognitiveChunks": [
+            "微笑問候祝福身體健康",
+            "雙手接過長輩的紅包",
+            "誠懇道謝說「承蒙你」"
+          ],
+          "workedExampleData": {
+            "problemStatement": "過年向阿公阿婆拜年，長輩遞給你紅包時該怎麼做？",
+            "steps": [
+              "第 1 步：先微笑說「恭喜發財！祝阿公阿婆新年快樂、身體健康！」。",
+              "第 2 步：長輩給紅包時，用雙手有禮貌地接過來。",
+              "第 3 步：開心地對長輩說「承蒙你（恁仔細，謝謝您）！」。"
+            ],
+            "commonErrorContrast": "常見錯誤：拿了紅包馬上當場拆開看多少錢，或一句謝謝都不說就跑走。",
+            "selfExplanationPrompt": "想一想：客家過年常炊製的「甜粄」，代表什麼美好的祝福意思？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/hakka#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "過年拜年小考驗",
+          "narrationText": "答對這題就能領取新年好運氣！",
+          "cognitiveChunks": [
+            "向長輩道謝要說承蒙你或恁仔細"
+          ],
+          "warmupCheck": {
+            "prompt": "長輩遞給你紅包並祝福你平安長大時，用客語怎麼回應最有禮貌？",
+            "options": [
+              "一句話都不說拿了就跑",
+              "馬上拆開看有多少錢",
+              "雙手接過並笑著說「承蒙你（恁仔細）」"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！雙手接過並說「承蒙你」，是最有教養的小客人！",
+            "feedbackRetry": "客語說謝謝您是「承蒙」或「恁仔細」，還要用雙手接過長輩的心意喔！"
+          },
+          "factGroundingSourceId": "115-s1/g2/hakka#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-hakka-u4",
+      "stageId": "115-s1-g2-hakka-u4",
+      "title": "第四單元 期末歌謠與複習活動",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "唱童謠、搞麼个與出任務囉",
+          "narrationText": "期末我們一起唱〈嘴嘟嘟╱水打一雙鞋〉，還用「你在搞麼个？」來聊天，最後帶著學過的客語詞彙去〈出任務囉！〉。",
+          "cognitiveChunks": [
+            "嘴嘟嘟＝嘟嘴、一雙鞋＝一雙鞋子",
+            "你在搞麼个？＝你在做什麼？",
+            "下雨踩濕鞋子要擦乾晾好"
+          ],
+          "analogyAnchor": "期末總複習就像一場尋寶任務，把「目珠、鼻公、洗身、著衫」這些客語寶石串起來，就能順利過關！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "唱童謠：〈嘴嘟嘟╱水打一雙鞋〉",
+                "練對話：問「你在搞麼个？」",
+                "出任務：分組互助說客語過關"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "下雨溼鞋擦乾晾好",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "輪流開口互相鼓勵",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/hakka#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "解讀「搞麼个？」與任務指令",
+          "narrationText": "聽懂朋友的問候和任務單上的客語線索，就能輕鬆完成挑戰！",
+          "cognitiveChunks": [
+            "「搞麼个」＝做什麼、玩什麼",
+            "「𠊎在該……」＝我正在……",
+            "把學過的身體與動作詞彙串起來"
+          ],
+          "workedExampleData": {
+            "problemStatement": "表弟問你：「你在搞麼个？」，你正在整理衣櫃，怎麼用客語回答？",
+            "steps": [
+              "第 1 步：先聽懂「搞麼个？」是在問「做什麼？」。",
+              "第 2 步：用「𠊎在該……」開頭表示「我正在……」。",
+              "第 3 步：接上動作「整理衫褲」，完成回答「𠊎在該整理衫褲！」。"
+            ],
+            "commonErrorContrast": "常見錯誤：沒有回答自己在做什麼，或是分組闖關時取笑講比較慢的同學。",
+            "selfExplanationPrompt": "想一想：如果任務單寫著「指出目珠摎鼻公，再去洗身」，你要做哪幾件事？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/hakka#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "期末任務小考驗",
+          "narrationText": "答對這題就可以正式出任務囉！",
+          "cognitiveChunks": [
+            "嘴嘟嘟是嘟嘴、一雙鞋是一雙鞋子"
+          ],
+          "warmupCheck": {
+            "prompt": "客家童謠〈嘴嘟嘟╱水打一雙鞋〉裡，「嘴嘟嘟」是什麼意思？",
+            "options": [
+              "嘴巴嘟起來的樣子",
+              "肚子好餓",
+              "牙齒好痛"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！「嘴嘟嘟」形容小朋友嘴巴嘟起來的可愛模樣喔！",
+            "feedbackRetry": "想想小朋友撒嬌或鬧脾氣時，嘴巴會做出什麼可愛的表情呢？"
+          },
+          "factGroundingSourceId": "115-s1/g2/hakka#u4"
+        }
+      ]
+    }
+  ]
+}

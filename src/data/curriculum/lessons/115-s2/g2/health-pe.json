@@ -1,0 +1,742 @@
+{
+  "packId": "115-s2-g2-health-pe",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 2,
+  "subjectId": "health-pe",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-health-pe-u1",
+      "stageId": "115-s2-g2-health-pe-u1",
+      "title": "單元一、健康習慣真重要",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "潔牙與清潔好習慣天天做",
+          "narrationText": "飯後和睡前把牙齒每一面都輕輕刷乾淨，再加上洗臉、用肥皂洗手、洗澡、如廁沖水與端正坐姿，身體就會健康有精神。",
+          "cognitiveChunks": [
+            "飯後睡前輕柔刷牙每面都刷到",
+            "如廁沖水、飯前便後肥皂洗手",
+            "寫字看書背挺直、雙腳平踩地"
+          ],
+          "analogyAnchor": "牙刷和肥皂就像身體的清潔小衛兵，每天按時請它們幫忙，蛀牙蟲和細菌就找不到機會搗蛋。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "潔牙行動家",
+              "leftPoints": [
+                "三餐飯後與睡前刷牙",
+                "內側、外側、咬合面都刷到"
+              ],
+              "rightTitle": "每天好習慣",
+              "rightPoints": [
+                "洗臉洗澡洗手維持清爽",
+                "坐姿端正保護脊椎與視力"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "飯後睡前輕刷牙",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "洗手沖水坐端正",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "正確刷牙與牙刷保養",
+          "narrationText": "刷牙不是用力橫刷就好，用對方法才不會傷到牙齦又能清乾淨。",
+          "cognitiveChunks": [
+            "力道輕柔一顆一顆仔細刷",
+            "外面、裡面、咬合面都要刷",
+            "用完沖淨刷頭朝上通風晾乾"
+          ],
+          "workedExampleData": {
+            "problemStatement": "拿起牙刷刷牙時，怎麼刷才乾淨又不傷牙齦？",
+            "steps": [
+              "第 1 步：力道輕柔，一顆一顆順序刷，不要橫著用力猛刷。",
+              "第 2 步：每顆牙齒的外側、內側和咬合面都要照顧到。",
+              "第 3 步：刷完把牙刷沖乾淨，刷頭朝上放在通風處晾乾。"
+            ],
+            "commonErrorContrast": "常見錯誤：只刷前面的門牙就結束，或是用很大力氣橫刷把牙齦刷流血。",
+            "selfExplanationPrompt": "想一想：為什麼睡覺前那一趟刷牙特別重要？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "健康習慣小達人",
+          "narrationText": "先來答對這題好習慣檢查吧！",
+          "cognitiveChunks": [
+            "端正坐姿能保護視力和脊椎"
+          ],
+          "warmupCheck": {
+            "prompt": "在書桌前寫字或看書時，哪一種坐姿才是正確的好習慣？",
+            "options": [
+              "下巴趴在桌上歪頭寫字",
+              "背部挺直、雙腳平踩地面，眼睛與書本保持距離",
+              "把雙腳翹到桌子上寫功課"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！坐端正才不會彎腰駝背或近視喔！",
+            "feedbackRetry": "趴在桌上或翹腳都會讓背和眼睛好累，找找看哪一個最端正！"
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-health-pe-u2",
+      "stageId": "115-s2-g2-health-pe-u2",
+      "title": "單元二、讓家人更親近",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "用心溝通與家庭休閒樂趣多",
+          "narrationText": "常把謝謝和我愛你說出口、體諒家人的辛苦、用好好溝通代替吵架，假日再一起去散步或玩桌遊，家裡就會更甜蜜。",
+          "cognitiveChunks": [
+            "說謝謝、主動幫忙表達關愛",
+            "意見不同時商量輪流或合作",
+            "家庭休閒活動讓感情更親近"
+          ],
+          "analogyAnchor": "家人的感情就像一棵需要天天澆水的小樹，溫柔說話、幫忙做家事和一起出遊，就是最好的陽光和清水。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "我愛家人好表現",
+              "leftPoints": [
+                "觀察家人疲勞並安靜體諒",
+                "發現錯了冷靜後誠實道歉"
+              ],
+              "rightTitle": "家庭休閒樂趣多",
+              "rightPoints": [
+                "公園散步、野餐、騎腳踏車",
+                "共玩桌遊、一起做飯聊天"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "好好溝通不吵架",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "全家互動更親近",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "和家人意見不同怎麼溝通",
+          "narrationText": "和弟弟妹妹或家人想法不一樣時，跟著三個步驟就能和平解決。",
+          "cognitiveChunks": [
+            "先深呼吸不急著生氣尖叫",
+            "平心靜氣說出自己的想法",
+            "商量輪流玩或一起合作"
+          ],
+          "workedExampleData": {
+            "problemStatement": "和兄弟姊妹同時想玩同一套積木時，怎麼溝通才不會吵架？",
+            "steps": [
+              "第 1 步：先停下來不搶奪，也不哭鬧踢東西。",
+              "第 2 步：好好說出自己想玩的理由，也聽對方怎麼說。",
+              "第 3 步：一起商量輪流玩的時間，或合作蓋一座大城堡。"
+            ],
+            "commonErrorContrast": "常見錯誤：生氣把積木踢翻，或是趁對方不注意偷偷把玩具藏起來。",
+            "selfExplanationPrompt": "想一想：看到爸爸媽媽下班很累時，你可以做什麼安靜又貼心的小事？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "家庭小暖男暖女檢查",
+          "narrationText": "答對這題就能把溫暖帶回家！",
+          "cognitiveChunks": [
+            "家庭休閒活動能放鬆心情並增進感情"
+          ],
+          "warmupCheck": {
+            "prompt": "星期天全家人都有空，哪一項活動最能增進家人之間的感情？",
+            "options": [
+              "各自躲進房間滑手機不說話",
+              "一起去公園散步野餐或在家玩桌遊",
+              "半夜一點比賽看電視"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！大家一起散步野餐或玩桌遊，邊玩邊聊天最能拉近距離！",
+            "feedbackRetry": "找一個大家都能一起互動、健康又開心的活動吧！"
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-health-pe-u3",
+      "stageId": "115-s2-g2-health-pe-u3",
+      "title": "單元三、健康舒適的社區",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識社區資源與預防登革熱",
+          "narrationText": "公園、圖書館和衛生所都是好用的社區資源；我們要倒掉積水容器預防登革熱，並隨手維護社區整潔。",
+          "cognitiveChunks": [
+            "愛護公園、圖書館等社區資源",
+            "登革熱由病媒蚊叮咬傳染",
+            "清除積水容器並維護環境整潔"
+          ],
+          "analogyAnchor": "社區就像大家共同的大家庭客廳，把垃圾帶走、把積水倒掉，蚊子不來住，每個人都住得安心舒適。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "檢查陽台花盆底盤與空瓶",
+                "倒掉積水並刷洗倒放容器",
+                "蚊子無法產卵、社區遠離登革熱"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "登革熱靠蚊子傳染",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "清積水不養病媒蚊",
+                "anchorPointId": "step2"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "預防登革熱與愛護社區做法",
+          "narrationText": "跟著三個做法，和家人鄰居一起守護健康社區。",
+          "cognitiveChunks": [
+            "定期巡視並倒掉積水刷洗",
+            "戶外穿淺色長袖長褲防蚊",
+            "垃圾與寵物便便隨手帶走"
+          ],
+          "workedExampleData": {
+            "problemStatement": "為了不讓登革熱病媒蚊在社區繁殖，陽台花盆底盤和空瓶該怎麼處理？",
+            "steps": [
+              "第 1 步：定期把底盤和瓶罐裡的積水倒掉。",
+              "第 2 步：把容器內壁刷洗乾淨，避免蚊子卵黏在上面。",
+              "第 3 步：用不到的空瓶要倒放收好或交給資源回收。"
+            ],
+            "commonErrorContrast": "常見錯誤：把積水的容器搬進屋內藏起來，或是放在陽台等太陽自己曬乾。",
+            "selfExplanationPrompt": "想一想：去社區公園散步時，怎樣做才是有公德心的好居民？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "社區環保小尖兵",
+          "narrationText": "答對這題就能幫忙打造乾淨健康的社區！",
+          "cognitiveChunks": [
+            "登革熱透過帶病毒的病媒蚊叮咬傳染"
+          ],
+          "warmupCheck": {
+            "prompt": "常聽到的「登革熱」主要是透過什麼方式傳染給人類的？",
+            "options": [
+              "和鄰居微笑點頭打招呼",
+              "由帶有病毒的蚊子叮咬而傳染",
+              "夏天太陽太大曬太久"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！登革熱是透過病媒蚊叮咬傳播，所以清除積水不養蚊子最重要！",
+            "feedbackRetry": "這種疾病最喜歡在積水地方產卵，是哪一種會飛又會咬人的小昆蟲傳染的呢？"
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-health-pe-u4",
+      "stageId": "115-s2-g2-health-pe-u4",
+      "title": "單元四、運動新體驗",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "平衡木、跳箱與體操安全練習",
+          "narrationText": "走平衡木要打開雙臂像小飛機、玩跳箱要雙手全掌撐穩並屈膝落地緩衝，而且場地上一定要先鋪好安全軟墊。",
+          "cognitiveChunks": [
+            "走平衡木張臂看前方慢慢踩穩",
+            "玩跳箱全掌伸直撐穩再跨越",
+            "落地屈膝微彎緩衝、鋪好軟墊"
+          ],
+          "analogyAnchor": "走平衡木時打開雙臂就像小飛機展翅一樣穩；跳下來時膝蓋微彎就像小貓落地一樣輕巧。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "確認軟墊鋪好與排隊間距",
+                "雙臂伸直全掌撐穩跳箱",
+                "落地時雙腳微彎膝蓋緩衝"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "場地先鋪安全軟墊",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "落地微彎像彈簧",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "平衡木與跳箱安全步驟",
+          "narrationText": "做體操與器械運動前，記住這三個保護關節與身體的關鍵。",
+          "cognitiveChunks": [
+            "目視前方定點保持平衡",
+            "等前一位同學離開軟墊再起跑",
+            "落地雙腳併攏或與肩同寬微蹲"
+          ],
+          "workedExampleData": {
+            "problemStatement": "從跳箱或平衡木跳下來落地時，雙腳應該怎麼做才不會傷到膝蓋？",
+            "steps": [
+              "第 1 步：眼睛看清楚前方的軟墊落點。",
+              "第 2 步：雙腳併攏或與肩同寬同時著地。",
+              "第 3 步：落地瞬間膝蓋微彎緩衝吸震，穩定站好。"
+            ],
+            "commonErrorContrast": "常見錯誤：雙腿繃得筆直重重砸在地上，或前面同學還在軟墊上就急著起跳。",
+            "selfExplanationPrompt": "想一想：在平衡木上練習走路時，為什麼眼睛要看前方不能看天花板？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "體操小選手暖身題",
+          "narrationText": "答對這題就可以站上軟墊挑戰囉！",
+          "cognitiveChunks": [
+            "體操活動前要先檢查軟墊與安全距離"
+          ],
+          "warmupCheck": {
+            "prompt": "進行平衡木或跳箱遊戲之前，場地上一定要先檢查並做好什麼？",
+            "options": [
+              "鋪好平整厚實的軟墊並保持安全距離",
+              "把教室椅子堆在跳箱旁邊",
+              "在地上灑水比賽誰跑得快"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！軟墊和排隊安全間距能好好保護每位同學的安全。",
+            "feedbackRetry": "萬一不小心沒踩穩時，地上鋪著什麼軟軟厚厚的東西能保護我們呢？"
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-health-pe-u5",
+      "stageId": "115-s2-g2-health-pe-u5",
+      "title": "單元五、運動 GO！",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "運動安全三部曲與小小運動家",
+          "narrationText": "運動前穿運動服裝並做暖身操，運動中不舒服立刻停下求助，比賽時幫隊友加油並聽從裁判指示，就能快樂跳出活力。",
+          "cognitiveChunks": [
+            "運動前穿運動服鞋並做暖身操",
+            "頭暈或受傷立刻停止並告訴老師",
+            "比賽幫隊友加油、跳繩數拍合作"
+          ],
+          "analogyAnchor": "運動安全三部曲就像出門冒險的三件法寶：先暖身準備、中途聽身體警訊、受傷立刻去健康中心。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "運動前：穿運動服並暖身伸展",
+                "運動中：不適就停下休息補水",
+                "受傷時：通知老師去健康中心"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "先暖身預防扭傷",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "受傷找老師與校護",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "運動傷害處理與合作跳繩",
+          "narrationText": "遇到跌倒擦傷或扭傷時，千萬不能亂揉或繼續跑喔！",
+          "cognitiveChunks": [
+            "跌倒擦傷或扭傷立刻停止運動",
+            "通知老師並到健康中心處理",
+            "跑步跳繩數拍子維持同節奏"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在操場跑步不小心跌倒擦傷流血，或腳踝扭傷時該怎麼辦？",
+            "steps": [
+              "第 1 步：立刻停止運動坐下來休息，不要硬撐。",
+              "第 2 步：馬上通知老師或身邊的大人。",
+              "第 3 步：前往健康中心請校護阿姨清洗傷口或冰敷評估。"
+            ],
+            "commonErrorContrast": "常見錯誤：自己用力搓揉扭傷的腳踝，或隨便抓泥土抹傷口繼續跑。",
+            "selfExplanationPrompt": "想一想：和朋友玩雙人跑步跳繩時，怎樣才不會被繩子絆倒？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "運動安全小隊長",
+          "narrationText": "答對這題就可以大喊運動 GO！",
+          "cognitiveChunks": [
+            "暖身操讓肌肉和關節準備好，減少受傷"
+          ],
+          "warmupCheck": {
+            "prompt": "每次上體育課或準備去跑步前，老師帶大家做「暖身運動」的主要原因是什麼？",
+            "options": [
+              "讓肌肉、關節和心跳準備好，不容易拉傷扭傷",
+              "故意拖延時間不讓大家玩球",
+              "做完就永遠不會流汗"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！暖身能讓身體熱起來、關節變靈活，大幅減少運動傷害！",
+            "feedbackRetry": "如果身體還沒準備好就突然用力跑跳，肌肉和關節會容易怎麼樣呢？"
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-health-pe-u6",
+      "stageId": "115-s2-g2-health-pe-u6",
+      "title": "單元六、我喜歡玩球",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "手拋、棒推、腳踢一起來玩球",
+          "narrationText": "隔網拋接軟球要看球移動、拿棒推球要輕推不揮高、用腳內側踢球最穩，運球時要小步輕撥不對著人猛踢。",
+          "cognitiveChunks": [
+            "拋球畫弧線、接球手放胸前",
+            "推推樂看準方向平順輕推",
+            "腳內側踢球最穩、不對人猛踢"
+          ],
+          "analogyAnchor": "不管用手拋還是用腳踢，都要像跟好朋友傳遞禮物一樣，力道剛剛好、方向看清楚。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "手部與持棒遊戲",
+              "leftPoints": [
+                "拋球畫弧線往胸前飛",
+                "推推樂棒頭不舉高過頭"
+              ],
+              "rightTitle": "足部控球與安全",
+              "rightPoints": [
+                "腳內側踢球方向最穩定",
+                "運球輕推、腳底輕踩停球"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "眼看球再出手接",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "不對人用力猛踢",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "踢球與運球前進要領",
+          "narrationText": "想當踢球與運球高手，把這三個動作記在心裡！",
+          "cognitiveChunks": [
+            "用腳內側踢球中央控方向",
+            "運球小步輕撥讓球在腳邊",
+            "聽到停就用腳底輕踩球頂"
+          ],
+          "workedExampleData": {
+            "problemStatement": "練習用腳「運球前進」帶球繞過角錐時，怎樣才不會把球踢太遠？",
+            "steps": [
+              "第 1 步：眼睛偶爾抬頭看前方路線與角錐。",
+              "第 2 步：每一步都用腳輕輕推撥球，力道不要太大。",
+              "第 3 步：讓球一直保持在離雙腳不遠的範圍內，想停時用腳底輕踩球上方。"
+            ],
+            "commonErrorContrast": "常見錯誤：一腳用力把球踢飛到跑道另一頭，或是對著同學身體猛踢。",
+            "selfExplanationPrompt": "想一想：玩「推推樂」拿球棒推球時，為什麼不可以把球棒高高舉過頭頂？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "玩球小高手暖身題",
+          "narrationText": "答對這題就能拿球上場練習！",
+          "cognitiveChunks": [
+            "腳內側面積平寬，踢球方向最穩定"
+          ],
+          "warmupCheck": {
+            "prompt": "把地上的足球穩穩踢向前方目標時，用腳的哪一個部分最容易控制方向？",
+            "options": [
+              "腳後跟往後亂踩",
+              "腳內側踢在球的中央",
+              "用屁股坐在球上"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！腳內側平整寬大，踢球的中央最容易控制方向！",
+            "feedbackRetry": "想一想，雙腳裡面比較平寬的那一面踢球是不是最穩呢？"
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-health-pe-u7",
+      "stageId": "115-s2-g2-health-pe-u7",
+      "title": "單元七、運動萬花筒",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u7-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "室內戶外休閒、武術與攀岩",
+          "narrationText": "晴天去戶外爬山騎車、雨天在室內做健康操，還能跟著音樂當武林高手、體驗全身攀岩與橡皮筋跳躍遊戲。",
+          "cognitiveChunks": [
+            "室內外都能安排安全休閒運動",
+            "武林高手配合節拍且保持距離",
+            "攀岩與橡皮筋繩遵守安全規則"
+          ],
+          "analogyAnchor": "運動就像一個五彩繽紛的萬花筒，不管晴天或雨天，都有安全又好玩的方式讓身體動起來。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "多元運動體驗",
+              "leftPoints": [
+                "武林高手節奏模仿、收操緩和",
+                "蜘蛛人攀岩運用全身與四肢"
+              ],
+              "rightTitle": "場地與遊戲安全",
+              "rightPoints": [
+                "攀岩下方鋪軟墊一次一人爬",
+                "橡皮筋繩撐穩不放手彈人"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "手腳並用練體能",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "排隊輪流不推擠",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u7"
+        },
+        {
+          "sceneId": "u7-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "攀岩與雙人武術安全檢查",
+          "narrationText": "體驗新鮮的攀岩和武術模仿運動時，三個安全守則要記牢。",
+          "cognitiveChunks": [
+            "攀岩下方有軟墊與大人看顧",
+            "一次一人依序攀爬不推擠",
+            "武術模仿保持距離不真打人"
+          ],
+          "workedExampleData": {
+            "problemStatement": "體驗低矮攀岩牆「蜘蛛人考驗」時，怎樣玩才安全又順利？",
+            "steps": [
+              "第 1 步：確認牆面下方有安全軟墊，且有老師或大人看顧。",
+              "第 2 步：一次只讓一位同學攀爬，大家排隊輪流不推拉。",
+              "第 3 步：雙手抓緊岩點、雙腳踩穩支撐，全身與四肢協調用力。"
+            ],
+            "commonErrorContrast": "常見錯誤：底下還有同學沒爬完就爬到他上方，或是直接從高處往下跳。",
+            "selfExplanationPrompt": "想一想：玩「跳躍精靈」橡皮筋繩遊戲時，撐繩子的同學為什麼不能突然放手？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u7"
+        },
+        {
+          "sceneId": "u7-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "運動萬花筒暖身題",
+          "narrationText": "答對這題就能解鎖多種運動體驗！",
+          "cognitiveChunks": [
+            "雨天也能在安全寬敞室內做伸展操或健康操"
+          ],
+          "warmupCheck": {
+            "prompt": "假日外面下大雨不能去操場跑步時，哪一項適合在室內安心運動？",
+            "options": [
+              "在客廳沙發間騎腳踏車",
+              "在安全寬敞的空間做伸展體操或健康操",
+              "在溼答答的大門口積水處賽跑"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！在安全寬敞的室內做伸展操或健康操，下雨天也能開心動一動！",
+            "feedbackRetry": "在客廳騎車或積水處跑步都好危險喔！哪一個活動在室內安全又健康呢？"
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u7"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-health-pe-u8",
+      "stageId": "115-s2-g2-health-pe-u8",
+      "title": "單元八、玩水樂翻天",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u8-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "安全戲水、泳池衛生與漂浮自救",
+          "narrationText": "玩水要選有救生員的合法場地並由大人陪同；進泳池前淋浴戴泳帽，在水裡練習韻律呼吸與放鬆漂浮。",
+          "cognitiveChunks": [
+            "合法有救生員場地且大人陪同",
+            "下水前淋浴戴泳帽、如廁先上岸",
+            "韻律呼吸與水母漂放鬆能自救"
+          ],
+          "analogyAnchor": "身體就像一個充氣的小氣球，在水裡吸口氣、把全身放輕鬆，就能自然浮在水面上。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "下水前：淋浴沖洗、戴好泳帽",
+                "水中練：水上吸氣、水下吐氣",
+                "漂浮時：吸氣放鬆、壓水抬頭站起"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "戴泳帽先淋浴再下水",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "放鬆身體自然浮起",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u8"
+        },
+        {
+          "sceneId": "u8-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "水中韻律呼吸與抽筋應變",
+          "narrationText": "記住游泳池的衛生與應變步驟，玩水就會安全又愉快。",
+          "cognitiveChunks": [
+            "水上吸氣、水下吐氣吹泡泡",
+            "抽筋或發冷立刻上岸保暖求助",
+            "想上廁所先報告老師上岸如廁"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在游泳池玩水時，如果突然小腿抽筋或冷得發抖該怎麼辦？",
+            "steps": [
+              "第 1 步：立刻停止游泳或玩水，靠池邊安全上岸。",
+              "第 2 步：擦乾身體並披上毛巾保暖。",
+              "第 3 步：馬上告訴老師、救生員或大人幫忙伸展與照顧。"
+            ],
+            "commonErrorContrast": "常見錯誤：覺得不好意思硬撐著往深水處游，或是憋尿偷偷尿在泳池裡。",
+            "selfExplanationPrompt": "想一想：練習水母漂後想要站起來換氣時，雙手和雙腳要怎麼做？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u8"
+        },
+        {
+          "sceneId": "u8-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小小游泳家暖身題",
+          "narrationText": "答對這題就可以準備下水練習囉！",
+          "cognitiveChunks": [
+            "戴泳帽能避免掉髮污染水質及堵塞濾網"
+          ],
+          "warmupCheck": {
+            "prompt": "進入游泳池下水前，老師請大家一定要把泳帽戴好，主要是為了什麼？",
+            "options": [
+              "防止頭髮掉進池水或卡住排水孔，維護水質衛生",
+              "戴了泳帽就能在水裡不換氣待一小時",
+              "可以讓池水變成彩色"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！戴泳帽加上先淋浴，能一起守護乾淨衛生的游泳池！",
+            "feedbackRetry": "想一想，如果大家都不戴泳帽，掉在水裡的頭髮會對泳池有什麼影響呢？"
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u8"
+        }
+      ]
+    }
+  ]
+}

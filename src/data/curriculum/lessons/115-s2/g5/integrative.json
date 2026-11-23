@@ -1,0 +1,545 @@
+{
+  "packId": "115-s2-g5-integrative",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 5,
+  "subjectId": "integrative",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-integrative-u1",
+      "stageId": "115-s2-g5-integrative-u1",
+      "title": "一、自主學習樂",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "訂定具體可行的自主學習計畫",
+          "narrationText": "訂定自主學習計畫前要先分析自身能力起點，把大目標拆解成每日小步驟、排定具體時段與檢核點，並分辨事情輕重緩急，養成自律負責的習慣。",
+          "cognitiveChunks": [
+            "先分析自身能力起點，不訂空泛魔鬼課表",
+            "拆解小步驟、設定具體時段與檢核點",
+            "優先處理「重要且緊急」任務"
+          ],
+          "analogyAnchor": "訂定學習計畫就像規劃一場登山健行：先看自己體力（能力分析）、把山路拆成幾個休息站（小步驟），中途走累了也能隨時調整配速（檢核修正）。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "分析自身能力並拆解目標與時段",
+                "分辨輕重緩急、移除手機干擾專注執行",
+                "定期檢核進度、彈性修正並反思攻略"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "分析能力拆解目標",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "分輕重緩急專注做",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l3",
+                "text": "檢核修正與反思",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/integrative#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "自我管理策略與彈性修正",
+          "narrationText": "讀書容易分心時先把遊戲機與手機放到客廳；排定「重要但不緊急」的預習與運動；發現計畫與作息衝突時，誠實檢核並彈性調整時段。",
+          "cognitiveChunks": [
+            "環境管理：先移開手機與遊戲機干擾",
+            "「重要但不緊急」預習與運動提前安排",
+            "計畫卡關時彈性修正，不造假也不放棄"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小安書桌前總忍不住滑手機，且發現每週三補完才藝後太累，連續兩週都沒辦法練習直笛一小時，該怎麼運用自我管理策略調整？",
+            "steps": [
+              "第 1 步：優先順序與環境管理——先完成明天要交的作業（重要且緊急），讀書時把手機交給客廳家人保管",
+              "第 2 步：檢核與彈性修正——將週三晚上的練直笛改為輕量休息，把主要練習移到精神較好的週末空檔",
+              "第 3 步：正向獎勵與反思——達成階段小目標後休息 15 分鐘散步，最後寫下反思累積學習攻略"
+            ],
+            "commonErrorContrast": "常見錯誤：為了看起來有氣勢訂出清晨五點到半夜十二點的魔鬼課表、在檢核表上偽造打勾，或遇挫折就撕掉計畫。",
+            "selfExplanationPrompt": "想一想：為什麼每次學習計畫結束後寫下自我檢核反思，能幫助下一次挑戰更順利？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/integrative#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "時間管理四象限秘訣",
+          "topicSignalTitle": "別讓重要的事拖成緊急危機",
+          "narrationText": "每天規律運動 30 分鐘或預習下週重點屬於「重要但不緊急」，平時主動安排固定時間完成，就不會拖到最後手忙腳亂。",
+          "cognitiveChunks": [
+            "重要且緊急：明天要交的報告作業",
+            "完成階段小目標給予健康正向獎勵"
+          ],
+          "factGroundingSourceId": "115-s2/g5/integrative#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認分辨事情輕重緩急的能力，再進入第一單元挑戰！",
+          "cognitiveChunks": [
+            "重要且緊急的事應排在最優先"
+          ],
+          "warmupCheck": {
+            "prompt": "放學回家面對以下四件事，哪一件屬於「既重要又緊急」、應該最優先處理？",
+            "options": [
+              "明天早上第一節課要上台報告的自然科學習單（目前只做一半）",
+              "把三個月前看過的漫畫書再看第五遍",
+              "討論下個月校外教學要帶什麼零食",
+              "滑手機看最新玩具開箱影片"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！期限迫近且關係到重要學習責任的報告作業，必須最優先完成。",
+            "feedbackRetry": "想一想哪一件事馬上就要截止、而且關係到重要的學習責任呢？"
+          },
+          "factGroundingSourceId": "115-s2/g5/integrative#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-integrative-u2",
+      "stageId": "115-s2-g5-integrative-u2",
+      "title": "二、生活有「藝」思",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "發掘生活美感與創意解決問題",
+          "narrationText": "生活美學不需要花大錢，只要用一雙善於發現的眼睛找出空間凌亂或不便利的原因，再用美感與巧思設計解決方案，就能讓生活更溫馨便利。",
+          "cognitiveChunks": [
+            "先觀察討論問題成因再設計解方",
+            "好設計兼顧美觀、安全好懂與實用機能",
+            "邀請全班參與維護公約讓美感長久"
+          ],
+          "analogyAnchor": "好的生活設計就像一位貼心的無聲小幫手：不用一直開口罵人「鞋子放好」，只要在地上貼上可愛的彩色腳印與名牌，大家自然就會把鞋子擺整齊。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "觀察生活場域找出問題與成因",
+                "設計兼顧美感與實用的創意改造方案",
+                "美感探訪並籌辦班級美展分享導覽"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "覺察問題找原因",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "巧思設計解決困擾",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l3",
+                "text": "賞美探訪與辦美展",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/integrative#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "美感探訪禮儀與籌劃小小美展",
+          "narrationText": "進行社區或校園美感探訪前要擬定路線與觀察清單，現場保持安靜並經同意再拍照；籌劃班級美展時則要規劃順暢動線、附上作品名牌與創作小語。",
+          "cognitiveChunks": [
+            "探訪前擬清單，現場安靜禮貌徵同意",
+            "美展規劃安全動線、說明牌與留白",
+            "導覽員分享靈感、媒材與解決的問題"
+          ],
+          "workedExampleData": {
+            "problemStatement": "班上發現走廊鞋櫃旁常踢得亂七八糟，決定動手改造並於期末舉辦「生活創意美展」，該如何規劃這兩個階段？",
+            "steps": [
+              "第 1 步：分析成因與改造——先討論鞋櫃凌亂原因（如缺乏標示），設計彩色分區腳印貼紙與姓名牌並共訂維護公約",
+              "第 2 步：籌備美展動線——規劃安全順暢的參觀動線與柔和佈置，避免作品全部擠在角落",
+              "第 3 步：導覽介紹價值——附上作品名牌，由小小導覽員介紹創作靈感、媒材巧思與解決的生活問題"
+            ],
+            "commonErrorContrast": "常見錯誤：只顧貼滿華麗花紋卻遮住重要警示標誌、探訪社區店家時大聲喧嘩未經同意拍照，或辦美展不寫創作理念。",
+            "selfExplanationPrompt": "想一想：生活中的圓角書桌或圖示分類垃圾桶，為什麼能稱為「以人為本」的好設計？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/integrative#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "生活美學的真諦",
+          "topicSignalTitle": "美感與實用並重",
+          "narrationText": "把美感帶進食衣住行，不是為了比誰買的裝飾品最貴，而是用細心觀察與創意巧手解決生活困擾，提升每天的幸福感。",
+          "cognitiveChunks": [
+            "好設計體貼使用者實際需要",
+            "全班參與維護公約讓空間持久整潔"
+          ],
+          "factGroundingSourceId": "115-s2/g5/integrative#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認籌辦班級美展時提升觀展品質的關鍵細節，再進入第二單元挑戰！",
+          "cognitiveChunks": [
+            "順暢動線與作品說明牌提升觀展品質"
+          ],
+          "warmupCheck": {
+            "prompt": "小組分工籌劃班級小小美展時，在展場規劃上留意哪一項細節最能提升觀展品質？",
+            "options": [
+              "規劃順暢安全的參觀動線，並為每件作品附上清楚的作品名牌與創作小語",
+              "把所有作品疊在一起堆在門後角落",
+              "故意把作品倒過來掛在天花板上",
+              "不寫創作者與理念讓大家一頭霧水"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！清楚的動線與創作說明牌就像作品的友善舞台，能讓參觀者看懂背後的創意故事。",
+            "feedbackRetry": "回想一下去美術館看展覽時，走道安排和旁邊的小卡片怎麼幫助你看懂作品呢？"
+          },
+          "factGroundingSourceId": "115-s2/g5/integrative#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-integrative-u3",
+      "stageId": "115-s2-g5-integrative-u3",
+      "title": "三、職業面面觀",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "多元職業探索與打破刻板印象",
+          "narrationText": "認識職業不能只看表面薪水或制服，還要了解所需能力、工作環境與作息差異；更要打破性別與年齡刻板印象，任何性別只要有能力與熱忱都能勝任。",
+          "cognitiveChunks": [
+            "全面了解職業：專長、環境、作息與價值",
+            "打破「男生才能…／女生只能…」職業刻板",
+            "同一職業在不同場域的作息與壓力不同"
+          ],
+          "analogyAnchor": "職業世界就像一個大萬花筒：每一種行業都像一塊不同顏色的玻璃，各自需要不同的專長與努力，缺了任何一塊都無法拼出便利的社會。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "職業萬花筒調查",
+              "leftPoints": [
+                "事前預約並擬定訪談問題清單",
+                "破除性別與年齡的職業刻板印象"
+              ],
+              "rightTitle": "自我探索與準備",
+              "rightPoints": [
+                "結合興趣、性向、特質與價值觀",
+                "培養誠實負責態度與閱讀基本功"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "預約訪談破刻板印象",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "結合興趣特質立目標",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/integrative#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "連結興趣特質與立定五年級目標",
+          "narrationText": "探索職業方向時要結合自己的「興趣、性向、人格特質與價值觀」；五年級現在就能從培養閱讀習慣、基本學科能力與誠實負責的態度開始準備。",
+          "cognitiveChunks": [
+            "對照「喜歡＋擅長＋重視價值」找方向",
+            "各行各業都重視誠實、負責與持續學習",
+            "五年級從日常閱讀與基礎能力紮根"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小芳喜歡照顧小動物、面對傷口能冷靜細心處理，且很重視「幫助生命恢復健康」的成就感。她該如何結合自身特質探索方向並設定五年級的實踐目標？",
+            "steps": [
+              "第 1 步：連結興趣與價值觀——愛動物（興趣）＋冷靜細心（特質）＋助生命健康（價值觀）→ 適合探索獸醫、動物照護或醫護領域",
+              "第 2 步：實地訪談禮儀——若想訪問獸醫師，先擬定訪談問題清單並提前預約時間",
+              "第 3 步：立下五年級目標——從培養閱讀與自然科學能力、多觀察職人工作日常及養成負責態度開始"
+            ],
+            "commonErrorContrast": "常見錯誤：以為男生不能當護理師或甜點師傅、超過五十歲就不能工作，或五年級只挑喜歡的科目讀書。",
+            "selfExplanationPrompt": "想一想：為什麼同樣是廚師或醫師，在學校廚房、醫院急診室與診所的作息和環境會有很大差別？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/integrative#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "百工職人共通的態度",
+          "topicSignalTitle": "誠實、負責、持續學習",
+          "narrationText": "科技與工作型態會不斷改變，但「誠實守信、負責敬業、尊重他人與持續學習改進」的態度，永遠是各行各業最看重的基石。",
+          "cognitiveChunks": [
+            "從職人典範學習克服困難的毅力",
+            "體驗各行各業培養敬重之心"
+          ],
+          "factGroundingSourceId": "115-s2/g5/integrative#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認澄清職業刻板印象的平等觀念，再進入第三單元挑戰！",
+          "cognitiveChunks": [
+            "職業適任取決於能力熱忱而非性別年齡"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈職業萬花筒〉澄清職業中的性別、年齡刻板印象時，下列哪一句話展現了最平等正確的態度？",
+            "options": [
+              "「男生才能當消防員，女生去當老師就好」",
+              "「男生當護理師或甜點師傅太奇怪了」",
+              "「無論性別或年齡，只要具備專業能力、熱忱並符合健康安全要求，都能勝任理想工作」",
+              "「超過五十歲的人都不應該繼續工作」"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！工作適任與否看的是專業能力、訓練與熱忱，不應該用性別或年齡貼標籤限制。",
+            "feedbackRetry": "判斷一個人適不適合某份工作，應該看他的「能力與熱情」還是性別年齡呢？"
+          },
+          "factGroundingSourceId": "115-s2/g5/integrative#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-integrative-u4",
+      "stageId": "115-s2-g5-integrative-u4",
+      "title": "四、環境守護者",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "生態危機、心智圖與永續行動",
+          "narrationText": "森林與濕地是地球的天然海綿，塑膠與暖化則會沿著食物鏈影響人類；用心智圖分析環境變化的因果脈絡，並從日常減塑、惜食與正確回收實踐永續。",
+          "cognitiveChunks": [
+            "破壞森林濕地增加土石流與淹水風險",
+            "心智圖從中心放射分枝看清因果關聯",
+            "海洋塑膠與全球暖化最終影響人類生存"
+          ],
+          "analogyAnchor": "心智圖就像一棵知識大樹：樹幹是「環境問題主題」，大樹枝是「造成的各種原因」，小樹枝則是「引發的連鎖後果」，一眼就能看清楚來龍去脈。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "森林濕地破壞、塑膠與溫室氣體增加",
+                "土石流、極端氣候與食物鏈汙染",
+                "用心智圖分析並落實減塑回收護地球"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "生態破壞與碳排",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "極端氣候食物鏈危機",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l3",
+                "text": "心智圖與永續行動",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/integrative#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "日常環保行動與友善生態勸導",
+          "narrationText": "在生活中自備環保袋餐具、吃在地當季食物、隨手關燈關冷氣並做好圖文分類回收；看到有人不當餵食公園野鳥魚群時，以禮貌安全的態度說明原因。",
+          "cognitiveChunks": [
+            "自備環保用品與惜食從源頭減廢",
+            "回收桶加上清楚圖文標示減少丟錯",
+            "禮貌提醒不餵麵包給水池動物，或請大人協助"
+          ],
+          "workedExampleData": {
+            "problemStatement": "班上發現資源回收桶常被丟錯一般垃圾，放學經過公園又看到有人把整袋麵包倒進池塘餵鳥餵魚，身為環境守護者該怎麼處理？",
+            "steps": [
+              "第 1 步：改善教室回收——在回收桶上製作清楚的圖文分類標示，並向同學示範正確分類方法",
+              "第 2 步：禮貌溝通護生態——溫和提醒公園遊客「人類麵包會破壞水質並讓動物生病」，或請同行大人協助溝通",
+              "第 3 步：從自身減量——日常自備環保袋餐具、選在地當季食材並節約用電"
+            ],
+            "commonErrorContrast": "常見錯誤：覺得環保只是政府和環保團體的事、對亂餵魚的人大聲搶走麵包或偷拍公審，或把衣服穿一次就丟。",
+            "selfExplanationPrompt": "想一想：為什麼說把垃圾藏進看不見的掩埋場，並不能真正解決地球資源耗竭的問題？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/integrative#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "永續地球村的共同責任",
+          "topicSignalTitle": "從個人到團體攜手守護",
+          "narrationText": "淨灘、植樹與野生動物救傷需要團體力量，而每天減少一個塑膠袋、少浪費一口飯，正是每個人都能貢獻的永續力量。",
+          "cognitiveChunks": [
+            "源頭減量比事後清理更有效",
+            "極端氣候提醒我們珍惜能源與水資源"
+          ],
+          "factGroundingSourceId": "115-s2/g5/integrative#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認繪製心智圖分析環境議題的優點，再進入第四單元挑戰！",
+          "cognitiveChunks": [
+            "心智圖透過中心放射分枝呈現因果脈絡"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈生態的悲歌〉練習「繪製心智圖」分析環境變化的原因與影響時，使用心智圖整理資料最大的優點是什麼？",
+            "options": [
+              "透過中心主題向外放射分枝，清楚看出環境問題的多重成因與連鎖影響",
+              "必須用同一種顏色把課本全部抄寫十遍",
+              "可以省略所有原因與數據只畫圓圈",
+              "只能用來畫人物肖像無法分析因果"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！心智圖能把複雜散落的環境資訊結構化，一眼看懂原因與影響的關聯。",
+            "feedbackRetry": "想一想畫心智圖時從中間主題分出好多樹枝，怎麼幫助大腦整理因果關係呢？"
+          },
+          "factGroundingSourceId": "115-s2/g5/integrative#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-integrative-u5",
+      "stageId": "115-s2-g5-integrative-u5",
+      "title": "五、生命共同體",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "人與自然共生及我的青春期成長",
+          "narrationText": "觀察動植物從發芽到凋零的生命週期，讓我們懂得不打擾野生生命並親近自然療癒身心；同時也學會從容接納自己與同學在青春期的生理、心理與人際成長。",
+          "cognitiveChunks": [
+            "自然互動守則：不打擾、不抓回家、不破壞棲地",
+            "成長包含生理、心理、能力與人際四面向",
+            "青春期變化是自然歷程，有疑問大方請教大人"
+          ],
+          "analogyAnchor": "地球上的萬物與我們就像在同一艘大船上的「生命共同體」：每朵花都有自己的花期，我們既要照顧好自己的成長，也要溫柔善待身邊的自然生命。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "人與自然關懷",
+              "leftPoints": [
+                "安靜保持距離觀察，不驚擾抓捕動物",
+                "親近山林公園綠意紓解壓力"
+              ],
+              "rightTitle": "我的成長與尊重",
+              "rightPoints": [
+                "接納青春期痘痘、變聲、月經或夢遺",
+                "尊重他人發育步調與身體界線不取笑"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "不打擾自然生命",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "接納青春期不取笑",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/integrative#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "實踐生命關懷與尊重青春期差異",
+          "narrationText": "郊遊遇到蝸牛或雛鳥時安靜避讓不任意帶走；面對自己或同學進入青春期有早有晚、出現外貌或情緒變化時，做好清潔保健並嚴守身體界線不亂取外號。",
+          "cognitiveChunks": [
+            "遇過馬路蝸牛或樹上雛鳥不任意捕捉",
+            "長痘痘注意清潔作息、不亂擦不明偏方",
+            "不評論或嘲笑同學身高與發育早晚"
+          ],
+          "workedExampleData": {
+            "problemStatement": "郊遊時看到一窩樹上的雛鳥，班上又有同學因青春期突然長高或冒痘痘而被取難聽外號，這兩種情況該如何實踐「生命共同體」的尊重精神？",
+            "steps": [
+              "第 1 步：實踐自然不打擾——對樹上雛鳥保持安靜與適當距離觀察，絕不抓下來或驚擾鳥巢",
+              "第 2 步：正向面對青春期——了解冒痘痘、聲音變化、月經或夢遺皆屬正常發育，注意清潔並請教父母師長或健康中心",
+              "第 3 步：尊重成長差異——提醒班上同學每個人花期不同，嚴守身體界線且不貼外號標籤嘲笑他人"
+            ],
+            "commonErrorContrast": "常見錯誤：以為把野生雛鳥抓回家養才叫愛護它、對青春期身體變化感到羞恥躲起來，或拿同學的發育特徵開玩笑。",
+            "selfExplanationPrompt": "想一想：從一年級到五年級，除了身高變高以外，你在情緒控制和人際相處上有哪些進步？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/integrative#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "珍愛自己、關懷萬物",
+          "topicSignalTitle": "生命教育的核心價值",
+          "narrationText": "人類與大自然萬物緊密相依，先學會照顧並欣賞自己的身心成長，再把這份溫柔推己及人、友善對待每一個生命。",
+          "cognitiveChunks": [
+            "體諒父母與控制脾氣是珍貴的內在成長",
+            "動植物凋零也是自然生命週期的一環"
+          ],
+          "factGroundingSourceId": "115-s2/g5/integrative#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認面對青春期身心變化的健康心態，再進入第五單元挑戰！",
+          "cognitiveChunks": [
+            "青春期變化是自然現象，有疑問請教大人"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈我的成長〉學習認識與面對「青春期身心變化」（如身高抽高、冒青春痘、變聲或情緒較敏感）時，哪一種心態最健康從容？",
+            "options": [
+              "知道這是長大必經的自然現象，注意清潔作息，有疑問大方請教父母、師長或健康中心",
+              "覺得身體變怪很丟臉，躲起來不敢跟人說話",
+              "買成分不明的偏方藥水猛擦青春痘",
+              "因為情緒起伏就理直氣壯對全班發脾氣"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！接納青春期的自然轉變、保持清潔規律作息並向信任的大人請教衛教知識，就能安心度過成長期。",
+            "feedbackRetry": "青春期就像毛毛蟲準備變蝴蝶的正常過程，有疑問時找父母、師長或健康中心聊聊最安心喔！"
+          },
+          "factGroundingSourceId": "115-s2/g5/integrative#u5"
+        }
+      ]
+    }
+  ]
+}

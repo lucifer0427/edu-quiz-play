@@ -1,0 +1,532 @@
+{
+  "packId": "115-s1-g3-social",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 3,
+  "subjectId": "social",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-social-u1",
+      "stageId": "115-s1-g3-social-u1",
+      "title": "第一單元 升上三年級的新學習",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識同學差異與合作學習",
+          "narrationText": "升上三年級後科目與同學都變多了，透過自我介紹欣賞人我差異與不同性別的特質，再運用小組合作與學習資源，能讓學習更有效率。",
+          "cognitiveChunks": [
+            "自我介紹：欣賞人我差異與性別平等",
+            "小組合作：依專長分工、傾聽討論",
+            "善用資源：圖書館、師長與時間規劃"
+          ],
+          "analogyAnchor": "班級就像一支多元樂團，有人擅長打鼓、有人適合吹笛，彼此尊重並依專長分工，才能奏出最動聽的學習樂章。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "有效合作學習",
+              "leftPoints": [
+                "輪流表達想法並專心傾聽",
+                "依專長公平分工、互助解決問題"
+              ],
+              "rightTitle": "善用學習資源",
+              "rightPoints": [
+                "到圖書館查資料、請教師長",
+                "看聯絡簿排順序、保留休息時間"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "傾聽分工合作",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "善用圖書規劃",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/social#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "解決小組討論意見不合",
+          "narrationText": "分組做海報或調查時，遇到組員意見不同怎麼辦？只要照著步驟理性溝通，就能一起找到好辦法。",
+          "cognitiveChunks": [
+            "意見不同時靠溝通與表決",
+            "性別不限制個人能力與職務"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小組討論海報主題時，兩位同學想法不同快吵起來了，整組該怎麼做？",
+            "steps": [
+              "第 1 步：請兩人輪流說出自己的理由，大家安靜傾聽",
+              "第 2 步：一起找出可以結合兩個想法的折衷方案，或公平投票表決",
+              "第 3 步：依照大家專長公平分工，男女生都能擔任組長或紀錄"
+            ],
+            "commonErrorContrast": "常見錯誤：誰聲音大就聽誰的、只和興趣完全相同的人說話，或認為男生才適合當組長。",
+            "selfExplanationPrompt": "想一想：回家後先看聯絡簿再寫功課，和睡前才邊哭邊趕作業，差別在哪裡？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/social#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "把環保融入學習規劃",
+          "topicSignalTitle": "善用資源也能愛護地球嗎？",
+          "narrationText": "重複使用空白筆記紙張、向圖書館借書取代只看一次就丟的買書習慣，既能解決學習疑問，又能實踐環境保護！",
+          "cognitiveChunks": [
+            "重複利用空白紙張",
+            "借閱圖書館書本要愛惜歸還"
+          ],
+          "factGroundingSourceId": "115-s1/g3/social#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "答對這題暖身題，就準備好迎接三年級的新學習挑戰囉！",
+          "cognitiveChunks": [
+            "尊重差異、合作與時間規劃"
+          ],
+          "warmupCheck": {
+            "prompt": "升上三年級想要更有效率地完成放學後的功課與複習，下列哪一種時間規劃最好？",
+            "options": [
+              "放學先玩遊戲到十點，睡前才趕作業",
+              "回家先檢查聯絡簿列待辦事項，優先完成作業並適度休息",
+              "把所有時間排滿不休息，連吃飯運動都取消",
+              "每天看心情決定要不要寫功課"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！先看聯絡簿排出先後順序並保留休息時間，學習效果才會健康又持久。",
+            "feedbackRetry": "想一想：拖到睡前才趕工或不休息，哪一種方法能讓你從容又有精神地完成作業？"
+          },
+          "factGroundingSourceId": "115-s1/g3/social#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-social-u2",
+      "stageId": "115-s1-g3-social-u2",
+      "title": "第二單元 校園規範和班級自治",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "團體規範與民主班級自治",
+          "narrationText": "學校與班級訂定團體規範，是為了保障每個人的安全與權益；透過班會討論與選舉幹部等自治活動，我們能學習民主法治與服務精神。",
+          "cognitiveChunks": [
+            "團體規範保障安全與公平秩序",
+            "班級自治：自己討論與管理班務",
+            "民主原則：少數服從多數、多數尊重少數"
+          ],
+          "analogyAnchor": "班級公約就像馬路上的紅綠燈與斑馬線，不是為了故意為難大家，而是保護每個人平安順暢地到達目的地。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "發現班規不便之處",
+                "班會舉手提案說明",
+                "全班傾聽討論表決",
+                "共同遵守修改後規範"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "班會舉手提案",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "表決共同遵守",
+                "anchorPointId": "step4"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/social#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用民主法治修正班級公約",
+          "narrationText": "如果覺得原本的班級公約執行起來不太方便，不能自己偷偷塗改或故意違反，而要透過班會程序一起討論修正。",
+          "cognitiveChunks": [
+            "發言前先舉手並傾聽他人",
+            "修改前仍應遵守原本約定"
+          ],
+          "workedExampleData": {
+            "problemStatement": "班會上投票表決校外教學地點，甲公園 18 票、乙公園 9 票，支持乙公園的同學該怎麼做？",
+            "steps": [
+              "第 1 步：確認大家已完成公平的舉手或投票表決",
+              "第 2 步：遵守「少數服從多數」原則，接受多數決結果",
+              "第 3 步：多數人也應感謝少數人的提案，大家一起開心配合團隊出發"
+            ],
+            "commonErrorContrast": "常見錯誤：投票輸了就生氣不配合、在班規海報上亂塗改，或以為當選幹部就有特權不用做事。",
+            "selfExplanationPrompt": "想一想：擔任圖書股長或風紀股長等班級幹部，是一種特權，還是替同學服務的責任？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/social#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "校園安全從細節做起",
+          "topicSignalTitle": "下課與雨天在走廊要注意什麼？",
+          "narrationText": "在走廊慢步輕聲行走、上下樓梯靠右不滑扶手、雨天濕滑更要放慢腳步並收好雨傘，就是保護自己和同學的安全表現。",
+          "cognitiveChunks": [
+            "走廊慢行、樓梯靠右不攀爬",
+            "雨天收好雨傘防滑倒"
+          ],
+          "factGroundingSourceId": "115-s1/g3/social#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "試著判斷哪一種態度最符合班級自治與服務精神！",
+          "cognitiveChunks": [
+            "幹部服務與民主法治"
+          ],
+          "warmupCheck": {
+            "prompt": "被全班推選擔任本學期的「圖書股長」，抱持哪一種想法與態度最值得讚賞？",
+            "options": [
+              "規定只有好朋友可以優先拿新書且不用登記",
+              "把圖書角的漫畫書全部收進自己書包帶回家",
+              "用心整理書櫃與登記借還書，把擔任幹部當成服務大家的機會",
+              "覺得辛苦想推掉，在名單上亂寫別人的名字"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！班級幹部是受同學託付為團體服務的重要角色，應以熱心公正的態度負責完成。",
+            "feedbackRetry": "想一想：同學選你當股長是信任你喔，公平服務全班才是好幹部！"
+          },
+          "factGroundingSourceId": "115-s1/g3/social#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-social-u3",
+      "stageId": "115-s1-g3-social-u3",
+      "title": "第三單元 我的校園和家庭生活",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "校園與家庭的角色、權利與責任",
+          "narrationText": "我們在學校是學生和同學，在家裡是子女和手足。每個角色都享有權利，也都有應盡的責任，並且要學會尊重不同的家庭組成與價值。",
+          "cognitiveChunks": [
+            "權利與責任相伴：享權利也要盡義務",
+            "尊重多元家庭組成（小家庭、三代同堂等）",
+            "不同角色做到合宜的行為"
+          ],
+          "analogyAnchor": "權利與責任就像一雙鞋子的左右腳，享受借書和玩操場的權利時，也要穿起愛惜公物和遵守秩序的責任，才能走得穩。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "校園角色表現",
+              "leftPoints": [
+                "專心學習並積極參與校園活動",
+                "愛惜公用器材、歸還後協助復原"
+              ],
+              "rightTitle": "家庭角色表現",
+              "rightPoints": [
+                "體貼家人辛勞、收拾個人物品",
+                "分擔力所能及的家務（如收碗倒垃圾）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "校園愛惜公物",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "家庭分擔家務",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/social#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "認識多元家庭與合宜行為",
+          "narrationText": "每個家庭的成員組成與重視的生活習慣不同，我們應尊重差異，並在自己家中主動負起一份子的責任。",
+          "cognitiveChunks": [
+            "家庭幸福關鍵在關愛與互相支持",
+            "尊重不同家庭重視的價值"
+          ],
+          "workedExampleData": {
+            "problemStatement": "同學家由阿公阿嬤照顧，或重視的節約、作息習慣跟自己家不一樣時，該怎麼看待？",
+            "steps": [
+              "第 1 步：了解現代社會有小家庭、三代同堂、單親或隔代教養等多元家庭",
+              "第 2 步：知道每個家庭重視的價值（如準時吃飯、隨手關燈）都各有意義",
+              "第 3 步：給予尊重與祝福，不嘲笑也不強迫別人照自己家的方式生活"
+            ],
+            "commonErrorContrast": "常見錯誤：以為只有父母和兩個小孩住一起才算家庭，或覺得自己是家裡最小的小孩就不用做家事。",
+            "selfExplanationPrompt": "想一想：週末吃完早餐後，你可以主動幫忙碌的家人做哪一件小家事？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/social#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "參與校園活動的正確態度",
+          "topicSignalTitle": "參加運動會或校外教學前中後該做什麼？",
+          "narrationText": "活動前先看通知準備物品，活動中專心參與、注意團隊安全並互相加油，活動後協助整理場地，不管輸贏都是珍貴的成長。",
+          "cognitiveChunks": [
+            "事前看通知做準備",
+            "活動中守秩序、重視團隊合作"
+          ],
+          "factGroundingSourceId": "115-s1/g3/social#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "確認一下權利與責任的關係，再進入挑戰吧！",
+          "cognitiveChunks": [
+            "權利與責任相伴"
+          ],
+          "warmupCheck": {
+            "prompt": "我們在學校擁有借閱圖書與使用遊樂器材的權利。關於學校中的「權利」與「責任」，哪一項理解最正確？",
+            "options": [
+              "只要爭取權利就好，責任全部交給老師",
+              "享有權利時也要負起愛惜公物、遵守安全與認真學習的責任",
+              "只要有繳學費，器材就算弄壞也不用負責",
+              "三年級學生年紀還小，沒有任何權利和責任"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！享受學校資源的同時，負起愛惜與遵守規定的責任，大家才能一起安心使用。",
+            "feedbackRetry": "想一想：如果大家都只用器材卻不愛惜歸還，下次還借得到嗎？"
+          },
+          "factGroundingSourceId": "115-s1/g3/social#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-social-u4",
+      "stageId": "115-s1-g3-social-u4",
+      "title": "第四單元 健康成長的快樂童年",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "守護兒童權利、隱私與友善相處",
+          "narrationText": "每個兒童都享有健康權與生存權，也擁有自己的身體自主權與隱私權。學會保護自己、尊重他人界限並拒絕歧視霸凌，童年才會快樂又安全。",
+          "cognitiveChunks": [
+            "健康權與生存權：安全飲食、醫療與睡眠",
+            "身體界限與自主權：未經同意不可碰觸",
+            "隱私權：不偷看他人空間與日記個資"
+          ],
+          "analogyAnchor": "每個人的身體與私人空間都像一座有隱形圍牆的小花園，別人要進來或碰觸前，必須先徵得主人的同意。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "尊重身體與隱私",
+              "leftPoints": [
+                "背心短褲遮住處為重要隱私部位",
+                "進房間廁所前先敲門、不翻看他人書包日記"
+              ],
+              "rightTitle": "拒絕歧視與霸凌",
+              "rightPoints": [
+                "不取難聽綽號、不排擠不同特質同學",
+                "遇霸凌不冷漠，安全下立刻找師長協助"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "尊重身體隱私",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "拒絕歧視霸凌",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/social#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "遇到危險或霸凌的正確應對",
+          "narrationText": "不管是在上下學途中遇到安全威脅，或是在校園裡看見同學被欺負，都可以用冷靜安全的方法保護自己與幫助他人。",
+          "cognitiveChunks": [
+            "遇危險大聲拒絕並跑向人多明亮處",
+            "言語嘲笑與關係排擠也是霸凌"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在走廊看見有同學被幾個人圍住推擠嘲笑，身為旁觀的同學應該怎麼做？",
+            "steps": [
+              "第 1 步：絕不跟著起鬨大笑、也不拿起手機拍照傳上網",
+              "第 2 步：在確保自身安全的情況下，立刻找附近老師或大人通報協助",
+              "第 3 步：事後關心受欺負的同學，給予溫暖支持"
+            ],
+            "commonErrorContrast": "常見錯誤：以為只有動手打人才算霸凌，或因為怕麻煩而對陌生人的不合理要求默默忍耐。",
+            "selfExplanationPrompt": "想一想：為什麼就算是認識的熟人或同學，讓你覺得不舒服的碰觸你也有權說「不」？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/social#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "守護健康的日常好習慣",
+          "topicSignalTitle": "除了大人的照顧，自己怎麼守護健康？",
+          "narrationText": "每天早睡早起、飲食均衡不挑食、多喝白開水並到戶外運動，同時尊重同學因文化或健康因素的不同飲食需求，大家都能健康快樂長大。",
+          "cognitiveChunks": [
+            "早睡早起、均衡飲食與運動",
+            "尊重同學不同的飲食習慣"
+          ],
+          "factGroundingSourceId": "115-s1/g3/social#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "考考你對身體界限與隱私權的觀念！",
+          "cognitiveChunks": [
+            "身體自主權與隱私權"
+          ],
+          "warmupCheck": {
+            "prompt": "下列哪一個行為真正做到了「保護和尊重隱私」？",
+            "options": [
+              "趁同學上體育課時偷看他的聯絡簿與日記",
+              "進別人房間或廁所前先敲門關門，不隨便翻看同學書包",
+              "在網路上公開好朋友家的地址與電話",
+              "從廁所門縫偷看裡面"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！尊重私人空間與個人物品、保護個資，就是尊重自己與他人的隱私權。",
+            "feedbackRetry": "想一想：如果是你，會希望別人不敲門就進來或翻看你的私人日記嗎？"
+          },
+          "factGroundingSourceId": "115-s1/g3/social#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-social-u5",
+      "stageId": "115-s1-g3-social-u5",
+      "title": "第五單元 打造更美好的班級",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "探究班級問題並付諸實踐",
+          "narrationText": "要讓班級變得更美好，不能只靠口號，而是要從觀察班級現況開始，全班一起討論可行方案、具體分工實踐，並持續反思修正。",
+          "cognitiveChunks": [
+            "觀察班級優點與待改進問題",
+            "集思廣益評估方案並民主決定",
+            "具體分工實踐並滾動檢討修正"
+          ],
+          "analogyAnchor": "打造美好班級就像種植班級小花園：先觀察哪裡需要澆水除草，大家分工合作照顧，發現枯葉再調整方法，花園就會越來越美。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "觀察發現班級問題",
+                "討論評估改善方案",
+                "分工合作付諸實踐",
+                "檢討修正持續改進"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "觀察發現問題",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "分工付諸實踐",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/social#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "解決班級回收與閱讀角問題",
+          "narrationText": "當我們發現班上的回收籃常混入一般垃圾，或是想建立安靜整潔的閱讀角時，該如何一步步把好點子變成真的？",
+          "cognitiveChunks": [
+            "分析原因才能對症下藥",
+            "訂立簡單可行的公約與輪值"
+          ],
+          "workedExampleData": {
+            "problemStatement": "班上決定建立「安靜整潔的班級閱讀角」，要怎麼做才不會只變成牆上的口號？",
+            "steps": [
+              "第 1 步：具體分工布置書架，讓每位同學都能參與貢獻",
+              "第 2 步：共同訂定簡單的借還書公約與整理輪值表",
+              "第 3 步：實行一段時間後，肯定進步處並針對缺點討論調整方法"
+            ],
+            "commonErrorContrast": "常見錯誤：計畫沒立刻拿滿分就放棄、把責任全推給股長一個人，或為了檢查過關把垃圾藏進抽屜。",
+            "selfExplanationPrompt": "想一想：如果班上來了一位新轉學生，全班可以怎麼做讓他感受到溫暖與尊重？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/social#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "溫暖友善是美好班級的核心",
+          "topicSignalTitle": "什麼讓一個班級真正變得更美好？",
+          "narrationText": "除了教室整齊乾淨，更重要的是同學之間彼此尊重、主動歡迎轉學生、每天互相讚美與感謝，讓每個人在班上都感到安心與快樂。",
+          "cognitiveChunks": [
+            "主動招呼並幫助新轉學生",
+            "真誠感謝與讚美拉近距離"
+          ],
+          "factGroundingSourceId": "115-s1/g3/social#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "答對這題暖身題，一起啟動打造美好班級的行動吧！",
+          "cognitiveChunks": [
+            "班級改善第一步：觀察現況"
+          ],
+          "warmupCheck": {
+            "prompt": "想要推動「打造更美好的班級」計畫，在正式行動之前，全班第一步最適合先做什麼？",
+            "options": [
+              "直接買氣球掛滿教室，不管現在有什麼困擾",
+              "一起觀察並找出班上表現好的優點與還需要改進的問題",
+              "把別班教室的桌椅全部搬過來用",
+              "各自寫願望紙條塞進抽屜裡不討論"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！先觀察並了解班級真實的優點與問題，才能設計出真正有效的改善辦法。",
+            "feedbackRetry": "想一想：醫生看病前要先檢查哪裡不舒服，想讓班級變好是不是也要先觀察現況呢？"
+          },
+          "factGroundingSourceId": "115-s1/g3/social#u5"
+        }
+      ]
+    }
+  ]
+}

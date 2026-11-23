@@ -1,0 +1,438 @@
+{
+  "packId": "115-s2-g6-minnan",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 6,
+  "subjectId": "minnan",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-minnan-u1",
+      "stageId": "115-s2-g6-minnan-u1",
+      "title": "第一單元 來去踅夜市",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "夜市詞彙、ABB 疊字形容詞與文白音",
+          "narrationText": "認識「踅（逛街繞行）」、「喝賣（叫賣）」與消費場所名稱，學會「燒滾滾、芳貢貢、冷吱吱」等 ABB 疊字形容詞與「文讀音、白讀音」的區別。",
+          "cognitiveChunks": [
+            "踅夜市＝逛夜市；喝賣＝大聲吆喝叫賣",
+            "ABB 疊字：燒滾滾（熱騰騰）、芳貢貢（香噴噴）、冷吱吱（冰涼）",
+            "文白音：詩文吟誦多用「文讀音」，日常口語多用「白讀音」"
+          ],
+          "analogyAnchor": "ABB 疊字形容詞就像食物的魔法放大鏡：原本的「燒、芳、冷」加上後面兩個疊字「滾滾、貢貢、吱吱」，立刻讓食物的熱度與香氣變得生動立體。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "ABB 疊字形容詞",
+              "leftPoints": [
+                "燒滾滾（滾燙）、芳貢貢（很香）",
+                "冷吱吱（冰涼）、甜粅粅（極甜）"
+              ],
+              "rightTitle": "文讀音 vs 白讀音",
+              "rightPoints": [
+                "文讀音：吟誦詩文成語（如大學）",
+                "白讀音：日常口語白話（如大細）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u1-l1",
+                "text": "疊字讓形容更生動立體",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u1-l2",
+                "text": "依語境分文讀與白讀音",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/minnan#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "夜市買賣禮貌對話與永續消費",
+          "narrationText": "在夜市向「頭家（老闆）」問價錢說「請問這份按怎賣？」，離開道謝說「多謝頭家，後擺閣再來交關！」，並實踐環保減塑。",
+          "cognitiveChunks": [
+            "問價：「頭家，請問這份點心按怎賣？」",
+            "道別：「多謝頭家，後擺閣再來交關！」",
+            "消費注意衛生標價、依需要購買並自備環保餐具"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在夜市想稱讚熱湯「熱騰騰、香噴噴」，禮貌問老闆價錢並在結帳後道謝離開，該怎麼說與做？",
+            "steps": [
+              "第 1 步：用 ABB 疊字形容詞「燒滾滾、芳貢貢」生動描述熱湯的溫度與香氣",
+              "第 2 步：親切稱呼「頭家」並禮貌詢問「請問這份點心按怎賣（án-tsuánn bē）？」",
+              "第 3 步：自備環保袋餐具不浪費，離開時說「多謝頭家，後擺閣再來交關！」"
+            ],
+            "commonErrorContrast": "常見錯誤：把「燒滾滾（熱）」與「冷吱吱（冷）」搞混，或以為「文白音」是寫字用藍筆、白筆。",
+            "selfExplanationPrompt": "想一想：生活中有哪些消費場所（如「夜市仔」、「雜貨店」、「菜市仔」）各自有什麼特色？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/minnan#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "認識身邊的消費場所",
+          "topicSignalTitle": "「夜市仔」和「雜貨店」在閩南語裡各代表什麼場所？",
+          "narrationText": "「菜市仔」是白天採買生鮮的傳統市場、「夜市仔」是晚間熱鬧的小吃攤商市集，「雜貨店（柑仔店）」則是社區販售日用品與零食的小店。",
+          "cognitiveChunks": [
+            "夜市仔：傍晚至夜間聚集小吃與攤商",
+            "雜貨店：社區販售日用品與零食小店",
+            "逛夜市守秩序排隊、看清標價衛生"
+          ],
+          "factGroundingSourceId": "115-s2/g6/minnan#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次「踅」與「喝賣」的意思，準備闖關！",
+          "cognitiveChunks": [
+            "踅＝逛街繞行；喝賣＝大聲吆喝賣東西"
+          ],
+          "warmupCheck": {
+            "prompt": "第一單元〈來去踅夜市〉與第一課〈看人咧喝賣〉中，「踅」和「喝賣」分別是什麼意思？",
+            "options": [
+              "踅＝逛街、繞行；喝賣＝大聲吆喝招攬客人買東西",
+              "踅＝排隊付錢；喝賣＝低頭記帳",
+              "踅＝打電話訂貨；喝賣＝收攤關燈"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！「踅夜市」就是逛夜市，「喝賣」就是攤販大聲叫賣商品。",
+            "feedbackRetry": "走進夜市一條條逛過去叫「踅」，那老闆喊著招攬客人買小吃又是哪個動作？"
+          },
+          "factGroundingSourceId": "115-s2/g6/minnan#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-minnan-u2",
+      "stageId": "115-s2-g6-minnan-u2",
+      "title": "第二單元 春天的歌詩",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "苦楝四季生態、詩題「若」與臺灣俗諺",
+          "narrationText": "認識臺灣原生種苦楝春天淡紫花、夏天綠蔭、秋天黃葉、冬天金黃果實的變化，理解「若（如果／每當）」語意及充滿智慧的臺灣俗諺。",
+          "cognitiveChunks": [
+            "苦楝四季：春紫花、夏濃蔭、秋黃葉、冬金黃果實",
+            "「若（nā）」＝如果、每當……的時候",
+            "「春天後母面」形容春天天氣晴雨冷暖變化快"
+          ],
+          "analogyAnchor": "臺灣俗諺就像先民留下來的智慧錦囊：「食果子，拜樹頭」提醒感恩、「一枝草，一點露」鼓勵希望、「樹頭徛予在，毋驚樹尾做風颱」則勉勵打好基礎。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "生活智慧俗諺",
+              "leftPoints": [
+                "春天後母面：春天天氣多變",
+                "食果子，拜樹頭：飲水思源感恩"
+              ],
+              "rightTitle": "漢詩與對話文白音",
+              "rightPoints": [
+                "朗誦賴和〈題畫扇〉多用文讀音",
+                "「相招來開講」邀人輕鬆聊天"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u2-l1",
+                "text": "俗諺蘊含生活與感恩智慧",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u2-l2",
+                "text": "漢詩文讀音對話白讀音",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/minnan#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "賴和〈題畫扇〉文白音與「相招來開講」",
+          "narrationText": "從臺灣文學家賴和的漢詩〈題畫扇〉體會典雅的文讀音韻律；在〈阿媽的魔法〉中則用「相招來開講」與親友分享生活故事。",
+          "cognitiveChunks": [
+            "〈題畫扇〉等古典漢詩採「文讀音」顯韻律",
+            "「相招來去樹跤開講」熱情邀約聊天分享",
+            "稱讚料理好吃：「阿媽的手藝真好，芳貢貢！」"
+          ],
+          "workedExampleData": {
+            "problemStatement": "想用俗諺說明「飲水思源感恩」，並和同學「相招來開講」，還要分清楚朗誦〈題畫扇〉與日常聊天的用音差別，該怎麼做？",
+            "steps": [
+              "第 1 步：選用「食果子，拜樹頭」表達飲水思源感恩；「一枝草，一點露」鼓勵不放棄希望",
+              "第 2 步：熱情邀請同學說「咱相招來去樹跤開講，分享家己的趣味故事好無？」",
+              "第 3 步：朗誦賴和〈題畫扇〉古典漢詩時採典雅「文讀音」，日常聊天則採親切「白讀音」"
+            ],
+            "commonErrorContrast": "常見錯誤：以為苦楝冬天開紅花或永不落葉，或把「食果子，拜樹頭」誤解為吃水果把果皮丟樹下。",
+            "selfExplanationPrompt": "想一想：「樹頭徛予在，毋驚樹尾做風颱」這句俗諺在比喻什麼道理？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/minnan#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "苦楝四季生態小圖鑑",
+          "topicSignalTitle": "臺灣原生種「苦楝」在春夏秋冬分別長什麼樣子？",
+          "narrationText": "苦楝是臺灣常見的原生落葉喬木，四季各有鮮明色彩：春花淡紫清香、夏葉濃密遮蔭、秋葉轉黃飄落、冬留金黃果實。",
+          "cognitiveChunks": [
+            "春：開滿淡紫色小花並帶清香",
+            "夏：綠葉濃密遮蔭；秋：葉片轉黃掉落",
+            "冬：枯枝掛滿金黃色果實（金鈴子）"
+          ],
+          "factGroundingSourceId": "115-s2/g6/minnan#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次「春天後母面」這句俗諺的意思，準備闖關！",
+          "cognitiveChunks": [
+            "「春天後母面」比喻春天天氣說變就變"
+          ],
+          "warmupCheck": {
+            "prompt": "臺灣俗諺常說「春天後母面」，這句話是在形容春天哪一種常見現象？",
+            "options": [
+              "春天天氣變化非常快，一會兒晴朗溫暖、一會兒陰冷下雨",
+              "整個春天每天都下大雪",
+              "春天絕對不會颳風下雨"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！春天天氣冷暖晴雨不定，就像提醒大家換季要多注意添減衣物。",
+            "feedbackRetry": "想一想春天的天氣是不是常早上出太陽、下午突然變冷或下雨呢？"
+          },
+          "factGroundingSourceId": "115-s2/g6/minnan#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-minnan-u3",
+      "stageId": "115-s2-g6-minnan-u3",
+      "title": "第三單元 祝福的季節",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "畢業祝福語與花卉花語文化",
+          "narrationText": "在鳳凰花開的六月畢業季，學會用「順勢、平安順遂」等閩南語祝福親友，並認識康乃馨（感恩）、向日葵（朝氣光明）等花語象徵。",
+          "cognitiveChunks": [
+            "畢業祝福：「事事項項攏順勢」、「平安順遂」",
+            "鳳凰花六月火紅盛開，象徵校園畢業離情與祝福",
+            "康乃馨象徵感恩關愛；向日葵象徵朝氣迎向光明"
+          ],
+          "analogyAnchor": "送上一束花搭配一張閩南語祝福卡，就像把心意摺進花瓣裡：康乃馨向師長母親說「多謝」，向日葵則祝福畢業夥伴向著陽光勇敢前進。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "畢業與感恩花語",
+              "leftPoints": [
+                "鳳凰花：六月畢業珍重祝福",
+                "康乃馨：感恩親情與師長"
+              ],
+              "rightTitle": "向日葵與祝福回應",
+              "rightPoints": [
+                "向日葵：朝氣蓬勃迎向光明",
+                "道謝：多謝祝福，記佇心肝頭"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u3-l1",
+                "text": "不同花卉傳遞專屬心意",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u3-l2",
+                "text": "真誠祝福與感謝拍拚",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/minnan#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "禮貌回應祝福、同儕鼓勵與生涯規劃",
+          "narrationText": "收到祝福時說「多謝你的祝福，我會記佇心肝頭、繼續拍拚！」；朋友灰心時說「免煩惱，咱做伙拍拚加油！」，並規劃升上國中的新目標。",
+          "cognitiveChunks": [
+            "感謝祝福：「多謝你的祝福，我會記佇心肝頭」",
+            "鼓勵同儕：「免煩惱，咱做伙拍拚、加油！」",
+            "生涯規劃：認識興趣長處、管理時間、設可行目標"
+          ],
+          "workedExampleData": {
+            "problemStatement": "好友即將畢業升上國中，既興奮又有點緊張，想送他一束花與閩南語卡片鼓勵，該怎麼挑選花語與書寫祝福？",
+            "steps": [
+              "第 1 步：挑選象徵朝氣光明的「向日葵」（或感謝師長選「康乃馨」）",
+              "第 2 步：寫下「祝你畢業快樂、前途光明，事事項項攏順勢（sūn-sè）！」",
+              "第 3 步：若好友緊張灰心，鼓勵「免煩惱，咱做伙拍拚、加油！」，並一起規劃國中新目標"
+            ],
+            "commonErrorContrast": "常見錯誤：收到卡片不知道怎麼禮貌道謝，或對未來採取逃避不設目標、熬夜滑手機的做法。",
+            "selfExplanationPrompt": "想一想：在邁向國中生涯之前，自我認識與時間管理對我們有什麼重要幫助？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/minnan#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "帶著祝福邁向國中新旅程",
+          "topicSignalTitle": "升上國中前，如何實踐「生涯規劃教育」與「品德教育」？",
+          "narrationText": "認識自己的興趣長處、練習安排作息與時間管理，並在同儕灰心時說出溫暖的「免煩惱、加油」，帶著師友祝福勇敢前行。",
+          "cognitiveChunks": [
+            "了解自我興趣與優勢，設定可行目標",
+            "培養良好作息與時間管理習慣",
+            "用溫暖同理的言語支持鼓勵身邊夥伴"
+          ],
+          "factGroundingSourceId": "115-s2/g6/minnan#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次「康乃馨」與「向日葵」的花語象徵，準備闖關！",
+          "cognitiveChunks": [
+            "康乃馨象徵感恩；向日葵象徵朝氣與光明未來"
+          ],
+          "warmupCheck": {
+            "prompt": "在畢業與感恩時節送花時，下列哪一組「花卉與花語象徵意義」的配對最貼切？",
+            "options": [
+              "康乃馨象徵感恩關愛；向日葵象徵朝氣蓬勃、迎向光明未來",
+              "向日葵象徵消極退縮",
+              "康乃馨象徵忘記長輩辛勞"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！康乃馨傳達感恩心意，向日葵則象徵陽光與希望。",
+            "feedbackRetry": "想一想母親節常送什麼花代表感謝，而面向太陽的花又代表什麼正面力量？"
+          },
+          "factGroundingSourceId": "115-s2/g6/minnan#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-minnan-u4",
+      "stageId": "115-s2-g6-minnan-u4",
+      "title": "統整與補充活動",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "〈大樹青青〉與全冊 ABB 疊字、語詞總複習",
+          "narrationText": "透過〈大樹青青〉與〈看圖寫看覓、箍看覓〉統整全冊語詞：「青青（青翠茂盛）」、「看覓（試著做做看）」，以及紅記記、白泡泡、烏溜溜、青蘢蘢等疊字詞。",
+          "cognitiveChunks": [
+            "青青（tshinn-tshinn）＝青翠茂盛；看覓＝試著看看",
+            "紅記記（紅通通）、白泡泡（白嫩）、烏溜溜（烏黑光亮）",
+            "青蘢蘢（tshing-lông-lông）形容草木青翠充滿生機"
+          ],
+          "analogyAnchor": "〈大樹青青〉就像畢業班的縮影：大家從一年級小樹苗成長為青蘢蘢的大樹，因為「樹頭徛予在（基礎穩固）」，未來才能「毋驚樹尾做風颱（不怕考驗）」。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "色彩感官 ABB 疊字",
+              "leftPoints": [
+                "紅記記（紅通通）、白泡泡（白嫩）",
+                "烏溜溜（黑亮）、青蘢蘢（翠綠）"
+              ],
+              "rightTitle": "生活詞彙與畢業勉勵",
+              "rightPoints": [
+                "寫看覓／箍看覓＝試著寫／圈",
+                "樹頭徛予在，毋驚樹尾做風颱"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u4-l1",
+                "text": "對照色彩質感選對疊字",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u4-l2",
+                "text": "感恩師友祝福前程順勢",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/minnan#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "看圖造句〈寫看覓〉與畢業週綜合應用",
+          "narrationText": "看圖寫句時抓住圖片核心人物與動作（如夜市喝賣燒滾滾麵線）；閱讀短文則綜合運用夜市、花語與畢業祝福知識。",
+          "cognitiveChunks": [
+            "「看圖寫看覓」須精準呼應圖片動作與景物",
+            "結合「大樹青青」與「順勢」寫出溫暖畢業留言",
+            "俗諺「樹頭徛予在，毋驚樹尾做風颱」勉勵打好基礎"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在〈箍看覓〉要把「紅通通蘋果、白嫩嫩豆腐、黑亮小貓毛髮」配對正確疊字詞，並寫一段結合〈大樹青青〉的畢業週祝福留言，該怎麼做？",
+            "steps": [
+              "第 1 步：依顏色與質感對照字頭，依序選出「紅記記、白泡泡、烏溜溜」",
+              "第 2 步：確認句子搭配合理（如春天大樹「青蘢蘢」、熱湯「燒滾滾」），不自相矛盾",
+              "第 3 步：畢業週留言寫「多謝六年來師長佮同學的照顧，祝逐家親像大樹青青仝款健康向上、前途順勢！」"
+            ],
+            "commonErrorContrast": "常見錯誤：把「冷吱吱」拿去形容熱湯、「烏溜溜」拿去形容白雲，或把「喝賣」誤認為安靜哭泣。",
+            "selfExplanationPrompt": "想一想：用哪一句臺灣俗諺來勉勵即將升上國中的自己打好基礎、不怕未來風雨挑戰最貼切？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/minnan#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "六年級畢業週的溫馨收穫",
+          "topicSignalTitle": "帶著閩南語第 12 冊的祝福，我們學會了什麼？",
+          "narrationText": "從夜市人情味、苦楝四季詩意、感恩俗諺到祝福的花語，我們帶著滿滿的文化溫度與感謝，像青青大樹一樣迎向人生下一站。",
+          "cognitiveChunks": [
+            "多謝師長同窗六年來的照顧陪伴",
+            "飲水思源（食果子，拜樹頭）",
+            "打好基礎（樹頭徛予在）迎向未來"
+          ],
+          "factGroundingSourceId": "115-s2/g6/minnan#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次「青青」與「看覓」的意思，準備挑戰小學最後一關！",
+          "cognitiveChunks": [
+            "青青形容青翠茂盛；看覓表示試著看一看、做做看"
+          ],
+          "warmupCheck": {
+            "prompt": "補充活動〈大樹青青〉與〈看圖寫看覓〉中，「青青」和「看覓」分別是什麼意思？",
+            "options": [
+              "青青形容青翠茂盛充滿生機；看覓表示試著看一看、做做看",
+              "青青是指枯黃落葉；看覓是指閉眼睡覺",
+              "青青是指結冰發抖；看覓是指忘記帶課本"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！「寫看覓、箍看覓」就是邀請大家試著寫寫看、圈圈看。",
+            "feedbackRetry": "大樹長滿綠葉很有生機叫做「青青」，那「寫看覓」的「看覓」接在動詞後面是什麼意思呢？"
+          },
+          "factGroundingSourceId": "115-s2/g6/minnan#u4"
+        }
+      ]
+    }
+  ]
+}

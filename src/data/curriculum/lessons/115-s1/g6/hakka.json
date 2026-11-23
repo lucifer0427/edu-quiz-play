@@ -1,0 +1,430 @@
+{
+  "packId": "115-s1-g6-hakka",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 6,
+  "subjectId": "hakka",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-hakka-u1",
+      "stageId": "115-s1-g6-hakka-u1",
+      "title": "進度單元一：地動、懶尸个草蜢(仔)",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "g6s1-hakka-u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "自然災害與天氣客語詞彙、勤勞防災態度",
+          "narrationText": "第一課〈地動〉教我們「地動（地震）」與「風搓（颱風）」等災害天氣客語詞彙及防災應變；第二課〈懶尸个草蜢(仔)〉則透過寓言故事提醒大家未雨綢繆、勤勞不懶惰。",
+          "cognitiveChunks": [
+            "地動（地震）、風搓（颱風）、遮仔（雨傘）",
+            "懶尸（懶惰）、草蜢仔（蚱蜢）",
+            "好天愛積來落雨糧：平時勤勞預作準備"
+          ],
+          "analogyAnchor": "客語裡的災害與天氣詞彙非常生動，「地動」是大地在動、「落水」是天空落下雨水，「好天愛積來落雨糧」更是提醒我們隨時做好準備。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "自然災害與天氣詞彙",
+              "leftPoints": [
+                "地動（地震）、風搓（颱風）",
+                "落水（下雨）、遮仔（雨傘）"
+              ],
+              "rightTitle": "防災行動與寓言態度",
+              "rightPoints": [
+                "地動保命：趴下、掩護、穩住",
+                "好天愛積來落雨糧（勤勞準備）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s1-hak-u1-l1",
+                "text": "熟記天氣災害詞彙",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s1-hak-u1-l2",
+                "text": "落實防災與勤勞",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/hakka#u1"
+        },
+        {
+          "sceneId": "g6s1-hakka-u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "客語防災對話與詞義情境辨析",
+          "narrationText": "在生活對話中遇到天氣變化或地震發生時，能用客語互相提醒防災重點，並正確理解詞彙背後的語意與寓言道理。",
+          "cognitiveChunks": [
+            "從字面線索與生活語境推敲客語詞義",
+            "對話提醒帶雨具（遮仔）與防颱準備"
+          ],
+          "workedExampleData": {
+            "problemStatement": "同學說「風搓愛來咧，大家愛先準備好！好得有帶遮仔，無斯會淋到透！」這句客語對話傳達什麼意思？遇到地動又該做哪三步驟？",
+            "steps": [
+              "第 1 步：拆解詞彙——「風搓」指颱風、「遮仔」指雨傘、「淋到透」指被雨淋濕，整句在提醒大家防颱準備與帶傘",
+              "第 2 步：防災應變——遇見「地動（地震）」時，立刻執行保命三步驟「趴下、掩護、穩住」",
+              "第 3 步：寓言啟發——牢記「好天愛積來落雨糧」俗諺，像勤勞的螞蟻一樣平時認真學習準備，不學「懶尸个草蜢仔」"
+            ],
+            "commonErrorContrast": "常見錯誤：把「地動」誤以為是拖地、把「遮仔」當成遮陽帽，或地震時急著往外衝而不掩護頭部。",
+            "selfExplanationPrompt": "想一想：〈懶尸个草蜢(仔)〉這個寓言故事最想培養我們什麼生活態度？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/hakka#u1"
+        },
+        {
+          "sceneId": "g6s1-hakka-u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "單元語詞與俗諺回顧",
+          "topicSignalTitle": "地動重保命三步驟，勤勞實踐未雨綢繆",
+          "narrationText": "把學到的客語天氣與災害詞彙用在每天與同學家人的問候提醒裡，語言就會越講越自然。",
+          "cognitiveChunks": [
+            "「懶尸」形容懶惰，「草蜢仔」指蚱蜢",
+            "多用客語進行天氣與防災生活對話"
+          ],
+          "factGroundingSourceId": "115-s1/g6/hakka#u1"
+        },
+        {
+          "sceneId": "g6s1-hakka-u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認第一課核心詞彙「地動」與天氣語詞的國語意思！",
+          "cognitiveChunks": [
+            "地動＝地震；風搓＝颱風"
+          ],
+          "warmupCheck": {
+            "prompt": "第一課課名〈地動〉是臺灣客家話非常生活化的詞彙。請問客語說的「地動（thi-thung）」，是指哪一種自然現象？",
+            "options": [
+              "地震",
+              "打雷",
+              "下雪",
+              "起大霧"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！「地動」就是大地搖動，也就是我們常說的「地震」。",
+            "feedbackRetry": "想一想大地突然搖晃震動起來的自然災害是什麼呢？"
+          },
+          "factGroundingSourceId": "115-s1/g6/hakka#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-hakka-u2",
+      "stageId": "115-s1-g6-hakka-u2",
+      "title": "進度單元二：雙堂屋、風車个故鄉",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "g6s1-hakka-u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識臺灣客家名勝與荷蘭風車文化",
+          "narrationText": "第三課〈雙堂屋〉帶我們認識桃園新屋等地的客家傳統合院建築，學習愛護古蹟與自然環境；第四課〈風車个故鄉〉則認識荷蘭風車、鬱金香與起司等風土民情，學會客語旅遊問路對話。",
+          "cognitiveChunks": [
+            "雙堂屋為前堂後堂兩進合院的客家傳統建築",
+            "荷蘭特色：風車排水、鬱金香與乳酪名產",
+            "各庄有各庄个例，各鄉有各鄉个俗：尊重差異"
+          ],
+          "analogyAnchor": "學習這兩課就像展開一場文化小旅行，先參觀臺灣優雅的「雙堂屋」傳統古厝，再飛到「風車个故鄉」荷蘭欣賞異國風景。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "臺灣名勝：雙堂屋",
+              "leftPoints": [
+                "兩進合院格局與伙房屋文化",
+                "珍惜古蹟、愛護環境不亂塗鴉"
+              ],
+              "rightTitle": "異國風情：荷蘭風車",
+              "rightPoints": [
+                "早年興建巨大風車協助排水",
+                "鬱金香、木鞋、起司等名產"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s1-hak-u2-l1",
+                "text": "客家合院文化之美",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s1-hak-u2-l2",
+                "text": "荷蘭風車風土民情",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/hakka#u2"
+        },
+        {
+          "sceneId": "g6s1-hakka-u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "客語旅遊問路與讚美風景對話練習",
+          "narrationText": "出遊造訪風景名勝時，能聽懂並運用客語詢問「愛仰般去（怎麼去）」、「一直行（直直走）」以及稱讚「風景當靚（很漂亮）」。",
+          "cognitiveChunks": [
+            "放尞（放假）、尞（玩／遊覽）、哪位（哪裡）",
+            "一直行（直直走）、斯看得到咧（就會看到了）"
+          ],
+          "workedExampleData": {
+            "problemStatement": "週末放假想去新屋參觀雙堂屋，在客語旅遊對話中遇到「放尞時節，你愛去哪位尞？」、「對這片一直行，過了大路口斯看得到咧！」分別是什麼意思？",
+            "steps": [
+              "第 1 步：解析提問——「放尞時節」指放假的時候，「哪位」是哪裡、「尞」是遊玩，整句在問「放假時你要去哪裡玩？」",
+              "第 2 步：解析指路——「這片」是這邊，「一直行」指直直往前走，「斯看得到咧」就是就會看到了",
+              "第 3 步：讚美與護境——抵達後可以用「這裡个風景當靚！」稱讚美景，並抱持不喧嘩、帶走垃圾的環境素養"
+            ],
+            "commonErrorContrast": "常見錯誤：把「一直行」誤會成往回走、誤以為荷蘭風車只是為了裝飾看風景，或參觀古蹟時伸手觸摸脆弱木雕。",
+            "selfExplanationPrompt": "想一想：造訪不同國家與家鄉名勝時，「各庄有各庄个例，各鄉有各鄉个俗」提醒我們抱持什麼態度？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/hakka#u2"
+        },
+        {
+          "sceneId": "g6s1-hakka-u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "旅遊常用客語詞彙整理",
+          "topicSignalTitle": "學會問路與讚美詞彙，尊重各地風俗民情",
+          "narrationText": "記住「放尞（放假）」、「哪位（哪裡）」、「當靚（很漂亮）」等實用詞彙，假日和家人出遊就能派上用場。",
+          "cognitiveChunks": [
+            "荷蘭早年靠風車抽水排乾低窪積水",
+            "尊重歷史建築與各國獨特文化"
+          ],
+          "factGroundingSourceId": "115-s1/g6/hakka#u2"
+        },
+        {
+          "sceneId": "g6s1-hakka-u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認旅遊時常用客語問路句子「一直行」與「斯看得到咧」的意思！",
+          "cognitiveChunks": [
+            "一直行＝直直往前走；斯看得到咧＝就會看到了"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈雙堂屋〉旅遊對話中，回答「你對這片一直行，過了大路口斯看得到咧！」請問「一直行」與「斯看得到咧」分別是什麼意思？",
+            "options": [
+              "往回走；馬上就會不見了",
+              "直直往前走；就會看到了",
+              "跳著走；還要再搭飛機",
+              "蹲下來休息；天黑才能進去"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！「行」在客語是走路的意思，「一直行」就是直直往前走！",
+            "feedbackRetry": "想一想客語「行路」是什麼動作？加上「一直」就是往哪個方向走呢？"
+          },
+          "factGroundingSourceId": "115-s1/g6/hakka#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-hakka-u3",
+      "stageId": "115-s1-g6-hakka-u3",
+      "title": "進度單元三：桃花開",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "g6s1-hakka-u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "客家傳統歌謠〈桃花開〉與藝文活動詞彙",
+          "narrationText": "第五課〈桃花開〉是節奏輕快、古調優美的經典客家歌謠。透過認識客家八音、採茶戲等代表性傳統藝文，我們學會用客語邀約看戲、稱讚表演「當有味緒」並遵守觀演禮儀。",
+          "cognitiveChunks": [
+            "〈桃花開〉以傳統古調結合順口歌詞陶冶藝文",
+            "客家傳統藝文：客家八音、採茶戲、山歌",
+            "「當有味緒」形容很有韻味、很有魅力"
+          ],
+          "analogyAnchor": "學習〈桃花開〉就像打開一座充滿花香的客家音樂盒，不僅能用歌聲感受傳統古調的美好，還能學會帶朋友一起走進藝文殿堂。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "客家傳統藝文代表",
+              "leftPoints": [
+                "客家八音（傳統吹打樂）",
+                "客家採茶戲、平板／山歌子"
+              ],
+              "rightTitle": "藝文對話與觀演禮儀",
+              "rightPoints": [
+                "邀約看戲、讚美「當有味緒」",
+                "準時入座、手機靜音專心欣賞"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s1-hak-u3-l1",
+                "text": "認識八音採茶戲之美",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s1-hak-u3-l2",
+                "text": "客語邀約與讚美表演",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/hakka#u3"
+        },
+        {
+          "sceneId": "g6s1-hakka-u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "客語邀約看戲、讚美與文化傳承意義",
+          "narrationText": "假日文化中心有精采演出時，能用客語親切邀請同學，並在欣賞後給予真誠讚美，同時落實室內演藝廳禮儀。",
+          "cognitiveChunks": [
+            "「共下去看戲好無？」親切邀請同行",
+            "「這擺个表演當精采／當有味緒」真誠讚美"
+          ],
+          "workedExampleData": {
+            "problemStatement": "週末文化中心有客家採茶戲與〈桃花開〉音樂會演出，想用客語邀請好友一起去，觀賞時與看完後又該怎麼表現？",
+            "steps": [
+              "第 1 步：客語邀約——使用「這隻禮拜日，𠊎兜共下去看戲，好無？」（這個星期日，我們一起去看戲好不好？）親切邀約",
+              "第 2 步：觀演禮儀——準時入座、將手機調為靜音、不任意大聲交談或開閃光燈拍照，全神貫注尊重演出者",
+              "第 3 步：讚美與傳承——散場後用客語稱讚「今晡日个表演當精采、當有味緒！」，透過多練習體會「熟能生巧」並傳承客家歌謠之美"
+            ],
+            "commonErrorContrast": "常見錯誤：在演藝廳內隨意拍照開閃光燈、忘記「有味緒」是指有韻味而誤會成食物味道太鹹。",
+            "selfExplanationPrompt": "想一想：在六年級學習並欣賞〈桃花開〉等客家傳統歌謠，對文化傳承有什麼重要意義？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/hakka#u3"
+        },
+        {
+          "sceneId": "g6s1-hakka-u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "藝文對話與熟能生巧",
+          "topicSignalTitle": "多練唱傳統古調熟能生巧，用客語分享觀演感動",
+          "narrationText": "每一首流傳下來的客家歌謠都藏著先民的生活故事，多開口練唱就能越唱越順口、越有韻味。",
+          "cognitiveChunks": [
+            "「當有味緒」讚美歌謠與戲曲充滿韻味",
+            "遵守演藝廳禮儀展現小小藝文觀眾風度"
+          ],
+          "factGroundingSourceId": "115-s1/g6/hakka#u3"
+        },
+        {
+          "sceneId": "g6s1-hakka-u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認用客語稱讚客家歌謠「當有味緒」代表的意思！",
+          "cognitiveChunks": [
+            "「有味緒」指很有韻味、有趣或充滿情感魅力"
+          ],
+          "warmupCheck": {
+            "prompt": "在第五課〈桃花開〉學唱與對話時，同學用客語稱讚歌謠唱起來「當有味緒」，請問「有味緒（iu-mi-si）」用來形容什麼感覺？",
+            "options": [
+              "味道太鹹太辣吃不下去",
+              "很有韻味、很有趣或充滿情感魅力",
+              "非常無聊想睡覺",
+              "完全聽不懂歌詞在唱什麼"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！「當有味緒」用來讚美表演或歌謠非常動聽有韻味，是很道地的客語稱讚詞！",
+            "feedbackRetry": "想一想這句話是在稱讚唱歌很有情感魅力，不是在評論食物的鹹淡喔！"
+          },
+          "factGroundingSourceId": "115-s1/g6/hakka#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-hakka-u4",
+      "stageId": "115-s1-g6-hakka-u4",
+      "title": "補充與複習活動",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "g6s1-hakka-u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "〈天公落水〉與全冊語詞對話綜合複習",
+          "narrationText": "第 19 至 21 週透過〈語詞運用〉、傳統歌謠〈天公落水〉以及〈搞麼个？出任務囉！〉進行綜合總複習，串聯全學期災防、建築、藝文詞彙與日常道謝道別對話。",
+          "cognitiveChunks": [
+            "「天公」指老天爺，「落水」指下雨",
+            "「搞麼个」問在做什麼；「承蒙你」表感謝",
+            "「這下（現在）」時間毋早，愛「轉屋下（回家）」"
+          ],
+          "analogyAnchor": "〈搞麼个？出任務囉！〉就像一場學期末的客語闖關總整理，把這學期學到的每張詞彙卡片收進背包，隨時都能在生活中開口運用。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "語詞運用：複習災害、旅遊與藝文詞彙",
+                "天公落水：認識傳統歌謠與下雨詞彙",
+                "生活對話：承蒙你、搞麼个、轉屋下",
+                "文化俗諺：食果子，拜樹頭（飲水思源）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s1-hak-u4-l1",
+                "text": "歌謠與生活詞彙統整",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "g6s1-hak-u4-l2",
+                "text": "禮貌對話與飲水思源",
+                "anchorPointId": "step4"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/hakka#u4"
+        },
+        {
+          "sceneId": "g6s1-hakka-u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "情境短文閱讀與生活對話應用",
+          "narrationText": "閱讀結合本學期各課詞彙的客語短文，並練習放學下雨時借傘道謝、詢問夥伴在做什麼以及道別回家的日常對話。",
+          "cognitiveChunks": [
+            "「屋下（家裡）」、「今晡日（今天）」、「外背（外面）」",
+            "「食果子，拜樹頭」教導飲水思源與感恩"
+          ],
+          "workedExampleData": {
+            "problemStatement": "放學時外面突然「天公落水」，同學好心撐「遮仔」陪你走到校門口，分別前看到組員蹲在草叢邊，該怎麼用客語互動與道謝？",
+            "steps": [
+              "第 1 步：禮貌道謝——對撐傘同學說「正經當承蒙你！無斯會淋到透咧。」（真的非常謝謝你，不然就會淋濕了）",
+              "第 2 步：好奇詢問——看見組員蹲在草叢邊觀察，可以用「你兜在該搞麼个？」親切詢問他們在做什麼",
+              "第 3 步：道別回家——時間不早時說「這下時間毋早咧，愛轉屋下咧！」，並牢記「食果子，拜樹頭」的感恩精神"
+            ],
+            "commonErrorContrast": "常見錯誤：把「天公落水」誤以為是有人打翻水桶、把「搞麼个」當成生氣罵人，或忘記「轉屋下」是指回家。",
+            "selfExplanationPrompt": "想一想：在客語俗諺「食果子，拜樹頭；食米飯，敬田頭」背後，想教導我們什麼做人處事的道理？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/hakka#u4"
+        },
+        {
+          "sceneId": "g6s1-hakka-u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "飲水思源，勇敢開口說客語",
+          "topicSignalTitle": "用客語說「承蒙你」與「轉屋下」，珍惜母語文化",
+          "narrationText": "語言是在日常生活中越講越熟悉的工具，帶著飲水思源的心意，在家庭與校園裡自信說出學到的客語詞彙與歌謠吧。",
+          "cognitiveChunks": [
+            "「天公落水」在客語歌謠中即指天上下雨",
+            "「這下」表示現在，「屋下」表示家裡"
+          ],
+          "factGroundingSourceId": "115-s1/g6/hakka#u4"
+        },
+        {
+          "sceneId": "g6s1-hakka-u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認經典客家歌謠〈天公落水〉歌名裡兩個詞彙的意思！",
+          "cognitiveChunks": [
+            "天公＝老天爺；落水＝下雨"
+          ],
+          "warmupCheck": {
+            "prompt": "第 20 週補充教學的客家經典傳統歌謠〈天公落水〉中，「天公」和「落水」在客語裡分別是什麼意思？",
+            "options": [
+              "老天爺；下雨",
+              "太陽公公；水龍頭漏水",
+              "天空的鳥；去河邊游泳",
+              "白雲；把水倒進水桶"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！〈天公落水〉就是描寫老天爺下雨的經典歡快客家歌謠。",
+            "feedbackRetry": "想一想歌謠唱到天空掉下雨水來，「天公」和「落水」各代表什麼呢？"
+          },
+          "factGroundingSourceId": "115-s1/g6/hakka#u4"
+        }
+      ]
+    }
+  ]
+}

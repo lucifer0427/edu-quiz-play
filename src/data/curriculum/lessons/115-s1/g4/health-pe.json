@@ -1,0 +1,749 @@
+{
+  "packId": "115-s1-g4-health-pe",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 4,
+  "subjectId": "health-pe",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-health-pe-u1",
+      "stageId": "115-s1-g4-health-pe-u1",
+      "title": "第一單元 飲食智慧王",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "六大類食物營養素與均衡飲食",
+          "narrationText": "每類食物都有獨特營養素與功能：全穀雜糧提供主要熱量、蔬果提供維生素與膳食纖維、乳品補充鈣質助骨骼發育。",
+          "cognitiveChunks": [
+            "全穀雜糧類：提供醣類作為日常活動熱量",
+            "蔬菜水果類：提供維生素、礦物質與膳食纖維",
+            "乳品類：提供鈣質幫助骨骼與牙齒發育"
+          ],
+          "analogyAnchor": "均衡飲食就像組建一支足球隊：全穀雜糧是跑動的前鋒能量、豆魚蛋肉與乳品是強壯後衛、蔬果則是維持順暢的守門員。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "健康飲食習慣",
+              "leftPoints": [
+                "三餐定時定量且食物多樣化",
+                "多喝白開水、少油少糖烹調"
+              ],
+              "rightTitle": "不良飲食習慣",
+              "rightPoints": [
+                "用炸雞含糖飲料取代正餐",
+                "久坐少動導致體位過重"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u1-l1",
+                "text": "均衡飲食配白開水",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u1-l2",
+                "text": "少吃高油高糖零食",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/health-pe#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "檢視飲食習慣與健康體位自我管理",
+          "narrationText": "兒童體重過重常因攝取過多高熱量食物且活動量不足；改善體位應靠飲食記錄、減糖與規律運動，絕不節食挨餓。",
+          "cognitiveChunks": [
+            "運動後喝白開水最解渴且無糖分負擔",
+            "記錄飲食與運動時間有助自我管理",
+            "成長期不可靠斷食或來路不明減肥藥"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小安最近體重偏重，想健康改善體位並挑出最均衡的午餐便當，該怎麼做？",
+            "steps": [
+              "第 1 步：把含糖手搖飲與炸雞點心換成白開水與新鮮水果",
+              "第 2 步：午餐選用糙米飯、清蒸魚、兩樣青菜與水果，兼顧各類營養",
+              "第 3 步：每天記錄飲食並搭配規律戶外運動，逐步維持健康體位"
+            ],
+            "commonErrorContrast": "常見錯誤：為了變瘦完全不吃正餐挨餓、催吐，或輕信廣告購買減肥藥丸。",
+            "selfExplanationPrompt": "想一想：如果只吃肉和白飯、完全不吃青菜水果，身體容易出現什麼問題？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/health-pe#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "白開水是運動後最佳選擇",
+          "topicSignalTitle": "體育課滿頭大汗後，為什麼喝白開水比含糖飲料好？",
+          "narrationText": "白開水不含糖分與多餘熱量，能迅速補充流汗流失的水分並幫助代謝；含糖飲料反而容易越喝越渴又囤積熱量。",
+          "cognitiveChunks": [
+            "白開水零熱量、最解渴助代謝",
+            "減少手搖飲與碳酸汽水攝取",
+            "每天主動喝足水分維持活力"
+          ],
+          "factGroundingSourceId": "115-s1/g4/health-pe#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次全穀雜糧類的主要營養功能，準備闖關！",
+          "cognitiveChunks": [
+            "全穀雜糧類富含醣類提供主要熱量"
+          ],
+          "warmupCheck": {
+            "prompt": "每天正餐吃的米飯、麵條與地瓜等「全穀雜糧類」，最主要提供人體哪一種營養素與作用？",
+            "options": [
+              "醣類，提供日常活動所需主要熱量",
+              "維生素 C，專門用來止血",
+              "純油脂，只用來維持體溫"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！全穀雜糧類富含醣類，是身體與大腦最有活力的能量來源。",
+            "feedbackRetry": "如果沒吃飯就容易沒力氣，想想米飯麵條提供給身體的是哪一種能量營養素？"
+          },
+          "factGroundingSourceId": "115-s1/g4/health-pe#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-health-pe-u2",
+      "stageId": "115-s1-g4-health-pe-u2",
+      "title": "第二單元 快樂每一天",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "接納情緒與正向思考調適技巧",
+          "narrationText": "喜怒哀懼都是正常的情緒訊號，沒有對錯；遇到緊張或挫折時，深呼吸與正向自我鼓勵能幫我們平靜下來並解決問題。",
+          "cognitiveChunks": [
+            "情緒沒有對錯，重點是合宜表達與調適",
+            "賽前緊張可透過深呼吸與正向喊話放鬆",
+            "發掘自己優點並持續努力能提升自我價值"
+          ],
+          "analogyAnchor": "情緒就像天氣變化，下雨或刮風（緊張、失落）都很正常；深呼吸與正向思考則是幫自己撐開一把安心的小傘。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "覺察緊張或難過情緒",
+                "深呼吸放鬆並正向思考",
+                "拆解步驟或溝通解決"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u2-l1",
+                "text": "接納情緒不壓抑",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "u2-l2",
+                "text": "正向拆解解決困難",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/health-pe#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "正向面對挫折與家人溝通實戰",
+          "narrationText": "練習才藝卡關時把大動作拆成小步驟請教他人；與家人意見不同時，則用溫和尊重的語氣溝通並主動分擔家務。",
+          "cognitiveChunks": [
+            "安慰失誤夥伴，提出建設性鼓勵",
+            "衝突時先冷靜傾聽，再協商輪流方法",
+            "主動分擔家務並向家人表達感謝"
+          ],
+          "workedExampleData": {
+            "problemStatement": "想多看十分鐘繪本才去睡覺，但爸爸催促趕快睡覺；另外練習才藝高難度動作一直不順，該怎麼辦？",
+            "steps": [
+              "第 1 步：對爸爸用溫和有禮語氣溝通，具體約定「再看十分鐘就去刷牙」建立信任",
+              "第 2 步：才藝卡關時不摔道具放棄，先分析哪裡卡住並拆成小步驟練習或請教老師",
+              "第 3 步：平時主動幫忙摺衣服、擦桌子，讓家庭氣氛更溫暖和諧"
+            ],
+            "commonErrorContrast": "常見錯誤：生氣摔門頂撞父母，或只拿自己短處跟全班第一名比較而否定自己。",
+            "selfExplanationPrompt": "想一想：當好朋友在接力賽不小心掉棒自責時，你會對他說哪一句溫暖鼓勵的話？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/health-pe#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "看重自己，成為明日之星",
+          "topicSignalTitle": "如何建立真實的自我價值感？",
+          "narrationText": "每個人都有獨特的天賦與成長步調，欣賞自己的長處、接納不完美並願意為目標努力練習，就能看見自己的價值。",
+          "cognitiveChunks": [
+            "發掘並欣賞自己的興趣與優點",
+            "接納不完美，專注在每次小小的進步",
+            "不因一時困難輕言放棄"
+          ],
+          "factGroundingSourceId": "115-s1/g4/health-pe#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次面對負向情緒的健康態度，準備進入第二關！",
+          "cognitiveChunks": [
+            "負向情緒是正常訊號，關鍵是合宜表達與調適"
+          ],
+          "warmupCheck": {
+            "prompt": "比賽沒得名感到沮喪或上台前覺得緊張，這些「負向情緒」應該怎麼看待才正確？",
+            "options": [
+              "是不被允許的壞毛病，絕對不能難過",
+              "情緒沒有對錯，緊張失落是正常訊號，要學會合宜調適",
+              "生氣時只要摔東西就沒事了"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！先接納情緒，再透過深呼吸或傾訴來合宜調節。",
+            "feedbackRetry": "感到緊張或失落並不是做錯事喔！健康的態度是先接納它，還是完全壓抑它？"
+          },
+          "factGroundingSourceId": "115-s1/g4/health-pe#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-health-pe-u3",
+      "stageId": "115-s1-g4-health-pe-u3",
+      "title": "第三單元 克癮防衛隊",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識菸、酒、檳榔對健康與社會的危害",
+          "narrationText": "香菸與電子煙的二手菸、三手菸會毒害家人，檳榔不加配料也有致癌風險，兒童飲酒則傷害大腦與肝臟，且成癮行為常引發社會與環境問題。",
+          "cognitiveChunks": [
+            "二手菸與附著家具的三手菸傷害兒童呼吸系統",
+            "檳榔本身含致癌物；酒精傷害發育中大腦與肝臟",
+            "亂丟菸蒂引發火災、濫種檳榔破壞水土、酒駕危及安全"
+          ],
+          "analogyAnchor": "成癮物質就像藏在糖衣裡的黏膠，一旦碰了就很難甩掉；建立無菸無酒無檳榔的防衛盾，才能保護自己與地球環境。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "成癮物質危害",
+              "leftPoints": [
+                "香菸與電子煙含成癮毒物",
+                "檳榔致癌、酒精傷大腦肝臟"
+              ],
+              "rightTitle": "健康防禦與紓壓",
+              "rightPoints": [
+                "堅定拒絕「不用了，我不要」",
+                "運動、畫畫、聽音樂健康紓壓"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u3-l1",
+                "text": "菸酒檳榔傷身又害環境",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u3-l2",
+                "text": "堅定拒絕並健康紓壓",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/health-pe#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "堅定拒絕誘惑與建立無菸家庭",
+          "narrationText": "遇到他人遞菸、電子煙或勸酒時，眼神堅定明確拒絕並迅速離開；面對家中吸菸長輩，則以關愛態度鼓勵戒菸。",
+          "cognitiveChunks": [
+            "態度堅定說「不」並立刻離開不安全環境",
+            "校園全面禁菸，保護師生遠離菸害",
+            "溫和關心家人健康，鼓勵撥打免費戒菸專線"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在公園有人遞來香菸或電子煙說「試一口很酷喔」，同時家裡也有長輩常在客廳抽菸，該怎麼辦？",
+            "steps": [
+              "第 1 步：對陌生人或損友眼神堅定搖頭說「不用了，抽菸會傷身體，我不要」並快步離開",
+              "第 2 步：不接受任何激將法，心情不好時改用打球、畫畫或找師長聊天來紓壓",
+              "第 3 步：對家裡長輩溫和表達關心，貼上溫馨提醒並鼓勵尋求免費戒菸專線協助"
+            ],
+            "commonErrorContrast": "常見錯誤：怕沒面子先接過來拿在手上，或心想「只試一口不會上癮」，以及對家人大吵指責。",
+            "selfExplanationPrompt": "想一想：除了個人健康之外，菸蒂、檳榔種植與酒後駕車還會對環境和社會造成什麼傷害？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/health-pe#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "遠離成癮的健康紓壓方案",
+          "topicSignalTitle": "壓力大或朋友起鬨時，什麼才是真正帥氣的選擇？",
+          "narrationText": "不被激將法控制、保護自己發育中的大腦與身體，選擇運動、音樂或藝術創作釋放壓力，才是最有主見的健康行動。",
+          "cognitiveChunks": [
+            "運動打球、畫畫、聽音樂健康紓壓",
+            "主動向信任的師長或朋友傾訴",
+            "對任何含酒精飲品與電子煙一律說不"
+          ],
+          "factGroundingSourceId": "115-s1/g4/health-pe#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次面對菸品誘惑時的正確拒絕方式，準備闖關！",
+          "cognitiveChunks": [
+            "面對香菸與電子煙應堅定拒絕並立即離開"
+          ],
+          "warmupCheck": {
+            "prompt": "放學後有人遞給你一根電子煙說「抽一口沒關係，很酷喔！」，最能保護自己的做法是什麼？",
+            "options": [
+              "眼神堅定拒絕說不要，並迅速離開現場找信任的大人",
+              "先接過來拿在手上怕對方生氣",
+              "只吸一口試試看味道"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！堅定拒絕並立刻遠離不安全環境，才能有效保護自己。",
+            "feedbackRetry": "電子煙一樣含有成癮與有害物質喔！面對不健康邀約最該表現出什麼態度？"
+          },
+          "factGroundingSourceId": "115-s1/g4/health-pe#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-health-pe-u4",
+      "stageId": "115-s1-g4-health-pe-u4",
+      "title": "第四單元 體能我最棒",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識體適能指標與 Tabata 挑戰",
+          "narrationText": "透過坐姿體前彎測柔軟度、仰臥起坐測腹部肌耐力、跑走測心肺耐力，再搭配 Tabata 分站循環與體操支撐擺盪全面提升體能。",
+          "cognitiveChunks": [
+            "坐姿體前彎評估柔軟度；仰臥起坐評估腹部肌耐力",
+            "規律有氧運動（慢跑、跳繩）循序提升心肺耐力",
+            "Tabata 運動須姿勢正確、配合呼吸不憋氣"
+          ],
+          "analogyAnchor": "身體就像一台多功能跑車：柔軟度是靈活的避震器、心肺耐力是大容量的油箱、支撐核心則是穩固的車身骨架。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "體適能檢測項目",
+              "leftPoints": [
+                "坐姿體前彎 → 柔軟度",
+                "仰臥起坐 → 腹部肌耐力"
+              ],
+              "rightTitle": "體操支撐與安全",
+              "rightPoints": [
+                "雙臂推穩、肩下沉、核心收緊",
+                "槓下鋪軟墊、保持擺盪安全距"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u4-l1",
+                "text": "針對弱項循序運動提升",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u4-l2",
+                "text": "支撐收緊核心且重安全",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/health-pe#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "安全進行體能分站與體操支撐擺盪",
+          "narrationText": "設計分站運動要兼顧下肢、上肢與心肺；進行體操支撐擺盪前務必先暖身手腕肩膀，並檢查軟墊與周圍安全空間。",
+          "cognitiveChunks": [
+            "分站搭配開合跳、深蹲、平板撐與高抬腿",
+            "支撐時肩膀下沉不聳肩、收緊腹部核心",
+            "單槓擺盪前確認下方軟墊妥善且無人擋路"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在單槓與墊上練習〈支撐擺盪〉以及進行 Tabata 分站挑戰時，如何做到動作標準又安全不受傷？",
+            "steps": [
+              "第 1 步：運動前先充分伸展手腕、肩膀與腰部，預防關節扭傷拉傷",
+              "第 2 步：支撐時雙臂伸直推穩、肩膀下沉、收緊核心不塌腰，並配合呼吸不憋氣",
+              "第 3 步：確認槓下安全軟墊鋪妥、雙手握牢且擺盪路線無人站立再開始，不適立刻停下"
+            ],
+            "commonErrorContrast": "常見錯誤：運動時全程憋氣、支撐時聳肩塌腰，或沒檢查軟墊與同學間距就急著甩腳擺盪。",
+            "selfExplanationPrompt": "想一想：如果體適能檢測發現「心肺耐力」較弱，平常可以安排哪些運動來循序提升？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/health-pe#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "傾聽身體訊號的自主運動原則",
+          "topicSignalTitle": "高強度分站運動時，感到頭暈或關節疼痛該怎麼辦？",
+          "narrationText": "提升體能講求循序漸進，運動中若出現頭暈、喘不過氣或關節疼痛，應立即停下休息並主動告訴老師。",
+          "cognitiveChunks": [
+            "循序漸進增加運動時間與強度",
+            "保持呼吸順暢，切忌憋氣硬撐",
+            "不適時立刻停止並向師長反映"
+          ],
+          "factGroundingSourceId": "115-s1/g4/health-pe#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次體適能檢測項目的對應能力，準備闖關！",
+          "cognitiveChunks": [
+            "坐姿體前彎主要評估身體柔軟度"
+          ],
+          "warmupCheck": {
+            "prompt": "體適能檢測中的「坐姿體前彎」項目，主要是為了評估身體哪一項體適能指標？",
+            "options": [
+              "心肺耐力",
+              "身體柔軟度",
+              "立定跳遠爆發力"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！坐姿體前彎測量關節與肌肉的伸展幅度，也就是身體柔軟度。",
+            "feedbackRetry": "坐著向前彎腰伸手看能摸到多遠，測量的是肌肉與關節容不容易拉開的哪項能力？"
+          },
+          "factGroundingSourceId": "115-s1/g4/health-pe#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-health-pe-u5",
+      "stageId": "115-s1-g4-health-pe-u5",
+      "title": "第五單元 運動力與美",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "扯鈴旋轉控制與飛盤擲接要領",
+          "narrationText": "扯鈴靠順轉方向一拉一放加速，歪斜時微調前後平衡；飛盤靠手腕帶動旋轉與平穩盤面滑翔，接盤則用雙手上下夾接最安全。",
+          "cognitiveChunks": [
+            "扯鈴加速：順旋轉方向一拉一放交替施力",
+            "飛盤擲盤：手腕帶動旋轉並保持盤面水平",
+            "飛盤接盤：雙手一上一下像鱷魚咬合穩穩夾接"
+          ],
+          "analogyAnchor": "飛盤就像小小滑翔機，手腕給它旋轉就能穩穩飛；接飛盤時兩隻手就像「三明治麵包」一上一下夾住它，安全又不會戳傷手指。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "扯鈴民俗體育",
+              "leftPoints": [
+                "一拉一放有節奏加速",
+                "微調鈴棍前後修正水平"
+              ],
+              "rightTitle": "飛盤擲接與策略",
+              "rightPoints": [
+                "手腕帶動旋轉、雙手夾接",
+                "無球隊友跑位拉開空檔"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u5-l1",
+                "text": "扯鈴一拉一放保水平",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u5-l2",
+                "text": "飛盤旋轉擲雙手夾接",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/health-pe#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "場地安全、動作修正與跑位策略",
+          "narrationText": "拋扯鈴要保持寬敞距離；飛盤偏離方向飛向路人時要立刻大聲示警；團隊比賽時無球隊友要主動跑動製造接應空檔。",
+          "cognitiveChunks": [
+            "拋扯鈴保持安全間距並盯緊落點",
+            "飛盤飛向旁人時大聲喊「小心飛盤！」示警",
+            "無球隊友跑位拉空檔，傳球者預判方向提前擲出"
+          ],
+          "workedExampleData": {
+            "problemStatement": "練扯鈴時軸心歪斜快掉下來，另外玩飛盤遊戲時隊友一直被緊盯防守，該如何修正與配合？",
+            "steps": [
+              "第 1 步：扯鈴歪斜時觀察傾斜方向，微調左右手拿棍的前後位置讓鈴繩對準中心回正",
+              "第 2 步：飛盤遊戲中無球隊友主動變向跑到空檔並舉手眼神示意，傳球者預判提前傳盤",
+              "第 3 步：練習時注意開闊場地安全間距，若飛盤飛向路人立即大聲示警提醒閃避"
+            ],
+            "commonErrorContrast": "常見錯誤：加速扯鈴時雙手同時死命往外拉緊，或接飛盤只伸一根手指去頂。",
+            "selfExplanationPrompt": "想一想：看到同學成功做出扯鈴拋接動作而自己還在掉鈴時，怎樣的態度最值得學習？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/health-pe#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "堅持練習與欣賞他人優點",
+          "topicSignalTitle": "學會民俗體育與多元運動時，最棒的學習心態是什麼？",
+          "narrationText": "動作需要反覆練習才能熟練，大方讚美並請教表現優秀的同學，同時保持耐心堅持練習，就能體會運動力與美。",
+          "cognitiveChunks": [
+            "真誠欣賞他人動作優點並虛心請教",
+            "失敗掉鈴不氣餒，耐心調整手感",
+            "遵守場地安全與互相提醒原則"
+          ],
+          "factGroundingSourceId": "115-s1/g4/health-pe#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次最安全的飛盤接盤動作，準備進入第五關！",
+          "cognitiveChunks": [
+            "胸口高度飛盤採雙手上下夾接法最安全"
+          ],
+          "warmupCheck": {
+            "prompt": "接到隊友傳來高度在胸口左右的飛盤時，哪一種接盤動作最安全又不會戳傷手指？",
+            "options": [
+              "雙手上下夾接法（一手掌心向上、一手向下夾住）",
+              "只伸出一根食指頂住飛盤正中央",
+              "用手肘去頂飛盤"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！雙手像鱷魚咬合一樣一上一下夾住盤面，接得穩又不傷手指。",
+            "feedbackRetry": "用單根手指去頂旋轉中的飛盤很容易折傷指尖喔！兩隻手掌一起怎麼夾住它最好？"
+          },
+          "factGroundingSourceId": "115-s1/g4/health-pe#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-health-pe-u6",
+      "stageId": "115-s1-g4-health-pe-u6",
+      "title": "第六單元 跑跳擲我真行",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "奧運精神與田徑跑跳擲基本動作",
+          "narrationText": "奧運起源於古希臘，五環象徵五大洲團結與公平競技；田徑跑跳擲則講究擺臂跑步、屈膝緩衝落地與轉腰揮臂遠擲。",
+          "cognitiveChunks": [
+            "古希臘奧運象徵和平，格言為更快、更高、更強、更團結",
+            "跑步時手肘微彎自然前後擺動、眼睛平視前方",
+            "跳躍落地雙膝微彎像彈簧一樣緩衝保護關節"
+          ],
+          "analogyAnchor": "膝蓋就像跳躍落地時的避震彈簧，屈膝緩衝能保護關節不受傷；遠擲則像揮動鞭子，靠下肢蹬轉與轉腰帶動手臂把球甩遠。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "跑步：手肘前後擺、目視前",
+                "跳躍：預擺起跳、屈膝緩衝",
+                "遠擲：轉腰揮臂、40度斜出"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u6-l1",
+                "text": "屈膝落地像彈簧護關節",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "u6-l2",
+                "text": "轉腰揮臂兼顧安全口令",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/health-pe#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "田徑遠擲發力要領與統一撿球安全",
+          "narrationText": "想把球擲得又高又遠，要側對投擲方向並用重心轉移與轉腰帶動揮臂；練習時必須遵守「統一投擲、統一撿球」安全口令。",
+          "cognitiveChunks": [
+            "立定跳遠起跳前雙臂後擺、起跳時前上方擺動",
+            "遠擲採側身轉腰揮臂，以約 40 度斜上方出手",
+            "等全組擲完、老師喊停投確認安全才一起撿球"
+          ],
+          "workedExampleData": {
+            "problemStatement": "進行〈誰能擲得遠〉分組投擲練習時，如何兼顧擲遠表現與全班場地安全？",
+            "steps": [
+              "第 1 步：側對投擲方向，重心從後腳移向前腳帶動轉腰揮臂，約 40 度斜上方擲出",
+              "第 2 步：全組朝同一指定方向投擲，嚴禁對人投擲或隨意揮舞器材",
+              "第 3 步：等所有同學擲完並聽從老師「停投」口令確認安全後，再一起向前撿球"
+            ],
+            "commonErrorContrast": "常見錯誤：只用手指或小臂蠻力丟球，或前方還有人在撿球時後方就搶先投擲。",
+            "selfExplanationPrompt": "想一想：奧運除了追求更快、更高、更強之外，五個相扣的圓環還象徵什麼重要的精神？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/health-pe#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "奧林匹克精神與跨文化友誼",
+          "topicSignalTitle": "面對比賽輸贏時，真正的奧運精神是什麼？",
+          "narrationText": "奧運精神重視參與、遵守規則、挑戰自我極限以及尊重來自世界各地的對手，勝不驕、敗不餒才是真正贏家。",
+          "cognitiveChunks": [
+            "五環象徵五大洲團結與跨文化友誼",
+            "遵守公平競爭規則，絕不作弊推擠",
+            "勇於突破自我紀錄，尊重每一位對手"
+          ],
+          "factGroundingSourceId": "115-s1/g4/health-pe#u6"
+        },
+        {
+          "sceneId": "u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次田徑跳躍落地的關節保護要領，準備進入第六關！",
+          "cognitiveChunks": [
+            "跳躍落地瞬間雙膝須順勢微彎吸收衝擊"
+          ],
+          "warmupCheck": {
+            "prompt": "練習立定跳遠或跨跳落地時，為什麼強調「落地瞬間雙膝要順勢微彎」？",
+            "options": [
+              "像彈簧一樣緩衝地面衝擊力，保護膝蓋、腳踝與脊椎",
+              "只是為了看起來像青蛙",
+              "因為直腿落地會被鞋子絆倒"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！屈膝緩衝能像避震器一樣吸收數倍體重的衝擊力，保護下肢關節。",
+            "feedbackRetry": "落地時膝蓋就像身體的彈簧避震器，彎曲一下主要是為了保護哪裡不受傷呢？"
+          },
+          "factGroundingSourceId": "115-s1/g4/health-pe#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-health-pe-u7",
+      "stageId": "115-s1-g4-health-pe-u7",
+      "title": "第七單元 運動衝衝衝",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u7-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "籃球傳運控球與團隊防守合作",
+          "narrationText": "籃球講究指腹控球抬頭觀察與側身護球；樂樂棒球與隔網球類則強調降低重心防守、隊友補位轉傳與喊聲溝通。",
+          "cognitiveChunks": [
+            "籃球傳球瞄準胸前跨步送球；運球用指腹壓球並抬頭",
+            "受迫運球時側身護球，把身體隔在球與對手之間",
+            "隔網與樂樂棒球重視隊友喊聲「我來！」與補位合作"
+          ],
+          "analogyAnchor": "籃球運球時手指指腹就像小吸盤彈簧，輕巧把球控在腰下；在團隊防守時，九位隊友就像精密齒輪，一有人接球，旁邊的人就自動補位支援。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "籃球個人攻防技巧",
+              "leftPoints": [
+                "指腹壓球抬頭看場上",
+                "側身用護球手隔離對手"
+              ],
+              "rightTitle": "團隊防守與隔網默契",
+              "rightPoints": [
+                "接滾地球蹲低雙手貼地",
+                "打球不甩棒、喊「我來！」不互撞"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u7-l1",
+                "text": "指腹運球抬頭側身護球",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u7-l2",
+                "text": "團隊補位與喊聲防互撞",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/health-pe#u7"
+        },
+        {
+          "sceneId": "u7-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "樂樂棒球防守補位與隔網團隊溝通",
+          "narrationText": "接滾地球要蹲低身體雙手貼地防漏；球打向外野時隊友移動補位轉傳；打擊完輕放球棒不亂甩，賽後列隊致謝。",
+          "cognitiveChunks": [
+            "滾地球：彎膝降重心、雙手貼地接穩快傳",
+            "外野深遠球：鄰近隊友移動補位與轉傳回內野",
+            "隔網球類提前喊「我來！」避免搶拍互撞"
+          ],
+          "workedExampleData": {
+            "problemStatement": "樂樂棒球比賽中球被打向右外野深處，另外隔網球類兩人同隊防守半場時球飛到中間，該怎麼合作？",
+            "steps": [
+              "第 1 步：樂樂棒球外野手迅速追球，鄰近內外野隊友主動移動補位與轉傳接應減少失分",
+              "第 2 步：隔網球類兩人看到中間來球，提前大聲喊出「我來！」溝通接球責任避免互撞",
+              "第 3 步：打擊完輕放球棒不亂甩，比賽結束無論勝負皆列隊向對手與裁判敬禮致謝"
+            ],
+            "commonErrorContrast": "常見錯誤：全隊九個人一起追同一顆球無人看壘，或打完球亂甩球棒、賽後輸球不敬禮。",
+            "selfExplanationPrompt": "想一想：練習籃球運球時，為什麼要抬頭觀察場上而不是一直低頭盯著球？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/health-pe#u7"
+        },
+        {
+          "sceneId": "u7-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "球場安全規範與運動家風度",
+          "topicSignalTitle": "一場精彩的球類比賽結束後，最重要的是什麼？",
+          "narrationText": "除了精進傳接運球與團隊戰術，遵守不甩球棒等安全規範並在賽後真誠向對手與裁判敬禮致謝，才是真正的運動衝衝衝。",
+          "cognitiveChunks": [
+            "打擊完輕放球棒於指定區，嚴禁拋甩",
+            "賽後無論勝負列隊敬禮，肯定彼此表現",
+            "失誤時互相鼓勵，發揮團隊合作精神"
+          ],
+          "factGroundingSourceId": "115-s1/g4/health-pe#u7"
+        },
+        {
+          "sceneId": "u7-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次籃球運球的控球要領，準備挑戰最終關卡！",
+          "cognitiveChunks": [
+            "指腹控球能細膩掌握反彈並抬頭觀察場上"
+          ],
+          "warmupCheck": {
+            "prompt": "練習籃球基礎運球時，為什麼要用「手指指腹壓球」並抬頭看場上，而不是用手掌心死命拍打且低頭看球？",
+            "options": [
+              "指腹控球更穩定靈活，抬頭才能看清隊友與安全空間",
+              "用手掌拍打會讓球立刻破掉",
+              "因為裁判禁止眼睛看球"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！指腹像彈簧一樣能細膩控球，抬頭才能看見傳球機會並避免碰撞。",
+            "feedbackRetry": "用手指指腹觸球控制方向、抬頭看場上同伴，對運球穩定與安全性有什麼好處呢？"
+          },
+          "factGroundingSourceId": "115-s1/g4/health-pe#u7"
+        }
+      ]
+    }
+  ]
+}

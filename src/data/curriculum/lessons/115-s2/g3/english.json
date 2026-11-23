@@ -1,0 +1,752 @@
+{
+  "packId": "115-s2-g3-english",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 3,
+  "subjectId": "english",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-english-u0",
+      "stageId": "115-s2-g3-english-u0",
+      "title": "Get Ready",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u0-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "三下暖身：課室指令與母音字母",
+          "narrationText": "新學期開始了！複習教室常用指令（Open your book、Listen carefully）、五個母音字母 a, e, i, o, u，以及字尾與字首音的觀察。",
+          "cognitiveChunks": [
+            "五個母音字母：a, e, i, o, u",
+            "Open your book.＝打開課本",
+            "Nice to see you again!＝很高興再見到你"
+          ],
+          "analogyAnchor": "五個母音字母就像英語單字的發動機，幾乎每個單字裡面都找得到它們！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "課室英語指令",
+              "leftPoints": [
+                "Open your book, please.",
+                "Stand up. / Listen carefully."
+              ],
+              "rightTitle": "拼讀基礎觀察",
+              "rightPoints": [
+                "母音字母：a, e, i, o, u",
+                "比對字首(bed/red)與字尾(cat/cap)"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "母音aeiou",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "辨字首與字尾",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/english#u0"
+        },
+        {
+          "sceneId": "u0-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用字母拼讀比對相似單字",
+          "narrationText": "看到長得很像的兩個單字（如 cat 和 cap，或 bed 和 red）時，一個字母一個字母對齊看，就能立刻找出差別！",
+          "cognitiveChunks": [
+            "cat vs cap：字尾 t 與 p 不同",
+            "bed vs red：字首 b 與 r 不同"
+          ],
+          "workedExampleData": {
+            "problemStatement": "比較「cat」和「cap」哪一個位置的字母不同？",
+            "steps": [
+              "第 1 步：先看第一個字母，都是 c",
+              "第 2 步：再看中間的母音，都是 a",
+              "第 3 步：看最後一個字母，一個是 t、一個是 p，所以是字尾不同"
+            ],
+            "commonErrorContrast": "常見錯誤：只看開頭都是 ca 就以為兩個字意思或讀音一樣。",
+            "selfExplanationPrompt": "想一想：拿到新課本先看目錄頁（單元名稱與頁碼），對學習有什麼好處？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/english#u0"
+        },
+        {
+          "sceneId": "u0-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "開學問候與課室禮儀",
+          "topicSignalTitle": "遇到好久不見的朋友怎麼用英文打招呼？",
+          "narrationText": "放完寒假回到學校遇見朋友，微笑說聲「Nice to see you again!（很高興再見到你！）」，聽故事時記得「Listen carefully!（仔細聽！）」。",
+          "cognitiveChunks": [
+            "Nice to see you again!",
+            "Listen carefully!＝仔細聽"
+          ],
+          "factGroundingSourceId": "115-s2/g3/english#u0"
+        },
+        {
+          "sceneId": "u0-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認五個英語母音字母，再進場挑戰關卡！",
+          "cognitiveChunks": [
+            "母音字母＝a, e, i, o, u"
+          ],
+          "warmupCheck": {
+            "prompt": "在 26 個英文字母中，哪一組五個字母全部都是「母音字母（vowels）」？",
+            "options": [
+              "b, c, d, f, g",
+              "a, e, i, o, u",
+              "m, n, p, q, r",
+              "s, t, v, w, x"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！a, e, i, o, u 就是五個基本母音字母。",
+            "feedbackRetry": "回想一下我們常唸的「a, e, i, o, u」五個母音喔！"
+          },
+          "factGroundingSourceId": "115-s2/g3/english#u0"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-english-u1",
+      "stageId": "115-s2-g3-english-u1",
+      "title": "Unit 1 Funny Animals",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識動物單字、a / an 與複數 -s",
+          "narrationText": "這單元帶我們認識各種動物名稱！說「一隻」時要注意字首發母音用 an（如 an elephant），超過一隻時字尾要加 -s（如 two ducks）。",
+          "cognitiveChunks": [
+            "字首發母音用 an（an elephant）",
+            "超過一隻加 -s（two ducks, three bears）",
+            "短母音 a：cat, rat（-at 音組）"
+          ],
+          "analogyAnchor": "就像一隻大象念起來「a elephant」會卡住，加上 n 變成「an elephant」就變得好唸又順口！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "單數（一隻）",
+              "leftPoints": [
+                "字首子音：a tiger, a monkey",
+                "字首母音：an elephant, an ant"
+              ],
+              "rightTitle": "複數（兩隻以上）",
+              "rightPoints": [
+                "不加 a / an",
+                "名詞字尾加 -s：two ducks, three bears"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "an接母音開頭",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "複數名詞加s",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/english#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "判斷該用 a、an 還是加 -s",
+          "narrationText": "看到動物數量題時，先看數量是 1 隻還是 2 隻以上：1 隻就看字首是不是母音決定 a 或 an；2 隻以上就直接去掉 a/an 並在字尾加 -s。",
+          "cognitiveChunks": [
+            "先數數量：1 隻用 a/an，多隻加 -s",
+            "cat 與 rat 同屬短母音 -at 音組"
+          ],
+          "workedExampleData": {
+            "problemStatement": "想用英文寫「兩隻鴨子」，應該寫「two duck」還是「two ducks」？",
+            "steps": [
+              "第 1 步：數量是 two（兩隻），屬於複數",
+              "第 2 步：複數前面不可以放 a 或 an",
+              "第 3 步：在 duck 字尾加上 s，寫成「two ducks」"
+            ],
+            "commonErrorContrast": "常見錯誤：寫成「two duck」（忘了加 s）或「a ducks」（把代表 1 的 a 和複數 s 混在一起）。",
+            "selfExplanationPrompt": "想一想：在動物園看見告示牌「Be kind to animals.」，是在提醒我們什麼？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/english#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "戶外與品德教育：Be kind to animals.",
+          "topicSignalTitle": "參觀動物園或生態公園要遵守什麼禮儀？",
+          "narrationText": "「Be kind to animals.（善待動物）」提醒我們不拍打玻璃、不亂餵食人類零食，友善尊重每一隻小生命。",
+          "cognitiveChunks": [
+            "funny＝有趣的、滑稽的",
+            "Be kind to animals.＝善待動物"
+          ],
+          "factGroundingSourceId": "115-s2/g3/english#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "來檢核一下 a 和 an 的用法吧！",
+          "cognitiveChunks": [
+            "字首發母音用 an"
+          ],
+          "warmupCheck": {
+            "prompt": "用英文說「一隻大象」，下面哪一個寫法正確？",
+            "options": [
+              "a elephant",
+              "an elephant",
+              "two elephant",
+              "an elephants"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！elephant 字首 e 發母音，所以要用 an elephant。",
+            "feedbackRetry": "elephant 的第一個字母是母音 e 喔，單數前面應該用 an！"
+          },
+          "factGroundingSourceId": "115-s2/g3/english#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-english-u2",
+      "stageId": "115-s2-g3-english-u2",
+      "title": "Unit 2 Teamwork",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "用 Can 問答能力與團隊合作",
+          "narrationText": "用「Can you + 原形動詞?」問別人會不會做某件事，會就答「Yes, I can.」，不會就答「No, I can't.」。每個人專長不同，Teamwork 讓大家更強！",
+          "cognitiveChunks": [
+            "問能力：Can you swim / sing?",
+            "答：Yes, I can. / No, I can't.",
+            "can 後面一定要接原形動詞"
+          ],
+          "analogyAnchor": "就像運動會接力賽，有人跑得快（run）、有人跳得高（jump），互助合作就是最棒的 Teamwork！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "肯定能力",
+              "leftPoints": [
+                "Yes, I can.",
+                "A bird can fly.（接原形動詞）"
+              ],
+              "rightTitle": "否定能力",
+              "rightPoints": [
+                "No, I can't.（can't = cannot）",
+                "Let's help each other!"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "can接原形動詞",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "互相幫忙合作",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/english#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "檢查 can 後面的動詞形態",
+          "narrationText": "助動詞 can 是一個很強的幫手，它後面的動作單字（如 fly, swim, dance）永遠保持乾淨的「原形」，不用加 s 或 ing！",
+          "cognitiveChunks": [
+            "can 本身不加 s",
+            "can 後面的動詞不加 s 也不加 ing"
+          ],
+          "workedExampleData": {
+            "problemStatement": "想用英文寫「一隻小鳥會飛」，下面哪一句文法對：「A bird can flying.」還是「A bird can fly.」？",
+            "steps": [
+              "第 1 步：找到助動詞「can」",
+              "第 2 步：確認黃金規則：can 後面必須接原形動詞",
+              "第 3 步：fly 是原形動詞，flying 加了 ing 不對，所以選「A bird can fly.」"
+            ],
+            "commonErrorContrast": "常見錯誤：寫成「A bird cans fly.」或「A bird is can fly.」。",
+            "selfExplanationPrompt": "想一想：當同學不會某個動作時，說「Let's help each other!」是什麼意思？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/english#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "人權與品德：Teamwork & Help Each Other",
+          "topicSignalTitle": "為什麼「Let's help each other!」很重要？",
+          "narrationText": "每個人都有擅長與還在練習的事，互相尊重、說聲「Let's help each other!（讓我們彼此幫忙！）」，才能發揮真正的團隊精神。",
+          "cognitiveChunks": [
+            "Teamwork＝團隊合作",
+            "jump 跳、run 跑、dance 跳"
+          ],
+          "factGroundingSourceId": "115-s2/g3/english#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "來練習一題 Can 的否定回答吧！",
+          "cognitiveChunks": [
+            "Can you...? 否定答 No, I can't."
+          ],
+          "warmupCheck": {
+            "prompt": "朋友問你「Can you swim?」，如果你還不會游泳，該怎麼回答？",
+            "options": [
+              "No, I am not.",
+              "No, I can't.",
+              "Yes, I can.",
+              "No, it isn't."
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！用 Can 問就用 can 回答，否定是 No, I can't.。",
+            "feedbackRetry": "問句開頭是 Can 喔，所以否定回答要用 can't 才對！"
+          },
+          "factGroundingSourceId": "115-s2/g3/english#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-english-u3",
+      "stageId": "115-s2-g3-english-u3",
+      "title": "Review 1",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "期中整合：動物能力、拼字與短母音 i",
+          "narrationText": "Review 1 把動物單字和動作能力合起來造句（例如 A fish can swim.），並複習短母音 i（pig, big, dig）以及常錯拼字（rabbit）。",
+          "cognitiveChunks": [
+            "結合動物與能力：Can a dog jump?",
+            "短母音 i：pig, big, dig",
+            "工作合作：They can work together."
+          ],
+          "analogyAnchor": "把動物卡和動作卡配對起來，還要檢查單字有沒有少寫字母（例如兔子 rabbit 有兩個 b）。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "動物與代名詞",
+              "leftPoints": [
+                "Can a dog jump?",
+                "Yes, it can.（單數動物用 it）"
+              ],
+              "rightTitle": "拼讀與拼字重點",
+              "rightPoints": [
+                "短母音 i：pig, big, dig",
+                "雙寫字母：rabbit（兩個 b）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "動物用it回答",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "短母音i押韻",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/english#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用事實與文法雙重檢查句子",
+          "narrationText": "做「動物＋能力」閱讀判斷題時，不只要看文法有沒有寫錯，還要想一想這隻動物在真實世界裡是不是真的會做那個動作！",
+          "cognitiveChunks": [
+            "檢查 1：是否符合自然事實",
+            "檢查 2：主詞與代名詞 it 是否一致"
+          ],
+          "workedExampleData": {
+            "problemStatement": "老師指著小狗問「Can a dog jump?」，怎麼回答最正確？",
+            "steps": [
+              "第 1 步：確認事實：小狗的確會跳躍，所以是肯定回答",
+              "第 2 步：a dog 是單數動物，回答時用代名詞「it」代替",
+              "第 3 步：問句用 Can 開頭，回答為「Yes, it can.」"
+            ],
+            "commonErrorContrast": "常見錯誤：回答成「Yes, it is.」（用錯 be 動詞）或「No, it can.」（前後矛盾）。",
+            "selfExplanationPrompt": "想一想：在繪本裡讀到「They can work together.」，是在稱讚角色做到什麼？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/english#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "期中拼字小提醒：rabbit 有兩個 b",
+          "topicSignalTitle": "哪些動物與動作單字最容易拼錯？",
+          "narrationText": "rabbit（兔子）中間有兩個 b（r-a-b-b-i-t），像兔子的兩隻長耳朵；swimming 中間有兩個 m，monkey 尾巴是 -key 喔。",
+          "cognitiveChunks": [
+            "rabbit 雙寫 b",
+            "pig, big, dig 同屬 -ig 音組"
+          ],
+          "factGroundingSourceId": "115-s2/g3/english#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "試著找出和「pig」含有相同短母音 i 的單字組合吧！",
+          "cognitiveChunks": [
+            "短母音 i（-ig 音組）"
+          ],
+          "warmupCheck": {
+            "prompt": "下面哪一組單字都含有和「pig（豬）」一樣的短母音 i？",
+            "options": [
+              "hat, mat",
+              "big, dig",
+              "pen, ten",
+              "box, fox"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！pig, big, dig 都是短母音 i 的 -ig 音組。",
+            "feedbackRetry": "找找看中間母音字母都是「i」而且跟 pig 押韻的兩個字喔！"
+          },
+          "factGroundingSourceId": "115-s2/g3/english#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-english-u4",
+      "stageId": "115-s2-g3-english-u4",
+      "title": "Unit 3 The Monster Parade & Mother's Day",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "描述怪獸外觀與母親節感恩祝福",
+          "narrationText": "在怪獸大遊行（The Monster Parade）裡，我們學會用「It has ...」描述大眼睛（two big eyes）、大鼻子；也學會用英文祝福媽媽母親節快樂！",
+          "cognitiveChunks": [
+            "It has + 身體部位（單數主詞配 has）",
+            "兩隻眼睛要加 s：two big eyes",
+            "Happy Mother's Day!（五月 May 第二個星期日 Sunday）"
+          ],
+          "analogyAnchor": "就像替可愛小怪獸畫自畫像，數清楚牠有幾個鼻子（a big nose）、幾隻眼睛（two big eyes），再用 has 介紹牠！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "描述怪獸外觀",
+              "leftPoints": [
+                "It's cute!（牠好可愛！）",
+                "It has two big eyes / a big nose."
+              ],
+              "rightTitle": "母親節節慶",
+              "rightPoints": [
+                "May（五月）第二個 Sunday（星期日）",
+                "Happy Mother's Day! I love you, Mom!"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "It配has不配have",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "五月May星期日",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/english#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用「It has ...」正確描述身體部位",
+          "narrationText": "主詞是「It」時，表示「有」要用「has」而不是 have；另外形容詞（如 big）要放在名詞（eyes）的前面喔！",
+          "cognitiveChunks": [
+            "It has（不用 It have）",
+            "形容詞放名詞前面：two big eyes"
+          ],
+          "workedExampleData": {
+            "problemStatement": "想寫「牠有兩隻大眼睛」，下面哪一句正確：「It have two big eye.」還是「It has two big eyes.」？",
+            "steps": [
+              "第 1 步：主詞是第三人稱單數 It，動詞要用「has」",
+              "第 2 步：形容詞 big 放在名詞前面，變成「big eyes」",
+              "第 3 步：因為是兩隻眼睛（two），eye 要加 s，所以寫「It has two big eyes.」"
+            ],
+            "commonErrorContrast": "常見錯誤：誤寫成「It have ...」或忘記把兩隻眼睛加上複數 s。",
+            "selfExplanationPrompt": "想一想：母親節是五月的第二個星期日，英文裡的「五月」和「星期日」怎麼拼？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/english#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "家庭與國際教育：Mother's Day",
+          "topicSignalTitle": "母親節卡片可以寫哪些溫暖的英文？",
+          "narrationText": "在卡片寫上「Happy Mother's Day!」、「I love you, Mom! Thank you!」或「I can help you, Mom!」，用行動感謝媽媽的辛勞。",
+          "cognitiveChunks": [
+            "Happy Mother's Day!",
+            "I love you, Mom! Thank you!"
+          ],
+          "factGroundingSourceId": "115-s2/g3/english#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先檢核一題「It has ...」的文法再出發！",
+          "cognitiveChunks": [
+            "It has + 數量 + 形容詞 + 部位"
+          ],
+          "warmupCheck": {
+            "prompt": "想誇獎一隻可愛小怪獸「牠有兩隻大眼睛」，下面哪一句英文完全正確？",
+            "options": [
+              "It have two big eye.",
+              "It has two big eyes.",
+              "It has two eye big.",
+              "It is two big eyes."
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！It 後面用 has，而且兩隻眼睛是 two big eyes。",
+            "feedbackRetry": "記得「It」要配 has，而且「兩隻眼睛」字尾要加 s 喔！"
+          },
+          "factGroundingSourceId": "115-s2/g3/english#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-english-u5",
+      "stageId": "115-s2-g3-english-u5",
+      "title": "Unit 4 Jello's Family",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "介紹家人稱謂、職業與性別平等",
+          "narrationText": "這單元認識 family（家人）稱謂與 doctor、teacher、nurse、cook 等職業！問人是誰用 Who is he / she?，而且每個職業男女都能勝任。",
+          "cognitiveChunks": [
+            "問男生：Who is he? / 問女生：Who is she?",
+            "常見職業：doctor, teacher, nurse, cook",
+            "性別平等：男女都能從事任何職業"
+          ],
+          "analogyAnchor": "就像打開家庭相簿，指著男生用 he、女生用 she，驕傲地向朋友介紹每位家人的工作與貢獻。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "家人稱謂 & 代名詞",
+              "leftPoints": [
+                "男生 (he)：father, brother, grandfather",
+                "女生 (she)：mother, sister, grandmother"
+              ],
+              "rightTitle": "職業介紹 & 性別平等",
+              "rightPoints": [
+                "He is a doctor. / She is a cook.",
+                "男女都能當醫生、護理師或警察"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "男用he女用she",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "職業不分性別",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/english#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "「Is he / she a ...?」的肯定簡答規則",
+          "narrationText": "當別人問「Is she a teacher?」時，回答的主詞要跟問句一樣用 she，而且肯定簡答的句尾不可以縮寫成 she's 喔！",
+          "cognitiveChunks": [
+            "問 she 就答 she，問 he 就答 he",
+            "Yes, she is.（簡答不縮寫）"
+          ],
+          "workedExampleData": {
+            "problemStatement": "同學指著阿姨問「Is she a teacher?」，如果是對的，該怎麼簡答？",
+            "steps": [
+              "第 1 步：確認問句的主詞是女性的「she」",
+              "第 2 步：確認是肯定回答，開頭用「Yes,」",
+              "第 3 步：照抄主詞和 be 動詞，回答「Yes, she is.」"
+            ],
+            "commonErrorContrast": "常見錯誤：回答成「Yes, he is.」（性別代名詞用錯）或「No, she is.」（Yes/No 與後面矛盾）。",
+            "selfExplanationPrompt": "想一想：為什麼「A woman can be a police officer, and a man can be a nurse.」體現了性別平等？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/english#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "性別平等教育：夢想不被性別限制",
+          "topicSignalTitle": "男生可以當護理師、女生可以當警察嗎？",
+          "narrationText": "當然可以！任何性別都能自由選擇自己喜歡且擅長的工作，每個職業都值得我們尊敬與感謝。",
+          "cognitiveChunks": [
+            "doctor 醫生、cook 廚師",
+            "nurse 護理師、police officer 警察"
+          ],
+          "factGroundingSourceId": "115-s2/g3/english#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先練習一題家人稱謂分類吧！",
+          "cognitiveChunks": [
+            "區分男性與女性家人稱謂"
+          ],
+          "warmupCheck": {
+            "prompt": "下面哪一組英文單字「全部都是女性家庭成員」？",
+            "options": [
+              "father, brother, grandfather",
+              "mother, sister, grandmother",
+              "father, mother, brother",
+              "brother, uncle, grandfather"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！mother（媽媽）、sister（姊妹）、grandmother（祖母／外婆）都是女性家人。",
+            "feedbackRetry": "注意把含有 father、brother 或 grandfather 的選項排除掉喔！"
+          },
+          "factGroundingSourceId": "115-s2/g3/english#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-english-u6",
+      "stageId": "115-s2-g3-english-u6",
+      "title": "Review 2",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "三下總複習：職業、疑問詞與短文閱讀",
+          "narrationText": "Review 2 整合整個三下的家人、職業、動作與怪獸外觀單字，複習短母音 o（dog, box, hot）與短文閱讀理解技巧！",
+          "cognitiveChunks": [
+            "疑問詞：Who 問人、Can 問能力",
+            "代名詞：he（男）、she（女）、it（動物/物）",
+            "短母音 o：dog, box, hot, pot, fox"
+          ],
+          "analogyAnchor": "讀英文短文就像玩偵探解謎：圈出「family、cook、cakes」等認識的關鍵字，就能輕鬆看懂整段意思！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "疑問詞與代名詞",
+              "leftPoints": [
+                "Who is she? / Can you sing?",
+                "brother → he, sister → she, elephant → it"
+              ],
+              "rightTitle": "短母音 o & 閱讀",
+              "rightPoints": [
+                "dog, box, hot, pot, fox（短母音 o）",
+                "圈關鍵字看懂短文意思"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "Who問人Can問能力",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "圈關鍵字讀短文",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/english#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用關鍵字解讀英語短文",
+          "narrationText": "讀一段自我介紹短文時，不用害怕遇到不熟的小字，只要抓出「人稱（father）、職業（cook）、動作或物品（make yummy cakes）」，就能完整理解！",
+          "cognitiveChunks": [
+            "抓出人物＋職業＋會做的事",
+            "區分短母音 o 與 u（如 box vs bus）"
+          ],
+          "workedExampleData": {
+            "problemStatement": "讀短文：「My father is a cook. He can make yummy cakes.」，這是什麼意思？",
+            "steps": [
+              "第 1 步：看到「My father is a cook.」，知道爸爸的職業是廚師",
+              "第 2 步：看到「He can make yummy cakes.」，知道他會做美味的蛋糕",
+              "第 3 步：合起來就是「Leo 的爸爸是一位很會做美味蛋糕的廚師」"
+            ],
+            "commonErrorContrast": "常見錯誤：只看到 yummy cakes 就誤猜是 Leo 自己每天做蛋糕，沒有看清主詞是 My father 和 He。",
+            "selfExplanationPrompt": "想一想：dog, box, hot, bus 四個字裡，哪一個的母音字母與發音和其他三個不同？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/english#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "三下英語總檢查清單",
+          "topicSignalTitle": "進入期末總複習關卡前最後確認！",
+          "narrationText": "確認你已經能分清楚「職業類（teacher, doctor, nurse, cook）」與「家人類（brother, sister）」單字，並會用 he, she, it 替換主詞，就可以出發挑戰囉！",
+          "cognitiveChunks": [
+            "teacher, doctor, nurse, cook 都是職業",
+            "Happy Mother's Day! I love my family."
+          ],
+          "factGroundingSourceId": "115-s2/g3/english#u6"
+        },
+        {
+          "sceneId": "u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "最後一題暖身，檢查代名詞 he, she, it 的替換是否都熟練了！",
+          "cognitiveChunks": [
+            "男用 he、女用 she、動物用 it"
+          ],
+          "warmupCheck": {
+            "prompt": "用代名詞分別代替「my brother（哥哥）」、「my sister（姊姊）」與「an elephant（大象）」，依序是哪一組？",
+            "options": [
+              "she, he, it",
+              "he, she, it",
+              "it, he, she",
+              "he, it, she"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！男生用 he、女生用 she、動物用 it，準備好挑戰 Review 2 了！",
+            "feedbackRetry": "再確認一次順序：哥哥（男）→ 姊姊（女）→ 大象（動物）喔！"
+          },
+          "factGroundingSourceId": "115-s2/g3/english#u6"
+        }
+      ]
+    }
+  ]
+}

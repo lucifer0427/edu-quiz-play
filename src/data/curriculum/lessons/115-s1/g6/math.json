@@ -1,0 +1,942 @@
+{
+  "packId": "115-s1-g6-math",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 6,
+  "subjectId": "math",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-math-u1",
+      "stageId": "115-s1-g6-math-u1",
+      "title": "第一單元 最大公因數與最小公倍數",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "g6s1-math-u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "質數、合數與短除法拆解",
+          "narrationText": "大於 1 且只有 1 和自己兩個因數的數叫做質數；把合數拆成質數連乘，就是質因數分解。",
+          "cognitiveChunks": [
+            "20 以內質數：2, 3, 5, 7, 11, 13, 17, 19",
+            "1 既不是質數也不是合數",
+            "最大公因數看共同最小次方，最小公倍數看全部最大次方"
+          ],
+          "analogyAnchor": "質數就像拼出所有整數的最小樂高積木，任何合數都能拆成這些質數積木相乘。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "最大公因數",
+              "leftPoints": [
+                "短除法只乘左邊共同除數",
+                "常用於平分物品、分數約分"
+              ],
+              "rightTitle": "最小公倍數",
+              "rightPoints": [
+                "短除法把 L 形外圍全乘起來",
+                "常用於同時出發、分數通分"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6-u1-l1",
+                "text": "最大公因數：分東西",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6-u1-l2",
+                "text": "最小公倍數：找重合",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/math#u1"
+        },
+        {
+          "sceneId": "g6s1-math-u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "短除法求最大公因數與最小公倍數",
+          "narrationText": "用短除法同時除以 24 和 36 的公因數，直到商互質為止，就能一次算出最大公因數與最小公倍數。",
+          "cognitiveChunks": [
+            "依序用 2、3、5 等質因數試除",
+            "兩數最大公因數為 1 稱為互質"
+          ],
+          "workedExampleData": {
+            "problemStatement": "用短除法求 24 和 36 的最大公因數與最小公倍數。",
+            "steps": [
+              "第 1 步：先同除以公因數 2，商為 12 和 18；再同除以 2，商為 6 和 9",
+              "第 2 步：6 和 9 同除以 3，得到 2 和 3（兩數互質，停止短除法）",
+              "第 3 步：左邊除數相乘 2 × 2 × 3 = 12（最大公因數）；L 形全乘 12 × 2 × 3 = 72（最小公倍數）"
+            ],
+            "commonErrorContrast": "常見錯誤：只除以一次 2 就忘記繼續除，或把最小公倍數算成只乘左邊忘記乘最下面的商。",
+            "selfExplanationPrompt": "想一想：如果兩個數的最大公因數是 1（互質），它們的最小公倍數要怎麼算？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/math#u1"
+        },
+        {
+          "sceneId": "g6s1-math-u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "約分與通分的幕後幫手",
+          "topicSignalTitle": "為什麼要學最大公因數與最小公倍數？",
+          "narrationText": "分數約分時直接除以分子與分母的最大公因數，就能一次約到最簡；分數通分時用分母的最小公倍數當公分母，數字最小最好算。",
+          "cognitiveChunks": [
+            "約分找最大公因數",
+            "通分找最小公倍數",
+            "偶數看個位、3 的倍數看數字和、5 的倍數看 0 或 5"
+          ],
+          "factGroundingSourceId": "115-s1/g6/math#u1"
+        },
+        {
+          "sceneId": "g6s1-math-u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認質因數分解與互質觀念，再進入挑戰！",
+          "cognitiveChunks": [
+            "質因數分解的每個乘數都必須是質數"
+          ],
+          "warmupCheck": {
+            "prompt": "下列哪一組兩個數「互質」（最大公因數為 1）？",
+            "options": [
+              "6 和 9",
+              "8 和 15",
+              "10 和 12",
+              "14 和 21"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！8 的因數只有 1, 2, 4, 8；15 的因數是 1, 3, 5, 15，共同因數只有 1，所以互質。",
+            "feedbackRetry": "再檢查一次！看看哪一組除了 1 以外，找不到任何共同的公因數？"
+          },
+          "factGroundingSourceId": "115-s1/g6/math#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-math-u2",
+      "stageId": "115-s1-g6-math-u2",
+      "title": "第二單元 分數除法",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "g6s1-math-u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "除以一個分數，等於乘以它的倒數",
+          "narrationText": "計算整數或分數除以分數時，被除數保持不變，把除號變成乘號，除數的分子與分母上下顛倒變成倒數。",
+          "cognitiveChunks": [
+            "a/b 的倒數是 b/a（分子分母互換）",
+            "帶分數先化成假分數再計算",
+            "先交叉約分能大幅減少計算錯誤"
+          ],
+          "analogyAnchor": "一條 3 公尺的緞帶每 1/2 公尺剪一段，每 1 公尺能剪 2 段，所以總段數是 3 × 2 = 6 段。",
+          "visualSpec": {
+            "templateId": "fraction_bar",
+            "params": {
+              "numerator": 3,
+              "denominator": 4,
+              "label": "3/4 ÷ 1/4 = 3"
+            },
+            "spatialLabels": [
+              {
+                "id": "g6-u2-l1",
+                "text": "1 份是 1/4",
+                "anchorPointId": "part"
+              },
+              {
+                "id": "g6-u2-l2",
+                "text": "3/4含3個1/4",
+                "anchorPointId": "whole"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/math#u2"
+        },
+        {
+          "sceneId": "g6s1-math-u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分數除以分數的標準步驟",
+          "narrationText": "遇到分數除以分數或帶分數除法，先換成假分數並改寫成乘以倒數，再交叉約分。",
+          "cognitiveChunks": [
+            "被除數不變，除數變倒數",
+            "最後答案要約分成最簡分數"
+          ],
+          "workedExampleData": {
+            "problemStatement": "計算 2 又 1/2 ÷ 5/6 的結果是多少？",
+            "steps": [
+              "第 1 步：先把帶分數化為假分數：2 又 1/2 = 5/2",
+              "第 2 步：除以 5/6 改為乘以倒數 6/5：5/2 × 6/5",
+              "第 3 步：分子分母交叉約分（5 與 5 約成 1，6 與 2 約成 3），得到 3"
+            ],
+            "commonErrorContrast": "常見錯誤：誤把前面的「被除數」也顛倒成倒數，或忘記把帶分數先化為假分數就直接乘除。",
+            "selfExplanationPrompt": "想一想：為什麼 5/2 ÷ 5/6 算完的商是 3，會比原來的被除數 2 又 1/2 還要大？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/math#u2"
+        },
+        {
+          "sceneId": "g6s1-math-u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "免計算就能判斷商與被除數誰大",
+          "topicSignalTitle": "除數小於 1，商反而變大！",
+          "narrationText": "除數比 1 大時，越分越小，商會小於被除數；除數等於 1 時，商等於被除數；除數小於 1（且大於 0）時，商會大於被除數。",
+          "cognitiveChunks": [
+            "除數 ＞ 1 → 商 ＜ 被除數",
+            "除數 ＝ 1 → 商 ＝ 被除數",
+            "0 ＜ 除數 ＜ 1 → 商 ＞ 被除數"
+          ],
+          "factGroundingSourceId": "115-s1/g6/math#u2"
+        },
+        {
+          "sceneId": "g6s1-math-u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先來練習一題整數除以分數，確認倒數觀念！",
+          "cognitiveChunks": [
+            "除以 a/b ＝ 乘以 b/a"
+          ],
+          "warmupCheck": {
+            "prompt": "計算 4 ÷ 2/3 的結果是多少？",
+            "options": [
+              "8/3",
+              "6",
+              "1/6",
+              "12"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！4 ÷ 2/3 = 4 × 3/2 = 6。",
+            "feedbackRetry": "記得被除數 4 保持不變，把「除以 2/3」變成「乘以 3/2」再計算喔！"
+          },
+          "factGroundingSourceId": "115-s1/g6/math#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-math-u3",
+      "stageId": "115-s1-g6-math-u3",
+      "title": "第三單元 數量關係",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "g6s1-math-u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "觀察規律並用文字符號列式",
+          "narrationText": "從生活情境或圖形排列中找出兩個數量之間不變的關係（和不變、差不變、積不變或商不變），就能用 x、y 等符號寫出關係式。",
+          "cognitiveChunks": [
+            "列表觀察：列出第 1、2、3 項找出每次增加多少",
+            "和不變：x + y = 總數；差不變：y - x = 差",
+            "用 n 代表第幾項，寫出通用算式"
+          ],
+          "analogyAnchor": "就像火車每多掛 1 節車廂就多 4 個輪子，只要知道車廂數 n，就能立刻算出總輪數。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "列出前 3 項數值",
+                "觀察相鄰項變化量",
+                "寫出文字符號關係式",
+                "代回第 1、2 項驗算"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6-u3-l1",
+                "text": "列表找規律",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "g6-u3-l2",
+                "text": "符號寫通式",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/math#u3"
+        },
+        {
+          "sceneId": "g6s1-math-u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "拆解圖形排列的規律算式",
+          "narrationText": "排連在一起的圖形時，最有效的方法是「固定頭尾（或第一根），看每多一個圖形增加幾根」。",
+          "cognitiveChunks": [
+            "先看第 1 個圖形的起始數量",
+            "再看每增加 1 個圖形多出的數量"
+          ],
+          "workedExampleData": {
+            "problemStatement": "用吸管排相連的正方形：1 個需 4 根，2 個需 7 根，3 個需 10 根，排 n 個需要幾根？",
+            "steps": [
+              "第 1 步：觀察數量變化：4 → 7 → 10，每多排 1 個正方形就多 3 根吸管",
+              "第 2 步：把第 1 個正方形看成「左邊固定 1 根 ＋ 3 根」",
+              "第 3 步：排 n 個就需要 1 + 3 × n（即 3 × n + 1）根吸管"
+            ],
+            "commonErrorContrast": "常見錯誤：看到 1 個正方形 4 根，就直接寫成 4 × n，忽略了相鄰正方形會共用中間那一根吸管。",
+            "selfExplanationPrompt": "想一想：把 n = 1、2、3 代入「3 × n + 1」，算出來是不是剛好是 4、7、10？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/math#u3"
+        },
+        {
+          "sceneId": "g6s1-math-u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "間隔問題的三種情況",
+          "topicSignalTitle": "頭尾都有、只放一端、頭尾都不放",
+          "narrationText": "先算出總長度除以間隔長得到「間隔數」，再看題目規定：兩端都插要＋1，只插一端或圍成圓圈等於間隔數，兩端都不插要－1。",
+          "cognitiveChunks": [
+            "兩端都放：數量＝間隔數 ＋ 1",
+            "一端放一端不放（或封閉圓圈）：數量＝間隔數",
+            "兩端都不放：數量＝間隔數 － 1"
+          ],
+          "factGroundingSourceId": "115-s1/g6/math#u3"
+        },
+        {
+          "sceneId": "g6s1-math-u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先試著從數列或生活關係寫出正確的符號算式！",
+          "cognitiveChunks": [
+            "把題目數字代回算式檢查最準確"
+          ],
+          "warmupCheck": {
+            "prompt": "姊姊比弟弟大 4 歲，若弟弟今年 a 歲，姊姊今年 b 歲，下列哪一個關係式正確？",
+            "options": [
+              "a - 4 = b",
+              "a + 4 = b",
+              "a × 4 = b",
+              "a ÷ 4 = b"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！姊姊比弟弟大 4 歲，所以弟弟的年齡加上 4 就是姊姊的年齡：a + 4 = b。",
+            "feedbackRetry": "想一想誰比較大？弟弟比較小，要加上 4 才會等於姊姊的歲數 b 喔！"
+          },
+          "factGroundingSourceId": "115-s1/g6/math#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-math-u4",
+      "stageId": "115-s1-g6-math-u4",
+      "title": "第四單元 小數除法",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "g6s1-math-u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "把除數變成整數，小數除法就變簡單了",
+          "narrationText": "利用「被除數和除數同時乘以 10、100、1000，商不變」的性質，把除數的小數點往右移成整數，被除數也跟著移動相同位數。",
+          "cognitiveChunks": [
+            "除數有幾位小數，兩邊小數點就同時往右移幾位",
+            "位數不夠時記得在後面補 0",
+            "商的小數點要對齊移動後的新小數點"
+          ],
+          "analogyAnchor": "6 元買 0.5 元的貼紙能買 12 張，跟 60 元買 5 元的貼紙一樣能買 12 張，同乘 10 倍結果不變。",
+          "visualSpec": {
+            "templateId": "number_line",
+            "params": {
+              "min": 0,
+              "max": 6,
+              "step": 1,
+              "stepA": 1.5
+            },
+            "spatialLabels": [
+              {
+                "id": "g6-u4-l1",
+                "text": "每次跳 1.5",
+                "anchorPointId": "step"
+              },
+              {
+                "id": "g6-u4-l2",
+                "text": "跳 4 次到 6",
+                "anchorPointId": "end"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/math#u4"
+        },
+        {
+          "sceneId": "g6s1-math-u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "小數除法直式與餘數小數點對齊",
+          "narrationText": "求小數除法的商時看「新小數點」，但如果有餘數，餘數的小數點一定要對齊「原來」被除數的小數點位置！",
+          "cognitiveChunks": [
+            "商的小數點 → 對齊移動後的新位置",
+            "餘數的小數點 → 對齊原本被除數的位置"
+          ],
+          "workedExampleData": {
+            "problemStatement": "5.6 公升果汁，每 0.9 公升裝一瓶，最多裝滿幾瓶？還剩幾公升？",
+            "steps": [
+              "第 1 步：把 5.6 和 0.9 同乘以 10，變成 56 ÷ 9",
+              "第 2 步：56 ÷ 9 = 6（瓶）…… 2（這是放大 10 倍後的餘數）",
+              "第 3 步：餘數的小數點要對齊原本 5.6 的小數點，所以剩下 0.2 公升"
+            ],
+            "commonErrorContrast": "常見錯誤：算出餘數 2 就直接寫剩下 2 公升（忘記餘數必須對齊原小數點變成 0.2 公升）。",
+            "selfExplanationPrompt": "想一想：6 瓶 × 0.9 公升 = 5.4 公升，再加上剩下的 0.2 公升，剛好等於原本的 5.6 公升嗎？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/math#u4"
+        },
+        {
+          "sceneId": "g6s1-math-u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "破除迷思：商一定比被除數小嗎？",
+          "topicSignalTitle": "當除數是 0.8 或 0.5 時，商會變大！",
+          "narrationText": "以前學整數除法時商常比被除數小，但在小數除法中，只要除數小於 1（例如 0.5），除出來的商反而會比被除數大。",
+          "cognitiveChunks": [
+            "除數 ＞ 1 → 商 ＜ 被除數",
+            "0 ＜ 除數 ＜ 1 → 商 ＞ 被除數"
+          ],
+          "factGroundingSourceId": "115-s1/g6/math#u4"
+        },
+        {
+          "sceneId": "g6s1-math-u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先練習一題整數除以小數，確認小數點移位正確！",
+          "cognitiveChunks": [
+            "除數變整數，被除數同倍放大"
+          ],
+          "warmupCheck": {
+            "prompt": "計算 12 ÷ 0.4 的結果是多少？",
+            "options": [
+              "3",
+              "30",
+              "4.8",
+              "0.3"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！12 和 0.4 同乘以 10 變成 120 ÷ 4 = 30。",
+            "feedbackRetry": "把 0.4 往右移一位變成 4，12 也要往右移一位補 0 變成 120 再除喔！"
+          },
+          "factGroundingSourceId": "115-s1/g6/math#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-math-u5",
+      "stageId": "115-s1-g6-math-u5",
+      "title": "第五單元 比與比值",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "g6s1-math-u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "比的寫法、比值與相等的比",
+          "narrationText": "「前項：後項」用來表示兩個數量的關係；把前項除以後項得到的商就是「比值」，比值相等的兩個比就是相等的比。",
+          "cognitiveChunks": [
+            "a : b 的比值 ＝ a ÷ b（可寫成分數 a/b）",
+            "前後項同乘或同除一個不為 0 的數，比值不變",
+            "最簡單整數比：前後項都是整數且互質"
+          ],
+          "analogyAnchor": "調蜂蜜水時 1 匙蜂蜜配 4 杯水，跟 2 匙蜂蜜配 8 杯水喝起來一樣甜，這就是相等的比。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "比（a : b）",
+              "leftPoints": [
+                "表示前項與後項的倍數關係",
+                "前後項順序不能任意對調"
+              ],
+              "rightTitle": "比值（a ÷ b）",
+              "rightPoints": [
+                "前項除以後項所得的商",
+                "相等的比一定有相同的比值"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6-u5-l1",
+                "text": "a : b 是比",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6-u5-l2",
+                "text": "a ÷ b 是比值",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/math#u5"
+        },
+        {
+          "sceneId": "g6s1-math-u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "按比例分配與化簡最簡整數比",
+          "narrationText": "按比例分配時，先算出總共有幾份，求出「1 份是多少」，就能分別算出各佔多少。",
+          "cognitiveChunks": [
+            "先求總份數＝前項 ＋ 後項",
+            "總量 ÷ 總份數 ＝ 1 份的量"
+          ],
+          "workedExampleData": {
+            "problemStatement": "把 350 顆彈珠按 3 : 4 分給甲、乙兩人，甲可以分到幾顆？",
+            "steps": [
+              "第 1 步：計算總份數：3 + 4 = 7 份",
+              "第 2 步：算出 1 份有幾顆：350 ÷ 7 = 50 顆",
+              "第 3 步：甲佔 3 份，所以甲分到 50 × 3 = 150 顆"
+            ],
+            "commonErrorContrast": "常見錯誤：直接用 350 ÷ 3 或 350 ÷ 4，忘記要先將比的前後項相加算出總份數 7 份。",
+            "selfExplanationPrompt": "想一想：如果題目給的是小數比 0.6 : 0.8，要怎麼先變成最簡單整數比？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/math#u5"
+        },
+        {
+          "sceneId": "g6s1-math-u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "小數比與分數比怎麼化簡？",
+          "topicSignalTitle": "三步驟變身最簡單整數比",
+          "narrationText": "小數比先同乘 10 或 100 變整數；分數比先同乘分母的最小公倍數變整數；最後再同除以最大公因數，讓兩數互質就完成！",
+          "cognitiveChunks": [
+            "小數比 → 同乘 10、100",
+            "分數比 → 同乘分母最小公倍數",
+            "整數比 → 同除以最大公因數"
+          ],
+          "factGroundingSourceId": "115-s1/g6/math#u5"
+        },
+        {
+          "sceneId": "g6s1-math-u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先練習求出比與最簡整數比，再進入挑戰！",
+          "cognitiveChunks": [
+            "先寫對前後項順序，再除以最大公因數"
+          ],
+          "warmupCheck": {
+            "prompt": "把 18 : 24 化簡成最簡單整數比，結果是多少？",
+            "options": [
+              "9 : 12",
+              "6 : 8",
+              "3 : 4",
+              "4 : 3"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！18 和 24 的最大公因數是 6，同除以 6 得到 3 : 4。",
+            "feedbackRetry": "9 : 12 和 6 : 8 還可以繼續約分喔！找出 18 和 24 的最大公因數再除一次。"
+          },
+          "factGroundingSourceId": "115-s1/g6/math#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-math-u6",
+      "stageId": "115-s1-g6-math-u6",
+      "title": "第六單元 圓周長與扇形周長",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "g6s1-math-u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圓周率固定約 3.14，圓周長＝直徑 × 3.14",
+          "narrationText": "不論圓有多大或多小，圓周長除以直徑的比值永遠是一個固定值，稱為圓周率（國小取 3.14）。",
+          "cognitiveChunks": [
+            "圓周長 ＝ 直徑 × 3.14 ＝ 半徑 × 2 × 3.14",
+            "反推直徑 ＝ 圓周長 ÷ 3.14",
+            "大圓和小圓的圓周率都一樣約 3.14"
+          ],
+          "analogyAnchor": "拿線繞飲料罐一圈拉直量長度，會發現它剛好比罐口直徑的 3 倍多一點點。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "量出直徑（或半徑 × 2）",
+                "乘以圓周率 3.14 得圓周長",
+                "乘以圓心角 / 360° 得弧長",
+                "弧長 ＋ 2 條半徑 ＝ 扇形周長"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6-u6-l1",
+                "text": "直徑 × 3.14",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "g6-u6-l2",
+                "text": "加兩條半徑",
+                "anchorPointId": "step4"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/math#u6"
+        },
+        {
+          "sceneId": "g6s1-math-u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分清楚「扇形弧長」與「扇形周長」",
+          "narrationText": "扇形周長是由「一段彎曲的弧長」加上「兩條筆直的半徑」圍成的，算完弧長千萬別忘了加回兩條半徑！",
+          "cognitiveChunks": [
+            "扇形弧長 ＝ 圓周長 × (圓心角 ÷ 360)",
+            "扇形周長 ＝ 弧長 ＋ 半徑 × 2"
+          ],
+          "workedExampleData": {
+            "problemStatement": "半徑 10 公分、圓心角 90° 的 1/4 圓扇形，周長大約是多少公分？（圓周率 3.14）",
+            "steps": [
+              "第 1 步：先算完整圓周長：10 × 2 × 3.14 = 62.8 公分",
+              "第 2 步：算 1/4 圓的弧長：62.8 × 90/360 = 62.8 × 1/4 = 15.7 公分",
+              "第 3 步：加上兩條半徑：15.7 + 10 + 10 = 35.7 公分"
+            ],
+            "commonErrorContrast": "常見錯誤：算出弧長 15.7 公分就停下來當作扇形周長，忘記加上切開扇形的兩條直線半徑。",
+            "selfExplanationPrompt": "想一想：如果題目問的是「半圓形」的周長，除了半圓弧長，還要加上哪一段長度？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/math#u6"
+        },
+        {
+          "sceneId": "g6s1-math-u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "看到題目先圈「半徑」還是「直徑」",
+          "topicSignalTitle": "避免半徑、直徑看錯的檢查習慣",
+          "narrationText": "算圓周長需要「直徑」。如果題目給的是半徑，記得先乘以 2；反過來已知圓周長除以 3.14 算出的是直徑，問半徑要再除以 2。",
+          "cognitiveChunks": [
+            "給半徑 → 先 × 2 變直徑，再 × 3.14",
+            "給圓周長求半徑 → 先 ÷ 3.14，再 ÷ 2"
+          ],
+          "factGroundingSourceId": "115-s1/g6/math#u6"
+        },
+        {
+          "sceneId": "g6s1-math-u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認圓周長與直徑的關係！",
+          "cognitiveChunks": [
+            "圓周長 ＝ 直徑 × 3.14"
+          ],
+          "warmupCheck": {
+            "prompt": "一個直徑 10 公分的圓形時鐘，它的圓周長大約是多少公分？（圓周率以 3.14 計算）",
+            "options": [
+              "15.7 公分",
+              "31.4 公分",
+              "62.8 公分",
+              "314 公分"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！題目已經給直徑 10 公分，所以圓周長 = 10 × 3.14 = 31.4 公分。",
+            "feedbackRetry": "題目給的是「直徑」10 公分喔！直接乘以 3.14 即可，不需要再乘 2。"
+          },
+          "factGroundingSourceId": "115-s1/g6/math#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-math-u7",
+      "stageId": "115-s1-g6-math-u7",
+      "title": "第七單元 圓面積與扇形面積",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "g6s1-math-u7-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "把圓切開重拼成長方形，推導圓面積公式",
+          "narrationText": "把圓等分成許多小扇形上下交錯拼成長方形：長邊約等於「圓周長的一半（半徑 × 3.14）」，寬邊約等於「半徑」，相乘就是圓面積。",
+          "cognitiveChunks": [
+            "圓面積 ＝ 半徑 × 半徑 × 3.14",
+            "扇形面積 ＝ 圓面積 × (圓心角 ÷ 360)",
+            "圓心角：360 ＝ 扇形弧長：圓周長 ＝ 扇形面積：圓面積"
+          ],
+          "analogyAnchor": "就像把一個圓形披薩切成 32 小片，一正一反排成一排，看起來就像一個長方形。",
+          "visualSpec": {
+            "templateId": "rect_geometry",
+            "params": {
+              "width": 10,
+              "height": 4,
+              "unit": "半徑",
+              "formula": "半徑 × 3.14 × 半徑"
+            },
+            "spatialLabels": [
+              {
+                "id": "g6-u7-l1",
+                "text": "長＝圓周長一半",
+                "anchorPointId": "top"
+              },
+              {
+                "id": "g6-u7-l2",
+                "text": "寬＝半徑",
+                "anchorPointId": "side"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/math#u7"
+        },
+        {
+          "sceneId": "g6s1-math-u7-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "圓環面積與扇形面積的計算技巧",
+          "narrationText": "算圓環（大圓包小圓）塗色面積時，用「大圓面積 － 小圓面積」，可以先提出 3.14 再乘，計算更快更不容易錯！",
+          "cognitiveChunks": [
+            "大圓半徑 × 大圓半徑 － 小圓半徑 × 小圓半徑",
+            "最後再乘以 3.14"
+          ],
+          "workedExampleData": {
+            "problemStatement": "外圓半徑 10 公分、內圓半徑 6 公分的圓環，塗色部分面積大約是多少？（圓周率 3.14）",
+            "steps": [
+              "第 1 步：算大圓面積的平方項：10 × 10 = 100",
+              "第 2 步：算小圓面積的平方項：6 × 6 = 36",
+              "第 3 步：相減後乘以 3.14：(100 - 36) × 3.14 = 64 × 3.14 = 200.96 平方公分"
+            ],
+            "commonErrorContrast": "常見錯誤：誤把半徑先相減 (10 - 6) = 4，再算 4 × 4 × 3.14 = 50.24（這樣算出來會嚴重偏小）。",
+            "selfExplanationPrompt": "想一想：如果是綁繩子的羊吃草問題，木樁綁在穀倉牆角外，羊的活動範圍會受到牆壁什麼限制？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/math#u7"
+        },
+        {
+          "sceneId": "g6s1-math-u7-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "別把「圓周長」和「圓面積」公式搞混",
+          "topicSignalTitle": "直徑 × 3.14 vs 半徑 × 半徑 × 3.14",
+          "narrationText": "算圓周長是用「直徑 × 3.14」（長度單位）；算圓面積是用「半徑 × 半徑 × 3.14」（平方單位），題目給直徑時一定要先除以 2！",
+          "cognitiveChunks": [
+            "圓周長：直徑 × 3.14",
+            "圓面積：半徑 × 半徑 × 3.14"
+          ],
+          "factGroundingSourceId": "115-s1/g6/math#u7"
+        },
+        {
+          "sceneId": "g6s1-math-u7-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先來算算看半徑 5 公分的圓面積！",
+          "cognitiveChunks": [
+            "半徑 × 半徑 × 3.14"
+          ],
+          "warmupCheck": {
+            "prompt": "一個半徑 5 公分的圓形杯墊，它的面積大約是多少平方公分？（圓周率以 3.14 計算）",
+            "options": [
+              "31.4 平方公分",
+              "15.7 平方公分",
+              "78.5 平方公分",
+              "100 平方公分"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "完全正確！5 × 5 × 3.14 = 25 × 3.14 = 78.5 平方公分。",
+            "feedbackRetry": "注意題目問的是「面積」喔！要用半徑 × 半徑 × 3.14，也就是 5 × 5 × 3.14。"
+          },
+          "factGroundingSourceId": "115-s1/g6/math#u7"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-math-u8",
+      "stageId": "115-s1-g6-math-u8",
+      "title": "第八單元 認識速率",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "g6s1-math-u8-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "速率、距離與時間的三角關係",
+          "narrationText": "速率代表單位時間內移動的距離，也就是「距離 ÷ 時間」。只要記住「距離 ＝ 速率 × 時間」，就能推出三個常用算式。",
+          "cognitiveChunks": [
+            "距離 ＝ 速率 × 時間",
+            "速率 ＝ 距離 ÷ 時間",
+            "時間 ＝ 距離 ÷ 速率"
+          ],
+          "analogyAnchor": "汽車儀表板顯示「時速 60 公里」，意思就是照這個快慢開 1 小時可以前進 60 公里。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "速率三大公式",
+              "leftPoints": [
+                "距離 ＝ 速率 × 時間",
+                "速率 ＝ 距離 ÷ 時間",
+                "時間 ＝ 距離 ÷ 速率"
+              ],
+              "rightTitle": "單位換算要點",
+              "rightPoints": [
+                "1 公里 ＝ 1000 公尺",
+                "1 小時 ＝ 60 分 ＝ 3600 秒"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6-u8-l1",
+                "text": "距離＝速率×時間",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6-u8-l2",
+                "text": "注意時間與長度單位",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/math#u8"
+        },
+        {
+          "sceneId": "g6s1-math-u8-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "大單位換算小單位，與平均速率陷阱",
+          "narrationText": "比較誰跑得比較快時，一定要先換算成相同單位（例如都換成分速）；算平均速率時，一定要用「總距離 ÷ 總時間」。",
+          "cognitiveChunks": [
+            "平均速率 ＝ 總距離 ÷ 總時間",
+            "不能把兩個速率直接相加除以 2"
+          ],
+          "workedExampleData": {
+            "problemStatement": "把「時速 36 公里／時」換算成「秒速」，是多少公尺／秒？",
+            "steps": [
+              "第 1 步：先把距離換成公尺：36 公里 = 36000 公尺",
+              "第 2 步：把 1 小時換成 60 分鐘，算出分速：36000 ÷ 60 = 600 公尺／分",
+              "第 3 步：再把 1 分鐘換成 60 秒，算出秒速：600 ÷ 60 = 10 公尺／秒"
+            ],
+            "commonErrorContrast": "常見錯誤：看到 36 公里直接除以 60 就以為是秒速，忘記 1 小時有 60 分鐘、每分鐘又有 60 秒（共 3600 秒）。",
+            "selfExplanationPrompt": "想一想：如果上山 6 公里花 2 小時、下山 6 公里花 1 小時，全程的平均時速是多少？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/math#u8"
+        },
+        {
+          "sceneId": "g6s1-math-u8-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "來回平均速率與回音問題提醒",
+          "topicSignalTitle": "讀懂題意裡的「總距離」與「來回」",
+          "narrationText": "對山壁大喊聽到回音，聲音跑了「去＋回」兩趟；算全程平均速率時，距離也要算「去＋回」的總距離，再除以總時間。",
+          "cognitiveChunks": [
+            "平均速率 ＝ (去程距離 ＋ 回程距離) ÷ (去程時間 ＋ 回程時間)",
+            "回音距離 ＝ 單趟距離 × 2"
+          ],
+          "factGroundingSourceId": "115-s1/g6/math#u8"
+        },
+        {
+          "sceneId": "g6s1-math-u8-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先練習一題距離計算，確認公式熟練度！",
+          "cognitiveChunks": [
+            "距離 ＝ 速率 × 時間"
+          ],
+          "warmupCheck": {
+            "prompt": "火車以每小時 120 公里的時速行駛 3 小時，一共前進了多少公里？",
+            "options": [
+              "40 公里",
+              "240 公里",
+              "360 公里",
+              "480 公里"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！距離 = 速率 × 時間 = 120 × 3 = 360 公里。",
+            "feedbackRetry": "求總距離要把時速乘以小時數喔！算算看 120 × 3。"
+          },
+          "factGroundingSourceId": "115-s1/g6/math#u8"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-math-u9",
+      "stageId": "115-s1-g6-math-u9",
+      "title": "第九單元 放大圖、縮圖與比例尺",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "g6s1-math-u9-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "放大與縮小：角度不變、邊長等比例改變",
+          "narrationText": "一個圖形放大或縮小後，形狀完全不變，所以「對應角相等」，而「對應邊長」會同時變成原來的幾倍。",
+          "cognitiveChunks": [
+            "對應角永遠相等（度數不變）",
+            "對應邊長成相同比例（n 倍放大圖邊長變 n 倍）",
+            "面積會變成 n × n 倍（平方倍）"
+          ],
+          "analogyAnchor": "拿放大鏡看三角形，三角形的三條邊都變長了，但三個尖角的張開度數卻完全一樣。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "放大圖／縮圖性質",
+              "leftPoints": [
+                "對應角大小永遠相等",
+                "對應邊長同時乘以縮放倍率"
+              ],
+              "rightTitle": "地圖比例尺",
+              "rightPoints": [
+                "圖上距離 ： 實際距離",
+                "前後項必須先統一成相同單位"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6-u9-l1",
+                "text": "對應角不變",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6-u9-l2",
+                "text": "比例尺單位要統一",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/math#u9"
+        },
+        {
+          "sceneId": "g6s1-math-u9-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "地圖比例尺的單位換算",
+          "narrationText": "比例尺 1 : 50000 表示「圖上 1 公分 ＝ 實際 50000 公分」。換算實際距離時，記得把公分換成公尺或公里！",
+          "cognitiveChunks": [
+            "1 公尺 ＝ 100 公分（去掉 2 個 0）",
+            "1 公里 ＝ 100000 公分（去掉 5 個 0）"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在比例尺 1 : 25000 的地圖上，量得公園到圖書館是 4 公分，實際距離是多少公里？",
+            "steps": [
+              "第 1 步：算出實際距離（公分）：4 × 25000 = 100000 公分",
+              "第 2 步：先把公分換成公尺（除以 100）：100000 ÷ 100 = 1000 公尺",
+              "第 3 步：再把公尺換成公里（除以 1000）：1000 ÷ 1000 = 1 公里"
+            ],
+            "commonErrorContrast": "常見錯誤：看到 25000 就直接以為 1 公分等於 25000 公尺，忘記比例尺前後項都是「公分」。",
+            "selfExplanationPrompt": "想一想：如果實際距離 2 公里畫在地圖上變成 4 公分，怎麼寫成「1 : □」的比例尺？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/math#u9"
+        },
+        {
+          "sceneId": "g6s1-math-u9-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "面積倍率 ≠ 邊長倍率",
+          "topicSignalTitle": "2 倍放大圖的面積是 4 倍！",
+          "narrationText": "因為長方形或正方形的面積是「長 × 寬」，當長和寬都放大成 2 倍時，面積會變成 2 × 2 = 4 倍；縮成 1/2 倍時，面積變成 1/4 倍。",
+          "cognitiveChunks": [
+            "邊長變 n 倍 → 面積變 n × n 倍",
+            "周長變 n 倍，但角度永遠是 1 倍（不變）"
+          ],
+          "factGroundingSourceId": "115-s1/g6/math#u9"
+        },
+        {
+          "sceneId": "g6s1-math-u9-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認比例尺的基本換算觀念！",
+          "cognitiveChunks": [
+            "圖上距離 ： 實際距離 ＝ 比例尺"
+          ],
+          "warmupCheck": {
+            "prompt": "地圖比例尺是 1 : 10000，代表地圖上 1 公分相當於實際距離多少公尺？",
+            "options": [
+              "10 公尺",
+              "100 公尺",
+              "1000 公尺",
+              "10000 公尺"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！圖上 1 公分代表實際 10000 公分，除以 100 換算成公尺就是 100 公尺。",
+            "feedbackRetry": "比例尺 1 : 10000 兩邊單位都是「公分」喔！把 10000 公分除以 100 換成公尺看看。"
+          },
+          "factGroundingSourceId": "115-s1/g6/math#u9"
+        }
+      ]
+    }
+  ]
+}

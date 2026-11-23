@@ -1,0 +1,385 @@
+{
+  "packId": "115-s2-g4-hakka",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 4,
+  "subjectId": "hakka",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-hakka-u1",
+      "stageId": "115-s2-g4-hakka-u1",
+      "title": "第一單元 海洋世界與山貓",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "海洋世界、山貓與生命關懷",
+          "narrationText": "認識「蝦公（蝦）、蟹仔（蟹）、海龜、鯨魚」等海洋生物，也認識客庄淺山保育類動物「山貓（石虎）」和臺灣藍鵲等原生動物！民間動物禁忌背後的智慧，就是教我們敬天惜物、保護海洋與山林棲地。",
+          "cognitiveChunks": [
+            "蝦公＝蝦子、蟹仔＝螃蟹、山貓＝石虎",
+            "海邊不抓寄居蟹、垃圾帶走防海龜誤食",
+            "動物禁忌傳說旨在節制濫捕、維持生態平衡"
+          ],
+          "analogyAnchor": "海洋和山林都是動物的「屋家（家）」！我們安靜觀察、不抓不吵、把垃圾帶回家，就是在守護牠們的家園。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "海洋世界與山貓保育",
+              "leftPoints": [
+                "蝦公、蟹仔、海龜、鯨魚棲息海洋",
+                "山貓＝石虎（淺山保育類），道路慢行"
+              ],
+              "rightTitle": "生態智慧與客語表達",
+              "rightPoints": [
+                "禁忌傳說：敬畏自然、節制濫捕護生態",
+                "海洋摎山林都係動物个屋家，愛保護！"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "山貓就是保育類石虎",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "動物禁忌護生態平衡",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/hakka#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "讀懂動物禁忌智慧與客語生態句",
+          "narrationText": "民間動物禁忌背後有什麼生命教育意義？小琪說的客語心得又是什麼意思？",
+          "cognitiveChunks": [
+            "摎（和）、屋家（家）、咱兜（我們）",
+            "不翻石塊、不抓生物、不留塑膠垃圾"
+          ],
+          "workedExampleData": {
+            "problemStatement": "民間「不可隨意獵捕特定動物」的禁忌蘊含什麼智慧？小琪說「海洋摎山林都係動物个屋家，咱兜愛保護環境！」又是什麼意思？",
+            "steps": [
+              "第 1 步：在早期缺乏保育法規時，禁忌與傳說提醒人們敬畏自然、節制濫捕以維持生態平衡",
+              "第 2 步：拆解句子：「摎」是和、「屋家」是家、「咱兜愛」是我們要",
+              "第 3 步：整句意思為「海洋和山林都是動物的家，我們要保護環境！」，去海邊與山林務必不留垃圾"
+            ],
+            "commonErrorContrast": "常見錯誤：以為「山貓」是家裡的金魚，或把潮間帶寄居蟹和貝殼帶回家。",
+            "selfExplanationPrompt": "想一想：舉出三種棲息在臺灣寶島上的代表性原生或特有野生動物？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/hakka#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看客語「山貓」是指哪一種臺灣珍貴動物！",
+          "cognitiveChunks": [
+            "山貓＝臺灣淺山保育類石虎"
+          ],
+          "warmupCheck": {
+            "question": "在臺灣客語與鄉土稱呼中，「山貓（sân-meu）」常指棲息在臺灣淺山地區的哪一種保育類野生貓科動物？",
+            "prompt": "在臺灣客語與鄉土稱呼中，「山貓（sân-meu）」常指棲息在臺灣淺山地區的哪一種保育類野生貓科動物？",
+            "options": [
+              "石虎",
+              "北極狐",
+              "斑馬"
+            ],
+            "answerIndex": 0,
+            "explanation": "臺灣客庄民間常將野生保育類「石虎」親切地稱為「山貓」，需要大家共同守護淺山棲地！",
+            "feedbackCorrect": "答對了！「山貓」就是臺灣珍貴的保育類動物石虎！",
+            "feedbackRetry": "這種動物外型像家貓、身上有斑點，在苗栗淺山客庄常被大家叫做山貓喔！"
+          },
+          "factGroundingSourceId": "115-s2/g4/hakka#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-hakka-u2",
+      "stageId": "115-s2-g4-hakka-u2",
+      "title": "第二單元 利便生活與圖書館",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "利便電器、圖書館與舊山線",
+          "narrationText": "「利便（方便）」的生活有「電風（電風扇）、電火（電燈）、洗衫機（洗衣機）」，記得擦乾手用電、人離燈熄！假日可去「圖書館」查索書號借書，或走訪苗栗三義「勝興車站」與「龍騰斷橋」！",
+          "cognitiveChunks": [
+            "利便＝方便；電風＝電扇、電火＝電燈、洗衫機",
+            "擦乾手用電不超載、離開關燈；圖書館查索書號",
+            "勝興車站（最高木造站）、龍騰斷橋（紅磚圓拱）"
+          ],
+          "analogyAnchor": "「電風」吹出風、「電火」發出光亮、「洗衫機」洗衣服，客語電器詞就像小謎語，從功能就能猜出來！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "電器詞彙與圖書館",
+              "leftPoints": [
+                "電風（電扇）、電火（電燈）、洗衫機",
+                "擦乾手用電、圖書館查索書號借閱"
+              ],
+              "rightTitle": "舊山線歷史藝術地標",
+              "rightPoints": [
+                "勝興車站：縱貫鐵路海拔最高木造老站",
+                "龍騰斷橋：紅磚圓拱橋墩，鐵路藝術極品"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "電風電扇、電火電燈",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "勝興車站與龍騰斷橋",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/hakka#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分辨「抑係」問句與舊山線地標",
+          "narrationText": "讀懂爸爸在客語對話裡給了哪兩個週末去處選擇，並區分勝興車站與龍騰斷橋的特色。",
+          "cognitiveChunks": [
+            "抑係＝還是；行行仔＝走走逛逛",
+            "勝興車站＝木造老車站；龍騰斷橋＝紅磚圓拱"
+          ],
+          "workedExampleData": {
+            "problemStatement": "爸爸問「這禮拜日咱兜愛去圖書館看書，抑係去勝興車站行行仔？」是什麼意思？勝興車站與龍騰斷橋各有什麼特色？",
+            "steps": [
+              "第 1 步：「抑係」是還是、「行行仔」是走走逛逛，即問要去圖書館看書，還是去勝興車站散步",
+              "第 2 步：「勝興車站」曾是臺灣縱貫鐵路海拔最高的木造老車站",
+              "第 3 步：「龍騰斷橋」以紅磚砌築優雅圓拱橋墩，經歷地震留存而被譽為臺灣鐵路藝術極品"
+            ],
+            "commonErrorContrast": "常見錯誤：把「電火」記成微波爐、把「勝興車站」跟「龍騰斷橋」特徵互換，或濕手去插拔插頭。",
+            "selfExplanationPrompt": "想一想：在圖書館想找一本動物百科全書來借閱時，正確的查詢與借書步驟是什麼？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/hakka#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看「利便」和電器客語名稱的配對！",
+          "cognitiveChunks": [
+            "利便＝方便；電風＝電扇、電火＝電燈"
+          ],
+          "warmupCheck": {
+            "question": "第三課課名是〈利便个生活〉，請問客語詞「利便」是什麼意思？下列電器配對又何者正確？",
+            "prompt": "第三課課名是〈利便个生活〉，請問客語詞「利便」是什麼意思？下列電器配對又何者正確？",
+            "options": [
+              "「利便」是方便；「電風」＝電風扇、「電火」＝電燈",
+              "「利便」是危險；「電風」＝吸塵器、「電火」＝冰箱",
+              "「利便」是安靜；「洗衫機」＝吹風機、「電火」＝微波爐"
+            ],
+            "answerIndex": 0,
+            "explanation": "「利便」就是便利、方便，而「電風、電火、洗衫機」分別是電風扇、電燈與洗衣機！",
+            "feedbackCorrect": "答對了！利便是方便，電風是電風扇、電火是電燈！",
+            "feedbackRetry": "把「利便」兩個字倒過來想成「便利」，再從「風」和「火（光亮）」猜猜電器名稱吧！"
+          },
+          "factGroundingSourceId": "115-s2/g4/hakka#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-hakka-u3",
+      "stageId": "115-s2-g4-hakka-u3",
+      "title": "第三單元 朗讀比賽與多元腔調",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "情緒表達與「四海大平安」腔調",
+          "narrationText": "用客語說出「歡喜（開心）、緊張、煩惱（擔心）、著驚（害怕）、傷心（難過）」！同學受挫時溫柔傾聽鼓勵，回家和「爸姆」分享心情；還要認識臺灣五大客語腔調「四海大平安」！",
+          "cognitiveChunks": [
+            "歡喜、緊張、煩惱（擔心）、著驚（嚇到）、傷心",
+            "「毋過」＝不過；「這下」＝現在；「爸姆」＝爸媽",
+            "四海大平安＝四縣、海陸、大埔、饒平、詔安腔"
+          ],
+          "analogyAnchor": "「四海大平安」就像客家大家庭的五位兄弟姊妹：四縣、海陸、大埔、饒平、詔安腔各有特色，彼此尊重最和諧！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "客語情緒感受詞彙",
+              "leftPoints": [
+                "歡喜（開心）、緊張、傷心（難過）",
+                "煩惱（擔心）、著驚（嚇到害怕）"
+              ],
+              "rightTitle": "四海大平安（五大腔調）",
+              "rightPoints": [
+                "四（四縣）、海（海陸）、大（大埔）",
+                "平（饒平）、安（詔安），各有語韻之美"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "著驚是嚇一跳害怕",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "四海大平安五腔調",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/hakka#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "情緒句型應用與腔調尊重",
+          "narrationText": "如何用「緊張、毋過、歡喜」完整說出比賽心情，並與不同腔調的朋友交流？",
+          "cognitiveChunks": [
+            "「這下當緊張，毋過也當歡喜」",
+            "傾聽與尊重不同腔調用詞差異"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何用客語向「爸姆」分享比賽心情的轉折？遇到講大埔腔或詔安腔的同學又該抱持什麼態度？",
+            "steps": [
+              "第 1 步：用「當緊張，毋過（不過）……這下當歡喜」表達賽前緊張到賽後開心的心情轉變",
+              "第 2 步：朋友失常傷心時，溫柔傾聽肯定努力並陪他深呼吸調整心情",
+              "第 3 步：認識「四海大平安」五種腔調無高低之分，耐心傾聽欣賞彼此的語韻用詞之美"
+            ],
+            "commonErrorContrast": "常見錯誤：把「著驚」記成高興、把「四海大平安」當成景點名稱，或嘲笑別人的腔調奇怪。",
+            "selfExplanationPrompt": "想一想：俗諺「有講有笑，煩惱全消」提醒我們心情煩悶時可以怎麼做？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/hakka#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看口訣「四海大平安」代表哪五種客語腔調！",
+          "cognitiveChunks": [
+            "四縣、海陸、大埔、饒平、詔安腔"
+          ],
+          "warmupCheck": {
+            "question": "〈單元活動三〉常聽到的口訣「四海大平安」依序代表哪五種臺灣主要客語腔調？",
+            "prompt": "〈單元活動三〉常聽到的口訣「四海大平安」依序代表哪五種臺灣主要客語腔調？",
+            "options": [
+              "四縣腔、海陸腔、大埔腔、饒平腔、詔安腔",
+              "四季節、海洋風、大山脈、平原路、安全門",
+              "四合院、海水浴、大龍船、平安符、安樂窩"
+            ],
+            "answerIndex": 0,
+            "explanation": "「四海大平安」依序是四縣腔、海陸腔、大埔腔、饒平腔、詔安腔，展現臺灣客語的豐富多元！",
+            "feedbackCorrect": "答對了！四海大平安就是臺灣客語的五大主要腔調！",
+            "feedbackRetry": "照著「四、海、大、平、安」五個字的第一個音聯想看看地名與腔調喔！"
+          },
+          "factGroundingSourceId": "115-s2/g4/hakka#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-hakka-u4",
+      "stageId": "115-s2-g4-hakka-u4",
+      "title": "第四單元 客語童謠與總複習",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "阿啾箭童謠、電視機與出任務",
+          "narrationText": "吟唱經典童謠〈阿啾箭，尾砣砣〉認識尾巴長長擺動的大卷尾（烏秋）！看〈電視機〉記得距離適中、看「半點鐘」休息護「目珠（眼睛）」；最後把全冊生態、安全與客語對話串起來出任務！",
+          "cognitiveChunks": [
+            "阿啾箭＝大卷尾（烏秋）；尾砣砣＝尾巴垂擺",
+            "看電視機莫離傷近、半點鐘休息護目珠",
+            "串聯海洋山貓、利便電器、圖書館與四海大平安"
+          ],
+          "analogyAnchor": "「阿啾箭，尾砣砣」就像用客語幫黑色鳥兒大卷尾拍了一張可愛肖像照，把牠分叉長尾巴搖來搖去的模樣寫進童謠裡！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "童謠：阿啾箭（烏秋）尾砣砣（尾巴垂擺）",
+                "護眼：看電視機莫離傷近、半點鐘護目珠",
+                "總複習：保護棲地、用電安全、尊重多元腔調"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "阿啾箭是大卷尾烏秋",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "半點鐘休息護目珠",
+                "anchorPointId": "step2"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/hakka#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "全冊詞彙辨析與安全護眼建議",
+          "narrationText": "複習本學期重要詞彙，並練習用客語說出既護眼又安全的看電視建議！",
+          "cognitiveChunks": [
+            "莫（不要）、傷近（太近）、目珠（眼睛）",
+            "勝興車站（最高木造站）、龍騰斷橋（紅磚圓拱）"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何用客語提醒弟弟安全護眼地看「電視機」？又如何快速檢查本學期所有重點詞彙沒有記錯？",
+            "steps": [
+              "第 1 步：提醒弟弟：「看電視機盡好莫離螢幕傷近，看半點鐘愛休息一下仔保護目珠！」",
+              "第 2 步：核對詞彙：「阿啾箭」是大卷尾、「山貓」是石虎、「利便」是方便、「歡喜」是開心",
+              "第 3 步：核對地標與文化：「勝興車站」是木造最高站、「龍騰斷橋」是紅磚拱橋、「四海大平安」是五種腔調"
+            ],
+            "commonErrorContrast": "常見錯誤：把「阿啾箭」記成小青蛙、把「四海大平安」記成五種淡水魚，或手濕摸電視插頭。",
+            "selfExplanationPrompt": "想一想：用一句客語回答同學「這禮拜日下晝去圖書館看書，過後還愛去哪位搞麼个？」吧！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/hakka#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看童謠〈阿啾箭，尾砣砣〉主角是哪一種鳥！",
+          "cognitiveChunks": [
+            "阿啾箭＝大卷尾（烏秋）、尾砣砣＝尾巴垂擺"
+          ],
+          "warmupCheck": {
+            "question": "第 19 週客語童謠〈阿啾箭，尾砣砣〉中，「阿啾箭」和「尾砣砣」分別指什麼？",
+            "prompt": "第 19 週客語童謠〈阿啾箭，尾砣砣〉中，「阿啾箭」和「尾砣砣」分別指什麼？",
+            "options": [
+              "「阿啾箭」是大卷尾（烏秋）；「尾砣砣」形容牠長長垂擺的尾巴",
+              "「阿啾箭」是池塘裡的小青蛙；「尾砣砣」指坐在荷葉上唱歌",
+              "「阿啾箭」是竹編大菜籃；「尾砣砣」形容籃子很重"
+            ],
+            "answerIndex": 0,
+            "explanation": "客庄農村常見的黑色野鳥「大卷尾（烏秋）」客語叫「阿啾箭」，牠長長分叉垂擺的尾羽就是「尾砣砣」！",
+            "feedbackCorrect": "答對了！阿啾箭就是農村常見的大卷尾（烏秋）！",
+            "feedbackRetry": "這是一種常見停在牛背或電線上的黑色鳥兒，「尾」字點出了牠長長的尾羽喔！"
+          },
+          "factGroundingSourceId": "115-s2/g4/hakka#u4"
+        }
+      ]
+    }
+  ]
+}

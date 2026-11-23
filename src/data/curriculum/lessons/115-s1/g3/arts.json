@@ -1,0 +1,380 @@
+{
+  "packId": "115-s1-g3-arts",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 3,
+  "subjectId": "arts",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-arts-u1",
+      "stageId": "115-s1-g3-arts-u1",
+      "title": "第壹單元 視覺萬花筒",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "色彩、形狀與光的魔法",
+          "narrationText": "色彩沒有性別限制，暖色系給人溫暖、寒色系帶來涼爽！剪貼幾何與自由形狀能組出創意作品，善用受光與背光對比，還能讓校園寫生與煙火更立體耀眼。",
+          "cognitiveChunks": [
+            "暖色（紅橘黃）傳達溫暖、色彩無性別限制",
+            "幾何與自由形重疊拼貼，欣賞畢卡索、馬諦斯",
+            "利用受光面、背光面與暗色背景襯托光彩"
+          ],
+          "analogyAnchor": "畫紙就像萬花筒，把色彩情緒、形狀拼貼與光影對比轉動起來，平凡校園也能變出驚喜畫面！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "色彩與形狀拼貼",
+              "leftPoints": [
+                "紅橘黃暖色顯溫馨，選色不分男女",
+                "規則幾何與自由形重疊組合創意"
+              ],
+              "rightTitle": "光線變化與明暗對比",
+              "rightPoints": [
+                "寫生畫出受光亮面、背光暗面與樹影",
+                "深藍或黑色夜空襯托煙火耀眼光彩"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "色彩選擇無性別限制",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "深色背景襯托煙火",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/arts#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "光影層次與拼貼構圖策略",
+          "narrationText": "畫校園大樹或創作煙火時，怎麼讓畫面更有層次與對比？",
+          "cognitiveChunks": [
+            "受光面用亮色、背光與影子用深色",
+            "暗色背景能凸顯明亮煙火線條"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在校園寫生大樹並創作煙火作品時，如何讓光影看起來立體又耀眼？",
+            "steps": [
+              "第 1 步：觀察陽光方向，大樹受光處塗亮黃綠，背光與地面投影加上深綠灰藍",
+              "第 2 步：創作煙火時挑選深藍或黑色底紙，製造強烈明暗對比",
+              "第 3 步：運用鮮豔色彩線條從中心放射，襯托夜空煙火光彩"
+            ],
+            "commonErrorContrast": "常見錯誤：把大樹塗成單一平平的綠色，或在正白紙上用淡黃色畫煙火導致看不清楚。",
+            "selfExplanationPrompt": "想一想：欣賞畢卡索、馬諦斯與阿爾欽博多的作品時，我們可以學到哪幾種造型創意？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/arts#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看暖色系與明暗對比的概念吧！",
+          "cognitiveChunks": [
+            "深色夜空背景能透過明暗對比凸顯煙火"
+          ],
+          "warmupCheck": {
+            "question": "在〈光的魔法〉創作煙火作品時，選擇哪一種底紙或背景色最能讓五彩煙火顯得耀眼？",
+            "prompt": "在〈光的魔法〉創作煙火作品時，選擇哪一種底紙或背景色最能讓五彩煙火顯得耀眼？",
+            "options": [
+              "深藍或黑色等暗色系夜空背景",
+              "刺眼的正白色畫紙塗滿白粉筆",
+              "亮黃色畫紙再用淡黃色畫煙火"
+            ],
+            "answerIndex": 0,
+            "explanation": "深色夜空與鮮豔煙火形成強烈「明暗對比」，能讓煙火光線顯得更加閃耀立體！",
+            "feedbackCorrect": "答對了！暗色背景能透過明暗對比讓煙火光彩更突出！",
+            "feedbackRetry": "想一想，白天還是黑夜放煙火看起來最亮眼呢？"
+          },
+          "factGroundingSourceId": "115-s1/g3/arts#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-arts-u2",
+      "stageId": "115-s1-g3-arts-u2",
+      "title": "第貳單元 表演任我行",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "玩具總動員與玩劇大方秀",
+          "narrationText": "先伸展暖身再進入空間走動！模仿不同材質的玩具姿態，與夥伴傾聽合作設計關卡，最後用表情、聲音和起承轉合演出精彩短劇。",
+          "cognitiveChunks": [
+            "觀察玩具材質，調整肌肉鬆緊與聲音",
+            "空間走動保持安全距離、聽節奏定格",
+            "情緒表演結合表情、姿勢與聲音張力"
+          ],
+          "analogyAnchor": "身體就像百變戲劇百寶箱，發條機器人要卡卡緊實、布偶熊要柔軟輕盈，加上起承轉合就是好戲！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "暖身伸展：舒展關節預防動作拉傷",
+                "空間探索：分散走動不碰撞、聽拍定格",
+                "短劇創作：開頭、經過、結尾搭配情緒演出"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "肢體伸展防拉傷",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "起承轉合演短劇",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/arts#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "團隊關卡設計與情緒演出",
+          "narrationText": "小組討論意見不同怎麼辦？想演好緊張害怕的情緒又該注意什麼？",
+          "cognitiveChunks": [
+            "傾聽組員並整合彼此創意優點",
+            "情緒表現整合臉部、身體與聲音"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在〈玩劇大方秀〉不用旁白說明，怎麼演出「緊張害怕」的情緒並與組員完成短劇？",
+            "steps": [
+              "第 1 步：組內先傾聽彼此意見，整合出包含開頭、經過、結尾的故事情節",
+              "第 2 步：演出緊張害怕時，縮起肩膀、雙手微抖、眼神左右張望且聲音微顫",
+              "第 3 步：在舞台空間走動時注意與同學保持安全距離"
+            ],
+            "commonErrorContrast": "常見錯誤：誰大聲就聽誰的、演害怕時卻面無表情或背對觀眾。",
+            "selfExplanationPrompt": "想一想：同樣是玩具角色，「發條機器人」和「布偶熊」在關節與肌肉鬆緊上有哪些不同？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/arts#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看空間走動與短劇結構的重點！",
+          "cognitiveChunks": [
+            "空間移動要保持安全距離、聽節奏定格"
+          ],
+          "warmupCheck": {
+            "question": "配合鼓聲在教室空間走動並定格擺出「玩具姿態」時，下列哪一項行為最正確？",
+            "prompt": "配合鼓聲在教室空間走動並定格擺出「玩具姿態」時，下列哪一項行為最正確？",
+            "options": [
+              "注意安全距離、善用空曠處移動，節奏停止時定格",
+              "閉上眼睛往人最多的角落衝過去",
+              "自己搶站在講台正中間不讓別人動"
+            ],
+            "answerIndex": 0,
+            "explanation": "空間移動要具備安全覺察與節奏控制力，分散利用空間並依節拍準時定格！",
+            "feedbackCorrect": "答對了！分散利用空曠處並專注聽節奏定格最安全又專業！",
+            "feedbackRetry": "大家都在教室移動時，為了不碰撞又準時定格，眼睛和耳朵要注意什麼呢？"
+          },
+          "factGroundingSourceId": "115-s1/g3/arts#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-arts-u3",
+      "stageId": "115-s1-g3-arts-u3",
+      "title": "第參單元 音樂美樂地",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "五線譜、多元聲音與傾聽自然",
+          "narrationText": "五線譜由下往上數出五條線、四個間，用來記錄音高！探索身體與生活物品的豐富音色，傾聽大自然浪濤風聲並尊重多元文化音樂。",
+          "cognitiveChunks": [
+            "五線譜由下往上數第一到五線、一到四間",
+            "不同材質與發聲方式創造多樣音色",
+            "守護自然環境與尊重各族群節慶音樂"
+          ],
+          "analogyAnchor": "五線譜就像音符住的五層樓公寓，從一樓（第一線）往上爬到五樓（第五線），住得越高音高就越高！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "五線譜與聲音探索",
+              "leftPoints": [
+                "線與間皆「由下往上」數，越高音越高",
+                "拍手、玻璃杯、紙張各有獨特音色強弱"
+              ],
+              "rightTitle": "生活音樂與文化生態",
+              "rightPoints": [
+                "合唱合奏需彼此聆聽、音量和諧",
+                "傾聽浪濤風聲護生態、尊重多元音樂"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "五線譜由下往上數",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "合唱合奏互相聆聽",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/arts#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "讀懂五線譜與模仿自然節奏",
+          "narrationText": "如何判別五線譜上哪個音比較高？又該如何用聲音表現大雨漸強？",
+          "cognitiveChunks": [
+            "畫在越高線上的音符音高越高",
+            "音量漸強、速度漸密可模擬大雨"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在五線譜上比較兩個音符的高低，並用樂器模仿小雨變成大雨時，該怎麼判斷與表現？",
+            "steps": [
+              "第 1 步：記住五線譜「由下往上」數，所以第三線的音比第一線高",
+              "第 2 步：模仿小雨時先用輕柔稀疏的彈指或沙鈴聲",
+              "第 3 步：漸漸加快速度並增強音量成密集鼓聲，呈現大雨滂沱的感覺"
+            ],
+            "commonErrorContrast": "常見錯誤：從最上面往下數第一線，或是合唱時比誰最大聲把別人聲音蓋過。",
+            "selfExplanationPrompt": "想一想：欣賞不同族群或地區的歡慶樂曲時，我們應該抱持什麼樣的態度？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/arts#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "先檢查看看五線譜的數法！",
+          "cognitiveChunks": [
+            "五線譜五線四間由下往上依序數"
+          ],
+          "warmupCheck": {
+            "question": "初學五線譜記譜法時，關於數五線譜「五條線、四個間」的順序，下列哪一項正確？",
+            "prompt": "初學五線譜記譜法時，關於數五線譜「五條線、四個間」的順序，下列哪一項正確？",
+            "options": [
+              "由下往上數第一線到第五線、第一間到第四間",
+              "由最上面往下數第一線到第五線",
+              "五線譜只能畫在線上，不能畫在間裡"
+            ],
+            "answerIndex": 0,
+            "explanation": "五線譜的線與間都是「由下往上」數，音符位置越高代表音高越高！",
+            "feedbackCorrect": "答對了！五線譜是由下往上數，記錄音的高低位置！",
+            "feedbackRetry": "想像爬樓梯從一樓往五樓爬，五線譜是從下面還是上面開始數呢？"
+          },
+          "factGroundingSourceId": "115-s1/g3/arts#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-arts-u4",
+      "stageId": "115-s1-g3-arts-u4",
+      "title": "第肆單元 統整課程",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "上上下下真有趣：三科統整與木作",
+          "narrationText": "把視覺、音樂與表演三科串起來！畫出高低空間層次、奏出上行與下行旋律、做出高中低水平肢體動作；操作木作課程更要安全整潔、珍惜木料！",
+          "cognitiveChunks": [
+            "音樂音高上行與下行呼應上上下下",
+            "視覺配置高聳與低處形成空間層次",
+            "表演運用高中低水平、木作重安全惜物"
+          ],
+          "analogyAnchor": "三科統整就像一個小小劇團，布景有高低、音樂有起伏、演員有蹲有跳，再加上安全木作道具就太棒了！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "視覺構圖：安排高低錯落形成空間層次",
+                "音樂與表演：音高上下行搭配高中低水平",
+                "木作與回饋：安全操作惜料、具體鼓勵同伴"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "音高上下行呼應",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "木作安全惜邊角料",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/arts#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "跨科協作與木作安全實踐",
+          "narrationText": "在統整展演與學校自編木作課程中，如何同時兼顧創意、安全與品德？",
+          "cognitiveChunks": [
+            "三科分工彼此呼應、互相鼓掌",
+            "毛刷清木屑、工具歸位、善用餘料"
+          ],
+          "workedExampleData": {
+            "problemStatement": "全班合作〈上上下下真有趣〉展演並進行木作創作時，要注意哪些重點？",
+            "steps": [
+              "第 1 步：視覺畫出高低層次、音樂奏出上下行音高、表演做出蹲站跳水平變化",
+              "第 2 步：木作時遵照師長示範使用工具，結束後用毛刷清木屑、工具歸位",
+              "第 3 步：珍惜木材與邊角餘料，欣賞同學演出後給予具體正向的回饋"
+            ],
+            "commonErrorContrast": "常見錯誤：拿木作工具嬉鬧或用嘴吹木屑、把邊角木料直接丟掉，或批評同學作品。",
+            "selfExplanationPrompt": "想一想：欣賞同學的統整演出後，怎麼說出具體又有建設性的鼓勵回饋？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/arts#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看音樂如何表現「上上下下」的動作感！",
+          "cognitiveChunks": [
+            "音高由低往高攀升、由高往低漸降"
+          ],
+          "warmupCheck": {
+            "question": "在統整單元〈上上下下真有趣〉的音樂部分，想表現「爬樓梯往上走再滑下來」，旋律應該怎麼變化？",
+            "prompt": "在統整單元〈上上下下真有趣〉的音樂部分，想表現「爬樓梯往上走再滑下來」，旋律應該怎麼變化？",
+            "options": [
+              "音高隨著往上爬逐漸變高，滑下來時由高往低漸漸下行",
+              "從頭到尾只唱同一個音高不要有任何起伏",
+              "完全不發聲只站在原地眨眼睛"
+            ],
+            "answerIndex": 0,
+            "explanation": "音樂中的「上行」與「下行」音高變化，能生動呼應生活中爬上滑下的方向感！",
+            "feedbackCorrect": "答對了！音高由低到高再由高到低，正好呼應上上下下！",
+            "feedbackRetry": "哼出「1-2-3-4-5」再「5-4-3-2-1」，音的高低方向是怎麼走的呢？"
+          },
+          "factGroundingSourceId": "115-s1/g3/arts#u4"
+        }
+      ]
+    }
+  ]
+}

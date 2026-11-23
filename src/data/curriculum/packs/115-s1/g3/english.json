@@ -137,6 +137,44 @@
             "Get Ready",
             "Letter Recognition"
           ]
+        },
+        {
+          "id": "115-s1-g3-english-u0-q7",
+          "prompt": "在「Get Ready」認識 26 個英文字母時，按照 A 到 Z 的順序，排在最開頭的五個大寫字母依序是哪一組？",
+          "options": [
+            "A, B, D, C, E",
+            "A, B, C, D, E",
+            "B, C, D, E, F",
+            "A, C, B, D, E"
+          ],
+          "answerIndex": 1,
+          "explanation": "26 個英文字母最開頭的五個字母依序是 A, B, C, D, E。",
+          "hint": "點喇叭聽聽看字母歌最前面五個字母的順序！",
+          "speechText": "A, B, C, D, E",
+          "speechLang": "en-US",
+          "tags": [
+            "Get Ready",
+            "Alphabet Order"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u0-q8",
+          "prompt": "觀察英文字母「O / o」和「S / s」，這兩個字母的大寫與小寫有什麼共同特色？",
+          "options": [
+            "大寫和小寫完全長得不一樣",
+            "小寫都要寫在格線最上面",
+            "大寫是正方形、小寫是三角形",
+            "大寫與小寫形狀相同，只是大小尺寸不同"
+          ],
+          "answerIndex": 3,
+          "explanation": "「O / o」、「S / s」、「C / c」等字母的大寫與小寫形狀幾乎相同，只是寫在四線三格的大小與位置不同。",
+          "hint": "把大寫 O 和小寫 o、大寫 S 和小寫 s 放在一起比比看！",
+          "speechText": "O, o, S, s",
+          "speechLang": "en-US",
+          "tags": [
+            "Get Ready",
+            "Uppercase & Lowercase"
+          ]
         }
       ]
     },
@@ -270,6 +308,44 @@
           "tags": [
             "Polite Expressions",
             "The Birthday Party"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u1-q7",
+          "prompt": "在生日派對上數一數桌上的杯子蛋糕，一共有 10 個！下面哪一個英文單字代表數字「10」？",
+          "options": [
+            "ten",
+            "two",
+            "six",
+            "seven"
+          ],
+          "answerIndex": 0,
+          "explanation": "「ten」是 10；two 是 2、six 是 6、seven 是 7。",
+          "hint": "點喇叭聽聽看「ten」的發音！",
+          "speechText": "ten",
+          "speechLang": "en-US",
+          "tags": [
+            "Numbers 1-10",
+            "The Birthday Party"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u1-q8",
+          "prompt": "聽到壽星開心地回答：「I am seven years old.」，請問壽星今年幾歲？",
+          "options": [
+            "6 歲",
+            "8 歲",
+            "7 歲",
+            "9 歲"
+          ],
+          "answerIndex": 2,
+          "explanation": "「seven」是數字 7，「I am seven years old.」意思是「我今年七歲。」",
+          "hint": "注意聽句子裡的數字單字 seven 是多少！",
+          "speechText": "I am seven years old.",
+          "speechLang": "en-US",
+          "tags": [
+            "Age",
+            "Listening & Reading"
           ]
         }
       ]
@@ -406,6 +482,44 @@
             "Feelings",
             "Vocabulary"
           ]
+        },
+        {
+          "id": "115-s1-g3-english-u2-q7",
+          "prompt": "在「情緒與感覺」單元中，聽到同學說：「I am angry.」，代表他現在的心情是什麼？",
+          "options": [
+            "很開心的",
+            "很生氣的",
+            "很口渴的",
+            "很睏的"
+          ],
+          "answerIndex": 1,
+          "explanation": "「angry」的意思是「生氣的」，「I am angry.」就是「我很生氣。」",
+          "hint": "點喇叭聽聽看「angry」的語氣和發音！",
+          "speechText": "I am angry.",
+          "speechLang": "en-US",
+          "tags": [
+            "Feelings",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u2-q8",
+          "prompt": "當朋友看起來不太開心、回答你「I am sad.」時，下列哪一種回應最能展現本單元強調的「品德與同理心」？",
+          "options": [
+            "大聲嘲笑他並跑走",
+            "假裝沒有聽見，自己去玩",
+            "搶走他手上的書本",
+            "溫柔地關心他怎麼了，陪他聊一聊或幫他打氣"
+          ],
+          "answerIndex": 3,
+          "explanation": "當朋友說「I am sad.（我很難過）」時，給予傾聽、陪伴與鼓勵，是最溫暖且有品德的表現。",
+          "hint": "如果你的好朋友覺得難過（sad），你會怎麼安慰他呢？",
+          "speechText": "Are you okay?",
+          "speechLang": "en-US",
+          "tags": [
+            "Feelings",
+            "Character Education"
+          ]
         }
       ]
     },
@@ -540,6 +654,44 @@
           "tags": [
             "Review 1",
             "Phonics"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u3-q7",
+          "prompt": "字母大小寫配對複習！下面四組「大寫與小寫字母」中，哪一組是「完全正確」的配對？",
+          "options": [
+            "Q - q",
+            "D - b",
+            "M - n",
+            "G - j"
+          ],
+          "answerIndex": 0,
+          "explanation": "大寫 Q 配對小寫 q 完全正確；D 的小寫是 d、M 的小寫是 m、G 的小寫是 g。",
+          "hint": "仔細看清楚字母的尾巴與方向喔！",
+          "speechText": "Q, q",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "26 Letters"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u3-q8",
+          "prompt": "在「Review 1」複習情緒與年齡句型時，如果朋友問你「How old are you?」，下列哪一個回答最適合？",
+          "options": [
+            "I am hungry.",
+            "Thank you!",
+            "I am nine.",
+            "Poor Kevin!"
+          ],
+          "answerIndex": 2,
+          "explanation": "「How old are you?」是在問年齡（你幾歲？），回答「I am nine.（我九歲。）」最正確。",
+          "hint": "問「幾歲」要回答數字喔！",
+          "speechText": "I am nine.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Age"
           ]
         }
       ]
@@ -676,6 +828,44 @@
             "Environmental Education",
             "Character Education"
           ]
+        },
+        {
+          "id": "115-s1-g3-english-u4-q7",
+          "prompt": "天氣晴朗微風吹拂時，最適合到公園放風箏！下面哪一個英文單字是指「風箏」？",
+          "options": [
+            "doll",
+            "kite",
+            "ball",
+            "robot"
+          ],
+          "answerIndex": 1,
+          "explanation": "「kite」是風箏；doll 是洋娃娃、ball 是球、robot 是機器人。",
+          "hint": "點喇叭聽聽看「a kite」的發音！",
+          "speechText": "a kite",
+          "speechLang": "en-US",
+          "tags": [
+            "Toys",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u4-q8",
+          "prompt": "當朋友問你「Is it a ball?（它是一顆球嗎？）」，而盒子裡裝的剛好就是一顆球時，怎麼回答最正確？",
+          "options": [
+            "I am eight.",
+            "Thank you.",
+            "Yes, it is.",
+            "No, I am sad."
+          ],
+          "answerIndex": 2,
+          "explanation": "對「Is it ...?」的問句做肯定簡答，要用「Yes, it is.（是的，它是。）」",
+          "hint": "用「Is it ...?」問，肯定回答也要有「Yes, it is.」喔！",
+          "speechText": "Yes, it is.",
+          "speechLang": "en-US",
+          "tags": [
+            "Toys",
+            "Sentence Pattern"
+          ]
         }
       ]
     },
@@ -809,6 +999,44 @@
           "tags": [
             "Colors & Toys",
             "Sentence Comprehension"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u5-q7",
+          "prompt": "指著天上一顆藍色的氣球或玩具問「What color is it?（它是什麼顏色？）」，如果是藍色的，該怎麼回答？",
+          "options": [
+            "It is blue.",
+            "It is red.",
+            "I am ten.",
+            "Merry Christmas!"
+          ],
+          "answerIndex": 0,
+          "explanation": "「What color is it?」問顏色，回答「It is blue.（它是藍色的。）」最正確。",
+          "hint": "藍色是 blue，找有「It is blue.」的選項！",
+          "speechText": "It is blue.",
+          "speechLang": "en-US",
+          "tags": [
+            "Colors",
+            "Sentence Pattern"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u5-q8",
+          "prompt": "在「Merry Christmas!」節慶課堂上，小朋友們做完聖誕卡片後，最常用哪一句英文寫在卡片封面上送給同學？",
+          "options": [
+            "How old are you?",
+            "I am tired.",
+            "What is this?",
+            "Merry Christmas!"
+          ],
+          "answerIndex": 3,
+          "explanation": "在聖誕卡片上寫「Merry Christmas!（聖誕節快樂！）」，最能傳達節慶祝福。",
+          "hint": "單元標題裡面就有這句聖誕祝福語喔！",
+          "speechText": "Merry Christmas!",
+          "speechLang": "en-US",
+          "tags": [
+            "Merry Christmas",
+            "Culture & Festivals"
           ]
         }
       ]
@@ -944,6 +1172,44 @@
           "tags": [
             "Review 2",
             "Age & Greetings"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u6-q7",
+          "prompt": "請把「常見玩具（Toys）」單字挑出來！下面哪一組三個英文單字全部都是玩具名稱？",
+          "options": [
+            "red, blue, green",
+            "ball, doll, kite",
+            "happy, sad, angry",
+            "one, two, three"
+          ],
+          "answerIndex": 1,
+          "explanation": "ball（球）、doll（洋娃娃）、kite（風箏）全部都是玩具；其餘三組分別是顏色、情緒與數字。",
+          "hint": "點喇叭聽聽看三個玩具單字的發音！",
+          "speechText": "ball, doll, kite",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Toys"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u6-q8",
+          "prompt": "在「Review 2」練習閱讀理解時，看到句子「It is a green kite.」，這句話是在描述哪一樣東西？",
+          "options": [
+            "一輛黃色的玩具車",
+            "一個紅色的洋娃娃",
+            "一個綠色的風箏",
+            "一顆藍色的球"
+          ],
+          "answerIndex": 2,
+          "explanation": "「green」是綠色的，「kite」是風箏，所以「It is a green kite.」是指「它是一個綠色的風箏。」",
+          "hint": "把 green（顏色）和 kite（玩具）合起來看看！",
+          "speechText": "It is a green kite.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Colors & Toys"
           ]
         }
       ]

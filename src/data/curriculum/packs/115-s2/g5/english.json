@@ -136,6 +136,44 @@
             "Starter",
             "Reading Literacy"
           ]
+        },
+        {
+          "id": "115-s2-g5-english-u0-q7",
+          "prompt": "聽音辨數字：數字「500」的正確英文拼字是哪一個？",
+          "options": [
+            "five hundred",
+            "fifteen",
+            "fifty",
+            "five thousand"
+          ],
+          "answerIndex": 0,
+          "explanation": "five hundred 是 500；fifteen 是 15，fifty 是 50，five thousand 是 5,000。",
+          "hint": "5 是 five，「百」是 hundred！",
+          "speechText": "five hundred",
+          "speechLang": "en-US",
+          "tags": [
+            "Starter",
+            "Numbers 100-1000"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u0-q8",
+          "prompt": "數字「960」用英文唸出時，應該選哪一個？",
+          "options": [
+            "nine hundred and sixteen",
+            "ninety-six",
+            "nine hundred and sixty",
+            "nine thousand sixty"
+          ],
+          "answerIndex": 2,
+          "explanation": "960 是 900（nine hundred）加上 60（sixty），合起來是 nine hundred and sixty；sixteen 是 16。",
+          "hint": "60 是 sixty，結尾是 -ty 不是 -teen 喔！",
+          "speechText": "nine hundred and sixty",
+          "speechLang": "en-US",
+          "tags": [
+            "Starter",
+            "Numbers 100-1000"
+          ]
         }
       ]
     },
@@ -265,6 +303,44 @@
           "explanation": "thumb（大拇指）、thin、thank 的 th 皆發無聲（氣音）的 /θ/；this、that、they 的 th 則是有聲（震動聲帶）的 /ð/。",
           "hint": "把手輕放在喉嚨上念念看，哪一組的 th 念起來不會震動喉嚨（只有氣音）？",
           "speechText": "thumb, thin, thank",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Phonics"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u1-q7",
+          "prompt": "Body Parts 身體部位：感冒鼻塞時，哪一個身體部位會覺得不舒服？\"My ___ hurts.\"",
+          "options": [
+            "foot",
+            "nose",
+            "hand",
+            "leg"
+          ],
+          "answerIndex": 1,
+          "explanation": "nose 是「鼻子」；foot 是腳，hand 是手，leg 是腿。",
+          "hint": "用來聞味道和呼吸的部位是「鼻子」！",
+          "speechText": "My nose hurts.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Body Parts"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u1-q8",
+          "prompt": "Phonics 字母拼讀挑戰：下面哪一組單字開頭都含有有聲（聲帶震動）的「th」音組？",
+          "options": [
+            "three, thin, thank",
+            "ship, shoe, shirt",
+            "chair, chin, cheese",
+            "this, that, they"
+          ],
+          "answerIndex": 3,
+          "explanation": "this、that、they 的 th 是有聲子音 /ð/，念的時候喉嚨會震動；three、thin、thank 的 th 則是無聲子音 /θ/。",
+          "hint": "用手摸著喉嚨念念看，哪一組的 th 喉嚨會震動？",
+          "speechText": "this, that, they",
           "speechLang": "en-US",
           "tags": [
             "Unit 1",
@@ -404,6 +480,44 @@
             "Unit 2",
             "Phonics"
           ]
+        },
+        {
+          "id": "115-s2-g5-english-u2-q7",
+          "prompt": "同學問：\"Do you have a sore throat?\" 如果你「沒有」喉嚨痛，正確的否定簡答是什麼？",
+          "options": [
+            "No, I don't.",
+            "No, I am not.",
+            "Yes, I do.",
+            "No, it isn't."
+          ],
+          "answerIndex": 0,
+          "explanation": "用 Do you ...? 提問，否定簡答要用「No, I don't.」。",
+          "hint": "Do 問句的否定簡答也要用 don't！",
+          "speechText": "Do you have a sore throat? No, I don't.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u2-q8",
+          "prompt": "Phonics 字母拼讀挑戰：下面哪一組單字字尾都含有「-ng」音組？",
+          "options": [
+            "pink / drink",
+            "thank / bank",
+            "sing / king",
+            "phone / photo"
+          ],
+          "answerIndex": 2,
+          "explanation": "sing 與 king 都以 -ng 結尾；pink、drink、thank、bank 屬於 -nk 音組。",
+          "hint": "找字尾是 ng 的那一組單字！",
+          "speechText": "sing, king",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Phonics"
+          ]
         }
       ]
     },
@@ -537,6 +651,44 @@
           "tags": [
             "Review 1",
             "Reading Literacy"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u3-q7",
+          "prompt": "對話填空：A: What's wrong with Sam? / B: He ___ a toothache.",
+          "options": [
+            "have",
+            "has",
+            "is",
+            "are"
+          ],
+          "answerIndex": 1,
+          "explanation": "主詞 He 是第三人稱單數，「有（某種病痛）」要用第三人稱單數動詞 has：「He has a toothache.」。",
+          "hint": "He 後面「有」要用 have 還是 has 呢？",
+          "speechText": "What's wrong with Sam? He has a toothache.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u3-q8",
+          "prompt": "Phonics 拼讀挑戰：在「whale, white, wheel, phone」四個單字中，哪一個字的發音開頭和其他三個「不同」？",
+          "options": [
+            "whale",
+            "white",
+            "wheel",
+            "phone"
+          ],
+          "answerIndex": 3,
+          "explanation": "whale, white, wheel 都以 wh 開頭；phone 則是以 ph 開頭發 /f/ 的音。",
+          "hint": "前面三個都是 wh 開頭，找一個 ph 開頭的單字！",
+          "speechText": "whale, white, wheel",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Phonics"
           ]
         }
       ]
@@ -672,6 +824,44 @@
             "Unit 3",
             "Phonics"
           ]
+        },
+        {
+          "id": "115-s2-g5-english-u4-q7",
+          "prompt": "早上起床後在學校上課前吃的第一頓飯「早餐」，英文單字是哪一個？",
+          "options": [
+            "breakfast",
+            "lunch",
+            "dinner",
+            "soup"
+          ],
+          "answerIndex": 0,
+          "explanation": "breakfast 是早餐；lunch 是午餐，dinner 是晚餐，soup 是湯。",
+          "hint": "早上吃的餐點是 breakfast！",
+          "speechText": "breakfast",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Meals"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u4-q8",
+          "prompt": "點餐對話：\"What would you like for lunch? — I'd like some ___ and ___, please.\" 如果你想點「白飯和魚」，該選哪一組？",
+          "options": [
+            "bread / milk",
+            "noodles / soup",
+            "rice / fish",
+            "salad / steak"
+          ],
+          "answerIndex": 2,
+          "explanation": "rice 是白飯，fish 是魚；bread 是麵包，noodles 是麵，steak 是牛排。",
+          "hint": "「白飯」是 rice，「魚」是 fish！",
+          "speechText": "I'd like some rice and fish, please.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Food"
+          ]
         }
       ]
     },
@@ -801,6 +991,44 @@
           "explanation": "端午節最重要的兩項代表性活動就是「划龍舟比賽（dragon boat races）」與「吃粽子（eat rice dumplings）」。",
           "hint": "找含有 dragon boat races（龍舟賽）的句子！",
           "speechText": "People watch dragon boat races and eat rice dumplings.",
+          "speechLang": "en-US",
+          "tags": [
+            "Festival",
+            "Dragon Boat Festival"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u5-q7",
+          "prompt": "當別人問你：\"Whose ruler is this?\" 如果這把尺是「我的」，可以用哪一個所有格代名詞回答？",
+          "options": [
+            "It's I.",
+            "It's mine.",
+            "It's me.",
+            "They're mine."
+          ],
+          "answerIndex": 1,
+          "explanation": "mine 是「我的（東西）」；尺（ruler）是單數，所以回答「It's mine.」。",
+          "hint": "「我的（東西）」要用 m 開頭的字 mine 喔！",
+          "speechText": "Whose ruler is this? It's mine.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Possessives"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u5-q8",
+          "prompt": "認識端午節英語字彙：「龍舟（dragon boat）」之外，端午節常掛在門上或配戴的「香包」用來祈福平安，而節慶日期通常在農曆幾月幾日？",
+          "options": [
+            "January 1st",
+            "December 25th",
+            "August 15th",
+            "May 5th (Lunar calendar)"
+          ],
+          "answerIndex": 3,
+          "explanation": "端午節（The Dragon Boat Festival）是在農曆五月五日（May 5th in the lunar calendar）。",
+          "hint": "農曆五月初五是端午節喔！",
+          "speechText": "The Dragon Boat Festival is on May fifth.",
           "speechLang": "en-US",
           "tags": [
             "Festival",
@@ -939,6 +1167,44 @@
           "tags": [
             "Culture",
             "Daily English"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u6-q7",
+          "prompt": "「Let's Explore」數字與生活整合：書店裡有 350 本英語書和 250 本故事書，一共有幾本書？",
+          "options": [
+            "six hundred",
+            "five hundred",
+            "seven hundred",
+            "one hundred"
+          ],
+          "answerIndex": 0,
+          "explanation": "350 + 250 = 600，600 的英文是 six hundred。",
+          "hint": "先算 350 加 250 等於多少，再選出英文整百數字！",
+          "speechText": "six hundred",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Numbers 100-1000"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u6-q8",
+          "prompt": "期末文法檢查：下列哪一句「完全正確」，沒有任何文法錯誤？",
+          "options": [
+            "Does she has a headache?",
+            "What would you like for dinner? — Yes, I do.",
+            "Whose glasses are these? — They are Leo's.",
+            "My legs hurts very much."
+          ],
+          "answerIndex": 2,
+          "explanation": "「Whose glasses are these? — They are Leo's.」複數主詞與所有格皆正確！其他錯誤為：Does she 「have」、What would you like 應答 I'd like...、My legs 「hurt」。",
+          "hint": "檢查一下助動詞後原形、問食物不能答 Yes/No、複數 glasses 配 are 和 They！",
+          "speechText": "Whose glasses are these? They are Leo's.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Grammar"
           ]
         }
       ]

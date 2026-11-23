@@ -1,0 +1,761 @@
+{
+  "packId": "115-s1-g4-english",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 4,
+  "subjectId": "english",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-english-u0",
+      "stageId": "115-s1-g4-english-u0",
+      "title": "開學預備週、Starter & Festival Moon Festival",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u0-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "數字 16–20 的 -teen 規律與中秋節慶英語",
+          "narrationText": "Starter 單元帶我們複習教室用語與 26 個字母，並學會數字 16 到 20；在 Moon Festival 則學會用英語送上中秋祝福。",
+          "cognitiveChunks": [
+            "16–19 字尾是 -teen，20 改為 -ty (twenty)",
+            "教室指令：Be quiet, please. / Open your book.",
+            "中秋節快樂：Happy Moon Festival!"
+          ],
+          "analogyAnchor": "記英文數字 16 到 19 就像戴上同樣的帽子「-teen」，到了整十 20 時再換成「-ty」變成 twenty。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "16–19（字尾 -teen）",
+              "leftPoints": [
+                "sixteen (16)、seventeen (17)",
+                "eighteen (18)、nineteen (19)"
+              ],
+              "rightTitle": "整十 20（字尾 -ty）",
+              "rightPoints": [
+                "twenty (20)，不加 -teen",
+                "注意 eighteen 中間只有一個 t"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u0-l1",
+                "text": "16到19字尾teen",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u0-l2",
+                "text": "20拼成twenty",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/english#u0"
+        },
+        {
+          "sceneId": "u0-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分辨 -teen 與 -ty、大小寫與節慶祝福",
+          "narrationText": "遇到發音相似的 seventeen 與 seventy 時，要聽清楚重音與字尾；寫字母時注意 b、d、p、q 的方向。",
+          "cognitiveChunks": [
+            "seventeen 是 17；seventy 是 70",
+            "Taiwan 字首大寫 T、小寫 t",
+            "節慶祝福：Happy + 節慶名稱!"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何區分「17」與「70」的英文拼字，並用英文祝朋友中秋節快樂？",
+            "steps": [
+              "第 1 步：17 是 seven 加上 -teen，寫成 seventeen",
+              "第 2 步：20 是 twenty（70 才是 seventy）",
+              "第 3 步：Moon 指月亮，中秋節祝福語說 Happy Moon Festival!"
+            ],
+            "commonErrorContrast": "常見錯誤：把 20 誤拼成 twenteen，或把 18 寫成兩個 t 的 eightteen。",
+            "selfExplanationPrompt": "想一想：老師請大家把課本打開時，會說哪一句 Classroom English？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/english#u0"
+        },
+        {
+          "sceneId": "u0-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "教室用語小提醒",
+          "topicSignalTitle": "聽到老師說 Classroom English 時怎麼做？",
+          "narrationText": "「Be quiet, please.」請安靜、「Open your book, please.」請打開書本，加上 please 讓指令更有禮貌。",
+          "cognitiveChunks": [
+            "Be quiet, please. 請安靜",
+            "Open your book, please. 請打開課本"
+          ],
+          "factGroundingSourceId": "115-s1/g4/english#u0"
+        },
+        {
+          "sceneId": "u0-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認數字 16–20 的拼字規則，再開始挑戰關卡！",
+          "cognitiveChunks": [
+            "16–19 用 -teen，20 用 twenty"
+          ],
+          "warmupCheck": {
+            "prompt": "數字「19」與「20」的正確英文拼法分別是哪一組？",
+            "options": [
+              "ninety / twenteen",
+              "nineteen / twenty",
+              "nine / twelve",
+              "nineteen / twenteen"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！19 是 nineteen，20 是 twenty。",
+            "feedbackRetry": "19 字尾是 -teen，到了 20 要換成 twenty 喔！"
+          },
+          "factGroundingSourceId": "115-s1/g4/english#u0"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-english-u1",
+      "stageId": "115-s1-g4-english-u1",
+      "title": "Unit 1 How’s the Weather?",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "詢問天氣與回答天氣的英語句型",
+          "narrationText": "想知道今天天氣如何，用「How's the weather?」發問，並用「It's + 天氣詞.」回答晴天、雨天、刮風或多雲。",
+          "cognitiveChunks": [
+            "問句：How's the weather?",
+            "答句：It's sunny / rainy / windy / cloudy.",
+            "用 and 連接兩種天氣：windy and cloudy"
+          ],
+          "analogyAnchor": "把天氣名詞 sun、rain、wind、cloud 加上「-y」小尾巴，就變成形容今天天氣的詞彙 sunny、rainy、windy、cloudy。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "詢問天氣",
+              "leftPoints": [
+                "How's the weather?",
+                "（今天天氣如何？）"
+              ],
+              "rightTitle": "回答天氣（It's + 天氣詞）",
+              "rightPoints": [
+                "sunny（晴朗）、rainy（下雨）",
+                "windy（有風）、cloudy（多雲）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u1-l1",
+                "text": "問句How's開頭",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u1-l2",
+                "text": "答句It's開頭",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/english#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "氣象播報句型與 Phonics 子音辨識",
+          "narrationText": "回答天氣一定用「It's ...」，不可用「I'm ...」；同時練習分辨字首子音 b-, p-, d-, t-, v, f- 的發音差別。",
+          "cognitiveChunks": [
+            "描述天氣主詞固定用 It",
+            "p- 無聲氣音 /p/（pig），b- 有聲 /b/（big）",
+            "v- 上牙碰下唇震動 /v/（van），f- 無聲 /f/（fan）"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何回答 \"How's the weather?\" 說「今天有風又多雲」，並分辨 fan 與 van？",
+            "steps": [
+              "第 1 步：用虛主詞 It 開頭寫成 It's",
+              "第 2 步：有風是 windy、多雲是 cloudy，用 and 連接：It's windy and cloudy.",
+              "第 3 步：念 van 時喉嚨會震動，念 fan 時只有氣音沒有震動"
+            ],
+            "commonErrorContrast": "常見錯誤：回答天氣時誤說成 I'm sunny.（我好晴朗），或混淆無聲子音 p/f 與有聲子音 b/v。",
+            "selfExplanationPrompt": "想一想：如果說 \"It's warm and sunny in Taipei.\" 代表臺北的天氣如何？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/english#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "Phonics 字首子音小耳朵",
+          "topicSignalTitle": "聽辨 b-, p-, d-, t-, v, f- 的祕訣",
+          "narrationText": "把手輕輕放在喉嚨上念字：念 b (big), d (dog), v (van) 時喉嚨會震動；念 p (pig), t (ten), f (fan) 時則主要是吹出氣流。",
+          "cognitiveChunks": [
+            "有聲震動：b, d, v",
+            "無聲氣流：p, t, f"
+          ],
+          "factGroundingSourceId": "115-s1/g4/english#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題天氣問答確認主詞與單字，再進場挑戰！",
+          "cognitiveChunks": [
+            "問天氣用 How's the weather?，回答用 It's ..."
+          ],
+          "warmupCheck": {
+            "prompt": "當同學問你 \"How's the weather?\"，外面正在下雨時要怎麼回答？",
+            "options": [
+              "I'm rainy.",
+              "It's rainy.",
+              "It's sunny.",
+              "Yes, I am."
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！回答天氣用 It's，下雨天是 rainy，合起來是 It's rainy.",
+            "feedbackRetry": "記得描述天氣要用「It's」開頭，rain（雨）變成 rainy 喔！"
+          },
+          "factGroundingSourceId": "115-s1/g4/english#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-english-u2",
+      "stageId": "115-s1-g4-english-u2",
+      "title": "Unit 2 Are You Thirsty?",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "詢問與表達身體感受及情緒",
+          "narrationText": "想問別人「你口渴嗎？你餓嗎？」，用「Are you + 感覺形容詞?」，回答時主詞記得從 you 換成 I。",
+          "cognitiveChunks": [
+            "身體感受：thirsty（口渴）、hungry（餓）、tired（累）",
+            "心情情緒：happy（開心）、sad（難過）、angry（生氣）",
+            "回答切換主詞：Yes, I am. / No, I'm not."
+          ],
+          "analogyAnchor": "英語問答就像面對面照鏡子：對方指著「你（you）」發問，輪到你回答時要指回「我（I）」，所以回答用 Yes, I am.。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "詢問對方（Are you ...?）",
+              "leftPoints": [
+                "Are you thirsty?（你渴嗎？）",
+                "Are you hungry?（你餓嗎？）"
+              ],
+              "rightTitle": "回答自己（I / I'm ...）",
+              "rightPoints": [
+                "肯定：Yes, I am.",
+                "否定：No, I'm not."
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u2-l1",
+                "text": "問句用Are you",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u2-l2",
+                "text": "答句換成I am",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/english#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "Yes/No 簡答與 Phonics c-, g- 拼讀",
+          "narrationText": "回答「Are you ...?」時絕對不能回答「Yes, it is.」或「No, I am.」；同時練習分辨字首 c (cat, cup) 與 g (goat)。",
+          "cognitiveChunks": [
+            "肯定簡答：Yes, I am.（不可縮寫成 Yes, I'm.）",
+            "否定簡答：No, I'm not.",
+            "字首 c- 念 /k/（cat, cup）"
+          ],
+          "workedExampleData": {
+            "problemStatement": "朋友問你 \"Are you hungry?\"，如果不餓要怎麼簡答？",
+            "steps": [
+              "第 1 步：否定回答先說 No,",
+              "第 2 步：把問句的 you 換成回答自己的 I",
+              "第 3 步：加上否定詞，組成完整的 No, I'm not."
+            ],
+            "commonErrorContrast": "常見錯誤：回答成 Yes, you are. 或 No, it isn't.，忘了主詞要從 you 換成 I。",
+            "selfExplanationPrompt": "想一想：如果看到運動完喘氣的同學說 \"I'm tired.\"，他現在是什麼感覺？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/english#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "感覺單字快速分類",
+          "topicSignalTitle": "身體需求 vs. 心情情緒",
+          "narrationText": "thirsty（口渴）、hungry（飢餓）、tired（疲倦）偏向身體生理感受；happy（開心）、sad（難過）、angry（生氣）偏向心情情緒。",
+          "cognitiveChunks": [
+            "生理：thirsty, hungry, tired",
+            "心情：happy, sad, angry"
+          ],
+          "factGroundingSourceId": "115-s1/g4/english#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "用這題確認 Are you ...? 的肯定簡答文法！",
+          "cognitiveChunks": [
+            "Are you ...? 的肯定回答是 Yes, I am."
+          ],
+          "warmupCheck": {
+            "prompt": "當同學問你 \"Are you thirsty?\"，如果你真的很渴，要怎麼回答？",
+            "options": [
+              "Yes, it is.",
+              "Yes, I am.",
+              "No, I'm not.",
+              "Yes, you are."
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！對方問 you，自己回答時要用 Yes, I am.。",
+            "feedbackRetry": "別人問你「Are you ...?」，回答時主詞要換成「我（I）」喔！"
+          },
+          "factGroundingSourceId": "115-s1/g4/english#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-english-u3",
+      "stageId": "115-s1-g4-english-u3",
+      "title": "Review 1",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "統整比較：天氣問答 vs. 感覺問答",
+          "narrationText": "Review 1 把前兩個單元串起來：大熱天時常會口渴（It's hot and sunny! I'm thirsty.）。把「天氣用 It」和「感覺用 I」分清楚就不會混亂。",
+          "cognitiveChunks": [
+            "天氣：How's the weather? → It's ...",
+            "感覺：Are you ...? → Yes, I am. / I'm ...",
+            "數字 16–20 與子音 s-/z-, b-/p-, c-/g-"
+          ],
+          "analogyAnchor": "天氣是外在環境，主詞派「It」當代表；感覺是自己的心情或身體狀況，主詞派「I」當代表。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "Unit 1 天氣（主詞 It）",
+              "leftPoints": [
+                "How's the weather?",
+                "It's hot / sunny / cloudy."
+              ],
+              "rightTitle": "Unit 2 感覺（主詞 I）",
+              "rightPoints": [
+                "Are you hungry / thirsty?",
+                "I'm hungry / thirsty / happy."
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u3-l1",
+                "text": "天氣主詞用It",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u3-l2",
+                "text": "感覺主詞用I",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/english#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "情境對話串接與 Phonics z-/s- 分辨",
+          "narrationText": "在生活對話裡，天氣常會影響我們的感覺；同時複習發震動音 /z/ 的字（zebra, zoo）與無聲 /s/（sun）。",
+          "cognitiveChunks": [
+            "先答天氣，再自然接續自己的感覺",
+            "zebra, zoo 同樣以 z- 開頭念 /z/",
+            "bag, bed, box 同樣以 b- 開頭念 /b/"
+          ],
+          "workedExampleData": {
+            "problemStatement": "天氣大太陽又很熱：\"It's hot and sunny!\" 後面接哪一句感覺對話最自然？",
+            "steps": [
+              "第 1 步：先理解前一句「It's hot and sunny!」是大熱天出太陽",
+              "第 2 步：天氣很熱時，身體最常出現「口渴」的感覺",
+              "第 3 步：用 I 開頭表達自己口渴，寫成 I'm thirsty."
+            ],
+            "commonErrorContrast": "常見錯誤：把主詞搞混說成 I'm rainy. 或 It's thirsty.。",
+            "selfExplanationPrompt": "想一想：\"How's the weather?\" 和 \"Are you hungry?\" 這兩句開頭為什麼分別是 How's 和 Are？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/english#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "Review 1 數字與子音檢查站",
+          "topicSignalTitle": "19 位學生英文怎麼說？s- 與 z- 怎麼分？",
+          "narrationText": "19 是 nineteen，後面直接接複數名詞（nineteen students）；念 zoo 和 zebra 時喉嚨要發出嗡嗡震動聲，念 sun 時則不用。",
+          "cognitiveChunks": [
+            "nineteen (19) ≠ ninety (90)",
+            "z- 有聲震動（zebra, zoo）",
+            "s- 無聲氣音（sun）"
+          ],
+          "factGroundingSourceId": "115-s1/g4/english#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "練習一題跨單元主詞辨識，準備進入 Review 1 挑戰！",
+          "cognitiveChunks": [
+            "天氣用 It's，自己感覺用 I'm"
+          ],
+          "warmupCheck": {
+            "prompt": "想表達「天氣多雲」和「我很開心」，下列哪一組句子完全正確？",
+            "options": [
+              "I'm cloudy. / It's happy.",
+              "It's cloudy. / I'm happy.",
+              "They're cloudy. / You're happy.",
+              "It's happy. / I'm cloudy."
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！天氣用 It's cloudy.，自己的感覺用 I'm happy.。",
+            "feedbackRetry": "記得「天氣用 It、感覺用 I」，檢查看看有沒有對調喔！"
+          },
+          "factGroundingSourceId": "115-s1/g4/english#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-english-u4",
+      "stageId": "115-s1-g4-english-u4",
+      "title": "Unit 3 What Are These?",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "單數「這個」vs. 複數「這些」食物水果",
+          "narrationText": "指著近處一個食物問「What's this? / It's a/an ...」；指著近處兩個以上時，要換成複數句型「What are these? / They're ...」。",
+          "cognitiveChunks": [
+            "單數近物：this → It's a/an ...",
+            "複數近物：these → They're ... + 名詞加 s",
+            "疑問句：Are these ...? → Yes, they are."
+          ],
+          "analogyAnchor": "數量從 1 變成 2 以上時，句子要全套升級：is 升級成 are，this 升級成 these，It's 升級成 They're，水果字尾也要戴上 -s。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "單數（只有 1 個）",
+              "leftPoints": [
+                "What's this?",
+                "It's an apple. / a banana."
+              ],
+              "rightTitle": "複數（2 個以上）",
+              "rightPoints": [
+                "What are these?",
+                "They're apples. / bananas."
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u4-l1",
+                "text": "單數this配It's",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u4-l2",
+                "text": "複數用They're",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/english#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "複數名詞變化與 They're 答句檢查",
+          "narrationText": "寫複數句時最常忘記兩件事：第一是把 a/an 拿掉，第二是在可數食物字尾加上 -s。",
+          "cognitiveChunks": [
+            "複數名詞不可加 a 或 an",
+            "apples, bananas, oranges, eggs, grapes",
+            "Are these ...? 用 they 回答"
+          ],
+          "workedExampleData": {
+            "problemStatement": "朋友指著一籃蘋果問：\"What are these?\" 要如何正確回答？",
+            "steps": [
+              "第 1 步：問句是複數的 these，回答主詞與動詞用 They're（= They are）",
+              "第 2 步：apple 超過一顆要改成複數 apples，且不能加 an",
+              "第 3 步：組合成完整回答：They're apples."
+            ],
+            "commonErrorContrast": "常見錯誤：寫成 They're an apples. 或 They're apple.（忘了去 an 或忘了字尾加 -s）。",
+            "selfExplanationPrompt": "想一想：如果問句是 \"Are these sandwiches?\"，肯定簡答要用 it 還是 they？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/english#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "常見食物複數拼字小檢查",
+          "topicSignalTitle": "banana 複數是 bananas 還是 bananaes？",
+          "narrationText": "apple, banana, orange, egg, grape 這些常見食物與水果，變複數時都是直接在字尾加上 -s，不需要加 e！",
+          "cognitiveChunks": [
+            "bananas, apples, oranges",
+            "eggs, grapes",
+            "sandwiches 字尾 ch 才加 -es"
+          ],
+          "factGroundingSourceId": "115-s1/g4/english#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題單複數句型轉換，確認不會漏掉 -s！",
+          "cognitiveChunks": [
+            "複數句：These are ... / They're ... + 名詞s"
+          ],
+          "warmupCheck": {
+            "prompt": "想表達「這些是葡萄」，下列哪一個英文句子完全正確？",
+            "options": [
+              "This is grapes.",
+              "These are a grapes.",
+              "These are grapes.",
+              "It's grapes."
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！複數指示代名詞 These 搭配 are 和複數名詞 grapes。",
+            "feedbackRetry": "複數「這些」要用 These are，而且不可加上單數的 a 喔！"
+          },
+          "factGroundingSourceId": "115-s1/g4/english#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-english-u5",
+      "stageId": "115-s1-g4-english-u5",
+      "title": "Unit 4 Do You Want Some Pizza?",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "用 Do you want ...? 詢問與禮貌點餐",
+          "narrationText": "想問別人「你想要一些……嗎？」，要用助動詞 Do 開頭問「Do you want some ...?」。接受說 Yes, please.，婉拒說 No, thank you.。",
+          "cognitiveChunks": [
+            "問句：Do you want some + 食物/飲料?",
+            "禮貌接受：Yes, please.",
+            "禮貌婉拒：No, thank you."
+          ],
+          "analogyAnchor": "句子裡已經有動作詞「want（想要）」時，不能請 Are 來幫忙，要請助動詞「Do」站到句首當提問隊長。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "禮貌接受對方好意",
+              "leftPoints": [
+                "Yes, please.",
+                "I want some pizza, please."
+              ],
+              "rightTitle": "禮貌婉拒對方好意",
+              "rightPoints": [
+                "No, thank you.",
+                "（不用了，謝謝你。）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u5-l1",
+                "text": "Yes, please",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u5-l2",
+                "text": "No, thanks",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/english#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "可數複數與不可數飲料搭配 some",
+          "narrationText": "在「I want some ...」句型中，some 後面可以接複數食物（cookies），也可以接液體或不可數食物（milk, juice, water, pizza, bread）。",
+          "cognitiveChunks": [
+            "want 是一般動詞，疑問句用 Do 開頭",
+            "液體飲料（milk, juice, water）不加 a 也不加 s",
+            "複數食物（cookies, noodles）搭配 some"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何用英文禮貌說「我想要一些餅乾和牛奶」？",
+            "steps": [
+              "第 1 步：用 I want 開頭表達「我想要」",
+              "第 2 步：cookies（複數）與 milk（不可數飲料，不加 s）共用 some 連接",
+              "第 3 步：句尾加上 please，寫成 I want some cookies and milk, please."
+            ],
+            "commonErrorContrast": "常見錯誤：問句寫成 Are you want some pizza?，或把牛奶寫成 a milks。",
+            "selfExplanationPrompt": "想一想：如果對方問 \"What do you want to drink?\"，應該回答 cake 還是 milk？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/english#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "吃的食物 vs. 喝的飲料",
+          "topicSignalTitle": "to eat 與 to drink 不要答錯囉！",
+          "narrationText": "eat 是吃固體食物（pizza, bread, cake, noodles）；drink 是喝液體飲料（milk, juice, water, tea）。點餐時要看清楚對方問的是哪一個！",
+          "cognitiveChunks": [
+            "eat：pizza, bread, cake, cookies",
+            "drink：milk, juice, water, tea"
+          ],
+          "factGroundingSourceId": "115-s1/g4/english#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "用這題確認 Do you want ...? 的禮貌回覆方式！",
+          "cognitiveChunks": [
+            "接受說 Yes, please.；婉拒說 No, thank you."
+          ],
+          "warmupCheck": {
+            "prompt": "朋友端出果汁問你：\"Do you want some juice?\"，如果你不想喝，最有禮貌的回答是哪一句？",
+            "options": [
+              "No, I am.",
+              "No, thank you.",
+              "Yes, it is.",
+              "Yes, I don't."
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！禮貌婉拒別人提供的食物或飲料時，說 No, thank you.。",
+            "feedbackRetry": "拒絕別人的好意時要加上感謝，是「No, thank you.」喔！"
+          },
+          "factGroundingSourceId": "115-s1/g4/english#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-english-u6",
+      "stageId": "115-s1-g4-english-u6",
+      "title": "Review 2, Final Review & Culture Food Around the World",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "全冊四大句型總整理與世界美食文化",
+          "narrationText": "期末總複習把本學期四大核心句型（天氣、感覺、單複數食物、點餐）串成完整對話，並透過 Food Around the World 欣賞各國飲食文化。",
+          "cognitiveChunks": [
+            "形容詞問句用 Are you ...?（thirsty, hungry）",
+            "一般動詞問句用 Do you want ...?",
+            "尊重各國不同的飲食習慣與餐桌文化"
+          ],
+          "analogyAnchor": "全冊句型就像四把實用的英語鑰匙：問天氣用 How's、問感覺用 Are you、問物品複數用 What are these、問想要什麼用 Do you want。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "be 動詞疑問句（Are you）",
+              "leftPoints": [
+                "接形容詞：thirsty, hungry, happy",
+                "Are you thirsty?"
+              ],
+              "rightTitle": "助動詞疑問句（Do you）",
+              "rightPoints": [
+                "接一般動詞：want",
+                "Do you want some water?"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u6-l1",
+                "text": "形容詞搭配Are",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u6-l2",
+                "text": "動詞want搭配Do",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/english#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "跨單元綜合對話與世界美食詞彙",
+          "narrationText": "在讀者劇場與綜合對話中，常常會一次問到天氣、感覺和想吃的食物；回答時要逐句對齊主詞與單複數。",
+          "cognitiveChunks": [
+            "It's cool. (天氣) / Yes, I'm hungry. (感覺)",
+            "I want some rice, please. (點餐)",
+            "稱讚美食很好吃：It's yummy!"
+          ],
+          "workedExampleData": {
+            "problemStatement": "朋友問 \"How's the weather?\" 和 \"Are you hungry?\"，如何回答「很涼爽、我餓了、想吃一些飯」？",
+            "steps": [
+              "第 1 步：回答天氣「很涼爽」：It's cool.",
+              "第 2 步：回答感覺「是的，我餓了」：Yes, I'm hungry.",
+              "第 3 步：禮貌點餐「我想要一些飯」：I want some rice, please."
+            ],
+            "commonErrorContrast": "常見錯誤：把 rice 加上 s 寫成 a rices，或把 Are you thirsty? 錯寫成 Do you thirsty?。",
+            "selfExplanationPrompt": "想一想：面對世界各地和自己家鄉很不一樣的料理與餐具，我們應該抱持什麼態度？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/english#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "Phonics 總複習與多元文化素養",
+          "topicSignalTitle": "s-, f-, g-, t- 拼讀與尊重世界美食文化",
+          "narrationText": "複習本學期學過的所有字首子音（b-, p-, d-, t-, g-, c-, v, f-, z-, s-），並以開放尊重的心情認識 sushi, pizza, noodles 等世界美食。",
+          "cognitiveChunks": [
+            "sun (s-), fish (f-), goat (g-), ten (t-)",
+            "欣賞不同國家的飲食風土民情"
+          ],
+          "factGroundingSourceId": "115-s1/g4/english#u6"
+        },
+        {
+          "sceneId": "u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "用這題確認 Are you 與 Do you 的文法差別，準備挑戰期末總複習！",
+          "cognitiveChunks": [
+            "形容詞用 Are，一般動詞用 Do"
+          ],
+          "warmupCheck": {
+            "prompt": "為什麼問「你餓了嗎？」說 \"Are you hungry?\"，問「你想要一些水嗎？」卻說 \"Do you want some water?\"？",
+            "options": [
+              "因為 hungry 是形容詞配 Are；want 是一般動詞配 Do",
+              "因為只有水才需要用 Do",
+              "兩者可以隨便交換使用",
+              "因為早上用 Are，下午用 Do"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！抓到這個詞性規則，英文疑問句就再也不會用錯囉！",
+            "feedbackRetry": "比較看看兩個句子裡關鍵字「hungry（形容詞）」和「want（動詞）」的詞性差異喔！"
+          },
+          "factGroundingSourceId": "115-s1/g4/english#u6"
+        }
+      ]
+    }
+  ]
+}

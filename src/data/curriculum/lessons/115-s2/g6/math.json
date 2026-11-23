@@ -8,6 +8,215 @@
   "lessons": [
     {
       "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-math-u1",
+      "stageId": "115-s2-g6-math-u1",
+      "title": "第一單元 小數與分數的計算",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "g6s2-u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "分數與小數混合計算的順序與轉換",
+          "narrationText": "計算整數、分數與小數的混合算式時，遵守「先算括號內、再算乘除、最後算加減」的原則，並靈活把分數和小數統一成同一種形式。",
+          "cognitiveChunks": [
+            "除不盡的分數（如 1/3）建議全部換成分數計算",
+            "能化成有限小數（如 1/2 = 0.5、4/5 = 0.8）可換小數",
+            "善用分配律：a × b + a × c = a × (b + c)"
+          ],
+          "analogyAnchor": "小數和分數就像台幣和外幣，算錢之前先換成同一種幣別，才不會算錯！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先算括號內算式",
+                "統一化成小數或分數",
+                "先乘除、後加減",
+                "檢查能否用分配律簡化"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-u1-l1",
+                "text": "先括號再乘除",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "g6s2-u1-l2",
+                "text": "善用分配律簡化",
+                "anchorPointId": "step4"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/math#u1"
+        },
+        {
+          "sceneId": "g6s2-u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "運用分配律與交換律簡化算式",
+          "narrationText": "看到兩個乘法算式有「共同乘數」，或看到 2.5 × 4、1.25 × 8 這種好朋友數字時，先合併計算最快最準！",
+          "cognitiveChunks": [
+            "提出共同乘數再相加減",
+            "2.5 × 4 = 10；1.25 × 8 = 10"
+          ],
+          "workedExampleData": {
+            "problemStatement": "計算 3.7 × 6.4 + 3.7 × 3.6 與 (4/5 - 0.3) ÷ 1/4。",
+            "steps": [
+              "第 1 步：第一題兩邊都有 3.7，提出 3.7：3.7 × (6.4 + 3.6) = 3.7 × 10 = 37",
+              "第 2 步：第二題先算括號內，把 4/5 換成 0.8，0.8 - 0.3 = 0.5（即 1/2）",
+              "第 3 步：除以 1/4 等於乘以 4：1/2 × 4 = 2"
+            ],
+            "commonErrorContrast": "常見錯誤：沒有先乘除後加減（例如 0.75 + 0.5 × 1.6 誤先算 0.75 + 0.5），或看到「全部的 2/5」直接減 2/5 公尺。",
+            "selfExplanationPrompt": "想一想：如果算式裡有 1/3，為什麼通常要把小數換成分數來算比較準確？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/math#u1"
+        },
+        {
+          "sceneId": "g6s2-u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "應用題提醒：概數估算與「佔全部的幾分之幾」",
+          "topicSignalTitle": "估算先抓整數，分數部分量記得用乘法",
+          "narrationText": "估算如 19.8 × 4.95 時，先取概數成 20 × 5 = 100 即可快速驗算；題目說「用掉全部的 2/5」，要先用總長乘以 2/5 算出長度。",
+          "cognitiveChunks": [
+            "概數估算可檢查答案是否合理",
+            "總量 × 分數比率 ＝ 部分量"
+          ],
+          "factGroundingSourceId": "115-s2/g6/math#u1"
+        },
+        {
+          "sceneId": "g6s2-u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認四則運算順序與小數分數互化！",
+          "cognitiveChunks": [
+            "先乘除、後加減"
+          ],
+          "warmupCheck": {
+            "prompt": "計算 0.25 + 3/4 × 2 = ?",
+            "options": [
+              "2",
+              "1.75",
+              "1.5",
+              "1"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！先算乘法 3/4 × 2 = 1.5，再加上 0.25 得到 1.75。",
+            "feedbackRetry": "記得「先乘除後加減」，先把四分之三（0.75）乘以 2，最後才加 0.25 喔！"
+          },
+          "factGroundingSourceId": "115-s2/g6/math#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-math-u2",
+      "stageId": "115-s2-g6-math-u2",
+      "title": "第二單元 速率的應用",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "g6s2-u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "相遇、追趕與順流逆流的速率應用",
+          "narrationText": "六年級下學期把速率應用在兩人相向相遇、同向追趕與河流順逆流問題，關鍵在於判斷「速率要相加還是相減」。",
+          "cognitiveChunks": [
+            "相向相遇或反方向相背：距離和 ÷ 速率和",
+            "同方向追趕：距離差 ÷ 速率差",
+            "順流船速 ＝ 靜水船速 ＋ 水速；逆流 ＝ 船速 － 水速"
+          ],
+          "analogyAnchor": "在機場的電動步道上，順著走（順流）會被推著變快，逆著走（逆流）會被往後拉而變慢。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "速率相加（合力）",
+              "leftPoints": [
+                "兩人相向而行（相遇）",
+                "兩人反方向而行（相背）",
+                "順流船速（船速 ＋ 水速）"
+              ],
+              "rightTitle": "速率相減（抵銷）",
+              "rightPoints": [
+                "同方向一前一後（追趕）",
+                "逆流船速（船速 － 水速）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-u2-l1",
+                "text": "相遇順流速率相加",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s2-u2-l2",
+                "text": "追趕逆流速率相減",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/math#u2"
+        },
+        {
+          "sceneId": "g6s2-u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "拆解相遇與追趕問題",
+          "narrationText": "解決相遇或追趕問題，先畫出線段圖確認兩人出發時的距離，再除以每分鐘共同靠近（或追近）的距離。",
+          "cognitiveChunks": [
+            "相遇時間 ＝ 總距離 ÷ (甲速率 ＋ 乙速率)",
+            "追趕時間 ＝ 領先距離 ÷ (快速率 － 慢速率)"
+          ],
+          "workedExampleData": {
+            "problemStatement": "弟弟分速 60 公尺先走 5 分鐘，姊姊以分速 90 公尺同方向追趕，幾分鐘能追上？",
+            "steps": [
+              "第 1 步：先算弟弟已經領先的距離：60 × 5 = 300 公尺",
+              "第 2 步：算姊姊每分鐘能追近幾公尺（速率差）：90 - 60 = 30 公尺／分",
+              "第 3 步：追趕時間 = 300 ÷ 30 = 10 分鐘"
+            ],
+            "commonErrorContrast": "常見錯誤：在追趕問題中誤把兩人速率相加（60 + 90），或忘記先算弟弟先走 5 分鐘拉開的 300 公尺。",
+            "selfExplanationPrompt": "想一想：在相同距離下，如果下山花的時間是上山的 2/3，下山的速率是上山的幾倍？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/math#u2"
+        },
+        {
+          "sceneId": "g6s2-u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "平均速率與單位換算別粗心",
+          "topicSignalTitle": "大單位換小單位（時速→分速→秒速）",
+          "narrationText": "計算不同時間區段的平均速率，一定要用「總距離 ÷ 總時間」；進行單位換算時，1 分鐘 = 60 秒、1 公里 = 1000 公尺。",
+          "cognitiveChunks": [
+            "平均速率 ＝ 總距離 ÷ 總時間",
+            "秒速 × 60 ＝ 分速"
+          ],
+          "factGroundingSourceId": "115-s2/g6/math#u2"
+        },
+        {
+          "sceneId": "g6s2-u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認順流船速的計算方式！",
+          "cognitiveChunks": [
+            "順流時速 ＝ 靜水船速 ＋ 水速"
+          ],
+          "warmupCheck": {
+            "prompt": "一艘船在靜水中的時速是 15 公里／時，河水流速是 3 公里／時，這艘船「順流」行駛的時速是多少？",
+            "options": [
+              "12 公里／時",
+              "15 公里／時",
+              "18 公里／時",
+              "45 公里／時"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！順流時河水幫忙推著船前進，所以時速是 15 + 3 = 18 公里／時。",
+            "feedbackRetry": "順流是順著水流方向前進，船速會變快，要把靜水船速加上水流速率喔！"
+          },
+          "factGroundingSourceId": "115-s2/g6/math#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
       "lessonId": "lesson-115-s2-g6-math-u3",
       "stageId": "115-s2-g6-math-u3",
       "title": "第三單元 柱體體積與表面積",
@@ -79,6 +288,313 @@
             "feedbackRetry": "別忘了底面是「三角形」，要先算 4 × 3 ÷ 2 = 6 得到底面積，再乘上柱高 10 喔！"
           },
           "factGroundingSourceId": "115-s2/g6/math#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-math-u4",
+      "stageId": "115-s2-g6-math-u4",
+      "title": "第四單元 基準量與比較量",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "g6s2-u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "基準量當作 1，比較量看倍數",
+          "narrationText": "在「甲是乙的 1.5 倍」這句話中，被比較的「乙」就是基準量（視為 1），「甲」就是比較量（1.5）。用線段圖就能輕鬆看懂母子和與母子差。",
+          "cognitiveChunks": [
+            "比較量 ＝ 基準量 × 比值",
+            "基準量 ＝ 比較量 ÷ 比值",
+            "母子和 ＝ 基準量 × (1 ＋ 比值)；母子差 ＝ 基準量 × (比值 － 1)"
+          ],
+          "analogyAnchor": "基準量就像一把標準的 1 公尺尺子，比較量則是看這件物品有幾把尺子那麼長。",
+          "visualSpec": {
+            "templateId": "fraction_bar",
+            "params": {
+              "numerator": 3,
+              "denominator": 5,
+              "label": "基準量(1)＋比較量(3/5)＝8/5"
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-u4-l1",
+                "text": "基準量視為 1",
+                "anchorPointId": "whole"
+              },
+              {
+                "id": "g6s2-u4-l2",
+                "text": "比較量看倍數",
+                "anchorPointId": "part"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/math#u4"
+        },
+        {
+          "sceneId": "g6s2-u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "由母子和、母子差反求基準量",
+          "narrationText": "當題目給「總和」或「相差」卻沒給基準量時，先算出總和或相差對應「幾倍」，再用除法就能求出基準量（1）！",
+          "cognitiveChunks": [
+            "總和 ÷ (1 ＋ 比值) ＝ 基準量",
+            "相差 ÷ |1 － 比值| ＝ 基準量"
+          ],
+          "workedExampleData": {
+            "problemStatement": "一件衣服和一條褲子共 1400 元，褲子價錢是衣服的 0.75 倍，衣服多少元？",
+            "steps": [
+              "第 1 步：把「衣服」當作基準量 1，則「褲子」是 0.75",
+              "第 2 步：衣服和褲子合起來對應的倍數是 1 + 0.75 = 1.75 倍",
+              "第 3 步：反求基準量（衣服）：1400 ÷ 1.75 = 800 元"
+            ],
+            "commonErrorContrast": "常見錯誤：看到 1400 元和 0.75 倍就直接相乘（1400 × 0.75），沒看清 1400 元是兩件合起來的「母子和」。",
+            "selfExplanationPrompt": "想一想：如果甲數是乙數的 4 倍，交換基準量改以甲數為 1 時，乙數會是甲數的幾倍？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/math#u4"
+        },
+        {
+          "sceneId": "g6s2-u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "快速辨認誰是「基準量」",
+          "topicSignalTitle": "「的」前面的那一個通常是基準量！",
+          "narrationText": "讀句子「A 是 B 的 1.2 倍」或「A 比 B 多 20%」時，「的」或「比」後面的 B 就是基準量（視為 1），先找對基準量就成功一半。",
+          "cognitiveChunks": [
+            "求比較量用乘法；反求基準量用除法",
+            "交換基準量時，兩者比值互為倒數"
+          ],
+          "factGroundingSourceId": "115-s2/g6/math#u4"
+        },
+        {
+          "sceneId": "g6s2-u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題練習反求基準量！",
+          "cognitiveChunks": [
+            "比較量 ÷ 倍數 ＝ 基準量"
+          ],
+          "warmupCheck": {
+            "prompt": "故事書有 36 本，是漫畫書的 1.2 倍（以漫畫書為基準量），漫畫書有幾本？",
+            "options": [
+              "43.2 本",
+              "30 本",
+              "24 本",
+              "37.2 本"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！漫畫書是基準量 1，36 ÷ 1.2 = 30 本。",
+            "feedbackRetry": "故事書（比較量）已經知道是 36 本了，要反過來求基準量漫畫書，應該用除法 36 ÷ 1.2 喔！"
+          },
+          "factGroundingSourceId": "115-s2/g6/math#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-math-u5",
+      "stageId": "115-s2-g6-math-u5",
+      "title": "第五單元 怎樣解題",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "g6s2-u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "五大經典解題策略總整理",
+          "narrationText": "〈怎樣解題〉教你用「假設法」破雞兔問題、用「年齡差不變」解年齡問題、用「圖示對稱」解和差問題，以及乘法與加法計數原理。",
+          "cognitiveChunks": [
+            "雞兔問題：先全部假設成一種，看總數差多少再替換",
+            "年齡問題：兩人年齡差永遠不變",
+            "和差問題：大數＝(和＋差)÷2；小數＝(和－差)÷2"
+          ],
+          "analogyAnchor": "面對複雜應用題就像解鎖寶箱，每種題型都有一把專屬鑰匙（如假設法、畫線段圖、列表找規律）。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "雞兔／和差／年齡",
+              "leftPoints": [
+                "雞兔：算總差 ÷ 單個差",
+                "年齡：兩人相差歲數永遠不變"
+              ],
+              "rightTitle": "加法與乘法計數原理",
+              "rightPoints": [
+                "分類只選一種（互斥）→ 用加法",
+                "分步驟搭配（連續）→ 用乘法"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-u5-l1",
+                "text": "雞兔年齡抓不變量",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s2-u5-l2",
+                "text": "分類加法搭配乘法",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/math#u5"
+        },
+        {
+          "sceneId": "g6s2-u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用「假設法」秒解雞兔同籠問題",
+          "narrationText": "遇到兩種動物（或兩種硬幣）知道總個數和總腳數（或總金額）時，假設法最穩最快！",
+          "cognitiveChunks": [
+            "第 1 步：全部假設成腳數較少的那一種",
+            "第 2 步：算出總差距 ÷ 兩者單個差距"
+          ],
+          "workedExampleData": {
+            "problemStatement": "雞和兔子共有 14 隻，腳共有 40 隻，籠子裡有幾隻兔子？",
+            "steps": [
+              "第 1 步：假設 14 隻全部都是 2 隻腳的雞，共有 14 × 2 = 28 隻腳",
+              "第 2 步：比實際的 40 隻腳少了 40 - 28 = 12 隻腳",
+              "第 3 步：每把 1 隻雞換成兔子多 4 - 2 = 2 隻腳，所以兔子有 12 ÷ 2 = 6 隻"
+            ],
+            "commonErrorContrast": "常見錯誤：算出 12 ÷ 2 = 6 後，忘記自己一開始假設的是「雞」，誤把 6 當成雞的數量。",
+            "selfExplanationPrompt": "想一想：如果題目問「3 種主餐搭 4 種飲料有幾種點法」，為什麼要用乘法而不是加法？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/math#u5"
+        },
+        {
+          "sceneId": "g6s2-u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "計數原理：何時用加法？何時用乘法？",
+          "topicSignalTitle": "「只選一種」用加法，「兩者搭配」用乘法",
+          "narrationText": "從 2 班火車或 3 條客運裡「只選一種」搭法，互不重複所以用加法 2 + 3 = 5；要點 1 份主餐「搭配」1 杯飲料，分兩步完成所以用乘法 3 × 4 = 12。",
+          "cognitiveChunks": [
+            "互斥選一（或）→ 加法原理",
+            "連續搭配（且）→ 乘法原理"
+          ],
+          "factGroundingSourceId": "115-s2/g6/math#u5"
+        },
+        {
+          "sceneId": "g6s2-u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題練習和差問題的線段思考！",
+          "cognitiveChunks": [
+            "較小數 ＝ (和 － 差) ÷ 2"
+          ],
+          "warmupCheck": {
+            "prompt": "甲、乙兩數的和是 50，甲數比乙數大 10，請問較小的「乙數」是多少？",
+            "options": [
+              "30",
+              "20",
+              "25",
+              "40"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！(50 - 10) ÷ 2 = 20，乙數是 20，甲數是 30。",
+            "feedbackRetry": "先把總和 50 扣掉甲多出來的 10，剩下的兩數就一樣大了，再除以 2 看看！"
+          },
+          "factGroundingSourceId": "115-s2/g6/math#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-math-u6",
+      "stageId": "115-s2-g6-math-u6",
+      "title": "第六單元 圓形圖",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "g6s2-u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "用圓形圖看出各部分佔整體的百分比",
+          "narrationText": "圓形圖把整個圓當作 100%（圓心角 360°），能一眼看出每個類別佔全部的比例大小，也能用來比較事件發生的可能性。",
+          "cognitiveChunks": [
+            "圓心角 ＝ 360° × 該項百分率",
+            "項目數量 ＝ 總數量 × 該項百分率",
+            "扇形面積越大，代表該事件發生的可能性越高"
+          ],
+          "analogyAnchor": "圓形圖就像把一個圓形大披薩依各項目比例切塊，佔 25% 就切出剛好 90° 的四分之一塊！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "統計各類別數量與總數",
+                "算出百分率（總和 100%）",
+                "乘以 360° 算出圓心角",
+                "用直尺與量角器畫扇形"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s2-u6-l1",
+                "text": "百分率總和100%",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "g6s2-u6-l2",
+                "text": "直尺量角器繪圖",
+                "anchorPointId": "step4"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/math#u6"
+        },
+        {
+          "sceneId": "g6s2-u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "百分率換算圓心角與報讀人數",
+          "narrationText": "畫圓形圖時，把百分率乘以 360° 得到圓心角；畫「圓形百分圖」則搭配 100 等分模版用直尺連線。",
+          "cognitiveChunks": [
+            "圓心角 ＝ 360° × 比率",
+            "四捨五入總和不是 100% 時調整最大項"
+          ],
+          "workedExampleData": {
+            "problemStatement": "全班 40 人投票選社團，運動社佔 25%、閱讀社佔 15%，運動社的圓心角是幾度？共有幾人？",
+            "steps": [
+              "第 1 步：算運動社圓心角：360° × 25% = 360° × 0.25 = 90°",
+              "第 2 步：算運動社人數：40 × 25% = 40 × 0.25 = 10 人",
+              "第 3 步：若製作圓形百分圖遇四捨五入總和為 99% 或 101%，應調整占比最大的項目使總和剛好為 100%"
+            ],
+            "commonErrorContrast": "常見錯誤：直接把百分率數字當成度數（例如 25% 誤畫成 25°），忘記整個圓是 360° 而不是 100°。",
+            "selfExplanationPrompt": "想一想：如果抽獎圓形圖中安慰獎佔 50%、頭獎佔 5%，閉眼抽籤最可能抽到哪一個？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/math#u6"
+        },
+        {
+          "sceneId": "g6s2-u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "從圓形圖判讀事件發生的「可能性」",
+          "topicSignalTitle": "面積越大的扇形，被選中或抽到的機會越大",
+          "narrationText": "在統計圓形圖中，各扇形的比例直接反映出現頻率的高低；佔比越大的類別，隨機抽取時出現的可能性就越高。",
+          "cognitiveChunks": [
+            "百分率越大 → 可能性越高",
+            "百分率越小 → 可能性越低"
+          ],
+          "factGroundingSourceId": "115-s2/g6/math#u6"
+        },
+        {
+          "sceneId": "g6s2-u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題練習圓形圖的圓心角計算！",
+          "cognitiveChunks": [
+            "整圓 ＝ 360° ＝ 100%"
+          ],
+          "warmupCheck": {
+            "prompt": "某個項目在圓形圖中佔了 50%，它對應的扇形圓心角是多少度？",
+            "options": [
+              "50°",
+              "90°",
+              "180°",
+              "360°"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "完全正確！50% 就是一半，360° × 50% = 180°。",
+            "feedbackRetry": "整個圓是 360 度喔！50% 剛好是整個圓的一半，算算看 360 除以 2。"
+          },
+          "factGroundingSourceId": "115-s2/g6/math#u6"
         }
       ]
     }

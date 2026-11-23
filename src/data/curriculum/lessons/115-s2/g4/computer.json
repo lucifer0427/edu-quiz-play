@@ -1,0 +1,841 @@
+{
+  "packId": "115-s2-g4-computer",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 4,
+  "subjectId": "computer",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-computer-u1",
+      "stageId": "115-s2-g4-computer-u1",
+      "title": "第1週：海洋守護者：深海生態數位手冊",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "雲端資料夾分類與 PowerPoint 數位手冊",
+          "narrationText": "製作海洋保育數位手冊前，先在雲端硬碟建立「四下電腦課」分類資料夾管理素材，再用 PowerPoint 文字方塊編排內容並同步備份。",
+          "cognitiveChunks": [
+            "海洋廢棄物易被生物誤食或纏繞，威脅生態",
+            "在雲端硬碟建立「四下電腦課」與子資料夾分類",
+            "插入文字方塊編排標題、重點與高對比配色"
+          ],
+          "analogyAnchor": "雲端資料夾就像整齊的潛水裝備櫃，把深海圖片與簡報分格收好，再用文字方塊替每種生物寫下清楚的生態圖鑑卡。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "建「四下電腦課」資料夾",
+                "文字方塊編排生態手冊",
+                "命名存檔並雲端同步"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u1-l1",
+                "text": "建立資料夾分類素材",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "u1-l2",
+                "text": "上傳同步防檔案遺失",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/computer#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "易讀排版與雲端備份命名規範",
+          "narrationText": "數位手冊要字體適中、文字條列且與深海背景形成清楚對比，完成後以清楚檔名上傳雲端同步備份。",
+          "cognitiveChunks": [
+            "深藍背景配白色或淺黃色文字提升對比度",
+            "檔名包含「班級座號-姓名-主題」方便辨識",
+            "公用電腦會還原，務必上傳雲端硬碟備份"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在深藍色海底背景插入深海生物介紹「文字方塊」後發現字看不清楚，且準備下課離開電腦教室，該怎麼處理？",
+            "steps": [
+              "第 1 步：把文字改成白色或淺黃色高對比色彩，或加上半透明淺色底色並精簡條列",
+              "第 2 步：以「班級座號-姓名-深海生態手冊」清楚命名存檔",
+              "第 3 步：上傳並同步至雲端硬碟「四下電腦課」資料夾，避免公用電腦重開機遺失"
+            ],
+            "commonErrorContrast": "常見錯誤：把兩千字小黑字擠在深藍背景上，或存成「11111」未上傳雲端就關機。",
+            "selfExplanationPrompt": "想一想：為什麼海洋廢棄物對深海生物會造成嚴重的威脅？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/computer#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "守護海洋生態的數位行動",
+          "topicSignalTitle": "為什麼要建立子資料夾並做好雲端同步？",
+          "narrationText": "把圖片素材與簡報分開存放在「四下電腦課」子資料夾能加快找圖速度，而雲端同步則能讓作品在學校與家裡都能隨時接續編輯。",
+          "cognitiveChunks": [
+            "文字、簡報與圖片素材分層存放",
+            "清楚命名檔名方便師生辨識版本",
+            "完成後立即上傳雲端硬碟同步備份"
+          ],
+          "factGroundingSourceId": "115-s2/g4/computer#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次在 PowerPoint 加入介紹文字的工具，準備闖關！",
+          "cognitiveChunks": [
+            "文字方塊是輸入與編排說明文字的基本工具"
+          ],
+          "warmupCheck": {
+            "prompt": "想在 PowerPoint 空白版面加入深海生物介紹文字並調整字體大小，應該使用哪一項基本工具？",
+            "options": [
+              "音量靜音按鈕",
+              "插入「文字方塊」",
+              "資源回收筒"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！插入文字方塊後就能自由輸入並設定字體大小與顏色。",
+            "feedbackRetry": "想在投影片上畫出一個可以打字的方框，這個工具叫作什麼呢？"
+          },
+          "factGroundingSourceId": "115-s2/g4/computer#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-computer-u2",
+      "stageId": "115-s2-g4-computer-u2",
+      "title": "第2–3週：視力防衛隊：護眼簡報動態秀",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "護眼簡報設計：範本、文字藝術師與 3D 模型",
+          "narrationText": "用眼三十分鐘休息十分鐘是護眼鐵則；製作護眼簡報時可套用主題範本、文字藝術師標題、適度動畫與 3D 模型立體檢視。",
+          "cognitiveChunks": [
+            "使用 3C 保持充足光線、適當距離與定時遠眺",
+            "教育主題範本統一協調配色與字體風格",
+            "文字藝術師製作醒目標題，3D 模型支援多角度旋轉"
+          ],
+          "analogyAnchor": "3D 模型就像把真實的立體教具搬進投影片裡，簡報者可以多角度旋轉給大家看，再搭配文字藝術師大標題讓護眼口號一眼吸睛。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "一般 2D 平面圖片",
+              "leftPoints": [
+                "只能從單一固定角度觀看",
+                "無法自由旋轉看背面構造"
+              ],
+              "rightTitle": "立體 3D 模型",
+              "rightPoints": [
+                "可上下左右多角度旋轉檢視",
+                "適合衛教立體構造說明"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u2-l1",
+                "text": "平面圖角度固定",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u2-l2",
+                "text": "3D 模型可多角度轉動",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/computer#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "節制設定動畫與排版醒目口號",
+          "narrationText": "替護眼簡報設定動畫時要依講解順序有節制地安排，並用文字藝術師搭配對齊輔助線把口號排在醒目位置。",
+          "cognitiveChunks": [
+            "動畫依講解順序逐條顯示，避免同時撞成一團",
+            "文字藝術師可調整字級並用對齊輔助線置中",
+            "護眼口號要簡短押韻、傳達正確用眼行動"
+          ],
+          "workedExampleData": {
+            "problemStatement": "設計「視力防衛隊」簡報時，如何安排標題、動畫效果與 3D 模型讓觀眾容易理解又不傷眼？",
+            "steps": [
+              "第 1 步：套用協調的教育主題範本，並用文字藝術師製作置中的醒目護眼口號",
+              "第 2 步：插入眼球或相關 3D 模型，適度設定旋轉檢視幫助立體理解",
+              "第 3 步：依講解節奏安排重點動畫順序，避免過多閃爍與爆炸特效"
+            ],
+            "commonErrorContrast": "常見錯誤：幫每個標點符號都加上旋轉與閃爍動畫，反而讓「護眼」簡報變得刺眼難讀。",
+            "selfExplanationPrompt": "想一想：用眼三十分鐘、休息十分鐘之外，看螢幕時還要注意哪些光線與距離原則？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/computer#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "3C 產品的健康使用守則",
+          "topicSignalTitle": "保護靈魂之窗，日常使用電腦與平板要做到哪三件事？",
+          "narrationText": "不在關燈環境下使用 3C 產品，保持適當視距與端正坐姿，並定時休息遠眺綠樹，才能有效預防近視加深。",
+          "cognitiveChunks": [
+            "光線充足，絕不關燈看螢幕",
+            "用眼 30 分鐘休息 10 分鐘、多遠眺",
+            "維持安全距離與端正坐姿"
+          ],
+          "factGroundingSourceId": "115-s2/g4/computer#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次文字藝術師的功能，準備進入第二關！",
+          "cognitiveChunks": [
+            "文字藝術師能製作具外框、陰影或立體效果的標題字"
+          ],
+          "warmupCheck": {
+            "prompt": "想讓護眼簡報主標題擁有陰影、漸層填色或立體造型效果，最適合使用 PowerPoint 的哪一項功能？",
+            "options": [
+              "文字藝術師",
+              "檔案唯讀設定",
+              "資源回收筒"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！文字藝術師能讓封面標題與護眼口號變得醒目又吸睛。",
+            "feedbackRetry": "想把普通文字變成有美術效果的立體標題字，要找哪一位「藝術師」呢？"
+          },
+          "factGroundingSourceId": "115-s2/g4/computer#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-computer-u3",
+      "stageId": "115-s2-g4-computer-u3",
+      "title": "第4–5週：數位剪貼簿：動植物生態筆記",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "相簿範本大量匯入與相片編修技巧",
+          "narrationText": "使用「相簿範本」可一次匯入大量生態照片，再運用「相片裁剪」與「校正色彩」讓每張觀察紀錄清晰突出。",
+          "cognitiveChunks": [
+            "相簿範本：一次批次匯入多張照片自動排版",
+            "相片裁剪：切掉周圍雜亂背景突出主角",
+            "校正與色彩：調整過暗照片的亮度、對比與色調"
+          ],
+          "analogyAnchor": "相簿範本就像自動貼照片的數位剪貼本，把戶外拍到的照片一口氣排好，再用裁剪剪刀修邊、校正工具補光，生態筆記立刻變身精美圖鑑。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "相簿範本批次匯入照片",
+                "裁剪雜景並校正亮度色彩",
+                "補上標題內文上傳雲端"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u3-l1",
+                "text": "批次匯入省時又整齊",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "u3-l2",
+                "text": "裁剪與校正讓主體清晰",
+                "anchorPointId": "step2"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/computer#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "打造 4–5 頁圖文並茂的生態筆記",
+          "narrationText": "調整圖片大小時要拖曳四個角落控制點維持原比例，每頁搭配清楚標題與簡潔觀察內文，最後上傳雲端驗收。",
+          "cognitiveChunks": [
+            "拖曳圖片四角等比例縮放，不拉扁變形",
+            "每頁具備標題、觀察內文與清晰圖片三要素",
+            "照片不重疊、適度留白、文字不遮擋主角"
+          ],
+          "workedExampleData": {
+            "problemStatement": "匯入二十張在樹蔭下拍的動植物照片後，發現有些照片太暗、邊緣有雜物，要如何編修並完成 4–5 頁生態筆記？",
+            "steps": [
+              "第 1 步：使用「裁剪」工具切去多餘背景，再用「校正」與「色彩」調亮暗部",
+              "第 2 步：拖曳圖片四個角落等比例調整大小並整齊對齊，保留適當留白",
+              "第 3 步：為每頁補上主題標題與生態觀察重點，上傳至指定雲端路徑並點開確認"
+            ],
+            "commonErrorContrast": "常見錯誤：拖曳圖片左右邊把小動物拉扁變形，或把說明文字直接壓在花朵照片正中央。",
+            "selfExplanationPrompt": "想一想：把筆記上傳到指定雲端路徑後，為什麼還要點進去檢查檔案能不能正常開啟預覽？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/computer#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "照片等比例縮放與雲端交件驗收",
+          "topicSignalTitle": "為什麼調整生態照片大小時一定要拉四個角落？",
+          "narrationText": "只拉上下或左右邊緣會讓照片比例失真，拖曳四個角落才能保持動植物真實外觀；交件後點開雲端確認更能確保作業無誤。",
+          "cognitiveChunks": [
+            "拖曳四角維持圖片原始長寬比例",
+            "維持畫面留白與對齊，提升圖鑑質感",
+            "上傳雲端後實際預覽確認交件成功"
+          ],
+          "factGroundingSourceId": "115-s2/g4/computer#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次去除照片雜亂邊緣的工具，準備進入第三關！",
+          "cognitiveChunks": [
+            "相片裁剪可移除照片四周不需要的背景"
+          ],
+          "warmupCheck": {
+            "prompt": "匯入葉片特寫照片後想切掉周圍雜亂的水泥地背景、只突出葉片主體，應該使用哪一個工具？",
+            "options": [
+              "設定投影片密碼",
+              "相片裁剪",
+              "把圖片倒轉一百八十度"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！使用相片裁剪工具就能輕鬆修掉多餘邊緣，讓觀察主角更明顯。",
+            "feedbackRetry": "想把照片邊邊不需要的區域剪掉，這個功能的名稱就和拿剪刀修剪一樣喔！"
+          },
+          "factGroundingSourceId": "115-s2/g4/computer#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-computer-u4",
+      "stageId": "115-s2-g4-computer-u4",
+      "title": "第6–8週：戶外考察紀錄：企鵝與大象的冒險日誌",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "目錄按鈕、超連結導航與 Shift 多選",
+          "narrationText": "在戶外考察冒險日誌中，我們用 Chrome 精準搜尋物種圖片，透過目錄按鈕與超連結建立雙向導航，再用 Shift 同步選取並對齊物件。",
+          "cognitiveChunks": [
+            "戶外教育須跟緊隊伍、不翻越護欄或餵食動物",
+            "目錄按鈕搭配「超連結」跳轉指定投影片",
+            "按住 Shift 鍵可同步多選物件進行對齊均分"
+          ],
+          "analogyAnchor": "目錄按鈕和超連結就像冒險日誌裡的傳送門：點一下企鵝按鈕就立刻跳到企鵝頁面，點一下「回首頁」按鈕又能馬上傳回主目錄。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "首頁點擊動物目錄按鈕",
+                "透過超連結跳轉介紹頁",
+                "點回首頁按鈕返回目錄"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u4-l1",
+                "text": "超連結建立互動導航",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "u4-l2",
+                "text": "雙向按鈕操作更順手",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/computer#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "多選對齊按鈕與同步報告動畫編排",
+          "narrationText": "製作多個目錄按鈕時，按住 Shift 同步選取並使用對齊均分功能；編排動畫則要配合上台口頭報告的講解順序。",
+          "cognitiveChunks": [
+            "按住 Shift 點選多個按鈕再執行對齊均分",
+            "動畫登場順序須與口頭講解節奏同步",
+            "上台報告站姿大方、與同學眼神交流"
+          ],
+          "workedExampleData": {
+            "problemStatement": "做好「台灣藍鵲」、「國王企鵝」與「大象」三個目錄按鈕後，如何讓它們整齊排成一排、具備雙向導航並順利上台報告？",
+            "steps": [
+              "第 1 步：按住「Shift 鍵」依序點選三個按鈕，使用排列中的「對齊與水平均分」",
+              "第 2 步：替每個按鈕設定「超連結」連向對應分頁，並在分頁放置「回首頁按鈕」",
+              "第 3 步：依口頭報告順序編排動畫登場時機，上台時音量清楚並善用按鈕切換頁面"
+            ],
+            "commonErrorContrast": "常見錯誤：用眼睛硬瞄按鈕位置導致歪斜，或把動畫順序排得跟口頭講解完全顛倒。",
+            "selfExplanationPrompt": "想一想：在 Chrome 搜尋「台灣藍鵲」與「國王企鵝」照片時，為什麼要用精確的物種名稱當關鍵字？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/computer#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "戶外教育安全與自信口頭報告",
+          "topicSignalTitle": "戶外考察安全須知與上台報告有哪兩項共同重點？",
+          "narrationText": "外出考察時遵守領隊指示不脫隊、不邊走邊低頭滑手機；回到教室上台報告時則保持自信大方，用互動簡報輔助說明。",
+          "cognitiveChunks": [
+            "戶外考察：跟緊隊伍、補水防曬、不驚擾動物",
+            "物種搜尋：用正確名稱找清晰合適影像",
+            "口頭報告：簡報是輔助，重點是清晰表達與眼神交流"
+          ],
+          "factGroundingSourceId": "115-s2/g4/computer#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次同步多選物件的快捷鍵，準備進入第四關！",
+          "cognitiveChunks": [
+            "按住 Shift 鍵可同步選取多個物件"
+          ],
+          "warmupCheck": {
+            "prompt": "想一次選取投影片上的三個動物目錄按鈕來一起對齊或縮放，應該按住鍵盤上的哪一個按鍵再點選？",
+            "options": [
+              "Shift 鍵",
+              "Esc 鍵",
+              "空白鍵"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！按住 Shift 鍵逐一點選，就能輕鬆同步選取多個物件。",
+            "feedbackRetry": "想要把第二、第三個按鈕也一起加進選取範圍，左手要按住哪一個英文開頭為 S 的按鍵？"
+          },
+          "factGroundingSourceId": "115-s2/g4/computer#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-computer-u5",
+      "stageId": "115-s2-g4-computer-u5",
+      "title": "第9–10週：綠能行動派：低碳生活影音報",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "從 Word 大綱匯入、轉場與匯出 MP4",
+          "narrationText": "在 Word 整理好低碳生活大綱後，可直接匯入 PowerPoint 生成投影片，再用複製格式、轉場特效並匯出成 MP4 影音報。",
+          "cognitiveChunks": [
+            "步行搭車、冷氣配電扇與減用一次性餐具落實低碳",
+            "「從大綱插入投影片」快速將 Word 大綱變簡報",
+            "「動畫」給物件，「轉場」則是兩頁切換的過場效果"
+          ],
+          "analogyAnchor": "「複製格式」小刷子就像風格印章，點兩下就能把美麗標題格式連續刷到每一頁；而「匯出 MP4」則把簡報打包成手機都能直接看的電影短片。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "動畫設定",
+              "leftPoints": [
+                "針對單頁內的文字或圖片",
+                "控制物件登場或強調動作"
+              ],
+              "rightTitle": "轉場特效",
+              "rightPoints": [
+                "針對整張投影片翻頁切換",
+                "選一兩種清爽風格全部套用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u5-l1",
+                "text": "動畫套用在單頁物件",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u5-l2",
+                "text": "轉場套用在頁面切換",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/computer#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "連點格式刷與轉存 MP4 雲端備份",
+          "narrationText": "快速連按兩下複製格式可連續套用多個標題；設定清爽轉場與適當秒數後，就能建立視訊匯出為 MP4 並備份雲端。",
+          "cognitiveChunks": [
+            "雙擊「複製格式」可連續刷到多個不同頁面標題",
+            "選一至兩種流暢轉場全部套用並留足閱讀秒數",
+            "檔案 → 匯出 → 建立視訊轉存 MP4 並備份雲端"
+          ],
+          "workedExampleData": {
+            "problemStatement": "已經在 Word 寫好低碳報告大綱，如何快速做成風格統一的簡報並轉成家裡手機也能看的影音檔？",
+            "steps": [
+              "第 1 步：在 PowerPoint 點選「新增投影片 → 從大綱插入投影片」匯入 Word 檔",
+              "第 2 步：設定好第一頁標題樣式後「雙擊」複製格式小刷子，連續套用到後面各頁",
+              "第 3 步：全部套用清爽轉場並設好停留秒數，執行「建立視訊」匯出 MP4 並上傳雲端備份"
+            ],
+            "commonErrorContrast": "常見錯誤：每頁都用完全不同的誇張翻滾轉場且只停留 0.1 秒，或手動把簡報副檔名亂改成 MP3。",
+            "selfExplanationPrompt": "想一想：為什麼把簡報匯出成 MP4 影片檔後，還需要再備份到 Google 雲端硬碟？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/computer#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "生活中的低碳綠能實踐",
+          "topicSignalTitle": "小學生在日常食衣住行中，可以做到哪些減碳行動？",
+          "narrationText": "短程多步行或搭公車捷運、隨手關燈關電腦、自備環保袋與水壺，減少浪費就是最棒的綠能行動派。",
+          "cognitiveChunks": [
+            "短程步行或搭乘大眾運輸工具",
+            "冷氣搭配電扇使用，離開教室隨手關電源",
+            "自備環保餐具與購物袋，減少一次性垃圾"
+          ],
+          "factGroundingSourceId": "115-s2/g4/computer#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次動畫與轉場的差別，準備進入第五關！",
+          "cognitiveChunks": [
+            "轉場特效控制頁面與頁面之間的切換效果"
+          ],
+          "warmupCheck": {
+            "prompt": "在 PowerPoint 中設定「從一張投影片切換到下一張投影片」的視覺過渡效果，稱為什麼？",
+            "options": [
+              "轉場特效",
+              "複製格式",
+              "圖片裁剪"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！轉場特效負責控制兩張整頁投影片切換時的過場效果。",
+            "feedbackRetry": "動畫是給頁內的文字圖片用的，那整頁「換場」到下一頁的效果叫什麼呢？"
+          },
+          "factGroundingSourceId": "115-s2/g4/computer#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-computer-u6",
+      "stageId": "115-s2-g4-computer-u6",
+      "title": "第11–13週：智慧圖解師：防疫資訊視覺化",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "SmartArt 視覺圖解與投影片母片",
+          "narrationText": "運用 SmartArt 能將防疫步驟轉成流程圖並調整階層與色彩；使用投影片母片則能統一每頁全局標題與漸層背景。",
+          "cognitiveChunks": [
+            "SmartArt 流程圖清楚呈現洗手等步驟先後順序",
+            "階層縮排整理大項與次要細項，變更色彩換配色",
+            "投影片母片統一全局標題與柔和漸層背景"
+          ],
+          "analogyAnchor": "SmartArt 就像積木圖解盒，文字放進去就自動排成流程圖；而「投影片母片」則是整份簡報的總模具，改一次母片就能讓全部頁面同步換新裝。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "投影片母片（總控制台）",
+              "leftPoints": [
+                "統一全局標題位置與底圖",
+                "設定柔和背景漸層效果"
+              ],
+              "rightTitle": "校閱註解（編輯便利貼）",
+              "rightPoints": [
+                "留下組員協作修改提醒",
+                "全螢幕放映時不會被觀眾看到"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u6-l1",
+                "text": "母片統一全局標題背景",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u6-l2",
+                "text": "註解只在編輯時顯示",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/computer#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "母片漸層、組員註解與 F5 播放測試",
+          "narrationText": "在母片設定好全局樣式與漸層後要關閉母片檢視；團隊協作善用註解留言，上台前務必按 F5 全螢幕播放測試。",
+          "cognitiveChunks": [
+            "母片設定完成後點擊「關閉母片檢視」回一般編輯",
+            "使用「新增註解」寫下協作提示，放映時自動隱藏",
+            "按 F5 播放測試檢查文字清晰度與轉場流暢度"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小組要用 SmartArt 製作 10 頁防疫簡報，希望每頁左上角都有相同標題與藍白漸層背景，並在旁邊留訊息請組員換圖，該怎麼做？",
+            "steps": [
+              "第 1 步：開啟「檢視 → 投影片母片」加上全局標題與「漸層填滿」背景，再點「關閉母片檢視」",
+              "第 2 步：選用 SmartArt「流程」版面製作洗手步驟，用階層縮排與變更色彩美化",
+              "第 3 步：用「新增註解」寫下協作提醒，報告前按 F5 進行全螢幕播放測試"
+            ],
+            "commonErrorContrast": "常見錯誤：在十頁上各自手動複製貼上標題與背景，或把給組員看的提醒直接打紅字放在畫面正中央。",
+            "selfExplanationPrompt": "想一想：為什麼編輯視窗看起來沒問題，上台前還是必須按下 F5 進行播放測試？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/computer#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "SmartArt 階層與視覺化好處",
+          "topicSignalTitle": "比起整段純文字，用 SmartArt 呈現防疫資訊有什麼優點？",
+          "narrationText": "將文字轉為流程圖或階層圖後，觀眾能在一秒內看清步驟順序與重點分類，大大提升資訊傳達效率。",
+          "cognitiveChunks": [
+            "依順序選用流程圖、依分類選用階層清單",
+            "階層縮排（升階／降階）理清主次關係",
+            "「變更色彩」快速套用協調配色"
+          ],
+          "factGroundingSourceId": "115-s2/g4/computer#u6"
+        },
+        {
+          "sceneId": "u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次「註解」功能的作用，準備進入第六關！",
+          "cognitiveChunks": [
+            "註解是給編輯者看的便利貼，全螢幕放映時會隱藏"
+          ],
+          "warmupCheck": {
+            "prompt": "分組編輯防疫簡報時，想在投影片旁寫下給組員的修改提醒，但希望全螢幕放映時不要被觀眾看到，應該用哪個功能？",
+            "options": [
+              "特大號紅色藝術字",
+              "校閱 → 新增註解",
+              "錄製超高音量語音"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！註解只會在編輯與協作面板顯示，上台全螢幕放映時不會干擾畫面。",
+            "feedbackRetry": "哪一個功能就像貼在簡報邊緣的小便利貼，正式放映報告時不會出現呢？"
+          },
+          "factGroundingSourceId": "115-s2/g4/computer#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-computer-u7",
+      "stageId": "115-s2-g4-computer-u7",
+      "title": "第14–17週：天燈文化觀察：數位資訊整合",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u7-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "文化環保平衡與多媒體表格整合",
+          "narrationText": "認識天燈祈福傳統並思考環保改良機制；在簡報中則整合表格對比、視訊影片、背景音訊、神奇母片與多重動畫。",
+          "cognitiveChunks": [
+            "肯定天燈文化價值，同時重視環保材質與回收",
+            "「表格工具」整齊對比不同節慶的時間與特色",
+            "「新增動畫」替同一個物件疊加多重連續動作"
+          ],
+          "analogyAnchor": "多重動畫就像幫天燈編排一場完整舞蹈：先用進場「飛入」、再點「新增動畫」疊加強調閃耀、最後再「新增動畫」往上飄出，才不會把前面的動作覆蓋掉。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "先設第一個進場動畫",
+                "按「新增動畫」疊加動作",
+                "動畫窗格調整開始順序"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u7-l1",
+                "text": "用新增動畫不覆蓋舊設定",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "u7-l2",
+                "text": "窗格調整接續前動畫",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/computer#u7"
+        },
+        {
+          "sceneId": "u7-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "整合表格、影音與多重動畫的報告技巧",
+          "narrationText": "表格少了一列可直接用版面配置補插；加入視訊與音訊後，上台前必須實機測試且背景音樂不可蓋過人聲。",
+          "cognitiveChunks": [
+            "表格工具「在下方插入」快速補齊遺漏列數",
+            "視訊與音訊預先測試，背景音樂保持輕柔襯底",
+            "神奇母片設定多樣化版面配置讓整體風格一致"
+          ],
+          "workedExampleData": {
+            "problemStatement": "想在天燈文化報告裡插入節慶對比表格、放天燈影片與民俗配樂，並讓天燈插畫先飛入再閃耀最後離場，該怎麼操作？",
+            "steps": [
+              "第 1 步：用「插入 → 表格」對比節慶資訊，若少列可使用版面配置「在下方插入」",
+              "第 2 步：插入「視訊」與「音訊」，預先測試播放並將配樂音量調輕不蓋過講解",
+              "第 3 步：替天燈插畫點選「新增動畫」依序疊加進場、強調與離場，於動畫窗格設好銜接方式"
+            ],
+            "commonErrorContrast": "常見錯誤：直接在動畫主面板改點下一個效果蓋掉舊動畫，或背景音樂開太大聲蓋過報告者聲音。",
+            "selfExplanationPrompt": "想一想：我們可以如何兼顧「天燈祈福文化傳承」與「山林環境保護」？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/computer#u7"
+        },
+        {
+          "sceneId": "u7-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "文化傳承與環境保護的雙贏思考",
+          "topicSignalTitle": "如何在保留天燈文化的同時減少對環境的影響？",
+          "narrationText": "支持改良可分解環保天燈材質、遵守安全施放區域與建立集中回收獎勵機制，讓傳統文化與自然生態永續共存。",
+          "cognitiveChunks": [
+            "尊重地方祈福傳統與歷史意義",
+            "重視防火安全與山林垃圾回收機制",
+            "支持研發環保材質減輕環境負擔"
+          ],
+          "factGroundingSourceId": "115-s2/g4/computer#u7"
+        },
+        {
+          "sceneId": "u7-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次設定多重動畫的關鍵按鈕，準備進入第七關！",
+          "cognitiveChunks": [
+            "必須使用「新增動畫」才不會覆蓋同物件的前一個動畫"
+          ],
+          "warmupCheck": {
+            "prompt": "想替同一個天燈物件依序設定進場、強調與離場三個連續動作而不被覆蓋，應該點選哪一個按鈕？",
+            "options": [
+              "新增動畫",
+              "插入表格",
+              "複製格式"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！透過「新增動畫」與動畫窗格，就能替同一個物件編排多重連續動作。",
+            "feedbackRetry": "如果在原面板直接改選新動畫會蓋掉舊的喔！要再「多加」一個動畫必須按哪顆鈕？"
+          },
+          "factGroundingSourceId": "115-s2/g4/computer#u7"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-computer-u8",
+      "stageId": "115-s2-g4-computer-u8",
+      "title": "第18–21週：交通安全宣導員：安全資訊大揭密",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u8-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "168 交通安全網探索與資訊擷取",
+          "narrationText": "從交通部「168 交通安全網站」取得可靠安全守則後，透過資訊擷取改寫為精簡條列文案，並註明資料來源做成宣導簡報。",
+          "cognitiveChunks": [
+            "168 交通安全網站是官方可靠的交安學習來源",
+            "資訊擷取：消化長文章後改寫為精簡條列重點",
+            "簡報結尾標註資料來源，尊重著作權與可信度"
+          ],
+          "analogyAnchor": "「資訊擷取」就像把整顆甘蔗榨成精華果汁：不把上千字的文章直接塞進投影片，而是萃取出最關鍵的交通安全守則做成清楚好記的簡報。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "瀏覽 168 官方交安網站",
+                "擷取重點改寫條列文案",
+                "整合 PowerPoint 上台宣導"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u8-l1",
+                "text": "官方平台查正確守則",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "u8-l2",
+                "text": "消化改寫精簡重點句",
+                "anchorPointId": "step2"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/computer#u8"
+        },
+        {
+          "sceneId": "u8-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "上下學避險守則與綜合簡報實戰",
+          "narrationText": "整合母片、SmartArt、表格、文字藝術師與適度動畫完成交通安全簡報，上台宣導具體行動並誠實完成數位素養問卷。",
+          "cognitiveChunks": [
+            "過馬路不低頭滑手機、遠離大型車視線死角",
+            "綜合運用範本母片、SmartArt 與表格對比危險行為",
+            "誠實填答全校數位素養問卷，離座登出移除帳號"
+          ],
+          "workedExampleData": {
+            "problemStatement": "從 168 交通安全網站看到一篇上千字的上下學安全文章，如何製作成高水準的交通安全宣導簡報並順利上台宣導？",
+            "steps": [
+              "第 1 步：消化文章後「擷取重點」改寫為精簡條列（如遠離大型車死角、穿亮色衣物）",
+              "第 2 步：運用母片或範本統一風格、SmartArt／表格對比安全與危險行為、最後加上資料來源",
+              "第 3 步：上台大方說明危險情境與具體護身行動，結束後誠實填答素養問卷並登出移除帳號"
+            ],
+            "commonErrorContrast": "常見錯誤：整段複製貼上千字塞滿畫面、未註明資料來源，或在期末素養問卷隨便亂按交卷。",
+            "selfExplanationPrompt": "想一想：學期末離開電腦教室前，除了確認作品雲端備份之外，還一定要做哪兩個資安動作？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/computer#u8"
+        },
+        {
+          "sceneId": "u8-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "上下學用路安全與誠實素養問卷",
+          "topicSignalTitle": "上下學經過路口或大型車旁時，最重要的一句護身提醒是什麼？",
+          "narrationText": "走斑馬線留意左右轉車輛、遠離大型車轉彎視線死角、過馬路不當低頭族，雨天或昏暗時穿著亮色衣物提高可見度。",
+          "cognitiveChunks": [
+            "不從停放車輛縫隙突然衝出馬路",
+            "遠離大型車轉彎視線死角與內輪差",
+            "誠實填寫全校數位素養問卷回饋真實狀況"
+          ],
+          "factGroundingSourceId": "115-s2/g4/computer#u8"
+        },
+        {
+          "sceneId": "u8-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次資訊擷取的正確做法，準備挑戰最終關卡！",
+          "cognitiveChunks": [
+            "資訊擷取是閱讀消化後整理成精簡條列重點"
+          ],
+          "warmupCheck": {
+            "prompt": "從 168 交通安全網站找到一篇上千字的文章，想做成簡報文案時，「資訊擷取」的正確做法是什麼？",
+            "options": [
+              "全選複製一千多個字塞滿同一張投影片",
+              "讀懂後萃取出核心安全守則，改寫成精簡條列重點",
+              "不看文章直接自己編造交通規則"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！把長文章消化成精簡好讀的條列重點，才是一流簡報文案的做法。",
+            "feedbackRetry": "投影片上放一千個字大家會看不清楚喔！應該把長文章整理成什麼形式才好讀呢？"
+          },
+          "factGroundingSourceId": "115-s2/g4/computer#u8"
+        }
+      ]
+    }
+  ]
+}

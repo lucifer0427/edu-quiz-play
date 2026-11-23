@@ -1,0 +1,535 @@
+{
+  "packId": "115-s2-g4-social",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 4,
+  "subjectId": "social",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-social-u1",
+      "stageId": "115-s2-g4-social-u1",
+      "title": "一、家鄉的地形與氣候",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "地形、氣候與居民生活智慧",
+          "narrationText": "家鄉的地形高低與長期平均氣候，深刻影響了聚落分布、農作物種類、房屋設計與季節旅遊活動。",
+          "cognitiveChunks": [
+            "平原盆地地勢平緩，聚落較集中；山地丘陵較分散",
+            "天氣是短時間變化；氣候是長期觀測的平均狀態",
+            "建築防風排水與農產選擇展現順應環境的生活智慧"
+          ],
+          "analogyAnchor": "天氣就像今天的心情，氣候則是多年的性格；居民就像懂得看地形和氣候穿衣服的智者，會依環境調整住屋與耕作方式。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "短時間「天氣」",
+              "leftPoints": [
+                "今天下午的雷陣雨",
+                "明日氣象預報的單日氣溫"
+              ],
+              "rightTitle": "長時間「氣候」",
+              "rightPoints": [
+                "多年觀測統計的平均狀態",
+                "呈現夏季多雨或冬季強風特徵"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u1-l1",
+                "text": "天氣看單日晴雨變化",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u1-l2",
+                "text": "氣候看長期平均特徵",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/social#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "讀懂氣候統計圖與探究水情危機",
+          "narrationText": "透過氣溫、雨量及風力月均統計圖，能找出乾雨季分布；當降雨長期偏低導致水情亮紅燈時，就需要全民節水。",
+          "cognitiveChunks": [
+            "折線看氣溫高低，長條看雨量多寡",
+            "集水區長期少雨與用水需求大易造成缺水",
+            "省水習慣與餘水再利用能有效紓解危機"
+          ],
+          "workedExampleData": {
+            "problemStatement": "從氣象統計圖發現集水區連續數月降雨遠低於平均、水庫蓄水持續下降，我們可以如何分析原因並提出行動方案？",
+            "steps": [
+              "第 1 步：判讀雨量長條與水庫蓄水曲線，確認缺水主因是降雨不足與用水量大",
+              "第 2 步：在日常生活中養成隨手關緊水龍頭、分段用水的節水習慣",
+              "第 3 步：將洗菜或洗澡餘水收集起來澆花與清潔，並共同愛護集水區水源"
+            ],
+            "commonErrorContrast": "常見錯誤：混淆「天氣」與「氣候」，或誤以為平時不必省水、等停水前再大量儲水浪費即可。",
+            "selfExplanationPrompt": "想一想：為什麼多雨強風地區的傳統房屋常設計斜屋頂或防風構造？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/social#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "環境教育與日常節水行動",
+          "topicSignalTitle": "水情亮紅燈時，家裡與社區可以馬上做哪些節水行動？",
+          "narrationText": "水資源十分珍貴，從日常隨手關緊水龍頭、重複利用生活餘水到減少漏水浪費，都是守護家鄉的具體行動。",
+          "cognitiveChunks": [
+            "隨手關緊水龍頭，避免長流水浪費",
+            "洗菜、洗米水收集後用於澆花或拖地",
+            "不將廢水倒入河川，保護水源潔淨"
+          ],
+          "factGroundingSourceId": "115-s2/g4/social#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認天氣與氣候的差別，準備進入關卡！",
+          "cognitiveChunks": [
+            "氣候是一地多年觀測統計後的平均狀態"
+          ],
+          "warmupCheck": {
+            "prompt": "下列哪一句描述的是「氣候」，而不是單日「天氣」？",
+            "options": [
+              "今天中午突然下了一場西北雨",
+              "這座城市多年來冬季乾燥少雨、夏季炎熱多雨",
+              "氣象預報說明天早上記得帶雨傘出門"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！經過多年統計出的季節平均特徵，才是我們所說的「氣候」。",
+            "feedbackRetry": "找找看哪一句是描述「多年統計下來的季節特徵」，而不是今天或明天的變化？"
+          },
+          "factGroundingSourceId": "115-s2/g4/social#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-social-u2",
+      "stageId": "115-s2-g4-social-u2",
+      "title": "二、家鄉的產業與創新",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "產業分工合作與翻轉創新",
+          "narrationText": "一件日常產品需要農業、製造業、運輸業與服務業共同合作才能誕生；面臨困境與環保法規時，產業更需轉型創新。",
+          "cognitiveChunks": [
+            "原料生產、加工製造到運輸銷售環環相扣",
+            "環保法規促使工廠改善製程，兼顧健康與永續",
+            "結合在地文化與體驗行銷能為老產業注入新生命"
+          ],
+          "analogyAnchor": "產業體系就像接力生產線：農民種出好原料、工廠用心加工、物流與服務業送到你手上，大家合作缺一不可。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "農林漁牧生產原料",
+                "製造業加工成商品",
+                "運輸服務業送達顧客"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u2-l1",
+                "text": "原料加工與銷售分工",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "u2-l2",
+                "text": "環保轉型助永續經營",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/social#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "從外送服務練習辨別事實與意見",
+          "narrationText": "智慧型手機與忙碌生活帶動外送服務興起；研究這類新興服務時，必須蒐集政府統計等可信資訊並區分事實與意見。",
+          "cognitiveChunks": [
+            "手機定位與線上平台促成外送服務普及",
+            "優先查詢勞動與交通機關統計等可信資料",
+            "區分可查證的「事實」與個人感受的「意見」"
+          ],
+          "workedExampleData": {
+            "problemStatement": "研究「外送員新興服務模式」時，如何從網路文章中篩選可信資訊並區分事實與意見？",
+            "steps": [
+              "第 1 步：檢查來源是否為政府勞動或交通機關、正式研究報告或公信力媒體",
+              "第 2 步：確認文章是否有發布日期與統計出處，排除匿名誇張流言",
+              "第 3 步：將「平台顯示訂單與送達時間」歸為事實，「外送工作太輕鬆」歸為意見"
+            ],
+            "commonErrorContrast": "常見錯誤：看到標題聳動的匿名貼文就直接引用，或把個人主觀感受當成客觀事實。",
+            "selfExplanationPrompt": "想一想：傳統糕餅店或老工廠可以透過哪些創新方式吸引年輕顧客並兼顧環保？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/social#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "產業轉型與環境永續共榮",
+          "topicSignalTitle": "為什麼地方產業要配合環保政策並推動創新行銷？",
+          "narrationText": "減少廢水與廢氣汙染能守護居民健康與土地，而開發觀光體驗與網路通路則能讓地方產業長久經營下去。",
+          "cognitiveChunks": [
+            "導入清潔製程，減少空氣與水源破壞",
+            "結合地方文化開發體驗活動與特色商品",
+            "善用數位行銷拓展銷售通路"
+          ],
+          "factGroundingSourceId": "115-s2/g4/social#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先練習分辨外送服務敘述中的事實與意見，再進入關卡！",
+          "cognitiveChunks": [
+            "可透過實際操作或數據核對的陳述才是事實"
+          ],
+          "warmupCheck": {
+            "prompt": "關於外送服務的敘述，哪一句屬於可以客觀查證的「事實」？",
+            "options": [
+              "外送員的機車都應該漆成天藍色才好看",
+              "多數外送平台會在手機頁面顯示訂單內容與預計送達時間",
+              "點外送絕對比自己去餐廳吃划算一百倍"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！手機應用程式確實會顯示訂單明細與預計送達時間，這是可以驗證的事實。",
+            "feedbackRetry": "找找看哪一句沒有「應該、划算一百倍」這類主觀評價，而是可以打開手機確認的功能？"
+          },
+          "factGroundingSourceId": "115-s2/g4/social#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-social-u3",
+      "stageId": "115-s2-g4-social-u3",
+      "title": "三、家鄉的人口",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "人口年齡三階段與人口變化原因",
+          "narrationText": "人口統計常將年齡分為幼年、青壯年與老年三階段；人口總數的增減則來自出生死亡的自然變化與遷入遷出的社會變化。",
+          "cognitiveChunks": [
+            "幼年（未滿 15 歲）、青壯年（15–64 歲）、老年（65 歲以上）",
+            "教育程度與職業類別統計有助規劃人才與產業",
+            "自然變化看出生與死亡；社會變化看遷入與遷出"
+          ],
+          "analogyAnchor": "家鄉人口就像一個水池：出生和遷入是流進來的水，死亡和遷出是流出去的水；看清三種年齡比例就能知道需要多蓋學校還是長照中心。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "人口「自然變化」",
+              "leftPoints": [
+                "出生人數增加人口",
+                "死亡人數減少人口"
+              ],
+              "rightTitle": "人口「社會變化」",
+              "rightPoints": [
+                "外地居民遷入增加人口",
+                "本地居民遷出減少人口"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u3-l1",
+                "text": "出生死亡屬自然變化",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u3-l2",
+                "text": "遷入遷出屬社會變化",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/social#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "探究彰化縣的人口危機與對策",
+          "narrationText": "當家鄉交通或就業機會較少時，青壯年容易向外遷出，造成勞動力減少與人口高齡化，需要透過產業與福利改善來因應。",
+          "cognitiveChunks": [
+            "交通便利、工作與就學資源多的地區人口較集中",
+            "青壯年外移會加劇少子化、缺工與高齡照護壓力",
+            "改善就業環境與育兒長照設施可吸引青年返鄉"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在〈彰化縣的人口危機〉案例中，當大量青壯年人口遷出後，家鄉會面臨哪些問題？該如何改善？",
+            "steps": [
+              "第 1 步：分析影響，青壯年外流導致勞動力不足、新生兒減少且老年人口比例上升",
+              "第 2 步：找出需求，需要兼顧地方產業工作機會與長者照顧資源",
+              "第 3 步：提出對策，改善交通與產業環境、支持青年返鄉創業並完善托育與長照服務"
+            ],
+            "commonErrorContrast": "常見錯誤：以為只靠禁止居民搬家或發放一次性禮券就能解決人口外移問題。",
+            "selfExplanationPrompt": "想一想：為什麼交通方便、學校與醫院充足的平地城鎮，人口通常比偏遠深山更集中？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/social#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "從人口圖表看見家鄉需求",
+          "topicSignalTitle": "當 65 歲以上老年人口比例上升時，家鄉最需要增加什麼服務？",
+          "narrationText": "讀懂人口年齡、教育與職業統計圖表，能幫助地方提前規劃醫療照護、銀髮活動空間與友善育兒環境。",
+          "cognitiveChunks": [
+            "老年人口增加：需完善醫療與長照服務",
+            "幼年人口減少：需重視友善育兒與托育支援",
+            "青壯年是地方經濟與家庭的重要支柱"
+          ],
+          "factGroundingSourceId": "115-s2/g4/social#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次人口年齡分組的三個階段，再進入關卡！",
+          "cognitiveChunks": [
+            "人口年齡分為未滿 15 歲、15–64 歲與 65 歲以上"
+          ],
+          "warmupCheck": {
+            "prompt": "人口統計中，15 歲至 64 歲之間、屬於主要勞動與經濟支柱的族群稱為什麼？",
+            "options": [
+              "幼年人口",
+              "青壯年人口",
+              "老年人口"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！15 至 64 歲為青壯年人口，是地方發展與照顧老幼的重要力量。",
+            "feedbackRetry": "未滿 15 歲是幼年人口、65 歲以上是老年人口，那中間 15 到 64 歲的叫什麼呢？"
+          },
+          "factGroundingSourceId": "115-s2/g4/social#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-social-u4",
+      "stageId": "115-s2-g4-social-u4",
+      "title": "四、多元文化與願景",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "古早味智慧與多元文化變遷",
+          "narrationText": "不同族群的傳統住居、飲食與服飾都反映就地取材與適應環境的智慧；隨著時代交流，家鄉也展現出多元共融的現今風貌。",
+          "cognitiveChunks": [
+            "傳統住居飲食如石板屋與三合院，展現環境適應智慧",
+            "文化會隨環保觀念、科技與生活型態改變而演進",
+            "跨族群與異國文化接觸豐富了家鄉飲食與語言"
+          ],
+          "analogyAnchor": "家鄉文化就像一道代代相傳又不斷加入新食材的料理：既有先民就地取材的古早味，也融入了各族群與異國交流的新風味。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "家鄉的古早味智慧",
+              "leftPoints": [
+                "依氣候與天然材料建屋",
+                "如紅磚三合院、原住民族石板屋"
+              ],
+              "rightTitle": "家鄉的現今多元風貌",
+              "rightPoints": [
+                "多元飲食與多樣化商店",
+                "傳統技藝結合環保與創新"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u4-l1",
+                "text": "古早文化就地取材",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u4-l2",
+                "text": "現今交流多元共融",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/social#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用「你」的角度想一想：換位思考練習",
+          "narrationText": "面對文化變遷或社區公共事務的不同意見時，學會站到對方的角度體會感受與需求，才能做出理性又公正的判斷。",
+          "cognitiveChunks": [
+            "先傾聽不同年齡、職業或文化背景者的想法",
+            "練習換位思考，理解對方背後的擔心與需求",
+            "透過理性溝通找出兼顧各方利益的共識方案"
+          ],
+          "workedExampleData": {
+            "problemStatement": "社區整修公園時，年輕家長想多設遊樂設施，長輩卻擔心太吵且想要樹蔭散步區，該如何運用換位思考解決？",
+            "steps": [
+              "第 1 步：站到家長與長輩各自立場思考，理解孩童需要活動空間、長輩需要安靜休憩",
+              "第 2 步：不互相指責或只聽單方意見，召開社區討論聆聽雙方建議",
+              "第 3 步：規劃分區空間與合宜使用時段，讓長輩與孩童都能安心使用公園"
+            ],
+            "commonErrorContrast": "常見錯誤：只顧自己方便就否定別人的需求，或認為和自己不一樣的文化習俗很奇怪。",
+            "selfExplanationPrompt": "想一想：當傳統祭典為了環保而減少燒紙錢並改用數位祈福時，不同世代的人可能會有什麼想法？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/social#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "欣賞異國文化與尊重差異",
+          "topicSignalTitle": "接觸異國料理、服飾與多元語言時，要具備什麼胸懷？",
+          "narrationText": "每種文化都有其歷史背景與獨特魅力，保持尊重、開放與樂於了解的心，才能讓家鄉成為友善共融的大家庭。",
+          "cognitiveChunks": [
+            "文化沒有高低優劣之分，彼此尊重差異",
+            "主動認識異國與各族群習俗背後的意涵",
+            "體會文化變遷中保存與創新的挑戰"
+          ],
+          "factGroundingSourceId": "115-s2/g4/social#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次換位思考的核心精神，準備進入第四關！",
+          "cognitiveChunks": [
+            "換位思考是站在他人角度體諒想法並理性溝通"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈用「你」的角度想一想〉活動中，面對不同立場的意見時，最值得培養的能力是什麼？",
+            "options": [
+              "把聲音喊到最大聲讓對方不敢說話",
+              "練習換位思考，理解對方感受並做出適當判斷",
+              "完全不理會別人想法，只照自己習慣做"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！站在對方的角度思考並理性溝通，正是多元社會重要的公民素養。",
+            "feedbackRetry": "想一想「用『你』的角度想一想」的標題，是在提醒我們要站到誰的立場體會感受呢？"
+          },
+          "factGroundingSourceId": "115-s2/g4/social#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-social-u5",
+      "stageId": "115-s2-g4-social-u5",
+      "title": "〔探究〕想像家鄉的樣子・探究方法123",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "串聯環境、產業、人口與文化的家鄉藍圖",
+          "narrationText": "家鄉的自然環境、產業創新、人口變化與多元文化彼此相連；設計未來家鄉提案時，必須先觀察現況並結合資訊與想像力。",
+          "cognitiveChunks": [
+            "第一步：實地觀察家鄉真實的現況與居民需求",
+            "第二步：運用可靠資訊分析限制與資源優勢",
+            "第三步：發揮想像力，提出兼顧永續與共融的提案"
+          ],
+          "analogyAnchor": "規劃未來家鄉就像當城市建築師：真實的氣候、人口與產業資訊是穩固的地基，想像力則是往上蓋出美好社區的藍圖。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "觀察現況與需求",
+                "整合資訊與團隊討論",
+                "提出並分享未來提案"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u5-l1",
+                "text": "觀察現況找出需求",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "u5-l2",
+                "text": "結合資訊與想像力",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/social#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "團隊合作整理資料與分享未來提案",
+          "narrationText": "與同儕合作整理資料時要清楚分工、尊重彼此觀點；上台分享提案時，則要依序說明現況證據、對策與預期成效。",
+          "cognitiveChunks": [
+            "明確分工查資料、記錄、繪圖與整理重點",
+            "將圖表與訪談資料分類對照，找出核心問題",
+            "分享時以證據搭配圖表，清楚說明提案做法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小組蒐集了家鄉降雨、人口與文化資料後，要如何合作整理並向全班分享「未來家鄉提案」？",
+            "steps": [
+              "第 1 步：商量分工（查資料、統計整理、海報繪製），共同分類並對照蒐集到的數據",
+              "第 2 步：結合節水防旱、產業轉型、青年樂業與長照友善社區等方向構思提案",
+              "第 3 步：上台有條理地說明「發現的現況證據、解決做法與預期成效」，並回應同學提問"
+            ],
+            "commonErrorContrast": "常見錯誤：小組內把所有工作推給同一人，或提案天馬行空卻完全沒有參考真實的人口與環境資料。",
+            "selfExplanationPrompt": "想一想：回顧四年級下學期所學，地形氣候、產業、人口和多元文化之間是如何互相影響的？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/social#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "四年級下學期總複習與公民行動力",
+          "topicSignalTitle": "學完四年級社會後，我們培養了哪三項關心家鄉的能力？",
+          "narrationText": "我們不僅認識了家鄉的環境、產業、人口與文化，更學會用圖表分析、資料查證與換位思考，為家鄉永續未來盡一份心力。",
+          "cognitiveChunks": [
+            "觀察與圖表分析：讀懂氣候與人口趨勢",
+            "資料查證與批判：辨別事實與意見",
+            "換位思考與合作：設計共融永續的家鄉願景"
+          ],
+          "factGroundingSourceId": "115-s2/g4/social#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次未來家鄉提案的構思原則，準備挑戰最終關卡！",
+          "cognitiveChunks": [
+            "好的提案要兼顧真實資訊根據與創新想像力"
+          ],
+          "warmupCheck": {
+            "prompt": "構思「未來家鄉提案」時，為什麼要同時運用「可靠資訊」與「想像力」？",
+            "options": [
+              "有資訊才能貼近真實需求與限制，有想像力才能提出創新願景方案",
+              "只需要想像力編故事就好，完全不用看真實統計資料",
+              "只要把圖表印出來貼上去，不必思考任何解決方法"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！資訊讓提案腳踏實地，想像力讓提案充滿希望與創意，兩者缺一不可。",
+            "feedbackRetry": "想一想如果只有幻想沒有真實資料，或只有資料沒有新點子，提案會缺少什麼呢？"
+          },
+          "factGroundingSourceId": "115-s2/g4/social#u5"
+        }
+      ]
+    }
+  ]
+}

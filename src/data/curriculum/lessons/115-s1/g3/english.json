@@ -1,0 +1,747 @@
+{
+  "packId": "115-s1-g3-english",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 3,
+  "subjectId": "english",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-english-u0",
+      "stageId": "115-s1-g3-english-u0",
+      "title": "Get Ready",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u0-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識 26 個英文字母大小寫",
+          "narrationText": "英語世界由 26 個字母組成，每個字母都有大寫和小寫兩種字形，認清順序與字形方向是閱讀的第一步。",
+          "cognitiveChunks": [
+            "26 個字母從 A 到 Z 有固定順序",
+            "每個字母都有大寫與小寫配對",
+            "分清楚 b/d、p/q 的方向"
+          ],
+          "analogyAnchor": "就像每個名字都有正裝和大寫頭銜，字母也有大寫（領頭用）和小寫（平時寫詞用）。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "形狀相同（大小不同）",
+              "leftPoints": [
+                "C / c、O / o、S / s",
+                "只差在格線高低與大小"
+              ],
+              "rightTitle": "容易混淆的方向雙胞胎",
+              "rightPoints": [
+                "b 肚子向右、d 肚子向左",
+                "p 圓圈向右、q 圓圈向左"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "C/c, O/o 同形",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "b/d, p/q 辨方向",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/english#u0"
+        },
+        {
+          "sceneId": "u0-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分辨大小寫配對與字母順序",
+          "narrationText": "檢查字母配對時，先在心裡唱字母歌確認位置，再用「左右方向」檢查容易搞混的 b、d、p、q。",
+          "cognitiveChunks": [
+            "利用字母歌確認前後順序",
+            "檢查大小寫是否為同一字母"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何判斷「b - d」與「G - g」哪一組才是正確的大小寫配對？",
+            "steps": [
+              "第 1 步：確認 b 和 d 都是小寫字母，B 的小寫才是 b、D 的小寫才是 d",
+              "第 2 步：檢查 G 的小寫是 g，大小寫正確配對",
+              "第 3 步：因此只有 G - g 是正確的大小寫配對"
+            ],
+            "commonErrorContrast": "常見錯誤：看到 b 和 d 長得左右對稱，就誤以為兩者是大小寫關係。",
+            "selfExplanationPrompt": "想一想：老師上課說「Get ready!」時，是在請大家做什麼？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/english#u0"
+        },
+        {
+          "sceneId": "u0-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "開學第一句課室英語：Get ready!",
+          "topicSignalTitle": "聽到老師說「Get ready!」是什麼意思？",
+          "narrationText": "「Get ready!」就是「準備好了！」或「做好準備！」，常在課堂活動或遊戲開始前使用。",
+          "cognitiveChunks": [
+            "Get ready!＝做好準備！",
+            "apple, ant 字首都是 a"
+          ],
+          "factGroundingSourceId": "115-s1/g3/english#u0"
+        },
+        {
+          "sceneId": "u0-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先檢查一題字母大小寫配對，再進場挑戰關卡！",
+          "cognitiveChunks": [
+            "認清每個字母的大小寫"
+          ],
+          "warmupCheck": {
+            "prompt": "下面哪一組英文字母的大小寫配對「完全正確」？",
+            "options": [
+              "B - d",
+              "G - g",
+              "P - q",
+              "M - w"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！G 的小寫就是 g。",
+            "feedbackRetry": "注意 b/d 和 p/q 是不同的字母喔，M 的小寫則是 m 不是 w。"
+          },
+          "factGroundingSourceId": "115-s1/g3/english#u0"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-english-u1",
+      "stageId": "115-s1-g3-english-u1",
+      "title": "Unit 1 The Birthday Party",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "生日祝福與年齡問答",
+          "narrationText": "參加生日派對時，我們會說 Happy birthday!，也能用 How old are you? 和 I am ... years old. 問答年齡。",
+          "cognitiveChunks": [
+            "Happy birthday!＝生日快樂！",
+            "問年齡：How old are you?",
+            "答年齡：I am + 數字 + years old."
+          ],
+          "analogyAnchor": "就像點亮蛋糕上的蠟燭數一數有幾根，用英文數字 1 到 10 說出自己的歲數。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "祝賀 Happy birthday!",
+                "送禮 This is for you.",
+                "道謝 Thank you!"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "問幾歲加old",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "I am eight.",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/english#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "看懂年齡問句與數字 1–10",
+          "narrationText": "聽到「How old are you?」時，關鍵字是「old（幾歲）」，回答時記得說「I am + 數字 + years old.」。",
+          "cognitiveChunks": [
+            "five(5), six(6), seven(7)",
+            "eight(8), nine(9), ten(10)"
+          ],
+          "workedExampleData": {
+            "problemStatement": "同學問你「How old are you?」，你今年 8 歲該怎麼用英文回答？",
+            "steps": [
+              "第 1 步：聽懂問句裡有「How old」，知道是在問年齡",
+              "第 2 步：找出數字 8 的英文單字「eight」",
+              "第 3 步：套入句型回答「I am eight years old.」"
+            ],
+            "commonErrorContrast": "常見錯誤：把「How old are you?」和「How are you?」混淆，誤答成 I am fine, thank you.。",
+            "selfExplanationPrompt": "想一想：把禮物交給朋友時，要說哪一句英文才親切又有禮貌？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/english#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "送禮物與道謝的禮貌對話",
+          "topicSignalTitle": "「This is for you.」和「Thank you!」怎麼搭配？",
+          "narrationText": "送卡片或禮物時說「This is for you.（這是給你的。）」，收到禮物的人微笑回答「Thank you!（謝謝你！）」。",
+          "cognitiveChunks": [
+            "This is for you.＝這是給你的。",
+            "Thank you!＝謝謝你！"
+          ],
+          "factGroundingSourceId": "115-s1/g3/english#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先練習一題年齡問答，準備好就開始挑戰！",
+          "cognitiveChunks": [
+            "How old are you? 問年齡"
+          ],
+          "warmupCheck": {
+            "prompt": "想知道新朋友今年幾歲，應該用哪一句英文提問？",
+            "options": [
+              "What color is it?",
+              "How old are you?",
+              "Thank you!",
+              "Happy birthday!"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！用「How old are you?」詢問對方幾歲。",
+            "feedbackRetry": "問年齡的句子裡會有「old（幾歲）」這個字喔！"
+          },
+          "factGroundingSourceId": "115-s1/g3/english#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-english-u2",
+      "stageId": "115-s1-g3-english-u2",
+      "title": "Unit 2 Poor Kevin",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "表達情緒、感覺與關心他人",
+          "narrationText": "從〈Poor Kevin〉我們學會用 happy、sad、angry、tired、hungry 說出心情與感覺，並懂得關心身邊難過的朋友。",
+          "cognitiveChunks": [
+            "happy（開心）／sad（難過）",
+            "tired（累的）／hungry（餓的）",
+            "Poor Kevin! 表達同情與關心"
+          ],
+          "analogyAnchor": "心情就像天空的晴雨變化，用「How are you?」問候，就是幫朋友撐起一把關心的傘。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "心情情緒詞",
+              "leftPoints": [
+                "happy（開心的）",
+                "sad（難過的）、angry（生氣的）"
+              ],
+              "rightTitle": "身體感受詞",
+              "rightPoints": [
+                "tired（累的）",
+                "hungry（肚子餓的）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "happy / sad",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "tired/hungry",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/english#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用英文問候並表達自己的感受",
+          "narrationText": "遇到朋友時先問一句「How are you?（你好嗎？）」，回答時用「I am + 感覺形容詞.」就能清楚說出自己的狀態。",
+          "cognitiveChunks": [
+            "問候近況：How are you?",
+            "表達感受：I am happy / sad / tired."
+          ],
+          "workedExampleData": {
+            "problemStatement": "剛跑完操場流了滿身汗，想用英文說「我累了」，該怎麼填空：「I am ______.」？",
+            "steps": [
+              "第 1 步：回想身體感受的單字：tired（累的）、hungry（餓的）",
+              "第 2 步：剛跑完操場想休息，對應的單字是「tired」",
+              "第 3 步：完成句子「I am tired.」"
+            ],
+            "commonErrorContrast": "常見錯誤：把顏色（如 blue）或數字（如 seven）放進「I am ______.」來形容疲倦或飢餓。",
+            "selfExplanationPrompt": "想一想：當同學說「I am sad.」時，你可以用什麼行動展現關心與同理心？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/english#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "聽懂「Poor + 人名」的關心語氣",
+          "topicSignalTitle": "為什麼要說「Poor Kevin!」？",
+          "narrationText": "「Poor Kevin!」不是說他沒有錢，而是「可憐的 Kevin！真替他難過！」的同理關心語氣喔。",
+          "cognitiveChunks": [
+            "Poor + 人名＝替對方感到難過",
+            "看到朋友難過要主動傾聽陪伴"
+          ],
+          "factGroundingSourceId": "115-s1/g3/english#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "試著找出「肚子餓」對應的英語單字吧！",
+          "cognitiveChunks": [
+            "hungry＝飢餓的"
+          ],
+          "warmupCheck": {
+            "prompt": "快到午餐時間肚子好餓，下面哪一句英文表示「我肚子餓了」？",
+            "options": [
+              "I am happy.",
+              "I am hungry.",
+              "I am eight.",
+              "I am fine."
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！hungry 就是「肚子餓的」。",
+            "feedbackRetry": "happy 是開心、eight 是八歲、fine 是很好，哪一個才是「餓了」呢？"
+          },
+          "factGroundingSourceId": "115-s1/g3/english#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-english-u3",
+      "stageId": "115-s1-g3-english-u3",
+      "title": "Review 1",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "期中整合：字母、問候與看圖預測",
+          "narrationText": "Review 1 把前兩單元的字母大小寫、年齡問答、情緒感覺串聯起來，並練習讀故事前先看標題和插圖預測內容。",
+          "cognitiveChunks": [
+            "看圖與標題先預測故事內容",
+            "區分 How are you? 與 How old are you?",
+            "複習大小寫配對與字首發音"
+          ],
+          "analogyAnchor": "看故事前先看插圖和標題，就像看電影前先看預告片，能幫我們更快聽懂故事。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "How are you?",
+              "leftPoints": [
+                "問心情或近況（你好嗎？）",
+                "答：I am fine, thank you."
+              ],
+              "rightTitle": "How old are you?",
+              "rightPoints": [
+                "問年齡（你幾歲？）",
+                "答：I am nine years old."
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "問近況用are you",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "問年齡加old",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/english#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "詞彙分類與看圖預測策略",
+          "narrationText": "複習單字時把同類字放在一起（例如情緒詞、數字詞），遇到新故事則先觀察人物表情來推測心情。",
+          "cognitiveChunks": [
+            "單字分類記憶更不容易忘",
+            "觀察插圖表情推測角色情緒"
+          ],
+          "workedExampleData": {
+            "problemStatement": "從「happy, sad, cake, angry」四個字中，找出不同類的單字。",
+            "steps": [
+              "第 1 步：確認 happy（開心）、sad（難過）、angry（生氣）都是情緒感覺",
+              "第 2 步：cake（蛋糕）是食物名詞，不屬於情緒類",
+              "第 3 步：找出不同類的是 cake"
+            ],
+            "commonErrorContrast": "常見錯誤：沒有把每個字的中文意思先想過一次，看到四個字都是小寫就隨便猜一個。",
+            "selfExplanationPrompt": "想一想：birthday 和 boy 這兩個單字，開頭的第一個字母和發音有什麼相同之處？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/english#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "期中暖身小提醒：大小寫別寫反",
+          "topicSignalTitle": "「H - h」和「Q - q」怎麼記才不會錯？",
+          "narrationText": "複習字母時要特別留意 F 的小寫是 f（不是 t）、Q 的小寫是 q（圓圈在左、尾巴向下彎），多寫幾次印象最深刻。",
+          "cognitiveChunks": [
+            "H - h、Q - q 正確配對",
+            "b / d、p / q 注意左右方向"
+          ],
+          "factGroundingSourceId": "115-s1/g3/english#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "來做一題期中對話配對練習！",
+          "cognitiveChunks": [
+            "依問句關鍵字選回答"
+          ],
+          "warmupCheck": {
+            "prompt": "同學問你「How are you?」時，下面哪一個回答最有禮貌且正確？",
+            "options": [
+              "I am ten.",
+              "Happy birthday!",
+              "I am fine, thank you.",
+              "It is a ball."
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！回答「I am fine, thank you.」既禮貌又道地。",
+            "feedbackRetry": "「How are you?」是在問你好不好，不是問幾歲喔！"
+          },
+          "factGroundingSourceId": "115-s1/g3/english#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-english-u4",
+      "stageId": "115-s1-g3-english-u4",
+      "title": "Unit 3 At B&J’s Toys",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識玩具單字與指物問答",
+          "narrationText": "歡迎來到 B&J 玩具店！這單元我們要認識 ball、doll、kite、robot、car 等常見玩具，並練習用 What is this? 提問。",
+          "cognitiveChunks": [
+            "ball（球）、doll（洋娃娃）",
+            "kite（風箏）、robot（機器人）",
+            "問：What is this? 答：It is a ..."
+          ],
+          "analogyAnchor": "在玩具店看到沒見過的新玩具，指著它問「What is this?」，店員就會用「It is a ...」介紹給你。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "問這是什麼？",
+              "leftPoints": [
+                "What is this?",
+                "答：It is a robot."
+              ],
+              "rightTitle": "確認是不是某玩具？",
+              "rightPoints": [
+                "Is it a ball?",
+                "答：Yes, it is."
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "指物問 What?",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "It is a ...",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/english#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "玩具名稱配對與問答結構",
+          "narrationText": "看到「What is this?」或「Is it a ...?」的問句時，回答都要用「It is ...」或「Yes, it is.」來對應。",
+          "cognitiveChunks": [
+            "What is this? → It is a + 單字.",
+            "Is it a ...? → Yes, it is."
+          ],
+          "workedExampleData": {
+            "problemStatement": "朋友拿著一個禮物盒問你「Is it a ball?」，打開一看裡面真的是球，怎麼回答？",
+            "steps": [
+              "第 1 步：確認問句開頭是「Is it ...?」，是要回答是不是",
+              "第 2 步：盒子裡真的是球，所以要給肯定回答",
+              "第 3 步：回答「Yes, it is.」"
+            ],
+            "commonErrorContrast": "常見錯誤：回答成「I am eight.」或「Yes, I am.」，忘了物品要用 it 來代稱。",
+            "selfExplanationPrompt": "想一想：長大後不常玩的舊玩具，怎麼處理最符合愛護環境與分享的精神？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/english#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "品德與環境教育：Share your toys!",
+          "topicSignalTitle": "舊玩具不玩了可以怎麼做？",
+          "narrationText": "把保存完好的舊玩具擦拭乾淨後，分享或捐贈給需要的弟弟妹妹，既能減少垃圾浪費，又能傳遞溫暖愛心。",
+          "cognitiveChunks": [
+            "愛惜玩具不隨意破壞丟棄",
+            "整理捐贈分享讓玩具延續生命"
+          ],
+          "factGroundingSourceId": "115-s1/g3/english#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先辨認一個常見玩具的英文單字吧！",
+          "cognitiveChunks": [
+            "doll＝洋娃娃、kite＝風箏"
+          ],
+          "warmupCheck": {
+            "prompt": "天氣晴朗微風吹來，適合去公園放飛天空的玩具「風箏」英文是什麼？",
+            "options": [
+              "ball",
+              "doll",
+              "kite",
+              "car"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！kite 就是風箏。",
+            "feedbackRetry": "ball 是球、doll 是洋娃娃、car 是車子，剩下一種就是風箏喔！"
+          },
+          "factGroundingSourceId": "115-s1/g3/english#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-english-u5",
+      "stageId": "115-s1-g3-english-u5",
+      "title": "Unit 4 Baby Dragon’s Toys & Merry Christmas!",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識常見顏色與聖誕節慶文化",
+          "narrationText": "這單元帶我們學會 red、blue、yellow、green 等顏色詞彙，並結合 Merry Christmas! 認識國外聖誕節的祝福與習俗。",
+          "cognitiveChunks": [
+            "red（紅）、green（綠）",
+            "blue（藍）、yellow（黃）",
+            "Merry Christmas!＝聖誕節快樂！"
+          ],
+          "analogyAnchor": "聖誕樹上有紅色的彩球（red）、綠色的松葉（green）和黃色星星（yellow），把顏色和物品連起來就更好記。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "顏色問答",
+              "leftPoints": [
+                "問：What color is it?",
+                "答：It is red / blue."
+              ],
+              "rightTitle": "聖誕節慶",
+              "rightPoints": [
+                "Merry Christmas!",
+                "裝飾聖誕樹、交換禮物（gift）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "顏色放名詞前面",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "聖誕祝福語",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/english#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "把「顏色」和「玩具」組合成句子",
+          "narrationText": "在英文裡，描述物品的顏色時，要把顏色字放在物品名稱的前面，例如「a red car（一輛紅色的車）」。",
+          "cognitiveChunks": [
+            "It is a + 顏色 + 物品.",
+            "gift＝禮物"
+          ],
+          "workedExampleData": {
+            "problemStatement": "讀到句子「It is a red car.」時，怎麼理解它的中文意思？",
+            "steps": [
+              "第 1 步：先找出顏色單字「red」，代表紅色的",
+              "第 2 步：再找出後面的物品單字「car」，代表車子",
+              "第 3 步：合起來翻譯成「它是一輛紅色的車子。」"
+            ],
+            "commonErrorContrast": "常見錯誤：只看第一個字或把顏色記反（例如把 blue 記成紅色、red 記成綠色）。",
+            "selfExplanationPrompt": "想一想：12 月的聖誕節有哪些常見的國外節慶習俗？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/english#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "文化之窗：Christmas 節慶習俗",
+          "topicSignalTitle": "國外聖誕節通常怎麼慶祝？",
+          "narrationText": "12 月聖誕節期間，人們常會裝飾聖誕樹（Christmas tree）、唱聖誕歌、寄卡片與交換禮物（gift），互相說聲 Merry Christmas!。",
+          "cognitiveChunks": [
+            "聖誕節在 12 月冬天",
+            "裝飾聖誕樹、送卡片與禮物"
+          ],
+          "factGroundingSourceId": "115-s1/g3/english#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "試著用顏色單字回答看看這題！",
+          "cognitiveChunks": [
+            "red（紅）、green（綠）、blue（藍）、yellow（黃）"
+          ],
+          "warmupCheck": {
+            "prompt": "晴朗天空的「藍色」和向日葵的「黃色」，英文分別是哪一組？",
+            "options": [
+              "red and green",
+              "blue and yellow",
+              "black and white",
+              "green and blue"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！blue 是藍色、yellow 是黃色。",
+            "feedbackRetry": "red 和 green 是聖誕節常見的紅和綠喔，再找找藍色與黃色！"
+          },
+          "factGroundingSourceId": "115-s1/g3/english#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-english-u6",
+      "stageId": "115-s1-g3-english-u6",
+      "title": "Review 2",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "期末總複習：四大主題單字與句型",
+          "narrationText": "Review 2 整合了三上所學的 26 個字母、數字年齡、情緒感覺、玩具與顏色，用分類記憶法把全部重點串在一起！",
+          "cognitiveChunks": [
+            "字母尾段順序：U, V, W, X, Y, Z",
+            "四大主題：數字、情緒、玩具、顏色",
+            "問物答 It is ...、問歲答 I am ..."
+          ],
+          "analogyAnchor": "把單字放進「數字盒、情緒盒、玩具盒、顏色盒」四個收納箱，考前複習一下就全部找得到。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "情緒 & 數字",
+              "leftPoints": [
+                "happy, sad, tired, hungry",
+                "one ~ ten（問答年齡）"
+              ],
+              "rightTitle": "玩具 & 顏色",
+              "rightPoints": [
+                "ball, doll, kite, car, robot",
+                "red, blue, yellow, green"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "四大主題分類",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "字母W, X, Y, Z",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/english#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "綜合情境對話配對檢核",
+          "narrationText": "期末考題常把問候、年齡、玩具和顏色混在一起考，讀題時只要先圈出關鍵字（如 What、How old、color），就能選對回答。",
+          "cognitiveChunks": [
+            "先抓問句開頭關鍵字",
+            "確認主詞是 I（人）還是 It（物品）"
+          ],
+          "workedExampleData": {
+            "problemStatement": "同學指著桌上問「What is that?（那是什麼？）」，下面哪個回答正確？",
+            "steps": [
+              "第 1 步：看到「What is that?」知道是在問遠一點的物品名稱",
+              "第 2 步：問物品要用「It is a/an + 物品.」回答",
+              "第 3 步：選出「It is a yo-yo.（它是一個溜溜球。）」"
+            ],
+            "commonErrorContrast": "常見錯誤：看到問句就誤選「I am happy.」或「Merry Christmas!」，忽略主詞應該是 It。",
+            "selfExplanationPrompt": "想一想：在字母表最後面的四個大寫字母，順序是不是 W, X, Y, Z？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/english#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "三上英語總檢查清單",
+          "topicSignalTitle": "進入總複習關卡前最後確認！",
+          "narrationText": "確認你已經分得清楚 ball（球）與 kite（風箏）、red（紅）與 blue（藍）、happy（開心）與 sad（難過），就可以迎接最終挑戰囉！",
+          "cognitiveChunks": [
+            "happy 開心 / sad 難過",
+            "Hello! I am nine years old."
+          ],
+          "factGroundingSourceId": "115-s1/g3/english#u6"
+        },
+        {
+          "sceneId": "u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "最後一題暖身，檢查四大顏色單字是否都記熟了！",
+          "cognitiveChunks": [
+            "顏色類單字辨識"
+          ],
+          "warmupCheck": {
+            "prompt": "下面哪一組英文單字全部都屬於「常見顏色（Colors）」？",
+            "options": [
+              "ball, doll, kite, car",
+              "red, blue, yellow, green",
+              "happy, sad, angry, tired",
+              "six, seven, eight, nine"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "太棒了！red, blue, yellow, green 都是顏色單字，準備好挑戰 Review 2 了！",
+            "feedbackRetry": "第一組是玩具、第三組是情緒、第四組是數字喔，哪一組才是顏色呢？"
+          },
+          "factGroundingSourceId": "115-s1/g3/english#u6"
+        }
+      ]
+    }
+  ]
+}

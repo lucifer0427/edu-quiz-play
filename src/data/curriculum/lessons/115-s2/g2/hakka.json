@@ -1,0 +1,376 @@
+{
+  "packId": "115-s2-g2-hakka",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 2,
+  "subjectId": "hakka",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-hakka-u1",
+      "stageId": "115-s2-g2-hakka-u1",
+      "title": "第一單元 大自然个變化",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "月光、日頭與客家天穿日",
+          "narrationText": "客語的「日頭」是太陽、「月光」是月亮、「个」是的。正月二十日「天穿日」源自〈女媧補天〉故事，提醒我們敬天愛地讓大地休養！",
+          "cognitiveChunks": [
+            "个＝的、日頭＝太陽、月光＝月亮",
+            "天穿日源自「女媧補天」故事",
+            "這天休息不耕田、煎甜粄敬天"
+          ],
+          "analogyAnchor": "大地就像辛勞工作的媽媽，到了「天穿日」，大家讓土地休息、煎香甜的甜粄敬天，感謝大地照顧我們。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "大自然詞彙",
+              "leftPoints": [
+                "日頭（太陽）西下後天變暗",
+                "月光（月亮）每天形狀會變化"
+              ],
+              "rightTitle": "天穿日（正月二十）",
+              "rightPoints": [
+                "紀念女媧煉五色石補天",
+                "敬天愛地、惜福感恩護環境"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "日頭太陽月光月亮",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "天穿日敬天愛大地",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/hakka#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "從「天穿日」學會愛護地球",
+          "narrationText": "了解天穿日的由來與習俗後，在日常生活中我們怎麼實踐敬天惜地？",
+          "cognitiveChunks": [
+            "農曆正月二十日是天穿日",
+            "煎甜粄拜天象徵幫忙補天",
+            "省水省電做環保保護大地"
+          ],
+          "workedExampleData": {
+            "problemStatement": "客家人傳統上怎麼過「天穿日」，展現對大自然的感謝？",
+            "steps": [
+              "第 1 步：了解由來：紀念女媧娘娘煉石補天救大地。",
+              "第 2 步：這天休息不耕田、不織布，讓土地休養生息。",
+              "第 3 步：煎黏香的「甜粄」敬天，現代更提醒我們省水關燈做環保。"
+            ],
+            "commonErrorContrast": "常見錯誤：在天穿日開挖土地、亂丟垃圾或浪費水電資源。",
+            "selfExplanationPrompt": "想一想：傍晚太陽西下後，天空裡的「月光」有什麼真實的變化？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/hakka#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "自然與節日小考驗",
+          "narrationText": "答對這題就能認識更多大自然的變化！",
+          "cognitiveChunks": [
+            "天穿日源自女媧補天故事"
+          ],
+          "warmupCheck": {
+            "prompt": "客家重要節日「天穿日」的由來，和哪一個神話故事有關？",
+            "options": [
+              "女媧補天",
+              "愚公移山",
+              "大禹治水"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！相傳女媧煉五色石補天救大地，客家人就在正月二十日過天穿日紀念！",
+            "feedbackRetry": "「天穿」就是天空破了洞，哪位神話人物煉出五色石把天補起來呢？"
+          },
+          "factGroundingSourceId": "115-s2/g2/hakka#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-hakka-u2",
+      "stageId": "115-s2-g2-hakka-u2",
+      "title": "第二單元 吾(𠊎)屋下",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "姑婆來尞、收拼圖與客家粢粑",
+          "narrationText": "「屋下」是家裡，「來尞」是來作客。姑婆要來尞時先整理房間與家具、準備軟Q的「粢粑」招待，並做到愛物惜福！",
+          "cognitiveChunks": [
+            "屋下＝家裡、來尞＝來作客",
+            "拼圖物歸原位收進櫃子抽屜",
+            "客家粢粑沾花生糖粉象徵團圓"
+          ],
+          "analogyAnchor": "家就像一座溫暖的小城堡，把玩具收進固定家具裡、備好香甜「粢粑」，就能開心迎接「姑婆來尞」囉！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "姑婆來尞前：整理客廳、收好拼圖",
+                "長輩進門時：說「承蒙姑婆，請坐」",
+                "款待點心時：分享粢粑、愛物惜福"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "物歸原位好整理",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "愛物惜福不浪費",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/hakka#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "居家整潔與愛物惜福做法",
+          "narrationText": "不管是迎接客人還是平常生活，三個好習慣讓家裡更舒服。",
+          "cognitiveChunks": [
+            "拼圖與玩具放回固定櫃子",
+            "受到誇獎微笑說「承蒙你」",
+            "愛惜家具、食物不浪費"
+          ],
+          "workedExampleData": {
+            "problemStatement": "媽媽說下午「姑婆來尞」，我們在「屋下」怎麼準備最貼心？",
+            "steps": [
+              "第 1 步：先把拼圖和玩具放回櫃子或抽屜，整理好客廳。",
+              "第 2 步：姑婆進門時微笑問好，邀請「歡迎來𠊎屋下尞，請坐！」。",
+              "第 3 步：端出「粢粑」招待，吃多少拿多少做到「愛物惜福」。"
+            ],
+            "commonErrorContrast": "常見錯誤：把玩具踢到沙發底下藏起來，或對來作客的長輩不打招呼。",
+            "selfExplanationPrompt": "想一想：客家傳統點心「粢粑」是用什麼米做的，常沾什麼粉一起吃？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/hakka#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小主人暖身題",
+          "narrationText": "答對這題就能打開「吾屋下」大門歡迎客人！",
+          "cognitiveChunks": [
+            "屋下是家裡、來尞是來玩來作客"
+          ],
+          "warmupCheck": {
+            "prompt": "課名「姑婆來尞」裡的「來尞」，是什麼意思？",
+            "options": [
+              "去寫作業",
+              "來玩、來作客",
+              "去睡覺"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！來尞就是來玩、來作客的意思，記得要親切招待客人喔！",
+            "feedbackRetry": "姑婆從遠方來到我們家裡拜訪，猜猜「來尞」是什麼意思呢？"
+          },
+          "factGroundingSourceId": "115-s2/g2/hakka#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-hakka-u3",
+      "stageId": "115-s2-g2-hakka-u3",
+      "title": "第三單元 好味緒(道)",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "食夜餐具、食冰習慣與美濃黃蝶",
+          "narrationText": "「好味緒」是很好吃，「食夜」是吃晚餐。用好碗筷與湯匙均衡吃飯、適量吃冰，還要認識愛吃鐵刀木葉子的「美濃黃蝶」！",
+          "cognitiveChunks": [
+            "好味緒＝好吃、食夜＝吃晚餐",
+            "吃冰和點心適量不過量",
+            "鐵刀木是美濃黃蝶幼蟲食物"
+          ],
+          "analogyAnchor": "我們在餐桌上享用「好味緒」的飯菜，而美濃的黃蝶寶寶則以「鐵刀木」的葉子當作美味大餐！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "飲食好習慣",
+              "leftPoints": [
+                "食夜用碗、筷仔、湯匙均衡吃",
+                "稱讚食物說「真好味緒、承蒙你」"
+              ],
+              "rightTitle": "美濃生態寶藏",
+              "rightPoints": [
+                "鐵刀木提供黃蝶幼蟲食物與家",
+                "不抓蝴蝶不折樹葉愛護環境"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "稱讚美味說好味緒",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "保護鐵刀木護黃蝶",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/hakka#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "健康吃點心與欣賞美濃黃蝶",
+          "narrationText": "吃冰要懂得節制，看蝴蝶要懂得尊重生命！",
+          "cognitiveChunks": [
+            "飯後適量吃冰不影響正餐",
+            "滿身大汗不立刻猛灌冰水",
+            "看黃蝶用眼睛看、不捕抓"
+          ],
+          "workedExampleData": {
+            "problemStatement": "夏天好想「食冰」和點心，怎麼吃才能維持健康飲食習慣？",
+            "steps": [
+              "第 1 步：飯前不要吃太多零食或冰品，才不會吃不下「食夜（晚餐）」。",
+              "第 2 步：剛運動完滿身大汗時，先喝常溫開水不猛灌冰水。",
+              "第 3 步：選擇衛生點心偶爾適量品嘗，並感謝家人說「真好味緒！」。"
+            ],
+            "commonErrorContrast": "常見錯誤：三餐不吃正餐只吃冰棒，或在美濃用捕蟲網亂抓黃蝶。",
+            "selfExplanationPrompt": "想一想：如果沒有「鐵刀木」，高雄美濃的黃蝶會面臨什麼問題？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/hakka#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "美食與生態小考驗",
+          "narrationText": "答對這題就能開心去「食夜」囉！",
+          "cognitiveChunks": [
+            "好味緒是很好吃、食夜是吃晚餐"
+          ],
+          "warmupCheck": {
+            "prompt": "第三單元「好味緒」和第四課「食夜」，各是什麼意思？",
+            "options": [
+              "好味緒＝好生氣；食夜＝吃早餐",
+              "好味緒＝好天氣；食夜＝去洗澡",
+              "好味緒＝很好吃、好味道；食夜＝吃晚餐"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！稱讚煮菜好吃要說「真好味緒」，吃晚餐叫「食夜」喔！",
+            "feedbackRetry": "媽媽煮了一桌香噴噴的晚餐，大家最常稱讚什麼味道呢？"
+          },
+          "factGroundingSourceId": "115-s2/g2/hakka#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-hakka-u4",
+      "stageId": "115-s2-g2-hakka-u4",
+      "title": "第四單元 期末歌謠與複習活動",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "一張臺、碗公摎碗與出任務囉",
+          "narrationText": "期末念謠〈一張臺╱碗公摎碗〉帶我們認識桌子「一張臺」和「碗公和碗」，還要一起用客語回答「搞麼个？」和完成期末任務！",
+          "cognitiveChunks": [
+            "一張臺＝一張桌子",
+            "碗公摎碗＝大碗公和小飯碗",
+            "愛護桌椅公物、分擔餐後收拾"
+          ],
+          "analogyAnchor": "飯桌「一張臺」和「碗公摎碗」天天陪著我們吃飯，擦乾淨、擺整齊並愛惜公物，就是最棒的家庭小幫手。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "餐前：擦淨一張臺、排好碗公摎碗",
+                "對話：回答外婆「這下在搞麼个？」",
+                "任務：尋出碗公、說出好味緒點心"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "摎＝和、與（連接詞）",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "愛惜桌椅不亂塗鴉",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/hakka#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "解開〈出任務囉！〉期末總挑戰",
+          "narrationText": "把這學期學過的「屋下、碗公、好味緒」串起來，就能完成任務卡！",
+          "cognitiveChunks": [
+            "「屋下」是家裡、「尋出」是找出",
+            "「摎」用來連接兩個名詞",
+            "完成任務向夥伴說「承蒙你」"
+          ],
+          "workedExampleData": {
+            "problemStatement": "任務卡寫著：「去屋下尋出大碗公，再講出一種好味緒个客家點心！」該怎麼完成？",
+            "steps": [
+              "第 1 步：解讀地點「屋下」＝在家裡、「尋出」＝找出。",
+              "第 2 步：找出用來裝湯或飯菜的大「碗公」。",
+              "第 3 步：說出「好味緒（好吃）」的客家點心，像是「客家粢粑」！最後對夥伴說「承蒙你」。"
+            ],
+            "commonErrorContrast": "常見錯誤：在桌面亂塗鴉破壞公物，或是吃完飯把碗公留在桌上不管。",
+            "selfExplanationPrompt": "想一想：外婆問你「這下在搞麼个？」，你正在幫忙擺碗筷準備吃晚餐，怎麼回答？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/hakka#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "期末總複習暖身題",
+          "narrationText": "答對這題就可以順利完成二年級客語大挑戰囉！",
+          "cognitiveChunks": [
+            "一張臺是一張桌子、碗公摎碗是大碗公和小飯碗"
+          ],
+          "warmupCheck": {
+            "prompt": "念謠〈一張臺╱碗公摎碗〉裡的「一張臺」和「碗公摎碗」，各是指什麼？",
+            "options": [
+              "一張棉被；一把雨傘",
+              "一張桌子；大碗公和小飯碗",
+              "一本課本；兩雙鞋子"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！一張臺就是一張桌子，碗公摎碗就是大碗公和小飯碗喔！",
+            "feedbackRetry": "客家人常把吃飯的桌子叫「臺」，「摎」用來連接大碗和小碗喔！"
+          },
+          "factGroundingSourceId": "115-s2/g2/hakka#u4"
+        }
+      ]
+    }
+  ]
+}

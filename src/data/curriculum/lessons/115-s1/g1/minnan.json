@@ -1,0 +1,385 @@
+{
+  "packId": "115-s1-g1-minnan",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 1,
+  "subjectId": "minnan",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-minnan-u1",
+      "stageId": "115-s1-g1-minnan-u1",
+      "title": "一、禮貌的囡仔",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "來去讀冊與阮兜的人",
+          "narrationText": "上一年級當個「禮貌的囡仔」！早上遇到老師說「敖早」、收到幫忙說「多謝」、回家記得向「阮兜的人」親切問候。",
+          "cognitiveChunks": [
+            "囡仔＝小朋友、讀冊＝讀書",
+            "早安問候說「敖早」、道謝說「多謝」",
+            "阮兜＝我家，阿公阿媽、阿爸阿母"
+          ],
+          "analogyAnchor": "禮貌用語就像打開好人緣的鑰匙，見面說「敖早」、道謝說「多謝」，大家都會喜歡你！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "每日禮貌用語",
+              "leftPoints": [
+                "早上問好：敖早",
+                "謝謝幫忙：多謝、道別：再會"
+              ],
+              "rightTitle": "阮兜的家人稱謂",
+              "rightPoints": [
+                "阿公（爺爺）、阿媽（奶奶）",
+                "阿爸（爸爸）、阿母（媽媽）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "早上問候說敖早",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "阮兜就是我們家",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/minnan#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "不同情境怎麼用閩南語打招呼",
+          "narrationText": "看清楚什麼時間和對象，就能選出最適合的禮貌用語喔。",
+          "cognitiveChunks": [
+            "早上見面：敖早",
+            "受到幫助：多謝、離開道別：再會"
+          ],
+          "workedExampleData": {
+            "problemStatement": "同學借給你橡皮擦時，應該用哪一句閩南語道謝？",
+            "steps": [
+              "第 1 步：先分辨情境是「受到同學幫忙」",
+              "第 2 步：道謝要說「多謝！」",
+              "第 3 步：早上見面才說「敖早」，放學道別才說「再會」"
+            ],
+            "commonErrorContrast": "常見錯誤：把「失禮（對不起）」或「再會（再見）」拿來當作謝謝使用。",
+            "selfExplanationPrompt": "想一想：「阮兜的人」裡的「阿公」和「阿媽」，分別是指家裡的哪兩位長輩？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/minnan#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "試試看這題閩南語詞彙意思，準備好就去闖關！",
+          "cognitiveChunks": [
+            "讀冊＝去讀書上學"
+          ],
+          "warmupCheck": {
+            "question": "第一課課名〈來去讀冊〉裡，「讀冊」是什麼意思？",
+            "prompt": "第一課課名〈來去讀冊〉裡，「讀冊」是什麼意思？",
+            "options": [
+              "去讀書",
+              "去買菜",
+              "去睡覺"
+            ],
+            "answerIndex": 0,
+            "explanation": "閩南語的「冊」就是書本，所以「來去讀冊」就是「一起去讀書」的意思！",
+            "feedbackCorrect": "答對了！「冊」就是書，「讀冊」就是讀書喔！",
+            "feedbackRetry": "想一想，我們背書包走進教室打開書本是在做什麼事呢？"
+          },
+          "factGroundingSourceId": "115-s1/g1/minnan#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-minnan-u2",
+      "stageId": "115-s1-g1-minnan-u2",
+      "title": "二、我的鉛筆盒仔",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識文具與愛惜物品",
+          "narrationText": "打開「冊包（書包）」和鉛筆盒，裡面有鉛筆、尺和「拭仔（橡皮擦）」！借用文具要有禮貌，用完記得收整齊。",
+          "cognitiveChunks": [
+            "冊包＝書包、拭仔＝橡皮擦",
+            "借文具說「請問，會當借我無？」",
+            "橡皮擦屑集中丟垃圾桶，愛物惜物"
+          ],
+          "analogyAnchor": "鉛筆盒就像文具小精靈的家，鉛筆、尺和拭仔用完都放回家，書包就會整整齊齊！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "書包裡的文具詞彙",
+              "leftPoints": [
+                "冊包＝書包",
+                "鉛筆、尺、拭仔（橡皮擦）"
+              ],
+              "rightTitle": "借物與整潔好習慣",
+              "rightPoints": [
+                "借用前先問「會當借我無？」",
+                "用完收進鉛筆盒，橡皮屑丟垃圾桶"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "冊包就是書包",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "借物要先說請問",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/minnan#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "禮貌借文具與愛惜公物",
+          "narrationText": "忘記帶尺的時候怎麼用閩南語借用，擦完字留下的碎屑又要放哪裡呢？",
+          "cognitiveChunks": [
+            "用「請問…會當借我無？」客氣詢問",
+            "用完歸還並說「多謝」"
+          ],
+          "workedExampleData": {
+            "problemStatement": "忘記帶尺想跟同學借，用閩南語怎麼說最有禮貌？",
+            "steps": [
+              "第 1 步：先說「請問」，讓對方感覺被尊重",
+              "第 2 步：客氣問「這支尺會當借我無？（可以借我嗎）」",
+              "第 3 步：用完立刻還給同學，並說「多謝」"
+            ],
+            "commonErrorContrast": "常見錯誤：直接伸手搶走同學的尺，或用命令的語氣叫別人拿過來。",
+            "selfExplanationPrompt": "想一想：書桌上的橡皮擦屑可以直接吹到地上或塞進抽屜嗎？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/minnan#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "考考你「冊包」是指哪一樣上學必備物品！",
+          "cognitiveChunks": [
+            "冊包＝用來裝書本的書包"
+          ],
+          "warmupCheck": {
+            "question": "上學時背在肩膀上裝書本和鉛筆盒的「冊包」，是指什麼？",
+            "prompt": "上學時背在肩膀上裝書本和鉛筆盒的「冊包」，是指什麼？",
+            "options": [
+              "書包",
+              "便當盒",
+              "水壺"
+            ],
+            "answerIndex": 0,
+            "explanation": "閩南語的「冊」是書、「包」是袋子包，所以「冊包」就是書包喔！",
+            "feedbackCorrect": "答對了！「冊包」就是每天背去上學的書包！",
+            "feedbackRetry": "「冊」是書的意思，用來裝書的包包是什麼呢？"
+          },
+          "factGroundingSourceId": "115-s1/g1/minnan#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-minnan-u3",
+      "stageId": "115-s1-g1-minnan-u3",
+      "title": "三、古錐的動物",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "鳥仔與一兩三四數數",
+          "narrationText": "天上飛的「鳥仔（小鳥）」真「古錐（可愛）」！我們可以用閩南語「一、兩、三、四」來數動物，並且安靜觀察、愛護牠們。",
+          "cognitiveChunks": [
+            "古錐＝很可愛、鳥仔＝小鳥",
+            "用「一、兩、三、四」數東西個數",
+            "安靜觀察不驚嚇，愛護小動物"
+          ],
+          "analogyAnchor": "數東西就像點點名，一、兩、三、四照順序唸清楚，就能知道草地上有幾隻古錐的鳥仔！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "認識詞彙：古錐（可愛）、鳥仔（小鳥）",
+                "數字順序：一（1）、兩（2）、三（3）、四（4）",
+                "愛護動物：保持距離安靜觀察不傷害"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "古錐就是很可愛",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "一兩三四數數量",
+                "anchorPointId": "step2"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/minnan#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用閩南語數一數物品數量",
+          "narrationText": "在生活裡數「幾支鉛筆」、「幾本冊」或「幾隻鳥仔」時，看看數字怎麼配對。",
+          "cognitiveChunks": [
+            "兩＝數字 2、三＝數字 3、四＝數字 4",
+            "朗讀課文時眼到口到"
+          ],
+          "workedExampleData": {
+            "problemStatement": "用閩南語說「兩支鉛筆」和「四本冊」時，各是多少呢？",
+            "steps": [
+              "第 1 步：先數「一、兩、三、四」，依序代表 1、2、3、4",
+              "第 2 步：「兩支鉛筆」就是 2 支鉛筆",
+              "第 3 步：「四本冊」就是 4 本書"
+            ],
+            "commonErrorContrast": "常見錯誤：把「兩」誤以為是 3，或是忘記「冊」就是書本。",
+            "selfExplanationPrompt": "想一想：在校園樹下看到鳥仔時，為什麼要安靜保持距離觀察？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/minnan#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "來猜猜「古錐」是什麼意思吧！",
+          "cognitiveChunks": [
+            "古錐＝可愛、討人喜歡"
+          ],
+          "warmupCheck": {
+            "question": "第三單元名稱〈古錐的動物〉裡，「古錐」是什麼意思？",
+            "prompt": "第三單元名稱〈古錐的動物〉裡，「古錐」是什麼意思？",
+            "options": [
+              "很可愛",
+              "很可怕",
+              "跑很快"
+            ],
+            "answerIndex": 0,
+            "explanation": "閩南語的「古錐」就是「可愛、討人喜歡」的意思，常用來誇獎小動物或小朋友！",
+            "feedbackCorrect": "答對了！「古錐」就是很可愛的意思！",
+            "feedbackRetry": "看到毛茸茸又討人喜歡的小動物，會說牠很怎麼樣呢？"
+          },
+          "factGroundingSourceId": "115-s1/g1/minnan#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-minnan-u4",
+      "stageId": "115-s1-g1-minnan-u4",
+      "title": "期末歌謠與節慶",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "一放雞念謠與農曆過年",
+          "narrationText": "期末一起唸唱有趣的傳統兒歌〈一放雞〉！過年時貼春聯、全家圍爐吃年夜飯，雙手接紅包說「多謝」，還要記得「食果子，拜樹頭」懂得感恩！",
+          "cognitiveChunks": [
+            "〈一放雞〉是押韻有趣的傳統念謠",
+            "過年貼春聯、圍爐團圓、說吉祥話",
+            "收紅包雙手接並說「多謝」"
+          ],
+          "analogyAnchor": "傳統念謠就像阿公阿媽小時候玩的語言音樂盒，唸起來押韻順口，過年圍爐大家一起唸最熱鬧！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "傳統念謠與俗諺",
+              "leftPoints": [
+                "〈一放雞〉用數字搭動物押韻念唱",
+                "「食果子，拜樹頭」教人感恩惜福"
+              ],
+              "rightTitle": "農曆過年好禮儀",
+              "rightPoints": [
+                "貼春聯祈求平安、全家圍爐團圓",
+                "說「身體健康、新年快樂」祝賀長輩"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "一放雞是傳統念謠",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "收紅包雙手說多謝",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/minnan#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "過年拜年與收紅包禮儀",
+          "narrationText": "農曆過年向阿公阿媽拜年時，怎麼說話和接紅包最有禮貌呢？",
+          "cognitiveChunks": [
+            "祝福長輩「身體健康、新年快樂」",
+            "雙手接紅包並微笑說「多謝」"
+          ],
+          "workedExampleData": {
+            "problemStatement": "農曆過年收到長輩給的紅包時，應該怎麼回應最有禮貌？",
+            "steps": [
+              "第 1 步：先說吉祥話祝福長輩，例如「祝阿公阿媽身體健康、新年快樂！」",
+              "第 2 步：用雙手恭敬接下紅包，不能單手搶過來",
+              "第 3 步：微笑大聲說「多謝！」"
+            ],
+            "commonErrorContrast": "常見錯誤：拿到紅包馬上拆開來嫌少，或是忘了雙手接並道謝。",
+            "selfExplanationPrompt": "想一想：俗諺「食果子，拜樹頭」是在提醒我們養成什麼好品德？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/minnan#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "看看你知不知道〈一放雞〉是什麼活動！",
+          "cognitiveChunks": [
+            "一放雞是邊數數邊念唱的傳統兒歌"
+          ],
+          "warmupCheck": {
+            "question": "期末活動〈傳統念謠～一放雞〉屬於哪一種有趣的語文活動？",
+            "prompt": "期末活動〈傳統念謠～一放雞〉屬於哪一種有趣的語文活動？",
+            "options": [
+              "一邊數數一邊快樂念唱的兒歌",
+              "安靜寫國字考試",
+              "算數學的直式加法"
+            ],
+            "answerIndex": 0,
+            "explanation": "〈一放雞〉是臺灣流傳已久的傳統閩南語兒歌念謠，唸起來押韻又順口！",
+            "feedbackCorrect": "答對了！〈一放雞〉是快樂念唱的傳統兒歌念謠！",
+            "feedbackRetry": "題目裡有「傳統念謠」四個字，通常念謠是用什麼方式表現呢？"
+          },
+          "factGroundingSourceId": "115-s1/g1/minnan#u4"
+        }
+      ]
+    }
+  ]
+}

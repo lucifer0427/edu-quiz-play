@@ -1,0 +1,616 @@
+{
+  "packId": "115-s1-g1-mandarin",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 1,
+  "subjectId": "mandarin",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-mandarin-u1",
+      "stageId": "115-s1-g1-mandarin-u1",
+      "title": "首冊第壹單元",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "注音符號是讀故事的小鑰匙",
+          "narrationText": "在〈手拉手〉、〈排一排〉、〈來數數〉和〈找一找〉裡，我們用注音符號認識語詞和單字。",
+          "cognitiveChunks": [
+            "注音符號幫我們拼出國字讀音",
+            "從句子裡找出語詞和單字",
+            "上課專心聽、下課排好隊"
+          ],
+          "analogyAnchor": "注音符號就像一把小鑰匙，學會它就能自己打開故事書唸出句子。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "專心聽故事",
+                "認識注音和語詞",
+                "自己唸出句子"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "注音幫忙拼讀",
+                "anchorPointId": "step2"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/mandarin#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "從句子裡找出語詞和數數",
+          "narrationText": "讀課文時，先把一個字一個字看清楚，再數一數語詞有幾個字。",
+          "cognitiveChunks": [
+            "眼睛看著字，一個字一個字唸",
+            "用手指點著數語詞有幾個字"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在「大家手拉手」這句話裡，「手拉手」一共有幾個字？",
+            "steps": [
+              "第 1 步：先找出語詞「手拉手」",
+              "第 2 步：用手指點著一個字一個字數：手、拉、手",
+              "第 3 步：一共數了 3 個字"
+            ],
+            "commonErrorContrast": "常見錯誤：把整句「大家手拉手」的 5 個字全部數進去，沒有看清楚題目只問「手拉手」。",
+            "selfExplanationPrompt": "想一想：練習唸〈來數數〉的句子時，唸快比較好，還是一個字一個字唸清楚比較好？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/mandarin#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "教室裡的好習慣",
+          "topicSignalTitle": "怎樣當一個有禮貌的一雙好耳朵？",
+          "narrationText": "聽「聆聽故事」時眼睛看老師、安靜認真聽；大家一起「排一排」時不推擠，安全又有禮貌。",
+          "cognitiveChunks": [
+            "聽故事安靜專心",
+            "排隊照順序不推擠"
+          ],
+          "factGroundingSourceId": "115-s1/g1/mandarin#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "答對這題，就可以出發挑戰第一單元囉！",
+          "cognitiveChunks": [
+            "統整活動用來複習學過的注音"
+          ],
+          "warmupCheck": {
+            "prompt": "第四課後面有「統整活動一」，統整活動主要是幫我們做什麼？",
+            "options": [
+              "把學過的注音和語詞再複習一次",
+              "把課本收起來不看",
+              "忘記前面學過的字"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！統整活動幫我們把整個單元的注音和語詞複習一遍！",
+            "feedbackRetry": "想一想，「統整」就是把學過的東西合起來再練習一次喔！"
+          },
+          "factGroundingSourceId": "115-s1/g1/mandarin#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-mandarin-u2",
+      "stageId": "115-s1-g1-mandarin-u2",
+      "title": "首冊第貳單元",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "看清聲調拼出正確聲音",
+          "narrationText": "在〈雨來了〉、〈山坡上的學校〉到〈做卡片〉裡，我們把全部注音符號都學完，練習拼讀與生活表達。",
+          "cognitiveChunks": [
+            "拼讀時要看清楚聲調符號",
+            "當值日生熱心服務同學",
+            "用卡片寫下感謝的話"
+          ],
+          "analogyAnchor": "聲調符號就像注音戴的小帽子，戴不同帽子（ˊ、ˇ、ˋ），唸出來的聲音和意思就不一樣。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "拼讀小技巧",
+              "leftPoints": [
+                "先拼出符號的聲音",
+                "再看清楚聲調符號"
+              ],
+              "rightTitle": "生活好品德",
+              "rightPoints": [
+                "雨天慢走、運動前先暖身",
+                "做值日生熱心整理教室"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "看清聲調符號",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "熱心服務與感謝",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/mandarin#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "寫一張溫暖的感謝卡片",
+          "narrationText": "在〈第九課做卡片〉裡，我們學著把心裡的感謝寫出來送給好朋友。",
+          "cognitiveChunks": [
+            "先想好要謝謝誰",
+            "寫上溫暖有禮貌的句子"
+          ],
+          "workedExampleData": {
+            "problemStatement": "想做一張卡片謝謝好朋友的幫忙，卡片裡要寫什麼話最適合？",
+            "steps": [
+              "第 1 步：想一想好朋友幫了什麼忙",
+              "第 2 步：挑選讓對方開心、有禮貌的話",
+              "第 3 步：寫上「謝謝你的幫忙，有你真好！」"
+            ],
+            "commonErrorContrast": "常見錯誤：在感謝卡片裡寫上命令別人的話，或是不友善的抱怨。",
+            "selfExplanationPrompt": "想一想：在「統整活動二」學完全部注音符號後，我們可以自己做什麼事？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/mandarin#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "校園安全小提醒",
+          "topicSignalTitle": "下雨天和運動會要注意什麼？",
+          "narrationText": "下雨天路面濕滑要慢慢走；參加運動會要先做暖身運動，遵守規則並幫同學加油。",
+          "cognitiveChunks": [
+            "雨天不奔跑才不會滑倒",
+            "運動會前先暖身不受傷"
+          ],
+          "factGroundingSourceId": "115-s1/g1/mandarin#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "試試看這題，準備好就去挑戰吧！",
+          "cognitiveChunks": [
+            "值日生認真整理教室"
+          ],
+          "warmupCheck": {
+            "prompt": "輪到自己當〈第七課值日生〉時，應該怎麼做才最棒？",
+            "options": [
+              "熱心幫忙擦黑板和整理教室",
+              "躲在桌子底下裝沒看到",
+              "把工作都丟給同學做"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "好棒！當值日生熱心服務大家，教室會變得乾淨又舒服！",
+            "feedbackRetry": "想一想，值日生是為全班服務的小幫手喔！"
+          },
+          "factGroundingSourceId": "115-s1/g1/mandarin#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-mandarin-u3",
+      "stageId": "115-s1-g1-mandarin-u3",
+      "title": "首冊來閱讀",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "用注音自己讀〈紙飛機〉",
+          "narrationText": "學會全部注音符號後，遇到不會唸的國字，只要拼一拼旁邊的注音，就能自己把〈紙飛機〉讀完！",
+          "cognitiveChunks": [
+            "不認識的字看旁邊注音拼讀",
+            "遇到逗號、句號稍停一下",
+            "在空曠安全的地方玩紙飛機"
+          ],
+          "analogyAnchor": "標點符號「，」和「。」就像故事裡的小休息站，停一下換口氣，唸起來更好聽。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "看到不會唸的字",
+                "拼一拼旁邊注音",
+                "遇到逗號句號停一下"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "自己拼讀短文",
+                "anchorPointId": "step2"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/mandarin#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "遇到不會唸的字和符號怎麼辦",
+          "narrationText": "自己看短文時，先用注音拼出讀音，唸到逗號「，」或句號「。」時稍作停頓。",
+          "cognitiveChunks": [
+            "三拼音節照順序連起來拼",
+            "標點符號要停頓換氣"
+          ],
+          "workedExampleData": {
+            "problemStatement": "讀〈紙飛機〉時，遇到不認識的國字怎麼辦？",
+            "steps": [
+              "第 1 步：手指指著那個國字旁邊的注音",
+              "第 2 步：把聲母、介音、韻母和聲調連起來拼讀",
+              "第 3 步：唸出聲音，再接著把整句話讀通順"
+            ],
+            "commonErrorContrast": "常見錯誤：遇到不會唸的字就合上書本不看了，或隨便猜一個字。",
+            "selfExplanationPrompt": "想一想：讀完〈紙飛機〉後，怎麼跟同學分享才會更有趣？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/mandarin#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "戶外放飛紙飛機守則",
+          "topicSignalTitle": "去哪裡玩紙飛機才安全又環保？",
+          "narrationText": "要選空曠的操場或草地放飛，丟之前先看前面有沒有同學；不玩時要收好或放進紙類回收箱。",
+          "cognitiveChunks": [
+            "空曠操場放飛最安全",
+            "不玩要做好紙類回收"
+          ],
+          "factGroundingSourceId": "115-s1/g1/mandarin#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "來試試看這題朗讀小技巧！",
+          "cognitiveChunks": [
+            "標點符號是換氣休息站"
+          ],
+          "warmupCheck": {
+            "prompt": "讀短文〈紙飛機〉時，看到句尾的句號「。」該怎麼讀？",
+            "options": [
+              "稍微停一下換氣再往下讀",
+              "把符號大聲唸成「句號」",
+              "一口氣不停一直衝到底"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！在句號的地方稍微停頓換氣，故事唸起來最好聽！",
+            "feedbackRetry": "講話也需要喘口氣喔，標點符號就是提醒我們休息的地方！"
+          },
+          "factGroundingSourceId": "115-s1/g1/mandarin#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-mandarin-u4",
+      "stageId": "115-s1-g1-mandarin-u4",
+      "title": "第一冊第壹單元：一起玩",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "開始學寫端正的國字",
+          "narrationText": "從〈一起走〉、〈大風吹〉到〈火車過山洞〉，我們開始認讀國字、照筆順寫字，並說出完整的句子。",
+          "cognitiveChunks": [
+            "寫國字照正確筆順慢慢寫",
+            "完整句子要說出誰、在哪裡、做什麼",
+            "男女生互相尊重一起合作玩"
+          ],
+          "analogyAnchor": "寫國字就像積木蓋房子，照著筆順一筆一畫慢慢疊，字就會站在格子中間穩穩的。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "寫字與認字",
+              "leftPoints": [
+                "坐姿端正、照筆順寫",
+                "比對字形筆畫不認錯"
+              ],
+              "rightTitle": "說完整句子",
+              "rightPoints": [
+                "說出「誰」",
+                "加上「在哪裡」和「做什麼」"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "照筆順寫國字",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "誰在哪裡做什麼",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/mandarin#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "練習說出一句完整的話",
+          "narrationText": "只說「大風吹」或「我和小美」，別人還聽不懂發生什麼事；把三件事說齊才是一句完整的話。",
+          "cognitiveChunks": [
+            "誰：我和同學",
+            "在哪裡、做什麼：在操場上玩大風吹"
+          ],
+          "workedExampleData": {
+            "problemStatement": "下面哪一句話把「誰、在哪裡、做什麼」說得最清楚？",
+            "steps": [
+              "第 1 步：檢查有沒有說出「誰」→「我和同學」",
+              "第 2 步：檢查有沒有說出「在哪裡」→「在操場上」",
+              "第 3 步：加上「做什麼」→「玩大風吹」，合起來是「我和同學在操場上玩大風吹。」"
+            ],
+            "commonErrorContrast": "常見錯誤：只說出「大風吹！」或「在操場上。」，少說了主角或動作，意思不完整。",
+            "selfExplanationPrompt": "想一想：遇到兩個長得很像的國字時，怎麼分辨才不會認錯？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/mandarin#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "遊戲合作與交通安全",
+          "topicSignalTitle": "一起玩、一起走要注意什麼？",
+          "narrationText": "玩〈大風吹〉和〈火車過山洞〉時男女生一起公平合作；放學〈一起走〉過馬路要走人行道並停看聽。",
+          "cognitiveChunks": [
+            "輪流合作不推擠",
+            "過馬路先看左右來車"
+          ],
+          "factGroundingSourceId": "115-s1/g1/mandarin#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "試試看這題寫字小撇步！",
+          "cognitiveChunks": [
+            "照筆順寫國字才端正"
+          ],
+          "warmupCheck": {
+            "prompt": "剛開始練習寫〈第一課一起走〉的國字時，怎麼寫才能把字寫得端正好看？",
+            "options": [
+              "照著正確筆順，一筆一畫慢慢寫",
+              "從下面往上隨便亂畫",
+              "閉上眼睛快速塗滿格子"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "沒錯！照著正確筆順慢慢寫，每個國字都會整齊又好看！",
+            "feedbackRetry": "寫國字有先後順序，一步一步慢慢寫最棒喔！"
+          },
+          "factGroundingSourceId": "115-s1/g1/mandarin#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-mandarin-u5",
+      "stageId": "115-s1-g1-mandarin-u5",
+      "title": "第一冊第貳單元：問問題",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "保持好奇心，有禮貌發問",
+          "narrationText": "在〈請問〉、〈七彩的滑梯〉、〈秋千〉與〈回音〉裡，我們學著觀察大自然、勇敢提問並認識問號「？」。",
+          "cognitiveChunks": [
+            "問問題開頭先說「請問」",
+            "問句的最後面要加問號「？」",
+            "好奇探索彩虹和回音等自然現象"
+          ],
+          "analogyAnchor": "問號「？」長得像一隻好奇的小耳朵，專門放在問問題的句子最後面。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "觀察大自然發現疑問",
+                "有禮貌說「請問…」",
+                "句尾加上問號「？」"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "問問題先說請問",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "問句結尾加「？」",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/mandarin#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "認識問號「？」和回音",
+          "narrationText": "寫問問題的句子時要加問號「？」；生活中有不懂的事，可以請教老師、家人或查書找答案。",
+          "cognitiveChunks": [
+            "疑問句尾用問號「？」",
+            "聲音撞到山壁反彈就是回音"
+          ],
+          "workedExampleData": {
+            "problemStatement": "寫「今天天氣好不好」這種問問題的句子時，最後面要加什麼符號？",
+            "steps": [
+              "第 1 步：讀一讀句子，「好不好」是在向別人提問",
+              "第 2 步：提問的句子不能用句號「。」",
+              "第 3 步：要在最後面加上彎彎的問號「？」"
+            ],
+            "commonErrorContrast": "常見錯誤：不管是不是問問題，句尾全部都畫圓圓的句號「。」。",
+            "selfExplanationPrompt": "想一想：對著空曠大山谷大喊時，為什麼會聽到「回音」呢？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/mandarin#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "公園玩耍與自然觀察",
+          "topicSignalTitle": "盪鞦韆和雨後彩虹小知識",
+          "narrationText": "玩〈秋千〉時雙手抓緊繩索坐穩、不站在別人前面；剛下完雨出太陽時，天空常出現七彩的彩虹。",
+          "cognitiveChunks": [
+            "玩鞦韆抓緊坐穩保持距離",
+            "雨後陽光照射常出現彩虹"
+          ],
+          "factGroundingSourceId": "115-s1/g1/mandarin#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "試試看這題禮貌發問題！",
+          "cognitiveChunks": [
+            "有禮貌發問先說請問"
+          ],
+          "warmupCheck": {
+            "prompt": "想有禮貌地向別人問路或請教問題時，句子開頭加上哪兩個字最親切？",
+            "options": [
+              "快點",
+              "請問",
+              "走開",
+              "安靜"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！先說一聲「請問」，大家都會很樂意幫忙你喔！",
+            "feedbackRetry": "想想第四課的課文題目，哪兩個字最有禮貌呢？"
+          },
+          "factGroundingSourceId": "115-s1/g1/mandarin#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-mandarin-u6",
+      "stageId": "115-s1-g1-mandarin-u6",
+      "title": "第一冊來閱讀與課程統整",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "享受閱讀，和家人分享故事",
+          "narrationText": "在〈妹妹寫的字〉和〈課程統整〉裡，我們學會鼓勵家人寫字、尊重多元文化，並能說出故事大意。",
+          "cognitiveChunks": [
+            "讀完故事能說出誰做了什麼事",
+            "眼耳手口並用複習國字",
+            "把學到的故事唸給家人聽"
+          ],
+          "analogyAnchor": "回家當個小小說書人，把讀到的可愛句子唸給爸爸媽媽聽，家裡會充滿笑聲。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "總複習好方法",
+              "leftPoints": [
+                "拼讀注音、用手寫筆順",
+                "說出故事裡誰做了什麼"
+              ],
+              "rightTitle": "溫暖與尊重",
+              "rightPoints": [
+                "鼓勵妹妹寫字、陪家人共讀",
+                "尊重不同文化與語言的同學"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "眼耳手口並用複習",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "親子共讀與尊重",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/mandarin#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "複習國字與分辨句號「。」",
+          "narrationText": "遇到忘記怎麼唸的國字，可以打開課本拼注音、動手寫並練習造詞；把事情說完的句子尾端要加句號「。」。",
+          "cognitiveChunks": [
+            "拼注音、寫筆順、練習造詞",
+            "話說完了句尾加句號「。」"
+          ],
+          "workedExampleData": {
+            "problemStatement": "寫完「我每天都喜歡看故事書」這句話，句尾要加什麼標點符號？",
+            "steps": [
+              "第 1 步：讀一讀這句話，並不是在問別人問題",
+              "第 2 步：這句話完整說出了自己的想法",
+              "第 3 步：所以要在句尾加上圓圓的句號「。」"
+            ],
+            "commonErrorContrast": "常見錯誤：只看句子最後面，不小心把句號「。」寫成問號「？」或逗號「，」。",
+            "selfExplanationPrompt": "想一想：讀完一本故事書後，怎樣才代表自己真的讀懂了？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/mandarin#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "多元文化與愛護書本",
+          "topicSignalTitle": "尊重不同的朋友，也愛惜紙張",
+          "narrationText": "班上有講不同語言或來自不同地方的新同學，要親切做朋友；用完的紙張和書本要愛惜或做好紙類回收。",
+          "cognitiveChunks": [
+            "尊重彼此的文化與語言",
+            "愛惜課本做好紙類回收"
+          ],
+          "factGroundingSourceId": "115-s1/g1/mandarin#u6"
+        },
+        {
+          "sceneId": "u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "答對這題，就準備好挑戰總複習關卡囉！",
+          "cognitiveChunks": [
+            "說得出故事主角與經過就是讀懂了"
+          ],
+          "warmupCheck": {
+            "prompt": "自己讀完一本小故事書後，怎樣代表真的讀懂了？",
+            "options": [
+              "只數數看這本書有幾頁",
+              "能用自己的話說出誰做了什麼事",
+              "一分鐘翻完書就算數"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！能說出故事裡誰做了什麼事，就是真正讀懂故事囉！",
+            "feedbackRetry": "想一想，把故事講給爸爸媽媽聽的時候，需要說得出什麼呢？"
+          },
+          "factGroundingSourceId": "115-s1/g1/mandarin#u6"
+        }
+      ]
+    }
+  ]
+}

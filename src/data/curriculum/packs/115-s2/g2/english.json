@@ -136,6 +136,44 @@
             "Nn-Zz",
             "Letters"
           ]
+        },
+        {
+          "id": "115-s2-g2-english-u1-q7",
+          "prompt": "邊走邊玩手機不看紅綠燈、或者睡前不刷牙，這些都是「壞習慣！」。英文「壞習慣！」怎麼說？",
+          "options": [
+            "Good habit!",
+            "Bad habit!",
+            "Brush teeth!",
+            "Please sit down."
+          ],
+          "answerIndex": 1,
+          "explanation": "「Bad」是壞的，「habit」是習慣，所以「Bad habit!」就是「壞習慣！」。",
+          "hint": "點喇叭聽聽看，開頭是 Bad 的那一句就是「壞習慣！」喔！",
+          "speechText": "Bad habit!",
+          "speechLang": "en-US",
+          "tags": [
+            "The Crocodile and the Dentist",
+            "Safety"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u1-q8",
+          "prompt": "唱字母歌練習「Nn 到 Zz」時，排在「N, O, P」後面接著的大寫字母是哪一個？",
+          "options": [
+            "M",
+            "R",
+            "S",
+            "Q"
+          ],
+          "answerIndex": 3,
+          "explanation": "字母順序是 N, O, P, Q, R ...，所以緊接在 P 後面的是 Q。",
+          "hint": "輕輕唱一唱：N, O, P，下一個字母是什麼呢？",
+          "speechText": "N, O, P, Q",
+          "speechLang": "en-US",
+          "tags": [
+            "Nn-Zz",
+            "Alphabet Order"
+          ]
         }
       ]
     },
@@ -269,6 +307,44 @@
           "tags": [
             "Vocabulary",
             "Environment"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u2-q7",
+          "prompt": "愛護地球的 3R 行動「Reduce, Reuse, Recycle」中，少買不需要的東西、少拿塑膠袋來「減少垃圾量」，是哪一個字？",
+          "options": [
+            "Reduce",
+            "Tree",
+            "Earth",
+            "Sure"
+          ],
+          "answerIndex": 0,
+          "explanation": "「Reduce」的意思是「減量、減少使用」，從源頭少用一次性物品最環保！",
+          "hint": "點喇叭聽聽看「減量（Reduce）」怎麼念喔！",
+          "speechText": "Reduce",
+          "speechLang": "en-US",
+          "tags": [
+            "The Earth Book",
+            "Eco 3R"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u2-q8",
+          "prompt": "在《The Earth Book》裡，我們每天洗手、喝水都要珍惜的「水」，英文單字是哪一個？",
+          "options": [
+            "Earth",
+            "Tree",
+            "Water",
+            "Reuse"
+          ],
+          "answerIndex": 2,
+          "explanation": "「Water」就是「水」，記得洗完手要關緊水龍頭節約用水喔！",
+          "hint": "點喇叭聽聽看「水（Water）」的發音！",
+          "speechText": "Water",
+          "speechLang": "en-US",
+          "tags": [
+            "The Earth Book",
+            "Vocabulary"
           ]
         }
       ]
@@ -404,6 +480,44 @@
             "Nn-Zz",
             "Alphabet Order"
           ]
+        },
+        {
+          "id": "115-s2-g2-english-u3-q7",
+          "prompt": "對同學很溫柔、說話很有禮貌，形容一個人「善良的、親切的」，要用哪一個英文單字？",
+          "options": [
+            "Summer",
+            "Kind",
+            "Dentist",
+            "Recycle"
+          ],
+          "answerIndex": 1,
+          "explanation": "「Kind」的意思是「善良的、親切的」，和 Brave、Helpful 一樣都是超級英雄的好特質。",
+          "hint": "點喇叭聽聽看，「Kind」就是「善良的、親切的」喔！",
+          "speechText": "Kind",
+          "speechLang": "en-US",
+          "tags": [
+            "A Hero Like You",
+            "Adjectives"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u3-q8",
+          "prompt": "在《This Is My Family》裡，想感謝家人每天照顧我們，大聲對爸爸媽媽說「非常謝謝你。」，英文怎麼說？",
+          "options": [
+            "May I come in?",
+            "Wait for me!",
+            "Bad habit!",
+            "Thank you very much."
+          ],
+          "answerIndex": 3,
+          "explanation": "「Thank you very much.」表示「非常謝謝你。」，對家人說出感謝會讓家裡更溫暖。",
+          "hint": "找找看裡面有「Thank you（謝謝你）」的那一句喔！",
+          "speechText": "Thank you very much.",
+          "speechLang": "en-US",
+          "tags": [
+            "This Is My Family",
+            "Polite Expressions"
+          ]
         }
       ]
     },
@@ -538,6 +652,44 @@
           "tags": [
             "Nn-Zz",
             "Review"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u4-q7",
+          "prompt": "繪本《Summer》帶領大家去夏日戶外探索。請問單字「Summer」指的是哪一個季節？",
+          "options": [
+            "夏天",
+            "冬天",
+            "秋天",
+            "春天"
+          ],
+          "answerIndex": 0,
+          "explanation": "「Summer」的意思是「夏天」，太陽很大、可以去泳池安全戲水的季節。",
+          "hint": "看看這個單元的名稱「夏日安全冒險王」就知道了喔！",
+          "speechText": "Summer",
+          "speechLang": "en-US",
+          "tags": [
+            "Summer",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u4-q8",
+          "prompt": "複習「Nn 到 Zz」的大寫和小寫配對！下面哪一組字母卡完全配對正確？",
+          "options": [
+            "W - m",
+            "V - u",
+            "Y - y",
+            "Z - s"
+          ],
+          "answerIndex": 2,
+          "explanation": "「Y - y」的大寫和小寫配對完全正確！W 應配 w、V 應配 v、Z 應配 z。",
+          "hint": "找找看大寫和小寫形狀像叉子一樣的同一個字母！",
+          "speechText": "Y, y",
+          "speechLang": "en-US",
+          "tags": [
+            "Nn-Zz",
+            "Letters"
           ]
         }
       ]

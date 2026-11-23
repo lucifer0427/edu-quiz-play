@@ -1,0 +1,377 @@
+{
+  "packId": "115-s1-g3-hakka",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 3,
+  "subjectId": "hakka",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-hakka-u1",
+      "stageId": "115-s1-g3-hakka-u1",
+      "title": "單元一：掃把摎畚斗",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "掃除工具、分工合作與環境衛生",
+          "narrationText": "「掃把」是掃帚、「摎」是和、「畚斗」是畚箕。大家拿著掃除工具一起「鬥手（幫忙）」把教室變「淨俐（乾淨）」，打掃完掛好掃具並用肥皂洗手！",
+          "cognitiveChunks": [
+            "掃把＝掃帚、摎＝和、畚斗＝畚箕",
+            "分你＝給你、鬥手＝幫忙、淨俐＝乾淨",
+            "打掃後掛好掃具、分類並肥皂洗手"
+          ],
+          "analogyAnchor": "「掃把摎畚斗」就像一對最佳拍檔，掃把負責把灰塵聚起來、畚斗負責裝起來，就像班上同學分工合作讓教室更整潔。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "分工對話（這支掃把分你，𠊎拿畚斗鬥手）",
+                "安全打掃（不揮舞掃具、尖銳物報師長）",
+                "衛生收尾（掛回掃具、洗手正食蘋果）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "掃把摎畚斗合作",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "先洗手正食保健康",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/hakka#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用客語進行打掃分工與感謝對話",
+          "narrationText": "聽懂客語裡的稱讚與分工用語，就能在教室裡自然交流！",
+          "cognitiveChunks": [
+            "「煞猛」＝勤勞努力、「淨俐」＝乾淨",
+            "被稱讚時說「承蒙先生，大家共下做」",
+            "提醒洗手說「先去洗手正食喔」"
+          ],
+          "workedExampleData": {
+            "problemStatement": "打掃完畢後老師稱讚：「大家當煞猛，教室變到當淨俐！」，怎麼用客語禮貌回應？",
+            "steps": [
+              "第 1 步：聽懂「煞猛」稱讚大家勤勞、「淨俐」稱讚教室乾淨。",
+              "第 2 步：用感謝用語「承蒙先生！」禮貌道謝。",
+              "第 3 步：加上「這係大家共下做个功勞！」肯定團隊分工合作。"
+            ],
+            "commonErrorContrast": "常見錯誤：剛用掃把畚斗掃完地就直接抓蘋果吃，或拿長掃把在樹下當寶劍追打。",
+            "selfExplanationPrompt": "想一想：戶外打掃時如果發現碎玻璃或尖銳物，為什麼要先請師長協助處理？"
+          },
+          "factGroundingSourceId": "115-s1/g3/hakka#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "整潔小幫手暖身題",
+          "narrationText": "答對這題就能拿著掃把與畚斗出發囉！",
+          "cognitiveChunks": [
+            "掃把是掃帚、摎是和、畚斗是畚箕"
+          ],
+          "warmupCheck": {
+            "prompt": "第一課課名〈掃把摎畚斗〉裡的「掃把」、「摎」與「畚斗」，分別是什麼意思？",
+            "options": [
+              "掃帚；和、與；畚箕",
+              "筷子；比較；鉛筆盒",
+              "雨傘；忘記；水壺"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！掃把和畚斗是一起打掃的好搭檔，「摎」則是「和、與」的意思！",
+            "feedbackRetry": "打掃教室時手上拿著掃地的長工具，「和」它配成一對裝灰塵的工具是什麼呢？"
+          },
+          "factGroundingSourceId": "115-s1/g3/hakka#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-hakka-u2",
+      "stageId": "115-s1-g3-hakka-u2",
+      "title": "單元二：許願、你愛去哪尞？",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "時間說法、去向問答與客家花布",
+          "narrationText": "「你愛去哪尞？」是問你要去哪裡玩。「昨晡日、今晡日、天光日」清楚標出時間；而亮麗喜氣的「客家花布」與區分語意的「調號」也都是本單元重點！",
+          "cognitiveChunks": [
+            "愛＝要、尞＝遊玩或拜訪",
+            "昨晡日昨天、今晡日今天、天光日明天",
+            "調號標示聲調高低以區分詞意"
+          ],
+          "analogyAnchor": "客語的「調號」就像音符的高低記號，換了調號詞意就不同；而大紅牡丹的「客家花布」則像把祝福穿在身上與蓋在棉被裡。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "生活對話與時間",
+              "leftPoints": [
+                "你愛去哪尞？（要去哪裡玩？）",
+                "昨晡日／今晡日／天光日（韶早）"
+              ],
+              "rightTitle": "語言與文化特色",
+              "rightPoints": [
+                "調號不同會變成不同語詞意思",
+                "客家花布紅底牡丹象徵富貴圓滿"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "愛＝要、尞＝遊玩",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "花布象徵吉祥祝福",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/hakka#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分辨時間詞語與節能出遊規劃",
+          "narrationText": "把昨天、今天、明天說準確，出遊前也別忘記節能減碳！",
+          "cognitiveChunks": [
+            "「昨」過去、「今」現在、「天光」明天",
+            "不因性別限制夢想與休閒興趣",
+            "關電源、搭公車火車、帶環保水壺"
+          ],
+          "workedExampleData": {
+            "problemStatement": "朋友用客語問：「你愛去哪尞？」如果你明天要去阿公家玩並兼顧節能環保，怎麼規劃與回答？",
+            "steps": [
+              "第 1 步：用時間詞「天光日（明天）」加上地點「阿公屋下」回答：「𠊎天光日愛去阿公屋下尞！」。",
+              "第 2 步：出門前檢查關好家中不用的電器電源。",
+              "第 3 步：優先搭乘公車、火車或騎腳踏車前往，並自備環保水壺。"
+            ],
+            "commonErrorContrast": "常見錯誤：把「昨晡日（昨天）」和「天光日（明天）」搞混，或認為女生不能許願當科學家。",
+            "selfExplanationPrompt": "想一想：在客語拼音文字上標註「調號（聲調符號）」有什麼重要功用？"
+          },
+          "factGroundingSourceId": "115-s1/g3/hakka#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "時間與文化小達人",
+          "narrationText": "答對這題就能搭上客語時光機去遊玩！",
+          "cognitiveChunks": [
+            "昨晡日＝昨天、今晡日＝今天、天光日＝明天"
+          ],
+          "warmupCheck": {
+            "prompt": "下列哪一組客語時間詞彙的配對完全正確？",
+            "options": [
+              "昨晡日＝明天；天光日＝上個禮拜",
+              "昨晡日＝昨天；今晡日＝今天；天光日／韶早＝明天",
+              "今晡日＝去年；昨晡日＝下個月"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！記住昨、今、天光，就能輕鬆說出昨天、今天和明天！",
+            "feedbackRetry": "注意詞語裡的「昨」、「今」和「天光（天亮後的新一天）」喔！"
+          },
+          "factGroundingSourceId": "115-s1/g3/hakka#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-hakka-u3",
+      "stageId": "115-s1-g3-hakka-u3",
+      "title": "單元三：去市場買菜、過冬節",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "市場問價買菜與過冬節搓粄圓",
+          "narrationText": "去市場認得「菜頭、番豆、雞卵」並禮貌問價「幾多錢」；冬至「過冬節」時全家人不分性別一起搓「粄圓（湯圓）」，象徵團圓又添歲！",
+          "cognitiveChunks": [
+            "菜頭＝白蘿蔔、番豆＝花生、雞卵＝雞蛋",
+            "「冬節」吃「粄圓」象徵團圓添歲",
+            "「粄」展現客家人珍惜稻米的智慧"
+          ],
+          "analogyAnchor": "客家「粄食」就像把辛苦種出來的稻米變身成各種鹹甜美味，「過冬節」全家人圍在一起搓粄圓，就是最溫暖的團圓時刻。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第四課：去市場買菜",
+              "leftPoints": [
+                "菜頭（白蘿蔔）、番豆（花生）、雞卵（雞蛋）",
+                "自備環保袋、問幾多錢說承蒙你"
+              ],
+              "rightTitle": "第五課：過冬節",
+              "rightPoints": [
+                "搓粄圓（湯圓）象徵團圓與添歲",
+                "全家不分性別共同備料、尊重多元食俗"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "市場買菜禮貌問幾多錢",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "冬節粄圓象徵團圓添歲",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/hakka#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "市場有禮貌買菜對話三步驟",
+          "narrationText": "陪家人去市場買菜時，試著自己用客語跟老闆娘對話！",
+          "cognitiveChunks": [
+            "稱呼「頭家娘」並問「幾多錢」",
+            "說清楚購買數量「𠊎愛買兩條」",
+            "付錢後道謝「承蒙你」並用環保袋"
+          ],
+          "workedExampleData": {
+            "problemStatement": "陪家人去市場買「菜頭（白蘿蔔）」，怎麼用客語禮貌問價並結帳道謝？",
+            "steps": [
+              "第 1 步：客氣稱呼老闆娘並問價 →「頭家娘，請問菜頭一斤幾多錢？」。",
+              "第 2 步：確認價格後說出數量 →「好，𠊎愛買兩條」。",
+              "第 3 步：自備環保袋裝好，並微笑道謝「承蒙你！」。"
+            ],
+            "commonErrorContrast": "常見錯誤：以為男生不能進廚房搓湯圓，或嘲笑冬至吃水餃的不同族群習俗。",
+            "selfExplanationPrompt": "想一想：在製作客家「粄圓」前，為什麼一定要先把雙手用肥皂洗乾淨？"
+          },
+          "factGroundingSourceId": "115-s1/g3/hakka#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "市場與冬節小考驗",
+          "narrationText": "答對這題就能一起去市場買菜搓湯圓囉！",
+          "cognitiveChunks": [
+            "冬節吃粄圓象徵團圓圓滿與添一歲"
+          ],
+          "warmupCheck": {
+            "prompt": "客家人把冬至叫做「冬節」，傳統用糯米搓成的湯圓稱作什麼？又象徵什麼意義？",
+            "options": [
+              "稱作「粽仔」，象徵趕走壞天氣",
+              "稱作「粄圓」，象徵全家團圓圓滿以及又添一歲",
+              "稱作「月餅」，象徵中秋賞月"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！粄圓圓滾滾的，象徵全家團圓圓滿、平安添歲！",
+            "feedbackRetry": "客家人常把糯米做的食物稱為「粄」，圓圓的湯圓代表全家聚在一起喔！"
+          },
+          "factGroundingSourceId": "115-s1/g3/hakka#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-hakka-u4",
+      "stageId": "115-s1-g3-hakka-u4",
+      "title": "單元四：期末歌謠與複習活動",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "羊咩咩、搞麼个與客家感恩俗諺",
+          "narrationText": "從〈羊咩咩〉認識「羊仔、雞嫲、牛牯」等動物，用「你在該搞麼个？」親切聊天，更要記住「食果子，拜樹頭」飲水思源的好品德！",
+          "cognitiveChunks": [
+            "「嫲」常指雌性動物、「牯」指雄性",
+            "「你在該搞麼个？」＝你在做什麼？",
+            "「食果子，拜樹頭」提醒飲水思源"
+          ],
+          "analogyAnchor": "「食果子，拜樹頭」就像吃到甜美水果時感謝大樹根部提供養分，提醒我們永遠感念父母、師長與幫助過自己的人。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "動物與日常對話",
+              "leftPoints": [
+                "羊仔（羊）、雞嫲（母雞）、牛牯（公牛）",
+                "問做啥：搞麼个？／道別：正來尞"
+              ],
+              "rightTitle": "文化俗諺與品德",
+              "rightPoints": [
+                "食果子，拜樹頭（飲水思源）",
+                "人愛有禮，樹愛有皮（重視禮貌）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "羊仔雞嫲牛牯真好記",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "食果子拜樹頭懂感恩",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/hakka#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "拆解〈出任務囉！〉總複習對話與線索",
+          "narrationText": "把這學期學過的問候、感謝、道別和詞彙串起來，就能完成任務！",
+          "cognitiveChunks": [
+            "問去向「你愛去哪尞？」",
+            "道謝「恁仔細／承蒙你」",
+            "道別「正來尞（再見）」"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在社區遇見好朋友，想用客語完成「問要去哪玩 → 聽完道謝 → 道別」整段禮貌對話，怎麼說？",
+            "steps": [
+              "第 1 步：親切問候去向 →「你愛去哪尞？（你要去哪裡玩？）」。",
+              "第 2 步：聽完朋友說「𠊎愛去圖書館看書」後，表達感謝 →「恁仔細（非常謝謝）分享」。",
+              "第 3 步：溫暖道別 →「正來尞（有空再來玩／再見）！」。"
+            ],
+            "commonErrorContrast": "常見錯誤：把「食果子，拜樹頭」誤解為吃水果要對著大樹跪拜三十分鐘。",
+            "selfExplanationPrompt": "想一想：長輩和孩子一起唸唱〈羊咩咩〉等客家童謠，對家庭情感與文化傳承有什麼重要意義？"
+          },
+          "factGroundingSourceId": "115-s1/g3/hakka#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "客家俗諺小博士",
+          "narrationText": "答對這題就能順利完成三上客語大挑戰囉！",
+          "cognitiveChunks": [
+            "食果子，拜樹頭代表飲水思源與知恩圖報"
+          ],
+          "warmupCheck": {
+            "prompt": "經典客家俗諺「食果子，拜樹頭」，最主要是提醒我們培養什麼好品德？",
+            "options": [
+              "吃水果時要對著大樹跪拜三十分鐘",
+              "懂得飲水思源與知恩圖報，感念父母師長和幫助過自己的人",
+              "吃水果絕對不能吐出果核"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！果實甜美靠樹根養分，提醒我們永遠不要忘本、要常懷感恩之心！",
+            "feedbackRetry": "果子能長大靠的是「樹頭（樹根）」吸收養分，就像我們長大靠誰的照顧與付出呢？"
+          },
+          "factGroundingSourceId": "115-s1/g3/hakka#u4"
+        }
+      ]
+    }
+  ]
+}

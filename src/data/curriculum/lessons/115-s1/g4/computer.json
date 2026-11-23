@@ -1,0 +1,851 @@
+{
+  "packId": "115-s1-g4-computer",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 4,
+  "subjectId": "computer",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-computer-u1",
+      "stageId": "115-s1-g4-computer-u1",
+      "title": "第1週：數位啟航：座艙約定與雲端門票",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "電腦教室規範與雲端帳號安全",
+          "narrationText": "進入電腦教室要遵守座艙約定保護視力與設備，並妥善保管大忠 Gmail 帳號密碼這張雲端門票。",
+          "cognitiveChunks": [
+            "保持正確坐姿與適當螢幕距離，不帶飲料進教室",
+            "設定不易猜出的密碼且不與他人共用",
+            "公用設備使用完畢須「登出」並「移除帳號」"
+          ],
+          "analogyAnchor": "學校的 Gmail 帳號就像專屬自己的太空船門票，下船後一定要把門票收好並清除登入紀錄，下一位同學才不會誤進你的座艙。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "登入大忠 Gmail 帳號",
+                "iPad 拍照上傳雲端作業",
+                "下課登出並移除帳號"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u1-l1",
+                "text": "妥善保管個人帳密",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "u1-l2",
+                "text": "離座務必登出移除",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/computer#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "iPad 拍照上傳與公用設備收尾流程",
+          "narrationText": "使用 iPad 拍下作業並上傳雲端後，要檢查繳交狀態並徹底登出移除帳號。",
+          "cognitiveChunks": [
+            "拍照時對焦清楚、畫面不歪斜模糊",
+            "上傳後重新確認雲端作業區出現檔案",
+            "發現前人未登出時不偷看並主動幫忙登出"
+          ],
+          "workedExampleData": {
+            "problemStatement": "用學校公用 iPad 拍完學習單並上傳雲端作業後，下課歸還前要完成哪些確認步驟？",
+            "steps": [
+              "第 1 步：確認照片對焦清楚且已成功上傳至指定雲端作業區",
+              "第 2 步：點擊帳號頭像執行「登出」",
+              "第 3 步：從裝置登入清單中點選「移除帳號」，再將平板歸位充電"
+            ],
+            "commonErrorContrast": "常見錯誤：拍完照只放在平板相簿沒上傳，或直接按首頁鍵關閉畫面卻忘了登出與移除帳號。",
+            "selfExplanationPrompt": "想一想：如果在電腦教室發現上一位同學忘了登出 Gmail，最負責任的做法是什麼？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/computer#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "座艙安全與身體保護守則",
+          "topicSignalTitle": "為什麼電腦教室的座艙約定包含坐姿與不帶飲料？",
+          "narrationText": "端正坐姿與適當距離能保護視力與脊椎，不帶食物飲料進教室則能避免打翻造成設備短路損壞。",
+          "cognitiveChunks": [
+            "背部挺直、眼睛與螢幕保持適當距離",
+            "輕手操作鍵盤滑鼠，愛惜公物",
+            "飲料食物留在教室外，保護主機安全"
+          ],
+          "factGroundingSourceId": "115-s1/g4/computer#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認公用設備的隱私保護步驟，再進入關卡！",
+          "cognitiveChunks": [
+            "公用平板或電腦離座前必須登出並移除帳號"
+          ],
+          "warmupCheck": {
+            "prompt": "使用學校公用 iPad 上傳完雲端作業後，歸還前一定要完成哪兩個動作保護個人隱私？",
+            "options": [
+              "把螢幕調暗並關閉電源",
+              "徹底「登出」並「移除帳號」",
+              "把帳號密碼抄在螢幕邊框上"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！登出並移除帳號能避免下一位同學誤進你的個人雲端空間。",
+            "feedbackRetry": "只關螢幕或關機可能還留著登入紀錄喔！要清理帳號紀錄必須做哪兩個動作？"
+          },
+          "factGroundingSourceId": "115-s1/g4/computer#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-computer-u2",
+      "stageId": "115-s1-g4-computer-u2",
+      "title": "第2–3週：雲端教室營地：跨平台學習護照",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識三大雲端學習平台分工",
+          "narrationText": "Gmail、Google Classroom、學習吧與 Google Meet 各有不同帳號規則與學習用途，登入前要看清楚平台入口。",
+          "cognitiveChunks": [
+            "Google Classroom：查看課堂作業並按「繳交」",
+            "學習吧：閱讀數位教材與完成線上練習",
+            "Google Meet：跨空間同步視訊課堂互動"
+          ],
+          "analogyAnchor": "三個學習平台就像校園裡的三間教室：Classroom 是收發聯絡簿和作業的教室、學習吧是圖書視聽室、Meet 則是大家一起面對面討論的視訊會議廳。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "非同步學習平台",
+              "leftPoints": [
+                "Google Classroom 收發作業",
+                "學習吧閱讀教材與測驗"
+              ],
+              "rightTitle": "同步視訊課堂",
+              "rightPoints": [
+                "Google Meet 即時互動",
+                "不發言先靜音、提問先舉手"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u2-l1",
+                "text": "分清平台帳號入口",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u2-l2",
+                "text": "視訊聆聽先關麥克風",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/computer#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "Classroom 有禮發問與作業繳交",
+          "narrationText": "在 Google Classroom 查看作業說明並附上檔案後，要記得按下「繳交」；留言提問也要保持正式有禮。",
+          "cognitiveChunks": [
+            "先讀懂作業說明與附件要求再動手",
+            "留言提問要表明身分、禮貌問候與說清問題",
+            "收到退回建議時修正並重新繳交"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在 Google Classroom 找不到作業附件上傳位置，想在留言區問老師時該怎麼寫才適當？",
+            "steps": [
+              "第 1 步：先有禮貌問候並寫出自己的年級姓名",
+              "第 2 步：具體描述遇到的問題（例如請問第 3 項截圖要傳在哪裡）",
+              "第 3 步：加上「謝謝老師」完成發送，不洗版也不使用催促語氣"
+            ],
+            "commonErrorContrast": "常見錯誤：連續發送「在嗎？？？」洗版，或只貼一張圖片卻不說清楚自己是誰。",
+            "selfExplanationPrompt": "想一想：在 Google Meet 上課時，為什麼沒有輪到自己發言時要先把麥克風靜音？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/computer#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "Google Meet 同步課堂禮儀",
+          "topicSignalTitle": "開啟 Meet 線上視訊上課時，要遵守哪些互動禮儀？",
+          "narrationText": "進入視訊課堂時先將麥克風靜音避免環境雜音干擾大家，想提問時使用「舉手」功能並專心留在螢幕前參與。",
+          "cognitiveChunks": [
+            "不發言時保持麥克風靜音",
+            "想說話先點擊「舉手」或於聊天室留言",
+            "專心參與課堂，不隨意踢出同學"
+          ],
+          "factGroundingSourceId": "115-s1/g4/computer#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次三大平台的功能對應，準備挑戰第二關！",
+          "cognitiveChunks": [
+            "依任務需求選對學習平台"
+          ],
+          "warmupCheck": {
+            "prompt": "如果想閱讀老師放置的數位課文教材並完成線上練習，應該登入哪一個平台？",
+            "options": [
+              "學習吧（LearnMode）",
+              "Google Meet",
+              "小畫家"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！學習吧適合閱讀數位教材與進行線上章節練習。",
+            "feedbackRetry": "Google Meet 是視訊通話工具，哪一個平台專門放置課程教材與線上測驗呢？"
+          },
+          "factGroundingSourceId": "115-s1/g4/computer#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-computer-u3",
+      "stageId": "115-s1-g4-computer-u3",
+      "title": "第4週：城市航海家：捷運路網大探索",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "瀏覽器設定與關鍵字搜尋",
+          "narrationText": "學會設定瀏覽器的起始畫面、首頁按鈕、分頁標籤與資料夾整理，能讓上網搜尋「台北捷運」路網與票價更有效率。",
+          "cognitiveChunks": [
+            "起始畫面與首頁按鈕：一鍵回到常用入口網",
+            "分頁標籤：同時對照多個網頁不需重開",
+            "資料夾整理：分類存放地圖截圖與檔案"
+          ],
+          "analogyAnchor": "瀏覽器就像探索網路城市的小船：小房子「首頁按鈕」是母港、頂端「分頁標籤」是同時打開的好幾張航海圖，資料夾則是收好戰利品的百寶箱。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "輸入關鍵字「台北捷運」",
+                "選擇官方網站查路網票價",
+                "截圖存檔上傳 Classroom"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u3-l1",
+                "text": "優先選官網正確資料",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "u3-l2",
+                "text": "截圖清晰無反光歪斜",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/computer#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "搜尋台北捷運路網並截圖上傳",
+          "narrationText": "查詢公共運輸路線與票價時要優先認明官方網站，並用螢幕截圖工具擷取清晰畫面後上傳分享。",
+          "cognitiveChunks": [
+            "官方網站的路線與票價資訊最即時正確",
+            "螢幕截圖比手機翻拍更平整清晰無反光",
+            "上傳前預覽截圖內容並確認按下繳交"
+          ],
+          "workedExampleData": {
+            "problemStatement": "搜尋「台北捷運」路網圖與票價後，如何把清晰正確的地圖成果分享到 Google Classroom？",
+            "steps": [
+              "第 1 步：點選臺北大眾捷運股份有限公司官方網站，避開陌生彈跳廣告",
+              "第 2 步：使用螢幕截圖工具擷取清楚路網與票價畫面，存進分類資料夾",
+              "第 3 步：在 Classroom 上傳前預覽圖片是否完整，確認後按下「繳交」"
+            ],
+            "commonErrorContrast": "常見錯誤：拿手機對著發亮螢幕歪斜翻拍，或點開十年前網友畫錯的舊路線圖。",
+            "selfExplanationPrompt": "想一想：同時打開路網圖、票價查詢和 Classroom 時，使用瀏覽器哪一項功能來回對照最方便？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/computer#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "小房子「首頁按鈕」與資料夾整理",
+          "topicSignalTitle": "瀏覽器上的首頁按鈕與資料夾能幫我們省下什麼麻煩？",
+          "narrationText": "逛完許多網頁想立刻回到常用入口網時，只要點擊工具列上的小房子「首頁按鈕」；而分類明確的資料夾能讓作業與圖片一眼找到。",
+          "cognitiveChunks": [
+            "點選「首頁按鈕」一鍵跳回預設入口網頁",
+            "設定「起始畫面」讓啟動瀏覽器直接進入常用網",
+            "檔案依主題建立資料夾，避免桌面雜亂"
+          ],
+          "factGroundingSourceId": "115-s1/g4/computer#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次查詢捷運資訊時最可靠的網頁來源，準備出發！",
+          "cognitiveChunks": [
+            "交通路線與票價應以營運機構官方網站為準"
+          ],
+          "warmupCheck": {
+            "prompt": "以「台北捷運」關鍵字搜尋最新路網圖與票價時，應該優先點開哪一個結果？",
+            "options": [
+              "臺北大眾捷運股份有限公司官方網站",
+              "網友十年前手繪的個人部落格圖片",
+              "寫著免費抽手機的彈跳廣告"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！官方網站的路線與票價資訊最準確且會即時更新。",
+            "feedbackRetry": "捷運常有新路線或票價調整，哪一個網站能提供最權威又最新的資訊呢？"
+          },
+          "factGroundingSourceId": "115-s1/g4/computer#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-computer-u4",
+      "stageId": "115-s1-g4-computer-u4",
+      "title": "第5–7週：數位偵探：萬能搜尋工具箱",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "進階搜尋語法與以圖找圖",
+          "narrationText": "搜尋列不僅能算數學、換算幣別，還能用減號排除不要的關鍵字，甚至靠「以圖找圖」找出不知名動植物或地標的故事。",
+          "cognitiveChunks": [
+            "搜尋列計算：直接輸入算式或「100 美元 台幣」",
+            "排除關鍵字：在不想出現的詞前加「-」（如 企鵝 -玩具）",
+            "以圖找圖：用照片取代文字找出名稱與介紹"
+          ],
+          "analogyAnchor": "搜尋工具箱就像偵探的放大鏡：算式與匯率換算幫你快速算出線索、減號「-」幫你過濾雜訊，「以圖找圖」則能直接靠照片認出主角身分。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "文字進階搜尋",
+              "leftPoints": [
+                "算式求解與跨幣別換算",
+                "減號「-」排除不相關詞彙"
+              ],
+              "rightTitle": "視覺與工具輔助",
+              "rightPoints": [
+                "以圖找圖辨識未知物種地標",
+                "翻譯網頁與閱讀工具書籤"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u4-l1",
+                "text": "減號可排除不要詞彙",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u4-l2",
+                "text": "以圖找圖查未知照片",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/computer#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "整理閱讀工具書籤與翻譯外文網頁",
+          "narrationText": "建立「閱讀工具」書籤資料夾收藏國語辭典與圖書館資源，搭配「翻譯網頁」就能看懂國外地標官網。",
+          "cognitiveChunks": [
+            "書籤資料夾收藏國語辭典與圖書館館藏網",
+            "開啟「翻譯網頁」將外文頁面轉為繁體中文",
+            "重要地名與數據仍須對照課本或百科確認"
+          ],
+          "workedExampleData": {
+            "problemStatement": "查社會課本提到的國外地標時，點進官網整頁都是外文，且想把查到的好網站收起來以後再用，該怎麼做？",
+            "steps": [
+              "第 1 步：啟動瀏覽器內建「翻譯網頁」功能，將外文轉為繁體中文閱讀",
+              "第 2 步：對照課本與權威百科核對地名翻譯與數字是否正確",
+              "第 3 步：將常用辭典或學習網站加進「閱讀工具」書籤資料夾方便日後開啟"
+            ],
+            "commonErrorContrast": "常見錯誤：完全不檢查機器翻譯是否把專有名詞翻錯，就直接複製貼進筆記。",
+            "selfExplanationPrompt": "想一想：如果在搜尋「企鵝」時跳出一堆玩具店廣告，應該怎麼修改搜尋關鍵字？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/computer#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "偵探的嚴謹查證習慣",
+          "topicSignalTitle": "使用翻譯網頁時，為什麼還要再核對地名與數據？",
+          "narrationText": "自動翻譯工具雖然快速方便，但偶爾會把專有名詞翻得較生硬；寫進報告前再核對課本或百科，資料才會準確。",
+          "cognitiveChunks": [
+            "機器翻譯偶有專有名詞誤差",
+            "重要地點、國家與數據須多方比對",
+            "建立「閱讀工具」書籤累積可靠查詢來源"
+          ],
+          "factGroundingSourceId": "115-s1/g4/computer#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認排除關鍵字的符號用法，準備挑戰第四關！",
+          "cognitiveChunks": [
+            "減號「-」緊接在詞彙前可排除該關鍵字"
+          ],
+          "warmupCheck": {
+            "prompt": "搜尋「企鵝」資料時不想看到任何玩具店廣告，正確的排除關鍵字寫法是哪一個？",
+            "options": [
+              "企鵝 ?玩具",
+              "企鵝 =玩具",
+              "企鵝 -玩具"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "完全正確！在不要的詞彙前面加上減號（空格後接 -玩具）就能過濾掉該結果。",
+            "feedbackRetry": "想一想在數學裡代表「扣掉、減掉」的是哪一個符號呢？"
+          },
+          "factGroundingSourceId": "115-s1/g4/computer#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-computer-u5",
+      "stageId": "115-s1-g4-computer-u5",
+      "title": "第8–10週：雲端旅行者：虛擬世界的時空旅程",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "Google 地圖與小黃人街景探險",
+          "narrationText": "透過 Google 地圖可以觀察行政區分界、切換衛星地景進行虛擬國際旅遊、規劃校外教學路徑，也能用小黃人探索街景。",
+          "cognitiveChunks": [
+            "搜尋鄉鎮區（如魚池鄉）可看見行政區邊界線",
+            "衛星／地景視角能觀察火山、山脈等真實地貌",
+            "小黃人街景服務提供 360 度地面實景視野"
+          ],
+          "analogyAnchor": "Google 地圖就像擁有雙重變焦鏡頭的太空船：拉高能看清整個鄉鎮界線與山脈地形，把小黃人放到馬路上就能瞬間降落地面環顧台北 101。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "高空地圖與地景",
+              "leftPoints": [
+                "觀察行政區範圍與邊界",
+                "衛星模式看地形與地質"
+              ],
+              "rightTitle": "地面街景與路徑",
+              "rightPoints": [
+                "小黃人 360 度看地標實景",
+                "路徑規畫比較交通時間"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u5-l1",
+                "text": "高空看界線與地貌",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u5-l2",
+                "text": "小黃人看地面街景",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/computer#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "規劃校外教學路徑與比較交通時間",
+          "narrationText": "利用 Google 地圖的路線功能設定起點與終點，就能同時比較遊覽車、大眾運輸與步行所需的時間。",
+          "cognitiveChunks": [
+            "設定學校為起點、參觀地點為終點",
+            "切換汽車、大眾運輸與步行模式比較時間",
+            "結合社會課本空間位置與實景加深印象"
+          ],
+          "workedExampleData": {
+            "problemStatement": "想安排全班校外教學路線並先認識目的地周邊環境，可以怎麼搭配 Google 地圖的功能？",
+            "steps": [
+              "第 1 步：輸入起點與終點，使用「路徑規畫」比較開車與大眾運輸所需時間",
+              "第 2 步：切換衛星或地景視角，觀察目的地周圍地形與環境特徵",
+              "第 3 步：將右下角小黃人拖到門口藍色道路上，預先查看大門口街景"
+            ],
+            "commonErrorContrast": "常見錯誤：只死背課本地名卻不知相對位置，或規劃行程完全不比較交通時間。",
+            "selfExplanationPrompt": "想一想：在街景服務中，為什麼路人的臉部與汽車車牌都會被自動加上模糊馬賽克？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/computer#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "街景服務中的個人隱私保護",
+          "topicSignalTitle": "為什麼街景畫面會把路人臉部和車牌模糊化？",
+          "narrationText": "街景車拍攝真實道路影像時，為了保護民眾的個人隱私權與個資安全，系統會自動將清晰人臉與車牌進行模糊處理。",
+          "cognitiveChunks": [
+            "模糊人臉與車牌是為了保護個人隱私",
+            "科技便利的同時也要尊重他人肖像與個資",
+            "將課本知識與地圖實景結合能培養空間感"
+          ],
+          "factGroundingSourceId": "115-s1/g4/computer#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次小黃人街景服務的功能，再進入關卡！",
+          "cognitiveChunks": [
+            "拖放小黃人到藍色道路線可進入 360 度街景"
+          ],
+          "warmupCheck": {
+            "prompt": "在 Google 地圖右下角拖放「小黃人」到台北 101 旁的藍色道路上，畫面會變成什麼？",
+            "options": [
+              "變成 360 度實景街頭視野，可左右環顧大樓與街道",
+              "直接列印出紙本旅遊書",
+              "把所有建築物變成空白方格"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！街景服務能讓你像站在路邊一樣 360 度觀看真實街景。",
+            "feedbackRetry": "小黃人代表街景服務，把他放到馬路上就是用行人角度看哪一種畫面呢？"
+          },
+          "factGroundingSourceId": "115-s1/g4/computer#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-computer-u6",
+      "stageId": "115-s1-g4-computer-u6",
+      "title": "第11–13週：數位信使：跨越空間的雲端飛鴿",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "Email 組成結構與書信禮儀",
+          "narrationText": "電子郵件幾秒即可跨國送達並附帶照片與超連結，一封完整的 Email 必須包含清楚的主旨、禮貌稱呼與條理正文。",
+          "cognitiveChunks": [
+            "Email 三要素：主旨、稱呼、正文",
+            "設定個人頭像、簽名檔與聯絡人群組提升效率",
+            "用星號標示重要郵件，並分類整理收件匣"
+          ],
+          "analogyAnchor": "寫 Email 就像寄一封數位掛號信：「主旨」是信封上的目的摘要、「稱呼」是見面問好、「簽名檔」則是信尾自動蓋上的專屬署名印章。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "回覆 vs 全部回覆",
+              "leftPoints": [
+                "回覆：只回給原寄件者",
+                "全部回覆：寄給名單所有人"
+              ],
+              "rightTitle": "轉寄（Forward）",
+              "rightPoints": [
+                "傳給原名單以外的新對象",
+                "保留原信內容與附件"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u6-l1",
+                "text": "回覆只傳給原寄件者",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u6-l2",
+                "text": "轉寄可分享給新對象",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/computer#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "撰寫正式郵件與星號分類管理",
+          "narrationText": "寫信時在參考文字加上超連結能讓版面更整潔；管理大量信件時則善用星號標記重點，並分清楚回覆與轉寄。",
+          "cognitiveChunks": [
+            "插入超連結讓收件人一點就能開啟參考網頁",
+            "聯絡人群組可一次寄給同組多位組員",
+            "星號標示重要待辦郵件避免漏看"
+          ],
+          "workedExampleData": {
+            "problemStatement": "收到組長寄來的活動信件後，想把這封信的內容與附件傳給原本不在名單裡的美術老師，該按哪個按鈕？",
+            "steps": [
+              "第 1 步：確認美術老師不在原收件人名單中，不應按「回覆」",
+              "第 2 步：點擊信件功能中的「轉寄」按鈕",
+              "第 3 步：輸入美術老師的 Email 地址，加上禮貌說明後再寄出"
+            ],
+            "commonErrorContrast": "常見錯誤：想傳給新對象卻誤按「回覆」，結果又寄回給原本的組長；或把整篇正文全寫在「主旨」欄。",
+            "selfExplanationPrompt": "想一想：設定好「簽名檔」之後，每次寫新郵件時能幫我們省下什麼動作？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/computer#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "跨空間的電子郵件禮儀",
+          "topicSignalTitle": "雖然 Email 一秒就能寄出，為什麼還是要寫主旨和稱呼？",
+          "narrationText": "簡明的主旨讓老師或同學一眼看懂來信目的，禮貌的稱呼與清楚簽名檔則是數位時代不可或缺的溝通尊重。",
+          "cognitiveChunks": [
+            "主旨寫明重點，不留空白或亂碼",
+            "開頭禮貌稱呼，結尾加上簽名檔署名",
+            "附檔與超連結寄出前先檢查是否正確"
+          ],
+          "factGroundingSourceId": "115-s1/g4/computer#u6"
+        },
+        {
+          "sceneId": "u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次 Email 的三個關鍵結構，準備進入第六關！",
+          "cognitiveChunks": [
+            "完整的 Email 包含主旨、稱呼與正文"
+          ],
+          "warmupCheck": {
+            "prompt": "寫一封正式的 Email 給老師時，應該包含哪三個關鍵結構要素？",
+            "options": [
+              "主旨、稱呼、正文",
+              "十張自拍照、二十個貼圖、空白標題",
+              "帳號密碼、門牌照片、亂碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！清楚的主旨、禮貌的稱呼與條理分明的正文，能讓收件人一眼看懂重點。",
+            "feedbackRetry": "想一想信件最上面寫摘要、開頭問候老師、中間說明事情的三個部位分別叫什麼？"
+          },
+          "factGroundingSourceId": "115-s1/g4/computer#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-computer-u7",
+      "stageId": "115-s1-g4-computer-u7",
+      "title": "第14–20週：數位設計師：動態視覺與安全派對",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u7-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "Canva 雲端整合與照片去背技巧",
+          "narrationText": "在 Canva 連結 Google 雲端硬碟能直接取用照片素材並儲存專案，運用照片去背與邊框美化就能做出電子相簿與感謝卡。",
+          "cognitiveChunks": [
+            "Canva 連接 Google 雲端硬碟方便匯入與備份",
+            "照片去背可移除雜亂背景只留主角",
+            "套用動畫效果與頁面轉場製作動態電子相簿"
+          ],
+          "analogyAnchor": "Canva 的照片去背就像數位魔法剪刀（修圖剪刀），把主角從雜亂教室裡精準剪下來，貼到漂亮的感謝卡花圈與相框裡。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "從雲端硬碟匯入照片",
+                "照片去背與邊框美化",
+                "加動畫做短片與相簿"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u7-l1",
+                "text": "連接雲端匯入與備份",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "u7-l2",
+                "text": "去背讓主體更乾淨",
+                "anchorPointId": "step2"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/computer#u7"
+        },
+        {
+          "sceneId": "u7-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "設計感謝卡與交通安全宣導短片",
+          "narrationText": "製作感謝卡與宣導短片時要注意文字與背景的色彩對比，並用清楚標語傳達正確交通安全觀念。",
+          "cognitiveChunks": [
+            "文字與背景保持高對比，邊框不遮住臉龐",
+            "宣導短片傳遞停看聽、繫安全帶等正確守則",
+            "適度節奏與音效，不讓閃爍文字干擾重點"
+          ],
+          "workedExampleData": {
+            "problemStatement": "想在 Canva 製作「交通安全宣導短片」與「師長感謝卡」，排版和內容應該把握哪些設計原則？",
+            "steps": [
+              "第 1 步：用「照片去背」去除雜亂背景，加上相框且不遮蓋人臉與文字",
+              "第 2 步：深色背景配淺色字、淺色背景配深色字，確保標語清晰易讀",
+              "第 3 步：宣導短片搭配正確交通安全標語與適度動畫，完成後同步備份至雲端硬碟"
+            ],
+            "commonErrorContrast": "常見錯誤：亮黃字寫在白底上看不清楚，或把音效與閃爍特效放太滿蓋過安全標語。",
+            "selfExplanationPrompt": "想一想：觀摩同學的電子相簿與宣導短片時，怎樣的回饋方式最有幫助？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/computer#u7"
+        },
+        {
+          "sceneId": "u7-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "創客作品觀摩與同儕互學",
+          "topicSignalTitle": "欣賞同學的 Canva 作品時，如何展現良好的創客態度？",
+          "narrationText": "觀摩作品時先專心欣賞同學的配色、去背與創意亮點，再溫和具體地提出優化建議，彼此學習成長。",
+          "cognitiveChunks": [
+            "先肯定作品的優點與創意巧思",
+            "提出溫和且具體可改進的建議",
+            "尊重他人設計心血，不任意刪除或批評"
+          ],
+          "factGroundingSourceId": "115-s1/g4/computer#u7"
+        },
+        {
+          "sceneId": "u7-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次照片去背的用途，準備挑戰第七關！",
+          "cognitiveChunks": [
+            "照片去背能分離人物主體與雜亂背景"
+          ],
+          "warmupCheck": {
+            "prompt": "製作師長感謝卡時，如果想移除照片後面雜亂的掃具背景、只留下乾淨的人物放進卡片，應該用哪個功能？",
+            "options": [
+              "照片去背",
+              "把整張照片塗黑",
+              "把字體縮小到看不見"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！使用照片去背只保留人物主體，再搭配邊框美化就能完美融入卡片。",
+            "feedbackRetry": "想把照片主角「背後的背景去掉」只留人物，這個功能的名字叫什麼呢？"
+          },
+          "factGroundingSourceId": "115-s1/g4/computer#u7"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-computer-u8",
+      "stageId": "115-s1-g4-computer-u8",
+      "title": "第21週：數位公民成果展：網路規範大解密",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u8-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "數位問卷參與與網路安全四大支柱",
+          "narrationText": "透過填寫學校午餐滿意度數位問卷實踐校園參與，並統整網路安全、網路禮儀、辨識假訊息與保護隱私四大素養。",
+          "cognitiveChunks": [
+            "數位問卷：以客觀統計數據參與校園事務",
+            "保護隱私：不隨意填寫個資給陌生抽獎視窗",
+            "尊重著作權：使用他人圖片須合法授權並標註出處"
+          ],
+          "analogyAnchor": "合格的數位公民就像配備四面盾牌的守護者：網路安全、網路禮儀、假訊息查證與個人隱私保護，四面盾牌缺一不可。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "面對陌生資訊與個資",
+              "leftPoints": [
+                "不輕信轉傳送平板等假訊息",
+                "不外洩身分證、住址與密碼"
+              ],
+              "rightTitle": "線上互動與作品引用",
+              "rightPoints": [
+                "保持禮貌、不未經同意公開他人照",
+                "標明圖片來源、離座登出移除帳號"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u8-l1",
+                "text": "不輕信假訊息護個資",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u8-l2",
+                "text": "守禮儀重著作權必登出",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/computer#u8"
+        },
+        {
+          "sceneId": "u8-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "整合全學期工具與防範網路陷阱",
+          "narrationText": "整合搜尋、翻譯、地圖、Canva 與 Email 完成專題任務時，也要時刻警覺假訊息與詐騙問卷陷阱。",
+          "cognitiveChunks": [
+            "搜尋＋翻譯＋地圖查證資料與探索地景",
+            "Canva 去背設計視覺成果，Email 附超連結寄送",
+            "發現假訊息不轉傳，並提醒親友注意安全"
+          ],
+          "workedExampleData": {
+            "problemStatement": "瀏覽網頁時跳出非官方視窗，要求填寫身分證字號、住址與密碼就能免費領平板電腦，該如何應對？",
+            "steps": [
+              "第 1 步：辨識這是常見的個資詐騙與假訊息誘餌，堅決不點擊陌生連結",
+              "第 2 步：立刻關閉視窗，絕不輸入任何個人隱私或帳號密碼",
+              "第 3 步：不轉傳該訊息，並向師長反映或善意提醒親友小心"
+            ],
+            "commonErrorContrast": "常見錯誤：為了免費獎品而填寫全家個資，或幫忙轉傳給十個群組擴散假訊息。",
+            "selfExplanationPrompt": "想一想：期末離開電腦教室前，哪一個從第一週貫穿到第 21 週的安全收尾動作絕對不能忘？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/computer#u8"
+        },
+        {
+          "sceneId": "u8-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "有始有終的數位收尾習慣",
+          "topicSignalTitle": "期末最後一堂資訊課結束時，別忘了哪兩個收尾動作？",
+          "narrationText": "從第一週到最後一週，離開公用電腦或歸還平板前都要徹底登出所有帳號並移除登入紀錄，再將設備妥善歸位。",
+          "cognitiveChunks": [
+            "登出 Gmail、學習吧與 Canva 等所有平台",
+            "移除共用設備上的帳號登入紀錄",
+            "將座椅、耳機與平板整齊歸位"
+          ],
+          "factGroundingSourceId": "115-s1/g4/computer#u8"
+        },
+        {
+          "sceneId": "u8-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次學校數位問卷的意義，準備挑戰期末最終關卡！",
+          "cognitiveChunks": [
+            "誠實填寫學校問卷是用數據參與校園事務改善"
+          ],
+          "warmupCheck": {
+            "prompt": "登入帳號完成「學校午餐滿意度」數位問卷調查，最重要的意義是什麼？",
+            "options": [
+              "透過安全管道表達真實想法，以客觀數據參與校園改善",
+              "只為了測試誰打字最快",
+              "故意亂勾選無意義選項"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！誠實填寫問卷能彙整大家的真實意見，幫助學校讓午餐變得更好。",
+            "feedbackRetry": "學校發下滿意度問卷是想蒐集大家的真實回饋，這對校園事務有什麼幫助呢？"
+          },
+          "factGroundingSourceId": "115-s1/g4/computer#u8"
+        }
+      ]
+    }
+  ]
+}

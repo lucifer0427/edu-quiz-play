@@ -1,0 +1,902 @@
+{
+  "packId": "115-s1-g2-math",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 2,
+  "subjectId": "math",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-math-u1",
+      "stageId": "115-s1-g2-math-u1",
+      "title": "第1章 200 以內的數",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "百位、十位、個位排排站",
+          "narrationText": "超過 100 的數字有三個家：左邊是百位，中間是十位，右邊是個位。",
+          "cognitiveChunks": [
+            "10 個十合起來是 100",
+            "百位、十位、個位各有位置",
+            "沒東西的位數要補 0"
+          ],
+          "analogyAnchor": "就像存錢筒裡的 100 元鈔票、10 元硬幣和 1 元硬幣，各放一格才不會數錯！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "100 元和 10 元",
+              "leftPoints": [
+                "1 張 100 元＝1 個百",
+                "10 個 10 元＝100 元"
+              ],
+              "rightTitle": "讀寫三位數",
+              "rightPoints": [
+                "百位放左邊、個位放右邊",
+                "十位沒有就寫 0"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "百位在最左邊",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "沒有十位要補0",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "數錢幣寫出三位數",
+          "narrationText": "遇到「幾個百和幾個一」時，記得檢查十位有沒有數字，沒有就要補 0 喔！",
+          "cognitiveChunks": [
+            "先數有幾個 100",
+            "再看十位有沒有數",
+            "最後數有幾個 1"
+          ],
+          "workedExampleData": {
+            "problemStatement": "撲滿裡有 1 張 100 元和 8 個 1 元，合起來是多少元？",
+            "steps": [
+              "第 1 步：1 張 100 元，百位寫 1",
+              "第 2 步：沒有 10 元硬幣，十位寫 0",
+              "第 3 步：8 個 1 元，個位寫 8，合起來是 108 元"
+            ],
+            "commonErrorContrast": "常見錯誤：忘記十位要補 0，把 1 個百和 8 個一直接寫成 18 或 180。",
+            "selfExplanationPrompt": "想一想：如果撲滿裡再多放 2 個 10 元，108 元會變成多少元？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先試試看比大小，準備好就進場挑戰！",
+          "cognitiveChunks": [
+            "三位數一定比二位數大",
+            "百位相同就比十位"
+          ],
+          "warmupCheck": {
+            "prompt": "把「145、154、99」三個數比大小，哪一個數最大？",
+            "options": [
+              "99",
+              "145",
+              "154"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！145 和 154 百位都是 1，十位 5 比 4 大，所以 154 最大。",
+            "feedbackRetry": "先比三位數，百位都是 1 時，再比十位誰比較大喔！"
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-math-u2",
+      "stageId": "115-s1-g2-math-u2",
+      "title": "第2章 二位數的加減法",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "直式計算要對齊位值",
+          "narrationText": "寫直式算加減法時，個位要對齊個位，十位要對齊十位，才不會算錯。",
+          "cognitiveChunks": [
+            "個位對個位，十位對十位",
+            "個位滿 10 要向十位進 1",
+            "個位不夠減向十位借 1 個十"
+          ],
+          "analogyAnchor": "就像排隊一樣，個位的小朋友站一排，十位的小朋友站一排，整齊排好再開始算！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "step1": "位值對齊",
+              "step2": "先算個位",
+              "step3": "進位或借位後算十位"
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "個位先算",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "滿十進一",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "退位減法怎麼借",
+          "narrationText": "個位不夠減的時候，可以向十位借 1 個十變成 10 個一再減。",
+          "cognitiveChunks": [
+            "先看個位夠不夠減",
+            "不夠就向十位借 1 個十",
+            "十位記得少 1"
+          ],
+          "workedExampleData": {
+            "problemStatement": "一盒蠟筆有 42 枝，借走了 16 枝，還剩下幾枝？",
+            "steps": [
+              "第 1 步：個位 2 不夠減 6，向十位借 1 個十",
+              "第 2 步：12 - 6 = 6，個位寫 6",
+              "第 3 步：十位剩 3，3 - 1 = 2，答案是 26 枝"
+            ],
+            "commonErrorContrast": "常見錯誤：個位 2 減 6 算成 6 減 2 得 4，或是借了 1 卻忘記把十位的 4 改成 3。",
+            "selfExplanationPrompt": "想一想：用 26 + 16 算算看，會不會剛好變回 42 呢？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "練習一題進位加法和大小比較吧！",
+          "cognitiveChunks": [
+            "大於 ＞、小於 ＜、等於 ＝"
+          ],
+          "warmupCheck": {
+            "prompt": "比較「25 + 15」和「38」的大小，中間要填哪一個符號？",
+            "options": [
+              "＞",
+              "＜",
+              "＝"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "沒錯！25 + 15 = 40，40 比 38 大，所以填「＞」。",
+            "feedbackRetry": "先把 25 + 15 算出來，再看看比 38 大還是小喔！"
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-math-u3",
+      "stageId": "115-s1-g2-math-u3",
+      "title": "第3章 認識公分",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "為什麼大家都用「公分」量長度？",
+          "narrationText": "用不同大小的積木量同一本書，數出來的數量會不一樣；用直尺上的「公分」來量，大家量的結果才一樣。",
+          "cognitiveChunks": [
+            "直尺上 0 到 1 是一公分",
+            "量長度要從刻度 0 對齊",
+            "沒對準 0 就用大刻度減小刻度"
+          ],
+          "analogyAnchor": "就像我們的手掌和大人手掌不一樣大，所以需要大家都一樣的「公分」當作共同的尺！",
+          "visualSpec": {
+            "templateId": "number_line",
+            "params": {
+              "min": 0,
+              "max": 10,
+              "highlightStart": 2,
+              "highlightEnd": 7
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "0到1是1公分",
+                "anchorPointId": "start"
+              },
+              {
+                "id": "l2",
+                "text": "2到7共5公分",
+                "anchorPointId": "end"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "斷掉的直尺也能量",
+          "narrationText": "如果直尺的 0 斷掉了，只要數一數中間走了幾大格，或用後面的刻度減前面的刻度就行了。",
+          "cognitiveChunks": [
+            "看清楚起點和終點刻度",
+            "大刻度減小刻度就是長度"
+          ],
+          "workedExampleData": {
+            "problemStatement": "橡皮擦一端對準刻度 3，另一端對準刻度 8，橡皮擦長幾公分？",
+            "steps": [
+              "第 1 步：找到起點刻度 3 和終點刻度 8",
+              "第 2 步：數一數或相減：8 - 3 = 5 格",
+              "第 3 步：每一大格是 1 公分，所以長 5 公分"
+            ],
+            "commonErrorContrast": "常見錯誤：沒有減掉前面的 3，直接看終點刻度就回答 8 公分。",
+            "selfExplanationPrompt": "想一想：如果鉛筆從刻度 2 量到刻度 10，它長幾公分？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "練習一題長度的加法吧！",
+          "cognitiveChunks": [
+            "接起來變長用加法",
+            "減短或比差多少用減法"
+          ],
+          "warmupCheck": {
+            "prompt": "把 6 公分長的紙條和 9 公分長的紙條接在一起，共長幾公分？",
+            "options": [
+              "3 公分",
+              "15 公分",
+              "14 公分"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！6 + 9 = 15 公分。",
+            "feedbackRetry": "兩條接在一起要變長，用加法 6 + 9 算算看！"
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-math-u4",
+      "stageId": "115-s1-g2-math-u4",
+      "title": "第4章 加減應用",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "加法和減法是好朋友",
+          "narrationText": "加法算完可以用減法檢查，減法算完可以用加法檢查，這就是加減互逆的關係。",
+          "cognitiveChunks": [
+            "部分＋部分＝全部",
+            "全部－部分＝另一部分",
+            "加減可以互相驗算"
+          ],
+          "analogyAnchor": "就像把兩盒積木倒在一起是加法，拿走其中一盒變回原來的樣子就是減法！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "加法驗算",
+              "leftPoints": [
+                "25 + 18 = 43",
+                "用 43 - 18 = 25 檢查"
+              ],
+              "rightTitle": "減法驗算",
+              "rightPoints": [
+                "64 - 27 = 37",
+                "用 37 + 27 = 64 檢查"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "加法用減法驗算",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "減法用加法驗算",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "找出空格裡的秘密數字",
+          "narrationText": "當題目不知道放進多少或飛走多少時，用加減互逆關係就能算出來。",
+          "cognitiveChunks": [
+            "先分辨誰是全部、誰是部分",
+            "求部分用減法，求全部用加法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "袋子裡有 24 顆彈珠，放進一些後變成 40 顆，放進了幾顆？",
+            "steps": [
+              "第 1 步：寫出算式 24 + □ = 40",
+              "第 2 步：全部是 40 顆，減掉原來的 24 顆：40 - 24 = 16",
+              "第 3 步：驗算 24 + 16 = 40，答案是 16 顆"
+            ],
+            "commonErrorContrast": "常見錯誤：看到「放進」就以為要用加法，算成 24 + 40 = 64 顆。",
+            "selfExplanationPrompt": "想一想：如果原本不知道有幾顆，吃掉 14 顆剩 28 顆，該怎麼算原本有幾顆？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "試著用驗算的想法來解這題吧！",
+          "cognitiveChunks": [
+            "剩下的＋吃掉的＝原來的"
+          ],
+          "warmupCheck": {
+            "prompt": "算式「□ + 12 = 30」裡，空格中的數是多少？",
+            "options": [
+              "42",
+              "18",
+              "28"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "很棒！30 - 12 = 18，18 + 12 剛好等於 30。",
+            "feedbackRetry": "用全部的 30 減掉 12 算算看喔！"
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-math-u5",
+      "stageId": "115-s1-g2-math-u5",
+      "title": "第5章 容量",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "水壺能裝多少水？",
+          "narrationText": "容器裡面最多能裝多少水，叫做這個容器的「容量」。我們可以用三種方法比容量大小。",
+          "cognitiveChunks": [
+            "直接比較：直接倒水進去比",
+            "間接比較：倒進相同容器看水位",
+            "個別單位：用同一個杯子數幾杯"
+          ],
+          "analogyAnchor": "就像比兩個水壺誰裝得多，可以直接倒滿互比，也可以用同一個小茶杯一匙一匙數！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "step1": "直接倒水比較",
+              "step2": "借用相同容器間接比較",
+              "step3": "用相同小杯子數杯數"
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "滿了還有剩較大",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "倒越多杯容量大",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用小杯子比一比",
+          "narrationText": "使用「同一個」小杯子當標準，需要倒越多杯才會滿的水壺，容量就越大。",
+          "cognitiveChunks": [
+            "一定要用相同大小的杯子",
+            "杯數越多表示容量越大"
+          ],
+          "workedExampleData": {
+            "problemStatement": "用同一個小茶杯裝水，紅水壺要倒 5 杯才滿，藍水壺要倒 8 杯才滿，誰容量比較大？",
+            "steps": [
+              "第 1 步：確認兩個水壺用的是同一個小茶杯",
+              "第 2 步：紅水壺裝 5 杯，藍水壺裝 8 杯",
+              "第 3 步：8 杯比 5 杯多，所以藍水壺容量比較大"
+            ],
+            "commonErrorContrast": "常見錯誤：以為杯數比較少的水壺容量比較大，或是用兩個不同大小的杯子來比。",
+            "selfExplanationPrompt": "想一想：如果把大寶特瓶倒滿水後倒進玻璃杯，玻璃杯滿了寶特瓶還有剩，誰比較大？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先答對這題容量比較，再開始挑戰！",
+          "cognitiveChunks": [
+            "裝滿還有剩＝容量比較大"
+          ],
+          "warmupCheck": {
+            "prompt": "甲水壺裝滿水倒進空的乙水壺，乙水壺還沒裝滿，甲水壺已經倒光了。哪一個容量比較大？",
+            "options": [
+              "甲水壺比較大",
+              "乙水壺比較大",
+              "兩個一樣大"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！甲水壺的水倒完還裝不滿乙水壺，代表乙水壺比較大。",
+            "feedbackRetry": "乙水壺還有空間沒裝滿，誰能裝的水比較多呢？"
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-math-u6",
+      "stageId": "115-s1-g2-math-u6",
+      "title": "第6章 加減兩步驟",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "一步一步慢慢算",
+          "narrationText": "遇到有三種東西或兩次變化的題目，先算第一步，再把結果拿來算第二步，就不容易亂掉。",
+          "cognitiveChunks": [
+            "先讀懂題目有哪兩件事",
+            "增加用加法，減少用減法",
+            "連加順序改變，總和一樣"
+          ],
+          "analogyAnchor": "就像搭公車一樣，先看有幾個人下車（減法），再看有幾個人上車（加法），照順序算就清楚了！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "step1": "原本數量",
+              "step2": "第一步變化",
+              "step3": "第二步變化"
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "下車用減法",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "上車用加法",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "湊成整十更好算",
+          "narrationText": "三個數連加時，順序改變不會影響答案，可以先挑加起來剛好是整十的兩個數來算。",
+          "cognitiveChunks": [
+            "連加順序可交換",
+            "先湊整十速度更快"
+          ],
+          "workedExampleData": {
+            "problemStatement": "水果籃裡有 16 顆蘋果、24 顆橘子和 18 顆奇異果，一共有幾顆水果？",
+            "steps": [
+              "第 1 步：先算 16 + 24 = 40（剛好湊成整十）",
+              "第 2 步：再用 40 加上剩下的 18：40 + 18 = 58",
+              "第 3 步：一共有 58 顆水果"
+            ],
+            "commonErrorContrast": "常見錯誤：只算了前兩個數 16 + 24 = 40 就以為算完了，忘記加上第三個數 18。",
+            "selfExplanationPrompt": "想一想：如果先算 24 + 18 = 42，再加上 16，結果一樣是 58 嗎？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "動腦算一算這題兩步驟應用題！",
+          "cognitiveChunks": [
+            "先算總共花掉多少，或分兩次減"
+          ],
+          "warmupCheck": {
+            "prompt": "小美有 50 元，買了 15 元的橡皮擦和 20 元的直尺，還剩下幾元？",
+            "options": [
+              "35 元",
+              "25 元",
+              "15 元"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "太棒了！一共花了 15 + 20 = 35 元，50 - 35 = 15 元。",
+            "feedbackRetry": "先算 15 + 20 一共花幾元，再用 50 元減掉它喔！"
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-math-u7",
+      "stageId": "115-s1-g2-math-u7",
+      "title": "第7章 乘法（一）",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u7-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "乘法就是快速連加",
+          "narrationText": "當每一組的數量都一樣多時，不用一個一個慢慢加，用「乘法」寫起來又快又整齊。",
+          "cognitiveChunks": [
+            "被乘數＝每組有幾個",
+            "乘數＝一共有幾組（幾倍）",
+            "先熟練 2、5、4、8 的乘法"
+          ],
+          "analogyAnchor": "一隻手有 5 根手指，6 隻手就是 5 + 5 + 5 + 5 + 5 + 5，直接寫成 5 × 6 就清楚多了！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "連加寫法",
+              "leftPoints": [
+                "5 + 5 + 5 + 5",
+                "一共有 4 個 5 相加"
+              ],
+              "rightTitle": "乘法寫法",
+              "rightPoints": [
+                "5 × 4 = 20",
+                "讀作 5 乘以 4 等於 20"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "4個5連加",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "寫成5×4",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u7"
+        },
+        {
+          "sceneId": "u7-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分清楚誰放前面、誰放後面",
+          "narrationText": "列乘法算式時，把「一組有幾個」寫在前面，「有幾組」寫在後面。",
+          "cognitiveChunks": [
+            "一隻青蛙 2 條腿放前面",
+            "有 7 隻青蛙放後面"
+          ],
+          "workedExampleData": {
+            "problemStatement": "一隻青蛙有 2 條後腿，7 隻青蛙一共有幾條後腿？",
+            "steps": [
+              "第 1 步：一隻青蛙有 2 條腿，所以 2 寫在前面",
+              "第 2 步：共有 7 隻青蛙（2 的 7 倍），寫成 2 × 7",
+              "第 3 步：背口訣「二七十四」，答案是 14 條"
+            ],
+            "commonErrorContrast": "常見錯誤：看到 2 和 7 就直接相加，錯算成 2 + 7 = 9 條。",
+            "selfExplanationPrompt": "想一想：如果 1 個蛋糕切 8 塊，4 個蛋糕要寫成 8 × 4 還是 8 + 4？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u7"
+        },
+        {
+          "sceneId": "u7-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "用 4 的乘法口訣算算看這題！",
+          "cognitiveChunks": [
+            "4 的 5 倍就是 4 × 5"
+          ],
+          "warmupCheck": {
+            "prompt": "一張桌子有 4 隻腳，5 張桌子一共有幾隻腳？",
+            "options": [
+              "9 隻",
+              "16 隻",
+              "20 隻"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！4 × 5 = 20 隻腳。",
+            "feedbackRetry": "是 5 張桌子，每張 4 隻腳，用四五多少來算喔！"
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u7"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-math-u8",
+      "stageId": "115-s1-g2-math-u8",
+      "title": "第8章 時間",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u8-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識短針和長針",
+          "narrationText": "鐘面上短針走 1 大格是 1 小時，長針走 1 小格是 1 分鐘、走 1 大格是 5 分鐘。",
+          "cognitiveChunks": [
+            "短針（時針）看幾點",
+            "長針（分針）5 個 5 個數",
+            "1 大格裡面有 5 小格"
+          ],
+          "analogyAnchor": "長針就像 5 的乘法表小幫手，指到數字 1 就是 5 分、指到 2 就是 10 分、指到 6 就是 30 分！",
+          "visualSpec": {
+            "templateId": "clock_face",
+            "params": {
+              "hour": 3,
+              "minute": 30
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "短針在3和4間",
+                "anchorPointId": "hourHand"
+              },
+              {
+                "id": "l2",
+                "text": "長針指6是30分",
+                "anchorPointId": "minuteHand"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u8"
+        },
+        {
+          "sceneId": "u8-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "點數經過了幾分鐘",
+          "narrationText": "想知道從一個時刻到另一個時刻過了幾分鐘，可以數長針走了幾大格，再乘以 5。",
+          "cognitiveChunks": [
+            "數長針走了幾大格",
+            "一大格代表 5 分鐘"
+          ],
+          "workedExampleData": {
+            "problemStatement": "下午 4 點 45 分開始跳繩，跳到 5 點 05 分休息，一共跳了幾分鐘？",
+            "steps": [
+              "第 1 步：4 點 45 分時長針在 9，5 點 05 分時長針在 1",
+              "第 2 步：從 9 數到 12 是 3 大格，再走到 1 是 1 大格，共 4 大格",
+              "第 3 步：每大格 5 分鐘，5 × 4 = 20 分鐘"
+            ],
+            "commonErrorContrast": "常見錯誤：看到 45 和 05 就直接相減 45 - 5 = 40，忘記 60 分會進位到下一個整點。",
+            "selfExplanationPrompt": "想一想：如果長針從數字 2 走到數字 5，經過了幾分鐘？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u8"
+        },
+        {
+          "sceneId": "u8-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "看看鐘面，練習報讀幾點幾分吧！",
+          "cognitiveChunks": [
+            "短針走過幾就是幾點"
+          ],
+          "warmupCheck": {
+            "prompt": "鐘面上短針在 8 和 9 之間，長針指著數字 3，現在是幾點幾分？",
+            "options": [
+              "8 點 03 分",
+              "8 點 15 分",
+              "9 點 15 分"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！短針走過 8 是 8 點，長針指 3 是 5 × 3 = 15 分，所以是 8 點 15 分。",
+            "feedbackRetry": "長針走 1 大格是 5 分鐘，指在 3 要 5 個 5 個數 3 次喔！"
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u8"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-math-u9",
+      "stageId": "115-s1-g2-math-u9",
+      "title": "第9章 乘法（二）",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u9-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "完成九九乘法家族",
+          "narrationText": "學完 2、4、5、8 的乘法後，這一章要熟練 3、6、7、9 的乘法，把九九乘法表全部收齊！",
+          "cognitiveChunks": [
+            "3 的乘法多一倍就是 6 的乘法",
+            "7 天是一星期，9 排好隊很好數",
+            "熟練 3、6、7、9 口訣"
+          ],
+          "analogyAnchor": "6 的乘法其實就是 3 的乘法的兩倍，像 3 × 4 = 12，那 6 × 4 就剛好是兩倍 24！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "3 和 6 的乘法",
+              "leftPoints": [
+                "3 × 6 = 18",
+                "6 × 6 = 36"
+              ],
+              "rightTitle": "7 和 9 的乘法",
+              "rightPoints": [
+                "7 × 6 = 42",
+                "9 × 7 = 63"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "6是3的兩倍",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "九七六十三",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u9"
+        },
+        {
+          "sceneId": "u9-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用口訣解決生活乘法題",
+          "narrationText": "一星期有 7 天，看到「幾個星期」就可以用 7 的乘法快速算出來。",
+          "cognitiveChunks": [
+            "找出每份有幾個",
+            "乘以總共有幾份"
+          ],
+          "workedExampleData": {
+            "problemStatement": "一星期有 7 天，連續 6 個星期一共有幾天？",
+            "steps": [
+              "第 1 步：一星期有 7 天，寫出被乘數 7",
+              "第 2 步：有 6 個星期，寫成算式 7 × 6",
+              "第 3 步：背口訣「七六四十二」，共有 42 天"
+            ],
+            "commonErrorContrast": "常見錯誤：忘記一星期是 7 天，或是把 7 × 6 記成 7 × 5 = 35。",
+            "selfExplanationPrompt": "想一想：如果買 9 盒鉛筆，每盒 6 枝，算式要寫成什麼？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u9"
+        },
+        {
+          "sceneId": "u9-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "考考你 9 的乘法口訣！",
+          "cognitiveChunks": [
+            "9 的幾倍就是 9 × 幾"
+          ],
+          "warmupCheck": {
+            "prompt": "一排座位有 9 張椅子，4 排座位一共有幾張椅子？",
+            "options": [
+              "13 張",
+              "36 張",
+              "45 張"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！9 × 4 = 36 張椅子。",
+            "feedbackRetry": "背背看 9 的乘法口訣：九四多少呢？"
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u9"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-math-u10",
+      "stageId": "115-s1-g2-math-u10",
+      "title": "第10章 面的大小比較",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u10-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "比一比誰的面比較大",
+          "narrationText": "拿得動的東西可以直接疊在一起比；搬不動的東西可以描下來比，或是鋪一樣大的小正方形紙片數數看。",
+          "cognitiveChunks": [
+            "直接比較：疊在一起對齊比",
+            "間接比較：用報紙描下來比",
+            "個別單位：鋪相同正方形數張數"
+          ],
+          "analogyAnchor": "就像比國語課本和作業簿誰的封面大，疊在一起看誰露在外面就知道了！",
+          "visualSpec": {
+            "templateId": "rect_geometry",
+            "params": {
+              "width": 6,
+              "height": 4,
+              "unit": "格"
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "疊起來看誰露出",
+                "anchorPointId": "top"
+              },
+              {
+                "id": "l2",
+                "text": "鋪方格數張數",
+                "anchorPointId": "center"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u10"
+        },
+        {
+          "sceneId": "u10-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用相同紙片鋪滿來比較",
+          "narrationText": "鋪紙片比較面的大小時，紙片要一樣大，而且不能重疊、也不能留空隙喔！",
+          "cognitiveChunks": [
+            "紙片大小要相同",
+            "鋪的張數越多，面就越大"
+          ],
+          "workedExampleData": {
+            "problemStatement": "用一樣大的正方形色紙鋪滿桌面，甲桌鋪了 12 張，乙桌鋪了 9 張，哪一張桌面比較大？",
+            "steps": [
+              "第 1 步：確認兩張桌面用的是同樣大的正方形色紙",
+              "第 2 步：比較張數：12 張 ＞ 9 張",
+              "第 3 步：鋪比較多張的甲桌，面比較大"
+            ],
+            "commonErrorContrast": "常見錯誤：鋪的時候把色紙疊在一起，或用兩種不同大小的紙片來比張數。",
+            "selfExplanationPrompt": "想一想：如果兩張圖畫都用一樣大的方格紙鋪滿，而且都是 15 張，誰比較大？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u10"
+        },
+        {
+          "sceneId": "u10-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "試試看分辨直接比較和間接比較！",
+          "cognitiveChunks": [
+            "露在外面的面比較大"
+          ],
+          "warmupCheck": {
+            "prompt": "把小貼紙直接疊在卡片上，卡片的四周都露在外面，這表示什麼？",
+            "options": [
+              "小貼紙的面比較大",
+              "卡片的面比較大",
+              "兩個面一樣大"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！小貼紙蓋不住卡片，卡片還有多出來，所以卡片的面比較大。",
+            "feedbackRetry": "想一想，誰被蓋住了、誰還有多出來露在外面呢？"
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u10"
+        }
+      ]
+    }
+  ]
+}

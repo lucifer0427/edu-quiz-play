@@ -1,0 +1,908 @@
+{
+  "packId": "115-s1-g1-math",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 1,
+  "subjectId": "math",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-math-u1",
+      "stageId": "115-s1-g1-math-u1",
+      "title": "第一單元 10以內的數",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "用手指和數字數到 10",
+          "narrationText": "從 1 開始一個一個數，數到最後停在幾，就是全部的數量；一個也沒有就是 0。",
+          "cognitiveChunks": [
+            "一個一個點著數才不會漏掉",
+            "0 表示一個也沒有",
+            "可以用手指、畫圈或數字記錄"
+          ],
+          "analogyAnchor": "拍手 5 下、伸出 5 根手指頭，或是畫 5 個圈圈，都在告訴我們數量是 5。",
+          "visualSpec": {
+            "templateId": "number_line",
+            "params": {
+              "min": 0,
+              "max": 10,
+              "highlight": 5
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "0 表示沒有",
+                "anchorPointId": "start"
+              },
+              {
+                "id": "l2",
+                "text": "從 1 數到 10",
+                "anchorPointId": "end"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/math#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "數一數盤子裡有幾顆糖果",
+          "narrationText": "數東西時，用小手指從左邊點到右邊，嘴裡跟著唸出數字，最後停在幾就是幾顆。",
+          "cognitiveChunks": [
+            "手點一個，嘴唸一個數",
+            "最後數到的數字就是總數"
+          ],
+          "workedExampleData": {
+            "problemStatement": "盤子裡有 ○○○○○○○，一共有幾個圈圈？",
+            "steps": [
+              "第 1 步：從最左邊開始點：1、2、3、4、5",
+              "第 2 步：接著往下點：6、7",
+              "第 3 步：最後停在 7，所以一共有 7 個圈圈"
+            ],
+            "commonErrorContrast": "常見錯誤：眼睛看太快，手指沒有對好圈圈，容易重複數或漏數一個。",
+            "selfExplanationPrompt": "想一想：如果盤子裡空空的，一個圈圈也沒有，要寫成數字幾？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/math#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "認識數字 0",
+          "topicSignalTitle": "空空的碗要用哪一個數字？",
+          "narrationText": "碗裡一顆糖果也沒有的時候，不能寫 1，要寫成圓圓的「0」，表示沒有。",
+          "cognitiveChunks": [
+            "0 比 1 還小",
+            "沒有東西時就用 0 表示"
+          ],
+          "factGroundingSourceId": "115-s1/g1/math#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "先試試看這題，準備好了就出發挑戰！",
+          "cognitiveChunks": [
+            "空空的沒有東西就是 0"
+          ],
+          "warmupCheck": {
+            "prompt": "桌上原本有 6 塊積木，再多放 1 塊上去，現在一共有幾塊積木？",
+            "options": [
+              "5 塊",
+              "6 塊",
+              "7 塊",
+              "8 塊"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！從 6 再往下數 1 個就是 7 塊。",
+            "feedbackRetry": "伸出手指頭，從 6 接著往下數 1 個看看喔！"
+          },
+          "factGroundingSourceId": "115-s1/g1/math#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-math-u2",
+      "stageId": "115-s1-g1-math-u2",
+      "title": "第二單元 比長短",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "一端對齊再比長短",
+          "narrationText": "比較兩枝筆誰比較長時，要把兩枝筆的其中一頭先對齊，再看另一頭誰伸得比較遠。",
+          "cognitiveChunks": [
+            "比長短要先對齊起點",
+            "彎彎的線要先拉直再比",
+            "兩點之間直線最短"
+          ],
+          "analogyAnchor": "就像兩個小朋友比身高，腳要站在同一個平平的地板上才公平。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "直線",
+              "leftPoints": [
+                "直直連過去，距離最短",
+                "可用直尺畫出直線"
+              ],
+              "rightTitle": "曲線",
+              "rightPoints": [
+                "彎彎曲曲繞路，比較長",
+                "比長短前要先拉直"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "一端先對齊",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "直線最短",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/math#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "比一比哪一條繩子長",
+          "narrationText": "如果兩條繩子一條彎彎的、一條直直的，一定要先把彎的拉直，再把頭對齊一起比。",
+          "cognitiveChunks": [
+            "先拉直彎曲的繩子",
+            "起點對齊看終點誰突出來"
+          ],
+          "workedExampleData": {
+            "problemStatement": "紅鉛筆和藍蠟筆要放在桌上比長短，怎麼放才比得對？",
+            "steps": [
+              "第 1 步：把紅鉛筆和藍蠟筆平平放好",
+              "第 2 步：把兩枝筆左邊的筆頭對齊同一條線",
+              "第 3 步：看右邊哪一枝伸出去比較多，那一枝就比較長"
+            ],
+            "commonErrorContrast": "常見錯誤：沒有把一端對齊就看另一端，伸出去的其實只是放得比較前面，不是比較長。",
+            "selfExplanationPrompt": "想一想：用什麼文具可以幫我們在紙上畫出又平又直的線？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/math#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "高矮和厚薄也是比長度",
+          "topicSignalTitle": "厚書和薄紙怎麼比？",
+          "narrationText": "站起來比誰高誰矮、疊起來比誰厚誰薄，跟比長短一樣，都要從同一個平平的桌面或地板開始比。",
+          "cognitiveChunks": [
+            "書頁疊越多就越厚",
+            "直尺可以畫出直直的線"
+          ],
+          "factGroundingSourceId": "115-s1/g1/math#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "試試看這題比長短小問題吧！",
+          "cognitiveChunks": [
+            "兩點之間直線最短"
+          ],
+          "warmupCheck": {
+            "prompt": "想在白紙上畫出一條直直的線，用哪一種工具幫忙最好？",
+            "options": [
+              "直尺",
+              "彈珠",
+              "橡皮擦"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "沒錯！直尺的邊邊平又直，畫直線最方便。",
+            "feedbackRetry": "想一想，鉛筆盒裡哪一個工具的邊緣最直呢？"
+          },
+          "factGroundingSourceId": "115-s1/g1/math#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-math-u3",
+      "stageId": "115-s1-g1-math-u3",
+      "title": "第三單元 排順序、比多少",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第幾個和有幾個不一樣",
+          "narrationText": "排隊時，「第 3 個」是指排在 3 號位置的那一個人；「3 個」是指全部有 3 個人。",
+          "cognitiveChunks": [
+            "數詞順序：1、2、3 到 10",
+            "序數「第幾個」表示位置",
+            "比多少可以一個配一個"
+          ],
+          "analogyAnchor": "小動物排隊賽跑，第 1 名只指跑在最前面的那一隻，不是全部的小動物。",
+          "visualSpec": {
+            "templateId": "number_line",
+            "params": {
+              "min": 1,
+              "max": 10,
+              "highlight": 4
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第 1 個在最前",
+                "anchorPointId": "start"
+              },
+              {
+                "id": "l2",
+                "text": "後一個比前一個多 1",
+                "anchorPointId": "end"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/math#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "找出排在前面和後面的人",
+          "narrationText": "先看清楚是從哪一邊開始數起，再找前面或後面還有幾個位置。",
+          "cognitiveChunks": [
+            "先找起點是從前面還是後面數",
+            "一個一個往後數出剩下的數量"
+          ],
+          "workedExampleData": {
+            "problemStatement": "一排有 6 張椅子，從前面數起小華坐第 4 張，他後面還有幾張椅子？",
+            "steps": [
+              "第 1 步：從前面數出第 1、2、3、4 張，第 4 張是小華",
+              "第 2 步：接著數小華後面的椅子：第 5 張、第 6 張",
+              "第 3 步：數一數，後面還有 2 張椅子"
+            ],
+            "commonErrorContrast": "常見錯誤：看到 6 和 4 就忘記從第 5 張開始數，誤把第 4 張也算進去。",
+            "selfExplanationPrompt": "想一想：一個布丁配一支湯匙，有 7 個布丁和 5 支湯匙，誰不夠？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/math#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "一個配一個比多少",
+          "topicSignalTitle": "怎樣很快看出誰多誰少？",
+          "narrationText": "把兩堆東西一個對一個排好，最後沒有配到對、多出來的那一堆就是比較多。",
+          "cognitiveChunks": [
+            "一一對應排整齊最清楚",
+            "多出來的就是多幾個"
+          ],
+          "factGroundingSourceId": "115-s1/g1/math#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "動動腦答對這題，就可以進場挑戰囉！",
+          "cognitiveChunks": [
+            "倒著數是從大數到小"
+          ],
+          "warmupCheck": {
+            "prompt": "從 10 開始倒著數：「10、9、8、□、6」，格子裡要填幾？",
+            "options": [
+              "5",
+              "7",
+              "9",
+              "4"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "好棒！10、9、8、7、6，倒數順序完全正確！",
+            "feedbackRetry": "像火箭倒數一樣慢慢唸：10、9、8、下一個是幾呢？"
+          },
+          "factGroundingSourceId": "115-s1/g1/math#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-math-u4",
+      "stageId": "115-s1-g1-math-u4",
+      "title": "第四單元 分與合",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "把一盤點心分成兩盤",
+          "narrationText": "把全部的數量拆成左邊和右邊兩堆，叫做「分」；把兩堆重新放到一起，叫做「合」。",
+          "cognitiveChunks": [
+            "分：把一個數分成兩個數",
+            "合：把兩個數合起來變大",
+            "熟記 10 的好朋友組合"
+          ],
+          "analogyAnchor": "兩隻手一共伸出 10 根手指，收起幾根，剩下的就是 10 的好朋友。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "全部有 10 顆",
+                "左邊放 7 顆",
+                "右邊剩下 3 顆"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "10 分成 7 和 3",
+                "anchorPointId": "step2"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/math#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用手指算出分與合",
+          "narrationText": "算「7 可以分成 4 和幾」時，先伸出 7 根手指，收起 4 根，數一數還剩幾根。",
+          "cognitiveChunks": [
+            "先比出全部的數量",
+            "收起已知的一邊，看還剩幾根"
+          ],
+          "workedExampleData": {
+            "problemStatement": "把 6 顆草莓分給哥哥和妹妹，哥哥分到 2 顆，妹妹分到幾顆？",
+            "steps": [
+              "第 1 步：伸出 6 根手指代表 6 顆草莓",
+              "第 2 步：把哥哥拿走的 2 根手指彎下來",
+              "第 3 步：數一數還立著的手指，剩下 4 根，所以妹妹分到 4 顆"
+            ],
+            "commonErrorContrast": "常見錯誤：看到 6 和 2 就把兩個數合起來變成 8，忘了總共只有 6 顆草莓。",
+            "selfExplanationPrompt": "想一想：左手 5 顆糖、右手 5 顆糖，合起來一共有幾顆？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/math#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "10 的好朋友口訣",
+          "topicSignalTitle": "哪些數字合起來剛好是 10？",
+          "narrationText": "1 和 9、2 和 8、3 和 7、4 和 6、5 和 5，它們合起來都剛好是 10，記起來算得又快又準！",
+          "cognitiveChunks": [
+            "1配9、2配8、3配7",
+            "4配6、5配5，合起來都是 10"
+          ],
+          "factGroundingSourceId": "115-s1/g1/math#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "來玩一題分與合小挑戰！",
+          "cognitiveChunks": [
+            "兩部分合起來等於全部"
+          ],
+          "warmupCheck": {
+            "prompt": "10 顆小番茄分成兩盤，一盤放了 6 顆，另一盤要放幾顆？",
+            "options": [
+              "3 顆",
+              "4 顆",
+              "5 顆",
+              "6 顆"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "太棒了！6 和 4 是 10 的好朋友，合起來剛好 10 顆！",
+            "feedbackRetry": "伸出 10 根手指頭，彎下 6 根，數數看還剩幾根喔！"
+          },
+          "factGroundingSourceId": "115-s1/g1/math#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-math-u5",
+      "stageId": "115-s1-g1-math-u5",
+      "title": "第五單元 方盒、圓罐、球",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "方盒、圓罐、球比一比",
+          "narrationText": "方盒有平平的面最穩；圓罐站著穩、躺著會滾；球沒有平平的面，最愛往四面八方滾。",
+          "cognitiveChunks": [
+            "方盒：都是平平的面，疊高最穩",
+            "圓罐：上下平平的圓面，橫放能滾",
+            "球：表面圓滑，最容易滾動"
+          ],
+          "analogyAnchor": "蓋積木城堡時，方盒像穩固的磚塊當底座，圓圓的球放在最上面才不會溜走。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "方盒與圓罐",
+              "leftPoints": [
+                "都有平平的面，可以站穩",
+                "描邊會出現正方形或圓形"
+              ],
+              "rightTitle": "球",
+              "rightPoints": [
+                "沒有平平的面",
+                "輕輕一推就會四處滾動"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "平平的面才站得穩",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "球最容易滾動",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/math#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "把立體盒子的面描在紙上",
+          "narrationText": "把立體形體平平的面壓在白紙上，用鉛筆貼著邊邊描一圈，就會印出平面圖形。",
+          "cognitiveChunks": [
+            "正方體描出來是正方形",
+            "圓罐底面描出來是圓形"
+          ],
+          "workedExampleData": {
+            "problemStatement": "把一個站立的飲料圓罐壓在紙上，沿著底面描一圈，會描出什麼形狀？",
+            "steps": [
+              "第 1 步：摸一摸圓罐底部，是平平的圓面",
+              "第 2 步：壓在白紙上用鉛筆貼著邊緣描一圈",
+              "第 3 步：拿開圓罐後，紙上會出現一個圓形"
+            ],
+            "commonErrorContrast": "常見錯誤：以為圓罐橫著看長長的，描底面時就會變成正方形或長方形。",
+            "selfExplanationPrompt": "想一想：如果改拿六面一樣大的正方體方盒來描，會描出什麼圖形？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/math#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "堆疊造型小秘訣",
+          "topicSignalTitle": "為什麼球不能放在城堡最下面？",
+          "narrationText": "因為球沒有平平的面，放在最下面當底座會一直滾動，上面的方盒和圓罐就會全部倒下來。",
+          "cognitiveChunks": [
+            "方盒放下面最穩固",
+            "球只能放在最上面或當裝飾"
+          ],
+          "factGroundingSourceId": "115-s1/g1/math#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "挑挑看哪一個形狀最會滾動！",
+          "cognitiveChunks": [
+            "沒有平平的面的球最會滾"
+          ],
+          "warmupCheck": {
+            "prompt": "下面哪一種東西放在地板上，輕輕推一下最容易往四面八方滾走？",
+            "options": [
+              "皮球",
+              "課本",
+              "面紙盒",
+              "積木方盒"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！皮球整個表面都是圓圓滑滑的，最容易四處滾動。",
+            "feedbackRetry": "摸摸看哪一樣東西沒有平平的面，站不住呢？"
+          },
+          "factGroundingSourceId": "115-s1/g1/math#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-math-u6",
+      "stageId": "115-s1-g1-math-u6",
+      "title": "第六單元 30以內的數",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "十個一數，數到 30",
+          "narrationText": "東西很多的時候，每 10 個綁成一包或排成一條，數起來又快又不容易數錯。",
+          "cognitiveChunks": [
+            "1 個十是 10、2 個十是 20、3 個十是 30",
+            "十位是幾個十，個位是幾個一",
+            "數到 19 後面是 20"
+          ],
+          "analogyAnchor": "1 盒色紙有 10 張，2 盒就是 20 張，再加 4 張散開的色紙就是 24 張。",
+          "visualSpec": {
+            "templateId": "number_line",
+            "params": {
+              "min": 10,
+              "max": 30,
+              "highlight": 20
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "1 個十是 10",
+                "anchorPointId": "start"
+              },
+              {
+                "id": "l2",
+                "text": "2 個十是 20",
+                "anchorPointId": "mid"
+              },
+              {
+                "id": "l3",
+                "text": "3 個十是 30",
+                "anchorPointId": "end"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/math#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "數出幾個十和幾個一",
+          "narrationText": "先數有幾條「十」，再數旁邊單獨的「一」，把兩個合起來唸就是答案。",
+          "cognitiveChunks": [
+            "先算十個一捆有幾包",
+            "再接著數單個的有幾個"
+          ],
+          "workedExampleData": {
+            "problemStatement": "一包色紙有 10 張，老師拿出 2 包又多出 4 張，一共有幾張色紙？",
+            "steps": [
+              "第 1 步：1 包是 10 張，2 包是 20 張（2 個十）",
+              "第 2 步：從 20 接著數多出的 4 張：21、22、23、24",
+              "第 3 步：2 個十和 4 個一合起來是 24 張"
+            ],
+            "commonErrorContrast": "常見錯誤：看到 2 包和 4 張，沒有先算 2 包是 20 張，直接把 2 和 4 相加變成 6。",
+            "selfExplanationPrompt": "想一想：27 是由幾個十和幾個一合起來的呢？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/math#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "比較 30 以內數的大小",
+          "topicSignalTitle": "23 和 19 哪一個比較大？",
+          "narrationText": "比大小先看有幾個十：23 有 2 個十，19 只有 1 個十，所以 23 比 19 大。",
+          "cognitiveChunks": [
+            "先比十位有幾個十",
+            "十位一樣時再比個位"
+          ],
+          "factGroundingSourceId": "115-s1/g1/math#u6"
+        },
+        {
+          "sceneId": "u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "先試試看這題數數小測驗！",
+          "cognitiveChunks": [
+            "19 再多 1 個就是 20"
+          ],
+          "warmupCheck": {
+            "prompt": "從 18 開始往後數：「18、19、□、21」，格子裡要填哪一個數字？",
+            "options": [
+              "17",
+              "20",
+              "22",
+              "23"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！19 再多 1 個就進到 20 囉！",
+            "feedbackRetry": "想一想，數完十九之後就變成二十幾了喔！"
+          },
+          "factGroundingSourceId": "115-s1/g1/math#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-math-u7",
+      "stageId": "115-s1-g1-math-u7",
+      "title": "第七單元 10以內的加法",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u7-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "合起來變多，用加法「+」",
+          "narrationText": "把兩堆東西合在一起，或是原本有東西又放進來更多時，都用加法算式「+」和「=」來記錄。",
+          "cognitiveChunks": [
+            "合起來、又多了要用加法 +",
+            "= 讀作等於，後面寫總數",
+            "任何數加 0 數量不變"
+          ],
+          "analogyAnchor": "左邊盤子 3 顆水餃，媽媽又夾進 4 顆，合起來變 7 顆，寫成 3 + 4 = 7。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "原本有 3 顆",
+                "又夾入 4 顆 (+ 4)",
+                "一共有 7 顆 (= 7)"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "算式 3 + 4 = 7",
+                "anchorPointId": "step2"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/math#u7"
+        },
+        {
+          "sceneId": "u7-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "往下數算出加法答案",
+          "narrationText": "算加法時，先記住第一個數字，再接著往後數第二個數字的次數，就不用從頭數 1 了。",
+          "cognitiveChunks": [
+            "記住大數，再往後數小數",
+            "寫出數字與 +、= 符號"
+          ],
+          "workedExampleData": {
+            "problemStatement": "妹妹本來有 6 顆彈珠，姊姊又送給她 3 顆，現在有幾顆彈珠？",
+            "steps": [
+              "第 1 步：又送給她會變多，列出加法算式：6 + 3",
+              "第 2 步：心裡記住 6，伸出 3 根手指往後數：7、8、9",
+              "第 3 步：得到 6 + 3 = 9，現在有 9 顆彈珠"
+            ],
+            "commonErrorContrast": "常見錯誤：忘記把原本的 6 算進去，或者倒著往前數成減法。",
+            "selfExplanationPrompt": "想一想：花瓶裡原來有 5 朵花，今天一朵也沒放進去（+ 0），現在有幾朵花？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/math#u7"
+        },
+        {
+          "sceneId": "u7-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "0 的加法秘密",
+          "topicSignalTitle": "加上 0 會變多嗎？",
+          "narrationText": "0 表示一個也沒有，所以 5 + 0 還是 5，0 + 8 也還是 8，數量都不會改變喔！",
+          "cognitiveChunks": [
+            "加 0 就是沒有增加",
+            "任何數加 0 還是原來的數"
+          ],
+          "factGroundingSourceId": "115-s1/g1/math#u7"
+        },
+        {
+          "sceneId": "u7-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "算算看這題加法，就可以開始闖關了！",
+          "cognitiveChunks": [
+            "合起來共有多少用加法"
+          ],
+          "warmupCheck": {
+            "prompt": "草地上有 4 隻白兔和 5 隻灰兔，草地上一共有幾隻兔子？",
+            "options": [
+              "8 隻",
+              "9 隻",
+              "10 隻"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！4 + 5 = 9，一共 9 隻兔子！",
+            "feedbackRetry": "先記住 5，再伸出 4 根手指頭往下數：6、7、8、9！"
+          },
+          "factGroundingSourceId": "115-s1/g1/math#u7"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-math-u8",
+      "stageId": "115-s1-g1-math-u8",
+      "title": "第八單元 10以內的減法",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u8-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "拿走變少或比多幾個，用減法「-」",
+          "narrationText": "東西被吃掉、飛走而變少，或是比較兩個人誰多幾個時，都要用減法算式「-」來算。",
+          "cognitiveChunks": [
+            "拿走、吃掉、飛走要用減法 -",
+            "比誰多幾個也用減法",
+            "減掉 0 還是原來的數"
+          ],
+          "analogyAnchor": "桌上有 9 塊餅乾，吃掉 4 塊就會變少，伸出 9 根手指收起 4 根，還剩 5 塊。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "原本有 9 塊",
+                "吃掉 4 塊 (- 4)",
+                "還剩下 5 塊 (= 5)"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "算式 9 - 4 = 5",
+                "anchorPointId": "step2"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/math#u8"
+        },
+        {
+          "sceneId": "u8-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分辨題目要用加還是減",
+          "narrationText": "讀題目時先想一想：東西是「合起來變多」，還是「拿走變少／比相差」？",
+          "cognitiveChunks": [
+            "變多或求總數用 +",
+            "變少或比多幾個用 -"
+          ],
+          "workedExampleData": {
+            "problemStatement": "籃子裡有 10 顆橘子，拿走 3 顆，還剩下幾顆？",
+            "steps": [
+              "第 1 步：橘子被拿走會變少，要用減法「-」",
+              "第 2 步：寫出減法算式：10 - 3",
+              "第 3 步：10 減 3 等於 7，所以還剩下 7 顆橘子"
+            ],
+            "commonErrorContrast": "常見錯誤：看到兩個數字就寫成 10 + 3 = 13，沒有看清楚是「拿走」變少。",
+            "selfExplanationPrompt": "想一想：荷葉上有 6 隻青蛙，6 隻全部跳走，還剩幾隻？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/math#u8"
+        },
+        {
+          "sceneId": "u8-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "0 的減法與同數相減",
+          "topicSignalTitle": "7 - 0 和 6 - 6 各是多少？",
+          "narrationText": "減掉 0 表示一個都沒拿走，7 - 0 還是 7；全部拿光光就是同數相減，6 - 6 等於 0。",
+          "cognitiveChunks": [
+            "任何數減 0 還是自己",
+            "全部拿走變成 0"
+          ],
+          "factGroundingSourceId": "115-s1/g1/math#u8"
+        },
+        {
+          "sceneId": "u8-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "試試看這題比較大小的減法題！",
+          "cognitiveChunks": [
+            "比多幾個用大數減小數"
+          ],
+          "warmupCheck": {
+            "prompt": "小強有 8 枝彩色筆，小安有 5 枝彩色筆，小強比小安多幾枝？",
+            "options": [
+              "2 枝",
+              "3 枝",
+              "4 枝",
+              "13 枝"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "好厲害！8 - 5 = 3，小強多 3 枝！",
+            "feedbackRetry": "從 8 枝裡面減掉一樣多的 5 枝，剩下的就是多出來的喔！"
+          },
+          "factGroundingSourceId": "115-s1/g1/math#u8"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-math-u9",
+      "stageId": "115-s1-g1-math-u9",
+      "title": "第九單元 幾點鐘",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u9-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識長針和短針",
+          "narrationText": "時鐘上有長針和短針：長針指著 12 是整點，短針指著幾就是幾點；長針指著 6 就是半點。",
+          "cognitiveChunks": [
+            "長針指 12 是整點",
+            "長針指 6 是半點",
+            "短針指幾或剛過幾就是幾點"
+          ],
+          "analogyAnchor": "早上 8 點上課時，長針直直指著最上面的 12，短針指著 8。",
+          "visualSpec": {
+            "templateId": "clock_face",
+            "params": {
+              "hour": 8,
+              "minute": 0
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "長針指 12 是整點",
+                "anchorPointId": "top"
+              },
+              {
+                "id": "l2",
+                "text": "短針指 8 是 8 點",
+                "anchorPointId": "hour"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/math#u9"
+        },
+        {
+          "sceneId": "u9-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "報讀半點時刻",
+          "narrationText": "半點的時候，長針會指在最下面的 6，短針會停在兩個數字的正中間。",
+          "cognitiveChunks": [
+            "長針指 6 表示幾點半",
+            "看短針剛走過哪一個數字"
+          ],
+          "workedExampleData": {
+            "problemStatement": "中午午休時，長針指著 6，短針在 12 和 1 的中間，現在是幾點？",
+            "steps": [
+              "第 1 步：長針指著 6，表示現在是「半點」",
+              "第 2 步：短針剛走過 12，還沒走到 1",
+              "第 3 步：合起來唸作「12 點半」"
+            ],
+            "commonErrorContrast": "常見錯誤：看到短針靠近 1，就誤讀成 1 點半；其實短針還沒走到 1，還是 12 點半。",
+            "selfExplanationPrompt": "想一想：下午放學長針指 6、短針在 4 和 5 中間，是幾點呢？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/math#u9"
+        },
+        {
+          "sceneId": "u9-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "上午、中午、下午、晚上",
+          "topicSignalTitle": "一天當中的時間怎麼說？",
+          "narrationText": "早上太陽升起叫上午，吃午餐時叫中午，太陽斜斜的叫下午，天黑月亮出來叫晚上。",
+          "cognitiveChunks": [
+            "上午→中午→下午→晚上",
+            "睡一覺花的時間比眨眼長很多"
+          ],
+          "factGroundingSourceId": "115-s1/g1/math#u9"
+        },
+        {
+          "sceneId": "u9-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "看看時鐘答對這題，就可以出發挑戰囉！",
+          "cognitiveChunks": [
+            "整點時長針指著 12"
+          ],
+          "warmupCheck": {
+            "prompt": "到了整點（例如 3 點鐘）的時候，時鐘上的「長針」會指著數字幾？",
+            "options": [
+              "6",
+              "12",
+              "3",
+              "9"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！整點時長針會指在最上面的 12！",
+            "feedbackRetry": "想一想，時鐘最頂端的那個數字是幾呢？"
+          },
+          "factGroundingSourceId": "115-s1/g1/math#u9"
+        }
+      ]
+    }
+  ]
+}

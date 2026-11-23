@@ -1,0 +1,924 @@
+{
+  "packId": "115-s2-g1-math",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 1,
+  "subjectId": "math",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-math-u1",
+      "stageId": "115-s2-g1-math-u1",
+      "title": "第一單元 50以內的數",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "2個、5個、10個一數到 50",
+          "narrationText": "數量變多到 50 以內時，可以 2 個一數、5 個一數或 10 個一數，用「十」和「一」的積木代表數量。",
+          "cognitiveChunks": [
+            "2個、5個、10個一數更快",
+            "1 條橘色積木代表 10",
+            "排在前面的序數號碼較小"
+          ],
+          "analogyAnchor": "把 10 顆彈珠裝成 1 袋，3 袋又多 5 顆就是 35 顆，數起來又快又清楚。",
+          "visualSpec": {
+            "templateId": "number_line",
+            "params": {
+              "min": 0,
+              "max": 50,
+              "highlight": 35
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "10個一數",
+                "anchorPointId": "start"
+              },
+              {
+                "id": "l2",
+                "text": "數到50",
+                "anchorPointId": "end"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/math#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用十和一的積木做數",
+          "narrationText": "先數有幾條代表「十」的積木，再數有幾個代表「一」的積木，合起來就是答案。",
+          "cognitiveChunks": [
+            "幾條十就是幾十",
+            "再接著數單個的一"
+          ],
+          "workedExampleData": {
+            "problemStatement": "拿出 4 條代表「十」的積木和 3 個代表「一」的積木，合起來是多少？",
+            "steps": [
+              "第 1 步：10 個一數，4 條「十」是 10、20、30、40",
+              "第 2 步：接著數 3 個「一」：41、42、43",
+              "第 3 步：4 個十和 3 個一合起來是 43"
+            ],
+            "commonErrorContrast": "常見錯誤：忘記一條積木是 10，直接把 4 和 3 加起來變成 7。",
+            "selfExplanationPrompt": "想一想：35 顆彈珠每 10 顆裝 1 袋，可以裝滿幾袋又多幾顆？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/math#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "比較 50 以內數的大小",
+          "topicSignalTitle": "39 和 42 誰比較大？",
+          "narrationText": "比較兩位數大小先看有幾個十：42 有 4 個十，39 只有 3 個十，所以 42 比 39 大。",
+          "cognitiveChunks": [
+            "先比左邊有幾個十",
+            "十位相同再比個位"
+          ],
+          "factGroundingSourceId": "115-s2/g1/math#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "玩一題 5 個一數接力賽吧！",
+          "cognitiveChunks": [
+            "5 個一數每次多 5"
+          ],
+          "warmupCheck": {
+            "prompt": "玩 5 個一數的遊戲：「20、25、30、□、40」，格子裡要填多少？",
+            "options": [
+              "31",
+              "35",
+              "36",
+              "32"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！20、25、30、35、40！",
+            "feedbackRetry": "從 30 再往後多數 5 個數看看喔！"
+          },
+          "factGroundingSourceId": "115-s2/g1/math#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-math-u2",
+      "stageId": "115-s2-g1-math-u2",
+      "title": "第二單元 18以內的加法",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "用「湊成 10」算 18 以內加法",
+          "narrationText": "算 8 + 5 或 9 + 6 時，先借一點過去把比較大的數湊成 10，再加上剩下的數，很快就能算出答案！",
+          "cognitiveChunks": [
+            "先把一個數湊成 10（合十法）",
+            "兩個數交換相加結果一樣",
+            "加數多 1，和也多 1"
+          ],
+          "analogyAnchor": "8 需要 2 才能湊成 10，就像 10 格雞蛋盒已經放了 8 顆，再從旁邊拿 2 顆放滿一盒，剩下 3 顆在外面，合起來就是 13。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "算 8 + 5",
+                "8 + 2 湊成 10",
+                "10 + 3 = 13"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "5 分成 2 和 3",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "合起來 13",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/math#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用合十法算 9 + 6",
+          "narrationText": "看到 9 時最簡單！9 只要借 1 就變成 10 了，再看另一個數拿走 1 後還剩多少。",
+          "cognitiveChunks": [
+            "9 需要 1 湊成 10",
+            "10 再加剩下的數就是十幾"
+          ],
+          "workedExampleData": {
+            "problemStatement": "算一算：9 + 6 = ？",
+            "steps": [
+              "第 1 步：9 只要再加 1 就變成 10",
+              "第 2 步：把 6 分成 1 和 5，先算 9 + 1 = 10",
+              "第 3 步：再算 10 + 5 = 15"
+            ],
+            "commonErrorContrast": "常見錯誤：把 6 借 1 給 9 後，忘記 6 已經少 1 變成 5，誤算成 10 + 6 = 16。",
+            "selfExplanationPrompt": "想一想：如果知道 6 + 9 = 15，那麼交換位置變成 9 + 6 會等於多少？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/math#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "加法交換律與算式規律",
+          "topicSignalTitle": "交換位置相加會不會變？",
+          "narrationText": "6 + 9 和 9 + 6 合起來都是 15！前面數不變、後面每次多 1，算出來的答案也會每次多 1。",
+          "cognitiveChunks": [
+            "前後交換相加結果一樣",
+            "5+6=11，5+7=12，5+8=13"
+          ],
+          "factGroundingSourceId": "115-s2/g1/math#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "用合十法試試看這題！",
+          "cognitiveChunks": [
+            "先湊成 10 再加剩下的數"
+          ],
+          "warmupCheck": {
+            "prompt": "算一算：7 + 6 = ？先把 7 湊成 10，答案是多少？",
+            "options": [
+              "12",
+              "13",
+              "14",
+              "11"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！7 + 3 = 10，10 + 3 = 13！",
+            "feedbackRetry": "7 需要 3 湊成 10，把 6 分成 3 和 3 試試看喔！"
+          },
+          "factGroundingSourceId": "115-s2/g1/math#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-math-u3",
+      "stageId": "115-s2-g1-math-u3",
+      "title": "第三單元 圖形與分類",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識四種基本平面圖形",
+          "narrationText": "三角形有 3 條直邊和 3 個角；正方形 4 條邊一樣長；長方形對邊一樣長；圓形邊邊圓滑沒有角。",
+          "cognitiveChunks": [
+            "三角形：3 條邊、3 個角",
+            "正方形 4 邊等長；長方形對邊等長",
+            "圓形沒有直邊和尖角"
+          ],
+          "analogyAnchor": "拿 4 根一樣長的吸管可以排成正方形；把正方形紙斜對摺剪開，會變成兩個三角形。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "正方形與長方形",
+              "leftPoints": [
+                "都有 4 條直邊和 4 個角",
+                "正方形 4 邊一樣長"
+              ],
+              "rightTitle": "三角形與圓形",
+              "rightPoints": [
+                "三角形：3 條直邊、3 個角",
+                "圓形：圓滑無尖角"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "四邊形4條邊",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "三角形3條邊",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/math#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "依特徵分類與報讀統計表",
+          "narrationText": "分類時要先確定是用「顏色」還是「形狀」來分；看統計表時比比看哪一項的數量或票數最多。",
+          "cognitiveChunks": [
+            "先找出同一堆東西的共同特徵",
+            "比較統計表數字找出最多和最少"
+          ],
+          "workedExampleData": {
+            "problemStatement": "投票統計表：西瓜 8 票、草莓 12 票、蘋果 6 票，哪一種水果票數最多？",
+            "steps": [
+              "第 1 步：找出三種水果的票數：8、12、6",
+              "第 2 步：比比看三個數字誰最大：12 最大",
+              "第 3 步：所以票數最多的是「草莓」"
+            ],
+            "commonErrorContrast": "常見錯誤：沒有比較三個數字大小，直接選自己最喜歡吃的水果。",
+            "selfExplanationPrompt": "想一想：把紅蘋果和紅草莓放在同一堆，是依照什麼特徵分類的？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/math#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "圖形拼貼與平面鋪設",
+          "topicSignalTitle": "正方形剪一刀會變什麼？",
+          "narrationText": "把正方形色紙斜斜對摺剪開，會變成兩個三角形；用一樣的三角形或正方形拼在一起，可以鋪出美麗的圖案。",
+          "cognitiveChunks": [
+            "正方形斜剪成兩個三角形",
+            "同形狀大小圖形可鋪排造型"
+          ],
+          "factGroundingSourceId": "115-s2/g1/math#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "來認認看圖形的邊和角！",
+          "cognitiveChunks": [
+            "3 條邊 3 個角是三角形"
+          ],
+          "warmupCheck": {
+            "prompt": "下面哪一種平面圖形有 3 條直直的邊和 3 個尖尖的角？",
+            "options": [
+              "正方形",
+              "三角形",
+              "長方形",
+              "圓形"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！3 條直邊和 3 個角的就是三角形！",
+            "feedbackRetry": "數數看哪一個圖形的名字裡就有「三」呢？"
+          },
+          "factGroundingSourceId": "115-s2/g1/math#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-math-u4",
+      "stageId": "115-s2-g1-math-u4",
+      "title": "第四單元 18以內的減法",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "用「10 先減」算退位減法",
+          "narrationText": "算 14 - 8 時，個位的 4 不夠減 8，就把 14 分成 10 和 4，先用 10 減 8 剩 2，再加回 4 就是 6！",
+          "cognitiveChunks": [
+            "個位不夠減，先用 10 來減",
+            "10 減完再加回原本的個位",
+            "比多幾個、少幾個或還差幾個都用減法"
+          ],
+          "analogyAnchor": "盒外有 4 顆蛋、盒內有 10 顆蛋，要拿走 8 顆時，直接從滿盒的 10 顆裡拿走 8 顆剩 2 顆，加上盒外 4 顆就是 6 顆。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "算 14 - 8",
+                "先算 10 - 8 = 2",
+                "再算 2 + 4 = 6"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "14 分成 10 和 4",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "最後加回 4",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/math#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用 10 先減解決比較型問題",
+          "narrationText": "題目問「少幾架」、「多幾個」或「還差幾條」時，都是比較兩個數的相差，要用大數減小數。",
+          "cognitiveChunks": [
+            "少幾架、還差幾條用減法",
+            "10 先減再加回個位"
+          ],
+          "workedExampleData": {
+            "problemStatement": "盤子裡有 15 顆小番茄，吃掉了 7 顆，還剩下幾顆？",
+            "steps": [
+              "第 1 步：把 15 分成 10 和 5",
+              "第 2 步：先用 10 減掉吃掉的 7：10 - 7 = 3",
+              "第 3 步：再把剩下的 5 加回來：3 + 5 = 8 顆"
+            ],
+            "commonErrorContrast": "常見錯誤：算完 10 - 7 = 3 後，忘記加回原本個位的 5，或誤減成 5 - 3。",
+            "selfExplanationPrompt": "想一想：16 - 9 = 7，15 - 9 = 6，那麼 14 - 9 會等於多少？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/math#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "減法算式的規律",
+          "topicSignalTitle": "16-9、15-9、14-9 有什麼規律？",
+          "narrationText": "減的都是 9，前面的數每次少 1，算出來的答案也會每次少 1（7、6、5），記熟這個規律算得更快！",
+          "cognitiveChunks": [
+            "被減數少 1，差也少 1",
+            "12 個小朋友只有 7 條繩，還差 12-7=5 條"
+          ],
+          "factGroundingSourceId": "115-s2/g1/math#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "用 10 先減算算看這題吧！",
+          "cognitiveChunks": [
+            "10 - 8 = 2，2 + 4 = 6"
+          ],
+          "warmupCheck": {
+            "prompt": "算一算：14 - 8 = ？",
+            "options": [
+              "4",
+              "5",
+              "6",
+              "7"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！10 - 8 = 2，2 + 4 = 6！",
+            "feedbackRetry": "把 14 分成 10 和 4，先算 10 - 8 剩 2，再加上 4 喔！"
+          },
+          "factGroundingSourceId": "115-s2/g1/math#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-math-u5",
+      "stageId": "115-s2-g1-math-u5",
+      "title": "第五單元 有多長",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "用小東西量長度與間接比較",
+          "narrationText": "桌子搬不動不能靠在一起比時，可以用繩子複製長度來比，也可以用一樣大的迴紋針或積木來量有多長。",
+          "cognitiveChunks": [
+            "搬不動時用繩子做間接比較",
+            "量長度要一個緊接一個排成直線",
+            "長度可以接起來相加或剪掉相減"
+          ],
+          "analogyAnchor": "用橡皮擦量鉛筆盒長度時，橡皮擦要像火車車廂一樣緊緊靠著排成直線，不能有空隙也不能重疊。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "正確量法",
+              "leftPoints": [
+                "從起點對齊",
+                "一個緊接一個排成直線"
+              ],
+              "rightTitle": "錯誤量法",
+              "rightPoints": [
+                "中間留空隙或重疊",
+                "歪歪斜斜沒對齊"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "緊靠排直線",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "不可留空隙",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/math#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "長度的合成與分解",
+          "narrationText": "用同一種小單位量好以後，兩段頭尾接起來就用加法合起來；剪掉一段就用減法算剩下多少。",
+          "cognitiveChunks": [
+            "頭尾相接總長度用加法",
+            "剪掉或比較短多少用減法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "第一根吸管 5 個積木長，第二根 4 個積木長，頭尾接起來共是幾個積木長？",
+            "steps": [
+              "第 1 步：兩根吸管用的都是同樣大小的「積木」",
+              "第 2 步：頭尾接在一起會變長，用加法計算",
+              "第 3 步：5 + 4 = 9，接起來共是 9 個積木長"
+            ],
+            "commonErrorContrast": "常見錯誤：沒有注意題目是問「接起來」，誤用 5 - 4 = 1。",
+            "selfExplanationPrompt": "想一想：10 個迴紋針長的紙帶，剪掉 3 個迴紋針長後，還剩幾個迴紋針長？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/math#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "比較誰長誰短要看單位數",
+          "topicSignalTitle": "6 個迴紋針和 4 個迴紋針誰長？",
+          "narrationText": "用一模一樣大小的迴紋針來量，用到的迴紋針越多就代表越長，所以 6 個迴紋針長的水彩筆比 4 個的蠟筆長。",
+          "cognitiveChunks": [
+            "用相同物件量才公平",
+            "個數越多代表越長"
+          ],
+          "factGroundingSourceId": "115-s2/g1/math#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "試試看這題間接比較小問題！",
+          "cognitiveChunks": [
+            "用繩子當小幫手傳遞長度"
+          ],
+          "warmupCheck": {
+            "prompt": "一條藍繩子和桌子一樣寬，這條藍繩子又比書櫃寬一點。桌子和書櫃哪一個比較寬？",
+            "options": [
+              "桌子比較寬",
+              "書櫃比較寬",
+              "兩樣一樣寬"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！藍繩子就是桌子的寬度，它比書櫃寬，所以桌子比較寬！",
+            "feedbackRetry": "把藍繩子想像成就是桌子，拿去跟書櫃比比看誰寬喔！"
+          },
+          "factGroundingSourceId": "115-s2/g1/math#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-math-u6",
+      "stageId": "115-s2-g1-math-u6",
+      "title": "第六單元 100以內的數",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識「十位」和「個位」數到 100",
+          "narrationText": "兩位數左邊的位置叫做「十位」，代表有幾個十；右邊的位置叫做「個位」，代表有幾個一；99 再多 1 就是 100。",
+          "cognitiveChunks": [
+            "左邊是十位（幾個十）",
+            "右邊是個位（幾個一）",
+            "99 再加 1 是 100"
+          ],
+          "analogyAnchor": "在「74」裡面，十位的 7 住左邊代表 70，個位的 4 住右邊代表 4，合起來就是 74。",
+          "visualSpec": {
+            "templateId": "number_line",
+            "params": {
+              "min": 50,
+              "max": 100,
+              "highlight": 74
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "十位7＝70",
+                "anchorPointId": "mid"
+              },
+              {
+                "id": "l2",
+                "text": "99加1＝100",
+                "anchorPointId": "end"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/math#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "認識百數表的排列規律",
+          "narrationText": "在百數表上，往右走一格會多 1，往下走一格會多 10！",
+          "cognitiveChunks": [
+            "百數表往右多 1",
+            "百數表往下多 10"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在百數表上，數字「56」正下面那一格是多少？",
+            "steps": [
+              "第 1 步：百數表每一橫排有 10 個數字",
+              "第 2 步：往下移一格，十位會多 1 個十，個位不變",
+              "第 3 步：56 多 10 變成 66，所以正下面是 66"
+            ],
+            "commonErrorContrast": "常見錯誤：把往下移一格當成只加 1，誤寫成 57。",
+            "selfExplanationPrompt": "想一想：6 個十和 9 個一合起來要寫成哪一個數字？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/math#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "十個十是 100",
+          "topicSignalTitle": "99 再多 1 個會變成多少？",
+          "narrationText": "99 是 9 個十和 9 個一，再多 1 個一就湊滿 10 個十，寫作「100」（讀作一百）。",
+          "cognitiveChunks": [
+            "10 個十合起來是 100",
+            "數到 79 下一個是 80"
+          ],
+          "factGroundingSourceId": "115-s2/g1/math#u6"
+        },
+        {
+          "sceneId": "u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "考考你十位和個位！",
+          "cognitiveChunks": [
+            "十位寫左邊、個位寫右邊"
+          ],
+          "warmupCheck": {
+            "prompt": "6 個十和 9 個一合起來寫成哪一個數字？",
+            "options": [
+              "69",
+              "96",
+              "60",
+              "15"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！十位寫 6、個位寫 9，就是 69！",
+            "feedbackRetry": "把代表十的 6 寫在左邊、代表一的 9 寫在右邊喔！"
+          },
+          "factGroundingSourceId": "115-s2/g1/math#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-math-u7",
+      "stageId": "115-s2-g1-math-u7",
+      "title": "第七單元 認識錢幣",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u7-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識 1 元、5 元、10 元、50 元和 100 元",
+          "narrationText": "買東西會用到 1 元、5 元、10 元、50 元硬幣和 100 元紙鈔；數錢時從面額最大的開始數最不容易數錯！",
+          "cognitiveChunks": [
+            "1 張 100 元 ＝ 2 個 50 元",
+            "1 個 50 元 ＝ 5 個 10 元",
+            "數錢從最大的錢幣開始數"
+          ],
+          "analogyAnchor": "把 1 個 50 元硬幣拿去換成 10 元硬幣，就像 50 裡面有 5 個十，可以換到 5 個 10 元。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "常用換算",
+              "leftPoints": [
+                "10 元 ＝ 2 個 5 元 ＝ 10 個 1 元",
+                "50 元 ＝ 5 個 10 元"
+              ],
+              "rightTitle": "100 元與數錢",
+              "rightPoints": [
+                "100 元 ＝ 2 個 50 元 ＝ 10 個 10 元",
+                "從大面額往小面額數"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "50元＝5個10元",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "100元＝2個50元",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/math#u7"
+        },
+        {
+          "sceneId": "u7-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "點數錢幣與買東西付錢",
+          "narrationText": "點數錢幣時從最大的開始加；買東西如果只用 10 元付錢，要付到「比價錢多或一樣」才夠買。",
+          "cognitiveChunks": [
+            "先數 50 元、再數 10 元、最後數 1 元",
+            "付 10 元買東西不夠要多付 1 個"
+          ],
+          "workedExampleData": {
+            "problemStatement": "存錢筒裡有 1 個 50 元、2 個 10 元和 3 個 1 元，合起來共有幾元？",
+            "steps": [
+              "第 1 步：從最大的 50 元開始數：50",
+              "第 2 步：接著十個一數 2 個 10 元：60、70",
+              "第 3 步：最後數 3 個 1 元：71、72、73，一共 73 元"
+            ],
+            "commonErrorContrast": "常見錯誤：沒有把 1 個 50 元算成 50，誤把硬幣個數 1+2+3=6 當作 6 元。",
+            "selfExplanationPrompt": "想一想：買一盒 34 元的彩色筆，只用 10 元硬幣付錢，最少要付幾個 10 元才夠？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/math#u7"
+        },
+        {
+          "sceneId": "u7-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "買東西找零錢",
+          "topicSignalTitle": "付 50 元買 25 元飯糰要找多少？",
+          "narrationText": "付出去的錢比較多時，老闆會找回多付的錢：用付出的 50 元減掉價錢 25 元，50 - 25 = 25 元。",
+          "cognitiveChunks": [
+            "找回的錢 ＝ 付出的錢 － 東西價錢",
+            "2 個 25 元合起來是 50 元"
+          ],
+          "factGroundingSourceId": "115-s2/g1/math#u7"
+        },
+        {
+          "sceneId": "u7-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "來玩一題換錢小挑戰！",
+          "cognitiveChunks": [
+            "50 元可以換 5 個 10 元"
+          ],
+          "warmupCheck": {
+            "prompt": "拿 1 個 50 元硬幣去換錢，剛好可以換成幾個 10 元硬幣？",
+            "options": [
+              "2 個",
+              "4 個",
+              "5 個",
+              "10 個"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！10、20、30、40、50，一共可以換 5 個 10 元！",
+            "feedbackRetry": "十個十個數到 50，看看一共伸出幾根手指頭喔！"
+          },
+          "factGroundingSourceId": "115-s2/g1/math#u7"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-math-u8",
+      "stageId": "115-s2-g1-math-u8",
+      "title": "第八單元 二位數的加減",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u8-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "用 10 元和 1 元算二位數加減",
+          "narrationText": "算二位數加減時，1 元和 1 元合起來或相減，10 元和 10 元合起來或相減；個位滿 10 換成 1 個十，不夠減就跟十位借 1 個十換成 10 個一。",
+          "cognitiveChunks": [
+            "個位對個位、十位對十位計算",
+            "個位滿 10 進 1 個十到十位",
+            "個位不夠減向十位借 1 個十變 10 個一"
+          ],
+          "analogyAnchor": "買東西拿 10 元和 1 元算錢：1 元湊滿 10 個就能換成 1 個 10 元硬幣；1 元不夠付就把 1 個 10 元換成 10 個 1 元。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "算 36 + 15",
+                "個位 6+5=11 (換1個十)",
+                "十位 3+1+1=5，共 51"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "滿10進1個十",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "答案是 51",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/math#u8"
+        },
+        {
+          "sceneId": "u8-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "不夠減怎麼向十位借位？",
+          "narrationText": "算 52 - 18 時，個位 2 不夠減 8，先把十位的 5 借走 1 個十變成 4 個十，把借來的 10 放在個位變成 12 再減 8。",
+          "cognitiveChunks": [
+            "十位少 1、個位多 10",
+            "12 - 8 = 4，十位 4 - 1 = 3"
+          ],
+          "workedExampleData": {
+            "problemStatement": "算算看：52 - 18 = ？",
+            "steps": [
+              "第 1 步：個位 2 不夠減 8，向十位借 1 個十變成 4 個十和 12 個一",
+              "第 2 步：個位先減：12 - 8 = 4",
+              "第 3 步：十位剩 4 減 1：4 - 1 = 3，合起來是 34"
+            ],
+            "commonErrorContrast": "常見錯誤：看到 2 不夠減 8，就直接拿大數減小數寫成 8 - 2 = 6，或借位後忘記十位已經少 1。",
+            "selfExplanationPrompt": "想一想：故事書有 65 頁，看了 29 頁，還有幾頁沒看要怎麼借位算？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/math#u8"
+        },
+        {
+          "sceneId": "u8-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "不用進退位直接分開算",
+          "topicSignalTitle": "24 + 13 和 48 - 25 怎麼算最快？",
+          "narrationText": "當個位加起來不超過 9、或個位夠減時，直接個位算個位、十位算十位，馬上就能算出來！",
+          "cognitiveChunks": [
+            "24+13：4+3=7，20+10=30，共37",
+            "48-25：8-5=3，40-20=20，剩23"
+          ],
+          "factGroundingSourceId": "115-s2/g1/math#u8"
+        },
+        {
+          "sceneId": "u8-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "算算看這題二位數加法吧！",
+          "cognitiveChunks": [
+            "個位加個位、十位加十位"
+          ],
+          "warmupCheck": {
+            "prompt": "算一算：24 + 13 = ？",
+            "options": [
+              "37",
+              "27",
+              "36",
+              "47"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！4 + 3 = 7，20 + 10 = 30，合起來是 37！",
+            "feedbackRetry": "先把 1 元和 1 元加起來（4+3），再把 10 元和 10 元加起來（20+10）喔！"
+          },
+          "factGroundingSourceId": "115-s2/g1/math#u8"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-math-u9",
+      "stageId": "115-s2-g1-math-u9",
+      "title": "第九單元 幾月幾日星期幾",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u9-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "看懂日曆、月曆與昨天今天明天",
+          "narrationText": "日曆和月曆能告訴我們幾月幾日星期幾；已經過去的那一天叫「昨天」，現在是「今天」，下一天是「明天」。",
+          "cognitiveChunks": [
+            "昨天 → 今天 → 明天",
+            "一個星期有 7 天（星期一到日）",
+            "比日期先比月份，再比幾日"
+          ],
+          "analogyAnchor": "昨天就像已經走過的腳印，今天是現在站的地方，明天是要往前跨出的下一步。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "昨天（前一天）",
+                "今天（現在這一天）",
+                "明天（後一天）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "昨天→今天→明天",
+                "anchorPointId": "step2"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/math#u9"
+        },
+        {
+          "sceneId": "u9-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "找月曆上同一個星期幾的日期",
+          "narrationText": "一個星期有 7 天，所以月曆上同一個星期幾的下一天，只要把日期加上 7 就會找到！",
+          "cognitiveChunks": [
+            "一星期有 7 天",
+            "下一個星期幾 ＝ 日期 + 7"
+          ],
+          "workedExampleData": {
+            "problemStatement": "4 月 6 日是星期一，那麼下一個星期一是 4 月幾日？",
+            "steps": [
+              "第 1 步：記住一個星期有 7 天",
+              "第 2 步：從 6 日再過 7 天：6 + 7 = 13",
+              "第 3 步：所以下一個星期一是 4 月 13 日"
+            ],
+            "commonErrorContrast": "常見錯誤：以為下一個星期一是只加 1 變成 4 月 7 日，其實 7 日是星期二。",
+            "selfExplanationPrompt": "想一想：3 月 31 日是 3 月最後一天，過完這天明天會是幾月幾日？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/math#u9"
+        },
+        {
+          "sceneId": "u9-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "比較日期的先後順序",
+          "topicSignalTitle": "同一年裡怎麼比哪一天先到？",
+          "narrationText": "先比「幾月」，月份越前面就越早到（例如 4 月比 5 月早）；如果月份一樣，再比「幾日」，數字小的先到。",
+          "cognitiveChunks": [
+            "先比幾月、再比幾日",
+            "星期六和星期日是週末放假日"
+          ],
+          "factGroundingSourceId": "115-s2/g1/math#u9"
+        },
+        {
+          "sceneId": "u9-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "答對這題星期幾的小測驗就準備完成囉！",
+          "cognitiveChunks": [
+            "今天是星期三，明天是星期四"
+          ],
+          "warmupCheck": {
+            "prompt": "今天是「星期三」，請問「明天」是星期幾？",
+            "options": [
+              "星期二",
+              "星期四",
+              "星期五",
+              "星期一"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！星期三的明天就是星期四！",
+            "feedbackRetry": "明天是往後再過一天，想想星期三後面是星期幾呢？"
+          },
+          "factGroundingSourceId": "115-s2/g1/math#u9"
+        }
+      ]
+    }
+  ]
+}

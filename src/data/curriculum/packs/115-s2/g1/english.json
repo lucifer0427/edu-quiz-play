@@ -136,6 +136,44 @@
             "NOP",
             "Alphabet Order"
           ]
+        },
+        {
+          "id": "115-s2-g1-english-u1-q7",
+          "prompt": "用身體比出「N, O, P」三個字母跳健康密碼舞！把這三個大寫字母變成小寫，哪一組全對？",
+          "options": [
+            "n, o, p",
+            "m, o, q",
+            "n, c, b",
+            "h, o, d"
+          ],
+          "answerIndex": 0,
+          "explanation": "N 的小寫是 n，O 的小寫是 o，P 的小寫是 p，合起來就是 n, o, p。",
+          "hint": "n 只有一個拱門、o 圓圓的、p 圓圈在右邊喔！",
+          "speechText": "n, o, p",
+          "speechLang": "en-US",
+          "tags": [
+            "NOP",
+            "Uppercase & Lowercase"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u1-q8",
+          "prompt": "在「保持健康」單元學設計健康守則。下面哪一項也是有益健康的好習慣？",
+          "options": [
+            "半夜不睡覺一直玩手機",
+            "吃完糖果不漱口也不刷牙",
+            "每天喝很多含糖汽水",
+            "飯前洗手、天天吃蔬菜水果"
+          ],
+          "answerIndex": 3,
+          "explanation": "飯前用肥皂洗手、多吃蔬菜水果，能讓身體更健康、少生病。",
+          "hint": "想一想，什麼食物和清潔習慣可以保護身體不生病呢？",
+          "speechText": "Stay healthy!",
+          "speechLang": "en-US",
+          "tags": [
+            "Healthy Habits",
+            "NOP"
+          ]
         }
       ]
     },
@@ -268,6 +306,44 @@
           "speechLang": "en-US",
           "tags": [
             "Traffic Safety",
+            "Field Trip"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u2-q7",
+          "prompt": "排一排字母順序：接在「N, O, P」後面的三個大寫字母是哪一組？",
+          "options": [
+            "J, K, L",
+            "Q, R, S",
+            "W, X, Y",
+            "G, H, I"
+          ],
+          "answerIndex": 1,
+          "explanation": "字母順序是 N, O, P, Q, R, S，所以接在 P 後面的是 Q, R, S。",
+          "hint": "想想這單元「實地考察」學了哪三個連在一起的字母！",
+          "speechText": "Q, R, S",
+          "speechLang": "en-US",
+          "tags": [
+            "QRS",
+            "Alphabet Order"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u2-q8",
+          "prompt": "進行「實地考察」校外教學時，在公共場所排隊等候參觀，怎麼做最有禮貌？",
+          "options": [
+            "用力推開前面的人搶第一",
+            "直接插隊站到最前面",
+            "照順序排隊，不推擠不喧嘩",
+            "坐在地上大哭不肯走"
+          ],
+          "answerIndex": 2,
+          "explanation": "在公共場所照順序排隊、不推擠喧嘩，才是有禮貌又安全的小學生。",
+          "hint": "大家都想參觀的時候，怎麼排隊才安全又守秩序呢？",
+          "speechText": "Line up, please.",
+          "speechLang": "en-US",
+          "tags": [
+            "Public Manners",
             "Field Trip"
           ]
         }
@@ -404,6 +480,44 @@
             "HEY",
             "Uppercase & Lowercase"
           ]
+        },
+        {
+          "id": "115-s2-g1-english-u3-q7",
+          "prompt": "在早安健康操「H, E, Y」裡，大寫字母「H」的小寫長成什麼樣子？",
+          "options": [
+            "h",
+            "n",
+            "m",
+            "r"
+          ],
+          "answerIndex": 0,
+          "explanation": "大寫「H」的小寫是「h」，左邊有一條高高的直線。",
+          "hint": "「h」長得像一張有高高椅背的小椅子喔！",
+          "speechText": "H, h",
+          "speechLang": "en-US",
+          "tags": [
+            "HEY",
+            "Uppercase & Lowercase"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u3-q8",
+          "prompt": "在「活力交朋友」裡，如果看到新同學一個人坐在座位上很害羞，怎麼做最親切？",
+          "options": [
+            "故意不跟他說話",
+            "指著他笑他不敢開口",
+            "把他的鉛筆盒拿走",
+            "微笑對他說 \"Hello!\"，邀請他一起玩"
+          ],
+          "answerIndex": 3,
+          "explanation": "主動用 \"Hello!\" 打招呼並邀請同學一起玩，就能交到新朋友。",
+          "hint": "可以用我們學過的哪一句英文熱情打招呼呢？",
+          "speechText": "Hello! Let's be friends.",
+          "speechLang": "en-US",
+          "tags": [
+            "Greeting",
+            "Friendship"
+          ]
         }
       ]
     },
@@ -537,6 +651,44 @@
           "tags": [
             "Chicka Chicka Boom Boom",
             "Review"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u4-q7",
+          "prompt": "在「W, X, Y, Z」裡，排在「X」後面、「Z」前面的字母是誰？",
+          "options": [
+            "W",
+            "Y",
+            "V",
+            "U"
+          ],
+          "answerIndex": 1,
+          "explanation": "四個字母順序是 W, X, Y, Z，所以 X 後面、Z 前面的是 Y。",
+          "hint": "唸唸看 W, X, ___, Z，中間是哪一個字母呢？",
+          "speechText": "W, X, Y, Z",
+          "speechLang": "en-US",
+          "tags": [
+            "WXYZ",
+            "Alphabet Order"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u4-q8",
+          "prompt": "同學對你說 \"Let's play!\"（我們去玩吧！）時，你很想一起去玩，要怎麼開心地回答「好啊！」？",
+          "options": [
+            "No, thank you.",
+            "Goodbye!",
+            "Yes! Let's play!",
+            "I'm sorry."
+          ],
+          "answerIndex": 2,
+          "explanation": "說 \"Yes! Let's play!\" 表示「好啊！我們一起玩吧！」，充滿開心的活力。",
+          "hint": "點喇叭聽聽看，開頭有代表「好、是」的 Yes 喔！",
+          "speechText": "Yes! Let's play!",
+          "speechLang": "en-US",
+          "tags": [
+            "Invitation",
+            "Let's play!"
           ]
         }
       ]

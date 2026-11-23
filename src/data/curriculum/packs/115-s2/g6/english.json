@@ -136,6 +136,44 @@
             "Starter",
             "Daily Numbers"
           ]
+        },
+        {
+          "id": "115-s2-g6-english-u0-q7",
+          "prompt": "買東西看到標價「$350」，用英語唸出金額「三百五十元」應該怎麼說？",
+          "options": [
+            "three hundred and fifty percent",
+            "three fifty floor",
+            "three hundred and fifty dollars",
+            "thirty-five degrees"
+          ],
+          "answerIndex": 2,
+          "explanation": "金額「元」在英語中常用 dollars 表示，350 元即 three hundred and fifty dollars。",
+          "hint": "金額「元」的英文單字是 dollars！",
+          "speechText": "three hundred and fifty dollars",
+          "speechLang": "en-US",
+          "tags": [
+            "Starter",
+            "Daily Numbers"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u0-q8",
+          "prompt": "在對話角色扮演中，朋友要轉學或出遠門時，用英文說「祝你好運！」最道地的句子是哪一句？",
+          "options": [
+            "See you yesterday!",
+            "How much is it?",
+            "What's your number?",
+            "Good luck!"
+          ],
+          "answerIndex": 3,
+          "explanation": "Good luck! 意為「祝你好運！」，是日常生活中常用來鼓勵別人的親切用語。",
+          "hint": "「好運」的英文是 luck，加上 Good 就是祝你好運！",
+          "speechText": "Good luck!",
+          "speechLang": "en-US",
+          "tags": [
+            "Starter",
+            "Dialogue"
+          ]
         }
       ]
     },
@@ -269,6 +307,44 @@
           "tags": [
             "Phonics",
             "Long Vowels"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u1-q7",
+          "prompt": "過去式問答練習：\"Where ___ Leo and Ken yesterday? — They ___ at the zoo.\"",
+          "options": [
+            "were / were",
+            "was / was",
+            "are / were",
+            "did / were"
+          ],
+          "answerIndex": 0,
+          "explanation": "Leo and Ken 是兩個人（複數），They 也是複數，因此過去式 be 動詞都要使用 were。",
+          "hint": "兩個人是複數，過去式 be 動詞要用 was 還是 were？",
+          "speechText": "Where were Leo and Ken yesterday? They were at the zoo.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u1-q8",
+          "prompt": "否定句練習：\"Were you at school yesterday morning? — No, I ___. I was at home.\"",
+          "options": [
+            "weren't",
+            "wasn't",
+            "didn't",
+            "am not"
+          ],
+          "answerIndex": 1,
+          "explanation": "問句以 Were you 開頭詢問過去地點，主詞改為 I 回答時，過去式 be 動詞否定簡答要用 wasn't（was not）。",
+          "hint": "主詞變成 I 的時候，was 的否定縮寫是什麼？",
+          "speechText": "Were you at school yesterday morning? No, I wasn't.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Grammar"
           ]
         }
       ]
@@ -404,6 +480,44 @@
             "Phonics",
             "s-blends"
           ]
+        },
+        {
+          "id": "115-s2-g6-english-u2-q7",
+          "prompt": "對話填空：\"What did Mia ___ yesterday evening? — She ___ a movie with her family.\"",
+          "options": [
+            "do / watched",
+            "did / watched",
+            "do / watch",
+            "doing / watching"
+          ],
+          "answerIndex": 0,
+          "explanation": "問句已有過去式助動詞 did，所以主要動詞要用原形 do；答句沒有 did，動詞 watch 要用過去式 watched。",
+          "hint": "問句有 did 後面動詞用原形；回答時動詞要變成過去式！",
+          "speechText": "What did Mia do yesterday evening? She watched a movie.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u2-q8",
+          "prompt": "選出不規則動詞「go（去）」和「eat（吃）」正確的過去式形式：",
+          "options": [
+            "goed / eated",
+            "goes / eats",
+            "went / ate",
+            "going / eating"
+          ],
+          "answerIndex": 2,
+          "explanation": "go 的過去式是 went，eat 的過去式是 ate，兩者皆為常見的不規則過去式動詞。",
+          "hint": "昨天去了哪裡用 went，昨天吃了什麼用 ate！",
+          "speechText": "went, ate",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Irregular Verbs"
+          ]
         }
       ]
     },
@@ -537,6 +651,44 @@
           "tags": [
             "Review 1",
             "Time Expressions"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u3-q7",
+          "prompt": "閱讀日記短文：\"Saturday, May 9. It was rainy. I wasn't at the zoo. I was at the museum with my sister.\" 請問作者星期六在哪裡？",
+          "options": [
+            "At the zoo.",
+            "At the museum.",
+            "At the park.",
+            "At school."
+          ],
+          "answerIndex": 1,
+          "explanation": "日記寫到 \"I wasn't at the zoo. I was at the museum\"，表示作者不在動物園，而是在博物館。",
+          "hint": "注意 wasn't（不在）和 was（在）後面的地點喔！",
+          "speechText": "I was at the museum with my sister.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Diary Reading"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u3-q8",
+          "prompt": "Phonics 綜合複習：下列哪一個單字含有和「bike」相同的長母音 i（i_e）發音？",
+          "options": [
+            "sit",
+            "pig",
+            "milk",
+            "kite"
+          ],
+          "answerIndex": 3,
+          "explanation": "bike 和 kite 都是 i_e 結構，發長母音 /aɪ/；sit、pig、milk 中的 i 發短母音 /ɪ/。",
+          "hint": "找一個和 bike 押韻、字尾有不發音 e 的單字！",
+          "speechText": "bike, kite",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Phonics"
           ]
         }
       ]
@@ -672,6 +824,44 @@
             "Unit 3",
             "Environmental Education"
           ]
+        },
+        {
+          "id": "115-s2-g6-english-u4-q7",
+          "prompt": "對話應答：\"How much is the cap?\" 下列哪一個回答文法與語意都正確？",
+          "options": [
+            "It's two hundred dollars.",
+            "They're two hundred dollars.",
+            "It's on the desk.",
+            "I'm two hundred dollars."
+          ],
+          "answerIndex": 0,
+          "explanation": "the cap（一頂帽子）是單數物品，回答價格時主詞代名詞要用 It（It's = It is）。",
+          "hint": "the cap 只有一頂（單數），代名詞要用 It's 還是 They're？",
+          "speechText": "How much is the cap? It's two hundred dollars.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u4-q8",
+          "prompt": "衣物單字辨識：下列哪一個英文單字是指夏天常穿的「短褲」（恆為複數形式）？",
+          "options": [
+            "coat",
+            "sweater",
+            "shorts",
+            "dress"
+          ],
+          "answerIndex": 2,
+          "explanation": "shorts 指「短褲」（兩條褲管故恆為複數）；coat 是大衣，sweater 是毛衣，dress 是洋裝。",
+          "hint": "「短（short）」的褲子，字尾加上 s 就是 shorts！",
+          "speechText": "shorts",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Clothes"
+          ]
         }
       ]
     },
@@ -801,6 +991,44 @@
           "explanation": "flute（長笛）與 cute 皆含有長母音 u_e；cut、cup、bus 中的 u 皆發短母音。",
           "hint": "找出字尾有不發音 e（u_e 結構）的那一個單字！",
           "speechText": "cute, flute",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "Long Vowels"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u5-q7",
+          "prompt": "天氣與季節搭配：\"It's warm and sunny. Flowers bloom everywhere.\" 這段描述最符合哪一個季節？",
+          "options": [
+            "winter",
+            "spring",
+            "summer",
+            "fall"
+          ],
+          "answerIndex": 1,
+          "explanation": "warm（溫暖的）且百花盛開（Flowers bloom）是春天（spring）的典型特色。",
+          "hint": "天氣溫暖（warm）又百花齊放的季節是哪一個？",
+          "speechText": "spring",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Seasons"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u5-q8",
+          "prompt": "Phonics 母音拼讀挑戰：下列哪一個單字含有和「these」相同的長母音 e（ee / e_e）發音？",
+          "options": [
+            "bed",
+            "pen",
+            "desk",
+            "tree"
+          ],
+          "answerIndex": 3,
+          "explanation": "these 和 tree 都發長母音 /iː/；bed、pen、desk 中的 e 皆發短母音 /ɛ/。",
+          "hint": "點喇叭聽聽看 tree 的長母音發音！",
+          "speechText": "these, tree",
           "speechLang": "en-US",
           "tags": [
             "Phonics",
@@ -939,6 +1167,44 @@
           "tags": [
             "Culture",
             "Multicultural Education"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u6-q7",
+          "prompt": "旅遊計畫對話：\"How much are the sunglasses? — ___ four hundred dollars.\"",
+          "options": [
+            "They're",
+            "It's",
+            "He's",
+            "She's"
+          ],
+          "answerIndex": 0,
+          "explanation": "sunglasses（太陽眼鏡）在英文中是複數名詞，問句用 are，回答價格時要用 They're。",
+          "hint": "sunglasses 有兩個鏡片是複數（are），回答要用複數代名詞！",
+          "speechText": "How much are the sunglasses? They're four hundred dollars.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u6-q8",
+          "prompt": "閱讀旅遊計畫短文：\"Next week, we are going to Kenting. It's summer now, so it is hot and sunny there. We can go swimming and play beach volleyball.\" 請問他們去墾丁可以做什麼活動？",
+          "options": [
+            "Go skiing and make a snowman.",
+            "Wear a heavy coat and stay inside.",
+            "Buy winter gloves and scarves.",
+            "Go swimming and play beach volleyball."
+          ],
+          "answerIndex": 3,
+          "explanation": "短文最後一句提到 \"We can go swimming and play beach volleyball.\"，表示可以去游泳和打沙灘排球。",
+          "hint": "找短文最後一句 \"We can ...\" 後面的活動！",
+          "speechText": "We can go swimming and play beach volleyball.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Travel Plan"
           ]
         }
       ]

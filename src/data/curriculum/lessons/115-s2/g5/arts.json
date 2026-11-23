@@ -1,0 +1,565 @@
+{
+  "packId": "115-s2-g5-arts",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 5,
+  "subjectId": "arts",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-arts-u1",
+      "stageId": "115-s2-g5-arts-u1",
+      "title": "第一單元 歌聲滿行囊",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "異國歌謠、管弦樂與直笛二部合奏",
+          "narrationText": "唱世界各地的歌曲時細細體會歌詞意境與多元文化！管弦樂靠音色、旋律與強弱說故事；吹奏「直笛二部合奏」則要兩聲部同時對好預備拍、互相傾聽維持平衡。",
+          "cognitiveChunks": [
+            "體會歌詞意境，尊重欣賞各地文化之美",
+            "演唱結合樂器伴奏與律動，體驗更立體",
+            "二部合奏為兩聲部吹主旋律與和聲，重視平衡"
+          ],
+          "analogyAnchor": "直笛二部合奏就像兩條並肩流淌的小溪，第一部和第二部各走各的旋律線條，但速度一致、音量平衡，匯流起來才好聽！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "多元歌謠與管弦樂",
+              "leftPoints": [
+                "尊重各地唱腔拍子，體會歌詞文化意境",
+                "管弦樂用音色、旋律與強弱起伏說故事"
+              ],
+              "rightTitle": "直笛二部合奏要領",
+              "rightPoints": [
+                "主旋律與和聲聲部同時合作演奏",
+                "對好共同預備拍、控制氣息音量平衡"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "尊重各地文化唱腔",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "兩聲部合作求平衡",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/arts#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "直笛二部合奏的調整策略",
+          "narrationText": "吹奏第二部時不小心蓋過主旋律或被第一部帶偏，該怎麼修正呢？",
+          "cognitiveChunks": [
+            "專心看譜守住聲部、氣息適中柔和",
+            "起吹前先對好共同預備拍"
+          ],
+          "workedExampleData": {
+            "problemStatement": "進行直笛二部合奏時，第二部聲音蓋過主旋律或容易被第一部帶偏，該怎麼調整？",
+            "steps": [
+              "第 1 步：起吹前兩聲部先對好共同「預備拍」與速度，整齊開始",
+              "第 2 步：專心看著自己的樂譜，用適中柔和的氣息穩住第二部音高",
+              "第 3 步：同時用耳朵傾聽第一部主旋律，維持兩個聲部的和諧平衡"
+            ],
+            "commonErrorContrast": "常見錯誤：為了不被帶偏而把音量放大兩倍，或是乾脆改吹和第一部一樣的音。",
+            "selfExplanationPrompt": "想一想：把演唱、三角鐵鈴鼓伴奏和肢體律動結合起來，對表現歌曲風格有什麼幫助？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/arts#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看什麼是「直笛二部合奏」！",
+          "cognitiveChunks": [
+            "二部合奏為兩聲部分別吹奏主旋律與和聲"
+          ],
+          "warmupCheck": {
+            "question": "在〈小小愛笛生〉認識「直笛二部合奏」時，下列哪一個敘述最能說明「二部合奏」的特色？",
+            "prompt": "在〈小小愛笛生〉認識「直笛二部合奏」時，下列哪一個敘述最能說明「二部合奏」的特色？",
+            "options": [
+              "分成兩個聲部分別吹奏主旋律與和聲，交織出豐富音響",
+              "全班所有直笛從頭到尾吹出完全一樣的單旋律",
+              "兩位同學輪流獨奏同一行旋律"
+            ],
+            "answerIndex": 0,
+            "explanation": "二部合奏是指兩個聲部在共同拍子下同時吹奏不同音高的旋律或和聲，創造立體層次！",
+            "feedbackCorrect": "答對了！兩個聲部同時吹奏主旋律與和聲，就是二部合奏！",
+            "feedbackRetry": "「二部」是有兩個聲部，「合奏」則是大家在同一個拍子下一起合作吹奏喔！"
+          },
+          "factGroundingSourceId": "115-s2/g5/arts#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-arts-u2",
+      "stageId": "115-s2-g5-arts-u2",
+      "title": "第二單元 愛的樂章",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "愛的樂章、歌詠故鄉與直笛呼吸",
+          "narrationText": "音樂能烘托故事裡愛與關懷的情感！演唱〈歌詠故鄉〉要咬字清晰並帶出強弱表情，欣賞在地多元族群歌謠；吹直笛則要在換氣記號（V）呼吸、按密指孔防破音！",
+          "cognitiveChunks": [
+            "清晰咬字與強弱起伏傳達對故鄉的情感",
+            "認識閩南、客家、原住民族等在地多元歌謠",
+            "依換氣記號呼吸，按嚴指孔與穩氣流防破音"
+          ],
+          "analogyAnchor": "樂譜上的換氣記號（V）就像文章裡的逗號和句號，在那裡自然吸氣，旋律句子才不會被切得支離破碎！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "唱歌表情：咬字清晰、強弱起伏唱出深情",
+                "直笛換氣：依照換氣記號（V）自然吸氣",
+                "高音防破：檢查後孔半孔按密、氣流集中穩定"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "換氣記號處自然吸氣",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "按嚴指孔穩定氣流",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/arts#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "解決高音直笛破音與換氣難題",
+          "narrationText": "吹奏進階高音時常破音，或長樂句吹到一半沒氣怎麼辦？",
+          "cognitiveChunks": [
+            "按密後孔半孔與各指孔、集中穩定氣流",
+            "數準休止符與長音襯托合奏和聲"
+          ],
+          "workedExampleData": {
+            "problemStatement": "吹奏高音直笛進階樂曲時，碰到高音破音以及長樂句換氣困難，該如何調整？",
+            "steps": [
+              "第 1 步：檢查左手大拇指後孔（或半孔）與所有指孔是否按嚴實不漏氣",
+              "第 2 步：調整吹氣力道，用集中而穩定的氣流吹奏，切忌猛力亂吹",
+              "第 3 步：依照樂譜換氣記號（V）在樂句段落處快速吸氣，並數好長音與休止符"
+            ],
+            "commonErrorContrast": "常見錯誤：吹到沒氣就在字詞中間隨意停下吸氣，或把高音用力猛吹造成刺耳破音。",
+            "selfExplanationPrompt": "想一想：認識這塊土地上不同族群傳唱的家鄉歌謠，帶給我們什麼文化收穫？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/arts#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看直笛吹奏遇到換氣記號該怎麼呼吸！",
+          "cognitiveChunks": [
+            "依換氣記號在樂句段落吸氣保持流暢"
+          ],
+          "warmupCheck": {
+            "question": "在〈小小愛笛生〉吹奏較長的旋律樂句時，該如何配合樂譜上的「換氣記號（V）」安排呼吸？",
+            "prompt": "在〈小小愛笛生〉吹奏較長的旋律樂句時，該如何配合樂譜上的「換氣記號（V）」安排呼吸？",
+            "options": [
+              "依照換氣記號在樂句段落處快速自然吸氣，保持樂句流暢",
+              "從曲子開頭憋氣到最後一拍都不吸氣",
+              "每個音符吹完都用力大吸一口氣"
+            ],
+            "answerIndex": 0,
+            "explanation": "在換氣記號處吸氣就像在標點符號處換氣，能保持音樂語氣連貫完整！",
+            "feedbackCorrect": "答對了！在換氣記號處自然吸氣最能保持樂句完整流暢！",
+            "feedbackRetry": "想像讀文章時會在逗號與句號處喘氣，吹直笛在哪裡吸氣才不會切斷句子呢？"
+          },
+          "factGroundingSourceId": "115-s2/g5/arts#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-arts-u3",
+      "stageId": "115-s2-g5-arts-u3",
+      "title": "第三單元 漫畫與偶",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "漫符、分格節奏與平面轉立體",
+          "narrationText": "漫畫透過誇張簡化突顯個性，用青筋、汗水、燈泡等「漫符」與造型對話框表現情緒，用大小「分格」控制閱讀節奏；最後更要把紙上角色變成 360 度立體戲偶！",
+          "cognitiveChunks": [
+            "誇張簡化突顯性格；漫符與對話框傳達情緒",
+            "大小不一的分格能控制閱讀節奏與高潮",
+            "平面轉立體需設計側面背面、支撐與活動關節"
+          ],
+          "analogyAnchor": "把紙上漫畫角色變成立體戲偶，就像幫平面圖畫穿上「360 度立體魔法衣」，不只要畫正面，連側面、背面和關節都要想好！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "漫畫視覺語言",
+              "leftPoints": [
+                "漫符：汗水、青筋、燈泡、問號",
+                "大小分格控制節奏、對話框簡潔依序"
+              ],
+              "rightTitle": "偶是小達人（轉立體）",
+              "rightPoints": [
+                "補足側面與背面的 360 度立體造型",
+                "設計立體支撐結構與可動手腳關節"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "漫符分格控制節奏",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "轉立體想360度結構",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/arts#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "漫畫表現手法與立體化關鍵",
+          "narrationText": "怎麼畫出驚嚇表情、安排對話框，並順利將原創角色做成能動的戲偶？",
+          "cognitiveChunks": [
+            "瞳孔縮小、集中線與抖動線條表驚嚇",
+            "立體戲偶需考量材質平衡與關節活動"
+          ],
+          "workedExampleData": {
+            "problemStatement": "設計原創漫畫角色並將它從「平面」製作成「立體戲偶」時，分別要把握哪些原則？",
+            "steps": [
+              "第 1 步：結合角色性格設計招牌髮型與配件，用漫符與集中線強化情緒張力",
+              "第 2 步：安排大小分格控制高潮節奏，對話框文字簡潔並依閱讀順序排列",
+              "第 3 步：立體化時構思側面與背面造型、支撐結構及可動手腳關節"
+            ],
+            "commonErrorContrast": "常見錯誤：分格大小都切成一樣的正方形、對話框文字擠到五百字，或立體偶只做正面不做背面。",
+            "selfExplanationPrompt": "想一想：角色頭上畫出「發亮的燈泡」或「大滴汗水」時，分別代表什麼心情或狀態？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/arts#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看漫畫頁面為什麼會出現大小不一的分格！",
+          "cognitiveChunks": [
+            "分格大小與形狀能控制閱讀節奏與高潮"
+          ],
+          "warmupCheck": {
+            "question": "在〈小小漫畫家〉創作短篇漫畫時，為什麼頁面上會出現大小不一的「分格」，而不全切成相同正方形？",
+            "prompt": "在〈小小漫畫家〉創作短篇漫畫時，為什麼頁面上會出現大小不一的「分格」，而不全切成相同正方形？",
+            "options": [
+              "透過格子的大小與角度變化，控制閱讀節奏並凸顯高潮畫面",
+              "因為忘記帶直尺只好隨便畫歪",
+              "為了把閱讀順序故意弄亂"
+            ],
+            "answerIndex": 0,
+            "explanation": "大格子能凸顯關鍵高潮與特寫，連續小格能營造緊湊時間感，分格安排正是漫畫節奏的秘密武器！",
+            "feedbackCorrect": "答對了！分格大小變化能控制故事的閱讀節奏與高潮張力！",
+            "feedbackRetry": "當故事發生最震撼的那一瞬間，漫畫家會把那一格畫得特別大還是特別小呢？"
+          },
+          "factGroundingSourceId": "115-s2/g5/arts#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-arts-u4",
+      "stageId": "115-s2-g5-arts-u4",
+      "title": "第四單元 探索藝術的密碼",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "心情密碼、音畫與排列漸變",
+          "narrationText": "線條與色彩能表現心情密碼！柔和曲線與淺藍綠代表平靜，跳躍暖色與斜線代表興奮；還能把音樂轉譯成「音畫」，並用反覆、對稱與「漸變」創作非具象藝術！",
+          "cognitiveChunks": [
+            "曲線淺色表平靜；鮮明對比與放射斜線表興奮",
+            "音畫用點線面疏密與方向呼應聲音節奏",
+            "漸變是在大小、方向、位置或深淺間逐步轉變"
+          ],
+          "analogyAnchor": "「音畫」就像幫看不見的音樂拍照：短促斷音變成跳躍小圓點，滑順長樂句變成流動的波浪色帶！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "視覺心情：曲線淺色平靜、斜線對比興奮",
+                "音畫轉譯：小圓點配斷音、波浪帶配長樂句",
+                "構成密碼：排列組合韻律與大小方向漸變"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "音畫用點線面配樂",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "漸變為規律逐步轉變",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/arts#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "解讀與發表非具象藝術密碼",
+          "narrationText": "作品裡沒有畫具體的人或風景時，怎麼創作漸變又怎麼向同學分享理念？",
+          "cognitiveChunks": [
+            "大小、方向與色彩深淺逐步過渡為漸變",
+            "發表時說明如何用視覺元素表達心情或音樂"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何運用「漸變」創作非具象作品，並在發表時向同學說明自己的藝術密碼？",
+            "steps": [
+              "第 1 步：運用規律漸變，例如圖形由小到大、方向逐個旋轉或色彩由淺黃漸進到橘紅",
+              "第 2 步：若結合音樂，以點線面的疏密與方向來呈現聲音的快慢強弱",
+              "第 3 步：發表時分享自己運用了哪些線條、色彩與排列來傳達特定心情或旋律"
+            ],
+            "commonErrorContrast": "常見錯誤：左紅右綠毫無過渡就當作漸變，或是被問到抽象作品理念時趕快補畫小貓。",
+            "selfExplanationPrompt": "想一想：走出教室觀察樹葉脈絡與地面磚塊紋路，主要是培養我們什麼樣的觀察能力？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/arts#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看哪一種畫面符合「漸變」的視覺原理！",
+          "cognitiveChunks": [
+            "漸變是大小、方向或色彩逐步流暢過渡"
+          ],
+          "warmupCheck": {
+            "question": "在〈有趣的漸變〉運用漸變表現美感時，下列哪一個作品的視覺效果最符合「漸變」原理？",
+            "prompt": "在〈有趣的漸變〉運用漸變表現美感時，下列哪一個作品的視覺效果最符合「漸變」原理？",
+            "options": [
+              "圖形由小到大、顏色由淺黃逐漸過渡到橘紅",
+              "左邊塗滿正紅、右邊突然直接切成正綠毫無過渡",
+              "整張紙只放一個孤零零的藍色正方形"
+            ],
+            "answerIndex": 0,
+            "explanation": "「漸變」強調有規律地一步步逐步轉變，創造流暢的層次與動感！",
+            "feedbackCorrect": "答對了！由小到大、由淺黃逐步過渡到橘紅就是漸變之美！",
+            "feedbackRetry": "「漸變」的重點在於「一步一步慢慢變化」，不能突然跳過去喔！"
+          },
+          "factGroundingSourceId": "115-s2/g5/arts#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-arts-u5",
+      "stageId": "115-s2-g5-arts-u5",
+      "title": "第五單元 熱鬧慶典",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "慶典扮演祕笈與大型戲偶展演",
+          "narrationText": "慶典透過音樂舞蹈與遊行凝聚人群情感！戶外大空間常用鮮明面具、彩繪（無毒顏料）與高大戲偶；戴面具時要靠放大肢體與聲音表情，多人共操大偶更要建立共同節奏默契！",
+          "cognitiveChunks": [
+            "大空間慶典用誇張面具彩繪與大偶讓遠處看清",
+            "戴面具時放大頭肩手動作與聲調變化",
+            "多人共操大偶靠共同節奏與安全空間距離"
+          ],
+          "analogyAnchor": "多人一起操作一尊大型戲偶就像划龍舟或舞獅，大家呼吸節奏一致、眼神有默契，大偶就會像活過來一樣！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "面具彩繪與扮演祕笈",
+              "leftPoints": [
+                "鮮明誇張裝扮讓遠處觀眾看清角色",
+                "戴面具用無毒顏料、開大眼孔並放大肢體聲音"
+              ],
+              "rightTitle": "大型戲偶安全與默契",
+              "rightPoints": [
+                "熟悉重心高度與距離，偶頭抬挺朝觀眾",
+                "多人分工控制頭手，共同節奏無聲默契"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "面具演出放大肢體",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "多人操偶講究默契",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/arts#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "多人操作大型戲偶與文化敬意",
+          "narrationText": "面對大空間慶典演出與各地傳統圖騰，該如何同時做到專業安全與跨文化尊重？",
+          "cognitiveChunks": [
+            "無聲暗號與共同節奏讓大偶生動協作",
+            "理解傳統圖紋祝福意義並轉化創意"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小組多人操作大型戲偶並借鏡各國慶典元素展演時，要掌握哪些關鍵原則？",
+            "steps": [
+              "第 1 步：先理解傳統面具圖紋背後的文化祝福意義，尊重不醜化嘲弄",
+              "第 2 步：操作大偶前熟悉重心與撐桿高度，留意四周空間距離確保安全",
+              "第 3 步：控制頭與左右手的同學建立共同節奏默契，讓動作彼此呼應"
+            ],
+            "commonErrorContrast": "常見錯誤：在台上大喊口令指揮同伴、把傳統神聖圖騰拿來搞笑醜化，或演完把戲偶丟著不管。",
+            "selfExplanationPrompt": "想一想：戴上面具後臉部表情被遮住了，表演者要靠什麼讓觀眾看懂角色的心情？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/arts#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看戴上面具演出時的表演秘訣！",
+          "cognitiveChunks": [
+            "面具遮臉時靠放大肢體與聲音變化"
+          ],
+          "warmupCheck": {
+            "question": "當表演者戴上面具、臉部表情被遮住時，最該依靠什麼技巧讓角色看起來生動立體？",
+            "prompt": "當表演者戴上面具、臉部表情被遮住時，最該依靠什麼技巧讓角色看起來生動立體？",
+            "options": [
+              "放大頭、肩、手的肢體角度與步伐，搭配貼合角色的聲音變化",
+              "站在舞台正中央一動不動用氣音唸台詞",
+              "演到一半把面具摘下來丟在地上"
+            ],
+            "answerIndex": 0,
+            "explanation": "面具遮蔽臉部表情後，放大身體律動、姿態轉折與充滿張力的聲音語調，能清楚傳遞角色情緒！",
+            "feedbackCorrect": "答對了！放大肢體動作與聲音變化就能讓面具角色活靈活現！",
+            "feedbackRetry": "臉上的表情被面具擋住了，觀眾還能看你的什麼和聽你的什麼來感受心情呢？"
+          },
+          "factGroundingSourceId": "115-s2/g5/arts#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-arts-u6",
+      "stageId": "115-s2-g5-arts-u6",
+      "title": "第六單元 自然之美",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "大自然的禮物、樂章與桌上劇場",
+          "narrationText": "到校園拾取自然掉落的枯枝落葉與種子（不攀折活植物），依外觀質感分類後透過「設計思考」做種子迷宮；再習唱自然歌曲，最後分工演出精緻的「桌上劇場」！",
+          "cognitiveChunks": [
+            "拾取自然掉落物，依顏色形狀紋理質感分類",
+            "設計思考測試修正種子迷宮，不隱瞞卡關",
+            "桌上劇場用迷你舞台景片小偶近距離說故事"
+          ],
+          "analogyAnchor": "桌上劇場就像把整座大自然的魔法森林縮小搬到課桌上，小偶走過枯枝落葉景片，加上歌聲與音效就是跨領域饗宴！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "大自然的禮物：撿掉落物分類、設計思考改迷宮",
+                "大自然的樂章：輕柔連貫唱出微風流水意境",
+                "自然與神話劇場：分工彩排演出迷你桌上劇場"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "只撿掉落物護生態",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "桌上劇場迷你舞台",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/arts#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "設計思考迭代與桌上劇場分工",
+          "narrationText": "製作種子迷宮測試時卡住了怎麼辦？籌備桌上劇場又該如何分工？",
+          "cognitiveChunks": [
+            "原型測試發現問題後動手調整結構優化",
+            "清楚分工導演、道具、操偶、音效並彩排"
+          ],
+          "workedExampleData": {
+            "problemStatement": "製作「種子迷宮」測試時發現種子卡在彎道，以及籌備「桌上劇場」時該如何進行？",
+            "steps": [
+              "第 1 步：運用設計思考「測試與修正」，找出彎道寬度或斜度問題並調整優化",
+              "第 2 步：桌上劇場依組員特質分配導演、布景道具、操偶演說與音效職務",
+              "第 3 步：一起走位彩排，操偶者視線跟著小偶移動，配合台詞做出生動轉身"
+            ],
+            "commonErrorContrast": "常見錯誤：迷宮卡關就放棄或怪種子太圓，或是臨場前才隨便拿起小偶亂演。",
+            "selfExplanationPrompt": "想一想：整個第六單元把種子迷宮、歌曲習唱與桌上劇場圍繞「自然」串聯起來，展現了什麼學習精神？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/arts#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看校園收集自然創作素材的生態倫理！",
+          "cognitiveChunks": [
+            "拾取自然掉落的枯枝落葉種子不攀折"
+          ],
+          "warmupCheck": {
+            "question": "在〈大自然的禮物〉到校園收集自然物做創作前，哪一種採集做法最能愛護校園生態？",
+            "prompt": "在〈大自然的禮物〉到校園收集自然物做創作前，哪一種採集做法最能愛護校園生態？",
+            "options": [
+              "撿拾地面自然掉落的枯枝、落葉與種子，不攀折活枝葉",
+              "把校樹剛長出來的翠綠嫩葉全部摘光",
+              "挖起花圃裡連根帶土的小盆栽做剪貼"
+            ],
+            "answerIndex": 0,
+            "explanation": "只拾取地面自然掉落的枯枝、落葉與果實種子，既能獲得豐富創作素材，又能守護校園植物生命！",
+            "feedbackCorrect": "答對了！拾取自然掉落物不傷害活植物，是最棒的生態倫理！",
+            "feedbackRetry": "想一想，哪一種收集方式完全不會傷害到正在生長的樹木和花草呢？"
+          },
+          "factGroundingSourceId": "115-s2/g5/arts#u6"
+        }
+      ]
+    }
+  ]
+}

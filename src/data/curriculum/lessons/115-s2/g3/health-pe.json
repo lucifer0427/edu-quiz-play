@@ -1,0 +1,646 @@
+{
+  "packId": "115-s2-g3-health-pe",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 3,
+  "subjectId": "health-pe",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-health-pe-u1",
+      "stageId": "115-s2-g3-health-pe-u1",
+      "title": "單元一 流感我不怕",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識流感傳染途徑與預防策略",
+          "narrationText": "流行性感冒主要透過飛沫與接觸傳染，常伴隨突發高燒與全身肌肉痠痛。學會用肥皂「內外夾弓大立腕」勤洗手、戴口罩、保持通風與接種疫苗，就能遠離流感。",
+          "cognitiveChunks": [
+            "流感經由飛沫傳染與接觸傳染擴散",
+            "肥皂勤洗手、戴口罩、開窗通風與打疫苗",
+            "生病戴口罩就醫在家休養，不排擠同學"
+          ],
+          "analogyAnchor": "對抗流感就像守護城堡：肥皂洗手和戴口罩是城門衛兵，開窗通風能吹散敵人，接種疫苗則是幫身體穿上防護鎧甲。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "傳染途徑與警訊",
+              "leftPoints": [
+                "飛沫（咳噴嚏）與接觸（摸口鼻眼）",
+                "高燒、全身肌肉痠痛與明顯倦怠"
+              ],
+              "rightTitle": "遠離流感防護",
+              "rightPoints": [
+                "內外夾弓大立腕肥皂洗手 20 秒",
+                "戴口罩、門窗通風與接種疫苗"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "飛沫接觸與高燒警訊",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "洗手通風與接種疫苗",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/health-pe#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "咳嗽禮節與校園防疫合作",
+          "narrationText": "在教室突然想打噴嚏卻沒帶衛生紙時該怎麼辦？同學康復戴口罩回校上課又該怎麼對待他？一起學會標準禮節與防疫行動。",
+          "cognitiveChunks": [
+            "用手肘內側或衣袖遮掩口鼻",
+            "定期擦拭門把桌面並維持教室通風"
+          ],
+          "workedExampleData": {
+            "problemStatement": "同學突然發高燒咳嗽；或自己在教室突然想打噴嚏卻來不及拿衛生紙，分別該怎麼做？",
+            "steps": [
+              "第 1 步：發高燒全身痠痛時立刻戴上口罩並通知家長盡快就醫，在家好好休養",
+              "第 2 步：突然想咳或打噴嚏來不及拿衛生紙時，立刻用「手肘內側或衣袖」遮掩口鼻",
+              "第 3 步：全班定期擦拭門把與共用桌面、開窗通風，並親切關心戴口罩康復回校的同學"
+            ],
+            "commonErrorContrast": "常見錯誤：用手掌摀嘴後再去摸門把餐具、生病硬撐上學、隨便吃別人的退燒藥，或排擠取笑戴口罩的同學。",
+            "selfExplanationPrompt": "想一想：為什麼「用冷水隨便沖兩秒手指尖」不能有效洗掉流感病毒？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/health-pe#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "關懷康復同學的好品德",
+          "topicSignalTitle": "看到感冒康復戴口罩回班上的同學該怎麼做？",
+          "narrationText": "戴口罩是負責任又保護大家的表現，我們應親切關心他的健康，不貼標籤嘲笑或排擠，一起遵守通風與洗手約定。",
+          "cognitiveChunks": [
+            "不嘲笑排擠戴口罩的同學",
+            "親切關懷並落實個人衛生"
+          ],
+          "factGroundingSourceId": "115-s2/g3/health-pe#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "測測看你是否記得正確的呼吸道咳嗽禮節！",
+          "cognitiveChunks": [
+            "用手肘內側或衣袖遮掩口鼻"
+          ],
+          "warmupCheck": {
+            "prompt": "在教室裡突然想咳嗽或打噴嚏，剛好沒戴口罩也來不及拿到衛生紙時，怎麼做比較衛生有公德心？",
+            "options": [
+              "朝著同桌同學大聲噴出去",
+              "用雙手掌心摀住後再去發餐具",
+              "抬頭對著天花板大力咳嗽",
+              "立刻用手肘內側或衣袖遮掩住口鼻"
+            ],
+            "answerIndex": 3,
+            "feedbackCorrect": "答對了！用手肘內側遮住口鼻能擋住飛沫，又不會讓雙手沾滿病毒再去摸其他東西。",
+            "feedbackRetry": "如果用手掌摀嘴，手再去摸門把就會傳染出去喔！改用哪個部位遮住最安全？"
+          },
+          "factGroundingSourceId": "115-s2/g3/health-pe#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-health-pe-u2",
+      "stageId": "115-s2-g3-health-pe-u2",
+      "title": "單元二 愛護眼耳口",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "保護視力、聽力與口腔牙齒保健",
+          "narrationText": "眼耳口是我們探索世界的重要夥伴：用眼 30 分鐘休息 10 分鐘多遠眺；耳機音量別太大、不雙孔猛擤鼻涕防中耳炎；認識門牙犬齒臼齒分工並用牙線潔牙。",
+          "cognitiveChunks": [
+            "近視防治：光線足、距 30 公分、3010 原則",
+            "聽力保健：音量適中、不尖銳掏耳、單側輕擤",
+            "牙齒保健：門牙切、犬齒撕、臼齒磨與用牙線"
+          ],
+          "analogyAnchor": "門牙像剪刀切斷食物、犬齒像叉子撕裂食物、臼齒像石磨磨碎食物，再用牙線把齒縫掃乾淨，眼耳口就能健康陪我們長大。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "護眼與護耳要領",
+              "leftPoints": [
+                "看書光足距 30 公分，用眼 30 休 10",
+                "耳機勿過大聲，按住一側鼻翼輕擤"
+              ],
+              "rightTitle": "牙齒分工與潔牙",
+              "rightPoints": [
+                "門牙切、犬齒撕、臼齒磨碎",
+                "牙線拉鋸輕入齒縫、每半年看牙醫"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "護眼3010與輕擤護耳",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "牙齒分工與牙線潔牙",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/health-pe#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "正確擤鼻涕防中耳炎與牙線使用",
+          "narrationText": "感冒鼻塞擤鼻涕和用牙線清潔牙縫都有小技巧，做錯方向反而容易傷害耳膜或割傷牙齦！",
+          "cognitiveChunks": [
+            "耳咽管相通，勿雙孔同時猛擤",
+            "牙線拉鋸輕滑入、貼牙面上下刮"
+          ],
+          "workedExampleData": {
+            "problemStatement": "感冒鼻塞想擤鼻涕，以及餐後要用牙線清潔齒縫時，怎樣操作才不會受傷？",
+            "steps": [
+              "第 1 步：擤鼻涕時按住一側鼻翼輕輕擤另一側，避免細菌經耳咽管壓進中耳引發中耳炎",
+              "第 2 步：洗澡耳朵進水時，側頭朝下輕跳幾下再用乾淨毛巾擦外耳，絕不用尖物挖耳",
+              "第 3 步：將牙線輕輕前後拉鋸滑入齒縫，緊貼左右牙面呈小彎度上下刮除牙垢，每清一縫換一段"
+            ],
+            "commonErrorContrast": "常見錯誤：兩邊鼻孔一起捏住猛力擤鼻涕、牙線直接大力往下壓傷牙齦、用同一段髒牙線清全口，或看書休息改滑手機。",
+            "selfExplanationPrompt": "想一想：為什麼看書三十分鐘休息時，「到戶外看遠方綠樹」有用，而「拿起手機看影片」卻沒有讓眼睛休息？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/health-pe#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "每半年定期檢查牙齒",
+          "topicSignalTitle": "除了天天刷牙和用牙線，還要做什麼護牙習慣？",
+          "narrationText": "少吃黏牙甜食與含糖飲料，並每半年定期到牙醫診所檢查牙齒與塗氟，才能及早發現小問題預防蛀牙。",
+          "cognitiveChunks": [
+            "每半年定期看牙醫檢查塗氟",
+            "少吃黏牙甜食與含糖飲料"
+          ],
+          "factGroundingSourceId": "115-s2/g3/health-pe#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "確認一下牙線進入齒縫的安全手勢！",
+          "cognitiveChunks": [
+            "牙線拉鋸輕滑入齒縫"
+          ],
+          "warmupCheck": {
+            "prompt": "使用「牙線」清除齒縫殘渣時，關於牙線進入齒縫與清潔牙面的手勢，哪一步驟最標準安全？",
+            "options": [
+              "繃緊牙線往牙肉正中間大力猛壓",
+              "將牙線輕輕前後拉鋸滑入齒縫，緊貼左右牙面呈小彎度上下刮除",
+              "同一段髒牙線從頭用到尾不換段",
+              "在牙齒上方繞一圈用力往上拔"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！前後拉鋸輕滑入再貼緊牙齒側面上下輕刮，既乾淨又不會壓傷牙齦。",
+            "feedbackRetry": "直接大力往下壓容易割傷牙齦喔！應該用什麼輕柔手勢滑進齒縫？"
+          },
+          "factGroundingSourceId": "115-s2/g3/health-pe#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-health-pe-u3",
+      "stageId": "115-s2-g3-health-pe-u3",
+      "title": "單元三 安心又安全",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "校園反霸凌、交通與戶外居家安全",
+          "narrationText": "安心生活要做到遇霸凌勇敢說不並求助師長、用深呼吸等安全方式調適生氣情緒；外出走斑馬線左右察看、搭機車戴扣安全帽、搭公車抓扶手，戶外穿護具且居家遠離濕手碰電與高溫火源。",
+          "cognitiveChunks": [
+            "反霸凌不隱忍不報復，立刻求助師長",
+            "過馬路左右看、騎乘戴安全帽、公車抓扶手",
+            "戶外穿護具、居家防濕手觸電與防燙防墜"
+          ],
+          "analogyAnchor": "安全守則就像隨身隱形盾牌：在校園保護心情與人權、在馬路避開大車死角、在戶外與家裡擋住摔傷觸電與燙傷危險。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "校園與交通安全",
+              "leftPoints": [
+                "遇霸凌說不求助、深呼吸調適情緒",
+                "走斑馬線左右看、搭車戴帽抓扶手"
+              ],
+              "rightTitle": "戶外與居家防護",
+              "rightPoints": [
+                "戶外戴安全帽護膝、淺色長袖防蚊",
+                "居家不濕手碰插頭、不爬陽台不玩火"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "反霸凌與交通安全",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "戶外護具居家防電",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/health-pe#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "安全搭乘公車與居家隱形危險檢查",
+          "narrationText": "剛下公車時千萬不能從車頭前急奔過馬路，因為公車有嚴重視野死角！在家裡也要檢查哪些習慣最容易發生意外。",
+          "cognitiveChunks": [
+            "公車下車待人行道等車駛離再過街",
+            "不濕手碰插頭、陽台不墊椅子攀爬"
+          ],
+          "workedExampleData": {
+            "problemStatement": "搭公車上下車以及在家裡使用電器或靠近陽台廚房時，應該遵守哪些保命步驟？",
+            "steps": [
+              "第 1 步：在人行道等公車停穩再排隊上車，站立緊握扶手，下車後等公車駛離視線清楚再過馬路",
+              "第 2 步：洗完手一定要先擦乾再碰電器插頭，絕不在陽台欄杆旁墊椅子爬高",
+              "第 3 步：遠離滾燙湯鍋與瓦斯爐火、不拉扯電熱水瓶電線，也不獨自玩打火機"
+            ],
+            "commonErrorContrast": "常見錯誤：被霸凌默默隱忍或帶木棍報復、搭機車站前踏板不戴安全帽、濕手摸插頭，或從公車車頭前衝過馬路。",
+            "selfExplanationPrompt": "想一想：當你被誤會心裡非常生氣委屈時，有哪一個安全的情緒調適方法不會傷害別人也不會弄壞東西？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/health-pe#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "郊外活動與情緒調適守則",
+          "topicSignalTitle": "去郊外草地活動和生氣時各有什麼好做法？",
+          "narrationText": "去郊外穿淺色長袖長褲、噴防蚊液並穿包趾運動鞋與戴護具；心裡生氣委屈時先深呼吸、喝水或向信任師長好友傾訴再溝通。",
+          "cognitiveChunks": [
+            "郊外穿長袖褲防蚊、騎車戴安全帽",
+            "生氣先深呼吸冷靜再好好溝通"
+          ],
+          "factGroundingSourceId": "115-s2/g3/health-pe#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "測試一下你能不能抓出家裡最危險的習慣！",
+          "cognitiveChunks": [
+            "居家防觸電與防墜落"
+          ],
+          "warmupCheck": {
+            "prompt": "檢查家裡容易發生意外的習慣時，下列哪一個行為「最容易引發危險」，應該趕快改掉？",
+            "options": [
+              "浴室地板保持乾爽並放防滑墊",
+              "洗完手濕答答去摸插頭，或在陽台欄杆旁墊椅子爬高探看",
+              "把剪刀與藥品收在安全抽屜裡",
+              "遠離正在煮熱湯的瓦斯爐火"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！水會導電且陽台攀爬容易墜落，這兩個危險習慣一定要改掉。",
+            "feedbackRetry": "注意題目問的是「最容易引發危險」的壞習慣喔！水碰電和爬高會發生什麼事？"
+          },
+          "factGroundingSourceId": "115-s2/g3/health-pe#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-health-pe-u4",
+      "stageId": "115-s2-g3-health-pe-u4",
+      "title": "單元四 球力全開",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "地板桌球、躲避球與棒球攻防策略",
+          "narrationText": "地板桌球要看對手站位空檔進攻；躲避球內場隨時面對球壓低重心閃躲，進攻瞄準腰部以下；棒球跑擲則要依一二三壘順序跑壘與快傳封殺，並讓每人都有公平參與機會。",
+          "cognitiveChunks": [
+            "桌球攻擊空檔角落、爭議球理性溝通",
+            "躲避球面向球壓低重心、不打頭臉",
+            "棒球依序跑壘守備接傳、團隊公平參與"
+          ],
+          "analogyAnchor": "球類攻防就像一場團隊拼圖戰術：進攻找空檔配合傳球，防守壓低重心緊盯來球，同時把安全界線和公平參與放在第一位。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "桌球與躲避球攻防",
+              "leftPoints": [
+                "地板桌球：看空檔打左右邊角",
+                "躲避球：盯球低重心閃、瞄腰腿下"
+              ],
+              "rightTitle": "棒球跑擲與人權",
+              "rightPoints": [
+                "打擊跑一二三壘；守備快傳封殺",
+                "讓每位同學輪流上場並鼓勵夥伴"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "看空檔低重心攻防",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "跑壘接傳公平參與",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/health-pe#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "躲避球安全攻擊與棒球守備接傳",
+          "narrationText": "躲避球想打中對方又不能傷到同學的頭臉，棒球守備想穩穩接住滾地球快傳封殺，各有清楚的動作訣竅。",
+          "cognitiveChunks": [
+            "躲避球先傳球調動再瞄腰腿以下",
+            "守備迎前蹲低接滾地球傳向胸前"
+          ],
+          "workedExampleData": {
+            "problemStatement": "躲避球比賽時接到球準備進攻，以及棒球守備面對滾地球時，該怎麼兼顧戰術與安全？",
+            "steps": [
+              "第 1 步：躲避球可先傳給角度更好的外場隊友調動對方陣型，再瞄準對手腰部以下安全部位出手",
+              "第 2 步：擔任躲避球內場防守時不背對球，雙腳微彎壓低重心隨時準備閃躲或雙手抱接",
+              "第 3 步：棒球守備主動迎向滾地球微蹲穩接，再看準壘包隊友胸前方向確實快傳"
+            ],
+            "commonErrorContrast": "常見錯誤：躲避球朝同學頭臉猛砸、內場背對球聊天、桌球爭議就摔球拍，或只讓運動高手一直打擊不讓別人上場。",
+            "selfExplanationPrompt": "想一想：當組裡有接球還不太熟練的同學時，怎麼安排比賽才符合人權教育精神？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/health-pe#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "球場上的品德與公平參與",
+          "topicSignalTitle": "遇到邊線爭議或同學接球不熟練怎麼辦？",
+          "narrationText": "壓線球有疑惑時心平氣和請小裁判裁決或重發一球；隊上無論運動強弱都輪流上場進攻守備，成功接球時大聲鼓掌鼓勵。",
+          "cognitiveChunks": [
+            "爭議球理性請裁判或和平重賽",
+            "輪流上場不排擠並大方鼓勵隊友"
+          ],
+          "factGroundingSourceId": "115-s2/g3/health-pe#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "檢查看看你在躲避球內場會不會保護自己！",
+          "cognitiveChunks": [
+            "躲避球防守盯球與低重心"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈躲避球攻防〉擔任內場防守球員面對快球攻勢時，哪一種站姿與反應既安全又最不容易出局？",
+            "options": [
+              "背對外場對手聊天發呆",
+              "雙腳併攏直直站像木頭人",
+              "眼睛緊盯球、雙腳微彎壓低重心隨時閃躲或雙手收臂緩衝抱接",
+              "閉緊雙眼雙手抱頭坐在場中間"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！隨時面對球且壓低重心微彎膝蓋，反應才會最靈活安全。",
+            "feedbackRetry": "背對球或雙腳站直僵硬就來不及閃躲囉！眼睛該看哪裡、重心要高還是低？"
+          },
+          "factGroundingSourceId": "115-s2/g3/health-pe#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-health-pe-u5",
+      "stageId": "115-s2-g3-health-pe-u5",
+      "title": "單元五 蹦跳好體能",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "活力體適能、跳躍緩衝與平衡單槓",
+          "narrationText": "運動遵守「暖身→主運動→緩和」三步驟並誠實記錄體適能成績；跳躍起跳要蹲膝擺臂、落地前腳掌屈膝緩衝；走平衡木張開雙臂看前方，握單槓須五指環繞緊握且槓下鋪軟墊。",
+          "cognitiveChunks": [
+            "暖身防拉傷、緩和減痠痛、誠實計分",
+            "起跳預蹲擺臂、落地前腳掌屈膝緩衝",
+            "平衡木張臂看前方；單槓五指環握下鋪軟墊"
+          ],
+          "analogyAnchor": "跳躍落地時屈膝微彎就像替雙腳裝上彈簧避震器，走平衡木雙臂平舉就像走鋼索的平衡桿，都能讓我們展現穩健的好身手。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "體適能與跳躍要領",
+              "leftPoints": [
+                "運動前熱身、結束後緩和收操",
+                "預蹲擺臂跳遠、前腳掌屈膝緩衝落"
+              ],
+              "rightTitle": "平衡木與單槓安全",
+              "rightPoints": [
+                "平衡木：看前方目標、雙臂平舉",
+                "單槓：鋪軟墊、五指相對確實環握"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "熱身緩和屈膝落地",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "平舉平衡五指環握",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/health-pe#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "金銀島跳躍落地與單槓操作安全",
+          "narrationText": "跳遠或跨障礙物如果落地僵直用腳跟硬撞會傷到關節，而在單槓上練習支撐擺盪更要注意手掌環握與槓下淨空。",
+          "cognitiveChunks": [
+            "單槓支撐手伸直、不聳肩、收緊核心",
+            "絕不在擺盪同學下方穿行"
+          ],
+          "workedExampleData": {
+            "problemStatement": "玩「金銀島探險」跳躍遊戲以及上「單槓」練習支撐擺盪時，怎樣做才安全又有效？",
+            "steps": [
+              "第 1 步：起跳前膝蓋微蹲、雙手向後再配合蹬地向前上方大力擺臂",
+              "第 2 步：落地瞬間用前腳掌輕輕著地，同時膝蓋微彎向下緩衝吸震",
+              "第 3 步：上單槓前確認槓下有軟墊且淨空無人，大拇指與四指相對環繞緊握，支撐時手伸直不聳肩收緊腹部"
+            ],
+            "commonErrorContrast": "常見錯誤：體適能測驗幫好友灌水成績、雙腿打直用腳跟硬撞地、只用四指勾槓不環握，或鑽到單槓擺盪同學腳下。",
+            "selfExplanationPrompt": "想一想：為什麼做平衡木練習時，眼睛看前方目標比低頭一直盯著自己腳尖更容易走得穩？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/health-pe#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "體適能測驗的誠實與鼓勵",
+          "topicSignalTitle": "分組測驗立定跳遠或仰臥起坐時要注意什麼？",
+          "narrationText": "體適能是為了了解自己心肺耐力、肌力與柔軟度的進步，幫夥伴大聲加油並誠實數清每一次動作與距離，絕不偷吃步或灌水。",
+          "cognitiveChunks": [
+            "誠實紀錄成績檢視自身進步",
+            "幫夥伴加油打氣不嘲笑"
+          ],
+          "factGroundingSourceId": "115-s2/g3/health-pe#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "確認一下單槓最重要的安全握法與場地規則！",
+          "cognitiveChunks": [
+            "單槓五指環握與槓下淨空"
+          ],
+          "warmupCheck": {
+            "prompt": "用「單槓」練習支撐與擺盪時，下列哪一項操作與場地安全守則最正確？",
+            "options": [
+              "確認槓下有安全軟墊且淨空無人，雙手五指確實環繞緊握槓身",
+              "只用四隻手指輕輕勾在槓子最上緣",
+              "趁同學擺盪時鑽到他腳底下玩捉迷藏",
+              "手剛抹完護手霜油滑就直接上槓"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！大拇指與四指相對環繞緊握、下方鋪軟墊淨空，才能安全練好單槓。",
+            "feedbackRetry": "只用四根手指勾著槓子非常容易滑脫喔！大拇指一定要怎樣握住槓身？"
+          },
+          "factGroundingSourceId": "115-s2/g3/health-pe#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-health-pe-u6",
+      "stageId": "115-s2-g3-health-pe-u6",
+      "title": "單元六 武現韻律風",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "運動會拔河、武術步伐、踢毽與水舞",
+          "narrationText": "學校運動會拔河絕不把繩子繞在手腕腰部、雙腳微蹲重心後傾齊力拉；大展武威注重重心與武德不傷人；踢毽子先手拋接再腳內側平穩輕托；鴨子舞與水舞則隨節拍律動並欣賞多元文化。",
+          "cognitiveChunks": [
+            "拔河絕不纏繞繩子，重心低齊聲後拉",
+            "武術步伐穩健守武德；踢毽腳內側平托",
+            "鴨子舞與水舞合拍律動、欣賞國際文化"
+          ],
+          "analogyAnchor": "踢毽子就像用平坦的腳內側當成小托盤，平穩輕輕往上托起毽子，才能直直飛上去；而韻律舞蹈則像用身體說故事，帶我們認識世界各國的歡樂文化。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "拔河與武術安全",
+              "leftPoints": [
+                "拔河禁繞手腕腰部、補水防中暑",
+                "武術紮實保持距離、絕不欺負人"
+              ],
+              "rightTitle": "踢毽與國際韻律",
+              "rightPoints": [
+                "先手拋接熟悉、再用腳內側輕托",
+                "鴨子舞與水舞合拍、尊重多元文化"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "拔河禁纏繞與武德",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "腳內側托毽與水舞",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/health-pe#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "拔河安全要訣與踢毽子循序練習",
+          "narrationText": "拔河用力時張力很大，千萬不能把繩子繞在身體上；剛學踢毽子一直踢不到時，也可以用循序漸進的方法培養球感。",
+          "cognitiveChunks": [
+            "雙手掌心朝上平握拔河繩",
+            "踢毽先手接拋熟悉下落再換腳托"
+          ],
+          "workedExampleData": {
+            "problemStatement": "運動會參加拔河比賽以及練習踢毽子時，分別要注意什麼安全守則與練習技巧？",
+            "steps": [
+              "第 1 步：拔河絕不把繩子纏繞在手腕、手指或腰部，雙手掌心朝上夾緊繩身、重心微後傾聽口令齊拉",
+              "第 2 步：戶外運動會注意補水防曬防中暑，身體不適立刻報告師長",
+              "第 3 步：踢毽子先用手輕拋接熟悉下落速度，再以平坦腳內側平穩向上輕托踢起"
+            ],
+            "commonErrorContrast": "常見錯誤：把拔河繩繞在手腕上增加摩擦力、正午大太陽運動不喝水、學武術去踢矮小同學，或猛力橫踢毽子失控亂飛。",
+            "selfExplanationPrompt": "想一想：透過學跳不同地方或文化特色的鴨子舞與水舞，對我們認識世界有什麼特別的收穫？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/health-pe#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "從舞蹈律動體驗國際教育",
+          "topicSignalTitle": "學跳鴨子舞與水舞能帶來什麼國際視野？",
+          "narrationText": "音樂與舞蹈是跨越國界的語言，透過親身跳出不同文化背景的節拍動作，能培養尊重與欣賞多元文化的寬廣胸懷。",
+          "cognitiveChunks": [
+            "聽準節拍並留意隊友間距",
+            "尊重欣賞不同國家的舞蹈文化"
+          ],
+          "factGroundingSourceId": "115-s2/g3/health-pe#u6"
+        },
+        {
+          "sceneId": "u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "答對這題拔河安全鐵則，就準備好上場比賽囉！",
+          "cognitiveChunks": [
+            "拔河繩絕不纏繞身體"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈學校運動會〉認識拔河比賽安全守則時，為什麼絕對不可以把拔河繩纏繞在手腕、手指或腰部上？",
+            "options": [
+              "因為繩子會看起來變短容易被判犯規",
+              "繩子承受巨大拉力時纏繞處無法立刻鬆脫，極易造成嚴重勒傷甚至斷指危險",
+              "因為這樣對面隊伍力氣會減半",
+              "因為比賽完繩結很難拆開"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！拔河張力極高，繩子繞在手腕或腰際會被鎖死勒傷，一定要平握繩身。",
+            "feedbackRetry": "拔河兩邊拉力非常大喔！繩子緊緊套在手腕或腰上鬆不開時會發生什麼危險？"
+          },
+          "factGroundingSourceId": "115-s2/g3/health-pe#u6"
+        }
+      ]
+    }
+  ]
+}

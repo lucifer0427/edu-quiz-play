@@ -1,0 +1,754 @@
+{
+  "packId": "115-s2-g4-english",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 4,
+  "subjectId": "english",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-english-u0",
+      "stageId": "115-s2-g4-english-u0",
+      "title": "開學預備 & Starter",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u0-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "數字 21–30 拼字規律與品德鼓勵",
+          "narrationText": "Starter 暖身單元帶大家學會數字 21 到 30 的英文拼法與 5 的倍數節奏，並用溫暖禮貌的英語鼓勵組員。",
+          "cognitiveChunks": [
+            "21–29：twenty-one 到 twenty-nine（加連字號）",
+            "30：thirty（字尾是 -ty）",
+            "鼓勵同學：Take your time. You can do it!"
+          ],
+          "analogyAnchor": "拼 21 到 29 就像先把「20」twenty 放前面，中間牽一條連字號小橋，再把 1 到 9 接在後面；到 30 才換成 thirty。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "21–29（twenty-個位）",
+              "leftPoints": [
+                "twenty-three (23)、twenty-five (25)",
+                "twenty-eight (28)、twenty-nine (29)"
+              ],
+              "rightTitle": "30（thirty）與倍數",
+              "rightPoints": [
+                "30 是 thirty，13 才是 thirteen",
+                "5 的倍數：25, 30；偶數：22, 24, 26"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u0-l1",
+                "text": "21-29用twenty",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u0-l2",
+                "text": "30拼成thirty",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/english#u0"
+        },
+        {
+          "sceneId": "u0-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分辨 thirty 與 thirteen，數出倍數與偶數",
+          "narrationText": "13 (thirteen) 和 30 (thirty) 念起來很像，要聽清楚字尾是 -teen 還是 -ty；21 到 30 的 5 的倍數則是 25 與 30。",
+          "cognitiveChunks": [
+            "twenty-eight ＝ 28（不是 18）",
+            "21–30 間 5 的倍數：twenty-five, thirty",
+            "偶數跳數：22 → 24 → 26"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在 21 到 30 之間，哪兩個數字是 5 的倍數？「30」的英文又該怎麼拼？",
+            "steps": [
+              "第 1 步：5 的倍數個位數字一定是 5 或 0，在 21–30 間是 25 和 30",
+              "第 2 步：25 是 twenty-five，30 是 thirty",
+              "第 3 步：注意 30 字尾是 -ty（thirteen 是 13）"
+            ],
+            "commonErrorContrast": "常見錯誤：把 30 誤選成 thirteen 或 twenty-ten，或把 25 拼成 fifty-two。",
+            "selfExplanationPrompt": "想一想：當組員上台緊張忘詞時，說 \"Take your time. You can do it!\" 傳達了什麼心意？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/english#u0"
+        },
+        {
+          "sceneId": "u0-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "雙語讀劇小技巧：偶數節奏",
+          "topicSignalTitle": "偶數拍拍手：twenty-two 接著念什麼？",
+          "narrationText": "只數偶數時每次加 2：twenty-two (22)、twenty-four (24)、twenty-six (26)、twenty-eight (28)、thirty (30)。",
+          "cognitiveChunks": [
+            "22 → 24 → 26 → 28 → 30",
+            "每次跳 2 個數"
+          ],
+          "factGroundingSourceId": "115-s2/g4/english#u0"
+        },
+        {
+          "sceneId": "u0-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題數字 21–30 拼字確認，準備進場挑戰！",
+          "cognitiveChunks": [
+            "twenty- + 個位數；30 ＝ thirty"
+          ],
+          "warmupCheck": {
+            "prompt": "英文數字「twenty-seven」代表哪一個阿拉伯數字？",
+            "options": [
+              "17",
+              "27",
+              "72",
+              "26"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！twenty 是 20，seven 是 7，合起來就是 27。",
+            "feedbackRetry": "twenty 是「二十」，再看看後面的 seven 是幾喔！"
+          },
+          "factGroundingSourceId": "115-s2/g4/english#u0"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-english-u1",
+      "stageId": "115-s2-g4-english-u1",
+      "title": "Unit 1 What Time Is It?",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "詢問時間與「該做某事了」句型",
+          "narrationText": "問現在幾點用「What time is it?」，回答「It's + 時刻.」；提醒別人該做某件事時，則用「It's time to + 原形動詞.」。",
+          "cognitiveChunks": [
+            "整點：It's four o'clock.",
+            "幾點幾分：It's seven thirty.",
+            "該做某事：It's time to + 原形動詞."
+          ],
+          "analogyAnchor": "「It's time to ...」就像鬧鐘響起後的提醒語：to 後面要接不加 -ing 的原形動詞（例如 go to bed, eat breakfast）。",
+          "visualSpec": {
+            "templateId": "clock_face",
+            "params": {
+              "startHour": 7,
+              "endHour": 7,
+              "minute": 30
+            },
+            "spatialLabels": [
+              {
+                "id": "u1-l1",
+                "text": "先報時再報分",
+                "anchorPointId": "top"
+              },
+              {
+                "id": "u1-l2",
+                "text": "to後接原形動詞",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/english#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "時間表達文法與長短母音 -a_e, -i_e",
+          "narrationText": "報讀時刻要先唸小時再唸分鐘；「It's time to ...」的 to 後面不能加 -ing。Phonics 則練習分辨長母音 -a_e (cake, make) 與 -i_e (time, bike)。",
+          "cognitiveChunks": [
+            "It's time to eat breakfast.（不用 eating）",
+            "長母音 -a_e：cake, make（對比短母音 cat, hat）",
+            "長母音 -i_e：time, bike（對比短母音 sit, pig）"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何用英文正確說「現在 7 點 30 分，該吃早餐了」？並找出長母音 -a_e 例字。",
+            "steps": [
+              "第 1 步：7:30 先唸小時再唸分鐘，寫成 It's seven thirty.",
+              "第 2 步：該吃早餐了用 It's time to + 原形動詞：It's time to eat breakfast.",
+              "第 3 步：字尾有不發音 e 的 cake, make 發長母音 /eɪ/（-a_e 音組）"
+            ],
+            "commonErrorContrast": "常見錯誤：寫成 It's time to eating breakfast.，或把 4 點誤寫成 forty o'clock。",
+            "selfExplanationPrompt": "想一想：24 小時制的「16:00」換算成 12 小時制的英語整點，應該怎麼說？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/english#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "Magic e（不發音的 e）魔法",
+          "topicSignalTitle": "為什麼字尾加一個 e，母音念法就變長了？",
+          "narrationText": "在 cap（帽子）或 sit（坐）字尾加上不發音的 e，母音就會變成字母原本的長音：a 念 /eɪ/（cake, make），i 念 /aɪ/（time, bike）。",
+          "cognitiveChunks": [
+            "短 -a- (cat) vs. 長 -a_e (cake)",
+            "短 -i- (sit) vs. 長 -i_e (bike)"
+          ],
+          "factGroundingSourceId": "115-s2/g4/english#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認 \"It's time to ...\" 的動詞形式！",
+          "cognitiveChunks": [
+            "It's time to + 原形動詞"
+          ],
+          "warmupCheck": {
+            "prompt": "晚上十點了，想提醒妹妹「該去睡覺了」，哪一句英文文法完全正確？",
+            "options": [
+              "It's time to going to bed.",
+              "It's time to go to bed.",
+              "It's time go to bed.",
+              "What time is bed?"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！to 後面要接原形動詞 go，不能加 -ing。",
+            "feedbackRetry": "記得 \"It's time to\" 後面必須接不加 -ing 的原形動詞喔！"
+          },
+          "factGroundingSourceId": "115-s2/g4/english#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-english-u2",
+      "stageId": "115-s2-g4-english-u2",
+      "title": "Unit 2 What Are You Doing? & Happy Easter",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "現在進行式問答與復活節（Easter）文化",
+          "narrationText": "想知道別人正在做什麼，問「What are you doing?」，回答要用「I am + 動詞-ing.」。節慶單元則認識復活節彩蛋與復活節兔習俗。",
+          "cognitiveChunks": [
+            "問正在做什麼：What are you doing?",
+            "回答：I am drawing / cooking / reading / writing.",
+            "復活節：Happy Easter! / Easter eggs / Easter bunny"
+          ],
+          "analogyAnchor": "現在進行式就像手機正在錄影的「ING 進行中」符號：不能只有動詞，前面一定要有 be 動詞 am 當電源，字尾還要加上 -ing。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "問句（正在做什麼）",
+              "leftPoints": [
+                "What are you doing?",
+                "（注意 be 動詞 are + doing）"
+              ],
+              "rightTitle": "答句（I am + 動詞-ing）",
+              "rightPoints": [
+                "I am drawing. / cooking.",
+                "I am reading. / writing."
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u2-l1",
+                "text": "be動詞am不能省",
+                "anchorPointId": "right"
+              },
+              {
+                "id": "u2-l2",
+                "text": "動詞字尾加-ing",
+                "anchorPointId": "left"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/english#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "現在進行式兩大必備元件與復活節祝福",
+          "narrationText": "回答 \"What are you doing?\" 時，最常漏掉 be 動詞 am 或忘記加 -ing；遇到復活節時則用 \"Happy Easter!\" 送上祝福。",
+          "cognitiveChunks": [
+            "不可寫成 I am draw. 或 I drawing.",
+            "write 去 e 加 -ing → writing",
+            "彩繪彩蛋與尋找彩蛋是 Easter 經典活動"
+          ],
+          "workedExampleData": {
+            "problemStatement": "同學問 \"What are you doing?\" 時，如何正確回答「我正在畫畫」？",
+            "steps": [
+              "第 1 步：主詞用 I，搭配專屬的 be 動詞 am",
+              "第 2 步：把動作 draw（畫畫）字尾加上 -ing 變成 drawing",
+              "第 3 步：組合成完整句子：I am drawing."
+            ],
+            "commonErrorContrast": "常見錯誤：漏掉 am 寫成 I drawing.，或忘記加 -ing 寫成 I am draw.。",
+            "selfExplanationPrompt": "想一想：如果問復活節小兔 \"What are you doing?\"，牠回答 \"I am hiding Easter eggs.\" 是什麼意思？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/english#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "認識節慶文化：Easter（復活節）",
+          "topicSignalTitle": "Easter 和中秋節、聖誕節有什麼不同？",
+          "narrationText": "復活節（Easter）在春天慶祝，象徵新生與希望，經典習俗有彩繪復活節彩蛋（Easter eggs）、尋蛋遊戲與復活節兔（Easter bunny）。",
+          "cognitiveChunks": [
+            "祝福語：Happy Easter!",
+            "代表物：Easter eggs, Easter bunny"
+          ],
+          "factGroundingSourceId": "115-s2/g4/english#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "練習一題現在進行式答句文法檢查！",
+          "cognitiveChunks": [
+            "I am + 動詞-ing"
+          ],
+          "warmupCheck": {
+            "prompt": "媽媽問你：\"What are you doing?\"，如果你「正在閱讀」，哪一句文法完全正確？",
+            "options": [
+              "I am read.",
+              "I reading.",
+              "I am reading.",
+              "It's reading."
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "完全正確！be 動詞 am 和字尾 -ing 都有寫出來，就是標準的現在進行式。",
+            "feedbackRetry": "記得回答「我正在……」時，am 和 -ing 兩個好朋友缺一不可喔！"
+          },
+          "factGroundingSourceId": "115-s2/g4/english#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-english-u3",
+      "stageId": "115-s2-g4-english-u3",
+      "title": "Review 1 我們的學校生活",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "校園生活統整：時間問答 vs. 動作問答",
+          "narrationText": "Review 1 把時間和動作結合到校園作息裡：中午 12 點吃午餐（It's twelve o'clock. It's time to have lunch.），並複習母音 -e-/-e_e 與 -o-/-o_e。",
+          "cognitiveChunks": [
+            "What time is it? → 答時刻（It's ...）",
+            "What are you doing? → 答動作（I am ...-ing.）",
+            "長母音 -e_e (Pete) 與 -o_e (note, home)"
+          ],
+          "analogyAnchor": "分清楚兩個「What」問句：看到 time 就看時鐘回答幾點鐘；看到 doing 就看雙手正在做什麼動作。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "What time is it?（問時間）",
+              "leftPoints": [
+                "It's twelve o'clock.",
+                "It's time to have lunch."
+              ],
+              "rightTitle": "What are you doing?（問動作）",
+              "rightPoints": [
+                "I am singing. / reading.",
+                "I am writing my homework."
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u3-l1",
+                "text": "問時間答It's時刻",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u3-l2",
+                "text": "問動作答I am-ing",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/english#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "校園情境閱讀與 -o_e / -e_e 拼讀",
+          "narrationText": "讀校園短句時，抓出時間與動作關鍵字就能立刻理解文意；Phonics 則練習分辨短母音 dog/box 與長母音 note/home。",
+          "cognitiveChunks": [
+            "School is over! ＝ 放學了！",
+            "cleaning the classroom ＝ 打掃教室",
+            "-e_e: Pete（對比 bed, pet）；-o_e: home, note（對比 hot, dog）"
+          ],
+          "workedExampleData": {
+            "problemStatement": "讀懂句子：\"It's three thirty. Tom is cleaning the classroom with his friends.\"，並找出與 note 同母音的字。",
+            "steps": [
+              "第 1 步：three thirty 是下午三點三十分",
+              "第 2 步：cleaning the classroom with his friends 是和朋友們一起打掃教室",
+              "第 3 步：note 和 home 都是 -o_e 長母音音組，發 /oʊ/ 音"
+            ],
+            "commonErrorContrast": "常見錯誤：把 \"What time is it?\" 錯答成 \"I am reading.\"，答非所問。",
+            "selfExplanationPrompt": "想一想：在音樂課上想告訴老師「我正在唱歌」，應該說 \"I am singing.\" 還是 \"I am sleeping.\"？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/english#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "短母音 vs. 長母音速查站",
+          "topicSignalTitle": "bed 和 Pete、dog 和 home 差在哪？",
+          "narrationText": "沒有字尾不發音 e 時，母音通常發短音（bed /ɛ/、dog /ɑ/）；字尾加上不發音 e 後，就變成母音字母本身的長音（Pete /iː/、home /oʊ/）。",
+          "cognitiveChunks": [
+            "短 -e- (bed, pet) vs. 長 -e_e (Pete)",
+            "短 -o- (dog, box) vs. 長 -o_e (home, note)"
+          ],
+          "factGroundingSourceId": "115-s2/g4/english#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "練習一題 Review 1 問答配對，確認沒有答非所問！",
+          "cognitiveChunks": [
+            "問時刻答 It's...；問動作答 I am ...-ing."
+          ],
+          "warmupCheck": {
+            "prompt": "下列哪一組「問句與回答」配對完全正確？",
+            "options": [
+              "What time is it? — I am singing.",
+              "What are you doing? — It's ten o'clock.",
+              "What are you doing? — I am writing my homework.",
+              "What time is it? — Yes, I am."
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "完全正確！問「正在做什麼」就回答「我正在寫功課」。",
+            "feedbackRetry": "注意問句是問時間（time）還是問動作（doing），別答非所問喔！"
+          },
+          "factGroundingSourceId": "115-s2/g4/english#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-english-u4",
+      "stageId": "115-s2-g4-english-u4",
+      "title": "Unit 3 Where Are You?",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "詢問人的位置與常見房間名稱",
+          "narrationText": "用「Where are you?」問人在哪裡，回答時用「I'm in the + 房間名稱.」。在房間「裡面」記得搭配介系詞 in。",
+          "cognitiveChunks": [
+            "kitchen（廚房）、dining room（餐廳）",
+            "bedroom（臥室）、bathroom（浴室）",
+            "living room（客廳）；回答用 I'm / He's / She's in the..."
+          ],
+          "analogyAnchor": "房間單字很多都是「功能 + room」拼起來的：床 (bed) + room = 臥室、洗澡 (bath) + room = 浴室、生活 (living) + room = 客廳。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "單字合寫（不空格）",
+              "leftPoints": [
+                "bedroom（臥室）",
+                "bathroom（浴室）、kitchen（廚房）"
+              ],
+              "rightTitle": "兩個字分開寫",
+              "rightPoints": [
+                "living room（客廳）",
+                "dining room（餐廳／飯廳）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u4-l1",
+                "text": "在房間裡用in",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u4-l2",
+                "text": "客廳餐廳分開寫",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/english#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "空間對話主詞切換與介系詞 in",
+          "narrationText": "問「Where are you?」時用「I'm in the ...」回答；問「Where is Dad?」時爸爸是男生，改用「He's in the ...」回答。",
+          "cognitiveChunks": [
+            "問 you → 答 I'm",
+            "問 Dad（男生）→ 答 He's",
+            "在房間裡面固定用介系詞 in"
+          ],
+          "workedExampleData": {
+            "problemStatement": "弟弟在浴室裡洗手，媽媽問 \"Where are you?\"，弟弟該怎麼回答？",
+            "steps": [
+              "第 1 步：媽媽問 you，弟弟回答自己的位置主詞用 I'm",
+              "第 2 步：在房間「裡面」要用介系詞 in，加上指定房間 the bathroom",
+              "第 3 步：組合成完整句子：I'm in the bathroom."
+            ],
+            "commonErrorContrast": "常見錯誤：介系詞誤用成 on（I'm on the bedroom.），或忘記切換主詞寫成 You're in the kitchen.。",
+            "selfExplanationPrompt": "想一想：如果句子寫 \"I'm in the dining room. I'm eating dinner!\"，這是家裡的哪一個空間？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/english#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "房間名稱記憶小幫手",
+          "topicSignalTitle": "kitchen（廚房）和 dining room（餐廳）怎麼分？",
+          "narrationText": "kitchen 是洗菜、煮飯做菜的「廚房」；dining room 則是全家人坐下來吃晚餐（eating dinner）的「餐廳／飯廳」。",
+          "cognitiveChunks": [
+            "kitchen：煮飯的廚房",
+            "dining room：吃飯的餐廳"
+          ],
+          "factGroundingSourceId": "115-s2/g4/english#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認房間單字與介系詞 in 的用法，再進場挑戰！",
+          "cognitiveChunks": [
+            "I'm in the + 房間名稱."
+          ],
+          "warmupCheck": {
+            "prompt": "晚上準備上床睡覺的「臥室」，英文單字是哪一個？",
+            "options": [
+              "bathroom",
+              "bedroom",
+              "kitchen",
+              "living room"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！bed（床）加上 room（房間）就是 bedroom（臥室）。",
+            "feedbackRetry": "臥室裡面有床（bed），把 bed 和 room 合起來看喔！"
+          },
+          "factGroundingSourceId": "115-s2/g4/english#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-english-u5",
+      "stageId": "115-s2-g4-english-u5",
+      "title": "Unit 4 Where's My Hat?",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "方位介系詞 in / on / under 與物品代名詞",
+          "narrationText": "尋找單數物品問「Where's my ...?」，回答用「It's + 介系詞 + the + 家具.」。學會分辨 in（裡面）、on（上面）、under（下面）。",
+          "cognitiveChunks": [
+            "in：在……裡面；on：在……上面",
+            "under：在……下面",
+            "單數物品（my hat）用 It's 回答"
+          ],
+          "analogyAnchor": "想像一隻可愛的小貓玩捉迷藏：鑽進盒子裡是 in the box、跳上桌子是 on the desk、躲在椅子底下是 under the chair。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "三大方位介系詞",
+              "leftPoints": [
+                "in（在裡面）：in the pencil case",
+                "on（在上面）：on the desk",
+                "under（在下面）：under the chair"
+              ],
+              "rightTitle": "單數物品代名詞",
+              "rightPoints": [
+                "Where's my hat?（單數）",
+                "It's on the bed.（用 It's）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u5-l1",
+                "text": "in裡on上under下",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u5-l2",
+                "text": "單數物品用It's",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/english#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "正確搭配代名詞與長短母音 -u- / -u_e",
+          "narrationText": "回答單數物品位置一定要用「It's」開頭，不可用「I'm」或「They're」；Phonics 則練習分辨短母音 -u- (cup, sun) 與長母音 -u_e (cute, cube, tube)。",
+          "cognitiveChunks": [
+            "my hat 是單數物品 → It's on the bed.",
+            "短母音 -u-：cup, bus, sun（發 /ʌ/）",
+            "長母音 -u_e：cute, cube, tube"
+          ],
+          "workedExampleData": {
+            "problemStatement": "妹妹問 \"Where's my hat?\"（在床上），怎麼回答？又如何分辨 cute 與 cup？",
+            "steps": [
+              "第 1 步：hat 只有一頂而且是物品，回答開頭用 It's",
+              "第 2 步：在床「上面」用介系詞 on，寫成 It's on the bed.",
+              "第 3 步：cute 結尾有不發音 e 屬於長母音 -u_e；cup 則是短母音 -u-"
+            ],
+            "commonErrorContrast": "常見錯誤：回答帽子位置時誤用 They're（複數）或 I'm（人），或混淆 on 與 under。",
+            "selfExplanationPrompt": "想一想：如果球滾到桌子「下面」，介系詞應該用 in、on 還是 under？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/english#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "長短母音 u 拼讀小筆記",
+          "topicSignalTitle": "cube 和 cup 唸起來哪裡不一樣？",
+          "narrationText": "沒有字尾 e 的 cup、sun、duck 發短音 /ʌ/；加上字尾不發音 e 變成 cube、cute、tube 時，母音 u 就發長音 /juː/ 或 /uː/。",
+          "cognitiveChunks": [
+            "短母音 -u-：cup, sun, duck",
+            "長母音 -u_e：cube, cute, tube"
+          ],
+          "factGroundingSourceId": "115-s2/g4/english#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "用這題確認三大方位介系詞 in, on, under！",
+          "cognitiveChunks": [
+            "in（裡面）、on（上面）、under（下面）"
+          ],
+          "warmupCheck": {
+            "prompt": "想表達「鉛筆在鉛筆盒裡面」，下列哪一個介系詞正確？\"The pencil is ___ the pencil case.\"",
+            "options": [
+              "in",
+              "on",
+              "under",
+              "between"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！在容器或房間「裡面」用介系詞 in。",
+            "feedbackRetry": "鉛筆被收進鉛筆盒「裡面」去了，要用兩個字母的 in 喔！"
+          },
+          "factGroundingSourceId": "115-s2/g4/english#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-english-u6",
+      "stageId": "115-s2-g4-english-u6",
+      "title": "Review 2, Final Review & Culture Landmarks Around the World",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "空間問答總複習與世界地標文化",
+          "narrationText": "期末總複習整合了「時間、動作、房間、方位」四大主題，並在 Culture 單元「Landmarks Around the World」認識世界各地著名地標。",
+          "cognitiveChunks": [
+            "問人位置：Where are you? → I'm in the ...",
+            "問物位置：Where's my bag? → It's on / in / under ...",
+            "世界地標：Taipei 101 (Taiwan)、Eiffel Tower (France)"
+          ],
+          "analogyAnchor": "全冊英語句型就像一張居家與世界地圖：先定位人在哪個房間、物品在哪個方位，再把視野放大到認識世界各地的著名地標。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "問人在哪（Where are you?）",
+              "leftPoints": [
+                "回答用 I'm / He's / She's",
+                "I'm in the bedroom."
+              ],
+              "rightTitle": "問物在哪（Where's my ...?）",
+              "rightPoints": [
+                "單數物品回答用 It's",
+                "It's on the sofa in the living room."
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u6-l1",
+                "text": "問人答I'm/He's",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u6-l2",
+                "text": "問單數物答It's",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/english#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "跨單元綜合閱讀與世界地標配對",
+          "narrationText": "讀懂長句時，依序抓出「時間、誰在做什麼、在哪個空間方位」三個線索，就能輕鬆回答所有閱讀理解題。",
+          "cognitiveChunks": [
+            "eight thirty ＝ 8:30；evening ＝ 晚上",
+            "cooking in the kitchen ＝ 在廚房煮飯",
+            "Taipei 101（臺灣）、Eiffel Tower（法國巴黎）"
+          ],
+          "workedExampleData": {
+            "problemStatement": "讀懂句子：\"It's eight thirty in the evening. Dad is cooking in the kitchen, and my cat is sleeping under the table.\"",
+            "steps": [
+              "第 1 步：抓出時間線索：eight thirty in the evening（晚上八點半）",
+              "第 2 步：抓出爸爸的動作與位置：cooking in the kitchen（在廚房煮飯）",
+              "第 3 步：抓出貓咪的動作與位置：sleeping under the table（在桌子底下睡覺）"
+            ],
+            "commonErrorContrast": "常見錯誤：問物品 \"Where's my bag?\" 時錯答成 \"I'm in the bedroom.\"，或把巴黎艾菲爾鐵塔配錯國家。",
+            "selfExplanationPrompt": "想一想：認識世界各地不同文化風格的地標時，我們應該抱持什麼樣的態度？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/english#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "Landmarks Around the World 國際視野",
+          "topicSignalTitle": "從 Taipei 101 到世界各國地標",
+          "narrationText": "Taipei 101 是臺灣臺北的代表地標，Eiffel Tower（艾菲爾鐵塔）在法國巴黎，Statue of Liberty 在美國，Mount Fuji 在日本。用尊重與欣賞的心認識各地文化！",
+          "cognitiveChunks": [
+            "Taipei 101 — Taipei, Taiwan",
+            "Eiffel Tower — Paris, France",
+            "Mount Fuji (日本)、Statue of Liberty (美國)"
+          ],
+          "factGroundingSourceId": "115-s2/g4/english#u6"
+        },
+        {
+          "sceneId": "u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "用這題確認人與物品的地點問答主詞差別，準備迎接期末大挑戰！",
+          "cognitiveChunks": [
+            "問人在哪答 I'm...；問單數物在哪答 It's..."
+          ],
+          "warmupCheck": {
+            "prompt": "下列哪一組地點問答對話完全正確？",
+            "options": [
+              "Where are you? — It's under the chair.",
+              "Where's my bag? — I'm in the bedroom.",
+              "Where's my bag? — It's on the sofa in the living room.",
+              "Where are you? — It's nine o'clock."
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "完全正確！問「我的包包在哪裡」，用單數物品代名詞 It's 回答在客廳沙發上。",
+            "feedbackRetry": "記得問「你（you）」要答 I'm，問「包包（bag）」要答 It's 喔！"
+          },
+          "factGroundingSourceId": "115-s2/g4/english#u6"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,912 @@
+{
+  "packId": "115-s2-g2-math",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 2,
+  "subjectId": "math",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-math-u1",
+      "stageId": "115-s2-g2-math-u1",
+      "title": "第1章 1000 以內的數",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識 1000 與百位、十位、個位",
+          "narrationText": "10 個一百合起來就是一千（1000），買東西時認識 100 元、500 元和 1000 元鈔票最方便。",
+          "cognitiveChunks": [
+            "10 個十＝100，10 個百＝1000",
+            "比大小先看百位，再看十位",
+            "十位沒有數字要補 0"
+          ],
+          "analogyAnchor": "就像撲滿裡的 10 張 100 元鈔票，剛好可以去換成 1 張 1000 元大鈔票！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "進位換算",
+              "leftPoints": [
+                "10 個十 ＝ 1 個百",
+                "10 張 100 元 ＝ 1000 元"
+              ],
+              "rightTitle": "比較大小",
+              "rightPoints": [
+                "先比百位誰大",
+                "百位一樣再比十位"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "10個百是1000",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "先比百位大小",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/math#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "十位超過 10 個十怎麼進位？",
+          "narrationText": "遇到 14 個十時，先把裡面的 10 個十換成 1 個百，再和原本的百位加在一起。",
+          "cognitiveChunks": [
+            "10 個十換 1 個百",
+            "剩下幾個十留在十位"
+          ],
+          "workedExampleData": {
+            "problemStatement": "6 個百、14 個十和 3 個一合起來是多少？",
+            "steps": [
+              "第 1 步：14 個十可以分成 10 個十和 4 個十",
+              "第 2 步：10 個十換成 1 個百，6 + 1 = 7 個百",
+              "第 3 步：合起來有 7 個百、4 個十、3 個一，就是 743"
+            ],
+            "commonErrorContrast": "常見錯誤：沒有把 10 個十進位，直接把 6、14、3 排在一起寫成 6143 或 643。",
+            "selfExplanationPrompt": "想一想：1 張 500 元、3 張 100 元和 6 個 10 元合起來是多少元？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/math#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "練習一題三位數的讀寫吧！",
+          "cognitiveChunks": [
+            "中間有零時十位寫 0"
+          ],
+          "warmupCheck": {
+            "prompt": "把「五百零九」寫成阿拉伯數字，哪一個才對？",
+            "options": [
+              "590",
+              "509",
+              "5009"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！5 個百、0 個十、9 個一寫成 509。",
+            "feedbackRetry": "聽到「五百零九」，中間有零表示十位沒有數字要寫 0 喔！"
+          },
+          "factGroundingSourceId": "115-s2/g2/math#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-math-u2",
+      "stageId": "115-s2-g2-math-u2",
+      "title": "第2章 重量",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "天平就像蹺蹺板",
+          "narrationText": "把東西放在天平兩邊，比較重的那一邊會往下沉，比較輕的那一邊會往上翹；兩邊一樣高就是一樣重。",
+          "cognitiveChunks": [
+            "往下沉比較重，往上翹比較輕",
+            "兩邊一樣高表示重量相等",
+            "用相同積木或硬幣可間接比較"
+          ],
+          "analogyAnchor": "就像和好朋友一起坐公園的蹺蹺板，比較重的人那一邊會往下沉！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "天平高低",
+              "leftPoints": [
+                "往下沉＝比較重",
+                "一樣高＝一樣重"
+              ],
+              "rightTitle": "個別單位比較",
+              "rightPoints": [
+                "使用一樣重的積木或硬幣",
+                "需要越多個＝越重"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "下沉那邊比較重",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "個數越多越重",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/math#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用硬幣數一數誰比較重",
+          "narrationText": "借用一樣重的 1 元硬幣或白色積木放上天平，就能比出兩樣東西差了多少重量。",
+          "cognitiveChunks": [
+            "標準物大小重量要一樣",
+            "比較需要幾個才平衡"
+          ],
+          "workedExampleData": {
+            "problemStatement": "1 顆芒果和 12 塊白色積木一樣重，1 顆奇異果和 7 塊一樣重，芒果比奇異果重幾塊積木？",
+            "steps": [
+              "第 1 步：確認兩顆水果都是用一樣的白色積木來量",
+              "第 2 步：芒果 12 塊，奇異果 7 塊",
+              "第 3 步：相減 12 - 7 = 5，芒果重了 5 塊積木的重量"
+            ],
+            "commonErrorContrast": "常見錯誤：用大小不同的石頭去量重量，或是忘記相減直接寫出 12 + 7 = 19 塊。",
+            "selfExplanationPrompt": "想一想：天平原本兩邊平衡，如果從右邊拿走 3 顆彈珠，天平會往哪邊沉下去？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/math#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "看看天平兩邊的高低來回答這題吧！",
+          "cognitiveChunks": [
+            "平平的一樣高＝重量相等"
+          ],
+          "warmupCheck": {
+            "prompt": "把鉛筆和橡皮擦放在天平兩端，結果天平保持平平的、兩邊一樣高，這表示什麼？",
+            "options": [
+              "鉛筆比較重",
+              "橡皮擦比較重",
+              "鉛筆和橡皮擦一樣重"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！天平平平穩穩一樣高，表示兩邊重量相等。",
+            "feedbackRetry": "如果有一邊比較重就會往下沉，現在兩邊一樣高表示誰重呢？"
+          },
+          "factGroundingSourceId": "115-s2/g2/math#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-math-u3",
+      "stageId": "115-s2-g2-math-u3",
+      "title": "第3章 加加減減",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "三位數直式加減與估算",
+          "narrationText": "三位數直式加減從右邊個位算起；算大概要幾百元時，可以把接近整百的數字先變成整百來估估看。",
+          "cognitiveChunks": [
+            "直式對齊：個、十、百位",
+            "進位與借位都要記清楚",
+            "497 接近 500、198 接近 200"
+          ],
+          "analogyAnchor": "就像去超市買東西想先知道帶 700 元夠不夠，把 497 元想成 500 元、198 元想成 200 元，馬上就能估出大約 700 元！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "step1": "對齊個十百位",
+              "step2": "從個位往左算",
+              "step3": "檢查進位與借位"
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "從個位開始算",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "十位0向百位借",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/math#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "十位是 0 時怎麼借位減法？",
+          "narrationText": "遇到 603 - 247 這種十位是 0 的減法，十位自己沒有東西借給個位，要先向百位借 1 個百變成 10 個十。",
+          "cognitiveChunks": [
+            "十位 0 先向百位借 1",
+            "10 個十借 1 給個位剩 9"
+          ],
+          "workedExampleData": {
+            "problemStatement": "算算看，603 - 247 = ?",
+            "steps": [
+              "第 1 步：個位 3 不夠減 7，十位是 0，先向百位 6 借 1（百位剩 5，十位變 10）",
+              "第 2 步：十位借 1 個十給個位（十位剩 9，個位變 13），13 - 7 = 6",
+              "第 3 步：十位 9 - 4 = 5，百位 5 - 2 = 3，答案是 356"
+            ],
+            "commonErrorContrast": "常見錯誤：十位借給個位後忘記減 1，直接用 10 - 4 = 6，誤算成 366。",
+            "selfExplanationPrompt": "想一想：買 497 元的鞋子和 198 元的襪子，大約合起來要幾百元？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/math#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "練習一題三位數的估算吧！",
+          "cognitiveChunks": [
+            "把數字想成最接近的整百"
+          ],
+          "warmupCheck": {
+            "prompt": "一本百科全書 298 元，一個書包 399 元，估估看兩樣合起來大約要幾百元？",
+            "options": [
+              "700 元",
+              "600 元",
+              "500 元"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！298 接近 300，399 接近 400，300 + 400 = 700 元。",
+            "feedbackRetry": "298 差 2 就到 300，399 差 1 就到 400，兩個整百加起來是多少呢？"
+          },
+          "factGroundingSourceId": "115-s2/g2/math#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-math-u4",
+      "stageId": "115-s2-g2-math-u4",
+      "title": "第4章 平面圖形與立體形體",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "周界、周長與正方體長方體",
+          "narrationText": "平面圖形最外圍的那一圈線叫「周界」，所有邊長加起來叫「周長」；立體的正方體和長方體都有 6 個面、12 條邊、8 個頂點。",
+          "cognitiveChunks": [
+            "周長＝所有邊長的總和",
+            "正方體 6 個面都是相同正方形",
+            "正方體與長方體有 6 面 12 邊 8 頂點"
+          ],
+          "analogyAnchor": "就像用圍欄把花圃圍一圈，圍欄的路線就是「周界」，圍欄有多長就是「周長」！",
+          "visualSpec": {
+            "templateId": "rect_geometry",
+            "params": {
+              "width": 9,
+              "height": 5,
+              "unit": "公分"
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "外圍一圈是周界",
+                "anchorPointId": "top"
+              },
+              {
+                "id": "l2",
+                "text": "四邊相加是周長",
+                "anchorPointId": "center"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/math#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "算長方形的周長不要漏掉兩條邊",
+          "narrationText": "長方形有兩條一樣長的「長邊」和兩條一樣長的「寬邊」，算周長時四條邊都要加進去。",
+          "cognitiveChunks": [
+            "長方形有 2 條長、2 條寬",
+            "4 條邊全部加起來"
+          ],
+          "workedExampleData": {
+            "problemStatement": "一張長方形書籤長 9 公分、寬 5 公分，周長是多少公分？",
+            "steps": [
+              "第 1 步：長方形有兩條 9 公分的邊和兩條 5 公分的邊",
+              "第 2 步：把 4 條邊加起來：9 + 5 + 9 + 5",
+              "第 3 步：9 + 5 = 14，14 + 14 = 28 公分"
+            ],
+            "commonErrorContrast": "常見錯誤：只加了一條長和一條寬（9 + 5 = 14 公分），忘記還有另外兩條邊。",
+            "selfExplanationPrompt": "想一想：如果正方形每條邊都是 7 公分，它的周長是多少公分？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/math#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "數一數正方體有幾個面和頂點吧！",
+          "cognitiveChunks": [
+            "6 個面、12 條邊、8 個頂點"
+          ],
+          "warmupCheck": {
+            "prompt": "正方體和長方體盒子都有幾個面、幾條邊和幾個頂點？",
+            "options": [
+              "6 個面、12 條邊、8 個頂點",
+              "4 個面、8 條邊、4 個頂點",
+              "6 個面、6 條邊、6 個頂點"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！上下左右前後共 6 個面、12 條邊和 8 個頂點。",
+            "feedbackRetry": "拿骰子想一想，有 1 到 6 點共 6 個面，上面 4 個角、下面 4 個角共幾個頂點呢？"
+          },
+          "factGroundingSourceId": "115-s2/g2/math#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-math-u5",
+      "stageId": "115-s2-g2-math-u5",
+      "title": "第5章 乘法",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "10、1、0 的乘法與交換律",
+          "narrationText": "任何數乘以 0 都等於 0；乘法兩個數交換位置答案一樣；十幾乘以 2 或 3 可以拆成 10 和幾來算。",
+          "cognitiveChunks": [
+            "任何數 × 0 ＝ 0，× 1 ＝ 原本的數",
+            "8 × 6 和 6 × 8 答案一樣",
+            "14 × 3 ＝ 10×3 ＋ 4×3"
+          ],
+          "analogyAnchor": "就像買 0 盒糖果就是一顆也沒有（0 顆），而把 14 元拆成 10 元和 4 個 1 元來買 3 份，算起來超級快！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "0 和 1 的乘法",
+              "leftPoints": [
+                "9 × 0 = 0（都沒有）",
+                "1 × 15 = 15（不變）"
+              ],
+              "rightTitle": "十幾乘以 2 或 3",
+              "rightPoints": [
+                "14 × 3 先算 10×3=30",
+                "再加 4×3=12，共 42"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "乘以0都是0",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "拆成10和幾來算",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/math#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "拆成十和一算「十幾乘以 3」",
+          "narrationText": "算 14 × 3 時，把 14 拆成 10 和 4，分別乘以 3 再合起來，就不容易算錯。",
+          "cognitiveChunks": [
+            "先算十位：10 × 3",
+            "再算個位：4 × 3，最後相加"
+          ],
+          "workedExampleData": {
+            "problemStatement": "一個小蛋糕賣 14 元，買 3 個小蛋糕一共要付幾元？",
+            "steps": [
+              "第 1 步：把 14 元拆成 1 個 10 元和 4 個 1 元",
+              "第 2 步：3 個 10 元是 30 元，3 個 4 元是 12 元",
+              "第 3 步：合起來 30 + 12 = 42 元"
+            ],
+            "commonErrorContrast": "常見錯誤：忘了算十位的 10，只算 4 × 3 = 12，然後把 1 寫在前面變成 12 或 32。",
+            "selfExplanationPrompt": "想一想：用這個方法算 18 × 2，10 × 2 和 8 × 2 合起來是多少？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/math#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "考考你 0 的乘法和乘法交換律！",
+          "cognitiveChunks": [
+            "任何數乘以 0 都是 0"
+          ],
+          "warmupCheck": {
+            "prompt": "算算看，「7 × 0」的答案是多少？",
+            "options": [
+              "7",
+              "0",
+              "70"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！任何數乘以 0 都等於 0。",
+            "feedbackRetry": "有 0 盒糖果，不管一盒裝幾顆，合起來還是一顆都沒有（0 顆）喔！"
+          },
+          "factGroundingSourceId": "115-s2/g2/math#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-math-u6",
+      "stageId": "115-s2-g2-math-u6",
+      "title": "第6章 公尺與公分",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "1 公尺 ＝ 100 公分",
+          "narrationText": "量比較長的教室黑板或身高時，會用到「公尺」，1 公尺剛好和 100 公分一樣長。",
+          "cognitiveChunks": [
+            "1 公尺 ＝ 100 公分",
+            "幾公尺就是幾百公分",
+            "比大小要先換成相同單位"
+          ],
+          "analogyAnchor": "把雙手左右張開，從左手尖到右手尖大約就是 1 公尺，也就是 100 公分！",
+          "visualSpec": {
+            "templateId": "number_line",
+            "params": {
+              "min": 0,
+              "max": 200,
+              "highlightStart": 0,
+              "highlightEnd": 100
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "100公分＝1公尺",
+                "anchorPointId": "mid"
+              },
+              {
+                "id": "l2",
+                "text": "200公分＝2公尺",
+                "anchorPointId": "end"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/math#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "公尺和公分怎麼互換？",
+          "narrationText": "把「幾公尺幾公分」換成「幾公分」時，如果公分只有一位數，十位要記得補 0 喔！",
+          "cognitiveChunks": [
+            "先把幾公尺換成幾百公分",
+            "再加上剩下的公分"
+          ],
+          "workedExampleData": {
+            "problemStatement": "教室門高 2 公尺 5 公分，也可以說是多少公分？",
+            "steps": [
+              "第 1 步：1 公尺是 100 公分，2 公尺是 200 公分",
+              "第 2 步：加上多出來的 5 公分：200 + 5",
+              "第 3 步：十位沒有數字要補 0，答案是 205 公分"
+            ],
+            "commonErrorContrast": "常見錯誤：沒有先變成 200 公分，直接把 2 和 5 寫成 25 公分或 250 公分。",
+            "selfExplanationPrompt": "想一想：如果一條跳繩長 340 公分，可以寫成幾公尺幾公分？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/math#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "練習一題公尺和公分的換算！",
+          "cognitiveChunks": [
+            "100 公分＝1 公尺"
+          ],
+          "warmupCheck": {
+            "prompt": "妹妹身高 1 公尺 20 公分，也可以說是多少公分？",
+            "options": [
+              "12 公分",
+              "102 公分",
+              "120 公分"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！1 公尺是 100 公分，加上 20 公分就是 120 公分。",
+            "feedbackRetry": "1 公尺是 100 公分，100 再加上 20 是多少呢？"
+          },
+          "factGroundingSourceId": "115-s2/g2/math#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-math-u7",
+      "stageId": "115-s2-g2-math-u7",
+      "title": "第7章 乘與加減兩步驟",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u7-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "看清楚要先算哪一步",
+          "narrationText": "乘與加減兩步驟的題目，有時候要「先乘再加減」，有時候要「先加減再乘」，讀懂題意最重要。",
+          "cognitiveChunks": [
+            "先算總價錢再找錢＝先乘再減",
+            "先算一組變幾個再乘＝先加減再乘",
+            "分兩步寫出算式最清楚"
+          ],
+          "analogyAnchor": "就像買東西先算 5 枝筆共幾元，再從 100 元扣掉算找零；如果是每盒先加放 3 顆，就要先算一盒現在有幾顆再乘！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "先乘再加減",
+              "leftPoints": [
+                "買 5 枝 9 元的筆",
+                "付 100 元找回幾元？"
+              ],
+              "rightTitle": "先加減再乘",
+              "rightPoints": [
+                "原價 12 元便宜 3 元",
+                "買 5 個共要付幾元？"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "先算幾枝多少錢",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "先算特價後一個",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/math#u7"
+        },
+        {
+          "sceneId": "u7-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "先算一個變多少，再乘以幾個",
+          "narrationText": "遇到特價「每個便宜幾元」或「每盒再放進幾顆」時，第一步要先算「現在一個是多少」。",
+          "cognitiveChunks": [
+            "第一步算出新數量或新價錢",
+            "第二步用乘法算出總數"
+          ],
+          "workedExampleData": {
+            "problemStatement": "菠蘿麵包原價 12 元，今天特價每個便宜 3 元，買 5 個特價麵包要幾元？",
+            "steps": [
+              "第 1 步：先算特價後一個幾元：12 - 3 = 9 元",
+              "第 2 步：買 5 個一樣的特價麵包，寫成 9 × 5",
+              "第 3 步：背口訣「九五四十五」，一共要付 45 元"
+            ],
+            "commonErrorContrast": "常見錯誤：先算 12 × 5 = 60，然後只減掉 1 個 3 元變成 57 元，忘了 5 個麵包都有便宜 3 元。",
+            "selfExplanationPrompt": "想一想：如果是一枝筆 9 元買 5 枝，拿 100 元付錢找回幾元，第一步要先算什麼？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/math#u7"
+        },
+        {
+          "sceneId": "u7-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "練習一題先乘再加的題目吧！",
+          "cognitiveChunks": [
+            "第一步先算乘法"
+          ],
+          "warmupCheck": {
+            "prompt": "一張貼紙 5 元，買 4 張貼紙後，又買了一塊 10 元的橡皮擦，一共花了幾元？",
+            "options": [
+              "20 元",
+              "30 元",
+              "19 元"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！4 張貼紙是 5 × 4 = 20 元，加上橡皮擦 10 元一共 30 元。",
+            "feedbackRetry": "先算 4 張貼紙一共幾元（5 × 4），再加上 10 元喔！"
+          },
+          "factGroundingSourceId": "115-s2/g2/math#u7"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-math-u8",
+      "stageId": "115-s2-g2-math-u8",
+      "title": "第8章 年、月、日",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u8-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "年、月、星期與大小月",
+          "narrationText": "1 年有 12 個月、1 個星期有 7 天；大月有 31 天、小月有 30 天，平年 2 月 28 天、閏年 2 月 29 天。",
+          "cognitiveChunks": [
+            "1 年＝12 個月，1 星期＝7 天",
+            "大月 31 天：1、3、5、7、8、10、12 月",
+            "小月 30 天：4、6、9、11 月"
+          ],
+          "analogyAnchor": "伸出拳頭數一數，凸起來的關節是大月（31 天），凹下去的是小月（30 天）或 2 月！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "平年與閏年",
+              "leftPoints": [
+                "平年：2月28天、全年365天",
+                "閏年：2月29天、全年366天"
+              ],
+              "rightTitle": "大小月天數",
+              "rightPoints": [
+                "大月31天：1,3,5,7,8,10,12月",
+                "小月30天：4,6,9,11月"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "閏年2月有29天",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "小月只有30天",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/math#u8"
+        },
+        {
+          "sceneId": "u8-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "算算看展覽一共有幾天",
+          "narrationText": "算「從幾日到幾日一共有幾天」時，頭和尾這兩天都要算進去，可以用手指一天一天數最保險。",
+          "cognitiveChunks": [
+            "包含頭尾兩天都要數",
+            "跨月時注意這個月有幾天"
+          ],
+          "workedExampleData": {
+            "problemStatement": "美術展覽從 4 月 12 日開始，到 4 月 18 日結束，一共展出了幾天？",
+            "steps": [
+              "第 1 步：12 日當天就開始展出了，所以 12 日也要算第 1 天",
+              "第 2 步：依序數：12、13、14、15、16、17、18 日",
+              "第 3 步：一共展出了 7 天（也可以算 18 - 12 + 1 = 7）"
+            ],
+            "commonErrorContrast": "常見錯誤：直接用 18 - 12 = 6 天，漏掉了開始的 4 月 12 日那一天。",
+            "selfExplanationPrompt": "想一想：5 月有 31 天，從 5 月 29 日再過 4 天是幾月幾日？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/math#u8"
+        },
+        {
+          "sceneId": "u8-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "練習一題年和月的換算！",
+          "cognitiveChunks": [
+            "1 年＝12 個月"
+          ],
+          "warmupCheck": {
+            "prompt": "1 年有 12 個月，那麼「1 年又 6 個月」一共有幾個月？",
+            "options": [
+              "16 個月",
+              "18 個月",
+              "12 個月"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！12 + 6 = 18 個月。",
+            "feedbackRetry": "1 年是 12 個月，再加上 6 個月是多少呢？"
+          },
+          "factGroundingSourceId": "115-s2/g2/math#u8"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-math-u9",
+      "stageId": "115-s2-g2-math-u9",
+      "title": "第9章 分裝與平分",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u9-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "分裝和平分怎麼用乘法想？",
+          "narrationText": "把東西「每幾個裝一袋」叫分裝，「平均分給幾個人」叫平分，兩者都可以用九九乘法口訣快速找到答案。",
+          "cognitiveChunks": [
+            "分裝：知道一袋幾個，求幾袋",
+            "平分：知道分給幾人，求每人幾個",
+            "用乘法口訣反推答案"
+          ],
+          "analogyAnchor": "就像分餅乾時，知道共有 35 塊、平分給 7 個人，只要想「幾乘以 7 等於 35」，就知道每人分 5 塊！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "分裝問題",
+              "leftPoints": [
+                "24 顆番茄，每 6 顆裝 1 袋",
+                "6 × ( 4 ) = 24 → 4 袋"
+              ],
+              "rightTitle": "平分問題",
+              "rightPoints": [
+                "35 塊餅乾平分給 7 人",
+                "( 5 ) × 7 = 35 → 每人 5 塊"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "6×4＝24裝4袋",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "5×7＝35每人5塊",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/math#u9"
+        },
+        {
+          "sceneId": "u9-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "檢查能不能「剛好平分完」",
+          "narrationText": "想要把東西平分給大家而且一顆都不剩，就看乘法口訣裡能不能剛好乘出總數。",
+          "cognitiveChunks": [
+            "平分每人拿到的要一樣多",
+            "找乘法口訣能不能剛好等於總數"
+          ],
+          "workedExampleData": {
+            "problemStatement": "把 16 枝鉛筆平分給小朋友，分給 5 位小朋友能剛好分完嗎？",
+            "steps": [
+              "第 1 步：試試看 5 的乘法：每人 3 枝，5 × 3 = 15 枝（還剩 1 枝）",
+              "第 2 步：如果每人 4 枝，5 × 4 = 20 枝（不夠分）",
+              "第 3 步：找不到整數乘以 5 等於 16，所以沒辦法剛好分完"
+            ],
+            "commonErrorContrast": "常見錯誤：沒有算乘法，隨便猜可以分完，或是直接用 16 - 5 = 11 枝。",
+            "selfExplanationPrompt": "想一想：16 枝鉛筆平分給 4 位小朋友，每人可以分到幾枝？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/math#u9"
+        },
+        {
+          "sceneId": "u9-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "用乘法口訣來解決這題分裝問題吧！",
+          "cognitiveChunks": [
+            "每 4 個裝一包，想 4 的乘法"
+          ],
+          "warmupCheck": {
+            "prompt": "有 20 個小餐包，每 4 個裝成 1 包，全部可以裝成幾包？",
+            "options": [
+              "4 包",
+              "5 包",
+              "16 包"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！4 × 5 = 20，所以可以裝成 5 包。",
+            "feedbackRetry": "想一想 4 的乘法口訣：四幾二十呢？"
+          },
+          "factGroundingSourceId": "115-s2/g2/math#u9"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-math-u10",
+      "stageId": "115-s2-g2-math-u10",
+      "title": "第10章 認識分數",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u10-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "等分與「幾分之一」",
+          "narrationText": "把一個東西「平分」成一樣大的幾份，其中的 1 份就是「幾分之一」；平分越多份，每一份就越小。",
+          "cognitiveChunks": [
+            "每一份一樣大才叫等分",
+            "分母（總份數）寫下面，1 寫上面",
+            "平分越多人，每塊越小"
+          ],
+          "analogyAnchor": "就像切蛋糕一樣，1 個蛋糕平分給 2 個人（1/2）可以吃很大塊，平分給 8 個人（1/8）每塊就變小了！",
+          "visualSpec": {
+            "templateId": "fraction_bar",
+            "params": {
+              "numerator": 1,
+              "denominator": 4
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "平分成4份",
+                "anchorPointId": "whole"
+              },
+              {
+                "id": "l2",
+                "text": "其中1份是1/4",
+                "anchorPointId": "part"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/math#u10"
+        },
+        {
+          "sceneId": "u10-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "比較「幾分之一」誰比較大？",
+          "narrationText": "比較兩個幾分之一的大小時，不能只看下面的數字大就以為比較大，要想一想蛋糕分給幾個人。",
+          "cognitiveChunks": [
+            "整體必須一樣大才能比",
+            "分母越大，每份越小"
+          ],
+          "workedExampleData": {
+            "problemStatement": "兩條一樣長的彩帶，甲段是 1/3 條，乙段是 1/6 條，哪一段比較長？",
+            "steps": [
+              "第 1 步：1/3 條是把彩帶平分成 3 段，拿其中的 1 段",
+              "第 2 步：1/6 條是把彩帶平分成 6 段，拿其中的 1 段",
+              "第 3 步：平分成的段數越少，每一段越長，所以 1/3 條比較長"
+            ],
+            "commonErrorContrast": "常見錯誤：看到 6 比 3 大，就誤以為 1/6 條比 1/3 條長。",
+            "selfExplanationPrompt": "想一想：把圓形色紙對摺再對摺，平分成 4 塊中的 1 塊，寫成分數是多少張？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/math#u10"
+        },
+        {
+          "sceneId": "u10-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "練習讀寫單位分數吧！",
+          "cognitiveChunks": [
+            "平分成幾份寫在下面"
+          ],
+          "warmupCheck": {
+            "prompt": "把一張正方形色紙平分成 5 份，其中的 1 份是幾張色紙？",
+            "options": [
+              "1/5 張",
+              "5/1 張",
+              "1/4 張"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！平分成 5 份寫在下面，拿 1 份寫在上面，就是 1/5 張。",
+            "feedbackRetry": "總共平分成幾份要寫在橫線下面喔！"
+          },
+          "factGroundingSourceId": "115-s2/g2/math#u10"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+{
+  "packId": "115-s1-g2-minnan",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 2,
+  "subjectId": "minnan",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-minnan-u1",
+      "stageId": "115-s1-g2-minnan-u1",
+      "title": "第一單元 我的心情",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "用閩南語說心情、相借問",
+          "narrationText": "每天的心情有「歡喜」、「受氣」、「驚」和「鬱卒」，遇到師長同學要親切「相借問」，分享生活裡快樂的事。",
+          "cognitiveChunks": [
+            "歡喜＝開心、代誌＝事情",
+            "受氣＝生氣、驚＝害怕",
+            "相借問＝打招呼問候"
+          ],
+          "analogyAnchor": "心情就像臉上的天氣圖，用閩南語說出「歡喜」或「受氣」，朋友就能馬上聽懂你的感受！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "基本情緒語詞",
+              "leftPoints": [
+                "歡喜（高興）、鬱卒（悶悶不樂）",
+                "受氣（生氣）、驚（害怕）"
+              ],
+              "rightTitle": "禮貌相借問",
+              "rightPoints": [
+                "見面問好：敖早、你好",
+                "道歉回應：歹勢、無要緊"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "用詞語說出心情",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "見面有禮相借問",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/minnan#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "打招呼與回應道歉練習",
+          "narrationText": "生活中聽到別人說「歹勢」，或早上遇到老師時，怎麼用閩南語回應最有禮貌？",
+          "cognitiveChunks": [
+            "早安問候說「敖早」",
+            "別人道歉說「歹勢」",
+            "原諒對方說「無要緊」"
+          ],
+          "workedExampleData": {
+            "problemStatement": "同學不小心碰倒你的積木並說「歹勢」，怎麼用閩南語回應比較好？",
+            "steps": [
+              "第 1 步：先聽懂「歹勢」是「不好意思、對不起」的意思。",
+              "第 2 步：對方不是故意的，用溫和語氣說「無要緊（沒關係）」。",
+              "第 3 步：邀請同學說「咱作伙閣鬥起來（我們再一起拼起來）」。"
+            ],
+            "commonErrorContrast": "常見錯誤：同學已經有禮貌道歉，卻大喊生氣或哭鬧推開對方。",
+            "selfExplanationPrompt": "想一想：早上進校門看到老師時，可以用哪一句閩南語跟老師「相借問」？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/minnan#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "心情語詞小考驗",
+          "narrationText": "答對這題就能把好心情帶進關卡囉！",
+          "cognitiveChunks": [
+            "歡喜是高興、代誌是事情"
+          ],
+          "warmupCheck": {
+            "prompt": "課名「歡喜的代誌」裡的「歡喜」和「代誌」，各是什麼意思？",
+            "options": [
+              "歡喜＝生氣；代誌＝書包",
+              "歡喜＝開心快樂；代誌＝事情",
+              "歡喜＝想睡覺；代誌＝鞋子"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！歡喜就是開心，代誌就是事情，合起來就是開心的事！",
+            "feedbackRetry": "收到好朋友送的小禮物時，心裡開心的感覺叫「歡喜」，生活發生的事叫「代誌」喔！"
+          },
+          "factGroundingSourceId": "115-s1/g2/minnan#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-minnan-u2",
+      "stageId": "115-s1-g2-minnan-u2",
+      "title": "第二單元 歡迎來阮兜",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "介紹「阮兜」與家中隔間",
+          "narrationText": "「阮兜」是我家，「in 兜」是他們家。家裡有「客廳」、「灶跤」、「便所」和「眠床間」，還有勤勞的「狗蟻」和慢吞吞的「露螺」。",
+          "cognitiveChunks": [
+            "阮兜＝我家、in 兜＝他們家",
+            "灶跤＝廚房、便所＝廁所",
+            "狗蟻＝螞蟻、露螺＝蝸牛"
+          ],
+          "analogyAnchor": "介紹「阮兜」就像畫一張家裡的小地圖，帶朋友認識煮飯的灶跤、招待客人的客廳和睡覺的眠床間。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "家裡常見隔間",
+              "leftPoints": [
+                "客廳（客廳）、眠床間（臥室）",
+                "灶跤（廚房）、便所（廁所）"
+              ],
+              "rightTitle": "可愛小動物與待客",
+              "rightPoints": [
+                "狗蟻（螞蟻）、露螺（蝸牛）",
+                "歡迎來阮兜！緊入來坐！"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "認得家中隔間說法",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "熱情招待客人入座",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/minnan#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用家中隔間語詞來造句",
+          "narrationText": "學會了「客廳、灶跤、眠床間」，試著把家人在哪裡做什麼事說出來！",
+          "cognitiveChunks": [
+            "句型：誰＋在＋哪裡＋做什麼",
+            "「灶跤」是煮飯菜的廚房",
+            "「鬥相共」是互相幫忙"
+          ],
+          "workedExampleData": {
+            "problemStatement": "媽媽在廚房煮點心，怎麼用閩南語造一個通順的句子？",
+            "steps": [
+              "第 1 步：先說出是誰 →「我媽媽」。",
+              "第 2 步：再說出在家裡的哪個隔間 →「在灶跤」。",
+              "第 3 步：最後接上做的事情 →「煮點心」，合起來就是「我媽媽在灶跤煮點心」。"
+            ],
+            "commonErrorContrast": "常見錯誤：把廚房「灶跤」和臥室「眠床間」搞混，說成在灶跤睡覺。",
+            "selfExplanationPrompt": "想一想：回到家想要幫忙爸爸媽媽「鬥相共」，可以做哪些貼心事？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/minnan#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "我家地圖小考驗",
+          "narrationText": "答對這題就能打開「阮兜」的大門！",
+          "cognitiveChunks": [
+            "露螺是背著殼慢慢爬的蝸牛"
+          ],
+          "warmupCheck": {
+            "prompt": "第三課課名「露螺」，是指雨後常在菜葉或牆角慢慢爬的哪一種小動物？",
+            "options": [
+              "背著殼慢慢爬的蝸牛",
+              "在水裡游泳的金魚",
+              "在天上飛的麻雀"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！露螺就是蝸牛，常在有露水或雨天過後出現喔！",
+            "feedbackRetry": "「露螺」背上有像海螺一樣的殼，沒有腳卻爬得慢慢的喔！"
+          },
+          "factGroundingSourceId": "115-s1/g2/minnan#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-minnan-u3",
+      "stageId": "115-s1-g2-minnan-u3",
+      "title": "第三單元 美麗的世界",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "玉蘭花香、小昆蟲與天氣變化",
+          "narrationText": "大自然裡有芳貢貢的「玉蘭花」、花叢間飛舞的「尾蝶仔」與跳躍的「草蜢仔」，還有「好天」、「落雨」和「起風矣」的天氣變化。",
+          "cognitiveChunks": [
+            "玉蘭花芳貢貢（香氣很濃）",
+            "尾蝶仔＝蝴蝶、草蜢仔＝蚱蜢",
+            "好天＝晴天、落雨＝下雨"
+          ],
+          "analogyAnchor": "大自然就像一座大花園，用眼睛安靜觀察花朵和昆蟲，不摘花也不抓蟲，世界就會一直這麼美麗。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "植物與小昆蟲",
+              "leftPoints": [
+                "玉蘭花芳貢貢、刺毛蟲（毛毛蟲）",
+                "尾蝶仔（蝴蝶）、草蜢仔（蚱蜢）"
+              ],
+              "rightTitle": "天氣變化用語",
+              "rightPoints": [
+                "好天（晴天）、落雨（下雨）",
+                "起風矣（起風了）、透風（颳大風）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "愛護花草與小昆蟲",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "起風變涼穿予燒",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/minnan#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "看見天氣變化關心長輩",
+          "narrationText": "發現外面「起風矣」，用閩南語提醒長輩注意保暖最溫暖！",
+          "cognitiveChunks": [
+            "「起風矣」表示開始吹風了",
+            "「會寒」表示會覺得冷",
+            "「穿予燒」表示穿暖和一點"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在公園散步忽然覺得風吹來涼涼的，怎麼用閩南語關心阿嬤？",
+            "steps": [
+              "第 1 步：先說出天氣變化 →「阿嬤，起風矣」。",
+              "第 2 步：提醒氣溫變涼了 →「外口會寒（外面會冷）」。",
+              "第 3 步：貼心叮嚀保暖 →「你愛穿予燒喔（你要穿暖和喔）」。"
+            ],
+            "commonErrorContrast": "常見錯誤：把「起風矣」誤會成出大太陽很熱，叫阿嬤把外套脫掉。",
+            "selfExplanationPrompt": "想一想：在公園看到停在花上的尾蝶仔時，為什麼要用眼睛看不要動手抓？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/minnan#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "自然觀察小考驗",
+          "narrationText": "答對這題就能走進美麗的自然世界！",
+          "cognitiveChunks": [
+            "起風矣表示開始吹風了"
+          ],
+          "warmupCheck": {
+            "prompt": "爸爸看著搖動的樹葉說：「起風矣，緊去穿外套！」請問「起風矣」是什麼意思？",
+            "options": [
+              "開始吹風了",
+              "太陽出來好熱喔",
+              "已經下大雨了"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！「矣」放在句尾代表變化發生，「起風矣」就是開始吹風了！",
+            "feedbackRetry": "樹葉搖來搖去，爸爸還提醒要穿外套，想一想是什麼天氣變化呢？"
+          },
+          "factGroundingSourceId": "115-s1/g2/minnan#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-minnan-u4",
+      "stageId": "115-s1-g2-minnan-u4",
+      "title": "第四單元 期末歌謠與故事",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "唱囡仔歌、聽囡仔古學品德",
+          "narrationText": "期末一起來唱好玩的囡仔歌〈蠓仔〉，還要專心聽〈水仙花的由來〉囡仔古，學習防蚊衛生與好品德！",
+          "cognitiveChunks": [
+            "囡仔歌＝兒童歌謠、蠓仔＝蚊子",
+            "囡仔古＝講給小朋友聽的故事",
+            "倒掉積水不讓蚊子繁殖"
+          ],
+          "analogyAnchor": "「囡仔歌」像輕快的節奏音樂，「囡仔古」像藏著智慧寶盒的故事，邊唱邊聽就會越來越有禮貌！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "定期倒掉積水容器防「蠓仔」",
+                "聽「囡仔古」安靜專心不吵鬧",
+                "說「多謝、勞力」展現好品德"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "清積水減少蠓仔",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "聽故事有好品德",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/minnan#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "借還物品與聽故事的禮貌",
+          "narrationText": "聽完「囡仔古」之後，把好品德放進日常閩南語對話裡。",
+          "cognitiveChunks": [
+            "聽別人講古要安靜專心",
+            "歸還物品說「多謝你」",
+            "感謝幫忙加上「勞力」"
+          ],
+          "workedExampleData": {
+            "problemStatement": "同學借你彩色筆畫畫，用完還回去時怎麼用閩南語表達感謝？",
+            "steps": [
+              "第 1 步：雙手拿好彩色筆還給同學，不亂丟。",
+              "第 2 步：有禮貌地說「多謝你借我用，這還你」。",
+              "第 3 步：再加一句「勞力（辛苦你、謝謝幫忙）」，大家更喜歡互相幫助。"
+            ],
+            "commonErrorContrast": "常見錯誤：還東西時一句謝謝也不說，或把別人借的筆弄壞還不道歉。",
+            "selfExplanationPrompt": "想一想：為了不讓「蠓仔（蚊子）」在家裡繁殖，花盆底盤的積水應該怎麼辦？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/minnan#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "期末歌謠故事小考驗",
+          "narrationText": "答對這題就準備好迎戰期末大關卡啦！",
+          "cognitiveChunks": [
+            "囡仔歌是兒歌童謠、蠓仔是蚊子"
+          ],
+          "warmupCheck": {
+            "prompt": "活動名稱「來唱囡仔歌──蠓仔」裡，「蠓仔」是指哪一種小昆蟲？",
+            "options": [
+              "在花上飛舞的蝴蝶",
+              "會在耳邊嗡嗡叫、叮人的蚊子",
+              "背著硬殼的蝸牛"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！蠓仔就是蚊子，記得把積水倒掉才不會養出很多蚊子喔！",
+            "feedbackRetry": "「蠓仔」會在耳邊嗡嗡叫又會叮人，還要點蚊香或掛蚊帳防牠喔！"
+          },
+          "factGroundingSourceId": "115-s1/g2/minnan#u4"
+        }
+      ]
+    }
+  ]
+}

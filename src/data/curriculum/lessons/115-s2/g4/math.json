@@ -1,0 +1,1038 @@
+{
+  "packId": "115-s2-g4-math",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 4,
+  "subjectId": "math",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-math-u1",
+      "stageId": "115-s2-g4-math-u1",
+      "title": "第1章 概數",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "三種取概數方法的生活情境比較",
+          "narrationText": "概數是用近似符號「≈」表示大約的數。無條件捨去法、無條件進入法與四捨五入法各有適合的生活情境，先看目標位數的下一位再決定。",
+          "cognitiveChunks": [
+            "無條件捨去法：指定位數右邊全變 0",
+            "無條件進入法：右邊不全為 0 就進 1",
+            "四捨五入法：看右邊鄰居 0–4 捨、5–9 入"
+          ],
+          "analogyAnchor": "帶千元鈔票去買 12350 元的商品要準備 13000 元才夠（無條件進入法）；百貨滿千送百只算整千部分（無條件捨去法）。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "無條件捨去 vs. 進入",
+              "leftPoints": [
+                "捨去：4896 取到百位 → 4800",
+                "進入：12350 取到千位 → 13000"
+              ],
+              "rightTitle": "四捨五入法",
+              "rightPoints": [
+                "只看目標位數右邊相鄰一位",
+                "64528 取到萬位看千位 4 → 60000"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u1-l1",
+                "text": "捨去進入看情境",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u1-l2",
+                "text": "四捨五入看右鄰",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/math#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "四捨五入法不可連鎖進位",
+          "narrationText": "取概數到某一位時，只能看它「右邊相鄰的那一位」，不能看更後面的位數。",
+          "cognitiveChunks": [
+            "取到萬位，只看千位數字",
+            "百位、十位、個位不影響判斷",
+            "先各自取概數再相加估算"
+          ],
+          "workedExampleData": {
+            "problemStatement": "將 64528 用四捨五入法取概數到萬位，結果是多少？",
+            "steps": [
+              "第 1 步：圈出目標位數「萬位」的數字 6",
+              "第 2 步：只看右邊相鄰的「千位」數字 4（不看百位的 5）",
+              "第 3 步：因為 4 小於 5 要捨去，千位以後全部補 0，得到 60000"
+            ],
+            "commonErrorContrast": "常見錯誤：看到百位是 5 就先讓千位 4 進位成 5，再進位成 70000（連鎖進位是錯的）。",
+            "selfExplanationPrompt": "想一想：用四捨五入法取概數到千位後約是 7000 的整數，最大與最小分別是多少？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/math#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "哪些數字絕對不能取概數？",
+          "topicSignalTitle": "人數可以大約，門牌電話號碼可以嗎？",
+          "narrationText": "統計人數、預算估算或距離大約幾公里適合用概數；但學號、借書證號、門牌號碼、電話號碼必須精準對應對象，不能取概數。",
+          "cognitiveChunks": [
+            "可取概數：人數、金額估算",
+            "不可取概數：電話、門牌、學號"
+          ],
+          "factGroundingSourceId": "115-s2/g4/math#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題四捨五入法練習，確認沒有看錯位數！",
+          "cognitiveChunks": [
+            "看目標位數右邊相鄰一位：0–4 捨、5–9 入"
+          ],
+          "warmupCheck": {
+            "prompt": "將 53620 用四捨五入法取概數到萬位，53620 ≈ ？",
+            "options": [
+              "60000",
+              "54000",
+              "50000",
+              "53000"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "完全正確！千位數字是 3（小於 5），捨去後變成 50000。",
+            "feedbackRetry": "取到萬位只要看千位數字 3，不要被百位的 6 影響喔！"
+          },
+          "factGroundingSourceId": "115-s2/g4/math#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-math-u2",
+      "stageId": "115-s2-g4-math-u2",
+      "title": "第2章 四則運算",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "四則順序與連減、連除、分配律簡算",
+          "narrationText": "算四則運算除了遵守「先括號、再乘除、後加減、同級由左往右」之外，還能運用連減、連除與分配律讓計算變快又不容易錯。",
+          "cognitiveChunks": [
+            "連減兩數 ＝ 減去兩數之和",
+            "連除兩數 ＝ 除以兩數之積",
+            "分配律：a × c + b × c ＝ (a + b) × c"
+          ],
+          "analogyAnchor": "算 37 × 14 + 63 × 14 就像把兩盒一樣單價 14 元的東西合併結帳：先把數量 37 + 63 湊成 100 個，再乘以 14 元。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "連減與連除性質",
+              "leftPoints": [
+                "640 - 158 - 142 = 640 - (158 + 142)",
+                "450 ÷ 15 ÷ 2 = 450 ÷ (15 × 2)"
+              ],
+              "rightTitle": "分配律湊整百",
+              "rightPoints": [
+                "37 × 14 + 63 × 14",
+                "= (37 + 63) × 14 = 1400"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u2-l1",
+                "text": "連減括號變相加",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u2-l2",
+                "text": "提出同乘數湊百",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/math#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "逐步求解混合算式與簡算技巧",
+          "narrationText": "看到括號先算括號內；算式只有乘除時由左而右計算；看到 125 × 8 或可湊成整百的數字時，優先組合計算。",
+          "cognitiveChunks": [
+            "括號內優先計算",
+            "72 ÷ 9 × 2 要由左往右算",
+            "125 × 8 ＝ 1000"
+          ],
+          "workedExampleData": {
+            "problemStatement": "計算「(85 - 37) ÷ 8 × 5」與簡算「37 × 14 + 63 × 14」。",
+            "steps": [
+              "第 1 步：(85 - 37) ÷ 8 × 5 先算括號內 85 - 37 = 48",
+              "第 2 步：由左而右算 48 ÷ 8 = 6，再算 6 × 5 = 30",
+              "第 3 步：簡算 37 × 14 + 63 × 14 = (37 + 63) × 14 = 100 × 14 = 1400"
+            ],
+            "commonErrorContrast": "常見錯誤：算 72 ÷ 9 × 2 時先算後面的 9 × 2 = 18，誤算出 72 ÷ 18 = 4。",
+            "selfExplanationPrompt": "想一想：計算「640 - 158 - 142」時，為什麼括號裡面要變成「158 + 142」？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/math#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "好朋友數字 125 × 8",
+          "topicSignalTitle": "遇到連乘算式怎麼算最快？",
+          "narrationText": "連乘算式可以交換與結合順序：記住 25 × 4 = 100、125 × 8 = 1000，先把它們配對相乘就能秒殺！",
+          "cognitiveChunks": [
+            "25 × 4 ＝ 100",
+            "125 × 8 ＝ 1000"
+          ],
+          "factGroundingSourceId": "115-s2/g4/math#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "練習一題乘除由左而右的計算題，準備進場挑戰！",
+          "cognitiveChunks": [
+            "只有乘除且無括號，由左而右計算"
+          ],
+          "warmupCheck": {
+            "prompt": "計算「48 ÷ 6 × 4」的正確結果是多少？",
+            "options": [
+              "2",
+              "32",
+              "12",
+              "24"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！由左而右先算 48 ÷ 6 = 8，再算 8 × 4 = 32。",
+            "feedbackRetry": "不能先算後面的 6 × 4 喔！要從左邊的 48 ÷ 6 開始算！"
+          },
+          "factGroundingSourceId": "115-s2/g4/math#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-math-u3",
+      "stageId": "115-s2-g4-math-u3",
+      "title": "第3章 垂直、平行與四邊形",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識垂直、平行與五大四邊形家族",
+          "narrationText": "兩條直線相交成 90 度直角叫做互相垂直；永不相交且處處等距叫做互相平行。用平行對邊的雙數與邊長角度，就能分清四邊形家族。",
+          "cognitiveChunks": [
+            "垂直：兩線相交成 90 度直角",
+            "平行：兩線間距離處處相等、永不相交",
+            "梯形只有 1 雙對邊平行；其餘常見四邊形有 2 雙"
+          ],
+          "analogyAnchor": "火車兩條鐵軌就像平行線，枕木與鐵軌相交成直角就像垂直線；把正方形輕輕壓斜就變成四邊仍等長但角不一定是直角的菱形。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "兩雙對邊平行",
+              "leftPoints": [
+                "正方形：四邊等長、四角直角",
+                "長方形：對邊等長、四角直角",
+                "菱形：四邊等長；平行四邊形：對邊等長"
+              ],
+              "rightTitle": "只有一雙對邊平行",
+              "rightPoints": [
+                "梯形：只有一雙對邊互相平行",
+                "另一雙對邊不平行"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u3-l1",
+                "text": "兩雙平行家族",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u3-l2",
+                "text": "梯形僅一雙平行",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/math#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分辨正方形、菱形與平行四邊形",
+          "narrationText": "四邊形家族常常互相包含，比較時要看清楚「四條邊是否等長」和「四個角是否都是直角」。",
+          "cognitiveChunks": [
+            "正方形也是特殊的菱形和長方形",
+            "菱形四邊等長，但不一定有直角",
+            "平行四邊形對邊平行且等長、對角相等"
+          ],
+          "workedExampleData": {
+            "problemStatement": "「四條邊一樣長，但四個角不一定是直角」與「四個角都是直角」分別對應哪幾種四邊形？",
+            "steps": [
+              "第 1 步：只要四條邊都等長，就屬於「菱形」（正方形四邊也等長且四角直角）",
+              "第 2 步：四個角都是 90 度直角的四邊形，是「正方形」與「長方形」",
+              "第 3 步：若只有一雙對邊平行，則是「梯形」"
+            ],
+            "commonErrorContrast": "常見錯誤：誤以為平行四邊形的四個角一定都是 90 度直角。",
+            "selfExplanationPrompt": "想一想：用三角板和直尺畫平行線時，為什麼直尺要按住不動讓三角板沿著邊平移？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/math#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "三角板畫垂線與平行線口訣",
+          "topicSignalTitle": "如何用工具精準畫出平行線？",
+          "narrationText": "畫平行線時，把直尺固定當軌道，讓三角板的直角邊緊貼直尺滑移到指定點，再沿另一條直角邊畫線，就能畫出和原線平行的直線。",
+          "cognitiveChunks": [
+            "直尺固定不動當導軌",
+            "三角板緊貼直尺邊平移",
+            "沿直角邊畫出平行線"
+          ],
+          "factGroundingSourceId": "115-s2/g4/math#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認四邊形家族的分類條件！",
+          "cognitiveChunks": [
+            "梯形只有一雙對邊互相平行"
+          ],
+          "warmupCheck": {
+            "prompt": "在四邊形家族中，「只有一雙對邊互相平行，另一雙對邊不平行」的四邊形是什麼？",
+            "options": [
+              "菱形",
+              "平行四邊形",
+              "梯形",
+              "長方形"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "完全正確！只有一雙對邊平行的四邊形就是梯形。",
+            "feedbackRetry": "注意題目說「只有一雙」對邊平行喔，菱形、平行四邊形和長方形都有兩雙！"
+          },
+          "factGroundingSourceId": "115-s2/g4/math#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-math-u4",
+      "stageId": "115-s2-g4-math-u4",
+      "title": "第4章 分數（一）",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "同分母分數加減與分數的整數倍",
+          "narrationText": "同分母分數加減時，分母不變、分子相加減；算分數的整數倍時，也是分母不變、分子乘以整數，結果若是假分數再換成帶分數。",
+          "cognitiveChunks": [
+            "加減：分母不變，分子相加減",
+            "帶分數減法不夠減，向整數借 1 換成假分數",
+            "整數倍：分母不變，分子 × 整數"
+          ],
+          "analogyAnchor": "一盒蘋果派有 3/5 個，買 4 盒就是把「3 片」重複拿 4 次共有 12 片 1/5（12/5），滿 5 片湊成 1 整盒就是 2 又 2/5 個。",
+          "visualSpec": {
+            "templateId": "fraction_bar",
+            "params": {
+              "denominator": 5,
+              "numerator": 12
+            },
+            "spatialLabels": [
+              {
+                "id": "u4-l1",
+                "text": "分母不變分子乘整數",
+                "anchorPointId": "top"
+              },
+              {
+                "id": "u4-l2",
+                "text": "12/5等於2又2/5",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/math#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "帶分數借位減法與帶分數整數倍",
+          "narrationText": "遇到整數或帶分數減法不夠減時，向整數借 1 換成與分母相同的分數；算帶分數的整數倍時，先換成假分數再乘最不易出錯。",
+          "cognitiveChunks": [
+            "整數借 1 變成「分母分之分母」",
+            "帶分數 × 整數：先換假分數再乘",
+            "最後把假分數化回帶分數"
+          ],
+          "workedExampleData": {
+            "problemStatement": "計算「5 - 2 又 3/7」與「1 又 3/4 × 3」。",
+            "steps": [
+              "第 1 步：5 借出 1 改寫成 4 又 7/7，減 2 又 3/7 得 2 又 4/7",
+              "第 2 步：把 1 又 3/4 換成假分數 7/4",
+              "第 3 步：計算 7/4 × 3 = 21/4，再化成帶分數 5 又 1/4"
+            ],
+            "commonErrorContrast": "常見錯誤：算 5 - 2 又 3/7 時直接用 5 - 2 = 3，寫成錯誤的 3 又 3/7 或 3 又 4/7。",
+            "selfExplanationPrompt": "想一想：計算 2 又 5/8 + 1 又 7/8 時，分數部分加起來變成 12/8，要怎麼進位？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/math#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "分數乘法千萬別把分母也乘進去",
+          "topicSignalTitle": "為什麼 3/5 × 4 不是 12/20？",
+          "narrationText": "分母代表「1 個披薩切成幾片」，不會因為買了 4 盒就改變每盒的切法；所以分母保持 5 不變，只有分子 3 乘以 4。",
+          "cognitiveChunks": [
+            "分母是單位大小，保持不變",
+            "分子是數量，乘以整數倍"
+          ],
+          "factGroundingSourceId": "115-s2/g4/math#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先練一題整數減帶分數，確認借位沒有忘記把整數減 1！",
+          "cognitiveChunks": [
+            "借 1 換成分母分之分母再相減"
+          ],
+          "warmupCheck": {
+            "prompt": "計算「4 - 1 又 2/5」的結果是多少？",
+            "options": [
+              "3 又 3/5",
+              "2 又 3/5",
+              "3 又 2/5",
+              "2 又 2/5"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！把 4 看成 3 又 5/5，減去 1 又 2/5 就是 2 又 3/5。",
+            "feedbackRetry": "4 借 1 給分數變成 5/5 後，整數部分只剩下 3 喔！"
+          },
+          "factGroundingSourceId": "115-s2/g4/math#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-math-u5",
+      "stageId": "115-s2-g4-math-u5",
+      "title": "第5章 形體的大小",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識體積與 1 立方公分正方體",
+          "narrationText": "物體所占空間的大小叫做「體積」。邊長 1 公分的正方體，體積是「1 立方公分」。數一數形體用了幾個 1 立方公分積木，就是它的體積。",
+          "cognitiveChunks": [
+            "體積＝物體占空間的大小",
+            "邊長 1 公分正方體 ＝ 1 立方公分",
+            "改變積木排列形狀，總體積不變"
+          ],
+          "analogyAnchor": "把 18 顆 1 立方公分積木排成長條或疊成兩層，只要積木沒有多也沒有少，占的總空間依然都是 18 立方公分。",
+          "visualSpec": {
+            "templateId": "rect_geometry",
+            "params": {
+              "width": 5,
+              "height": 4,
+              "unitLabel": "1層20個"
+            },
+            "spatialLabels": [
+              {
+                "id": "u5-l1",
+                "text": "先算底層有幾個",
+                "anchorPointId": "bottom"
+              },
+              {
+                "id": "u5-l2",
+                "text": "再乘總共疊幾層",
+                "anchorPointId": "top"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/math#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分層計數長方體與樓梯形體體積",
+          "narrationText": "數正方體堆疊形體時，分層數最不容易漏掉被遮住的積木：先算每一層有幾個，再把各層加起來或乘以層數。",
+          "cognitiveChunks": [
+            "長方體：每排個數 × 排數 × 層數",
+            "階梯形體：分層數出各層個數再相加",
+            "注意上面那一層底下一定有積木撐著"
+          ],
+          "workedExampleData": {
+            "problemStatement": "長方體積木每層排 4 排、每排 5 個，共疊 3 層；另有一座底層 6 個、中層 4 個、頂層 2 個的小樓梯，體積各是多少？",
+            "steps": [
+              "第 1 步：長方體一層有 5 × 4 = 20 個，共 3 層，20 × 3 = 60 立方公分",
+              "第 2 步：小樓梯分三層相加：6 + 4 + 2 = 12 立方公分",
+              "第 3 步：確認單位寫成「立方公分」，不要和面積的平方公分搞混"
+            ],
+            "commonErrorContrast": "常見錯誤：只數看得到的積木表面，漏算了被上層積木蓋住的底層積木。",
+            "selfExplanationPrompt": "想一想：拼出一個每邊長 3 公分的實心大正方體，為什麼需要 27 個而不是 9 個小積木？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/math#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "分清楚「平方公分」與「立方公分」",
+          "topicSignalTitle": "面積單位和體積單位差在哪裡？",
+          "narrationText": "「平方公分」用來量平面圖形有多大（二維）；「立方公分」用來量立體形體占多少空間（三維）。",
+          "cognitiveChunks": [
+            "周長：公分（一維長度）",
+            "面積：平方公分（二維平面）",
+            "體積：立方公分（三維空間）"
+          ],
+          "factGroundingSourceId": "115-s2/g4/math#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先算一題正方體積木堆疊，確認沒有漏數被蓋住的積木！",
+          "cognitiveChunks": [
+            "每層個數 × 層數 ＝ 總體積"
+          ],
+          "warmupCheck": {
+            "prompt": "用 1 立方公分積木拼出每邊都是 2 公分的實心正方體，一共需要幾個小積木？",
+            "options": [
+              "4 個",
+              "6 個",
+              "8 個",
+              "12 個"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "完全正確！底層有 2 × 2 = 4 個，共疊 2 層，4 × 2 = 8 個（8 立方公分）。",
+            "feedbackRetry": "底層有 2 × 2 = 4 個，別忘了高度是 2 公分，共有 2 層喔！"
+          },
+          "factGroundingSourceId": "115-s2/g4/math#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-math-u6",
+      "stageId": "115-s2-g4-math-u6",
+      "title": "第6章 小數乘法",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "小數乘以整數：先當整數算再點小數點",
+          "narrationText": "計算一位或二位小數乘以整數時，先把小數看成整數做直式乘法，最後看被乘數有幾位小數，就從積的右邊往左數幾位點上小數點。",
+          "cognitiveChunks": [
+            "列直式時靠右對齊（不必對齊小數點）",
+            "先照整數乘法算出積",
+            "被乘數幾位小數，積就點幾位小數"
+          ],
+          "analogyAnchor": "算 2.45 × 4 就像把 245 個 1 分錢硬幣乘以 4 得到 980 個 1 分錢，換算回元就是從右邊數兩位點小數點，變成 9.80 元（9.8 元）。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "1. 直式靠右對齊寫好",
+                "2. 先當作整數乘法計算",
+                "3. 數被乘數有幾位小數",
+                "4. 從積右邊左移幾位點小數點"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u6-l1",
+                "text": "先當整數算乘積",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "u6-l2",
+                "text": "右起數幾位點點",
+                "anchorPointId": "step4"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/math#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "小數點位置與末位 0 省略順序",
+          "narrationText": "一定要「先點上小數點，再把小數末尾的 0 省略」，千萬不能先畫掉 0 才數小數位數！",
+          "cognitiveChunks": [
+            "先點小數點，才能畫掉末位 0",
+            "1.07 × 8 中的十分位 0 不可漏乘",
+            "利用已知整數積可直接推算小數積"
+          ],
+          "workedExampleData": {
+            "problemStatement": "計算「2.45 × 4」與推算「0.36 × 24」（已知 36 × 24 = 864）。",
+            "steps": [
+              "第 1 步：2.45 × 4 先算整數 245 × 4 = 980",
+              "第 2 步：被乘數 2.45 是二位小數，從 980 右邊數 2 位點小數點得 9.80，再省略末位 0 成為 9.8",
+              "第 3 步：0.36 × 24 是 36 × 24 = 864 往左點兩位小數點，直接得到 8.64"
+            ],
+            "commonErrorContrast": "常見錯誤：先把 980 的 0 畫掉變成 98，再點兩位小數點變成錯誤的 0.98。",
+            "selfExplanationPrompt": "想一想：計算 1.25 × 12 時，125 × 12 = 1500，點完兩位小數點後變成多少？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/math#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "加減要對齊小數點，乘法要靠右對齊",
+          "topicSignalTitle": "小數加減法和小數乘法的直式對齊方式一樣嗎？",
+          "narrationText": "小數加減法要「小數點上下對齊」；小數乘法則是「末尾靠右對齊」，先照整數算再依小數位數點回小數點。",
+          "cognitiveChunks": [
+            "加減法：小數點對齊",
+            "乘法：末尾靠右對齊"
+          ],
+          "factGroundingSourceId": "115-s2/g4/math#u6"
+        },
+        {
+          "sceneId": "u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "用這題確認小數點位置與末位 0 的處理順序！",
+          "cognitiveChunks": [
+            "先點小數點，再省略末位 0"
+          ],
+          "warmupCheck": {
+            "prompt": "已知 15 × 6 = 90，那麼「0.15 × 6」的結果是多少？",
+            "options": [
+              "9.0",
+              "0.9",
+              "0.09",
+              "90"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！從 90 右邊往左數兩位點小數點是 0.90，省略末位 0 就是 0.9。",
+            "feedbackRetry": "先從 90 右邊往左數 2 位點上小數點變成 0.90，再省略末位 0 喔！"
+          },
+          "factGroundingSourceId": "115-s2/g4/math#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-math-u7",
+      "stageId": "115-s2-g4-math-u7",
+      "title": "第7章 周長與面積",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u7-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "周長與面積公式及平方公尺換算",
+          "narrationText": "周長是圖形外圍一圈的總長度；面積是圖形裡面鋪滿多少單位方格的大小。1 平方公尺等於 10000 平方公分。",
+          "cognitiveChunks": [
+            "長方形：周長 (長＋寬)×2、面積 長×寬",
+            "正方形：周長 邊長×4、面積 邊長×邊長",
+            "1 平方公尺 ＝ 10000 平方公分"
+          ],
+          "analogyAnchor": "幫花圃圍一圈圍籬要算「周長」（公分或公尺）；幫花圃鋪滿草皮要算「面積」（平方公分或平方公尺）。",
+          "visualSpec": {
+            "templateId": "rect_geometry",
+            "params": {
+              "width": 15,
+              "height": 8,
+              "unitLabel": "cm"
+            },
+            "spatialLabels": [
+              {
+                "id": "u7-l1",
+                "text": "周長=(長+寬)×2",
+                "anchorPointId": "top"
+              },
+              {
+                "id": "u7-l2",
+                "text": "面積=長×寬",
+                "anchorPointId": "center"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/math#u7"
+        },
+        {
+          "sceneId": "u7-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "由周長反求面積與複合圖形面積",
+          "narrationText": "知道正方形周長時，先除以 4 算出邊長再求面積；算複合圖形面積可用「大減小（挖空）」或「分割相加（拼接）」。",
+          "cognitiveChunks": [
+            "正方形邊長 ＝ 周長 ÷ 4",
+            "挖空圖形：大面積 － 中間小面積",
+            "拼接圖形：兩塊面積各自算再相加"
+          ],
+          "workedExampleData": {
+            "problemStatement": "用 36 公分鐵絲圍成一個正方形，面積是多少？另有一長 12 公分寬 9 公分草坪挖掉邊長 4 公分沙坑，剩多少？",
+            "steps": [
+              "第 1 步：正方形邊長 = 36 ÷ 4 = 9 公分，面積 = 9 × 9 = 81 平方公分",
+              "第 2 步：草坪大長方形面積 = 12 × 9 = 108，沙坑正方形面積 = 4 × 4 = 16",
+              "第 3 步：相減得剩下草坪面積 108 - 16 = 92"
+            ],
+            "commonErrorContrast": "常見錯誤：把 1 平方公尺誤以為是 100 平方公分（忘了 100 公分 × 100 公分 = 10000 平方公分）。",
+            "selfExplanationPrompt": "想一想：把 6 平方公尺換算成平方公分時，要在 6 後面補幾個 0？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/math#u7"
+        },
+        {
+          "sceneId": "u7-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "為什麼 1 平方公尺 ＝ 10000 平方公分？",
+          "topicSignalTitle": "長度 100 倍，面積為什麼變成 10000 倍？",
+          "narrationText": "1 公尺 ＝ 100 公分，所以邊長 1 公尺的正方形，面積是 100 公分 × 100 公分 ＝ 10000 平方公分！",
+          "cognitiveChunks": [
+            "1 公尺 ＝ 100 公分",
+            "1 平方公尺 ＝ 100 × 100 ＝ 10000 平方公分"
+          ],
+          "factGroundingSourceId": "115-s2/g4/math#u7"
+        },
+        {
+          "sceneId": "u7-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題平方公尺與平方公分換算，確認四個 0 沒數錯！",
+          "cognitiveChunks": [
+            "1 平方公尺 ＝ 10000 平方公分"
+          ],
+          "warmupCheck": {
+            "prompt": "把「5 平方公尺」換算成「平方公分」，結果是多少平方公分？",
+            "options": [
+              "500 平方公分",
+              "5000 平方公分",
+              "50000 平方公分",
+              "500000 平方公分"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "完全正確！5 × 10000 = 50000 平方公分。",
+            "feedbackRetry": "1 平方公尺等於 10000 平方公分（4 個 0），所以 5 平方公尺後面有幾個 0 呢？"
+          },
+          "factGroundingSourceId": "115-s2/g4/math#u7"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-math-u8",
+      "stageId": "115-s2-g4-math-u8",
+      "title": "第8章 分數（二）",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u8-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "等值分數、異分母加減與分數小數互換",
+          "narrationText": "分子和分母同時乘以或除以相同的非零整數，分數大小不變，叫做「等值分數」。比較或加減異分母分數時，先通分成同分母就能算。",
+          "cognitiveChunks": [
+            "等值分數：分子分母同乘或同除一個數",
+            "異分母比較與加減：先擴分通分",
+            "分數換小數：把分母變成 10 或 100"
+          ],
+          "analogyAnchor": "把半塊蛋糕（1/2）再對半切變成兩小塊（2/4），蛋糕總量完全沒有變，這就是等值分數。",
+          "visualSpec": {
+            "templateId": "fraction_bar",
+            "params": {
+              "denominator": 8,
+              "numerator": 6
+            },
+            "spatialLabels": [
+              {
+                "id": "u8-l1",
+                "text": "3/4等於6/8",
+                "anchorPointId": "top"
+              },
+              {
+                "id": "u8-l2",
+                "text": "通分同分母再加減",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/math#u8"
+        },
+        {
+          "sceneId": "u8-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "異分母分數加法與分數換小數",
+          "narrationText": "算異分母加減絕不能直接把分子和分母各自相加！把分數換成小數時，把分母擴分成 10（一位小數）或 100（二位小數）。",
+          "cognitiveChunks": [
+            "1/2 ＝ 4/8，再加 3/8 ＝ 7/8",
+            "3/4 ＝ 75/100 ＝ 0.75",
+            "0.4 ＝ 4/10 ＝ 2/5"
+          ],
+          "workedExampleData": {
+            "problemStatement": "計算「1/2 + 3/8」，並把「3/4」換成小數。",
+            "steps": [
+              "第 1 步：把 1/2 分子分母同乘以 4，擴分成同分母 4/8",
+              "第 2 步：同分母相加：4/8 + 3/8 = 7/8",
+              "第 3 步：把 3/4 分子分母同乘以 25 變成 75/100，記作小數 0.75"
+            ],
+            "commonErrorContrast": "常見錯誤：算 1/2 + 3/8 時直接把分子 1+3、分母 2+8 寫成 4/10，或把 3/4 直接寫成 0.34。",
+            "selfExplanationPrompt": "想一想：把「2/5」換成小數時，要把分母 5 乘以多少變成 10？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/math#u8"
+        },
+        {
+          "sceneId": "u8-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "分數與小數的常用互換好朋友",
+          "topicSignalTitle": "記住這幾組，數線標示超快！",
+          "narrationText": "1/2 ＝ 0.5、1/4 ＝ 0.25、3/4 ＝ 0.75、1/5 ＝ 0.2、2/5 ＝ 0.4，記住這些常用對應就能快速在數線上標出位置。",
+          "cognitiveChunks": [
+            "1/2 ＝ 0.5；1/5 ＝ 0.2",
+            "1/4 ＝ 0.25；3/4 ＝ 0.75"
+          ],
+          "factGroundingSourceId": "115-s2/g4/math#u8"
+        },
+        {
+          "sceneId": "u8-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "練一題等值分數擴分，確認分子分母同乘的規則！",
+          "cognitiveChunks": [
+            "分母乘幾倍，分子也要乘幾倍"
+          ],
+          "warmupCheck": {
+            "prompt": "要讓等值分數「3/5 = □/25」成立，□ 裡面應該填多少？",
+            "options": [
+              "15",
+              "5",
+              "20",
+              "23"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！分母 5 × 5 = 25，分子 3 × 5 = 15。",
+            "feedbackRetry": "看看分母 5 乘以多少會變成 25，分子 3 也要乘以同一個數喔！"
+          },
+          "factGroundingSourceId": "115-s2/g4/math#u8"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-math-u9",
+      "stageId": "115-s2-g4-math-u9",
+      "title": "第9章 時間的計算",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u9-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "12/24 時制互換與跨午、跨日時間計算",
+          "narrationText": "下午時刻換 24 時制要加 12；日與時是 24 進位，時與分、分與秒都是 60 進位。跨午先換成 24 時制，跨日則以午夜 24 時分段算。",
+          "cognitiveChunks": [
+            "下午 12 時制 ↔ 24 時制：相差 12 時",
+            "1 日 ＝ 24 小時；1 時 ＝ 60 分；1 分 ＝ 60 秒",
+            "跨日計算先算到 24 時，再加隔天時間"
+          ],
+          "analogyAnchor": "跨日時間計算就像兩天接力賽：今天跑到半夜 24 時把棒子交給明天，再從 0 時繼續跑，把兩段路程加起來就是總時間。",
+          "visualSpec": {
+            "templateId": "number_line",
+            "params": {
+              "min": 0,
+              "max": 24,
+              "step": 6
+            },
+            "spatialLabels": [
+              {
+                "id": "u9-l1",
+                "text": "下午換24時制加12",
+                "anchorPointId": "top"
+              },
+              {
+                "id": "u9-l2",
+                "text": "跨日切24時分段算",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/math#u9"
+        },
+        {
+          "sceneId": "u9-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "跨午減法借位與跨日分段加法",
+          "narrationText": "時間加減是 60 進位：分鐘不夠減時，向時借 1 小時當作 60 分鐘加上去；分鐘滿 60 則進位 1 小時。",
+          "cognitiveChunks": [
+            "借 1 小時 ＝ 60 分鐘",
+            "借 1 日 ＝ 24 小時",
+            "跨日用 24 時減開始時刻，再加隔天時刻"
+          ],
+          "workedExampleData": {
+            "problemStatement": "從上午 9 時 40 分到下午 2 時 15 分，經過幾小時幾分鐘？",
+            "steps": [
+              "第 1 步：先把下午 2 時 15 分換成 24 時制：14 時 15 分",
+              "第 2 步：15 分不夠減 40 分，向 14 時借 1 小時換 60 分，變成 13 時 75 分",
+              "第 3 步：相減得 13 - 9 = 4 小時，75 - 40 = 35 分鐘，共 4 小時 35 分鐘"
+            ],
+            "commonErrorContrast": "常見錯誤：借 1 小時時誤當成借 100 分（100 進位），或忘記把下午時刻先加 12 換成 24 時制。",
+            "selfExplanationPrompt": "想一想：從 8 月 3 日 21 時 20 分到 8 月 4 日 6 時 10 分，到半夜 24 時這段經過了多久？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/math#u9"
+        },
+        {
+          "sceneId": "u9-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "小心日、時、分、秒的進位數字不同",
+          "topicSignalTitle": "24 進位和 60 進位別搞混囉！",
+          "narrationText": "「日」換「小時」要乘以 24；「小時」換「分」和「分」換「秒」才要乘以 60。",
+          "cognitiveChunks": [
+            "日 ↔ 時：24 進位",
+            "時 ↔ 分 ↔ 秒：60 進位"
+          ],
+          "factGroundingSourceId": "115-s2/g4/math#u9"
+        },
+        {
+          "sceneId": "u9-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "練習一題 24 時制與 12 時制互換，準備進入時間關卡！",
+          "cognitiveChunks": [
+            "24 時制超過 12 時就是下午，減 12 得 12 時制"
+          ],
+          "warmupCheck": {
+            "prompt": "火車時刻表寫著「21 時 15 分」發車，改用 12 時制表示是什麼時候？",
+            "options": [
+              "上午 9 時 15 分",
+              "下午 9 時 15 分",
+              "下午 7 時 15 分",
+              "下午 11 時 15 分"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！21 - 12 = 9，屬於下午（晚上）9 時 15 分。",
+            "feedbackRetry": "超過 12 時就是下午，把 21 減去 12 就能算出是幾點喔！"
+          },
+          "factGroundingSourceId": "115-s2/g4/math#u9"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-math-u10",
+      "stageId": "115-s2-g4-math-u10",
+      "title": "第10章 規律",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u10-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "數列規律、奇偶數性質與圖案週期",
+          "narrationText": "找規律有三大法寶：算相鄰兩數的差、用奇偶數加減乘性質判斷結果奇偶，以及用除法餘數找重複圖案的第幾個。",
+          "cognitiveChunks": [
+            "數列：先算出相鄰兩數的差值",
+            "奇偶：奇＋奇＝偶、奇×奇＝奇、奇＋偶＝奇",
+            "週期：總數 ÷ 每組個數，看餘數對照"
+          ],
+          "analogyAnchor": "找重複氣球第 27 顆的顏色，就像把氣球每 4 顆裝成一袋：裝滿 6 袋後剩下 3 顆，第 27 顆就是下一袋的第 3 顆。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "1. 找出重複的一組有幾個",
+                "2. 用目標編號 ÷ 每組個數",
+                "3. 觀察算出來的餘數",
+                "4. 餘 1 對第 1 個、整除對最後"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u10-l1",
+                "text": "總數除以每組個數",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "u10-l2",
+                "text": "看餘數找對應項",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/math#u10"
+        },
+        {
+          "sceneId": "u10-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "週期餘數推理與奇偶數驗證",
+          "narrationText": "遇到週期題先除再看餘數（整除代表剛好是一組的最後一個）；遇到奇偶數性質題，可以用簡單的小數字代進去驗證。",
+          "cognitiveChunks": [
+            "餘數為 0（整除）＝ 每組最後一個",
+            "奇×奇＝奇；偶數乘任何整數＝偶數",
+            "可用 1、2、3 等小數字快速驗算奇偶"
+          ],
+          "workedExampleData": {
+            "problemStatement": "氣球按「紅、黃、藍、綠」重複排列，第 27 顆是什麼顏色？又「奇數 × 奇數」一定是什麼數？",
+            "steps": [
+              "第 1 步：一組有 4 種顏色，計算 27 ÷ 4 = 6（組）……餘 3（顆）",
+              "第 2 步：餘數是 3，對應一組的第 3 個顏色「藍色」",
+              "第 3 步：用 3 × 5 = 15 驗證，可知「奇數 × 奇數」結果一定是奇數"
+            ],
+            "commonErrorContrast": "常見錯誤：看到 27 ÷ 4 = 6 餘 3，誤看成商 6 而沒有看餘數 3；或以為「奇數 + 奇數」也是奇數。",
+            "selfExplanationPrompt": "想一想：如果數列是「2、5、10、17、26、□」，相鄰兩數的差依序是 +3、+5、+7、+9，下一個要加幾？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/math#u10"
+        },
+        {
+          "sceneId": "u10-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "奇偶數加減乘口訣表",
+          "topicSignalTitle": "不用算出數字，怎麼判斷結果是奇數還是偶數？",
+          "narrationText": "加法看奇數個數：兩個奇數相加變偶數，奇數加偶數才是奇數。乘法只要有偶數乘進去就是偶數，只有「奇數 × 奇數」才是奇數。",
+          "cognitiveChunks": [
+            "奇 ＋ 奇 ＝ 偶；奇 ＋ 偶 ＝ 奇",
+            "奇 × 奇 ＝ 奇；偶 × 任何整數 ＝ 偶"
+          ],
+          "factGroundingSourceId": "115-s2/g4/math#u10"
+        },
+        {
+          "sceneId": "u10-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "用這題確認圖案週期餘數的算法，準備挑戰期末壓軸關卡！",
+          "cognitiveChunks": [
+            "目標位置 ÷ 一組個數，看餘數"
+          ],
+          "warmupCheck": {
+            "prompt": "燈籠依照「紅、橘、黃」三種顏色依序重複掛成一排，第 14 顆燈籠是什麼顏色？",
+            "options": [
+              "紅色",
+              "橘色",
+              "黃色",
+              "藍色"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！14 ÷ 3 = 4 餘 2，餘數 2 對應每組第 2 個顏色「橘色」。",
+            "feedbackRetry": "一組有 3 個顏色，算算看 14 除以 3 的餘數是多少喔！"
+          },
+          "factGroundingSourceId": "115-s2/g4/math#u10"
+        }
+      ]
+    }
+  ]
+}

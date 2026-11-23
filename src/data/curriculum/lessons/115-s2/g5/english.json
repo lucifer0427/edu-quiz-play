@@ -1,0 +1,755 @@
+{
+  "packId": "115-s2-g5-english",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 5,
+  "subjectId": "english",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-english-u0",
+      "stageId": "115-s2-g5-english-u0",
+      "title": "開學預備週 Starter",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u0-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "數字 100–1000 的組合規則",
+          "narrationText": "五下英語的 Starter 帶我們從 100 數到 1000：百位數用「數字 + hundred」，後面再接 and 與十位、個位數，1000 則是 one thousand。",
+          "cognitiveChunks": [
+            "百位用 hundred、千位用 thousand",
+            "250 說作 two hundred and fifty",
+            "區分 -ty（整十）與 -teen（十幾）"
+          ],
+          "analogyAnchor": "把三位數想成百位車廂和十位車廂，中間用「and」掛鉤連起來，例如 two hundred and fifty 就是 250。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "整百與整千",
+              "leftPoints": [
+                "four hundred (400)",
+                "one thousand (1000)"
+              ],
+              "rightTitle": "幾百幾十",
+              "rightPoints": [
+                "two hundred and fifty (250)",
+                "seven hundred and eighty (780)"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "百位與千位說法",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "百與十用and連接",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/english#u0"
+        },
+        {
+          "sceneId": "u0-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "三位數拼讀與閱讀素養暖身",
+          "narrationText": "聽到或讀到三位數時，最容易混淆的就是 15（fifteen）與 50（fifty）、18（eighteen）與 80（eighty），一定要看清字尾。",
+          "cognitiveChunks": [
+            "eighty (80) vs. eighteen (18)",
+            "sixty (60) vs. sixteen (16)"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何把「780」正確唸成英文？",
+            "steps": [
+              "第 1 步：先唸百位數——700 是 seven hundred",
+              "第 2 步：加上連接詞——中間加上 and",
+              "第 3 步：再唸十位數——80 是 eighty，合起來是 seven hundred and eighty"
+            ],
+            "commonErrorContrast": "常見錯誤：把 780 誤選成 seven hundred and eighteen（718），或把 400 誤寫成 forty（40）。",
+            "selfExplanationPrompt": "想一想：three hundred boys 和 two hundred girls 一共有幾位學生？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/english#u0"
+        },
+        {
+          "sceneId": "u0-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "閱讀素養暖身態度",
+          "topicSignalTitle": "積極參與共讀：Let's read together!",
+          "narrationText": "開學一起打開故事書共讀時，用「Sounds great! Let's read!」回應夥伴與老師，能培養主動閱讀的好習慣。",
+          "cognitiveChunks": [
+            "積極回應共讀邀請",
+            "從 100 數到 1000"
+          ],
+          "factGroundingSourceId": "115-s2/g5/english#u0"
+        },
+        {
+          "sceneId": "u0-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認整百與千的英文說法，再開始挑戰 Starter！",
+          "cognitiveChunks": [
+            "1000 是 one thousand"
+          ],
+          "warmupCheck": {
+            "prompt": "從 999 再加 1 變成「1,000」時，英文怎麼說？",
+            "options": [
+              "one hundred",
+              "one thousand",
+              "nine hundred and ninety",
+              "ten thousand"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！1,000 就是 one thousand。",
+            "feedbackRetry": "「百」是 hundred，「千」則是 thousand 喔！"
+          },
+          "factGroundingSourceId": "115-s2/g5/english#u0"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-english-u1",
+      "stageId": "115-s2-g5-english-u1",
+      "title": "Unit 1 What's Wrong?",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "關心身體狀況與身體部位單字",
+          "narrationText": "Unit 1 學習用「What's wrong?」關心他人哪裡不舒服，並學會用「My + 身體部位 + hurts.」表達疼痛，同時熟練 head, hands, leg, nose 等字彙。",
+          "cognitiveChunks": [
+            "What's wrong? 問怎麼了／哪裡痛",
+            "My leg hurts. 表達腿痛",
+            "安全觀念：騎車戴安全帽保護 head"
+          ],
+          "analogyAnchor": "「What's wrong?」就像小護士的關心雷達，聽到別人說「My ... hurts.」，就能馬上知道哪個身體部位需要照顧。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "身體部位字彙",
+              "leftPoints": [
+                "head (頭) / nose (鼻子)",
+                "hands (手) / leg (腿)"
+              ],
+              "rightTitle": "關心與表達疼痛",
+              "rightPoints": [
+                "What's wrong?",
+                "My leg hurts."
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "身體部位單字",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "詢問身體不適",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/english#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分辨 sh、ch 與有聲／無聲 th",
+          "narrationText": "Unit 1 的 Phonics 要分清楚氣音的 sh（ship, shoe）和較有力的 ch（chair, chin），以及無聲 th（three, thumb）與有聲 th（this, that, they）。",
+          "cognitiveChunks": [
+            "sh (ship, shoe) vs. ch (chair, chin)",
+            "無聲 th (thumb, thin, thank) 不震動聲帶",
+            "有聲 th (this, that, they) 喉嚨會震動"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何區分 thumb, thin, thank 與 this, that, they 的「th」發音？",
+            "steps": [
+              "第 1 步：把手指輕輕放在喉嚨上",
+              "第 2 步：唸出 thumb, thin, thank——只吐氣、喉嚨不震動，是無聲 th",
+              "第 3 步：唸出 this, that, they——喉嚨會震動，是有聲 th"
+            ],
+            "commonErrorContrast": "常見錯誤：看到問句「What's wrong?」卻回答「Yes, I am fine.」，忘了這裡要用「My + 部位 + hurts.」說明狀況。",
+            "selfExplanationPrompt": "想一想：騎腳踏車戴安全帽是為了保護哪一個身體部位？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/english#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "安全教育：保護身體好習慣",
+          "topicSignalTitle": "飯前洗手、騎車戴安全帽",
+          "narrationText": "日常生活中要記得「Please wash your hands before eating.」與「Wear a helmet to protect your head.」，保護自己的身體健康與安全。",
+          "cognitiveChunks": [
+            "wash your hands 飯前洗手",
+            "protect your head 戴安全帽護頭"
+          ],
+          "factGroundingSourceId": "115-s2/g5/english#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認疼痛表達句型，再開始挑戰 Unit 1！",
+          "cognitiveChunks": [
+            "My + 身體部位 + hurts."
+          ],
+          "warmupCheck": {
+            "prompt": "同學問你：\"What's wrong?\" 如果你跑步跌倒「腿痛」，該怎麼回答？",
+            "options": [
+              "I like running.",
+              "My leg hurts.",
+              "Yes, I am fine.",
+              "What day is today?"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！用「My leg hurts.」清楚表達腿痛！",
+            "feedbackRetry": "找一個包含「leg（腿）」和「hurts（痛）」的句子喔！"
+          },
+          "factGroundingSourceId": "115-s2/g5/english#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-english-u2",
+      "stageId": "115-s2-g5-english-u2",
+      "title": "Unit 2 Do You Have a Headache?",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "常見病症與 Do / Does 問句",
+          "narrationText": "Unit 2 認識各種病症（headache, toothache, fever, sore throat, runny nose, stomachache），並學會用 Do you / Does he 詢問生病狀況。",
+          "cognitiveChunks": [
+            "-ache 字尾表示疼痛（headache, toothache）",
+            "第三人稱單數用 Does + 主詞 + have...?",
+            "Do you...? 簡答用 Yes, I do. / No, I don't."
+          ],
+          "analogyAnchor": "助動詞 Does 就像一台吸塵器，只要它出現在句首問問題，後面的 has 就要變回原形 have。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "詢問你 (you)",
+              "leftPoints": [
+                "Do you have a headache?",
+                "Yes, I do. / No, I don't."
+              ],
+              "rightTitle": "詢問他／她 (he/she/Amy)",
+              "rightPoints": [
+                "Does Amy have a fever?",
+                "助動詞後要用原形 have"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "Do配原形have",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "Does後也用have",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/english#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "病症字根與 -ng、-nk、ph 拼讀",
+          "narrationText": "記病症單字時可以把「身體部位 + ache」合起來看；Phonics 則要注意字尾 -nk（pink, drink）、-ng（sing, king）與發 /f/ 音的 ph（photo）。",
+          "cognitiveChunks": [
+            "tooth + ache = toothache 牙痛",
+            "-nk (pink, drink) vs. -ng (sing, king)",
+            "ph (photo) 發 /f/ 的音"
+          ],
+          "workedExampleData": {
+            "problemStatement": "為什麼「Does Amy have a fever?」不能寫成「Does Amy has a fever?」？",
+            "steps": [
+              "第 1 步：看主詞——Amy 是第三人稱單數，所以句首借用助動詞 Does",
+              "第 2 步：檢查動詞規則——助動詞 Does 後面的動詞必須用原形",
+              "第 3 步：確認正確寫法——have 是原形，所以寫 Does Amy have a fever?"
+            ],
+            "commonErrorContrast": "常見錯誤：回答 Do you have a headache? 時誤說成 Yes, I am. 或 Yes, I does.。",
+            "selfExplanationPrompt": "想一想：當家人肚子痛（stomachache）時，哪一句照顧建議最合理？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/english#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "家庭教育：生病時的關懷照顧",
+          "topicSignalTitle": "Lie down, get some rest, and drink warm water.",
+          "narrationText": "家人或同學身體不舒服時，提醒他躺下休息（get some rest）並多喝溫開水（drink warm water），是溫暖又實用的生活英語。",
+          "cognitiveChunks": [
+            "get some rest 好好休息",
+            "drink warm water 多喝溫水"
+          ],
+          "factGroundingSourceId": "115-s2/g5/english#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認第三人稱單數疑問句的文法，再進入 Unit 2！",
+          "cognitiveChunks": [
+            "Does + 單數主詞 + 原形動詞 have"
+          ],
+          "warmupCheck": {
+            "prompt": "想問「Amy 有沒有發燒？」，下列哪一個問句文法完全正確？",
+            "options": [
+              "Does Amy has a fever?",
+              "Do Amy has a fever?",
+              "Does Amy have a fever?",
+              "Is Amy have a fever?"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "完全正確！Does 開頭後面的動詞必須還原為原形 have！",
+            "feedbackRetry": "Amy 是單數第三人稱，助動詞要用 Does，而且後面動詞要變回原形 have 喔！"
+          },
+          "factGroundingSourceId": "115-s2/g5/english#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-english-u3",
+      "stageId": "115-s2-g5-english-u3",
+      "title": "Review 1",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "期中統整：部位、病症與問答切換",
+          "narrationText": "Review 1 整合 Unit 1 與 Unit 2：遇到 What's wrong? 要說具體症狀，遇到 Do you have...? 才能用 Yes/No 簡答。",
+          "cognitiveChunks": [
+            "What's wrong? → 說出症狀（My ... hurts. / I have...）",
+            "Do/Does...? → 用 Yes/No 簡答",
+            "主詞 He / She 在肯定句要用 has"
+          ],
+          "analogyAnchor": "看懂健康對話就像當保健室小幫手：先聽對方問「怎麼了」還是「有沒有」，再對應給出正確的文法回答。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "What's wrong?",
+              "leftPoints": [
+                "My throat hurts.",
+                "She has a cold."
+              ],
+              "rightTitle": "Do you have...?",
+              "rightPoints": [
+                "Yes, I do.",
+                "No, I don't."
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "What問句說症狀",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "Do問句答Yes/No",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/english#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "肯定句 has 與子音雙字母拼讀",
+          "narrationText": "在肯定句裡主詞是 He / She / Sam 時，要用「has」表示有某個症狀（如 He has a toothache.）；Phonics 則要複習 ch, sh, wh, ph。",
+          "cognitiveChunks": [
+            "肯定句 He/She + has",
+            "ch (cheese, chin) / wh (whale, white)"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何判斷「What's wrong? / Yes, I do.」為什麼不對？",
+            "steps": [
+              "第 1 步：看問句開頭——What's wrong? 是「Wh- 問句」，問的是「什麼狀況」",
+              "第 2 步：檢查答句——Yes, I do. 只能用來回答「Do you...?」的 Yes/No 問句",
+              "第 3 步：修正回答——應改為說明症狀，例如「My arm hurts.」或「I have a cold.」"
+            ],
+            "commonErrorContrast": "常見錯誤：在肯定句「He ___ a toothache.」誤填 have，忘了沒有助動詞 Does 時要用第三人稱單數 has。",
+            "selfExplanationPrompt": "想一想：\"Wash your hands often and cover your mouth when you cough.\" 在提醒什麼好習慣？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/english#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "衛生與健康素養",
+          "topicSignalTitle": "常洗手、咳嗽遮口，預防傳染",
+          "narrationText": "保健海報寫的「Wash your hands often and cover your mouth when you cough.」提醒我們保護自己也保護同學。",
+          "cognitiveChunks": [
+            "cover your mouth 咳嗽時遮住嘴巴",
+            "head 對應 headache 頭痛"
+          ],
+          "factGroundingSourceId": "115-s2/g5/english#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認開頭 ch 的拼讀單字，再開始 Review 1 挑戰！",
+          "cognitiveChunks": [
+            "ch 音組：cheese, chin, chicken"
+          ],
+          "warmupCheck": {
+            "prompt": "請選出開頭皆為「ch」音組（與 chair 同音）的一組單字：",
+            "options": [
+              "sheep, shirt, fish",
+              "cheese, chin, chicken",
+              "whale, wheel, white",
+              "sing, ring, wing"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！cheese, chin, chicken 都以 ch 開頭。",
+            "feedbackRetry": "找三個單字字首都是 ch 的那一組喔！"
+          },
+          "factGroundingSourceId": "115-s2/g5/english#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-english-u4",
+      "stageId": "115-s2-g5-english-u4",
+      "title": "Unit 3 What Would You Like for Dinner?",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "三餐名稱與禮貌點餐問答",
+          "narrationText": "Unit 3 學習三餐（breakfast 早餐, lunch 午餐, dinner 晚餐）與常見食物，並用「What would you like...?」和「I'd like..., please.」禮貌點餐。",
+          "cognitiveChunks": [
+            "What would you like...? → I'd like..., please.",
+            "婉拒用 No, thank you.",
+            "breakfast 早餐 / lunch 午餐 / dinner 晚餐"
+          ],
+          "analogyAnchor": "「I'd like」是「I would like」的縮寫，就像去餐廳點餐時說「請給我……」一樣有禮貌。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "點餐問與答",
+              "leftPoints": [
+                "What would you like for dinner?",
+                "I'd like some noodles, please."
+              ],
+              "rightTitle": "接受或禮貌婉拒",
+              "rightPoints": [
+                "Would you like some juice?",
+                "No, thank you."
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "點餐用I'd like",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "禮貌婉拒說法",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/english#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "區分 What would you like 與 Would you like",
+          "narrationText": "點餐對話中，What 開頭要說出想吃的食物；Would you like...? 沒有 What 時，才用 Yes, please. 或 No, thank you. 回答。",
+          "cognitiveChunks": [
+            "What would you like? 不能答 Yes/No",
+            "fish 字尾是 sh、sandwich 字尾是 ch"
+          ],
+          "workedExampleData": {
+            "problemStatement": "服務生問「What would you like for dinner?」為什麼不能回答「Yes, I would.」？",
+            "steps": [
+              "第 1 步：看問句開頭——開頭有「What（什麼）」，是在問你想吃什麼餐點",
+              "第 2 步：判斷 Yes/No 適用性——What 問句必須直接說出食物名稱",
+              "第 3 步：說出正確答句——「I'd like some noodles, please.」"
+            ],
+            "commonErrorContrast": "常見錯誤：混淆 lunch（午餐）與 breakfast（早餐），或把 fish（sh）與 sandwich（ch）的字尾音組搞混。",
+            "selfExplanationPrompt": "想一想：自備環保筷並把食物吃完的環保惜食習慣，英文怎麼說？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/english#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "環境教育：惜食與環保餐具",
+          "topicSignalTitle": "Bring your own chopsticks and finish all your food.",
+          "narrationText": "出門用餐自備環保筷（chopsticks），點餐適量並把食物吃光光（finish all your food），就是愛護地球的惜食行動。",
+          "cognitiveChunks": [
+            "chopsticks 環保筷",
+            "finish all your food 珍惜食物不浪費"
+          ],
+          "factGroundingSourceId": "115-s2/g5/english#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認食物字尾的拼讀音組，再開始挑戰 Unit 3！",
+          "cognitiveChunks": [
+            "fish 字尾為 sh"
+          ],
+          "warmupCheck": {
+            "prompt": "在「rice, chicken, sandwich, fish」四個食物單字中，哪一個字尾含有「sh」音組？",
+            "options": [
+              "rice",
+              "chicken",
+              "sandwich",
+              "fish"
+            ],
+            "answerIndex": 3,
+            "feedbackCorrect": "答對了！fish 字尾是 sh，sandwich 字尾則是 ch。",
+            "feedbackRetry": "注意看四個單字的最後兩個字母，哪一個是 sh 呢？"
+          },
+          "factGroundingSourceId": "115-s2/g5/english#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-english-u5",
+      "stageId": "115-s2-g5-english-u5",
+      "title": "Unit 4 Whose Backpack Is That? & The Dragon Boat Festival",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "用 Whose 問物品歸屬與端午節文化",
+          "narrationText": "Unit 4 學會用「Whose + 物品 + is/are...?」詢問物品是誰的，用人名加 's 或 mine 回答；並結合端午節認識 dragon boat races 與 rice dumplings。",
+          "cognitiveChunks": [
+            "Whose 問「誰的」物品",
+            "人名 + 's（Kevin's）或 mine（我的）",
+            "複數物品（glasses）配 are 與 They"
+          ],
+          "analogyAnchor": "Whose 就像失物招領處的標籤，找到主人的名字後，在名字後面加上「's」就是「某人的」東西。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "單數物品",
+              "leftPoints": [
+                "Whose backpack is that?",
+                "It's Kevin's. / It's mine."
+              ],
+              "rightTitle": "複數物品 (glasses)",
+              "rightPoints": [
+                "Whose glasses are these?",
+                "They are Mom's."
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "單數配is與It's",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "複數配are與They",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/english#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "單複數對應與所有格 's",
+          "narrationText": "遇到 glasses（眼鏡）這類成對組成的名詞時，英文習慣當作複數，問句要用 are these、答句要用 They are。",
+          "cognitiveChunks": [
+            "glasses 視作複數，配 are these",
+            "端午節：划龍舟與吃 rice dumplings"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何完成對話「Whose glasses ___ these? — ___ are Mom's.」？",
+            "steps": [
+              "第 1 步：判斷主詞單複數——glasses（眼鏡）與 these（這些）都是複數",
+              "第 2 步：選出問句 be 動詞——複數搭配 are",
+              "第 3 步：選出答句主詞代名詞——複數使用 They"
+            ],
+            "commonErrorContrast": "常見錯誤：以為一副眼鏡只有一個就誤用 is 與 It，或回答時忘了在人名後面加上「's」。",
+            "selfExplanationPrompt": "想一想：週末去郊外健行遮陽防雨，背包裡最適合帶哪兩樣物品？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/english#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "節慶教學：The Dragon Boat Festival",
+          "topicSignalTitle": "看龍舟賽、吃粽子的端午節",
+          "narrationText": "每年農曆五月五日是端午節（The Dragon Boat Festival），大家會一起「watch dragon boat races and eat rice dumplings」。",
+          "cognitiveChunks": [
+            "dragon boat races 龍舟賽",
+            "rice dumplings 粽子"
+          ],
+          "factGroundingSourceId": "115-s2/g5/english#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認端午節的英語文化表達，再進入 Unit 4 挑戰！",
+          "cognitiveChunks": [
+            "端午節划龍舟與吃粽子"
+          ],
+          "warmupCheck": {
+            "prompt": "下列哪一個句子最正確地描述了「The Dragon Boat Festival（端午節）」的傳統活動？",
+            "options": [
+              "People decorate Christmas trees.",
+              "People watch dragon boat races and eat rice dumplings.",
+              "People look for Easter eggs.",
+              "People go trick-or-treating."
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！端午節看龍舟賽（dragon boat races）和吃粽子（rice dumplings）。",
+            "feedbackRetry": "找找看哪一句有出現 dragon boat（龍舟）和 rice dumplings（粽子）！"
+          },
+          "factGroundingSourceId": "115-s2/g5/english#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-english-u6",
+      "stageId": "115-s2-g5-english-u6",
+      "title": "Review 2 & 文化教學",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "期末統整與世界餐桌文化",
+          "narrationText": "Review 2 整合了點餐對話、物品歸屬與 100–1000 數字，並透過 Country Profile 認識各國餐具（如歐美使用 a fork and a knife）與多元文化尊重。",
+          "cognitiveChunks": [
+            "點餐與失物對話不可答非所問",
+            "西餐使用 fork 與 knife，尊重多元文化",
+            "複習 wh, ph, th, ch, sh, -ng, -nk 音組"
+          ],
+          "analogyAnchor": "世界就像一張大餐桌，有人拿筷子（chopsticks），有人拿刀叉（fork and knife），學會尊重差異就能交到世界各地的朋友。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "亞洲常見餐具",
+              "leftPoints": [
+                "chopsticks (筷子)",
+                "如臺灣、日本飲食文化"
+              ],
+              "rightTitle": "歐美西餐餐具",
+              "rightPoints": [
+                "a fork and a knife (刀叉)",
+                "理解並尊重不同傳統"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "chopsticks筷子",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "fork與knife刀叉",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/english#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "期末文法與 Phonics 總檢查",
+          "narrationText": "答題前檢查問句與答句是否對應（吃什麼 vs. 誰的東西），以及單複數代名詞（It's vs. They are）是否一致。",
+          "cognitiveChunks": [
+            "What would you like? 配 I'd like...",
+            "Whose ... are these? 配 They are...",
+            "whale / white 同屬 wh 音組"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何檢查「Whose umbrellas are these? / It's Tim's.」哪裡不對？",
+            "steps": [
+              "第 1 步：看問句名詞——umbrellas 有加 s，且搭配複數指示詞 these",
+              "第 2 步：檢查答句代名詞——It's 只能用於單數物品",
+              "第 3 步：修正答句——複數必須改為「They're Tim's.」"
+            ],
+            "commonErrorContrast": "常見錯誤：看到問句「What would you like for dinner?」卻回答「It's Amy's cap.」或「Yes, I do.」。",
+            "selfExplanationPrompt": "想一想：當同學幫你撿回水壺時，除了說 It's mine.，補上哪一句最有禮貌？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/english#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "國際教育與日常禮貌",
+          "topicSignalTitle": "Respect different cultures & Thank you so much!",
+          "narrationText": "認識外國風土民情時要「Respect different cultures and try to understand their traditions.」，日常生活中也要常把「Thank you so much!」掛在嘴邊。",
+          "cognitiveChunks": [
+            "尊重並理解不同國家的傳統文化",
+            "受人幫助時真誠說 Thank you so much!"
+          ],
+          "factGroundingSourceId": "115-s2/g5/english#u6"
+        },
+        {
+          "sceneId": "u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認五下子音拼讀配對，再完成英語期末大挑戰！",
+          "cognitiveChunks": [
+            "whale 與 white 同含 wh 音組"
+          ],
+          "warmupCheck": {
+            "prompt": "下面哪一組兩個單字「含有相同的子音拼讀音組」？",
+            "options": [
+              "shop / chair",
+              "whale / white",
+              "photo / thumb",
+              "sing / think"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "太棒了！whale 和 white 都以 wh 開頭，屬於同一組拼讀規則！",
+            "feedbackRetry": "仔細看兩個字開頭或結尾的雙字母組合是不是完全一樣喔！"
+          },
+          "factGroundingSourceId": "115-s2/g5/english#u6"
+        }
+      ]
+    }
+  ]
+}

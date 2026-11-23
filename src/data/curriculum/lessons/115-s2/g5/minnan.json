@@ -1,0 +1,438 @@
+{
+  "packId": "115-s2-g5-minnan",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 5,
+  "subjectId": "minnan",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-minnan-u1",
+      "stageId": "115-s2-g5-minnan-u1",
+      "title": "第一單元 傳統人文",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "傳統民間技藝與迎媽祖祭典",
+          "narrationText": "從〈捏麵尪仔〉認識布袋戲、歌仔戲與畫糖等民間技藝，再從〈迎媽祖〉認識看鬧熱、陣頭與「三月痟媽祖」的民俗文化，並用親切句型邀請朋友體驗。",
+          "cognitiveChunks": [
+            "「捏」是用手塑形、「尪仔」是人偶公仔",
+            "布袋戲、畫糖、真有功夫（精湛手藝）",
+            "「迎媽祖」繞境祈福、看鬧熱、陣頭"
+          ],
+          "analogyAnchor": "傳統技藝與廟會祭典就像一座會移動的文化博物館：老師傅用「功夫」捏出「尪仔」，而「陣頭」與「迎媽祖」則凝聚了地方居民的熱情與祝福。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "傳統民間技藝",
+              "leftPoints": [
+                "捏麵尪仔、布袋戲、畫糖",
+                "稱讚老師傅「真有功夫」"
+              ],
+              "rightTitle": "迎媽祖祭典",
+              "rightPoints": [
+                "恭迎神轎繞境、看鬧熱、陣頭",
+                "俗諺：三月痟媽祖"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "捏麵尪仔與有功夫",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "迎媽祖陣頭看鬧熱",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/minnan#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "生活應對邀請與文化尊重",
+          "narrationText": "面對外國朋友或家人參加傳統技藝攤位與廟會時，用「歡迎你……咱作伙來體驗好無？」熱情邀請，同時尊重不同信仰習俗、不推擠並帶走垃圾。",
+          "cognitiveChunks": [
+            "「作伙（tsò-hué）」＝一起、「好無」＝好不好",
+            "歌仔戲以唱唸身段演出，並非默劇",
+            "參與廟會不推擠、垃圾不塞香爐水溝"
+          ],
+          "workedExampleData": {
+            "problemStatement": "外國交流學生來參觀臺灣〈捏麵尪仔〉攤位與〈迎媽祖〉陣頭，如何用得體的閩南語邀請他，並展現良好的多元文化素養？",
+            "steps": [
+              "第 1 步：熱情邀請——說「歡迎你來看臺灣傳統技藝，咱作伙來體驗捏麵尪仔好無？」",
+              "第 2 步：介紹詞彙——說明「布袋戲」是掌中偶戲、「畫糖」是用融化糖漿畫圖、「陣頭」是民俗表演隊伍",
+              "第 3 步：公德與尊重——陪著家人與客人聆聽工藝師故事、尊重信仰習俗並維持現場整潔"
+            ],
+            "commonErrorContrast": "常見錯誤：把「歌仔戲」誤以為是不能開口的默劇，或為了搶平安糖在人群中推擠長輩小孩。",
+            "selfExplanationPrompt": "想一想：俗諺「三月痟媽祖」生動描繪了什麼樣的臺灣民俗景象？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/minnan#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "看鬧熱也要守禮儀",
+          "topicSignalTitle": "親子共學與環境愛護",
+          "narrationText": "假日和家人一起觀賞傳統技藝與廟會時，多聽工藝師與地方長輩講故事，並隨時把空瓶垃圾帶走。",
+          "cognitiveChunks": [
+            "「鬧熱」就是國語「熱鬧」的意思",
+            "尊重不同族群與宗教文化習俗"
+          ],
+          "factGroundingSourceId": "115-s2/g5/minnan#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認「捏麵尪仔」的詞彙意思，再進入第一單元挑戰！",
+          "cognitiveChunks": [
+            "「捏」是用手塑形、「尪仔」是人偶公仔"
+          ],
+          "warmupCheck": {
+            "prompt": "第一課課名〈捏麵尪仔〉介紹臺灣有趣的傳統民俗技藝。請問閩南語詞彙「捏」和「尪仔」分別是什麼意思？",
+            "options": [
+              "「捏」是用手揉捏塑形；「尪仔」是指人偶或公仔",
+              "「捏」是用毛筆寫書法；「尪仔」是指毛筆",
+              "「捏」是敲打鑼鼓；「尪仔」是指旗幟",
+              "「捏」是用剪刀剪紙；「尪仔」是指大湯鍋"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！用彩色糯米麵團揉捏出人偶或動物造型的傳統技藝，就叫做「捏麵尪仔」。",
+            "feedbackRetry": "想一想老師傅拿彩色麵團在手裡揉捏，最後變出可愛小公仔的樣子喔！"
+          },
+          "factGroundingSourceId": "115-s2/g5/minnan#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-minnan-u2",
+      "stageId": "115-s2-g5-minnan-u2",
+      "title": "第二單元 好喙得人疼",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "好喙得人疼與祝壽吉祥話",
+          "narrationText": "「好喙（hó-tshuì）」是指說話溫和有禮、善於讚美，「得人疼」是受人喜愛；對長輩說「祝阿媽食百二」則是祝福長輩健康長壽到一百二十歲。",
+          "cognitiveChunks": [
+            "「好喙得人疼」：口說好話受人疼惜",
+            "「祝阿媽食百二」：祝福健康長壽",
+            "「呵咾」＝稱讚、「骨力」＝勤奮努力"
+          ],
+          "analogyAnchor": "閩南語俗諺說「好話一句三冬暖，歹話一句六月寒」，溫暖的「好喙」就像冬天裡的一杯熱可可，能讓聽見的人心裡暖呼呼。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "讚美與祝福詞彙",
+              "leftPoints": [
+                "呵咾（稱讚）、古錐（可愛）",
+                "骨力（勤勞）、清氣（乾淨）"
+              ],
+              "rightTitle": "生活溫馨應用",
+              "rightPoints": [
+                "祝阿媽食百二（祝長壽安康）",
+                "多謝呵咾，我會繼續拍拚"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "呵咾古錐與骨力",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "祝食百二與致謝",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/minnan#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "真誠讚美與品德實踐",
+          "narrationText": "看到值日生把教室掃得很乾淨時，稱讚他「真骨力閣清氣，真感謝你！」；真誠的讚美出於真心肯定他人努力，而不是阿諛奉承或講反話嘲諷。",
+          "cognitiveChunks": [
+            "「真骨力」稱讚人勤奮認真",
+            "「清氣（tshing-khì）」指乾淨整潔",
+            "真心讚美不出於討好、利用或反話嘲笑"
+          ],
+          "workedExampleData": {
+            "problemStatement": "班上值日生每天提早到校把教室掃得很乾淨，另外阿媽生日時收到你畫的卡片一直「呵咾」你。這兩個情境該怎麼用閩南語應對？",
+            "steps": [
+              "第 1 步：稱讚值日生——說「你實在真骨力閣用心，教室予你掃甲遮爾清氣，真感謝你！」",
+              "第 2 步：祝賀阿媽壽辰——說「祝阿媽食百二！」，祝福阿媽健康長壽",
+              "第 3 步：回應長輩呵咾——謙虛回答「多謝阿媽呵咾，我會繼續拍拚！」"
+            ],
+            "commonErrorContrast": "常見錯誤：把「骨力（勤勞）」誤以為是偷懶貪睡，或把「祝阿媽食百二」字面曲解成吃一百二十碗飯。",
+            "selfExplanationPrompt": "想一想：為了讓同學幫自己寫功課而故意說好聽話，算不算是真正的「好喙」？為什麼？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/minnan#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "好話一句三冬暖",
+          "topicSignalTitle": "真心看見別人的努力",
+          "narrationText": "真正的「好喙」是看見同學練習進步的毅力、感謝默默付出的夥伴，用誠懇的語氣把鼓勵傳出去。",
+          "cognitiveChunks": [
+            "不講反話冷嘲熱諷緊張的同學",
+            "「笑甲合袂攏喙」形容笑得合不攏嘴"
+          ],
+          "factGroundingSourceId": "115-s2/g5/minnan#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認「呵咾」的詞意，再進入第二單元挑戰！",
+          "cognitiveChunks": [
+            "「呵咾」是稱讚、誇獎的意思"
+          ],
+          "warmupCheck": {
+            "prompt": "短文：「阿媽生日前一工，阿傑畫一張祝壽卡片祝阿媽食百二，阿媽笑甲合袂攏喙，一直『呵咾』阿傑足乖。」請問「呵咾」是什麼意思？",
+            "options": [
+              "稱讚、誇獎",
+              "生氣責罵",
+              "大聲哭泣",
+              "忘記姓名"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！「呵咾（o-ló）」就是稱讚、誇獎的意思。",
+            "feedbackRetry": "阿媽笑得合不攏嘴還說阿傑足乖，當然是在做哪一種正向反應呢？"
+          },
+          "factGroundingSourceId": "115-s2/g5/minnan#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-minnan-u3",
+      "stageId": "115-s2-g5-minnan-u3",
+      "title": "第三單元 好山好水好光景",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "地形地貌與天然災害的閩南語",
+          "narrationText": "從〈島嶼〉認識山崙（小山丘）、溪仔（小溪）、海邊、坪與埔等地形詞彙；從〈地動〉認識地震成因與防災，並學會做風颱與天冷「真寒」時的自我照顧。",
+          "cognitiveChunks": [
+            "「光景」＝風景、「島嶼」＝四面環水陸地",
+            "「山崙」小山丘、「溪仔」小溪、「坪／埔」平緩草地",
+            "「地動」＝地震、「做風颱」＝颱風、「細膩」＝小心"
+          ],
+          "analogyAnchor": "「地動」字面就是大地在搖動，「做風颱」則是大風大雨的颱風天；認識這些自然語詞，就像隨身帶著一張懂家鄉天氣與地形的守護地圖。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "島嶼地形地貌",
+              "leftPoints": [
+                "山崙（山丘）、溪仔（溪流）、海邊",
+                "草埔與山坪（平坦開闊地）"
+              ],
+              "rightTitle": "防災與氣候照顧",
+              "rightPoints": [
+                "地動時「趴下、掩護、穩住」",
+                "真寒加穿一領衫、雨天細膩路滑"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "山崙溪仔與坪埔",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "地動防颱與細膩",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/minnan#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "天然災害應變與無痕山海",
+          "narrationText": "「地動（地震）」主因是地殼板塊擠壓與斷層錯動，發生時立刻「趴下、掩護、穩住」不搭電梯；假日走訪好山好水時不採花、不刻字、垃圾帶走。",
+          "cognitiveChunks": [
+            "地動時躲桌下護頭頸、遠離窗戶書櫃",
+            "做風颱留佇室內，不去海邊山溪戲水",
+            "寒流「真寒」提醒加穿「一領衫」"
+          ],
+          "workedExampleData": {
+            "problemStatement": "氣象預報說週末可能「做風颱」且氣溫「真寒」，另外上課時突然遇到「地動」，應該如何用閩南語提醒照顧自己並正確應變？",
+            "steps": [
+              "第 1 步：地動應變——保持冷靜立刻「趴下、掩護、穩住」，躲堅固課桌下遠離玻璃窗，不搭電梯",
+              "第 2 步：風颱與天冷照顧——留佇室內整理防災物品，出門「愛加穿一領衫」並「細膩（小心）」路滑",
+              "第 3 步：無痕旅遊——平日走訪山崙、溪仔與海邊時，愛護生態不刻字不亂丟垃圾"
+            ],
+            "commonErrorContrast": "常見錯誤：把「光景」當作夜晚關燈、把「做風颱」當成適合去海邊觀浪，或地動時衝向電梯。",
+            "selfExplanationPrompt": "想一想：閩南語說「細膩（sè-jī）路滑」，這裡的「細膩」和國語的「細膩」有什麼不同？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/minnan#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "守護家鄉好光景",
+          "topicSignalTitle": "無痕山海、平安出遊",
+          "narrationText": "欣賞臺灣好山好水好光景時，不把珊瑚礁或野花採回家，也不在岩石刻字，讓後代子孫都能看到美麗島嶼。",
+          "cognitiveChunks": [
+            "衣服的閩南語量詞常用「一領」",
+            "「細膩」在行動提醒中是「小心」"
+          ],
+          "factGroundingSourceId": "115-s2/g5/minnan#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認「地動」的意思與成因，再進入第三單元挑戰！",
+          "cognitiveChunks": [
+            "「地動」就是地震"
+          ],
+          "warmupCheck": {
+            "prompt": "第五課課名〈地動〉帶領大家理解天然災害成因與預防。請問閩南語「地動」是什麼自然災害？它的主要自然成因為何？",
+            "options": [
+              "地震；地殼板塊擠壓運動與斷層錯動釋放能量",
+              "下冰雹；夏天氣溫太高把雲融化",
+              "旱災；太陽連續三天沒升起",
+              "海市蜃樓；沙子反射陽光"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！大地搖晃震動就是「地震」，臺灣因位於板塊交界而常有地震。",
+            "feedbackRetry": "從字面「大地在動」想一想，是哪一種板塊擠壓造成的自然災害呢？"
+          },
+          "factGroundingSourceId": "115-s2/g5/minnan#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-minnan-u4",
+      "stageId": "115-s2-g5-minnan-u4",
+      "title": "第四單元 期末補充與語詞複習",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "島嶼的囡仔與入聲韻尾規則",
+          "narrationText": "〈島嶼的囡仔〉的「囡仔（gín-á）」指兒童；本冊也整理了臺羅拼音短促收尾的「入聲韻尾」四個字母：-p、-t、-k、-h（例如捏 liap、得 tit、祝 tsiok、食 tsia̍h）。",
+          "cognitiveChunks": [
+            "「囡仔（gín-á）」＝孩子、小朋友",
+            "入聲韻尾四字母：-p、-t、-k、-h",
+            "「拍拚（phah-piànn）」＝努力打拚"
+          ],
+          "analogyAnchor": "入聲韻尾「-p、-t、-k、-h」就像四個瞬間煞車的停車站牌：只要在臺羅拼音字尾看到這四個字母，就代表這個音唸起來短促有力。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "臺羅入聲韻尾",
+              "leftPoints": [
+                "-p（捏 liap）、-t（得 tit）",
+                "-k（祝 tsiok）、-h（食 tsia̍h）"
+              ],
+              "rightTitle": "生活對話與閱讀",
+              "rightPoints": [
+                "「多謝你的呵咾，我會繼續拍拚！」",
+                "串聯捏麵尪仔、食百二與地動知識"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "入聲 -p-t-k-h",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "多謝呵咾與拍拚",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/minnan#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "全冊語詞辨析與短文閱讀",
+          "narrationText": "透過〈語詞框看覓〉辨別詞卡對錯，並在〈語詞運用〉中練習「細膩（小心）」、「多謝呵咾」與「拍拚」等句子，就能讀懂整段生活短文。",
+          "cognitiveChunks": [
+            "分清鼻音韻尾（-m/-n/-ng）與入聲（-p/-t/-k/-h）",
+            "被稱讚時回「多謝你的呵咾，我會繼續拍拚」",
+            "短文閱讀抓緊關鍵詞與因果關係"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習本冊時，如何區分入聲韻尾與鼻音韻尾？又如何用閩南語禮貌回應同學稱讚你的畫作「足媠（漂亮）、真用心」？",
+            "steps": [
+              "第 1 步：辨識入聲韻尾——檢查拼音字尾是否為「-p、-t、-k、-h」（如 liap、tit、tsiok、tsia̍h）",
+              "第 2 步：辨析詞意對照——確認「祝阿媽食百二」是祝壽、「細膩」是提醒小心、「囡仔」是孩子",
+              "第 3 步：禮貌回應稱讚——回答「多謝你的呵咾，我會繼續拍拚畫予伊愈媠！」"
+            ],
+            "commonErrorContrast": "常見錯誤：把入聲韻尾「-p/-t/-k/-h」和鼻音韻尾「-m/-n/-ng」搞混，或被稱讚時用粗魯語氣拒絕。",
+            "selfExplanationPrompt": "想一想：如果短文提到「雖然拄著小地動，但逐家平常有學好防災知識，冷靜護頭，平安轉來厝裡」，平安回家的關鍵是什麼？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/minnan#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "全冊金句總回顧",
+          "topicSignalTitle": "從文化走進生活",
+          "narrationText": "學完康軒閩南語第 10 冊，我們認識了傳統人文、好喙讚美與好山好水，更能做個自信又愛家鄉的「島嶼的囡仔」。",
+          "cognitiveChunks": [
+            "「足媠（tsin suí）」＝非常漂亮",
+            "「䆀（bái）」＝不好看、糟糕"
+          ],
+          "factGroundingSourceId": "115-s2/g5/minnan#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認臺羅拼音「入聲韻尾」的四個結尾字母，再進入第四單元挑戰！",
+          "cognitiveChunks": [
+            "入聲韻尾以 -p、-t、-k、-h 結尾"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈入聲韻母框看覓〉中，臺羅拼音是用哪四個結尾字母來標記短促收尾的「入聲韻尾」（例如：捏 liap、得 tit、祝 tsiok、食 tsia̍h）？",
+            "options": [
+              "-a、-e、-i、-o",
+              "-m、-n、-ng、-nn",
+              "-p、-t、-k、-h",
+              "-b、-d、-g、-z"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！從「liap、tit、tsiok、tsia̍h」的字尾就能輕鬆記住 -p、-t、-k、-h 四個入聲韻尾喔！",
+            "feedbackRetry": "觀察題目裡四個例字的最後一個字母：liap、tit、tsiok、tsia̍h，合起來是哪四個字母呢？"
+          },
+          "factGroundingSourceId": "115-s2/g5/minnan#u4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,939 @@
+{
+  "packId": "115-s1-g3-math",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 3,
+  "subjectId": "math",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-math-u1",
+      "stageId": "115-s1-g3-math-u1",
+      "title": "第1章 10000 以內的數",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識「千位」與 10000",
+          "narrationText": "四位數從右邊往左邊依序是個位、十位、百位和千位。每滿 10 個百就是 1 個千，10 個千合起來就是一萬（10000）。",
+          "cognitiveChunks": [
+            "10 個百＝1 個千（1000）",
+            "10 個千＝1 個萬（10000）",
+            "比大小先從最高位「千位」比"
+          ],
+          "analogyAnchor": "就像存錢筒裡有千元鈔票、百元硬幣、十元和一元硬幣，每種錢幣各佔一個位子。",
+          "visualSpec": {
+            "templateId": "number_line",
+            "params": {
+              "min": 0,
+              "max": 10000,
+              "step": 1000,
+              "highlight": [
+                1000,
+                5000,
+                10000
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "1個千是1000",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "10個千是10000",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/math#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "四位數的讀寫與缺位補 0",
+          "narrationText": "看到錢幣點數或國字寫成數字時，如果某一個位值沒有東西，一定要寫上 0 佔位，數字才不會少一位喔！",
+          "cognitiveChunks": [
+            "先對齊千、百、十、個四個位子",
+            "沒有數量的位值要補 0",
+            "讀數時中間連續的 0 只讀一個零"
+          ],
+          "workedExampleData": {
+            "problemStatement": "撲滿裡有 4 張一千元、7 個十元和 3 個一元，總共是多少元？",
+            "steps": [
+              "第 1 步：寫出千位是 4（4 個千）",
+              "第 2 步：沒有一百元硬幣，百位補 0",
+              "第 3 步：十位寫 7、個位寫 3，合起來是 4073 元"
+            ],
+            "commonErrorContrast": "常見錯誤：忘記百位沒有錢幣要補 0，直接寫成三位數 473 元。",
+            "selfExplanationPrompt": "想一想：如果把 4073 讀出來，百位的 0 要讀嗎？個位如果是 0 又該怎麼讀？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/math#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "排最大與最小四位數的秘訣",
+          "topicSignalTitle": "為什麼千位不能放 0？",
+          "narrationText": "如果把 0 放在千位（例如 0257），其實就變成三位數 257 了！所以排最小四位數時，千位要放除了 0 以外最小的數字，再把 0 放百位。",
+          "cognitiveChunks": [
+            "四位數的千位數字不可以是 0",
+            "排最小數時，0 通常放在第二位（百位）"
+          ],
+          "factGroundingSourceId": "115-s1/g3/math#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認位值補 0 的概念，再進場挑戰關卡！",
+          "cognitiveChunks": [
+            "缺哪個位值就用 0 佔位"
+          ],
+          "warmupCheck": {
+            "prompt": "「五千零八」寫成阿拉伯數字是多少？",
+            "options": [
+              "508",
+              "5080",
+              "5008",
+              "5800"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！千位是 5，百位和十位都沒有數所以補 0，個位是 8，記作 5008。",
+            "feedbackRetry": "注意「五千」後面是四位數喔！百位和十位都沒提到，應該各寫一個 0。"
+          },
+          "factGroundingSourceId": "115-s1/g3/math#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-math-u2",
+      "stageId": "115-s1-g3-math-u2",
+      "title": "第2章 10000 以內的加減",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "直式對齊與進退位",
+          "narrationText": "四位數加減和三位數一樣，先把個位、十位、百位、千位直式對齊，滿 10 就向左進 1，不夠減就向左借 1 當 10。",
+          "cognitiveChunks": [
+            "同位值上下對齊（個對個、千對千）",
+            "加法滿 10 向左進 1",
+            "減法不夠減時向左借 1 當 10"
+          ],
+          "analogyAnchor": "就像換錢一樣，10 個一元換成 1 個十元；不夠付一元時，就把 1 個十元換成 10 個一元。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "四位數加法",
+              "leftPoints": [
+                "從個位加起",
+                "滿 10 向前一位進 1"
+              ],
+              "rightTitle": "四位數減法",
+              "rightPoints": [
+                "從個位減起",
+                "遇到 0 要連續向左借位"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "滿十進一",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "借一當十",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/math#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "整千減法的連續借位",
+          "narrationText": "遇到像 5000 - 1426 這種有很多 0 的減法，可以從千位一路借過來，十位和百位借到之後再借給右邊就會變成 9。",
+          "cognitiveChunks": [
+            "5000 借位後變成 4 千 9 百 9 十 10 個一",
+            "用「差 + 減數 = 被減數」驗算"
+          ],
+          "workedExampleData": {
+            "problemStatement": "計算 5000 - 1426，並用加法驗算。",
+            "steps": [
+              "第 1 步：向千位借 1，千位剩 4，百位和十位各變 9，個位變 10",
+              "第 2 步：個位 10-6=4、十位 9-2=7、百位 9-4=5、千位 4-1=3，得 3574",
+              "第 3 步：用加法驗算：3574 + 1426 = 5000，確認正確"
+            ],
+            "commonErrorContrast": "常見錯誤：借位給個位後，忘記十位與百位已經借走 1 而仍然用 10 去減。",
+            "selfExplanationPrompt": "想一想：為什麼加法驗算時要把「算出的答案」加上「減掉的數」？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/math#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "生活裡的加減估算",
+          "topicSignalTitle": "什麼時候用「幾千幾百」估算？",
+          "narrationText": "逛賣場想快速知道帶的錢夠不夠時，可以把 1890 看成 1900、1210 看成 1200，先算出大約 3100 元，不用每次都精算。",
+          "cognitiveChunks": [
+            "找最接近的整百或整千數",
+            "快速判斷總價範圍"
+          ],
+          "factGroundingSourceId": "115-s1/g3/math#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先練習一題加減互逆驗算，確認觀念再出發！",
+          "cognitiveChunks": [
+            "減法可以用加法驗算"
+          ],
+          "warmupCheck": {
+            "prompt": "算完「4200 - 1350 = 2850」後，下面哪一個算式可以驗算它對不對？",
+            "options": [
+              "4200 + 2850",
+              "2850 + 1350",
+              "4200 + 1350",
+              "2850 - 1350"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！把剩下的 2850 和減去的 1350 加起來，如果等於 4200 就對了。",
+            "feedbackRetry": "想一想：把「剩下的數」和「被減掉的數」合起來，應該會變回原來的哪一個數呢？"
+          },
+          "factGroundingSourceId": "115-s1/g3/math#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-math-u3",
+      "stageId": "115-s1-g3-math-u3",
+      "title": "第3章 毫米與數線",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識毫米與整數數線",
+          "narrationText": "直尺上 1 公分裡面有 10 小格，每一小格就是 1 毫米（mm）。而在整數數線上，往右走數字變大（加法），往左走數字變小（減法）。",
+          "cognitiveChunks": [
+            "1 公分＝10 毫米",
+            "數線向右＝加、向左＝減",
+            "測量長度對齊 0 刻度最準確"
+          ],
+          "analogyAnchor": "1 毫米大約像 10 張影印紙疊起來的厚度，或是銀行金融卡的厚度。",
+          "visualSpec": {
+            "templateId": "number_line",
+            "params": {
+              "min": 0,
+              "max": 30,
+              "step": 10,
+              "highlight": [
+                10,
+                25
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "1公分=10毫米",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "往右加往左減",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/math#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "公分與毫米的加減計算",
+          "narrationText": "做公分和毫米的複名數加減時，毫米滿 10 就要進位成 1 公分；毫米不夠減時，要跟公分借 1 公分換成 10 毫米。",
+          "cognitiveChunks": [
+            "同單位對齊加減（公分對公分、毫米對毫米）",
+            "10 毫米＝1 公分（進退位關鍵）"
+          ],
+          "workedExampleData": {
+            "problemStatement": "一枝 12 公分的鉛筆用掉 4 公分 3 毫米後，還剩下多長？",
+            "steps": [
+              "第 1 步：12 公分沒有毫米可減，先借 1 公分變成 11 公分 10 毫米",
+              "第 2 步：毫米相減：10 - 3 = 7 毫米",
+              "第 3 步：公分相減：11 - 4 = 7 公分，剩下 7 公分 7 毫米"
+            ],
+            "commonErrorContrast": "常見錯誤：看到 0 減 3 直接寫成 3 毫米，忘記向公分借 1 公分換成 10 毫米。",
+            "selfExplanationPrompt": "想一想：如果把 12 公分先全部換成 120 毫米再減 43 毫米，答案會一樣嗎？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/math#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "比較長短要先統一單位",
+          "topicSignalTitle": "7 公分 9 毫米和 85 毫米誰比較長？",
+          "narrationText": "兩個長度的單位不同時，先全部換成「毫米」再比大小最清楚：7 公分 9 毫米是 79 毫米，比 85 毫米短。",
+          "cognitiveChunks": [
+            "幾公分幾毫米＝十位寫公分、個位寫毫米",
+            "換成同單位就不會比錯"
+          ],
+          "factGroundingSourceId": "115-s1/g3/math#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "試試看在腦中做一次公分與毫米的換算吧！",
+          "cognitiveChunks": [
+            "1 公分＝10 毫米"
+          ],
+          "warmupCheck": {
+            "prompt": "把「9 公分 6 毫米」換算成毫米，一共是多少毫米？",
+            "options": [
+              "15 毫米",
+              "96 毫米",
+              "906 毫米",
+              "69 毫米"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！9 公分是 90 毫米，加上 6 毫米就是 96 毫米。",
+            "feedbackRetry": "1 公分等於 10 毫米，所以 9 公分是多少毫米呢？再加上 6 毫米看看！"
+          },
+          "factGroundingSourceId": "115-s1/g3/math#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-math-u4",
+      "stageId": "115-s1-g3-math-u4",
+      "title": "第4章 乘法",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "多位數乘以一位數的拆解",
+          "narrationText": "計算二、三位數乘以一位數時，其實就是把數拆成「幾個百、幾個十、幾個一」，分別乘完再合起來。",
+          "cognitiveChunks": [
+            "由個位開始依序往左乘",
+            "滿幾十就向前一位進幾",
+            "遇到 0 乘以任何數都得 0，記得加進位"
+          ],
+          "analogyAnchor": "買 4 張 235 元的門票，就像先付 4 個 200 元、再付 4 個 30 元和 4 個 5 元。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "個位先乘",
+                "十位再乘＋進位",
+                "百位最後乘＋進位"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "從個位開始乘",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "進位要記得加",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/math#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "被乘數中間有 0 的乘法",
+          "narrationText": "當三位數的十位是 0（例如 307 × 4）時，0 乘以 4 雖然是 0，但別忘了要把個位進上來的數加上去喔！",
+          "cognitiveChunks": [
+            "0 × 任何數＝0",
+            "十位結果＝0＋個位進位"
+          ],
+          "workedExampleData": {
+            "problemStatement": "計算 307 × 4。",
+            "steps": [
+              "第 1 步：個位 7 × 4 = 28，寫 8 進 2",
+              "第 2 步：十位 0 × 4 = 0，加上進位的 2 得 2",
+              "第 3 步：百位 3 × 4 = 12，合起來是 1228"
+            ],
+            "commonErrorContrast": "常見錯誤：看到十位是 0 就直接寫 0，忘記加上個位進上來的 2。",
+            "selfExplanationPrompt": "想一想：如果用「300 × 4 + 7 × 4」來心算，結果是不是也是 1228？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/math#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "乘法估算與兩步驟問題",
+          "topicSignalTitle": "遇到「買了幾包又找回多少」怎麼列式？",
+          "narrationText": "先用乘法算出總共花掉多少元，再用付出的錢減去花費，就是找回來的錢。如果只是要估價，可以把 592 看成 600 來乘。",
+          "cognitiveChunks": [
+            "兩步驟題先想「要先算什麼」",
+            "估算時把數字看成最接近的整百或整十"
+          ],
+          "factGroundingSourceId": "115-s1/g3/math#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "挑戰一題乘法估算暖暖身！",
+          "cognitiveChunks": [
+            "用整百數估算最接近的金額"
+          ],
+          "warmupCheck": {
+            "prompt": "一件外套 495 元，買 4 件大約需要準備多少元？",
+            "options": [
+              "大約 1600 元",
+              "大約 2000 元",
+              "大約 2400 元",
+              "大約 1200 元"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "很棒！495 非常接近 500，500 × 4 = 2000 元。",
+            "feedbackRetry": "495 最接近哪一個整百的數字呢？用那個整百數乘以 4 看看！"
+          },
+          "factGroundingSourceId": "115-s1/g3/math#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-math-u5",
+      "stageId": "115-s1-g3-math-u5",
+      "title": "第5章 角與形狀",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識角、直角與正方形長方形",
+          "narrationText": "一個角由 1 個頂點和 2 條直直的邊組成。角的大小只看兩條邊張開的程度，和邊有多長沒有關係！",
+          "cognitiveChunks": [
+            "角＝1 個頂點＋2 條直直的邊",
+            "邊畫長，角的大小不變",
+            "正方形與長方形四個角都是直角"
+          ],
+          "analogyAnchor": "就像打開剪刀或摺扇一樣，張得越開角就越大，和扇子柄有多長無關。",
+          "visualSpec": {
+            "templateId": "rect_geometry",
+            "params": {
+              "width": 8,
+              "height": 5,
+              "unit": "cm",
+              "showRightAngles": true
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "頂點與兩條邊",
+                "anchorPointId": "top-left"
+              },
+              {
+                "id": "l2",
+                "text": "四個角皆直角",
+                "anchorPointId": "bottom-right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/math#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "比較角的大小與辨識直角",
+          "narrationText": "要比較兩個角誰比較大，可以把頂點對齊、其中一條邊重疊；要檢查是不是直角，就用三角板的直角比一比。",
+          "cognitiveChunks": [
+            "直接比較：頂點對頂點、一邊疊一邊",
+            "間接比較：用描圖紙或三角板直角比對"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何分辨一個四邊形是正方形還是長方形？",
+            "steps": [
+              "第 1 步：用三角板檢查四個角，確認四個角都是直角",
+              "第 2 步：用直尺量四條邊的長度",
+              "第 3 步：四邊都一樣長是正方形；兩雙對邊分別等長是長方形"
+            ],
+            "commonErrorContrast": "常見錯誤：以為長方形的四條邊都一樣長，或以為把圖形旋轉斜斜放就不是直角了。",
+            "selfExplanationPrompt": "想一想：把正方形課本轉一個角度斜斜擺在桌上，它的四個角還是直角嗎？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/math#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "「直角」記號與生活中的直角",
+          "topicSignalTitle": "圖形角落的小正方形記號是什麼？",
+          "narrationText": "在數學圖形上，我們會在直角的頂點處畫一個小小的「L 形直角記號」，代表這裡剛好是一個標準的直角。",
+          "cognitiveChunks": [
+            "直角記號表示該角為直角",
+            "比直角小的叫銳角，比直角大的叫鈍角"
+          ],
+          "factGroundingSourceId": "115-s1/g3/math#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "確認一下角的大小和邊長的關係吧！",
+          "cognitiveChunks": [
+            "角的大小只看張開程度"
+          ],
+          "warmupCheck": {
+            "prompt": "把一個三角形紙片剪掉一點點邊長，原本角落的角會變小嗎？",
+            "options": [
+              "會變小，因為邊變短了",
+              "不會變，只要兩邊張開程度沒變，角就一樣大",
+              "會變成直角",
+              "角會消失不見"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "沒錯！角的大小只跟兩條邊張開的程度有關，跟邊有多長完全沒關係。",
+            "feedbackRetry": "把角放到放大鏡下看，邊變長了但張開的角度沒變，所以角的大小是不會變的喔！"
+          },
+          "factGroundingSourceId": "115-s1/g3/math#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-math-u6",
+      "stageId": "115-s1-g3-math-u6",
+      "title": "第6章 除法",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "分裝、平分與餘數的規則",
+          "narrationText": "不管是「每幾個裝一袋（分裝）」還是「平分給幾個人（平分）」，都可以用除法算式記錄。分到最後剩下的數叫做餘數。",
+          "cognitiveChunks": [
+            "被除數 ÷ 除數＝商 ⋯⋯ 餘數",
+            "餘數一定要比除數小",
+            "整除時餘數為 0"
+          ],
+          "analogyAnchor": "把糖果平分給 6 個小朋友，如果最後還剩下 7 顆，代表每人還可以再多拿 1 顆，所以沒分完！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "分裝與除",
+              "leftPoints": [
+                "每幾個裝成一份",
+                "問可以裝幾份"
+              ],
+              "rightTitle": "平分與除",
+              "rightPoints": [
+                "平均分給幾個人",
+                "問每人分到幾個"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "餘數必小於除數",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "平分到不能再分",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/math#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "除法直式與餘數應用",
+          "narrationText": "除法直式要從最高位（十位）開始除，剩下的十位要和個位合起來繼續除。最後可以用「除數 × 商 + 餘數」驗算。",
+          "cognitiveChunks": [
+            "直式從十位開始往右算",
+            "驗算：除數 × 商 + 餘數＝被除數"
+          ],
+          "workedExampleData": {
+            "problemStatement": "有 47 顆糖果平分給 6 人，每人分到幾顆？還剩幾顆？",
+            "steps": [
+              "第 1 步：想 6 的乘法，6 × 7 = 42 最接近 47 且不超過",
+              "第 2 步：商寫 7，47 - 42 = 5，剩下 5 顆",
+              "第 3 步：檢查餘數 5 < 除數 6，驗算 6 × 7 + 5 = 47"
+            ],
+            "commonErrorContrast": "常見錯誤：只背 6 × 6 = 36，寫成餘數 11 顆（11 比 6 大，還沒分完！）。",
+            "selfExplanationPrompt": "想一想：如果題目問「38 顆蘋果每 5 顆裝一袋，全部裝完最少要幾個袋子」，餘數該怎麼辦？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/math#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "餘數要不要進 1？看清楚題目問什麼！",
+          "topicSignalTitle": "「最多裝滿幾盒」vs「全部裝完要幾個袋子」",
+          "narrationText": "問「最多裝滿幾盒」時，剩下的不夠一盒就不能算一盒；但問「全部裝完最少要幾個袋子」時，剩下的那幾顆也要多拿 1 個袋子裝喔！",
+          "cognitiveChunks": [
+            "裝滿幾盒：只看商",
+            "全部裝完：有餘數時商要加 1"
+          ],
+          "factGroundingSourceId": "115-s1/g3/math#u6"
+        },
+        {
+          "sceneId": "u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "試著用餘數性質判斷看看這題！",
+          "cognitiveChunks": [
+            "餘數一定小於除數"
+          ],
+          "warmupCheck": {
+            "prompt": "在「某數 ÷ 5」的除法算式中，餘數最大可能是多少？",
+            "options": [
+              "5",
+              "4",
+              "6",
+              "1"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！因為餘數必須比除數 5 小，所以最大只可能是 4。",
+            "feedbackRetry": "餘數如果等於或大於 5，就代表還能再分一次，所以一定要比 5 小喔！"
+          },
+          "factGroundingSourceId": "115-s1/g3/math#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-math-u7",
+      "stageId": "115-s1-g3-math-u7",
+      "title": "第7章 公斤與公克",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u7-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識公斤（kg）與公克（g）",
+          "narrationText": "比較輕的東西用「公克（g）」量，比較重的東西用「公斤（kg）」量。1 公斤剛好和 1000 公克一樣重！",
+          "cognitiveChunks": [
+            "1 公斤＝1000 公克",
+            "輕物品用公克，重物品用公斤",
+            "半公斤＝500 公克"
+          ],
+          "analogyAnchor": "1 個迴紋針大約 1 公克，而兩瓶 500 毫升的礦泉水合起來大約就是 1 公斤。",
+          "visualSpec": {
+            "templateId": "number_line",
+            "params": {
+              "min": 0,
+              "max": 2000,
+              "step": 500,
+              "highlight": [
+                500,
+                1000,
+                2000
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "1公斤=1000g",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "半公斤=500g",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/math#u7"
+        },
+        {
+          "sceneId": "u7-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "重量的換算與退位減法",
+          "narrationText": "計算「幾公斤幾公克」的加減時，公克滿 1000 要進位成 1 公斤；公克不夠減時，要向公斤借 1 公斤換成 1000 公克。",
+          "cognitiveChunks": [
+            "公克滿 1000 → 進位 1 公斤",
+            "借 1 公斤 → 換成 1000 公克"
+          ],
+          "workedExampleData": {
+            "problemStatement": "籃子裝蘋果共重 2 公斤 150 公克，空籃子重 450 公克，蘋果重多少？",
+            "steps": [
+              "第 1 步：150 公克不夠減 450 公克，向 2 公斤借 1 公斤",
+              "第 2 步：2 公斤 150 公克變成 1 公斤 1150 公克",
+              "第 3 步：1150 - 450 = 700 公克，剩下 1 公斤 700 公克"
+            ],
+            "commonErrorContrast": "常見錯誤：以為 1 公斤等於 100 公克，借位後變成 250 - 450 而算錯。",
+            "selfExplanationPrompt": "想一想：4080 公克改寫成幾公斤幾公克時，為什麼不是 4 公斤 800 公克？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/math#u7"
+        },
+        {
+          "sceneId": "u7-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "報讀秤面的小秘訣",
+          "topicSignalTitle": "看秤面刻度前先做哪一件事？",
+          "narrationText": "看秤面時，先確認大格代表幾公斤（或幾百公克），再數兩個大格之間分成幾小格，才能算出每一小格代表多少公克。",
+          "cognitiveChunks": [
+            "先看指針在哪兩個大刻度之間",
+            "數清楚一大格分成幾小格"
+          ],
+          "factGroundingSourceId": "115-s1/g3/math#u7"
+        },
+        {
+          "sceneId": "u7-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "來做一題公斤與公克的換算確認吧！",
+          "cognitiveChunks": [
+            "1 公斤＝1000 公克"
+          ],
+          "warmupCheck": {
+            "prompt": "「3 公斤 60 公克」換算成公克是多少公克？",
+            "options": [
+              "360 公克",
+              "3600 公克",
+              "3060 公克",
+              "3006 公克"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！3 公斤是 3000 公克，加上 60 公克就是 3060 公克。",
+            "feedbackRetry": "3 公斤是 3000 公克，60 公克在十位和個位，那百位是幾呢？"
+          },
+          "factGroundingSourceId": "115-s1/g3/math#u7"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-math-u8",
+      "stageId": "115-s1-g3-math-u8",
+      "title": "第8章 分數",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u8-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "平分、單位分數與「1」",
+          "narrationText": "把一個完整的東西「平分」成幾份，其中的 1 份就是單位分數（例如 1/8）。當分子和分母一樣大時，就剛好等於完整的 1！",
+          "cognitiveChunks": [
+            "分母＝全部平分成幾份",
+            "分子＝拿了其中的幾份",
+            "分子等於分母時，分數＝1（如 8/8＝1）"
+          ],
+          "analogyAnchor": "把一條蛋糕平分成 8 塊，吃掉 3 塊就是吃了 3 個 1/8 條，也就是 3/8 條。",
+          "visualSpec": {
+            "templateId": "fraction_bar",
+            "params": {
+              "denominator": 8,
+              "numerator": 3
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "平分成8等份",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "占其中3份",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/math#u8"
+        },
+        {
+          "sceneId": "u8-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分數與 1 的合成分解",
+          "narrationText": "把 1 想成跟分母一樣多的份數（例如 1 = 7/7），就能輕鬆算出拿走幾份後還剩下幾份。",
+          "cognitiveChunks": [
+            "1 可以換成 7/7、8/8 等分數",
+            "同分母分數只加減分子，分母不變"
+          ],
+          "workedExampleData": {
+            "problemStatement": "1 條緞帶剪去 4/7 條，還剩下幾分之幾條？",
+            "steps": [
+              "第 1 步：把 1 條緞帶平分成 7 份，也就是 7/7 條（7 個 1/7 條）",
+              "第 2 步：剪去 4 份（4 個 1/7 條）",
+              "第 3 步：7 - 4 = 3，還剩下 3 個 1/7 條，即 3/7 條"
+            ],
+            "commonErrorContrast": "常見錯誤：把分母也相減，或忘記先把 1 換成 7/7。",
+            "selfExplanationPrompt": "想一想：同分母分數比大小時（例如 5/9 和 7/9），為什麼可以直接比分子？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/math#u8"
+        },
+        {
+          "sceneId": "u8-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "一定要「平分」才能寫成分數",
+          "topicSignalTitle": "隨便切一刀也能叫做 1/2 嗎？",
+          "narrationText": "分數的前提是每一份都要「一樣大（平分）」。如果一塊大一塊小，就不能用 1/2 來表示喔！",
+          "cognitiveChunks": [
+            "每一份大小相同才叫平分",
+            "同分母比大小：分子越大分數越大"
+          ],
+          "factGroundingSourceId": "115-s1/g3/math#u8"
+        },
+        {
+          "sceneId": "u8-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "用這題確認分數和 1 的關係吧！",
+          "cognitiveChunks": [
+            "分子＝分母時等於 1"
+          ],
+          "warmupCheck": {
+            "prompt": "「9/9（九分之九）」和下面哪一個數一樣大？",
+            "options": [
+              "9",
+              "1",
+              "1/9",
+              "0"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！平分成 9 份而且全部 9 份都在，就剛好是完整的 1！",
+            "feedbackRetry": "把一個披薩平分成 9 片，桌上剛好有 9 片，合起來是幾個披薩呢？"
+          },
+          "factGroundingSourceId": "115-s1/g3/math#u8"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-math-u9",
+      "stageId": "115-s1-g3-math-u9",
+      "title": "第9章 列表與規律",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u9-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "看懂表格與尋找重複規律",
+          "narrationText": "表格能把雜亂的資料整理清楚；而不管是圖案還是數字，只要找出「一組有幾個在重複」或「每次加減多少」，就能預測下一個！",
+          "cognitiveChunks": [
+            "二維表格要同時對照「橫列」和「直行」",
+            "圖案規律先框出重複的一組",
+            "數字規律先算相鄰兩數的差"
+          ],
+          "analogyAnchor": "就像十字路口的座標，橫的看項目、直的看男女生，交叉的那一格就是答案。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "圖案重複規律",
+              "leftPoints": [
+                "先找出幾張為一組",
+                "用除法餘數找第幾個"
+              ],
+              "rightTitle": "數字增減規律",
+              "rightPoints": [
+                "算出相鄰兩數相差多少",
+                "檢查每一段差是否相同"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "框出重複一組",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "算出相鄰差值",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/math#u9"
+        },
+        {
+          "sceneId": "u9-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用除法找重複規律的第 N 個",
+          "narrationText": "當題目問第 11 面或第 20 面彩旗是什麼顏色時，不用一個一個慢慢畫，先找出幾個一組再用除法看餘數最快！",
+          "cognitiveChunks": [
+            "總數 ÷ 每組個數＝組數 ⋯⋯ 餘數",
+            "餘 1 是組內第 1 個，整除是最後 1 個"
+          ],
+          "workedExampleData": {
+            "problemStatement": "彩旗按「紅、黃、藍、紅、黃、藍……」排列，第 11 面是什麼顏色？",
+            "steps": [
+              "第 1 步：看出每 3 面（紅、黃、藍）為一組重複",
+              "第 2 步：計算 11 ÷ 3 = 3 組 ⋯⋯ 餘 2 面",
+              "第 3 步：餘 2 代表新一組的第 2 面，所以是「黃色」"
+            ],
+            "commonErrorContrast": "常見錯誤：看到 11 ÷ 3 的商是 3 就誤以為看第 3 個顏色，其實要看「餘數」才對。",
+            "selfExplanationPrompt": "想一想：如果剛好整除（餘數是 0），那代表這一組的第幾個顏色？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/math#u9"
+        },
+        {
+          "sceneId": "u9-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "製作統計表格不漏算的秘訣",
+          "topicSignalTitle": "畫記「正」字後還要檢查什麼？",
+          "narrationText": "統計全班投票結果時，畫「正」字每一個字剛好是 5 票。統計完一定要把各類人數加起來，確認總和有沒有等於全班人數！",
+          "cognitiveChunks": [
+            "一個「正」字＝5 票",
+            "最後要核對總和是否與總人數相符"
+          ],
+          "factGroundingSourceId": "115-s1/g3/math#u9"
+        },
+        {
+          "sceneId": "u9-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "動動腦找出這串數字的規律吧！",
+          "cognitiveChunks": [
+            "先算相鄰兩數的差"
+          ],
+          "warmupCheck": {
+            "prompt": "觀察數列「15, 20, 25, ( ? ), 35」，括號裡應該填多少？",
+            "options": [
+              "26",
+              "30",
+              "28",
+              "32"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！每次都加 5，25 + 5 = 30，剛好 30 + 5 = 35。",
+            "feedbackRetry": "算算看 15 到 20 加了多少？20 到 25 又加了多少？"
+          },
+          "factGroundingSourceId": "115-s1/g3/math#u9"
+        }
+      ]
+    }
+  ]
+}

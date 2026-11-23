@@ -1,0 +1,377 @@
+{
+  "packId": "115-s2-g3-hakka",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 3,
+  "subjectId": "hakka",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-hakka-u1",
+      "stageId": "115-s2-g3-hakka-u1",
+      "title": "單元一：自行車、行路愛細義",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "交通安全「行路愛細義」與北埔擂茶",
+          "narrationText": "騎「自行車（鐵馬）」戴好「安全帽」，「行路愛細義」提醒走路要小心、遵守紅綠燈走斑馬線；單元活動一帶我們走讀北埔古蹟並體驗研磨香氣四溢的「客家擂茶」！",
+          "cognitiveChunks": [
+            "行路＝走路、愛細義＝要小心注意",
+            "戴安全帽、走斑馬線停看聽",
+            "北埔古蹟群與研磨「擂茶」文化"
+          ],
+          "analogyAnchor": "「行路愛細義」就像交通路上的平安護身符；而北埔「擂茶」則是用木擂棒把茶葉、花生與芝麻慢慢研磨出滿滿人情味。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "自行車與行路安全",
+              "leftPoints": [
+                "戴安全帽、檢查煞車再騎乘",
+                "巷口無號誌停看聽、走斑馬線"
+              ],
+              "rightTitle": "北埔古蹟與擂茶",
+              "rightPoints": [
+                "金廣福公館、天水堂、慈天宮",
+                "「擂」＝研磨茶葉、芝麻與花生"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "行路愛細義守規則",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "北埔古蹟與擂茶文化",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/hakka#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用客語叮嚀家人騎車安全與體驗擂茶",
+          "narrationText": "週末全家騎自行車出遊或去北埔老街走讀時，把安全與禮儀記在心裡！",
+          "cognitiveChunks": [
+            "稱呼「爸姆」並提醒戴安全帽",
+            "叮嚀「愛細義慢慢仔行」",
+            "參觀古蹟不刻畫、輕聲細語"
+          ],
+          "workedExampleData": {
+            "problemStatement": "週末全家人準備騎自行車到戶外兜風前，怎麼用客語親切叮嚀家人出發安全？",
+            "steps": [
+              "第 1 步：稱呼爸爸媽媽 →「爸姆，大家先戴好『安全帽』、檢查煞車」。",
+              "第 2 步：提醒安全駕駛 →「騎『自行車』愛細義慢慢仔行喔！」。",
+              "第 3 步：經過路口遵守紅綠燈，到北埔古蹟參觀時不觸摸刻畫百年建築。"
+            ],
+            "commonErrorContrast": "常見錯誤：邊低頭看平板邊放手騎車，或以為擂茶是把冰塊和汽水倒進塑膠袋搖晃。",
+            "selfExplanationPrompt": "想一想：傳統客家「擂茶」名字裡的「擂」是什麼動作？要放進哪些食材研磨？"
+          },
+          "factGroundingSourceId": "115-s2/g3/hakka#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "交通與文化小達人",
+          "narrationText": "答對這題就可以戴好安全帽出發囉！",
+          "cognitiveChunks": [
+            "行路是走路、愛細義是要小心注意"
+          ],
+          "warmupCheck": {
+            "prompt": "第二課課名〈行路愛細義〉裡的「行路」和「愛細義」，合起來是什麼意思？",
+            "options": [
+              "走路要小心注意安全",
+              "在教室坐著寫作業",
+              "去市場買菜很熱"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！行路就是走路，愛細義是要小心留意，出門在外都要注意安全喔！",
+            "feedbackRetry": "把「行路（移動雙腳走路）」和「愛細義（心細不馬虎）」連起來想一想！"
+          },
+          "factGroundingSourceId": "115-s2/g3/hakka#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-hakka-u2",
+      "stageId": "115-s2-g3-hakka-u2",
+      "title": "單元二：運動會、踢毽仔",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "運動詞彙、踢毽仔與六堆運動會",
+          "narrationText": "運動項目有「泅水（游泳）」、「跳索（跳繩）」、「打球」和傳統童玩「踢毽仔」。賽前暖身、平等邀請同學參與，更認識南臺灣大武山下傳承忠義精神的「六堆運動會」！",
+          "cognitiveChunks": [
+            "泅水＝游泳、跳索＝跳繩",
+            "踢毽仔選空曠安全處並平等邀請",
+            "六堆運動會源自高屏先民忠義精神"
+          ],
+          "analogyAnchor": "「踢毽仔」考驗雙腳的彈性與平衡，「六堆運動會」則像一場大武山下的小奧運，把先民團結保鄉的忠義精神代代傳下來。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "運動與傳統童玩",
+              "leftPoints": [
+                "泅水（游泳）、跳索（跳繩）、打球",
+                "踢毽仔：腳內側或腳背接踢不落地"
+              ],
+              "rightTitle": "品德與六堆精神",
+              "rightPoints": [
+                "賽前暖身、尊重裁判與對手",
+                "六堆運動會凝聚團結與多元分工"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "泅水跳索踢毽仔",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "六堆傳承忠義精神",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/hakka#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "安全遊戲與多元分工發掘潛能",
+          "narrationText": "在運動場上不只跑步拿獎牌重要，每一個分工角色都能展現價值！",
+          "cognitiveChunks": [
+            "遠離窗戶走廊選擇空曠操場踢毽",
+            "畫海報、計分與整理器材都重要",
+            "賽前暖身並尊重所有參賽者"
+          ],
+          "workedExampleData": {
+            "problemStatement": "下課想和同學一起玩〈踢毽仔〉，如何同時做到「尊重人權」與「兼顧場地安全」？",
+            "steps": [
+              "第 1 步：避開樓梯口、走廊轉角與玻璃窗，選擇空曠安全的操場。",
+              "第 2 步：友善邀請不分性別與各種程度的同學輪流體驗同樂。",
+              "第 3 步：練習用腳內側、腳背控制力道接踢，不故意把毽子踢向別人臉部。"
+            ],
+            "commonErrorContrast": "常見錯誤：規定只有跑得快的男生能玩，或認為沒拿獎牌、幫忙畫海報計分就沒有價值。",
+            "selfExplanationPrompt": "想一想：認識南臺灣「六堆運動會」的歷史背景後，為什麼這項運動會被譽為「大武山下的小奧運」？"
+          },
+          "factGroundingSourceId": "115-s2/g3/hakka#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小小運動家暖身題",
+          "narrationText": "答對這題就能上場一起「煞猛加油」囉！",
+          "cognitiveChunks": [
+            "泅水是游泳、跳索是跳繩、踢毽仔是踢毽子"
+          ],
+          "warmupCheck": {
+            "prompt": "第三課〈運動會〉學到各種運動項目的客語說法，下列哪一組配對完全正確？",
+            "options": [
+              "泅水＝游泳；跳索＝跳繩；踢毽仔＝踢毽子",
+              "泅水＝打電腦；跳索＝寫日記",
+              "打球＝洗衣服；走相逐＝睡午覺"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！泅水是在水裡游泳、索是繩子所以跳索是跳繩喔！",
+            "feedbackRetry": "想一想「水」跟在水裡游動有關，「索」則是長繩子的意思喔！"
+          },
+          "factGroundingSourceId": "115-s2/g3/hakka#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-hakka-u3",
+      "stageId": "115-s2-g3-hakka-u3",
+      "title": "單元三：鬧熱過五月節",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "客家傳統節日、Ｑ軟粄粽與多元共融",
+          "narrationText": "「鬧熱過五月節」就是熱熱鬧鬧過端午節！還有正月半元宵節、八月半中秋節，加上米漿壓成粄皮的Ｑ軟「客家粄粽」與插艾草菖蒲的防蚊習俗，真是有趣又美味！",
+          "cognitiveChunks": [
+            "正月半元宵、五月節端午、八月半中秋",
+            "客家粄粽以米漿「粄糰」作Ｑ軟外皮",
+            "插艾草菖蒲、戴香包驅蟲祈福保健康"
+          ],
+          "analogyAnchor": "客家節日名稱就像日曆上的小密碼：「正月半」一月十五、「五月節」五月初五、「八月半」八月十五，一看就記住！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "節日名稱與拼音",
+              "leftPoints": [
+                "正月半(元宵)、五月節(端午)、八月半(中秋)",
+                "客語拼音標註音節與聲調高低"
+              ],
+              "rightTitle": "粄粽與多元文化",
+              "rightPoints": [
+                "粄粽：磨米漿壓粄糰包餡蒸熟",
+                "欣賞各族群葉裹米食的祝福心意"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "農曆節日名稱真好記",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "粄粽Ｑ軟又多元共融",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/hakka#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分辨客家粄粽特色與客語拼音功用",
+          "narrationText": "認識〈鬧熱過五月節〉裡最常考的飲食文化與語言工具！",
+          "cognitiveChunks": [
+            "米磨漿壓乾成「粄糰」做外皮",
+            "包菜脯香菇肉末蒸熟Ｑ軟不脹氣",
+            "客語拼音協助讀準聲調與區分腔調"
+          ],
+          "workedExampleData": {
+            "problemStatement": "傳統美味的「客家粄粽」和一般米粒肉粽有什麼不同？",
+            "steps": [
+              "第 1 步：先把糯米與在來米浸泡後磨成米漿、壓乾水分揉成「粄糰（米糰）」。",
+              "第 2 步：在Ｑ軟的粄皮裡包入炒香的菜脯、香菇、肉末等餡料。",
+              "第 3 步：用粽葉包好蒸熟，口感滑潤Ｑ彈，吃完記得將粽葉與綁繩分類丟棄。"
+            ],
+            "commonErrorContrast": "常見錯誤：以為只有自己習慣的那種粽子才叫粽子，或認為客語拼音是要取代漢字。",
+            "selfExplanationPrompt": "想一想：五月節門口插「艾草摎菖蒲」與配戴香包，除了祈福還有什麼實用的生活智慧？"
+          },
+          "factGroundingSourceId": "115-s2/g3/hakka#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "五月節小達人暖身題",
+          "narrationText": "答對這題就可以去品嘗Ｑ軟的客家粄粽囉！",
+          "cognitiveChunks": [
+            "鬧熱是熱鬧、五月節是農曆五月初五端午節"
+          ],
+          "warmupCheck": {
+            "prompt": "第五課課名〈鬧熱過五月節〉裡，「鬧熱」和「五月節」各是什麼意思？",
+            "options": [
+              "安靜睡覺；過年除夕夜",
+              "熱鬧歡騰；農曆五月初五端午節",
+              "天氣寒冷；八月十五中秋節"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！鬧熱就是熱鬧，五月節就是大家吃粽子、看龍舟的端午節！",
+            "feedbackRetry": "把「鬧熱」兩個字順序換一下看看像哪個詞？農曆五月初五又是哪個節日呢？"
+          },
+          "factGroundingSourceId": "115-s2/g3/hakka#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-hakka-u4",
+      "stageId": "115-s2-g3-hakka-u4",
+      "title": "單元四：期末歌謠與複習活動",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "搖搖雜雜、搞麼个與全冊總整理",
+          "narrationText": "跟著〈搖搖雜雜〉團隊合作律動、用「搞麼个？」與「𠊎來鬥手」主動幫助同學，再帶著「出門看天色，入門看面色」的細心觀察力完成〈出任務囉！〉總挑戰！",
+          "cognitiveChunks": [
+            "團隊唱跳遵守秩序互相鼓勵",
+            "見人整理主動說「𠊎來鬥手」",
+            "出門看天色、入門看面色懂體貼"
+          ],
+          "analogyAnchor": "三年級客語總複習就像整理一個文化百寶袋：裡面裝著北埔擂茶、六堆忠義、五月節粄粽，還有在生活裡處處體貼的「行路愛細義」。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "歌謠律動：〈搖搖雜雜〉合作不推擠",
+                "日常互助：問「搞麼个？」並說「𠊎來鬥手」",
+                "出任務囉：串聯詞彙、文化與看天色面色"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "主動鬥手展現好品德",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "看天色與面色懂體貼",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/hakka#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "破解〈出任務囉！〉文化尋寶與俗諺",
+          "narrationText": "把這學期南北客庄的文化特色與品德應對一次複習到位！",
+          "cognitiveChunks": [
+            "北埔：古蹟老街與擂茶文化",
+            "六堆：先民忠義精神與運動會",
+            "組員答錯安慰「無要緊」並誠實復盤"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在〈出任務囉！〉分組闖關時，如果夥伴緊張答錯題目，加上碰到文化尋寶題怎麼應對？",
+            "steps": [
+              "第 1 步：不責怪夥伴也不塗改分數，先拍拍肩膀安慰「無要緊（沒關係）」。",
+              "第 2 步：一起回頭複習線索：北邊新竹北埔以「古蹟與擂茶」聞名；南邊高屏則有傳承忠義精神的「六堆運動會」。",
+              "第 3 步：暑假持續和家人長輩用客語問候、唱童謠，讓母語成為生活好朋友。"
+            ],
+            "commonErrorContrast": "常見錯誤：夥伴答錯就指責換人，或把「行路愛細義」記成過馬路不用看車。",
+            "selfExplanationPrompt": "想一想：客家俗諺「出門看天色，入門看面色」提醒我們在生活裡要培養哪兩種觀察力？"
+          },
+          "factGroundingSourceId": "115-s2/g3/hakka#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "三下客語總複習小考驗",
+          "narrationText": "答對這題就可以順利通過三年級客語總複習囉！",
+          "cognitiveChunks": [
+            "行路愛細義＝走路小心、踢毽仔＝踢毽子、五月節＝端午節"
+          ],
+          "warmupCheck": {
+            "prompt": "總複習詞卡挑戰！下列哪一組「三下客語詞語與國語意思」配對完全正確？",
+            "options": [
+              "「行路愛細義」＝走路要小心；「踢毽仔」＝踢毽子；「五月節」＝端午節",
+              "「踢毽仔」＝游泳；「正月半」＝端午節",
+              "「鬧熱」＝冷清沒人；「擂茶」＝用木頭敲屋頂"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經把三年級下學期的客語精華都牢牢記住囉！",
+            "feedbackRetry": "逐一檢查交通安全語、傳統童玩與節慶名稱，選出全部配對正確的選項喔！"
+          },
+          "factGroundingSourceId": "115-s2/g3/hakka#u4"
+        }
+      ]
+    }
+  ]
+}

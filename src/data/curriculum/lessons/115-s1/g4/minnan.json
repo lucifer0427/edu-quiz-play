@@ -1,0 +1,324 @@
+{
+  "packId": "115-s1-g4-minnan",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 4,
+  "subjectId": "minnan",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-minnan-u1",
+      "stageId": "115-s1-g4-minnan-u1",
+      "title": "一、鬥鬧熱",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "好日、禮拜語詞與辦桌文化",
+          "narrationText": "「鬥鬧熱」是一起湊熱鬧、「好日」是良辰吉日；用「這禮拜、頂禮拜、後禮拜」安排時間，用疊字詞「歡歡喜喜」形容喜慶，並認識總舖師掌廚的辦桌文化與惜食精神。",
+          "cognitiveChunks": [
+            "鬥鬧熱＝湊熱鬧；好日＝吉利好日子",
+            "這禮拜＝這週、頂禮拜＝上週、後禮拜＝下週",
+            "辦桌請總舖師掌廚、自備盒打包菜尾惜食"
+          ],
+          "analogyAnchor": "「辦桌」就像把熱鬧的大餐廳搬到廟埕或巷口棚架下，親友圍坐圓桌「歡歡喜喜」聚餐，感謝幫忙還要記得說「多謝、勞力」。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "好日與時間語詞",
+              "leftPoints": [
+                "頂禮拜（上週）→這禮拜→後禮拜（下週）",
+                "疊字：歡歡喜喜、熱熱鬧鬧；道謝：多謝、勞力"
+              ],
+              "rightTitle": "辦桌與文章結構",
+              "rightPoints": [
+                "空地廟埕搭棚架、總舖師掌廚上菜",
+                "起承轉合：緣由→場景→亮點惜食→感悟"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "禮拜時間與疊字詞",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "辦桌場景起承轉合",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/minnan#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "尊重方音差異與書寫辦桌短文",
+          "narrationText": "臺灣各地的閩南語有自然的方音差異，例如「日」有人讀 ji̍t 或 li̍t；寫作辦桌短文時則可運用「起、承、轉、合」讓文章更有條理。",
+          "cognitiveChunks": [
+            "方音差異無對錯，彼此尊重多元腔調",
+            "「轉」寫溫馨互動或打包菜尾，「合」收尾"
+          ],
+          "workedExampleData": {
+            "problemStatement": "寫作〈辦桌〉短文時，已經寫好「起（阿姑結婚要辦桌）」和「承（搭棚架與豐盛菜色）」，「轉」和「合」該寫什麼？",
+            "steps": [
+              "第 1 步：「轉」描寫席間溫馨的敬茶互動，或大家自備環保盒打包吃不完的「菜尾」實踐惜食",
+              "第 2 步：「合」總結這次辦桌感受到的人情味與愛惜食物心得",
+              "第 3 步：遇到長輩或同學的方音腔調跟自己不同時，保持友善尊重欣賞多元文化"
+            ],
+            "commonErrorContrast": "常見錯誤：把「頂禮拜」當成下星期、嘲笑別人方音不標準，或把沒吃完的辦桌菜全倒進水溝。",
+            "selfExplanationPrompt": "想一想：俗諺「食飯皇帝大」在臺灣生活文化裡想提醒大家什麼重要的餐桌心態？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/minnan#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "喜慶吉祥話與感謝語",
+          "topicSignalTitle": "參加好日喜宴時最常說哪些好話？",
+          "narrationText": "見面祝賀說「恭喜」，祝長輩健康長壽說「食百二」，感謝幫忙的親友則誠懇說「多謝」或「勞力（辛苦你了）」！",
+          "cognitiveChunks": [
+            "恭喜、食百二為常用吉祥話",
+            "多謝、勞力表達真誠感謝"
+          ],
+          "factGroundingSourceId": "115-s1/g4/minnan#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "檢查看看你分不分得清楚閩南語的「禮拜」時間說法！",
+          "cognitiveChunks": [
+            "這禮拜、頂禮拜、後禮拜"
+          ],
+          "warmupCheck": {
+            "prompt": "在閩南語運用「禮拜」安排生活計畫時，下列哪一句的說法與意思配對正確？",
+            "options": [
+              "「禮拜一」是指放假的星期天",
+              "「這禮拜日」是指這個星期天",
+              "「頂禮拜」是指下個月的這一天",
+              "「後禮拜」是指上個星期"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！這禮拜日就是這個星期天，頂禮拜是上星期、後禮拜是下星期。",
+            "feedbackRetry": "注意「頂」是上面（過去的上一週）、「後」是後面（未來的下一週）喔！"
+          },
+          "factGroundingSourceId": "115-s1/g4/minnan#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-minnan-u2",
+      "stageId": "115-s1-g4-minnan-u2",
+      "title": "二、顧安全",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "青紅燈自述文本與安全提醒對話",
+          "narrationText": "閩南語把紅綠燈稱為「青紅燈」，「顧安全」就是守護安全。讀懂〈青紅燈〉三段意義段結構，並學會用「愛細膩、先停落來、掛安全帽」互相提醒交通平安。",
+          "cognitiveChunks": [
+            "青紅燈＝紅綠燈；顧＝照顧、守護",
+            "愛細膩＝要小心；掛安全帽＝戴安全帽",
+            "三意義段：外型介紹→號誌功能→安全期許"
+          ],
+          "analogyAnchor": "「青紅燈」就像站在十字路口的無聲小導護，用三隻不同顏色的眼睛日夜提醒人車互相禮讓，守護大家平安回家。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "第一段：介紹路口三色外型",
+                "第二段：說明紅黃綠燈功能",
+                "第三段：期許守規平安回家",
+                "實踐：斑馬線左看右看再左看"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "三色外型與號誌功能",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "守規不搶快顧安全",
+                "anchorPointId": "step4"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/minnan#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "讀懂交通安全對話與意義段大意",
+          "narrationText": "看到紅綠燈轉黃燈時不能搶快，要用閩南語互相提醒停下來；閱讀自述體文章時，也要學會抓出每一意義段的重點。",
+          "cognitiveChunks": [
+            "「愛細膩！紅燈欲起來矣」＝小心快紅燈了",
+            "綠燈過斑馬線仍須左看右看再左看"
+          ],
+          "workedExampleData": {
+            "problemStatement": "過馬路遇到綠燈轉黃燈時，阿明喊：「愛細膩！紅燈欲起來矣，咱愛先停落來！」這句話是什麼意思？",
+            "steps": [
+              "第 1 步：「愛細膩」是要小心注意的意思",
+              "第 2 步：「紅燈欲起來矣」是紅燈快要亮起來了",
+              "第 3 步：「咱愛先停落來」是我們要先停下來等待，切勿搶黃燈衝過馬路"
+            ],
+            "commonErrorContrast": "常見錯誤：以為「青紅燈」是藍白路燈、綠燈一亮就低頭滑手機不看轉彎車，或騎機車沒把「掛安全帽」的帽帶扣緊。",
+            "selfExplanationPrompt": "想一想：閩南語俗諺「緊紡無好紗，緊行無好步」用來提醒交通安全，有什麼道理？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/minnan#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "日常交通安全俗諺與語詞",
+          "topicSignalTitle": "還有哪些閩南語安全提醒超實用？",
+          "narrationText": "騎機車要記得「掛安全帽（戴安全帽）」，過馬路切記俗諺「緊紡無好紗，緊行無好步」，不急躁搶快才能欲速則達、平安回家。",
+          "cognitiveChunks": [
+            "掛安全帽＝戴上安全帽扣好",
+            "緊紡無好紗，緊行無好步＝欲速不達"
+          ],
+          "factGroundingSourceId": "115-s1/g4/minnan#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "考考你是否知道「青紅燈」在閩南語裡指什麼！",
+          "cognitiveChunks": [
+            "青紅燈＝紅綠燈號誌"
+          ],
+          "warmupCheck": {
+            "prompt": "第二單元〈二、顧安全〉的第三課課名是〈青紅燈〉。在臺灣閩南語裡，「青紅燈」指的是路口常見的什麼設施？",
+            "options": [
+              "藍白路燈",
+              "紅綠燈號誌",
+              "消防車警鈴",
+              "教室電風扇"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！閩南語常把綠色稱為「青」，所以紅綠燈就叫做「青紅燈」。",
+            "feedbackRetry": "閩南語把綠色叫作「青色」（如青菜），「青」跟「紅」合起來是路口的什麼燈呢？"
+          },
+          "factGroundingSourceId": "115-s1/g4/minnan#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-minnan-u3",
+      "stageId": "115-s1-g4-minnan-u3",
+      "title": "三、清氣相",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "洗身軀清潔用品與摒掃打掃語詞",
+          "narrationText": "「清氣相」是乾淨清爽的模樣。「洗身軀（洗澡）」時會用到雪文（肥皂）、面布（毛巾）並記得節約用水擦乾身體；「摒掃（打掃）」則用掃手（掃把）和畚斗（畚箕）把塗跤（地板）掃乾淨。",
+          "cognitiveChunks": [
+            "清氣＝乾淨；洗身軀＝洗澡；摒掃＝打掃",
+            "雪文＝肥皂、面布＝毛巾、齒抿＝牙刷",
+            "掃手＝掃把、畚斗＝畚箕、糞埽＝垃圾"
+          ],
+          "analogyAnchor": "保持「清氣相」有兩大法寶：身體靠「雪文」和「面布」洗得「芳貢貢」，環境靠「掃手」和「畚斗」把「塗跤」掃乾淨並把工具「囥好勢」。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "洗身軀（洗澡）",
+              "leftPoints": [
+                "雪文（肥皂）、面布（毛巾）、齒抿（牙刷）",
+                "水省省仔用、洗好緊拭焦、芳貢貢"
+              ],
+              "rightTitle": "摒掃（打掃）",
+              "rightPoints": [
+                "掃手（掃把）、畚斗、塗跤（地板）",
+                "倒糞埽（垃圾）、工具囥好勢（收妥）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "雪文面布洗清氣",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "掃手畚斗囥好勢",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/minnan#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "讀懂洗澡省水提醒與打掃分工",
+          "narrationText": "把對話裡的關鍵生活詞彙拆開來看，就能輕鬆聽懂媽媽洗澡時的叮嚀，以及老師分配的打掃任務。",
+          "cognitiveChunks": [
+            "「省省仔用」省水、「緊拭焦」快擦乾",
+            "打掃後工具洗淨晾乾「囥好勢」"
+          ],
+          "workedExampleData": {
+            "problemStatement": "媽媽說：「水愛省省仔用，洗好著愛緊拭焦喔。」老師說：「用掃手佮畚斗掃塗跤，閣共糞埽倒好。」各是什麼意思？",
+            "steps": [
+              "第 1 步：「省省仔用」是要節約用水，「緊拭焦」是洗完快擦乾身體以免著涼",
+              "第 2 步：「掃手佮畚斗掃塗跤」是指拿掃把和畚箕掃地板",
+              "第 3 步：「共糞埽倒好」是把垃圾倒進垃圾桶，打掃後把工具「囥好勢（收放整齊妥當）」"
+            ],
+            "commonErrorContrast": "常見錯誤：把「雪文」誤認成熱水瓶、把「清氣」當成生氣，或打掃完把掃把亂丟在走廊不歸位。",
+            "selfExplanationPrompt": "想一想：打掃完教室變得「清氣溜溜」後，全班一起維護整潔和感謝夥伴有什麼重要？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/minnan#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "趣味疊字詞「芳貢貢」與「清氣溜溜」",
+          "topicSignalTitle": "怎麼用閩南語誇獎洗完澡和掃完地？",
+          "narrationText": "洗完頭香噴噴的叫做「芳貢貢」，教室掃得一塵不染叫做「清氣溜溜」，用生動的閩南語詞彙稱讚自己與夥伴吧！",
+          "cognitiveChunks": [
+            "芳貢貢＝香噴噴的",
+            "清氣溜溜＝非常乾淨整潔"
+          ],
+          "factGroundingSourceId": "115-s1/g4/minnan#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "配對看看你認不認識洗澡的清潔用品名稱！",
+          "cognitiveChunks": [
+            "雪文＝肥皂；面布＝毛巾"
+          ],
+          "warmupCheck": {
+            "prompt": "準備去「洗身軀（洗澡）」時，下列哪一組「閩南語清潔用品 ↔ 國語意思」的配對完全正確？",
+            "options": [
+              "雪文 ↔ 肥皂；面布 ↔ 毛巾／洗臉巾",
+              "雪文 ↔ 熱水瓶；面布 ↔ 吹風機",
+              "洗頭毛精 ↔ 牙膏；齒抿 ↔ 浴缸",
+              "茶箍 ↔ 拖鞋；手巾仔 ↔ 蓮蓬頭"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！「雪文」是肥皂，「面布」就是擦臉擦身體的毛巾。",
+            "feedbackRetry": "想一想：「面」是臉、「布」是擦臉的織品，而「雪文」是早年常用來起泡泡洗澡的物品喔！"
+          },
+          "factGroundingSourceId": "115-s1/g4/minnan#u3"
+        }
+      ]
+    }
+  ]
+}

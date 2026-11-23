@@ -1,0 +1,385 @@
+{
+  "packId": "115-s2-g1-hakka",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 1,
+  "subjectId": "hakka",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-hakka-u1",
+      "stageId": "115-s2-g1-hakka-u1",
+      "title": "第一單元：油菜花與蟲仔",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "油菜花海、麼个蟲仔與掃墓習俗",
+          "narrationText": "春天田野開滿金黃的「油菜花」，小蜜蜂飛來幫忙傳花粉！認識「麼个蟲仔（什麼小蟲）」不傷害牠們，也學習客家掃墓慎終追遠與山林安全。",
+          "cognitiveChunks": [
+            "油菜花春天開滿金黃色花海",
+            "麼个蟲仔＝什麼小蟲子，安靜觀察不抓",
+            "客家掃墓懷念祖先，注意火燭與帶走垃圾"
+          ],
+          "analogyAnchor": "大自然就像一座戶外教室，油菜花當畫布、小蜜蜂當小畫家，我們安靜欣賞不破壞就最棒了！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "戶外觀察與愛護自然",
+              "leftPoints": [
+                "油菜花黃澄澄、小蜜蜂傳花粉",
+                "安靜欣賞不摘花也不抓蟲仔"
+              ],
+              "rightTitle": "客家掃墓安全與環保",
+              "rightPoints": [
+                "整理墓園敬拜，懷念感謝祖先",
+                "牽大人手慢走、小心火燭帶走垃圾"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "麼个蟲仔是什麼蟲",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "掃墓慎終追遠重安全",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/hakka#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "郊外觀察與掃墓安全要點",
+          "narrationText": "到戶外田野或山林掃墓時，安全與環保兩件事都要做到喔。",
+          "cognitiveChunks": [
+            "不玩火燭、不在陡坡奔跑",
+            "不破壞農田也不留垃圾"
+          ],
+          "workedExampleData": {
+            "problemStatement": "跟家人去郊外掃墓時，要注意哪些「安全」與「環保」事項？",
+            "steps": [
+              "第 1 步：緊牽大人的手在山路慢慢走，不在陡坡奔跑",
+              "第 2 步：不自己拿打火機玩火，小心火燭防火災",
+              "第 3 步：祭拜完把飲料罐和包裝紙全部帶回家丟"
+            ],
+            "commonErrorContrast": "常見錯誤：一個人在陡坡上跑來跑去，或把垃圾丟在草叢裡。",
+            "selfExplanationPrompt": "想一想：在花叢間飛來飛去幫忙傳播花粉的小昆蟲，可能是哪一種蟲仔？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/hakka#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "考考你第二課課名〈麼个蟲仔〉的意思！",
+          "cognitiveChunks": [
+            "麼个＝什麼、蟲仔＝小蟲子"
+          ],
+          "warmupCheck": {
+            "question": "第二課課名是〈麼个蟲仔〉。請問客語裡的「麼个」和「蟲仔」合起來是什麼意思？",
+            "prompt": "第二課課名是〈麼个蟲仔〉。請問客語裡的「麼个」和「蟲仔」合起來是什麼意思？",
+            "options": [
+              "什麼小蟲子",
+              "睡覺的毛毛蟲",
+              "大隻的恐龍"
+            ],
+            "answerIndex": 0,
+            "explanation": "客語的「麼个」是「什麼」，「蟲仔」是小蟲子，合起來就是「什麼小蟲子」！",
+            "feedbackCorrect": "答對了！「麼个蟲仔」就是「什麼小蟲子？」的意思！",
+            "feedbackRetry": "「麼个」常用來發問，加上「蟲仔」是在問哪一種小生物呢？"
+          },
+          "factGroundingSourceId": "115-s2/g1/hakka#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-hakka-u2",
+      "stageId": "115-s2-g1-hakka-u2",
+      "title": "第二單元：貓仔好洗面與油桐花",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "貓仔好洗面與五月雪油桐花",
+          "narrationText": "「貓仔（小貓）」很喜歡「洗面（洗臉）」！小朋友也要認識肥皂、牙刷等清潔用品，保持浴室防滑安全；春天還要欣賞像「五月雪」一樣潔白的客家油桐花！",
+          "cognitiveChunks": [
+            "貓仔好洗面＝小貓喜歡洗臉",
+            "肥皂洗手、牙刷刷牙，浴室防滑不誤食",
+            "油桐花雪白飄落稱「五月雪」，不折枝"
+          ],
+          "analogyAnchor": "四、五月山林裡的油桐花飄落時像下雪一樣白茫茫的，大家只撿地上的落花欣賞，就是最棒的大自然小客人！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "貓仔好洗面與衛生",
+              "leftPoints": [
+                "肥皂洗手、牙刷刷牙、毛巾擦臉",
+                "浴室地面乾爽、清潔劑不可吞食"
+              ],
+              "rightTitle": "五月雪油桐花",
+              "rightPoints": [
+                "春夏之交雪白花瓣飄落如雪",
+                "只撿地上落花，不搖樹不留垃圾"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "貓仔喜歡洗臉清潔",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "油桐花又叫五月雪",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/hakka#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "認識清潔用品與浴室安全",
+          "narrationText": "每種清潔用品都有自己的任務，在浴室使用時也要特別注意安全喔。",
+          "cognitiveChunks": [
+            "肥皂洗手、牙刷刷牙、掃把掃地",
+            "不在濕滑浴室奔跑"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在浴室洗臉洗澡時，哪一個做法符合「安全教育」不滑倒、不誤食？",
+            "steps": [
+              "第 1 步：保持浴室地面乾爽防滑，絕對不塗滿泡泡溜冰",
+              "第 2 步：不奔跑也不跳高，慢慢走避免滑倒",
+              "第 3 步：洗髮精與清潔劑只能清潔用，絕不拿來喝或噴眼睛"
+            ],
+            "commonErrorContrast": "常見錯誤：把顏色漂亮的洗衣精打開試喝，或在濕滑地板跳高。",
+            "selfExplanationPrompt": "想一想：到山林賞油桐花時，可以為了拍照而用力搖動樹幹或刻樹皮嗎？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/hakka#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "考考你清潔用品的功能配對！",
+          "cognitiveChunks": [
+            "肥皂用來洗乾淨雙手"
+          ],
+          "warmupCheck": {
+            "question": "想和愛乾淨的小貓一樣保持衛生，下面哪一樣「清潔用品和用途」配對正確？",
+            "prompt": "想和愛乾淨的小貓一樣保持衛生，下面哪一樣「清潔用品和用途」配對正確？",
+            "options": [
+              "肥皂：用來洗乾淨雙手",
+              "牙刷：用來刷乾淨地板",
+              "梳子：用來刷乾淨牙齒"
+            ],
+            "answerIndex": 0,
+            "explanation": "肥皂用來洗手、牙刷用來刷牙、掃把用來掃地，認識用途才能把身體和環境弄乾淨！",
+            "feedbackCorrect": "答對了！肥皂就是用來把雙手搓洗乾淨的！",
+            "feedbackRetry": "想一想，牙刷和梳子分別是用在哪裡的呢？哪一項才對呢？"
+          },
+          "factGroundingSourceId": "115-s2/g1/hakka#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-hakka-u3",
+      "stageId": "115-s2-g1-hakka-u3",
+      "title": "第三單元：彩色个衫與熱天果子",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "彩色个衫、熱天果子與客家仙草",
+          "narrationText": "穿起「彩色个衫（彩色的衣服）」，每種顏色男生女生都能自由喜歡！夏天「熱天果子多（夏天水果多）」，吃西瓜和冰涼的「客家仙草」好消暑！",
+          "cognitiveChunks": [
+            "彩色个衫＝彩色的衣服（个＝的、衫＝衣服）",
+            "顏色不分男女，雨天穿亮色更安全",
+            "熱天＝夏天、果子＝水果，客家仙草消暑"
+          ],
+          "analogyAnchor": "「這係西瓜，當甜！」夏天穿上自己喜歡的亮色衣服去吃甜美水果和滑嫩仙草，真是幸福又安全的夏日時光！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "彩色个衫與性平安全",
+              "leftPoints": [
+                "个衫＝的衣服，顏色不分男女",
+                "雨天穿亮黃色雨衣讓駕駛看見"
+              ],
+              "rightTitle": "熱天果子與客家仙草",
+              "rightPoints": [
+                "熱天＝夏天、果子＝水果（西瓜）",
+                "客家仙草黑亮滑嫩，夏天最消暑"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "个衫就是的衣服",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "熱天果子是夏水果",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/hakka#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "選顏色學安全與介紹水果",
+          "narrationText": "顏色不只能表達喜好，還能幫我們在路上更安全喔！",
+          "cognitiveChunks": [
+            "傍晚雨天穿亮黃色等鮮豔衣物",
+            "用「這係…，當甜！」介紹水果"
+          ],
+          "workedExampleData": {
+            "problemStatement": "下雨天或傍晚天色暗的時候走路回家，穿哪一種顏色的雨衣最安全？",
+            "steps": [
+              "第 1 步：想想看天色暗時，黑色或深灰色容易跟馬路混在一起",
+              "第 2 步：挑選亮黃色、亮橘色等鮮豔亮色的雨衣",
+              "第 3 步：讓汽車機車駕駛遠遠就能清楚看見你"
+            ],
+            "commonErrorContrast": "常見錯誤：以為顏色都一樣，雨天穿全黑又沒有反光條的雨衣走馬路。",
+            "selfExplanationPrompt": "想一想：男生可不可以喜歡穿粉紅色或花花衣服？為什麼？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/hakka#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "猜猜看第五課課名〈熱天果子多〉的意思！",
+          "cognitiveChunks": [
+            "熱天＝夏天、果子＝水果"
+          ],
+          "warmupCheck": {
+            "question": "第五課課名是〈熱天果子多〉。請問客語裡的「熱天」和「果子」分別指什麼？",
+            "prompt": "第五課課名是〈熱天果子多〉。請問客語裡的「熱天」和「果子」分別指什麼？",
+            "options": [
+              "夏天和水果",
+              "冬天和餅乾",
+              "春天和花朵"
+            ],
+            "answerIndex": 0,
+            "explanation": "客語把炎熱的夏天叫「熱天」，把水果叫「果子」，所以〈熱天果子多〉就是夏天水果很多！",
+            "feedbackCorrect": "答對了！「熱天」是夏天，「果子」是水果！",
+            "feedbackRetry": "太陽很大、天氣熱呼呼的季節是什麼？樹上長出來甜美可吃的又是什麼呢？"
+          },
+          "factGroundingSourceId": "115-s2/g1/hakka#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-hakka-u4",
+      "stageId": "115-s2-g1-hakka-u4",
+      "title": "第四單元：期末歌謠與複習活動",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "火焰蟲、揚蝶仔與出任務囉",
+          "narrationText": "期末念唱〈火焰蟲╱揚蝶仔〉！「火焰蟲」是夜裡發光的螢火蟲、「揚蝶仔」是美麗蝴蝶，安靜觀察不捕捉牠們，再完成〈搞麼个？〉與〈出任務囉！〉總複習！",
+          "cognitiveChunks": [
+            "火焰蟲＝螢火蟲、揚蝶仔＝蝴蝶",
+            "看螢火蟲不用強光照、不捕捉",
+            "「你在搞麼个？」→「𠊎在該看揚蝶仔！」"
+          ],
+          "analogyAnchor": "螢火蟲尾巴一閃一閃像提著小小火焰燈籠，我們做個溫柔的小客人，就能年年看見牠們跳舞！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "認識昆蟲：火焰蟲（螢火蟲）、揚蝶仔（蝴蝶）",
+                "自然守護：不強光照、不捕捉、不亂丟垃圾",
+                "生活對話：在搞麼个？→ 𠊎在該看揚蝶仔！"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "火焰蟲就是螢火蟲",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "揚蝶仔是美麗蝴蝶",
+                "anchorPointId": "step1"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/hakka#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "學期客語詞彙與對話總複習",
+          "narrationText": "來把一下學過的動物、顏色、水果詞語一起驗收過關吧！",
+          "cognitiveChunks": [
+            "貓仔＝小貓、个衫＝的衣服",
+            "熱天果子＝夏天水果"
+          ],
+          "workedExampleData": {
+            "problemStatement": "下課看見同學在花圃旁看蝴蝶，問他「你在搞麼个？」，他怎麼回答最對題？",
+            "steps": [
+              "第 1 步：「搞麼个？」是問「在做什麼？」",
+              "第 2 步：他在看蝴蝶（揚蝶仔），所以回答「𠊎在該看揚蝶仔！」",
+              "第 3 步：記得「貓仔」是小貓、「个衫」是的衣服、「熱天果子」是夏天水果"
+            ],
+            "commonErrorContrast": "常見錯誤：回答跟活動無關的內容，或是把「火焰蟲（螢火蟲）」誤認成青蛙。",
+            "selfExplanationPrompt": "想一想：俗諺「人愛惜面，樹愛惜皮」提醒我們平常要做什麼樣的好孩子？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/hakka#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "考考你夏夜裡會發光的「火焰蟲」是哪一種昆蟲！",
+          "cognitiveChunks": [
+            "火焰蟲＝尾巴會發光的螢火蟲"
+          ],
+          "warmupCheck": {
+            "question": "客家童謠〈火焰蟲╱揚蝶仔〉裡，晚上尾巴會一閃一閃發光的「火焰蟲」是什麼昆蟲？",
+            "prompt": "客家童謠〈火焰蟲╱揚蝶仔〉裡，晚上尾巴會一閃一閃發光的「火焰蟲」是什麼昆蟲？",
+            "options": [
+              "螢火蟲",
+              "大蝗蟲",
+              "小螞蟻"
+            ],
+            "answerIndex": 0,
+            "explanation": "客語把晚上尾巴會一閃一閃發光的「螢火蟲」叫做「火焰蟲」，非常形象可愛！",
+            "feedbackCorrect": "答對了！「火焰蟲」就是亮晶晶的螢火蟲！",
+            "feedbackRetry": "夏夜草叢裡哪一種昆蟲的屁股像提著一盞小燈籠會發亮呢？"
+          },
+          "factGroundingSourceId": "115-s2/g1/hakka#u4"
+        }
+      ]
+    }
+  ]
+}

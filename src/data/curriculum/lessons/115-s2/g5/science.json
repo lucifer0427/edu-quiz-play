@@ -1,0 +1,436 @@
+{
+  "packId": "115-s2-g5-science",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 5,
+  "subjectId": "science",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-science-u1",
+      "stageId": "115-s2-g5-science-u1",
+      "title": "第一單元 探索星空的奧祕",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "觀星要素與星座盤運行規律",
+          "narrationText": "夜空中的星星有亮度、視大小與顏色差異；操作星座盤時，用「方位」與「高度角（0° 到 90°）」就能精準描述星星的位置。",
+          "cognitiveChunks": [
+            "方位＋高度角描述星星位置",
+            "一天中星星大多東升西落",
+            "北極星幾乎固定在正北方"
+          ],
+          "analogyAnchor": "星空就像一把緩慢旋轉的巨大雨傘，傘柄正對著幾乎不動的北極星，其他星星都繞著北極星轉。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "高度角 (0°–90°)",
+              "leftPoints": [
+                "地平線為 0 度",
+                "頭頂正上方為 90 度"
+              ],
+              "rightTitle": "尋找北極星",
+              "rightPoints": [
+                "北斗七星勺口延伸 5 倍",
+                "W 形的仙后座輔助定位"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "地平0度天頂90度",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "北斗與仙后找北極",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/science#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "正確操作星座盤與定位北極星",
+          "narrationText": "使用星座盤前要先把「月日」對準「時刻」，再高舉過頭對準實際方位；如果北斗七星被遮住，還可以改用仙后座找北極星。",
+          "cognitiveChunks": [
+            "先對準日期與時刻再高舉過頭",
+            "不同季節同一時刻星空會改變"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在北半球的夜晚迷失方向時，怎麼利用天上的星座找到北方？",
+            "steps": [
+              "第 1 步：先找大熊座裡的「北斗七星」（像大湯勺）",
+              "第 2 步：從勺口兩顆星連線往勺口方向延伸約 5 倍距離，找到北極星",
+              "第 3 步：若北斗七星太低，改找 W 形的「仙后座」輔助定位北極星（正北方）"
+            ],
+            "commonErrorContrast": "常見錯誤：以為北極星是全天最亮的星星，或以為所有星星一整晚都固定在同一個高度角不動。",
+            "selfExplanationPrompt": "想一想：為什麼不同季節的同一時刻，我們在夜空中看到的主要星座會不一樣？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/science#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "中西方星座文化",
+          "topicSignalTitle": "不同文化對同一片星空的想像",
+          "narrationText": "星星並沒有真的用線連起來，而是中西方先民結合生活經驗與神話故事，將亮星連線命名以便記憶與流傳。",
+          "cognitiveChunks": [
+            "星星有青白、黃、偏紅等顏色差異",
+            "不同文化各自編織精彩的星座故事"
+          ],
+          "factGroundingSourceId": "115-s2/g5/science#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認描述星星位置的兩個要素，再開始挑戰第 1 單元！",
+          "cognitiveChunks": [
+            "方位與高度角缺一不可"
+          ],
+          "warmupCheck": {
+            "prompt": "使用星座盤觀星時，想要清楚向同學描述某顆亮星的位置，應該用哪兩個要素？",
+            "options": [
+              "氣溫與雲層厚度",
+              "星星的方位與高度角",
+              "星星的重量與風速",
+              "故事頁數與星座筆畫"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！告訴同學面向哪個「方位」以及抬頭仰望幾度的「高度角」，就能準確找到星星。",
+            "feedbackRetry": "要指出方向（東、西、南、北）和抬頭仰望的角度（0° 到 90°）喔！"
+          },
+          "factGroundingSourceId": "115-s2/g5/science#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-science-u2",
+      "stageId": "115-s2-g5-science-u2",
+      "title": "第二單元 空氣與燃燒",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "空氣組成與燃燒三要素",
+          "narrationText": "空氣中比例最多的是氮氣，其次是氧氣，還有少量二氧化碳等氣體；物質燃燒必須同時具備「可燃物、助燃物（氧氣）、達到燃點」三要素。",
+          "cognitiveChunks": [
+            "氮氣最多（約 78%）、氧氣次之（約 21%）",
+            "氧氣具助燃性（讓餘燼線香復燃）",
+            "二氧化碳不燃不助燃，使澄清石灰水變混濁"
+          ],
+          "analogyAnchor": "燃燒三要素就像一張三腳椅：可燃物、助燃物與達到燃點少了一隻腳，火就會立刻熄滅。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "氧氣 (O₂)",
+              "leftPoints": [
+                "具有助燃性，線香復燃",
+                "供呼吸與醫療急救"
+              ],
+              "rightTitle": "二氧化碳 (CO₂)",
+              "rightPoints": [
+                "不可燃也不助燃、比空氣重",
+                "用於滅火器與汽水氣泡"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "氧氣具助燃性",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "二氧化碳滅火",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/science#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "對照燃燒三要素提出滅火方法",
+          "narrationText": "滅火的原理就是破壞燃燒三要素的其中一項：蓋鍋蓋是移除助燃物、用水澆熄炭火是降溫至燃點以下、森林防火線則是移除可燃物。",
+          "cognitiveChunks": [
+            "蓋鍋蓋／蓋酒精燈：隔絕氧氣",
+            "用水澆熄炭火：降溫至燃點以下",
+            "開闢防火線：移除可燃物"
+          ],
+          "workedExampleData": {
+            "problemStatement": "為什麼炒菜油鍋起火時「蓋上鍋蓋」能滅火？而森林大火「開闢防火線」又是利用什麼原理？",
+            "steps": [
+              "第 1 步：蓋上鍋蓋——阻絕外部空氣進入，移除了「助燃物（氧氣）」",
+              "第 2 步：開闢防火線砍除樹木——把火場周邊的樹木清除，移除了「可燃物」",
+              "第 3 步：得出原則——只要拿掉三要素中的任何一項，火就會熄滅"
+            ],
+            "commonErrorContrast": "常見錯誤：把森林開闢防火線誤認為「灑水降溫」，或以為空氣中百分百都是氧氣。",
+            "selfExplanationPrompt": "想一想：如果室內發生火災且充滿濃煙，為什麼絕對不能搭乘電梯？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/science#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "安全教育：火場濃煙求生原則",
+          "topicSignalTitle": "低姿勢逃生、不搭電梯、不回頭",
+          "narrationText": "火災濃煙與高熱會往上升，應保持低姿勢沿牆壁往安全出口移動；若出口受阻，應退回安全房間關門塞縫待援。",
+          "cognitiveChunks": [
+            "濃煙往上升，保持低姿勢移動",
+            "出口受阻時關門塞縫待援"
+          ],
+          "factGroundingSourceId": "115-s2/g5/science#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認燃燒三要素的正確組合，再進入第二單元挑戰！",
+          "cognitiveChunks": [
+            "可燃物、助燃物、達到燃點"
+          ],
+          "warmupCheck": {
+            "prompt": "物質要能順利燃燒起來，必須同時具備哪三個「燃燒三要素」？",
+            "options": [
+              "氮氣、水蒸氣、陽光",
+              "可燃物、助燃物、達到燃點",
+              "二氧化碳、雨水、冰塊",
+              "金屬夾、玻璃瓶、線香"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！可燃物、助燃物（氧氣）以及達到燃點缺一不可。",
+            "feedbackRetry": "想一想生火需要「能燒的東西」、「幫忙燒的氧氣」和「夠高的溫度」喔！"
+          },
+          "factGroundingSourceId": "115-s2/g5/science#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-science-u3",
+      "stageId": "115-s2-g5-science-u3",
+      "title": "第三單元 防止生鏽與保存食物",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "鐵生鏽的條件與食物保存原理",
+          "narrationText": "鐵接觸到「水分」與「空氣（氧氣）」最容易生鏽；而食物上的黴菌喜歡「溫暖、潮濕、有養分」的環境，破壞這些條件就能防鏽與保鮮。",
+          "cognitiveChunks": [
+            "鐵生鏽需要水分與空氣（氧氣）",
+            "刷油漆、抹油隔絕水氣與空氣防鏽",
+            "黴菌適宜生長在溫暖、潮濕、有養分的環境"
+          ],
+          "analogyAnchor": "防鏽和食物保存其實是同一招：幫鐵器穿上油漆雨衣把水和空氣擋在外面；幫食物抽掉水分或放進冰箱，讓黴菌長不出來。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "防鏽原理",
+              "leftPoints": [
+                "隔絕水分與空氣",
+                "刷油漆、抹潤滑油、電鍍"
+              ],
+              "rightTitle": "食物保存原理",
+              "rightPoints": [
+                "冰箱冷凍（降溫）",
+                "乾燥劑／曬乾（減少水分）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "防鏽隔絕水與空氣",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "保鮮降溫或去水分",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/science#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "控制變因實驗設計",
+          "narrationText": "做科學實驗驗證「水分是不是造成鐵生鏽的原因」時，每次只能改變「有沒有水」這一個操縱變因，其餘所有條件都必須保持相同。",
+          "cognitiveChunks": [
+            "控制變因：每次只改變一個條件",
+            "發霉食物須整份丟棄不可食用"
+          ],
+          "workedExampleData": {
+            "problemStatement": "設計實驗驗證「水分是否會影響鐵生鏽」，兩組實驗應該怎麼設定？",
+            "steps": [
+              "第 1 步：固定控制變因——兩組都用相同材質的乾淨鐵釘，放在相同溫度的地方",
+              "第 2 步：設定操縱變因——甲組放在乾燥密封袋，乙組放在沾水潮濕密封袋",
+              "第 3 步：觀察結果——乙組潮濕鐵釘明顯生鏽，證明水分是生鏽的重要條件"
+            ],
+            "commonErrorContrast": "常見錯誤：一組放鐵釘、另一組放銅片或鋁罐，同時改變了兩種變因導致實驗不公平。",
+            "selfExplanationPrompt": "想一想：為什麼已經發霉的吐司不能把發霉那塊剝掉後繼續吃？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/science#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "生活中的有益黴菌",
+          "topicSignalTitle": "並非所有黴菌都是壞蛋",
+          "narrationText": "雖然黴菌會讓食物腐敗，但人類也善用特定安全黴菌來釀造醬油、製作發酵起司，甚至提煉救命的抗生素藥物。",
+          "cognitiveChunks": [
+            "特定黴菌可釀造醬油、起司與製藥",
+            "日常發霉腐壞食物絕對不可食用"
+          ],
+          "factGroundingSourceId": "115-s2/g5/science#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認刷油漆防鏽的原理，再進入第三單元挑戰！",
+          "cognitiveChunks": [
+            "隔絕水分與空氣就能防鏽"
+          ],
+          "warmupCheck": {
+            "prompt": "校園鐵欄杆刷油漆、腳踏車鏈條定期抹潤滑油，這些防鏽方法的主要原理是什麼？",
+            "options": [
+              "讓鐵製品變得更重",
+              "隔絕外界的水分與空氣，避免生鏽",
+              "讓鐵吸收太陽熱能融化",
+              "用氣味趕走空氣中的灰塵"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！油漆與油膜就像保護衣，把水分和空氣擋在外面。",
+            "feedbackRetry": "鐵生鏽需要水和空氣，刷上油漆就像幫它穿上雨衣把什麼擋在外面呢？"
+          },
+          "factGroundingSourceId": "115-s2/g5/science#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-science-u4",
+      "stageId": "115-s2-g5-science-u4",
+      "title": "第四單元 揭祕動物的世界",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "族群、群集與動物構造行為",
+          "narrationText": "同一地區的「同種」動物集合稱為族群，多種族群共同生活則組成群集；動物的身體構造、運動方式與多樣行為，都是為了適應環境與延續生命。",
+          "cognitiveChunks": [
+            "同種個體＝族群；多種族群＝群集",
+            "身體構造與運動方式密切相關",
+            "動物有覓食、求偶、保護、訊息傳遞等行為"
+          ],
+          "analogyAnchor": "池塘裡所有青蛙是一個「族群」，池塘裡所有的魚、青蛙和水草合起來就是一個「群集」。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "卵生動物",
+              "leftPoints": [
+                "產下受精卵在體外孵化",
+                "胚胎靠卵黃獲得養分"
+              ],
+              "rightTitle": "胎生動物",
+              "rightPoints": [
+                "胚胎在母體子宮內發育",
+                "發育成熟後直接產下幼體"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "卵生體外靠卵黃",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "胎生母體內發育",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/science#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "區分育幼行為、社會性行為與遺傳",
+          "narrationText": "母鳥餵雛鳥是「育幼行為」，蜜蜂或螞蟻分工合作築巢、跳搖擺舞報信則是「社會性行為與訊息傳遞」；子代會遺傳親代相似特徵，但也保有個體差異。",
+          "cognitiveChunks": [
+            "育幼行為提高脆弱幼體的存活率",
+            "社會性動物群體內有明確分工",
+            "子代像親代但仍有個體差異"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何分辨「母鳥餵食雛鳥」和「工蜂跳搖擺舞報信並分工採蜜」的行為類型？",
+            "steps": [
+              "第 1 步：看「母鳥餵食雛鳥」——是親代照顧養育後代，屬於「育幼行為」",
+              "第 2 步：看「工蜂跳搖擺舞報信」——是同伴之間傳遞食物位置，屬於「訊息傳遞」",
+              "第 3 步：看整個蜂群的分工——群體各有任務合作生存，屬於「社會性行為」"
+            ],
+            "commonErrorContrast": "常見錯誤：以為子代長大後必須跟親代百分百一模一樣，或把同池塘的所有不同生物都叫成「族群」。",
+            "selfExplanationPrompt": "想一想：青蛙強壯的後肢、魚類的鰭和鳥類的翅膀，各自適合哪一種運動方式？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/science#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "動物的繁殖與育幼意義",
+          "topicSignalTitle": "保護弱小幼體，提升生命延續機會",
+          "narrationText": "剛出生或孵化的幼體缺乏獨立覓食與防禦能力，親代透過築巢、哺乳、餵食與驅趕天敵，能大大提高後代存活率。",
+          "cognitiveChunks": [
+            "親代育幼大幅提高後代存活率",
+            "遺傳保有相似性也具個體差異"
+          ],
+          "factGroundingSourceId": "115-s2/g5/science#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認動物「族群」與「群集」的差別，再挑戰第 4 單元！",
+          "cognitiveChunks": [
+            "同種個體為族群，多種族群合為群集"
+          ],
+          "warmupCheck": {
+            "prompt": "同一時間、同一區域內「同一種」動物個體的集合，在生態學上稱為什麼？",
+            "options": [
+              "族群",
+              "群集",
+              "食物鏈",
+              "社會性行為"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！「同種」動物集合稱為族群，多種不同生物族群合起來才是群集。",
+            "feedbackRetry": "注意題目強調的是「同一種」動物個體的集合喔！"
+          },
+          "factGroundingSourceId": "115-s2/g5/science#u4"
+        }
+      ]
+    }
+  ]
+}

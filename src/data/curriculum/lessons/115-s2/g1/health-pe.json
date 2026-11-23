@@ -1,0 +1,750 @@
+{
+  "packId": "115-s2-g1-health-pe",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 1,
+  "subjectId": "health-pe",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-health-pe-u1",
+      "stageId": "115-s2-g1-health-pe-u1",
+      "title": "單元一、心情追追追",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "情緒調色盤與情緒處理機",
+          "narrationText": "每個人都會有開心、生氣、難過或害怕的時候！先接納自己的心情，再用「情緒處理機」的好方法溫和表達與調適。",
+          "cognitiveChunks": [
+            "開心、生氣、難過都是自然的情緒",
+            "想發脾氣時先深呼吸數一數冷靜",
+            "用畫畫、聽音樂或找大人聊聊調適"
+          ],
+          "analogyAnchor": "心情就像一盒彩色筆，每種顏色都很重要；生氣像紅色的火氣，先深呼吸就能慢慢把火氣吹涼！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "不傷人的好方法",
+              "leftPoints": [
+                "深呼吸數一數讓自己冷靜",
+                "好好說出感受或找大人聊聊"
+              ],
+              "rightTitle": "要避免的衝動行為",
+              "rightPoints": [
+                "摔東西、推人或踢椅子",
+                "躲在暗處大哭或賭氣不吃飯"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "深呼吸先冷靜",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "不動手也不摔物",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/health-pe#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "啟動情緒處理機三步驟",
+          "narrationText": "當覺得生氣或傷心快爆發時，跟著情緒處理機三步驟做就對了。",
+          "cognitiveChunks": [
+            "停下來深呼吸克制衝動",
+            "用溫和清楚的話說出感受"
+          ],
+          "workedExampleData": {
+            "problemStatement": "同學不小心弄壞你的蠟筆讓你覺得很難過或生氣時，怎麼處理最好？",
+            "steps": [
+              "第 1 步：先停下來深呼吸，數到三讓自己冷靜",
+              "第 2 步：用好話告訴對方「你弄壞我的蠟筆，我有點難過」",
+              "第 3 步：心情還是悶悶的，可以畫畫、聽音樂或找老師家人聊聊"
+            ],
+            "commonErrorContrast": "常見錯誤：立刻摔東西、推開同學，或是躲起來生悶氣不說話。",
+            "selfExplanationPrompt": "想一想：雙語單元問「How do you feel?」是在關心對方的什麼呢？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/health-pe#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "試試看，找到最合適的情緒調適方法！",
+          "cognitiveChunks": [
+            "找大人聊聊、畫畫或聽音樂能舒緩心情"
+          ],
+          "warmupCheck": {
+            "question": "心情悶悶不好時，下面哪一個方法是「情緒處理機」的好點子？",
+            "prompt": "心情悶悶不好時，下面哪一個方法是「情緒處理機」的好點子？",
+            "options": [
+              "找大人聊聊、畫畫或聽音樂",
+              "對著同學大吼大叫",
+              "賭氣一整天不吃飯"
+            ],
+            "answerIndex": 0,
+            "explanation": "找家人老師說說話、畫畫或聽音樂，能讓心情慢慢變輕鬆又不會傷到身體和朋友！",
+            "feedbackCorrect": "答對了！用溫和的方式舒緩心情最健康！",
+            "feedbackRetry": "想一想，哪一個方法能讓心情變輕鬆又不會傷到自己和別人呢？"
+          },
+          "factGroundingSourceId": "115-s2/g1/health-pe#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-health-pe-u2",
+      "stageId": "115-s2-g1-health-pe-u2",
+      "title": "單元二、男女齊步走",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "做身體的主人，尊重彼此分工",
+          "narrationText": "泳衣和內衣褲遮住的地方是身體隱私部位！每個人都有身體界線（Body Boundary），男生女生也要互相尊重與合理分工。",
+          "cognitiveChunks": [
+            "泳衣內衣褲遮住處是隱私部位",
+            "遇不舒服碰觸勇敢說不要並找大人",
+            "依興趣和能力分工，兩性互相尊重"
+          ],
+          "analogyAnchor": "身體界線就像保護自己的隱形泡泡，碰觸好朋友前要先問過同意，別人讓你不舒服也要勇敢說不！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "做身體的主人",
+              "leftPoints": [
+                "保護泳衣內衣褲遮住的隱私部位",
+                "想抱抱牽手前先問過對方"
+              ],
+              "rightTitle": "兩性互相尊重",
+              "rightPoints": [
+                "依興趣和能力分配打掃與家務",
+                "欣賞男生畫畫或女生踢球的才華"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "保護身體隱私處",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "依興趣能力分工",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/health-pe#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "遇到不舒服碰觸的應變三步",
+          "narrationText": "當有人碰觸你的身體讓你覺得怪怪的、不舒服時，記住保護自己的三個步驟。",
+          "cognitiveChunks": [
+            "大聲說不要、趕快離開現場",
+            "告訴爸媽、老師或警察求助"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如果有人碰觸你的身體讓你覺得「不舒服、怪怪的」，應該怎麼辦？",
+            "steps": [
+              "第 1 步：勇敢大聲地說「不要」",
+              "第 2 步：趕快離開現場到安全的地方",
+              "第 3 步：立刻告訴爸爸媽媽、老師或警察叔叔求助"
+            ],
+            "commonErrorContrast": "常見錯誤：不好意思拒絕而忍耐不出聲，或聽對方說「這是祕密」就不告訴家人。",
+            "selfExplanationPrompt": "想一想：家裡做家事或學校打掃時，要看性別還是看每個人的興趣和能力來分工？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/health-pe#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "考考你關於身體隱私部位的小知識！",
+          "cognitiveChunks": [
+            "泳衣內衣褲遮住的地方是隱私部位"
+          ],
+          "warmupCheck": {
+            "question": "身體上有不隨便讓別人看或摸的「隱私部位」，通常是指哪些地方？",
+            "prompt": "身體上有不隨便讓別人看或摸的「隱私部位」，通常是指哪些地方？",
+            "options": [
+              "穿泳衣和內衣褲遮住的地方",
+              "用來寫字的兩個手掌",
+              "每天穿鞋子的兩隻腳"
+            ],
+            "answerIndex": 0,
+            "explanation": "穿泳衣和內衣褲遮蓋住的胸部、臀部與私密處都是身體的隱私部位，要好好保護！",
+            "feedbackCorrect": "答對了！泳衣和內衣褲遮住的部位就是隱私部位！",
+            "feedbackRetry": "想一想，去游泳的時候哪裡會用泳衣或泳褲遮起來呢？"
+          },
+          "factGroundingSourceId": "115-s2/g1/health-pe#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-health-pe-u3",
+      "stageId": "115-s2-g1-health-pe-u3",
+      "title": "單元三、疾病小百科",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "用藥停看聽，預防重於治療",
+          "narrationText": "生病不舒服要趕快告訴大人去看醫生，勇敢配合醫護人員！看清楚藥袋說明按時吃藥，平常勤洗手、均衡飲食就能增強抵抗力。",
+          "cognitiveChunks": [
+            "生病告訴大人就醫並配合醫護人員",
+            "看清藥袋說明由大人陪同按時吃藥",
+            "勤用肥皂洗手預防腸病毒與流感"
+          ],
+          "analogyAnchor": "健康習慣就像幫身體穿上隱形防護衣，勤洗手、早睡早起多運動，就能把腸病毒和流感擋在外面！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "生病不舒服：告訴大人看醫生",
+                "安全用藥：看清藥袋配溫開水吃",
+                "預防疾病：肥皂洗手、早睡多運動"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "看清藥袋按時吃",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "肥皂洗手防病毒",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/health-pe#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "看懂藥袋安全吃藥",
+          "narrationText": "領到藥包時不可以隨便亂吃，要先看清楚藥袋上的重要資訊。",
+          "cognitiveChunks": [
+            "確認姓名、吃藥時間與每次份量",
+            "由大人核對後配溫開水服用"
+          ],
+          "workedExampleData": {
+            "problemStatement": "生病領藥回家後，怎麼吃藥才安全又有效？",
+            "steps": [
+              "第 1 步：請大人幫忙核對藥袋上的姓名、時間和每次吃幾顆",
+              "第 2 步：依照醫師或藥師指示按時吃藥，配溫開水吞服",
+              "第 3 步：絕不自己亂停藥，也不吃別人的藥或把甜藥水一次喝光"
+            ],
+            "commonErrorContrast": "常見錯誤：覺得藥苦就偷偷倒掉，或是拿同學剩的感冒藥來吃。",
+            "selfExplanationPrompt": "想一想：平常怎麼做可以增強身體抵抗力，讓「預防重於治療」發揮效果？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/health-pe#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "檢查看看防範腸病毒和流感的最好習慣！",
+          "cognitiveChunks": [
+            "勤用肥皂洗手、生病戴口罩防傳染"
+          ],
+          "warmupCheck": {
+            "question": "想預防「腸病毒」和「流感」互相傳染，平常哪一個習慣最重要？",
+            "prompt": "想預防「腸病毒」和「流感」互相傳染，平常哪一個習慣最重要？",
+            "options": [
+              "常用肥皂洗手，生病時戴口罩",
+              "和感冒的同學共用同一根吸管",
+              "下課不洗手直接用手拿麵包吃"
+            ],
+            "answerIndex": 0,
+            "explanation": "勤用肥皂洗手、生病戴口罩並保持距離，能有效阻擋腸病毒與流感傳播！",
+            "feedbackCorrect": "答對了！用肥皂勤洗手和戴口罩是最好的防護方法！",
+            "feedbackRetry": "病毒常常躲在手心和飛沫裡，要用什麼洗手和保護口鼻呢？"
+          },
+          "factGroundingSourceId": "115-s2/g1/health-pe#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-health-pe-u4",
+      "stageId": "115-s2-g1-health-pe-u4",
+      "title": "單元四、跳一跳、動一動",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "伸展、跳躍與我愛唱跳",
+          "narrationText": "運動前後都要慢慢做伸展保護肌肉！練習單腳跳、雙腳跳時膝蓋微彎緩衝落地，跟著音樂唱跳更要留出安全空間。",
+          "cognitiveChunks": [
+            "運動前後慢慢伸展不憋氣不猛甩",
+            "跳躍落地膝蓋微彎、雙手擺動平衡",
+            "唱跳律動前與同學保持安全空間"
+          ],
+          "analogyAnchor": "跳躍落地時膝蓋微微彎曲就像裝了小彈簧，能輕輕接住身體的重量不震傷關節！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "伸展：慢慢拉長到微微緊就好",
+                "跳躍：看前方、雙手擺動保持平衡",
+                "落地：膝蓋微彎像彈簧輕輕緩衝"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "伸展慢慢做不憋氣",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "落地膝蓋微彎緩衝",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/health-pe#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "安全伸展與跳躍落地",
+          "narrationText": "學會保護關節與維持平衡，跳一跳、動一動就會更輕鬆！",
+          "cognitiveChunks": [
+            "雙腳硬直落地容易震傷腳跟膝蓋",
+            "場地保持乾爽並清空障礙物"
+          ],
+          "workedExampleData": {
+            "problemStatement": "練習單雙腳跳躍並安全落地時，手腳要怎麼配合？",
+            "steps": [
+              "第 1 步：眼睛看準前方要落地的目標位置",
+              "第 2 步：雙手自然擺動幫忙保持平衡，不插口袋",
+              "第 3 步：雙腳落地瞬間膝蓋微彎緩衝，減輕震動"
+            ],
+            "commonErrorContrast": "常見錯誤：雙腳直直硬邦邦落地，或是雙手插在口袋裡跳躍。",
+            "selfExplanationPrompt": "想一想：運動結束後，為什麼還要做一次伸展運動呢？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/health-pe#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "看看你記不記得安全落地的小秘訣！",
+          "cognitiveChunks": [
+            "跳躍落地膝蓋微彎能保護關節"
+          ],
+          "warmupCheck": {
+            "question": "練習向前跳躍、雙腳落地的時候，膝蓋要怎麼做才不會受傷？",
+            "prompt": "練習向前跳躍、雙腳落地的時候，膝蓋要怎麼做才不會受傷？",
+            "options": [
+              "膝蓋微彎輕輕緩衝落地",
+              "雙腳伸得直直硬邦邦踩下",
+              "用屁股重重坐到地板上"
+            ],
+            "answerIndex": 0,
+            "explanation": "落地時膝蓋微彎就像彈簧一樣緩衝力量，能保護腳跟與膝蓋不受傷！",
+            "feedbackCorrect": "答對了！膝蓋微彎輕輕緩衝就像小彈簧一樣安全！",
+            "feedbackRetry": "想一想，小青蛙落地時腿會彎彎的還是像木頭一樣直直的呢？"
+          },
+          "factGroundingSourceId": "115-s2/g1/health-pe#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-health-pe-u5",
+      "stageId": "115-s2-g1-health-pe-u5",
+      "title": "單元五、高手來過招",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "功夫小子與童玩世界",
+          "narrationText": "化身功夫小子練好「拳」與「掌」，小組合作編排動作；再走進童玩世界體驗傳統遊戲，提升體能和手腳協調性！",
+          "cognitiveChunks": [
+            "握拳紮實、出掌五指併攏伸直",
+            "眼睛看前方、雙腳踩穩站挺直",
+            "體驗傳統童玩守規則、保持安全距離"
+          ],
+          "analogyAnchor": "練功夫就像站穩的小大樹，雙腳踩穩地板、腰背挺直、眼神看前方，出拳出掌就有滿滿精神！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "功夫小子基本功",
+              "leftPoints": [
+                "握拳紮實、出掌五指併攏伸直",
+                "小組討論順序並配合節奏創作"
+              ],
+              "rightTitle": "童玩世界樂趣多",
+              "rightPoints": [
+                "傳統童玩提升體能與手腳協調",
+                "排隊輪流玩、留意距離不碰撞"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "出掌五指併攏直",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "傳統童玩練協調",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/health-pe#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "小組合作創作功夫動作",
+          "narrationText": "和組員一起編排武術創作動作遊戲時，大家有默契最重要。",
+          "cognitiveChunks": [
+            "手裡不可拿尖銳物品、不打同學",
+            "一起商量動作順序並數節拍"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小組合作把武術動作編排成「功夫創作遊戲」時，怎麼做最順利？",
+            "steps": [
+              "第 1 步：確認彼此之間的安全距離，手裡不拿危險物品",
+              "第 2 步：大家一起討論動作順序，誰先出拳、誰先出掌",
+              "第 3 步：數好節拍一起練習，眼神看前方把動作做整齊"
+            ],
+            "commonErrorContrast": "常見錯誤：每個人各自亂打完全不看同伴，或意見不同就生氣不動。",
+            "selfExplanationPrompt": "想一想：玩長輩小時候玩過的傳統童玩，對我們的身體有什麼幫助？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/health-pe#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "考考你功夫小子的拳和掌怎麼擺！",
+          "cognitiveChunks": [
+            "握拳紮實、出掌五指併攏伸直"
+          ],
+          "warmupCheck": {
+            "question": "在「功夫小子」練習武術的「拳」與「掌」動作時，手部姿勢怎麼擺？",
+            "prompt": "在「功夫小子」練習武術的「拳」與「掌」動作時，手部姿勢怎麼擺？",
+            "options": [
+              "握拳紮實、出掌五指併攏伸直",
+              "手指頭全部軟趴趴地垂下來",
+              "手裡握著鉛筆出拳"
+            ],
+            "answerIndex": 0,
+            "explanation": "握拳要緊實有力、出掌時五根手指併攏伸直，才帥氣有精神又安全！",
+            "feedbackCorrect": "答對了！握拳紮實、出掌五指併攏伸直最有功夫架勢！",
+            "feedbackRetry": "想一想，小功夫高手出「掌」時手指是張開垂下，還是併攏伸直呢？"
+          },
+          "factGroundingSourceId": "115-s2/g1/health-pe#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-health-pe-u6",
+      "stageId": "115-s2-g1-health-pe-u6",
+      "title": "單元六、我愛運動",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "天天動一動、滾翻與平衡遊戲",
+          "narrationText": "常運動讓精神更好更強壯！利用下課和假日多活動，愛護校園運動場地，再挑戰滾翻、支撐與有趣的平衡遊戲！",
+          "cognitiveChunks": [
+            "常運動更有活力、精神好又強壯",
+            "遵守校園運動場地規定與愛護器材",
+            "平衡遊戲時張開雙手、眼睛看前方"
+          ],
+          "analogyAnchor": "走平衡木時張開雙手就像小飛機的翅膀，眼睛看著前方固定一點，身體就會穩穩不搖晃！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "下課去操場活動、遵守場地規定",
+                "滾翻時低頭縮下巴用背部滾過去",
+                "平衡遊戲張開雙手眼睛看前方"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "愛護運動場與器材",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "滾翻低頭縮緊下巴",
+                "anchorPointId": "step2"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/health-pe#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "滾翻與支撐的安全要領",
+          "narrationText": "在軟墊上做滾翻和支撐遊戲時，保護頭頸和收緊肚子最關鍵。",
+          "cognitiveChunks": [
+            "前滾翻低頭縮下巴用背部滾",
+            "支撐時五指張開推穩墊子"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在軟墊上玩「滾出活力」滾翻遊戲時，頭和脖子要怎麼擺才安全？",
+            "steps": [
+              "第 1 步：雙手五指張開平貼墊子推穩",
+              "第 2 步：低頭縮緊下巴看向肚臍位置",
+              "第 3 步：讓圓圓的背部順順滾過去，不可以用頭頂撞墊子"
+            ],
+            "commonErrorContrast": "常見錯誤：把頭抬高用頭頂撞擊墊子，或是把脖子歪向一邊。",
+            "selfExplanationPrompt": "想一想：走在平衡木上快搖晃時，雙手插口袋好還是向兩側張開好？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/health-pe#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "答對這題平衡遊戲小問題就出發挑戰！",
+          "cognitiveChunks": [
+            "張開雙手、眼睛看前方有助平衡"
+          ],
+          "warmupCheck": {
+            "question": "走在地板線條或低矮平衡木玩「平衡遊戲」時，怎麼做走得最穩？",
+            "prompt": "走在地板線條或低矮平衡木玩「平衡遊戲」時，怎麼做走得最穩？",
+            "options": [
+              "張開雙手幫忙平衡，眼睛看前方",
+              "把兩隻眼睛緊緊閉起來大步跑",
+              "雙手抱在胸前單腳快跳"
+            ],
+            "answerIndex": 0,
+            "explanation": "雙手向兩側張開就像飛機翅膀，眼睛平視前方看準線條慢慢走，最容易保持平衡！",
+            "feedbackCorrect": "答對了！張開雙手、眼睛看前方就能走得穩穩的！",
+            "feedbackRetry": "想一想，走平衡木時手臂可以像什麼一樣張開幫忙呢？"
+          },
+          "factGroundingSourceId": "115-s2/g1/health-pe#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-health-pe-u7",
+      "stageId": "115-s2-g1-health-pe-u7",
+      "title": "單元七、球類運動樂趣多",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u7-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "氣球擊球、拋球、拍球與踢球",
+          "narrationText": "從輕飄飄的氣球開始學擊球，再練習百發百中拋球、五指張開拍球，還有用腳底停球和腳內側踢球的踢踢樂！",
+          "cognitiveChunks": [
+            "氣球掉得慢又輕，容易接拍成功",
+            "拍球要五指張開用手指和掌心控球",
+            "用腳底踩或腳內側擋停球、腳內側踢"
+          ],
+          "analogyAnchor": "五根手指張開拍球就像幫球搭了一個小帳篷，輕輕壓著它彈跳，球就不會亂跑囉！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "手部控球技巧",
+              "leftPoints": [
+                "氣球：眼睛看球輕輕往上托拍",
+                "拍球：五指張開用手指掌心控球"
+              ],
+              "rightTitle": "腳部踢停球技巧",
+              "rightPoints": [
+                "停球：用腳底輕踩或腳內側擋住",
+                "傳球：用腳內側對準目標輕踢"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "五指張開拍球穩",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "腳內側踢球最準",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/health-pe#u7"
+        },
+        {
+          "sceneId": "u7-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "百發百中拋球與拍球控球",
+          "narrationText": "不管是把球拋進籃子裡，還是原地拍球彈跳，眼睛和手都要好好配合。",
+          "cognitiveChunks": [
+            "拋球要先看準目標、控制力氣",
+            "拍球不握拳頭捶，要用五指掌心"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在「拍球樂無窮」練習用手原地拍球彈跳時，怎麼拍球最穩？",
+            "steps": [
+              "第 1 步：五根手指自然張開，手腕放輕鬆",
+              "第 2 步：順著球彈起來的節奏，用手指和手掌心輕壓控球",
+              "第 3 步：邊走邊拍時抬頭留意前方路況與球的位置"
+            ],
+            "commonErrorContrast": "常見錯誤：把手握成拳頭用力捶球，或是只用一根小指頭點球。",
+            "selfExplanationPrompt": "想一想：用腳把球傳給前面的同學時，用腳尖還是腳內側方向比較準？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/health-pe#u7"
+        },
+        {
+          "sceneId": "u7-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "檢查看看踢踢樂的踢球小秘訣！",
+          "cognitiveChunks": [
+            "腳內側面積大又平整，傳球最準"
+          ],
+          "warmupCheck": {
+            "question": "在操場練習用腳把球傳給前面的同學時，用腳的哪裡踢方向最準？",
+            "prompt": "在操場練習用腳把球傳給前面的同學時，用腳的哪裡踢方向最準？",
+            "options": [
+              "用腳內側對準目標輕輕踢過去",
+              "用腳尖閉眼用力往天上高高踢",
+              "兩隻腳一起跳起來踩在球上"
+            ],
+            "answerIndex": 0,
+            "explanation": "腳內側接觸面積大又平整，對準同學方向輕推過去最準確又好接！",
+            "feedbackCorrect": "答對了！用腳內側踢球方向最穩最準！",
+            "feedbackRetry": "想一想，腳掌靠大拇指那一側平面大大的，是不是比較容易踢對方向呢？"
+          },
+          "factGroundingSourceId": "115-s2/g1/health-pe#u7"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-health-pe-u8",
+      "stageId": "115-s2-g1-health-pe-u8",
+      "title": "單元八、玩水樂無窮",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u8-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "夏日戲水裝備與泳池安全",
+          "narrationText": "夏天玩水好清涼！一定要有大人或救生員陪伴，換上合身泳衣、泳帽和蛙鏡，入池前先沖洗身體和做暖身操！",
+          "cognitiveChunks": [
+            "有大人或救生員陪伴才可戲水",
+            "穿戴合身泳衣、泳帽和蛙鏡",
+            "入池前沖洗身體、池邊慢走不奔跑"
+          ],
+          "analogyAnchor": "泳帽和蛙鏡就像游泳小超人的防護裝備，泳帽不讓頭髮掉進水裡、蛙鏡幫眼睛擋開池水看清楚！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "裝備：挑合身泳衣、泳帽與蛙鏡",
+                "入池前：沖洗身體、踩洗腳池並暖身",
+                "池邊：慢慢走不奔跑不推擠"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "泳衣泳帽和蛙鏡",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "池邊慢走不奔跑",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/health-pe#u8"
+        },
+        {
+          "sceneId": "u8-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "泳池安全與衛生三守則",
+          "narrationText": "進到游泳池裡，安全規範和衛生常識一樣重要喔！",
+          "cognitiveChunks": [
+            "發燒或有未癒合傷口不可下水",
+            "下水前做暖身並拍濕手腳適應水溫"
+          ],
+          "workedExampleData": {
+            "problemStatement": "到合法游泳池玩水時，下水前後要遵守哪些安全與衛生規範？",
+            "steps": [
+              "第 1 步：確認身體健康沒有發燒或未癒合傷口，再換好泳衣泳帽蛙鏡",
+              "第 2 步：入池前先用清水沖洗身體、走過洗腳池，並做暖身操拍濕手腳",
+              "第 3 步：在濕滑的池邊慢慢走不奔跑，全程有大人或救生員陪伴"
+            ],
+            "commonErrorContrast": "常見錯誤：在池邊奔跑推擠，或是身上有破皮傷口、發燒還硬要下水。",
+            "selfExplanationPrompt": "想一想：為什麼下水游泳一定要戴「泳帽」和「蛙鏡」呢？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/health-pe#u8"
+        },
+        {
+          "sceneId": "u8-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "檢查看看泳池衛生與安全常識！",
+          "cognitiveChunks": [
+            "入池前沖洗身體保持池水乾淨"
+          ],
+          "warmupCheck": {
+            "question": "進游泳池下水之前，為什麼每個人都要先「沖洗身體」並踩過洗腳池？",
+            "prompt": "進游泳池下水之前，為什麼每個人都要先「沖洗身體」並踩過洗腳池？",
+            "options": [
+              "洗掉汗水灰塵，保持池水乾淨衛生",
+              "比賽誰在沖水區把水花潑得最高",
+              "把全身普通衣服弄濕"
+            ],
+            "answerIndex": 0,
+            "explanation": "下水前用清水沖掉身上的汗水和灰塵，大家共用的游泳池才會保持乾淨清澈喔！",
+            "feedbackCorrect": "答對了！沖乾淨再下水，泳池水才會乾淨又衛生！",
+            "feedbackRetry": "如果大家滿身泥沙汗水直接跳下去，游泳池的水會變得怎麼樣呢？"
+          },
+          "factGroundingSourceId": "115-s2/g1/health-pe#u8"
+        }
+      ]
+    }
+  ]
+}

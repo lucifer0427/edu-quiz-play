@@ -1,0 +1,368 @@
+{
+  "packId": "115-s1-g2-english",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 2,
+  "subjectId": "english",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-english-u1",
+      "stageId": "115-s1-g2-english-u1",
+      "title": "第1–5週：聽！安全與自然的交響曲",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "用耳朵聽世界與安全指令",
+          "narrationText": "從繪本《So Many Sounds》裡，我們學會聽大自然與交通的聲音，也要學會重要的安全英文指令。",
+          "cognitiveChunks": [
+            "認讀字母 Aa 到 Mm 的大小寫",
+            "Listen! 仔細聽、Stop! 停下來",
+            "Louder! 大聲點、Hurry up! 快一點"
+          ],
+          "analogyAnchor": "就像過馬路聽到救護車或平交道聲音要立刻停下來，英文的 Stop! 就是提醒大家保護自己的紅燈！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "注意安全指令",
+              "leftPoints": [
+                "Listen!（仔細聽）",
+                "Stop!（停下來）"
+              ],
+              "rightTitle": "課堂常用指令",
+              "rightPoints": [
+                "Louder, please!（請大聲點）",
+                "Hurry up!（快一點）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "聽到Stop要停下",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "請人幫忙加please",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/english#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分清楚大小寫字母與常用指令",
+          "narrationText": "認讀字母 Aa 到 Mm 時，要特別注意方向相反或長得像的字母，例如 b 和 d、M 和 W。",
+          "cognitiveChunks": [
+            "對照大寫和小寫字母形狀",
+            "搭配情境記住指令意思"
+          ],
+          "workedExampleData": {
+            "problemStatement": "下面哪一組「大寫和小寫」英文字母的配對完全正確？",
+            "steps": [
+              "第 1 步：檢查「B - d」：大寫 B 應該配小寫 b，不是 d",
+              "第 2 步：檢查「H - n」：大寫 H 應該配小寫 h，不是 n",
+              "第 3 步：檢查「F - f」：大小寫完全配對正確"
+            ],
+            "commonErrorContrast": "常見錯誤：沒有看清楚小寫字母肚子朝左還是朝右，把 b 和 d 混在一起。",
+            "selfExplanationPrompt": "想一想：想請同學「再大聲一點」，英文要說 Stop! 還是 Louder!？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/english#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先練習這題安全指令，再進場挑戰！",
+          "cognitiveChunks": [
+            "遇到危險時大聲喊 Stop!"
+          ],
+          "warmupCheck": {
+            "prompt": "看到馬路上有車子開過來，想提醒同伴「停下來！」，要說哪一句英文？",
+            "options": [
+              "Stop!",
+              "Hurry up!",
+              "Woof!"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！Stop! 就是「停下來！」的意思。",
+            "feedbackRetry": "紅燈或有車子來時要先停下腳步，哪一個字是「停」呢？"
+          },
+          "factGroundingSourceId": "115-s1/g2/english#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-english-u2",
+      "stageId": "115-s1-g2-english-u2",
+      "title": "第6–9週：金牌安全小將",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "安全動作與禮貌道歉對話",
+          "narrationText": "從龜兔賽跑《The Hare and the Tortoise》學會跑 Run 和爬 Crawl，也學會早上問好與撞到人時怎麼道歉。",
+          "cognitiveChunks": [
+            "早上見面說 Good morning.",
+            "撞到人說 Sorry.，回答 That is OK.",
+            "Run 是跑，Crawl 是慢慢爬"
+          ],
+          "analogyAnchor": "就像龜兔賽跑一樣，平時過馬路不能亂跑（Run），撞到人要立刻說對不起（Sorry.），這樣才是金牌安全小將！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "動作單字",
+              "leftPoints": [
+                "Run（跑、奔跑）",
+                "Crawl（爬、爬行）"
+              ],
+              "rightTitle": "禮貌對話",
+              "rightPoints": [
+                "A: Sorry.（對不起。）",
+                "B: That is OK.（沒關係。）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "Run是跑Crawl是爬",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "道歉說Sorry",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/english#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "怎麼回答別人的「Sorry.」？",
+          "narrationText": "當別人不小心撞到你、跟你說 Sorry. 時，有禮貌地回答 That is OK. 能讓彼此都開心。",
+          "cognitiveChunks": [
+            "聽到 Sorry. 回答 That is OK.",
+            "不要和 Good morning. 搞混"
+          ],
+          "workedExampleData": {
+            "problemStatement": "同學不小心踩到你的鞋子並說「Sorry.」，要怎麼回答「沒關係。」？",
+            "steps": [
+              "第 1 步：聽懂對方的「Sorry.」是在說對不起",
+              "第 2 步：挑選表示「沒關係」的句子：That is OK.",
+              "第 3 步：微笑回答「That is OK.」"
+            ],
+            "commonErrorContrast": "常見錯誤：聽到「Sorry.」卻誤答成「Stop!（停下來）」或「Good morning.（早安）」。",
+            "selfExplanationPrompt": "想一想：早上進校門看到導護老師時，要用哪一句打招呼？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/english#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "練習一題早晨問候語吧！",
+          "cognitiveChunks": [
+            "morning＝早上"
+          ],
+          "warmupCheck": {
+            "prompt": "早上看到老師和同學時，說「早安。」要用哪一句英文？",
+            "options": [
+              "Sorry.",
+              "Good morning.",
+              "That is OK."
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！Good morning. 就是「早安。」。",
+            "feedbackRetry": "找一找有表示早上的 morning 那一句喔！"
+          },
+          "factGroundingSourceId": "115-s1/g2/english#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-english-u3",
+      "stageId": "115-s1-g2-english-u3",
+      "title": "第10–13週：社區小探險：我的安全好鄰居",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "社區安全幫手與分享好點子",
+          "narrationText": "在《Our Neighbourhood》裡，我們認識社區裡的警察局、醫務室與愛心服務站，也學會用英文說「我有個好主意！」。",
+          "cognitiveChunks": [
+            "I have an idea!（我有一個主意！）",
+            "Good idea!（好主意！）",
+            "迷路或受傷找安全好鄰居幫忙"
+          ],
+          "analogyAnchor": "和小組一起想安全方法時，想到點子就說 I have an idea!，大家聽了覺得很棒就說 Good idea!！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "step1": "想到安全方法",
+              "step2": "說 I have an idea!",
+              "step3": "大家回答 Good idea!"
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "idea就是主意",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "稱讚說Good idea",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/english#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "排排看 Aa 到 Mm 的字母順序",
+          "narrationText": "這學期要熟練 Aa 到 Mm 共 13 個字母，記得多唱幾次字母歌幫助記順序。",
+          "cognitiveChunks": [
+            "從 a 數到 m 的順序",
+            "認出大寫和小寫配對"
+          ],
+          "workedExampleData": {
+            "problemStatement": "從小寫 a 往後數到 m，緊接在「c, d, e」後面的兩個字母是哪一組？",
+            "steps": [
+              "第 1 步：從頭念一遍：a, b, c, d, e",
+              "第 2 步：接著往下念兩個字母：f, g",
+              "第 3 步：確認順序 a, b, c, d, e, f, g 正確"
+            ],
+            "commonErrorContrast": "常見錯誤：跳過 f 直接念成 g, h，或是把順序倒過來念。",
+            "selfExplanationPrompt": "想一想：Aa 到 Mm 的最後一個字母是大寫和小寫的哪一個？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/english#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "練習一題社區互動對話吧！",
+          "cognitiveChunks": [
+            "稱讚別人的點子說 Good idea!"
+          ],
+          "warmupCheck": {
+            "prompt": "同學說「I have an idea!」，你覺得他的想法很棒，要回答哪一句？",
+            "options": [
+              "Good idea!",
+              "Sorry.",
+              "Stop!"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！Good idea! 就是「好主意！」的意思。",
+            "feedbackRetry": "想一想，哪一句裡面有「好（Good）」和「主意（idea）」呢？"
+          },
+          "factGroundingSourceId": "115-s1/g2/english#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-english-u4",
+      "stageId": "115-s1-g2-english-u4",
+      "title": "第14–21週：分享的快樂：安全與自然的共好行動",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "分享點心與禮貌道謝的三句話",
+          "narrationText": "讀完《The Doorbell Rang》，我們學會和朋友分享的快樂，也學會送東西、說謝謝和不客氣的英文對話。",
+          "cognitiveChunks": [
+            "送東西說 This is for you.",
+            "收到說 Thank you.",
+            "回答說 You're welcome."
+          ],
+          "analogyAnchor": "就像把餅乾遞給好朋友時說「這是給你的」，朋友開心說「謝謝」，你微笑回「不客氣」，分享讓大家都開心！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "step1": "This is for you.（這是給你的）",
+              "step2": "Thank you.（謝謝你）",
+              "step3": "You're welcome.（不客氣）"
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "送出說for you",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "回禮說welcome",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/english#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分清楚「謝謝」和「不客氣」",
+          "narrationText": "對話時要先聽清楚別人說什麼，才能接出正確的禮貌回答。",
+          "cognitiveChunks": [
+            "收到東西才說 Thank you.",
+            "聽到 Thank you. 才說 You're welcome."
+          ],
+          "workedExampleData": {
+            "problemStatement": "朋友送給你一張貼紙並說「This is for you.」，你收下時應該回答什麼？",
+            "steps": [
+              "第 1 步：對方對你說「This is for you.（這是給你的）」",
+              "第 2 步：我們收到禮物要先道謝",
+              "第 3 步：開心地說「Thank you.（謝謝你。）」"
+            ],
+            "commonErrorContrast": "常見錯誤：還沒說「Thank you.」，就直接回答「You're welcome.（不客氣）」。",
+            "selfExplanationPrompt": "想一想：當朋友對你說「Thank you.」時，換你要回答哪一句？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/english#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "試試看這題分享禮貌對話！",
+          "cognitiveChunks": [
+            "You're welcome.＝不客氣"
+          ],
+          "warmupCheck": {
+            "prompt": "聽到同學對你說「Thank you.」時，回答「不客氣。」要說哪一句英文？",
+            "options": [
+              "Come back!",
+              "Hurry up!",
+              "You're welcome."
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！You're welcome. 就是「不客氣。」。",
+            "feedbackRetry": "別人說謝謝的時候，要微笑說「不客氣（You're welcome.）」喔！"
+          },
+          "factGroundingSourceId": "115-s1/g2/english#u4"
+        }
+      ]
+    }
+  ]
+}

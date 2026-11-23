@@ -1,0 +1,385 @@
+{
+  "packId": "115-s2-g1-minnan",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 1,
+  "subjectId": "minnan",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-minnan-u1",
+      "stageId": "115-s2-g1-minnan-u1",
+      "title": "一、歡喜去學校",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "歡喜去學校與學校的圖書館",
+          "narrationText": "每天「歡喜（開心）」去學校！下課可以約朋友「咱做伙去圖書館看冊，好無？」，在圖書館輕聲細語、上下樓梯慢慢走最安全！",
+          "cognitiveChunks": [
+            "歡喜＝開心、高興的心情",
+            "圖書館安靜看書借書、操場跑跳運動",
+            "走廊樓梯慢慢走扶扶手不奔跑"
+          ],
+          "analogyAnchor": "學校的圖書館就像知識寶庫，輕輕走進去安靜看書，就能找到好多有趣的故事寶藏！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "圖書館（看冊、借冊）",
+              "leftPoints": [
+                "輕聲細語安靜閱讀",
+                "不奔跑、不爬高書架"
+              ],
+              "rightTitle": "操場（運動、做體操）",
+              "rightPoints": [
+                "空間寬敞適合跑步做操",
+                "約朋友「咱做伙去…」親切有禮"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "圖書館安靜看冊",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "操場做體操運動",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/minnan#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "親切邀請同學與校園安全",
+          "narrationText": "用閩南語約好朋友一起去圖書館看書，同時記得校園安全守則喔。",
+          "cognitiveChunks": [
+            "邀請句型「咱做伙去…好無？」",
+            "樓梯走廊慢走不推擠"
+          ],
+          "workedExampleData": {
+            "problemStatement": "下課時想約好朋友一起去圖書館看書，用閩南語怎麼說最親切？",
+            "steps": [
+              "第 1 步：用「咱做伙（我們一起）」表示熱情邀請",
+              "第 2 步：說出地點和事情「去圖書館看冊」",
+              "第 3 步：加上「好無？（好嗎？）」禮貌詢問對方意願"
+            ],
+            "commonErrorContrast": "常見錯誤：用命令的口氣叫同學不要去，或是拿著書本在走廊上奔跑。",
+            "selfExplanationPrompt": "想一想：如果在圖書館找不到書或拿不到高處的書，應該自己爬書架還是請老師志工幫忙？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/minnan#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "先猜猜單元名稱裡的「歡喜」是什麼意思！",
+          "cognitiveChunks": [
+            "歡喜＝很開心、高興"
+          ],
+          "warmupCheck": {
+            "question": "單元名稱〈歡喜去學校〉裡，「歡喜」是什麼心情呢？",
+            "prompt": "單元名稱〈歡喜去學校〉裡，「歡喜」是什麼心情呢？",
+            "options": [
+              "很開心",
+              "很生氣",
+              "很害怕"
+            ],
+            "answerIndex": 0,
+            "explanation": "閩南語的「歡喜」就是開心、高興的意思！每天開開心心上學最快樂！",
+            "feedbackCorrect": "答對了！「歡喜」就是很開心的意思！",
+            "feedbackRetry": "想一想，上學跟好朋友見面時心裡是什麼高興的感覺呢？"
+          },
+          "factGroundingSourceId": "115-s2/g1/minnan#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-minnan-u2",
+      "stageId": "115-s2-g1-minnan-u2",
+      "title": "二、彩色的世界",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "水果名稱與校園色彩",
+          "narrationText": "看「鳥鼠（小老鼠）」吃「菝仔（芭樂）」！我們還要認識「弓蕉（香蕉）」和各種水果，吃水果要感恩農夫不浪費，並用「紅、青、白」形容美麗的學校！",
+          "cognitiveChunks": [
+            "鳥鼠＝小老鼠、食菝仔＝吃芭樂",
+            "弓蕉＝香蕉，吃水果惜物不浪費",
+            "用「紅、青、白」描述校園色彩"
+          ],
+          "analogyAnchor": "「弓蕉」彎彎的像一把弓，一口吃下香香甜甜的；「菝仔」綠綠脆脆的，都是營養好水果！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "動物與水果詞彙",
+              "leftPoints": [
+                "鳥鼠（小老鼠）、食（吃）",
+                "菝仔（芭樂）、弓蕉（香蕉）"
+              ],
+              "rightTitle": "校園顏色與惜物",
+              "rightPoints": [
+                "紅花、白雲、青（綠）葉",
+                "「食果子，拜樹頭」惜物不浪費"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "鳥鼠是可愛小老鼠",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "菝仔芭樂、弓蕉香蕉",
+                "anchorPointId": "left"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/minnan#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "拆解〈鳥鼠食菝仔〉課名意思",
+          "narrationText": "把閩南語詞語一個一個拆開來看意思，就會覺得超簡單！",
+          "cognitiveChunks": [
+            "鳥鼠＝小老鼠",
+            "食＝吃、菝仔＝芭樂"
+          ],
+          "workedExampleData": {
+            "problemStatement": "第二課課名〈鳥鼠食菝仔〉整句是什麼意思呢？",
+            "steps": [
+              "第 1 步：「鳥鼠」是指小老鼠",
+              "第 2 步：「食」是吃東西的「吃」",
+              "第 3 步：「菝仔」是綠皮脆脆的芭樂，合起來就是「小老鼠吃芭樂」"
+            ],
+            "commonErrorContrast": "常見錯誤：看到「鳥鼠」就以為是天上的小鳥，其實是指小老鼠喔！",
+            "selfExplanationPrompt": "想一想：在戶外寫生少了一支蠟筆時，跟同學好好討論輪流共用是不是比搶走更好？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/minnan#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "猜猜彎彎像月亮的「弓蕉」是哪一種水果！",
+          "cognitiveChunks": [
+            "弓蕉＝彎彎黃黃的香蕉"
+          ],
+          "warmupCheck": {
+            "question": "黃黃彎彎像月亮的水果，閩南語叫做「弓蕉」，是指什麼水果？",
+            "prompt": "黃黃彎彎像月亮的水果，閩南語叫做「弓蕉」，是指什麼水果？",
+            "options": [
+              "香蕉",
+              "西瓜",
+              "草莓"
+            ],
+            "answerIndex": 0,
+            "explanation": "香蕉形狀彎彎的就像一把弓，所以閩南語叫做「弓蕉」，非常生動好記！",
+            "feedbackCorrect": "答對了！「弓蕉」就是香甜的香蕉！",
+            "feedbackRetry": "這種水果彎彎黃黃的，剝皮就能吃喔！"
+          },
+          "factGroundingSourceId": "115-s2/g1/minnan#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-minnan-u3",
+      "stageId": "115-s2-g1-minnan-u3",
+      "title": "三、我的身軀",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識我的面與身軀",
+          "narrationText": "照鏡子認識「我的面（臉）」和「我的身軀（身體）」！用「目睭」看書、「耳仔」聽音樂、「鼻仔」聞花香、「喙」吃飯微笑，還要尊重彼此的身體界線！",
+          "cognitiveChunks": [
+            "面＝臉、身軀＝身體",
+            "目睭＝眼睛、耳仔＝耳朵、鼻仔＝鼻子、喙＝嘴巴",
+            "愛護五官，並尊重每個人的身體界線"
+          ],
+          "analogyAnchor": "臉上的五官就像五位好幫手，目睭看風景、耳仔聽故事、鼻仔聞香氣、喙說好話，我們要好好愛護它們！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "臉部五官閩南語",
+              "leftPoints": [
+                "目睭（眼睛）、耳仔（耳朵）",
+                "鼻仔（鼻子）、喙（嘴巴）"
+              ],
+              "rightTitle": "愛護身體與尊重",
+              "rightPoints": [
+                "看書保持距離、飯後刷牙、常洗手洗面",
+                "不隨便碰觸或取笑同學身體"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "目睭看書要護眼",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "尊重彼此身體界線",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/minnan#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "五官詞彙與愛護身體",
+          "narrationText": "記清楚每個五官的閩南語名字，也記得每天怎麼保護它們喔。",
+          "cognitiveChunks": [
+            "洗臉＝洗面、洗手佮洗面＝洗手和洗臉",
+            "不揉眼睛、不塞東西進鼻耳"
+          ],
+          "workedExampleData": {
+            "problemStatement": "媽媽提醒你「緊去洗手佮洗面！」，請問是要去做什麼？",
+            "steps": [
+              "第 1 步：「緊去」是趕快去，「佮」是和",
+              "第 2 步：「面」是指臉，所以「洗面」就是洗臉",
+              "第 3 步：整句就是「趕快去洗手和洗臉」"
+            ],
+            "commonErrorContrast": "常見錯誤：忘記「目睭」是眼睛、「喙」是嘴巴，或是用髒手直接揉眼睛。",
+            "selfExplanationPrompt": "想一想：和男生女生同學一起玩遊戲時，可以隨便掀起別人的衣服或強抱對方嗎？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/minnan#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "考考你「目睭」是指臉上的哪一個器官！",
+          "cognitiveChunks": [
+            "目睭＝看書看風景的眼睛"
+          ],
+          "warmupCheck": {
+            "question": "我們用來「看書、看黑板」的五官，閩南語叫做「目睭」，它是指什麼？",
+            "prompt": "我們用來「看書、看黑板」的五官，閩南語叫做「目睭」，它是指什麼？",
+            "options": [
+              "眼睛",
+              "鼻子",
+              "耳朵"
+            ],
+            "answerIndex": 0,
+            "explanation": "閩南語把「眼睛」叫做「目睭」，看書時保持適當距離與光線才能保護它喔！",
+            "feedbackCorrect": "答對了！「目睭」就是明亮的眼睛！",
+            "feedbackRetry": "要看清楚黑板上的字，要靠臉上的哪一個五官呢？"
+          },
+          "factGroundingSourceId": "115-s2/g1/minnan#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-minnan-u4",
+      "stageId": "115-s2-g1-minnan-u4",
+      "title": "期末念謠",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "傳統念謠〈阿財天頂跋落來〉",
+          "narrationText": "學期末一起唸好玩的傳統念謠〈阿財天頂跋落來〉！「天頂」是天上、「跋落來」是跌下來；除了開心唸給家人聽，也要記得不攀爬高處才安全！",
+          "cognitiveChunks": [
+            "天頂＝天上、跋落來＝跌下來",
+            "不攀爬窗臺高處保護自己安全",
+            "多讀念謠繪本，和阿公阿媽一起拍手唸"
+          ],
+          "analogyAnchor": "傳統念謠就像充滿節奏的拍手歌，一邊打拍子一邊唸給阿公阿媽聽，大家都會笑呵呵！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "讀懂詞意：天頂（天上）、跋落來（跌下來）",
+                "生活安全：不爬窗臺欄杆或桌椅",
+                "閱讀分享：借更多念謠書、拍手唸給家人聽"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "跋落來是跌下來",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "不攀爬高處才安全",
+                "anchorPointId": "step2"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/minnan#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "學期詞彙大總結與俗諺品德",
+          "narrationText": "把這學期學會的詞彙、念謠和安全品德全部串起來複習吧！",
+          "cognitiveChunks": [
+            "面＝臉、身軀＝身體、菝仔＝芭樂",
+            "「細漢偷挽匏，大漢偷牽牛」教誠實"
+          ],
+          "workedExampleData": {
+            "problemStatement": "讀懂〈阿財天頂跋落來〉和俗諺「細漢偷挽匏，大漢偷牽牛」後，我們學到什麼？",
+            "steps": [
+              "第 1 步：記住詞意：「天頂」是天上、「跋落來」是跌下來",
+              "第 2 步：保護安全：不攀爬高處或窗臺，在樓梯慢慢走",
+              "第 3 步：培養好品德：從小誠實守規矩，不隨便拿別人的東西"
+            ],
+            "commonErrorContrast": "常見錯誤：以為念謠只是好玩就去爬高處模仿，或把「天頂」誤以為是地板。",
+            "selfExplanationPrompt": "想一想：放假回家後，怎麼把這首好聽的念謠分享給阿公阿媽聽？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/minnan#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "考考你「跋落來」是什麼動作！",
+          "cognitiveChunks": [
+            "跋落來＝跌倒或掉下來"
+          ],
+          "warmupCheck": {
+            "question": "念謠名字〈阿財天頂跋落來〉裡的「跋落來」，是什麼動作呢？",
+            "prompt": "念謠名字〈阿財天頂跋落來〉裡的「跋落來」，是什麼動作呢？",
+            "options": [
+              "跌倒或掉下來",
+              "開心地拍手",
+              "靜靜地看書"
+            ],
+            "answerIndex": 0,
+            "explanation": "閩南語的「跋」是跌倒、掉落，「跋落來」就是跌下來或掉下來！",
+            "feedbackCorrect": "答對了！「跋落來」就是跌倒或掉下來的意思！",
+            "feedbackRetry": "想一想，不小心踩空滑倒時身體會怎麼樣呢？"
+          },
+          "factGroundingSourceId": "115-s2/g1/minnan#u4"
+        }
+      ]
+    }
+  ]
+}

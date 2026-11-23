@@ -1,0 +1,425 @@
+{
+  "packId": "115-s2-g1-mandarin",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 1,
+  "subjectId": "mandarin",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-mandarin-u1",
+      "stageId": "115-s2-g1-mandarin-u1",
+      "title": "第壹單元：我的發現",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "觀察大自然，用字義認國字",
+          "narrationText": "在〈春天來了〉、〈小雨〉和〈美好的一天〉裡，我們用眼睛和耳朵觀察春天，還學會從國字的小部件猜字義。",
+          "cognitiveChunks": [
+            "用心觀察春天的樹芽、鳥叫與小雨",
+            "從國字的字形猜字義（如日代表太陽）",
+            "練習說出完整的句子"
+          ],
+          "analogyAnchor": "國字裡的小部件就像圖畫密碼，「晴」和「早」都有「日」，都是在告訴我們跟太陽或時間有關。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "自然觀察與發表",
+              "leftPoints": [
+                "看樹枝發芽、聽小鳥叫、感受小雨",
+                "先舉手發言、專心聽同學說"
+              ],
+              "rightTitle": "識字與造句",
+              "rightPoints": [
+                "有「日」的字（晴、早）與太陽時間有關",
+                "說清楚誰、在哪裡、做什麼"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "觀察春天與小雨",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "從字形認字義",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/mandarin#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用字形認識國字，說完整句子",
+          "narrationText": "認字時看清楚旁邊的部件，造句時要把時間、誰、在哪裡、做什麼說清楚。",
+          "cognitiveChunks": [
+            "「日」代表太陽或時間",
+            "完整句子要有誰、在哪裡、做什麼"
+          ],
+          "workedExampleData": {
+            "problemStatement": "看到「晴」和「早」這些有「日」字的國字，通常和什麼有關？",
+            "steps": [
+              "第 1 步：先找找「晴」和「早」共同擁有的字 →「日」",
+              "第 2 步：想一想「日」原本畫的是什麼 → 太陽",
+              "第 3 步：所以晴（太陽出來）和早（太陽剛出來）都和太陽或時間有關"
+            ],
+            "commonErrorContrast": "常見錯誤：沒有看字的部件意思，只憑感覺亂猜是大海或石頭。",
+            "selfExplanationPrompt": "想一想：上課想發表自己發現的春天祕密時，要先做什麼動作才禮貌？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/mandarin#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "尊重每位同學的發言",
+          "topicSignalTitle": "怎樣當一個尊重大家的好同學？",
+          "narrationText": "每個人都有平等分享想法的權利，輪到同學發言時要安靜專心聽，不插嘴也不嘲笑別人的夢想。",
+          "cognitiveChunks": [
+            "先舉手再發表意見",
+            "專心傾聽並給同學掌聲"
+          ],
+          "factGroundingSourceId": "115-s2/g1/mandarin#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "來挑挑看哪一句話最完整！",
+          "cognitiveChunks": [
+            "完整句子說出誰、在哪裡、做什麼"
+          ],
+          "warmupCheck": {
+            "prompt": "下面哪一句話把時間、人物、地點和做的事情說得最完整？",
+            "options": [
+              "美好的一天！",
+              "在公園裡。",
+              "早晨太陽出來了，我在公園開心散步。"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！這句話把時間、人物、地點和做的事都說得清清楚楚！",
+            "feedbackRetry": "找找看哪一句同時告訴我們「什麼時候、誰、在哪裡、做什麼」喔！"
+          },
+          "factGroundingSourceId": "115-s2/g1/mandarin#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-mandarin-u2",
+      "stageId": "115-s2-g1-mandarin-u2",
+      "title": "第貳單元：怎麼辦",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "遇到問題冷靜動腦找方法",
+          "narrationText": "在〈送什麼呢〉、〈窗外的小麻雀〉、〈毛毛蟲過河〉與〈魯班造傘〉裡，我們學會遇事冷靜思考、勇於發問並愛護生命。",
+          "cognitiveChunks": [
+            "遇困難不放棄，從前後文找線索",
+            "用「……怎麼辦？」提出遇到的問題",
+            "勇於發問觀察，保護小動物與自己安全"
+          ],
+          "analogyAnchor": "就像毛毛蟲想過河會找樹葉當小船，讀書遇到看不懂的地方，看前後句子或問老師就能過關。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "遇到不懂的問題",
+                "冷靜觀察找線索",
+                "請教討論找到解法"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "冷靜找線索",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "動腦解決問題",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/mandarin#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "練習用「怎麼辦？」說出問題",
+          "narrationText": "遇到麻煩想找大家幫忙想辦法時，可以先說出發生了什麼事，再加上「該怎麼辦？」。",
+          "cognitiveChunks": [
+            "先說遇到的困難",
+            "結尾加上「怎麼辦？」和問號"
+          ],
+          "workedExampleData": {
+            "problemStatement": "下面哪一句話正確用到了「……怎麼辦？」來問解決方法？",
+            "steps": [
+              "第 1 步：找找看哪一句話裡遇到了小麻煩",
+              "第 2 步：確認句子後面有問「該怎麼辦？」",
+              "第 3 步：「水壺忘記帶回家了，該怎麼辦？」最正確"
+            ],
+            "commonErrorContrast": "常見錯誤：選成「今天的天氣好晴朗。」這種沒有問題、也不是問句的句子。",
+            "selfExplanationPrompt": "想一想：如果看到小麻雀停在窗外，我們應該怎麼做才尊重生命？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/mandarin#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "校園安全與愛護小動物",
+          "topicSignalTitle": "看到小麻雀和走樓梯要注意什麼？",
+          "narrationText": "看到窗外的小麻雀要安靜輕輕觀察，不拍窗嚇牠；下課走樓梯靠右慢慢走、手扶欄杆才安全。",
+          "cognitiveChunks": [
+            "安靜觀察不嚇到小鳥",
+            "走樓梯靠右慢走扶欄杆"
+          ],
+          "factGroundingSourceId": "115-s2/g1/mandarin#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "試試看這題解決小困難的方法吧！",
+          "cognitiveChunks": [
+            "看前後文找線索或請教師長"
+          ],
+          "warmupCheck": {
+            "prompt": "讀故事書時遇到看不懂的句子，怎麼做最好？",
+            "options": [
+              "先看前後文想一想，或請教老師和同學",
+              "直接把書合起來丟掉",
+              "隨便猜一個錯的意思"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！看前後文找線索或問老師，馬上就讀懂了！",
+            "feedbackRetry": "別放棄喔！可以看看前後的句子，或找誰幫忙呢？"
+          },
+          "factGroundingSourceId": "115-s2/g1/mandarin#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-mandarin-u3",
+      "stageId": "115-s2-g1-mandarin-u3",
+      "title": "第參單元：好朋友",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "禮貌借東西、溫暖關心好朋友",
+          "narrationText": "在〈借筆〉、〈兩張卡片〉與〈友情的枴杖〉裡，我們學會禮貌借還物品、寫卡片關心生病的同學，並互相幫忙。",
+          "cognitiveChunks": [
+            "借東西前先說「請問」，還時說「謝謝」",
+            "同學跌倒或難過時主動關心幫忙",
+            "欣賞自己和同學不同的優點"
+          ],
+          "analogyAnchor": "當同學跌倒受傷或心情難過時，我們伸出小手幫忙和安慰，就像一根溫暖的「友情的枴杖」。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "禮貌借與還",
+              "leftPoints": [
+                "借之前先說「請問可以借我嗎？」",
+                "愛惜使用，親手歸還並說謝謝"
+              ],
+              "rightTitle": "關心與互助",
+              "rightPoints": [
+                "寫溫暖卡片關心生病同學",
+                "跌倒時關心並陪他找老師"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "請問借與謝謝還",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "溫暖互助好朋友",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/mandarin#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "有禮貌地跟同學借文具",
+          "narrationText": "忘記帶鉛筆想借用時，要有禮貌地徵求同意，用完也要保持完整親手歸還。",
+          "cognitiveChunks": [
+            "加上「請問」徵求同意",
+            "答應何時歸還並愛惜物品"
+          ],
+          "workedExampleData": {
+            "problemStatement": "上課忘記帶鉛筆，想跟好朋友借一枝來用，怎麼說最有禮貌？",
+            "steps": [
+              "第 1 步：先說「請問」並微笑看著同學",
+              "第 2 步：說清楚要借什麼：「可以借我一枝鉛筆嗎？」",
+              "第 3 步：加上「我用完就還你」，並於用完後親手還給他道謝"
+            ],
+            "commonErrorContrast": "常見錯誤：沒問過就直接拿走，或是用強硬命令的語氣叫同學拿出來。",
+            "selfExplanationPrompt": "想一想：如果好朋友生病請假在家，寫一張卡片給他要寫什麼才溫暖？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/mandarin#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "用好聽的語詞稱讚同學",
+          "topicSignalTitle": "稱讚好朋友字寫得漂亮怎麼說？",
+          "narrationText": "「工工整整」形容字寫得端正又整齊，用來稱讚同學最棒；不要用亂七八糟或馬馬虎虎取笑別人喔！",
+          "cognitiveChunks": [
+            "工工整整 ＝ 端正又整齊",
+            "欣賞每個人的不同優點"
+          ],
+          "factGroundingSourceId": "115-s2/g1/mandarin#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "試試看這題溫暖友情題吧！",
+          "cognitiveChunks": [
+            "同學跌倒立刻關心並陪他找老師"
+          ],
+          "warmupCheck": {
+            "prompt": "下課看見同學不小心跌倒了，怎麼做最像「友情的枴杖」？",
+            "options": [
+              "站在旁邊指著他哈哈大笑",
+              "趕快過去關心他，並陪他找老師擦藥",
+              "假裝沒看到趕快跑走"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "好溫暖！趕快關心同學並陪他找老師擦藥，是最棒的好朋友！",
+            "feedbackRetry": "真正的好朋友看到同學跌倒受傷，會伸出小手幫忙做什麼呢？"
+          },
+          "factGroundingSourceId": "115-s2/g1/mandarin#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-mandarin-u4",
+      "stageId": "115-s2-g1-mandarin-u4",
+      "title": "第肆單元：我做到了",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "獨立自主、合作與自信上臺",
+          "narrationText": "在〈一棵小樹〉、〈鉛筆和橡皮擦〉、〈上臺說故事〉與〈山頂〉裡，我們學會自己整理書包、合作互補、自信上臺發表。",
+          "cognitiveChunks": [
+            "自己整理書包和鉛筆盒",
+            "像鉛筆和橡皮擦一樣合作互補",
+            "上臺說故事抬頭挺胸、聲音響亮"
+          ],
+          "analogyAnchor": "鉛筆寫錯字時，橡皮擦幫忙擦乾淨；兩個好夥伴合作，就能把整篇故事寫得漂漂亮亮。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "獨立與合作",
+              "leftPoints": [
+                "睡前自己把課本收進書包",
+                "鉛筆寫字、橡皮擦改錯互助"
+              ],
+              "rightTitle": "自信發表與仿寫",
+              "rightPoints": [
+                "上臺看著大家、聲音響亮",
+                "仿寫短語「一棵小樹→一朵小花」"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "自己做到真獨立",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "上臺自信說故事",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/mandarin#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "照樣寫短語「仿寫」練習",
+          "narrationText": "仿寫短語時，先看清楚原本例句每個字詞的順序和樣子，再換成一樣類型的詞語。",
+          "cognitiveChunks": [
+            "數量詞（一棵）＋ 小 ＋ 東西（樹）",
+            "換成「一朵 ＋ 小 ＋ 花」"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如果例句是「一棵小樹」，下面哪一個短語的格式最像？",
+            "steps": [
+              "第 1 步：拆開看「一棵小樹」→「一棵（數量）＋ 小 ＋ 樹（名詞）」",
+              "第 2 步：找開頭也是「一……小……」的短語",
+              "第 3 步：「一朵小花」也是「一朵 ＋ 小 ＋ 花」，格式完全一樣"
+            ],
+            "commonErrorContrast": "常見錯誤：沒有對齊開頭的「一……小……」結構，誤選成「跑得很快」或「開心拍手」。",
+            "selfExplanationPrompt": "想一想：站上講臺說故事時，要怎麼做才能讓最後一排的同學也聽清楚？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/mandarin#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "愛護地球與山林安全",
+          "topicSignalTitle": "生活中怎樣愛護我們的環境？",
+          "narrationText": "離開教室隨手關燈、垃圾做好分類回收；去山林戶外活動時走安全步道，不亂摘花草、不嚇唬小動物。",
+          "cognitiveChunks": [
+            "隨手關燈、垃圾分類愛地球",
+            "戶外活動走安全步道不脫隊"
+          ],
+          "factGroundingSourceId": "115-s2/g1/mandarin#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "試試看這題自信上臺小秘訣！",
+          "cognitiveChunks": [
+            "上臺抬頭看著大家、聲音響亮"
+          ],
+          "warmupCheck": {
+            "prompt": "站上講臺說故事給全班聽時，怎樣表現最棒？",
+            "options": [
+              "站穩看著大家，用清楚響亮的聲音說出來",
+              "把書遮在臉前面低頭小聲唸",
+              "背對著同學一句話都不說"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "好棒！抬頭挺胸看著大家、聲音清楚響亮，你一定做得到！",
+            "feedbackRetry": "要讓最後一排的同學也聽清楚，眼神和聲音要怎麼做呢？"
+          },
+          "factGroundingSourceId": "115-s2/g1/mandarin#u4"
+        }
+      ]
+    }
+  ]
+}

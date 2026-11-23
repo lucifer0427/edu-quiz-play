@@ -1,0 +1,747 @@
+{
+  "packId": "115-s1-g2-health-pe",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 2,
+  "subjectId": "health-pe",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-health-pe-u1",
+      "stageId": "115-s1-g2-health-pe-u1",
+      "title": "單元一、吃出健康和活力",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "六大類食物幫身體加油",
+          "narrationText": "每天的三餐就像幫身體汽車加油，六大類食物都要吃到，不偏食、吃多少盛多少，才會健康又有活力。",
+          "cognitiveChunks": [
+            "均衡攝取六大類食物不偏食",
+            "少吃油炸與高糖零食",
+            "吃多少盛多少珍惜食物"
+          ],
+          "analogyAnchor": "身體就像需要不同燃料的小火車，白飯、青菜、蛋肉、水果和牛奶一起合作，才能跑得遠又健康。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "天天均衡吃",
+              "leftPoints": [
+                "全穀雜糧、蔬菜、水果",
+                "豆魚蛋肉、乳品、堅果種子"
+              ],
+              "rightTitle": "飲食安全小秘訣",
+              "rightPoints": [
+                "飯前用肥皂洗淨雙手",
+                "檢查包裝完整與有效日期"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "六大類食物要均衡",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "飯前洗手看日期",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/health-pe#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "挑選安全食物三步驟",
+          "narrationText": "買點心或吃飯前，跟著三個小步驟檢查，就能遠離肚子痛。",
+          "cognitiveChunks": [
+            "看包裝是否完整與有效期限",
+            "聞一聞有沒有變質怪味",
+            "吃東西前用肥皂洗手"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在商店選購麵包或牛奶點心時，怎麼判斷安不安全？",
+            "steps": [
+              "第 1 步：看包裝有沒有破損、漏氣或膨脹。",
+              "第 2 步：看清楚保存期限，確定還沒過期。",
+              "第 3 步：打開後如果聞到酸味或怪味，千萬不要吃。"
+            ],
+            "commonErrorContrast": "常見錯誤：只看包裝上有沒有可愛圖案，沒看有效日期就直接買來吃。",
+            "selfExplanationPrompt": "想一想：如果發現自己不愛吃青菜，可以怎麼慢慢改善？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/health-pe#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "飲食小偵探暖身題",
+          "narrationText": "答對這題就能把健康活力帶進關卡囉！",
+          "cognitiveChunks": [
+            "乳品類富含鈣質能強壯骨骼與牙齒"
+          ],
+          "warmupCheck": {
+            "prompt": "每天喝一杯鮮奶或吃起司等乳品類食物，主要能幫助身體哪裡長得強壯？",
+            "options": [
+              "牙齒和骨骼",
+              "頭髮和指甲",
+              "衣服和書包"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！牛奶和乳製品有豐富的鈣質，能幫助骨骼和牙齒更強壯。",
+            "feedbackRetry": "再想一想，牛奶裡的鈣質對身體裡硬硬的哪兩個部分很有幫助呢？"
+          },
+          "factGroundingSourceId": "115-s1/g2/health-pe#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-health-pe-u2",
+      "stageId": "115-s1-g2-health-pe-u2",
+      "title": "單元二、我真的不錯",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "喜歡自己也照顧好感官",
+          "narrationText": "每個人都有自己的優點，大方接受讚美就是自信的表現；同時要當眼睛、耳朵、鼻子和嘴巴的好主人。",
+          "cognitiveChunks": [
+            "認識並欣賞自己的優點",
+            "眼睛看書光線充足、定時休息",
+            "耳朵遠離大噪音、不亂挖耳朵"
+          ],
+          "analogyAnchor": "身體的眼睛、耳朵、鼻子和嘴巴就像四個小幫手，每天照顧好它們，它們就會帶我們探索世界。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "感官好主人",
+              "leftPoints": [
+                "看書坐端正、光線要明亮",
+                "音量適中不挖耳不挖鼻"
+              ],
+              "rightTitle": "感官救護站",
+              "rightPoints": [
+                "沙子進眼不揉眼、請師長幫忙",
+                "流鼻血頭微前傾、壓鼻翼兩側"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "平日做好感官保健",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "受傷找師長急救",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/health-pe#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "流鼻血與異物進眼怎麼辦",
+          "narrationText": "感官不小心受傷時不要慌張，用對急救步驟最安全。",
+          "cognitiveChunks": [
+            "流鼻血坐好頭微前傾",
+            "沙子進眼不可用手搓揉",
+            "立刻請老師或保健室幫忙"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在教室突然流鼻血了，正確的緊急處理步驟是什麼？",
+            "steps": [
+              "第 1 步：先坐下來，頭稍微向前低，不要往後仰。",
+              "第 2 步：用手指輕輕壓住鼻翼兩側，改用嘴巴呼吸。",
+              "第 3 步：立刻請老師或校護阿姨協助處理。"
+            ],
+            "commonErrorContrast": "常見錯誤：流鼻血時把頭高高往後仰，這樣血容易倒流進喉嚨嗆到。",
+            "selfExplanationPrompt": "想一想：風把沙子吹進眼睛時，為什麼不能用手去揉？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/health-pe#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "感官小醫生暖身題",
+          "narrationText": "先答對這題感官保健小問題吧！",
+          "cognitiveChunks": [
+            "沙子進眼不可以揉，要找大人協助沖洗"
+          ],
+          "warmupCheck": {
+            "prompt": "玩耍時一小粒沙子飛進眼睛裡，最安全的做法是哪一個？",
+            "options": [
+              "趕快用髒手用力搓揉眼睛",
+              "不揉眼睛，請老師或校護阿姨幫忙處理",
+              "叫同學對著眼睛用力吹氣"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！揉眼睛會讓沙子刮傷眼球，找老師或保健室阿姨幫忙最安全。",
+            "feedbackRetry": "想一想，手用力摩擦沙子會不會刮傷脆弱的眼睛呢？"
+          },
+          "factGroundingSourceId": "115-s1/g2/health-pe#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-health-pe-u3",
+      "stageId": "115-s1-g2-health-pe-u3",
+      "title": "單元三、拒絕菸酒",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "勇敢向菸酒說不",
+          "narrationText": "酒精會傷害正在長大的大腦和身體，香菸與二手菸會傷害肺部。遇到菸酒要勇敢拒絕並遠離。",
+          "cognitiveChunks": [
+            "未成年絕對不可以喝酒",
+            "酒後駕車容易發生嚴重車禍",
+            "吸菸與二手菸傷害肺部與呼吸道"
+          ],
+          "analogyAnchor": "我們的身體就像一座乾淨的森林公園，菸和酒就像會帶來黑煙和垃圾的怪風，一定要把它們擋在門外。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "看到有人勸酒或吸菸",
+                "禮貌堅定說「不，謝謝」",
+                "改喝白開水並遠離菸味"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "兒童不可喝酒",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "遠離二手菸害",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/health-pe#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "拒絕勸酒與二手菸技巧",
+          "narrationText": "聚餐或走在路上遇到菸酒時，用堅定又有禮貌的方式保護自己。",
+          "cognitiveChunks": [
+            "對勸酒微笑堅定拒絕",
+            "遇二手菸快步走開避開",
+            "用關心語氣請家人不在家吸菸"
+          ],
+          "workedExampleData": {
+            "problemStatement": "聚餐時有大人笑著叫你喝一小口酒試試看，該怎麼回應？",
+            "steps": [
+              "第 1 步：保持禮貌微笑，但語氣要堅定不猶豫。",
+              "第 2 步：清楚說出「謝謝，小朋友不能喝酒，我喝白開水就好」。",
+              "第 3 步：如果遇到有人吸菸飄來菸味，要立刻走開到空氣流通的地方。"
+            ],
+            "commonErrorContrast": "常見錯誤：不好意思拒絕大人，偷偷喝一小口或站在二手菸裡忍耐。",
+            "selfExplanationPrompt": "想一想：為什麼大人喝酒後絕對不能開車或騎機車？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/health-pe#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "無菸無酒小衛士",
+          "narrationText": "答對這題就能學會保護自己遠離菸酒！",
+          "cognitiveChunks": [
+            "避開二手菸最有效的方法是遠離菸味"
+          ],
+          "warmupCheck": {
+            "prompt": "走在騎樓下聞到前面飄來刺鼻的二手菸味，怎麼保護自己最好？",
+            "options": [
+              "深吸幾口氣習慣味道",
+              "快步遠離或繞道走開",
+              "站在原地看著吸菸的人"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！趕快遠離有菸味的地方，才不會把有害的二手菸吸進肺部。",
+            "feedbackRetry": "二手菸裡有很多有害物質，趕快往沒有菸味的地方走開最安全喔！"
+          },
+          "factGroundingSourceId": "115-s1/g2/health-pe#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-health-pe-u4",
+      "stageId": "115-s1-g2-health-pe-u4",
+      "title": "單元四、運動新視野",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "一條繩子玩出大活力",
+          "narrationText": "繩子不只能跳繩，還能擺在地上走平衡線、當作伸展繩拉筋暖身，或是大家一起甩長繩合作玩遊戲。",
+          "cognitiveChunks": [
+            "沿繩行走練習平衡與控制",
+            "拉伸展繩暖身要慢慢伸展",
+            "甩繩前先確認四周安全空間"
+          ],
+          "analogyAnchor": "繩子就像運動場上的百變小幫手，踩著走練平衡、拉著伸展練柔軟、甩起來還能跳出節奏感。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "檢查周圍空間不打到人",
+                "雙手輕拉伸展繩做暖身",
+                "抓準節奏輕彈起跳過繩"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "先留安全活動空間",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "繩子用完收進器材籃",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/health-pe#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "單人跳繩不絆倒秘訣",
+          "narrationText": "剛學跳繩常常被絆到嗎？跟著這三個動作就能越跳越順。",
+          "cognitiveChunks": [
+            "繩柄高度約在胸口到腋下",
+            "手腕輕轉甩繩不甩整隻手",
+            "繩子快到腳前雙腳輕跳起"
+          ],
+          "workedExampleData": {
+            "problemStatement": "練習單人跳繩時，怎麼調整才能抓對時機又省力？",
+            "steps": [
+              "第 1 步：雙腳踩住繩中點量長度，繩柄高度在胸口到腋下最剛好。",
+              "第 2 步：雙臂靠近身體兩側，用手腕輕輕轉動甩繩。",
+              "第 3 步：眼睛看前方，等繩子快經過腳前時雙腳輕輕彈起。"
+            ],
+            "commonErrorContrast": "常見錯誤：繩子還在頭頂就跳太高，或是跳完不收繩子隨手丟在跑道上。",
+            "selfExplanationPrompt": "想一想：玩多人甩長繩遊戲時，甩繩的人和跳繩的人怎麼合作？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/health-pe#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "跳繩小達人暖身題",
+          "narrationText": "準備好了嗎？答對這題就進場挑戰！",
+          "cognitiveChunks": [
+            "甩繩前先確認前後左右安全距離"
+          ],
+          "warmupCheck": {
+            "prompt": "在操場拿著跳繩準備甩動前，第一件要檢查的安全事項是什麼？",
+            "options": [
+              "把繩子用力往天空丟高",
+              "確認前後左右有足夠空間不會甩到同學",
+              "靠在牆壁柱子旁邊甩大繩"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！拉開安全距離才不會在甩繩時不小心打到旁邊的同學。",
+            "feedbackRetry": "繩子甩起來會畫一大圈，靠近同學會發生什麼危險呢？"
+          },
+          "factGroundingSourceId": "115-s1/g2/health-pe#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-health-pe-u5",
+      "stageId": "115-s1-g2-health-pe-u5",
+      "title": "單元五、運動有妙招",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "善用運動資源與選對運動鞋",
+          "narrationText": "學校有操場、球場、器材室和運動社團等好資源；運動時穿上合腳止滑的運動鞋並綁好鞋帶，雙腳才會安全。",
+          "cognitiveChunks": [
+            "善用操場與運動社團培養習慣",
+            "借用學校器材要登記並歸還",
+            "運動穿包覆止滑的運動鞋"
+          ],
+          "analogyAnchor": "運動鞋就像雙腳的防護盔甲，選對鞋子又正確穿好，跑跳起來才不會拐到腳。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "學校運動資源",
+              "leftPoints": [
+                "操場、球場與運動社團",
+                "器材依規定借用並歸還原位"
+              ],
+              "rightTitle": "選鞋與穿鞋妙招",
+              "rightPoints": [
+                "穿襪試穿走走看、腳尖留空隙",
+                "鬆鞋帶穿入、不踩扁鞋後跟"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "愛惜公物借還器材",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "穿運動鞋綁好鞋帶",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/health-pe#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "正確穿鞋與試鞋步驟",
+          "narrationText": "每天穿鞋出門和買新鞋時，記住這三個簡單動作。",
+          "cognitiveChunks": [
+            "穿襪試穿雙腳並起身走動",
+            "先放鬆鞋帶不硬塞踩鞋跟",
+            "頓好腳跟再把鞋帶綁緊"
+          ],
+          "workedExampleData": {
+            "problemStatement": "早上穿綁鞋帶的運動鞋時，怎樣穿才保護鞋子又保護腳？",
+            "steps": [
+              "第 1 步：先把鞋帶放鬆，不要直接把腳硬塞進去。",
+              "第 2 步：腳伸進去後輕輕頓好腳跟，讓腳跟貼緊鞋後跟。",
+              "第 3 步：把鞋舌拉平並好好綁緊鞋帶，避免跑步時踩到絆倒。"
+            ],
+            "commonErrorContrast": "常見錯誤：為了趕時間直接把鞋後跟踩扁當拖鞋穿，或鞋帶鬆散拖在地上跑步。",
+            "selfExplanationPrompt": "想一想：去鞋店買新運動鞋時，為什麼要穿上襪子站起來走幾步？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/health-pe#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "運動裝備小檢查",
+          "narrationText": "答對這題就去操場集合囉！",
+          "cognitiveChunks": [
+            "體育課要穿合腳止滑的運動鞋"
+          ],
+          "warmupCheck": {
+            "prompt": "上體育課跑步和玩球時，穿哪一種鞋子最能保護雙腳？",
+            "options": [
+              "夾腳拖鞋",
+              "合腳透氣且鞋底防滑的運動鞋",
+              "比腳大三號的寬鬆皮鞋"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！運動鞋能包覆雙腳又止滑，跑跳最安全。",
+            "feedbackRetry": "想一想，哪一種鞋子能把腳趾包起來，鞋底又有防滑紋路呢？"
+          },
+          "factGroundingSourceId": "115-s1/g2/health-pe#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-health-pe-u6",
+      "stageId": "115-s1-g2-health-pe-u6",
+      "title": "單元六、身體動起來",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "滾翻、拳擊與呼拉圈動起來",
+          "narrationText": "在軟墊上像不倒翁一樣安全滾動、跟著音樂做小拳王有氧動作，還有用呼拉圈玩創意遊戲，都能讓身體更協調。",
+          "cognitiveChunks": [
+            "同心協力合作遊戲互相配合",
+            "墊上滾動收緊下巴背呈圓弧",
+            "拳擊有氧與呼拉圈保持安全距離"
+          ],
+          "analogyAnchor": "做墊上搖滾時把身體捲成一顆圓滾滾的小皮球，滾起來才會既順暢又不會撞到頭和脖子。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "暖身並拉開安全距離",
+                "收下巴圓背做墊上搖滾",
+                "活動後緩和散步再喝溫水"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "收下巴圓背保安全",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "運動後緩和再補水",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/health-pe#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "呼拉圈與拳擊有氧安全法則",
+          "narrationText": "玩呼拉圈和模仿拳擊動作時，動作做對才好玩又安全。",
+          "cognitiveChunks": [
+            "雙腳微開站穩水平甩呼拉圈",
+            "小拳王只對前方空氣出拳",
+            "運動後慢慢散步緩和伸展"
+          ],
+          "workedExampleData": {
+            "problemStatement": "練習用腰部搖呼拉圈一直掉下來，怎麼調整動作？",
+            "steps": [
+              "第 1 步：雙腳稍微打開站穩，讓重心穩固。",
+              "第 2 步：呼拉圈貼緊腰部，朝水平方向甩出。",
+              "第 3 步：跟著圈轉動的節奏，規律前後或左右擺動腰部。"
+            ],
+            "commonErrorContrast": "常見錯誤：雙腳緊緊併攏不動，或把呼拉圈套在同學頭上拉扯。",
+            "selfExplanationPrompt": "想一想：做完劇烈運動心跳很快時，為什麼不能馬上猛喝冰水？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/health-pe#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "體能小超人暖身題",
+          "narrationText": "答對這題就能開始身體大挑戰！",
+          "cognitiveChunks": [
+            "墊上滾翻要收下巴保護頸部"
+          ],
+          "warmupCheck": {
+            "prompt": "在軟墊上玩抱膝前後滾動的「搖滾樂」動作時，要怎麼保護頭和脖子？",
+            "options": [
+              "把頭往後仰用後腦勺撞墊子",
+              "下巴收進胸口、背部彎成圓弧形慢慢滾",
+              "把身體拉得像木頭一樣直直往後倒"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！收緊下巴、背部圓圓的像球一樣，滾起來最安全！",
+            "feedbackRetry": "想像圓滾滾的球，下巴要稍微往胸口收進來才不會撞到頭喔！"
+          },
+          "factGroundingSourceId": "115-s1/g2/health-pe#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-health-pe-u7",
+      "stageId": "115-s1-g2-health-pe-u7",
+      "title": "單元七、我是快樂運動員",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u7-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "跑步、射準與安全戲水",
+          "narrationText": "在操場練習跑步轉彎和投擲射準，到了游泳池則要記得暖身、淋浴，並遵守水域安全與水中呼吸規則。",
+          "cognitiveChunks": [
+            "折返跑看清前方放低重心轉彎",
+            "投擲站穩眼神注視目標",
+            "下水前暖身淋浴、不可貿然救人"
+          ],
+          "analogyAnchor": "快樂運動員在陸地上跑得穩、丟得準，到水裡也像懂得看水深和吹泡泡換氣的小魚一樣守規矩。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "陸上體能練習",
+              "leftPoints": [
+                "跑步看前方、保持安全間隔",
+                "射準先站穩、眼睛盯住目標"
+              ],
+              "rightTitle": "水上安全與衛生",
+              "rightPoints": [
+                "下水前先暖身並淋浴沖洗",
+                "水上吸氣、水中慢慢吐氣"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "跑跳投擲看清目標",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "合法泳池大人陪同",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/health-pe#u7"
+        },
+        {
+          "sceneId": "u7-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "水中尋寶換氣與溺水應變",
+          "narrationText": "戲水安全最重要，學會正確換氣與遇到危險時大聲呼救。",
+          "cognitiveChunks": [
+            "水面吸氣、水中吐氣吹泡泡",
+            "選有救生員的合法水域",
+            "見人溺水大聲呼救不下水"
+          ],
+          "workedExampleData": {
+            "problemStatement": "戲水時萬一看到同學在水中掙扎好像溺水了，應該先怎麼辦？",
+            "steps": [
+              "第 1 步：千萬不可以自己跳進水裡去拉人。",
+              "第 2 步：立刻大聲向附近的救生員、老師或大人呼救。",
+              "第 3 步：明確指出同學所在的位置，讓大人盡快救援。"
+            ],
+            "commonErrorContrast": "常見錯誤：自己跑進水裡想拉同學上岸，結果兩個人一起發生危險。",
+            "selfExplanationPrompt": "想一想：把臉放進水裡玩水中尋寶時，為什麼只能吐氣不能吸氣？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/health-pe#u7"
+        },
+        {
+          "sceneId": "u7-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小小運動員暖身題",
+          "narrationText": "答對這題就能取得運動員通行證！",
+          "cognitiveChunks": [
+            "進泳池前要先做暖身操並淋浴"
+          ],
+          "warmupCheck": {
+            "prompt": "準備進入游泳池玩水前，一定要先做好哪兩件事？",
+            "options": [
+              "大吃一頓並在池邊跑步",
+              "直接穿救生衣跳水",
+              "先做暖身操，再去淋浴間沖洗身體"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！暖身可以預防抽筋，淋浴能維持游泳池乾淨衛生。",
+            "feedbackRetry": "想一想，怎樣做才不會在水裡抽筋，又能讓池水乾乾淨淨呢？"
+          },
+          "factGroundingSourceId": "115-s1/g2/health-pe#u7"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-health-pe-u8",
+      "stageId": "115-s1-g2-health-pe-u8",
+      "title": "單元八、球兒真好玩",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u8-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "手眼協調玩轉各種球類",
+          "narrationText": "從桌球顛球、擲球傳接、滾地躲避球、控球繞錐到跑壘遊戲，控制好力道並遵守規則，每種球都好好玩。",
+          "cognitiveChunks": [
+            "桌球顛球拍面平坦力道輕",
+            "滾地躲避球貼地滾保護頭臉",
+            "跑壘依序踩穩一二三壘與本壘"
+          ],
+          "analogyAnchor": "球兒就像活潑的小精靈，力氣太猛它會跑太遠，力道剛剛好它就會乖乖跟著你的手和腳。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "控球與傳球技巧",
+              "leftPoints": [
+                "傳球丟向夥伴胸腰之間",
+                "控球力道適中讓球在身邊"
+              ],
+              "rightTitle": "安全與運動精神",
+              "rightPoints": [
+                "滾地躲避球貼地不砸高",
+                "賽後與隊友對手擊掌致謝"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "輕柔控球傳接準",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "守規則有運動風度",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/health-pe#u8"
+        },
+        {
+          "sceneId": "u8-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "跑壘順序與運動家精神",
+          "narrationText": "團體球類遊戲要有秩序和風度，大家才能玩得盡興。",
+          "cognitiveChunks": [
+            "擊球或丟球後依序跑壘",
+            "踩穩壘包注意不碰撞守備",
+            "勝不驕敗不餒互相道謝"
+          ],
+          "workedExampleData": {
+            "problemStatement": "玩「跑壘遊戲」把球打出去或丟出去後，該怎麼跑？",
+            "steps": [
+              "第 1 步：從起點朝一壘方向跑出去。",
+              "第 2 步：依序跑向一壘、二壘、三壘再到本壘，不能跳著亂跑。",
+              "第 3 步：經過壘包時踩穩，並注意閃開守備同學不碰撞。"
+            ],
+            "commonErrorContrast": "常見錯誤：亂跑一通先跑三壘，或是輸球後對隊友發脾氣。",
+            "selfExplanationPrompt": "想一想：為什麼低年級玩滾地躲避球時，規定球一定要貼著地面滾？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/health-pe#u8"
+        },
+        {
+          "sceneId": "u8-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "球類小玩家暖身題",
+          "narrationText": "答對這題就可以上場玩球囉！",
+          "cognitiveChunks": [
+            "滾地躲避球貼地滾動保護頭部安全"
+          ],
+          "warmupCheck": {
+            "prompt": "玩「滾地躲避球」規定球只能貼著地面滾過去，不能往高處丟，主要是為了什麼？",
+            "options": [
+              "怕球飛太高漏氣破掉",
+              "保護同學的頭和臉不被砸傷",
+              "因為球太重大家舉不起來"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！球貼著地面滾動可以保護大家的頭和臉，玩起來最安全！",
+            "feedbackRetry": "想一想，如果球往高處飛，很容易打到身體哪個脆弱的地方呢？"
+          },
+          "factGroundingSourceId": "115-s1/g2/health-pe#u8"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,460 @@
+{
+  "packId": "115-s2-g3-integrative",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 3,
+  "subjectId": "integrative",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-integrative-u1",
+      "stageId": "115-s2-g3-integrative-u1",
+      "title": "一、你我好關係",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "當個會說話又會傾聽的溝通小偵探",
+          "narrationText": "說話有禮貌、先說事實與感受再提解決方法，能化解衝突；專心眼神傾聽與尊重每個人的平等發言權，能幫團體達成共識！",
+          "cognitiveChunks": [
+            "友善徵詢、不命令搶拿物品",
+            "眼神專注點頭提問是好傾聽",
+            "討論尊重多元、決定後配合執行"
+          ],
+          "analogyAnchor": "溝通就像兩個人傳接球：說話的人輕輕準確拋出想法，傾聽的人張開雙手專心接住，這場對話遊戲就能玩得又久又開心。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "溝通小偵探",
+              "leftPoints": [
+                "借物禮貌徵詢並承諾歸還",
+                "說出事實、感受與解決辦法"
+              ],
+              "rightTitle": "大家來溝通",
+              "rightPoints": [
+                "不分性別與個性都平等發言",
+                "投票決定後放下小我配合團隊"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "專心傾聽與禮貌提問",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "民主討論達成共識",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/integrative#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用「事實＋感受＋解決做法」化解誤會",
+          "narrationText": "和同學發生小碰撞或誤會時，試著用這三個步驟好好說話。",
+          "cognitiveChunks": [
+            "先冷靜不謾罵或冷戰排擠",
+            "說出「發生什麼事＋我的感受」",
+            "提出一起善後或改善的建議"
+          ],
+          "workedExampleData": {
+            "problemStatement": "下課同學不小心撞翻你的水壺，心裡難過又生氣時，怎麼說最能化解誤會？",
+            "steps": [
+              "第 1 步：先深呼吸冷靜下來，避免直接罵人或踢對方書包。",
+              "第 2 步：說出事實與感受 →「你剛才撞倒水壺灑出來我有點難過」。",
+              "第 3 步：加上合作解決的做法 →「我們一起把地板擦乾吧！」。"
+            ],
+            "commonErrorContrast": "常見錯誤：全班討論表決出不是自己首選的提案後，就在園遊會擺臭臉拒絕幫忙。",
+            "selfExplanationPrompt": "想一想：在小組開會時，為什麼應該特別留意讓講話較輕柔害羞的同學也能發言？"
+          },
+          "factGroundingSourceId": "115-s2/g3/integrative#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "溝通小偵探暖身題",
+          "narrationText": "答對這題就能獲得〈你我好關係〉的通行證！",
+          "cognitiveChunks": [
+            "專心傾聽包含眼神注視、點頭與適時提問"
+          ],
+          "warmupCheck": {
+            "prompt": "當好朋友興奮地分享週末爬山趣事時，哪一種傾聽表現會讓他覺得被重視？",
+            "options": [
+              "盯著漫畫書一動不動偶爾敷衍回「喔」",
+              "停下手邊遊戲轉向看著他，點頭回應並好奇提問",
+              "急著插嘴說「那有什麼了不起，聽我講我的」"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！專注的眼神加上點頭與好奇提問，是最棒的傾聽禮貌！",
+            "feedbackRetry": "換成你開心地分享故事時，最希望朋友的眼睛看著哪裡、用什麼態度聽呢？"
+          },
+          "factGroundingSourceId": "115-s2/g3/integrative#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-integrative-u2",
+      "stageId": "115-s2-g3-integrative-u2",
+      "title": "二、學習桃花源",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "找對學習方法，每天落實一點點",
+          "narrationText": "每個人都有擅長與需要加油的科目！聽聽同學的學習妙招、用關鍵詞與心智圖整理重點、整理乾淨桌面與錯題本，再訂下每天做得到的小計畫，學習就會變輕鬆！",
+          "cognitiveChunks": [
+            "善用優勢建自信、對症改善困難",
+            "畫關鍵詞與心智圖整理脈絡",
+            "訂定具體少量可持續的每日目標"
+          ],
+          "analogyAnchor": "學習方法就像尋寶用的工具箱：死抄十遍像用小湯匙挖山洞，而畫心智圖、整理錯題本和專心二十分鐘就像拿對了地圖與鏟子！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "盤點優弱項（找出卡關的地方）",
+                "選對好方法（心智圖、字卡、錯題本）",
+                "落實與調整（每日15分鐘並微調）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "發現困難不否定自己",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "少量持續並適時調整",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/integrative#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "讓寫作業更專心、讀書更有效率的步驟",
+          "narrationText": "總是覺得課本好長記不住、寫作業又容易分心嗎？試試這三步！",
+          "cognitiveChunks": [
+            "清空桌面只留必要文具課本",
+            "用螢光筆畫關鍵詞與心智圖",
+            "訂出每天十五分鐘小目標落實"
+          ],
+          "workedExampleData": {
+            "problemStatement": "覺得社會或自然課本內容很長記不住重點，怎麼整理最有效？",
+            "steps": [
+              "第 1 步：先把桌上玩具平板收好，讓環境安靜不分心。",
+              "第 2 步：閱讀時用螢光筆畫出關鍵詞，並為每段做小標題。",
+              "第 3 步：畫成心智圖或比較表，把零碎文字變成有脈絡的結構。"
+            ],
+            "commonErrorContrast": "常見錯誤：把課本死抄十遍手痠就算讀完，或訂下「每天讀十二小時」這種三天就放棄的空洞計畫。",
+            "selfExplanationPrompt": "想一想：試了一個新方法一週後發現不太有效時，應該全盤放棄，還是怎麼微調？"
+          },
+          "factGroundingSourceId": "115-s2/g3/integrative#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "學習桃花源暖身題",
+          "narrationText": "答對這題就能解鎖高效學習秘笈！",
+          "cognitiveChunks": [
+            "具體、少量、可持續的每日小目標最易落實"
+          ],
+          "warmupCheck": {
+            "prompt": "訂定「落實學習行動」的計畫時，哪一個計畫最容易每天做到並穩定進步？",
+            "options": [
+              "開學第一天寫下「每天不睡覺讀書十二小時」",
+              "把所有複習通通留到期末考前一晚凌晨一點抱佛腳",
+              "訂出具體可行的小目標（如每天晚飯後專心複習十五分鐘並檢查錯誤）"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！每天固定一小段專心時間並持續做到，比誇張的計畫更有效！",
+            "feedbackRetry": "「天天都做得到一點點」跟「太大太累做兩天就放棄」，哪一種才能養成好習慣？"
+          },
+          "factGroundingSourceId": "115-s2/g3/integrative#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-integrative-u3",
+      "stageId": "115-s2-g3-integrative-u3",
+      "title": "三、一起尋美趣",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "校園發現美與尊重多元美感",
+          "narrationText": "校園裡的美不只是樹影與花朵，更包含同學互相扶持、志工溫暖付出的善意！用畫畫、寫詩或拍照多元表達美感，布置時兼顧安全並尊重不同審美眼光。",
+          "cognitiveChunks": [
+            "美包含景物之美與人情溫暖之美",
+            "用畫畫、拍照、寫詩等多元方式表達",
+            "美感因人而異，尊重欣賞不同風格"
+          ],
+          "analogyAnchor": "美感就像調色盤裡的各種顏色，有人喜歡繽紛彩虹、有人喜歡清新藍綠，彼此尊重並保護環境整潔，校園就會處處是風景。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "校園發現美",
+              "leftPoints": [
+                "觀察花木光影與助人溫暖身影",
+                "看見垃圾先撿起分類再拍照"
+              ],
+              "rightTitle": "校園的美化",
+              "rightPoints": [
+                "布置不擋逃生門、窗台不放危物",
+                "尊重他人美感差異不破壞作品"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "多元記錄人情與景物美",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "安全布置並定期維護",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/integrative#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "美化教室角落的安全與尊重原則",
+          "narrationText": "動手美化班級或走廊之前，先檢查這三個重要原則！",
+          "cognitiveChunks": [
+            "不阻塞逃生通道與消防設備",
+            "利用回收材料並定期擦拭維護",
+            "尊重他人審美差異與創作心血"
+          ],
+          "workedExampleData": {
+            "problemStatement": "全班討論〈校園的美化〉要布置教室後方或走廊角落時，怎麼規劃最好？",
+            "steps": [
+              "第 1 步：確認位置安全，不堆東西擋住前後門逃生走道，窗台不放易掉落玻璃瓶。",
+              "第 2 步：善用回收紙盒與圖畫紙創作，融合大家喜歡的不同色彩風格。",
+              "第 3 步：安排值日輪流擦拭整理，經過他班作品只用眼欣賞不動手破壞。"
+            ],
+            "commonErrorContrast": "常見錯誤：為了拍美麗照片就把植物整株拔起來壓進課本，或強迫別人一定要喜歡同一種顏色。",
+            "selfExplanationPrompt": "想一想：如果在操場尋美拍照時看到草皮上有空飲料罐，應該怎麼做？"
+          },
+          "factGroundingSourceId": "115-s2/g3/integrative#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "尋美小天使暖身題",
+          "narrationText": "答對這題就能戴上美感放大鏡去尋美囉！",
+          "cognitiveChunks": [
+            "美感具有殊異性與獨特性，應互相欣賞"
+          ],
+          "warmupCheck": {
+            "prompt": "討論布置色調時，小晴喜歡繽紛彩虹色系、小宇偏愛淡雅藍綠色系，應該怎麼看待這種差異？",
+            "options": [
+              "明白美感因人而異、沒有唯一標準答案，互相欣賞並找出協調方法",
+              "爭論分出高下，認為喜歡淡雅色的人不懂美術",
+              "強迫少數派立刻改喜歡彩虹色系"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！尊重美感的殊異性與獨特性，往往能搭配出更豐富的作品！",
+            "feedbackRetry": "「美」只有一種顏色或一種標準答案嗎？碰到喜好不同時怎麼對待朋友比較好？"
+          },
+          "factGroundingSourceId": "115-s2/g3/integrative#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-integrative-u4",
+      "stageId": "115-s2-g3-integrative-u4",
+      "title": "四、環保綠生活",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "源頭減量、節約能源與社區踏查",
+          "narrationText": "垃圾不會憑空消失！出門自備水壺袋子做到源頭減量、隨手關燈省電，並結伴安全進行社區環境搜查，用溫馨宣導與里民一起守護家園。",
+          "cognitiveChunks": [
+            "塑膠垃圾難分解且會汙染海洋空氣",
+            "自備環保杯袋餐具從源頭減廢",
+            "踏查結伴重安全、正向宣導改善"
+          ],
+          "analogyAnchor": "地球環境就像大家共住的大房子，水龍頭一直漏水只靠擦地是不夠的，每個人都要關緊水龍頭（源頭減量、節能），家才會乾爽美麗。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "綠生活行動（自備環保用品、關燈節能）",
+                "社區環境搜查（結伴記錄優缺點不碰危物）",
+                "社區改善行動（手繪海報、找里長宣導）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "源頭減量勝過事後撿",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "結伴安全做社區搜查",
+                "anchorPointId": "step2"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/integrative#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "安全進行〈社區環境搜查〉與改善行動",
+          "narrationText": "想當專業又安全的環保小偵探，踏查前中後都要注意這些事。",
+          "cognitiveChunks": [
+            "大人陪同結伴行走並帶紀錄表",
+            "不徒手亂碰玻璃或不明化學罐",
+            "用溫馨海報與向里長建議來改善"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在〈社區環境搜查〉發現公園長椅旁常有空飲料瓶與寵物便便，怎麼規劃改善行動？",
+            "steps": [
+              "第 1 步：踏查時結伴注意安全，用紀錄表或拍照記下地點，不徒手碰危險垃圾。",
+              "第 2 步：手繪溫馨提醒小海報，並向里長或管委會建議增設標語與垃圾分類宣導。",
+              "第 3 步：從自己與家人做起落實垃圾不落地，同時記錄社區原本就整潔的綠化角落學習推廣。"
+            ],
+            "commonErrorContrast": "常見錯誤：把垃圾掃進水溝眼不見為淨，或單獨半夜跑進暗巷翻垃圾桶。",
+            "selfExplanationPrompt": "想一想：為什麼維護社區好環境不能只靠清潔隊員打掃，而需要每位居民一起做到綠生活？"
+          },
+          "factGroundingSourceId": "115-s2/g3/integrative#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "綠生活小尖兵暖身題",
+          "narrationText": "答對這題就能啟動〈環保綠生活〉行動計畫！",
+          "cognitiveChunks": [
+            "隨手關燈、冷氣適溫配電扇能節約能源"
+          ],
+          "warmupCheck": {
+            "prompt": "下列哪一個生活習慣既省錢又能替地球節約珍貴的電力與能源？",
+            "options": [
+              "夏天把冷氣開到 16 度同時把所有門窗敞開",
+              "離開房間隨手關燈與拔除不必要插頭，冷氣設定適溫並搭配電扇",
+              "開著冰箱門站在前面吹冷氣五分鐘"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！隨手關燈、冷氣適溫搭配電扇，就是天天做得到的節能好行動！",
+            "feedbackRetry": "冷氣開著又打開門窗，冷氣都跑出去做白工囉！找找看真正省電的做法！"
+          },
+          "factGroundingSourceId": "115-s2/g3/integrative#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-integrative-u5",
+      "stageId": "115-s2-g3-integrative-u5",
+      "title": "五、社區文化行",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "走進社區文化活動，欣賞多元生活",
+          "narrationText": "從節慶市集、傳統戲曲到文史導覽，透過可靠管道查詢社區活動、守禮參與體驗，並以開放心胸欣賞不同族群文化；在積木機關王挑戰中也能發揮耐心改良創意！",
+          "cognitiveChunks": [
+            "向長輩、公告欄或公所圖書館查詢",
+            "守序觀賞、不觸摸文物展品",
+            "欣賞新住民與多元族群文化智慧"
+          ],
+          "analogyAnchor": "社區文化就像一場熱鬧的「文化生活饗宴」，每道傳統美食、戲曲或新住民料理都是桌上好菜，帶著好奇與尊重品嘗就最美味。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "安全調查（公告欄、里辦、圖書館、家人）",
+                "守禮參與（排隊欣賞、請教志工、護展品）",
+                "分享省思（五感細節與多元文化尊重）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "可靠管道查社區活動",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "尊重欣賞多元族群文化",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/integrative#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分享文化體驗與積木機關王解難",
+          "narrationText": "回到班上分享文化活動心得，並在積木〈小小機關王〉挑戰中冷靜除錯！",
+          "cognitiveChunks": [
+            "分享包含人事時地、五感體驗與省思",
+            "積木卡住先檢查接縫、重心與摩擦力",
+            "保持耐心和夥伴微調測試"
+          ],
+          "workedExampleData": {
+            "problemStatement": "參與社區文化活動後要上台分享，或進行〈小小機關王〉積木「升降台車」卡住時，怎麼做最棒？",
+            "steps": [
+              "第 1 步：分享文化活動時，講出活動名稱、印象最深的五感細節，以及文化與生活的連結。",
+              "第 2 步：若遇到新住民或不同族群文化，帶著好奇與尊重態度介紹給大家。",
+              "第 3 步：積木升降台車或插銷卡住時，不生氣拍散，冷靜檢查零件接縫與重心並微調測試。"
+            ],
+            "commonErrorContrast": "常見錯誤：隨陌生人去參加不知名的活動、在展場偷摸文物，或積木卡住就氣到用膠水黏死。",
+            "selfExplanationPrompt": "想一想：生活中有哪些節慶或傳統小吃，能讓你感受到「文化就藏在日常生活裡」？"
+          },
+          "factGroundingSourceId": "115-s2/g3/integrative#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "社區文化小達人",
+          "narrationText": "答對這題就完成三年級綜合活動總挑戰囉！",
+          "cognitiveChunks": [
+            "社區公告欄、里辦、家人與公所圖書館最安全可靠"
+          ],
+          "warmupCheck": {
+            "prompt": "想事前調查並了解社區最近將舉辦什麼文化活動，運用哪一組管道最可靠又安全？",
+            "options": [
+              "聽路邊陌生人喊跟我上車去看表演就自己跟著走",
+              "請教家中長輩、查看社區公告欄與里辦訊息，或由家人陪同查詢圖書館與區公所網頁",
+              "看到不明抽獎廣告連結就輸入家裡地址和電話"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！向家人、里辦、社區公告欄或公所圖書館查詢，安全又正確！",
+            "feedbackRetry": "不可以跟陌生人走或在可疑網站留資料喔！家附近有哪些官方又安心的資訊管道呢？"
+          },
+          "factGroundingSourceId": "115-s2/g3/integrative#u5"
+        }
+      ]
+    }
+  ]
+}

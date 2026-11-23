@@ -1,0 +1,545 @@
+{
+  "packId": "115-s1-g5-social",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 5,
+  "subjectId": "social",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-social-u1",
+      "stageId": "115-s1-g5-social-u1",
+      "title": "第一單元 臺灣我的家",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "臺灣的地理位置與多元社會",
+          "narrationText": "臺灣位於北半球與東半球交會處，東臨太平洋、西隔臺灣海峽與中國大陸相望，北回歸線橫越嘉義與花蓮，是東亞重要的海洋樞紐。",
+          "cognitiveChunks": [
+            "北緯 22°～25°、東經 120°～122°",
+            "北回歸線橫越嘉義與花蓮",
+            "東臨太平洋、西臨臺灣海峽"
+          ],
+          "analogyAnchor": "把地球儀想像成一個大棋盤，經線與緯線交錯出臺灣的精準座標，而四面環海的位置就像東亞航線的轉運站。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "自然地理座標",
+              "leftPoints": [
+                "北回歸線（23.5°N）通過",
+                "本島極北富貴角、極南鵝鑾鼻"
+              ],
+              "rightTitle": "海陸交通位置",
+              "rightPoints": [
+                "東接太平洋、南臨巴士海峽",
+                "連接東北亞與東南亞航線"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "北回歸線橫越中南部",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "東亞海空交通樞紐",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/social#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "社會規範與法律的保護力量",
+          "narrationText": "風俗習慣、倫理道德、宗教信仰與法律共同引導人們的行為；其中只有法律由國家制定並具備強制力，用來保障權利與維護秩序。",
+          "cognitiveChunks": [
+            "風俗、倫理、宗教靠良心與輿論約束",
+            "法律由國家制定，具強制力",
+            "憲法是國家根本大法，法律不得牴觸"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小宇在網路購物時收到與照片完全不符的瑕疵商品，賣家卻拒絕退貨，他應該怎麼處理才符合法治精神？",
+            "steps": [
+              "第 1 步：保留交易證據——截圖商品頁面、對話紀錄與匯款或發票憑證",
+              "第 2 步：溝通與申訴——先與賣家理性協商，若無效可向消保官或撥打 165／報警求助",
+              "第 3 步：依法救濟——透過調解或司法途徑維護權益，不私下報復或違法公審"
+            ],
+            "commonErrorContrast": "常見錯誤：以為法律只用來處罰犯罪，或誤以為把對方個資公開在網路上公審是合法的解決方式。",
+            "selfExplanationPrompt": "想一想：同樣是規範行為，「排隊禮讓」和「騎機車戴安全帽」分別屬於哪一種社會規範？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/social#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "多元共融與和平相處",
+          "topicSignalTitle": "尊重差異、遵守規範",
+          "narrationText": "認識臺灣在世界中的位置與歷史背景後，面對不同文化背景的夥伴，我們更要秉持尊重、包容與平等的態度和平共處。",
+          "cognitiveChunks": [
+            "尊重不同族群的語言與文化",
+            "平等對話是和平相處的基礎"
+          ],
+          "factGroundingSourceId": "115-s1/g5/social#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認社會規範與法律的差別，再進入第一單元挑戰！",
+          "cognitiveChunks": [
+            "法律由國家制定並具有強制力"
+          ],
+          "warmupCheck": {
+            "prompt": "在風俗習慣、倫理道德、宗教信仰與法律四種社會規範中，哪一種由國家制定且違反時會受到公權力處罰？",
+            "options": [
+              "法律",
+              "風俗習慣",
+              "倫理道德",
+              "宗教信仰"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！法律由國家機關制定並具有強制力，能保障人民權利與維護社會秩序。",
+            "feedbackRetry": "再想一想，哪一種規範如果不遵守，警察或法院可以依法處罰呢？"
+          },
+          "factGroundingSourceId": "115-s1/g5/social#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-social-u2",
+      "stageId": "115-s1-g5-social-u2",
+      "title": "第二單元 臺灣的自然環境與生活",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "臺灣的五大地形與河川特徵",
+          "narrationText": "臺灣擁有山地、丘陵、台地、盆地與平原五大地形，山地丘陵面積廣大且多呈南北走向，使得河川普遍具有長度短、坡陡流急的特徵。",
+          "cognitiveChunks": [
+            "山地與丘陵占全島三分之二以上",
+            "平原與盆地人口密集、農工業發達",
+            "河川短促急流、豐枯水期流量差距大"
+          ],
+          "analogyAnchor": "把臺灣島想像成一座屋脊高聳的房子：雨水落在高高的中央屋頂後，順著陡峭屋簷快速流進大海，因此需要水庫把水留住。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "中央山脈南北走向、地勢高聳",
+                "河川東西奔流入海、長度短且坡陡流急",
+                "人口與農業多集中在西部平原與盆地"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "山高坡陡南北向",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "河川短促流量不均",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l3",
+                "text": "平原聚落人口密集",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/social#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "季風氣候與防災永續",
+          "narrationText": "臺灣冬季吹東北季風、夏季吹西南季風，地形阻擋使北南部冬季天氣大不同；夏秋颱風豪雨與地震頻繁，更需要做好防災與水土保持。",
+          "cognitiveChunks": [
+            "冬季東北季風：北部陰雨、中南部晴朗",
+            "夏季西南季風與颱風：主要供水期",
+            "保護山林水土保持可降低土石流風險"
+          ],
+          "workedExampleData": {
+            "problemStatement": "冬季一月時，基隆常陰雨綿綿，為什麼同一時間高雄卻常是晴朗乾燥的好天氣？",
+            "steps": [
+              "第 1 步：判斷風向——臺灣冬季盛行來自東北方的「東北季風」",
+              "第 2 步：分析地形阻擋——潮溼氣流在北部與東北部迎風面受山脈抬升而降雨",
+              "第 3 步：推論背風面天氣——氣流越過山脈後水氣減少，中南部成為背風面而晴朗乾燥"
+            ],
+            "commonErrorContrast": "常見錯誤：以為全臺灣冬天都會一起下雨，或忘記山脈阻擋季風會造成迎風面與背風面的降雨差異。",
+            "selfExplanationPrompt": "想一想：為什麼過度砍伐山坡地樹木，在颱風豪雨來臨時容易引發土石流？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/social#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "珍惜水土資源與永續行動",
+          "topicSignalTitle": "防災準備與綠色生活",
+          "narrationText": "面對地震與颱風威脅，平時要備妥避難包並熟悉應變步驟；生活中節約用水用電、減少一次性塑膠，就是守護臺灣環境的最好行動。",
+          "cognitiveChunks": [
+            "地震應變：趴下、掩護、穩住",
+            "省水減塑落實環境永續"
+          ],
+          "factGroundingSourceId": "115-s1/g5/social#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認臺灣河川的特徵，再進入第二單元挑戰！",
+          "cognitiveChunks": [
+            "地形與降雨影響河川特性"
+          ],
+          "warmupCheck": {
+            "prompt": "受到山高坡陡、東西狹窄以及降雨季節不均的影響，臺灣的河川普遍具有什麼特徵？",
+            "options": [
+              "又長又平緩，終年水量穩定",
+              "長度較短、坡陡流急，豐枯水期流量變化大",
+              "冬天結冰完全無法流動",
+              "全部由西向東流進太平洋"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！臺灣河川從中央山地快速奔流入海，所以短促急流且需要水庫調節水量。",
+            "feedbackRetry": "想一想山脈很高、離海又很近，河水流下來會不會又短又急呢？"
+          },
+          "factGroundingSourceId": "115-s1/g5/social#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-social-u3",
+      "stageId": "115-s1-g5-social-u3",
+      "title": "第三單元 尋根探源話臺灣",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "史前文化的器物與技術演變",
+          "narrationText": "在文字出現前的史前時代，臺灣先民依序經歷舊石器、新石器與金屬器時代，工具從打製石器進步到磨製石器、陶器，再發展出煉鐵技術。",
+          "cognitiveChunks": [
+            "舊石器（長濱）：打製石器、已知用火",
+            "新石器（卑南）：磨製石器、陶器、石板棺與玉器",
+            "金屬器（十三行）：煉鐵作坊與海外貿易"
+          ],
+          "analogyAnchor": "史前工具的演變就像一場技術升級：先用石頭互敲出粗略工具，接著學會磨光與燒陶定居，最後掌握高溫煉鐵並跨海交易。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "舊石器（長濱文化）：打製石器、漁獵採集",
+                "新石器（卑南文化）：磨製石器、農耕定居與玉器",
+                "金屬器（十三行文化）：煉鐵技術、對外貿易交流"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "舊石器：打製石器",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "新石器：磨製與農耕",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l3",
+                "text": "金屬器：煉鐵與貿易",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/social#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "原住民族與自然共存的智慧",
+          "narrationText": "臺灣原住民族長期與山海共處，發展出順應自然的生態規範與就地取材的生活方式，展現環境永續的智慧。",
+          "cognitiveChunks": [
+            "達悟族依飛魚汛期捕撈與禁漁",
+            "排灣、魯凱族用板岩蓋石板屋",
+            "尊重多元祭典與母語文化"
+          ],
+          "workedExampleData": {
+            "problemStatement": "蘭嶼達悟族訂定嚴格的飛魚季捕撈與禁漁規則，排灣族與魯凱族則就地取材興建石板屋，這兩種生活智慧有什麼共同點？",
+            "steps": [
+              "第 1 步：觀察環境條件——蘭嶼四面環海、南部山區盛產板岩與頁岩",
+              "第 2 步：找出適應方式——依魚汛節制捕撈、利用堅固石板防風抗震又冬暖夏涼",
+              "第 3 步：歸納核心精神——順應自然、珍惜資源並達成與環境的永續共存"
+            ],
+            "commonErrorContrast": "常見錯誤：誤以為原住民族的禁忌或祭典只是迷信，而忽略其中蘊含讓動植物休養生息的生態科學智慧。",
+            "selfExplanationPrompt": "想一想：當我們有機會參加或認識原住民族祭典時，應該注意哪些尊重文化的禮儀？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/social#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "多元文化的尊重與傳承",
+          "topicSignalTitle": "欣賞差異、守護母語",
+          "narrationText": "每一族群的語言、歌謠與傳統祭儀都是臺灣珍貴的文化資產，我們應以平等尊重的心去認識與支持傳承。",
+          "cognitiveChunks": [
+            "不任意打擾神聖的傳統祭典",
+            "支持原住民族語言與文化保存"
+          ],
+          "factGroundingSourceId": "115-s1/g5/social#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認臺灣史前文化的代表特色，再進入第三單元挑戰！",
+          "cognitiveChunks": [
+            "十三行文化代表臺灣金屬器時代"
+          ],
+          "warmupCheck": {
+            "prompt": "考古學家在新北市八里的「十三行文化」遺址中發現了煉鐵作坊、中國銅錢與玻璃珠，這代表當時的人們已經進入哪一個時代？",
+            "options": [
+              "舊石器時代",
+              "新石器時代",
+              "金屬器時代",
+              "網際網路時代"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！十三行文化已掌握高溫煉鐵技術，並與海外進行貿易交流，是臺灣金屬器時代的代表。",
+            "feedbackRetry": "遺址裡出現了「煉鐵作坊」和銅錢，想一想鐵屬於哪一種材料呢？"
+          },
+          "factGroundingSourceId": "115-s1/g5/social#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-social-u4",
+      "stageId": "115-s1-g5-social-u4",
+      "title": "第四單元 大航海時代的臺灣",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "登上東亞貿易舞臺的臺灣",
+          "narrationText": "16～17 世紀的大航海時代，臺灣因位居日本、中國大陸與東南亞航線的交會點，成為各國商船轉運與勢力競逐的重要據點。",
+          "cognitiveChunks": [
+            "東亞海域貿易與補給中繼站",
+            "荷蘭佔領南部、西班牙曾佔領北部",
+            "1661 年鄭成功驅逐荷蘭人"
+          ],
+          "analogyAnchor": "大航海時代的東亞海洋就像一條繁忙的海上高速公路，臺灣剛好位在正中央的交流道旁，誰能掌握臺灣，就更容易串聯各國貿易。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "荷蘭與西班牙時期",
+              "leftPoints": [
+                "荷蘭建熱蘭遮城、出口鹿皮蔗糖",
+                "西班牙建聖薩爾瓦多城與傳天主教"
+              ],
+              "rightTitle": "鄭氏時期",
+              "rightPoints": [
+                "實施軍屯開墾增加糧食",
+                "陳永華建孔廟與學校推漢人教育"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "荷西建城貿易傳教",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "鄭氏軍屯與建孔廟",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/social#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "歷史更迭與多元視角評價",
+          "narrationText": "荷蘭人、西班牙人與鄭氏政權先後經營臺灣，留下城堡、地名、耕牛與「新港文書」等文化印記，也對原住民族生活領域帶來深遠影響。",
+          "cognitiveChunks": [
+            "新港文書：羅馬拼音拼寫平埔族語",
+            "鄭氏軍屯留下新營、林鳳營等地名",
+            "拓墾與收稅同時衝擊原住民族領域"
+          ],
+          "workedExampleData": {
+            "problemStatement": "我們今天在臺南可以看到安平古堡、赤崁樓與臺南孔廟，也知道「新港文書」這項重要文獻。該如何用客觀多元的視角理解大航海時代的歷史？",
+            "steps": [
+              "第 1 步：看見開發與交流——臺灣連結國際貿易，引進耕牛、農作與漢人教育制度",
+              "第 2 步：看見文化交會——荷蘭傳教士以羅馬字拼寫西拉雅語留下新港文書",
+              "第 3 步：同理原住民族處境——外來政權的獵捕、收稅與開墾也壓縮了原住民族傳統生存空間"
+            ],
+            "commonErrorContrast": "常見錯誤：只從單一角度讚美開發建設，而忽略外來勢力對原本居住在此的原住民族造成的衝擊。",
+            "selfExplanationPrompt": "想一想：為什麼「新港文書」能成為研究平埔族群語言與土地契約的珍貴歷史證據？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/social#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "歷史地名中的時間線索",
+          "topicSignalTitle": "從地名讀懂臺灣故事",
+          "narrationText": "淡水紅毛城（聖多明哥城前身）、臺南安平（大員）以及「新營、林鳳營」等地名，都是大航海時代留給我們的歷史密碼。",
+          "cognitiveChunks": [
+            "1642 年荷蘭驅逐北臺灣西班牙勢力",
+            "地名與古蹟見證多元文化層疊"
+          ],
+          "factGroundingSourceId": "115-s1/g5/social#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認鄭氏時期的重要建設，再進入第四單元挑戰！",
+          "cognitiveChunks": [
+            "鄭氏時期推動軍屯與漢人教育"
+          ],
+          "warmupCheck": {
+            "prompt": "鄭氏時期為了克服糧食不足並推廣文化教育，在臺灣推動了哪兩項重要措施？",
+            "options": [
+              "實施「軍屯」開墾與興建臺南孔廟設立學校",
+              "全面禁止種植稻米與關閉所有學堂",
+              "在基隆興建聖薩爾瓦多城傳播天主教",
+              "規定全島只能輸出鹿皮，不准耕田"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！鄭氏時期令軍隊平時屯田自給，並由陳永華規劃建孔廟與學校，使漢人文化教育在臺生根。",
+            "feedbackRetry": "想一想「新營、林鳳營」的地名由來，以及臺南著名的古蹟「孔廟」是誰時期興建的喔！"
+          },
+          "factGroundingSourceId": "115-s1/g5/social#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-social-u5",
+      "stageId": "115-s1-g5-social-u5",
+      "title": "主題探究與實作單元",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "守護臺灣最美的風景：探究流程",
+          "narrationText": "主題探究與實作帶我們從好奇出發，依序完成「設定主題 → 蒐集查證資料 → 規劃行程實地探訪 → 成果分享與反思行動」。",
+          "cognitiveChunks": [
+            "設定探究問題與探訪目標",
+            "多元查證資料並運用數位地圖",
+            "實踐無痕旅遊與公民守護行動"
+          ],
+          "analogyAnchor": "做主題探究就像當一位「土地小偵探」：先定好調查任務、帶上可靠線索與地圖出發探訪，最後把故事與守護方法分享給大家。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "確定探究主題與問題",
+                "交叉查證多元資料並規劃安全行程",
+                "實地觀察訪談並發表圖文守護成果"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "訂主題提問題",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "查資料排行程",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l3",
+                "text": "踏查訪談與分享",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/social#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "資料查證與無痕踏查規劃",
+          "narrationText": "出發探訪前要交叉比對政府觀光網站、文史書籍與地圖資訊；實地踏查時則要禮貌訪談在地居民，並落實垃圾帶走與不破壞生態。",
+          "cognitiveChunks": [
+            "交叉比對官方網站與文史資料",
+            "禮貌訪談導覽志工或當地耆老",
+            "自備環保杯袋、不攀折花木"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小組打算規劃一趟〈守護臺灣最美的風景〉一日探訪行程，如何確保資料正確又符合「守護」精神？",
+            "steps": [
+              "第 1 步：多元查證——比對政府文化觀光網站、地圖開放時間與地方文史書，不輕信單一網路留言",
+              "第 2 步：安全與環保規劃——查詢氣象預報，提醒組員自備水壺環保袋、不闖入保護區",
+              "第 3 步：視覺化分享——用位置地圖、今昔照片對比與圖表整理探究成果，提出務實守護建議"
+            ],
+            "commonErrorContrast": "常見錯誤：直接抄錄網路不明遊記就當作報告，或在發表時把三千字純文字塞滿同一張投影片。",
+            "selfExplanationPrompt": "想一想：如果實地探訪時看到古蹟或風景區有垃圾，除了自己不亂丟，還能提出什麼具體倡議？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/social#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "從認識走向行動",
+          "topicSignalTitle": "愛護鄉土的公民素養",
+          "narrationText": "真正認識這片土地的歷史與生態故事後，才會打從心底珍惜，並把感動化為日常減塑、守護環境的實際行動。",
+          "cognitiveChunks": [
+            "圖表與照片對比讓簡報更清楚",
+            "認識家鄉才能實踐守護行動"
+          ],
+          "factGroundingSourceId": "115-s1/g5/social#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認探究步驟與資料查證方法，再進入第五單元挑戰！",
+          "cognitiveChunks": [
+            "交叉比對多元資料確保正確性"
+          ],
+          "warmupCheck": {
+            "prompt": "在為主題探究蒐集景點資料時，下列哪一種做法最能確保資訊正確可靠？",
+            "options": [
+              "只相信陌生網友在留言區寫的一句話",
+              "直接沿用十年前過期的舊旅遊傳單",
+              "交叉比對政府觀光與文化網站、文史書籍及最新地圖資訊",
+              "不查證任何資料，全部自己憑空想像"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！交叉比對官方資訊與文史資料並標註來源，才能避免引用錯誤訊息。",
+            "feedbackRetry": "想一想，要怎麼確認一個景點的歷史和最新開放時間是不是真的呢？"
+          },
+          "factGroundingSourceId": "115-s1/g5/social#u5"
+        }
+      ]
+    }
+  ]
+}

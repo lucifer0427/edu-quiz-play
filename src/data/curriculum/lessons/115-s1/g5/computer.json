@@ -1,0 +1,331 @@
+{
+  "packId": "115-s1-g5-computer",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 5,
+  "subjectId": "computer",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-computer-u1",
+      "stageId": "115-s1-g5-computer-u1",
+      "title": "第1–6週：邏輯思考大挑戰",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "流程圖、迴圈與邏輯真值表",
+          "narrationText": "寫程式前先用流程圖（Flowchart）規劃步驟，再用迴圈（Loop）簡化重複指令，並透過 AND、OR、NOT 真值表設計精準的條件判斷。",
+          "cognitiveChunks": [
+            "流程圖菱形代表條件判斷分流",
+            "迴圈能精簡重複指令並方便修改次數",
+            "AND 全真才真、OR 一真就真、NOT 反轉"
+          ],
+          "analogyAnchor": "流程圖就像出門旅行的地圖：橢圓形是起點與終點、長方形是沿途景點、菱形則是遇到岔路時決定往左或往右的路口。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "用流程圖符號規劃程式步驟與菱形判斷",
+                "運用迴圈簡化重複動作指令",
+                "結合 AND / OR / NOT 邏輯與 Debug 除錯"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "流程圖菱形判斷",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "迴圈精簡重複步驟",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l3",
+                "text": "邏輯真值表與除錯",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/computer#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "Scratch 智慧偵測器與 Debug 除錯",
+          "narrationText": "製作「智慧偵測器」時，若條件判斷沒有放進「重複無限次」迴圈，程式只會在點擊綠旗那一瞬間檢查一次。",
+          "cognitiveChunks": [
+            "偵測積木須放入重複無限次才能持續檢查",
+            "1A2B 與質數篩法訓練規律推理",
+            "離開電腦教室前務必登出帳號"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小忠寫了「當綠旗被點擊 → 如果 <碰到紅色？> 那麼 播放音效」，但遊戲開始後移動角色碰到紅色卻沒聲音，該怎麼除錯（Debug）？",
+            "steps": [
+              "第 1 步：追蹤執行順序——程式在按下綠旗的一瞬間檢查完「是否碰到紅色」就結束了",
+              "第 2 步：找出邏輯漏洞——角色是遊戲開始後才移動去碰紅色，需要持續偵測",
+              "第 3 步：修正積木結構——將「如果…那麼」包進「重複無限次」迴圈中，讓程式隨時檢查"
+            ],
+            "commonErrorContrast": "常見錯誤：以為放了「如果…那麼」就會自動一直偵測，或是誤把電腦沒聲音歸咎於硬體而忽略程式只跑一次。",
+            "selfExplanationPrompt": "想一想：如果條件 A 為真、條件 B 為假，「A AND B」和「A OR B」哪一個結果會是真？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/computer#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "資安隱私與網路禮儀",
+          "topicSignalTitle": "保護帳號、尊重著作權",
+          "narrationText": "在電腦教室與網路上，不隨意拍攝或散播他人照片、不抄襲或刪除別人作品，離開座位前確實登出帳號。",
+          "cognitiveChunks": [
+            "密碼不外洩、離開前確實登出",
+            "尊重他人隱私與數位作品"
+          ],
+          "factGroundingSourceId": "115-s1/g5/computer#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認流程圖標準符號的意義，再進入第一單元挑戰！",
+          "cognitiveChunks": [
+            "流程圖不同形狀代表不同功能"
+          ],
+          "warmupCheck": {
+            "prompt": "在繪製程式流程圖（Flowchart）時，用來表示「條件判斷（例如：是否及格？是／否分流）」的標準符號是哪一種圖形？",
+            "options": [
+              "菱形",
+              "長方形（矩形）",
+              "圓角矩形（橢圓形）",
+              "實心黑圓點"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！菱形用來表示條件判斷與分支路線，長方形則是處理步驟，橢圓形代表開始或結束。",
+            "feedbackRetry": "想一想，哪一個形狀有左右或上下尖角，最適合分出「是」與「否」兩條路線呢？"
+          },
+          "factGroundingSourceId": "115-s1/g5/computer#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-computer-u2",
+      "stageId": "115-s1-g5-computer-u2",
+      "title": "第7–13週：歡樂派對設計師",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "舞台座標、畫筆多邊形與圖像效果",
+          "narrationText": "Scratch 舞台中心是原點 (0, 0)，x 軸控制左右、y 軸控制上下；搭配畫筆與「360 ÷ 邊數」的轉彎角度，就能精準畫出各種正多邊形。",
+          "cognitiveChunks": [
+            "x 正右負左（-240～240）、y 正上負下（-180～180）",
+            "正 n 邊形每次外角轉彎 360 ÷ n 度",
+            "幻影效果調整透明度、顏色效果變換色彩"
+          ],
+          "analogyAnchor": "把 Scratch 舞台想像成一張十字座標方格紙：往右走 x 增加、往下走 y 減少；畫筆繞一圈剛好轉完 360 度，平均分給每條邊就能畫出正多邊形。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "舞台座標定位",
+              "leftPoints": [
+                "x > 0 在右側、x < 0 在左側",
+                "y > 0 在上方、y < 0 在下方"
+              ],
+              "rightTitle": "畫筆多邊形規律",
+              "rightPoints": [
+                "正三角形：重複 3 次轉 120 度",
+                "正五邊形：重複 5 次轉 72 度"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "座標定位左右上下",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "外角 360÷邊數",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/computer#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "變數初始化、隨機取數與廣播",
+          "narrationText": "設計派對抽獎機時，需要用「設為」初始化變數、用「隨機取數」與比較運算子判斷是否中獎，並用「廣播」同步通知其他角色慶祝。",
+          "cognitiveChunks": [
+            "「設為 0」可歸零、「改變 0」不變",
+            "注意「< 10」不包含 10 本身",
+            "「廣播訊息」可讓多角色同步動作"
+          ],
+          "workedExampleData": {
+            "problemStatement": "派對抽獎程式設定：「將 [中獎號碼] 設為 (1 到 20 隨機取數)」，若「<(中獎號碼) < 10>」就廣播 [開獎] 並慶祝。請問重新開始遊戲時如何歸零，且抽到 10 會不會中獎？",
+            "steps": [
+              "第 1 步：變數初始化——必須使用「將 [中獎號碼] 設為 (0)」，不能用「改變 (0)」",
+              "第 2 步：檢查條件邊界——「(中獎號碼) < 10」只包含 1～9，抽到 10 時條件不成立，不會中獎",
+              "第 3 步：跨角色同步——主持人「廣播 [開獎]」後，舞台與氣球用「當收到訊息 [開獎]」同時動作"
+            ],
+            "commonErrorContrast": "常見錯誤：把「設為 0」誤用成「改變 0」，導致舊分數沒有歸零；或把「< 10」誤以為包含 10。",
+            "selfExplanationPrompt": "想一想：用畫筆畫圖時，「停筆」和「筆跡全部清除」這兩個積木各自在什麼時候使用？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/computer#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "事件觸發讓派對動起來",
+          "topicSignalTitle": "點擊與按鍵的互動設計",
+          "narrationText": "結合「當角色被點擊」、「當 [空白鍵] 鍵被按下」以及「當收到訊息」，就能讓玩家與派對舞台產生豐富互動。",
+          "cognitiveChunks": [
+            "事件帽子積木控制程式啟動時機",
+            "不同角色可透過廣播分工合作"
+          ],
+          "factGroundingSourceId": "115-s1/g5/computer#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認畫筆畫正多邊形的轉彎角度公式，再進入第二單元挑戰！",
+          "cognitiveChunks": [
+            "畫正多邊形轉彎角度為 360 ÷ 邊數"
+          ],
+          "warmupCheck": {
+            "prompt": "利用 Scratch 畫筆積木畫出一個「正方形」時，重複 4 次的迴圈中，每次畫完一條邊應該右轉幾度？",
+            "options": [
+              "120 度",
+              "90 度",
+              "72 度",
+              "60 度"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！360 ÷ 4 = 90 度，所以每次轉 90 度重複 4 次就能畫出正方形。",
+            "feedbackRetry": "把繞一圈的 360 度除以正方形的 4 條邊，算算看等於幾度呢？"
+          },
+          "factGroundingSourceId": "115-s1/g5/computer#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-computer-u3",
+      "stageId": "115-s1-g5-computer-u3",
+      "title": "第14–21週：生態探險家",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "昆蟲科學與 Scratch 生態模擬",
+          "narrationText": "製作〈生態探險家〉時先確認昆蟲（頭胸腹三部分、六隻腳）與蝴蝶完全變態（卵→幼蟲→蛹→成蟲）的科學知識，再運用圖層、反彈與造型切換模擬生態。",
+          "cognitiveChunks": [
+            "昆蟲有頭胸腹與六隻腳；蜘蛛不是昆蟲",
+            "圖層移到最上層避免角色被背景遮住",
+            "「切換下一個造型」模擬毛毛蟲蛻變蝴蝶"
+          ],
+          "analogyAnchor": "程式裡的「分身」就像生態系裡的族群繁殖：只要設計好一隻蚜蟲本尊的藍圖，就能一次派出 20 隻分身到舞台上自由活動。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "設定蝴蝶四階段造型與圖層順序",
+                "用隨機取數、移動與碰到邊緣就反彈模擬移動",
+                "透過碰撞偵測、進食量變數與分身完成遊戲"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "完全變態造型切換",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "隨機移動邊緣反彈",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l3",
+                "text": "分身與碰撞計數",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/computer#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分身生命週期與碰撞計數除錯",
+          "narrationText": "「當綠旗被點擊」時先隱藏本尊並建立分身，「當分身產生」才顯示並移動；碰撞吃掉蚜蟲後必須使用「分身刪除」釋放系統資源。",
+          "cognitiveChunks": [
+            "分身行為要接在「當分身產生」下方",
+            "碰撞加分後要隱藏或移走避免重複計數",
+            "使用「分身刪除」避免佔滿 300 個上限"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在「益蟲保護戰」遊戲中，為什麼蚜蟲分身被瓢蟲吃掉時要用「分身刪除」而不是「隱藏」？另外為什麼毛毛蟲停在葉子上進食量會暴衝？",
+            "steps": [
+              "第 1 步：理解分身上限——Scratch 舞台最多約 300 個分身，僅用「隱藏」仍會佔用額度拖慢遊戲",
+              "第 2 步：正確清除分身——被吃掉後執行「分身刪除」，徹底釋放記憶體資源",
+              "第 3 步：避免重複計數——迴圈每秒跑很多次，碰到葉子加 1 後應立刻移動／隱藏葉子或等待離開"
+            ],
+            "commonErrorContrast": "常見錯誤：把分身的移動程式接在「當綠旗被點擊」底下（分身不會執行），或只用「隱藏」代替「分身刪除」。",
+            "selfExplanationPrompt": "想一想：如果角色被草叢擋住了，應該使用外觀類的哪一個積木讓它顯示在最前面？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/computer#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "科技結合自然觀察",
+          "topicSignalTitle": "用程式模擬真實生態",
+          "narrationText": "將自然課學到的昆蟲特徵與完全變態知識轉化為互動遊戲，讓玩家在遊玩中認識益蟲保護農作物的重要性。",
+          "cognitiveChunks": [
+            "蝴蝶完全變態：卵、幼蟲、蛹、成蟲",
+            "廣播「進化」觸發造型切換"
+          ],
+          "factGroundingSourceId": "115-s1/g5/computer#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認分身程式的啟動帽子積木，再進入第三單元挑戰！",
+          "cognitiveChunks": [
+            "分身從「當分身產生」開始執行"
+          ],
+          "warmupCheck": {
+            "prompt": "在「益蟲保護戰」遊戲中，使用「建立 [自己] 的分身」產生大量蚜蟲後，每個新分身要執行的移動程式必須接在哪一個積木下方？",
+            "options": [
+              "當綠旗被點擊",
+              "當角色被點擊",
+              "當分身產生",
+              "當背景換成 [森林]"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！本尊執行綠旗程式來建立分身，而每個分身誕生後都會從「當分身產生」開始執行。",
+            "feedbackRetry": "分身不會再重新跑一次綠旗喔！找找看名字裡有「分身」的帽子積木吧！"
+          },
+          "factGroundingSourceId": "115-s1/g5/computer#u3"
+        }
+      ]
+    }
+  ]
+}

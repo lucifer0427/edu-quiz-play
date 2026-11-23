@@ -1,0 +1,745 @@
+{
+  "packId": "115-s1-g6-english",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 6,
+  "subjectId": "english",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-english-u0",
+      "stageId": "115-s1-g6-english-u0",
+      "title": "開學預備週 & Starter",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "g6s1-english-u0-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "生活中的英文數字與字母拼讀暖身",
+          "narrationText": "在 Starter 單元中，我們練習用英文報讀房間號碼、建築物高度、降雨機率與手機號碼，並複習長短母音的字母拼讀規則。",
+          "cognitiveChunks": [
+            "房號與電話號碼：逐字或兩位分開唸，0 常唸 oh",
+            "降雨機率：eighty percent（百分之八十）",
+            "建築高度：five hundred meters tall（五百公尺高）"
+          ],
+          "analogyAnchor": "英文報讀門牌或電話就像唸一串密碼，把每個數字分開唸清楚（遇到 0 唸 oh），對方就能立刻記下來。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "編號類數字（逐字唸）",
+              "leftPoints": [
+                "房號 Room 305 → three-oh-five",
+                "手機號碼 0912 → oh-nine-one-two"
+              ],
+              "rightTitle": "數量與測量（整數唸）",
+              "rightPoints": [
+                "80% → eighty percent",
+                "500 公尺 → five hundred meters"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6-e-u0-l1",
+                "text": "編號逐字唸0唸oh",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6-e-u0-l2",
+                "text": "高度與百分比整唸",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/english#u0"
+        },
+        {
+          "sceneId": "g6s1-english-u0-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "區分生活數字報讀與 Phonics 長短母音",
+          "narrationText": "看到數字時先分辨它是「編號」還是「數量」，看到拼讀單字時先檢查字尾有沒有不發音的 e。",
+          "cognitiveChunks": [
+            "a_e、i_e 結構發長母音（cake, bike）",
+            "無字尾 e 的閉音節發短母音（cat, fish）"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何用英文正確唸出「Room 305」與「降雨機率 80%」，並區分 bike 與 fish 的母音？",
+            "steps": [
+              "第 1 步：Room 305 是房號編號，逐字唸作 Room three-oh-five",
+              "第 2 步：80% 是百分比數量，唸作 eighty percent",
+              "第 3 步：bike 有字尾 e 使 i 發長母音 /aɪ/；fish 沒有字尾 e，i 發短母音 /ɪ/"
+            ],
+            "commonErrorContrast": "常見錯誤：把手機號碼當成幾億的整數來唸，或把 Room 305 唸成 three hundred five dollars。",
+            "selfExplanationPrompt": "想一想：在 World Map & Fast Facts 裡，地球上的七大洲（continents）你認識哪幾個英文名稱？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/english#u0"
+        },
+        {
+          "sceneId": "g6s1-english-u0-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "生活英語應用：世界地圖與數字常識",
+          "topicSignalTitle": "從台灣出發認識世界各大洲與城市數據",
+          "narrationText": "搭配世界地圖認識各大洲（continents）與著名地標高度、天氣降雨機率，能讓英文數字真正用在生活與國際閱讀中。",
+          "cognitiveChunks": [
+            "percent ＝ 百分比；meters ＝ 公尺",
+            "continents ＝ 洲（複數）"
+          ],
+          "factGroundingSourceId": "115-s1/g6/english#u0"
+        },
+        {
+          "sceneId": "g6s1-english-u0-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認生活數字的英文表達方式！",
+          "cognitiveChunks": [
+            "百分比用 percent，公尺用 meters"
+          ],
+          "warmupCheck": {
+            "prompt": "英文氣象預報說今天降雨機率是 60%，英文應該怎麼說？",
+            "options": [
+              "sixty meters",
+              "sixty percent",
+              "sixteen dollars",
+              "six o'clock"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！60% 唸作 sixty percent。",
+            "feedbackRetry": "表示「百分比（%）」的英文單字是 percent 喔！"
+          },
+          "factGroundingSourceId": "115-s1/g6/english#u0"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-english-u1",
+      "stageId": "115-s1-g6-english-u1",
+      "title": "Unit 1 Where Are You From?",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "g6s1-english-u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "用英文詢問與回答來自哪個國家",
+          "narrationText": "認識來自不同國家的朋友時，用 \"Where + be動詞 + 主詞 + from?\" 詢問對方來自哪裡，回答用 \"主詞 + be動詞 + from + 國家\"。",
+          "cognitiveChunks": [
+            "Where are you from? → I'm from Taiwan.",
+            "Where is he/she from? → He's/She's from the UK.",
+            "Phonics：ir / ur 發 /ɝː/；字尾 -er / -or 發 /ɚ/"
+          ],
+          "analogyAnchor": "from 就像行李箱上的出發地標籤，問「你從哪裡來」只要記住 be 動詞配 from。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "詢問與回答國家",
+              "leftPoints": [
+                "you / they → 配 are",
+                "he / she / Kevin → 配 is"
+              ],
+              "rightTitle": "Unit 1 字母拼讀",
+              "rightPoints": [
+                "ir / ur → bird, turtle, shirt",
+                "-er / -or → teacher, doctor"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6-e-u1-l1",
+                "text": "be動詞+from+國家",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6-e-u1-l2",
+                "text": "ir/ur,-er/or",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/english#u1"
+        },
+        {
+          "sceneId": "g6s1-english-u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "選對 be 動詞（am / is / are）與簡答",
+          "narrationText": "看到主詞先判斷是單數還是複數：單數第三人稱（he, she, Kevin）用 is；you 或複數（they, Ken and Leo）用 are。",
+          "cognitiveChunks": [
+            "Are you from Japan? → Yes, I am. / No, I'm not.",
+            "the UK（英國）、the USA（美國）前面要加 the"
+          ],
+          "workedExampleData": {
+            "problemStatement": "完成對話：\"Where ___ Amy from? — ___ is from the UK.\"",
+            "steps": [
+              "第 1 步：主詞 Amy 是女生單數（相當於 she），所以問句 be 動詞填 is",
+              "第 2 步：回答的代名詞用 She，句子為 She is from the UK.",
+              "第 3 步：若是簡答 \"Is Amy from Japan?\"，則回答 No, she isn't."
+            ],
+            "commonErrorContrast": "常見錯誤：在 \"Where are you from?\" 裡使用助動詞 do（誤寫成 Where do you from?），或忘記寫介系詞 from。",
+            "selfExplanationPrompt": "想一想：為什麼 teacher 字尾是 -er，而 doctor 字尾是 -or，但兩個字尾聽起來都一樣？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/english#u1"
+        },
+        {
+          "sceneId": "g6s1-english-u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "Phonics 焦點：ir / ur 與 -er / -or",
+          "topicSignalTitle": "捲舌音 /ɝː/ 與輕音字尾 /ɚ/ 這樣記",
+          "narrationText": "字中的 ir（bird, girl, shirt）和 ur（turtle, nurse, purple）發重音捲舌 /ɝː/；字尾常見的 -er（teacher, sister）和 -or（doctor）則發輕聲 /ɚ/。",
+          "cognitiveChunks": [
+            "ir / ur：bird, shirt, turtle",
+            "-er / -or：teacher, sister, doctor"
+          ],
+          "factGroundingSourceId": "115-s1/g6/english#u1"
+        },
+        {
+          "sceneId": "g6s1-english-u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認主詞與 be 動詞的搭配！",
+          "cognitiveChunks": [
+            "單數主詞配 is，複數或 you 配 are"
+          ],
+          "warmupCheck": {
+            "prompt": "填空：\"Where ___ Tom from? — He is from Canada.\"",
+            "options": [
+              "are",
+              "am",
+              "is",
+              "do"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "完全正確！Tom 是第三人稱單數（He），be 動詞要用 is。",
+            "feedbackRetry": "主詞 Tom 只有一個人，和 he 一樣要搭配哪一個 be 動詞呢？"
+          },
+          "factGroundingSourceId": "115-s1/g6/english#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-english-u2",
+      "stageId": "115-s1-g6-english-u2",
+      "title": "Unit 2 How Do You Go to School?",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "g6s1-english-u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "問答交通方式：by + 交通工具 vs. on foot",
+          "narrationText": "用 \"How do/does + 主詞 + go to...?\" 詢問前往某地的交通方式；搭乘交通工具用 \"by + 交通工具\"，只有走路步行要用 \"on foot\"。",
+          "cognitiveChunks": [
+            "How do you go to school? → I go to school by bus.",
+            "走路步行固定說 on foot（不能說 by foot）",
+            "Phonics：ar 發 /ɑr/（car, park）；or 發 /ɔr/（horse, short）"
+          ],
+          "analogyAnchor": "坐進交通工具裡用 by（by bus, by MRT, by bike），用自己的雙腳踩在地上走則是用 on foot。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "搭乘交通工具（用 by）",
+              "leftPoints": [
+                "by bus / by MRT / by train",
+                "by bike / by car / by scooter"
+              ],
+              "rightTitle": "步行走路（用 on）",
+              "rightPoints": [
+                "固定用法：on foot",
+                "不加 a/the 也不加 s"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6-e-u2-l1",
+                "text": "交通工具用 by",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6-e-u2-l2",
+                "text": "走路用 on foot",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/english#u2"
+        },
+        {
+          "sceneId": "g6s1-english-u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "助動詞 do / does 與第三人稱單數變化",
+          "narrationText": "詢問第三人稱單數（he, she, Amy）時，問句助動詞要用 does，後面動詞維持原形 go；肯定回答時動詞要變成 goes。",
+          "cognitiveChunks": [
+            "How does Amy go to school?",
+            "She goes to school by MRT."
+          ],
+          "workedExampleData": {
+            "problemStatement": "把問答補完整：\"How ___ Ken go to the park? — He ___ to the park by bike.\"",
+            "steps": [
+              "第 1 步：主詞 Ken 是第三人稱單數，問句一般動詞是 go，所以助動詞填 does",
+              "第 2 步：問句裡已經有 does，因此 go 保持原形；答句沒有 does，主詞 He 後面的動詞要改成 goes",
+              "第 3 步：交通方式「騎腳踏車」寫成 by bike"
+            ],
+            "commonErrorContrast": "常見錯誤：誤寫成 How does Ken goes（有助動詞 does 後面不可再加 es），或把騎腳踏車誤寫成 on bike。",
+            "selfExplanationPrompt": "想一想：如果問句開頭是 \"Does Mia go to school by bus?\"，否定簡答要怎麼回答？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/english#u2"
+        },
+        {
+          "sceneId": "g6s1-english-u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "Phonics 焦點：ar 與 or 音組",
+          "topicSignalTitle": "張大嘴發 /ɑr/（car, park）vs. 圓唇發 /ɔr/（horse, short）",
+          "narrationText": "Unit 2 的字母拼讀練習 ar 與 or：ar 常發 /ɑr/ 如 car, park, star；or 常發 /ɔr/ 如 fork, horse, short（注意 w 後的 word/work 例外）。",
+          "cognitiveChunks": [
+            "ar：car, park, star",
+            "or：fork, horse, short"
+          ],
+          "factGroundingSourceId": "115-s1/g6/english#u2"
+        },
+        {
+          "sceneId": "g6s1-english-u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認交通方式的介系詞用法！",
+          "cognitiveChunks": [
+            "搭車 by + 交通工具；走路 on foot"
+          ],
+          "warmupCheck": {
+            "prompt": "如果小明每天都走路去上學，英文應該怎麼說？",
+            "options": [
+              "He goes to school by foot.",
+              "He goes to school on foot.",
+              "He goes to school in foot.",
+              "He go to school on bus."
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！「走路、步行」的固定英文表達就是 on foot。",
+            "feedbackRetry": "「步行」是特別的固定片語，不用 by，要用站在腳上的 on foot 喔！"
+          },
+          "factGroundingSourceId": "115-s1/g6/english#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-english-u3",
+      "stageId": "115-s1-g6-english-u3",
+      "title": "Review 1",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "g6s1-english-u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "期中統整：Unit 1 國籍問答 ＋ Unit 2 交通方式",
+          "narrationText": "Review 1 把前兩單元的句型與文法放在一起比較：問國家用 be 動詞（am/is/are + from），問交通用助動詞（do/does + go）。",
+          "cognitiveChunks": [
+            "Where + am/is/are + 主詞 + from?（be 動詞句型）",
+            "How + do/does + 主詞 + go to...?（一般動詞句型）",
+            "Phonics 統整：-er/-or、ir/ur、ar/or"
+          ],
+          "analogyAnchor": "看到 from 找 be 動詞（am/is/are），看到動作 go 找助動詞（do/does），兩個家族絕對不混用！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "Unit 1（be 動詞家族）",
+              "leftPoints": [
+                "Where are you from?",
+                "Is she from Korea? → No, she isn't."
+              ],
+              "rightTitle": "Unit 2（助動詞家族）",
+              "rightPoints": [
+                "How does he go to Taipei?",
+                "Does he go by bus? → No, he doesn't."
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6-e-u3-l1",
+                "text": "from配be動詞",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6-e-u3-l2",
+                "text": "go配do或does",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/english#u3"
+        },
+        {
+          "sceneId": "g6s1-english-u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "英文句子語序與閱讀短文抓重點",
+          "narrationText": "寫句子時照著「主詞 → 動詞 → 地點 → 交通工具」的順序排列；讀短文時圈出國家名稱與交通工具關鍵字。",
+          "cognitiveChunks": [
+            "語序：主詞 + 動詞 + to 地點 + by 交通工具",
+            "簡答時問句用什麼動詞，答句就用同一個"
+          ],
+          "workedExampleData": {
+            "problemStatement": "找出錯誤並修正：\"Is she from the USA? — Yes, she does. She go to school on bike.\"",
+            "steps": [
+              "第 1 步：問句是 \"Is she...\"，簡答必須用 be 動詞回答：Yes, she is.",
+              "第 2 步：She 是第三人稱單數，動詞 go 必須改為 goes",
+              "第 3 步：騎腳踏車應使用介系詞 by，改為 by bike，正確句子為 She goes to school by bike."
+            ],
+            "commonErrorContrast": "常見錯誤：在簡答時混用 be 動詞與助動詞（如 Is she...? 回答 Yes, she does.），或把交通工具放在動詞前面。",
+            "selfExplanationPrompt": "想一想：如果主詞是 \"you and your sister\"（你和你妹妹），回答時要用哪一個代名詞？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/english#u3"
+        },
+        {
+          "sceneId": "g6s1-english-u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "期中評量前自我檢查清單",
+          "topicSignalTitle": "考前必看 3 大易錯點",
+          "narrationText": "檢查這三項：1. 國家名稱首字母大寫（the UK / the USA 加 the）；2. 第三人稱單數動詞加 -es（goes）；3. 步行是 on foot。",
+          "cognitiveChunks": [
+            "主詞 They/We 配 are 與原形動詞 go",
+            "主詞 He/She/單數人名配 is 與 goes"
+          ],
+          "factGroundingSourceId": "115-s1/g6/english#u3"
+        },
+        {
+          "sceneId": "g6s1-english-u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題測試你的文法偵錯力！",
+          "cognitiveChunks": [
+            "主詞與動詞單複數要一致"
+          ],
+          "warmupCheck": {
+            "prompt": "下列哪一個英文句子「完全正確」？",
+            "options": [
+              "They is from Canada.",
+              "My brother goes to Taipei by train.",
+              "She go to school by MRT.",
+              "He goes to school on bus."
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！My brother 是單數配 goes，語序「主詞 + goes + to 地點 + by train」完全標準。",
+            "feedbackRetry": "檢查單複數搭配與介系詞：They 要配 are，She 要配 goes，搭公車是 by bus 喔！"
+          },
+          "factGroundingSourceId": "115-s1/g6/english#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-english-u4",
+      "stageId": "115-s1-g6-english-u4",
+      "title": "Unit 3 What Do You Do in Your Free Time?",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "g6s1-english-u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "分享空閒時間與週末的日常活動",
+          "narrationText": "用 \"What do/does + 主詞 + do in your free time / on weekends?\" 詢問空閒時間或週末做什麼活動，回答時直接說出活動動詞片語。",
+          "cognitiveChunks": [
+            "in one's free time（在某人空閒時）/ on weekends（在週末）",
+            "常見活動：play the piano, listen to music, watch TV, go swimming",
+            "Phonics：oi（字中：coin）與 oy（字尾：boy, toy）發 /ɔɪ/"
+          ],
+          "analogyAnchor": "free time 就像課表上的空白格子，可以用 listen to music、go hiking 或 read comic books 把它填滿！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第一、二人稱與複數",
+              "leftPoints": [
+                "What do you do in your free time?",
+                "I / We watch TV. (原形動詞)"
+              ],
+              "rightTitle": "第三人稱單數",
+              "rightPoints": [
+                "What does Mia do on weekends?",
+                "She plays the piano. (動詞加 s/es)"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6-e-u4-l1",
+                "text": "do問句動詞用原形",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6-e-u4-l2",
+                "text": "單數肯定句加s/es",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/english#u4"
+        },
+        {
+          "sceneId": "g6s1-english-u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握休閒活動動詞片語與三單變化",
+          "narrationText": "注意問句裡的兩個 do：第一個是助動詞（do/does），第二個才是主要動作「做（do）」；回答時要把第二個 do 換成具體活動。",
+          "cognitiveChunks": [
+            "listen 必須搭配 to（listen to music）",
+            "go + V-ing（go swimming, go hiking）"
+          ],
+          "workedExampleData": {
+            "problemStatement": "完成對話：\"What ___ your brother ___ in his free time? — He ___ comic books.\"",
+            "steps": [
+              "第 1 步：主詞 your brother 是第三人稱單數，問句第一個空格填助動詞 does",
+              "第 2 步：有助動詞 does，所以第二個空格主要動詞用原形 do",
+              "第 3 步：答句主詞 He 是第三人稱單數，看漫畫書「read」要加 s 變成 reads comic books"
+            ],
+            "commonErrorContrast": "常見錯誤：看到 \"My sister and I\" 誤以為有 I 就用單數，其實兩個人是複數（相當於 we），動詞要用原形 watch，不加 es。",
+            "selfExplanationPrompt": "想一想：oi 和 oy 都發 /ɔɪ/ 的音，為什麼 coin 用 oi 而 toy 用 oy？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/english#u4"
+        },
+        {
+          "sceneId": "g6s1-english-u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "Phonics 焦點：雙母音 oi 與 oy",
+          "topicSignalTitle": "字中找 oi（coin, oil），字尾找 oy（boy, toy）",
+          "narrationText": "雙母音 /ɔɪ/ 有兩種常見拼法：出現在單字中間多半拼成 oi（如 coin 硬幣、oil 油）；出現在單字結尾則多半拼成 oy（如 boy 男孩、toy 玩具）。",
+          "cognitiveChunks": [
+            "oi（字中）：coin, oil, point",
+            "oy（字尾）：boy, toy, joy"
+          ],
+          "factGroundingSourceId": "115-s1/g6/english#u4"
+        },
+        {
+          "sceneId": "g6s1-english-u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認活動片語與第三人稱單數文法！",
+          "cognitiveChunks": [
+            "Does + 主詞 + 原形動詞"
+          ],
+          "warmupCheck": {
+            "prompt": "填空：\"What does Ken ___ on weekends? — He ___ hiking.\"",
+            "options": [
+              "does / go",
+              "do / goes",
+              "do / go",
+              "doing / going"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！問句已有 does 後面用原形 do；答句主詞 He 是第三人稱單數，go 要改成 goes。",
+            "feedbackRetry": "問句有 does 後面要放原形動詞 do；回答時沒有 does，He 後面的 go 記得加上 es 喔！"
+          },
+          "factGroundingSourceId": "115-s1/g6/english#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-english-u5",
+      "stageId": "115-s1-g6-english-u5",
+      "title": "Unit 4 What Time Do You Get Up?",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "g6s1-english-u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "用英文問答日常作息與具體時刻",
+          "narrationText": "用 \"What time do/does + 主詞 + 作息動詞?\" 詢問幾點做某件事，回答時在時刻前面加上介系詞 at（例如 at 6:30）。",
+          "cognitiveChunks": [
+            "What time do you get up? → I get up at 6:30.",
+            "作息：get up, brush teeth, have breakfast, go to bed",
+            "時刻前面固定搭配介系詞 at"
+          ],
+          "analogyAnchor": "at 就像時鐘上的小圖釘，把動作精準釘在「幾點幾分」那個時間點上！",
+          "visualSpec": {
+            "templateId": "clock_face",
+            "params": {
+              "hour": 6,
+              "minute": 30,
+              "label": "at 6:30 (six thirty)"
+            },
+            "spatialLabels": [
+              {
+                "id": "g6-e-u5-l1",
+                "text": "時刻前用 at",
+                "anchorPointId": "center"
+              },
+              {
+                "id": "g6-e-u5-l2",
+                "text": "six thirty",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/english#u5"
+        },
+        {
+          "sceneId": "g6s1-english-u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "時間直讀法與第三人稱作息動詞變化",
+          "narrationText": "報讀時刻直接唸「點鐘 + 分鐘」（如 7:15 是 seven fifteen），整點加上 o'clock；第三人稱單數肯定句記得動詞加 s/es，have 要變 has。",
+          "cognitiveChunks": [
+            "brush → brushes；go → goes；have → has",
+            "時刻直讀：7:15 → seven fifteen"
+          ],
+          "workedExampleData": {
+            "problemStatement": "請將「湯姆早上 7:15 吃早餐」寫成正確的英文句子。",
+            "steps": [
+              "第 1 步：主詞 Tom 是第三人稱單數，「吃早餐」的 have breakfast 要改成 has breakfast",
+              "第 2 步：時間 7:15 唸作 seven fifteen",
+              "第 3 步：具體時刻前面加上介系詞 at，完整句子為 Tom has breakfast at 7:15."
+            ],
+            "commonErrorContrast": "常見錯誤：寫成 Tom have breakfast，或忘記在時間前面加 at（誤寫成 Tom gets up 6:30.）。",
+            "selfExplanationPrompt": "想一想：snow 和 cow 都含有 ow，為什麼唸起來不一樣？哪一個和 house 一樣發 /aʊ/？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/english#u5"
+        },
+        {
+          "sceneId": "g6s1-english-u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "Phonics 焦點：雙母音 ou 與 ow",
+          "topicSignalTitle": "house、mouse（ou）與 cow（ow）都發 /aʊ/",
+          "narrationText": "ou（house, mouse, cloud）與部分 ow（cow, brown, how）都發雙母音 /aʊ/；要注意 snow、window、yellow 字尾的 ow 則是發長音 /oʊ/，不要搞混囉！",
+          "cognitiveChunks": [
+            "/aʊ/：house, mouse, cow",
+            "/oʊ/：snow, window, yellow"
+          ],
+          "factGroundingSourceId": "115-s1/g6/english#u5"
+        },
+        {
+          "sceneId": "g6s1-english-u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認時刻介系詞與作息片語！",
+          "cognitiveChunks": [
+            "具體幾點幾分前用 at"
+          ],
+          "warmupCheck": {
+            "prompt": "完成句子：\"What time do you go to bed? — I go to bed ___ 9:30.\"",
+            "options": [
+              "in",
+              "on",
+              "at",
+              "by"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！具體的時刻 9:30 前面必須使用介系詞 at。",
+            "feedbackRetry": "把動作釘在具體的幾點幾分上，要用兩個字母的介系詞 at 喔！"
+          },
+          "factGroundingSourceId": "115-s1/g6/english#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-english-u6",
+      "stageId": "115-s1-g6-english-u6",
+      "title": "Review 2 & 文化教學",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "g6s1-english-u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "期末統整與世界新年文化（New Years Around the World）",
+          "narrationText": "Review 2 整合 Unit 3 休閒活動與 Unit 4 生活作息；文化教學則帶我們認識世界各地的新年習俗（customs）、節慶（festivals）與跨文化尊重。",
+          "cognitiveChunks": [
+            "What does he do in his free time?（問活動）",
+            "What time does he get up?（問時刻，答句用 at）",
+            "Culture：Happy New Year! / custom / festival / fireworks"
+          ],
+          "analogyAnchor": "學會問活動（What do you do）與問時間（What time），就能跟外國筆友分享你一天的生活與新年慶祝方式！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "Review 2 核心句型",
+              "leftPoints": [
+                "活動：What do/does... do in... free time?",
+                "作息：What time do/does... get up?"
+              ],
+              "rightTitle": "文化與節慶詞彙",
+              "rightPoints": [
+                "custom（習俗）/ festival（節慶）",
+                "fireworks（煙火）/ respect（尊重）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6-e-u6-l1",
+                "text": "活動與作息總複習",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6-e-u6-l2",
+                "text": "理解並尊重多元文化",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/english#u6"
+        },
+        {
+          "sceneId": "g6s1-english-u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "閱讀短文整合「時間」與「活動」資訊",
+          "narrationText": "期末閱讀短文常同時出現起床時間與週末活動，只要先畫出時間線索與活動動詞，就能精準回答問題。",
+          "cognitiveChunks": [
+            "問幾點（What time）找 at + 時間",
+            "問做什麼（What... do）找動詞片語"
+          ],
+          "workedExampleData": {
+            "problemStatement": "閱讀短文：\"On Sundays, Lily gets up at 9:00. In her free time, she likes to listen to music.\" 回答：What time does Lily get up on Sundays?",
+            "steps": [
+              "第 1 步：題目開頭是 What time，代表要找「幾點鐘」",
+              "第 2 步：在短文第一句找到時間線索 \"at 9:00\"",
+              "第 3 步：用第三人稱單數完整回答：She gets up at nine o'clock."
+            ],
+            "commonErrorContrast": "常見錯誤：沒看清楚題目問的是時間（What time）還是活動（What does she do），而答非所問。",
+            "selfExplanationPrompt": "想一想：認識不同國家過新年的習俗時，最重要的是抱持什麼樣的態度？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/english#u6"
+        },
+        {
+          "sceneId": "g6s1-english-u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "多元文化素養：New Years Around the World",
+          "topicSignalTitle": "Understand and respect different cultures and traditions.",
+          "narrationText": "不同國家有不同的新年日期、食物與慶祝習俗（例如看煙火 fireworks、家族團聚），從多元文化觀點去理解並尊重差異，就是最好的世界公民態度。",
+          "cognitiveChunks": [
+            "Happy New Year! 祝賀新年快樂",
+            "理解（understand）並尊重（respect）不同文化"
+          ],
+          "factGroundingSourceId": "115-s1/g6/english#u6"
+        },
+        {
+          "sceneId": "g6s1-english-u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認節慶文化單字與問答文法！",
+          "cognitiveChunks": [
+            "fireworks ＝ 煙火；festival ＝ 節慶"
+          ],
+          "warmupCheck": {
+            "prompt": "在跨年或新年慶祝活動中，許多城市會在夜空施放美麗的「煙火」，英文單字是哪一個？",
+            "options": [
+              "fireworks",
+              "weekdays",
+              "homework",
+              "continents"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！fireworks 就是煙火的意思。",
+            "feedbackRetry": "煙火在夜空中像「火（fire）」一樣燦爛綻放，找 fire 開頭的單字喔！"
+          },
+          "factGroundingSourceId": "115-s1/g6/english#u6"
+        }
+      ]
+    }
+  ]
+}

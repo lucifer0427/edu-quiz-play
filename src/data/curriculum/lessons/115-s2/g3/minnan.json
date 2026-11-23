@@ -1,0 +1,385 @@
+{
+  "packId": "115-s2-g3-minnan",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 3,
+  "subjectId": "minnan",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-minnan-u1",
+      "stageId": "115-s2-g3-minnan-u1",
+      "title": "一、做伙來𨑨迌",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "去旅行、露營與無痕山林",
+          "narrationText": "「做伙（一起）」來「𨑨迌（遊玩）」！認識「peh 山（爬山）、公園、海邊、火車頭（火車站）」，露營搭「布帆（帳篷）」，結束後「共垃圾帶轉去（把垃圾帶回家）」，實踐讀萬卷冊行萬里路！",
+          "cognitiveChunks": [
+            "做伙＝一起、𨑨迌＝遊玩、歇睏日＝放假日",
+            "peh 山（爬山）、海邊、火車頭（車站）、布帆（帳篷）",
+            "露營共垃圾帶轉去，閱讀旅行資訊再出發"
+          ],
+          "analogyAnchor": "「讀萬卷冊，行萬里路」就像學習的兩隻翅膀，先看懂地圖與時刻表，再做伙去旅行露營體驗大自然！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "行前規劃：讀時刻表與地圖，問「好無？」",
+                "場所用品：火車頭、公園、海邊、布帆（帳篷）",
+                "環保約定：共垃圾全部帶轉去，毋通留佇山林"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "做伙是一起、𨑨迌是玩",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "露營垃圾帶轉去",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/minnan#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "讀懂露營短文與環境保護對話",
+          "narrationText": "看看閩南語短文裡的「阮一家伙仔」和「暗時」各指什麼，又該怎麼提醒大家愛護山林？",
+          "cognitiveChunks": [
+            "阮一家伙仔＝我們全家人；暗時＝晚上",
+            "共（把）垃圾帶轉去（帶回家）、毋通（不要）"
+          ],
+          "workedExampleData": {
+            "problemStatement": "短文寫「禮拜六早起，阮一家伙仔欲去山裡露營，暗時會當看天星！」，句中詞語是什麼意思？離開營地前該說什麼？",
+            "steps": [
+              "第 1 步：「阮一家伙仔」指我們全家人，「布帆」是帳篷",
+              "第 2 步：「暗時」指晚上天黑的時候，所以晚上在山裡看得到滿天「天星（星星）」",
+              "第 3 步：離開前提醒「愛記得共垃圾全部收好帶轉去，毋通留佇山林裡喔！」"
+            ],
+            "commonErrorContrast": "常見錯誤：把「做伙」誤以為是生火，或把「布帆」當成喝水的水壺。",
+            "selfExplanationPrompt": "想一想：出門旅行前先閱讀車次表與景點摺頁，對這趟旅行有什麼幫助？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/minnan#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看單元標題〈做伙來𨑨迌〉的意思吧！",
+          "cognitiveChunks": [
+            "做伙＝一起、𨑨迌＝遊玩"
+          ],
+          "warmupCheck": {
+            "question": "在臺灣閩南語裡，「做伙（tsò-hué）」和「𨑨迌（tshit-thô）」分別是什麼意思？",
+            "prompt": "在臺灣閩南語裡，「做伙（tsò-hué）」和「𨑨迌（tshit-thô）」分別是什麼意思？",
+            "options": [
+              "「做伙」是一起、共同；「𨑨迌」是遊玩、玩樂",
+              "「做伙」是點燃火把；「𨑨迌」是寫考試卷",
+              "「做伙」是一個人躲起來；「𨑨迌」是打掃廚房"
+            ],
+            "answerIndex": 0,
+            "explanation": "「做伙」表示一起作伴、「𨑨迌」是遊玩散心，所以〈做伙來𨑨迌〉就是邀請大家一起出去玩！",
+            "feedbackCorrect": "答對了！做伙是一起、𨑨迌就是遊玩的意思！",
+            "feedbackRetry": "想想〈去旅行〉和〈露營〉都是大家相約一起出門玩樂的活動喔！"
+          },
+          "factGroundingSourceId": "115-s2/g3/minnan#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-minnan-u2",
+      "stageId": "115-s2-g3-minnan-u2",
+      "title": "二、愛細膩",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "意外傷害詞彙與「無（動詞）著」",
+          "narrationText": "走路做事「愛細膩（要小心）」！認識「跋倒（跌倒）、挵著（撞到）、燙著（燙到）、割著（割到）」；幸好沒受傷時說「好佳哉無挵著」，記住「人有失錯，馬有失蹄」隨時保持警覺！",
+          "cognitiveChunks": [
+            "愛細膩＝要小心；好佳哉＝幸好、好在",
+            "跋倒（跌倒）、挵著（撞到）、燙著、割著",
+            "「無（動詞）著」表示幸好沒受到該意外傷害"
+          ],
+          "analogyAnchor": "「無（動詞）著」就像安全防護罩！前面加「好佳哉（幸好）」，代表「好佳哉無挵著（沒撞到）」、「無割著（沒割到）」！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "意外傷害與安全提醒",
+              "leftPoints": [
+                "跋倒（跌倒）、挵著（撞到）、燙著、割著",
+                "地下澹糊糊（濕滑），行路愛細膩！"
+              ],
+              "rightTitle": "「無（動詞）著」與俗諺",
+              "rightPoints": [
+                "好佳哉無跋著、無割著（幸好沒傷到）",
+                "人有失錯，馬有失蹄（莫大意）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "愛細膩就是小心留意",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "好佳哉無挵著沒撞到",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/minnan#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "運用「無（動詞）著」與安全提醒對話",
+          "narrationText": "如何清楚說出環境危險的原因，並用「無（動詞）著」表達慶幸沒受傷？",
+          "cognitiveChunks": [
+            "說出危險原因（如地下澹糊糊足滑）",
+            "無（沒有）＋動詞＋著（受影響結果）"
+          ],
+          "workedExampleData": {
+            "problemStatement": "下雨天走廊積水時怎麼用閩南語提醒同學？如果不小心滑了一下卻沒跌倒，又該怎麼說？",
+            "steps": [
+              "第 1 步：先指出原因「地下澹糊糊足滑」，再提醒「行路愛細膩，毋通走傷緊！」",
+              "第 2 步：若沒跌倒或沒撞到桌角，運用「無（動詞）著」說「好佳哉無跋著／無挵著！」",
+              "第 3 步：睡前收好書包、早點起床，才不會早上趕時間「緊緊緊」發生危險"
+            ],
+            "commonErrorContrast": "常見錯誤：把「跋倒」記成撞到，或把「好佳哉」當作問現在幾點鐘。",
+            "selfExplanationPrompt": "想一想：俗諺「人有失錯，馬有失蹄」提醒我們在熟悉的校園環境裡應該保持什麼態度？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/minnan#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看「愛細膩」和「好佳哉」的意思！",
+          "cognitiveChunks": [
+            "愛細膩＝小心留意；好佳哉＝幸好"
+          ],
+          "warmupCheck": {
+            "question": "在臺灣閩南語日常對話裡，「愛細膩（ài sè-jī）」和「好佳哉（hó-ka-tsài）」這兩個詞語分別是什麼意思？",
+            "prompt": "在臺灣閩南語日常對話裡，「愛細膩（ài sè-jī）」和「好佳哉（hó-ka-tsài）」這兩個詞語分別是什麼意思？",
+            "options": [
+              "「愛細膩」是要小心留意；「好佳哉」是幸好、好在",
+              "「愛細膩」是趕快跑起來；「好佳哉」是非常生氣",
+              "「愛細膩」是喜歡吃甜點；「好佳哉」是祝你生日快樂"
+            ],
+            "answerIndex": 0,
+            "explanation": "出門前叮嚀「行路愛細膩（走路要小心）」，差點跌倒沒受傷時會慶幸地說「好佳哉（幸好）」！",
+            "feedbackCorrect": "答對了！愛細膩是要小心，好佳哉是幸好、好在！",
+            "feedbackRetry": "長輩常叮嚀「行路愛細膩」，沒發生意外時會鬆一口氣說「好佳哉」喔！"
+          },
+          "factGroundingSourceId": "115-s2/g3/minnan#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-minnan-u3",
+      "stageId": "115-s2-g3-minnan-u3",
+      "title": "三、時間",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "時間走傷緊：時刻、時長與規劃",
+          "narrationText": "「時間走傷緊（過得太快）」！分辨「三點（時刻）」與「三點鐘（三小時的長度）」，寫作業要說到做到「寫煞（寫完）」再去玩，不「拖沙（拖延）」就能善用每一分寶貴光陰！",
+          "cognitiveChunks": [
+            "「傷」＝太、過於；「傷緊」＝太快",
+            "幾點（時刻） vs. 幾點鐘（經過幾小時）",
+            "寫煞＝寫完、拖沙＝拖延，把握不回頭的光陰"
+          ],
+          "analogyAnchor": "「三點」是指時鐘短針指到 3 的那一刻；加上「鐘」變成「三點鐘」，就像沙漏漏了整整三個小時的長度！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "時刻與時長分辨",
+              "leftPoints": [
+                "三點＝下午或凌晨三點的「時刻」",
+                "三點鐘＝經過「三個小時」的長度"
+              ],
+              "rightTitle": "時間規劃好詞彙",
+              "rightPoints": [
+                "寫煞（寫完）功課才去散步半點鐘",
+                "專心不拖沙（拖延），今仔日事今仔日畢"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "三點鐘指三小時",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "寫煞就是寫完功課",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/minnan#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用閩南語發表與檢核時間計畫",
+          "narrationText": "聽聽看小恩怎麼用閩南語介紹自己的週三放學時間規劃，你也能學會喔！",
+          "cognitiveChunks": [
+            "動詞＋「煞（suah）」＝把動作結束完成",
+            "依優先順序排定功課與運動時間"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小恩發表計畫：「我四點轉來厝，四點半寫功課，寫煞才去拍半點鐘的球。」這裡面有哪些時間與動作詞？",
+            "steps": [
+              "第 1 步：「四點、四點半」是指時鐘上的時刻，「半點鐘」是指經過半小時",
+              "第 2 步：「寫煞」的「煞（suah）」接在動詞後表示「完成、結束」，即寫完功課",
+              "第 3 步：先寫完功課再去運動，不「拖沙（拖延）」，時間就會很夠用"
+            ],
+            "commonErrorContrast": "常見錯誤：把「時間走傷緊」的「傷」當成受傷，或混淆「三點」與「三點鐘」。",
+            "selfExplanationPrompt": "想一想：用閩南語說「今仔日、昨昏、明仔載」分別是指哪三天？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/minnan#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看「三點」和「三點鐘」的差別！",
+          "cognitiveChunks": [
+            "三點指時刻、三點鐘指三個小時"
+          ],
+          "warmupCheck": {
+            "question": "在日常閩南語裡，「三點（sann tiám）」和「三點鐘（sann tiám-tsing）」有什麼不同？",
+            "prompt": "在日常閩南語裡，「三點（sann tiám）」和「三點鐘（sann tiám-tsing）」有什麼不同？",
+            "options": [
+              "「三點」指三點的時刻；「三點鐘」指經過「三個小時」",
+              "「三點」是指三天；「三點鐘」是指三個星期",
+              "「三點」是指三分鐘；「三點鐘」是指三十秒"
+            ],
+            "answerIndex": 0,
+            "explanation": "說時間點用「幾點」，說時間長度（幾小時）才會在後面加個「鐘」字變成「幾點鐘」！",
+            "feedbackCorrect": "答對了！「三點」是時刻，「三點鐘」是三個小時！",
+            "feedbackRetry": "造句比比看：「我三點去圖書館」跟「我在圖書館看冊看三點鐘」喔！"
+          },
+          "factGroundingSourceId": "115-s2/g3/minnan#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-minnan-u4",
+      "stageId": "115-s2-g3-minnan-u4",
+      "title": "節慶教學：歡喜來過節～肉粽節",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "肉粽節習俗、多元粽食與俗諺",
+          "narrationText": "農曆五月五日「肉粽節（五月節）」來囉！全家鬥相共洗粽葉「縛肉粽」、看「扒龍船」、掛艾草戴「香芳（香包）」，欣賞各地特色粽子，也記住「未食五月粽，破裘毋甘放」的氣象智慧！",
+          "cognitiveChunks": [
+            "縛肉粽（包粽）、扒龍船（划龍舟）、香芳（香包）",
+            "北部粽、南部粽、客家粄粽與異國粽各有特色",
+            "「未食五月粽，破裘毋甘放」指端午前仍可能轉涼"
+          ],
+          "analogyAnchor": "端午節的俗諺就像老祖宗的氣象預報：「未食五月粽，破裘毋甘放」提醒我們過了五月節天氣才真正轉熱，冬衣別太早收！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "肉粽節傳統習俗",
+              "leftPoints": [
+                "縛肉粽（包粽）、扒龍船（划龍舟）",
+                "戴香芳（香包）、掛艾草、立卵（立蛋）"
+              ],
+              "rightTitle": "家庭、多元與安全健康",
+              "rightPoints": [
+                "幫長輩鬥相共洗粽葉，尊重各族群粽食",
+                "糯米粽適量配蔬果、看龍舟守水域安全"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "縛肉粽、扒龍船",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "適量吃粽守水域安全",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/minnan#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "讀懂端午俗諺與過節安全健康",
+          "narrationText": "怎麼把「未食五月粽，破裘毋甘放」和健康吃粽、安全看龍舟一起記牢？",
+          "cognitiveChunks": [
+            "破裘＝冬衣；毋甘放＝捨不得放下收起來",
+            "糯米不易消化，細嚼慢嚥並配青菜"
+          ],
+          "workedExampleData": {
+            "problemStatement": "俗諺「未食五月粽，破裘毋甘放」是什麼意思？過肉粽節時又該注意哪些健康與安全？",
+            "steps": [
+              "第 1 步：拆解詞意：「破裘」是保暖冬衣、「毋甘放」是捨不得收起來",
+              "第 2 步：意思是端午節前早晚氣溫仍多變，冬衣別太早收，過了端午才算進入穩定炎夏",
+              "第 3 步：吃糯米肉粽要細嚼慢嚥搭配蔬果；河岸看「扒龍船」務必遵守安全線不推擠"
+            ],
+            "commonErrorContrast": "常見錯誤：把「縛肉粽」記成放鞭炮，或以為一次吃五顆肉粽不配青菜沒關係。",
+            "selfExplanationPrompt": "想一想：面對北部粽、南部粽、客家粄粽與東南亞葉包米食，我們應該抱持什麼態度？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/minnan#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "熱身概念題",
+          "narrationText": "檢查看看端午節閩南語詞彙的正確配對！",
+          "cognitiveChunks": [
+            "縛肉粽＝包粽子、扒龍船＝划龍舟、香芳＝香包"
+          ],
+          "warmupCheck": {
+            "question": "配合〈肉粽節〉認識端午節的閩南語傳統習俗語詞，下列哪一組配對完全正確？",
+            "prompt": "配合〈肉粽節〉認識端午節的閩南語傳統習俗語詞，下列哪一組配對完全正確？",
+            "options": [
+              "「縛肉粽」＝包粽子；「扒龍船」＝划龍舟；「香芳」＝香包",
+              "「縛肉粽」＝放鞭炮；「扒龍船」＝放天燈",
+              "「立卵」＝吃湯圓；「香芳」＝掃把"
+            ],
+            "answerIndex": 0,
+            "explanation": "「縛（pa̍k）」是綁、「扒（pê）」是划船、「香芳（hiunn-phang）」就是芳香避邪的小香包！",
+            "feedbackCorrect": "答對了！縛肉粽、扒龍船、香芳全都配對正確！",
+            "feedbackRetry": "「縛」是用繩子綁起來、「扒」是用槳划水的動作喔！"
+          },
+          "factGroundingSourceId": "115-s2/g3/minnan#u4"
+        }
+      ]
+    }
+  ]
+}

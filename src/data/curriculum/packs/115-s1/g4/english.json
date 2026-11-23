@@ -136,6 +136,44 @@
             "Moon Festival",
             "Festival Greetings"
           ]
+        },
+        {
+          "id": "115-s1-g4-english-u0-q7",
+          "prompt": "在 Starter 數字 16–20 的練習中，數字「18」的正確英文拼法是哪一個？",
+          "options": [
+            "eighty",
+            "eighteen",
+            "eight",
+            "eightteen"
+          ],
+          "answerIndex": 1,
+          "explanation": "18 拼作 eighteen（eight 本身已有 t，加上 -teen 時只保留一個 t）；eighty 是 80，eight 是 8。",
+          "hint": "eight 加上 -teen，小心中間只有一個 t 喔！",
+          "speechText": "eighteen",
+          "speechLang": "en-US",
+          "tags": [
+            "Numbers 16-20",
+            "Starter"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u0-q8",
+          "prompt": "教室用語複習：當老師想請同學打開課本時，會說下列哪一句英文？",
+          "options": [
+            "Close your book.",
+            "Stand up, please.",
+            "Sit down, please.",
+            "Open your book, please."
+          ],
+          "answerIndex": 3,
+          "explanation": "「Open your book, please.」意思是「請打開你的書。」Close 是關上，Stand up 是起立，Sit down 是坐下。",
+          "hint": "open 是「打開」的意思喔！",
+          "speechText": "Open your book, please.",
+          "speechLang": "en-US",
+          "tags": [
+            "Classroom English",
+            "Review"
+          ]
         }
       ]
     },
@@ -265,6 +303,44 @@
           "explanation": "van（廂型車）以 v 開頭，發有聲唇齒音 /v/；fan 是無聲的 f-，sun 是 s-，zoo 是 z-。",
           "hint": "找字首字母是 v 的那一個單字，點喇叭聽聽 v 和 f 的差別！",
           "speechText": "van",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "Consonants"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u1-q7",
+          "prompt": "氣象播報句型練習：\"It's warm and sunny in Taipei.\" 這句話說明臺北的天氣是如何？",
+          "options": [
+            "溫暖又晴朗",
+            "寒冷又下雨",
+            "颳大風又多雲",
+            "下雪又結冰"
+          ],
+          "answerIndex": 0,
+          "explanation": "warm 是「溫暖的」，sunny 是「晴朗的」，所以「It's warm and sunny in Taipei.」指臺北溫暖又晴朗。",
+          "hint": "warm 感覺暖暖的，sunny 是出太陽！",
+          "speechText": "It's warm and sunny in Taipei.",
+          "speechLang": "en-US",
+          "tags": [
+            "Weather",
+            "Reading Comprehension"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u1-q8",
+          "prompt": "Phonics 字母拼讀：在「desk, duck, dog」這三個單字中，它們開頭的子音字母是哪一個？",
+          "options": [
+            "b-",
+            "t-",
+            "d-",
+            "g-"
+          ],
+          "answerIndex": 2,
+          "explanation": "desk（書桌）、duck（鴨子）、dog（狗）的字首都是字母 d，發有聲齒齦塞音 /d/。",
+          "hint": "點喇叭聽聽三個字的開頭音，看第一個字母是什麼！",
+          "speechText": "desk, duck, dog",
           "speechLang": "en-US",
           "tags": [
             "Phonics",
@@ -404,6 +480,44 @@
             "Phonics",
             "Consonants"
           ]
+        },
+        {
+          "id": "115-s1-g4-english-u2-q7",
+          "prompt": "完成疑問句與回答：\"___ you sad?\" \"No, I'm not. I'm happy.\" 空格裡應該填入哪一個 be 動詞？",
+          "options": [
+            "Is",
+            "Are",
+            "Am",
+            "Do"
+          ],
+          "answerIndex": 1,
+          "explanation": "主詞是 you 時，be 動詞要搭配 Are，組成問句「Are you sad?」。",
+          "hint": "you 的好朋友 be 動詞是哪一個字呢？",
+          "speechText": "Are you sad? No, I'm not. I'm happy.",
+          "speechLang": "en-US",
+          "tags": [
+            "Feelings",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u2-q8",
+          "prompt": "在〈感覺便利貼〉活動中，同學寫下：\"I'm angry.\" 請問這位同學現在的情緒是什麼？",
+          "options": [
+            "很口渴",
+            "很開朗",
+            "很想睡",
+            "很生氣"
+          ],
+          "answerIndex": 3,
+          "explanation": "angry 的中文意思是「生氣的」，「I'm angry.」表示我生氣了。",
+          "hint": "點喇叭聽聽看 angry 的發音，想想它代表哪一種情緒！",
+          "speechText": "I'm angry.",
+          "speechLang": "en-US",
+          "tags": [
+            "Feelings",
+            "Vocabulary"
+          ]
         }
       ]
     },
@@ -537,6 +651,44 @@
           "tags": [
             "Phonics",
             "Consonants"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u3-q7",
+          "prompt": "Review 1 對話配對：A 問 \"Are you hungry?\"，B 摸摸肚子回答 \"Yes, I am.\" 下列哪一句最能表達 B 的感受？",
+          "options": [
+            "B 現在肚子很餓",
+            "B 現在非常口渴",
+            "B 覺得外面正在下雨",
+            "B 現在心情很難過"
+          ],
+          "answerIndex": 0,
+          "explanation": "hungry 是「飢餓的」，「Yes, I am.」表示肯定回答，也就是 B 現在肚子餓了。",
+          "hint": "注意問句裡的形容詞 hungry 是什麼意思喔！",
+          "speechText": "Are you hungry? Yes, I am.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u3-q8",
+          "prompt": "Phonics 綜合練習：在「girl, gift, goat」這三個單字中，開頭的子音字母都是哪一個？",
+          "options": [
+            "c-",
+            "d-",
+            "g-",
+            "t-"
+          ],
+          "answerIndex": 2,
+          "explanation": "girl（女孩）、gift（禮物）、goat（山羊）都以字母 g 開頭，發有聲軟顎塞音 /g/。",
+          "hint": "看看三個單字的第一個字母是什麼！",
+          "speechText": "girl, gift, goat",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "Review 1"
           ]
         }
       ]
@@ -672,6 +824,44 @@
             "Grammar",
             "Plural Nouns"
           ]
+        },
+        {
+          "id": "115-s1-g4-english-u4-q7",
+          "prompt": "在餐廳桌上有兩盤點心，妹妹指著盤子問：\"Are these sandwiches?\" 如果盤子裡真的是三明治，正確簡答是哪一句？",
+          "options": [
+            "Yes, it is.",
+            "Yes, they are.",
+            "No, I'm not.",
+            "Yes, I am."
+          ],
+          "answerIndex": 1,
+          "explanation": "問句主詞是複數的 these（這些），簡答時要用複數代名詞 they 搭配 are，回答「Yes, they are.」。",
+          "hint": "複數的 these 問句，回答時要用 they 來代替喔！",
+          "speechText": "Are these sandwiches? Yes, they are.",
+          "speechLang": "en-US",
+          "tags": [
+            "Grammar",
+            "Sentence Pattern"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u4-q8",
+          "prompt": "比較單數與複數句子：如果「這是一顆蘋果」說 \"It's an apple.\"，那麼「這些是蘋果」要怎麼說？",
+          "options": [
+            "It's apples.",
+            "They're an apple.",
+            "These is apples.",
+            "They're apples."
+          ],
+          "answerIndex": 3,
+          "explanation": "複數物品要用「They're（= They are）」開頭，加上不帶 an 的複數名詞 apples，即「They're apples.」。",
+          "hint": "超過一顆就不能再用 an 和 It's 了，要換成 They're！",
+          "speechText": "They're apples.",
+          "speechLang": "en-US",
+          "tags": [
+            "Singular vs Plural",
+            "Grammar"
+          ]
         }
       ]
     },
@@ -806,6 +996,44 @@
             "Food and Drinks",
             "Shopping Dialogue"
           ]
+        },
+        {
+          "id": "115-s1-g4-english-u5-q7",
+          "prompt": "在〈Unit 4〉飲料點餐練習中，如果你想喝「果汁」並對店員說 \"I want some juice, please.\"，其中「juice」指的是什麼？",
+          "options": [
+            "果汁",
+            "披薩",
+            "漢堡",
+            "蘋果派"
+          ],
+          "answerIndex": 0,
+          "explanation": "juice 的中文意思是「果汁」，屬於不可數飲料名詞，可搭配 some 使用。",
+          "hint": "點喇叭聽聽 juice 的發音，它是一種用水果榨出來的飲料！",
+          "speechText": "I want some juice, please.",
+          "speechLang": "en-US",
+          "tags": [
+            "Food and Drinks",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u5-q8",
+          "prompt": "朋友問你：\"What do you want to eat?\"（你想吃什麼？），下列哪一個回答是「吃的食物」而非飲料？",
+          "options": [
+            "I want some water.",
+            "I want some tea.",
+            "I want some bread.",
+            "I want some milk."
+          ],
+          "answerIndex": 2,
+          "explanation": "bread（麵包）是固體食物；water（水）、tea（茶）、milk（牛奶）都是喝的飲料。",
+          "hint": "找出四個選項裡面唯一不是飲料、要用咬的食物單字！",
+          "speechText": "I want some bread.",
+          "speechLang": "en-US",
+          "tags": [
+            "Food and Drinks",
+            "Vocabulary"
+          ]
         }
       ]
     },
@@ -939,6 +1167,44 @@
           "tags": [
             "Phonics",
             "Final Review"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u6-q7",
+          "prompt": "全冊單元句型總複習：當你想稱讚世界美食很好吃時，可以用 \"It's yummy!\" 來表達，這句話的意思是什麼？",
+          "options": [
+            "它非常無聊！",
+            "它真好吃！",
+            "它很生氣！",
+            "它正在下雨！"
+          ],
+          "answerIndex": 1,
+          "explanation": "yummy 是「好吃的、美味的」，在食物單元與美食文化單元中常說「It's yummy!」讚美食物。",
+          "hint": "吃到喜歡的披薩或壽司時會開心地說出這句讚美！",
+          "speechText": "It's yummy!",
+          "speechLang": "en-US",
+          "tags": [
+            "Culture",
+            "Final Review"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u6-q8",
+          "prompt": "Review 2 綜合問答：媽媽問 \"Do you want some tea?\"，如果弟弟不想喝茶、只想喝水，下列哪一句禮貌回覆最自然？",
+          "options": [
+            "Yes, I am.",
+            "It's windy.",
+            "They're bananas.",
+            "No, thank you. I want some water."
+          ],
+          "answerIndex": 3,
+          "explanation": "先用「No, thank you.」禮貌婉拒茶，再接著說「I want some water.」說明自己想要喝水，最自然有禮。",
+          "hint": "先禮貌說「不用了，謝謝」，再說出自己想要喝水！",
+          "speechText": "No, thank you. I want some water.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Dialogue"
           ]
         }
       ]

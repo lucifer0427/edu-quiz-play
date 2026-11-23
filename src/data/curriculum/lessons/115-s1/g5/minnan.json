@@ -1,0 +1,438 @@
+{
+  "packId": "115-s1-g5-minnan",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 5,
+  "subjectId": "minnan",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-minnan-u1",
+      "stageId": "115-s1-g5-minnan-u1",
+      "title": "第一單元 科技佮生活",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "科技產品與職業詞彙",
+          "narrationText": "〈科技佮生活〉認識手機仔、目睭等生活科技語詞，並從〈作田人〉學習各行各業名稱與臺羅鼻化韻母「nn」的記號。",
+          "cognitiveChunks": [
+            "「佮（kah）」表示「和、與」",
+            "「手機仔」是手機、「目睭」是眼睛",
+            "「作田人」指農夫，「nn」標記鼻化韻母"
+          ],
+          "analogyAnchor": "在名詞後面加上親切的「仔（á）」，就像替物品取個可愛的小名，例如「手機仔」；而臺羅拼音裡的「nn」則是提醒聲音要從鼻子一起送出的小記號。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "生活科技語詞",
+              "leftPoints": [
+                "科技佮（和）生活、手機仔",
+                "久看螢幕會傷目睭（眼睛）"
+              ],
+              "rightTitle": "職業與尊重",
+              "rightPoints": [
+                "作田人（農夫）、警察、老師",
+                "各行各業無分懸低，攏值得敬重"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "手機仔與護目睭",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "作田人與敬重職業",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/minnan#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "詞意推論與感恩俗諺",
+          "narrationText": "結合生活語境與「食果子，拜樹頭；食米飯，敬田頭」俗諺，不僅記住閩南語詞彙，更體會飲水思源、尊重各行各業的品德。",
+          "cognitiveChunks": [
+            "「食米飯，敬田頭」感念農夫辛勞",
+            "臺羅拼音韻母後加 nn 表鼻化韻",
+            "科技方便仍要定時讓目睭休息"
+          ],
+          "workedExampleData": {
+            "problemStatement": "讀到句子：「阿公用『手機仔』看天氣，關心『作田人』收成，也提醒孫子莫看太久傷『目睭』。」這三個詞分別是什麼意思？",
+            "steps": [
+              "第 1 步：拆解「手機仔」——名詞加詞尾「仔」，指智慧型手機",
+              "第 2 步：拆解「作田人」——「作田」是耕種農田，指辛苦的農夫",
+              "第 3 步：拆解「目睭」——指臉上看東西的眼睛，用科技產品要注意護眼"
+            ],
+            "commonErrorContrast": "常見錯誤：把「電火（電燈）」或「跤踏車（腳踏車）」和手機仔混淆，或忘記臺羅鼻化韻母符號是「nn」。",
+            "selfExplanationPrompt": "想一想：「食果子，拜樹頭；食米飯，敬田頭」這句俗諺提醒我們對各行各業抱持什麼態度？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/minnan#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "行行出狀元",
+          "topicSignalTitle": "職業無分懸低",
+          "narrationText": "無論是作田人、醫生、警察還是司機（頭家或受僱者），每份正當職業都在為社會默默付出，都值得我們感謝。",
+          "cognitiveChunks": [
+            "老師在閩南語也尊稱為「先生」",
+            "科技便利也要兼顧目睭健康"
+          ],
+          "factGroundingSourceId": "115-s1/g5/minnan#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認第二課「作田人」的詞義，再進入第一單元挑戰！",
+          "cognitiveChunks": [
+            "作田人是指耕田的農夫"
+          ],
+          "warmupCheck": {
+            "prompt": "第二課課名〈作田人〉中的閩南語詞彙「作田人」，指的是哪一種職業的人？",
+            "options": [
+              "農夫、耕田的人",
+              "修車師傅",
+              "消防隊員",
+              "電腦工程師"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！「作田」就是耕種農田，「作田人」就是辛苦耕種糧食的農夫喔！",
+            "feedbackRetry": "從字面上的「田」字想一想，整天在田裡工作的人是什麼職業呢？"
+          },
+          "factGroundingSourceId": "115-s1/g5/minnan#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-minnan-u2",
+      "stageId": "115-s1-g5-minnan-u2",
+      "title": "第二單元 我的心情",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "喜怒哀樂的情緒語詞",
+          "narrationText": "學會用「歡喜、暢（開心）、鬱卒（煩悶）、受氣（生氣）、驚惶（驚慌）」精準表達心情，並把負面情緒轉化成正向溝通與「向前衝」的力量。",
+          "cognitiveChunks": [
+            "「足歡喜／足暢」＝非常開心舒暢",
+            "「鬱卒」＝悶悶不樂、「受氣」＝生氣",
+            "「驚惶」＝驚慌不安、「莫」＝不要"
+          ],
+          "analogyAnchor": "心情詞彙就像情緒溫度計的刻度：從開心發光的「足歡喜／足暢」，到悶悶的「鬱卒」、緊張害怕的「驚惶」與冒火的「受氣」，認得它們才能好好照顧心情。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "正向開心語詞",
+              "leftPoints": [
+                "足歡喜（很開心）、真暢（很暢快）",
+                "咱作伙拍拚（一起努力向前衝）"
+              ],
+              "rightTitle": "低落與緊張語詞",
+              "rightPoints": [
+                "鬱卒（煩悶）、驚惶（驚慌害怕）",
+                "受氣（生氣），要冷靜莫發火"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "歡喜與足暢心情",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "覺察鬱卒受氣驚惶",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/minnan#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "安慰朋友與正向情緒轉換",
+          "narrationText": "看到朋友比賽失利或考不好時，用「莫傷心啦！咱鬥陣拍拚！」安慰對方；自己受氣時先覺察並深呼吸冷靜，再好好與家人溝通。",
+          "cognitiveChunks": [
+            "「莫（mài）」表示「不要」",
+            "「鬥陣／作伙」表示「一起」",
+            "先覺察自己生氣再冷靜溝通"
+          ],
+          "workedExampleData": {
+            "problemStatement": "朋友因為比賽沒得名坐在角落「足鬱卒」，我們應該用哪一句閩南語安慰他，而不是嘲笑他？",
+            "steps": [
+              "第 1 步：辨識情緒——看懂「鬱卒」是心裡煩悶、悶悶不樂，這時最需要鼓勵",
+              "第 2 步：避開傷人話——不說「真漏氣（丟臉）」或「真無路用」等否定對方的話",
+              "第 3 步：送出正向語句——說「莫傷心啦！咱鬥陣拍拚，後擺繼續向前衝！」"
+            ],
+            "commonErrorContrast": "常見錯誤：把「受氣（生氣）」誤以為是客氣或肚子脹氣，或把「鬱卒」當成興奮開心。",
+            "selfExplanationPrompt": "想一想：當你跟家人吵架覺得「足受氣」時，怎麼做才能轉化成正向和諧的關係？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/minnan#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "日常鼓勵金句",
+          "topicSignalTitle": "莫難過，咱作伙拍拚！",
+          "narrationText": "一句「莫難過，咱作伙拍拚」就像溫暖的陽光，能幫失落的朋友擦乾眼淚、重新找回向前衝的勇氣。",
+          "cognitiveChunks": [
+            "「後擺」是下一次的意思",
+            "「拍拚」是努力打拚的意思"
+          ],
+          "factGroundingSourceId": "115-s1/g5/minnan#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認「鬱卒」的詞意，再進入第二單元挑戰！",
+          "cognitiveChunks": [
+            "鬱卒形容心裡煩悶不樂"
+          ],
+          "warmupCheck": {
+            "prompt": "小美因為心愛的鉛筆不見了，一整天看起來「足鬱卒」。請問閩南語詞彙「鬱卒」形容的是哪一種心情？",
+            "options": [
+              "悶悶不樂、心裡煩悶苦惱",
+              "興奮得跳起來",
+              "肚子很餓想吃飯",
+              "覺得天氣很涼爽"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！「鬱卒（ut-tsut）」就是心裡有煩惱、悶悶不樂的狀態。",
+            "feedbackRetry": "弄丟心愛的東西時，心情會是興奮還是悶悶不樂呢？"
+          },
+          "factGroundingSourceId": "115-s1/g5/minnan#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-minnan-u3",
+      "stageId": "115-s1-g5-minnan-u3",
+      "title": "第三單元 認捌臺灣",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "臺灣美麗的海翁與舊地名",
+          "narrationText": "「認捌（jīn-bat）」是認識了解，臺灣的形狀常被比喻為「海翁（鯨魚）」；透過閩南語認識臺灣各縣市與桃仔園、打狗、雞籠等充滿故事的舊地名。",
+          "cognitiveChunks": [
+            "「認捌」＝認識、「海翁」＝鯨魚",
+            "桃園舊名「桃仔園」、萬華舊名「艋舺」",
+            "基隆「雞籠」、新竹「竹塹」、嘉義「諸羅」"
+          ],
+          "analogyAnchor": "舊地名就像臺灣地圖上的時光膠囊：從「桃仔園（遍植桃樹）」、「打狗（刺竹林）」到「艋舺（獨木舟聚集）」，每個名字都藏著先民的生活風景。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "北中舊地名對照",
+              "leftPoints": [
+                "雞籠＝基隆、艋舺＝萬華（獨木舟）",
+                "桃仔園＝桃園、竹塹＝新竹"
+              ],
+              "rightTitle": "南部舊地名對照",
+              "rightPoints": [
+                "諸羅＝嘉義（嘉其忠義）",
+                "打狗＝高雄（平埔族語：竹林）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "雞籠艋舺桃仔園",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "諸羅與打狗故事",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/minnan#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "從地名故事認識臺灣歷史",
+          "narrationText": "高雄舊名「打狗」源自馬卡道族語「竹林」、萬華「艋舺」源自凱達格蘭族語「獨木舟」、嘉義「諸羅」則因清代嘉許居民忠義而改名，見證多元文化交會。",
+          "cognitiveChunks": [
+            "打狗（Takau）原意為刺竹林而非小狗",
+            "桃仔園因清代遍植桃花樹得名",
+            "縣市名稱多維持漢字地名（如臺南、澎湖）"
+          ],
+          "workedExampleData": {
+            "problemStatement": "請把「雞籠、竹塹、桃仔園、諸羅、打狗」五個舊地名，正確配對到現在的臺灣縣市或地區！",
+            "steps": [
+              "第 1 步：從字音聯想——「雞籠」對應基隆，「桃仔園」對應遍植桃樹的桃園",
+              "第 2 步：記住北部古城——「竹塹」對應新竹，「艋舺」對應臺北萬華",
+              "第 3 步：記住南部故事——「諸羅」因嘉其忠義改稱嘉義，「打狗」是高雄（原意竹林）"
+            ],
+            "commonErrorContrast": "常見錯誤：誤以為高雄舊名「打狗」和動物狗有關，或把「竹塹」和「諸羅」位置搞混。",
+            "selfExplanationPrompt": "想一想：為什麼課文〈臺灣美麗的海翁〉會用「海翁」來形容臺灣？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/minnan#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "在地文化小常識",
+          "topicSignalTitle": "桃仔園的故事",
+          "narrationText": "我們居住的桃園，早期因為春天桃花盛開而被稱作「桃仔園（Thô-á-hn̂g）」，聽起來是不是既親切又充滿詩意呢？",
+          "cognitiveChunks": [
+            "「海翁」是鯨魚，不是海龜或漁夫",
+            "舊地名見證原漢多元文化交流"
+          ],
+          "factGroundingSourceId": "115-s1/g5/minnan#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認「認捌」與「海翁」的意思，再進入第三單元挑戰！",
+          "cognitiveChunks": [
+            "認捌是認識、海翁是鯨魚"
+          ],
+          "warmupCheck": {
+            "prompt": "第三單元〈認捌臺灣〉第一課是〈臺灣美麗的海翁〉。請問在閩南語裡，「認捌」和「海翁」分別是什麼意思？",
+            "options": [
+              "認捌＝唱歌；海翁＝海龜",
+              "認捌＝認識、了解；海翁＝鯨魚",
+              "認捌＝迷路；海翁＝海鷗",
+              "認捌＝離開；海翁＝老漁夫"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！臺灣島的輪廓常被比喻為在太平洋悠游的美麗鯨魚（海翁）。",
+            "feedbackRetry": "從空中看臺灣的形狀像哪一種會噴水的大型海洋哺乳動物呢？"
+          },
+          "factGroundingSourceId": "115-s1/g5/minnan#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-minnan-u4",
+      "stageId": "115-s1-g5-minnan-u4",
+      "title": "第四單元 期末補充與語詞複習",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "課室指令、問候與疑問詞",
+          "narrationText": "統整「唸看覓、寫看覓、箍看覓」等課堂語詞，以及日常問候「熬早（早安）」、連接詞「作伙（一起）」與疑問詞「佗位（哪裡）」。",
+          "cognitiveChunks": [
+            "「看覓」＝試試看、「箍」＝圈起來",
+            "「熬早」＝早安、「作伙」＝一起、「一擺」＝一次",
+            "疑問詞：「佗位」哪裡、「啥物」什麼、「當時」何時"
+          ],
+          "analogyAnchor": "疑問詞就像對話裡的萬能鑰匙：問地點拿「佗位」、問東西拿「啥物」、問時間拿「當時」、問方法拿「按怎」，就能看懂各種閩南語提問。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "課室與問候語",
+              "leftPoints": [
+                "唸看覓（唸看看）、箍看覓（圈起來）",
+                "熬早（早安）、唸甲真好足流利"
+              ],
+              "rightTitle": "疑問詞與副詞",
+              "rightPoints": [
+                "佗位（哪裡）、啥物（什麼）、按怎（怎麼）",
+                "作伙（一起）、一擺（一次）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "看覓與早安問候",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "佗位啥物疑問詞",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/minnan#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "綜合短句閱讀與生活應對",
+          "narrationText": "把本學期學過的親屬稱謂（阿兄）、科技（電腦）、地名（雞籠佮打狗）與疑問詞串連起來，就能輕鬆讀懂整段閩南語短文。",
+          "cognitiveChunks": [
+            "「阿兄」指哥哥、「真趣味」指真有趣",
+            "「多謝」謝謝、「失禮」對不起",
+            "串聯關鍵詞彙就能讀懂完整句子"
+          ],
+          "workedExampleData": {
+            "problemStatement": "請看懂這句話並回答空格：「熬早！咱＿＿去＿＿看雞籠佮打狗的故事，感覺真趣味！」",
+            "steps": [
+              "第 1 步：解讀問候——「熬早」是早上打招呼說「早安！」",
+              "第 2 步：選擇連接與疑問——邀請大家「一起」去，用「作伙」；若問去「哪裡」則用「佗位」",
+              "第 3 步：串聯全句——「雞籠佮打狗」指基隆和高雄，「真趣味」是很有趣"
+            ],
+            "commonErrorContrast": "常見錯誤：把「失禮（對不起）」當成早安，或把「佗位（哪裡）」和「啥物（什麼）」搞混。",
+            "selfExplanationPrompt": "想一想：當同學流利唸完閩南語課文時，怎麼用閩南語稱讚他？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/minnan#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "四大疑問詞速記",
+          "topicSignalTitle": "佗位、啥物、當時、按怎",
+          "narrationText": "遇到問句先找這四個關鍵字：問地點找「佗位」、問事物找「啥物」、問時間找「當時」、問方法找「按怎」。",
+          "cognitiveChunks": [
+            "「幾歲」用來詢問年齡",
+            "「無閒」表示忙碌沒空"
+          ],
+          "factGroundingSourceId": "115-s1/g5/minnan#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認問地點的閩南語疑問詞，再進入第四單元挑戰！",
+          "cognitiveChunks": [
+            "「佗位」表示詢問地點「哪裡」"
+          ],
+          "warmupCheck": {
+            "prompt": "外地朋友問你：「大溪老街愛去＿＿坐車？」想表達「要到『哪裡』搭車」，空格裡的閩南語疑問詞應該是哪一個？",
+            "options": [
+              "啥物（siánn-mih）",
+              "當時（tang-sî）",
+              "幾歲（kuí-huè）",
+              "佗位（tó-uī）"
+            ],
+            "answerIndex": 3,
+            "feedbackCorrect": "答對了！「佗位（tó-uī）」就是詢問地點「哪裡」的常用疑問詞。",
+            "feedbackRetry": "問地點「哪裡」搭車時，要用「佗＿」這個詞彙喔！"
+          },
+          "factGroundingSourceId": "115-s1/g5/minnan#u4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "packId": "115-s2-g4-minnan",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 4,
+  "subjectId": "minnan",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-minnan-u1",
+      "stageId": "115-s2-g4-minnan-u1",
+      "title": "一、街頭巷尾",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "草地風景媠、厝邊頭尾與便利商店",
+          "narrationText": "走訪街頭巷尾，「草地風景媠」讚美綠地風光美麗；俗諺「千金買厝，萬金買厝邊」提醒敦親睦鄰；到「便利商店」買物件則用「愛偌濟錢、幾箍、愛袋仔無」有禮應對。",
+          "cognitiveChunks": [
+            "草地＝鄉間綠地；媠＝美麗；爽快＝舒暢",
+            "厝邊頭尾＝左鄰右舍；千金買厝萬金買厝邊",
+            "買物件＝買東西；幾箍＝幾元；袋仔＝袋子"
+          ],
+          "analogyAnchor": "街頭巷尾就像一張充滿人情味的生活地圖：公園裡花開鳥鳴「風景媠」，巷口有親切的「厝邊頭尾」，便利商店結帳說聲「多謝」更有禮貌。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "草地風景與鄰里",
+              "leftPoints": [
+                "樹仔青翠、花蕊當開、涼風爽快",
+                "千金買厝，萬金買厝邊（重鄰誼）"
+              ],
+              "rightTitle": "便利商店應對",
+              "rightPoints": [
+                "請問愛偌濟錢（幾箍）？多謝你！",
+                "自備環保袋（免拿袋仔）、帶回發票"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "風景媠與厝邊頭尾",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "問價道謝與袋仔",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/minnan#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "幫家人購物與使用禮貌問價句型",
+          "narrationText": "幫家人去便利商店代買日用品時，事先確認品項金額，結帳時用有禮貌的閩南語問價與道謝，再帶回發票和找零。",
+          "cognitiveChunks": [
+            "請問愛偌濟錢？／多謝你，再見！",
+            "自備環保袋可說「免，我家己有紮」"
+          ],
+          "workedExampleData": {
+            "problemStatement": "媽媽請你去巷口便利商店買鮮奶和日用品，結帳時該如何用閩南語有禮貌地應對並完成任務？",
+            "steps": [
+              "第 1 步：出門前與家人確認採買清單、金額並自備環保袋",
+              "第 2 步：結帳時禮貌問店員：「請問這愛偌濟錢（幾箍）？」店員問「愛袋仔無？」可回答自備了",
+              "第 3 步：接過商品與發票找零後誠懇說：「多謝你，再見！」並平安帶回家交給家人"
+            ],
+            "commonErrorContrast": "常見錯誤：只挑自己愛吃的零食忘記日用品、對店員說「莫算錢直接送我」，或把「厝邊頭尾」誤認成屋頂瓦片。",
+            "selfExplanationPrompt": "想一想：俗諺「千金買厝，萬金買厝邊」為什麼說好鄰居比昂貴的房子更難得珍貴？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/minnan#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "戶外欣賞自然生機的閩南語",
+          "topicSignalTitle": "在公園看到花開鳥叫可以用哪句閩南語形容？",
+          "narrationText": "可以說「遮的樹仔真青翠，涼風吹來足爽快」或「花蕊當開、鳥仔在樹頂唱歌」，生動表達對社區綠地的喜愛。",
+          "cognitiveChunks": [
+            "花蕊當開＝花朵正盛開",
+            "鳥仔在樹頂唱歌＝鳥在樹梢鳴叫"
+          ],
+          "factGroundingSourceId": "115-s2/g4/minnan#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "確認一下「買物件」和「幾箍」在商店裡的意思！",
+          "cognitiveChunks": [
+            "買物件＝買東西；幾箍＝幾元"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈便利商店〉結帳時常聽到閩南語「買物件」與「幾箍」，這兩個詞語分別是什麼意思？",
+            "options": [
+              "去圖書館借書；書本有幾頁",
+              "放進冰箱；店裡有幾個人",
+              "買東西；多少元、幾塊錢",
+              "修理腳踏車；現在幾點鐘"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！物件是東西，箍是貨幣單位元／塊，所以問「幾箍」就是問幾塊錢。",
+            "feedbackRetry": "結帳時在櫃台付錢，最常問店員這項東西要「多少錢」對吧！"
+          },
+          "factGroundingSourceId": "115-s2/g4/minnan#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-minnan-u2",
+      "stageId": "115-s2-g4-minnan-u2",
+      "title": "二、愛寶惜",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "愛寶惜精神、烏白唬與欲按怎",
+          "narrationText": "「愛寶惜」是要用心珍惜疼惜萬物與資源。「烏白」是胡亂隨便，「毋通烏白抌糞埽（別亂丟垃圾）」；看到環境受傷害時急著問「這馬欲按怎（現在該怎麼辦）」，更要採取減塑行動守護生態。",
+          "cognitiveChunks": [
+            "寶惜＝珍惜疼惜；烏白＝胡亂、隨便",
+            "這馬欲按怎＝現在該怎麼辦；抌＝丟扔",
+            "食果子拜樹頭＋愛惜物命，減塑護生態"
+          ],
+          "analogyAnchor": "「食果子，拜樹頭；食米飯，敬田頭」就像喝水要感謝水龍頭背後的乾淨水源，對待大自然與生物棲地要「愛寶惜」，不能「烏白」破壞。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "核心詞彙語意",
+              "leftPoints": [
+                "寶惜（珍惜）、烏白（胡亂）、抌（丟）",
+                "這馬欲按怎（現在該怎麼辦）、毋通（不要）"
+              ],
+              "rightTitle": "生態反思與俗諺",
+              "rightPoints": [
+                "溪邊不驚擾捕捉生物，改用環保袋減塑",
+                "食果子拜樹頭（飲水思源）、愛惜物命"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "寶惜烏白抌欲按怎",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "飲水思源減塑護生",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/minnan#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用閩南語勸導護生與實踐減塑",
+          "narrationText": "在溪邊看見有人想亂抓青蛙或丟塑膠袋，或面對海洋塑膠垃圾問題時，學會用正確的閩南語句子勸導並提出改善辦法。",
+          "cognitiveChunks": [
+            "「咱毋通烏白驚擾或捉伊，愛寶惜生命」",
+            "「著愛改用環保袋、減塑愛地球」"
+          ],
+          "workedExampleData": {
+            "problemStatement": "溪邊看到有人想抓小動物或亂丟塑膠袋，看到海洋生物受威脅時大家問「這馬欲按怎？」，該怎麼回應？",
+            "steps": [
+              "第 1 步：用「毋通（不要）」溫和勸阻：「溪仔邊的小生物嘛愛安全的棲地，咱毋通烏白驚擾或捉伊！」",
+              "第 2 步：提醒「糞埽毋通烏白抌（垃圾不要亂丟）」，要做好分類回收",
+              "第 3 步：反思人類用完就丟的習慣，回答「咱著愛改用環保袋、減塑愛地球」並「愛惜物命」"
+            ],
+            "commonErrorContrast": "常見錯誤：把「烏白」當成只看黑色白色、把「這馬」當成動物馬匹，或把青蛙關進沒空氣的塑膠罐帶回家。",
+            "selfExplanationPrompt": "想一想：俗諺「食果子，拜樹頭；食米飯，敬田頭」和愛護野生動物棲地有什麼關聯？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/minnan#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "傳統節儉美德「愛惜物命」",
+          "topicSignalTitle": "對待文具與日用品要抱持什麼態度？",
+          "narrationText": "「物命」提醒我們每樣物品都耗費了地球資源與人們的勞力，好好愛護文具水電、物盡其用不輕易丟棄，就是「愛寶惜」。",
+          "cognitiveChunks": [
+            "珍惜物品與自然資源壽命",
+            "物盡其用、不輕易浪費丟棄"
+          ],
+          "factGroundingSourceId": "115-s2/g4/minnan#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "測測看你知不知道「烏白」在閩南語詞組裡的意義！",
+          "cognitiveChunks": [
+            "烏白＝胡亂、隨便"
+          ],
+          "warmupCheck": {
+            "prompt": "在日常閩南語中，「烏白」常接在動詞前面（例如烏白講、烏白抌、烏白唬），請問「烏白」是什麼意思？",
+            "options": [
+              "分辨黑色與白色",
+              "清晨和夜晚",
+              "胡亂、隨便、沒有根據",
+              "非常仔細認真"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！「烏白」就是胡亂、隨意，所以「烏白抌」是亂丟、「烏白唬」是胡亂吹噓嚇唬人。",
+            "feedbackRetry": "長輩常勸我們不要「烏白講話」或「烏白丟垃圾」，這裡的「烏白」是指什麼態度呢？"
+          },
+          "factGroundingSourceId": "115-s2/g4/minnan#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-minnan-u3",
+      "stageId": "115-s2-g4-minnan-u3",
+      "title": "三、日子",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "一天時段、日期與時間表規劃",
+          "narrationText": "用閩南語說出一天作息：「透早」清晨、「早起」早上、「中晝」中午、「下晡」下午、「暗時」晚上；日期「昨昏、今仔日、明仔載」則代表昨天、今天與明天，搭配時間表養成準時不晏到的好品德。",
+          "cognitiveChunks": [
+            "透早＝清晨、中晝＝中午、下晡＝下午、暗時＝晚上",
+            "昨昏＝昨天、今仔日＝今天、明仔載＝明天",
+            "準時＝按時到達；晏到＝遲到；睏＝睡覺"
+          ],
+          "analogyAnchor": "時間表就像一天生活的火車時刻表：先排功課和家務、再留運動與看書時間，照著時刻表走就不會「食緊挵破碗」或「晏到」讓朋友等。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "透早／早起：有精神去學校",
+                "中晝／下晡：放學歇喘寫功課",
+                "暗頓／暗時：看書早點去睏",
+                "準時守信用：勿食緊挵破碗"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "透早中晝下晡暗時",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "準時不晏到守信用",
+                "anchorPointId": "step4"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/minnan#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "讀懂時間表與結合俗諺實踐",
+          "narrationText": "看懂閩南語敘述的放學時間表，並把「食緊挵破碗」與「一日之計在於晨」的智慧用在每日生活規劃上。",
+          "cognitiveChunks": [
+            "暗頓＝晚餐；半點鐘＝半小時",
+            "食緊挵破碗＝提醒不拖到最後趕工"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小潔說：「我下晡四點轉來厝先歇喘一下，五點半寫功課，暗頓後閣看半點鐘的課外書。」這代表什麼作息？",
+            "steps": [
+              "第 1 步：「下晡四點轉來厝」是下午四點回到家，「歇喘一下」是稍微休息",
+              "第 2 步：下午五點半先完成功課，符合先排重要任務的時間規劃",
+              "第 3 步：「暗頓後閣看半點鐘」是吃完晚餐後再閱讀半小時，勞逸結合又不會「食緊挵破碗」"
+            ],
+            "commonErrorContrast": "常見錯誤：把「中晝」當成傍晚、把「明仔載」當成昨天、約會「晏到」不通知，或把時間表排滿不留休息運動時間。",
+            "selfExplanationPrompt": "想一想：俗諺「一日之計在於晨，一年之計在於春」提醒我們在時間規劃上該把握什麼時候？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/minnan#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "守時品德：準時與不晏到",
+          "topicSignalTitle": "跟同學約好時間討論報告該怎麼提醒自己？",
+          "narrationText": "自我提醒「咱愛準時到達，毋通晏到害逐家等傷久」，尊重別人的時間就是負責任的好品德。",
+          "cognitiveChunks": [
+            "準時到達不讓大家等太久",
+            "暗時早點去睏隔天有精神"
+          ],
+          "factGroundingSourceId": "115-s2/g4/minnan#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "配對看看連續三天的閩南語日期說法吧！",
+          "cognitiveChunks": [
+            "昨昏、今仔日、明仔載"
+          ],
+          "warmupCheck": {
+            "prompt": "日記本裡常出現閩南語日期說法：「昨昏」、「今仔日」、「明仔載」，這三個詞語依序指的是哪三天？",
+            "options": [
+              "昨天 → 今天 → 明天",
+              "明天 → 今天 → 昨天",
+              "上個月 → 這個月 → 下個月",
+              "前年 → 今年 → 明年"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！昨昏是昨天、今仔日是今天、明仔載是明天。",
+            "feedbackRetry": "看看三個詞開頭的漢字「昨」、「今」、「明」，就能依序排出來囉！"
+          },
+          "factGroundingSourceId": "115-s2/g4/minnan#u3"
+        }
+      ]
+    }
+  ]
+}

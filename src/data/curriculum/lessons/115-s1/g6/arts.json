@@ -1,0 +1,634 @@
+{
+  "packId": "115-s1-g6-arts",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 6,
+  "subjectId": "arts",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-arts-u1",
+      "stageId": "115-s1-g6-arts-u1",
+      "title": "第一單元 音樂風情",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s1-arts-u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "國樂器分類、民族音樂與直笛高音 Fa",
+          "narrationText": "現代國樂團分為吹管、拉弦、彈撥、打擊四大類。透過演唱不同民族歌頌大自然的歌曲體驗多元文化，並練習高音直笛「高音 Fa」指法與氣息控制。",
+          "cognitiveChunks": [
+            "國樂吹管：嗩吶笛笙；拉弦：二胡高胡中胡",
+            "嗩吶木製雙簧高亢 vs. 小號銅管按鍵亮麗",
+            "高音 Fa 須左手大拇指半孔配合穩定氣息"
+          ],
+          "analogyAnchor": "國樂團的四大類樂器就像一場大自然交響詩，吹管像山谷清風、拉弦像流水綿延、彈撥像雨滴清脆、打擊像雷鳴震撼。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "國樂吹管：嗩吶",
+              "leftPoints": [
+                "木製錐形管身＋雙簧片＋碗口",
+                "音色高亢響亮具穿透力"
+              ],
+              "rightTitle": "西洋銅管：小號",
+              "rightPoints": [
+                "金屬銅管＋三個活塞按鍵",
+                "雙唇振動發聲音色亮麗輝煌"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s1-art-u1-l1",
+                "text": "雙簧吹管高亢響亮",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s1-art-u1-l2",
+                "text": "銅管按鍵亮麗輝煌",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/arts#u1"
+        },
+        {
+          "sceneId": "g6s1-arts-u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "欣賞各國大地歌謠與吹奏高音 Fa 要領",
+          "narrationText": "不同民族因地理環境與生活文化差異，創作出風格各異的大地歌謠；吹奏高音直笛高音 Fa 時，拇指半孔與氣息配合是關鍵。",
+          "cognitiveChunks": [
+            "尊重各民族多元音樂風格與愛護環境情懷",
+            "高音 Fa 左手拇指半孔＋正面叉狀指法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "吹奏高音直笛的「高音 Fa」時容易出現破音或吹不出來，而且面對不同國家歌頌大自然的民謠風格各有差異，該怎麼掌握？",
+            "steps": [
+              "第 1 步：直笛指法——左手大拇指指甲輕壓開出一道細縫（半孔），正面依高音 Fa 指法確實按緊氣孔不漏氣",
+              "第 2 步：氣息控制——吹氣比中音區稍微集中穩定，不可過弱掉音也不可暴衝尖叫",
+              "第 3 步：文化賞析——透過演唱與肢體律動感受各國自然歌謠的節奏與情感，培養欣賞多元文化與愛護自然的情懷"
+            ],
+            "commonErrorContrast": "常見錯誤：誤以為嗩吶與小號發聲原理相同、誤把琵琶古箏當成拉弦樂器，或吹高音 Fa 時大拇指全部放開。",
+            "selfExplanationPrompt": "想一想：現代國樂團的「二胡、高胡、中胡」與「琵琶、古箏」分別屬於哪一類樂器？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/arts#u1"
+        },
+        {
+          "sceneId": "g6s1-arts-u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "用音樂連結自然與多元文化",
+          "topicSignalTitle": "辨識國樂四大類樂器，穩吹高音 Fa 感受民族風情",
+          "narrationText": "透過演唱、樂器伴奏與律動配合，能更深刻感受音樂的拍點與情感，也學會尊重不同文化詮釋大自然的方式。",
+          "cognitiveChunks": [
+            "拉弦樂器以弓弦摩擦發聲（如二胡）",
+            "演唱搭配律動與伴奏強化節奏與表現力"
+          ],
+          "factGroundingSourceId": "115-s1/g6/arts#u1"
+        },
+        {
+          "sceneId": "g6s1-arts-u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認現代國樂團四大樂器分類中「嗩吶」的類別！",
+          "cognitiveChunks": [
+            "嗩吶屬於國樂「吹管樂器」"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈雋永之歌〉認識現代國樂團常見的四大樂器分類時，音色高亢響亮的「嗩吶」屬於哪一類國樂器？",
+            "options": [
+              "吹管樂器",
+              "拉弦樂器",
+              "彈撥樂器",
+              "打擊樂器"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！嗩吶以嘴吹氣使雙簧片振動發聲，與笛子、笙同屬吹管樂器。",
+            "feedbackRetry": "想一想演奏嗩吶時是用手撥弦、用弓拉弦，還是用嘴巴吹氣發聲呢？"
+          },
+          "factGroundingSourceId": "115-s1/g6/arts#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-arts-u2",
+      "stageId": "115-s1-g6-arts-u2",
+      "title": "第二單元 齊聚藝堂",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s1-arts-u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "歌劇、音樂劇與直笛高音 Sol 指法",
+          "narrationText": "歌劇以美聲唱腔與管弦樂團演出為主，音樂劇則融合流行唱腔、對白與精彩舞蹈。透過體會歌詞意境認識各地與臺灣在地文化，並掌握高音直笛「高音 Sol」指法。",
+          "cognitiveChunks": [
+            "歌劇重美聲與戲劇；音樂劇結合唱跳與對白",
+            "臺灣原創音樂劇融入在地故事與母語歌謠",
+            "高音 Sol：拇指半孔＋左手 123 孔按緊"
+          ],
+          "analogyAnchor": "歌劇與音樂劇就像兩位各具魅力的說書人，一位用古典美聲吟唱戲劇，一位用流行歌聲與熱力舞蹈帶大家走進故事。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "西方歌劇 (Opera)",
+              "leftPoints": [
+                "古典美聲唱腔不用麥克風擴音",
+                "管弦樂伴奏結合華美舞台布景"
+              ],
+              "rightTitle": "音樂劇 (Musical)",
+              "rightPoints": [
+                "融合流行、搖滾與大量舞蹈群戲",
+                "常見「音樂劇 in Taiwan」在地創作"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s1-art-u2-l1",
+                "text": "古典美聲戲劇張力",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s1-art-u2-l2",
+                "text": "流行唱跳貼近大眾",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/arts#u2"
+        },
+        {
+          "sceneId": "g6s1-arts-u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "高音 Sol 吹奏除錯與唱演合一要領",
+          "narrationText": "吹奏高音 Sol 時若掉回中音 Sol 或破音，通常是拇指半孔與氣流控制出了問題；演唱舞台劇歌曲則須咬字清晰並配合眼神律動。",
+          "cognitiveChunks": [
+            "高音 Sol 掉音先檢查左手大拇指半孔細縫",
+            "腹式呼吸支撐＋清晰咬字＋貼切肢體律動"
+          ],
+          "workedExampleData": {
+            "problemStatement": "練習吹奏直笛「高音 Sol」時一直掉回「中音 Sol」或發出刺耳破音，該檢查什麼？另外在歌劇與音樂劇課堂演唱時如何表現更好？",
+            "steps": [
+              "第 1 步：直笛除錯——確認左手食、中、無名指完全按緊正面 1、2、3 孔不漏氣，並檢查左手大拇指是否開出穩定「半孔」細縫",
+              "第 2 步：氣息調整——使用集中穩定的氣流吹奏，不要過度用力猛吹造成破音",
+              "第 3 步：唱演合一——演唱時咬字清晰、用腹式呼吸支撐，並體會歌詞意境搭配眼神與肢體律動"
+            ],
+            "commonErrorContrast": "常見錯誤：吹高音 Sol 時右手也全部按住、拇指全蓋導致掉回中音，或演唱舞台歌曲低頭背對觀眾。",
+            "selfExplanationPrompt": "想一想：把臺灣歷史故事或母語歌謠融入音樂劇創作，對文化傳承有什麼意義？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/arts#u2"
+        },
+        {
+          "sceneId": "g6s1-arts-u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "從歌詞意境看見世界與臺灣",
+          "topicSignalTitle": "細味歌詞理解多元文化，穩按半孔吹出清亮高音 Sol",
+          "narrationText": "欣賞歌劇與音樂劇不僅看熱鬧，細讀歌詞更能體會不同時代與地區的人文關懷與人權價值。",
+          "cognitiveChunks": [
+            "高音 Sol 左手拇指半孔＋1、2、3 孔",
+            "歌詞意境能引發共鳴並認識各國文化之美"
+          ],
+          "factGroundingSourceId": "115-s1/g6/arts#u2"
+        },
+        {
+          "sceneId": "g6s1-arts-u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認高音直笛「高音 Sol」的正確雙手按孔指法！",
+          "cognitiveChunks": [
+            "左手大拇指半孔＋左手食中無名指按 123 孔"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈小小愛笛生〉學習吹奏高音直笛的「高音 Sol」時，雙手正確的指法按孔方式為下列何者？",
+            "options": [
+              "左手大拇指半孔（開小細縫），左手食指、中指、無名指按住正面第 1、2、3 孔，右手放開",
+              "雙手八個孔全部按死",
+              "雙手全部放開一個孔都不按",
+              "左手大拇指全蓋，右手按住第 4、5、6 孔"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！中音 Sol 拇指全蓋，高音 Sol 只要把左手大拇指改成開「半孔」就能高八度囉！",
+            "feedbackRetry": "想一想中音 Sol 是左手 0123 孔全按，變成「高音 Sol」時只需要把背面的哪一根手指開成半孔？"
+          },
+          "factGroundingSourceId": "115-s1/g6/arts#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-arts-u3",
+      "stageId": "115-s1-g6-arts-u3",
+      "title": "第三單元 插畫與繪本",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s1-arts-u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "插畫魅力、靈感筆記與繪本製作流程",
+          "narrationText": "插畫能透過誇張變形與色彩隱喻傳達情感。創作繪本從隨手記錄靈感開始，講究圖文互補留白、認識封面與蝴蝶頁等書籍結構，並先摺製「草圖樣書」再正式完稿裝訂。",
+          "cognitiveChunks": [
+            "插畫擅長誇張構圖與色彩隱喻傳遞情感",
+            "優秀繪本圖文互補，留白空間配置文字",
+            "蝴蝶頁連接封面內頁，營造進入故事氛圍"
+          ],
+          "analogyAnchor": "製作繪本前的「草圖樣書（落版樣書）」就像蓋房子前的立體小模型，先確認每頁翻閱節奏與圖文位置，正式繪製才不會出錯。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察生活隨手記錄靈感速寫",
+                "發想故事並設計圖文互補版面",
+                "摺製草圖樣書規劃跨頁與節奏",
+                "正式上色完稿並裝訂成冊"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s1-art-u3-l1",
+                "text": "靈感速寫與圖文聯想",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "g6s1-art-u3-l2",
+                "text": "草圖樣書檢視節奏",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/arts#u3"
+        },
+        {
+          "sceneId": "g6s1-arts-u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "繪本圖文排版與草圖樣書實作",
+          "narrationText": "動手創作繪本時，常遇到畫面太滿文字沒地方放、或翻頁節奏卡頓的問題，善用留白與草圖樣書就能輕鬆克服。",
+          "cognitiveChunks": [
+            "圖畫保留安靜留白空間放置簡潔文字",
+            "草圖樣書確認頁數、跨頁與翻頁驚喜"
+          ],
+          "workedExampleData": {
+            "problemStatement": "準備自己動手創作一本繪本時，應該依循什麼創作流程？為什麼要先做一本小小的「草圖樣書」？",
+            "steps": [
+              "第 1 步：靈感發想——透過日常靈感筆記確定故事主題與角色性格",
+              "第 2 步：樣書規劃——先摺疊一本小尺寸「草圖樣書」，快速畫出每頁圖文位置、留白空間、跨頁節奏與蝴蝶頁設計",
+              "第 3 步：正式完稿——確認翻頁流暢、圖文互補不互相遮擋後，再正式繪製上色、書寫文字並裝訂完成作品"
+            ],
+            "commonErrorContrast": "常見錯誤：文字把圖畫裡已經畫出來的細節又重複念一遍、把字壓在主角臉上，或沒規劃頁數就直接畫正式紙張導致頁數對不上。",
+            "selfExplanationPrompt": "想一想：翻開繪本封面第一眼看見的「蝴蝶頁」，通常有什麼巧妙功用？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/arts#u3"
+        },
+        {
+          "sceneId": "g6s1-arts-u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "圖與文的交響曲",
+          "topicSignalTitle": "善用留白與跨頁對比，讓圖畫與文字互相補充",
+          "narrationText": "最棒的繪本讓文字留給讀者想像空間，圖畫則訴說文字沒講完的細節與情緒。",
+          "cognitiveChunks": [
+            "隨手速寫累積獨特的生活創作素材",
+            "認識封面、書背、蝴蝶頁與版權頁結構"
+          ],
+          "factGroundingSourceId": "115-s1/g6/arts#u3"
+        },
+        {
+          "sceneId": "g6s1-arts-u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認創作繪本前製作「草圖樣書」的主要功用！",
+          "cognitiveChunks": [
+            "預覽整體翻頁節奏、圖文位置與頁數"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈創作我的繪本〉時，創作者先折疊製作一本小小的「草圖樣書（落版樣書）」，這樣做的最大功用是什麼？",
+            "options": [
+              "用來當作摺紙飛機比賽的道具",
+              "先預覽整體故事翻頁節奏、跨頁效果、圖文位置與頁數安排，方便修改調整",
+              "只是為了消耗多餘的白紙",
+              "用來取代最後的正式彩色繪本作品"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！先用小樣書測試翻頁節奏與落版配置，正式畫的時候才不會出錯。",
+            "feedbackRetry": "想一想建築師蓋房子前為什麼要先做小模型？樣書能幫我們預先檢查什麼？"
+          },
+          "factGroundingSourceId": "115-s1/g6/arts#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-arts-u4",
+      "stageId": "115-s1-g6-arts-u4",
+      "title": "第四單元 動畫冒險王",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s1-arts-u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "視覺暫留原理、分鏡腳本與逐格動畫",
+          "narrationText": "翻轉動畫利用人眼「視覺暫留」原理讓靜止連續圖畫動起來。從賞析動畫視聽元素、小組繪製腳本分鏡表，到固定腳架拍攝逐格動畫並舉辦首映會分享回饋，打造會動的小世界。",
+          "cognitiveChunks": [
+            "視覺暫留使連續細微變化靜畫產生動態感",
+            "固定相機腳架與燈光能避免動畫閃爍晃動",
+            "逐格移動幅度小且均勻，角色動作才流暢"
+          ],
+          "analogyAnchor": "動畫腳本與分鏡表就像電影的「路線圖」，先畫好每幕場景與運鏡，小組分工（導演、攝影、移動員）才不會在拍攝現場手忙腳亂。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "理解視覺暫留與速度感構圖",
+                "小組討論繪製動畫腳本分鏡表",
+                "固定腳架燈光、小幅移動拍逐格",
+                "首映分享並包容異質正向回饋"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s1-art-u4-l1",
+                "text": "腳本分鏡確立共識",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "g6s1-art-u4-l2",
+                "text": "腳架固定小幅微調",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/arts#u4"
+        },
+        {
+          "sceneId": "g6s1-arts-u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "克服逐格動畫閃爍瞬移的拍攝技巧",
+          "narrationText": "拍攝黏土或紙偶逐格動畫時，常遇到畫面突然閃爍、背景晃動或角色像瞬間移動的問題，透過固定設備與細微移動即可改善。",
+          "cognitiveChunks": [
+            "使用腳架固定平板且開啟穩定室內燈光",
+            "每次僅小幅均勻移動角色位置後再拍一張"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小組用平板拍攝黏土逐格動畫時，為什麼播放起來角色像「瞬間移動」一樣卡頓，而且背景畫面一直晃動閃爍？",
+            "steps": [
+              "第 1 步：固定設備與光源——將平板穩固夾在腳架上絕不手拿晃動，並固定場景背景與室內燈光（避免自然光忽明忽暗）",
+              "第 2 步：明確分工——安排攝影師專責按快門、移動員專責「小幅度且均勻地」微調黏土角色動作",
+              "第 3 步：首映交流——完成後於首映會欣賞各組不同風格，以具體讚美與建設性建議包容多元創意"
+            ],
+            "commonErrorContrast": "常見錯誤：手持平板拍攝、一次把角色搬移半個桌面遠，或開拍前完全不畫腳本分鏡表。",
+            "selfExplanationPrompt": "想一想：在動畫構圖中，可以運用哪些視覺線條或元素來表現出「速度感與戲劇張力」？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/arts#u4"
+        },
+        {
+          "sceneId": "g6s1-arts-u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "分工合作與欣賞多元動畫風格",
+          "topicSignalTitle": "明確分工不撞腳架，首映會肯定每組獨特創意",
+          "narrationText": "動畫沒有單一標準風格，透過觀察角色造型、色彩氛圍、鏡頭切換與配樂，學會欣賞每組不同的創意表現。",
+          "cognitiveChunks": [
+            "速度線與斜線構圖能增強畫面動態張力",
+            "首映回饋重在傾聽創作理念與真誠鼓勵"
+          ],
+          "factGroundingSourceId": "115-s1/g6/arts#u4"
+        },
+        {
+          "sceneId": "g6s1-arts-u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認手翻書與動畫能讓靜止圖畫「動起來」的核心原理！",
+          "cognitiveChunks": [
+            "視覺暫留效應"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈翻轉動畫〉中，把畫有連續細微變化的圖畫快速翻頁，原本靜止的圖案竟然像「動起來」一樣，這主要利用了人類眼睛的哪一種生理現象？",
+            "options": [
+              "視覺暫留效應",
+              "聽覺殘響現象",
+              "嗅覺適應原理",
+              "磁力吸引作用"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！影像在視網膜上會短暫停留，快速連續切換就會在腦中連成流暢動作。",
+            "feedbackRetry": "想一想眼睛看過一張圖後，影像會不會短暫停留在視網膜上一下下呢？"
+          },
+          "factGroundingSourceId": "115-s1/g6/arts#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-arts-u5",
+      "stageId": "115-s1-g6-arts-u5",
+      "title": "第五單元 打開表演新視界",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s1-arts-u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "戲劇種類、組成元素與影像表演特寫",
+          "narrationText": "戲劇包含舞台劇、布袋戲、歌仔戲、默劇等多樣形式，由劇本、演員、舞台與觀眾等元素組成。進入影像表演世界，攝影機的特寫鏡頭讓演員能用更細膩自然的表情眼神說故事。",
+          "cognitiveChunks": [
+            "戲劇組成：劇本、演員、舞台空間與觀眾",
+            "影像表演表情須自然細膩，特寫放大眼神情緒",
+            "幕後團隊（導演、攝影、收音、剪輯）同樣關鍵"
+          ],
+          "analogyAnchor": "舞台表演像用大畫筆畫畫，要讓最後一排觀眾都看見；影像表演則像用細筆畫肖像，攝影機的「特寫鏡頭」會把細微的眼神波動都拍得清清楚楚。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "傳統大舞台表演",
+              "leftPoints": [
+                "動作與表情須適度放大",
+                "投射宏亮聲音至後排觀眾"
+              ],
+              "rightTitle": "影像鏡頭表演",
+              "rightPoints": [
+                "表情神態須真實自然不誇張",
+                "善用特寫鏡頭捕捉微表情細節"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s1-art-u5-l1",
+                "text": "大舞台須放大動作音",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s1-art-u5-l2",
+                "text": "鏡頭特寫重細膩真實",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/arts#u5"
+        },
+        {
+          "sceneId": "g6s1-arts-u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "校園短片拍攝現場收音與性別平權選角",
+          "narrationText": "實際拍攝校園影像表演時，現場環境音干擾與背光常影響品質；分配劇本角色時也要打破性別刻板印象並互相傾聽拋接台詞。",
+          "cognitiveChunks": [
+            "選擇安靜避風處收音，避免背對強光拍成黑臉",
+            "選角依特質創意發想，打破性別角色限制"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小組要在校園拍攝一段影像表演短片，該如何避免聲音糊掉與畫面太暗？討論劇本角色時又該注意什麼合作素養？",
+            "steps": [
+              "第 1 步：環境與光線——選擇安靜少風聲干擾的場地靠近收音，讓演員臉部朝向自然順光，避免背對強烈陽光變黑臉",
+              "第 2 步：交流與景別——演員專心傾聽對手台詞真誠反應，並適時運用遠景交代環境、特寫捕捉眼神微表情",
+              "第 3 步：平權選角——打破性別刻板印象，鼓勵每個人依興趣與特質嘗試各種角色，尊重幕前與幕後每位組員的貢獻"
+            ],
+            "commonErrorContrast": "常見錯誤：在強風下遠距離收音、只背自己台詞不聽對手講話，或規定男生不能演細膩照顧者、女生不能演領袖。",
+            "selfExplanationPrompt": "想一想：完成一部影像表演短片，除了幕前演員，幕後製作團隊有哪些重要工作？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/arts#u5"
+        },
+        {
+          "sceneId": "g6s1-arts-u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "幕前幕後缺一不可，打破性別框架",
+          "topicSignalTitle": "專注傾聽對手表演，尊重每位幕前幕後夥伴",
+          "narrationText": "導演、編劇、攝影、收音與後製剪輯和演員一樣重要；在排練中學會接納與延續對手表演，戲劇就會自然動人。",
+          "cognitiveChunks": [
+            "Yes, And 傾聽並延續對手表演反應",
+            "特寫鏡頭適合傳遞細微情緒與關鍵道具"
+          ],
+          "factGroundingSourceId": "115-s1/g6/arts#u5"
+        },
+        {
+          "sceneId": "g6s1-arts-u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認「影像表演」與「大禮堂舞台表演」在表情動作上的主要差異！",
+          "cognitiveChunks": [
+            "影像表演距離近，表情動作應自然細膩"
+          ],
+          "warmupCheck": {
+            "prompt": "進入〈影像表演的世界〉用攝影機或平板錄製短片時，與站在大禮堂舞台上表演相比，演員的「臉部表情與動作」應該如何調整？",
+            "options": [
+              "把所有動作放大十倍並大聲吼叫",
+              "因為鏡頭距離近、會放大細節，表演應更加自然細膩且貼近真實情感",
+              "全程像木頭人一樣完全不能有任何表情",
+              "必須背對攝影機才顯得專業"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！攝影機特寫會放大每個眼神細節，過度誇張反而顯得不自然，真實細膩最動人。",
+            "feedbackRetry": "想一想攝影機就在你面前近距離拍攝，如果還像大禮堂那樣誇張大動作會看起來怎樣呢？"
+          },
+          "factGroundingSourceId": "115-s1/g6/arts#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-arts-u6",
+      "stageId": "115-s1-g6-arts-u6",
+      "title": "第六單元 海洋家園",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s1-arts-u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "海洋家園跨領域統整藝術體驗",
+          "narrationText": "〈海洋家園〉結合音樂、視覺與表演藝術：用歌聲與力度速度變化唱出大海風貌、用環保回收媒材創作美麗海樂園，再用流暢高低層次舞蹈跳出海洋生命力，凝聚守護海洋的心意。",
+          "cognitiveChunks": [
+            "音樂：力度漸強漸弱＋速度變化表現風平浪靜到浪濤",
+            "視覺：回收媒材創作，對比色讓魚群珊瑚跳脫背景",
+            "表演：高低層次與延伸流動動作模擬海洋生物"
+          ],
+          "analogyAnchor": "海洋家園就像一場全方位的海洋交響畫卷：耳朵聽見浪花歌聲、眼睛看見繽紛珊瑚、身體化作海草水母隨波律動。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "大海的歌唱：理解歌詞與力度速度變化",
+                "美麗海樂園：對比色與環保回收媒材",
+                "海洋之舞：高低層次與群體隊形律動",
+                "統整展演：實踐愛護海洋家園行動"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s1-art-u6-l1",
+                "text": "歌聲力度表現海浪",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "g6s1-art-u6-l2",
+                "text": "回收媒材實踐環保",
+                "anchorPointId": "step2"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/arts#u6"
+        },
+        {
+          "sceneId": "g6s1-arts-u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "跨領域海洋展演的色彩、律動與永續設計",
+          "narrationText": "將三種藝術形式整合呈現海洋主題時，色彩對比、群舞層次與不製造一次性垃圾的環保道具設計，能讓展演更有說服力。",
+          "cognitiveChunks": [
+            "深藍背景搭配明亮暖色魚群（明暗與冷暖對比）",
+            "乾淨回收紙箱寶特瓶作道具，演後分類再利用"
+          ],
+          "workedExampleData": {
+            "problemStatement": "班級要舉辦「海洋家園」跨領域成果展演，如何同時在音樂、畫作與舞蹈上表現海洋美感，並落實環境永續理念？",
+            "steps": [
+              "第 1 步：音樂詮釋——先讀懂歌詞裡的海洋生態故事，再運用力度漸強漸弱與速度變化唱出平靜與翻湧的海洋",
+              "第 2 步：視覺創作——在深邃藍綠海底背景上運用明亮暖色（如橘紅、亮黃）營造色彩對比，並使用乾淨回收紙箱、寶特瓶或舊布料製作舞台道具",
+              "第 3 步：群舞表現——透過前後錯落與高低蹲站層次，模仿海浪波紋與海洋生物優游，演後將道具妥善分類回收再利用"
+            ],
+            "commonErrorContrast": "常見錯誤：買大量一次性氣球放飛海邊、畫作顏色全部混成深暗一團分不清魚和海水，或演完道具直接亂丟。",
+            "selfExplanationPrompt": "想一想：把音樂、視覺藝術與表演藝術串聯起來探討「海洋家園」，對我們學習環境教育有什麼深層價值？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/arts#u6"
+        },
+        {
+          "sceneId": "g6s1-arts-u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "用藝術為海洋發聲",
+          "topicSignalTitle": "善用對比色彩與回收媒材，從內心出發守護海洋",
+          "narrationText": "藝術不只是技巧練習，更能透過歌聲、畫筆與肢體喚起大家對海洋生態的珍惜與守護行動。",
+          "cognitiveChunks": [
+            "冷暖與明暗色彩對比讓主題鮮明立體",
+            "跨領域藝術統整能多感官表達關懷情感"
+          ],
+          "factGroundingSourceId": "115-s1/g6/arts#u6"
+        },
+        {
+          "sceneId": "g6s1-arts-u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認用歌聲或樂器表現大海從平靜到翻湧最有效的音樂元素！",
+          "cognitiveChunks": [
+            "力度（強弱）與速度（快慢）的變化"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈大海的歌唱〉用歌聲或樂器伴奏表現大海從「風平浪靜」變成「浪濤翻湧」時，運用哪兩項音樂元素的變化最有效果？",
+            "options": [
+              "從頭到尾保持完全一樣的音量與節拍",
+              "運用「力度（從弱到漸強）」與「速度（從舒緩到稍微緊湊）」的變化",
+              "演唱到一半直接把樂器全部收起來不唱",
+              "只用單一音高像念課文一樣平平念過去"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！音樂的強弱（力度）與快慢（速度）變化，最能生動描繪出大海的情緒起伏。",
+            "feedbackRetry": "想一想平靜的微風海浪跟狂風巨浪在「聲音大小」與「節奏快慢」上有什麼差別？"
+          },
+          "factGroundingSourceId": "115-s1/g6/arts#u6"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1050 @@
+{
+  "packId": "115-s1-g4-math",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 4,
+  "subjectId": "math",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-math-u1",
+      "stageId": "115-s1-g4-math-u1",
+      "title": "第1章 一億以內的數",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "四個位數一級，大數讀寫不迷路",
+          "narrationText": "從右邊個位開始，每四位畫一條分隔線分成「個級」和「萬級」，就能輕鬆讀寫到一億以內的大數。",
+          "cognitiveChunks": [
+            "個級：千、百、十、個",
+            "萬級：千萬、百萬、十萬、萬",
+            "10 個一千萬就是一億"
+          ],
+          "analogyAnchor": "把八位數想成兩間四房公寓：右邊住個級四位數，左邊住萬級四位數，中間用「萬」字當門牌分隔。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "萬級（左四位）",
+              "leftPoints": [
+                "千萬、百萬、十萬、萬",
+                "讀完這四位加上「萬」字"
+              ],
+              "rightTitle": "個級（右四位）",
+              "rightPoints": [
+                "千、百、十、個",
+                "不足四位前面要補 0"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u1-l1",
+                "text": "四位一級好分區",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u1-l2",
+                "text": "空位記得補上0",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/math#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分級寫出大數的正確步驟",
+          "narrationText": "遇到國字轉阿拉伯數字時，先圈出「萬」字，把萬級和個級分開寫再合起來，就不怕漏掉中間的 0。",
+          "cognitiveChunks": [
+            "先找「萬」字畫分隔線",
+            "個級一定要寫滿四位數",
+            "沒有提到的位數補 0"
+          ],
+          "workedExampleData": {
+            "problemStatement": "把「三千零八十萬零五百」寫成阿拉伯數字。",
+            "steps": [
+              "第 1 步：圈出「萬」字，前面是「三千零八十」，寫成萬級 3080",
+              "第 2 步：萬字後面是「零五百」，寫成四位數個級 0500",
+              "第 3 步：兩級合併起來，寫作 30800500"
+            ],
+            "commonErrorContrast": "常見錯誤：直接寫成 3080500，把個級的「0500」少寫一個 0，變成只有七位數。",
+            "selfExplanationPrompt": "想一想：如果題目是「五千萬零二十」，個級的四位數應該寫成什麼？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/math#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "大數比大小與萬的加減",
+          "topicSignalTitle": "比位數、比高位，末尾四個 0 可先看成「萬」",
+          "narrationText": "比較大數時先數有幾位數，位數一樣再從最高位比；做大數加減時若末尾都有四個 0，可以先用「萬」作單位計算。",
+          "cognitiveChunks": [
+            "位數越多，數值一定越大",
+            "2450000 可看成 245 萬",
+            "算完再補回四個 0"
+          ],
+          "factGroundingSourceId": "115-s1/g4/math#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次分級寫數與補 0 規則，再開始挑戰關卡！",
+          "cognitiveChunks": [
+            "萬級寫完寫個級，個級必滿四位"
+          ],
+          "warmupCheck": {
+            "prompt": "把「四千零六萬零八十」寫成阿拉伯數字，下列哪一個正確？",
+            "options": [
+              "4060080",
+              "40060080",
+              "40060800",
+              "40060008"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！萬級 4006、個級 0080，合起來就是 40060080。",
+            "feedbackRetry": "先寫出萬字前面的 4006，再把後面的「零八十」寫成四位數 0080 喔！"
+          },
+          "factGroundingSourceId": "115-s1/g4/math#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-math-u2",
+      "stageId": "115-s1-g4-math-u2",
+      "title": "第2章 乘法",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "直式對齊與末尾有 0 的乘法規律",
+          "narrationText": "乘以二、三位數時，十位和百位乘出來的部分積要記得對齊各自的位值；整十整百相乘則可先算非零數字再補 0。",
+          "cognitiveChunks": [
+            "十位去乘，結果對齊十位",
+            "百位去乘，結果對齊百位",
+            "末尾 0 先拿掉相乘再補回"
+          ],
+          "analogyAnchor": "計算 240 × 3500 就像先把後面的 0 打包寄放，算完 24 × 35 = 840 後，再把寄放的 3 個 0 一起領回來。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "先遮住末尾的 0",
+                "算出非零部分乘積",
+                "數出共遮住幾個 0",
+                "補回相同數量的 0"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u2-l1",
+                "text": "先算非零乘積",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "u2-l2",
+                "text": "補回總共的0",
+                "anchorPointId": "step4"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/math#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "拆解三位數乘法與末尾補 0 陷阱",
+          "narrationText": "當非零部分乘出來的結果本身就帶有 0（例如 4 × 25 = 100），補 0 時千萬不能少數原本的 0。",
+          "cognitiveChunks": [
+            "4 × 25 本身就有 2 個 0",
+            "額外再補 400 與 250 的 3 個 0",
+            "總共會有 5 個 0"
+          ],
+          "workedExampleData": {
+            "problemStatement": "計算 400 × 250 的積是多少？",
+            "steps": [
+              "第 1 步：先遮住末尾共 3 個 0（400 有 2 個，250 有 1 個）",
+              "第 2 步：計算非零部分 4 × 25 = 100",
+              "第 3 步：在 100 後面補回 3 個 0，得到 100000"
+            ],
+            "commonErrorContrast": "常見錯誤：看到 4 × 25 = 100，誤以為總共只要湊成 3 個 0 而寫成 1000 或 10000。",
+            "selfExplanationPrompt": "想一想：計算 125 × 112 時，可以把 112 拆成哪三個數分別乘以 125？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/math#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "乘數十位是 0 的直式提醒",
+          "topicSignalTitle": "算 315 × 204 時，十位那一行怎麼辦？",
+          "narrationText": "乘數中間有 0 時，可以直接跳過十位，改算百位的 2 乘以 315，但乘出來的結果要記得對齊百位（空出個位與十位）。",
+          "cognitiveChunks": [
+            "百位 2 乘 315 得 630 個百",
+            "對齊百位就是 63000",
+            "再加上個位 4 乘 315 的 1260"
+          ],
+          "factGroundingSourceId": "115-s1/g4/math#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "用這題確認末尾有 0 的乘法規律，再進入關卡！",
+          "cognitiveChunks": [
+            "先算非零數字，再補齊所有末尾 0"
+          ],
+          "warmupCheck": {
+            "prompt": "已知 15 × 12 = 180，那麼 150 × 1200 的結果是多少？",
+            "options": [
+              "1800",
+              "18000",
+              "180000",
+              "1800000"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！180 後面再補上 150 的 1 個 0 和 1200 的 2 個 0，共 180000。",
+            "feedbackRetry": "15 × 12 = 180 本身已有 1 個 0，再加上兩個乘數末尾共 3 個 0 喔！"
+          },
+          "factGroundingSourceId": "115-s1/g4/math#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-math-u3",
+      "stageId": "115-s1-g4-math-u3",
+      "title": "第3章 角度",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識「度」、鐘面旋轉角與角的種類",
+          "narrationText": "把一個圓分成 360 等分，1 等分就是 1 度。從銳角、直角、鈍角到平角、周角，可以透過時鐘指針旋轉來感受角度大小。",
+          "cognitiveChunks": [
+            "直角 90 度、平角 180 度、周角 360 度",
+            "銳角小於 90 度；鈍角介於 90 與 180 度",
+            "時鐘每 1 大格是 30 度"
+          ],
+          "analogyAnchor": "時鐘表面一圈 360 度平分成 12 大格，指針每走 1 大格剛好旋轉 30 度，走 3 大格就是 90 度直角。",
+          "visualSpec": {
+            "templateId": "clock_face",
+            "params": {
+              "startHour": 12,
+              "endHour": 4,
+              "degreesPerHour": 30
+            },
+            "spatialLabels": [
+              {
+                "id": "u3-l1",
+                "text": "每大格30度",
+                "anchorPointId": "top"
+              },
+              {
+                "id": "u3-l2",
+                "text": "半圈平角180度",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/math#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用量角器測量與計算旋轉角",
+          "narrationText": "使用量角器時要記住「中心對頂點、0 度線對一邊、順著 0 度圈讀刻度」，計算鐘面旋轉角則先數走了幾大格。",
+          "cognitiveChunks": [
+            "中心點對準角的頂點",
+            "順著 0 度線那一圈讀刻度",
+            "角度只看張開大小，與邊長無關"
+          ],
+          "workedExampleData": {
+            "problemStatement": "分針從數字 12 順時針轉到數字 4，一共旋轉了幾度？屬於哪一種角？",
+            "steps": [
+              "第 1 步：從 12 到 4 總共經過 4 個大格",
+              "第 2 步：每大格 30 度，計算 30 × 4 = 120 度",
+              "第 3 步：120 度大於 90 度且小於 180 度，屬於鈍角"
+            ],
+            "commonErrorContrast": "常見錯誤：量角時看錯內外圈刻度，把 60 度的銳角誤讀成另一圈的 120 度。",
+            "selfExplanationPrompt": "想一想：讀量角器刻度前，要如何確認該看內圈還是外圈？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/math#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "順時針與逆時針的分辨",
+          "topicSignalTitle": "旋轉方向相反，轉到的位置也不同",
+          "narrationText": "和時鐘指針轉動相同的方向叫做「順時針」（北→東→南→西），相反方向則是「逆時針」（北→西→南→東）。",
+          "cognitiveChunks": [
+            "順時針：12 → 1 → 2 → 3",
+            "逆時針：12 → 11 → 10 → 9",
+            "拼成平角用 180 度減已知角"
+          ],
+          "factGroundingSourceId": "115-s1/g4/math#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "試着用平角與直角概念算算看這題角度吧！",
+          "cognitiveChunks": [
+            "平角 180 度，直角 90 度"
+          ],
+          "warmupCheck": {
+            "prompt": "兩個角緊靠在一起拼成一個 180 度的平角，已知其中一個角是 55 度，另一個角是幾度？",
+            "options": [
+              "35 度",
+              "125 度",
+              "135 度",
+              "305 度"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！180 - 55 = 125 度，屬於鈍角。",
+            "feedbackRetry": "平角是 180 度，用 180 減去 55 試試看喔！"
+          },
+          "factGroundingSourceId": "115-s1/g4/math#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-math-u4",
+      "stageId": "115-s1-g4-math-u4",
+      "title": "第4章 假分數與帶分數",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "真分數、假分數與帶分數的關係",
+          "narrationText": "分子小於分母是真分數；分子大於或等於分母是假分數；由整數與真分數合起來記的是帶分數。",
+          "cognitiveChunks": [
+            "真分數小於 1（分子 < 分母）",
+            "假分數大於或等於 1（分子 ≥ 分母）",
+            "帶分數＝整數＋真分數"
+          ],
+          "analogyAnchor": "把 1 個披薩平分切成 5 片：沒拿滿 1 個是真分數；拿到剛好 1 個以上但不整切開叫假分數；寫成幾整盒又幾片就是帶分數。",
+          "visualSpec": {
+            "templateId": "fraction_bar",
+            "params": {
+              "denominator": 5,
+              "numerator": 7
+            },
+            "spatialLabels": [
+              {
+                "id": "u4-l1",
+                "text": "滿分母就進位1",
+                "anchorPointId": "top"
+              },
+              {
+                "id": "u4-l2",
+                "text": "7/5等於1又2/5",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/math#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "假分數與帶分數互換方法",
+          "narrationText": "帶分數換假分數用「整數 × 分母 ＋ 分子」；假分數換帶分數用「分子 ÷ 分母」，商是整數、餘數是新分子。",
+          "cognitiveChunks": [
+            "帶換假：整數 × 分母 ＋ 分子",
+            "假換帶：分子 ÷ 分母看商和餘數",
+            "分母永遠保持不變"
+          ],
+          "workedExampleData": {
+            "problemStatement": "把帶分數「3 又 4/7」化成假分數，再把「23/5」化成帶分數。",
+            "steps": [
+              "第 1 步：3 又 4/7 的分子為 3 × 7 + 4 = 25，化成假分數 25/7",
+              "第 2 步：23/5 用除法 23 ÷ 5 = 4 餘 3",
+              "第 3 步：商 4 當整數、餘數 3 當分子，化成帶分數 4 又 3/5"
+            ],
+            "commonErrorContrast": "常見錯誤：把 7/7 當成真分數，忘了分子「等於」分母時也屬於假分數。",
+            "selfExplanationPrompt": "想一想：比較「2 又 5/9」和「21/9」的大小時，怎麼換會最快？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/math#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "在分數數線上找位置",
+          "topicSignalTitle": "先看 0 到 1 之間被平分成幾小格",
+          "narrationText": "分數數線上，每一大格（0 到 1）平分成幾小格，分母就是幾。從 0 開始數幾小格就是分子；也可以先找到整數位置再往右數真分數格數。",
+          "cognitiveChunks": [
+            "1 單位平分幾格＝分母",
+            "從 0 右數第幾格＝假分數分子",
+            "整數後再右數＝帶分數位置"
+          ],
+          "factGroundingSourceId": "115-s1/g4/math#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "練習一題假分數與帶分數互換，準備進場挑戰！",
+          "cognitiveChunks": [
+            "分子 ÷ 分母，商是整數、餘數是分子"
+          ],
+          "warmupCheck": {
+            "prompt": "把假分數「19/4」化成帶分數，結果是多少？",
+            "options": [
+              "3 又 3/4",
+              "4 又 1/4",
+              "4 又 3/4",
+              "5 又 1/4"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "完全正確！19 ÷ 4 = 4 餘 3，所以是 4 又 3/4。",
+            "feedbackRetry": "算算看 19 除以 4 的商和餘數分別是多少！"
+          },
+          "factGroundingSourceId": "115-s1/g4/math#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-math-u5",
+      "stageId": "115-s1-g4-math-u5",
+      "title": "第5章 公里（含學習加油讚一）",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識「公里」與公尺的千進位換算",
+          "narrationText": "測量城市之間或馬拉松等長距離路程時會用到「公里」。1 公里剛好等於 1000 公尺。",
+          "cognitiveChunks": [
+            "1 公里 ＝ 1000 公尺",
+            "學校 200 公尺操場跑 5 圈 ＝ 1 公里",
+            "千位數字就是幾公里"
+          ],
+          "analogyAnchor": "如果學校操場一圈是 200 公尺，沿著操場跑完 5 圈的總距離，就剛好是 1 公里。",
+          "visualSpec": {
+            "templateId": "number_line",
+            "params": {
+              "min": 0,
+              "max": 1000,
+              "step": 200
+            },
+            "spatialLabels": [
+              {
+                "id": "u5-l1",
+                "text": "200公尺×5圈",
+                "anchorPointId": "top"
+              },
+              {
+                "id": "u5-l2",
+                "text": "1000公尺=1公里",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/math#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "公里與公尺的複名數換算與計算",
+          "narrationText": "公里換公尺時，因為 1 公里是 1000 公尺，公尺部分一定要寫滿三位數；計算時滿 1000 公尺要進位 1 公里。",
+          "cognitiveChunks": [
+            "公尺部分不足百位要補 0",
+            "加法滿 1000 公尺進 1 公里",
+            "減法不夠減向公里借 1 換 1000 公尺"
+          ],
+          "workedExampleData": {
+            "problemStatement": "步道全長「4 公里 65 公尺」，換算成公尺是多少？又從 10 公里減去 7 公里 420 公尺是多少？",
+            "steps": [
+              "第 1 步：4 公里 = 4000 公尺，加上 65 公尺等於 4065 公尺",
+              "第 2 步：減法退位：把 10 公里看成 9 公里 1000 公尺",
+              "第 3 步：1000 - 420 = 580 公尺，9 - 7 = 2 公里，剩下 2 公里 580 公尺"
+            ],
+            "commonErrorContrast": "常見錯誤：把 4 公里 65 公尺直接連起來寫成 465 公尺或 40065 公尺，忘了 1 公里只有 1000 公尺。",
+            "selfExplanationPrompt": "想一想：比較「3 公里 90 公尺」和「3850 公尺」誰長時，先怎麼換算最不容易錯？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/math#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "長度單位的生活選擇",
+          "topicSignalTitle": "什麼時候用公里、公尺、公分？",
+          "narrationText": "量橡皮擦或課本用公分或毫米；量教室、黑板或操場跑道用公尺；量跨縣市公路、鐵路或健行步道才用公里。",
+          "cognitiveChunks": [
+            "短物件：毫米、公分",
+            "場地建物：公尺",
+            "長途路程：公里"
+          ],
+          "factGroundingSourceId": "115-s1/g4/math#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "練習一題公里與公尺換算，確認百位補 0 沒有漏掉！",
+          "cognitiveChunks": [
+            "1 公里 ＝ 1000 公尺"
+          ],
+          "warmupCheck": {
+            "prompt": "把「6 公里 80 公尺」換算成公尺，結果是多少公尺？",
+            "options": [
+              "680 公尺",
+              "6080 公尺",
+              "6800 公尺",
+              "60080 公尺"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！6 公里是 6000 公尺，加上 80 公尺就是 6080 公尺。",
+            "feedbackRetry": "6 公里是 6000 公尺，80 公尺只有兩位數，百位要補 0 喔！"
+          },
+          "factGroundingSourceId": "115-s1/g4/math#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-math-u6",
+      "stageId": "115-s1-g4-math-u6",
+      "title": "第6章 除法",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "多位數除法與末位有 0 的簡化規則",
+          "narrationText": "當被除數和除數末尾都有 0 時，可以同時劃掉相同個數的 0 來簡化算商，但算完後的「餘數」一定要把劃掉的 0 還給它！",
+          "cognitiveChunks": [
+            "同劃掉一樣多的 0，商不變",
+            "餘數必須補回劃掉的 0",
+            "商 × 除數 ＋ 餘數 ＝ 被除數"
+          ],
+          "analogyAnchor": "5400 元平分給每張 700 元，就像拿 54 張百元鈔除以 7 張百元鈔：商是 7 份不變，但剩下的 5 是「5 張百元鈔」，也就是 500 元。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "同劃掉末尾相同個數的 0",
+                "計算簡化後的商與餘數",
+                "商維持不變",
+                "餘數補回劃掉的 0"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u6-l1",
+                "text": "商維持不變",
+                "anchorPointId": "step3"
+              },
+              {
+                "id": "u6-l2",
+                "text": "餘數補回0",
+                "anchorPointId": "step4"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/math#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "末位有 0 的除法驗算示範",
+          "narrationText": "簡化除法算完後，立刻用「商 × 原除數 ＋ 餘數」檢查是否等於原被除數，就能百分之百避開餘數少 0 的錯誤。",
+          "cognitiveChunks": [
+            "5400 ÷ 700 先同劃 2 個 0",
+            "54 ÷ 7 = 7 餘 5",
+            "餘數 5 補回 2 個 0 變 500"
+          ],
+          "workedExampleData": {
+            "problemStatement": "計算「5400 ÷ 700」的商和餘數分別是多少？",
+            "steps": [
+              "第 1 步：被除數與除數同時劃掉 2 個 0，先算 54 ÷ 7 = 7 餘 5",
+              "第 2 步：商維持 7 不變，餘數補回劃掉的 2 個 0 變成 500",
+              "第 3 步：驗算 700 × 7 + 500 = 4900 + 500 = 5400，確認無誤"
+            ],
+            "commonErrorContrast": "常見錯誤：直接寫成「商 7，餘 5」，忘了 700 × 7 + 5 = 4905 並不等於 5400。",
+            "selfExplanationPrompt": "想一想：如果算「3560 ÷ 250」，最多可以同時劃掉幾個 0？餘數要補幾個 0？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/math#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "除法直式「不夠除要補 0」",
+          "topicSignalTitle": "放下下一位數字後還是比除數小，怎麼辦？",
+          "narrationText": "直式除法每次放下一位數字後，如果還是不夠除數除，商的那一位一定要寫「0」佔位，再把下一位數字放下來繼續除。",
+          "cognitiveChunks": [
+            "除完餘數必定小於除數",
+            "放下一位不夠除，商要補 0",
+            "估商時可把除數先看成整十來試"
+          ],
+          "factGroundingSourceId": "115-s1/g4/math#u6"
+        },
+        {
+          "sceneId": "u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "用這題檢查末位有 0 的除法餘數概念，準備挑戰關卡！",
+          "cognitiveChunks": [
+            "商不變，餘數要把劃掉的 0 還回來"
+          ],
+          "warmupCheck": {
+            "prompt": "計算「4300 ÷ 600」時，商和餘數分別是多少？",
+            "options": [
+              "商 7，餘 1",
+              "商 7，餘 10",
+              "商 7，餘 100",
+              "商 70，餘 100"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！600 × 7 = 4200，4300 - 4200 = 100，商 7 餘 100。",
+            "feedbackRetry": "同劃 2 個 0 算出 43 ÷ 6 = 7 餘 1 後，記得把 2 個 0 還給餘數喔！"
+          },
+          "factGroundingSourceId": "115-s1/g4/math#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-math-u7",
+      "stageId": "115-s1-g4-math-u7",
+      "title": "第7章 三角形與全等",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u7-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "三角形的雙重分類與全等圖形",
+          "narrationText": "三角形可以依照「角度」或「邊長」來分類；兩個圖形只要經過平移、旋轉或翻轉能完全疊合，就是全等圖形。",
+          "cognitiveChunks": [
+            "依角分：銳角、直角、鈍角三角形",
+            "依邊分：正三角形、等腰三角形",
+            "全等圖形對應邊與對應角都相等"
+          ],
+          "analogyAnchor": "全等三角形就像用同一片餅乾模具壓出來的兩塊餅乾，就算其中一塊轉了方向或翻面，大小和形狀依然完全一樣。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "依角度分類",
+              "leftPoints": [
+                "銳角：三個角都小於 90 度",
+                "直角：有一個 90 度角",
+                "鈍角：有一個大於 90 度角"
+              ],
+              "rightTitle": "依邊長分類",
+              "rightPoints": [
+                "正三角形：三邊等長、三角 60 度",
+                "等腰：兩腰等長、兩底角相等"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u7-l1",
+                "text": "銳角須三個全小於90",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u7-l2",
+                "text": "等腰兩腰與兩底角相等",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/math#u7"
+        },
+        {
+          "sceneId": "u7-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "等腰三角形角度計算與全等對應",
+          "narrationText": "利用三角形內角和 180 度，搭配等腰或直角條件，就能算出未知角度；找全等對應點時則要照頂點順序對齊。",
+          "cognitiveChunks": [
+            "三角形三個內角和為 180 度",
+            "等腰直角三角形兩底角各 45 度",
+            "頂點順序決定對應邊與對應角"
+          ],
+          "workedExampleData": {
+            "problemStatement": "一塊「等腰直角三角形」三角板，除了 90 度直角外，另外兩個底角各是多少度？",
+            "steps": [
+              "第 1 步：三角形三個內角合起來是 180 度",
+              "第 2 步：扣掉 90 度直角後，剩下 180 - 90 = 90 度",
+              "第 3 步：等腰三角形兩底角相等，90 ÷ 2 = 45 度"
+            ],
+            "commonErrorContrast": "常見錯誤：以為只要看到「兩個銳角」就是銳角三角形，忘了直角和鈍角三角形也都有兩個銳角。",
+            "selfExplanationPrompt": "想一想：正三角形的每個角都是 60 度，那正三角形一定同時也是哪一種三角形？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/math#u7"
+        },
+        {
+          "sceneId": "u7-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "翻轉後依然全等！",
+          "topicSignalTitle": "圖形翻面之後，還是全等圖形嗎？",
+          "narrationText": "判斷全等圖形時，只看兩個圖形能不能「完全疊合」。無論是平移、旋轉還是翻轉到背面，只要能疊合就是全等。",
+          "cognitiveChunks": [
+            "平移、旋轉、翻轉都保持全等",
+            "對應邊一樣長",
+            "對應角一樣大"
+          ],
+          "factGroundingSourceId": "115-s1/g4/math#u7"
+        },
+        {
+          "sceneId": "u7-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "用這題確認三角形分類條件，準備開始挑戰！",
+          "cognitiveChunks": [
+            "看最大角就能快速判斷銳角、直角或鈍角三角形"
+          ],
+          "warmupCheck": {
+            "prompt": "一個三角形的三個內角分別是 40 度、50 度和 90 度，它屬於哪一種三角形？",
+            "options": [
+              "銳角三角形",
+              "直角三角形",
+              "鈍角三角形",
+              "正三角形"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！只要有一個 90 度的角，就是直角三角形。",
+            "feedbackRetry": "看看三個角裡面最大的那個角是幾度喔！"
+          },
+          "factGroundingSourceId": "115-s1/g4/math#u7"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-math-u8",
+      "stageId": "115-s1-g4-math-u8",
+      "title": "第8章 兩步驟問題與併式",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u8-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "四則運算的三大順序約定",
+          "narrationText": "把兩步驟問題寫成一個併式時，必須遵守三大運算順序：有括號先算括號內、再算乘與除、最後由左往右算加減。",
+          "cognitiveChunks": [
+            "第一優先：括號 ( ) 裡面先算",
+            "第二優先：先乘除、後加減",
+            "同等級（只有加減或只有乘除）：由左往右"
+          ],
+          "analogyAnchor": "四則運算就像排隊規則：括號是拿快速通關券的貴賓最先算，乘法除法排第二，最後才由左往右算加減。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "1. 有括號 ( ) 先算",
+                "2. 接著算乘法與除法",
+                "3. 最後算加法與減法",
+                "4. 同級由左往右依序算"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u8-l1",
+                "text": "括號裡面最先算",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "u8-l2",
+                "text": "乘除先於加減",
+                "anchorPointId": "step2"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/math#u8"
+        },
+        {
+          "sceneId": "u8-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "列併式與判斷何時需要括號",
+          "narrationText": "如果題意要求「先算加減、再算乘除」，或是「先把兩筆花費合起來一起扣掉」，就必須加上括號保護起來。",
+          "cognitiveChunks": [
+            "先算的部分若優先級較低，要加括號",
+            "只有乘除時，切記由左往右算",
+            "寫完併式要核對運算順序是否符合題意"
+          ],
+          "workedExampleData": {
+            "problemStatement": "一雙襪子原價 45 元，特價每雙便宜 10 元，買 6 雙要付多少元？",
+            "steps": [
+              "第 1 步：題目要先算特價後一雙的價錢（45 - 10 = 35 元）",
+              "第 2 步：減法優先級比乘法低，所以要用括號包起來：(45 - 10)",
+              "第 3 步：再乘以 6 雙，寫成 (45 - 10) × 6 = 35 × 6 = 210 元"
+            ],
+            "commonErrorContrast": "常見錯誤：少寫括號寫成 45 - 10 × 6，或是算 240 ÷ 6 × 4 時先算後面的 6 × 4。",
+            "selfExplanationPrompt": "想一想：計算「240 ÷ 6 × 4」時，為什麼一定要從左邊的除法開始算？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/math#u8"
+        },
+        {
+          "sceneId": "u8-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "連減兩數與加上括號減總和",
+          "topicSignalTitle": "500 - 165 - 85 和 500 - (165 + 85) 一樣嗎？",
+          "narrationText": "從 500 元裡連續扣掉兩樣東西的錢，等於「先把兩樣東西的錢加起來，再從 500 元一次扣掉」，所以括號裡面是加號！",
+          "cognitiveChunks": [
+            "500 - 165 - 85 ＝ 250",
+            "500 - (165 + 85) ＝ 250",
+            "沒加括號寫 500 - 165 + 85 會算錯"
+          ],
+          "factGroundingSourceId": "115-s1/g4/math#u8"
+        },
+        {
+          "sceneId": "u8-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先算一題混合運算順序題，確認規則都記牢了！",
+          "cognitiveChunks": [
+            "先乘除後加減，同級由左往右"
+          ],
+          "warmupCheck": {
+            "prompt": "計算「100 - 12 × 5」的結果是多少？",
+            "options": [
+              "440",
+              "40",
+              "88",
+              "60"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！先算 12 × 5 = 60，再算 100 - 60 = 40。",
+            "feedbackRetry": "注意！沒有括號時要先算後面的乘法 12 × 5 喔！"
+          },
+          "factGroundingSourceId": "115-s1/g4/math#u8"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-math-u9",
+      "stageId": "115-s1-g4-math-u9",
+      "title": "第9章 二位小數",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u9-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識百分位與小數點對齊",
+          "narrationText": "把 1 平分成 100 份，1 份就是 0.01，位在小數點後第二位的位名叫做「百分位」。100 個 0.01 等於 1。",
+          "cognitiveChunks": [
+            "小數點後第 1 位：十分位（0.1）",
+            "小數點後第 2 位：百分位（0.01）",
+            "1 公分 ＝ 0.01 公尺"
+          ],
+          "analogyAnchor": "把 1 公尺平分成 100 公分，1 公分就是 0.01 公尺；所以 3 公尺 6 公分要記成 3.06 公尺，十分位是 0。",
+          "visualSpec": {
+            "templateId": "number_line",
+            "params": {
+              "min": 0,
+              "max": 0.1,
+              "step": 0.01
+            },
+            "spatialLabels": [
+              {
+                "id": "u9-l1",
+                "text": "10個0.01是0.1",
+                "anchorPointId": "top"
+              },
+              {
+                "id": "u9-l2",
+                "text": "第二位叫百分位",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/math#u9"
+        },
+        {
+          "sceneId": "u9-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "二位小數的加減直式對齊",
+          "narrationText": "計算二位小數的加減法時，最重要的原則是「小數點要上下對齊」，整數減小數時要把整數後面補上「.00」。",
+          "cognitiveChunks": [
+            "直式一定要對齊小數點",
+            "整數 5 可寫成 5.00 再減",
+            "小數末位的 0 可省略（2.10 = 2.1）"
+          ],
+          "workedExampleData": {
+            "problemStatement": "一條緞帶長 5 公尺，用掉 2.36 公尺，還剩下幾公尺？",
+            "steps": [
+              "第 1 步：把整數 5 改寫成 5.00，讓小數點對齊 2.36",
+              "第 2 步：百分位不夠減，從個位 5 借 1，十分位變 9、百分位變 10",
+              "第 3 步：計算 10 - 6 = 4（百分位），9 - 3 = 6（十分位），4 - 2 = 2（個位），答案 2.64 公尺"
+            ],
+            "commonErrorContrast": "常見錯誤：把 3 公尺 6 公分寫成 3.6 公尺（其實是 3.06），或減法時直接把 36 寫下來變成 3.36。",
+            "selfExplanationPrompt": "想一想：比較 1.48 和 1.5 的大小時，把 1.5 看成什麼比較好比？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/math#u9"
+        },
+        {
+          "sceneId": "u9-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "比較小數大小的順序",
+          "topicSignalTitle": "1.5 和 1.48 哪一個比較大？",
+          "narrationText": "比小數大小不是看位數多寡，而是從左邊最高位比起：先比整數、再比十分位、最後比百分位；也可以在 1.5 後面補 0 變成 1.50 再比。",
+          "cognitiveChunks": [
+            "從高位（整數→十分位→百分位）比起",
+            "1.5 ＝ 1.50 > 1.48",
+            "1.35 ＝ 135 個 0.01"
+          ],
+          "factGroundingSourceId": "115-s1/g4/math#u9"
+        },
+        {
+          "sceneId": "u9-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "練習一題長度與二位小數換算，確認十分位補 0 的觀念！",
+          "cognitiveChunks": [
+            "1 公分 ＝ 0.01 公尺"
+          ],
+          "warmupCheck": {
+            "prompt": "一條跳繩長「2 公尺 8 公分」，用公尺作單位的二位小數記法是多少公尺？",
+            "options": [
+              "2.8 公尺",
+              "2.08 公尺",
+              "0.28 公尺",
+              "2.80 公尺"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！8 公分是 8 個 0.01 公尺，合起來是 2.08 公尺。",
+            "feedbackRetry": "8 公分是 0.08 公尺，不是 0.8 公尺（80 公分）喔！"
+          },
+          "factGroundingSourceId": "115-s1/g4/math#u9"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-math-u10",
+      "stageId": "115-s1-g4-math-u10",
+      "title": "第10章 統計圖表（含學習加油讚二與數學園地）",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "MATH",
+      "scenes": [
+        {
+          "sceneId": "u10-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "長條圖比多少，折線圖看趨勢",
+          "narrationText": "長條圖適合比較不同類別項目的數量大小；折線圖則是用線段連接時間點，方便觀察數量的增減趨勢。",
+          "cognitiveChunks": [
+            "長條圖：比較不同類別數量",
+            "折線圖：觀察隨時間變化趨勢",
+            "完整圖表必備標題、軸名、單位與等距刻度"
+          ],
+          "analogyAnchor": "想知道班上同學最喜歡哪種運動用長條圖比長短；想知道 1 到 6 月氣溫怎麼變化則用折線圖看起伏。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "長條圖",
+              "leftPoints": [
+                "橫軸放不同類別項目",
+                "比較誰多、誰少、相差多少"
+              ],
+              "rightTitle": "折線圖",
+              "rightPoints": [
+                "橫軸放時間順序",
+                "看上升、下降或平穩不變"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u10-l1",
+                "text": "長條圖比類別",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u10-l2",
+                "text": "折線圖看趨勢",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/math#u10"
+        },
+        {
+          "sceneId": "u10-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "報讀格子刻度與計算折線變化",
+          "narrationText": "看長條圖要先確認「1 大格代表多少」及「半格代表多少」；看折線圖找變化最大區間時，要算相鄰兩點的差值。",
+          "cognitiveChunks": [
+            "先看縱軸每 1 格代表幾單位",
+            "半大格＝1 大格數量的一半",
+            "線段越陡代表變化量越大"
+          ],
+          "workedExampleData": {
+            "problemStatement": "縱軸每 1 大格代表 4 人，躲避球長條高度佔了 3 大格又半大格，共有幾人？",
+            "steps": [
+              "第 1 步：算出 3 大格的人數：4 × 3 = 12 人",
+              "第 2 步：算出半大格的人數：4 ÷ 2 = 2 人",
+              "第 3 步：兩者相加 12 + 2 = 14 人"
+            ],
+            "commonErrorContrast": "常見錯誤：沒看縱軸刻度單位，直接把「3 大格又半格」當成 3.5 人，或把水平線當成數值為 0。",
+            "selfExplanationPrompt": "想一想：如果資料是 15、30、45、25，縱軸設定成每 1 小格代表幾人最好畫？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/math#u10"
+        },
+        {
+          "sceneId": "u10-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "折線圖三種線段方向的意思",
+          "topicSignalTitle": "往上、往下、平平的線分別代表什麼？",
+          "narrationText": "折線圖中由左往右看：線段往右上斜代表數量「增加」，往右下斜代表「減少」，水平線代表前後兩個時間點「沒有變化」。",
+          "cognitiveChunks": [
+            "斜向右上：數量增加",
+            "斜向右下：數量減少",
+            "水平線段：數量不變"
+          ],
+          "factGroundingSourceId": "115-s1/g4/math#u10"
+        },
+        {
+          "sceneId": "u10-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "用這題確認長條圖每格刻度的讀法，準備迎接期末大關卡！",
+          "cognitiveChunks": [
+            "先找 1 小格代表多少，再數有幾格"
+          ],
+          "warmupCheck": {
+            "prompt": "如果要把「12、24、30、18」四筆人數資料畫成長條圖，縱軸每 1 小格代表幾人最適合？",
+            "options": [
+              "每 1 小格代表 5 人",
+              "每 1 小格代表 6 人",
+              "每 1 小格代表 7 人",
+              "每 1 小格代表 100 人"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！12、24、30、18 都是 6 的倍數，每格代表 6 人剛好對齊格線。",
+            "feedbackRetry": "看看 12、24、30、18 這四個數字，它們都能被哪一個選項整除呢？"
+          },
+          "factGroundingSourceId": "115-s1/g4/math#u10"
+        }
+      ]
+    }
+  ]
+}

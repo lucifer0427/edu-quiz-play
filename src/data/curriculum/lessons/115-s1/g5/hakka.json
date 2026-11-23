@@ -1,0 +1,377 @@
+{
+  "packId": "115-s1-g5-hakka",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 5,
+  "subjectId": "hakka",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-hakka-u1",
+      "stageId": "115-s1-g5-hakka-u1",
+      "title": "第一單元 現下摎未來",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "科技禮儀、各行各業與東方美人茶",
+          "narrationText": "「現下摎未來」就是現在與未來。善用手機要護眼又同理他人；「警察當無閒」提醒我們尊重各行各業；還要認識小綠葉蟬著涎造就的「東方美人茶」！",
+          "cognitiveChunks": [
+            "現下＝現在、摎＝和、个＝的",
+            "使用手機兼顧視力保健與同理心",
+            "當無閒＝很忙碌，職業不分貴賤"
+          ],
+          "analogyAnchor": "科技就像「神奇个手機仔」，帶給我們便利但也需要節制與禮貌；而茶園裡的小綠葉蟬就像神祕幫手，咬出帶有蜜香的「東方美人茶」。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "生活詞彙與素養",
+              "leftPoints": [
+                "現下（現在）、當無閒（很忙碌）",
+                "護眼休息、公共場合同理他人"
+              ],
+              "rightTitle": "東方美人茶（膨風茶）",
+              "rightPoints": [
+                "不噴農藥讓小綠葉蟬「著涎」",
+                "琥珀茶湯帶天然蜂蜜與熟果香"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "現下摎未來善用科技",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "小綠葉蟬造就蜜香茶",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/hakka#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用客語同理提醒與感謝工作者",
+          "narrationText": "把科技禮儀和尊重職業的客語對話用在日常生活裡！",
+          "cognitiveChunks": [
+            "提醒戴耳機說「好無？承蒙你」",
+            "問候警察說「你當無閒，真辛苦」",
+            "職業不分貴賤，腳踏實地努力"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何用客語在公共場合禮貌提醒他人，並向辛勤的警察叔叔致意？",
+            "steps": [
+              "第 1 步：遇見同學大聲看手機影片時，溫和詢問：「這下係安靜時間，請戴上耳機好無？承蒙你！」。",
+              "第 2 步：遇見忙碌指揮交通的警察時，用客語致意：「你當無閒，真辛苦！」。",
+              "第 3 步：記住每個正當行業都在撐起社會，培養踏實向上的態度。"
+            ],
+            "commonErrorContrast": "常見錯誤：關燈熬夜滑手機不休息，或把「當無閒」誤會成很閒沒事做。",
+            "selfExplanationPrompt": "想一想：桃竹苗客庄的「東方美人茶」為什麼又常被稱為「膨風茶」？"
+          },
+          "factGroundingSourceId": "115-s1/g5/hakka#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "科技與茶文化小考驗",
+          "narrationText": "答對這題就能認識更多客庄茶香與生活客語！",
+          "cognitiveChunks": [
+            "現下＝現在、摎＝和、个＝的"
+          ],
+          "warmupCheck": {
+            "prompt": "主題〈現下摎未來〉與〈神奇个手機(仔)〉中，「現下」、「摎」與「个」分別代表什麼？",
+            "options": [
+              "現在；和、與；的",
+              "明天；比較；因為",
+              "從前；忘記；沒有"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！現下是現在、摎是和、个是的，合起來就是「現在與未來」！",
+            "feedbackRetry": "把「神奇＿手機」想成國語「神奇＿手機」，就能猜出「个」是什麼字囉！"
+          },
+          "factGroundingSourceId": "115-s1/g5/hakka#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-hakka-u2",
+      "stageId": "115-s1-g5-hakka-u2",
+      "title": "第二單元 客家料理",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "醃漬飲食智慧與好米收冬祭",
+          "narrationText": "「𠊎係鹹菜」就是我是鹹菜！早年客庄因山區勞動與物資保存需求，發展出鹹菜、福菜、梅乾菜與酸甜「客家桔醬」，秋冬收割後更舉辦「好米收冬祭」感恩天地！",
+          "cognitiveChunks": [
+            "𠊎＝我、係＝是",
+            "鹹菜、福菜、梅乾菜展現惜食智慧",
+            "收冬祭在秋末冬初感謝天地與伯公"
+          ],
+          "analogyAnchor": "同一株芥菜經過日曬與發酵，就像施展了惜食魔法（轉化）一樣，變身成鹹菜、福菜與梅乾菜三種美味。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "山區環境與無冰箱（須保存食材與補鹽）",
+                "芥菜醃漬曬乾（鹹菜→福菜→梅乾菜）",
+                "秋末冬初收割（舉辦好米收冬祭感謝伯公）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "飲食呼應地理環境",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "收冬祭感恩五穀豐收",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/hakka#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "認識客家飲食背後的惜食精神",
+          "narrationText": "品嘗美味客家料理時，也要看懂背後的環境智慧與永續態度。",
+          "cognitiveChunks": [
+            "運用當季盛產酸桔製作客家桔醬",
+            "選用在地當季食材減少碳足跡",
+            "吃多少夾多少不浪費食物"
+          ],
+          "workedExampleData": {
+            "problemStatement": "從客家醃漬菜與「客家桔醬」的製作，我們能學到什麼飲食態度？",
+            "steps": [
+              "第 1 步：理解先民因山區勞動流汗與缺少冷藏設備，善用日曬醃漬延長食材壽命。",
+              "第 2 步：運用盛產酸桔製成解膩的「客家桔醬」，物盡其用不浪費。",
+              "第 3 步：在日常生活中實踐「吃在地、吃當季、不剩食、少用免洗餐具」。"
+            ],
+            "commonErrorContrast": "常見錯誤：只顧點滿整桌菜吃兩口就倒掉，或以為鹹菜只是為了把鹽巴用完。",
+            "selfExplanationPrompt": "想一想：客家重要慶典「好米收冬祭」通常在什麼季節舉行？主要感謝誰的保佑？"
+          },
+          "factGroundingSourceId": "115-s1/g5/hakka#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "客家美食小博士",
+          "narrationText": "答對這題就能品嘗到道地的客家好滋味！",
+          "cognitiveChunks": [
+            "客家桔醬是用酸桔製成的金黃酸甜特色沾醬"
+          ],
+          "warmupCheck": {
+            "prompt": "傳統客家料理常拿來沾白斬雞或五花肉、金黃酸甜帶柑橘清香的特色沾醬叫什麼名字？",
+            "options": [
+              "沙茶醬",
+              "客家桔醬",
+              "美乃滋"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！桃竹苗客庄善用酸桔做成客家桔醬，美味解膩又惜物！",
+            "feedbackRetry": "它是用黃澄澄的「酸桔」做成的沾醬，名字裡有「桔」字喔！"
+          },
+          "factGroundingSourceId": "115-s1/g5/hakka#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-hakka-u3",
+      "stageId": "115-s1-g5-hakka-u3",
+      "title": "第三單元 靚靚个寶島",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "客庄名產、旅行計畫與三義木雕",
+          "narrationText": "「靚靚」是非常美麗的意思！從桃園龍潭新屋、新竹北埔內灣、苗栗三義南庄到高雄美濃與屏東六堆，處處都有特色名產與三義樟腦木雕的愛鄉故事！",
+          "cognitiveChunks": [
+            "靚靚＝非常美麗漂亮",
+            "北埔柿餅膨風茶、美濃油紙傘粄條",
+            "苗栗三義由開採樟腦發展成木雕重鎮"
+          ],
+          "analogyAnchor": "臺灣就像一條串滿珍珠的項鍊，桃園茶香、北埔柿餅、三義木雕到美濃紙傘，每座客庄都有自己閃亮的名產故事。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "客庄名產與旅遊",
+              "leftPoints": [
+                "北埔：膨風茶、柿餅",
+                "美濃：油紙傘、客家粄條"
+              ],
+              "rightTitle": "苗栗三義與家庭關懷",
+              "rightPoints": [
+                "樟腦歷史→結合樟木成木雕之鄉",
+                "留意家人喜愛的客家名產傳心意"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "靚靚寶島客庄風情",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "三義樟腦與木雕工藝",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/hakka#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "讀懂客語旅行短句並規劃路線",
+          "narrationText": "試著拆解客語旅行句子裡的「時間、人物、交通與目的」。",
+          "cognitiveChunks": [
+            "「放尞日」＝放假日",
+            "「𠊎摎阿姆」＝我和媽媽",
+            "「當好食个」＝很好吃的"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何讀懂：「放尞日，𠊎摎阿姆坐火車去苗栗看木雕、買當好食个客家名產。」？",
+            "steps": [
+              "第 1 步：抓時間與人物 →「放尞日（放假時），𠊎摎阿姆（我和媽媽）」。",
+              "第 2 步：看交通與地點 →「坐火車去苗栗」。",
+              "第 3 步：看目的 →「看木雕、買當好食个（很好吃的）客家名產」。"
+            ],
+            "commonErrorContrast": "常見錯誤：去參觀三義木雕博物館時用手去摳木雕花紋，或在景點牆壁刻字。",
+            "selfExplanationPrompt": "想一想：留意並記住爸爸媽媽或阿公阿婆愛吃的客家名產，能帶給家庭什麼溫暖？"
+          },
+          "factGroundingSourceId": "115-s1/g5/hakka#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "寶島客庄小導遊",
+          "narrationText": "答對這題就能取得寶島小導遊證書囉！",
+          "cognitiveChunks": [
+            "靚靚是美麗漂亮、三義以木雕藝術聞名"
+          ],
+          "warmupCheck": {
+            "prompt": "苗栗「三義」早年因開採樟腦而盛產樟木，後來結合工藝技術發展成全臺聞名的什麼藝術重鎮？",
+            "options": [
+              "玻璃吹製之鄉",
+              "木雕藝術之鄉",
+              "瓷器拉坯之鄉"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！三義匠師利用樟木雕刻出神像與藝術品，成為馳名中外的木雕藝術之鄉！",
+            "feedbackRetry": "想想三義最著名的博物館，是用「樹木的木頭」進行雕刻創作喔！"
+          },
+          "factGroundingSourceId": "115-s1/g5/hakka#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-hakka-u4",
+      "stageId": "115-s1-g5-hakka-u4",
+      "title": "第四單元 期末歌謠與複習活動",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "掌牛哥仔、搞麼个與全冊總複習",
+          "narrationText": "傳統童謠〈掌牛哥仔面黃黃〉裡的「掌牛」就是放牛！加上「搞麼个（做什麼）」、「食晝吂（吃午餐了嗎）」與「好心有好報，好田有好稻」俗諺，輕鬆完成五上總複習！",
+          "cognitiveChunks": [
+            "掌牛＝放牛看牛（牧童）",
+            "搞麼个？＝在玩／做什麼？",
+            "食晝吂？→ 食飽咧，當好食！"
+          ],
+          "analogyAnchor": "五上客語期末挑戰就像一場客庄尋寶之旅，把問候語「食晝吂」、感謝語「承蒙你」和俗諺「好心有好報」放進背包就滿載而歸。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "核心詞彙與問答",
+              "leftPoints": [
+                "搞麼个（做什麼）vs 哪位（哪裡）",
+                "食晝吂（吃午飯沒）→ 食飽咧"
+              ],
+              "rightTitle": "童謠與感恩俗諺",
+              "rightPoints": [
+                "掌牛哥仔：農村牧童勞動童趣",
+                "好心有好報，好田有好稻"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "分辨麼个與哪位",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "踏實耕耘收穫好果",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/hakka#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "破解五上總複習閱讀短文",
+          "narrationText": "把學期學過的時間、人物與地點詞彙合起來閱讀，其實一點都不難！",
+          "cognitiveChunks": [
+            "「天光日放尞」＝明天放假",
+            "「真暢」＝真開心",
+            "「無要緊」沒關係、「失禮」抱歉"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何讀懂：「天光日放尞，𠊎摎阿爸愛去新埔買柿餅，順續喝東方美人茶，真暢！」？",
+            "steps": [
+              "第 1 步：讀懂時間與人物 →「天光日放尞（明天放假），𠊎摎阿爸（我和爸爸）」。",
+              "第 2 步：讀懂行程 →「去新埔買柿餅，順續（順便）喝東方美人茶」。",
+              "第 3 步：讀懂心情 →「真暢（非常開心）」。"
+            ],
+            "commonErrorContrast": "常見錯誤：把「麼个（什麼）」誤以為是「哪裡（哪位）」，或把「失禮（對不起）」當作「謝謝（承蒙你）」。",
+            "selfExplanationPrompt": "想一想：如果夥伴用客語問「食晝吂？」，而你已經吃飽了，該怎麼用客語回答？"
+          },
+          "factGroundingSourceId": "115-s1/g5/hakka#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "五上總複習暖身題",
+          "narrationText": "答對這題就能順利迎戰期末關卡！",
+          "cognitiveChunks": [
+            "掌牛是指看顧牛隻、放牛吃草"
+          ],
+          "warmupCheck": {
+            "prompt": "第 19 週客家童謠〈掌牛哥仔面黃黃〉中的「掌牛」，是指做什麼工作？",
+            "options": [
+              "煮牛肉麵的老闆",
+              "看顧牛隻、放牛吃草（牧童）",
+              "專門畫水牛的畫家"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！「掌」有看守照料的意思，掌牛哥仔就是早年農村幫忙放牛的小牧童！",
+            "feedbackRetry": "「掌管、看守牛隻」的工作，早年鄉下孩子常牽著水牛去草地做什麼呢？"
+          },
+          "factGroundingSourceId": "115-s1/g5/hakka#u4"
+        }
+      ]
+    }
+  ]
+}

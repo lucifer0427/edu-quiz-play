@@ -1,0 +1,380 @@
+{
+  "packId": "115-s1-g1-hakka",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 1,
+  "subjectId": "hakka",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-hakka-u1",
+      "stageId": "115-s1-g1-hakka-u1",
+      "title": "第一單元：上課與學用品",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "大家來上課與寫字摎畫圖",
+          "narrationText": "上學見到「先生（老師）」微笑說早、收到幫忙說「承蒙你（謝謝你）」！上課「寫字摎畫圖」用完學用品要收整齊、愛物惜物。",
+          "cognitiveChunks": [
+            "先生＝老師、承蒙你＝謝謝你",
+            "摎＝和、與（寫字摎畫圖）",
+            "愛惜彩色筆與白紙不浪費"
+          ],
+          "analogyAnchor": "禮貌用語就像好朋友的魔法密碼，說「先生早」和「承蒙你」，大家聽了心裡都暖呼呼！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "校園禮貌客語",
+              "leftPoints": [
+                "先生（老師）、先生早！",
+                "承蒙你（謝謝你）"
+              ],
+              "rightTitle": "學用品與惜物",
+              "rightPoints": [
+                "寫字摎（和）畫圖：鉛筆、彩色筆",
+                "蠟筆蓋好、剩餘白紙收好"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "承蒙你就是謝謝",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "摎就是和與的意思",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/hakka#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "禮貌問候與借用學用品",
+          "narrationText": "看清楚什麼時候用「承蒙你」，什麼時候用「先生早」吧！",
+          "cognitiveChunks": [
+            "受到幫忙時說「承蒙你」",
+            "借東西先說「請問」"
+          ],
+          "workedExampleData": {
+            "problemStatement": "同學撿起你掉在地上的鉛筆還給你，用哪一句客語道謝最適合？",
+            "steps": [
+              "第 1 步：確認情境是「別人幫忙你，要表達感謝」",
+              "第 2 步：客語的「承蒙」是謝謝，所以說「承蒙你！」",
+              "第 3 步：記得「先生」是老師、「摎」是和與的意思"
+            ],
+            "commonErrorContrast": "常見錯誤：把「搞麼个（做什麼）」或「再見」拿來當作道謝使用。",
+            "selfExplanationPrompt": "想一想：畫完圖後還沒用完的圖畫紙和蠟筆要怎麼處理才環保？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/hakka#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "考考你「先生」在客語裡是指誰！",
+          "cognitiveChunks": [
+            "先生＝在學校教導我們的老師"
+          ],
+          "warmupCheck": {
+            "question": "在客語對話中，小朋友在學校禮貌稱呼教書的「先生」，是指誰？",
+            "prompt": "在客語對話中，小朋友在學校禮貌稱呼教書的「先生」，是指誰？",
+            "options": [
+              "老師",
+              "小鳥",
+              "書包"
+            ],
+            "answerIndex": 0,
+            "explanation": "客語傳統上把教導我們的「老師」尊稱為「先生」，早上見到老師說「先生早」很有禮貌喔！",
+            "feedbackCorrect": "答對了！「先生」就是教我們讀書認字的老師！",
+            "feedbackRetry": "每天站在教室講臺上教大家寫字畫圖的大人是誰呢？"
+          },
+          "factGroundingSourceId": "115-s1/g1/hakka#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-hakka-u2",
+      "stageId": "115-s1-g1-hakka-u2",
+      "title": "第二單元：動物與數字歌",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "白兔仔與數字歌",
+          "narrationText": "認識可愛的「白兔仔（小白兔）」、「狗仔」、「貓仔」和「鳥仔」，用客語〈數字歌〉從一數到十，一起保護小動物和牠們的家！",
+          "cognitiveChunks": [
+            "名詞後加「仔」常指小巧可愛的動物",
+            "數字歌：從一數到十計數動物",
+            "野餐垃圾帶回家，守護動物棲息地"
+          ],
+          "analogyAnchor": "動物名字後面加上「仔」就像幫牠們加上可愛的小暱稱，白兔仔、貓仔、狗仔聽起來好親切！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "認識動物：白兔仔、狗仔、貓仔、鳥仔",
+                "學會計數：數字一到十（五、六、七…）",
+                "生命教育：愛護動物、不亂丟垃圾"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "白兔仔是小白兔",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "保護動物棲息環境",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/hakka#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "數字歌順序與動物計數",
+          "narrationText": "把動物名稱和數字一到十結合起來算算看！",
+          "cognitiveChunks": [
+            "一、二、三、四、五、六、七、八、九、十",
+            "遇到受傷小動物請大人幫忙"
+          ],
+          "workedExampleData": {
+            "problemStatement": "草原上有 3 隻白兔仔，又跳來了 4 隻白兔仔，總共有幾隻？",
+            "steps": [
+              "第 1 步：先點數原本的 3 隻白兔仔",
+              "第 2 步：接著往下數 4 隻：四、五、六、七",
+              "第 3 步：3 + 4 = 7，總共有 7 隻白兔仔"
+            ],
+            "commonErrorContrast": "常見錯誤：只看成原本的數量而忘記加上跳過來的 4 隻。",
+            "selfExplanationPrompt": "想一想：在郊外野餐完，為什麼一定要把垃圾帶回家不能丟在森林或溪邊？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/hakka#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "考考你客語動物名稱的配對！",
+          "cognitiveChunks": [
+            "狗仔＝小狗、貓仔＝小貓、鳥仔＝小鳥"
+          ],
+          "warmupCheck": {
+            "question": "客語裡「狗仔」、「貓仔」、「鳥仔」這三個詞，分別是指哪三種動物？",
+            "prompt": "客語裡「狗仔」、「貓仔」、「鳥仔」這三個詞，分別是指哪三種動物？",
+            "options": [
+              "小狗、小貓、小鳥",
+              "大象、老虎、青蛙",
+              "獅子、斑馬、企鵝"
+            ],
+            "answerIndex": 0,
+            "explanation": "客語常在動物名稱後面加上「仔」，表示小巧可愛，所以狗仔、貓仔、鳥仔就是小狗、小貓和小鳥！",
+            "feedbackCorrect": "答對了！狗仔、貓仔、鳥仔就是小狗、小貓和小鳥！",
+            "feedbackRetry": "把每個詞後面的「仔」字想成「小」字看看吧！"
+          },
+          "factGroundingSourceId": "115-s1/g1/hakka#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-hakka-u3",
+      "stageId": "115-s1-g1-hakka-u3",
+      "title": "第三單元：遽遽大與家人",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "遽遽大與屋下人稱謂",
+          "narrationText": "長輩常祝福我們「遽遽大（快快長大）」！放學「轉屋下（回家）」時，記得向「阿公、阿婆、阿爸、阿姆」問好，幫忙做家事表達感謝！",
+          "cognitiveChunks": [
+            "遽遽大＝快快長大、屋下＝家裡",
+            "阿公＝爺爺、阿婆＝奶奶",
+            "阿爸＝爸爸、阿姆＝媽媽"
+          ],
+          "analogyAnchor": "「屋下」就像溫暖的避風港，每天阿公阿婆、阿爸阿姆照顧我們「遽遽大」，我們也要貼心回報他們！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "屋下親屬稱謂",
+              "leftPoints": [
+                "阿公（爺爺）、阿婆（奶奶）",
+                "阿爸（爸爸）、阿姆（媽媽）"
+              ],
+              "rightTitle": "生活用語與孝順",
+              "rightPoints": [
+                "遽遽大（快快長大）、轉屋下（回家）",
+                "幫忙擺碗筷、說「承蒙你」"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "屋下就是溫暖的家",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "遽遽大是快快長大",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/hakka#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "認識屋下人與貼心行動",
+          "narrationText": "把客語的家人稱謂記清楚，回家馬上就能用得上喔！",
+          "cognitiveChunks": [
+            "轉屋下＝回家、屋下人＝家人",
+            "洗米水澆花、資源分類回收"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在客語家庭裡，我們親切稱呼「阿公」和「阿婆」，請問「阿婆」是指誰？",
+            "steps": [
+              "第 1 步：先分辨「阿爸」是爸爸、「阿姆」是媽媽",
+              "第 2 步：「阿公」是指爸爸的爸爸（爺爺）",
+              "第 3 步：和「阿公」一起疼愛我們的「阿婆」就是奶奶"
+            ],
+            "commonErrorContrast": "常見錯誤：把「阿婆」誤以為是阿姨或姐姐。",
+            "selfExplanationPrompt": "想一想：在家裡可以幫「阿爸、阿姆」做哪一件貼心的小事？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/hakka#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "來猜猜課名〈遽遽大〉是什麼溫暖的祝福！",
+          "cognitiveChunks": [
+            "遽遽大＝快快長大"
+          ],
+          "warmupCheck": {
+            "question": "第五課課名〈遽遽大〉在客語裡常聽長輩拿來祝福小朋友，是什麼意思？",
+            "prompt": "第五課課名〈遽遽大〉在客語裡常聽長輩拿來祝福小朋友，是什麼意思？",
+            "options": [
+              "快快長大",
+              "慢慢走路",
+              "快點睡覺"
+            ],
+            "answerIndex": 0,
+            "explanation": "客語的「遽遽」是很快、趕快，「遽遽大」就是祝福小寶貝「快快長大」！",
+            "feedbackCorrect": "答對了！「遽遽大」就是快快長大的意思！",
+            "feedbackRetry": "長輩看到可愛的小朋友，最希望他平平安安怎麼樣呢？"
+          },
+          "factGroundingSourceId": "115-s1/g1/hakka#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-hakka-u4",
+      "stageId": "115-s1-g1-hakka-u4",
+      "title": "第四單元：期末歌謠與複習活動",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "客家童謠與出任務囉",
+          "narrationText": "期末快樂念唱〈老阿伯鬚赤赤〉與〈頭放雞〉！平常見面親切問「搞麼个？（在做什麼？）」，遇到長輩讓路問好，把學到的客語帶回家分享！",
+          "cognitiveChunks": [
+            "〈老阿伯鬚赤赤〉與〈頭放雞〉是押韻童謠",
+            "搞麼个？＝在做什麼呢？",
+            "遇見長輩讓路問好、回家分享童謠"
+          ],
+          "analogyAnchor": "客家童謠就像有節奏的小火車，唸起來一節接一節押韻又好聽，回家唸給阿公阿婆聽最棒了！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "念唱童謠：〈老阿伯鬚赤赤〉、〈頭放雞〉",
+                "生活問候：搞麼个？（在做什麼？）",
+                "出任務：主動用客語向長輩問好"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "老阿伯是指伯伯",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "搞麼个是在做什麼",
+                "anchorPointId": "step2"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/hakka#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "詞彙總複習與日常對話",
+          "narrationText": "把這學期學過的稱謂和日常問候串起來檢查看看！",
+          "cognitiveChunks": [
+            "阿爸＝爸爸、承蒙＝謝謝",
+            "屋下＝家裡、先生＝老師"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習一下：下面哪一組客語詞彙的意思全都正確？",
+            "steps": [
+              "第 1 步：檢查稱謂：「阿爸」是爸爸、「先生」是老師",
+              "第 2 步：檢查禮貌語：「承蒙」是謝謝、「搞麼个」是在做什麼",
+              "第 3 步：確認「屋下」是家裡，「白兔仔」是小白兔"
+            ],
+            "commonErrorContrast": "常見錯誤：把「屋下」記成學校，或把「先生」記成同學。",
+            "selfExplanationPrompt": "想一想：走在巷子裡遇見拿著枴杖慢慢走的老阿伯，怎樣做最有禮貌？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/hakka#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "小手熱身題",
+          "narrationText": "考考你這句超實用的客語問句「搞麼个？」！",
+          "cognitiveChunks": [
+            "搞麼个？＝在做什麼呢？"
+          ],
+          "warmupCheck": {
+            "question": "複習單元〈搞麼个？〉是客語很常聽到的問句，這句話是什麼意思？",
+            "prompt": "複習單元〈搞麼个？〉是客語很常聽到的問句，這句話是什麼意思？",
+            "options": [
+              "在做什麼呢？",
+              "現在幾點鐘？",
+              "你吃了沒？"
+            ],
+            "answerIndex": 0,
+            "explanation": "客語的「搞」有做、玩的意思，「麼个」是「什麼」，合起來就是「在做什麼呢？」",
+            "feedbackCorrect": "答對了！「搞麼个？」就是「在做什麼呢？」！",
+            "feedbackRetry": "看到朋友低頭在忙，好奇問他正在做什麼時會怎麼問呢？"
+          },
+          "factGroundingSourceId": "115-s1/g1/hakka#u4"
+        }
+      ]
+    }
+  ]
+}

@@ -136,6 +136,44 @@
             "ABC",
             "Uppercase & Lowercase"
           ]
+        },
+        {
+          "id": "115-s1-g1-english-u1-q7",
+          "prompt": "認識字母 A、B、C 時，大寫字母「C」的小寫寫作哪一個？",
+          "options": [
+            "a",
+            "c",
+            "o",
+            "b"
+          ],
+          "answerIndex": 1,
+          "explanation": "大寫「C」的小寫是「c」，形狀跟大寫一樣彎彎的，只是比較小。",
+          "hint": "大寫和小寫長得幾乎一模一樣，只是個子變小了喔！",
+          "speechText": "C, c",
+          "speechLang": "en-US",
+          "tags": [
+            "ABC",
+            "Uppercase & Lowercase"
+          ]
+        },
+        {
+          "id": "115-s1-g1-english-u1-q8",
+          "prompt": "和同學打招呼收集簽名後，下課要跟大家說「再見！」，英文怎麼說？",
+          "options": [
+            "Hello!",
+            "I am ...",
+            "Dance!",
+            "Goodbye!"
+          ],
+          "answerIndex": 3,
+          "explanation": "「Goodbye!」或「Bye!」是「再見」的意思，離開時要跟同學揮手說再見。",
+          "hint": "點喇叭聽聽看，哪一句是揮手道別時說的「掰掰、再見」呢？",
+          "speechText": "Goodbye!",
+          "speechLang": "en-US",
+          "tags": [
+            "Greeting",
+            "Social Skills"
+          ]
         }
       ]
     },
@@ -269,6 +307,44 @@
           "tags": [
             "DEF",
             "Uppercase & Lowercase"
+          ]
+        },
+        {
+          "id": "115-s1-g1-english-u2-q7",
+          "prompt": "在「禮貌小劇場」學字母 D、E、F，大寫字母「E」的小寫是哪一個？",
+          "options": [
+            "e",
+            "c",
+            "a",
+            "f"
+          ],
+          "answerIndex": 0,
+          "explanation": "大寫「E」的小寫是「e」，中間有一條小橫線彎成圓弧。",
+          "hint": "點喇叭聽聽看，小寫「e」像一隻笑咪咪的小眼睛喔！",
+          "speechText": "E, e",
+          "speechLang": "en-US",
+          "tags": [
+            "DEF",
+            "Uppercase & Lowercase"
+          ]
+        },
+        {
+          "id": "115-s1-g1-english-u2-q8",
+          "prompt": "同學對你說「Thank you!」（謝謝你）時，有禮貌的回答「不客氣！」怎麼說？",
+          "options": [
+            "I'm sorry.",
+            "Goodbye!",
+            "You're welcome.",
+            "Hello!"
+          ],
+          "answerIndex": 2,
+          "explanation": "別人說「Thank you!」時，回答「You're welcome.」就是「不客氣」的意思。",
+          "hint": "點喇叭聽聽看，哪一句是別人道謝時我們要回答的「不客氣」？",
+          "speechText": "You're welcome.",
+          "speechLang": "en-US",
+          "tags": [
+            "Politeness",
+            "Daily Expression"
           ]
         }
       ]
@@ -404,6 +480,44 @@
             "GHI",
             "Uppercase & Lowercase"
           ]
+        },
+        {
+          "id": "115-s1-g1-english-u3-q7",
+          "prompt": "排一排「G, H, I」的順序，在「G」後面、「I」前面的大寫字母是誰？",
+          "options": [
+            "F",
+            "H",
+            "J",
+            "E"
+          ],
+          "answerIndex": 1,
+          "explanation": "字母順序是 G, H, I，所以排在 G 後面、I 前面的是 H。",
+          "hint": "唸唸看 G, ___, I，中間那個兩條直線連起來的字母是誰呢？",
+          "speechText": "G, H, I",
+          "speechLang": "en-US",
+          "tags": [
+            "GHI",
+            "Alphabet Order"
+          ]
+        },
+        {
+          "id": "115-s1-g1-english-u3-q8",
+          "prompt": "設計「安全標誌」時，哪一種顏色和圖案最能提醒大家「停下來、小心危險」？",
+          "options": [
+            "畫一朵沒有字的小花",
+            "只塗上淡淡的白色",
+            "畫一顆可愛的糖果",
+            "用醒目的紅色搭配清楚的 STOP 字樣"
+          ],
+          "answerIndex": 3,
+          "explanation": "紅色非常醒目，加上「STOP」字樣能讓大家一眼就看懂要停下來注意安全。",
+          "hint": "紅綠燈的哪一種顏色是提醒大家停下來的呢？",
+          "speechText": "Stop! Be safe.",
+          "speechLang": "en-US",
+          "tags": [
+            "Safety Sign",
+            "Traffic Safety"
+          ]
         }
       ]
     },
@@ -537,6 +651,44 @@
           "tags": [
             "Alphabet City",
             "Review A-M"
+          ]
+        },
+        {
+          "id": "115-s1-g1-english-u4-q7",
+          "prompt": "在「J, K, L, M」裡，哪一組大小寫配對是正確的？",
+          "options": [
+            "K / k",
+            "K / l",
+            "L / k",
+            "J / i"
+          ],
+          "answerIndex": 0,
+          "explanation": "大寫「K」的小寫是「k」，左邊直線高高的，右邊有個小尖角。",
+          "hint": "找找看大寫和小寫形狀最像、字母名字也一樣的一對喔！",
+          "speechText": "K, k",
+          "speechLang": "en-US",
+          "tags": [
+            "JKLM",
+            "Uppercase & Lowercase"
+          ]
+        },
+        {
+          "id": "115-s1-g1-english-u4-q8",
+          "prompt": "在教室收納物品時，把「鉛筆」放進鉛筆盒裡，「鉛筆」的英文怎麼說？",
+          "options": [
+            "book",
+            "bag",
+            "pencil",
+            "apple"
+          ],
+          "answerIndex": 2,
+          "explanation": "「pencil」是鉛筆，寫完字要把 pencil 收進鉛筆盒裡才不會不見。",
+          "hint": "點喇叭聽聽看，開頭是 p 的文具單字喔！",
+          "speechText": "pencil",
+          "speechLang": "en-US",
+          "tags": [
+            "Classroom Items",
+            "Storage"
           ]
         }
       ]

@@ -1,0 +1,642 @@
+{
+  "packId": "115-s1-g3-health-pe",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 3,
+  "subjectId": "health-pe",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-health-pe-u1",
+      "stageId": "115-s1-g3-health-pe-u1",
+      "title": "單元一 飲食聰明選",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "均衡飲食與聰明選擇因素",
+          "narrationText": "健康飲食要攝取適當分量的各類食物，多喝白開水、珍惜食物不浪費；同時認識影響飲食選擇的因素，不被廣告贈品迷惑，並注意餐廳環境衛生。",
+          "cognitiveChunks": [
+            "均衡攝取全穀、豆魚蛋肉與蔬果",
+            "多喝白開水、夾取吃得完的分量",
+            "看清營養標示與有效期限不盲從廣告"
+          ],
+          "analogyAnchor": "健康餐盤就像一支五色戰隊，全穀雜糧、肉蛋豆、蔬菜、水果和白開水各司其職，少一樣身體就容易沒精神。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "吃出健康原則",
+              "leftPoints": [
+                "各類食物均衡、少油炸高糖",
+                "口渴喝白開水、惜食不浪費"
+              ],
+              "rightTitle": "聰明選購把關",
+              "rightPoints": [
+                "檢查營養標示與保存期限",
+                "觀察店家衛生與保存溫度"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "均衡飲食喝開水",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "看標示與顧衛生",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/health-pe#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "調整不均衡餐盤與識讀廣告",
+          "narrationText": "當餐盤裡只有炸雞和白飯，或是看到買二送一的零食廣告時，只要照著健康飲食步驟調整，就能吃得營養又安心。",
+          "cognitiveChunks": [
+            "早餐搭全麥蛋豆與蔬果才耐餓",
+            "選天然原型點心少吃高糖加工品"
+          ],
+          "workedExampleData": {
+            "problemStatement": "午餐餐盤只有炸雞塊和白飯，沒有蔬菜水果，又看到洋芋片寫著「買二送一」，該怎麼選擇？",
+            "steps": [
+              "第 1 步：減少油炸肉類，補上適量各色蔬菜、餐後水果並搭配白開水",
+              "第 2 步：吃營養午餐遇到沒吃過的青菜先盛少量嘗試，不浪費食物",
+              "第 3 步：不被促銷贈品吸引而買過量，先看營養標示、有效期限與自身需要"
+            ],
+            "commonErrorContrast": "常見錯誤：只吃甜甜圈當早餐、用全糖汽水代替白開水，或只要有送貼紙就買一大堆高油高鹽零食。",
+            "selfExplanationPrompt": "想一想：個人喜好、同學都在買和廣告宣傳，會怎麼影響我們想吃某樣食物的決定？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/health-pe#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "外食與珍惜食物的好品德",
+          "topicSignalTitle": "外出用餐除了好吃，還要觀察什麼？",
+          "narrationText": "觀察店家環境是否整潔、食材有沒有蓋好冷藏與人員衛生；吃飯時夾取自己吃得完的分量，珍惜每一份食物。",
+          "cognitiveChunks": [
+            "注意店家環境衛生與冷藏溫度",
+            "不浪費食物是好品德"
+          ],
+          "factGroundingSourceId": "115-s1/g3/health-pe#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "選對解渴飲品，幫身體補充水分不增加負擔！",
+          "cognitiveChunks": [
+            "白開水是最佳解渴飲品"
+          ],
+          "warmupCheck": {
+            "prompt": "下課打完球覺得好渴，下列哪一項飲品最能解渴又符合健康飲食原則？",
+            "options": [
+              "冰涼全糖汽水",
+              "乾淨常溫的白開水",
+              "高糖濃縮調味果汁",
+              "巧克力奶茶"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！白開水零熱量不含精緻糖，最能有效補充流汗流失的水分。",
+            "feedbackRetry": "想一想：哪一種飲料解渴又不會喝進多餘的糖分和熱量呢？"
+          },
+          "factGroundingSourceId": "115-s1/g3/health-pe#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-health-pe-u2",
+      "stageId": "115-s1-g3-health-pe-u2",
+      "title": "單元二 生命的樂章",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "健康成長方法與人生各階段",
+          "narrationText": "想健康長高長壯，需要早睡充足睡眠、均衡飲食、規律運動與正確坐姿；同時尊重每位同學的發育差異，並認識嬰兒到老年期各階段家人的需求。",
+          "cognitiveChunks": [
+            "充足睡眠、均衡飲食、天天運動助成長",
+            "正確坐姿與雙肩背書包保護脊椎視力",
+            "尊重體型差異，體貼嬰兒與老年期家人"
+          ],
+          "analogyAnchor": "生命就像一首進行曲，從嬰兒、兒童、青少年、成年到老年各有不同節拍；三年級兒童期的我們正值長高黃金期，需要睡眠、營養與運動來譜出好樂章。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "嬰兒期：需安靜呵護照顧",
+                "兒童期：自理學習長高",
+                "青壯年期：承擔工作家庭",
+                "老年期：需安全陪伴關懷"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "兒童期學習自理",
+                "anchorPointId": "step2"
+              },
+              {
+                "id": "l2",
+                "text": "體貼陪伴長輩",
+                "anchorPointId": "step4"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/health-pe#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "兒童期自理與保護身體發育",
+          "narrationText": "進入三年級兒童期的我們，已經能自己刷牙穿衣、整理書包，也要留意鞋子合腳、坐姿端正與尊重同學身高差異。",
+          "cognitiveChunks": [
+            "鞋太緊要更換保護足部發育",
+            "不取笑體型、不隨意碰觸他人"
+          ],
+          "workedExampleData": {
+            "problemStatement": "班上量身高體重發現大家高矮不同，家裡又有小寶寶和外公同住，我們該怎麼表現？",
+            "steps": [
+              "第 1 步：理解每個人發育速度不同，不取笑外貌也不隨便拉扯他人身體",
+              "第 2 步：自己坐姿端正保護脊椎視力、鞋太緊及時更換合腳運動鞋",
+              "第 3 步：在家放輕腳步讓嬰兒安睡，放慢腳步牽手陪伴外公小心台階"
+            ],
+            "commonErrorContrast": "常見錯誤：趴在床上看書、單肩背重書包、取笑身材矮小的同學，或在長輩走慢時不耐煩。",
+            "selfExplanationPrompt": "想一想：兒童期的我們比起嬰兒時期多了哪些生活自理能力？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/health-pe#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "長高長壯的三大法寶",
+          "topicSignalTitle": "每天怎麼做能讓自己更有活力長高？",
+          "narrationText": "每天早睡早起保持充足睡眠幫助生長激素分泌、均衡飲食不挑食提供骨骼原料、維持天天運動刺激骨骼發展，缺一不可！",
+          "cognitiveChunks": [
+            "充足睡眠、均衡飲食、規律運動",
+            "用眼定時望遠休息護視力"
+          ],
+          "factGroundingSourceId": "115-s1/g3/health-pe#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "檢查一下哪一種讀書姿勢最能保護脊椎和眼睛！",
+          "cognitiveChunks": [
+            "正確讀書寫字姿勢"
+          ],
+          "warmupCheck": {
+            "prompt": "在〈生長圓舞曲〉練習正確讀書寫字姿勢以保護脊椎與視力時，下列哪一項做法最正確？",
+            "options": [
+              "趴在床上緊貼書本看兩小時",
+              "單邊肩膀背重書包走整天",
+              "躺在沙發上歪著身體看手機",
+              "椅子坐穩挺直腰背、眼睛與書本保持適當距離並定時休息望遠"
+            ],
+            "answerIndex": 3,
+            "feedbackCorrect": "答對了！坐姿端正、保持距離與定時望遠休息，能同時守護脊椎和眼睛健康。",
+            "feedbackRetry": "趴著或歪著看書容易脊椎側彎又近視喔！哪一個選項最端正安全？"
+          },
+          "factGroundingSourceId": "115-s1/g3/health-pe#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-health-pe-u3",
+      "stageId": "115-s1-g3-health-pe-u3",
+      "title": "單元三 快樂的社區",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "健康社區、社區環保與用藥安全",
+          "narrationText": "快樂的社區需要整潔安全的公共空間與鄰里互助；我們也要從減塑分類、步行減碳與放輕音量減少社區汙染，並向社區藥師學習正確用藥與廢棄藥物處理。",
+          "cognitiveChunks": [
+            "愛護公園設施、依規排隊並帶走垃圾",
+            "減塑分類、多步行減廢氣、晚間降音量",
+            "核對藥袋溫開水服藥，廢藥不倒馬桶"
+          ],
+          "analogyAnchor": "社區就像大家共同的客廳，每個人愛護公園器材、做好分類不製造噪音廢氣，生病用藥問社區藥師、不把剩藥倒進水管，客廳就能一直乾淨快樂。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "社區環保行動",
+              "leftPoints": [
+                "減塑自備環保袋、確實分類回收",
+                "多步行搭大眾運輸、晚間放輕音量"
+              ],
+              "rightTitle": "用藥與廢藥安全",
+              "rightPoints": [
+                "看清藥袋姓名用量、溫開水服藥",
+                "廢棄藥物不倒馬桶，問藥師回收"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "減塑減碳降噪音",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "藥師把關不亂倒",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/health-pe#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "正確服藥與處理過期變質藥品",
+          "narrationText": "遇到感冒拿藥或是整理家裡過期變質的藥品時，千萬不能自己亂吃別人的藥，也不能把藥水倒進馬桶汙染河川。",
+          "cognitiveChunks": [
+            "不買來路不明藥、不吃別人的藥",
+            "廢棄藥物諮詢社區藥師妥善回收"
+          ],
+          "workedExampleData": {
+            "problemStatement": "感冒拿到藥袋該怎麼安全吃藥？家裡發現過期變質的剩餘藥品又該怎麼處理？",
+            "steps": [
+              "第 1 步：吃藥前核對藥袋上的姓名、用量與時間，遵照醫囑用「溫開水」配服",
+              "第 2 步：不把自己的處方藥分給家人吃，也不買路邊或網路來路不明的藥丸",
+              "第 3 步：過期變質藥品絕不倒進馬桶或水槽，應詢問社區藥師或依規定檢收處理"
+            ],
+            "commonErrorContrast": "常見錯誤：用可樂或茶配藥、覺得病好了把藥留給弟弟吃，或把過期藥水直接倒進馬桶沖掉。",
+            "selfExplanationPrompt": "想一想：如果大家把過期藥水直接倒進馬桶或洗碗槽，最後會對河川與生態造成什麼影響？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/health-pe#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "守護社區公園與清潔",
+          "topicSignalTitle": "在社區公園玩耍時怎麼做才是好公民？",
+          "narrationText": "依年齡標示使用器材、排隊禮讓、隨手帶走自己的垃圾；看到回收桶旁掉落的可回收空瓶，安全撿起放回回收桶並記得洗手。",
+          "cognitiveChunks": [
+            "依規使用公園設施不塗鴉破壞",
+            "隨手帶走垃圾並做好資源回收"
+          ],
+          "factGroundingSourceId": "115-s1/g3/health-pe#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "考考你是否記得過期廢棄藥物的正確處理方式！",
+          "cognitiveChunks": [
+            "廢棄藥物不倒馬桶水槽"
+          ],
+          "warmupCheck": {
+            "prompt": "整理家中醫藥箱發現一盒「過期許久、早就變質的剩餘藥品」，怎麼處理才正確？",
+            "options": [
+              "倒進馬桶沖水沖掉",
+              "倒進廚房洗碗槽排水孔",
+              "絕不倒進馬桶或水槽以免汙染水源，應詢問社區藥師或依規定回收",
+              "當成糖果分給小朋友吃"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！廢棄藥物亂倒會汙染河川水源，應詢問社區藥師妥善回收處理。",
+            "feedbackRetry": "藥水流進馬桶或排水孔會跑到河川裡喔！應該向誰諮詢正確回收方式？"
+          },
+          "factGroundingSourceId": "115-s1/g3/health-pe#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-health-pe-u4",
+      "stageId": "115-s1-g3-health-pe-u4",
+      "title": "單元四 與繩球同行",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "隔繩擊球、傳接球與跳繩變化",
+          "narrationText": "練習隔繩對戰要看球、移位、控力；滾球與拋球前先和隊友眼神確認；跳繩時調整合適繩長，用手腕轉繩、前腳掌輕巧落地保護關節。",
+          "cognitiveChunks": [
+            "隔繩對戰：看球移位控力，爭議理性溝通",
+            "滾球貼地、拋球適中，先眼神確認",
+            "跳繩：量好繩長、手腕轉繩、屈膝緩衝"
+          ],
+          "analogyAnchor": "雙腳跳繩落地時膝蓋微彎像裝了彈簧，手腕畫小圓轉繩就像搖動小鈴鐺，既省力又不會踩到繩子。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "球類對戰與傳接",
+              "leftPoints": [
+                "擊球過繩：盯球移動腳步控力",
+                "傳接前眼神確認，包容鼓勵隊友"
+              ],
+              "rightTitle": "跳繩安全技巧",
+              "rightPoints": [
+                "踩住繩中段把手至腋下胸腹高",
+                "手腕轉繩、前腳掌微彎膝落地"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "看球移位眼神確認",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "手腕轉繩屈膝緩衝",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/health-pe#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "調整跳繩長度與團隊品德實踐",
+          "narrationText": "拿到新跳繩常被絆倒，或是比賽遇到壓線球爭議、隊友漏接時，只要用對調整方法與運動品德就能解決。",
+          "cognitiveChunks": [
+            "雙腳踩繩中段量到腋下胸腹間",
+            "隊友失誤時給予鼓勵並幫忙撿球"
+          ],
+          "workedExampleData": {
+            "problemStatement": "跳繩太長一直絆倒怎麼調整？比賽遇到壓線球爭議或隊友常漏接時，又該怎麼做？",
+            "steps": [
+              "第 1 步：雙腳踩住跳繩中段，將兩端把手調整到約腋下至胸腹之間的高度",
+              "第 2 步：練習時綁好鞋帶、找空曠處，用前腳掌輕跳與手腕轉繩",
+              "第 3 步：壓線球爭議理性溝通或重發；隊友漏接時放慢節奏鼓勵並分享接球技巧"
+            ],
+            "commonErrorContrast": "常見錯誤：腳跟硬踩地跳躍傷關節、把漏接的隊友趕去場邊罰坐，或壓線爭議就偷改記分板。",
+            "selfExplanationPrompt": "想一想：為什麼跳繩時用「手腕」轉繩比整個肩膀像大風車一樣甩動更省力穩定？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/health-pe#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "運動場上的平等參與與風度",
+          "topicSignalTitle": "怎樣才是有風度的運動小將？",
+          "narrationText": "每位同學都有平等參與運動的權利，不排擠動作較慢的夥伴，隊友失誤時微笑加油、主動撿球，才是真正的運動家精神。",
+          "cognitiveChunks": [
+            "平等參與不排擠動作較慢同學",
+            "失誤時主動撿球並鼓勵隊友"
+          ],
+          "factGroundingSourceId": "115-s1/g3/health-pe#u4"
+        },
+        {
+          "sceneId": "u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "確認一下跳繩落地的關節保護要領！",
+          "cognitiveChunks": [
+            "前腳掌著地與膝蓋微彎緩衝"
+          ],
+          "warmupCheck": {
+            "prompt": "練習雙腳跳繩與單腳跳繩時，怎樣跳躍與落地才能跳得持久又保護膝蓋和腳踝？",
+            "options": [
+              "雙腿伸直用腳後跟重重踩地",
+              "把鞋帶解開在雜物堆旁邊跳",
+              "確認安全與鞋帶綁妥後，前腳掌輕巧起跳落地並膝蓋微彎緩衝",
+              "跳得越低越好並把身體鎖死像木頭"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！前腳掌輕跳落地搭配微彎膝蓋能吸收衝擊力，像彈簧一樣保護關節。",
+            "feedbackRetry": "膝蓋伸直用腳跟撞地會很傷關節喔！哪一種落地方式像裝了彈簧？"
+          },
+          "factGroundingSourceId": "115-s1/g3/health-pe#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-health-pe-u5",
+      "stageId": "115-s1-g3-health-pe-u5",
+      "title": "單元五 跑接樂悠游",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "飛盤擲接、跑步接力與安全漂浮",
+          "narrationText": "飛盤擲接前先確認前方淨空並雙手夾接；跑步前後要做伸展暖身與緩和，手肘彎曲前後擺臂；親近水域則選擇有救生員的安全水域，放鬆感受浮力漂浮。",
+          "cognitiveChunks": [
+            "飛盤擲前淨空、接盤雙手上下夾接",
+            "跑前暖身跑後緩和、手肘彎曲前後擺臂",
+            "安全合法水域戲水，放鬆平貼水面漂浮"
+          ],
+          "analogyAnchor": "接飛盤就像用雙手「夾漢堡」一樣上下夾穩，而在水裡練習漂浮時，身體要像一片大樹葉安靜舒展在水面，緊張亂踢反而會沉下去。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "陸上跑接要領",
+              "leftPoints": [
+                "飛盤淨空出手、雙手上下夾接",
+                "跑前後伸展、站立式起跑傳接"
+              ],
+              "rightTitle": "水域安全漂浮",
+              "rightPoints": [
+                "選有救生員水域、下水前淋浴暖身",
+                "深吸氣放鬆舒展身體感受浮力"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "夾接飛盤擺臂接力",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "安全水域放鬆漂浮",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/health-pe#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "接力起跑配合與泳池漂浮技巧",
+          "narrationText": "接力賽需要聽口令站立式起跑並看準交棒；游泳課下水前要先淋浴暖身，漂浮時保持身體放鬆穩定呼吸。",
+          "cognitiveChunks": [
+            "站立式起跑前腳微屈重心前傾",
+            "泳池下水前先暖身並用溫水淋浴"
+          ],
+          "workedExampleData": {
+            "problemStatement": "游泳課練習基礎漂浮時身體一直往下沉，或戶外戲水時該注意哪些安全原則？",
+            "steps": [
+              "第 1 步：下水前先做暖身操與溫水淋浴，讓身體適應水溫預防抽筋",
+              "第 2 步：在老師與救生員照看下深吸一口氣，保持臉部放鬆、肢體舒展平貼水面",
+              "第 3 步：假日親水只去有合格救生員駐守的安全水域，由大人陪同並留意天氣警訊"
+            ],
+            "commonErrorContrast": "常見錯誤：去沒有救生員的野溪跳水、穿牛仔褲下水、水中緊張亂踢亂喊吐光空氣，或跑步時手臂左右亂甩。",
+            "selfExplanationPrompt": "想一想：為什麼跑步前後都需要做伸展暖身與緩和運動？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/health-pe#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "流暢省力的跑步擺臂",
+          "topicSignalTitle": "跑步時雙手要怎麼擺才省力又安全？",
+          "narrationText": "雙手微握、手肘彎曲約九十度自然前後擺動配合步伐，同時眼神平視前方跑道注意路況，就能跑得流暢又安全。",
+          "cognitiveChunks": [
+            "手肘彎曲約九十度前後擺動",
+            "眼神平視前方跑道不低頭"
+          ],
+          "factGroundingSourceId": "115-s1/g3/health-pe#u5"
+        },
+        {
+          "sceneId": "u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "確認一下假日戶外戲水的最高安全守則！",
+          "cognitiveChunks": [
+            "選擇有救生員的安全水域"
+          ],
+          "warmupCheck": {
+            "prompt": "結合水域安全與海洋教育觀念，假日想到海邊或溪邊親近水時，下列哪一項行為最安全？",
+            "options": [
+              "選擇有合格救生員駐守的安全水域，由大人陪同並留意天氣警訊",
+              "偷跑去沒有警告標誌的深水潭跳水",
+              "颱風快來海浪變大時去衝浪",
+              "穿厚重牛仔褲直接下水"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！選擇合法安全水域、有救生員與大人陪同並注意天氣，才能玩得安全。",
+            "feedbackRetry": "野溪深潭與大浪暗藏危險喔！哪一個選項才有完整的安全守護？"
+          },
+          "factGroundingSourceId": "115-s1/g3/health-pe#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-health-pe-u6",
+      "stageId": "115-s1-g3-health-pe-u6",
+      "title": "單元六 滾翻躍動舞歡樂",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "武術武德、軟墊滾翻與歡樂土風舞",
+          "narrationText": "練習武術踢蹬要踩穩支撐腳並牢記武德不欺負人；軟墊前滾翻與後滾翻要低頭收下巴保護頭頸；跳兔子舞與聖誕鈴聲舞曲則要跟準節拍並保持間距。",
+          "cognitiveChunks": [
+            "習武首重武德：強身防身不欺負同學",
+            "前滾翻低頭看肚臍、後滾翻雙手放肩旁推墊",
+            "土風舞聽拍子整齊律動並保持安全間距"
+          ],
+          "analogyAnchor": "做前滾翻時要像一顆圓圓的皮球，下巴收低看肚臍讓背部變成圓弧，才能順順滾過去而不撞到頭頸。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "軟墊滾翻安全",
+              "leftPoints": [
+                "清空口袋尖銳物、鋪平整軟墊",
+                "前滾收下巴；後滾手放肩旁推墊"
+              ],
+              "rightTitle": "武術與土風舞",
+              "rightPoints": [
+                "武術支撐腳踩穩、守武德不傷人",
+                "土風舞跟節拍、與同伴保持間距"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "淨空口袋軟墊滾翻",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "武德穩站土風律動",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/health-pe#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "軟墊滾翻的保護動作與場地規範",
+          "narrationText": "全班排隊在軟墊練習前滾翻與後滾翻時，做好事前檢查與保護頭頸的動作最重要。",
+          "cognitiveChunks": [
+            "前一位同學完全起身離開墊面再滾",
+            "運動後緩和伸展擦汗喝溫水收器材"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在軟墊上練習「前滾翻」與「後滾翻」時，該如何做好場地檢查並保護頭頸？",
+            "steps": [
+              "第 1 步：清空口袋鉛筆鑰匙等尖銳物，確認軟墊平整且前一位同學已起身離開",
+              "第 2 步：前滾翻時雙手撐墊、低頭收下巴看肚臍，用後腦勺與肩背圓滑滾過",
+              "第 3 步：後滾翻時雙手屈肘掌心朝上放肩膀兩側，推墊撐起空間保護頸椎"
+            ],
+            "commonErrorContrast": "常見錯誤：在硬水泥地上滾翻、抬高下巴用頭頂撞墊子、前面同學還沒滾完就壓上去，或拿武術招式欺負同學。",
+            "selfExplanationPrompt": "想一想：跳兔子舞時如果身邊同學轉圈方向一時搞混慢半拍，你可以怎麼用友善的方式幫他？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/health-pe#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "運動後的收尾與團隊情誼",
+          "topicSignalTitle": "運動課結束前要完成哪些好習慣？",
+          "narrationText": "做緩和伸展讓心跳平緩、擦乾汗水適量喝溫水預防著涼，並與全班一起把軟墊與音響器材歸位收好。",
+          "cognitiveChunks": [
+            "緩和伸展、擦汗喝溫水",
+            "合作收拾軟墊與器材"
+          ],
+          "factGroundingSourceId": "115-s1/g3/health-pe#u6"
+        },
+        {
+          "sceneId": "u6-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "確認一下前滾翻最重要的頭頸保護動作！",
+          "cognitiveChunks": [
+            "前滾翻低頭收下巴"
+          ],
+          "warmupCheck": {
+            "prompt": "在軟墊上練習「前滾翻」時，哪一個保護動作最重要，能避免頸部受傷？",
+            "options": [
+              "下巴抬高看天花板用頭頂頂地",
+              "雙手不撐墊讓臉正面撞進軟墊",
+              "雙手穩撐墊、低頭收下巴讓後腦勺與肩背像圓球般滾過軟墊",
+              "身體拉直像木板一樣硬倒下去"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！「低頭收下巴」讓肩背呈圓弧滾動，能好好保護頭頸不受傷。",
+            "feedbackRetry": "如果抬高下巴用頭頂去撞墊子會傷到脖子喔！頭要收低看向哪裡呢？"
+          },
+          "factGroundingSourceId": "115-s1/g3/health-pe#u6"
+        }
+      ]
+    }
+  ]
+}

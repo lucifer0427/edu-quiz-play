@@ -1,0 +1,321 @@
+{
+  "packId": "115-s2-g6-integrative",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 2,
+  "grade": 6,
+  "subjectId": "integrative",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-integrative-u1",
+      "stageId": "115-s2-g6-integrative-u1",
+      "title": "主題一 夢想啟程",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "探索職場多元面貌與破除性別偏見",
+          "narrationText": "透過查閱職業介紹、訪談職人與實地觀察深入了解各行各業；每份正當職業都值得平等尊重，選擇職業取決於興趣與專業而非性別。",
+          "cognitiveChunks": [
+            "多元管道查資料、訪談從業人員了解職場甘苦",
+            "每一份正當職業都在為社會貢獻，皆須平等尊重",
+            "破除性別刻板印象，任何性別皆可投入熱愛工作"
+          ],
+          "analogyAnchor": "社會就像一台分工合作的交響樂團：每份正當職業都是不同樂器，不分男女或薪水高低，只要結合熱情與專業準備，都能演奏出屬於自己的夢想樂章。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "回顧自我特質與體驗社團",
+                "訪談查證了解職業條件",
+                "培養軟實力繪製職業藍圖"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u1-l1",
+                "text": "多方體驗認識興趣專長",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "u1-l2",
+                "text": "軟實力助適應未來變動",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/integrative#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "盤點職業條件、軟實力與夢想藍圖",
+          "narrationText": "喜歡某項工作時要同時盤點所需的技能條件並逐步補強；面對未來世界變動，終身學習、溝通合作與解決問題的軟實力最關鍵。",
+          "cognitiveChunks": [
+            "對感興趣的領域盤點必備技能並提早練習",
+            "培養溝通合作、抗壓調適與終身學習軟實力",
+            "將大目標拆成短中長期小步並保有調整彈性"
+          ],
+          "workedExampleData": {
+            "problemStatement": "小安非常喜歡畫畫想當設計師，但對繪圖軟體操作還不熟練；面對快速變動的未來職場，她該如何繪製職業藍圖？",
+            "steps": [
+              "第 1 步：運用官方職業資訊或訪談設計師，認識除了畫畫外還需具備的軟體與溝通條件",
+              "第 2 步：從現在開始設定短中長期可實踐的小步驟（例如每天練習繪圖軟體、參與社團）",
+              "第 3 步：培養終身學習好奇心與解決問題的軟實力，並保持隨成長調整藍圖的彈性"
+            ],
+            "commonErrorContrast": "常見錯誤：以為有興趣就不用學其他技能、只聽幾秒搞笑短片就認定職場全貌，或用性別框住職業選擇。",
+            "selfExplanationPrompt": "想一想：當同學分享一個少見卻充滿愛心與創意的夢想職業（如動物輔具設計師）時，我們該怎麼回應？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/integrative#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "面對未來職業變動的關鍵軟實力",
+          "topicSignalTitle": "為什麼軟實力比死背單一知識更能應對未來？",
+          "narrationText": "未來科技持續更新、新職業不斷誕生，擁有終身學習力、跨領域溝通合作與面對挫折的抗壓調適力，才能在變動中穩健前行。",
+          "cognitiveChunks": [
+            "終身學習的好奇心與新科技適應力",
+            "團隊溝通合作與問題解決彈性思維",
+            "支持同儕多元夢想，彼此鼓勵成長"
+          ],
+          "factGroundingSourceId": "115-s2/g6/integrative#u1"
+        },
+        {
+          "sceneId": "u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次職業選擇與性別平等的正確觀念，準備闖關！",
+          "cognitiveChunks": [
+            "職業能力取決於興趣、努力與專業，與性別無關"
+          ],
+          "warmupCheck": {
+            "prompt": "面對未來的職業選擇時，下列哪一個觀念最能打破性別刻板印象、支持每個人追夢？",
+            "options": [
+              "職業能力取決於個人興趣、努力與專業養成，任何性別都能投入熱愛的行業",
+              "男生只適合當工程師，不適合照顧工作",
+              "女生不應該挑戰消防員或科學家"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！專業與熱情不分性別，每個人都能依自己的志向發光發熱。",
+            "feedbackRetry": "決定能不能把一份工作做好的關鍵，是身分證上的性別，還是個人的興趣與專業努力呢？"
+          },
+          "factGroundingSourceId": "115-s2/g6/integrative#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-integrative-u2",
+      "stageId": "115-s2-g6-integrative-u2",
+      "title": "主題二 資源在身邊",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "資訊查證、媒體覺察與資源倫理",
+          "narrationText": "收到誇張網路消息先查證來源機構；覺察數位平台會依瀏覽紀錄推播廣告；引用資源須查證並標註出處，且愛惜公共物資不浪費。",
+          "cognitiveChunks": [
+            "誇大訊息先查公信機構（醫療、政府）與出處日期",
+            "覺察演算法依搜尋點擊推播廣告，避免衝動消費",
+            "引用資料消化轉述並註明來源；不浪費霸占公物"
+          ],
+          "analogyAnchor": "數位與生活資源就像我們身邊的泉水：「源源」不「覺」要先檢查水質乾不乾淨（查證來源），「源」響力要懂得珍惜不浪費，「源」來有妙方則是用這股力量解決問題而不製造垃圾。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "高風險不可靠資訊",
+              "leftPoints": [
+                "無作者與日期、標題誇張",
+                "誘使點擊陌生連結領優惠"
+              ],
+              "rightTitle": "可靠與妥善資源運用",
+              "rightPoints": [
+                "圖書館、師長與政府衛教網",
+                "消化重點並清楚標註出處"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u2-l1",
+                "text": "無出處陌生連結勿點擊",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "u2-l2",
+                "text": "多元查證並註明資料來源",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/integrative#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "整合資源解決問題而不製造新問題",
+          "narrationText": "規劃生活問題解決方案時，要評估是否會衍生新垃圾或困擾；善用衛生所、警政單位與社區志工等身邊資源，讓方案貼心又有效。",
+          "cognitiveChunks": [
+            "園遊會借用可清洗餐具與設回收站，從源頭減廢",
+            "為長輩做防詐與用藥卡須放大字體並請志工解說",
+            "多善用學校圖書館、師長與博物館教育網站"
+          ],
+          "workedExampleData": {
+            "problemStatement": "想解決園遊會大量免洗餐具垃圾問題，並為社區獨居長輩製作「防詐騙與用藥安全提醒卡」，該如何運用資源？",
+            "steps": [
+              "第 1 步：園遊會向社區環保站或校內借用可重複清洗餐具並設清洗站，從源頭解決不製造新垃圾",
+              "第 2 步：向衛生所與警政單位索取正確防詐用藥素材，確認來源真實可靠",
+              "第 3 步：針對長輩視力將文字放大印製，並結合社區志工當面關懷解說"
+            ],
+            "commonErrorContrast": "常見錯誤：複製貼上網路文章冒充自己作品、把免費公共資源拿回家囤積，或印全英文小字給長輩看。",
+            "selfExplanationPrompt": "想一想：為什麼購物或影音平台總是剛好推送我們最近聊過或看過的玩具與點心廣告？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/integrative#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "守護公共資源的公德心",
+          "topicSignalTitle": "什麼是「不將資源誤用」的負責任表現？",
+          "narrationText": "愛惜並依真實需要取用學校與社區公共物資，不抽玩免費衛生紙、不藏起熱門圖書，才能讓資源長久造福每一個人。",
+          "cognitiveChunks": [
+            "依實際需要取用公共物資，不浪費",
+            "遵守圖書館借閱規範，不獨占藏書",
+            "寫報告消化轉述並誠實標註資料來源"
+          ],
+          "factGroundingSourceId": "115-s2/g6/integrative#u2"
+        },
+        {
+          "sceneId": "u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次面對誇大網路訊息時的媒體識讀步驟，準備闖關！",
+          "cognitiveChunks": [
+            "收到誇大訊息應先查證公信來源與比對權威資料"
+          ],
+          "warmupCheck": {
+            "prompt": "收到轉傳「喝某種飲料三天長高十公分」的消息時，第一步應該怎麼做？",
+            "options": [
+              "先查證來源是否具公信力（如醫療或政府單位）並比對權威資料",
+              "立刻按讚轉傳給全班家長群組",
+              "因為是朋友傳來的就照單全收"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！不盲從轉傳次數或熟人關係，先向權威管道查證才是可靠的媒體識讀力。",
+            "feedbackRetry": "標題越誇張越要小心喔！轉傳前第一步一定要先檢查與比對什麼呢？"
+          },
+          "factGroundingSourceId": "115-s2/g6/integrative#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-integrative-u3",
+      "stageId": "115-s2-g6-integrative-u3",
+      "title": "主題三 服務特攻隊",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "服務反思、品質提升與愛的漣漪",
+          "narrationText": "誠實回顧服務經驗中的優缺點，站到受助對象的角度改善服務細節；事前充實知能並尊重人權，讓「愛的漣漪」一圈圈傳遞下去。",
+          "cognitiveChunks": [
+            "誠實檢視挫折與盲點，做好行前場勘與需求確認",
+            "貼近受助者需要修正細節（如降低低年級書架）",
+            "服務是平等互惠，展現感恩與利他情懷"
+          ],
+          "analogyAnchor": "服務帶來的善意就像一顆小石子落入平靜湖面，會激起一圈又一圈擴散開來的「愛的漣漪」，受幫助的人感受到溫暖後，也會把善意傳給下一個人。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "行前溝通需求與充實知能",
+                "尊重禮貌執行貼心服務",
+                "感恩省思並延續愛的漣漪"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "u3-l1",
+                "text": "先確認需求並學習引導",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "u3-l2",
+                "text": "善意擴散成雙向互惠",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/integrative#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "貼近受助者需求與服務倫理實踐",
+          "narrationText": "整理低年級圖書角要考量一年級身高；關懷行動不便或視障夥伴前要事前學習引導技巧並詢問意願，不未經同意拍照炫耀。",
+          "cognitiveChunks": [
+            "低年級常看繪本放低層書架並貼圖示分類",
+            "關懷特殊需求夥伴前先學安全引導與禮貌詢問",
+            "不為時數表或獎勵才幫忙，日常隨時伸出援手"
+          ],
+          "workedExampleData": {
+            "problemStatement": "上次協助整理低年級圖書角時沒發現高處繪本拿不到，另外下次要關懷校內視障或行動不便的夥伴，該如何改進與準備？",
+            "steps": [
+              "第 1 步：誠實反思上次盲點，站到低年級身高角度把常看繪本移到低層並貼圖示分類",
+              "第 2 步：服務前先與受助單位確認實際需求、做好場勘，並事前學習正確引導與安全技巧",
+              "第 3 步：現場先禮貌詢問對方需要什麼協助、不隨意拍照上傳，並把服務延續成日常關懷"
+            ],
+            "commonErrorContrast": "常見錯誤：未經詢問就強行抱起或拉扯受助者、只為拿服務時數才幫忙，或覺得自己是「施捨者」比較優越。",
+            "selfExplanationPrompt": "想一想：為什麼許多同學在參與服務學習後，反而覺得「受惠最多的其實是自己」？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/integrative#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "畢業前夕的感恩與利他行動",
+          "topicSignalTitle": "如何把六年級學到的「愛的漣漪」帶進國中新生活？",
+          "narrationText": "先真誠向照顧過自己的師長、志工與學長姐道謝，再將收到的溫暖化為日常行動，隨時看見身邊人的需要並伸出援手。",
+          "cognitiveChunks": [
+            "寫感謝卡真誠向照顧過自己的人道謝",
+            "把服務視為平等互惠的學習與成長",
+            "在日常校園與家庭隨時伸出友善一臂之力"
+          ],
+          "factGroundingSourceId": "115-s2/g6/integrative#u3"
+        },
+        {
+          "sceneId": "u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先確認一次服務學習的核心精神，準備挑戰最終關卡！",
+          "cognitiveChunks": [
+            "服務學習是平等互惠與利他感恩的歷程"
+          ],
+          "warmupCheck": {
+            "prompt": "為什麼課文會用「愛的漣漪」來形容服務學習帶來的影響？",
+            "options": [
+              "一個小小的善意與幫助會像水波一樣擴散，感動並帶動更多人把溫暖傳下去",
+              "因為服務學習只能在游泳池邊進行",
+              "因為付出愛心時一定要立刻要求金錢回報"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！溫暖的善意會產生良性循環，讓校園與社區越來越有愛。",
+            "feedbackRetry": "想像小石子落進平靜湖面時水波一圈圈往外推開的樣子，善意是怎麼影響身邊人的呢？"
+          },
+          "factGroundingSourceId": "115-s2/g6/integrative#u3"
+        }
+      ]
+    }
+  ]
+}

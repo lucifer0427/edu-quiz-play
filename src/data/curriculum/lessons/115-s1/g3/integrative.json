@@ -1,0 +1,465 @@
+{
+  "packId": "115-s1-g3-integrative",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 3,
+  "subjectId": "integrative",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-integrative-u1",
+      "stageId": "115-s1-g3-integrative-u1",
+      "title": "一、當我們同在一起",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "團隊合作、守紀律與尊重榮譽",
+          "narrationText": "大家一起完成任務時，集合不同專長分工合作能事半功倍；遵守紀律、輪流傾聽與包容新夥伴，才是真正的團隊榮譽！",
+          "cognitiveChunks": [
+            "分工互補不分性別發揮專長",
+            "遵守規則維護團隊安全公平",
+            "意見不同先傾聽再民主表決"
+          ],
+          "analogyAnchor": "團隊就像一艘齊心划槳的龍舟，每個人不分你我依專長出力、跟著鼓聲節奏守紀律，才能平穩又快樂地抵達終點。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "認識你我他",
+              "leftPoints": [
+                "主動邀請新同學安心融入",
+                "依能力與意願公平分工"
+              ],
+              "rightTitle": "共同的任務",
+              "rightPoints": [
+                "遵守規則不偷跑保安全",
+                "沒拿第一也肯定大家努力"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "友善接納公平分工",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "守紀律重團隊榮譽",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/integrative#u1"
+        },
+        {
+          "sceneId": "u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "意見不合時怎麼達成團隊共識",
+          "narrationText": "小組討論隊名、口號或分工遇到爭執時，用三個步驟就能和平找出好方法。",
+          "cognitiveChunks": [
+            "輪流發言專心傾聽雙方理由",
+            "嘗試融合兩邊想法的優點",
+            "必要時用民主投票表決決定"
+          ],
+          "workedExampleData": {
+            "problemStatement": "執行〈共同的任務〉時，組員對隊名與口號出現兩種不同意見，該怎麼處理？",
+            "steps": [
+              "第 1 步：暫停爭吵，讓雙方輪流說出各自的想法與理由。",
+              "第 2 步：一起看看能不能把兩種點子的優點結合起來。",
+              "第 3 步：如果還是無法決定，就透過公平民主表決達成共識並共同遵守。"
+            ],
+            "commonErrorContrast": "常見錯誤：誰聲音大就聽誰的，或因為意見沒被採用就生氣退出小組。",
+            "selfExplanationPrompt": "想一想：小組全力合作卻沒拿到第一名時，怎樣看待團隊的付出與榮譽？"
+          },
+          "factGroundingSourceId": "115-s1/g3/integrative#u1"
+        },
+        {
+          "sceneId": "u1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "團隊小隊長暖身題",
+          "narrationText": "答對這題就能和夥伴一起出發解任務囉！",
+          "cognitiveChunks": [
+            "依專長與意願分工符合性別平等"
+          ],
+          "warmupCheck": {
+            "prompt": "小組要分工製作海報與搬運器材，哪一種分工方式最公平合理？",
+            "options": [
+              "規定女生只能塗顏色、男生只能搬重物",
+              "依據每位組員的能力特質與意願自由討論分工，不分性別互相幫忙",
+              "由力氣最大的人直接命令大家做什麼"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！不被性別刻板印象限制，依能力與意願分工最公平！",
+            "feedbackRetry": "想一想，畫海報和搬器材應該看性別，還是看每個人的專長與意願呢？"
+          },
+          "factGroundingSourceId": "115-s1/g3/integrative#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-integrative-u2",
+      "stageId": "115-s1-g3-integrative-u2",
+      "title": "二、情緒觀測站",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "想法影響情緒，學會情緒轉個彎",
+          "narrationText": "面對同一件事，不同的想法會帶來不同的心情。覺察壓力與生氣的訊號，運用深呼吸、運動或傾訴等正向策略，就能幫情緒轉個彎！",
+          "cognitiveChunks": [
+            "不同解讀與想法會帶來不同情緒",
+            "可以生氣，但不能傷害自己或他人",
+            "深呼吸、運動、寫日記與傾訴紓壓"
+          ],
+          "analogyAnchor": "情緒就像心裡的天氣變化，換個正向想法就像撐開小傘或打開太陽窗，能幫心情從烏雲轉晴。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "覺察情緒（心跳快、生氣或緊張）",
+                "停下深呼吸（不打人不摔東西）",
+                "轉念與調適（換個想法、運動或找人聊）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "先覺察身體與情緒",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "換想法用正向調適",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/integrative#u2"
+        },
+        {
+          "sceneId": "u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "生氣與緊張時的情緒轉彎三步驟",
+          "narrationText": "當水壺被撞倒弄濕書桌，或上台前感到緊張時，試著跟著這樣做。",
+          "cognitiveChunks": [
+            "先暫停幾秒做腹式深呼吸",
+            "用平靜清楚的語氣說出感受",
+            "提出一起解決問題的具體做法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "同學不小心打翻水壺弄濕你的桌面與鉛筆盒，很生氣時怎麼表達才合宜？",
+            "steps": [
+              "第 1 步：先停下來深呼吸冷靜，不摔東西也不罵人。",
+              "第 2 步：誠實說出感受 →「書弄濕了我很著急生氣」。",
+              "第 3 步：邀請對方一起善後 →「請和我一起拿抹布把桌面擦乾」。"
+            ],
+            "commonErrorContrast": "常見錯誤：氣急敗壞把對方的書包砸在地上，或壓抑情緒笑說「男生不能哭」。",
+            "selfExplanationPrompt": "想一想：下大雨不能去操場踢球時，換成什麼想法能讓心情平靜下來？"
+          },
+          "factGroundingSourceId": "115-s1/g3/integrative#u2"
+        },
+        {
+          "sceneId": "u2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "情緒氣象員暖身題",
+          "narrationText": "答對這題就能啟動〈情緒觀測站〉的儀表板！",
+          "cognitiveChunks": [
+            "健康的情緒調適包括深呼吸、運動與傾訴"
+          ],
+          "warmupCheck": {
+            "prompt": "面對考試壓力或煩惱時，下列哪一組是最健康的「正向情緒調適策略」？",
+            "options": [
+              "把煩惱悶在心裡一整個月不說話",
+              "做深呼吸放鬆、散步運動，或找信任的家人師長聊聊",
+              "把情緒發洩在寵物或弟妹身上"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！深呼吸、運動與向信任的人傾訴都能讓心情慢慢舒緩下來！",
+            "feedbackRetry": "想一想，哪一種做法既能讓心情變輕鬆，又不會傷害自己或別人？"
+          },
+          "factGroundingSourceId": "115-s1/g3/integrative#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-integrative-u3",
+      "stageId": "115-s1-g3-integrative-u3",
+      "title": "三、自我的探索",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "發現自己能做的事與多元興趣",
+          "narrationText": "長處不只是考試和才藝比賽！細心整理、熱心助人、照顧植物都是能力。透過〈興趣分享會〉觀摩他人，也能發現更多新興趣。",
+          "cognitiveChunks": [
+            "生活裡的小能力也是寶貴長處",
+            "分享興趣要說出做了什麼與感受",
+            "觀摩他人分享並保持好奇多嘗試"
+          ],
+          "analogyAnchor": "每個人的興趣與長處就像花園裡不同的花，有人開向日葵、有人開小雛菊，在興趣分享會交流就能看見整座繽紛花園。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "興趣面面觀",
+              "leftPoints": [
+                "發掘日常助人、實作、觀察長處",
+                "保持好奇勇敢體驗新活動"
+              ],
+              "rightTitle": "興趣分享會",
+              "rightPoints": [
+                "準備作品或照片說出收穫感受",
+                "專心欣賞同學、互相尊重差異"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "生活中發掘自己長處",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "觀摩分享拓寬興趣",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/integrative#u3"
+        },
+        {
+          "sceneId": "u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "如何準備一場精彩的興趣分享",
+          "narrationText": "站上〈興趣分享會〉舞台前，做好這三件事就能大方展現自己！",
+          "cognitiveChunks": [
+            "挑選作品或實作照片輔助說明",
+            "分享投入的過程、困難與收穫",
+            "說清楚做這件事的心裡感受"
+          ],
+          "workedExampleData": {
+            "problemStatement": "準備參加班級〈興趣分享會〉時，怎麼準備能讓同學更懂你的興趣？",
+            "steps": [
+              "第 1 步：挑選自己最有熱情的實物作品或照片當作展示道具。",
+              "第 2 步：整理小故事，說說為什麼喜歡它以及克服了什麼困難。",
+              "第 3 步：練習清楚的音量，並在台下時專心給每位同學掌聲鼓勵。"
+            ],
+            "commonErrorContrast": "常見錯誤：覺得沒拿過第一名就沒有長處，或嫉妒同學表演好而在台下起鬨。",
+            "selfExplanationPrompt": "想一想：當你和好朋友的興趣完全不一樣時，可以怎麼互相欣賞？"
+          },
+          "factGroundingSourceId": "115-s1/g3/integrative#u3"
+        },
+        {
+          "sceneId": "u3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "自我探索小達人",
+          "narrationText": "答對這題就能領取〈興趣分享會〉的邀請卡！",
+          "cognitiveChunks": [
+            "親身嘗試新活動能幫助發掘更多興趣"
+          ],
+          "warmupCheck": {
+            "prompt": "社團招新時出現從沒接觸過的「摺紙魔術」，想知道自己喜不喜歡，最好的態度是什麼？",
+            "options": [
+              "因為從沒玩過怕丟臉，看都不看一眼",
+              "保持好奇心勇敢體驗看看，做過之後再感受適不適合",
+              "別人沒去就堅決不嘗試"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！許多興趣和潛能都是在勇敢嘗試後才發現的喔！",
+            "feedbackRetry": "沒吃過的新食物，不親自嘗一口怎麼知道自己喜不喜歡呢？"
+          },
+          "factGroundingSourceId": "115-s1/g3/integrative#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-integrative-u4",
+      "stageId": "115-s1-g3-integrative-u4",
+      "title": "四、安全的生活",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "校園危險搜查與居家社區防護網",
+          "narrationText": "化身〈危險搜查隊〉找出校園積水、通道障礙與壞掉器材並推動改造；在家裡和社區街道則要注意用電、防墜、大車死角與防災逃生！",
+          "cognitiveChunks": [
+            "調查校園危險並畫地圖提出改造",
+            "器材毀損立刻遠離並通報師長",
+            "居家防觸電防墜、過馬路停看聽"
+          ],
+          "analogyAnchor": "安全知識就像幫自己穿上一層隱形的防護背心，在校園找隱患、在家裡顧用電、在馬路看死角，就能平安每一天。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "危險搜查隊（校園）",
+              "leftPoints": [
+                "飲水機旁鋪防滑墊與標示",
+                "壞掉遊具不冒險使用快通報"
+              ],
+              "rightTitle": "居住好安心（居家社區）",
+              "rightPoints": [
+                "乾手碰開關、陽台不堆椅攀爬",
+                "遠離大車死角、災時不搭電梯"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "校園搜查並改造環境",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "居家與路口避開風險",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/integrative#u4"
+        },
+        {
+          "sceneId": "u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "發現校園危險後的正確行動",
+          "narrationText": "搜查出危險地方後，跟著三個步驟讓環境變得更安全！",
+          "cognitiveChunks": [
+            "記錄危險地點並畫進安全地圖",
+            "壞損器材先遠離並立即通報師長",
+            "提出具體改善方案與提醒標語"
+          ],
+          "workedExampleData": {
+            "problemStatement": "〈危險搜查隊〉發現校園飲水機旁常有水漬容易滑倒，且通道有桌椅擋住，該怎麼辦？",
+            "steps": [
+              "第 1 步：把危險地點與原因清楚記錄在「校園危險地圖」上。",
+              "第 2 步：建議放置吸水防滑墊與小心地滑立牌，並輪流擦乾地面。",
+              "第 3 步：重新調整桌椅位置，保持逃生與行走通道暢通。"
+            ],
+            "commonErrorContrast": "常見錯誤：發現盪鞦韆鐵鍊生鏽鬆脫還想「自己輕沒關係」上去試盪，或火災地震時衝進電梯。",
+            "selfExplanationPrompt": "想一想：步行經過社區巷口時，為什麼要遠離大型車輛轉彎的內輪差區域？"
+          },
+          "factGroundingSourceId": "115-s1/g3/integrative#u4"
+        },
+        {
+          "sceneId": "u4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "安全搜查員暖身題",
+          "narrationText": "答對這題就能領取〈危險搜查隊〉的徽章！",
+          "cognitiveChunks": [
+            "地震與火災發生時都絕對不可搭乘電梯"
+          ],
+          "warmupCheck": {
+            "prompt": "在社區大樓居家時突然發生強震或火災警報，哪一項緊急應變觀念正確？",
+            "options": [
+              "趕快衝進電梯搶著下樓",
+              "不搭電梯，依指引避難（地震趴下掩護穩住；火災低姿勢往安全梯逃生或關門防煙）",
+              "先花十分鐘打包全部玩具再考慮離開"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！地震與火災都嚴禁搭電梯，生命安全永遠排第一！",
+            "feedbackRetry": "發生強震或火災很容易停電受困，可以搭乘電梯逃生嗎？"
+          },
+          "factGroundingSourceId": "115-s1/g3/integrative#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-integrative-u5",
+      "stageId": "115-s1-g3-integrative-u5",
+      "title": "五、生活智慧王",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "家事智慧、回收同樂與積木機械",
+          "narrationText": "做家事遇見難題時先找原因、善用工具並注意家電安全；辦同樂會巧用回收資源，做積木踢球機與拋石器更要不斷測試改良並遵守安全規則！",
+          "cognitiveChunks": [
+            "覺察問題原因並換用合適工具",
+            "家電乾手插拔、清潔劑不亂混",
+            "積木機械測試改良並用軟球發射"
+          ],
+          "analogyAnchor": "生活智慧王就像一位小小工程師：做家事用分類與工具省力，玩積木機械則靠觀察、修改與安全規則讓創意發光。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "steps": [
+                "覺察問題（掃把進不去角落、球卡住）",
+                "善用資源（小刷子、回收箱、微調結構）",
+                "安全實作（家電防觸電、拋石器用軟球）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "先看原因再換工具",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "l2",
+                "text": "結構改良並守安全",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/integrative#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "解決家務難題與改良積木機關",
+          "narrationText": "不管是整理房間還是測試「踢球機、步步高升」，都可以用這套步驟解決！",
+          "cognitiveChunks": [
+            "觀察卡住的位置與原因",
+            "調整工具、高度、角度或卡榫",
+            "再次測試並在結束後善後復原"
+          ],
+          "workedExampleData": {
+            "problemStatement": "製作積木〈踢球機、推球機〉時，測試發現球總是在半路卡住或踢不動，怎麼調整？",
+            "steps": [
+              "第 1 步：耐心觀察球卡在哪個位置，檢查是不是軌道太窄或有凹凸。",
+              "第 2 步：檢查積木高度、角度與卡榫鬆緊，慢慢修改結構。",
+              "第 3 步：使用安全軟球再次測試，活動結束後分類歸還積木並分享心得。"
+            ],
+            "commonErrorContrast": "常見錯誤：氣急敗壞踩碎積木，或拿硬彈珠用拋石器對著同學發射。",
+            "selfExplanationPrompt": "想一想：在家裡幫忙使用吸塵器或清潔劑時，有哪些絕對不能忽略的安全守則？"
+          },
+          "factGroundingSourceId": "115-s1/g3/integrative#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "生活智慧王暖身題",
+          "narrationText": "答對這題就能把生活智慧王的獎盃抱回家！",
+          "cognitiveChunks": [
+            "拋石器與踢球機只能使用輕軟球朝安全目標發射"
+          ],
+          "warmupCheck": {
+            "prompt": "試玩積木課程製作的「拋石器」或「踢球機」進行同樂會比賽時，必須嚴格遵守哪一項安全規則？",
+            "options": [
+              "用硬彈珠對著同學近距離發射",
+              "只使用輕軟安全小球，統一朝空曠目標靶區發射且確認前方無人",
+              "站在拋石器正前方十公分處用臉接球"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！使用軟質小球並確保前方無人，才能玩得創意又平安！",
+            "feedbackRetry": "拋石器有彈射力量，選哪一種球體和發射方向才不會弄傷同學呢？"
+          },
+          "factGroundingSourceId": "115-s1/g3/integrative#u5"
+        }
+      ]
+    }
+  ]
+}

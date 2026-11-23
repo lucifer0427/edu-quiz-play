@@ -136,6 +136,44 @@
             "Sentence Review",
             "Starter"
           ]
+        },
+        {
+          "id": "115-s1-g5-english-u0-q7",
+          "prompt": "Listen and choose: 數字「64」的正確英文拼字是哪一個？",
+          "options": [
+            "sixty-four",
+            "forty-six",
+            "sixteen-four",
+            "seventy-four"
+          ],
+          "answerIndex": 0,
+          "explanation": "60 是 sixty，加上 4 是 four，合起來就是 sixty-four；forty-six 是 46，seventy-four 是 74。",
+          "hint": "60 是 sixty，再加上 4！",
+          "speechText": "sixty-four",
+          "speechLang": "en-US",
+          "tags": [
+            "Numbers 60-100",
+            "Starter"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u0-q8",
+          "prompt": "開學預備週複習 Phonics：下面哪一個單字裡，字母「i」發長母音 /aɪ/（像字母 I 本身的讀音）？",
+          "options": [
+            "sit",
+            "big",
+            "kite",
+            "pig"
+          ],
+          "answerIndex": 2,
+          "explanation": "i_e 結構中字尾不發音的 e 會讓前面的 i 發長母音 /aɪ/，所以 kite 念長音；sit, big, pig 都是短母音 i。",
+          "hint": "找字尾有不發音的 e（i_e）的單字！",
+          "speechText": "kite",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "i_e"
+          ]
         }
       ]
     },
@@ -266,6 +304,46 @@
           "explanation": "cake (a_e)、train (ai)、play (ay) 都發長母音 A；bag 則是短母音，不含這三組長母音規則。",
           "hint": "先聽聽看 bag 跟 cake 的母音一樣嗎？",
           "speechText": "cake, train, play",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "a_e",
+            "ai",
+            "ay"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u1-q7",
+          "prompt": "一星期有七天，週末放假的第一天「星期六」的英文是哪一個？",
+          "options": [
+            "Saturday",
+            "Sunday",
+            "Tuesday",
+            "Friday"
+          ],
+          "answerIndex": 0,
+          "explanation": "Saturday 是星期六；Sunday 是星期日，Tuesday 是星期二，Friday 是星期五。",
+          "hint": "開頭是 Sat- 的那一天就是星期六喔！",
+          "speechText": "Saturday",
+          "speechLang": "en-US",
+          "tags": [
+            "Days of the Week",
+            "Unit 1"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u1-q8",
+          "prompt": "Phonics 拼讀挑戰：下面哪一組單字都屬於長母音 A（a_e / ai / ay）家族？",
+          "options": [
+            "cat / map / bag",
+            "bed / ten / pen",
+            "tree / bee / tea",
+            "make / rain / say"
+          ],
+          "answerIndex": 3,
+          "explanation": "make（a_e）、rain（ai）、say（ay）三個字都發長母音 /e/（長音 A）。",
+          "hint": "找包含 a_e、ai、ay 的那一組單字！",
+          "speechText": "make, rain, say",
           "speechLang": "en-US",
           "tags": [
             "Phonics",
@@ -408,6 +486,45 @@
             "Phonics",
             "e_e"
           ]
+        },
+        {
+          "id": "115-s1-g5-english-u2-q7",
+          "prompt": "同學問：「Do you have English class on Wednesday?」如果你星期三「有」英語課，應該怎麼回答？",
+          "options": [
+            "No, I don't.",
+            "Yes, I am.",
+            "Yes, I do.",
+            "It's Wednesday."
+          ],
+          "answerIndex": 2,
+          "explanation": "Do you ...? 的肯定簡答為「Yes, I do.」，助動詞要用 do，不能用 am。",
+          "hint": "用 Do 問，肯定回答也要用 do 喔！",
+          "speechText": "Do you have English class on Wednesday? Yes, I do.",
+          "speechLang": "en-US",
+          "tags": [
+            "Sentence Pattern",
+            "Unit 2"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u2-q8",
+          "prompt": "Phonics 聽音辨字：在「green, sheep, beach, desk」四個字中，哪一個字的母音發音和其他三個「不同」？",
+          "options": [
+            "green",
+            "sheep",
+            "beach",
+            "desk"
+          ],
+          "answerIndex": 3,
+          "explanation": "green（ee）、sheep（ee）、beach（ea）都發長母音 E；desk 則是短母音 e。",
+          "hint": "ee 和 ea 發長母音 E，找一個發短母音 e 的字！",
+          "speechText": "green, sheep, beach",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "ee",
+            "ea"
+          ]
         }
       ]
     },
@@ -543,6 +660,45 @@
           "tags": [
             "Vocabulary",
             "Review 1"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u3-q7",
+          "prompt": "對話填空：A: ___ / B: It's Tuesday. / A: Do you have science class on Tuesday? / B: No, I don't.",
+          "options": [
+            "What day is today?",
+            "Where are you from?",
+            "How many books are there?",
+            "What's your name?"
+          ],
+          "answerIndex": 0,
+          "explanation": "B 回答「It's Tuesday.（今天是星期二）」，因此 A 的問句是詢問星期幾的「What day is today?」。",
+          "hint": "看到回答是 It's Tuesday，就選問星期幾的句子！",
+          "speechText": "What day is today? It's Tuesday.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u3-q8",
+          "prompt": "Phonics 拼讀挑戰：在「my, cry, sky」裡，字尾「y」發長母音 I，和下面哪一個單字的母音相同？",
+          "options": [
+            "nine",
+            "bed",
+            "bag",
+            "dog"
+          ],
+          "answerIndex": 0,
+          "explanation": "my, cry, sky 的字尾 y 與 nine（i_e）都發長母音 /aɪ/！",
+          "hint": "念念看 my 和 nine，哪一個也有長母音 I？",
+          "speechText": "my, cry, sky, nine",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "i_e",
+            "y"
           ]
         }
       ]
@@ -681,6 +837,44 @@
             "oa",
             "ow"
           ]
+        },
+        {
+          "id": "115-s1-g5-english-u4-q7",
+          "prompt": "生病發燒需要看醫生時，應該去哪一個社區場所？",
+          "options": [
+            "bookstore",
+            "hospital",
+            "supermarket",
+            "park"
+          ],
+          "answerIndex": 1,
+          "explanation": "hospital 是「醫院」；bookstore 是書店，supermarket 是超級市場，park 是公園。",
+          "hint": "看醫生要去「醫院」，英文是 hospital！",
+          "speechText": "hospital",
+          "speechLang": "en-US",
+          "tags": [
+            "Places",
+            "Unit 3"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u4-q8",
+          "prompt": "「Where are you going? — ___ going to the bookstore.」如果問的是單數的「你」，回答「我要去書店」空格該填什麼？",
+          "options": [
+            "He's",
+            "You're",
+            "I'm",
+            "They're"
+          ],
+          "answerIndex": 2,
+          "explanation": "別人用「you（你）」問你去哪裡，回答「我正要去……」要用「I'm（I am）」。",
+          "hint": "別人問你，你要用「我（I'm）」來回答喔！",
+          "speechText": "I'm going to the bookstore.",
+          "speechLang": "en-US",
+          "tags": [
+            "Sentence Pattern",
+            "Unit 3"
+          ]
         }
       ]
     },
@@ -818,6 +1012,45 @@
             "Festival Christmas",
             "Culture"
           ]
+        },
+        {
+          "id": "115-s1-g5-english-u5-q7",
+          "prompt": "動物園裡有「11 隻猴子」，回答「How many monkeys are there?」哪一句正確？",
+          "options": [
+            "There is eleven monkey.",
+            "There are eleven monkeys.",
+            "There are eleven monkey.",
+            "It's eleven monkeys."
+          ],
+          "answerIndex": 1,
+          "explanation": "數量是 11（複數），要用「There are + 數字 + 複數名詞（monkeys）」。",
+          "hint": "記得用 There are，而且 monkey 要加 s 變成複數喔！",
+          "speechText": "There are eleven monkeys.",
+          "speechLang": "en-US",
+          "tags": [
+            "Animals",
+            "Sentence Pattern",
+            "Unit 4"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u5-q8",
+          "prompt": "Phonics 拼讀挑戰：下面哪一個單字的母音發音與「blue（ue）」相同？",
+          "options": [
+            "cup",
+            "sun",
+            "glue",
+            "bus"
+          ],
+          "answerIndex": 2,
+          "explanation": "blue 和 glue 都有字尾 ue，發長母音 /u/；cup, sun, bus 都是短母音 u。",
+          "hint": "找同樣有「ue」拼讀組合的單字！",
+          "speechText": "blue, glue",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "ue"
+          ]
         }
       ]
     },
@@ -951,6 +1184,45 @@
           "tags": [
             "Review 2",
             "Grammar"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u6-q7",
+          "prompt": "對話統整：A: Where is Amy going? / B: She's going to the ___. She wants to buy a comic book.",
+          "options": [
+            "bookstore",
+            "hospital",
+            "bank",
+            "zoo"
+          ],
+          "answerIndex": 0,
+          "explanation": "「buy a comic book（買漫畫書）」要去「書店（bookstore）」。",
+          "hint": "想買書應該去哪一個場所呢？",
+          "speechText": "She's going to the bookstore.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Places"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u6-q8",
+          "prompt": "Phonics 拼讀總複習：下面哪一組配對「完全正確」？",
+          "options": [
+            "cake — 短母音 a",
+            "note — 長母音 O（o_e）",
+            "bus — 長母音 U",
+            "bed — 長母音 E"
+          ],
+          "answerIndex": 1,
+          "explanation": "note 符合 o_e 規則，發長母音 O！cake 是長母音 A，bus 是短母音 u，bed 是短母音 e。",
+          "hint": "檢查哪一個單字有不發音的字尾 e，讓前面的母音發長音！",
+          "speechText": "note",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "o_e",
+            "Review 2"
           ]
         }
       ]

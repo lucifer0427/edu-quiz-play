@@ -136,6 +136,44 @@
             "So Many Sounds",
             "Animal Sounds"
           ]
+        },
+        {
+          "id": "115-s1-g2-english-u1-q7",
+          "prompt": "在森林裡玩遊戲時，同學跑太遠了，想大聲叫他「回來！」，要用哪一句英文？",
+          "options": [
+            "Listen!",
+            "Come back!",
+            "Stop!",
+            "Louder!"
+          ],
+          "answerIndex": 1,
+          "explanation": "「Come back!」的意思是「回來！」，用來提醒走遠的同學快點回到隊伍裡。",
+          "hint": "點喇叭聽聽看「Come back!」的意思喔！",
+          "speechText": "Come back!",
+          "speechLang": "en-US",
+          "tags": [
+            "Classroom English",
+            "Safety"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u1-q8",
+          "prompt": "需要別人幫忙又怕對方聽不見時，非常有禮貌地說「救命！請再大聲一點！」，英文怎麼說？",
+          "options": [
+            "Good morning.",
+            "Hurry up!",
+            "Woof, woof!",
+            "Help! Louder, please!"
+          ],
+          "answerIndex": 3,
+          "explanation": "「Help! Louder, please!」表示「救命！請大聲一點！」，加上 please 更有禮貌。",
+          "hint": "句子裡同時有「Help!（救命）」和「please（請）」喔！",
+          "speechText": "Help! Louder, please!",
+          "speechLang": "en-US",
+          "tags": [
+            "So Many Sounds",
+            "Classroom English"
+          ]
         }
       ]
     },
@@ -269,6 +307,44 @@
           "tags": [
             "Aa-Mm",
             "Alphabet Order"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u2-q7",
+          "prompt": "過馬路看到斑馬線和紅綠燈時，金牌安全小將要記住哪一個動作最安全？",
+          "options": [
+            "停下來、左右看清楚、專心聽車聲再走",
+            "不用看紅綠燈就直接往前跑（Run）",
+            "邊過馬路邊閉著眼睛聊天",
+            "在斑馬線中間停下來玩遊戲"
+          ],
+          "answerIndex": 0,
+          "explanation": "過馬路前要先停（Stop）、看（Look）、聽（Listen），確認安全再走斑馬線。",
+          "hint": "安全小將過馬路前一定要「停、看、聽」喔！",
+          "speechText": "Stop, look, and listen!",
+          "speechLang": "en-US",
+          "tags": [
+            "The Hare and the Tortoise",
+            "Safety"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u2-q8",
+          "prompt": "聽聽看喇叭念的英文字母，下面哪一組「大寫和小寫」字母完全配對正確？",
+          "options": [
+            "G - q",
+            "E - f",
+            "G - g",
+            "C - o"
+          ],
+          "answerIndex": 2,
+          "explanation": "大寫 G 配對小寫 g 是正確的！q 應配 Q、f 應配 F、o 應配 O。",
+          "hint": "注意小寫 g 下面有一個彎鉤，別跟 q 弄混囉！",
+          "speechText": "G, g",
+          "speechLang": "en-US",
+          "tags": [
+            "Aa-Mm",
+            "Letters"
           ]
         }
       ]
@@ -404,6 +480,44 @@
             "Aa-Mm",
             "Letters"
           ]
+        },
+        {
+          "id": "115-s1-g2-english-u3-q7",
+          "prompt": "在《Our Neighbourhood》認識社區安全小幫手時，如果不小心受傷流血了，應該去哪裡找人幫忙包紮？",
+          "options": [
+            "跑去玩具店裡面躲起來",
+            "去學校醫務室或社區診所、醫院",
+            "一個人坐在公園草地上等",
+            "去飲料店買冰水來喝"
+          ],
+          "answerIndex": 1,
+          "explanation": "受傷或身體不舒服時，要去學校醫務室或診所找護理師與醫生幫忙處理。",
+          "hint": "哪一個地方有護理師阿姨或醫生可以幫忙擦藥包紮呢？",
+          "speechText": "Our Neighbourhood",
+          "speechLang": "en-US",
+          "tags": [
+            "Our Neighbourhood",
+            "Community Safety"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u3-q8",
+          "prompt": "點喇叭聽聽看這組字母！在「Aa 到 Mm」之間，大寫「D」後面緊接著的是哪一個大寫字母？",
+          "options": [
+            "B",
+            "C",
+            "E",
+            "F"
+          ],
+          "answerIndex": 2,
+          "explanation": "字母順序是 A, B, C, D, E, F ...，所以緊接在 D 後面的是 E。",
+          "hint": "唱一唱字母歌：A, B, C, D，下一個是什麼呢？",
+          "speechText": "D, E",
+          "speechLang": "en-US",
+          "tags": [
+            "Aa-Mm",
+            "Alphabet Order"
+          ]
         }
       ]
     },
@@ -537,6 +651,44 @@
           "tags": [
             "Aa-Mm",
             "Review"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u4-q7",
+          "prompt": "和同學一起過馬路或騎腳踏車時，懂得「禮讓和分享路權」是很棒的共好行動。下面哪一個做法最安全？",
+          "options": [
+            "走在人行道或靠邊走，不推擠也禮讓行動較慢的人",
+            "把整條人行道占滿，不讓別人走過去",
+            "在馬路中間突然停下來聊天",
+            "看到有人要過馬路就故意擋在前面"
+          ],
+          "answerIndex": 0,
+          "explanation": "路是大家共用的，互相禮讓、走在安全區域，每個人都能平安快樂出門與回家。",
+          "hint": "想一想什麼做法能讓大家一起安全又舒服地走路呢？",
+          "speechText": "Thank you!",
+          "speechLang": "en-US",
+          "tags": [
+            "The Doorbell Rang",
+            "Safety"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u4-q8",
+          "prompt": "小宇把畫好的卡片送給同學說「This is for you.」，同學說「Thank you.」，小宇最後應該接著說哪一句？",
+          "options": [
+            "Sorry.",
+            "Hurry up!",
+            "Stop!",
+            "You're welcome."
+          ],
+          "answerIndex": 3,
+          "explanation": "別人對你說「Thank you.（謝謝你）」時，要禮貌回答「You're welcome.（不客氣。）」。",
+          "hint": "聽到謝謝時，微笑回答「不客氣」的英文是哪一句呢？",
+          "speechText": "You're welcome.",
+          "speechLang": "en-US",
+          "tags": [
+            "Polite Expressions",
+            "Dialogue"
           ]
         }
       ]

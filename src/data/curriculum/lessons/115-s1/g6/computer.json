@@ -1,0 +1,532 @@
+{
+  "packId": "115-s1-g6-computer",
+  "schemaVersion": "2026.1",
+  "academicYear": 115,
+  "semester": 1,
+  "grade": 6,
+  "subjectId": "computer",
+  "lessons": [
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-computer-u1",
+      "stageId": "115-s1-g6-computer-u1",
+      "title": "第1–2週：資安大小事：安全達人上線中",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s1-computer-u1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "帳號安全、惡意軟體防護與網路倫理",
+          "narrationText": "使用學校大忠 Gmail 後務必登出並移除帳號。面對勒索病毒、木馬程式與釣魚信件，要保持警覺不亂點不明連結、定期備份資料，並拒絕參與或轉傳網路霸凌訊息。",
+          "cognitiveChunks": [
+            "公用電腦用畢須登出 Gmail 並移除帳號",
+            "木馬偽裝竊密，勒索病毒加密檔案討贖金",
+            "不轉傳網路霸凌訊息，截圖留證求助師長"
+          ],
+          "analogyAnchor": "網路安全就像保護家門與日記本，離開公用電腦要鎖門（登出移除帳號），陌生包裹（不明連結）不亂收，重要作業要留備份副本。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "木馬程式 vs. 勒索病毒",
+              "leftPoints": [
+                "木馬：偽裝無害軟體偷偷竊密",
+                "勒索：加密鎖死重要檔案討贖金"
+              ],
+              "rightTitle": "安全防護三步驟",
+              "rightPoints": [
+                "不點釣魚連結與不明免費檔案",
+                "公用電腦登出移除＋定期備份"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s1-cmp-u1-l1",
+                "text": "辨識惡意程式特徵",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s1-cmp-u1-l2",
+                "text": "登出備份守住資安",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/computer#u1"
+        },
+        {
+          "sceneId": "g6s1-computer-u1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "辨識釣魚信件與截圖繳交作業步驟",
+          "narrationText": "遇到製造急迫感要求點擊驗證的信件，要懂得分辨真偽；完成課堂實作後，善用系統截圖快捷鍵擷取清晰畫面，再上傳 Google Classroom。",
+          "cognitiveChunks": [
+            "限時催促點擊並要求帳密的信件多為釣魚詐騙",
+            "截圖快捷鍵畫面清晰無反光，適合交作業與留證"
+          ],
+          "workedExampleData": {
+            "problemStatement": "收到主旨寫著「緊急通知！帳號異常請於 1 小時內點擊連結輸入密碼驗證」的信件時，應該怎麼判斷與處理？另外交作業時如何正確截圖上傳？",
+            "steps": [
+              "第 1 步：察覺信件製造「1 小時內」恐慌並要求點陌生連結輸入密碼，判斷為釣魚詐騙信件",
+              "第 2 步：不點擊連結、不回傳個資，先向師長或官方管道求證後刪除信件",
+              "第 3 步：繳交作業時使用電腦截圖快捷鍵（如 Win+Shift+S）框選清晰畫面，上傳至 Google Classroom 並確認顯示已繳交"
+            ],
+            "commonErrorContrast": "常見錯誤：只關閉電腦螢幕就以為已經登出帳號，或拿手機對著螢幕翻拍造成反光模糊，甚至不小心把帳號密碼留在公用電腦。",
+            "selfExplanationPrompt": "想一想：如果在社群平臺看到同學被惡意合成照片或公開嘲笑，為什麼「截圖留證、不轉傳、通報師長」比直接對罵更重要？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/computer#u1"
+        },
+        {
+          "sceneId": "g6s1-computer-u1-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "安全達人的日常上網守則",
+          "topicSignalTitle": "離開公用電腦登出移除帳號，定期備份不怕勒索",
+          "narrationText": "定期把重要檔案備份在雲端硬碟或獨立外接設備，加上不下載來路不明破解版軟體與友善使用網路，就是最好的資安防護。",
+          "cognitiveChunks": [
+            "傳錯作業可先取消提交再重傳正確檔案",
+            "定期備份是對抗勒索病毒的最後防線"
+          ],
+          "factGroundingSourceId": "115-s1/g6/computer#u1"
+        },
+        {
+          "sceneId": "g6s1-computer-u1-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認離開學校電腦教室前必須完成的帳號安全動作！",
+          "cognitiveChunks": [
+            "只關螢幕或關視窗並不會真正登出帳號"
+          ],
+          "warmupCheck": {
+            "prompt": "在學校電腦教室登入大忠學生 Gmail 信箱後，下課離開電腦前應該先完成哪一個重要動作？",
+            "options": [
+              "確實登出 Gmail 帳號，並從公用電腦登入列表中移除個人帳號紀錄",
+              "把螢幕電源關掉就好，讓帳號維持登入狀態",
+              "把密碼寫在電腦桌上提醒自己",
+              "直接拔掉主機電源線當作安全登出"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！登出並移除共用電腦上的帳號紀錄，才能避免個人信件與雲端硬碟遭他人誤開。",
+            "feedbackRetry": "想一想：如果只關掉螢幕，下一位同學打開螢幕後還是看得到你的信箱喔！"
+          },
+          "factGroundingSourceId": "115-s1/g6/computer#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-computer-u2",
+      "stageId": "115-s1-g6-computer-u2",
+      "title": "第3–13週：語言新時代-幕後操盤手",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s1-computer-u2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "MakeCode 與 Micro:bit 感測、數位與類比控制",
+          "narrationText": "透過網頁版 MakeCode 積木，我們能讓 Micro:bit 感應搖晃製作運勢遙遙機與計步器，並使用鱷魚夾連接外接 LED 模組，以數位（開／關）與類比（0–1023 調光）信號打造音樂聖誕燈。",
+          "cognitiveChunks": [
+            "搖晃模組搭配 0–3 隨機取數可製作運勢遙遙機",
+            "鱷魚夾接 LED 須分清正極與負極（GND）",
+            "數位只有開／關；類比 0–1023 可調節亮度"
+          ],
+          "analogyAnchor": "數位信號就像電燈開關只有「全亮或全暗」兩段；類比信號則像調光旋鈕，能從 0 到 1023 細膩調整燈光亮度。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "數位信號 (Digital)",
+              "leftPoints": [
+                "只有 0（關）與 1（亮）兩種狀態",
+                "適合單純的閃爍或開關切換"
+              ],
+              "rightTitle": "類比信號 (Analog)",
+              "rightPoints": [
+                "可寫入 0 到 1023 連續數值",
+                "搭配迴圈積木控制 LED 漸亮漸暗"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s1-cmp-u2-l1",
+                "text": "數位只有開關兩態",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s1-cmp-u2-l2",
+                "text": "類比可調亮度變化",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/computer#u2"
+        },
+        {
+          "sceneId": "g6s1-computer-u2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "打造呼吸燈與音樂聖誕燈的程式邏輯",
+          "narrationText": "要讓 LED 燈像呼吸般漸亮漸暗並搭配聖誕旋律，必須善用迴圈積木自動遞增或遞減類比數值，並整合音階旋律積木寫入 Micro:bit。",
+          "cognitiveChunks": [
+            "迴圈積木＋變數可自動調整類比亮度",
+            "按鈕 A+B 可用來清除畫面或歸零計步器"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如何用 MakeCode 讓外接 LED 燈從暗慢慢變亮再變暗（呼吸燈），並結合音樂積木完成「音樂聖誕燈」寫入 Micro:bit？",
+            "steps": [
+              "第 1 步：用鱷魚夾將 LED 正極接腳連接 Micro:bit 指定引腳、負極接 GND，確認不碰觸短路",
+              "第 2 步：在 MakeCode 使用「迴圈積木」搭配變數，讓類比寫入數值從 0 遞增到 1023 再遞減回 0",
+              "第 3 步：加入「音階旋律積木」編排聖誕音樂，接上 USB 下載 .hex 檔寫入 Micro:bit 板子測試"
+            ],
+            "commonErrorContrast": "常見錯誤：正負極鱷魚夾碰在一起造成短路、忘記用迴圈而手動堆疊上百個積木，或誤以為數位信號也能調出漸亮漸暗效果。",
+            "selfExplanationPrompt": "想一想：在「運勢遙遙機」中設定 0 到 3 的隨機取數，總共會產生幾種結果？按下 A+B 鈕又可以設計成什麼功能？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/computer#u2"
+        },
+        {
+          "sceneId": "g6s1-computer-u2-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "計步器歸零與程式寫入要點",
+          "topicSignalTitle": "分清引腳正負極，善用迴圈與按鈕重置變數",
+          "narrationText": "寫入程式前先在 MakeCode 模擬器測試搖晃感應、隨機變數與按鈕歸零功能，確認無誤再透過 USB 下載至 Micro:bit 磁碟機。",
+          "cognitiveChunks": [
+            "按下按鈕 A 或 A+B 可將計步器變數歸零",
+            "下載 .hex 檔存進 MICROBIT 磁碟機執行"
+          ],
+          "factGroundingSourceId": "115-s1/g6/computer#u2"
+        },
+        {
+          "sceneId": "g6s1-computer-u2-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認「類比信號」與「數位信號」控制 LED 的差別！",
+          "cognitiveChunks": [
+            "類比信號可輸出 0–1023 控制 LED 亮度"
+          ],
+          "warmupCheck": {
+            "prompt": "學習控制外接 LED 燈時，「類比信號」相較於「數位信號」有什麼特別的功能？",
+            "options": [
+              "數位信號只能播放音樂，類比信號只能顯示文字",
+              "類比信號寫入後 LED 燈會永遠拔不掉",
+              "數位只有開或關兩種狀態；類比可寫入 0 到 1023 數值控制 LED 明暗亮度變化",
+              "兩者效果完全相同，寫入 0 和 1023 都會熄滅"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！數位信號控制開關（0 或 1），類比信號則能細膩調整 LED 燈的亮度。",
+            "feedbackRetry": "想一想電燈開關跟調光旋鈕的差別：哪一種能控制 LED「有多亮」呢？"
+          },
+          "factGroundingSourceId": "115-s1/g6/computer#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-computer-u3",
+      "stageId": "115-s1-g6-computer-u3",
+      "title": "第14–17週：雷出新花樣-美字進化論",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s1-computer-u3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "硬筆書法結合 Rdwork 向量輪廓與雷雕文創",
+          "narrationText": "將校訂硬筆書法作品截圖裁切後匯入 Rdwork 軟體，透過「位圖處理 > 提取輪廓 > 刪除圖片」轉為向量線條，再以截點工具修補破碎線條，最後經雷射雕刻機切割並繫上中國節完成文創吊飾。",
+          "cognitiveChunks": [
+            "先從 Gmail 下載並裁切硬筆字截圖保留文字區",
+            "Rdwork：位圖處理 > 提取輪廓 > 刪除圖片",
+            "用截點工具刪除雜點並修補破碎向量線條"
+          ],
+          "analogyAnchor": "位圖提取輪廓就像用透明描圖紙把書法毛邊描成乾淨的線稿，再用截點工具把斷掉的筆畫接起來，雷射雕刻機才能沿線精準切割。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "硬筆字截圖並裁切文字區",
+                "Rdwork 匯入至星星／幸運草框",
+                "位圖處理提取輪廓並刪原圖",
+                "截點修線、安全雷雕與繫中國節"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s1-cmp-u3-l1",
+                "text": "提取輪廓並刪原圖",
+                "anchorPointId": "step3"
+              },
+              {
+                "id": "g6s1-cmp-u3-l2",
+                "text": "截點修線安全雷雕",
+                "anchorPointId": "step4"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/computer#u3"
+        },
+        {
+          "sceneId": "g6s1-computer-u3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "Rdwork 輪廓修補與排版安全邊距",
+          "narrationText": "在 Rdwork 中將文字向量放進星星或幸運草外框時，必須刪除原始點陣底圖、用截點工具修補線條，並預留文字與外框、吊孔間的安全距離。",
+          "cognitiveChunks": [
+            "刪除原始圖片可避免重複掃描雕刻干擾",
+            "保留適當邊距以免雷雕成品斷裂"
+          ],
+          "workedExampleData": {
+            "problemStatement": "把硬筆字截圖匯入 Rdwork 星星外框後，要如何轉換成乾淨的雷雕線條並避免成品斷裂？",
+            "steps": [
+              "第 1 步：調整硬筆字圖片大小放進外框，執行「位圖處理 > 提取輪廓」，接著「刪除圖片」去掉點陣底圖",
+              "第 2 步：切換「截點工具」放大檢查轉角，刪除多餘雜點並修補斷裂的輪廓線條",
+              "第 3 步：確認文字與外框及吊孔保有適當安全間距，上傳檔案至 Google Classroom 並依安全規範由師長監督雷雕"
+            ],
+            "commonErrorContrast": "常見錯誤：忘記「刪除圖片」導致底圖疊在輪廓下、字體貼太近外框使木片斷裂，或雷雕機運作時直視強光與伸手觸碰機內。",
+            "selfExplanationPrompt": "想一想：觀看雷射雕刻機運作時，為什麼一定要保持抽風排氣暢通且不可直視雷射光點？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/computer#u3"
+        },
+        {
+          "sceneId": "g6s1-computer-u3-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "雷射雕刻機安全與成品組裝",
+          "topicSignalTitle": "不直視雷射強光、不伸手入機內，保持排煙暢通",
+          "narrationText": "雷射雕刻機運作時會產生高熱光束與煙霧，務必在師長指導下安全觀察；切割完成確認冷卻後，繫上中國節即完成專屬文創吊飾。",
+          "cognitiveChunks": [
+            "機台運作嚴禁開蓋伸手或放置易燃物",
+            "設計檔完成須上傳 Google Classroom 保存"
+          ],
+          "factGroundingSourceId": "115-s1/g6/computer#u3"
+        },
+        {
+          "sceneId": "g6s1-computer-u3-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認 Rdwork 將硬筆字圖片轉成向量輪廓的正確操作順序！",
+          "cognitiveChunks": [
+            "位圖處理 ＞ 提取輪廓 ＞ 刪除圖片"
+          ],
+          "warmupCheck": {
+            "prompt": "將裁切好的硬筆字圖片匯入 Rdwork 軟體後，為了轉成雷射雕刻機可讀取的向量線條，應依序執行哪一組功能？",
+            "options": [
+              "位圖處理 ＞ 提取輪廓 ＞ 刪除圖片",
+              "檔案列印 ＞ 頁面放大 ＞ 關閉視窗",
+              "格式轉換 ＞ 重新命名 ＞ 清空回收桶",
+              "系統關機 ＞ 拔除滑鼠 ＞ 重開瀏覽器"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "完全正確！先提取圖片輪廓轉為向量線，再刪除原本的點陣圖片，就能接著用截點工具修線了。",
+            "feedbackRetry": "想一想：先把「位圖」的邊線「提取」出來，再把原來的圖片怎樣處理呢？"
+          },
+          "factGroundingSourceId": "115-s1/g6/computer#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-computer-u4",
+      "stageId": "115-s1-g6-computer-u4",
+      "title": "第18–20週：智能小管家",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s1-computer-u4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "智慧屋套件擴充與條件觸發連動",
+          "narrationText": "搭配 Micro:bit 智慧屋套件前，須先在 MakeCode 下載智慧屋擴充程式。透過感測器進行條件偵測，可實現靠近亮起門外 LED 燈，以及偵測開門後同時啟動室內 RGB 燈光與迎賓音效。",
+          "cognitiveChunks": [
+            "外接智慧屋須先下載 MakeCode 擴充程式",
+            "運用「重複無限次＋如果那麼」進行條件偵測",
+            "單一開門觸發可連動 RGB 燈光與音效輸出"
+          ],
+          "analogyAnchor": "智慧屋就像一位盡責的居家小管家，眼睛（感測器）隨時注意門口動靜，只要條件成立就立刻幫忙開燈與迎賓。",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "MakeCode 下載智慧屋擴充程式",
+                "感測有人靠近亮起門外 LED 燈",
+                "偵測門開啟連動室內 RGB 與音效",
+                "偵錯腳位與門檻值優化運作"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s1-cmp-u4-l1",
+                "text": "擴充程式支援套件",
+                "anchorPointId": "step1"
+              },
+              {
+                "id": "g6s1-cmp-u4-l2",
+                "text": "條件觸發燈光音效",
+                "anchorPointId": "step3"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/computer#u4"
+        },
+        {
+          "sceneId": "g6s1-computer-u4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "智慧屋功能失常時的實作偵錯流程",
+          "narrationText": "當門打開後室內 RGB 燈卻沒亮，或兩組感測功能互相干擾時，要依照偵錯步驟檢查腳位、迴圈與觸動門檻值。",
+          "cognitiveChunks": [
+            "檢查硬體接線腳位是否與程式設定一致",
+            "確認條件判斷有放進重複無限次迴圈"
+          ],
+          "workedExampleData": {
+            "problemStatement": "測試〈智能小管家〉時，門明明打開了但室內 RGB 燈光沒有亮起，而且門外 LED 燈好像也跟室內燈互相干擾，該如何進行實作偵錯？",
+            "steps": [
+              "第 1 步：檢查硬體接線與電源，確認門外 LED 燈與室內 RGB 燈各自插在正確且不重疊的引腳（Pin）",
+              "第 2 步：檢查 MakeCode 程式中是否已將條件判斷積木放進「重複無限次」迴圈內持續偵測",
+              "第 3 步：檢視感測器觸動門檻值與關閉時機（如暫停秒數），修正設定後重新下載並實測驗證"
+            ],
+            "commonErrorContrast": "常見錯誤：忘記安裝智慧屋擴充程式、把兩組燈光綁在同一個歸零指令裡互相覆蓋，或遇到失敗就放棄不排查原因。",
+            "selfExplanationPrompt": "想一想：將智能小管家的感測自動開關燈技術應用在真實家庭中，對長輩安全與居家節能有什麼幫助？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/computer#u4"
+        },
+        {
+          "sceneId": "g6s1-computer-u4-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "以人為本的智慧居家設計",
+          "topicSignalTitle": "需要時自動服務，無人時自動熄滅節能",
+          "narrationText": "良好的智慧居家系統不會讓電器無故耗電，而是在家人返家或開門時貼心照明迎賓，無人使用時自動關閉省電。",
+          "cognitiveChunks": [
+            "多模組並用須明確區分引腳與觸發條件",
+            "感測自動化兼顧居家便利、安全與省電"
+          ],
+          "factGroundingSourceId": "115-s1/g6/computer#u4"
+        },
+        {
+          "sceneId": "g6s1-computer-u4-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認使用 Micro:bit 智慧屋套件時的第一個軟體準備動作！",
+          "cognitiveChunks": [
+            "外接專用套件須先安裝 MakeCode 擴充程式"
+          ],
+          "warmupCheck": {
+            "prompt": "拿到「Micro:bit 智慧屋套件」後，打開 MakeCode 卻找不到控制智慧屋模組的積木，第一個步驟應該怎麼做？",
+            "options": [
+              "隨便拖曳基本積木拼湊",
+              "把 Micro:bit 主機板拆開焊接",
+              "改用小畫家畫出智慧屋圖案",
+              "在 MakeCode 的「擴充程式」功能中搜尋並下載安裝智慧屋擴充程式"
+            ],
+            "answerIndex": 3,
+            "feedbackCorrect": "答對了！安裝對應的擴充程式後，積木區就會出現控制智慧屋感測器與 RGB 燈光的專屬積木。",
+            "feedbackRetry": "想一想：當 MakeCode 基本積木不夠用時，可以去哪一個功能區下載外接套件的積木呢？"
+          },
+          "factGroundingSourceId": "115-s1/g6/computer#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-computer-u5",
+      "stageId": "115-s1-g6-computer-u5",
+      "title": "第21週：期末活動",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "g6s1-computer-u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "線上問卷實作與數位創客學期總複習",
+          "narrationText": "期末活動中，我們登入大忠 Gmail 誠實填寫午餐滿意度調查問卷，並回顧本學期資訊安全、MakeCode 程式與智慧屋、Rdwork 雷雕文創等所學，將網路安全與網路禮儀帶進日常生活中。",
+          "cognitiveChunks": [
+            "登入個人 Gmail 誠實填寫線上問卷並確認提交",
+            "總複習：資安、MakeCode／智慧屋、Rdwork 雷雕",
+            "尊重智慧財產權與友善留言，實踐網路禮儀"
+          ],
+          "analogyAnchor": "學期總複習就像整理創客工具箱，把寫程式、做雷雕、除錯耐心與資安禮儀收好，未來面對新軟體也能自信上手。",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "網路安全守則",
+              "leftPoints": [
+                "公用電腦登出並移除帳號",
+                "保護隱私、不點可疑連結"
+              ],
+              "rightTitle": "網路禮儀與素養",
+              "rightPoints": [
+                "線上交流友善鼓勵不洗版",
+                "尊重原創智慧財產權標註出處"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "g6s1-cmp-u5-l1",
+                "text": "守護帳號個資安全",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "g6s1-cmp-u5-l2",
+                "text": "友善交流尊重原創",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/computer#u5"
+        },
+        {
+          "sceneId": "g6s1-computer-u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "線上問卷填寫與作品觀摩回饋示範",
+          "narrationText": "無論是在學校填寫線上調查或寒假在家上網交流，都要秉持誠實理性、保護帳號安全與尊重他人的數位公民態度。",
+          "cognitiveChunks": [
+            "確認問卷顯示提交成功後再登出帳號",
+            "觀摩同學作品時給予肯定與建設性建議"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在 Google Classroom 觀摩同學的雷雕或 Micro:bit 作品並準備留言回饋，同時也要完成期末線上問卷時，該注意哪些細節？",
+            "steps": [
+              "第 1 步：使用個人大忠 Gmail 登入填寫午餐滿意度問卷，依真實感受理性作答，看到「已提交」確認訊息後登出並移除帳號",
+              "第 2 步：觀摩同學作品時，先具體肯定對方的優點（如排版或程式巧思），再用禮貌語氣提出可改進的小建議",
+              "第 3 步：絕不盜用他人設計圖檔冒名交作業，引用或改作他人作品時遵守授權並註明出處"
+            ],
+            "commonErrorContrast": "常見錯誤：留存自動登入密碼在公用電腦、幫同學代填問卷、在討論區洗版或人身攻擊，或未經授權直接複製他人作品。",
+            "selfExplanationPrompt": "想一想：未來遇到沒學過的新軟體或程式錯誤時，這學期累積的「偵錯經驗」能如何幫助你面對問題？",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/computer#u5"
+        },
+        {
+          "sceneId": "g6s1-computer-u5-s3",
+          "componentType": "TOPIC_SIGNAL_BOX",
+          "title": "網路安全與禮儀沒有假期",
+          "topicSignalTitle": "保護隱私、查證訊息、友善互動、尊重版權",
+          "narrationText": "放假在家使用電腦、平板或手機時，更要記得不曝光制服姓名與門牌、不點免費點數詐騙連結，並保持耐心面對新科技的挑戰。",
+          "cognitiveChunks": [
+            "不隨意曝光個人與親友隱私資訊",
+            "遇到軟體錯誤保持耐心逐步排查測試"
+          ],
+          "factGroundingSourceId": "115-s1/g6/computer#u5"
+        },
+        {
+          "sceneId": "g6s1-computer-u5-s4",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先用這題確認線上觀摩同學作品時最符合「網路禮儀」的留言方式！",
+          "cognitiveChunks": [
+            "具體肯定優點並禮貌提出建設性建議"
+          ],
+          "warmupCheck": {
+            "prompt": "在 Google Classroom 觀摩同學的 Micro:bit 或雷雕作品並留下回饋時，下列哪一種說法最能實踐「網路禮儀」？",
+            "options": [
+              "「這作品太難看了，不要拿出來丟臉。」",
+              "「你結合中國節和硬筆字的排版很精緻！如果字體再放大一點會更清楚，繼續加油！」",
+              "在討論串底下連續發送 50 則表情符號洗版",
+              "把同學的設計圖下載改成自己的名字交作業"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "完全正確！真誠肯定優點並用友善語氣提出具體建議，是最棒的線上交流態度。",
+            "feedbackRetry": "想一想：如果是你收到留言，哪一種說法會讓你覺得受到尊重又有收穫呢？"
+          },
+          "factGroundingSourceId": "115-s1/g6/computer#u5"
+        }
+      ]
+    }
+  ]
+}
