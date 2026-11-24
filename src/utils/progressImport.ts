@@ -41,16 +41,16 @@ export const DEFAULT_PROGRESS: PlayerProgress = {
   fsrsCards: {},
   completedLessonIds: [],
   customStages: [],
-  selectedView: 'classic',
+  selectedView: 'curriculum',
   selectedGrade: 5,
   selectedSemester: 1,
-  selectedSubject: 'all',
+  selectedSubject: 'math',
 };
 
 function normalizeView(value: unknown): MapViewMode {
   return value === 'curriculum' || value === 'classic'
     ? value
-    : (DEFAULT_PROGRESS.selectedView ?? 'classic');
+    : (DEFAULT_PROGRESS.selectedView ?? 'curriculum');
 }
 
 function normalizeGrade(value: unknown): Grade {
@@ -170,6 +170,45 @@ export function normalizeProgress(
     selectedGrade: normalizeGrade(parsed.selectedGrade),
     selectedSemester: normalizeSemester(parsed.selectedSemester),
     selectedSubject: normalizeSubject(parsed.selectedSubject),
+    dailyGoalQuestions:
+      typeof parsed.dailyGoalQuestions === 'number' &&
+      Number.isFinite(parsed.dailyGoalQuestions) &&
+      parsed.dailyGoalQuestions >= 1
+        ? Math.floor(parsed.dailyGoalQuestions)
+        : undefined,
+    studyStreakDays:
+      typeof parsed.studyStreakDays === 'number' &&
+      Number.isFinite(parsed.studyStreakDays) &&
+      parsed.studyStreakDays >= 0
+        ? Math.floor(parsed.studyStreakDays)
+        : undefined,
+    lastStudyDate:
+      typeof parsed.lastStudyDate === 'string' &&
+      /^\d{4}-\d{2}-\d{2}$/.test(parsed.lastStudyDate)
+        ? parsed.lastStudyDate
+        : undefined,
+    dailyActivity:
+      parsed.dailyActivity &&
+      typeof parsed.dailyActivity === 'object' &&
+      !Array.isArray(parsed.dailyActivity) &&
+      typeof parsed.dailyActivity.date === 'string' &&
+      /^\d{4}-\d{2}-\d{2}$/.test(parsed.dailyActivity.date)
+        ? {
+            date: parsed.dailyActivity.date,
+            answeredCount: nonNegativeInt(
+              parsed.dailyActivity.answeredCount,
+              0,
+            ),
+            lessonsCompleted: nonNegativeInt(
+              parsed.dailyActivity.lessonsCompleted,
+              0,
+            ),
+            reviewsCompleted: nonNegativeInt(
+              parsed.dailyActivity.reviewsCompleted,
+              0,
+            ),
+          }
+        : undefined,
   };
 }
 

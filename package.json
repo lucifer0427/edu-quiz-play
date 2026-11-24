@@ -13,7 +13,9 @@
     "test:interleaving": "node scripts/test-interleaving.mjs",
     "test:phase3-4": "node scripts/test-phase3-4.mjs",
     "test:lesson-synthesizer": "node scripts/test-lesson-synthesizer.mjs",
-    "build": "node scripts/sync-curriculum.mjs && node scripts/validate-lessons.mjs && node scripts/test-generators.mjs && node scripts/test-fsrs.mjs && node scripts/test-interleaving.mjs && node scripts/test-phase3-4.mjs && node scripts/test-lesson-synthesizer.mjs && tsc --noEmit && vite build",
+    "test:daily-study": "node scripts/test-daily-study.mjs",
+    "test:ui": "vitest run",
+    "build": "node scripts/sync-curriculum.mjs && node scripts/validate-lessons.mjs && node scripts/test-generators.mjs && node scripts/test-fsrs.mjs && node scripts/test-interleaving.mjs && node scripts/test-phase3-4.mjs && node scripts/test-lesson-synthesizer.mjs && node scripts/test-daily-study.mjs && npx vitest run && tsc --noEmit && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -26,13 +28,17 @@
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.0.9",
+    "@testing-library/jest-dom": "^8.0.0",
+    "@testing-library/react": "^16.3.3",
     "@types/canvas-confetti": "^1.9.0",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "@types/three": "^0.187.0",
     "@vitejs/plugin-react": "^4.3.4",
+    "jsdom": "^31.0.1",
     "tailwindcss": "^4.0.9",
     "typescript": "^5.7.3",
-    "vite": "^6.2.0"
+    "vite": "^6.2.0",
+    "vitest": "^5.1.1"
   }
 }

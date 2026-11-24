@@ -9,6 +9,7 @@ import { WrongBook } from './components/WrongBook';
 import type { LessonScript } from './types/lesson';
 import type {
   ActiveTab,
+  BattleMode,
   LocalProfileMeta,
   PlayerProgress,
   Stage,
@@ -16,6 +17,7 @@ import type {
 
 const ExamReview = lazy(() => import('./components/ExamReview'));
 const LessonPlayer = lazy(() => import('./components/LessonPlayer'));
+import { recordDailyStudyActivity } from './utils/dailyStudy';
 import { reviewFsrsCard } from './utils/fsrs';
 import { playTap, setSoundEnabled } from './utils/sound';
 import {
@@ -45,7 +47,7 @@ export function App() {
   const [activeTab, setActiveTab] = useState<ActiveTab>('map');
   const [activeBattle, setActiveBattle] = useState<{
     stage: Stage;
-    isWrongReviewMode: boolean;
+    mode: BattleMode;
   } | null>(null);
   const [activeLesson, setActiveLesson] = useState<{
     lesson: LessonScript;
@@ -98,7 +100,7 @@ export function App() {
       };
     });
     if (playImmediately) {
-      setActiveBattle({ stage: sharedStage, isWrongReviewMode: false });
+      setActiveBattle({ stage: sharedStage, mode: 'stage' });
     }
     setSharedStage(null);
     clearShareHash();
@@ -180,9 +182,16 @@ export function App() {
   const markLessonCompleted = useCallback((lessonId: string) => {
     setProgress((prev) => {
       const prevIds = prev.completedLessonIds ?? [];
-      if (prevIds.includes(lessonId)) return prev;
+      const isNew = !prevIds.includes(lessonId);
+      const dailyPatch = recordDailyStudyActivity(prev, {
+        lessonCompleted: isNew,
+      });
+      if (!isNew) {
+        return { ...prev, ...dailyPatch };
+      }
       return {
         ...prev,
+        ...dailyPatch,
         xp: prev.xp + 10,
         completedLessonIds: [...prevIds, lessonId],
       };
@@ -193,12 +202,13 @@ export function App() {
     const now = new Date();
     setProgress((prev) => {
       const prevStars = prev.stageStars[result.stageId] ?? 0;
-      const nextStageStars = result.isReviewMode
-        ? prev.stageStars
-        : {
-            ...prev.stageStars,
-            [result.stageId]: Math.max(prevStars, result.stars),
-          };
+      const nextStageStars =
+        result.battleMode !== 'stage'
+          ? prev.stageStars
+          : {
+              ...prev.stageStars,
+              [result.stageId]: Math.max(prevStars, result.stars),
+            };
 
       const wrongSet = new Set(prev.wrongQuestionIds);
       const nextSnapshots = { ...(prev.wrongQuestionSnapshots ?? {}) };
@@ -241,8 +251,18 @@ export function App() {
         );
       }
 
+      const dailyPatch = recordDailyStudyActivity(
+        prev,
+        {
+          answered: result.totalCount,
+          reviewCompleted: result.isReviewMode,
+        },
+        now,
+      );
+
       return {
         ...prev,
+        ...dailyPatch,
         xp: prev.xp + result.xpEarned,
         coins: prev.coins + result.coinsEarned,
         totalCorrect: prev.totalCorrect + result.correctCount,
@@ -393,7 +413,8 @@ export function App() {
             selectedAvatarId={progress.selectedAvatarId}
             currentXp={progress.xp}
             previousStars={progress.stageStars[activeBattle.stage.id] ?? 0}
-            isWrongReviewMode={activeBattle.isWrongReviewMode}
+            battleMode={activeBattle.mode}
+            isWrongReviewMode={activeBattle.mode === 'wrong-review'}
             focusMode={Boolean(progress.focusMode)}
             speechSlowMode={progress.speechRateMode === 'slow'}
             onToggleFocusMode={handleToggleFocusMode}
@@ -424,7 +445,7 @@ export function App() {
                 markLessonCompleted(activeLesson.lesson.lessonId);
                 const targetStage = activeLesson.stage;
                 setActiveLesson(null);
-                setActiveBattle({ stage: targetStage, isWrongReviewMode: false });
+                setActiveBattle({ stage: targetStage, mode: 'stage' });
               }}
               onCompleteAndExit={() => {
                 markLessonCompleted(activeLesson.lesson.lessonId);
@@ -438,7 +459,7 @@ export function App() {
             progress={progress}
             onStartStage={(stage) => {
               playTap();
-              setActiveBattle({ stage, isWrongReviewMode: false });
+              setActiveBattle({ stage, mode: 'stage' });
             }}
             onStartLesson={(lesson, stage) => {
               playTap();
@@ -448,9 +469,16 @@ export function App() {
               playTap();
               setActiveTab('wrong');
             }}
+            onGoExamReview={() => {
+              playTap();
+              setActiveTab('exam');
+            }}
             onGoTeacher={() => {
               playTap();
               setActiveTab('teacher');
+            }}
+            onUpdateDailyGoal={(goal) => {
+              setProgress((prev) => ({ ...prev, dailyGoalQuestions: goal }));
             }}
             onUpdateMapFilter={handleUpdateMapFilter}
           />
@@ -466,11 +494,11 @@ export function App() {
               progress={progress}
               onStartMockExam={(mockStage) => {
                 playTap();
-                setActiveBattle({ stage: mockStage, isWrongReviewMode: true });
+                setActiveBattle({ stage: mockStage, mode: 'mock-exam' });
               }}
               onStartStage={(stage) => {
                 playTap();
-                setActiveBattle({ stage, isWrongReviewMode: false });
+                setActiveBattle({ stage, mode: 'stage' });
               }}
               onStartLesson={(lesson, stage) => {
                 playTap();
@@ -484,7 +512,7 @@ export function App() {
             progress={progress}
             onRemoveWrongId={handleRemoveWrongId}
             onStartWrongReview={(reviewStage) =>
-              setActiveBattle({ stage: reviewStage, isWrongReviewMode: true })
+              setActiveBattle({ stage: reviewStage, mode: 'wrong-review' })
             }
           />
         ) : activeTab === 'shop' ? (
@@ -501,7 +529,7 @@ export function App() {
             onDeleteCustomStage={handleDeleteCustomStage}
             onImportProgress={handleImportProgress}
             onStartStage={(stage) =>
-              setActiveBattle({ stage, isWrongReviewMode: false })
+              setActiveBattle({ stage, mode: 'stage' })
             }
           />
         )}

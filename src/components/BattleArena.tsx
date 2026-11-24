@@ -5,19 +5,16 @@ import {
   Heart,
   Lightbulb,
   RefreshCw,
-  RotateCcw,
   Shuffle,
-  Sparkles,
-  Star,
   Volume2,
   Zap,
 } from 'lucide-react';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type {
+  BattleMode,
   Question,
   QuestionAttemptOutcome,
   Stage,
-  SubjectId,
   WorkedExampleData,
 } from '../types/quiz';
 import {
@@ -33,31 +30,17 @@ import {
   playWrong,
 } from '../utils/sound';
 import { isSpeechSupported, speakText, stopSpeech } from '../utils/speech';
-import { getLevelFromXp } from '../utils/storage';
 import {
   buildHintLevels,
   buildWorkedExampleFromQuestion,
   pickEliminatedOptionIndices,
 } from '../utils/workedExample';
+import { BattleSummary, type BattleResult } from './BattleSummary';
 import { HeroSprite, MonsterSprite } from './GameSprites';
 import { QuestionVisual } from './QuestionVisual';
 import { WorkedExampleSplit } from './WorkedExampleSplit';
 
-export interface BattleResult {
-  stageId: string;
-  subjectId: SubjectId;
-  stageTitle: string;
-  stars: number;
-  xpEarned: number;
-  coinsEarned: number;
-  correctCount: number;
-  totalCount: number;
-  wrongQuestions: Question[];
-  solvedWrongIds: string[];
-  isReviewMode: boolean;
-  attemptOutcomes: QuestionAttemptOutcome[];
-  repairedCount: number;
-}
+export type { BattleResult };
 
 interface BattleArenaProps {
   stage: Stage;
@@ -65,6 +48,7 @@ interface BattleArenaProps {
   currentXp: number;
   previousStars?: number;
   isWrongReviewMode?: boolean;
+  battleMode?: BattleMode;
   focusMode?: boolean;
   speechSlowMode?: boolean;
   onToggleFocusMode?: () => void;
@@ -102,6 +86,7 @@ export function BattleArena({
   currentXp,
   previousStars = 0,
   isWrongReviewMode = false,
+  battleMode,
   focusMode = false,
   speechSlowMode = false,
   onToggleFocusMode,
@@ -109,6 +94,9 @@ export function BattleArena({
   onFinishBattle,
   onExit,
 }: BattleArenaProps) {
+  const effectiveBattleMode: BattleMode =
+    battleMode ?? (isWrongReviewMode ? 'wrong-review' : 'stage');
+  const isWrongReview = effectiveBattleMode === 'wrong-review';
   const isDynamic = isDynamicStage(stage);
   const [queue, setQueue] = useState<BattleQueueItem[]>(() =>
     isDynamic ? [] : toInitialQueue(stage.questions),
@@ -479,7 +467,7 @@ export function BattleArena({
       ? correctCount * 20 + maxCombo * 5 + (stars === 3 ? 30 : 0)
       : Math.max(10, correctCount * 8);
     const coinsEarned = survived
-      ? correctCount * (isWrongReviewMode ? 15 : 10) + maxCombo * 3 + stars * 10
+      ? correctCount * (isWrongReview ? 15 : 10) + maxCombo * 3 + stars * 10
       : Math.max(5, correctCount * 4);
 
     const result: BattleResult = {
@@ -493,7 +481,8 @@ export function BattleArena({
       totalCount,
       wrongQuestions,
       solvedWrongIds,
-      isReviewMode: isWrongReviewMode,
+      isReviewMode: isWrongReview,
+      battleMode: effectiveBattleMode,
       attemptOutcomes,
       repairedCount: repairedIds.length,
     };
@@ -518,9 +507,10 @@ export function BattleArena({
     baseQuestionCount,
     clearReadLock,
     correctCount,
+    effectiveBattleMode,
     focusMode,
     hearts,
-    isWrongReviewMode,
+    isWrongReview,
     maxCombo,
     onFinishBattle,
     repairedIds.length,
@@ -632,117 +622,18 @@ export function BattleArena({
   };
 
   if (finishedResult) {
-    const beforeLevel = getLevelFromXp(initialXpRef.current).level;
-    const afterLevel = getLevelFromXp(
-      initialXpRef.current + finishedResult.xpEarned,
-    ).level;
-    const leveledUp = afterLevel > beforeLevel;
-    const won = finishedResult.stars > 0;
-
     return (
-      <div className="mx-auto max-w-2xl px-4 py-8">
-        <div
-          className={`${focusMode ? '' : 'animate-pop-in '}rounded-3xl border-2 border-amber-200 bg-white p-6 text-center shadow-lg sm:p-8`}
-        >
-          <div className="flex justify-center">
-            <HeroSprite avatarId={selectedAvatarId} size={96} />
-          </div>
-
-          <h2 className="mt-3 text-3xl font-black text-slate-800">
-            {won ? '冒險大勝利！' : '差一點點就成功了！'}
-          </h2>
-          <p className="mt-1 text-sm font-bold text-slate-500">
-            {stage.title} · 答對 {finishedResult.correctCount} /{' '}
-            {finishedResult.totalCount} 題
-          </p>
-
-          <div className="my-5 flex items-center justify-center gap-3">
-            {[1, 2, 3].map((s) => (
-              <Star
-                key={s}
-                className={`h-12 w-12 transition-transform ${
-                  s <= finishedResult.stars
-                    ? 'scale-110 fill-amber-400 text-amber-500 drop-shadow-sm'
-                    : 'fill-slate-200 text-slate-300'
-                }`}
-              />
-            ))}
-          </div>
-
-          {leveledUp && (
-            <div className="mb-4 inline-flex items-center gap-2 rounded-2xl bg-gradient-to-r from-violet-500 to-fuchsia-500 px-4 py-2 text-sm font-black text-white shadow-sm">
-              <Sparkles className="h-4 w-4" />
-              <span>恭喜升級！目前等級 Lv.{afterLevel}</span>
-            </div>
-          )}
-
-          <div className="grid grid-cols-2 gap-3 rounded-2xl bg-amber-50 p-4 sm:grid-cols-3">
-            <div>
-              <div className="text-xs font-bold text-slate-500">獲得經驗值</div>
-              <div className="mt-0.5 text-2xl font-black text-violet-600">
-                +{finishedResult.xpEarned} XP
-              </div>
-            </div>
-            <div>
-              <div className="text-xs font-bold text-slate-500">獲得金幣</div>
-              <div className="mt-0.5 text-2xl font-black text-amber-600">
-                +{finishedResult.coinsEarned}
-              </div>
-            </div>
-            <div className="col-span-2 sm:col-span-1">
-              <div className="text-xs font-bold text-slate-500">最高連擊</div>
-              <div className="mt-0.5 text-2xl font-black text-rose-500">
-                {maxCombo} Combo
-              </div>
-            </div>
-          </div>
-
-          {finishedResult.repairedCount > 0 && (
-            <p className="mt-4 rounded-xl bg-teal-50 px-3 py-2 text-xs font-bold text-teal-800">
-              ✨ 本回合已透過即時重測修復了 {finishedResult.repairedCount} 題觀念！
-            </p>
-          )}
-
-          {finishedResult.isReviewMode &&
-            finishedResult.solvedWrongIds.length > 0 && (
-              <p className="mt-3 rounded-xl bg-emerald-50 px-3 py-2 text-xs font-bold text-emerald-800">
-                🌱 本回合完成複習 {finishedResult.solvedWrongIds.length}{' '}
-                題，FSRS 記憶引擎已自動推進下一次複習排程！
-              </p>
-            )}
-
-          {finishedResult.wrongQuestions.length > 0 && (
-            <p className="mt-3 rounded-xl bg-rose-50 px-3 py-2 text-xs font-bold text-rose-700">
-              這回合答錯的 {finishedResult.wrongQuestions.length}{' '}
-              題已排入「錯題本」FSRS 今日複習佇列，記得回來鞏固記憶喔！
-            </p>
-          )}
-
-          <div className="mt-6 flex flex-wrap justify-center gap-3">
-            {!isWrongReviewMode && (
-              <button
-                type="button"
-                onClick={handleRetry}
-                className="btn-3d inline-flex items-center gap-2 rounded-2xl bg-amber-400 px-5 py-3 text-base font-black text-slate-900 shadow-[0_4px_0_#d97706] hover:bg-amber-300"
-              >
-                <RotateCcw className="h-5 w-5" />
-                <span>{isDynamicStage(stage) ? '換新題再戰' : '再挑戰一次'}</span>
-              </button>
-            )}
-            <button
-              type="button"
-              onClick={() => {
-                playTap();
-                onExit();
-              }}
-              className="btn-3d inline-flex items-center gap-2 rounded-2xl border-2 border-slate-200 bg-white px-5 py-3 text-base font-black text-slate-700 shadow-[0_4px_0_#cbd5e1] hover:bg-slate-50"
-            >
-              <ArrowLeft className="h-5 w-5" />
-              <span>返回主畫面</span>
-            </button>
-          </div>
-        </div>
-      </div>
+      <BattleSummary
+        result={finishedResult}
+        stage={stage}
+        selectedAvatarId={selectedAvatarId}
+        initialXp={initialXpRef.current}
+        maxCombo={maxCombo}
+        focusMode={focusMode}
+        speechSlowMode={speechSlowMode}
+        onRetry={handleRetry}
+        onExit={onExit}
+      />
     );
   }
 

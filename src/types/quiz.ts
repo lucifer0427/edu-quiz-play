@@ -171,6 +171,13 @@ export interface QuestionAttemptOutcome {
   repairedInRound?: boolean;
 }
 
+export interface DailyStudyActivity {
+  date: string; // YYYY-MM-DD (local date)
+  answeredCount: number;
+  lessonsCompleted: number;
+  reviewsCompleted: number;
+}
+
 export interface PlayerProgress {
   schemaVersion?: number;
   nickname: string;
@@ -193,6 +200,10 @@ export interface PlayerProgress {
   selectedGrade?: Grade;
   selectedSemester?: Semester;
   selectedSubject?: SubjectId | 'all';
+  dailyGoalQuestions?: number;
+  studyStreakDays?: number;
+  lastStudyDate?: string;
+  dailyActivity?: DailyStudyActivity;
 }
 
 export interface LocalProfileMeta {
@@ -203,3 +214,5 @@ export interface LocalProfileMeta {
 }
 
 export type ActiveTab = 'map' | 'exam' | 'wrong' | 'shop' | 'teacher';
+
+export type BattleMode = 'stage' | 'wrong-review' | 'mock-exam';

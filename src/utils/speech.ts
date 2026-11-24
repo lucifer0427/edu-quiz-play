@@ -6,6 +6,29 @@ export interface SpeakOptions {
 }
 
 let activeAudio: HTMLAudioElement | null = null;
+let cachedVoices: SpeechSynthesisVoice[] = [];
+let voicesListenerRegistered = false;
+
+function getAvailableVoices(): SpeechSynthesisVoice[] {
+  if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
+    return [];
+  }
+  if (!voicesListenerRegistered) {
+    voicesListenerRegistered = true;
+    try {
+      window.speechSynthesis.addEventListener('voiceschanged', () => {
+        cachedVoices = window.speechSynthesis.getVoices();
+      });
+    } catch {
+      // Ignore browsers where speechSynthesis does not support addEventListener
+    }
+  }
+  const current = window.speechSynthesis.getVoices();
+  if (current.length > 0) {
+    cachedVoices = current;
+  }
+  return cachedVoices;
+}
 
 export function isSpeechSupported(): boolean {
   return (
@@ -63,7 +86,7 @@ function speakWithSynthesis(
   utterance.rate = resolveSpeechRate(lang, options?.grade, options?.slowMode);
   utterance.pitch = 1.05;
 
-  const voices = window.speechSynthesis.getVoices();
+  const voices = getAvailableVoices();
   if (voices.length > 0) {
     const exact = voices.find(
       (v) => v.lang.toLowerCase() === lang.toLowerCase(),
