@@ -174,6 +174,44 @@
             "Phonics Review",
             "Starter"
           ]
+        },
+        {
+          "id": "115-s1-g6-english-u0-q9",
+          "prompt": "在「World Map & Fast Facts」活動中，如果要用英文說「這座山高 3,000 公尺」：\"The mountain is three ___ meters high.\" 空格應填入哪一個字？",
+          "options": [
+            "thousand",
+            "hundred",
+            "percent",
+            "dollar"
+          ],
+          "answerIndex": 0,
+          "explanation": "「千」的英文是 thousand，所以 3,000 是 three thousand；hundred 是「百」，percent 是「百分比」。",
+          "hint": "想想看比 hundred 更大的單位「千」，英文怎麼說？",
+          "speechText": "The mountain is three thousand meters high.",
+          "speechLang": "en-US",
+          "tags": [
+            "Daily Numbers",
+            "Starter"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u0-q10",
+          "prompt": "在 Starter 單元練習生活中的數字，如果氣象主播說 \"The chance of rain is 50 percent.\"，這句話是什麼意思？",
+          "options": [
+            "現在氣溫是攝氏 50 度",
+            "今天降雨機率是百分之五十",
+            "雨傘特價 50 元",
+            "雨已經連續下了 50 分鐘"
+          ],
+          "answerIndex": 1,
+          "explanation": "chance of rain 指「降雨機率」，50 percent 就是「百分之五十（50%）」。",
+          "hint": "注意聽關鍵字 rain（下雨）和 percent（百分比）！",
+          "speechText": "The chance of rain is fifty percent.",
+          "speechLang": "en-US",
+          "tags": [
+            "Daily Numbers",
+            "Starter"
+          ]
         }
       ]
     },
@@ -346,6 +384,44 @@
             "Phonics",
             "ir/ur"
           ]
+        },
+        {
+          "id": "115-s1-g6-english-u1-q9",
+          "prompt": "認識不同國家的英文名稱：如果要說「我來自美國」或「我來自英國」，在美國（USA）和英國（UK）這兩個國名縮寫前面通常要加上哪一個定冠詞？",
+          "options": [
+            "a",
+            "an",
+            "the",
+            "in"
+          ],
+          "answerIndex": 2,
+          "explanation": "由聯合字首縮寫組成的國名（如 the USA、the UK）前面習慣加上定冠詞 the；單一國名如 Taiwan、Japan 則不加 the。",
+          "hint": "想一想課本句型 \"He is from ___ UK.\" 空格裡放什麼字？",
+          "speechText": "She is from the USA.",
+          "speechLang": "en-US",
+          "tags": [
+            "Countries",
+            "Unit 1"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u1-q10",
+          "prompt": "Phonics 拼讀挑戰：字尾音組 -or 在職業名詞中也常發 /ɚ/ 的音。下列哪一個表示「醫生」的英文單字拼寫正確？",
+          "options": [
+            "docter",
+            "doctur",
+            "doctar",
+            "doctor"
+          ],
+          "answerIndex": 3,
+          "explanation": "「醫生」的英文單字是 doctor，字尾是 -or；teacher（老師）、worker（工人）字尾則是 -er。",
+          "hint": "注意「醫生」的字尾不是 -er，而是 o 開頭的 -or 喔！",
+          "speechText": "doctor",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "Unit 1"
+          ]
         }
       ]
     },
@@ -516,6 +592,44 @@
           "speechLang": "en-US",
           "tags": [
             "Transportation",
+            "Unit 2"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u2-q9",
+          "prompt": "交通工具單字與介系詞應用：如果想表達「我們搭火車去高雄」：\"We go to Kaohsiung ___.\" 空格應填入哪一項？",
+          "options": [
+            "by train",
+            "on train",
+            "by foot",
+            "in bike"
+          ],
+          "answerIndex": 0,
+          "explanation": "搭乘交通工具（如火車 train、公車 bus、捷運 MRT）在英文中固定用「by + 交通工具（不加冠詞）」，唯獨步行是 on foot。",
+          "hint": "「搭火車」要用介系詞 by，後面直接加 train！",
+          "speechText": "We go to Kaohsiung by train.",
+          "speechLang": "en-US",
+          "tags": [
+            "Transportation",
+            "Unit 2"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u2-q10",
+          "prompt": "Phonics 拼讀挑戰：下列哪一組單字的畫線字母都發出與「park」相同的 /ɑr/ 音？",
+          "options": [
+            "fork / corn",
+            "star / card",
+            "bird / shirt",
+            "nurse / turn"
+          ],
+          "answerIndex": 1,
+          "explanation": "star 與 card 中的 ar 都發捲舌長音 /ɑr/，和 park、car 相同；fork/corn 發 /ɔr/，bird/shirt/nurse/turn 發 /ɝː/。",
+          "hint": "找一找兩個單字裡都有 ar 的選項！",
+          "speechText": "star, card, park",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
             "Unit 2"
           ]
         }
@@ -690,6 +804,44 @@
             "Phonics",
             "Review 1"
           ]
+        },
+        {
+          "id": "115-s1-g6-english-u3-q9",
+          "prompt": "Review 1 綜合對話：當同學問你 \"Are you from Korea?\"，如果你其實來自臺灣，下列哪一個否定回答最完整禮貌？",
+          "options": [
+            "Yes, I am from Taiwan.",
+            "No, I do not.",
+            "No, I'm not. I'm from Taiwan.",
+            "No, she is from Korea."
+          ],
+          "answerIndex": 2,
+          "explanation": "問句是用 be 動詞 Are you...? 提問，因此否定簡答用 \"No, I'm not.\"，接著補充說明自己來自臺灣 \"I'm from Taiwan.\"。",
+          "hint": "Are you...? 問句的否定簡答要使用 be 動詞 am not 喔！",
+          "speechText": "No, I'm not. I'm from Taiwan.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Countries"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u3-q10",
+          "prompt": "Review 1 Phonics 辨音：選出四個單字中，畫線音組發音「和其他三個不同」的選項：",
+          "options": [
+            "car",
+            "park",
+            "arm",
+            "corn"
+          ],
+          "answerIndex": 3,
+          "explanation": "car、park、arm 裡的 ar 都發 /ɑr/；corn 裡的 or 發 /ɔr/，發音與其他三個不同。",
+          "hint": "大聲唸唸看：car, park, arm, corn，哪一個不是 ar 的音？",
+          "speechText": "corn",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Phonics"
+          ]
         }
       ]
     },
@@ -860,6 +1012,44 @@
           "speechLang": "en-US",
           "tags": [
             "Dialogue",
+            "Unit 3"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u4-q9",
+          "prompt": "日常活動問答：\"Does your brother play basketball on weekends?\" 如果他週末都在家看書、不打籃球，應如何簡答？",
+          "options": [
+            "No, he doesn't.",
+            "No, he isn't.",
+            "Yes, he does.",
+            "No, I don't."
+          ],
+          "answerIndex": 0,
+          "explanation": "問句以助動詞 Does your brother...? 開頭，主詞 your brother 為第三人稱單數男性（he），因此否定簡答為 \"No, he doesn't.\"。",
+          "hint": "用 Does 問，否定簡答就要用 doesn't，主詞要用 he 代替 your brother！",
+          "speechText": "No, he doesn't.",
+          "speechLang": "en-US",
+          "tags": [
+            "Activities",
+            "Unit 3"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u4-q10",
+          "prompt": "Phonics 拼讀挑戰：下列哪一個英文單字含有「oy」音組（發 /ɔɪ/ 的音），意思是「男孩」？",
+          "options": [
+            "toy",
+            "boy",
+            "joy",
+            "coin"
+          ],
+          "answerIndex": 1,
+          "explanation": "boy 意為「男孩」，含有 oy 音組發 /ɔɪ/；toy 是玩具，joy 是喜悅，coin 是硬幣。",
+          "hint": "想想看「男孩」的英文怎麼拼？b-o-y！",
+          "speechText": "boy",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
             "Unit 3"
           ]
         }
@@ -1034,6 +1224,44 @@
             "Grammar",
             "Unit 4"
           ]
+        },
+        {
+          "id": "115-s1-g6-english-u5-q9",
+          "prompt": "生活作息英語片語：每天晚上吃完飯後「做功課」，在英文裡通常用哪一個動詞片語表達？",
+          "options": [
+            "get up",
+            "go to school",
+            "do my homework",
+            "have breakfast"
+          ],
+          "answerIndex": 2,
+          "explanation": "do my homework（或 do homework）表示「寫／做功課」；get up 是起床，go to school 是去上學，have breakfast 是吃早餐。",
+          "hint": "「功課」的英文是 homework，前面搭配動詞 do！",
+          "speechText": "I do my homework at seven.",
+          "speechLang": "en-US",
+          "tags": [
+            "Daily Routines",
+            "Unit 4"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u5-q10",
+          "prompt": "Phonics 拼讀挑戰：下列哪一個含「ow」音組的單字發音與「cow（乳牛）」相同，都是 /aʊ/ 的音？",
+          "options": [
+            "snow",
+            "window",
+            "yellow",
+            "brown"
+          ],
+          "answerIndex": 3,
+          "explanation": "brown 裡的 ow 發雙母音 /aʊ/，和 cow、owl 相同；snow、window、yellow 中的 ow 則發長母音 /oʊ/。",
+          "hint": "唸唸看「棕色」brown 和「乳牛」cow，母音是不是一樣呢？",
+          "speechText": "brown, cow",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "Unit 4"
+          ]
         }
       ]
     },
@@ -1205,6 +1433,44 @@
           "tags": [
             "Reading Comprehension",
             "Review 2"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u6-q9",
+          "prompt": "在「New Years Around the World」單元中，臺灣農曆新年常會發給孩子「紅包」祝福平安健康，請問「紅包」的英文怎麼說？",
+          "options": [
+            "red envelope",
+            "blue sky",
+            "green tree",
+            "white snow"
+          ],
+          "answerIndex": 0,
+          "explanation": "envelope 是「信封」，紅包在英文裡稱為 red envelope（或 lucky money）。",
+          "hint": "「紅色的信封」就是 red 加上信封 envelope！",
+          "speechText": "red envelope",
+          "speechLang": "en-US",
+          "tags": [
+            "Culture",
+            "New Year"
+          ]
+        },
+        {
+          "id": "115-s1-g6-english-u6-q10",
+          "prompt": "Review 2 句型排列：如果想用英文詢問「你爸爸幾點回家？」，下列哪一個語序完全正確？",
+          "options": [
+            "What time your dad does go home?",
+            "What time does your dad go home?",
+            "Does what time your dad goes home?",
+            "What time is your dad go home?"
+          ],
+          "answerIndex": 1,
+          "explanation": "詢問第三人稱單數作息時間的正確句型為「What time + does + 主詞 + 原形動詞 ...?」，因此應為 \"What time does your dad go home?\"。",
+          "hint": "疑問詞 What time 後面要先接助動詞 does，再接主詞和原形動詞 go！",
+          "speechText": "What time does your dad go home?",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Daily Routines"
           ]
         }
       ]

@@ -174,6 +174,44 @@
             "Starter",
             "Numbers 100-1000"
           ]
+        },
+        {
+          "id": "115-s2-g5-english-u0-q9",
+          "prompt": "在「Starter」數字暖身練習中，數字「315」的正確英文說法是哪一個？",
+          "options": [
+            "three hundred fifteen",
+            "thirty-five",
+            "three thousand fifteen",
+            "five hundred thirteen"
+          ],
+          "answerIndex": 0,
+          "explanation": "三位數 315 先唸百位 three hundred，再唸十五 fifteen，合起來是 three hundred fifteen（或 three hundred and fifteen）。",
+          "hint": "300 是 three hundred，15 是 fifteen 喔！",
+          "speechText": "three hundred fifteen",
+          "speechLang": "en-US",
+          "tags": [
+            "Starter",
+            "Numbers 100-1000"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u0-q10",
+          "prompt": "閱讀素養與數字應用：\"There are 620 Chinese books and 180 English books in the library.\" 請問圖書館裡這兩種書一共有幾本？",
+          "options": [
+            "seven hundred",
+            "eight hundred",
+            "nine hundred",
+            "six hundred eighty"
+          ],
+          "answerIndex": 1,
+          "explanation": "620 + 180 = 800，800 的英文是 eight hundred。",
+          "hint": "先把 620 加上 180，再想一想 800 的英文怎麼說！",
+          "speechText": "eight hundred",
+          "speechLang": "en-US",
+          "tags": [
+            "Starter",
+            "Reading"
+          ]
         }
       ]
     },
@@ -341,6 +379,44 @@
           "explanation": "this、that、they 的 th 是有聲子音 /ð/，念的時候喉嚨會震動；three、thin、thank 的 th 則是無聲子音 /θ/。",
           "hint": "用手摸著喉嚨念念看，哪一組的 th 喉嚨會震動？",
           "speechText": "this, that, they",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Phonics"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u1-q9",
+          "prompt": "Body Parts 身體部位字彙：如果吃太硬的東西或沒刷牙，哪一個部位會痛？\"My ___ hurts.\"",
+          "options": [
+            "hair",
+            "shoe",
+            "tooth",
+            "hat"
+          ],
+          "answerIndex": 2,
+          "explanation": "tooth 是「牙齒」，My tooth hurts. 表示「我的牙齒痛」；其餘選項分別為頭髮、鞋子和帽子。",
+          "hint": "沒刷牙最容易痛的身體部位是哪一個呢？",
+          "speechText": "My tooth hurts.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Body Parts"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u1-q10",
+          "prompt": "Phonics 字母拼讀挑戰：請選出含有「wh」音組（與 white 開頭同音）的單字：",
+          "options": [
+            "chair",
+            "sheep",
+            "think",
+            "whale"
+          ],
+          "answerIndex": 3,
+          "explanation": "whale 與 white 都含有子音組 wh；chair 為 ch、sheep 為 sh、think 為 th。",
+          "hint": "找找看哪一個單字是用 wh 開頭的喔！",
+          "speechText": "whale, white",
           "speechLang": "en-US",
           "tags": [
             "Unit 1",
@@ -518,6 +594,44 @@
             "Unit 2",
             "Phonics"
           ]
+        },
+        {
+          "id": "115-s2-g5-english-u2-q9",
+          "prompt": "病症單字辨識：\"David has a fever. His forehead feels very hot.\" 請問 David 的身體出了什麼狀況？",
+          "options": [
+            "他發燒了",
+            "他流鼻水",
+            "他牙齒痛",
+            "他扭傷腳踝"
+          ],
+          "answerIndex": 0,
+          "explanation": "have a fever 表示「發燒」，額頭（forehead）摸起來很燙（very hot）也呼應發燒的症狀。",
+          "hint": "fever 這個字和額頭很燙（hot）有直接關係喔！",
+          "speechText": "David has a fever.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Illness"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u2-q10",
+          "prompt": "文法挑戰（第三人稱單數）：想問「Mark 有沒有流鼻水（a runny nose）？」，下列哪一個問句完全正確？",
+          "options": [
+            "Do Mark have a runny nose?",
+            "Does Mark have a runny nose?",
+            "Is Mark has a runny nose?",
+            "Does Mark has a runny nose?"
+          ],
+          "answerIndex": 1,
+          "explanation": "主詞 Mark 為第三人稱單數，現在簡單式疑問句助動詞要用 Does，後面的動詞要還原為原形 have。",
+          "hint": "問第三人稱單數時要用 Does，後面的動詞要記得變回原形喔！",
+          "speechText": "Does Mark have a runny nose?",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Grammar"
+          ]
         }
       ]
     },
@@ -685,6 +799,44 @@
           "explanation": "whale, white, wheel 都以 wh 開頭；phone 則是以 ph 開頭發 /f/ 的音。",
           "hint": "前面三個都是 wh 開頭，找一個 ph 開頭的單字！",
           "speechText": "whale, white, wheel",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Phonics"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u3-q9",
+          "prompt": "期中複習情境對話：A: \"Does she have a cold?\" / B: \"Yes, she ___. She needs to rest.\" 空格應填入哪一個字？",
+          "options": [
+            "do",
+            "is",
+            "does",
+            "has"
+          ],
+          "answerIndex": 2,
+          "explanation": "用 Does 問的疑問句，肯定簡答也要用對應的助動詞 does 回答：\"Yes, she does.\"。",
+          "hint": "用什麼助動詞問，簡答就用同一個助動詞回答！",
+          "speechText": "Does she have a cold? Yes, she does.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u3-q10",
+          "prompt": "Phonics 期中複習：請選出同時含有「-ng」字尾音組的一組單字：",
+          "options": [
+            "pink, bank",
+            "ship, fish",
+            "chin, rich",
+            "sing, long"
+          ],
+          "answerIndex": 3,
+          "explanation": "sing 與 long 字尾都含有鼻音音組 -ng；pink/bank 為 -nk，ship/fish 為 sh，chin/rich 為 ch。",
+          "hint": "找找看兩個字結尾都是 -ng 的那一組！",
+          "speechText": "sing, long",
           "speechLang": "en-US",
           "tags": [
             "Review 1",
@@ -862,6 +1014,44 @@
             "Unit 3",
             "Food"
           ]
+        },
+        {
+          "id": "115-s2-g5-english-u4-q9",
+          "prompt": "點餐對話練習：A: \"What would you like for dinner?\" / B: \"I'd like some ___ and soup, please.\" 如果你想點「雞肉和湯」，空格該填哪個字？",
+          "options": [
+            "chicken",
+            "backpack",
+            "headache",
+            "crayon"
+          ],
+          "answerIndex": 0,
+          "explanation": "chicken 是「雞肉」，與 soup（湯）搭配是常見的晚餐餐點；其餘選項分別是背包、頭痛與蠟筆。",
+          "hint": "哪一個英文單字是可以吃的肉類呢？",
+          "speechText": "I'd like some chicken and soup, please.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Meals & Food"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u4-q10",
+          "prompt": "餐桌禮貌與點餐：當店員或朋友問你 \"Would you like some water?\"，如果你剛好口渴想要喝水，下列哪一個禮貌回答最正確？",
+          "options": [
+            "No, I am a teacher.",
+            "Yes, please.",
+            "Yes, I do.",
+            "No, thank you, I want water."
+          ],
+          "answerIndex": 1,
+          "explanation": "面對 \"Would you like...?\" 的禮貌詢問，想要時最自然禮貌的簡答是 \"Yes, please.\"。",
+          "hint": "想要對方提供的東西時，別忘了加上禮貌的 please 喔！",
+          "speechText": "Would you like some water? Yes, please.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Dialogue"
+          ]
         }
       ]
     },
@@ -1034,6 +1224,44 @@
             "Festival",
             "Dragon Boat Festival"
           ]
+        },
+        {
+          "id": "115-s2-g5-english-u5-q9",
+          "prompt": "物品所有格問答：A: \"Whose umbrella is this?\" / B: \"It's ___. She left it here.\" 如果這把雨傘是「她的」，空格應填入哪一個所有格代名詞？",
+          "options": [
+            "his",
+            "mine",
+            "hers",
+            "yours"
+          ],
+          "answerIndex": 2,
+          "explanation": "後句主詞為 She，對應的所有格代名詞「她的（東西）」是 hers（相當於 her umbrella）。",
+          "hint": "看下一句的提示 \"She left it here.\"，所以是「她的」喔！",
+          "speechText": "Whose umbrella is this? It's hers.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u5-q10",
+          "prompt": "端午節文化單字：在 The Dragon Boat Festival（端午節）的慶祝活動中，河面上熱鬧進行的「划龍舟比賽」，英文怎麼說？",
+          "options": [
+            "eat mooncakes",
+            "make a snowman",
+            "fly a kite",
+            "dragon boat race"
+          ],
+          "answerIndex": 3,
+          "explanation": "dragon boat race 指「龍舟比賽」；其餘選項分別為吃月餅、堆雪人和放風箏。",
+          "hint": "race 有「競賽、比賽」的意思，前面加上 dragon boat 就是龍舟賽囉！",
+          "speechText": "dragon boat race",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Festival"
+          ]
         }
       ]
     },
@@ -1205,6 +1433,44 @@
           "tags": [
             "Review 2",
             "Grammar"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u6-q9",
+          "prompt": "Review 2 情境閱讀：\"Dad asks, 'What would you like for lunch?' Amy says, 'I'd like some noodles and a glass of milk.' Then Dad finds a blue cap on the chair and asks, 'Whose cap is that?' Amy says, 'It's Tom's.'\" 根據短文，藍色帽子是誰的？",
+          "options": [
+            "It's Tom's.",
+            "It's Amy's.",
+            "It's Dad's.",
+            "It's Mom's."
+          ],
+          "answerIndex": 0,
+          "explanation": "短文最後 Amy 回答 \"It's Tom's.\"，表示藍色帽子（blue cap）是 Tom 的。",
+          "hint": "仔細看短文最後一句 Amy 回答爸爸的話喔！",
+          "speechText": "Whose cap is that? It's Tom's.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Reading"
+          ]
+        },
+        {
+          "id": "115-s2-g5-english-u6-q10",
+          "prompt": "「Let's Explore」國際教育與數字應用：學校舉辦國際文化週，星期六有 420 位家長與學生參加，星期日有 380 位參加，兩天總共有多少人參加？",
+          "options": [
+            "seven hundred",
+            "eight hundred",
+            "six hundred",
+            "nine hundred"
+          ],
+          "answerIndex": 1,
+          "explanation": "420 + 380 = 800，800 的英文讀作 eight hundred。",
+          "hint": "把 420 和 380 加起來，再選出正確的英文數字！",
+          "speechText": "eight hundred people",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Numbers"
           ]
         }
       ]

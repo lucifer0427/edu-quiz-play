@@ -175,6 +175,46 @@
             "Get Ready",
             "Phonics"
           ]
+        },
+        {
+          "id": "115-s2-g3-english-u0-q9",
+          "prompt": "上英語課時，老師請大家「把課本合起來」，準備進行小遊戲。這時候老師會說下面哪一句課室英語？",
+          "options": [
+            "Close your book, please.",
+            "Open your book, please.",
+            "Stand up, please.",
+            "Look at me, please."
+          ],
+          "answerIndex": 0,
+          "explanation": "「Close your book, please.」的意思是「請把你的書合起來」，和「Open your book」剛好相反。",
+          "hint": "「打開」是 open，那「關上、合起來」是哪一個動詞呢？",
+          "speechText": "Close your book, please.",
+          "speechLang": "en-US",
+          "tags": [
+            "Get Ready",
+            "Classroom English",
+            "課室英語"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u0-q10",
+          "prompt": "字母拼讀觀察力練習：比較單字「pen（原子筆）」和「ten（數字十）」，這兩個字有相同的結尾發音，它們在哪一個字母上不同？",
+          "options": [
+            "中間的母音 e 不同",
+            "開頭的子音 p 和 t 不同",
+            "結尾的子音 n 不同",
+            "兩個字的字母完全相同"
+          ],
+          "answerIndex": 1,
+          "explanation": "pen 是 p-e-n，ten 是 t-e-n，兩者開頭的子音字母分別是 p 和 t，後面的 -en 發音相同。",
+          "hint": "比對看看 pen 和 ten 的第一個字母。",
+          "speechText": "pen, ten",
+          "speechLang": "en-US",
+          "tags": [
+            "Get Ready",
+            "Phonics",
+            "字母拼讀"
+          ]
         }
       ]
     },
@@ -353,6 +393,46 @@
             "Unit 1",
             "Articles",
             "Grammar"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u1-q9",
+          "prompt": "在「Unit 1 Funny Animals」認識動物特徵時，想用英文描述一隻長耳朵、愛跳躍的「兔子」，應該選哪一個單字？",
+          "options": [
+            "tiger",
+            "lion",
+            "rabbit",
+            "turtle"
+          ],
+          "answerIndex": 2,
+          "explanation": "rabbit 是兔子；tiger 是老虎，lion 是獅子，turtle 是烏龜。",
+          "hint": "哪一個單字是指長耳朵、愛吃紅蘿蔔的小動物？",
+          "speechText": "a rabbit",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Animals",
+            "單字記憶"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u1-q10",
+          "prompt": "單複數變化練習：你在池塘邊數一數，共有「四隻青蛙（frog）」。下面哪一個英文寫法完全正確？",
+          "options": [
+            "four frog",
+            "a frogs",
+            "four froges",
+            "four frogs"
+          ],
+          "answerIndex": 3,
+          "explanation": "數量超過一隻時，可數名詞字尾要加 s，所以四隻青蛙是 four frogs。",
+          "hint": "數量是 four（4），名詞後面記得要怎麼變化？",
+          "speechText": "four frogs",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Plurals",
+            "單複數"
           ]
         }
       ]
@@ -534,6 +614,46 @@
             "Actions",
             "Vocabulary"
           ]
+        },
+        {
+          "id": "115-s2-g3-english-u2-q9",
+          "prompt": "在「Unit 2 Teamwork」中，你想用英文告訴大家「一隻青蛙會跳」，下面哪一個句子的文法與事實都正確？",
+          "options": [
+            "A frog can jump.",
+            "A frog can fly.",
+            "A frog can read.",
+            "A frog is jump."
+          ],
+          "answerIndex": 0,
+          "explanation": "表示「……會（做某動作）」要用「can + 原形動詞」，青蛙會跳，所以是「A frog can jump.」。",
+          "hint": "青蛙最擅長的動作是什麼？記得 can 後面直接加原形動詞喔！",
+          "speechText": "A frog can jump.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Can",
+            "動作句型"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u2-q10",
+          "prompt": "同學問你：「Can you draw?（你會畫畫嗎？）」，如果你想回答「會的，我會畫畫」，下面哪一個回答文法正確？",
+          "options": [
+            "Yes, I am.",
+            "No, I can.",
+            "Yes, I can.",
+            "Yes, you can."
+          ],
+          "answerIndex": 2,
+          "explanation": "用「Can you...?」發問時，肯定簡答要用「Yes, I can.」。",
+          "hint": "問句用 Can 開頭，回答「我會」也要用到 can 喔！",
+          "speechText": "Can you draw? Yes, I can.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Can",
+            "問答句型"
+          ]
         }
       ]
     },
@@ -710,6 +830,46 @@
           "tags": [
             "Review 1",
             "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u3-q9",
+          "prompt": "Review 1 拼讀複習：「dog（狗）」和「frog（青蛙）」都含有短母音 /ɑ/（o 的發音）或相似字尾。下面哪一組兩個單字都有短母音 /æ/（和 cat 的 a 一樣）？",
+          "options": [
+            "pig, big",
+            "hat, map",
+            "bed, red",
+            "box, fox"
+          ],
+          "answerIndex": 1,
+          "explanation": "hat 和 map 中的字母 a 都發短母音 /æ/，與 cat 相同；pig/big 是短母音 i，bed/red 是短母音 e，box/fox 是短母音 o。",
+          "hint": "找找看哪一組單字裡面都有字母 a 並且唸起來像 cat。",
+          "speechText": "hat, map",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Phonics",
+            "短母音"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u3-q10",
+          "prompt": "在 Review 1 的句型總整理中，看到小魚在水裡游來游去，想用英文問「魚會游泳嗎？」，哪一句問句完全正確？",
+          "options": [
+            "Is a fish swim?",
+            "Are a fish swim?",
+            "Do a fish swim?",
+            "Can a fish swim?"
+          ],
+          "answerIndex": 3,
+          "explanation": "詢問某個動物或人「會不會做某件事」，要用助動詞 Can 放在句首：「Can a fish swim?」。",
+          "hint": "問「會不會……」要使用哪一個字放在問句最前面？",
+          "speechText": "Can a fish swim?",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Can",
+            "疑問句"
           ]
         }
       ]
@@ -891,6 +1051,46 @@
             "Mother's Day",
             "Family Education"
           ]
+        },
+        {
+          "id": "115-s2-g3-english-u4-q9",
+          "prompt": "在「Unit 3 The Monster Parade」裡，你想介紹小怪獸「牠有一張大嘴巴（a big mouth）」，下面哪一句英文完全正確？",
+          "options": [
+            "It has a big mouth.",
+            "It have a big mouth.",
+            "It is a big mouth.",
+            "It has big mouths."
+          ],
+          "answerIndex": 0,
+          "explanation": "主詞是單數的 It（牠）時，表示「有……」動詞要使用 has，且一張嘴巴要用單數 a big mouth。",
+          "hint": "主詞是 It 的時候，「有」要用 have 還是 has？",
+          "speechText": "It has a big mouth.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Body Parts",
+            "外觀描述"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u4-q10",
+          "prompt": "Mother's Day 節慶單字練習：想在母親節送給媽媽一束美麗的「花」，「花」的英文單字是哪一個？",
+          "options": [
+            "cake",
+            "flower",
+            "card",
+            "gift"
+          ],
+          "answerIndex": 1,
+          "explanation": "flower 是花朵；cake 是蛋糕，card 是卡片，gift 是禮物。",
+          "hint": "Mother's Day 常送的康乃馨也是一種 flower 喔！",
+          "speechText": "Happy Mother's Day! Here is a flower for you.",
+          "speechLang": "en-US",
+          "tags": [
+            "Mother's Day",
+            "Festivals",
+            "節慶字彙"
+          ]
         }
       ]
     },
@@ -1071,6 +1271,46 @@
             "Family",
             "Sentence Pattern"
           ]
+        },
+        {
+          "id": "115-s2-g3-english-u5-q9",
+          "prompt": "在「Unit 4 Jello's Family」認識家庭成員時，下面哪一組英文單字「全部都是男性家庭成員」？",
+          "options": [
+            "mother, sister, aunt",
+            "father, mother, sister",
+            "father, brother, grandfather",
+            "grandmother, brother, uncle"
+          ],
+          "answerIndex": 2,
+          "explanation": "father（爸爸）、brother（兄弟）、grandfather（阿公／外公）都是男性家庭成員。",
+          "hint": "仔細檢查選項裡有沒有出現 mother、sister 或 grandmother 等女性稱謂。",
+          "speechText": "father, brother, grandfather",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Family",
+            "家人稱謂"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u5-q10",
+          "prompt": "職業單字拼讀與理解：同學指著一位在醫院幫忙照顧病人的護理師說：「She is a nurse.」請問「nurse」是指哪一種職業？",
+          "options": [
+            "老師",
+            "廚師",
+            "警察",
+            "護理師（護士）"
+          ],
+          "answerIndex": 3,
+          "explanation": "nurse 的中文意思是護理師（護士）；teacher 是老師，cook 是廚師，police officer 是警察。",
+          "hint": "在醫院裡穿著制服、細心照顧病人的是哪一種職業？",
+          "speechText": "She is a nurse.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Jobs",
+            "職業單字"
+          ]
         }
       ]
     },
@@ -1249,6 +1489,46 @@
             "Review 2",
             "Reading Literacy",
             "Comprehension"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u6-q9",
+          "prompt": "Review 2 綜合問答：同學指著你叔叔的照片問「Is he a doctor?（他是一位醫生嗎？）」，如果叔叔不是醫生而是老師，哪一個否定簡答文法正確？",
+          "options": [
+            "No, he isn't.",
+            "No, she isn't.",
+            "Yes, he is.",
+            "No, he can't."
+          ],
+          "answerIndex": 0,
+          "explanation": "問句是「Is he...?」，否定簡答要使用同一組代名詞與 be 動詞：「No, he isn't.」。",
+          "hint": "問句問的是男生 he，而且開頭是 Is，否定簡答要怎麼搭配？",
+          "speechText": "Is he a doctor? No, he isn't.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Jobs",
+            "簡答句型"
+          ]
+        },
+        {
+          "id": "115-s2-g3-english-u6-q10",
+          "prompt": "Review 2 閱讀理解：讀一讀這段話：「This is my mother. She is a teacher. She can sing and dance.」從這段話中，我們可以知道媽媽的職業是什麼？",
+          "options": [
+            "護理師",
+            "老師",
+            "廚師",
+            "醫生"
+          ],
+          "answerIndex": 1,
+          "explanation": "句子中提到「She is a teacher.」，teacher 的意思是老師。",
+          "hint": "找找看「She is a ...」後面寫了哪一個職業單字。",
+          "speechText": "This is my mother. She is a teacher.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Reading",
+            "閱讀理解"
           ]
         }
       ]

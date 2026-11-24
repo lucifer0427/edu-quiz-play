@@ -174,6 +174,44 @@
             "Healthy Habits",
             "NOP"
           ]
+        },
+        {
+          "id": "115-s2-g1-english-u1-q9",
+          "prompt": "在「NOP 健康密碼」裡，把大寫「N, O, P」排好隊，最後一個是哪一個字母？",
+          "options": [
+            "P",
+            "N",
+            "O",
+            "M"
+          ],
+          "answerIndex": 0,
+          "explanation": "N、O、P 照順序唸，第一個是 N，第二個是 O，最後一個是 P。",
+          "hint": "唸唸看 N, O, P，最後唸出來的是誰？",
+          "speechText": "N, O, P",
+          "speechLang": "en-US",
+          "tags": [
+            "NOP",
+            "Alphabet Order"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u1-q10",
+          "prompt": "小寫字母「n」和「p」都學過了，下面哪一組小寫字母全部屬於「N, O, P」？",
+          "options": [
+            "m, o, q",
+            "n, o, p",
+            "n, a, p",
+            "h, o, b"
+          ],
+          "answerIndex": 1,
+          "explanation": "N、O、P 對應的小寫字母分別是 n、o、p。",
+          "hint": "三個字母都要是 N、O、P 的小寫好朋友喔！",
+          "speechText": "n, o, p",
+          "speechLang": "en-US",
+          "tags": [
+            "NOP",
+            "Uppercase & Lowercase"
+          ]
         }
       ]
     },
@@ -341,6 +379,44 @@
           "explanation": "在公共場所照順序排隊、不推擠喧嘩，才是有禮貌又安全的小學生。",
           "hint": "大家都想參觀的時候，怎麼排隊才安全又守秩序呢？",
           "speechText": "Line up, please.",
+          "speechLang": "en-US",
+          "tags": [
+            "Public Manners",
+            "Field Trip"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u2-q9",
+          "prompt": "把「Q, R, S」三個大寫字母變成小寫字母，下面哪一組全部都對？",
+          "options": [
+            "p, r, s",
+            "q, n, s",
+            "q, r, s",
+            "g, r, z"
+          ],
+          "answerIndex": 2,
+          "explanation": "大寫 Q 配小寫 q，大寫 R 配小寫 r，大寫 S 配小寫 s。",
+          "hint": "注意 q 的圓圈在左邊，r 有一根直直的小樹幹和彎彎葉子喔！",
+          "speechText": "q, r, s",
+          "speechLang": "en-US",
+          "tags": [
+            "QRS",
+            "Uppercase & Lowercase"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u2-q10",
+          "prompt": "在「實地考察」練習不同情境的說話音量！在熱鬧的操場和安靜的圖書館，音量應該怎麼調整？",
+          "options": [
+            "在圖書館要大聲喊叫",
+            "不管在哪裡都用力大叫",
+            "在操場和圖書館都完全不能說話",
+            "在圖書館輕聲細語，到戶外操場才放大音量"
+          ],
+          "answerIndex": 3,
+          "explanation": "在安靜的室內公共場所要輕聲細語，才不會打擾別人，這是有禮貌的好表現。",
+          "hint": "想一想，在安靜的圖書館要怎麼說話才不會吵到大家？",
+          "speechText": "Q, R, S",
           "speechLang": "en-US",
           "tags": [
             "Public Manners",
@@ -518,6 +594,44 @@
             "Greeting",
             "Friendship"
           ]
+        },
+        {
+          "id": "115-s2-g1-english-u3-q9",
+          "prompt": "早上進教室看到老師，想要用英文有禮貌地打招呼說「哈囉！」，要說哪一個字？",
+          "options": [
+            "Hello",
+            "Bye",
+            "Sorry",
+            "No"
+          ],
+          "answerIndex": 0,
+          "explanation": "「Hello」是親切又好用的英文打招呼用語，意思是「哈囉、你好」。",
+          "hint": "想一想平常見面最常說的打招呼英文是哪一個字！",
+          "speechText": "Hello!",
+          "speechLang": "en-US",
+          "tags": [
+            "Greeting",
+            "Hello"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u3-q10",
+          "prompt": "在早安健康操「H, E, Y」裡面，排在中間的字母「E」，它的小寫長成什麼樣子？",
+          "options": [
+            "c",
+            "e",
+            "a",
+            "o"
+          ],
+          "answerIndex": 1,
+          "explanation": "大寫「E」的小寫是「e」，中間有一條橫線連著圓圓的弧度。",
+          "hint": "「e」的肚子中間有一條小橫線喔！",
+          "speechText": "E, e",
+          "speechLang": "en-US",
+          "tags": [
+            "HEY",
+            "Uppercase & Lowercase"
+          ]
         }
       ]
     },
@@ -689,6 +803,44 @@
           "tags": [
             "Invitation",
             "Let's play!"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u4-q9",
+          "prompt": "大寫字母「Y」像張開雙手歡呼的小樹枝，它配對的小寫字母是哪一個？",
+          "options": [
+            "v",
+            "w",
+            "y",
+            "x"
+          ],
+          "answerIndex": 2,
+          "explanation": "大寫「Y」的小寫是「y」，下面有一條斜斜的小尾巴。",
+          "hint": "找找看小寫裡面有長長斜尾巴的那一個字母！",
+          "speechText": "Y, y",
+          "speechLang": "en-US",
+          "tags": [
+            "WXYZ",
+            "Uppercase & Lowercase"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u4-q10",
+          "prompt": "把最後四個大寫字母「W, X, Y, Z」全部變成小寫，下面哪一組完全正確？",
+          "options": [
+            "v, x, y, z",
+            "w, s, y, z",
+            "w, x, u, s",
+            "w, x, y, z"
+          ],
+          "answerIndex": 3,
+          "explanation": "W、X、Y、Z 的小寫依序是 w、x、y、z，形狀都和大寫很像喔！",
+          "hint": "這四個字母的小寫幾乎只是把大寫縮小一點點而已喔！",
+          "speechText": "w, x, y, z",
+          "speechLang": "en-US",
+          "tags": [
+            "WXYZ",
+            "Uppercase & Lowercase"
           ]
         }
       ]

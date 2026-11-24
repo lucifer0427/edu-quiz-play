@@ -175,6 +175,46 @@
             "Get Ready",
             "Uppercase & Lowercase"
           ]
+        },
+        {
+          "id": "115-s1-g3-english-u0-q9",
+          "prompt": "在「Get Ready」認識 26 個英文字母時，哪一個英文單字的開頭字母是「B / b」？",
+          "options": [
+            "book（書本）",
+            "apple（蘋果）",
+            "cat（貓）",
+            "dog（狗）"
+          ],
+          "answerIndex": 0,
+          "explanation": "book（書本）的第一個字母是 b，而 apple 以 a 開頭、cat 以 c 開頭、dog 以 d 開頭。",
+          "hint": "念念看這四個字，哪一個字的開頭發音是 /b/ 呢？",
+          "speechText": "book",
+          "speechLang": "en-US",
+          "tags": [
+            "Get Ready",
+            "字母認讀",
+            "字首字母"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u0-q10",
+          "prompt": "在「Get Ready」練習英文字母順序時，排在英文字母表最前面、同時也是英語世界裡最常當作第一名的字母是哪一個？",
+          "options": [
+            "Z",
+            "A",
+            "M",
+            "T"
+          ],
+          "answerIndex": 1,
+          "explanation": "26 個英文字母從 A 開始排到 Z，所以排在最前面第一個的字母是 A。",
+          "hint": "唱一唱 ABC 字母歌，第一個唱出來的字母是什麼？",
+          "speechText": "A, B, C",
+          "speechLang": "en-US",
+          "tags": [
+            "Get Ready",
+            "字母順序",
+            "26個字母"
+          ]
         }
       ]
     },
@@ -346,6 +386,46 @@
           "tags": [
             "Age",
             "Listening & Reading"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u1-q9",
+          "prompt": "在「Unit 1 The Birthday Party」練習數字 1 到 10 時，下面哪一組英文數字的順序是「從小到大」依序排列？",
+          "options": [
+            "three, one, two",
+            "five, four, three",
+            "six, seven, eight",
+            "ten, eight, nine"
+          ],
+          "answerIndex": 2,
+          "explanation": "six（6）、seven（7）、eight（8）是依照 6、7、8 由小到大的正確數字順序排列。",
+          "hint": "用英文從 1 數到 10，哪一組數字是順著數下去的？",
+          "speechText": "six, seven, eight",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "數字單字",
+            "順序排列"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u1-q10",
+          "prompt": "如果在生日派對上想要用英文「許一個願望」或表示自己「6 歲」，下面哪一句話正確表達了「我六歲」？",
+          "options": [
+            "I am ten years old.",
+            "I am eight years old.",
+            "I am nine years old.",
+            "I am six years old."
+          ],
+          "answerIndex": 3,
+          "explanation": "數字 6 的英文是 six，所以「我六歲」要說 I am six years old.",
+          "hint": "先想一想數字 6 的英文單字是哪一個？",
+          "speechText": "I am six years old.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "年齡句型",
+            "數字表達"
           ]
         }
       ]
@@ -520,6 +600,46 @@
             "Feelings",
             "Character Education"
           ]
+        },
+        {
+          "id": "115-s1-g3-english-u2-q9",
+          "prompt": "在「Unit 2 Poor Kevin」學習情緒與感覺單字時，下面哪一個英文單字的意思是「生病的」？",
+          "options": [
+            "sick",
+            "happy",
+            "tall",
+            "ten"
+          ],
+          "answerIndex": 0,
+          "explanation": "sick 的中文意思是「生病的」，happy 是開心的，tall 是高的，ten 是數字十。",
+          "hint": "同學感冒不舒服時，可以用哪一個形容詞來描述？",
+          "speechText": "sick",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "感覺單字",
+            "情緒與感覺"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u2-q10",
+          "prompt": "在太陽底下跑跳流了好多汗，覺得好口渴想喝水，下面哪一個英文單字意思是「口渴的」？",
+          "options": [
+            "hungry",
+            "thirsty",
+            "angry",
+            "happy"
+          ],
+          "answerIndex": 1,
+          "explanation": "thirsty 的意思是「口渴的」，hungry 是肚子餓的，angry 是生氣的，happy 是開心的。",
+          "hint": "想喝水的時候是 thirsty，想吃東西的時候才是 hungry 喔！",
+          "speechText": "I am thirsty.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "感覺單字",
+            "生活英語"
+          ]
         }
       ]
     },
@@ -692,6 +812,46 @@
           "tags": [
             "Review 1",
             "Age"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u3-q9",
+          "prompt": "在「Review 1」複習單字與字母時，請問「happy（開心的）」這個單字總共有幾個英文字母？",
+          "options": [
+            "3 個",
+            "4 個",
+            "5 個",
+            "6 個"
+          ],
+          "answerIndex": 2,
+          "explanation": "h-a-p-p-y 一共有 5 個英文字母。",
+          "hint": "拼拼看 h-a-p-p-y，一個一個數一數！",
+          "speechText": "happy",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "單字拼讀",
+            "字母計數"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u3-q10",
+          "prompt": "「Review 1」問答配對複習：當別人對你說「Thank you!（謝謝你！）」，用哪一句英文禮貌回應「不客氣」最自然？",
+          "options": [
+            "Happy birthday!",
+            "How old are you?",
+            "I am sad.",
+            "You're welcome!"
+          ],
+          "answerIndex": 3,
+          "explanation": "聽到 Thank you! 時，回答 You're welcome!（不客氣）是最自然有禮貌的英語對話。",
+          "hint": "哪一句話的意思是「不客氣」？",
+          "speechText": "You're welcome!",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "禮貌對話",
+            "句型複習"
           ]
         }
       ]
@@ -866,6 +1026,46 @@
             "Toys",
             "Sentence Pattern"
           ]
+        },
+        {
+          "id": "115-s1-g3-english-u4-q9",
+          "prompt": "在「Unit 3 At B&J’s Toys」認識常見玩具單字時，下面哪一個英文單字代表「洋娃娃」？",
+          "options": [
+            "doll",
+            "ball",
+            "car",
+            "kite"
+          ],
+          "answerIndex": 0,
+          "explanation": "doll 是「洋娃娃」，ball 是球，car 是玩具車，kite 是風箏。",
+          "hint": "跟 ball（球）只差第一個字母喔！",
+          "speechText": "It is a doll.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "玩具單字",
+            "常見玩具"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u4-q10",
+          "prompt": "當朋友問你「Is it a kite?（它是一個風箏嗎？）」，但盒子裡其實是一隻玩具機器人（robot），應該怎麼否定回答？",
+          "options": [
+            "Yes, it is.",
+            "No, it isn't. It is a robot.",
+            "Happy birthday!",
+            "I am nine years old."
+          ],
+          "answerIndex": 1,
+          "explanation": "否定回答要用 No, it isn't.，接著可以補充正確的玩具名稱 It is a robot.。",
+          "hint": "不是風箏的時候，開頭要用 Yes 還是 No 呢？",
+          "speechText": "No, it isn't.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "句型問答",
+            "否定回答"
+          ]
         }
       ]
     },
@@ -1037,6 +1237,46 @@
           "tags": [
             "Merry Christmas",
             "Culture & Festivals"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u5-q9",
+          "prompt": "在「Unit 4 Baby Dragon’s Toys」學習顏色與玩具搭配時，如果想表達「一顆黃色的球」，下面哪一句英文最正確？",
+          "options": [
+            "a blue kite",
+            "a red car",
+            "a yellow ball",
+            "a green doll"
+          ],
+          "answerIndex": 2,
+          "explanation": "yellow 是「黃色的」，ball 是「球」，所以「一顆黃色的球」是 a yellow ball。",
+          "hint": "先找出「黃色」和「球」的英文單字組合。",
+          "speechText": "a yellow ball",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "顏色單字",
+            "名詞片語"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u5-q10",
+          "prompt": "在「Merry Christmas!」節慶課程中，大家常會看到在屋頂或雪橇上送禮物的「聖誕老公公」，他的英文稱呼是哪一個？",
+          "options": [
+            "Baby Dragon",
+            "Birthday Cake",
+            "Poor Kevin",
+            "Santa Claus"
+          ],
+          "answerIndex": 3,
+          "explanation": "Santa Claus 就是聖誕節傳說中會在平安夜送給小朋友禮物的「聖誕老公公」。",
+          "hint": "聖誕節最受小朋友歡迎、穿紅衣服的白鬍子爺爺是誰？",
+          "speechText": "Santa Claus",
+          "speechLang": "en-US",
+          "tags": [
+            "Merry Christmas",
+            "節慶文化",
+            "單字認讀"
           ]
         }
       ]
@@ -1210,6 +1450,46 @@
           "tags": [
             "Review 2",
             "Colors & Toys"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u6-q9",
+          "prompt": "在「Review 2」總複習數字與顏色時，下面哪一個選項裡「兩個字都是顏色」？",
+          "options": [
+            "blue, yellow",
+            "seven, kite",
+            "robot, happy",
+            "sad, ten"
+          ],
+          "answerIndex": 0,
+          "explanation": "blue（藍色）和 yellow（黃色）都是顏色單字；其他選項混合了數字、玩具或情緒單字。",
+          "hint": "找找看哪一組全部都是用來畫畫塗色的詞彙？",
+          "speechText": "blue, yellow",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "詞彙分類",
+            "顏色複習"
+          ]
+        },
+        {
+          "id": "115-s1-g3-english-u6-q10",
+          "prompt": "「Review 2」情境對話總複習：聖誕節當天收到好朋友送的藍色玩具車禮物時，下面哪一組英文對話最適合？",
+          "options": [
+            "How old are you? / I am sad.",
+            "Is it a kite? / Yes, I am hungry.",
+            "Merry Christmas! Thank you! / You're welcome!",
+            "What color is it? / I am eight years old."
+          ],
+          "answerIndex": 2,
+          "explanation": "聖誕節收到禮物時祝對方 Merry Christmas! 並說 Thank you!，對方回答 You're welcome!，是最完整且符合情境的對話。",
+          "hint": "收到聖誕禮物時，要先祝福節日快樂並道謝喔！",
+          "speechText": "Merry Christmas! Thank you!",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "情境對話",
+            "節慶英語"
           ]
         }
       ]

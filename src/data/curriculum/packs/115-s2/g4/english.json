@@ -175,6 +175,46 @@
             "Starter",
             "Numbers 21-30"
           ]
+        },
+        {
+          "id": "115-s2-g4-english-u0-q9",
+          "prompt": "Starter 數字 21–30 拼寫挑戰：數字「29」的正確英文拼法是哪一個？",
+          "options": [
+            "twenty-nine",
+            "twenty-five",
+            "nineteen",
+            "thirty-nine"
+          ],
+          "answerIndex": 0,
+          "explanation": "21 到 29 的英文拼法都是先寫 twenty（20），加上連字號後再接個位數，所以 29 是 twenty-nine；nineteen 是 19。",
+          "hint": "20 是 twenty，9 是 nine，中間記得加上連字號喔！",
+          "speechText": "twenty-nine",
+          "speechLang": "en-US",
+          "tags": [
+            "Starter",
+            "數字21-30",
+            "單字拼寫"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u0-q10",
+          "prompt": "分辨易混淆的英文數字：下列哪一個英文單字代表「30」，而不是「13」？",
+          "options": [
+            "thirteen",
+            "thirty",
+            "three",
+            "twenty-three"
+          ],
+          "answerIndex": 1,
+          "explanation": "thirty（字尾 -ty）是 30；thirteen（字尾 -teen）是 13；three 是 3；twenty-three 是 23。",
+          "hint": "十幾（13–19）的字尾是 -teen，整十（20, 30）的字尾是 -ty！",
+          "speechText": "thirty",
+          "speechLang": "en-US",
+          "tags": [
+            "Starter",
+            "數字21-30",
+            "字彙辨析"
+          ]
         }
       ]
     },
@@ -351,6 +391,46 @@
             "Phonics",
             "Short Vowel a"
           ]
+        },
+        {
+          "id": "115-s2-g4-english-u1-q9",
+          "prompt": "現在時間是「8 點 15 分（8:15）」。當同學問你 \"What time is it?\" 時，下列哪一個英文回答最正確？",
+          "options": [
+            "It's eight fifty.",
+            "It's eight o'clock.",
+            "It's eight fifteen.",
+            "It's fifteen eight."
+          ],
+          "answerIndex": 2,
+          "explanation": "英文報讀時刻要先唸小時再唸分鐘：8 是 eight、15 是 fifteen，所以 8:15 唸作 It's eight fifteen.。",
+          "hint": "先唸小時 8（eight），再唸分鐘 15（fifteen）喔！",
+          "speechText": "What time is it? It's eight fifteen.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "時間表達",
+            "生活對話"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u1-q10",
+          "prompt": "Phonics 音組辨識：比較短母音 -i- 與長母音 -i_e，下面哪一個單字的母音發長音 /aɪ/（與「bike」同音組）？",
+          "options": [
+            "sit",
+            "pig",
+            "big",
+            "kite"
+          ],
+          "answerIndex": 3,
+          "explanation": "kite 字尾有不發音的 e（-i_e 音組），所以母音 i 發長音 /aɪ/，和 bike、time 相同；sit、pig、big 都是短母音 -i-。",
+          "hint": "找找看哪一個單字結尾有不發音的魔法 e（-i_e）！",
+          "speechText": "bike, kite",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Phonics",
+            "長短母音"
+          ]
         }
       ]
     },
@@ -524,6 +604,46 @@
           "tags": [
             "Unit 2",
             "Actions"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u2-q9",
+          "prompt": "現在進行式動詞拼字規則：要把動詞 \"write\"（寫字）放進句子 \"I am ___.\" 表示「我正在寫字」，下列哪一個拼法完全正確？",
+          "options": [
+            "writing",
+            "writeing",
+            "write",
+            "writting"
+          ],
+          "answerIndex": 0,
+          "explanation": "以不發音的 e 結尾的動詞（如 write）改成現在進行式時，要先去掉字尾的 e 再加上 -ing，變成 writing。",
+          "hint": "write 字尾有一個不發音的 e，加 -ing 之前記得先把 e 去掉喔！",
+          "speechText": "I am writing.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "現在進行式",
+            "文法規則"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u2-q10",
+          "prompt": "在「Festival: Easter」節慶文化單元中，復活節（Easter）除了彩繪彩蛋之外，小朋友最常在草地或花園裡玩什麼傳統遊戲？",
+          "options": [
+            "包粽子與划龍舟比賽",
+            "尋找藏起來的復活節彩蛋（egg hunt）",
+            "提著燈籠猜元宵燈謎",
+            "在門口貼春聯與放鞭炮"
+          ],
+          "answerIndex": 1,
+          "explanation": "復活節經典活動包括彩繪復活節彩蛋（Easter eggs）與尋蛋遊戲（egg hunt），傳說復活節兔會把彩蛋藏起來讓孩子尋找。",
+          "hint": "想一想 Easter bunny（復活節兔）會把什麼東西藏在花園裡讓大家找？",
+          "speechText": "Happy Easter! Let's look for Easter eggs.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Easter",
+            "節慶文化"
           ]
         }
       ]
@@ -701,6 +821,46 @@
             "Phonics",
             "Short Vowel o"
           ]
+        },
+        {
+          "id": "115-s2-g4-english-u3-q9",
+          "prompt": "Review 1 校園作息對話：下午 3 點 30 分放學了，想用英文對同學說「現在是三點半，該回家了」，哪一句文法與語意完全正確？",
+          "options": [
+            "It's three thirty. It's time to going home.",
+            "What time is it? I am home.",
+            "It's three thirty. It's time to go home.",
+            "It's thirty three. Let's go to school."
+          ],
+          "answerIndex": 2,
+          "explanation": "3:30 說成 It's three thirty.；「該回家了」用 It's time to + 原形動詞，寫成 It's time to go home.。",
+          "hint": "to 後面要接原形動詞 go，時間 3:30 先唸 three 再唸 thirty！",
+          "speechText": "It's three thirty. It's time to go home.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "時間與動作",
+            "文法句型"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u3-q10",
+          "prompt": "Phonics 音組複習：請選出「兩個單字都含有長母音 -o_e（發 /oʊ/ 音）」的選項：",
+          "options": [
+            "dog, box",
+            "hot, pot",
+            "bed, pet",
+            "home, note"
+          ],
+          "answerIndex": 3,
+          "explanation": "home 和 note 都是 -o_e 長母音音組，母音 o 發 /oʊ/；dog、box、hot、pot 都是短母音 -o-；bed、pet 是短母音 -e-。",
+          "hint": "找兩個字尾都有不發音 e，而且母音是 o 的單字！",
+          "speechText": "home, note",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Phonics",
+            "長短母音"
+          ]
         }
       ]
     },
@@ -876,6 +1036,46 @@
             "Dialogue",
             "Rooms"
           ]
+        },
+        {
+          "id": "115-s2-g4-english-u4-q9",
+          "prompt": "房間名稱單字：全家人每天聚在一起吃晚餐（eat dinner）的「餐廳／飯廳」，英文說法是哪一個？",
+          "options": [
+            "dining room",
+            "bedroom",
+            "bathroom",
+            "living room"
+          ],
+          "answerIndex": 0,
+          "explanation": "dining room 是吃飯的餐廳／飯廳；bedroom 是臥室、bathroom 是浴室、living room 是客廳。",
+          "hint": "和 dinner（晚餐）拼起來很像的那個房間名稱喔！",
+          "speechText": "dining room",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "房間名稱",
+            "單字記憶"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u4-q10",
+          "prompt": "空間對話主詞切換：媽媽問你 \"Where is Amy?\"（艾美在哪裡？），如果你看到姊姊 Amy 正在「廚房」幫忙，哪一句英文回答正確？",
+          "options": [
+            "He's in the kitchen.",
+            "She's in the kitchen.",
+            "It's on the kitchen.",
+            "I'm in the bedroom."
+          ],
+          "answerIndex": 1,
+          "explanation": "Amy 是女生，回答時主詞代名詞要用 She's（She is），在房間裡面用介系詞 in，所以是 She's in the kitchen.。",
+          "hint": "Amy 是女生要用 She's，在廚房裡面用介系詞 in 喔！",
+          "speechText": "Where is Amy? She's in the kitchen.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "空間對話",
+            "代名詞"
+          ]
         }
       ]
     },
@@ -1049,6 +1249,46 @@
             "Unit 4",
             "Phonics",
             "Short Vowel u"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u5-q9",
+          "prompt": "方位介系詞與單數物品代名詞：妹妹問你 \"Where's my bag?\"（我的書包在哪裡？），如果書包正放在椅子「上面」，應該怎麼回答？",
+          "options": [
+            "I'm on the chair.",
+            "It's under the chair.",
+            "It's on the chair.",
+            "It's in the chair."
+          ],
+          "answerIndex": 2,
+          "explanation": "bag 是單數物品，代名詞要用 It's；在椅子「上面」要用介系詞 on，所以回答 It's on the chair.。",
+          "hint": "書包是物品要用 It's，「上面」的介系詞是 on！",
+          "speechText": "Where's my bag? It's on the chair.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "方位介系詞",
+            "代名詞"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u5-q10",
+          "prompt": "Phonics 音組辨識：比較短母音 -u- 與長母音 -u_e，下面哪一個單字含有長母音「-u_e」（與「cute」同音組）？",
+          "options": [
+            "cup",
+            "bus",
+            "duck",
+            "cube"
+          ],
+          "answerIndex": 3,
+          "explanation": "cube 字尾有不發音的 e，屬於長母音 -u_e 音組，與 cute、tube 相同；cup、bus、duck 都是短母音 -u-。",
+          "hint": "找一個字母 u 後面有子音再加上不發音 e 的單字！",
+          "speechText": "cute, cube",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Phonics",
+            "長短母音"
           ]
         }
       ]
@@ -1224,6 +1464,46 @@
           "tags": [
             "Final Review",
             "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u6-q9",
+          "prompt": "全冊綜合閱讀：\"It's seven o'clock. Mom is in the kitchen, and my brother is in the bedroom.\" 根據這段句子，請問「弟弟」現在在哪裡？",
+          "options": [
+            "在臥室（bedroom）裡",
+            "在廚房（kitchen）裡",
+            "在浴室（bathroom）裡",
+            "在客廳（living room）裡"
+          ],
+          "answerIndex": 0,
+          "explanation": "句中寫著 \"my brother is in the bedroom\"，所以弟弟在臥室（bedroom）裡，媽媽（Mom）才在廚房（kitchen）。",
+          "hint": "找一找句子後半段 \"my brother is in the ...\" 後面接的是哪一個房間！",
+          "speechText": "My brother is in the bedroom.",
+          "speechLang": "en-US",
+          "tags": [
+            "Final Review",
+            "閱讀理解",
+            "房間名稱"
+          ]
+        },
+        {
+          "id": "115-s2-g4-english-u6-q10",
+          "prompt": "文化單元「Landmarks Around the World」：世界著名的「Eiffel Tower（艾菲爾鐵塔）」是下列哪一座城市與國家的代表地標？",
+          "options": [
+            "臺灣臺北（Taipei, Taiwan）",
+            "法國巴黎（Paris, France）",
+            "日本東京（Tokyo, Japan）",
+            "美國紐約（New York, USA）"
+          ],
+          "answerIndex": 1,
+          "explanation": "艾菲爾鐵塔（Eiffel Tower）位於法國巴黎，是世界聞名的代表性地標；Taipei 101 位於臺灣臺北。",
+          "hint": "艾菲爾鐵塔是歐洲浪漫之都巴黎的著名地標喔！",
+          "speechText": "Eiffel Tower is in Paris, France.",
+          "speechLang": "en-US",
+          "tags": [
+            "Culture",
+            "世界地標",
+            "國際教育"
           ]
         }
       ]

@@ -174,6 +174,44 @@
             "Nn-Zz",
             "Alphabet Order"
           ]
+        },
+        {
+          "id": "115-s2-g2-english-u1-q9",
+          "prompt": "唱字母歌練習「Nn 到 Zz」時，排在大寫字母「Q, R」後面的字母是誰？",
+          "options": [
+            "S",
+            "T",
+            "P",
+            "O"
+          ],
+          "answerIndex": 0,
+          "explanation": "字母順序是 ... N, O, P, Q, R, S, T，所以 Q、R 後面是 S。",
+          "hint": "唸唸看 P, Q, R, ___，下一個是誰呢？",
+          "speechText": "Q, R, S",
+          "speechLang": "en-US",
+          "tags": [
+            "Nn-Zz",
+            "Alphabet Order"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u1-q10",
+          "prompt": "在繪本《The Crocodile and the Dentist》裡，如果鱷魚害怕看牙醫，我們可以怎麼安慰牠？",
+          "options": [
+            "跟牠說以後永遠不要刷牙了",
+            "鼓勵牠勇敢張開嘴巴讓牙醫檢查，牙齒才不會痛",
+            "叫牠用力咬牙醫的手",
+            "叫牠躲起來不要去看醫生"
+          ],
+          "answerIndex": 1,
+          "explanation": "勇敢配合牙醫檢查並養成每天刷牙的好習慣，牙齒才會健康不痛痛。",
+          "hint": "想一想，怎樣才能像「Good habit」一樣保護牙齒呢？",
+          "speechText": "Good habit",
+          "speechLang": "en-US",
+          "tags": [
+            "The Crocodile and the Dentist",
+            "Health Habits"
+          ]
         }
       ]
     },
@@ -345,6 +383,44 @@
           "tags": [
             "The Earth Book",
             "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u2-q9",
+          "prompt": "愛護地球的 3R 好方法「Reduce, Reuse, Recycle」中，把洗乾淨的玻璃罐拿來裝筆或零錢「重複使用」，是哪一個字？",
+          "options": [
+            "Reduce",
+            "Recycle",
+            "Reuse",
+            "Earth"
+          ],
+          "answerIndex": 2,
+          "explanation": "Reuse 的意思是「重複使用」，把乾淨的瓶罐拿來再利用就是 Reuse！",
+          "hint": "開頭是 Re-，意思是「再一次使用」的單字是哪一個？",
+          "speechText": "Reuse",
+          "speechLang": "en-US",
+          "tags": [
+            "The Earth Book",
+            "Eco 3R"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u2-q10",
+          "prompt": "同學很有禮貌地問你「May I borrow your eraser?（我可以借你的橡皮擦嗎？）」你願意借給他時，要怎麼回答？",
+          "options": [
+            "Bad habit!",
+            "Hurry up!",
+            "Wait for me!",
+            "Sure."
+          ],
+          "answerIndex": 3,
+          "explanation": "別人禮貌借東西時，回答「Sure.（當然可以。）」既友善又有禮貌。",
+          "hint": "想一想「當然可以！」的英文是哪一個簡單的字？",
+          "speechText": "May I borrow? Sure.",
+          "speechLang": "en-US",
+          "tags": [
+            "Dialogue",
+            "Polite Expressions"
           ]
         }
       ]
@@ -518,6 +594,44 @@
             "This Is My Family",
             "Polite Expressions"
           ]
+        },
+        {
+          "id": "115-s2-g2-english-u3-q9",
+          "prompt": "在「Nn 到 Zz」字母順序裡，排在「U, V」後面的兩個大寫字母是哪一組？",
+          "options": [
+            "W, X",
+            "S, T",
+            "Y, Z",
+            "P, Q"
+          ],
+          "answerIndex": 0,
+          "explanation": "字母順序是 ... S, T, U, V, W, X, Y, Z，所以 U、V 後面是 W, X。",
+          "hint": "唸唸看 S, T, U, V, ___, ___！",
+          "speechText": "U, V, W, X",
+          "speechLang": "en-US",
+          "tags": [
+            "Nn-Zz",
+            "Alphabet Order"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u3-q10",
+          "prompt": "當你把水彩筆遞給同學，說「Here you are.」，同學回答「Thank you very much.」時，這段對話表現出什麼？",
+          "options": [
+            "彼此生氣不講話",
+            "互相幫忙又有禮貌的好相處",
+            "忘記帶作業",
+            "在教室裡大聲吵鬧"
+          ],
+          "answerIndex": 1,
+          "explanation": "借東西說「給你」和「非常謝謝你」，是有禮貌又友愛的好表現。",
+          "hint": "Here you are 和 Thank you very much 都是很溫暖的禮貌用語喔！",
+          "speechText": "Here you are. Thank you very much.",
+          "speechLang": "en-US",
+          "tags": [
+            "Polite Expressions",
+            "Dialogue"
+          ]
         }
       ]
     },
@@ -686,6 +800,44 @@
           "explanation": "「Y - y」的大寫和小寫配對完全正確！W 應配 w、V 應配 v、Z 應配 z。",
           "hint": "找找看大寫和小寫形狀像叉子一樣的同一個字母！",
           "speechText": "Y, y",
+          "speechLang": "en-US",
+          "tags": [
+            "Nn-Zz",
+            "Letters"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u4-q9",
+          "prompt": "在「夏日安全冒險王」搭公車或捷運等大眾運輸工具時，下面哪一個行為最安全又有禮貌？",
+          "options": [
+            "在車廂裡跑來跑去大叫",
+            "把頭和手伸出車窗外",
+            "排隊上車、坐好並握緊扶手",
+            "把垃圾塞在座位下面"
+          ],
+          "answerIndex": 2,
+          "explanation": "搭乘大眾運輸工具要排隊上下車，站立時握緊扶手、不奔跑喧嘩，才安全又有公德心。",
+          "hint": "搭公車或捷運時，怎麼做才不會跌倒也不吵到別人呢？",
+          "speechText": "Have a nice day.",
+          "speechLang": "en-US",
+          "tags": [
+            "Summer",
+            "Traffic Safety"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u4-q10",
+          "prompt": "把「Nn 到 Zz」的大寫「T, U, V」變成小寫字母，下面哪一組全部都對？",
+          "options": [
+            "t, n, v",
+            "f, u, v",
+            "t, u, w",
+            "t, u, v"
+          ],
+          "answerIndex": 3,
+          "explanation": "大寫 T 配小寫 t，大寫 U 配小寫 u，大寫 V 配小寫 v。",
+          "hint": "注意 u 圓圓的開口朝上，v 尖尖的像小山谷喔！",
+          "speechText": "t, u, v",
           "speechLang": "en-US",
           "tags": [
             "Nn-Zz",

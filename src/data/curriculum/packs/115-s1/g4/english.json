@@ -174,6 +174,44 @@
             "Classroom English",
             "Review"
           ]
+        },
+        {
+          "id": "115-s1-g4-english-u0-q9",
+          "prompt": "在 Starter 數字暖身單元裡，數字「16」與「19」的英文單字分別是哪一組？",
+          "options": [
+            "sixteen / nineteen",
+            "sixty / ninety",
+            "six / nine",
+            "seventeen / eighteen"
+          ],
+          "answerIndex": 0,
+          "explanation": "16 是 sixteen，19 是 nineteen；注意不要和 60（sixty）、90（ninety）搞混。",
+          "hint": "16 到 19 的字尾都是 -teen 喔！",
+          "speechText": "sixteen, nineteen",
+          "speechLang": "en-US",
+          "tags": [
+            "Numbers",
+            "Starter"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u0-q10",
+          "prompt": "在「World Map」與教室用語複習中，老師指著黑板說 \"Look at the blackboard.\"，是請同學做什麼？",
+          "options": [
+            "舉起雙手",
+            "看黑板",
+            "關上課本",
+            "起立敬禮"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Look at...\" 是「看……」的意思，the blackboard 是黑板。",
+          "hint": "聽聽看 \"Look at the blackboard.\" 裡的 look 是什麼意思！",
+          "speechText": "Look at the blackboard.",
+          "speechLang": "en-US",
+          "tags": [
+            "Classroom English",
+            "Review"
+          ]
         }
       ]
     },
@@ -341,6 +379,44 @@
           "explanation": "desk（書桌）、duck（鴨子）、dog（狗）的字首都是字母 d，發有聲齒齦塞音 /d/。",
           "hint": "點喇叭聽聽三個字的開頭音，看第一個字母是什麼！",
           "speechText": "desk, duck, dog",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "Consonants"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u1-q9",
+          "prompt": "在氣象播報「天空調色盤」活動中，如果外面下著大雪、天氣很寒冷，英文會說 \"It's ___.\"，空格應填入哪兩個形容天氣的單字？",
+          "options": [
+            "hot and sunny",
+            "warm and windy",
+            "cold and snowy",
+            "cool and rainy"
+          ],
+          "answerIndex": 2,
+          "explanation": "cold 表示「寒冷的」，snowy 表示「下雪的」，合起來是「又冷又下雪」。",
+          "hint": "snow 是雪，加上 -y 變成 snowy（下雪的）！",
+          "speechText": "It's cold and snowy.",
+          "speechLang": "en-US",
+          "tags": [
+            "Weather",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u1-q10",
+          "prompt": "Phonics 字母拼讀：在「tiger, ten, top」這三個單字中，它們字首相同的子音字母是哪一個？",
+          "options": [
+            "d",
+            "b",
+            "p",
+            "t"
+          ],
+          "answerIndex": 3,
+          "explanation": "tiger、ten、top 都是以子音字母 t 開頭，發無聲子音 /t/。",
+          "hint": "聽聽看這三個字開頭的 /t/ 音！",
+          "speechText": "tiger, ten, top",
           "speechLang": "en-US",
           "tags": [
             "Phonics",
@@ -518,6 +594,44 @@
             "Feelings",
             "Vocabulary"
           ]
+        },
+        {
+          "id": "115-s1-g4-english-u2-q9",
+          "prompt": "在〈Unit 2〉情緒與感受單字中，如果妹妹看到可怕的大蜘蛛嚇了一跳，她可能會說 \"I'm ___.\"，空格中最適合填入哪個字？",
+          "options": [
+            "scared",
+            "thirsty",
+            "full",
+            "great"
+          ],
+          "answerIndex": 0,
+          "explanation": "scared 表示「害怕的、受驚嚇的」，thirsty 是口渴，full 是吃飽了。",
+          "hint": "遇到可怕的事物會感到「害怕」，英文是 scared！",
+          "speechText": "I'm scared.",
+          "speechLang": "en-US",
+          "tags": [
+            "Feelings",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u2-q10",
+          "prompt": "對話配對練習：同學問 \"Are you sleepy?\"（你想睡覺了嗎？），如果你精神很好、一點也不想睡，應該回答哪一句？",
+          "options": [
+            "Yes, I am.",
+            "Yes, it is.",
+            "No, I'm not.",
+            "No, thank you."
+          ],
+          "answerIndex": 2,
+          "explanation": "\"Are you ...?\" 的否定簡答為 \"No, I'm not.\"。",
+          "hint": "用 Are you 問，否定簡答要用 I'm not 喔！",
+          "speechText": "No, I'm not.",
+          "speechLang": "en-US",
+          "tags": [
+            "Feelings",
+            "Sentence Pattern"
+          ]
         }
       ]
     },
@@ -685,6 +799,44 @@
           "explanation": "girl（女孩）、gift（禮物）、goat（山羊）都以字母 g 開頭，發有聲軟顎塞音 /g/。",
           "hint": "看看三個單字的第一個字母是什麼！",
           "speechText": "girl, gift, goat",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "Review 1"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u3-q9",
+          "prompt": "Review 1 情境對話：天氣很冷又刮風，媽媽關心你問：\"Are you cold?\"（你冷嗎？），你搓著雙手回答：\"Yes, I am.\" 接著再補充哪一句最合理？",
+          "options": [
+            "It's hot and sunny.",
+            "It's cold and windy today.",
+            "Happy Moon Festival!",
+            "Look at the blackboard."
+          ],
+          "answerIndex": 1,
+          "explanation": "說完「是的，我很冷」之後，補充描述今天的天氣 \"It's cold and windy today.\"（今天又冷又多風）最符合語境。",
+          "hint": "把 Unit 1 的天氣句子和 Unit 2 的感覺句子串起來！",
+          "speechText": "Yes, I am. It's cold and windy today.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u3-q10",
+          "prompt": "Phonics 字首音「f-, v-」複習：下列哪一個單字以「f」開頭，發音時上排牙齒輕觸下唇並吹氣（無聲子音 /f/）？",
+          "options": [
+            "van",
+            "vest",
+            "zoo",
+            "fan"
+          ],
+          "answerIndex": 3,
+          "explanation": "fan（電風扇）以字母 f 開頭發 /f/；van 和 vest 以 v 開頭發 /v/；zoo 以 z 開頭。",
+          "hint": "找找看哪一個單字的第一個字母是 f！",
+          "speechText": "fan",
           "speechLang": "en-US",
           "tags": [
             "Phonics",
@@ -862,6 +1014,44 @@
             "Singular vs Plural",
             "Grammar"
           ]
+        },
+        {
+          "id": "115-s1-g4-english-u4-q9",
+          "prompt": "在〈Unit 3〉水果單字練習中，聽到老闆說 \"They're watermelons.\"，請問盒子里裝的是哪一種水果？",
+          "options": [
+            "西瓜",
+            "草莓",
+            "葡萄",
+            "木瓜"
+          ],
+          "answerIndex": 0,
+          "explanation": "watermelon 是「西瓜」，複數形式為 watermelons。",
+          "hint": "water（水）加上 melon（瓜），水分很多的大水果是哪一種？",
+          "speechText": "They're watermelons.",
+          "speechLang": "en-US",
+          "tags": [
+            "Food and Fruit",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u4-q10",
+          "prompt": "句型轉換練習：妹妹指著遠處或桌上的幾顆柳橙問 \"Are these oranges?\"，如果盤子裡其實是檸檬不是柳橙，正確的否定簡答是哪一句？",
+          "options": [
+            "No, it isn't.",
+            "Yes, they are.",
+            "No, I'm not.",
+            "No, they aren't."
+          ],
+          "answerIndex": 3,
+          "explanation": "\"Are these ...?\" 詢問複數物品，否定簡答要用複數主詞 they 搭配 aren't，即 \"No, they aren't.\"。",
+          "hint": "複數物品的簡答要用 they，否定是 aren't！",
+          "speechText": "No, they aren't.",
+          "speechLang": "en-US",
+          "tags": [
+            "Food and Fruit",
+            "Sentence Pattern"
+          ]
         }
       ]
     },
@@ -1029,6 +1219,44 @@
           "explanation": "bread（麵包）是固體食物；water（水）、tea（茶）、milk（牛奶）都是喝的飲料。",
           "hint": "找出四個選項裡面唯一不是飲料、要用咬的食物單字！",
           "speechText": "I want some bread.",
+          "speechLang": "en-US",
+          "tags": [
+            "Food and Drinks",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u5-q9",
+          "prompt": "在「我最『食』在」點餐對話中，如果你想點一份「三明治和紅茶」，英文應該怎麼說？",
+          "options": [
+            "I want a banana and an apple, please.",
+            "I want a sandwich and some black tea, please.",
+            "I am happy and full.",
+            "It's rainy and cool."
+          ],
+          "answerIndex": 1,
+          "explanation": "sandwich 是三明治，black tea 是紅茶，用 \"I want..., please.\" 表達點餐最有禮貌。",
+          "hint": "找找看哪一句裡有 sandwich（三明治）和 black tea（紅茶）！",
+          "speechText": "I want a sandwich and some black tea, please.",
+          "speechLang": "en-US",
+          "tags": [
+            "Food and Drinks",
+            "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u5-q10",
+          "prompt": "在〈Unit 4〉食物與飲料字彙中，下列哪一個單字屬於「熱呼呼的湯」？",
+          "options": [
+            "milk",
+            "cake",
+            "soup",
+            "rice"
+          ],
+          "answerIndex": 2,
+          "explanation": "soup 是「湯」，milk 是牛奶，cake 是蛋糕，rice 是米飯。",
+          "hint": "聽聽看「湯」的英文發音 soup！",
+          "speechText": "soup",
           "speechLang": "en-US",
           "tags": [
             "Food and Drinks",
@@ -1205,6 +1433,44 @@
           "tags": [
             "Review 2",
             "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u6-q9",
+          "prompt": "在「Food Around the World」文化單元中，大家認識了各國代表性美食。請問「tacos（墨西哥玉米餅）」與「sushi（壽司）」分別主要來自哪兩個國家？",
+          "options": [
+            "墨西哥與日本",
+            "美國與法國",
+            "義大利與英國",
+            "泰國與印度"
+          ],
+          "answerIndex": 0,
+          "explanation": "tacos 是墨西哥傳統美食，sushi（壽司）則是日本的代表性料理。",
+          "hint": "壽司（sushi）是哪一個亞洲鄰國的料理呢？",
+          "speechText": "tacos and sushi",
+          "speechLang": "en-US",
+          "tags": [
+            "Culture",
+            "Food Around the World"
+          ]
+        },
+        {
+          "id": "115-s1-g4-english-u6-q10",
+          "prompt": "期末「讀者劇場」演出結束後，台下觀眾拍手喝采，小演員向大家鞠躬致謝時，最常用哪一句英文表達感謝？",
+          "options": [
+            "See you yesterday!",
+            "Thank you very much!",
+            "Are you thirsty?",
+            "What's this?"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Thank you very much!\"（非常謝謝大家！）是表演結束後最自然有禮貌的致謝用語。",
+          "hint": "謝謝大家的英文怎麼說呢？",
+          "speechText": "Thank you very much!",
+          "speechLang": "en-US",
+          "tags": [
+            "Final Review",
+            "Readers Theater"
           ]
         }
       ]

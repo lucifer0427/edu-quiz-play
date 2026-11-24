@@ -174,6 +174,44 @@
             "Starter",
             "Dialogue"
           ]
+        },
+        {
+          "id": "115-s2-g6-english-u0-q9",
+          "prompt": "在介紹學校保健室「在一樓」時，英文 \"The health center is on the ___ floor.\" 的空格應該填入哪一個序數？",
+          "options": [
+            "first",
+            "one",
+            "ten",
+            "eleven"
+          ],
+          "answerIndex": 0,
+          "explanation": "表示樓層時要使用序數：一樓是 first（on the first floor），二樓是 second，三樓是 third。",
+          "hint": "「第一」的英文序數是 first！",
+          "speechText": "The health center is on the first floor.",
+          "speechLang": "en-US",
+          "tags": [
+            "Starter",
+            "Ordinal Numbers"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u0-q10",
+          "prompt": "在英語對話角色扮演中，當同學親切地問候你 \"How are you doing today?\" 時，下列哪一句回應最自然得體？",
+          "options": [
+            "It's on the third floor.",
+            "I'm doing great, thank you!",
+            "Twenty-five degrees Celsius.",
+            "Three hundred dollars."
+          ],
+          "answerIndex": 1,
+          "explanation": "How are you doing today? 是問候「你今天過得怎麼樣？」，禮貌且自然的回答是 I'm doing great, thank you!（我很好，謝謝你！）。",
+          "hint": "別人問你「今天過得如何？」，要回答自己的狀態並說謝謝喔！",
+          "speechText": "How are you doing today? I'm doing great, thank you!",
+          "speechLang": "en-US",
+          "tags": [
+            "Starter",
+            "Dialogue"
+          ]
         }
       ]
     },
@@ -345,6 +383,44 @@
           "tags": [
             "Unit 1",
             "Grammar"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u1-q9",
+          "prompt": "對話填空：\"Where ___ you and Tom yesterday? — We ___ at the bookstore.\"",
+          "options": [
+            "was / was",
+            "are / are",
+            "were / were",
+            "did / were"
+          ],
+          "answerIndex": 2,
+          "explanation": "you and Tom 是兩個人（複數），We 也是複數，且時間為 yesterday（昨天），因此兩個空格都必須填入過去式複數 be 動詞 were。",
+          "hint": "you and Tom 和 We 都是複數主詞，過去式 be 動詞要用 were！",
+          "speechText": "Where were you and Tom yesterday? We were at the bookstore.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 1",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u1-q10",
+          "prompt": "Phonics 拼讀挑戰：下列哪一個含有 l-blends（pl, bl, cl, gl）的單字，意思是「高興的、開心的」？",
+          "options": [
+            "clap",
+            "blue",
+            "plan",
+            "glad"
+          ],
+          "answerIndex": 3,
+          "explanation": "glad（gl-）的意思是「高興的、開心的」；clap 是拍手，blue 是藍色，plan 是計畫。",
+          "hint": "開頭是 gl- 的形容詞，常在 \"I'm glad to see you!\" 裡出現喔！",
+          "speechText": "glad",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "l-blends"
           ]
         }
       ]
@@ -518,6 +594,44 @@
             "Unit 2",
             "Irregular Verbs"
           ]
+        },
+        {
+          "id": "115-s2-g6-english-u2-q9",
+          "prompt": "過去式否定句練習：\"I ___ TV last night. I studied English for the test.\"",
+          "options": [
+            "didn't watch",
+            "didn't watched",
+            "don't watch",
+            "wasn't watch"
+          ],
+          "answerIndex": 0,
+          "explanation": "過去式一般動詞的否定句要用「didn't + 原形動詞」，因此是 didn't watch。",
+          "hint": "否定助動詞 didn't 後面的動作要回到原形喔！",
+          "speechText": "I didn't watch TV last night. I studied English.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 2",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u2-q10",
+          "prompt": "Phonics 拼讀挑戰：下列哪一個 s-blends（sw, sp, st, sk）單字的意思是「跳繩／跳過」？",
+          "options": [
+            "swim",
+            "skip",
+            "spoon",
+            "star"
+          ],
+          "answerIndex": 1,
+          "explanation": "skip（sk-）的意思是「跳繩／跳躍」；swim 是游泳，spoon 是湯匙，star 是星星。",
+          "hint": "開頭是 sk- 的動作單字喔！",
+          "speechText": "skip",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "s-blends"
+          ]
         }
       ]
     },
@@ -685,6 +799,44 @@
           "explanation": "bike 和 kite 都是 i_e 結構，發長母音 /aɪ/；sit、pig、milk 中的 i 發短母音 /ɪ/。",
           "hint": "找一個和 bike 押韻、字尾有不發音 e 的單字！",
           "speechText": "bike, kite",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Phonics"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u3-q9",
+          "prompt": "寫英文日記統整地點與活動：\"Last Sunday, Tim ___ at the park and ___ a bike.\"",
+          "options": [
+            "is / rides",
+            "were / ride",
+            "was / rode",
+            "was / ride"
+          ],
+          "answerIndex": 2,
+          "explanation": "Last Sunday 是過去時間，單數 Tim 搭配過去式 be 動詞 was，而 ride（騎）的不規則過去式是 rode。",
+          "hint": "Tim 是單數用 was，騎腳踏車 ride 的過去式是不規則變化 rode！",
+          "speechText": "Last Sunday, Tim was at the park and rode a bike.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 1",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u3-q10",
+          "prompt": "Phonics 綜合複習：下列哪一個單字的母音發的是「長母音 a」（和 cake 同音），而不是短母音 a？",
+          "options": [
+            "map",
+            "mat",
+            "mad",
+            "made"
+          ],
+          "answerIndex": 3,
+          "explanation": "made 符合 a_e 結構，發長母音；map、mat、mad 中的 a 皆發短母音。",
+          "hint": "找出字尾有不發音 e（a_e 結構）的那一個單字！",
+          "speechText": "cake, made",
           "speechLang": "en-US",
           "tags": [
             "Review 1",
@@ -862,6 +1014,44 @@
             "Unit 3",
             "Clothes"
           ]
+        },
+        {
+          "id": "115-s2-g6-english-u4-q9",
+          "prompt": "購物對話填空：\"How much ___ the jacket? — ___ six hundred dollars.\"",
+          "options": [
+            "is / It's",
+            "are / It's",
+            "is / They're",
+            "are / They're"
+          ],
+          "answerIndex": 0,
+          "explanation": "the jacket（一件夾克）是單數名詞，問句用 is，回答價格要用單數代名詞 It's。",
+          "hint": "一件夾克是單數，搭配 is 和 It's 喔！",
+          "speechText": "How much is the jacket? It's six hundred dollars.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Grammar"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u4-q10",
+          "prompt": "衣物單字辨識：出門遇到大太陽時，大家常戴在頭上遮陽的「鴨舌帽／帽子」，英文是哪一個單字？",
+          "options": [
+            "socks",
+            "cap",
+            "shoes",
+            "shorts"
+          ],
+          "answerIndex": 1,
+          "explanation": "cap 是「鴨舌帽／帽子」；socks 是襪子，shoes 是鞋子，shorts 是短褲。",
+          "hint": "只有這個單字是戴在頭上的（單數），另外三個都是成雙或複數的衣物喔！",
+          "speechText": "cap",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 3",
+            "Clothes"
+          ]
         }
       ]
     },
@@ -1034,6 +1224,44 @@
             "Phonics",
             "Long Vowels"
           ]
+        },
+        {
+          "id": "115-s2-g6-english-u5-q9",
+          "prompt": "對話填空：\"What's the weather like in winter? — It's ___ and ___.\"",
+          "options": [
+            "hot / sunny",
+            "warm / rainy",
+            "cold / snowy",
+            "cool / windy"
+          ],
+          "answerIndex": 2,
+          "explanation": "winter（冬天）的典型氣候是寒冷且可能下雪的（cold and snowy）。",
+          "hint": "冬天（winter）的天氣又「冷（cold）」又會「下雪（snowy）」喔！",
+          "speechText": "What's the weather like in winter? It's cold and snowy.",
+          "speechLang": "en-US",
+          "tags": [
+            "Unit 4",
+            "Weather"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u5-q10",
+          "prompt": "Phonics 短長母音辨識：下面哪一個單字的母音發的是「短母音 u」（和 cup 的 u 同音），而不是長母音 u？",
+          "options": [
+            "cute",
+            "flute",
+            "tube",
+            "bus"
+          ],
+          "answerIndex": 3,
+          "explanation": "bus 中的 u 發短母音 /ʌ/（與 cup、cut 同音）；cute、flute、tube 皆為 u_e 長母音結構。",
+          "hint": "找一個字尾沒有不發音 e 的單字，聽起來和 cup 押韻嗎？",
+          "speechText": "cup, bus",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "Short Vowels"
+          ]
         }
       ]
     },
@@ -1205,6 +1433,44 @@
           "tags": [
             "Review 2",
             "Travel Plan"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u6-q9",
+          "prompt": "旅遊計畫情境：\"We are going to Tokyo in summer. It is hot and sunny, so take ___.\"",
+          "options": [
+            "a T-shirt and shorts",
+            "a heavy coat and gloves",
+            "a scarf and boots",
+            "a thick sweater and a raincoat"
+          ],
+          "answerIndex": 0,
+          "explanation": "東京夏天炎熱晴朗（hot and sunny），因此旅遊行李適合攜帶 T 恤和短褲（a T-shirt and shorts）。",
+          "hint": "夏天又熱又出大太陽（hot and sunny），適合帶哪一組清涼衣物？",
+          "speechText": "We are going to Tokyo in summer. It is hot and sunny, so take a T-shirt and shorts.",
+          "speechLang": "en-US",
+          "tags": [
+            "Review 2",
+            "Travel Plan"
+          ]
+        },
+        {
+          "id": "115-s2-g6-english-u6-q10",
+          "prompt": "在「Sports Around the World」單元中，哪一個英文單字是指拿球拍隔網拍打「羽毛球」的運動？",
+          "options": [
+            "soccer",
+            "badminton",
+            "baseball",
+            "basketball"
+          ],
+          "answerIndex": 1,
+          "explanation": "badminton 是羽毛球；soccer 是足球，baseball 是棒球，basketball 是籃球。",
+          "hint": "用球拍打羽毛球，英文是 b 開頭的運動單字！",
+          "speechText": "badminton",
+          "speechLang": "en-US",
+          "tags": [
+            "Culture",
+            "Sports"
           ]
         }
       ]

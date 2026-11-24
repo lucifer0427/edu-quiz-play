@@ -174,6 +174,44 @@
             "Phonics",
             "i_e"
           ]
+        },
+        {
+          "id": "115-s1-g5-english-u0-q9",
+          "prompt": "Listen and choose: 數字「92」的正確英文拼字是哪一個？",
+          "options": [
+            "ninety-two",
+            "nineteen-two",
+            "ninty-two",
+            "ninety-twelve"
+          ],
+          "answerIndex": 0,
+          "explanation": "90 是 ninety（保留 e，不是 ninty），2 是 two，中間加上連字號就是 ninety-two。",
+          "hint": "90 的拼法是在 nine 後面直接加上 ty，再接連字號與 two！",
+          "speechText": "ninety-two",
+          "speechLang": "en-US",
+          "tags": [
+            "Numbers",
+            "60-100"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u0-q10",
+          "prompt": "Phonics 暖身複習：下面哪一個單字裡，字母「o」發長母音 /o/（像字母 O 本身的讀音）？",
+          "options": [
+            "hot",
+            "dog",
+            "box",
+            "home"
+          ],
+          "answerIndex": 3,
+          "explanation": "home 符合 o_e 規則，字尾不發音的 e 讓前面的 o 發長母音 /o/；hot, dog, box 都是短母音 o。",
+          "hint": "找字尾有不發音的 e（o_e）的單字喔！",
+          "speechText": "home",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "o_e"
+          ]
         }
       ]
     },
@@ -351,6 +389,44 @@
             "ai",
             "ay"
           ]
+        },
+        {
+          "id": "115-s1-g5-english-u1-q9",
+          "prompt": "在星期單字中，「星期二」的正確英文拼字是哪一個？",
+          "options": [
+            "Tuesday",
+            "Thursday",
+            "Sunday",
+            "Friday"
+          ],
+          "answerIndex": 0,
+          "explanation": "Tuesday 是星期二，Thursday 是星期四，Sunday 是星期日，Friday 是星期五。",
+          "hint": "星期二是由 Tue- 開頭的單字，不要和星期四（Thur-）搞混囉！",
+          "speechText": "Tuesday",
+          "speechLang": "en-US",
+          "tags": [
+            "Days of the Week",
+            "Unit 1"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u1-q10",
+          "prompt": "「Today is Sunday.」那麼昨天（yesterday）是星期幾？",
+          "options": [
+            "It's Monday.",
+            "It's Friday.",
+            "It's Wednesday.",
+            "It's Saturday."
+          ],
+          "answerIndex": 3,
+          "explanation": "今天是星期日（Sunday），往前推一天就是星期六（Saturday）。",
+          "hint": "星期日的前一天，也就是週末的第一天是哪一天呢？",
+          "speechText": "It's Saturday.",
+          "speechLang": "en-US",
+          "tags": [
+            "Days of the Week",
+            "Sentence Pattern"
+          ]
         }
       ]
     },
@@ -524,6 +600,44 @@
             "Phonics",
             "ee",
             "ea"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u2-q9",
+          "prompt": "「science class」指的是學校裡的哪一門科目？",
+          "options": [
+            "社會課",
+            "自然科學課",
+            "音樂課",
+            "體育課"
+          ],
+          "answerIndex": 1,
+          "explanation": "science 是自然科學，social studies 是社會，music 是音樂，PE 是體育。",
+          "hint": "這個科目常在實驗室裡做觀察和實驗喔！",
+          "speechText": "science class",
+          "speechLang": "en-US",
+          "tags": [
+            "Subjects",
+            "Unit 2"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u2-q10",
+          "prompt": "同學問：「Do you have music class on Thursday?」如果你星期四「有」音樂課，最標準的簡答是哪一句？",
+          "options": [
+            "Yes, I am.",
+            "No, I do.",
+            "Yes, I have.",
+            "Yes, I do."
+          ],
+          "answerIndex": 3,
+          "explanation": "用助動詞 Do 開頭的疑問句「Do you have...?」，肯定簡答時也要用 do 回應：Yes, I do.",
+          "hint": "問句用「Do」開頭問你，肯定簡答要回答「Yes, I ...」呢？",
+          "speechText": "Yes, I do.",
+          "speechLang": "en-US",
+          "tags": [
+            "Sentence Pattern",
+            "Unit 2"
           ]
         }
       ]
@@ -700,6 +814,44 @@
             "i_e",
             "y"
           ]
+        },
+        {
+          "id": "115-s1-g5-english-u3-q9",
+          "prompt": "看課表問答：A: What day is today? / B: It's Wednesday. / A: Do you have English class today? / B: Yes, I do. 請問 B 今天有什麼課？",
+          "options": [
+            "英文課",
+            "數學課",
+            "美術課",
+            "體育課"
+          ],
+          "answerIndex": 0,
+          "explanation": "對話中 A 問「Do you have English class today?」，B 回答「Yes, I do.」，代表今天有英文課（English class）。",
+          "hint": "看看 A 問的科目單字是不是「English」呢？",
+          "speechText": "Do you have English class today? Yes, I do.",
+          "speechLang": "en-US",
+          "tags": [
+            "Reading",
+            "Review 1"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u3-q10",
+          "prompt": "Phonics 拼讀複習：下面哪一組單字都發長母音 A（a_e / ai / ay）？",
+          "options": [
+            "cat, bag, hat",
+            "bed, red, pen",
+            "cake, rain, play",
+            "dog, fox, box"
+          ],
+          "answerIndex": 2,
+          "explanation": "cake（a_e）、rain（ai）、play（ay）都發長母音 /e/（長音 A）。",
+          "hint": "找找看包含 a_e、ai、ay 的那一組單字！",
+          "speechText": "cake, rain, play",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "Review 1"
+          ]
         }
       ]
     },
@@ -874,6 +1026,44 @@
           "tags": [
             "Sentence Pattern",
             "Unit 3"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u4-q9",
+          "prompt": "想在週末去買新書或文具，應該去哪一個社區場所？",
+          "options": [
+            "the hospital",
+            "the bookstore",
+            "the post office",
+            "the bank"
+          ],
+          "answerIndex": 1,
+          "explanation": "bookstore 是書店（賣書的地方），hospital 是醫院，post office 是郵局，bank 是銀行。",
+          "hint": "由「book（書）」和「store（商店）」組成的單字就是答案喔！",
+          "speechText": "the bookstore",
+          "speechLang": "en-US",
+          "tags": [
+            "Places",
+            "Unit 3"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u4-q10",
+          "prompt": "Phonics 拼讀挑戰：下面哪一個單字的母音組合「oa」發長母音 O（/o/），與「boat」同音組？",
+          "options": [
+            "book",
+            "foot",
+            "coat",
+            "moon"
+          ],
+          "answerIndex": 2,
+          "explanation": "boat 和 coat 都有「oa」字母組合，發長母音 /o/；book, foot, moon 則是 oo 組合。",
+          "hint": "找同樣有「oa」拼讀組合的單字！",
+          "speechText": "boat, coat",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "oa"
           ]
         }
       ]
@@ -1051,6 +1241,45 @@
             "Phonics",
             "ue"
           ]
+        },
+        {
+          "id": "115-s1-g5-english-u5-q9",
+          "prompt": "在動物園看到「20 隻大象」，如果同學問你「How many elephants are there?」，應該怎麼回答？",
+          "options": [
+            "There are twenty elephants.",
+            "There is twenty elephant.",
+            "They are twelve elephants.",
+            "There are two elephants."
+          ],
+          "answerIndex": 0,
+          "explanation": "數量超過 1 隻時要用「There are + 數字 + 複數名詞」，20 是 twenty，大象複數是 elephants。",
+          "hint": "20 是 twenty，而且複數要搭配「There are」和字尾加 s 的 elephants 喔！",
+          "speechText": "There are twenty elephants.",
+          "speechLang": "en-US",
+          "tags": [
+            "Animals",
+            "Sentence Pattern",
+            "Unit 4"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u5-q10",
+          "prompt": "Phonics 拼讀挑戰：在「cute, tube, cube」三個單字中，共同的長母音 U 拼讀規則是哪一種？",
+          "options": [
+            "ue",
+            "ui",
+            "oo",
+            "u_e"
+          ],
+          "answerIndex": 3,
+          "explanation": "cute、tube、cube 都是字母 u 加上子音與字尾不發音的 e，屬於「u_e」長母音 U 規則。",
+          "hint": "觀察這三個單字的字尾，是不是都有一個不發音的 e 呢？",
+          "speechText": "cute, tube, cube",
+          "speechLang": "en-US",
+          "tags": [
+            "Phonics",
+            "u_e"
+          ]
         }
       ]
     },
@@ -1222,6 +1451,44 @@
           "tags": [
             "Phonics",
             "o_e",
+            "Review 2"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u6-q9",
+          "prompt": "Reading 閱讀推論：Today is Sunday. Leo is going to the zoo with his family. He wants to see koalas and zebras. 請問 Leo 今天最可能會看到什麼？",
+          "options": [
+            "Doctors and nurses",
+            "Books and desks",
+            "Cute animals",
+            "Letters and stamps"
+          ],
+          "answerIndex": 2,
+          "explanation": "短文中提到 Leo 要去動物園（the zoo）看無尾熊（koalas）和斑馬（zebras），所以最可能看到可愛的動物（Cute animals）。",
+          "hint": "koalas（無尾熊）和 zebras（斑馬）都是哪一種呢？",
+          "speechText": "Leo is going to the zoo to see koalas and zebras.",
+          "speechLang": "en-US",
+          "tags": [
+            "Reading",
+            "Review 2"
+          ]
+        },
+        {
+          "id": "115-s1-g5-english-u6-q10",
+          "prompt": "期末總複習：下面哪一個問句用來詢問「別人要去哪裡」？",
+          "options": [
+            "What day is today?",
+            "How many tigers are there?",
+            "Do you have art class on Monday?",
+            "Where are you going?"
+          ],
+          "answerIndex": 3,
+          "explanation": "「Where are you going?」用來詢問對方要去哪裡；What day is today? 問星期幾；How many... 問數量；Do you have... 問有沒有某堂課。",
+          "hint": "「哪裡」的英文疑問詞是「Where」喔！",
+          "speechText": "Where are you going?",
+          "speechLang": "en-US",
+          "tags": [
+            "Sentence Pattern",
             "Review 2"
           ]
         }

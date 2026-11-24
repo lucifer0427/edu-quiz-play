@@ -174,6 +174,44 @@
             "So Many Sounds",
             "Classroom English"
           ]
+        },
+        {
+          "id": "115-s1-g2-english-u1-q9",
+          "prompt": "在〈聽！安全與自然的交響曲〉複習字母 Aa 到 Mm，下面哪一組小寫字母依照字母順序排得完全正確？",
+          "options": [
+            "i, j, k",
+            "i, k, j",
+            "h, j, l",
+            "j, i, k"
+          ],
+          "answerIndex": 0,
+          "explanation": "字母表從 a 到 m 的順序是 a, b, c, d, e, f, g, h, i, j, k, l, m，所以 i 後面是 j 和 k。",
+          "hint": "從 h 開始順順地唸出三個字母：h, i, ...",
+          "speechText": "i, j, k",
+          "speechLang": "en-US",
+          "tags": [
+            "Aa-Mm",
+            "Letters"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u1-q10",
+          "prompt": "在〈So Many Sounds〉單元中，當你在馬路邊聽到平交道「噹噹噹」的警示聲，想提醒大家停下腳步時，可以說哪兩句英文？",
+          "options": [
+            "Hurry up! Run!",
+            "Listen! Stop!",
+            "Come back! Dance!",
+            "Good morning! Thank you!"
+          ],
+          "answerIndex": 1,
+          "explanation": "「Listen!」是「注意聽！」，「Stop!」是「停下來！」，聽到平交道警示聲一定要停看聽。",
+          "hint": "先「注意聽」警示聲，再「停下來」安全等待喔！",
+          "speechText": "Listen! Stop!",
+          "speechLang": "en-US",
+          "tags": [
+            "So Many Sounds",
+            "Safety"
+          ]
         }
       ]
     },
@@ -345,6 +383,44 @@
           "tags": [
             "Aa-Mm",
             "Letters"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u2-q9",
+          "prompt": "在《The Hare and the Tortoise》（龜兔賽跑）的故事裡，小兔子跑得很快，而小烏龜慢慢地爬行，下面哪兩個英文單字分別表示「跑」和「爬」？",
+          "options": [
+            "Stop / Listen",
+            "Sorry / OK",
+            "Run / Crawl",
+            "Good / Morning"
+          ],
+          "answerIndex": 2,
+          "explanation": "「Run」是跑、奔跑，「Crawl」是爬、爬行，正好對應故事裡兔子與烏龜的動作。",
+          "hint": "想一想兔子用哪一個動作字、烏龜用哪一個動作字？",
+          "speechText": "Run and crawl.",
+          "speechLang": "en-US",
+          "tags": [
+            "The Hare and the Tortoise",
+            "Action Words"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u2-q10",
+          "prompt": "在「金牌安全小將」練習禮貌對話時，如果你不小心弄掉同學的書本，先說「Sorry.」，接著聽到同學說「That is OK.」，這代表什麼意思？",
+          "options": [
+            "同學叫你快點跑走",
+            "同學跟你說早安",
+            "同學問你現在幾點",
+            "同學原諒你了，跟你說「沒關係」"
+          ],
+          "answerIndex": 3,
+          "explanation": "「Sorry.」是「對不起。」，「That is OK.」是「沒關係。」，代表同學接受了你的道歉。",
+          "hint": "別人說對不起時，我們會溫柔地回答什麼呢？",
+          "speechText": "Sorry. That is OK.",
+          "speechLang": "en-US",
+          "tags": [
+            "Polite Expressions",
+            "Social Skills"
           ]
         }
       ]
@@ -518,6 +594,44 @@
             "Aa-Mm",
             "Alphabet Order"
           ]
+        },
+        {
+          "id": "115-s1-g2-english-u3-q9",
+          "prompt": "在《Our Neighbourhood》認識社區時，同學提出一個保護社區環境的好辦法並說「I have an idea!」，你很贊成他的點子，應該怎麼回答？",
+          "options": [
+            "Good idea!",
+            "Come back!",
+            "Stop!",
+            "Sorry!"
+          ],
+          "answerIndex": 0,
+          "explanation": "聽到別人想到好點子說「I have an idea!」時，回答「Good idea!」就是稱讚「好主意！」。",
+          "hint": "誇獎別人的主意很棒，要用「Good ...」開頭喔！",
+          "speechText": "Good idea!",
+          "speechLang": "en-US",
+          "tags": [
+            "Our Neighbourhood",
+            "Daily English"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u3-q10",
+          "prompt": "複習二年級上學期的字母「Aa 到 Mm」，下面哪一個大寫字母「不是」這學期 Aa 到 Mm 範圍裡的字母？",
+          "options": [
+            "A",
+            "P",
+            "G",
+            "M"
+          ],
+          "answerIndex": 1,
+          "explanation": "「Aa 到 Mm」包含 A, B, C, D, E, F, G, H, I, J, K, L, M，字母 P 排在 M 後面。",
+          "hint": "數到 M 就停下來，哪一個字母還在後面還沒唸到呢？",
+          "speechText": "A, G, M",
+          "speechLang": "en-US",
+          "tags": [
+            "Aa-Mm",
+            "Letters"
+          ]
         }
       ]
     },
@@ -689,6 +803,44 @@
           "tags": [
             "Polite Expressions",
             "Dialogue"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u4-q9",
+          "prompt": "在〈分享的快樂〉單元中，把親手畫的小書籤送給同學時，應該說哪一句英文？",
+          "options": [
+            "Hurry up!",
+            "I am sorry.",
+            "This is for you.",
+            "Listen!"
+          ],
+          "answerIndex": 2,
+          "explanation": "「This is for you.」的意思是「這是給你的。」，最適合在送禮物或分享點心時使用。",
+          "hint": "把東西雙手遞給對方時會說的那句英文喔！",
+          "speechText": "This is for you.",
+          "speechLang": "en-US",
+          "tags": [
+            "The Doorbell Rang",
+            "Sharing"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u4-q10",
+          "prompt": "複習「Aa 到 Mm」的字母大小寫，大寫字母「K」和「L」對應的小寫字母是哪一組？",
+          "options": [
+            "h, i",
+            "k, m",
+            "j, l",
+            "k, l"
+          ],
+          "answerIndex": 3,
+          "explanation": "K 的小寫是 k，L 的小寫是 l。",
+          "hint": "想一想「J, K, L, M」裡中間那兩個字母的小寫！",
+          "speechText": "K, k, L, l",
+          "speechLang": "en-US",
+          "tags": [
+            "Aa-Mm",
+            "Letters"
           ]
         }
       ]

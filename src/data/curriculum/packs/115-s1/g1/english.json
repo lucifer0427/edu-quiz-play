@@ -174,6 +174,44 @@
             "Greeting",
             "Social Skills"
           ]
+        },
+        {
+          "id": "115-s1-g1-english-u1-q9",
+          "prompt": "在「字母舞動會」上，哪一個小寫字母配對的不是 A、B、C 裡面的字母？",
+          "options": [
+            "d",
+            "a",
+            "b",
+            "c"
+          ],
+          "answerIndex": 0,
+          "explanation": "這個單元學習的是 A（a）、B（b）、C（c），小寫「d」是下一個單元才會學到的字母。",
+          "hint": "想一想這個單元認識的開頭三個字母是哪三個？",
+          "speechText": "A, B, C",
+          "speechLang": "en-US",
+          "tags": [
+            "ABC",
+            "Uppercase & Lowercase"
+          ]
+        },
+        {
+          "id": "115-s1-g1-english-u1-q10",
+          "prompt": "在小組一起找同學練習打招呼並蒐集簽名時，聽到同學說「Hello! I am Amy.」，這是什麼意思？",
+          "options": [
+            "再見！Amy。",
+            "你好！我是 Amy。",
+            "謝謝你！Amy。",
+            "對不起！Amy。"
+          ],
+          "answerIndex": 1,
+          "explanation": "「Hello!」是打招呼「你好！」，「I am Amy.」則是自我介紹「我是 Amy。」。",
+          "hint": "把見面打招呼和介紹自己名字的英文合起來想一想喔！",
+          "speechText": "Hello! I am Amy.",
+          "speechLang": "en-US",
+          "tags": [
+            "Greeting",
+            "Self Introduction"
+          ]
         }
       ]
     },
@@ -345,6 +383,44 @@
           "tags": [
             "Politeness",
             "Daily Expression"
+          ]
+        },
+        {
+          "id": "115-s1-g1-english-u2-q9",
+          "prompt": "在「禮貌小劇場」排隊領禮物時，對幫忙的同學說「Please」和「Thank you!」，代表你有什麼好習慣？",
+          "options": [
+            "跑得最快搶第一",
+            "大聲插隊不排隊",
+            "有禮貌、懂得感謝別人",
+            "把東西藏起來不分享"
+          ],
+          "answerIndex": 2,
+          "explanation": "「Please」是「請」，「Thank you!」是「謝謝你」，都是有禮貌的好表現。",
+          "hint": "點喇叭聽聽看「請」和「謝謝你」兩個禮貌的英文喔！",
+          "speechText": "Please. Thank you!",
+          "speechLang": "en-US",
+          "tags": [
+            "Polite Expressions",
+            "Social Skills"
+          ]
+        },
+        {
+          "id": "115-s1-g1-english-u2-q10",
+          "prompt": "把大寫字母「D, E, F」換成小寫字母排成一排，正確的順序是哪一組？",
+          "options": [
+            "b, e, f",
+            "d, c, f",
+            "d, e, t",
+            "d, e, f"
+          ],
+          "answerIndex": 3,
+          "explanation": "D 的小寫是 d、E 的小寫是 e、F 的小寫是 f，合起來就是 d, e, f。",
+          "hint": "仔細看清楚小寫 d 的圓肚子在左邊，跟 b 不一樣喔！",
+          "speechText": "d, e, f",
+          "speechLang": "en-US",
+          "tags": [
+            "DEF",
+            "Alphabet Order"
           ]
         }
       ]
@@ -518,6 +594,44 @@
             "Safety Sign",
             "Traffic Safety"
           ]
+        },
+        {
+          "id": "115-s1-g1-english-u3-q9",
+          "prompt": "在「安全標誌設計師」學字母 G、H、I，哪一個字母在小寫的時候上面有一點？",
+          "options": [
+            "i",
+            "g",
+            "h",
+            "a"
+          ],
+          "answerIndex": 0,
+          "explanation": "大寫 I 的小寫是「i」，頭上有一個小圓點。",
+          "hint": "找一找直直一豎上面戴著一顆小圓點的小寫字母！",
+          "speechText": "I, i",
+          "speechLang": "en-US",
+          "tags": [
+            "GHI",
+            "Uppercase & Lowercase"
+          ]
+        },
+        {
+          "id": "115-s1-g1-english-u3-q10",
+          "prompt": "在馬路上看到綠燈亮起，爸爸牽著你的手準備過斑馬線，這時英文可以用哪個詞表示「通行、走」？",
+          "options": [
+            "Stop",
+            "Go",
+            "Wait",
+            "Sit"
+          ],
+          "answerIndex": 1,
+          "explanation": "綠燈代表可以通行，英文說「Go」；紅燈停下來則說「Stop」。",
+          "hint": "還記得紅綠燈歌曲《Green Says GO》嗎？",
+          "speechText": "Green says go!",
+          "speechLang": "en-US",
+          "tags": [
+            "Traffic Safety",
+            "Safety Signs"
+          ]
         }
       ]
     },
@@ -689,6 +803,44 @@
           "tags": [
             "Classroom Items",
             "Storage"
+          ]
+        },
+        {
+          "id": "115-s1-g1-english-u4-q9",
+          "prompt": "在教室進行「收納小管家」尋寶遊戲時，下面哪一組「J, K, L, M」的大小寫完全配對正確？",
+          "options": [
+            "J / i",
+            "K / h",
+            "L / l",
+            "M / n"
+          ],
+          "answerIndex": 2,
+          "explanation": "L 的小寫是「l」，J 配 j、K 配 k、M 配 m。",
+          "hint": "小寫 l 就像一根直直的小木棒，沒有點點也沒有彎鉤喔！",
+          "speechText": "L, l",
+          "speechLang": "en-US",
+          "tags": [
+            "JKLM",
+            "Uppercase & Lowercase"
+          ]
+        },
+        {
+          "id": "115-s1-g1-english-u4-q10",
+          "prompt": "共讀繪本《Alphabet City》時，如果在圖片一角看到形狀像兩座連在一起的山峰「M」，它的下一個小寫是誰？",
+          "options": [
+            "w",
+            "n",
+            "k",
+            "m"
+          ],
+          "answerIndex": 3,
+          "explanation": "大寫「M」對應的小寫是「m」，兩個都是「J, K, L, M」最後一個學到的字母。",
+          "hint": "M 有兩個尖尖的山峰，小寫也有兩個彎彎的小山丘！",
+          "speechText": "M, m",
+          "speechLang": "en-US",
+          "tags": [
+            "JKLM",
+            "Alphabet City"
           ]
         }
       ]
