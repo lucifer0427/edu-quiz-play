@@ -5,6 +5,7 @@ import {
   Layers,
   Sparkles,
   Star,
+  Users,
 } from 'lucide-react';
 import { useEffect, useMemo, useState } from 'react';
 import { loadLessonPack } from '../data/curriculum/lessonLoader';
@@ -21,6 +22,7 @@ import type { LessonPack, LessonScript } from '../types/lesson';
 import type {
   CurriculumSubjectEntry,
   Grade,
+  LocalProfileMeta,
   MapViewMode,
   PlayerProgress,
   QuizPack,
@@ -32,17 +34,20 @@ import { getTodayStudyStats } from '../utils/dailyStudy';
 import { countDueWrongQuestions } from '../utils/fsrs';
 import { resolveLessonForStage } from '../utils/lessonSynthesizer';
 import { playTap } from '../utils/sound';
-import { getLevelFromXp } from '../utils/storage';
+import { getLevelFromXp, loadProgress } from '../utils/storage';
 import { DailyMissionCard } from './DailyMissionCard';
 import { HeroSprite } from './GameSprites';
 import { StageCard } from './StageCard';
 
 interface WorldMapProps {
   progress: PlayerProgress;
+  profiles?: LocalProfileMeta[];
   onStartStage: (stage: Stage) => void;
   onStartLesson?: (lesson: LessonScript, stage: Stage) => void;
   onGoWrongBook: () => void;
   onGoExamReview?: () => void;
+  onGoHanzi?: () => void;
+  onOpenCertificate?: () => void;
   onGoTeacher: () => void;
   onUpdateDailyGoal?: (goal: number) => void;
   onUpdatePreferences?: (
@@ -78,10 +83,13 @@ const GRADE_LABELS: Record<Grade, string> = {
 
 export function WorldMap({
   progress,
+  profiles,
   onStartStage,
   onStartLesson,
   onGoWrongBook,
   onGoExamReview,
+  onGoHanzi,
+  onOpenCertificate,
   onGoTeacher,
   onUpdateDailyGoal,
   onUpdatePreferences,
@@ -374,8 +382,57 @@ export function WorldMap({
         onStartLesson={onStartLesson}
         onGoWrongBook={onGoWrongBook}
         onGoExamReview={onGoExamReview}
+        onGoHanzi={onGoHanzi}
+        onOpenCertificate={onOpenCertificate}
         onUpdateDailyGoal={onUpdateDailyGoal}
       />
+
+      {profiles && profiles.length >= 2 && (
+        <section className="rounded-3xl border-2 border-emerald-200 bg-gradient-to-r from-emerald-50/70 to-teal-50/70 p-4 shadow-xs sm:p-5">
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <div className="flex items-center gap-2">
+              <Users className="h-5 w-5 text-emerald-700" />
+              <h3 className="text-sm font-black text-slate-800 sm:text-base">
+                家庭努力牆（不比分數、比堅持！大家一起加油）
+              </h3>
+            </div>
+            <span className="rounded-full bg-white px-3 py-0.5 text-xs font-black text-emerald-800">
+              共 {profiles.length} 位家庭成員
+            </span>
+          </div>
+          <div className="mt-3 grid gap-2.5 sm:grid-cols-2 lg:grid-cols-3">
+            {profiles.map((prof) => {
+              const profProgress = loadProgress(prof.id);
+              const profStats = getTodayStudyStats(profProgress);
+              const lessonCount = profProgress.completedLessonIds?.length ?? 0;
+              const hanziCount = Object.keys(
+                profProgress.practicedHanzi ?? {},
+              ).length;
+              return (
+                <div
+                  key={prof.id}
+                  className="flex items-center gap-3 rounded-2xl border border-emerald-200 bg-white px-3.5 py-2.5 shadow-2xs"
+                >
+                  <HeroSprite avatarId={prof.selectedAvatarId} size={40} />
+                  <div className="min-w-0 flex-1">
+                    <div className="truncate text-sm font-black text-slate-800">
+                      {prof.nickname}
+                    </div>
+                    <div className="mt-0.5 flex flex-wrap gap-x-2.5 text-[11px] font-bold text-slate-500">
+                      <span>🔥 連續 {profStats.streakDays} 天</span>
+                      <span>
+                        📝 今日 {profStats.answeredToday}/{profStats.goal} 題
+                      </span>
+                      <span>📖 {lessonCount} 堂課</span>
+                      {hanziCount > 0 && <span>✍️ {hanziCount} 字</span>}
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+      )}
 
       <section className="space-y-4 rounded-3xl border-2 border-amber-200 bg-white p-4 shadow-xs sm:p-5">
         <div className="flex flex-wrap items-center justify-between gap-3">

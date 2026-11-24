@@ -7,6 +7,7 @@ import {
   Compass,
   Focus,
   GraduationCap,
+  PenTool,
   ShoppingBag,
   Sparkles,
   Trash2,
@@ -95,6 +96,7 @@ export function Navbar({
     badge?: number;
   }> = [
     { id: 'map', label: '冒險地圖', icon: Compass },
+    { id: 'hanzi', label: '手寫國字', icon: PenTool },
     { id: 'exam', label: '考前複習', icon: ClipboardCheck },
     { id: 'wrong', label: '錯題本', icon: BookX, badge: dueWrongCount },
     { id: 'shop', label: '英雄商店', icon: ShoppingBag },

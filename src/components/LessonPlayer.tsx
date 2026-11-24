@@ -48,6 +48,9 @@ export function LessonPlayer({
 }: LessonPlayerProps) {
   const [sceneIndex, setSceneIndex] = useState(0);
   const [warmupSelected, setWarmupSelected] = useState<number | null>(null);
+  const [checkedChunks, setCheckedChunks] = useState<Record<string, boolean>>(
+    {},
+  );
   const speechAvailable = isSpeechSupported();
 
   const scenes = lesson.scenes;
@@ -59,6 +62,7 @@ export function LessonPlayer({
   useEffect(() => {
     setSceneIndex(0);
     setWarmupSelected(null);
+    setCheckedChunks({});
     return () => {
       stopSpeech();
     };
@@ -230,16 +234,53 @@ export function LessonPlayer({
               </div>
             )}
 
-            <div className="grid gap-2 sm:grid-cols-2">
-              {currentScene.cognitiveChunks.map((chunk, idx) => (
-                <div
-                  key={idx}
-                  className="flex items-start gap-2 rounded-xl border border-sky-200 bg-sky-50/70 px-3.5 py-2.5 text-xs font-black text-sky-900 sm:text-sm"
-                >
-                  <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-sky-600" />
-                  <span>{chunk}</span>
-                </div>
-              ))}
+            <div className="space-y-1.5">
+              <div className="text-[11px] font-black text-slate-400">
+                點擊重點卡可單獨朗讀並標記「我看懂了」：
+              </div>
+              <div className="grid gap-2 sm:grid-cols-2">
+                {currentScene.cognitiveChunks.map((chunk, idx) => {
+                  const key = `${currentScene.sceneId}-${idx}`;
+                  const checked = Boolean(checkedChunks[key]);
+                  return (
+                    <button
+                      key={idx}
+                      type="button"
+                      onClick={() => {
+                        playTap();
+                        setCheckedChunks((prev) => ({
+                          ...prev,
+                          [key]: !prev[key],
+                        }));
+                        if (speechAvailable) {
+                          speakText(chunk, 'zh-TW', {
+                            grade: speechGrade,
+                            slowMode: speechSlowMode,
+                          });
+                        }
+                      }}
+                      aria-pressed={checked}
+                      className={`flex items-start justify-between gap-2 rounded-xl border px-3.5 py-2.5 text-left text-xs font-black transition sm:text-sm ${
+                        checked
+                          ? 'border-emerald-300 bg-emerald-50 text-emerald-900'
+                          : 'border-sky-200 bg-sky-50/70 text-sky-900 hover:bg-sky-100/70'
+                      }`}
+                    >
+                      <span className="flex items-start gap-2">
+                        <CheckCircle2
+                          className={`mt-0.5 h-4 w-4 shrink-0 ${
+                            checked ? 'text-emerald-600' : 'text-sky-600'
+                          }`}
+                        />
+                        <span>{chunk}</span>
+                      </span>
+                      <span className="shrink-0 text-[10px] font-black opacity-80">
+                        {checked ? '✓ 懂了' : '點讀'}
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
             </div>
           </div>
         )}
@@ -258,14 +299,38 @@ export function LessonPlayer({
             )}
 
             <div className="flex flex-wrap gap-2">
-              {currentScene.cognitiveChunks.map((chunk, idx) => (
-                <span
-                  key={idx}
-                  className="rounded-xl border border-emerald-200 bg-emerald-50 px-3 py-1.5 text-xs font-black text-emerald-900"
-                >
-                  ✓ {chunk}
-                </span>
-              ))}
+              {currentScene.cognitiveChunks.map((chunk, idx) => {
+                const key = `${currentScene.sceneId}-we-${idx}`;
+                const checked = Boolean(checkedChunks[key]);
+                return (
+                  <button
+                    key={idx}
+                    type="button"
+                    onClick={() => {
+                      playTap();
+                      setCheckedChunks((prev) => ({
+                        ...prev,
+                        [key]: !prev[key],
+                      }));
+                      if (speechAvailable) {
+                        speakText(chunk, 'zh-TW', {
+                          grade: speechGrade,
+                          slowMode: speechSlowMode,
+                        });
+                      }
+                    }}
+                    aria-pressed={checked}
+                    className={`rounded-xl border px-3 py-1.5 text-xs font-black transition ${
+                      checked
+                        ? 'border-emerald-400 bg-emerald-100 text-emerald-900'
+                        : 'border-emerald-200 bg-emerald-50 text-emerald-900 hover:bg-emerald-100'
+                    }`}
+                  >
+                    {checked ? '✓ 已懂：' : '✓ '}
+                    {chunk}
+                  </button>
+                );
+              })}
             </div>
           </div>
         )}

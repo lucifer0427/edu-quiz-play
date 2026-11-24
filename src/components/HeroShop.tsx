@@ -1,7 +1,18 @@
-import { Check, Coins, Edit3, Lock, Sparkles } from 'lucide-react';
-import { useEffect, useState } from 'react';
+import {
+  Award,
+  Check,
+  Coins,
+  Edit3,
+  Gift,
+  Lock,
+  Plus,
+  Sparkles,
+  Trash2,
+} from 'lucide-react';
+import { useEffect, useMemo, useState } from 'react';
 import { HERO_AVATARS } from '../data/avatars';
-import type { PlayerProgress } from '../types/quiz';
+import type { FamilyRewardItem, PlayerProgress } from '../types/quiz';
+import { DEFAULT_FAMILY_REWARDS, evaluateBadges } from '../utils/badges';
 import { playTap, playUnlock } from '../utils/sound';
 import { HeroSprite } from './GameSprites';
 
@@ -10,6 +21,9 @@ interface HeroShopProps {
   onSelectAvatar: (avatarId: string) => void;
   onUnlockAvatar: (avatarId: string, price: number) => void;
   onUpdateNickname: (nickname: string) => void;
+  onRedeemFamilyReward?: (reward: FamilyRewardItem) => void;
+  onMarkRewardUsed?: (redeemedId: string) => void;
+  onUpdateFamilyRewards?: (rewards: FamilyRewardItem[]) => void;
 }
 
 export function HeroShop({
@@ -17,9 +31,19 @@ export function HeroShop({
   onSelectAvatar,
   onUnlockAvatar,
   onUpdateNickname,
+  onRedeemFamilyReward,
+  onMarkRewardUsed,
+  onUpdateFamilyRewards,
 }: HeroShopProps) {
   const [nameInput, setNameInput] = useState(progress.nickname);
   const [savedNotice, setSavedNotice] = useState(false);
+  const [newRewardTitle, setNewRewardTitle] = useState('');
+  const [newRewardCost, setNewRewardCost] = useState(150);
+
+  const badges = useMemo(() => evaluateBadges(progress), [progress]);
+  const unlockedBadgeCount = badges.filter((b) => b.unlocked).length;
+  const familyRewards = progress.familyRewards ?? DEFAULT_FAMILY_REWARDS;
+  const redeemedRewards = progress.redeemedRewards ?? [];
 
   useEffect(() => {
     setNameInput(progress.nickname);
@@ -173,6 +197,242 @@ export function HeroShop({
           );
         })}
       </div>
+
+      {/* 努力導向成就徽章牆 */}
+      <section className="space-y-4 rounded-3xl border-2 border-violet-200 bg-white p-5 shadow-xs sm:p-6">
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <div className="flex items-center gap-2">
+            <Award className="h-6 w-6 text-violet-600" />
+            <div>
+              <h3 className="text-xl font-black text-slate-800">
+                冒險成就徽章牆（累積努力就有獎！）
+              </h3>
+              <p className="text-xs font-medium text-slate-500">
+                不用考滿分也能收集！完成微課程、手寫練字、修復錯題或連續打卡即可解鎖
+              </p>
+            </div>
+          </div>
+          <span className="rounded-full bg-violet-100 px-3 py-1 text-xs font-black text-violet-800">
+            已解鎖 {unlockedBadgeCount} / {badges.length}
+          </span>
+        </div>
+
+        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
+          {badges.map((badge) => (
+            <div
+              key={badge.id}
+              className={`flex flex-col justify-between rounded-2xl border-2 p-3.5 transition ${
+                badge.unlocked
+                  ? 'border-amber-300 bg-gradient-to-b from-amber-50 to-white shadow-2xs'
+                  : 'border-slate-200 bg-slate-50/70 opacity-85'
+              }`}
+            >
+              <div>
+                <div className="flex items-center justify-between">
+                  <span className="text-2xl">{badge.emoji}</span>
+                  <span
+                    className={`rounded-full px-2 py-0.5 text-[10px] font-black ${
+                      badge.unlocked
+                        ? 'bg-emerald-100 text-emerald-800'
+                        : 'bg-slate-200 text-slate-600'
+                    }`}
+                  >
+                    {badge.unlocked ? '✓ 已獲得' : `+${badge.rewardCoins} 幣`}
+                  </span>
+                </div>
+                <div className="mt-2 text-sm font-black text-slate-800">
+                  {badge.title}
+                </div>
+                <p className="mt-0.5 text-[11px] leading-snug font-medium text-slate-500">
+                  {badge.description}
+                </p>
+              </div>
+              <div className="mt-3">
+                <div className="mb-1 flex justify-between text-[10px] font-black text-slate-500">
+                  <span>進度</span>
+                  <span>
+                    {badge.current} / {badge.target}
+                  </span>
+                </div>
+                <div className="h-1.5 w-full overflow-hidden rounded-full bg-slate-200">
+                  <div
+                    className={`h-full rounded-full ${
+                      badge.unlocked ? 'bg-emerald-500' : 'bg-violet-400'
+                    }`}
+                    style={{ width: `${badge.percent}%` }}
+                  />
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* 家長自訂家庭實體獎勵兌換券 */}
+      {onRedeemFamilyReward && (
+        <section className="space-y-4 rounded-3xl border-2 border-emerald-200 bg-white p-5 shadow-xs sm:p-6">
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <div className="flex items-center gap-2">
+              <Gift className="h-6 w-6 text-emerald-600" />
+              <div>
+                <h3 className="text-xl font-black text-slate-800">
+                  家庭獎勵兌換券（家長自訂實體獎勵）
+                </h3>
+                <p className="text-xs font-medium text-slate-500">
+                  把答題存到的金幣，換成真實生活中的小確幸！兌換後可請爸爸媽媽點擊核銷
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="grid gap-3 sm:grid-cols-3">
+            {familyRewards.map((reward) => {
+              const canRedeem = progress.coins >= reward.costCoins;
+              return (
+                <div
+                  key={reward.id}
+                  className="flex flex-col justify-between rounded-2xl border-2 border-emerald-100 bg-emerald-50/40 p-4"
+                >
+                  <div className="flex items-start justify-between gap-2">
+                    <div className="flex items-center gap-2">
+                      <span className="text-2xl">{reward.emoji}</span>
+                      <span className="text-sm font-black text-slate-800">
+                        {reward.title}
+                      </span>
+                    </div>
+                    {onUpdateFamilyRewards && familyRewards.length > 1 && (
+                      <button
+                        type="button"
+                        onClick={() => {
+                          playTap();
+                          onUpdateFamilyRewards(
+                            familyRewards.filter((r) => r.id !== reward.id),
+                          );
+                        }}
+                        aria-label={`刪除 ${reward.title}`}
+                        className="rounded-lg p-1 text-slate-400 hover:bg-rose-50 hover:text-rose-600"
+                      >
+                        <Trash2 className="h-3.5 w-3.5" />
+                      </button>
+                    )}
+                  </div>
+                  <button
+                    type="button"
+                    disabled={!canRedeem}
+                    onClick={() => {
+                      playUnlock();
+                      onRedeemFamilyReward(reward);
+                    }}
+                    className={`btn-3d mt-3 w-full rounded-xl py-2 text-xs font-black ${
+                      canRedeem
+                        ? 'bg-emerald-500 text-white shadow-[0_3px_0_#047857] hover:bg-emerald-400'
+                        : 'cursor-not-allowed bg-slate-100 text-slate-400'
+                    }`}
+                  >
+                    {canRedeem
+                      ? `花費 ${reward.costCoins} 金幣兌換`
+                      : `需要 ${reward.costCoins} 金幣（還差 ${reward.costCoins - progress.coins}）`}
+                  </button>
+                </div>
+              );
+            })}
+          </div>
+
+          {onUpdateFamilyRewards && (
+            <form
+              onSubmit={(e) => {
+                e.preventDefault();
+                const trimmed = newRewardTitle.trim();
+                if (!trimmed) return;
+                playTap();
+                onUpdateFamilyRewards([
+                  ...familyRewards,
+                  {
+                    id: `reward-${Date.now()}`,
+                    title: trimmed.slice(0, 30),
+                    costCoins: Math.max(10, Math.min(9999, newRewardCost)),
+                    emoji: '🎁',
+                  },
+                ]);
+                setNewRewardTitle('');
+              }}
+              className="flex flex-wrap items-center gap-2 rounded-2xl bg-slate-50 p-3 text-xs"
+            >
+              <span className="font-black text-slate-600">
+                家長新增獎勵：
+              </span>
+              <input
+                type="text"
+                value={newRewardTitle}
+                onChange={(e) => setNewRewardTitle(e.target.value)}
+                placeholder="例如：週末去吃冰淇淋"
+                className="w-48 rounded-xl border border-slate-300 bg-white px-3 py-1.5 font-bold text-slate-800 focus:border-emerald-400 focus:outline-none"
+              />
+              <input
+                type="number"
+                min={10}
+                max={9999}
+                step={10}
+                value={newRewardCost}
+                onChange={(e) => setNewRewardCost(Number(e.target.value) || 100)}
+                className="w-24 rounded-xl border border-slate-300 bg-white px-2.5 py-1.5 font-bold text-slate-800 focus:border-emerald-400 focus:outline-none"
+              />
+              <span className="font-bold text-slate-500">金幣</span>
+              <button
+                type="submit"
+                className="inline-flex items-center gap-1 rounded-xl bg-emerald-600 px-3 py-1.5 font-black text-white hover:bg-emerald-500"
+              >
+                <Plus className="h-3.5 w-3.5" />
+                <span>新增</span>
+              </button>
+            </form>
+          )}
+
+          {redeemedRewards.length > 0 && (
+            <div className="space-y-2 border-t border-slate-100 pt-3">
+              <div className="text-xs font-black text-slate-600">
+                🎟️ 已兌換的獎勵券（共 {redeemedRewards.length} 張）
+              </div>
+              <div className="grid gap-2 sm:grid-cols-2">
+                {redeemedRewards.slice(0, 6).map((item) => (
+                  <div
+                    key={item.id}
+                    className={`flex items-center justify-between gap-2 rounded-xl border px-3 py-2 text-xs ${
+                      item.used
+                        ? 'border-slate-200 bg-slate-50 text-slate-400 line-through'
+                        : 'border-amber-300 bg-amber-50 text-amber-950'
+                    }`}
+                  >
+                    <div className="font-bold">
+                      {item.emoji} {item.title}
+                      <span className="ml-1.5 text-[10px] opacity-75">
+                        ({new Date(item.redeemedAt).toLocaleDateString('zh-TW')})
+                      </span>
+                    </div>
+                    {!item.used && onMarkRewardUsed && (
+                      <button
+                        type="button"
+                        onClick={() => {
+                          playTap();
+                          onMarkRewardUsed(item.id);
+                        }}
+                        className="shrink-0 rounded-lg bg-white px-2.5 py-1 text-[11px] font-black text-emerald-700 shadow-2xs hover:bg-emerald-50"
+                      >
+                        家長核銷 ✓
+                      </button>
+                    )}
+                    {item.used && (
+                      <span className="shrink-0 text-[10px] font-black">
+                        已核銷
+                      </span>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+        </section>
+      )}
     </div>
   );
 }

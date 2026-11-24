@@ -1,15 +1,19 @@
 import confetti from 'canvas-confetti';
 import {
   ArrowLeft,
+  BookOpen,
   Focus,
   Heart,
   Lightbulb,
   RefreshCw,
   Shuffle,
   Volume2,
+  X,
   Zap,
 } from 'lucide-react';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { loadLessonPack } from '../data/curriculum/lessonLoader';
+import type { LessonScript } from '../types/lesson';
 import type {
   BattleMode,
   Question,
@@ -21,6 +25,7 @@ import {
   isDynamicStage,
   resolveStageQuestionsAsync,
 } from '../utils/generators/registry';
+import { resolveLessonForStage } from '../utils/lessonSynthesizer';
 import {
   playCorrect,
   playCrit,
@@ -38,6 +43,7 @@ import {
 } from '../utils/workedExample';
 import { BattleSummary, type BattleResult } from './BattleSummary';
 import { HeroSprite, MonsterSprite } from './GameSprites';
+import { LessonDiagram } from './lesson-diagrams/LessonDiagram';
 import { QuestionVisual } from './QuestionVisual';
 import { WorkedExampleSplit } from './WorkedExampleSplit';
 
@@ -56,6 +62,8 @@ interface BattleArenaProps {
   onToggleFocusMode?: () => void;
   onToggleSpeechSlow?: () => void;
   onToggleAutoRead?: () => void;
+  onReviewLesson?: () => void;
+  onOpenCertificate?: () => void;
   onFinishBattle: (result: BattleResult) => void;
   onExit: () => void;
 }
@@ -96,6 +104,8 @@ export function BattleArena({
   onToggleFocusMode,
   onToggleSpeechSlow,
   onToggleAutoRead,
+  onReviewLesson,
+  onOpenCertificate,
   onFinishBattle,
   onExit,
 }: BattleArenaProps) {
@@ -149,6 +159,10 @@ export function BattleArena({
   const [finishedResult, setFinishedResult] = useState<BattleResult | null>(
     null,
   );
+  const [conceptDrawerOpen, setConceptDrawerOpen] = useState(false);
+  const [conceptDrawerLoading, setConceptDrawerLoading] = useState(false);
+  const [conceptDrawerLesson, setConceptDrawerLesson] =
+    useState<LessonScript | null>(null);
 
   const initialXpRef = useRef(currentXp);
   const latestCurrentXpRef = useRef(currentXp);
@@ -683,6 +697,31 @@ export function BattleArena({
     questionStartRef.current = Date.now();
   };
 
+  const handleOpenConceptDrawer = useCallback(async () => {
+    playTap();
+    setConceptDrawerOpen(true);
+    if (conceptDrawerLesson) return;
+    setConceptDrawerLoading(true);
+    try {
+      const ref = stage.curriculum;
+      const pack =
+        ref && stage.subjectId !== 'custom'
+          ? await loadLessonPack(
+              ref.academicYear,
+              ref.semester,
+              ref.grade,
+              stage.subjectId,
+            )
+          : null;
+      if (!isMountedRef.current) return;
+      setConceptDrawerLesson(resolveLessonForStage(pack, stage).lesson);
+    } finally {
+      if (isMountedRef.current) {
+        setConceptDrawerLoading(false);
+      }
+    }
+  }, [conceptDrawerLesson, stage]);
+
   if (finishedResult) {
     return (
       <BattleSummary
@@ -690,10 +729,13 @@ export function BattleArena({
         stage={stage}
         selectedAvatarId={selectedAvatarId}
         initialXp={initialXpRef.current}
+        previousStars={latestPrevStarsRef.current}
         maxCombo={maxCombo}
         focusMode={focusMode}
         speechSlowMode={speechSlowMode}
         onRetry={handleRetry}
+        onReviewLesson={onReviewLesson}
+        onOpenCertificate={onOpenCertificate}
         onExit={onExit}
       />
     );
@@ -1135,6 +1177,16 @@ export function BattleArena({
                 <p className="text-sm leading-relaxed font-medium text-slate-700">
                   {currentQuestion.explanation}
                 </p>
+                {!isAnswerCorrect && stage.subjectId !== 'custom' && (
+                  <button
+                    type="button"
+                    onClick={handleOpenConceptDrawer}
+                    className="mt-2 inline-flex items-center gap-1.5 rounded-xl border border-sky-300 bg-white px-3 py-1.5 text-xs font-black text-sky-800 shadow-2xs hover:bg-sky-50"
+                  >
+                    <BookOpen className="h-3.5 w-3.5" />
+                    <span>📖 回看本單元觀念圖解</span>
+                  </button>
+                )}
               </div>
 
               <button
@@ -1149,7 +1201,8 @@ export function BattleArena({
               >
                 {isNextLocked
                   ? `先讀解析 (${(readLockRemainingMs / 1000).toFixed(1)}s)`
-                  : hearts <= 0 || currentIndex >= queue.length - 1
+                  : (allowHeartElimination && hearts <= 0) ||
+                      currentIndex >= queue.length - 1
                     ? '查看結算'
                     : '下一題 →'}
               </button>
@@ -1157,6 +1210,104 @@ export function BattleArena({
           </div>
         )}
       </section>
+
+      {conceptDrawerOpen && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/50 p-4 backdrop-blur-xs"
+          role="dialog"
+          aria-modal="true"
+          aria-label="單元觀念即時回看"
+        >
+          <div className="max-h-[85vh] w-full max-w-2xl overflow-y-auto rounded-3xl border-2 border-sky-300 bg-white p-5 shadow-2xl sm:p-6">
+            <div className="flex items-center justify-between border-b border-slate-100 pb-3">
+              <div className="flex items-center gap-2">
+                <BookOpen className="h-5 w-5 text-sky-600" />
+                <h3 className="text-lg font-black text-slate-800">
+                  {stage.title} · 觀念即時回看
+                </h3>
+              </div>
+              <button
+                type="button"
+                onClick={() => {
+                  playTap();
+                  setConceptDrawerOpen(false);
+                }}
+                aria-label="關閉觀念回看"
+                className="rounded-xl bg-slate-100 p-2 text-slate-600 hover:bg-slate-200"
+              >
+                <X className="h-4 w-4" />
+              </button>
+            </div>
+
+            {conceptDrawerLoading ? (
+              <div className="py-10 text-center text-sm font-black text-slate-500">
+                正在載入單元觀念圖解...
+              </div>
+            ) : conceptDrawerLesson ? (
+              <div className="mt-4 space-y-5">
+                {conceptDrawerLesson.scenes
+                  .filter(
+                    (s) =>
+                      s.componentType === 'ANCHOR_SCENE' ||
+                      s.componentType === 'WORKED_EXAMPLE_SPLIT',
+                  )
+                  .slice(0, 2)
+                  .map((scene) => (
+                    <div
+                      key={scene.sceneId}
+                      className="space-y-3 rounded-2xl border border-slate-200 bg-slate-50/70 p-4"
+                    >
+                      <h4 className="text-base font-black text-slate-800">
+                        {scene.title}
+                      </h4>
+                      <p className="text-sm leading-relaxed font-medium text-slate-700">
+                        {scene.narrationText}
+                      </p>
+                      {scene.visualSpec && (
+                        <LessonDiagram spec={scene.visualSpec} />
+                      )}
+                      {scene.workedExampleData && (
+                        <WorkedExampleSplit
+                          compact
+                          data={scene.workedExampleData}
+                        />
+                      )}
+                      {scene.cognitiveChunks.length > 0 && (
+                        <div className="flex flex-wrap gap-1.5">
+                          {scene.cognitiveChunks.map((chunk, cIdx) => (
+                            <span
+                              key={cIdx}
+                              className="rounded-lg border border-sky-200 bg-white px-2.5 py-1 text-xs font-black text-sky-900"
+                            >
+                              ✓ {chunk}
+                            </span>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  ))}
+              </div>
+            ) : (
+              <div className="py-8 text-center text-sm font-bold text-slate-500">
+                暫無額外微課程資料，請先參考上方小老師解析喔！
+              </div>
+            )}
+
+            <div className="mt-5 flex justify-end">
+              <button
+                type="button"
+                onClick={() => {
+                  playTap();
+                  setConceptDrawerOpen(false);
+                }}
+                className="btn-3d rounded-2xl bg-sky-500 px-5 py-2.5 text-sm font-black text-white shadow-[0_3px_0_#0284c7] hover:bg-sky-400"
+              >
+                看懂了，繼續戰鬥！
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

@@ -178,6 +178,28 @@ export interface DailyStudyActivity {
   reviewsCompleted: number;
 }
 
+export interface HanziPracticeRecord {
+  count: number;
+  masteredAt?: string;
+}
+
+export interface FamilyRewardItem {
+  id: string;
+  title: string;
+  costCoins: number;
+  emoji: string;
+}
+
+export interface RedeemedRewardRecord {
+  id: string;
+  rewardId: string;
+  title: string;
+  emoji: string;
+  costCoins: number;
+  redeemedAt: string;
+  used: boolean;
+}
+
 export interface PlayerProgress {
   schemaVersion?: number;
   nickname: string;
@@ -190,6 +212,7 @@ export interface PlayerProgress {
   wrongQuestionSnapshots?: Record<string, Question>;
   totalCorrect: number;
   totalAnswered: number;
+  totalRepairedCount?: number;
   soundEnabled: boolean;
   focusMode?: boolean;
   speechRateMode?: 'normal' | 'slow';
@@ -197,6 +220,10 @@ export interface PlayerProgress {
   lowerGradeNudgeDismissed?: boolean;
   fsrsCards?: Record<string, FsrsCardState>;
   completedLessonIds?: string[];
+  practicedHanzi?: Record<string, HanziPracticeRecord>;
+  unlockedBadgeIds?: string[];
+  familyRewards?: FamilyRewardItem[];
+  redeemedRewards?: RedeemedRewardRecord[];
   customStages: Stage[];
   selectedView?: MapViewMode;
   selectedGrade?: Grade;
@@ -216,6 +243,6 @@ export interface LocalProfileMeta {
   createdAt: string;
 }
 
-export type ActiveTab = 'map' | 'exam' | 'wrong' | 'shop' | 'teacher';
+export type ActiveTab = 'map' | 'exam' | 'wrong' | 'hanzi' | 'shop' | 'teacher';
 
 export type BattleMode = 'stage' | 'wrong-review' | 'mock-exam';

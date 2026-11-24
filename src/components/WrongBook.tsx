@@ -147,6 +147,17 @@ export function WrongBook({
     () => wrongItems.filter((item) => item.isMastered).length,
     [wrongItems],
   );
+  const gardenCounts = useMemo(() => {
+    let seeds = 0;
+    let sprouts = 0;
+    let trees = 0;
+    for (const item of wrongItems) {
+      if (item.mastery.level === 'mastered') trees++;
+      else if (item.mastery.level === 'growing') sprouts++;
+      else seeds++;
+    }
+    return { seeds, sprouts, trees };
+  }, [wrongItems]);
 
   const launchReview = (sourceItems: WrongQuestionItem[], earlyPractice: boolean) => {
     if (sourceItems.length === 0) return;
@@ -246,6 +257,36 @@ export function WrongBook({
               <div className="mt-0.5 text-xl font-black text-emerald-700">
                 {totalMasteredCount} 題
               </div>
+            </div>
+          </div>
+        )}
+        {wrongItems.length > 0 && (
+          <div className="rounded-2xl border border-emerald-200 bg-gradient-to-r from-emerald-50 to-lime-50 p-4">
+            <div className="flex flex-wrap items-center justify-between gap-2">
+              <div className="text-sm font-black text-emerald-900">
+                🏡 我的知識花園（每答對一次複習，就幫小樹澆水！）
+              </div>
+              <div className="flex flex-wrap items-center gap-3 text-xs font-black">
+                <span className="text-amber-800">🌱 種子 {gardenCounts.seeds}</span>
+                <span className="text-emerald-700">🌿 嫩芽 {gardenCounts.sprouts}</span>
+                <span className="text-green-800">🌳 大樹 {gardenCounts.trees}</span>
+              </div>
+            </div>
+            <div className="mt-2.5 flex flex-wrap gap-1.5 rounded-xl bg-white/80 p-2.5 text-xl">
+              {Array.from({ length: Math.min(12, gardenCounts.trees) }).map((_, i) => (
+                <span key={`t-${i}`} title="長期記憶大樹">🌳</span>
+              ))}
+              {Array.from({ length: Math.min(12, gardenCounts.sprouts) }).map((_, i) => (
+                <span key={`s-${i}`} title="穩固成長嫩芽">🌿</span>
+              ))}
+              {Array.from({ length: Math.min(12, gardenCounts.seeds) }).map((_, i) => (
+                <span key={`g-${i}`} title="剛播下的種子">🌱</span>
+              ))}
+              {wrongItems.length > 36 && (
+                <span className="self-center text-xs font-black text-slate-500">
+                  ⋯等共 {wrongItems.length} 株
+                </span>
+              )}
             </div>
           </div>
         )}

@@ -1,4 +1,12 @@
-import { ArrowLeft, RotateCcw, Sparkles, Star, Volume2 } from 'lucide-react';
+import {
+  ArrowLeft,
+  Award,
+  BookOpen,
+  RotateCcw,
+  Sparkles,
+  Star,
+  Volume2,
+} from 'lucide-react';
 import type {
   BattleMode,
   Question,
@@ -34,10 +42,13 @@ interface BattleSummaryProps {
   stage: Stage;
   selectedAvatarId: string;
   initialXp: number;
+  previousStars?: number;
   maxCombo: number;
   focusMode: boolean;
   speechSlowMode: boolean;
   onRetry: () => void;
+  onReviewLesson?: () => void;
+  onOpenCertificate?: () => void;
   onExit: () => void;
 }
 
@@ -46,10 +57,13 @@ export function BattleSummary({
   stage,
   selectedAvatarId,
   initialXp,
+  previousStars,
   maxCombo,
   focusMode,
   speechSlowMode,
   onRetry,
+  onReviewLesson,
+  onOpenCertificate,
   onExit,
 }: BattleSummaryProps) {
   const beforeLevel = getLevelFromXp(initialXp).level;
@@ -58,6 +72,12 @@ export function BattleSummary({
   const won = result.stars > 0;
   const isWrongReview = result.battleMode === 'wrong-review';
   const isMockExam = result.battleMode === 'mock-exam';
+  const starImproved =
+    previousStars !== undefined && result.stars > previousStars;
+  const needsLessonReview =
+    Boolean(onReviewLesson) &&
+    !isWrongReview &&
+    (result.stars <= 1 || result.wrongQuestions.length >= 3);
 
   return (
     <div className="mx-auto max-w-2xl px-4 py-8">
@@ -128,10 +148,25 @@ export function BattleSummary({
           </p>
         )}
 
+        {(starImproved || result.repairedCount > 0) && (
+          <div className="mt-3 flex flex-wrap justify-center gap-2">
+            {starImproved && (
+              <span className="rounded-xl bg-amber-100 px-3 py-1.5 text-xs font-black text-amber-900">
+                📈 比上次進步了 +{result.stars - (previousStars ?? 0)} 顆星！
+              </span>
+            )}
+            {result.repairedCount > 0 && (
+              <span className="rounded-xl bg-teal-100 px-3 py-1.5 text-xs font-black text-teal-900">
+                🔧 本回合靠自己修復了 {result.repairedCount} 題錯題！
+              </span>
+            )}
+          </div>
+        )}
+
         {isWrongReview && result.solvedWrongIds.length > 0 && (
           <p className="mt-3 rounded-xl bg-emerald-50 px-3 py-2 text-xs font-bold text-emerald-800">
             🌱 本回合完成複習 {result.solvedWrongIds.length}{' '}
-            題，FSRS 記憶引擎已自動推進下一次複習排程！
+            題，FSRS 記憶引擎已自動推進下一次複習排程！（已幫知識花園的小樹澆水囉！）
           </p>
         )}
 
@@ -198,6 +233,20 @@ export function BattleSummary({
         )}
 
         <div className="mt-6 flex flex-wrap justify-center gap-3">
+          {needsLessonReview && onReviewLesson && (
+            <button
+              type="button"
+              onClick={() => {
+                playTap();
+                stopSpeech();
+                onReviewLesson();
+              }}
+              className="btn-3d inline-flex items-center gap-2 rounded-2xl bg-sky-500 px-5 py-3 text-base font-black text-white shadow-[0_4px_0_#0284c7] hover:bg-sky-400"
+            >
+              <BookOpen className="h-5 w-5" />
+              <span>回到微課程再看一次關鍵步驟</span>
+            </button>
+          )}
           {!isWrongReview && (
             <button
               type="button"
@@ -212,6 +261,19 @@ export function BattleSummary({
                     ? '換新題再戰'
                     : '再挑戰一次'}
               </span>
+            </button>
+          )}
+          {won && onOpenCertificate && (
+            <button
+              type="button"
+              onClick={() => {
+                playTap();
+                onOpenCertificate();
+              }}
+              className="btn-3d inline-flex items-center gap-2 rounded-2xl border-2 border-amber-300 bg-amber-50 px-5 py-3 text-base font-black text-amber-900 shadow-[0_4px_0_#fcd34d] hover:bg-amber-100"
+            >
+              <Award className="h-5 w-5 text-amber-600" />
+              <span>領取冒險小獎狀</span>
             </button>
           )}
           <button

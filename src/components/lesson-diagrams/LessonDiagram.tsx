@@ -727,12 +727,61 @@ function ClockFaceTemplate({
   );
 }
 
+function resolveDefaultInteractiveParam(spec: LessonVisualSpec) {
+  if (spec.interactiveParam) return spec.interactiveParam;
+  const p = spec.params ?? {};
+  if (spec.templateId === 'number_line') {
+    const min = Math.round(numParam(p, 'min', 0));
+    const max = Math.max(min + 2, Math.round(numParam(p, 'max', 12)));
+    const step = Math.max(1, Math.round(numParam(p, 'step', 1)));
+    return {
+      key: 'highlight',
+      label: '數線跳格位置',
+      min,
+      max,
+      step,
+    };
+  }
+  if (spec.templateId === 'clock_face') {
+    if (p.angle !== undefined) {
+      return {
+        key: 'angle',
+        label: '調整圓心角',
+        min: 15,
+        max: 360,
+        step: 15,
+        unit: '°',
+      };
+    }
+    return {
+      key: 'minute',
+      label: '轉動分針',
+      min: 0,
+      max: 55,
+      step: 5,
+      unit: '分',
+    };
+  }
+  if (spec.templateId === 'fraction_bar') {
+    const den = Math.max(1, Math.min(12, Math.round(numParam(p, 'denominator', 4))));
+    return {
+      key: 'numerator',
+      label: '塗色分子數',
+      min: 0,
+      max: den,
+      step: 1,
+    };
+  }
+  return undefined;
+}
+
 export function LessonDiagram({ spec }: LessonDiagramProps) {
-  const initialInteractiveVal = spec.interactiveParam
+  const activeInteractive = resolveDefaultInteractiveParam(spec);
+  const initialInteractiveVal = activeInteractive
     ? numParam(
         spec.params ?? {},
-        spec.interactiveParam.key,
-        spec.interactiveParam.min,
+        activeInteractive.key,
+        activeInteractive.min,
       )
     : 0;
 
@@ -741,19 +790,23 @@ export function LessonDiagram({ spec }: LessonDiagramProps) {
   );
 
   useEffect(() => {
-    if (spec.interactiveParam) {
+    if (activeInteractive) {
+      const hasExisting =
+        spec.params && spec.params[activeInteractive.key] !== undefined;
       setInteractiveVal(
-        numParam(
-          spec.params ?? {},
-          spec.interactiveParam.key,
-          spec.interactiveParam.min,
-        ),
+        hasExisting
+          ? numParam(
+              spec.params ?? {},
+              activeInteractive.key,
+              activeInteractive.min,
+            )
+          : activeInteractive.min,
       );
     }
   }, [spec]);
 
-  const effectiveParams: DiagramParams = spec.interactiveParam
-    ? { ...(spec.params ?? {}), [spec.interactiveParam.key]: interactiveVal }
+  const effectiveParams: DiagramParams = activeInteractive
+    ? { ...(spec.params ?? {}), [activeInteractive.key]: interactiveVal }
     : (spec.params ?? {});
 
   const labels = spec.spatialLabels ?? [];
@@ -783,43 +836,43 @@ export function LessonDiagram({ spec }: LessonDiagramProps) {
     <div className="flex flex-col items-center gap-3 rounded-2xl border-2 border-slate-200 bg-white p-4">
       {renderTemplate()}
 
-      {spec.interactiveParam && (
+      {activeInteractive && (
         <div className="flex items-center gap-3 rounded-xl border border-sky-200 bg-sky-50 px-3.5 py-2">
           <span className="text-xs font-black text-sky-900">
-            {spec.interactiveParam.label}：
+            {activeInteractive.label}：
           </span>
           <button
             type="button"
-            disabled={interactiveVal <= spec.interactiveParam.min}
+            disabled={interactiveVal <= activeInteractive.min}
             onClick={() =>
               setInteractiveVal((prev) =>
                 Math.max(
-                  spec.interactiveParam!.min,
-                  prev - spec.interactiveParam!.step,
+                  activeInteractive.min,
+                  prev - activeInteractive.step,
                 ),
               )
             }
-            aria-label={`減少 ${spec.interactiveParam.label}`}
+            aria-label={`減少 ${activeInteractive.label}`}
             className="flex h-7 w-7 items-center justify-center rounded-lg border border-sky-300 bg-white text-sky-800 hover:bg-sky-100 disabled:opacity-40"
           >
             <Minus className="h-3.5 w-3.5" />
           </button>
           <span className="min-w-[3.5rem] text-center text-sm font-black text-slate-900">
             {interactiveVal}
-            {spec.interactiveParam.unit ? ` ${spec.interactiveParam.unit}` : ''}
+            {activeInteractive.unit ? ` ${activeInteractive.unit}` : ''}
           </span>
           <button
             type="button"
-            disabled={interactiveVal >= spec.interactiveParam.max}
+            disabled={interactiveVal >= activeInteractive.max}
             onClick={() =>
               setInteractiveVal((prev) =>
                 Math.min(
-                  spec.interactiveParam!.max,
-                  prev + spec.interactiveParam!.step,
+                  activeInteractive.max,
+                  prev + activeInteractive.step,
                 ),
               )
             }
-            aria-label={`增加 ${spec.interactiveParam.label}`}
+            aria-label={`增加 ${activeInteractive.label}`}
             className="flex h-7 w-7 items-center justify-center rounded-lg border border-sky-300 bg-white text-sky-800 hover:bg-sky-100 disabled:opacity-40"
           >
             <Plus className="h-3.5 w-3.5" />

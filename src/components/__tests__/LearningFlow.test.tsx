@@ -3,6 +3,11 @@ import { act, cleanup, fireEvent, render, screen } from '@testing-library/react'
 import { afterEach, describe, expect, it, vi } from 'vitest';
 import type { LessonScript } from '../../types/lesson';
 import type { Stage } from '../../types/quiz';
+import { extractHanziCharacters } from '../../data/hanziVocab';
+import {
+  evaluateBadges,
+  findNewlyEarnedBadges,
+} from '../../utils/badges';
 import {
   getTodayStudyStats,
   recordDailyStudyActivity,
@@ -17,6 +22,7 @@ import {
 import { BattleArena } from '../BattleArena';
 import { BattleSummary, type BattleResult } from '../BattleSummary';
 import { DailyMissionCard } from '../DailyMissionCard';
+import { HeroShop } from '../HeroShop';
 import { LessonPlayer } from '../LessonPlayer';
 import { WrongBook } from '../WrongBook';
 
@@ -434,5 +440,83 @@ describe('LessonPlayer & WrongBook', () => {
     expect(onStartWrongReview).toHaveBeenCalledTimes(1);
     const reviewStage = onStartWrongReview.mock.calls[0][0] as Stage;
     expect(reviewStage.questions).toHaveLength(5);
+  });
+});
+
+describe('Engagement, Hanzi & Deep Teaching Features', () => {
+  it('extractHanziCharacters filters punctuation/ASCII and deduplicates CJK characters', () => {
+    expect(extractHanziCharacters('春、風123 abc 春雨花草！')).toEqual([
+      '春',
+      '風',
+      '雨',
+      '花',
+      '草',
+    ]);
+  });
+
+  it('evaluateBadges and findNewlyEarnedBadges work on empty and progressed saves', () => {
+    const emptyBadges = evaluateBadges(DEFAULT_PROGRESS);
+    expect(emptyBadges.length).toBeGreaterThanOrEqual(10);
+    expect(emptyBadges.every((b) => !b.unlocked)).toBe(true);
+
+    const progressed = {
+      ...DEFAULT_PROGRESS,
+      completedLessonIds: ['l1'],
+      practicedHanzi: {
+        春: { count: 1 },
+        風: { count: 1 },
+        雨: { count: 1 },
+        花: { count: 1 },
+        草: { count: 1 },
+      },
+    };
+    const newlyEarned = findNewlyEarnedBadges(progressed).map((b) => b.id);
+    expect(newlyEarned).toContain('first-lesson');
+    expect(newlyEarned).toContain('hanzi-starter');
+  });
+
+  it('HeroShop renders Badges Wall and allows redeeming affordable Family Rewards', () => {
+    const onRedeem = vi.fn();
+    render(
+      <HeroShop
+        progress={{ ...DEFAULT_PROGRESS, coins: 180 }}
+        onSelectAvatar={vi.fn()}
+        onUnlockAvatar={vi.fn()}
+        onUpdateNickname={vi.fn()}
+        onRedeemFamilyReward={onRedeem}
+      />,
+    );
+
+    expect(
+      screen.getByText(/冒險成就徽章牆/),
+    ).toBeInTheDocument();
+    const redeemBtn = screen.getByRole('button', { name: '花費 150 金幣兌換' });
+    fireEvent.click(redeemBtn);
+    expect(onRedeem).toHaveBeenCalledTimes(1);
+
+    // 200 coin reward should be disabled when coins = 180
+    expect(
+      screen.getByRole('button', { name: /需要 200 金幣（還差 20）/ }),
+    ).toBeDisabled();
+  });
+
+  it('BattleArena offers Just-In-Time concept review button when answered wrong', () => {
+    render(
+      <BattleArena
+        stage={SAMPLE_STAGE}
+        selectedAvatarId="hero-knight"
+        currentXp={0}
+        battleMode="stage"
+        focusMode={true}
+        onFinishBattle={vi.fn()}
+        onExit={vi.fn()}
+      />,
+    );
+
+    // Pick wrong option '18'
+    fireEvent.click(screen.getByRole('button', { name: /18/ }));
+    expect(
+      screen.getByRole('button', { name: /回看本單元觀念圖解/ }),
+    ).toBeInTheDocument();
   });
 });

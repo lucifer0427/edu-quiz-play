@@ -1,8 +1,10 @@
 import {
+  Award,
   BookOpen,
   CheckCircle2,
   ClipboardCheck,
   Flame,
+  PenTool,
   Play,
   Swords,
 } from 'lucide-react';
@@ -36,6 +38,8 @@ export interface DailyMissionCardProps {
   onStartLesson?: (lesson: LessonScript, stage: Stage) => void;
   onGoWrongBook: () => void;
   onGoExamReview?: () => void;
+  onGoHanzi?: () => void;
+  onOpenCertificate?: () => void;
   onUpdateDailyGoal?: (goal: number) => void;
 }
 
@@ -51,6 +55,8 @@ export function DailyMissionCard({
   onStartLesson,
   onGoWrongBook,
   onGoExamReview,
+  onGoHanzi,
+  onOpenCertificate,
   onUpdateDailyGoal,
 }: DailyMissionCardProps) {
   return (
@@ -69,10 +75,25 @@ export function DailyMissionCard({
                 連續學習 {todayStats.streakDays} 天
               </span>
               {todayStats.goalReached && (
-                <span className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2.5 py-0.5 text-xs font-black text-emerald-800">
-                  <CheckCircle2 className="h-3.5 w-3.5" />
-                  今日目標達成！
-                </span>
+                <>
+                  <span className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2.5 py-0.5 text-xs font-black text-emerald-800">
+                    <CheckCircle2 className="h-3.5 w-3.5" />
+                    今日目標達成！
+                  </span>
+                  {onOpenCertificate && (
+                    <button
+                      type="button"
+                      onClick={() => {
+                        playTap();
+                        onOpenCertificate();
+                      }}
+                      className="inline-flex items-center gap-1 rounded-full bg-amber-400 px-2.5 py-0.5 text-xs font-black text-slate-900 shadow-2xs hover:bg-amber-300"
+                    >
+                      <Award className="h-3.5 w-3.5" />
+                      領取小獎狀
+                    </button>
+                  )}
+                </>
               )}
             </div>
             <p className="text-xs font-bold text-slate-500">
@@ -197,7 +218,7 @@ export function DailyMissionCard({
                 dueWrongCount > 0 ? 'text-rose-700' : 'text-emerald-700'
               }`}
             >
-              2. 記憶樹錯題複習
+              2. 記憶樹錯題複習 · 約 3 分鐘
             </div>
             <p className="mt-1 text-sm font-black text-slate-800">
               {dueWrongCount > 0
@@ -226,22 +247,34 @@ export function DailyMissionCard({
         <div className="flex flex-col justify-between gap-3 rounded-2xl border border-violet-200 bg-violet-50/70 p-4">
           <div>
             <div className="text-xs font-black text-violet-700">
-              3. 期中／期末考前總複習
+              3. 手寫練字／考前複習 · 約 2 分鐘
             </div>
             <p className="mt-1 text-sm font-black text-slate-800">
-              重點摘要朗讀、列印複習單與弱點模擬考
+              平板手寫國字筆順，或進行考前弱點模擬考
             </p>
           </div>
-          {onGoExamReview && (
-            <button
-              type="button"
-              onClick={onGoExamReview}
-              className="inline-flex w-fit items-center gap-1 rounded-xl border border-violet-300 bg-white px-3 py-1.5 text-xs font-black text-violet-800 hover:bg-violet-100"
-            >
-              <ClipboardCheck className="h-3.5 w-3.5" />
-              <span>前往考前複習</span>
-            </button>
-          )}
+          <div className="flex flex-wrap gap-2">
+            {onGoHanzi && (
+              <button
+                type="button"
+                onClick={onGoHanzi}
+                className="inline-flex w-fit items-center gap-1 rounded-xl bg-amber-400 px-3 py-1.5 text-xs font-black text-slate-900 shadow-2xs hover:bg-amber-300"
+              >
+                <PenTool className="h-3.5 w-3.5" />
+                <span>手寫國字練習</span>
+              </button>
+            )}
+            {onGoExamReview && (
+              <button
+                type="button"
+                onClick={onGoExamReview}
+                className="inline-flex w-fit items-center gap-1 rounded-xl border border-violet-300 bg-white px-3 py-1.5 text-xs font-black text-violet-800 hover:bg-violet-100"
+              >
+                <ClipboardCheck className="h-3.5 w-3.5" />
+                <span>前往考前複習</span>
+              </button>
+            )}
+          </div>
         </div>
       </div>
     </section>

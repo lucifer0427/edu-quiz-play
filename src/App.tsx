@@ -1,24 +1,30 @@
 import { Sparkles, X } from 'lucide-react';
 import { lazy, Suspense, useCallback, useEffect, useState } from 'react';
 import { BattleArena, type BattleResult } from './components/BattleArena';
+import { CertificateModal } from './components/CertificateModal';
 import { HeroShop } from './components/HeroShop';
 import { Navbar } from './components/Navbar';
 import { TeacherPanel } from './components/TeacherPanel';
 import { WorldMap } from './components/WorldMap';
 import { WrongBook } from './components/WrongBook';
+import { loadLessonPack } from './data/curriculum/lessonLoader';
 import type { LessonScript } from './types/lesson';
 import type {
   ActiveTab,
   BattleMode,
+  FamilyRewardItem,
   LocalProfileMeta,
   PlayerProgress,
   Stage,
 } from './types/quiz';
 
 const ExamReview = lazy(() => import('./components/ExamReview'));
+const HanziPractice = lazy(() => import('./components/HanziPractice'));
 const LessonPlayer = lazy(() => import('./components/LessonPlayer'));
+import { findNewlyEarnedBadges } from './utils/badges';
 import { recordDailyStudyActivity } from './utils/dailyStudy';
 import { reviewFsrsCard } from './utils/fsrs';
+import { resolveLessonForStage } from './utils/lessonSynthesizer';
 import { playTap, setSoundEnabled } from './utils/sound';
 import {
   createProfile,
@@ -58,6 +64,11 @@ export function App() {
       ? decodeCustomStageFromHash(window.location.hash)
       : null,
   );
+  const [certificateState, setCertificateState] = useState<{
+    open: boolean;
+    title: string;
+    subtitle: string;
+  }>({ open: false, title: '', subtitle: '' });
 
   useEffect(() => {
     saveProgress(progress, activeProfileId);
@@ -288,17 +299,30 @@ export function App() {
         now,
       );
 
-      return {
+      const nextProgress: PlayerProgress = {
         ...prev,
         ...dailyPatch,
         xp: prev.xp + result.xpEarned,
         coins: prev.coins + result.coinsEarned,
         totalCorrect: prev.totalCorrect + result.correctCount,
         totalAnswered: prev.totalAnswered + result.totalCount,
+        totalRepairedCount:
+          (prev.totalRepairedCount ?? 0) + (result.repairedCount ?? 0),
         stageStars: nextStageStars,
         wrongQuestionIds: Array.from(wrongSet),
         wrongQuestionSnapshots: nextSnapshots,
         fsrsCards: nextFsrsCards,
+      };
+      const newBadges = findNewlyEarnedBadges(nextProgress);
+      if (newBadges.length === 0) return nextProgress;
+      const bonusCoins = newBadges.reduce((sum, b) => sum + b.rewardCoins, 0);
+      return {
+        ...nextProgress,
+        coins: nextProgress.coins + bonusCoins,
+        unlockedBadgeIds: [
+          ...(nextProgress.unlockedBadgeIds ?? []),
+          ...newBadges.map((b) => b.id),
+        ],
       };
     });
   }, []);
@@ -312,11 +336,22 @@ export function App() {
       if (prev.unlockedAvatarIds.includes(avatarId) || prev.coins < price) {
         return prev;
       }
-      return {
+      const nextProgress: PlayerProgress = {
         ...prev,
         coins: prev.coins - price,
         unlockedAvatarIds: [...prev.unlockedAvatarIds, avatarId],
         selectedAvatarId: avatarId,
+      };
+      const newBadges = findNewlyEarnedBadges(nextProgress);
+      if (newBadges.length === 0) return nextProgress;
+      const bonusCoins = newBadges.reduce((sum, b) => sum + b.rewardCoins, 0);
+      return {
+        ...nextProgress,
+        coins: nextProgress.coins + bonusCoins,
+        unlockedBadgeIds: [
+          ...(nextProgress.unlockedBadgeIds ?? []),
+          ...newBadges.map((b) => b.id),
+        ],
       };
     });
   };
@@ -324,6 +359,96 @@ export function App() {
   const handleUpdateNickname = (nickname: string) => {
     setProgress((prev) => ({ ...prev, nickname }));
   };
+
+  const handleCompleteHanzi = useCallback((char: string) => {
+    const now = new Date();
+    setProgress((prev) => {
+      const existing = prev.practicedHanzi?.[char];
+      const isFirstTime = !existing;
+      const dailyPatch = recordDailyStudyActivity(prev, { answered: 1 }, now);
+      const nextProgress: PlayerProgress = {
+        ...prev,
+        ...dailyPatch,
+        xp: prev.xp + (isFirstTime ? 10 : 5),
+        coins: prev.coins + (isFirstTime ? 5 : 3),
+        practicedHanzi: {
+          ...(prev.practicedHanzi ?? {}),
+          [char]: {
+            count: (existing?.count ?? 0) + 1,
+            masteredAt: existing?.masteredAt ?? now.toISOString(),
+          },
+        },
+      };
+      const newBadges = findNewlyEarnedBadges(nextProgress);
+      if (newBadges.length === 0) return nextProgress;
+      const bonusCoins = newBadges.reduce((sum, b) => sum + b.rewardCoins, 0);
+      return {
+        ...nextProgress,
+        coins: nextProgress.coins + bonusCoins,
+        unlockedBadgeIds: [
+          ...(nextProgress.unlockedBadgeIds ?? []),
+          ...newBadges.map((b) => b.id),
+        ],
+      };
+    });
+  }, []);
+
+  const handleRedeemFamilyReward = useCallback((reward: FamilyRewardItem) => {
+    setProgress((prev) => {
+      if (prev.coins < reward.costCoins) return prev;
+      return {
+        ...prev,
+        coins: prev.coins - reward.costCoins,
+        redeemedRewards: [
+          {
+            id: `voucher-${Date.now()}`,
+            rewardId: reward.id,
+            title: reward.title,
+            emoji: reward.emoji,
+            costCoins: reward.costCoins,
+            redeemedAt: new Date().toISOString(),
+            used: false,
+          },
+          ...(prev.redeemedRewards ?? []),
+        ],
+      };
+    });
+  }, []);
+
+  const handleMarkRewardUsed = useCallback((redeemedId: string) => {
+    setProgress((prev) => ({
+      ...prev,
+      redeemedRewards: (prev.redeemedRewards ?? []).map((item) =>
+        item.id === redeemedId ? { ...item, used: true } : item,
+      ),
+    }));
+  }, []);
+
+  const handleUpdateFamilyRewards = useCallback(
+    (rewards: FamilyRewardItem[]) => {
+      setProgress((prev) => ({
+        ...prev,
+        familyRewards: rewards,
+      }));
+    },
+    [],
+  );
+
+  const handleReviewStageLesson = useCallback(async (stage: Stage) => {
+    const ref = stage.curriculum;
+    const pack =
+      ref && stage.subjectId !== 'custom'
+        ? await loadLessonPack(
+            ref.academicYear,
+            ref.semester,
+            ref.grade,
+            stage.subjectId,
+          )
+        : null;
+    const { lesson } = resolveLessonForStage(pack, stage);
+    setActiveBattle(null);
+    setActiveLesson({ lesson, stage });
+  }, []);
 
   const handleUpdateMapFilter = useCallback(
     (
@@ -449,6 +574,20 @@ export function App() {
             onToggleFocusMode={handleToggleFocusMode}
             onToggleSpeechSlow={handleToggleSpeechSlow}
             onToggleAutoRead={handleToggleAutoRead}
+            onReviewLesson={
+              activeBattle.stage.subjectId !== 'custom'
+                ? () => {
+                    void handleReviewStageLesson(activeBattle.stage);
+                  }
+                : undefined
+            }
+            onOpenCertificate={() =>
+              setCertificateState({
+                open: true,
+                title: `成功通關「${activeBattle.stage.title}」`,
+                subtitle: '完成關卡挑戰，持續累積學習能量！',
+              })
+            }
             onFinishBattle={handleFinishBattle}
             onExit={() => setActiveBattle(null)}
           />
@@ -489,6 +628,7 @@ export function App() {
         ) : activeTab === 'map' ? (
           <WorldMap
             progress={progress}
+            profiles={profiles}
             onStartStage={(stage) => {
               playTap();
               setActiveBattle({ stage, mode: 'stage' });
@@ -505,6 +645,17 @@ export function App() {
               playTap();
               setActiveTab('exam');
             }}
+            onGoHanzi={() => {
+              playTap();
+              setActiveTab('hanzi');
+            }}
+            onOpenCertificate={() =>
+              setCertificateState({
+                open: true,
+                title: `達成今日學習目標（連續 ${progress.studyStreakDays ?? 1} 天）`,
+                subtitle: '每天穩穩進步一點點，就是最棒的冒險家！',
+              })
+            }
             onGoTeacher={() => {
               playTap();
               setActiveTab('teacher');
@@ -515,6 +666,19 @@ export function App() {
             onUpdatePreferences={handleUpdatePreferences}
             onUpdateMapFilter={handleUpdateMapFilter}
           />
+        ) : activeTab === 'hanzi' ? (
+          <Suspense
+            fallback={
+              <div className="mx-auto max-w-2xl px-4 py-12 text-center text-sm font-black text-slate-600">
+                正在載入平板手寫國字練字坊...
+              </div>
+            }
+          >
+            <HanziPractice
+              progress={progress}
+              onCompleteHanzi={handleCompleteHanzi}
+            />
+          </Suspense>
         ) : activeTab === 'exam' ? (
           <Suspense
             fallback={
@@ -554,6 +718,9 @@ export function App() {
             onSelectAvatar={handleSelectAvatar}
             onUnlockAvatar={handleUnlockAvatar}
             onUpdateNickname={handleUpdateNickname}
+            onRedeemFamilyReward={handleRedeemFamilyReward}
+            onMarkRewardUsed={handleMarkRewardUsed}
+            onUpdateFamilyRewards={handleUpdateFamilyRewards}
           />
         ) : (
           <TeacherPanel
@@ -567,6 +734,16 @@ export function App() {
           />
         )}
       </main>
+
+      <CertificateModal
+        open={certificateState.open}
+        nickname={progress.nickname}
+        achievementTitle={certificateState.title}
+        subtitle={certificateState.subtitle}
+        onClose={() =>
+          setCertificateState((prev) => ({ ...prev, open: false }))
+        }
+      />
     </div>
   );
 }

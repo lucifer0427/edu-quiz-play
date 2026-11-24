@@ -140,6 +140,7 @@ export function normalizeProgress(
       parsed.totalAnswered,
       DEFAULT_PROGRESS.totalAnswered,
     ),
+    totalRepairedCount: nonNegativeInt(parsed.totalRepairedCount, 0),
     soundEnabled:
       typeof parsed.soundEnabled === 'boolean'
         ? parsed.soundEnabled
@@ -175,6 +176,41 @@ export function normalizeProgress(
         : {},
     fsrsCards,
     completedLessonIds,
+    practicedHanzi:
+      parsed.practicedHanzi &&
+      typeof parsed.practicedHanzi === 'object' &&
+      !Array.isArray(parsed.practicedHanzi)
+        ? parsed.practicedHanzi
+        : undefined,
+    unlockedBadgeIds: Array.isArray(parsed.unlockedBadgeIds)
+      ? Array.from(
+          new Set(
+            parsed.unlockedBadgeIds.filter(
+              (id): id is string => typeof id === 'string' && id.trim() !== '',
+            ),
+          ),
+        )
+      : undefined,
+    familyRewards: Array.isArray(parsed.familyRewards)
+      ? parsed.familyRewards.filter(
+          (item) =>
+            item &&
+            typeof item === 'object' &&
+            typeof item.id === 'string' &&
+            typeof item.title === 'string' &&
+            typeof item.costCoins === 'number' &&
+            item.costCoins > 0,
+        )
+      : undefined,
+    redeemedRewards: Array.isArray(parsed.redeemedRewards)
+      ? parsed.redeemedRewards.filter(
+          (item) =>
+            item &&
+            typeof item === 'object' &&
+            typeof item.id === 'string' &&
+            typeof item.title === 'string',
+        )
+      : undefined,
     customStages: Array.isArray(parsed.customStages)
       ? parsed.customStages
       : [],
