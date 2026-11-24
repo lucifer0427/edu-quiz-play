@@ -26,7 +26,9 @@ export interface LessonPlayerProps {
   alreadyCompleted: boolean;
   focusMode?: boolean;
   speechSlowMode?: boolean;
+  autoReadQuestion?: boolean;
   onToggleSpeechSlow?: () => void;
+  onToggleAutoRead?: () => void;
   onCompleteAndStartQuiz: () => void;
   onCompleteAndExit: () => void;
   onExit: () => void;
@@ -37,7 +39,9 @@ export function LessonPlayer({
   stage,
   alreadyCompleted,
   speechSlowMode = false,
+  autoReadQuestion = false,
   onToggleSpeechSlow,
+  onToggleAutoRead,
   onCompleteAndStartQuiz,
   onCompleteAndExit,
   onExit,
@@ -59,6 +63,21 @@ export function LessonPlayer({
       stopSpeech();
     };
   }, [lesson.lessonId]);
+
+  useEffect(() => {
+    if (!autoReadQuestion || !speechAvailable || !currentScene) return;
+    speakText(currentScene.narrationText, 'zh-TW', {
+      grade: speechGrade,
+      slowMode: speechSlowMode,
+    });
+  }, [
+    autoReadQuestion,
+    currentScene,
+    sceneIndex,
+    speechAvailable,
+    speechGrade,
+    speechSlowMode,
+  ]);
 
   if (!currentScene) return null;
 
@@ -149,6 +168,23 @@ export function LessonPlayer({
                   }`}
                 >
                   {speechSlowMode ? '慢速' : '標準'}
+                </button>
+              )}
+              {onToggleAutoRead && (
+                <button
+                  type="button"
+                  onClick={() => {
+                    playTap();
+                    onToggleAutoRead();
+                  }}
+                  aria-pressed={autoReadQuestion}
+                  className={`rounded-xl border px-2.5 py-1.5 text-xs font-black transition ${
+                    autoReadQuestion
+                      ? 'border-emerald-300 bg-emerald-100 text-emerald-800'
+                      : 'border-slate-200 bg-slate-50 text-slate-600 hover:bg-slate-100'
+                  }`}
+                >
+                  {autoReadQuestion ? '自動朗讀中' : '自動朗讀'}
                 </button>
               )}
             </>

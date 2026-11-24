@@ -39,6 +39,7 @@ import type {
   WorkedExampleData,
 } from '../types/quiz';
 import { resolveStageQuestionsAsync } from '../utils/generators/registry';
+import { buildSubjectDiagnostics } from '../utils/learningDiagnostics';
 import { playTap } from '../utils/sound';
 import { isSpeechSupported, speakText, stopSpeech } from '../utils/speech';
 
@@ -308,6 +309,22 @@ export function ExamReview({
     const selectedSet = new Set(selectedStageIds);
     return unitDigests.filter((d) => selectedSet.has(d.stage.id));
   }, [unitDigests, selectedStageIds]);
+
+  const diagnostics = useMemo(
+    () =>
+      buildSubjectDiagnostics(
+        selectedDigests.map((d) => d.stage),
+        progress.fsrsCards,
+        progress.stageStars,
+        progress.wrongQuestionIds,
+      ),
+    [
+      progress.fsrsCards,
+      progress.stageStars,
+      progress.wrongQuestionIds,
+      selectedDigests,
+    ],
+  );
 
   const displayedDigests = useMemo(() => {
     if (!onlyWeakUnits) return selectedDigests;
@@ -770,8 +787,62 @@ export function ExamReview({
               className="flex items-center gap-1.5 rounded-xl border border-slate-200 bg-white px-3.5 py-1.5 text-xs font-black text-slate-700 shadow-sm hover:bg-slate-50"
             >
               <Printer className="h-3.5 w-3.5" />
-              列印考前重點單
+              列印考前重點／診斷單
             </button>
+          </div>
+
+          <div className="rounded-3xl border-2 border-indigo-200 bg-gradient-to-r from-indigo-50/80 to-sky-50/80 p-5 shadow-2xs">
+            <div className="flex flex-wrap items-center justify-between gap-2">
+              <div>
+                <h3 className="text-base font-black text-slate-800">
+                  📊 知識點掌握度診斷摘要（親師參考）
+                </h3>
+                <p className="text-xs font-bold text-slate-500">
+                  依據目前勾選範圍內的作答紀錄與 FSRS 記憶穩定度即時統計
+                </p>
+              </div>
+              <div className="flex flex-wrap items-center gap-2 text-xs font-black">
+                <span className="rounded-full bg-emerald-100 px-2.5 py-1 text-emerald-800">
+                  🌳 長期掌握 {diagnostics.masteredCount} 題
+                </span>
+                <span className="rounded-full bg-sky-100 px-2.5 py-1 text-sky-800">
+                  🌿 穩固中 {diagnostics.growingCount} 題
+                </span>
+                <span className="rounded-full bg-rose-100 px-2.5 py-1 text-rose-800">
+                  🔔 待複習／錯題 {diagnostics.dueCount} 題
+                </span>
+              </div>
+            </div>
+
+            {diagnostics.tagSummaries.length > 0 && (
+              <div className="mt-3 flex flex-wrap items-center gap-1.5">
+                <span className="text-xs font-black text-slate-600">
+                  核心知識點狀態：
+                </span>
+                {diagnostics.tagSummaries.slice(0, 8).map((item) => (
+                  <span
+                    key={item.tag}
+                    className={`rounded-lg border px-2 py-0.5 text-[11px] font-black ${
+                      item.status === 'weak'
+                        ? 'border-rose-300 bg-rose-50 text-rose-800'
+                        : item.status === 'mastered'
+                          ? 'border-emerald-300 bg-emerald-50 text-emerald-800'
+                          : item.status === 'growing'
+                            ? 'border-sky-300 bg-sky-50 text-sky-800'
+                            : 'border-slate-200 bg-white text-slate-600'
+                    }`}
+                  >
+                    {item.status === 'weak'
+                      ? '⚠ '
+                      : item.status === 'mastered'
+                        ? '✓ '
+                        : ''}
+                    {item.tag}
+                    {item.dueCount > 0 ? ` (${item.dueCount}待複習)` : ''}
+                  </span>
+                ))}
+              </div>
+            )}
           </div>
 
           {displayedDigests.length === 0 ? (

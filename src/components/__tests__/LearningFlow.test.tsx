@@ -1,8 +1,15 @@
 import '@testing-library/jest-dom/vitest';
-import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+import { act, cleanup, fireEvent, render, screen } from '@testing-library/react';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 import type { LessonScript } from '../../types/lesson';
 import type { Stage } from '../../types/quiz';
+import {
+  getTodayStudyStats,
+  recordDailyStudyActivity,
+} from '../../utils/dailyStudy';
+import { buildSubjectDiagnostics } from '../../utils/learningDiagnostics';
+import { DEFAULT_PROGRESS } from '../../utils/progressImport';
+import { shuffleQuestionOptions } from '../../utils/questionUtils';
 import { BattleArena } from '../BattleArena';
 import { BattleSummary, type BattleResult } from '../BattleSummary';
 import { DailyMissionCard } from '../DailyMissionCard';
@@ -216,5 +223,128 @@ describe('BattleArena', () => {
     expect(result.correctCount).toBe(2);
     expect(result.stars).toBe(3);
     expect(screen.getByText('冒險大勝利！')).toBeInTheDocument();
+  });
+
+  it('does not eliminate player in mock-exam mode even after 3 wrong answers', () => {
+    vi.useFakeTimers();
+    const fourQuestionStage: Stage = {
+      ...SAMPLE_STAGE,
+      id: 'mock-exam-4',
+      questions: [
+        ...SAMPLE_STAGE.questions,
+        {
+          id: 'q3',
+          prompt: '3 + 4 = ?',
+          options: ['6', '7', '8', '9'],
+          answerIndex: 1,
+          explanation: '3 + 4 = 7。',
+        },
+        {
+          id: 'q4',
+          prompt: '9 + 1 = ?',
+          options: ['9', '10', '11', '12'],
+          answerIndex: 1,
+          explanation: '9 + 1 = 10。',
+        },
+      ],
+    };
+
+    const onFinishBattle = vi.fn();
+    render(
+      <BattleArena
+        stage={fourQuestionStage}
+        selectedAvatarId="hero-knight"
+        currentXp={0}
+        battleMode="mock-exam"
+        focusMode={true}
+        onFinishBattle={onFinishBattle}
+        onExit={vi.fn()}
+      />,
+    );
+
+    expect(screen.getByText('完整診斷（不淘汰）')).toBeInTheDocument();
+
+    // Answer first 3 questions incorrectly
+    const wrongOptionNames = [/18/, /19/, /6/];
+    for (const wrongName of wrongOptionNames) {
+      fireEvent.click(screen.getByRole('button', { name: wrongName }));
+      act(() => {
+        vi.advanceTimersByTime(1600);
+      });
+      fireEvent.click(screen.getByRole('button', { name: /下一題/ }));
+    }
+
+    // Should not terminate at 3 wrong answers; instead proceeds to 4th item (retry of Q1)
+    expect(screen.getByText('第 4 / 7 題')).toBeInTheDocument();
+    expect(
+      screen.getByText(/即時修復重測（不扣愛心，再想一次就能記牢！）/),
+    ).toBeInTheDocument();
+    expect(screen.getByText('12 + 8 = ?')).toBeInTheDocument();
+    vi.useRealTimers();
+  });
+});
+
+describe('Pedagogical Refinements Utilities', () => {
+  it('shuffleQuestionOptions preserves options, updates answerIndex, and avoids same position', () => {
+    const q = SAMPLE_STAGE.questions[0];
+    const shuffled = shuffleQuestionOptions(q, () => 0.42);
+    expect(shuffled.options).toHaveLength(4);
+    expect(new Set(shuffled.options)).toEqual(new Set(q.options));
+    expect(shuffled.options[shuffled.answerIndex]).toBe(q.options[q.answerIndex]);
+    expect(shuffled.answerIndex).not.toBe(q.answerIndex);
+  });
+
+  it('buildSubjectDiagnostics aggregates tag mastery and handles empty fsrsCards', () => {
+    const taggedStage: Stage = {
+      ...SAMPLE_STAGE,
+      questions: [
+        { ...SAMPLE_STAGE.questions[0], tags: ['D-5-1', '整數加法'] },
+        { ...SAMPLE_STAGE.questions[1], tags: ['D-5-1', '進位概念'] },
+      ],
+    };
+    const report = buildSubjectDiagnostics(
+      [taggedStage],
+      undefined,
+      { [taggedStage.id]: 1 },
+      ['q2'],
+    );
+    expect(report.totalQuestions).toBe(2);
+    expect(report.wrongCount).toBe(1);
+    expect(report.dueCount).toBe(1);
+    expect(report.weakUnits).toHaveLength(1);
+    expect(report.tagSummaries.find((t) => t.tag === '進位概念')?.status).toBe(
+      'weak',
+    );
+  });
+
+  it('dailyStudy protects streak once per week on a 1-day gap and resets on 2+ days', () => {
+    const baseProgress = {
+      ...DEFAULT_PROGRESS,
+      studyStreakDays: 5,
+      lastStudyDate: '2026-11-23', // Monday
+    };
+
+    // Wednesday (1-day gap): grace applies
+    const wednesday = new Date(2026, 10, 25, 10, 0, 0);
+    const statsWed = getTodayStudyStats(baseProgress, wednesday);
+    expect(statsWed.streakDays).toBe(5);
+    expect(statsWed.graceAvailable).toBe(true);
+
+    const recordedWed = recordDailyStudyActivity(
+      baseProgress,
+      { answered: 1 },
+      wednesday,
+    );
+    expect(recordedWed.studyStreakDays).toBe(6);
+    expect(recordedWed.streakGraceUsedWeek).toBeDefined();
+
+    // Friday (another 1-day gap in the same week): grace already used -> resets to 1
+    const friday = new Date(2026, 10, 27, 10, 0, 0);
+    const recordedFri = recordDailyStudyActivity(
+      { ...baseProgress, ...recordedWed },
+      { answered: 1 },
+      friday,
+    );
+    expect(recordedFri.studyStreakDays).toBe(1);
   });
 });

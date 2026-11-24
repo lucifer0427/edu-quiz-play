@@ -193,6 +193,8 @@ export interface PlayerProgress {
   soundEnabled: boolean;
   focusMode?: boolean;
   speechRateMode?: 'normal' | 'slow';
+  autoReadQuestion?: boolean;
+  lowerGradeNudgeDismissed?: boolean;
   fsrsCards?: Record<string, FsrsCardState>;
   completedLessonIds?: string[];
   customStages: Stage[];
@@ -203,6 +205,7 @@ export interface PlayerProgress {
   dailyGoalQuestions?: number;
   studyStreakDays?: number;
   lastStudyDate?: string;
+  streakGraceUsedWeek?: string;
   dailyActivity?: DailyStudyActivity;
 }
 

@@ -30,6 +30,7 @@ import {
   playWrong,
 } from '../utils/sound';
 import { isSpeechSupported, speakText, stopSpeech } from '../utils/speech';
+import { shuffleQuestionOptions } from '../utils/questionUtils';
 import {
   buildHintLevels,
   buildWorkedExampleFromQuestion,
@@ -51,8 +52,10 @@ interface BattleArenaProps {
   battleMode?: BattleMode;
   focusMode?: boolean;
   speechSlowMode?: boolean;
+  autoReadQuestion?: boolean;
   onToggleFocusMode?: () => void;
   onToggleSpeechSlow?: () => void;
+  onToggleAutoRead?: () => void;
   onFinishBattle: (result: BattleResult) => void;
   onExit: () => void;
 }
@@ -89,14 +92,17 @@ export function BattleArena({
   battleMode,
   focusMode = false,
   speechSlowMode = false,
+  autoReadQuestion = false,
   onToggleFocusMode,
   onToggleSpeechSlow,
+  onToggleAutoRead,
   onFinishBattle,
   onExit,
 }: BattleArenaProps) {
   const effectiveBattleMode: BattleMode =
     battleMode ?? (isWrongReviewMode ? 'wrong-review' : 'stage');
   const isWrongReview = effectiveBattleMode === 'wrong-review';
+  const allowHeartElimination = effectiveBattleMode === 'stage';
   const isDynamic = isDynamicStage(stage);
   const [queue, setQueue] = useState<BattleQueueItem[]>(() =>
     isDynamic ? [] : toInitialQueue(stage.questions),
@@ -223,6 +229,36 @@ export function BattleArena({
       stopSpeech();
     };
   }, [clearReadLock]);
+
+  useEffect(() => {
+    if (
+      !autoReadQuestion ||
+      !speechAvailable ||
+      isLoadingQuestions ||
+      finishedResult ||
+      !currentQuestion
+    ) {
+      return;
+    }
+    speakText(
+      currentQuestion.speechText || currentQuestion.prompt,
+      currentQuestion.speechLang || 'zh-TW',
+      {
+        grade: stageGrade,
+        slowMode: speechSlowMode,
+        audioUrl: currentQuestion.audioUrl,
+      },
+    );
+  }, [
+    autoReadQuestion,
+    currentIndex,
+    currentQuestion,
+    finishedResult,
+    isLoadingQuestions,
+    speechAvailable,
+    speechSlowMode,
+    stageGrade,
+  ]);
 
   useEffect(() => {
     const seq = ++requestSeqRef.current;
@@ -407,9 +443,13 @@ export function BattleArena({
           playCorrect(nextCombo);
         }
       } else {
-        const nextHearts = Math.max(0, hearts - 1);
+        const nextHearts = allowHeartElimination
+          ? Math.max(0, hearts - 1)
+          : hearts;
         setCombo(0);
-        setHearts(nextHearts);
+        if (allowHeartElimination) {
+          setHearts(nextHearts);
+        }
         setWrongQuestions((prev) => [...prev, question]);
         if (!focusMode) {
           setHeroHurt(true);
@@ -418,13 +458,17 @@ export function BattleArena({
         playWrong();
         startReadLock();
 
-        if (nextHearts > 0 && !queuedRetryIdsRef.current.has(currentItem.originId)) {
+        if (
+          (nextHearts > 0 || !allowHeartElimination) &&
+          !queuedRetryIdsRef.current.has(currentItem.originId)
+        ) {
           queuedRetryIdsRef.current.add(currentItem.originId);
+          const retryQuestion = shuffleQuestionOptions(question);
           setQueue((prev) => {
             const insertIndex = Math.min(prev.length, currentIndex + 3);
             const next = [...prev];
             next.splice(insertIndex, 0, {
-              question,
+              question: retryQuestion,
               isRetry: true,
               originId: currentItem.originId,
             });
@@ -434,6 +478,7 @@ export function BattleArena({
       }
     },
     [
+      allowHeartElimination,
       baseQuestionCount,
       combo,
       currentIndex,
@@ -452,13 +497,13 @@ export function BattleArena({
   const finalizeBattle = useCallback(() => {
     clearReadLock();
     stopSpeech();
-    const survived = hearts > 0;
     const totalCount = baseQuestionCount;
     const accuracy = totalCount > 0 ? correctCount / totalCount : 0;
+    const survived = allowHeartElimination ? hearts > 0 : accuracy >= 0.4;
 
     let stars = 0;
     if (survived) {
-      if (accuracy >= 0.85 && hearts >= 2) stars = 3;
+      if (accuracy >= 0.85 && (hearts >= 2 || !allowHeartElimination)) stars = 3;
       else if (accuracy >= 0.6) stars = 2;
       else stars = 1;
     }
@@ -466,9 +511,16 @@ export function BattleArena({
     const xpEarned = survived
       ? correctCount * 20 + maxCombo * 5 + (stars === 3 ? 30 : 0)
       : Math.max(10, correctCount * 8);
-    const coinsEarned = survived
+    const rawCoins = survived
       ? correctCount * (isWrongReview ? 15 : 10) + maxCombo * 3 + stars * 10
       : Math.max(5, correctCount * 4);
+    const isRepeatMasteredStaticStage =
+      effectiveBattleMode === 'stage' &&
+      !isDynamic &&
+      latestPrevStarsRef.current >= 3;
+    const coinsEarned = isRepeatMasteredStaticStage
+      ? Math.max(5, Math.round(rawCoins * 0.3))
+      : rawCoins;
 
     const result: BattleResult = {
       stageId: stage.id,
@@ -503,6 +555,7 @@ export function BattleArena({
       playDefeat();
     }
   }, [
+    allowHeartElimination,
     attemptOutcomes,
     baseQuestionCount,
     clearReadLock,
@@ -510,6 +563,7 @@ export function BattleArena({
     effectiveBattleMode,
     focusMode,
     hearts,
+    isDynamic,
     isWrongReview,
     maxCombo,
     onFinishBattle,
@@ -527,7 +581,7 @@ export function BattleArena({
     stopSpeech();
     clearReadLock();
     const isLast = currentIndex >= queue.length - 1;
-    if (hearts <= 0 || isLast) {
+    if ((allowHeartElimination && hearts <= 0) || isLast) {
       finalizeBattle();
       return;
     }
@@ -541,7 +595,15 @@ export function BattleArena({
     setManualEliminatedIndices([]);
     hintUsedRef.current = false;
     questionStartRef.current = Date.now();
-  }, [clearReadLock, currentIndex, finalizeBattle, hearts, isNextLocked, queue.length]);
+  }, [
+    allowHeartElimination,
+    clearReadLock,
+    currentIndex,
+    finalizeBattle,
+    hearts,
+    isNextLocked,
+    queue.length,
+  ]);
 
   useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {
@@ -739,21 +801,29 @@ export function BattleArena({
             </div>
           )}
 
-          <div
-            className="flex items-center gap-1"
-            aria-label={`剩餘 ${hearts} 顆愛心`}
-          >
-            {[1, 2, 3].map((h) => (
-              <Heart
-                key={h}
-                className={`h-6 w-6 transition-transform ${
-                  h <= hearts
-                    ? 'fill-rose-500 text-rose-500'
-                    : 'scale-90 fill-slate-200 text-slate-300'
-                }`}
-              />
-            ))}
-          </div>
+          {allowHeartElimination ? (
+            <div
+              className="flex items-center gap-1"
+              aria-label={`剩餘 ${hearts} 顆愛心`}
+            >
+              {[1, 2, 3].map((h) => (
+                <Heart
+                  key={h}
+                  className={`h-6 w-6 transition-transform ${
+                    h <= hearts
+                      ? 'fill-rose-500 text-rose-500'
+                      : 'scale-90 fill-slate-200 text-slate-300'
+                  }`}
+                />
+              ))}
+            </div>
+          ) : (
+            <span className="rounded-full border border-emerald-200 bg-emerald-50 px-3 py-1 text-xs font-black text-emerald-700">
+              {effectiveBattleMode === 'mock-exam'
+                ? '完整診斷（不淘汰）'
+                : 'FSRS 複習（不淘汰）'}
+            </span>
+          )}
         </div>
       </div>
 
@@ -897,6 +967,24 @@ export function BattleArena({
                     title="切換朗讀語速"
                   >
                     {speechSlowMode ? '慢速' : '標準語速'}
+                  </button>
+                )}
+                {onToggleAutoRead && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      playTap();
+                      onToggleAutoRead();
+                    }}
+                    aria-pressed={autoReadQuestion}
+                    className={`rounded-xl border px-2.5 py-2 text-xs font-black transition ${
+                      autoReadQuestion
+                        ? 'border-emerald-300 bg-emerald-100 text-emerald-800'
+                        : 'border-slate-200 bg-slate-50 text-slate-600 hover:bg-slate-100'
+                    }`}
+                    title="切換進題自動朗讀"
+                  >
+                    {autoReadQuestion ? '自動朗讀中' : '自動朗讀'}
                   </button>
                 )}
               </>

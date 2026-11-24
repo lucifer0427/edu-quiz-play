@@ -45,6 +45,17 @@ interface WorldMapProps {
   onGoExamReview?: () => void;
   onGoTeacher: () => void;
   onUpdateDailyGoal?: (goal: number) => void;
+  onUpdatePreferences?: (
+    patch: Partial<
+      Pick<
+        PlayerProgress,
+        | 'focusMode'
+        | 'speechRateMode'
+        | 'autoReadQuestion'
+        | 'lowerGradeNudgeDismissed'
+      >
+    >,
+  ) => void;
   onUpdateMapFilter: (
     patch: Partial<
       Pick<
@@ -73,6 +84,7 @@ export function WorldMap({
   onGoExamReview,
   onGoTeacher,
   onUpdateDailyGoal,
+  onUpdatePreferences,
   onUpdateMapFilter,
 }: WorldMapProps) {
   const levelInfo = getLevelFromXp(progress.xp);
@@ -497,6 +509,48 @@ export function WorldMap({
                 </button>
               ))}
             </div>
+
+            {onUpdatePreferences &&
+              activeGrade <= 2 &&
+              !progress.lowerGradeNudgeDismissed &&
+              (!progress.focusMode ||
+                progress.speechRateMode !== 'slow' ||
+                !progress.autoReadQuestion) && (
+                <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-indigo-200 bg-indigo-50 px-4 py-3 text-xs font-bold text-indigo-900">
+                  <span>
+                    ✨ 低年級貼心建議：開啟「專注模式」＋「慢速／自動朗讀」，能減少畫面干擾、聽得更清楚喔！
+                  </span>
+                  <div className="flex items-center gap-2">
+                    <button
+                      type="button"
+                      onClick={() => {
+                        playTap();
+                        onUpdatePreferences({
+                          focusMode: true,
+                          speechRateMode: 'slow',
+                          autoReadQuestion: true,
+                          lowerGradeNudgeDismissed: true,
+                        });
+                      }}
+                      className="rounded-xl bg-indigo-600 px-3 py-1.5 font-black text-white shadow-2xs hover:bg-indigo-500"
+                    >
+                      一鍵開啟
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => {
+                        playTap();
+                        onUpdatePreferences({
+                          lowerGradeNudgeDismissed: true,
+                        });
+                      }}
+                      className="rounded-xl bg-white px-3 py-1.5 font-bold text-indigo-700 hover:bg-indigo-100"
+                    >
+                      先不用
+                    </button>
+                  </div>
+                </div>
+              )}
 
             <div className="space-y-2">
               <div className="flex flex-wrap items-center gap-1.5">

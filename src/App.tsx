@@ -133,6 +133,34 @@ export function App() {
     }));
   }, []);
 
+  const handleToggleAutoRead = useCallback(() => {
+    playTap();
+    setProgress((prev) => ({
+      ...prev,
+      autoReadQuestion: !prev.autoReadQuestion,
+    }));
+  }, []);
+
+  const handleUpdatePreferences = useCallback(
+    (
+      patch: Partial<
+        Pick<
+          PlayerProgress,
+          | 'focusMode'
+          | 'speechRateMode'
+          | 'autoReadQuestion'
+          | 'lowerGradeNudgeDismissed'
+        >
+      >,
+    ) => {
+      setProgress((prev) => ({
+        ...prev,
+        ...patch,
+      }));
+    },
+    [],
+  );
+
   const handleSwitchProfile = useCallback((profileId: string) => {
     playTap();
     const res = switchProfile(profileId);
@@ -417,8 +445,10 @@ export function App() {
             isWrongReviewMode={activeBattle.mode === 'wrong-review'}
             focusMode={Boolean(progress.focusMode)}
             speechSlowMode={progress.speechRateMode === 'slow'}
+            autoReadQuestion={Boolean(progress.autoReadQuestion)}
             onToggleFocusMode={handleToggleFocusMode}
             onToggleSpeechSlow={handleToggleSpeechSlow}
+            onToggleAutoRead={handleToggleAutoRead}
             onFinishBattle={handleFinishBattle}
             onExit={() => setActiveBattle(null)}
           />
@@ -440,7 +470,9 @@ export function App() {
               )}
               focusMode={Boolean(progress.focusMode)}
               speechSlowMode={progress.speechRateMode === 'slow'}
+              autoReadQuestion={Boolean(progress.autoReadQuestion)}
               onToggleSpeechSlow={handleToggleSpeechSlow}
+              onToggleAutoRead={handleToggleAutoRead}
               onCompleteAndStartQuiz={() => {
                 markLessonCompleted(activeLesson.lesson.lessonId);
                 const targetStage = activeLesson.stage;
@@ -480,6 +512,7 @@ export function App() {
             onUpdateDailyGoal={(goal) => {
               setProgress((prev) => ({ ...prev, dailyGoalQuestions: goal }));
             }}
+            onUpdatePreferences={handleUpdatePreferences}
             onUpdateMapFilter={handleUpdateMapFilter}
           />
         ) : activeTab === 'exam' ? (

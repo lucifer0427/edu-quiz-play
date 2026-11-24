@@ -147,6 +147,18 @@ export function normalizeProgress(
     focusMode:
       typeof parsed.focusMode === 'boolean' ? parsed.focusMode : false,
     speechRateMode: parsed.speechRateMode === 'slow' ? 'slow' : 'normal',
+    autoReadQuestion:
+      typeof parsed.autoReadQuestion === 'boolean'
+        ? parsed.autoReadQuestion
+        : false,
+    lowerGradeNudgeDismissed:
+      typeof parsed.lowerGradeNudgeDismissed === 'boolean'
+        ? parsed.lowerGradeNudgeDismissed
+        : false,
+    streakGraceUsedWeek:
+      typeof parsed.streakGraceUsedWeek === 'string'
+        ? parsed.streakGraceUsedWeek
+        : undefined,
     unlockedAvatarIds,
     stageStars:
       parsed.stageStars &&
