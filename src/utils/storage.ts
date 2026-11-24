@@ -396,22 +396,84 @@ export function decodeCustomStageFromHash(hash: string): Stage | null {
     if (!encoded) return null;
     const bytes = base64UrlToBytes(encoded);
     const json = new TextDecoder().decode(bytes);
-    const parsed = JSON.parse(json) as Stage;
+    const parsed = JSON.parse(json) as Partial<Stage>;
     if (
       !parsed ||
       typeof parsed.title !== 'string' ||
+      parsed.title.trim() === '' ||
       !Array.isArray(parsed.questions) ||
       parsed.questions.length === 0
     ) {
       return null;
     }
+
+    const validQuestions = parsed.questions
+      .filter((q): q is Stage['questions'][number] => {
+        if (!q || typeof q !== 'object') return false;
+        if (typeof q.prompt !== 'string' || q.prompt.trim() === '') return false;
+        if (!Array.isArray(q.options) || q.options.length !== 4) return false;
+        if (
+          q.options.some(
+            (opt) => typeof opt !== 'string' || opt.trim() === '',
+          )
+        ) {
+          return false;
+        }
+        if (
+          typeof q.answerIndex !== 'number' ||
+          !Number.isInteger(q.answerIndex) ||
+          q.answerIndex < 0 ||
+          q.answerIndex > 3
+        ) {
+          return false;
+        }
+        return true;
+      })
+      .map((q, qIdx) => ({
+        ...q,
+        id:
+          typeof q.id === 'string' && q.id.trim() !== ''
+            ? q.id
+            : `shared-q-${qIdx + 1}`,
+        prompt: q.prompt.trim(),
+        options: [
+          q.options[0].trim(),
+          q.options[1].trim(),
+          q.options[2].trim(),
+          q.options[3].trim(),
+        ] as [string, string, string, string],
+        explanation:
+          typeof q.explanation === 'string' && q.explanation.trim() !== ''
+            ? q.explanation.trim()
+            : `正確答案是「${q.options[q.answerIndex].trim()}」。`,
+        speechText:
+          typeof q.speechText === 'string' && q.speechText.trim() !== ''
+            ? q.speechText.trim()
+            : q.prompt.trim(),
+        speechLang: q.speechLang === 'en-US' ? 'en-US' : 'zh-TW',
+      }));
+
+    if (validQuestions.length === 0) return null;
+
     return {
-      ...parsed,
+      id:
+        typeof parsed.id === 'string' && parsed.id.trim() !== ''
+          ? parsed.id
+          : `shared-${Date.now()}`,
       subjectId: 'custom',
-      id: parsed.id || `shared-${Date.now()}`,
+      title: parsed.title.trim().slice(0, 60),
+      description:
+        typeof parsed.description === 'string' && parsed.description.trim() !== ''
+          ? parsed.description.trim()
+          : '老師分享的自訂測驗關卡',
+      difficulty:
+        parsed.difficulty === 'medium' || parsed.difficulty === 'hard'
+          ? parsed.difficulty
+          : 'easy',
       monsterId: parsed.monsterId || 'slime',
       monsterName: parsed.monsterName || '自訂題庫史萊姆',
-      monsterHp: parsed.questions.length * 25,
+      monsterHp: validQuestions.length * 25,
+      questions: validQuestions,
     };
   } catch {
     return null;

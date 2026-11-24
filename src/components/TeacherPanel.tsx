@@ -147,11 +147,51 @@ export function TeacherPanel({
     const trimmed = sheetUrl.trim();
     if (!trimmed) return;
 
+    let parsedUrl: URL;
+    try {
+      parsedUrl = new URL(trimmed);
+    } catch {
+      setFeedback({
+        type: 'error',
+        messages: ['請輸入有效的 https:// 網址。'],
+      });
+      return;
+    }
+
+    if (parsedUrl.protocol !== 'https:') {
+      setFeedback({
+        type: 'error',
+        messages: ['基於安全考量，僅支援 https:// 開頭的公開 CSV 連結。'],
+      });
+      return;
+    }
+
+    if (
+      parsedUrl.hostname === 'docs.google.com' &&
+      parsedUrl.pathname.includes('/spreadsheets/') &&
+      parsedUrl.pathname.includes('/edit') &&
+      !parsedUrl.search.includes('output=csv') &&
+      !parsedUrl.search.includes('format=csv')
+    ) {
+      setFeedback({
+        type: 'error',
+        messages: [
+          '這是試算表「編輯」網址，無法直接讀取。請點選 Google 試算表的「檔案 → 共用 → 發布到網路」，格式選「逗號分隔值 (.csv)」後再複製連結！',
+        ],
+      });
+      return;
+    }
+
     setLoadingSheet(true);
     setFeedback(null);
 
+    const controller = new AbortController();
+    const timeoutId = window.setTimeout(() => controller.abort(), 10_000);
+
     try {
-      const response = await fetch(trimmed);
+      const response = await fetch(parsedUrl.toString(), {
+        signal: controller.signal,
+      });
       if (!response.ok) {
         throw new Error(`HTTP ${response.status}`);
       }
@@ -175,14 +215,19 @@ export function TeacherPanel({
           ],
         });
       }
-    } catch {
+    } catch (err) {
+      const isAbort =
+        err instanceof DOMException && err.name === 'AbortError';
       setFeedback({
         type: 'error',
         messages: [
-          '無法讀取此連結。請確認在 Google 試算表使用「檔案 → 共用 → 發布到網路」並選取「逗號分隔值 (.csv)」。',
+          isAbort
+            ? '連線逾時（超過 10 秒），請檢查網路狀態或確認連結是否可公開存取。'
+            : '無法讀取此連結。請確認在 Google 試算表使用「檔案 → 共用 → 發布到網路」並選取「逗號分隔值 (.csv)」。',
         ],
       });
     } finally {
+      window.clearTimeout(timeoutId);
       setLoadingSheet(false);
     }
   };
@@ -195,6 +240,14 @@ export function TeacherPanel({
       await navigator.clipboard.writeText(shareUrl);
       setCopiedId(stage.id);
       window.setTimeout(() => setCopiedId(null), 2200);
+      if (shareUrl.length > 4000) {
+        setFeedback({
+          type: 'success',
+          messages: [
+            `已複製分享連結（長度 ${shareUrl.length} 字元）。提醒：題數較多時部分通訊軟體可能會截斷超長網址，建議改用 JSON 檔傳送給學生。`,
+          ],
+        });
+      }
     } catch {
       window.prompt('請複製下方分享連結傳給學生：', shareUrl);
     }

@@ -10,9 +10,15 @@ import {
 import { buildSubjectDiagnostics } from '../../utils/learningDiagnostics';
 import { DEFAULT_PROGRESS } from '../../utils/progressImport';
 import { shuffleQuestionOptions } from '../../utils/questionUtils';
+import {
+  decodeCustomStageFromHash,
+  encodeCustomStageToHash,
+} from '../../utils/storage';
 import { BattleArena } from '../BattleArena';
 import { BattleSummary, type BattleResult } from '../BattleSummary';
 import { DailyMissionCard } from '../DailyMissionCard';
+import { LessonPlayer } from '../LessonPlayer';
+import { WrongBook } from '../WrongBook';
 
 vi.mock('canvas-confetti', () => ({
   default: vi.fn().mockResolvedValue(undefined),
@@ -346,5 +352,87 @@ describe('Pedagogical Refinements Utilities', () => {
       friday,
     );
     expect(recordedFri.studyStreakDays).toBe(1);
+  });
+
+  it('decodeCustomStageFromHash validates per-question structure and rejects invalid payloads', () => {
+    const validHash = encodeCustomStageToHash(SAMPLE_STAGE);
+    const decoded = decodeCustomStageFromHash(`#${validHash}`);
+    expect(decoded).not.toBeNull();
+    expect(decoded?.questions).toHaveLength(2);
+
+    // Payload with invalid answerIndex and malformed options should be rejected
+    const badStage = {
+      title: '壞掉的題庫',
+      questions: [
+        { prompt: 'Q1', options: ['A', 'B'], answerIndex: 0 },
+        { prompt: 'Q2', options: ['A', 'B', 'C', 'D'], answerIndex: 9 },
+      ],
+    };
+    const badJson = JSON.stringify(badStage);
+    const badB64 = btoa(unescape(encodeURIComponent(badJson)))
+      .replace(/\+/g, '-')
+      .replace(/\//g, '_')
+      .replace(/=+$/g, '');
+    expect(decodeCustomStageFromHash(`#quiz=${badB64}`)).toBeNull();
+  });
+});
+
+describe('LessonPlayer & WrongBook', () => {
+  it('LessonPlayer renders scene content and triggers onCompleteAndStartQuiz on the last scene', () => {
+    const onCompleteAndStartQuiz = vi.fn();
+    render(
+      <LessonPlayer
+        lesson={SAMPLE_LESSON}
+        stage={SAMPLE_STAGE}
+        alreadyCompleted={false}
+        onCompleteAndStartQuiz={onCompleteAndStartQuiz}
+        onCompleteAndExit={vi.fn()}
+        onExit={vi.fn()}
+      />,
+    );
+
+    expect(screen.getByText('進位概念')).toBeInTheDocument();
+    expect(screen.getByText('第 1 / 1 幕')).toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole('button', { name: /進入實戰驗證/ }));
+    expect(onCompleteAndStartQuiz).toHaveBeenCalledTimes(1);
+  });
+
+  it('WrongBook caps micro-quiz review at 5 due questions', () => {
+    const onStartWrongReview = vi.fn();
+    const snapshots: Record<string, Stage['questions'][number] & { subjectId?: 'math'; stageTitle?: string }> = {};
+    const wrongIds: string[] = [];
+    for (let i = 1; i <= 7; i++) {
+      const id = `wrong-q-${i}`;
+      wrongIds.push(id);
+      snapshots[id] = {
+        id,
+        prompt: `錯題 ${i}`,
+        options: ['1', '2', '3', '4'],
+        answerIndex: 0,
+        explanation: '解析',
+        subjectId: 'math',
+        stageTitle: '單元一',
+      };
+    }
+
+    render(
+      <WrongBook
+        progress={{
+          ...DEFAULT_PROGRESS,
+          wrongQuestionIds: wrongIds,
+          wrongQuestionSnapshots: snapshots,
+        }}
+        onRemoveWrongId={vi.fn()}
+        onStartWrongReview={onStartWrongReview}
+      />,
+    );
+
+    fireEvent.click(
+      screen.getByRole('button', { name: /啟動今日複習戰 \(5 題\)/ }),
+    );
+    expect(onStartWrongReview).toHaveBeenCalledTimes(1);
+    const reviewStage = onStartWrongReview.mock.calls[0][0] as Stage;
+    expect(reviewStage.questions).toHaveLength(5);
   });
 });

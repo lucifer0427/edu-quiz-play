@@ -5,4 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig(({ command }) => ({
   plugins: [react(), tailwindcss()],
   base: command === 'build' ? '/edu-quiz-play/' : '/',
+  build: {
+    chunkSizeWarningLimit: 600,
+  },
 }));
