@@ -202,4 +202,4 @@ export interface LocalProfileMeta {
   createdAt: string;
 }
 
-export type ActiveTab = 'map' | 'wrong' | 'shop' | 'teacher';
+export type ActiveTab = 'map' | 'exam' | 'wrong' | 'shop' | 'teacher';

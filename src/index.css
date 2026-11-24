@@ -99,6 +99,12 @@
   transition: transform 0.1s ease, box-shadow 0.1s ease;
 }
 
+@media print {
+  body {
+    background-color: #ffffff !important;
+  }
+}
+
 .btn-3d:active:not(:disabled) {
   transform: translateY(3px);
 }

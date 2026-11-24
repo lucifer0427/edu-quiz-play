@@ -2,6 +2,7 @@ import {
   BookX,
   Check,
   ChevronDown,
+  ClipboardCheck,
   Coins,
   Compass,
   Focus,
@@ -94,13 +95,14 @@ export function Navbar({
     badge?: number;
   }> = [
     { id: 'map', label: '冒險地圖', icon: Compass },
+    { id: 'exam', label: '考前複習', icon: ClipboardCheck },
     { id: 'wrong', label: '錯題本', icon: BookX, badge: dueWrongCount },
     { id: 'shop', label: '英雄商店', icon: ShoppingBag },
     { id: 'teacher', label: '老師出題', icon: GraduationCap },
   ];
 
   return (
-    <header className="sticky top-0 z-30 border-b-2 border-amber-200 bg-white/95 backdrop-blur">
+    <header className="sticky top-0 z-30 border-b-2 border-amber-200 bg-white/95 backdrop-blur print:hidden">
       <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-3">
         <div className="flex items-center gap-3">
           <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-amber-400 to-orange-500 text-white shadow-sm">

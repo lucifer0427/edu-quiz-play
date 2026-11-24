@@ -14,6 +14,7 @@ import type {
   Stage,
 } from './types/quiz';
 
+const ExamReview = lazy(() => import('./components/ExamReview'));
 const LessonPlayer = lazy(() => import('./components/LessonPlayer'));
 import { reviewFsrsCard } from './utils/fsrs';
 import { playTap, setSoundEnabled } from './utils/sound';
@@ -453,6 +454,31 @@ export function App() {
             }}
             onUpdateMapFilter={handleUpdateMapFilter}
           />
+        ) : activeTab === 'exam' ? (
+          <Suspense
+            fallback={
+              <div className="mx-auto max-w-2xl px-4 py-12 text-center text-sm font-black text-slate-600">
+                正在載入考前重點複習...
+              </div>
+            }
+          >
+            <ExamReview
+              progress={progress}
+              onStartMockExam={(mockStage) => {
+                playTap();
+                setActiveBattle({ stage: mockStage, isWrongReviewMode: true });
+              }}
+              onStartStage={(stage) => {
+                playTap();
+                setActiveBattle({ stage, isWrongReviewMode: false });
+              }}
+              onStartLesson={(lesson, stage) => {
+                playTap();
+                setActiveLesson({ lesson, stage });
+              }}
+              onUpdateMapFilter={handleUpdateMapFilter}
+            />
+          </Suspense>
         ) : activeTab === 'wrong' ? (
           <WrongBook
             progress={progress}
