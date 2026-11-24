@@ -70,6 +70,7 @@ interface UnitDigest {
   unitNo: number;
   stars: number;
   wrongCount: number;
+  wrongQuestions: Question[];
   needsAttention: boolean;
   keyPoints: string[];
   analogies: string[];
@@ -225,12 +226,35 @@ export function ExamReview({
 
   const unitDigests: UnitDigest[] = useMemo(() => {
     if (!quizPack) return [];
+    const snapshots = progress.wrongQuestionSnapshots ?? {};
+    const snapshotList = Object.values(snapshots);
+
     return quizPack.stages.map((stage, idx) => {
       const lesson = findLessonForStage(lessonPack, stage.id);
       const stars = progress.stageStars[stage.id] ?? 0;
-      const wrongCount = stage.questions.filter((q) =>
-        wrongIdSet.has(q.id),
-      ).length;
+
+      const wrongMap = new Map<string, Question>();
+      for (const q of stage.questions) {
+        if (wrongIdSet.has(q.id)) {
+          wrongMap.set(q.id, {
+            ...q,
+            subjectId: stage.subjectId,
+            stageTitle: stage.title,
+          });
+        }
+      }
+      for (const snap of snapshotList) {
+        if (
+          wrongIdSet.has(snap.id) &&
+          snap.subjectId === stage.subjectId &&
+          snap.stageTitle === stage.title &&
+          !wrongMap.has(snap.id)
+        ) {
+          wrongMap.set(snap.id, snap);
+        }
+      }
+      const wrongQuestions = Array.from(wrongMap.values());
+      const wrongCount = wrongQuestions.length;
       const needsAttention = wrongCount > 0 || stars < 3;
 
       const keyPointsSet = new Set<string>();
@@ -264,6 +288,7 @@ export function ExamReview({
         unitNo: stage.curriculum?.unitNo ?? idx + 1,
         stars,
         wrongCount,
+        wrongQuestions,
         needsAttention,
         keyPoints: Array.from(keyPointsSet),
         analogies: Array.from(analogiesSet),
@@ -271,7 +296,13 @@ export function ExamReview({
         commonErrors: Array.from(commonErrorsSet),
       };
     });
-  }, [quizPack, lessonPack, progress.stageStars, wrongIdSet]);
+  }, [
+    quizPack,
+    lessonPack,
+    progress.stageStars,
+    progress.wrongQuestionSnapshots,
+    wrongIdSet,
+  ]);
 
   const selectedDigests = useMemo(() => {
     const selectedSet = new Set(selectedStageIds);
@@ -339,6 +370,7 @@ export function ExamReview({
     speakText(textParts.join('。'), 'zh-TW', {
       grade,
       slowMode: progress.speechRateMode === 'slow',
+      onEnd: () => setSpeakingId(null),
     });
   };
 
@@ -349,18 +381,23 @@ export function ExamReview({
 
     try {
       const targetCount = mockCount;
-      // 先為每個選定單元取得題庫（支援動態數學出題器產生新鮮題目）
+      // 先為每個選定單元取得題庫（結合錯題快照、靜態題與動態數學題）
       const perUnitPools = await Promise.all(
         selectedDigests.map(async (digest) => {
           const resolved = await resolveStageQuestionsAsync(digest.stage);
-          const decorated: Question[] = resolved.map((q) => ({
-            ...q,
-            subjectId: digest.stage.subjectId,
-            stageTitle: digest.stage.title,
-          }));
+          const mergedMap = new Map<string, Question>();
+          for (const q of [...resolved, ...digest.stage.questions]) {
+            if (!mergedMap.has(q.id)) {
+              mergedMap.set(q.id, {
+                ...q,
+                subjectId: digest.stage.subjectId,
+                stageTitle: digest.stage.title,
+              });
+            }
+          }
           return {
             digest,
-            questions: decorated,
+            questions: Array.from(mergedMap.values()),
           };
         }),
       );
@@ -376,11 +413,9 @@ export function ExamReview({
       };
 
       if (mockStrategy === 'weakness-first') {
-        // 1. 優先放入錯題本中有紀錄的題目
+        // 1. 優先放入錯題本中有紀錄的題目（含動態數學題快照）
         const wrongPool = shuffleArray(
-          perUnitPools.flatMap((p) =>
-            p.questions.filter((q) => wrongIdSet.has(q.id)),
-          ),
+          selectedDigests.flatMap((d) => d.wrongQuestions),
         );
         for (const q of wrongPool) {
           if (picked.length >= targetCount) break;

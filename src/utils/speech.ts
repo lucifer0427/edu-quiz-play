@@ -2,6 +2,7 @@ export interface SpeakOptions {
   grade?: number;
   slowMode?: boolean;
   audioUrl?: string;
+  onEnd?: () => void;
 }
 
 let activeAudio: HTMLAudioElement | null = null;
@@ -76,6 +77,11 @@ function speakWithSynthesis(
     }
   }
 
+  if (options?.onEnd) {
+    utterance.onend = options.onEnd;
+    utterance.onerror = options.onEnd;
+  }
+
   window.speechSynthesis.speak(utterance);
 }
 
@@ -98,6 +104,7 @@ export function speakText(
           if (activeAudio === audio) {
             activeAudio = null;
           }
+          options?.onEnd?.();
         },
         { once: true },
       );
