@@ -175,6 +175,7 @@ export function parseJsonQuestions(jsonText: string): {
         return;
       }
 
+      const isEnglishPrompt = /^[A-Za-z0-9\s.,?!'"-]+$/.test(q.prompt);
       questions.push({
         id: q.id || `custom-json-${seed}-${idx}`,
         prompt: q.prompt,
@@ -184,7 +185,7 @@ export function parseJsonQuestions(jsonText: string): {
           q.explanation || `正確答案是「${q.options[answerIndex]}」。`,
         hint: q.hint,
         speechText: q.speechText || q.prompt,
-        speechLang: q.speechLang || 'zh-TW',
+        speechLang: q.speechLang || (isEnglishPrompt ? 'en-US' : 'zh-TW'),
       });
     });
 

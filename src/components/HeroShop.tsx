@@ -1,5 +1,5 @@
 import { Check, Coins, Edit3, Lock, Sparkles } from 'lucide-react';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { HERO_AVATARS } from '../data/avatars';
 import type { PlayerProgress } from '../types/quiz';
 import { playTap, playUnlock } from '../utils/sound';
@@ -20,6 +20,10 @@ export function HeroShop({
 }: HeroShopProps) {
   const [nameInput, setNameInput] = useState(progress.nickname);
   const [savedNotice, setSavedNotice] = useState(false);
+
+  useEffect(() => {
+    setNameInput(progress.nickname);
+  }, [progress.nickname]);
 
   const handleSaveName = (e: React.FormEvent) => {
     e.preventDefault();

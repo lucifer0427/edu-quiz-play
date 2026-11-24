@@ -485,6 +485,8 @@ export function ExamReview({
         questions: shuffleArray(picked),
       };
 
+      stopSpeech();
+      setSpeakingId(null);
       onStartMockExam(mockStage);
     } finally {
       setBuildingMock(false);
@@ -846,9 +848,11 @@ export function ExamReview({
                         {digest.lesson && (
                           <button
                             type="button"
-                            onClick={() =>
-                              onStartLesson(digest.lesson!, digest.stage)
-                            }
+                            onClick={() => {
+                              stopSpeech();
+                              setSpeakingId(null);
+                              onStartLesson(digest.lesson!, digest.stage);
+                            }}
                             className="rounded-xl border border-indigo-200 bg-indigo-50 px-2.5 py-1.5 text-xs font-black text-indigo-700 hover:bg-indigo-100"
                           >
                             微課程
@@ -856,7 +860,11 @@ export function ExamReview({
                         )}
                         <button
                           type="button"
-                          onClick={() => onStartStage(digest.stage)}
+                          onClick={() => {
+                            stopSpeech();
+                            setSpeakingId(null);
+                            onStartStage(digest.stage);
+                          }}
                           className="flex items-center gap-1 rounded-xl bg-amber-400 px-2.5 py-1.5 text-xs font-black text-slate-900 hover:bg-amber-300"
                         >
                           <Play className="h-3 w-3" />

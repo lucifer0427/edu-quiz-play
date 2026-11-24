@@ -157,6 +157,8 @@ export function BattleArena({
   );
 
   const initialXpRef = useRef(currentXp);
+  const latestCurrentXpRef = useRef(currentXp);
+  latestCurrentXpRef.current = currentXp;
   const latestPrevStarsRef = useRef(previousStars);
   latestPrevStarsRef.current = previousStars;
   const isMountedRef = useRef(true);
@@ -236,8 +238,20 @@ export function BattleArena({
 
   useEffect(() => {
     const seq = ++requestSeqRef.current;
+    initialXpRef.current = latestCurrentXpRef.current;
     queuedRetryIdsRef.current.clear();
     clearReadLock();
+    stopSpeech();
+    setCurrentIndex(0);
+    setHearts(3);
+    setCombo(0);
+    setMaxCombo(0);
+    setSelectedOption(null);
+    setCorrectCount(0);
+    setWrongQuestions([]);
+    setSolvedWrongIds([]);
+    setFloatingDmg(null);
+    setFinishedResult(null);
     setRepairedIds([]);
     setAttemptOutcomes([]);
     setHintLevel(0);
@@ -569,6 +583,8 @@ export function BattleArena({
   const handleRetry = async () => {
     playTap();
     clearReadLock();
+    stopSpeech();
+    initialXpRef.current = latestCurrentXpRef.current;
     const seq = ++requestSeqRef.current;
     const dynamic = isDynamicStage(stage);
     queuedRetryIdsRef.current.clear();

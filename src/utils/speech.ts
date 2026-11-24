@@ -53,6 +53,7 @@ function speakWithSynthesis(
     !('speechSynthesis' in window) ||
     !text.trim()
   ) {
+    options?.onEnd?.();
     return;
   }
 

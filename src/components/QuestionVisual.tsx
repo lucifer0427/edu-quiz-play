@@ -267,7 +267,8 @@ function DiagramRenderer({ spec }: { spec: VisualDiagramSpec }) {
 }
 
 export function QuestionVisual({ question }: QuestionVisualProps) {
-  const [imgFailed, setImgFailed] = useState(false);
+  const [failedUrl, setFailedUrl] = useState<string | null>(null);
+  const imgFailed = Boolean(question.imageUrl && failedUrl === question.imageUrl);
 
   if (!question.visualDiagram && (!question.imageUrl || imgFailed)) {
     return null;
@@ -278,9 +279,10 @@ export function QuestionVisual({ question }: QuestionVisualProps) {
       {question.visualDiagram && <DiagramRenderer spec={question.visualDiagram} />}
       {question.imageUrl && !imgFailed && (
         <img
+          key={question.imageUrl}
           src={question.imageUrl}
           alt="題目圖解"
-          onError={() => setImgFailed(true)}
+          onError={() => setFailedUrl(question.imageUrl ?? null)}
           className="max-h-56 w-auto rounded-lg bg-white object-contain"
         />
       )}

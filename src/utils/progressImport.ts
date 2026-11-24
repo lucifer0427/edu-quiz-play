@@ -103,6 +103,20 @@ export function normalizeProgress(
       )
     : [];
 
+  const unlockedAvatarIdsRaw = Array.isArray(parsed.unlockedAvatarIds)
+    ? Array.from(
+        new Set(
+          parsed.unlockedAvatarIds.filter(
+            (id): id is string => typeof id === 'string' && id.trim() !== '',
+          ),
+        ),
+      )
+    : [];
+  const unlockedAvatarIds =
+    unlockedAvatarIdsRaw.length > 0
+      ? unlockedAvatarIdsRaw
+      : DEFAULT_PROGRESS.unlockedAvatarIds;
+
   return {
     ...DEFAULT_PROGRESS,
     ...parsed,
@@ -133,19 +147,18 @@ export function normalizeProgress(
     focusMode:
       typeof parsed.focusMode === 'boolean' ? parsed.focusMode : false,
     speechRateMode: parsed.speechRateMode === 'slow' ? 'slow' : 'normal',
-    unlockedAvatarIds:
-      Array.isArray(parsed.unlockedAvatarIds) &&
-      parsed.unlockedAvatarIds.length > 0
-        ? parsed.unlockedAvatarIds
-        : DEFAULT_PROGRESS.unlockedAvatarIds,
+    unlockedAvatarIds,
     stageStars:
-      parsed.stageStars && typeof parsed.stageStars === 'object'
+      parsed.stageStars &&
+      typeof parsed.stageStars === 'object' &&
+      !Array.isArray(parsed.stageStars)
         ? parsed.stageStars
         : {},
     wrongQuestionIds,
     wrongQuestionSnapshots:
       parsed.wrongQuestionSnapshots &&
-      typeof parsed.wrongQuestionSnapshots === 'object'
+      typeof parsed.wrongQuestionSnapshots === 'object' &&
+      !Array.isArray(parsed.wrongQuestionSnapshots)
         ? parsed.wrongQuestionSnapshots
         : {},
     fsrsCards,
