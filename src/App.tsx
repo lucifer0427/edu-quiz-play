@@ -205,6 +205,8 @@ export function App() {
   const handleSwitchProfile = useCallback((profileId: string) => {
     playTap();
     const res = switchProfile(profileId);
+    prevBadgeIdsRef.current = new Set(res.progress.unlockedBadgeIds ?? []);
+    setRecentBadges([]);
     setActiveProfileId(res.activeProfileId);
     setProgress(res.progress);
     setProfiles(res.profiles);
@@ -216,6 +218,8 @@ export function App() {
   const handleCreateProfile = useCallback((nickname: string) => {
     playTap();
     const res = createProfile(nickname);
+    prevBadgeIdsRef.current = new Set(res.progress.unlockedBadgeIds ?? []);
+    setRecentBadges([]);
     setActiveProfileId(res.activeProfileId);
     setProgress(res.progress);
     setProfiles(res.profiles);
@@ -227,6 +231,8 @@ export function App() {
   const handleDeleteProfile = useCallback((profileId: string) => {
     playTap();
     const res = deleteProfile(profileId);
+    prevBadgeIdsRef.current = new Set(res.progress.unlockedBadgeIds ?? []);
+    setRecentBadges([]);
     setActiveProfileId(res.activeProfileId);
     setProgress(res.progress);
     setProfiles(res.profiles);
@@ -238,6 +244,8 @@ export function App() {
   const handleImportProgress = useCallback(
     (imported: PlayerProgress) => {
       playTap();
+      prevBadgeIdsRef.current = new Set(imported.unlockedBadgeIds ?? []);
+      setRecentBadges([]);
       setProgress(imported);
       setSoundEnabled(imported.soundEnabled);
       saveProgress(imported, activeProfileId);
@@ -568,6 +576,9 @@ export function App() {
           playTap();
           setActiveBattle(null);
           setActiveLesson(null);
+          if (tab === 'hanzi') {
+            setHanziContext(null);
+          }
           setActiveTab(tab);
         }}
         onToggleSound={handleToggleSound}

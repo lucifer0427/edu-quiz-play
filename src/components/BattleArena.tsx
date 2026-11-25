@@ -256,6 +256,7 @@ export function BattleArena({
       !speechAvailable ||
       isLoadingQuestions ||
       finishedResult ||
+      selectedOption !== null ||
       !currentQuestion
     ) {
       return;
@@ -292,6 +293,7 @@ export function BattleArena({
     setCombo(0);
     setMaxCombo(0);
     setSelectedOption(null);
+    setListeningRevealed(false);
     setCorrectCount(0);
     setWrongQuestions([]);
     setSolvedWrongIds([]);
@@ -671,6 +673,7 @@ export function BattleArena({
     setCombo(0);
     setMaxCombo(0);
     setSelectedOption(null);
+    setListeningRevealed(false);
     setHintLevel(0);
     setManualEliminatedIndices([]);
     setActiveScaffold(null);

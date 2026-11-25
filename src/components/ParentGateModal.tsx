@@ -1,5 +1,5 @@
 import { Lock, X } from 'lucide-react';
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { playTap } from '../utils/sound';
 
 interface ParentGateModalProps {
@@ -25,6 +25,13 @@ export function ParentGateModal({
 }: ParentGateModalProps) {
   const [answer, setAnswer] = useState('');
   const [error, setError] = useState('');
+
+  useEffect(() => {
+    if (open) {
+      setAnswer('');
+      setError('');
+    }
+  }, [open]);
 
   const challenge = useMemo(() => {
     const idx = Math.floor(Math.random() * CHALLENGES.length);

@@ -55,7 +55,12 @@ export function HeroShop({
 
   useEffect(() => {
     setNameInput(progress.nickname);
+    setParentModeUnlocked(false);
   }, [progress.nickname]);
+
+  useEffect(() => {
+    setPinInput(progress.parentPin ?? '');
+  }, [progress.parentPin]);
 
   const handleSaveName = (e: React.FormEvent) => {
     e.preventDefault();
