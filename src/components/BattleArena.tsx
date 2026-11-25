@@ -3,8 +3,10 @@ import {
   ArrowLeft,
   BookOpen,
   Focus,
+  Headphones,
   Heart,
   Lightbulb,
+  PenTool,
   RefreshCw,
   Shuffle,
   Volume2,
@@ -44,6 +46,7 @@ import {
 import { BattleSummary, type BattleResult } from './BattleSummary';
 import { HeroSprite, MonsterSprite } from './GameSprites';
 import { LessonDiagram } from './lesson-diagrams/LessonDiagram';
+import { MathScratchpad } from './MathScratchpad';
 import { QuestionVisual } from './QuestionVisual';
 import { WorkedExampleSplit } from './WorkedExampleSplit';
 
@@ -163,6 +166,9 @@ export function BattleArena({
   const [conceptDrawerLoading, setConceptDrawerLoading] = useState(false);
   const [conceptDrawerLesson, setConceptDrawerLesson] =
     useState<LessonScript | null>(null);
+  const [scratchpadOpen, setScratchpadOpen] = useState(false);
+  const [listeningMode, setListeningMode] = useState(false);
+  const [listeningRevealed, setListeningRevealed] = useState(false);
 
   const initialXpRef = useRef(currentXp);
   const latestCurrentXpRef = useRef(currentXp);
@@ -246,7 +252,7 @@ export function BattleArena({
 
   useEffect(() => {
     if (
-      !autoReadQuestion ||
+      (!autoReadQuestion && !listeningMode) ||
       !speechAvailable ||
       isLoadingQuestions ||
       finishedResult ||
@@ -269,6 +275,7 @@ export function BattleArena({
     currentQuestion,
     finishedResult,
     isLoadingQuestions,
+    listeningMode,
     speechAvailable,
     speechSlowMode,
     stageGrade,
@@ -607,6 +614,7 @@ export function BattleArena({
     setSelectedOption(null);
     setHintLevel(0);
     setManualEliminatedIndices([]);
+    setListeningRevealed(false);
     hintUsedRef.current = false;
     questionStartRef.current = Date.now();
   }, [
@@ -967,11 +975,97 @@ export function BattleArena({
         </div>
 
         <div className="flex flex-wrap items-start justify-between gap-3">
-          <h2 className="flex-1 text-xl leading-snug font-black text-slate-800 sm:text-2xl">
-            {currentQuestion.prompt}
-          </h2>
+          {listeningMode &&
+          (stage.subjectId === 'english' ||
+            currentQuestion.subjectId === 'english') &&
+          !isAnswered &&
+          !listeningRevealed ? (
+            <div className="flex flex-1 flex-col items-start gap-2 rounded-2xl border-2 border-violet-200 bg-violet-50/70 p-4">
+              <div className="flex items-center gap-2 text-sm font-black text-violet-900">
+                <Headphones className="h-5 w-5 text-violet-600" />
+                <span>🎧 英語聽力挑戰中：先仔細聽發音，選出正確答案！</span>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                <button
+                  type="button"
+                  onClick={() =>
+                    speakText(
+                      currentQuestion.speechText || currentQuestion.prompt,
+                      currentQuestion.speechLang || 'en-US',
+                      {
+                        grade: stageGrade,
+                        slowMode: speechSlowMode,
+                        audioUrl: currentQuestion.audioUrl,
+                      },
+                    )
+                  }
+                  className="rounded-xl bg-violet-600 px-3.5 py-1.5 text-xs font-black text-white hover:bg-violet-500"
+                >
+                  🔊 再聽一次
+                </button>
+                <button
+                  type="button"
+                  onClick={() => {
+                    playTap();
+                    setListeningRevealed(true);
+                  }}
+                  className="rounded-xl border border-violet-300 bg-white px-3 py-1.5 text-xs font-bold text-violet-700 hover:bg-violet-100"
+                >
+                  偷看題目文字
+                </button>
+              </div>
+            </div>
+          ) : (
+            <h2 className="flex-1 text-xl leading-snug font-black text-slate-800 sm:text-2xl">
+              {currentQuestion.prompt}
+            </h2>
+          )}
 
           <div className="flex flex-wrap shrink-0 items-center gap-2">
+            {(stage.subjectId === 'math' ||
+              currentQuestion.subjectId === 'math') && (
+              <button
+                type="button"
+                onClick={() => {
+                  playTap();
+                  setScratchpadOpen((prev) => !prev);
+                }}
+                aria-pressed={scratchpadOpen}
+                className={`inline-flex items-center gap-1 rounded-xl border px-2.5 py-2 text-xs font-black transition ${
+                  scratchpadOpen
+                    ? 'border-sky-400 bg-sky-100 text-sky-900'
+                    : 'border-slate-200 bg-slate-50 text-slate-700 hover:bg-sky-50'
+                }`}
+                title="開啟／收合計算草稿板"
+              >
+                <PenTool className="h-3.5 w-3.5" />
+                <span>{scratchpadOpen ? '收合草稿板' : '計算草稿板'}</span>
+              </button>
+            )}
+
+            {speechAvailable &&
+              (stage.subjectId === 'english' ||
+                currentQuestion.subjectId === 'english') && (
+                <button
+                  type="button"
+                  onClick={() => {
+                    playTap();
+                    setListeningMode((prev) => !prev);
+                    setListeningRevealed(false);
+                  }}
+                  aria-pressed={listeningMode}
+                  className={`inline-flex items-center gap-1 rounded-xl border px-2.5 py-2 text-xs font-black transition ${
+                    listeningMode
+                      ? 'border-violet-400 bg-violet-100 text-violet-900'
+                      : 'border-slate-200 bg-slate-50 text-slate-700 hover:bg-violet-50'
+                  }`}
+                  title="切換英語聽力測驗模式（隱藏文字只聽發音）"
+                >
+                  <Headphones className="h-3.5 w-3.5" />
+                  <span>{listeningMode ? '聽力模式中' : '聽力模式'}</span>
+                </button>
+              )}
+
             {speechAvailable && (
               <>
                 <button
@@ -1087,6 +1181,14 @@ export function BattleArena({
         </div>
 
         <QuestionVisual question={currentQuestion} />
+
+        {scratchpadOpen &&
+          (stage.subjectId === 'math' ||
+            currentQuestion.subjectId === 'math') && (
+            <MathScratchpad
+              questionKey={`${currentQuestion.id}-${currentIndex}`}
+            />
+          )}
 
         {hintLevel > 0 && hintLevels && !isAnswered && (
           <div className="mt-3 space-y-2">

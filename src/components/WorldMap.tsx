@@ -2,6 +2,7 @@ import {
   Award,
   BookOpen,
   Compass,
+  Download,
   Layers,
   Sparkles,
   Star,
@@ -44,6 +45,7 @@ interface WorldMapProps {
   profiles?: LocalProfileMeta[];
   onStartStage: (stage: Stage) => void;
   onStartLesson?: (lesson: LessonScript, stage: Stage) => void;
+  onPracticeHanzi?: (stage: Stage) => void;
   onGoWrongBook: () => void;
   onGoExamReview?: () => void;
   onGoHanzi?: () => void;
@@ -86,6 +88,7 @@ export function WorldMap({
   profiles,
   onStartStage,
   onStartLesson,
+  onPracticeHanzi,
   onGoWrongBook,
   onGoExamReview,
   onGoHanzi,
@@ -101,6 +104,8 @@ export function WorldMap({
   const viewMode: MapViewMode = progress.selectedView ?? 'curriculum';
   const activeGrade: Grade = progress.selectedGrade ?? 5;
   const activeSemester: Semester = progress.selectedSemester ?? 1;
+  const [offlineCacheKey, setOfflineCacheKey] = useState<string | null>(null);
+  const [offlineCaching, setOfflineCaching] = useState(false);
 
   const classicStages = useMemo(
     () => [...progress.customStages, ...BUILTIN_STAGES],
@@ -493,6 +498,53 @@ export function WorldMap({
               <span className="rounded-full bg-amber-100 px-3 py-1 text-xs font-bold text-amber-900">
                 {catalog.school} · 共 {gradeSubjects.length} 科
               </span>
+              <button
+                type="button"
+                disabled={offlineCaching}
+                onClick={async () => {
+                  playTap();
+                  const key = `${catalog.academicYear}-s${activeSemester}-g${activeGrade}`;
+                  setOfflineCaching(true);
+                  try {
+                    await Promise.allSettled(
+                      gradeSubjects.flatMap((subj) => [
+                        loadQuizPack(
+                          catalog.academicYear,
+                          activeSemester,
+                          activeGrade,
+                          subj,
+                        ),
+                        loadLessonPack(
+                          catalog.academicYear,
+                          activeSemester,
+                          activeGrade,
+                          subj,
+                        ),
+                      ]),
+                    );
+                    setOfflineCacheKey(key);
+                  } finally {
+                    setOfflineCaching(false);
+                  }
+                }}
+                className={`inline-flex items-center gap-1 rounded-full border px-3 py-1 text-xs font-black transition ${
+                  offlineCacheKey ===
+                  `${catalog.academicYear}-s${activeSemester}-g${activeGrade}`
+                    ? 'border-emerald-300 bg-emerald-50 text-emerald-800'
+                    : 'border-sky-200 bg-sky-50 text-sky-800 hover:bg-sky-100'
+                }`}
+                title="預先下載本學期題庫與微課程至瀏覽器離線快取"
+              >
+                <Download className="h-3.5 w-3.5" />
+                <span>
+                  {offlineCaching
+                    ? '快取中...'
+                    : offlineCacheKey ===
+                        `${catalog.academicYear}-s${activeSemester}-g${activeGrade}`
+                      ? '✓ 本學期已離線快取'
+                      : '離線快取本學期'}
+                </span>
+              </button>
             </div>
           )}
         </div>
@@ -860,6 +912,7 @@ export function WorldMap({
                     lessonCompleted={lessonCompleted}
                     onStartStage={onStartStage}
                     onStartLesson={onStartLesson}
+                    onPracticeHanzi={onPracticeHanzi}
                   />
                 );
               })}
@@ -890,6 +943,7 @@ export function WorldMap({
                         lessonCompleted={lessonCompleted}
                         onStartStage={onStartStage}
                         onStartLesson={onStartLesson}
+                        onPracticeHanzi={onPracticeHanzi}
                       />
                     );
                   });

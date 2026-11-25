@@ -1,13 +1,11 @@
 import { Sparkles, X } from 'lucide-react';
-import { lazy, Suspense, useCallback, useEffect, useState } from 'react';
+import { lazy, Suspense, useCallback, useEffect, useRef, useState } from 'react';
 import { BattleArena, type BattleResult } from './components/BattleArena';
 import { CertificateModal } from './components/CertificateModal';
-import { HeroShop } from './components/HeroShop';
 import { Navbar } from './components/Navbar';
-import { TeacherPanel } from './components/TeacherPanel';
 import { WorldMap } from './components/WorldMap';
-import { WrongBook } from './components/WrongBook';
 import { loadLessonPack } from './data/curriculum/lessonLoader';
+import { extractHanziCharacters } from './data/hanziVocab';
 import type { LessonScript } from './types/lesson';
 import type {
   ActiveTab,
@@ -20,12 +18,19 @@ import type {
 
 const ExamReview = lazy(() => import('./components/ExamReview'));
 const HanziPractice = lazy(() => import('./components/HanziPractice'));
+const HeroShop = lazy(() => import('./components/HeroShop'));
 const LessonPlayer = lazy(() => import('./components/LessonPlayer'));
-import { findNewlyEarnedBadges } from './utils/badges';
+const TeacherPanel = lazy(() => import('./components/TeacherPanel'));
+const WrongBook = lazy(() => import('./components/WrongBook'));
+import {
+  BADGE_DEFINITIONS,
+  findNewlyEarnedBadges,
+  type BadgeDefinition,
+} from './utils/badges';
 import { recordDailyStudyActivity } from './utils/dailyStudy';
 import { reviewFsrsCard } from './utils/fsrs';
 import { resolveLessonForStage } from './utils/lessonSynthesizer';
-import { playTap, setSoundEnabled } from './utils/sound';
+import { playTap, playUnlock, setSoundEnabled } from './utils/sound';
 import {
   createProfile,
   decodeCustomStageFromHash,
@@ -69,6 +74,31 @@ export function App() {
     title: string;
     subtitle: string;
   }>({ open: false, title: '', subtitle: '' });
+  const [recentBadges, setRecentBadges] = useState<BadgeDefinition[]>([]);
+  const [hanziContext, setHanziContext] = useState<{
+    chars: string[];
+    title: string;
+  } | null>(null);
+  const prevBadgeIdsRef = useRef<Set<string>>(
+    new Set(progress.unlockedBadgeIds ?? []),
+  );
+
+  useEffect(() => {
+    const currentIds = progress.unlockedBadgeIds ?? [];
+    const newlyAdded = currentIds.filter((id) => !prevBadgeIdsRef.current.has(id));
+    prevBadgeIdsRef.current = new Set(currentIds);
+    if (newlyAdded.length === 0) return;
+    const defs = newlyAdded
+      .map((id) => BADGE_DEFINITIONS.find((b) => b.id === id))
+      .filter((b): b is BadgeDefinition => Boolean(b));
+    if (defs.length === 0) return;
+    playUnlock();
+    setRecentBadges(defs);
+    const timer = window.setTimeout(() => {
+      setRecentBadges([]);
+    }, 4500);
+    return () => window.clearTimeout(timer);
+  }, [progress.unlockedBadgeIds]);
 
   useEffect(() => {
     saveProgress(progress, activeProfileId);
@@ -228,11 +258,22 @@ export function App() {
       if (!isNew) {
         return { ...prev, ...dailyPatch };
       }
-      return {
+      const nextProgress: PlayerProgress = {
         ...prev,
         ...dailyPatch,
         xp: prev.xp + 10,
         completedLessonIds: [...prevIds, lessonId],
+      };
+      const newBadges = findNewlyEarnedBadges(nextProgress);
+      if (newBadges.length === 0) return nextProgress;
+      const bonusCoins = newBadges.reduce((sum, b) => sum + b.rewardCoins, 0);
+      return {
+        ...nextProgress,
+        coins: nextProgress.coins + bonusCoins,
+        unlockedBadgeIds: [
+          ...(nextProgress.unlockedBadgeIds ?? []),
+          ...newBadges.map((b) => b.id),
+        ],
       };
     });
   }, []);
@@ -450,6 +491,27 @@ export function App() {
     setActiveLesson({ lesson, stage });
   }, []);
 
+  const handleUpdateParentPin = useCallback((pin: string | undefined) => {
+    setProgress((prev) => ({
+      ...prev,
+      parentPin: pin,
+    }));
+  }, []);
+
+  const handlePracticeStageHanzi = useCallback((stage: Stage) => {
+    playTap();
+    const combinedText = [
+      stage.title,
+      ...stage.questions.slice(0, 5).map((q) => q.options[q.answerIndex] ?? ''),
+    ].join('');
+    const chars = extractHanziCharacters(combinedText).slice(0, 12);
+    setHanziContext({
+      chars,
+      title: stage.title,
+    });
+    setActiveTab('hanzi');
+  }, []);
+
   const handleUpdateMapFilter = useCallback(
     (
       patch: Partial<
@@ -514,6 +576,30 @@ export function App() {
         onCreateProfile={handleCreateProfile}
         onDeleteProfile={handleDeleteProfile}
       />
+
+      {recentBadges.length > 0 && (
+        <div className="mx-auto mt-3 max-w-4xl px-4 print:hidden">
+          <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border-2 border-violet-300 bg-gradient-to-r from-violet-50 to-amber-50 px-4 py-3 shadow-sm">
+            <div className="flex items-center gap-2.5 text-sm font-black text-slate-800">
+              <span className="text-xl">{recentBadges[0].emoji}</span>
+              <span>
+                🎉 恭喜解鎖新徽章：
+                {recentBadges
+                  .map((b) => `「${b.title}」(+${b.rewardCoins} 金幣)`)
+                  .join('、')}
+              </span>
+            </div>
+            <button
+              type="button"
+              onClick={() => setRecentBadges([])}
+              aria-label="關閉徽章通知"
+              className="rounded-lg p-1 text-slate-500 hover:bg-white"
+            >
+              <X className="h-4 w-4" />
+            </button>
+          </div>
+        </div>
+      )}
 
       {sharedStage && !activeBattle && !activeLesson && (
         <div className="mx-auto mt-4 max-w-4xl px-4">
@@ -637,6 +723,7 @@ export function App() {
               playTap();
               setActiveLesson({ lesson, stage });
             }}
+            onPracticeHanzi={handlePracticeStageHanzi}
             onGoWrongBook={() => {
               playTap();
               setActiveTab('wrong');
@@ -647,6 +734,7 @@ export function App() {
             }}
             onGoHanzi={() => {
               playTap();
+              setHanziContext(null);
               setActiveTab('hanzi');
             }}
             onOpenCertificate={() =>
@@ -676,6 +764,8 @@ export function App() {
           >
             <HanziPractice
               progress={progress}
+              initialChars={hanziContext?.chars}
+              initialTitle={hanziContext?.title}
               onCompleteHanzi={handleCompleteHanzi}
             />
           </Suspense>
@@ -705,33 +795,58 @@ export function App() {
             />
           </Suspense>
         ) : activeTab === 'wrong' ? (
-          <WrongBook
-            progress={progress}
-            onRemoveWrongId={handleRemoveWrongId}
-            onStartWrongReview={(reviewStage) =>
-              setActiveBattle({ stage: reviewStage, mode: 'wrong-review' })
+          <Suspense
+            fallback={
+              <div className="mx-auto max-w-2xl px-4 py-12 text-center text-sm font-black text-slate-600">
+                正在載入記憶樹錯題本...
+              </div>
             }
-          />
+          >
+            <WrongBook
+              progress={progress}
+              onRemoveWrongId={handleRemoveWrongId}
+              onStartWrongReview={(reviewStage) =>
+                setActiveBattle({ stage: reviewStage, mode: 'wrong-review' })
+              }
+            />
+          </Suspense>
         ) : activeTab === 'shop' ? (
-          <HeroShop
-            progress={progress}
-            onSelectAvatar={handleSelectAvatar}
-            onUnlockAvatar={handleUnlockAvatar}
-            onUpdateNickname={handleUpdateNickname}
-            onRedeemFamilyReward={handleRedeemFamilyReward}
-            onMarkRewardUsed={handleMarkRewardUsed}
-            onUpdateFamilyRewards={handleUpdateFamilyRewards}
-          />
-        ) : (
-          <TeacherPanel
-            progress={progress}
-            onAddCustomStage={handleAddCustomStage}
-            onDeleteCustomStage={handleDeleteCustomStage}
-            onImportProgress={handleImportProgress}
-            onStartStage={(stage) =>
-              setActiveBattle({ stage, mode: 'stage' })
+          <Suspense
+            fallback={
+              <div className="mx-auto max-w-2xl px-4 py-12 text-center text-sm font-black text-slate-600">
+                正在載入英雄商店...
+              </div>
             }
-          />
+          >
+            <HeroShop
+              progress={progress}
+              onSelectAvatar={handleSelectAvatar}
+              onUnlockAvatar={handleUnlockAvatar}
+              onUpdateNickname={handleUpdateNickname}
+              onRedeemFamilyReward={handleRedeemFamilyReward}
+              onMarkRewardUsed={handleMarkRewardUsed}
+              onUpdateFamilyRewards={handleUpdateFamilyRewards}
+              onUpdateParentPin={handleUpdateParentPin}
+            />
+          </Suspense>
+        ) : (
+          <Suspense
+            fallback={
+              <div className="mx-auto max-w-2xl px-4 py-12 text-center text-sm font-black text-slate-600">
+                正在載入老師出題專區...
+              </div>
+            }
+          >
+            <TeacherPanel
+              progress={progress}
+              onAddCustomStage={handleAddCustomStage}
+              onDeleteCustomStage={handleDeleteCustomStage}
+              onImportProgress={handleImportProgress}
+              onStartStage={(stage) =>
+                setActiveBattle({ stage, mode: 'stage' })
+              }
+            />
+          </Suspense>
         )}
       </main>
 

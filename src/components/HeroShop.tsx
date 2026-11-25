@@ -8,6 +8,7 @@ import {
   Plus,
   Sparkles,
   Trash2,
+  Unlock,
 } from 'lucide-react';
 import { useEffect, useMemo, useState } from 'react';
 import { HERO_AVATARS } from '../data/avatars';
@@ -15,6 +16,7 @@ import type { FamilyRewardItem, PlayerProgress } from '../types/quiz';
 import { DEFAULT_FAMILY_REWARDS, evaluateBadges } from '../utils/badges';
 import { playTap, playUnlock } from '../utils/sound';
 import { HeroSprite } from './GameSprites';
+import { ParentGateModal } from './ParentGateModal';
 
 interface HeroShopProps {
   progress: PlayerProgress;
@@ -24,6 +26,7 @@ interface HeroShopProps {
   onRedeemFamilyReward?: (reward: FamilyRewardItem) => void;
   onMarkRewardUsed?: (redeemedId: string) => void;
   onUpdateFamilyRewards?: (rewards: FamilyRewardItem[]) => void;
+  onUpdateParentPin?: (pin: string | undefined) => void;
 }
 
 export function HeroShop({
@@ -34,11 +37,16 @@ export function HeroShop({
   onRedeemFamilyReward,
   onMarkRewardUsed,
   onUpdateFamilyRewards,
+  onUpdateParentPin,
 }: HeroShopProps) {
   const [nameInput, setNameInput] = useState(progress.nickname);
   const [savedNotice, setSavedNotice] = useState(false);
   const [newRewardTitle, setNewRewardTitle] = useState('');
   const [newRewardCost, setNewRewardCost] = useState(150);
+  const [parentModeUnlocked, setParentModeUnlocked] = useState(false);
+  const [parentGateOpen, setParentGateOpen] = useState(false);
+  const [pinInput, setPinInput] = useState(progress.parentPin ?? '');
+  const [pinSaved, setPinSaved] = useState(false);
 
   const badges = useMemo(() => evaluateBadges(progress), [progress]);
   const unlockedBadgeCount = badges.filter((b) => b.unlocked).length;
@@ -279,10 +287,38 @@ export function HeroShop({
                   家庭獎勵兌換券（家長自訂實體獎勵）
                 </h3>
                 <p className="text-xs font-medium text-slate-500">
-                  把答題存到的金幣，換成真實生活中的小確幸！兌換後可請爸爸媽媽點擊核銷
+                  把答題存到的金幣，換成真實生活中的小確幸！兌換後可請爸爸媽媽驗證核銷
                 </p>
               </div>
             </div>
+            <button
+              type="button"
+              onClick={() => {
+                playTap();
+                if (parentModeUnlocked) {
+                  setParentModeUnlocked(false);
+                } else {
+                  setParentGateOpen(true);
+                }
+              }}
+              className={`inline-flex items-center gap-1.5 rounded-xl border px-3 py-1.5 text-xs font-black transition ${
+                parentModeUnlocked
+                  ? 'border-emerald-300 bg-emerald-100 text-emerald-900'
+                  : 'border-slate-300 bg-slate-50 text-slate-700 hover:bg-slate-100'
+              }`}
+            >
+              {parentModeUnlocked ? (
+                <>
+                  <Unlock className="h-3.5 w-3.5" />
+                  <span>家長模式已解鎖（點擊鎖定）</span>
+                </>
+              ) : (
+                <>
+                  <Lock className="h-3.5 w-3.5" />
+                  <span>🔒 家長管理鎖</span>
+                </>
+              )}
+            </button>
           </div>
 
           <div className="grid gap-3 sm:grid-cols-3">
@@ -300,21 +336,23 @@ export function HeroShop({
                         {reward.title}
                       </span>
                     </div>
-                    {onUpdateFamilyRewards && familyRewards.length > 1 && (
-                      <button
-                        type="button"
-                        onClick={() => {
-                          playTap();
-                          onUpdateFamilyRewards(
-                            familyRewards.filter((r) => r.id !== reward.id),
-                          );
-                        }}
-                        aria-label={`刪除 ${reward.title}`}
-                        className="rounded-lg p-1 text-slate-400 hover:bg-rose-50 hover:text-rose-600"
-                      >
-                        <Trash2 className="h-3.5 w-3.5" />
-                      </button>
-                    )}
+                    {parentModeUnlocked &&
+                      onUpdateFamilyRewards &&
+                      familyRewards.length > 1 && (
+                        <button
+                          type="button"
+                          onClick={() => {
+                            playTap();
+                            onUpdateFamilyRewards(
+                              familyRewards.filter((r) => r.id !== reward.id),
+                            );
+                          }}
+                          aria-label={`刪除 ${reward.title}`}
+                          className="rounded-lg p-1 text-slate-400 hover:bg-rose-50 hover:text-rose-600"
+                        >
+                          <Trash2 className="h-3.5 w-3.5" />
+                        </button>
+                      )}
                   </div>
                   <button
                     type="button"
@@ -338,54 +376,93 @@ export function HeroShop({
             })}
           </div>
 
-          {onUpdateFamilyRewards && (
-            <form
-              onSubmit={(e) => {
-                e.preventDefault();
-                const trimmed = newRewardTitle.trim();
-                if (!trimmed) return;
-                playTap();
-                onUpdateFamilyRewards([
-                  ...familyRewards,
-                  {
-                    id: `reward-${Date.now()}`,
-                    title: trimmed.slice(0, 30),
-                    costCoins: Math.max(10, Math.min(9999, newRewardCost)),
-                    emoji: '🎁',
-                  },
-                ]);
-                setNewRewardTitle('');
-              }}
-              className="flex flex-wrap items-center gap-2 rounded-2xl bg-slate-50 p-3 text-xs"
-            >
-              <span className="font-black text-slate-600">
-                家長新增獎勵：
-              </span>
-              <input
-                type="text"
-                value={newRewardTitle}
-                onChange={(e) => setNewRewardTitle(e.target.value)}
-                placeholder="例如：週末去吃冰淇淋"
-                className="w-48 rounded-xl border border-slate-300 bg-white px-3 py-1.5 font-bold text-slate-800 focus:border-emerald-400 focus:outline-none"
-              />
-              <input
-                type="number"
-                min={10}
-                max={9999}
-                step={10}
-                value={newRewardCost}
-                onChange={(e) => setNewRewardCost(Number(e.target.value) || 100)}
-                className="w-24 rounded-xl border border-slate-300 bg-white px-2.5 py-1.5 font-bold text-slate-800 focus:border-emerald-400 focus:outline-none"
-              />
-              <span className="font-bold text-slate-500">金幣</span>
-              <button
-                type="submit"
-                className="inline-flex items-center gap-1 rounded-xl bg-emerald-600 px-3 py-1.5 font-black text-white hover:bg-emerald-500"
+          {parentModeUnlocked && onUpdateFamilyRewards && (
+            <div className="space-y-2">
+              <form
+                onSubmit={(e) => {
+                  e.preventDefault();
+                  const trimmed = newRewardTitle.trim();
+                  if (!trimmed) return;
+                  playTap();
+                  onUpdateFamilyRewards([
+                    ...familyRewards,
+                    {
+                      id: `reward-${Date.now()}`,
+                      title: trimmed.slice(0, 30),
+                      costCoins: Math.max(10, Math.min(9999, newRewardCost)),
+                      emoji: '🎁',
+                    },
+                  ]);
+                  setNewRewardTitle('');
+                }}
+                className="flex flex-wrap items-center gap-2 rounded-2xl bg-slate-50 p-3 text-xs"
               >
-                <Plus className="h-3.5 w-3.5" />
-                <span>新增</span>
-              </button>
-            </form>
+                <span className="font-black text-slate-600">
+                  家長新增獎勵：
+                </span>
+                <input
+                  type="text"
+                  value={newRewardTitle}
+                  onChange={(e) => setNewRewardTitle(e.target.value)}
+                  placeholder="例如：週末去吃冰淇淋"
+                  className="w-48 rounded-xl border border-slate-300 bg-white px-3 py-1.5 font-bold text-slate-800 focus:border-emerald-400 focus:outline-none"
+                />
+                <input
+                  type="number"
+                  min={10}
+                  max={9999}
+                  step={10}
+                  value={newRewardCost}
+                  onChange={(e) => setNewRewardCost(Number(e.target.value) || 100)}
+                  className="w-24 rounded-xl border border-slate-300 bg-white px-2.5 py-1.5 font-bold text-slate-800 focus:border-emerald-400 focus:outline-none"
+                />
+                <span className="font-bold text-slate-500">金幣</span>
+                <button
+                  type="submit"
+                  className="inline-flex items-center gap-1 rounded-xl bg-emerald-600 px-3 py-1.5 font-black text-white hover:bg-emerald-500"
+                >
+                  <Plus className="h-3.5 w-3.5" />
+                  <span>新增</span>
+                </button>
+              </form>
+
+              {onUpdateParentPin && (
+                <form
+                  onSubmit={(e) => {
+                    e.preventDefault();
+                    const cleaned = pinInput.trim();
+                    if (cleaned !== '' && !/^\d{4}$/.test(cleaned)) return;
+                    playTap();
+                    onUpdateParentPin(cleaned === '' ? undefined : cleaned);
+                    setPinSaved(true);
+                    window.setTimeout(() => setPinSaved(false), 1800);
+                  }}
+                  className="flex flex-wrap items-center gap-2 rounded-2xl bg-slate-50 p-3 text-xs"
+                >
+                  <span className="font-black text-slate-600">
+                    設定 4 碼家長密碼（選填，留空則用成人乘法題）：
+                  </span>
+                  <input
+                    type="password"
+                    inputMode="numeric"
+                    maxLength={4}
+                    value={pinInput}
+                    onChange={(e) => setPinInput(e.target.value.replace(/\D/g, '').slice(0, 4))}
+                    placeholder="4 碼數字"
+                    className="w-28 rounded-xl border border-slate-300 bg-white px-3 py-1.5 font-bold text-slate-800 focus:border-emerald-400 focus:outline-none"
+                  />
+                  <button
+                    type="submit"
+                    className="rounded-xl bg-slate-700 px-3 py-1.5 font-black text-white hover:bg-slate-600"
+                  >
+                    儲存密碼
+                  </button>
+                  {pinSaved && (
+                    <span className="font-black text-emerald-600">✓ 已儲存</span>
+                  )}
+                </form>
+              )}
+            </div>
           )}
 
           {redeemedRewards.length > 0 && (
@@ -414,11 +491,15 @@ export function HeroShop({
                         type="button"
                         onClick={() => {
                           playTap();
+                          if (!parentModeUnlocked) {
+                            setParentGateOpen(true);
+                            return;
+                          }
                           onMarkRewardUsed(item.id);
                         }}
                         className="shrink-0 rounded-lg bg-white px-2.5 py-1 text-[11px] font-black text-emerald-700 shadow-2xs hover:bg-emerald-50"
                       >
-                        家長核銷 ✓
+                        {parentModeUnlocked ? '家長核銷 ✓' : '🔒 解鎖核銷'}
                       </button>
                     )}
                     {item.used && (
@@ -433,6 +514,18 @@ export function HeroShop({
           )}
         </section>
       )}
+
+      <ParentGateModal
+        open={parentGateOpen}
+        savedPin={progress.parentPin}
+        onSuccess={() => {
+          setParentGateOpen(false);
+          setParentModeUnlocked(true);
+        }}
+        onClose={() => setParentGateOpen(false)}
+      />
     </div>
   );
 }
+
+export default HeroShop;

@@ -1,4 +1,4 @@
-import { BookOpen, Play, Star, Swords, Zap } from 'lucide-react';
+import { BookOpen, PenTool, Play, Star, Swords, Zap } from 'lucide-react';
 import { SUBJECT_META } from '../data/subjects';
 import type { LessonScript } from '../types/lesson';
 import type { Stage } from '../types/quiz';
@@ -25,6 +25,7 @@ export interface StageCardProps {
   lessonCompleted?: boolean;
   onStartStage: (stage: Stage) => void;
   onStartLesson?: (lesson: LessonScript, stage: Stage) => void;
+  onPracticeHanzi?: (stage: Stage) => void;
 }
 
 export function StageCard({
@@ -35,6 +36,7 @@ export function StageCard({
   lessonCompleted = false,
   onStartStage,
   onStartLesson,
+  onPracticeHanzi,
 }: StageCardProps) {
   const meta = SUBJECT_META[stage.subjectId];
   const diff = DIFFICULTY_BADGE[stage.difficulty];
@@ -174,6 +176,19 @@ export function StageCard({
           </button>
         )}
       </div>
+
+      {stage.subjectId === 'mandarin' && onPracticeHanzi && (
+        <div className="mt-2 flex justify-end">
+          <button
+            type="button"
+            onClick={() => onPracticeHanzi(stage)}
+            className="inline-flex items-center gap-1 rounded-xl border border-rose-200 bg-white/90 px-3 py-1.5 text-xs font-black text-rose-700 hover:bg-rose-50"
+          >
+            <PenTool className="h-3.5 w-3.5" />
+            <span>✍️ 練寫本單元國字</span>
+          </button>
+        </div>
+      )}
     </div>
   );
 }

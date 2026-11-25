@@ -507,3 +507,5 @@ export function TeacherPanel({
     </div>
   );
 }
+
+export default TeacherPanel;

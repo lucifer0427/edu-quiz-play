@@ -224,6 +224,7 @@ export interface PlayerProgress {
   unlockedBadgeIds?: string[];
   familyRewards?: FamilyRewardItem[];
   redeemedRewards?: RedeemedRewardRecord[];
+  parentPin?: string;
   customStages: Stage[];
   selectedView?: MapViewMode;
   selectedGrade?: Grade;

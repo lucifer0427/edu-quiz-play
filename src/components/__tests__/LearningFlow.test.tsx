@@ -24,6 +24,7 @@ import { BattleSummary, type BattleResult } from '../BattleSummary';
 import { DailyMissionCard } from '../DailyMissionCard';
 import { HeroShop } from '../HeroShop';
 import { LessonPlayer } from '../LessonPlayer';
+import { StageCard } from '../StageCard';
 import { WrongBook } from '../WrongBook';
 
 vi.mock('canvas-confetti', () => ({
@@ -518,5 +519,108 @@ describe('Engagement, Hanzi & Deep Teaching Features', () => {
     expect(
       screen.getByRole('button', { name: /回看本單元觀念圖解/ }),
     ).toBeInTheDocument();
+  });
+
+  it('BattleArena opens MathScratchpad when toggled on a math stage', () => {
+    render(
+      <BattleArena
+        stage={SAMPLE_STAGE}
+        selectedAvatarId="hero-knight"
+        currentXp={0}
+        battleMode="stage"
+        focusMode={true}
+        onFinishBattle={vi.fn()}
+        onExit={vi.fn()}
+      />,
+    );
+
+    fireEvent.click(screen.getByRole('button', { name: /計算草稿板/ }));
+    expect(
+      screen.getByText(/數學計算草稿板（支援平板手指／Apple Pencil/),
+    ).toBeInTheDocument();
+  });
+
+  it('BattleArena supports English listening mode by hiding prompt text until revealed', () => {
+    const englishStage: Stage = {
+      ...SAMPLE_STAGE,
+      id: 'en-stage-1',
+      subjectId: 'english',
+      questions: [
+        {
+          id: 'en-q1',
+          prompt: 'What color is the apple?',
+          options: ['Red', 'Blue', 'Green', 'Yellow'],
+          answerIndex: 0,
+          explanation: 'Apples are often red.',
+          speechText: 'What color is the apple?',
+          speechLang: 'en-US',
+        },
+      ],
+    };
+
+    render(
+      <BattleArena
+        stage={englishStage}
+        selectedAvatarId="hero-knight"
+        currentXp={0}
+        battleMode="stage"
+        focusMode={true}
+        onFinishBattle={vi.fn()}
+        onExit={vi.fn()}
+      />,
+    );
+
+    expect(screen.getByText('What color is the apple?')).toBeInTheDocument();
+    fireEvent.click(screen.getByRole('button', { name: /聽力模式/ }));
+    expect(
+      screen.queryByText('What color is the apple?'),
+    ).not.toBeInTheDocument();
+    expect(screen.getByText(/英語聽力挑戰中/)).toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole('button', { name: '偷看題目文字' }));
+    expect(screen.getByText('What color is the apple?')).toBeInTheDocument();
+  });
+
+  it('HeroShop gates parent reward creation behind ParentGateModal', () => {
+    render(
+      <HeroShop
+        progress={{ ...DEFAULT_PROGRESS, parentPin: '2468' }}
+        onSelectAvatar={vi.fn()}
+        onUnlockAvatar={vi.fn()}
+        onUpdateNickname={vi.fn()}
+        onRedeemFamilyReward={vi.fn()}
+        onUpdateFamilyRewards={vi.fn()}
+      />,
+    );
+
+    expect(screen.queryByText('家長新增獎勵：')).not.toBeInTheDocument();
+    fireEvent.click(screen.getByRole('button', { name: /家長管理鎖/ }));
+    expect(screen.getByText('家長管理驗證')).toBeInTheDocument();
+
+    fireEvent.change(screen.getByPlaceholderText('輸入 4 碼數字密碼'), {
+      target: { value: '2468' },
+    });
+    fireEvent.click(screen.getByRole('button', { name: '確認解鎖' }));
+    expect(screen.getByText('家長新增獎勵：')).toBeInTheDocument();
+  });
+
+  it('StageCard renders Hanzi practice button for Mandarin stages', () => {
+    const onPracticeHanzi = vi.fn();
+    const mandarinStage: Stage = {
+      ...SAMPLE_STAGE,
+      id: 'mandarin-u1',
+      subjectId: 'mandarin',
+    };
+    render(
+      <StageCard
+        stage={mandarinStage}
+        earnedStars={0}
+        onStartStage={vi.fn()}
+        onPracticeHanzi={onPracticeHanzi}
+      />,
+    );
+
+    fireEvent.click(screen.getByRole('button', { name: /練寫本單元國字/ }));
+    expect(onPracticeHanzi).toHaveBeenCalledWith(mandarinStage);
   });
 });

@@ -473,3 +473,5 @@ export function WrongBook({
     </div>
   );
 }
+
+export default WrongBook;

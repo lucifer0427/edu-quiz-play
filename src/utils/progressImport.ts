@@ -211,6 +211,10 @@ export function normalizeProgress(
             typeof item.title === 'string',
         )
       : undefined,
+    parentPin:
+      typeof parsed.parentPin === 'string' && /^\d{4}$/.test(parsed.parentPin)
+        ? parsed.parentPin
+        : undefined,
     customStages: Array.isArray(parsed.customStages)
       ? parsed.customStages
       : [],

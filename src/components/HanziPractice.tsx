@@ -19,6 +19,8 @@ import { isSpeechSupported, speakText } from '../utils/speech';
 
 export interface HanziPracticeProps {
   progress: PlayerProgress;
+  initialChars?: string[];
+  initialTitle?: string;
   onCompleteHanzi: (char: string) => void;
 }
 
@@ -29,11 +31,15 @@ const CANVAS_SIZE = 280;
 
 export function HanziPractice({
   progress,
+  initialChars,
+  initialTitle,
   onCompleteHanzi,
 }: HanziPracticeProps) {
   const [grade, setGrade] = useState<Grade>(progress.selectedGrade ?? 1);
   const [customInput, setCustomInput] = useState('');
-  const [customChars, setCustomChars] = useState<string[]>([]);
+  const [customChars, setCustomChars] = useState<string[]>(
+    () => initialChars ?? [],
+  );
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [stageMode, setStageMode] = useState<PracticeStage>('demo');
   const [fallbackCanvas, setFallbackCanvas] = useState(false);
@@ -42,18 +48,45 @@ export function HanziPractice({
   );
   const [completedInSession, setCompletedInSession] = useState<string[]>([]);
 
+  useEffect(() => {
+    if (initialChars && initialChars.length > 0) {
+      setCustomChars(initialChars);
+      setSelectedIndex(0);
+      setStageMode('demo');
+    }
+  }, [initialChars]);
+
   const writerHostRef = useRef<HTMLDivElement>(null);
   const writerInstanceRef = useRef<HanziWriter | null>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const isDrawingRef = useRef(false);
   const speechAvailable = isSpeechSupported();
 
+  const zhuyinLookup = useMemo(() => {
+    const map = new Map<string, { zhuyin?: string; word: string }>();
+    for (const list of Object.values(GRADE_HANZI_VOCAB)) {
+      for (const entry of list) {
+        if (!map.has(entry.char)) {
+          map.set(entry.char, { zhuyin: entry.zhuyin, word: entry.word });
+        }
+      }
+    }
+    return map;
+  }, []);
+
   const wordList = useMemo(() => {
     if (customChars.length > 0) {
-      return customChars.map((char) => ({ char, word: '自訂聯絡簿生字' }));
+      return customChars.map((char) => {
+        const known = zhuyinLookup.get(char);
+        return {
+          char,
+          zhuyin: known?.zhuyin,
+          word: initialTitle ? `${initialTitle}生字` : known?.word ?? '自訂聯絡簿生字',
+        };
+      });
     }
     return GRADE_HANZI_VOCAB[grade] ?? GRADE_HANZI_VOCAB[1];
-  }, [customChars, grade]);
+  }, [customChars, grade, initialTitle, zhuyinLookup]);
 
   const activeEntry = wordList[selectedIndex] ?? wordList[0];
   const activeChar = activeEntry?.char ?? '一';
@@ -479,10 +512,15 @@ export function HanziPractice({
           <div className="space-y-4">
             <div className="flex flex-wrap items-center justify-between gap-3">
               <div>
-                <div className="flex items-center gap-2">
+                <div className="flex flex-wrap items-center gap-2">
                   <span className="text-4xl font-black text-slate-900">
                     {activeChar}
                   </span>
+                  {activeEntry.zhuyin && (
+                    <span className="rounded-xl border border-sky-200 bg-sky-50 px-2.5 py-1 text-sm font-black text-sky-900">
+                      {activeEntry.zhuyin}
+                    </span>
+                  )}
                   <span className="rounded-xl bg-amber-100 px-3 py-1 text-xs font-black text-amber-900">
                     造詞：{activeEntry.word}
                   </span>
