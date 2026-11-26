@@ -144,7 +144,12 @@ export function App() {
 
   useEffect(() => {
     setProfiles(syncActiveProfileMeta(progress, activeProfileId));
-  }, [activeProfileId, progress.nickname, progress.selectedAvatarId]);
+  }, [
+    activeProfileId,
+    progress.defaultGrade,
+    progress.nickname,
+    progress.selectedAvatarId,
+  ]);
 
   useEffect(() => {
     const handleHashChange = () => {

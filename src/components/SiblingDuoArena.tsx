@@ -9,7 +9,7 @@ import {
   Trophy,
   Users,
 } from 'lucide-react';
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { getCurriculumCatalog, loadQuizPack } from '../data/curriculum/loader';
 import type { Grade, Question, SubjectId } from '../types/quiz';
 import { playCorrect, playTap, playVictory, playWrong } from '../utils/sound';
@@ -138,15 +138,29 @@ export function SiblingDuoArena({
   });
   const [bossHp, setBossHp] = useState(100);
   const TARGET_VERSUS_SCORE = 5;
+  const roundFinishedRef = useRef(false);
+  const timersRef = useRef<number[]>([]);
+
+  const clearTimers = useCallback(() => {
+    for (const id of timersRef.current) {
+      window.clearTimeout(id);
+    }
+    timersRef.current = [];
+  }, []);
 
   useEffect(() => {
     if (!open) {
+      clearTimers();
+      roundFinishedRef.current = false;
       setPhase('setup');
     }
-  }, [open]);
+    return () => clearTimers();
+  }, [open, clearTimers]);
 
   const startDuoGame = useCallback(async () => {
     playTap();
+    clearTimers();
+    roundFinishedRef.current = false;
     setLoading(true);
     try {
       const [qA, qB] = await Promise.all([
@@ -162,12 +176,12 @@ export function SiblingDuoArena({
     } finally {
       setLoading(false);
     }
-  }, [gradeA, gradeB, subject]);
+  }, [clearTimers, gradeA, gradeB, subject]);
 
   if (!open) return null;
 
   const handleAnswer = (who: 'A' | 'B', optIdx: number) => {
-    if (phase !== 'playing') return;
+    if (phase !== 'playing' || roundFinishedRef.current) return;
     const isA = who === 'A';
     const state = isA ? playerA : playerB;
     const list = isA ? questionsA : questionsB;
@@ -195,32 +209,41 @@ export function SiblingDuoArena({
 
     if (duoMode === 'coop' && isCorrect) {
       const dmg = 15 + Math.min(10, nextCombo * 2);
-      setBossHp((prev) => {
-        const nextHp = Math.max(0, prev - dmg);
-        if (nextHp === 0) {
-          window.setTimeout(() => {
-            playVictory();
-            onAwardCoins(40);
-            setPhase('finished');
-          }, 450);
-        }
-        return nextHp;
-      });
-    } else if (duoMode === 'versus' && nextScore >= TARGET_VERSUS_SCORE) {
-      window.setTimeout(() => {
+      const nextHp = Math.max(0, bossHp - dmg);
+      setBossHp(nextHp);
+      if (nextHp === 0 && !roundFinishedRef.current) {
+        roundFinishedRef.current = true;
+        const t = window.setTimeout(() => {
+          playVictory();
+          onAwardCoins(40);
+          setPhase('finished');
+        }, 450);
+        timersRef.current.push(t);
+        return;
+      }
+    } else if (
+      duoMode === 'versus' &&
+      nextScore >= TARGET_VERSUS_SCORE &&
+      !roundFinishedRef.current
+    ) {
+      roundFinishedRef.current = true;
+      const t = window.setTimeout(() => {
         playVictory();
         onAwardCoins(30);
         setPhase('finished');
       }, 450);
+      timersRef.current.push(t);
+      return;
     }
 
-    window.setTimeout(() => {
+    const advanceTimer = window.setTimeout(() => {
       setter((curr) => ({
         ...curr,
         index: curr.index + 1,
         feedback: null,
       }));
     }, 550);
+    timersRef.current.push(advanceTimer);
   };
 
   const renderPlayerPanel = (who: 'A' | 'B') => {

@@ -111,6 +111,16 @@ export function ExamReview({
       new Date(Date.now() + 7 * 86400000).toISOString().slice(0, 10),
   );
 
+  useEffect(() => {
+    setPlanTitle(
+      progress.examPlan?.title ?? `${progress.selectedGrade ?? 5}年級段考衝刺`,
+    );
+    setPlanDate(
+      progress.examPlan?.examDate ??
+        new Date(Date.now() + 7 * 86400000).toISOString().slice(0, 10),
+    );
+  }, [progress.examPlan, progress.selectedGrade]);
+
   const [grade, setGrade] = useState<Grade>(progress.selectedGrade ?? 5);
   const [semester, setSemester] = useState<Semester>(
     progress.selectedSemester ?? 1,

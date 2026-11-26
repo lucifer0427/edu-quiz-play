@@ -23,6 +23,7 @@ import {
 } from '../utils/progressImport';
 import { playTap, playUnlock } from '../utils/sound';
 import {
+  getActiveProfileId,
   getLevelFromXp,
   listProfiles,
   loadProgress,
@@ -492,12 +493,9 @@ export function HeroShop({
               {/* 雙寶學習並排總覽 & 週報 */}
               {(() => {
                 const allProfiles = listProfiles();
+                const activeId = getActiveProfileId();
                 const summaries = allProfiles.map((meta) => {
-                  const p =
-                    meta.nickname === progress.nickname &&
-                    meta.selectedAvatarId === progress.selectedAvatarId
-                      ? progress
-                      : loadProgress(meta.id);
+                  const p = meta.id === activeId ? progress : loadProgress(meta.id);
                   const lv = getLevelFromXp(p.xp);
                   const acc =
                     p.totalAnswered > 0
