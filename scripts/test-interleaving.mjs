@@ -99,9 +99,9 @@ const g5S2U1 = makeMathStage({
   curriculum: { academicYear: 115, semester: 2, grade: 5, unitNo: 1 },
 });
 assert.deepEqual(getPreviousUnitGeneratorIds(g5S2U1, 3), [
+  'g5s1-math-u10',
   'g5s1-math-u9',
   'g5s1-math-u8',
-  'g5s1-math-u7',
 ]);
 const s2Interleaved = await resolveStageQuestionsAsync(g5S2U1, 6, {
   enableInterleaving: true,
@@ -119,12 +119,12 @@ assert.equal(
 );
 
 // 5. 全學年首單元無前置單元時不混排
-const g5S1U2 = makeMathStage({
-  id: '115-s1-g5-math-u2',
-  generatorId: 'g5s1-math-u2',
+const g5S1U1 = makeMathStage({
+  id: '115-s1-g5-math-u1',
+  generatorId: 'g5s1-math-u1',
 });
-assert.deepEqual(getPreviousUnitGeneratorIds(g5S1U2), []);
-assert.equal(canInterleaveStage(g5S1U2, 3, true), false);
+assert.deepEqual(getPreviousUnitGeneratorIds(g5S1U1), []);
+assert.equal(canInterleaveStage(g5S1U1, 3, true), false);
 
 // 6. WorkedExampleSplit 資料建構與分齡規則
 const lowGradeWorked = buildWorkedExampleFromQuestion(baseStaticQuestion, 2);

@@ -8,46 +8,46 @@
   "lessons": [
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g3-social-u1",
-      "stageId": "115-s2-g3-social-u1",
-      "title": "第一單元 我居住的地方",
+      "lessonId": "lesson-115-s2-g3-social-u1-l1",
+      "stageId": "115-s2-g3-social-u1-l1",
+      "title": "第一課 我與鄰居的互動",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u1-s1",
+          "sceneId": "u1l1-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "鄰里互動與探訪居住地方",
-          "narrationText": "認識自己居住的地方，要從關心鄰居互動與愛護公共資源開始，再透過實地觀察與繪製地圖，分辨身邊的自然景觀與建築景觀。",
+          "title": "第一課 我與鄰居的互動：核心概念",
+          "narrationText": "在「第一單元 我居住的地方」的「第一課 我與鄰居的互動」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "鄰里互動：微笑問候、不擾民、守望相助",
-            "區分自然景觀（溪流山丘）與建築景觀",
-            "地圖三元素：重要地標、方位指標、圖例"
+            "認識「第一課 我與鄰居的互動」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「第一課 我與鄰居的互動」的知識應用在日常生活中。",
+            "能用自己的話歸納「第一課 我與鄰居的互動」的重要發現與做法。"
           ],
-          "analogyAnchor": "居住的社區就像一個大家庭的院子，鄰居互相打招呼、愛惜公園與圖書館，再畫一張清楚的地圖，就能帶朋友輕鬆認識家園。",
+          "analogyAnchor": "把「第一課 我與鄰居的互動」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "自然景觀",
+              "leftTitle": "第一課 我與鄰居的互動",
               "leftPoints": [
-                "大自然原本形成的地貌與生態",
-                "例如：溪流、山丘、海灣、林木"
+                "認識「第一課 我與鄰居的互動」的核心概念與現象",
+                "透過觀察與討論"
               ],
-              "rightTitle": "建築與公共資源",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "人類興建的建築與共用設施",
-                "例如：公園、圖書館、衛生所、郵局"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "自然溪流山丘",
+                "text": "第一課 我與鄰居的互",
                 "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "公共公園圖館",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -55,58 +55,45 @@
           "factGroundingSourceId": "115-s2/g3/social#u1"
         },
         {
-          "sceneId": "u1-s2",
+          "sceneId": "u1l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "繪製居住地方的地圖與實地探訪",
-          "narrationText": "出門探訪居住地方並畫成社區地圖時，要注意安全與禮貌，並在地圖上標出讓別人一看就懂的資訊。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "地圖需含地標、方位與圖例",
-            "訪談居民前先禮貌徵詢同意"
+            "認識「第一課 我與鄰居的互動」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "要畫一張「學校周邊環境地圖」介紹給新同學看，地圖上應該包含哪些元素？",
+            "problemStatement": "複習「第一課 我與鄰居的互動」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：標出重要建築與街道地標（如學校、公園、車站）",
-              "第 2 步：加上方位標示（如北方指標）確認方向",
-              "第 3 步：設計清楚的圖例，說明各種符號代表的場所"
+              "第 1 步：確認題目在問「第一課 我與鄰居的互動」",
+              "第 2 步：對照本課核心「認識「第一課 我與鄰居的互動」的核心概念與。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：在公共樓梯間堆放鞋櫃雜物、深夜大聲喧嘩，或以為家裡客廳沙發也算公共資源。",
-            "selfExplanationPrompt": "想一想：遇見隔壁長輩提著重重的菜籃走樓梯時，你可以做什麼貼心的小舉動？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第一課 我與鄰居的互動」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s2/g3/social#u1"
         },
         {
-          "sceneId": "u1-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "做個好鄰居與公共資源守護者",
-          "topicSignalTitle": "如何維持良好居住品質與公共設施？",
-          "narrationText": "晚上降低音量不打擾鄰居休息、保持逃生樓梯間暢通，使用公園或圖書館時愛惜公物並隨手帶走垃圾，社區就會安全又溫暖。",
-          "cognitiveChunks": [
-            "夜晚降音量、樓梯間不堆雜物",
-            "愛惜公物並隨手帶走垃圾"
-          ],
-          "factGroundingSourceId": "115-s2/g3/social#u1"
-        },
-        {
-          "sceneId": "u1-s4",
+          "sceneId": "u1l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "確認一下社區裡的公共資源有哪些吧！",
+          "narrationText": "先做一題暖身確認，確認掌握「第一課 我與鄰居的互動」後再開始挑戰！",
           "cognitiveChunks": [
-            "公共資源提供所有居民使用"
+            "認識「第一課 我與鄰居的互動」的核心概念與現象，並理解其背後原因。"
           ],
           "warmupCheck": {
-            "prompt": "在居住的地方探訪時，下列哪一項屬於提供給所有居民共同使用的「公共資源」？",
+            "prompt": "關於「第一課 我與鄰居的互動」，哪一項才是正確的學習重點？",
             "options": [
-              "鄰居叔叔客廳裡的沙發",
-              "社區公園、市立圖書館與衛生所",
-              "自己房間書桌上的故事書",
-              "百貨公司昂貴的私人專屬休息室"
+              "認識「第一課 我與鄰居的互動」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
-            "answerIndex": 1,
-            "feedbackCorrect": "答對了！公園、圖書館、活動中心與衛生所都是為所有居民設立的公共資源。",
-            "feedbackRetry": "想一想：哪一個選項裡的場所是社區裡大家都能一起去散步或借書的地方呢？"
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s2/g3/social#u1"
         }
@@ -114,46 +101,139 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g3-social-u2",
-      "stageId": "115-s2-g3-social-u2",
-      "title": "第二單元 多元的生活空間",
+      "lessonId": "lesson-115-s2-g3-social-u1-l2",
+      "stageId": "115-s2-g3-social-u1-l2",
+      "title": "第二課 探訪居住的地方",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u2-s1",
+          "sceneId": "u1l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "空間利用與多元生活方式",
-          "narrationText": "不同地區的空間利用會受到自然地形與人文交通影響；各行各業、不同族群與宗教信仰也帶來多元的生活方式，彼此交流互助讓生活更豐富。",
+          "title": "第二課 探訪居住的地方：核心概念",
+          "narrationText": "在「第一單元 我居住的地方」的「第二課 探訪居住的地方」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "自然環境影響：平原農田、海邊漁港、山區果園",
-            "人文需求影響：商業區、住宅區、公園",
-            "尊重多元工作作息、族群與宗教文化"
+            "認識「第二課 探訪居住的地方」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「第二課 探訪居住的地方」的知識應用在日常生活中。",
+            "能用自己的話歸納「第二課 探訪居住的地方」的重要發現與做法。"
           ],
-          "analogyAnchor": "不同地區就像各有特色的拼圖：海邊有漁港、平原有農田、城市有商店，拼在一起並互相交流，生活物資才完整。",
+          "analogyAnchor": "把「第二課 探訪居住的地方」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "自然環境與空間",
+              "leftTitle": "第二課 探訪居住的地方",
               "leftPoints": [
-                "平坦肥沃平原：多開闢為農田",
-                "靠海海灣漁村：興建漁港與養殖"
+                "認識「第二課 探訪居住的地方」的核心概念與現象",
+                "透過觀察與討論"
               ],
-              "rightTitle": "多元文化與交流",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "體諒早起攤販與輪班醫護作息",
-                "欣賞不同族群飲食與宗教習俗"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "順應自然利用",
+                "text": "第二課 探訪居住的地",
                 "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "尊重多元交流",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/social#u1"
+        },
+        {
+          "sceneId": "u1l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「第二課 探訪居住的地方」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第二課 探訪居住的地方」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第二課 探訪居住的地方」",
+              "第 2 步：對照本課核心「認識「第二課 探訪居住的地方」的核心概念與。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第二課 探訪居住的地方」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/social#u1"
+        },
+        {
+          "sceneId": "u1l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第二課 探訪居住的地方」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「第二課 探訪居住的地方」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第二課 探訪居住的地方」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「第二課 探訪居住的地方」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g3/social#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-social-u2-l1",
+      "stageId": "115-s2-g3-social-u2-l1",
+      "title": "第一課 不同地區的空間利用",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第一課 不同地區的空間利用：核心概念",
+          "narrationText": "在「第二單元 多元的生活空間」的「第一課 不同地區的空間利用」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「第一課 不同地區的空間利用」的核心概念與現象",
+            "透過觀察與討論",
+            "能用自己的話歸納「第一課 不同地區的空間利用」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「第一課 不同地區的空間利用」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第一課 不同地區的空間利用",
+              "leftPoints": [
+                "認識「第一課 不同地區的空間利用」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第一課 不同地區的空",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -161,58 +241,45 @@
           "factGroundingSourceId": "115-s2/g3/social#u2"
         },
         {
-          "sceneId": "u2-s2",
+          "sceneId": "u2l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "理解各地交流與永續利用",
-          "narrationText": "都市與鄉村、漁村與農村各自生產不同物產，透過交通與交流互相幫忙；同時我們也要愛護山林與海洋空間，不能過度破壞。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "各地交流能互通有無交換物產",
-            "利用空間時須兼顧環境與海洋永續"
+            "認識「第一課 不同地區的空間利用」的核心概念與現象",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "看到社區裡有不同宗教的教堂廟宇，或是清晨四點就忙碌的市場攤販，我們該怎麼看待？",
+            "problemStatement": "複習「第一課 不同地區的空間利用」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：理解不同職業因服務時間需求而有不同作息，給予尊重與禮讓",
-              "第 2 步：以欣賞與尊重的態度認識不同族群與宗教的特色",
-              "第 3 步：透過社區美食或文化交流活動，增進彼此理解與友誼"
+              "第 1 步：確認題目在問「第一課 不同地區的空間利用」",
+              "第 2 步：對照本課核心「認識「第一課 不同地區的空間利用」的核心概。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：嘲笑別人的傳統習俗、把廢水排進大海，或以為全臺灣各地的土地利用方式都一模一樣。",
-            "selfExplanationPrompt": "想一想：為什麼住在大都市裡的人，也能吃到海邊新鮮的魚和山上的水果？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第一課 不同地區的空間利」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s2/g3/social#u2"
         },
         {
-          "sceneId": "u2-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "愛護海岸與山林空間",
-          "topicSignalTitle": "使用多元生活空間的永續原則是什麼？",
-          "narrationText": "發展產業與觀光時，不任意把海灘鋪滿水泥、不亂排廢水到溪流和大海，才能讓自然生態與生活空間長久保持美麗。",
-          "cognitiveChunks": [
-            "不污染海洋與溪流",
-            "兼顧生活發展與生態保護"
-          ],
-          "factGroundingSourceId": "115-s2/g3/social#u2"
-        },
-        {
-          "sceneId": "u2-s4",
+          "sceneId": "u2l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "測測看你是否了解自然環境如何影響空間利用！",
+          "narrationText": "先做一題暖身確認，確認掌握「第一課 不同地區的空間利用」後再開始挑戰！",
           "cognitiveChunks": [
-            "生活方式與自然環境的關係"
+            "認識「第一課 不同地區的空間利用」的核心概念與現象"
           ],
           "warmupCheck": {
-            "prompt": "關於「不同地區的空間利用」與自然環境的關係，下列哪一個例子最正確？",
+            "prompt": "關於「第一課 不同地區的空間利用」，哪一項才是正確的學習重點？",
             "options": [
-              "沒有靠海的高山居民每天走路五分鐘去漁港停大漁船",
-              "平坦肥沃平原上的農村居民多開闢農田種稻或蔬果",
-              "陡峭山壁上蓋滿幾千棟高樓百貨公司",
-              "山地、海邊與都市利用土地的方式全都一樣"
+              "認識「第一課 不同地區的空間利用」的核心概念與現象",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
-            "answerIndex": 1,
-            "feedbackCorrect": "答對了！平原地形平坦且土壤肥沃，非常適合開闢農田栽種作物。",
-            "feedbackRetry": "想一想：平平的土地和靠海的地方，分別最適合用來做什麼呢？"
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s2/g3/social#u2"
         }
@@ -220,101 +287,185 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g3-social-u3",
-      "stageId": "115-s2-g3-social-u3",
-      "title": "第三單元 生活中的各行各業",
+      "lessonId": "lesson-115-s2-g3-social-u2-l2",
+      "stageId": "115-s2-g3-social-u2-l2",
+      "title": "第二課 多元的生活方式與交流",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u3-s1",
+          "sceneId": "u2l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "百業分工合作與職業甘苦",
-          "narrationText": "我們每天的食衣住行都仰賴農漁業、製造業與服務業緊密分工合作；每一份正當職業都很重要，也都有背後的辛勞與成就感。",
+          "title": "第二課 多元的生活方式與交流：核心概念",
+          "narrationText": "在「第二單元 多元的生活空間」的「第二課 多元的生活方式與交流」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "各行各業分工合作支撐日常生活",
-            "職業沒有高低貴賤之分，都值得尊重",
-            "了解工作者辛勞並用行動表達感謝"
+            "認識「第二課 多元的生活方式與交流」的核心概念與現象",
+            "透過觀察與討論",
+            "能用自己的話歸納「第二課 多元的生活方式與交流」的重要發現與做法。"
           ],
-          "analogyAnchor": "早餐桌上的麵包就像一場接力賽：農夫種麥、工廠磨粉、司機運送、師傅烘焙、店員販售，每一棒都缺一不可。",
+          "analogyAnchor": "把「第二課 多元的生活方式與交流」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_compare",
             "params": {
-              "steps": [
-                "產地農漁業生產原料",
-                "工廠加工製作商品",
-                "物流司機運送配送",
-                "商店與服務業送到手中"
+              "leftTitle": "第二課 多元的生活方式與交流",
+              "leftPoints": [
+                "認識「第二課 多元的生活方式與交流」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "原料生產加工",
-                "anchorPointId": "step1"
+                "text": "第二課 多元的生活方",
+                "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "運送販售服務",
-                "anchorPointId": "step4"
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/social#u2"
+        },
+        {
+          "sceneId": "u2l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「第二課 多元的生活方式與交流」的核心概念與現象",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第二課 多元的生活方式與交流」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第二課 多元的生活方式與交流」",
+              "第 2 步：對照本課核心「認識「第二課 多元的生活方式與交流」的核心。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第二課 多元的生活方式與」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/social#u2"
+        },
+        {
+          "sceneId": "u2l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第二課 多元的生活方式與交流」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「第二課 多元的生活方式與交流」的核心概念與現象"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第二課 多元的生活方式與交流」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「第二課 多元的生活方式與交流」的核心概念與現象",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g3/social#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-social-u3-l1",
+      "stageId": "115-s2-g3-social-u3-l1",
+      "title": "第一課 為居住地方的產業和生活",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第一課 為居住地方的產業和生活：核心概念",
+          "narrationText": "在「第三單元 生活中的各行各業」的「第一課 為居住地方的產業和生活」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「第一課 為居住地方的產業和生活」的核心概念與現象",
+            "透過觀察與討論",
+            "能用自己的話歸納「第一課 為居住地方的產業和生活」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「第一課 為居住地方的產業和生活」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第一課 為居住地方的產業和生",
+              "leftPoints": [
+                "認識「第一課 為居住地方的產業和生活」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第一課 為居住地方的",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
               }
             ]
           },
           "factGroundingSourceId": "115-s2/g3/social#u3"
         },
         {
-          "sceneId": "u3-s2",
+          "sceneId": "u3l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "體會職業甘苦與生涯探索",
-          "narrationText": "認識不同職業的「甘」與「苦」後，我們不僅要心懷感謝，也能開始觀察自己的興趣專長，不受性別限制地探索未來。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "說謝謝、守秩序與分類垃圾就是感謝",
-            "生涯探索不受性別刻板印象限制"
+            "認識「第一課 為居住地方的產業和生活」的核心概念與現象",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "在日常生活中，三年級的小朋友可以用哪些實際行動感謝為社區服務的人？",
+            "problemStatement": "複習「第一課 為居住地方的產業和生活」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：接受店員、警衛、公車司機或郵差服務時，真誠說聲「謝謝」",
-              "第 2 步：做好垃圾分類不亂丟，減輕清潔隊員的工作負擔",
-              "第 3 步：購物時愛惜商品、搭車排隊禮讓，讓服務人員工作更順利"
+              "第 1 步：確認題目在問「第一課 為居住地方的產業和生」",
+              "第 2 步：對照本課核心「認識「第一課 為居住地方的產業和生活」的核。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：以為在冷氣房工作才高級、男生只能當警察、女生只能當護士，或亂丟垃圾說這是讓清潔員有工作做。",
-            "selfExplanationPrompt": "想一想：如果有機會訪問郵差或消防員，你想問哪一個關於他們工作甘苦的問題？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第一課 為居住地方的產業」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s2/g3/social#u3"
         },
         {
-          "sceneId": "u3-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "認識百業開啟生涯探索",
-          "topicSignalTitle": "認識各行各業對三年級有什麼幫助？",
-          "narrationText": "雖然現在還不用決定一輩子的工作，但認識各種職業需要的能力與態度，能啟發我們觀察自己的興趣，認真學習累積實力。",
-          "cognitiveChunks": [
-            "觀察個人興趣與專長",
-            "每一種正當職業都值得平等尊重"
-          ],
-          "factGroundingSourceId": "115-s2/g3/social#u3"
-        },
-        {
-          "sceneId": "u3-s4",
+          "sceneId": "u3l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "看看你對職業價值的觀念正不正確！",
+          "narrationText": "先做一題暖身確認，確認掌握「第一課 為居住地方的產業和生」後再開始挑戰！",
           "cognitiveChunks": [
-            "職業平等無貴賤"
+            "認識「第一課 為居住地方的產業和生活」的核心概念與現象"
           ],
           "warmupCheck": {
-            "prompt": "看到清潔隊員在戶外整理垃圾，同時也看到銀行行員走進辦公室。關於這兩種職業的價值，哪一個觀念最正確？",
+            "prompt": "關於「第一課 為居住地方的產業和生」，哪一項才是正確的學習重點？",
             "options": [
-              "在冷氣房吹冷氣的職業才高級，戶外工作比較低等",
-              "每一份合法正當的職業都在為社會貢獻、缺一不可，沒有高低貴賤",
-              "只有賺最多錢的工作才值得尊重",
-              "清潔隊員的工作不需要專業知識"
+              "認識「第一課 為居住地方的產業和生活」的核心概念與現象",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
-            "answerIndex": 1,
-            "feedbackCorrect": "答對了！每種職業各有專業與重要價值，我們都應該平等尊重。",
-            "feedbackRetry": "想一想：如果一天沒有清潔隊員或一天沒有銀行行員，生活會變怎樣？工作有分貴賤嗎？"
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s2/g3/social#u3"
         }
@@ -322,46 +473,139 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g3-social-u4",
-      "stageId": "115-s2-g3-social-u4",
-      "title": "第四單元 生活與工作的轉變",
+      "lessonId": "lesson-115-s2-g3-social-u3-l2",
+      "stageId": "115-s2-g3-social-u3-l2",
+      "title": "第二課 職業甘苦談",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u4-s1",
+          "sceneId": "u3l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "時代演變與科技帶來的轉變",
-          "narrationText": "隨著時代進步，人們的需求從基本溫飽擴大到便利交通與即時資訊；科學與技術研發改變了工作方式，我們也要用新科技改善社會變遷帶來的環境問題。",
+          "title": "第二課 職業甘苦談：核心概念",
+          "narrationText": "在「第三單元 生活中的各行各業」的「第二課 職業甘苦談」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "生活需求從基本溫飽到追求便利與品質",
-            "機械與電腦取代重複勞動，提升效率",
-            "面對變遷問題，用新科技改善環境"
+            "認識「第二課 職業甘苦談」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「第二課 職業甘苦談」的知識應用在日常生活中。",
+            "能用自己的話歸納「第二課 職業甘苦談」的重要發現與做法。"
           ],
-          "analogyAnchor": "科技就像一位勤勞的工具助手，幫人們接手重複搬運與計算的工作，讓我們有更多心力去學習新知識和照顧環境。",
+          "analogyAnchor": "把「第二課 職業甘苦談」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "早期生活與工作",
+              "leftTitle": "第二課 職業甘苦談",
               "leftPoints": [
-                "重視基本溫飽，多靠書信聯絡",
-                "耕作與結帳多仰賴人工體力"
+                "認識「第二課 職業甘苦談」的核心概念與現象",
+                "透過觀察與討論"
               ],
-              "rightTitle": "現代科技與轉變",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "網路查資料、即時通訊、捷運高鐵",
-                "機械自動化、自助借書提升效率"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "早期人工與書信",
+                "text": "第二課 職業甘苦談",
                 "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "現代自動化科技",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/social#u3"
+        },
+        {
+          "sceneId": "u3l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「第二課 職業甘苦談」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第二課 職業甘苦談」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第二課 職業甘苦談」",
+              "第 2 步：對照本課核心「認識「第二課 職業甘苦談」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第二課 職業甘苦談」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/social#u3"
+        },
+        {
+          "sceneId": "u3l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第二課 職業甘苦談」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「第二課 職業甘苦談」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第二課 職業甘苦談」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「第二課 職業甘苦談」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g3/social#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-social-u4-l1",
+      "stageId": "115-s2-g3-social-u4-l1",
+      "title": "第一課 生活需求的改變",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第一課 生活需求的改變：核心概念",
+          "narrationText": "在「第四單元 生活與工作的轉變」的「第一課 生活需求的改變」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「第一課 生活需求的改變」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「第一課 生活需求的改變」的知識應用在日常生活中。",
+            "能用自己的話歸納「第一課 生活需求的改變」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「第一課 生活需求的改變」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第一課 生活需求的改變",
+              "leftPoints": [
+                "認識「第一課 生活需求的改變」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第一課 生活需求的改",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -369,58 +613,45 @@
           "factGroundingSourceId": "115-s2/g3/social#u4"
         },
         {
-          "sceneId": "u4-s2",
+          "sceneId": "u4l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "面對社會變遷與改善環境",
-          "narrationText": "地方快速開發時，常出現交通壅塞、垃圾與廢氣變多、綠地減少等問題。我們可以運用新科技與社區規劃來改善生活品質。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "開發常伴隨塞車、污染與綠地減少",
-            "電動公車與感測監測可改善環境"
+            "認識「第一課 生活需求的改變」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "地方快速發展後出現空氣污染與綠地變少的問題，怎麼運用科技與規劃來改善？",
+            "problemStatement": "複習「第一課 生活需求的改變」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：推廣低污染的電動公車等綠色交通工具，減少廢氣",
-              "第 2 步：運用科技感測器即時監測空氣與水質數據",
-              "第 3 步：在社區規劃時保留公園綠地與行道樹，兼顧便利與舒適"
+              "第 1 步：確認題目在問「第一課 生活需求的改變」",
+              "第 2 步：對照本課核心「認識「第一課 生活需求的改變」的核心概念與。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：以為有了電腦和機器後人類就不用學習新技能，或只顧開發而忽略廢氣與垃圾問題。",
-            "selfExplanationPrompt": "想一想：圖書館有了自助借還書機後，圖書館員可以把多出來的時間用來幫讀者做什麼？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第一課 生活需求的改變」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s2/g3/social#u4"
         },
         {
-          "sceneId": "u4-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "保持好奇心與科技素養",
-          "topicSignalTitle": "面對不斷改變的社會，我們需要什麼態度？",
-          "narrationText": "不害怕新科技，保持好奇心主動學習資訊工具並學會辨別資料，同時珍惜地方傳統特色與愛護環境，才能跟上時代又守護家園。",
-          "cognitiveChunks": [
-            "主動學習新知識與科技工具",
-            "兼顧環保並珍惜地方傳統"
-          ],
-          "factGroundingSourceId": "115-s2/g3/social#u4"
-        },
-        {
-          "sceneId": "u4-s4",
+          "sceneId": "u4l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "測試一下你對科技改善環境品質的認識！",
+          "narrationText": "先做一題暖身確認，確認掌握「第一課 生活需求的改變」後再開始挑戰！",
           "cognitiveChunks": [
-            "以新科技改善環境品質"
+            "認識「第一課 生活需求的改變」的核心概念與現象，並理解其背後原因。"
           ],
           "warmupCheck": {
-            "prompt": "面對社會變遷帶來的環境困擾，下列哪一個做法展現了「以新科技改善環境品質」的精神？",
+            "prompt": "關於「第一課 生活需求的改變」，哪一項才是正確的學習重點？",
             "options": [
-              "把更多燃煤工廠蓋在教室旁邊",
-              "要求大家把電燈全砸碎，晚上摸黑寫功課",
-              "推廣低污染的電動公車並運用科技監測空氣與水質",
-              "發明大電風扇把塑膠垃圾吹到鄰近縣市"
+              "認識「第一課 生活需求的改變」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
-            "answerIndex": 2,
-            "feedbackCorrect": "答對了！電動交通工具與環境監測科技都是保護環境的好幫手。",
-            "feedbackRetry": "想一想：哪一項新科技能真正減少廢氣污染並幫我們守護空氣和水質？"
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s2/g3/social#u4"
         }
@@ -428,46 +659,232 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g3-social-u5",
-      "stageId": "115-s2-g3-social-u5",
-      "title": "第五單元 儲蓄與消費",
+      "lessonId": "lesson-115-s2-g3-social-u4-l2",
+      "stageId": "115-s2-g3-social-u4-l2",
+      "title": "第二課 工作方式的轉變",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u5-s1",
+          "sceneId": "u4l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "有計畫的儲蓄與聰明消費",
-          "narrationText": "拿到零用錢後要學習先儲蓄、再消費並養成記帳習慣；買東西前分辨「需要」與「想要」，評估商品標示與價格，還要保留發票保護自己的消費權益。",
+          "title": "第二課 工作方式的轉變：核心概念",
+          "narrationText": "在「第四單元 生活與工作的轉變」的「第二課 工作方式的轉變」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "先設定目標儲蓄，再依計畫消費記帳",
-            "區分「需要」（必需品）與「想要」",
-            "看清商品標示與保存期限，保留發票"
+            "認識「第二課 工作方式的轉變」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「第二課 工作方式的轉變」的知識應用在日常生活中。",
+            "能用自己的話歸納「第二課 工作方式的轉變」的重要發現與做法。"
           ],
-          "analogyAnchor": "零用錢就像背包裡的飲用水：先留一部分存起來應急，口渴「需要」時再喝，才不會因為一時「想要」倒掉而沒水喝。",
+          "analogyAnchor": "把「第二課 工作方式的轉變」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "生活「需要」",
+              "leftTitle": "第二課 工作方式的轉變",
               "leftPoints": [
-                "維持生活、健康與學習必需品",
-                "例如：三餐食物、書包、寫字鉛筆"
+                "認識「第二課 工作方式的轉變」的核心概念與現象",
+                "透過觀察與討論"
               ],
-              "rightTitle": "一時「想要」",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "沒有也不影響基本生活的物品",
-                "例如：已經很多又多買的貼紙玩具"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "優先滿足需要",
+                "text": "第二課 工作方式的轉",
                 "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "量力考慮想要",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/social#u4"
+        },
+        {
+          "sceneId": "u4l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「第二課 工作方式的轉變」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第二課 工作方式的轉變」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第二課 工作方式的轉變」",
+              "第 2 步：對照本課核心「認識「第二課 工作方式的轉變」的核心概念與。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第二課 工作方式的轉變」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/social#u4"
+        },
+        {
+          "sceneId": "u4l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第二課 工作方式的轉變」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「第二課 工作方式的轉變」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第二課 工作方式的轉變」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「第二課 工作方式的轉變」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g3/social#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-social-u4-l3",
+      "stageId": "115-s2-g3-social-u4-l3",
+      "title": "第三課 社會變遷產生的影響",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第三課 社會變遷產生的影響：核心概念",
+          "narrationText": "在「第四單元 生活與工作的轉變」的「第三課 社會變遷產生的影響」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「第三課 社會變遷產生的影響」的核心概念與現象",
+            "透過觀察與討論",
+            "能用自己的話歸納「第三課 社會變遷產生的影響」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「第三課 社會變遷產生的影響」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第三課 社會變遷產生的影響",
+              "leftPoints": [
+                "認識「第三課 社會變遷產生的影響」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第三課 社會變遷產生",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/social#u4"
+        },
+        {
+          "sceneId": "u4l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「第三課 社會變遷產生的影響」的核心概念與現象",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第三課 社會變遷產生的影響」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第三課 社會變遷產生的影響」",
+              "第 2 步：對照本課核心「認識「第三課 社會變遷產生的影響」的核心概。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第三課 社會變遷產生的影」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/social#u4"
+        },
+        {
+          "sceneId": "u4l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第三課 社會變遷產生的影響」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「第三課 社會變遷產生的影響」的核心概念與現象"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第三課 社會變遷產生的影響」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「第三課 社會變遷產生的影響」的核心概念與現象",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g3/social#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-social-u5-l1",
+      "stageId": "115-s2-g3-social-u5-l1",
+      "title": "第一課 儲蓄有計畫",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第一課 儲蓄有計畫：核心概念",
+          "narrationText": "在「第五單元 儲蓄與消費」的「第一課 儲蓄有計畫」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「第一課 儲蓄有計畫」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「第一課 儲蓄有計畫」的知識應用在日常生活中。",
+            "能用自己的話歸納「第一課 儲蓄有計畫」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「第一課 儲蓄有計畫」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第一課 儲蓄有計畫",
+              "leftPoints": [
+                "認識「第一課 儲蓄有計畫」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第一課 儲蓄有計畫",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -475,58 +892,45 @@
           "factGroundingSourceId": "115-s2/g3/social#u5"
         },
         {
-          "sceneId": "u5-s2",
+          "sceneId": "u5l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "認識多元付費與維護消費權益",
-          "narrationText": "除了現金之外，現在常用電子票證或行動支付，但每一筆都要花費自己的金錢；萬一買到瑕疵品，發票就是退換貨的好幫手。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "無現金支付一樣會扣款，須節制",
-            "保留發票收據保障退換貨權益"
+            "認識「第一課 儲蓄有計畫」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "買回家的全新水壺一打開就發現嚴重漏水，應該怎麼處理才能維護消費權益？",
+            "problemStatement": "複習「第一課 儲蓄有計畫」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：找出結帳時索取並保留的統一發票或購物收據",
-              "第 2 步：帶著瑕疵水壺與發票，保持禮貌回到原購買店家反映",
-              "第 3 步：依規定辦理退換貨；若遇爭議可尋求消費者保護管道協助"
+              "第 1 步：確認題目在問「第一課 儲蓄有計畫」",
+              "第 2 步：對照本課核心「認識「第一課 儲蓄有計畫」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：以為用悠遊卡或手機逼一下就不用花真錢、只看可愛包裝不看保存期限，或買到壞掉商品自認倒楣丟掉。",
-            "selfExplanationPrompt": "想一想：開學時發現去年用剩的鉛筆和筆記本還有空白頁，怎麼做最符合節約消費？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第一課 儲蓄有計畫」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s2/g3/social#u5"
         },
         {
-          "sceneId": "u5-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "養成節約愛惜資源的購物好習慣",
-          "topicSignalTitle": "如何做到節約消費又愛護地球？",
-          "narrationText": "出門購物自備環保袋與環保水壺、依實際需要適量購買不囤積浪費，並把堪用的文具物盡其用，就能省錢又環保！",
-          "cognitiveChunks": [
-            "自備環保袋減少塑膠垃圾",
-            "適量購買、堪用物品重複使用"
-          ],
-          "factGroundingSourceId": "115-s2/g3/social#u5"
-        },
-        {
-          "sceneId": "u5-s4",
+          "sceneId": "u5l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "確認一下你能不能分辨「需要」與「想要」吧！",
+          "narrationText": "先做一題暖身確認，確認掌握「第一課 儲蓄有計畫」後再開始挑戰！",
           "cognitiveChunks": [
-            "分辨需要與想要"
+            "認識「第一課 儲蓄有計畫」的核心概念與現象，並理解其背後原因。"
           ],
           "warmupCheck": {
-            "prompt": "買東西前分辨「需要」與「想要」非常重要。下列哪一組最能正確區分兩者的差別？",
+            "prompt": "關於「第一課 儲蓄有計畫」，哪一項才是正確的學習重點？",
             "options": [
-              "「需要」是買十隻限量公仔；「想要」是買寫作業必用的鉛筆",
-              "「需要」是上學必需的文具、書包與三餐；「想要」是一時看上眼的新款貼紙或玩具",
-              "只要是在百貨公司看到的商品全都屬於「需要」",
-              "只要打折便宜五塊錢，不需要的東西就會變成「需要」"
+              "認識「第一課 儲蓄有計畫」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
-            "answerIndex": 1,
-            "feedbackCorrect": "答對了！先買齊生活與學習必需的「需要」物品，再量力考慮「想要」的東西。",
-            "feedbackRetry": "想一想：沒有哪樣東西就不能上學或吃飽？那就是「需要」喔！"
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s2/g3/social#u5"
         }
@@ -534,101 +938,278 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g3-social-u6",
-      "stageId": "115-s2-g3-social-u6",
-      "title": "第六單元 小小街道觀察家",
+      "lessonId": "lesson-115-s2-g3-social-u5-l2",
+      "stageId": "115-s2-g3-social-u5-l2",
+      "title": "第二課 消費有學問",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u6-s1",
+          "sceneId": "u5l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "探索家鄉街道特色與地方再造",
-          "narrationText": "化身小小街道觀察家，用眼睛看、筆記畫、相機拍並禮貌訪問長輩，發掘家鄉老店與文化故事，還要能主動介紹家鄉、發現問題並參與地方再造。",
+          "title": "第二課 消費有學問：核心概念",
+          "narrationText": "在「第五單元 儲蓄與消費」的「第二課 消費有學問」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "街道觀察：繪圖、筆記、拍照與禮貌訪談",
-            "老屋、老店與廟宇是重要地方文化資產",
-            "發現問題後透過師長向里長或單位反映"
+            "認識「第二課 消費有學問」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「第二課 消費有學問」的知識應用在日常生活中。",
+            "能用自己的話歸納「第二課 消費有學問」的重要發現與做法。"
           ],
-          "analogyAnchor": "小小街道觀察家就像家鄉的探險記者：先收集老街的精采故事做成導覽地圖，發現巷口暗或有坑洞時，再寫成建議書一起把家鄉變更好。",
+          "analogyAnchor": "把「第二課 消費有學問」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_compare",
             "params": {
-              "steps": [
-                "實地觀察記錄街道特色",
-                "製作摺頁或導覽介紹家鄉",
-                "記錄人行道或路燈問題",
-                "參與淨街綠化與建議改善"
+              "leftTitle": "第二課 消費有學問",
+              "leftPoints": [
+                "認識「第二課 消費有學問」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "觀察記錄特色",
-                "anchorPointId": "step1"
+                "text": "第二課 消費有學問",
+                "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "參與地方再造",
-                "anchorPointId": "step4"
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/social#u5"
+        },
+        {
+          "sceneId": "u5l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「第二課 消費有學問」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第二課 消費有學問」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第二課 消費有學問」",
+              "第 2 步：對照本課核心「認識「第二課 消費有學問」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第二課 消費有學問」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/social#u5"
+        },
+        {
+          "sceneId": "u5l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第二課 消費有學問」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「第二課 消費有學問」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第二課 消費有學問」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「第二課 消費有學問」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g3/social#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-social-u5-l3",
+      "stageId": "115-s2-g3-social-u5-l3",
+      "title": "第三課 購物好習慣",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第三課 購物好習慣：核心概念",
+          "narrationText": "在「第五單元 儲蓄與消費」的「第三課 購物好習慣」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「第三課 購物好習慣」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「第三課 購物好習慣」的知識應用在日常生活中。",
+            "能用自己的話歸納「第三課 購物好習慣」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「第三課 購物好習慣」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第三課 購物好習慣",
+              "leftPoints": [
+                "認識「第三課 購物好習慣」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第三課 購物好習慣",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/social#u5"
+        },
+        {
+          "sceneId": "u5l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「第三課 購物好習慣」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第三課 購物好習慣」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第三課 購物好習慣」",
+              "第 2 步：對照本課核心「認識「第三課 購物好習慣」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第三課 購物好習慣」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/social#u5"
+        },
+        {
+          "sceneId": "u5l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第三課 購物好習慣」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「第三課 購物好習慣」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第三課 購物好習慣」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「第三課 購物好習慣」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g3/social#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-social-u6-l1",
+      "stageId": "115-s2-g3-social-u6-l1",
+      "title": "第六單元 小小街道觀察家（5-2 進度表未細分課次）",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u6l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第六單元 小小街道觀察家（5-2 進度表未細分課次）",
+          "narrationText": "在「第六單元 小小街道觀察家」的「第六單元 小小街道觀察家（5-2 進度表未細分課次）」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「第六單元 小小街道觀察家（5-2 進度表未細分課次）」的核心。",
+            "透過觀察與討論",
+            "能用自己的話歸納「第六單元 小小街道觀察家（5-2 進度表未細分課。"
+          ],
+          "analogyAnchor": "把「第六單元 小小街道觀察家（5-2 進度表未細分課次）」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第六單元 小小街道觀察家（5",
+              "leftPoints": [
+                "認識「第六單元 小小街道觀察家（5-2 進度表未細分課。",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第六單元 小小街道觀",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
               }
             ]
           },
           "factGroundingSourceId": "115-s2/g3/social#u6"
         },
         {
-          "sceneId": "u6-s2",
+          "sceneId": "u6l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "介紹地方特色與處理地方問題",
-          "narrationText": "走進街道不只看見美麗的老建築與老店故事，也可能發現人行道被占用或燈光太暗等問題，我們可以透過正確管道一起改善。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "整理紀錄製作小書或步行導覽路線",
-            "客觀記錄問題地點與影響再反映"
+            "認識「第六單元 小小街道觀察家（5-2 進度表未細分課次）」的核心。",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "觀察家們發現人行道常被雜物占用、部分角落堆積垃圾，或巷口晚上太暗，該怎麼一步步處理？",
+            "problemStatement": "複習「第六單元 小小街道觀察家（5-2 進度表未細分課次）」時",
             "steps": [
-              "第 1 步：冷靜且安全地記錄問題發生的具體地點、狀況與對行人的影響",
-              "第 2 步：和老師同學討論造成原因，並思考可行的改善方式",
-              "第 3 步：透過師長與家長向里長或地方單位反映，並參與淨街綠化或繪製宣導海報"
+              "第 1 步：確認題目在問「第六單元 小小街道觀察家（5」",
+              "第 2 步：對照本課核心「認識「第六單元 小小街道觀察家（5-2 進。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：覺得老建築或老店很落後應該拆光、自己偷偷拿粉筆在別人車上畫叉，或隨便捏造不存在的景點介紹給朋友。",
-            "selfExplanationPrompt": "想一想：如果外地朋友來你家作客，你會想介紹哪一個有故事的地方或老店給他認識？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第六單元 小小街道觀察家」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s2/g3/social#u6"
         },
         {
-          "sceneId": "u6-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "從街道觀察培養家鄉認同",
-          "topicSignalTitle": "參與地方再造與推廣特色有什麼意義？",
-          "narrationText": "關心自己居住的地方並付出行動一起改善，能培養我們對家鄉的認同感與公民責任心，讓大家在安全、整潔且有人情味的空間裡永續生活。",
-          "cognitiveChunks": [
-            "培養家鄉認同感與公民責任",
-            "共建安全整潔的永續生活空間"
-          ],
-          "factGroundingSourceId": "115-s2/g3/social#u6"
-        },
-        {
-          "sceneId": "u6-s4",
+          "sceneId": "u6l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "準備好成為小小街道觀察家了嗎？答對這題就出發！",
+          "narrationText": "先做一題暖身確認，確認掌握「第六單元 小小街道觀察家（5」後再開始挑戰！",
           "cognitiveChunks": [
-            "街道觀察的正確方法"
+            "認識「第六單元 小小街道觀察家（5-2 進度表未細分課次）」的核心。"
           ],
           "warmupCheck": {
-            "prompt": "當「小小街道觀察家」走進居住地方的街道進行探索時，運用哪一組方法最能深入了解街道特色與故事？",
+            "prompt": "關於「第六單元 小小街道觀察家（5」，哪一項才是正確的學習重點？",
             "options": [
-              "閉上眼睛快速跑步衝過整條街",
-              "只看地上有沒有掉零錢，不看招牌與建築",
-              "細心觀察設施與老建築，並用繪圖、筆記、拍照或禮貌訪談記錄故事",
-              "在家裡躺著幻想街道上有恐龍在散步"
+              "認識「第六單元 小小街道觀察家（5-2 進度表未細分課次）」的核心。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
-            "answerIndex": 2,
-            "feedbackCorrect": "答對了！用心看、用心記與禮貌請問在地長輩，就能發現許多珍貴的家鄉故事。",
-            "feedbackRetry": "想一想：真正的小小觀察家會動用眼睛、筆、相機和禮貌的嘴做哪些事呢？"
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s2/g3/social#u6"
         }

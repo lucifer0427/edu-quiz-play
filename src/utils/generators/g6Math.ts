@@ -2414,3 +2414,65 @@ export function generateG6S2U5ProblemSolving(count = 6): Question[] {
   }
   return questions;
 }
+
+// ============================================================
+// 六下 第六單元：圓形圖
+// ============================================================
+export function generateG6S2U6PieCharts(count = 6): Question[] {
+  const seed = Date.now() + Math.floor(Math.random() * 100000);
+  const questions: Question[] = [];
+  for (let i = 0; i < count; i++) {
+    const type = i % 3;
+    if (type === 0) {
+      const pct = pickRandom([10, 15, 20, 25, 30, 35, 40, 45]);
+      const deg = (360 * pct) / 100;
+      const built = buildNumericOptions(deg, [pct, deg + 18, Math.max(10, deg - 18)], ' 度');
+      questions.push(
+        makeQuestion(
+          'g6s2-u6',
+          seed,
+          i,
+          `在圓形圖中，某個項目佔全部資料的 ${pct}%，請問這個項目所對應的扇形「圓心角」是多少度？`,
+          built,
+          `圓周角是 360 度，圓心角 = 360 × ${pct}% = ${deg} 度。`,
+          `整個圓是 360 度，把 360 乘以 ${pct}%（即 ${pct}/100）！`,
+        ),
+      );
+    } else if (type === 1) {
+      const total = pickRandom([40, 50, 80, 100, 120, 200]);
+      const pct = pickRandom([15, 20, 25, 30, 40]);
+      const ans = (total * pct) / 100;
+      const built = buildNumericOptions(ans, [pct, ans + 5, Math.max(1, ans - 5)], ' 人');
+      questions.push(
+        makeQuestion(
+          'g6s2-u6',
+          seed,
+          i,
+          `全校共調查了 ${total} 位學生，圓形圖顯示選擇「閱讀社」的比例為 ${pct}%，請問選擇閱讀社的學生有多少人？`,
+          built,
+          `人數 = 總人數 × 百分率 = ${total} × ${pct}% = ${ans} 人。`,
+          `把總人數 ${total} 乘以 ${pct}%！`,
+        ),
+      );
+    } else {
+      const built = buildStringOptions('圓形圖（能清楚看出各部分佔整體的百分比）', [
+        '長條圖（比較各類別的絕對數量）',
+        '折線圖（觀察隨時間變化的趨勢）',
+        '甘特圖（安排工作進度時間表）',
+      ]);
+      questions.push(
+        makeQuestion(
+          'g6s2-u6',
+          seed,
+          i,
+          '想呈現「各類家庭支出佔總支出的百分比構成」，選擇哪一種統計圖表最適合？',
+          built,
+          '圓形圖最適合用來表現「各部分數量佔整體總量的百分比（構成比例）」。',
+          '要看出「部分佔全部的百分之幾」，用圓形分割最直覺！',
+        ),
+      );
+    }
+  }
+  return questions;
+}
+

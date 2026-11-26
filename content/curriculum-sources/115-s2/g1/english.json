@@ -43,6 +43,14 @@
         "publisher": "翰林（選書表）／學校自編彈性課程計畫",
         "book_series": "Twinkle 1（選書表）／唱跳趣閱家一下（課程計畫）"
       }
+    },
+    {
+      "id": "src-3",
+      "source_tier": "tier1",
+      "source_title": "115 翰林國小教材博覽會：英語《Twinkle 1》電子書暨翰林數位練習題庫",
+      "source_url": "https://el.hle.com.tw/class/english/index.html",
+      "local_file": null,
+      "retrieved_at": "2026-11-26T06:00:00+08:00"
     }
   ],
   "units": [
@@ -137,6 +145,32 @@
           ],
           "source_ref": "src-1",
           "verbatim_excerpt": "[PDF p.658 一年級第二學期【唱跳趣閱家】課程計畫] 單元名稱：讓我們去玩吧 戶外教育（6-2-1 標週次12-15，16-21空白）；[PDF p.1051-1054 6-4進度總表] 第15-21週：讓我們去玩吧。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 5,
+      "title": "第15–21週補充：字母 T, U, V 與 26 個字母總複習",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "26 個字母拼圖：T, U, V 與大小寫總複習",
+          "learning_points": [
+            "英語字母基礎：一下整體學習目標包含了解 26 個英文字母的字形、名稱與發音（p.656-657），補足 S 與 W 之間的字母 T、U、V。",
+            "大小寫配對：熟練 T/t、U/u、V/v 與 A–Z 全部 26 個英文字母順序與大小寫。"
+          ],
+          "vocabulary": [
+            "T",
+            "U",
+            "V",
+            "t",
+            "u",
+            "v",
+            "A–Z"
+          ],
+          "source_ref": "src-1",
+          "verbatim_excerpt": "[PDF p.656-657 一年級第二學期【唱跳趣閱家】課程計畫] 總學習目標：了解26個英文字母的字形、名稱與發音；[PDF p.658] 共讀繪本 Chicka Chicka Boom Boom 複習學過的字母。",
           "confidence": "primary"
         }
       ]

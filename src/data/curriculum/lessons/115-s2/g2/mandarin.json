@@ -8,46 +8,47 @@
   "lessons": [
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g2-mandarin-u1",
-      "stageId": "115-s2-g2-mandarin-u1",
-      "title": "第一單元 彩色的世界",
+      "lessonId": "lesson-115-s2-g2-mandarin-u1-l1",
+      "stageId": "115-s2-g2-mandarin-u1-l1",
+      "title": "第一課 春天的顏色",
       "ageBand": "AGE_6_8_LOWER",
       "subject": "LANGUAGE",
       "scenes": [
         {
-          "sceneId": "u1-s1",
+          "sceneId": "115-s2-g2-mandarin-u1-l1-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "發現春天與生活裡的彩色世界",
-          "narrationText": "在〈春天的顏色〉、〈花衣裳〉和〈彩色王國〉裡，我們用雙眼觀察大自然色彩，也學習愛護環境與尊重不同喜好。",
+          "title": "第一課：春天的顏色與多元視角",
+          "narrationText": "春天到了！在《春天的顏色》裡，小青蛙、小田鼠、小蜜蜂和小燕子看到不一樣的顏色，合起來就像彩虹一樣美！",
           "cognitiveChunks": [
-            "細心看春天的新芽和小花",
-            "把草地寫成穿上花衣裳更生動",
-            "尊重每個人喜歡的顏色與不同"
+            "青蛙→藍色、田鼠→綠色",
+            "蜜蜂→粉紅、燕子→彩虹",
+            "部首統整：虫部(蜂、蝶)、池(氵)/塘(土)",
+            "句型仿寫：誰＋看見＋春天是什麼色"
           ],
-          "analogyAnchor": "世界就像一盒水彩筆，每種顏色都很重要，大家互相尊重合作，就能畫出最漂亮的圖畫！",
+          "analogyAnchor": "就像四個小朋友從不同窗戶看世界，每個人看到的都不同，合起來才是完整又精彩的春天！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "自然觀察與寫作",
+              "leftTitle": "動物眼中的春天",
               "leftPoints": [
-                "用眼睛欣賞花草不摘採",
-                "想像草地穿上花衣裳"
+                "天空蔚藍、草地青翠",
+                "桃花粉紅、景色五顏六色"
               ],
-              "rightTitle": "品德與人權",
+              "rightTitle": "識字與仿寫",
               "rightPoints": [
-                "對家人道謝並摺好衣服",
-                "尊重同學不同的喜好"
+                "虫部(蜜蜂、蝴蝶)、池(氵)塘(土)",
+                "仿寫：小動物＋看見＋顏色"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "愛護花草不摘採",
+                "text": "不同角度看春天",
                 "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "尊重彼此的不同",
+                "text": "部首統整與仿寫",
                 "anchorPointId": "right"
               }
             ]
@@ -55,45 +56,46 @@
           "factGroundingSourceId": "115-s2/g2/mandarin#u1"
         },
         {
-          "sceneId": "u1-s2",
+          "sceneId": "115-s2-g2-mandarin-u1-l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "怎麼把句子寫得像《花衣裳》一樣生動？",
-          "narrationText": "寫風景時，把草地或大樹當成小人兒一樣「換上衣裳」，句子就會變得很有想像力。",
+          "title": "仿寫《春天的顏色》小詩",
+          "narrationText": "只要掌握「動物＋地點動作＋看到的景物＋顏色」四格，就能寫出超棒的春天詩句！",
           "cognitiveChunks": [
-            "想像植物也會穿衣服",
-            "加上顏色和小花細節"
+            "1. 誰（小動物）",
+            "2. 怎麼出現＋看見什麼",
+            "3. 說春天是什麼顏色"
           ],
           "workedExampleData": {
-            "problemStatement": "想把大自然「穿上花衣裳」的畫面寫進句子裡，下面哪一句最有想像力？",
+            "problemStatement": "請用「小白兔」和「雪白百合花」仿寫出一句《春天的顏色》句子！",
             "steps": [
-              "第 1 步：先看看句子裡有沒有寫出大自然的景色（例如草地、春天）",
-              "第 2 步：找找看有沒有把景色當成人一樣「換上衣裳」",
-              "第 3 步：選出「春天來了，草地換上一件開滿小花的衣裳。」"
+              "第 1 步：主角是「小白兔」，動作地點「跑出樹林」",
+              "第 2 步：看見「雪白的百合花」",
+              "第 3 步：完成句子「小白兔跑出樹林，看見雪白的百合花，牠開心地說：『春天是白色的！』」"
             ],
-            "commonErrorContrast": "常見錯誤：只寫「衣櫃裡有三件襯衫」，雖然有寫到衣服，但沒有寫出大自然的想像力。",
-            "selfExplanationPrompt": "想一想：在公園看到開滿漂亮的花朵時，愛護環境的好孩子會怎麼做？",
+            "commonErrorContrast": "常見錯誤：忘記寫出「看見什麼具體景物」，只寫「小白兔說春天是白色的」。",
+            "selfExplanationPrompt": "想一想：如果換成小金魚，牠會看見什麼顏色呢？",
             "keepStepCardVisible": true
           },
           "factGroundingSourceId": "115-s2/g2/mandarin#u1"
         },
         {
-          "sceneId": "u1-s3",
+          "sceneId": "115-s2-g2-mandarin-u1-l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "先答對這題，再開始挑戰第一單元！",
+          "narrationText": "暖身一題，迎接彩色春天！",
           "cognitiveChunks": [
-            "尊重每個人的不同喜好"
+            "青蛙(藍)、田鼠(綠)、蜜蜂(粉紅)"
           ],
           "warmupCheck": {
-            "prompt": "在《彩色王國》的學習裡，如果班上同學喜歡的顏色和想法都不同，大家怎麼相處最好？",
+            "prompt": "在課文《春天的顏色》裡，飛到高空中看到「春天的顏色像彩虹」的是誰？",
             "options": [
-              "強迫大家都喜歡同一種顏色",
-              "尊重每個人不同的喜好，快樂合作",
-              "嘲笑喜歡別種顏色的人"
+              "小青蛙",
+              "小燕子",
+              "小田鼠"
             ],
             "answerIndex": 1,
-            "feedbackCorrect": "答對了！尊重每個人的不同，班級才會像彩色王國一樣豐富美好。",
-            "feedbackRetry": "只有一種顏色太單調了，大家喜好不同時要懂得互相怎麼對待呢？"
+            "feedbackCorrect": "答對了！小燕子從高空看下來，發現到處五顏六色像彩虹！",
+            "feedbackRetry": "誰會在高高的天空中飛翔、俯瞰整個大地呢？"
           },
           "factGroundingSourceId": "115-s2/g2/mandarin#u1"
         }
@@ -101,218 +103,806 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g2-mandarin-u2",
-      "stageId": "115-s2-g2-mandarin-u2",
-      "title": "第二單元 有你真好",
+      "lessonId": "lesson-115-s2-g2-mandarin-u1-l2",
+      "stageId": "115-s2-g2-mandarin-u1-l2",
+      "title": "第二課 花衣裳",
       "ageBand": "AGE_6_8_LOWER",
       "subject": "LANGUAGE",
       "scenes": [
         {
-          "sceneId": "u2-s1",
+          "sceneId": "115-s2-g2-mandarin-u1-l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "珍惜家人與對幫忙懷抱感恩",
-          "narrationText": "從〈爸爸〉、〈我的家人〉到〈愛笑的大樹〉，我們學習看見家人的付出、分擔做得到的小家事，並常說謝謝。",
+          "title": "第二課：同音字「候／後」與「因為……所以……」",
+          "narrationText": "我們一起幫媽媽做生日禮物！在《花衣裳》裡，要分清「候」和「後」，還要學會用「因為……所以……」說出因果關係！",
           "cognitiveChunks": [
-            "家事不分男女，全家一起合作",
-            "幫忙擦桌子、整理書包",
-            "受人幫忙要感恩並說謝謝"
+            "候（中間有一小豎）：時候、問候",
+            "後（順序方位）：以後、最後、後面",
+            "因果句：因為……所以……",
+            "句型：誰為誰做什麼事"
           ],
-          "analogyAnchor": "就像〈愛笑的大樹〉把陰涼分享給大家，家人每天照顧我們也很辛苦，一句謝謝和一個擁抱能讓家更溫暖！",
-          "visualSpec": {
-            "templateId": "flow_cause",
-            "params": {
-              "step1": "看見家人的辛苦",
-              "step2": "分擔安全的小家事",
-              "step3": "說謝謝並傳遞愛"
-            },
-            "spatialLabels": [
-              {
-                "id": "l1",
-                "text": "擦桌子整理書包",
-                "anchorPointId": "step2"
-              },
-              {
-                "id": "l2",
-                "text": "常說謝謝與擁抱",
-                "anchorPointId": "step3"
-              }
-            ]
-          },
-          "factGroundingSourceId": "115-s2/g2/mandarin#u2"
-        },
-        {
-          "sceneId": "u2-s2",
-          "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "二年級可以幫忙做哪些家事？",
-          "narrationText": "分擔家事要挑選自己能力做得到、而且安全不危險的事情，每天練習就會越來越厲害。",
-          "cognitiveChunks": [
-            "挑選安全又做得到的事",
-            "從整理自己的物品開始"
-          ],
-          "workedExampleData": {
-            "problemStatement": "在《我的家人》裡，二年級的我們可以主動幫忙做哪一件家事？",
-            "steps": [
-              "第 1 步：檢查選項是否安全（爬高修理電燈、開車買菜都太危險）",
-              "第 2 步：挑選自己做得到的小事：吃完飯幫忙擦桌子",
-              "第 3 步：每天自己整理書包和收拾玩具"
-            ],
-            "commonErrorContrast": "常見錯誤：以為自己還小什麼都不能做，全部都等爸爸媽媽幫忙收拾。",
-            "selfExplanationPrompt": "想一想：如果想寫一段話介紹自己的家人，寫出他們的什麼特色最生動？",
-            "keepStepCardVisible": true
-          },
-          "factGroundingSourceId": "115-s2/g2/mandarin#u2"
-        },
-        {
-          "sceneId": "u2-s3",
-          "componentType": "WARMUP_CHECK",
-          "title": "進場前暖身確認",
-          "narrationText": "練習一題感恩與家庭互動的題目！",
-          "cognitiveChunks": [
-            "對幫忙我們的人真誠道謝"
-          ],
-          "warmupCheck": {
-            "prompt": "在《愛笑的大樹》裡，當身邊的人幫了我們一個忙時，最有禮貌的回應是什麼？",
-            "options": [
-              "真誠說聲謝謝，以後也願意幫助別人",
-              "當成理所當然不說話",
-              "轉身跑走假裝沒事"
-            ],
-            "answerIndex": 0,
-            "feedbackCorrect": "答對了！常懷感恩的心並把善意傳下去，大家都喜歡和你做朋友。",
-            "feedbackRetry": "受人幫助時要記得「感恩」，開口說什麼最有禮貌呢？"
-          },
-          "factGroundingSourceId": "115-s2/g2/mandarin#u2"
-        }
-      ]
-    },
-    {
-      "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g2-mandarin-u3",
-      "stageId": "115-s2-g2-mandarin-u3",
-      "title": "第三單元 故事妙妙屋",
-      "ageBand": "AGE_6_8_LOWER",
-      "subject": "LANGUAGE",
-      "scenes": [
-        {
-          "sceneId": "u3-s1",
-          "componentType": "ANCHOR_SCENE",
-          "title": "讀故事的三大法寶：預測、推論、故事結構",
-          "narrationText": "走進〈月光河〉、〈黃狗生蛋〉與〈神筆馬良〉，學會邊讀邊猜（預測）、找線索（推論）和整理故事重點。",
-          "cognitiveChunks": [
-            "預測：先猜接下來會發生什麼",
-            "推論：從動作表情線索想答案",
-            "故事結構：有誰、遇到什麼問題、怎麼解決"
-          ],
-          "analogyAnchor": "讀故事就像當小偵探，用「預測」猜劇情，用「推論」找線索，再用「故事結構」把案件整理清楚！",
-          "visualSpec": {
-            "templateId": "flow_cause",
-            "params": {
-              "step1": "看題目先預測",
-              "step2": "從動作表情推論",
-              "step3": "整理故事結構"
-            },
-            "spatialLabels": [
-              {
-                "id": "l1",
-                "text": "先猜後面怎麼演",
-                "anchorPointId": "step1"
-              },
-              {
-                "id": "l2",
-                "text": "誰遇問題怎解決",
-                "anchorPointId": "step3"
-              }
-            ]
-          },
-          "factGroundingSourceId": "115-s2/g2/mandarin#u3"
-        },
-        {
-          "sceneId": "u3-s2",
-          "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "怎麼從線索「推論」角色的心情？",
-          "narrationText": "有時候作者不會直接寫出「他好生氣」或「他好傷心」，而是寫出人物的表情和動作，讓我們自己推論出來。",
-          "cognitiveChunks": [
-            "注意人物說的話",
-            "觀察人物的表情和動作"
-          ],
-          "workedExampleData": {
-            "problemStatement": "如果故事裡寫「小熊皺起眉頭、雙手握緊拳頭」，你可以推論小熊現在心情怎麼樣？",
-            "steps": [
-              "第 1 步：圈出動作和表情線索：「皺起眉頭」、「握緊拳頭」",
-              "第 2 步：想一想我們什麼時候會做出這樣的表情和動作",
-              "第 3 步：推論出小熊現在可能「很生氣」"
-            ],
-            "commonErrorContrast": "常見錯誤：只會看有沒有出現「生氣」兩個字，忽略了表情和動作的線索。",
-            "selfExplanationPrompt": "想一想：如果讓你擁有一枝《神筆馬良》的神筆，拿來做什麼事最有愛心？",
-            "keepStepCardVisible": true
-          },
-          "factGroundingSourceId": "115-s2/g2/mandarin#u3"
-        },
-        {
-          "sceneId": "u3-s3",
-          "componentType": "WARMUP_CHECK",
-          "title": "進場前暖身確認",
-          "narrationText": "考考你這三個故事裡的閱讀策略！",
-          "cognitiveChunks": [
-            "預測＝事先猜想故事發展"
-          ],
-          "warmupCheck": {
-            "prompt": "閱讀時使用「預測」策略，是指怎麼做？",
-            "options": [
-              "直接翻到最後一頁看結局",
-              "看了題目或前幾段後，猜猜看接下來會發生什麼事",
-              "把不懂的字用筆畫掉"
-            ],
-            "answerIndex": 1,
-            "feedbackCorrect": "答對了！利用已經讀到的線索猜猜看後面會怎麼演，就是預測策略。",
-            "feedbackRetry": "「預」是事先的意思，在還沒讀到後面時先動腦想想看喔！"
-          },
-          "factGroundingSourceId": "115-s2/g2/mandarin#u3"
-        }
-      ]
-    },
-    {
-      "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g2-mandarin-u4",
-      "stageId": "115-s2-g2-mandarin-u4",
-      "title": "第四單元 閱讀樂趣多",
-      "ageBand": "AGE_6_8_LOWER",
-      "subject": "LANGUAGE",
-      "scenes": [
-        {
-          "sceneId": "u4-s1",
-          "componentType": "ANCHOR_SCENE",
-          "title": "寫邀請卡、逛圖書館與欣賞多元故事",
-          "narrationText": "在〈小熊的邀請〉、〈小讀者樂園〉與〈巨人山〉裡，我們學會寫清楚邀請卡、遵守圖書館公德，也學會尊重不同文化。",
-          "cognitiveChunks": [
-            "邀請卡要寫清對象、時間、地點",
-            "圖書館輕聲細語、愛惜書本歸原位",
-            "邊讀邊問「為什麼」想得更深入"
-          ],
-          "analogyAnchor": "圖書館就像故事樂園，只要大家輕聲細語、把書放回原位，每個人都能找到自己最愛的故事寶藏！",
+          "analogyAnchor": "「候」裡面站著一個「丨（小哨兵）」在等候時間；「後」沒有小哨兵，專門表示前後的「後」！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "小熊的邀請",
+              "leftTitle": "同音字「候／後」",
               "leftPoints": [
-                "邀請卡寫清誰、幾點、哪裡",
-                "讀書多問「為什麼」"
+                "候：時候、氣候、問候（有丨）",
+                "後：以後、最後、放學後"
               ],
-              "rightTitle": "小讀者樂園",
+              "rightTitle": "因果與行動句",
               "rightPoints": [
-                "安靜閱讀、不折書不塗鴉",
-                "看封面和試讀來選書"
+                "因為（原因）……所以（結果）……",
+                "我們為媽媽做一件花衣裳"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "寫清時間與地點",
+                "text": "「時候」才有那一豎",
                 "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "圖書館輕聲細語",
+                "text": "因果推論＋分工合作",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u1"
+        },
+        {
+          "sceneId": "115-s2-g2-mandarin-u1-l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "快速分辨「候」和「後」",
+          "narrationText": "寫國字前先想一想這個詞是「某個時間點／問候」還是「前與後」！",
+          "cognitiveChunks": [
+            "問候、時候、氣候 → 候",
+            "前後、以後、最後 → 後"
+          ],
+          "workedExampleData": {
+            "problemStatement": "「每天早上的時（　），我都會先刷牙，然（　）再吃早餐。」怎麼填？",
+            "steps": [
+              "第 1 步：「時＿」是指那個時間點 → 填「候」（時候）",
+              "第 2 步：「然＿」表示在刷牙之後 → 填「後」（然後）",
+              "第 3 步：念一遍：每天早上的時候，我都會先刷牙，然後再吃早餐。"
+            ],
+            "commonErrorContrast": "常見錯誤：把「時候」寫成「時後」，或把「然後」寫成「然候」。",
+            "selfExplanationPrompt": "想一想：你能用「因為……所以……」說一句話說明為什麼要做花衣裳嗎？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u1"
+        },
+        {
+          "sceneId": "115-s2-g2-mandarin-u1-l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "暖身一題，準備幫媽媽做花衣裳！",
+          "cognitiveChunks": [
+            "時候(候) vs 以後(後)"
+          ],
+          "warmupCheck": {
+            "prompt": "「這是我最（　）一次忘記帶水壺了！」空格裡要填哪一個字？",
+            "options": [
+              "候",
+              "後",
+              "厚"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！「最後」表示順序在最後面，要用「後」！",
+            "feedbackRetry": "「最後」是和「最前」相對的順序，選沒有小豎的字喔！"
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-mandarin-u1-l3",
+      "stageId": "115-s2-g2-mandarin-u1-l3",
+      "title": "第三課 彩色王國",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "115-s2-g2-mandarin-u1-l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第三課：形近字、數字四字詞與「把／被」",
+          "narrationText": "歡迎來到《彩色王國》！這一課要分辨「特／待」和「突／空」，學會「五顏六色、七嘴八舌」，還要把「把字句」跟「被字句」互換！",
+          "cognitiveChunks": [
+            "特(牛)別 vs 等待(彳)",
+            "突(穴＋犬)然 vs 天空(穴＋工)",
+            "數字詞語：五顏六色、七嘴八舌",
+            "「……把……」↔「……被……」"
+          ],
+          "analogyAnchor": "「把」字句和「被」字句就像蹺蹺板兩端：風把種子吹走 ＝ 種子被風吹走，意思一樣只是主角換邊站！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "形近字與四字詞",
+              "leftPoints": [
+                "特（牛）↔ 待（彳）",
+                "突（穴犬）↔ 空（穴工）",
+                "五顏六色、七嘴八舌"
+              ],
+              "rightTitle": "把字句與被字句",
+              "rightPoints": [
+                "風把種子吹走了",
+                "種子被風吹走了",
+                "欣賞並包容彼此的特色"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "看清偏旁與底下部件",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "把／被互換不變意",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u1"
+        },
+        {
+          "sceneId": "115-s2-g2-mandarin-u1-l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "「把」字句與「被」字句互換",
+          "narrationText": "記住口訣：主動做動作的放「把」前面，接受動作的放「被」前面！",
+          "cognitiveChunks": [
+            "主動者＋把＋東西＋動作",
+            "東西＋被＋主動者＋動作"
+          ],
+          "workedExampleData": {
+            "problemStatement": "把「弟弟把花朵畫在紙上」改成「……被……」句型！",
+            "steps": [
+              "第 1 步：誰做動作？→「弟弟」；什麼接受動作？→「花朵」",
+              "第 2 步：把「花朵」放到最前面，接上「被弟弟」",
+              "第 3 步：完成句子「花朵被弟弟畫在紙上。」"
+            ],
+            "commonErrorContrast": "常見錯誤：換成被字句時忘記交換前後主角，寫成「弟弟被花朵畫在紙上」。",
+            "selfExplanationPrompt": "想一想：「奇特」的「特」左邊是什麼部首？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u1"
+        },
+        {
+          "sceneId": "115-s2-g2-mandarin-u1-l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "暖身一題，準備探索彩色王國！",
+          "cognitiveChunks": [
+            "突＝穴＋犬；空＝穴＋工"
+          ],
+          "warmupCheck": {
+            "prompt": "「天氣（　）然變冷了！」空格裡應填哪一個字？",
+            "options": [
+              "空",
+              "突",
+              "穴"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！下面有「犬」的是「突然」的「突」！",
+            "feedbackRetry": "「空」是「穴＋工」，「突然」下面是一隻「犬」喔！"
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-mandarin-u2-l4",
+      "stageId": "115-s2-g2-mandarin-u2-l4",
+      "title": "第四課 爸爸",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "115-s2-g2-mandarin-u2-l4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第四課：「日／目」部首與「當……的時候……」",
+          "narrationText": "在《爸爸》這一課裡，我們學會分辨長得很像的「日」部和「目」部，還要用「當……的時候……」說出和家人的溫暖故事！",
+          "cognitiveChunks": [
+            "日部（一橫，太陽時間）：晴、早、晚",
+            "目部（兩橫，眼睛動作）：眼、睛、睡、看",
+            "晴天(日) vs 眼睛(目)",
+            "句型：當……的時候……"
+          ],
+          "analogyAnchor": "「日」裡面一橫像太陽發出一道光，「目」裡面兩橫就像眼睛的兩片眼皮——一橫太陽、兩橫眼睛！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "「日」與「目」部首",
+              "leftPoints": [
+                "日部：晴、早、晚、明",
+                "目部：眼、睛、睡、看"
+              ],
+              "rightTitle": "句型與親情",
+              "rightPoints": [
+                "當……的時候……",
+                "分享家人特長與表達感謝"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "一橫是日、兩橫是目",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "說出家人的溫暖陪伴",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u2"
+        },
+        {
+          "sceneId": "115-s2-g2-mandarin-u2-l4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分辨「晴」和「睛」",
+          "narrationText": "兩個字右邊都是「青」，只要看左邊一橫或兩橫就不會寫錯！",
+          "cognitiveChunks": [
+            "日（一橫）＋青 → 晴（太陽出來了）",
+            "目（兩橫）＋青 → 睛（眼睛亮晶晶）"
+          ],
+          "workedExampleData": {
+            "problemStatement": "「今天是（　）天，小妹妹的眼（　）笑得彎彎的。」怎麼填？",
+            "steps": [
+              "第 1 步：「＿天」跟太陽天氣有關 → 填「晴」",
+              "第 2 步：「眼＿」是看東西的器官 → 填「睛」",
+              "第 3 步：念一遍確認兩個字意思完全對！"
+            ],
+            "commonErrorContrast": "常見錯誤：寫「眼睛」時少畫一橫寫成「眼晴」。",
+            "selfExplanationPrompt": "想一想：用「當……的時候……」怎麼形容爸爸的特長？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u2"
+        },
+        {
+          "sceneId": "115-s2-g2-mandarin-u2-l4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "暖身一題，看看你分得出「日」和「目」了沒！",
+          "cognitiveChunks": [
+            "日(一橫) vs 目(兩橫)"
+          ],
+          "warmupCheck": {
+            "prompt": "「每天早睡早起，保護好眼（　）。」空格裡應該填哪一個字？",
+            "options": [
+              "晴",
+              "睛",
+              "清"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！眼睛要用兩橫目部的「睛」！",
+            "feedbackRetry": "眼睛是「目」部（裡面有兩橫），再選一次喔！"
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-mandarin-u2-l5",
+      "stageId": "115-s2-g2-mandarin-u2-l5",
+      "title": "第五課 我的家人",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "115-s2-g2-mandarin-u2-l5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第五課：「口／囗」部首、代名詞與日記",
+          "narrationText": "一起認識家人的工作！在《我的家人》裡，我們學會分清「口」部和「囗」部、使用人稱代名詞，還要寫一篇精彩的小日記！",
+          "cognitiveChunks": [
+            "口部（小嘴巴）：唱、吃、呼、吹",
+            "囗部（大圍牆）：國、園、圓、圖",
+            "句型：不管……都……",
+            "日記格式：日期、星期、天氣＋生活與心情"
+          ],
+          "analogyAnchor": "「口」是小小一張嘴（負責吃喝說話）；「囗」是大大四面牆（把房子、花園、國家圍在裡面）！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "「口」與「囗」部首",
+              "leftPoints": [
+                "口部：唱、呼、吹（嘴巴動作）",
+                "囗部：國、園、圖（大框圍住）"
+              ],
+              "rightTitle": "句型與日記",
+              "rightPoints": [
+                "不管……都……（條件不變）",
+                "人稱代名詞：你、我、他",
+                "日記開頭寫日期、星期、天氣"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "小嘴巴 vs 大圍牆",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "代名詞與小日記",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u2"
+        },
+        {
+          "sceneId": "115-s2-g2-mandarin-u2-l5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "「口」部與「囗」部快速分類",
+          "narrationText": "只要看這個字有沒有「把別的筆畫包在框框裡面」，就能一秒分出「口」和「囗」！",
+          "cognitiveChunks": [
+            "框框裡是空的 → 口部",
+            "框框裡包著字 → 囗部"
+          ],
+          "workedExampleData": {
+            "problemStatement": "請分辨「問、圍、喝、圓」四個字，哪兩個是「囗」部？",
+            "steps": [
+              "第 1 步：「圍」和「圓」外框把「韋、員」包在裡面 → 都是「囗」部！",
+              "第 2 步：「問、喝」裡面的「口」都是空心小嘴巴 → 是「口」部",
+              "第 3 步：確認只有圍、圓是「囗」部"
+            ],
+            "commonErrorContrast": "常見錯誤：查「國」或「園」時，跑去「口」部找了半天。",
+            "selfExplanationPrompt": "想一想：寫日記的第一行要記下哪三件事？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u2"
+        },
+        {
+          "sceneId": "115-s2-g2-mandarin-u2-l5-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "暖身一題，準備寫家人的小日記！",
+          "cognitiveChunks": [
+            "小嘴巴「口」vs 大圍牆「囗」"
+          ],
+          "warmupCheck": {
+            "prompt": "「我們要守護美麗的家（　）。」如果填入「園」字，它的部首是哪一個？",
+            "options": [
+              "口部",
+              "囗部",
+              "土部"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！「園」的大框框把「袁」包在裡面，是「囗」部！",
+            "feedbackRetry": "「園」外面是大大的圍牆把裡面包起來，不是小嘴巴「口」喔！"
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-mandarin-u2-l6",
+      "stageId": "115-s2-g2-mandarin-u2-l6",
+      "title": "第六課 愛笑的大樹",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "115-s2-g2-mandarin-u2-l6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第六課：多音「教」、心情推論與改錯",
+          "narrationText": "聽聽愛笑的大樹說故事！這一課要學會多音字「教」、從動作推論心情、修改錯句子，還有「……終於……」句型！",
+          "cognitiveChunks": [
+            "教：教書(ㄐㄧㄠ) / 教室、教師(ㄐㄧㄠˋ)",
+            "推論心情：看表情與動作線索",
+            "句型：……終於……（努力後成功）",
+            "檢查並修改文句錯誤"
+          ],
+          "analogyAnchor": "修改病句就像幫句子照鏡子：讀一遍看看有沒有「時間打架」或「詞語重複」，修整齊就帥氣了！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "多音字與推論",
+              "leftPoints": [
+                "教：動詞念 ㄐㄧㄠ、名詞念 ㄐㄧㄠˋ",
+                "從低頭嘆氣、微笑推論心情"
+              ],
+              "rightTitle": "句型與改錯",
+              "rightPoints": [
+                "……終於……（等待後的結果）",
+                "念讀檢查、修改不通順的病句"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "教書 vs 教室",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "讀順句子把錯改掉",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u2"
+        },
+        {
+          "sceneId": "115-s2-g2-mandarin-u2-l6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "多音字「教」的快速判斷",
+          "narrationText": "「教」只有兩個音：當動作念 ㄐㄧㄠ，當名稱或制度念 ㄐㄧㄠˋ！",
+          "cognitiveChunks": [
+            "「教」別人做某事 → ㄐㄧㄠ",
+            "「教」室、老師、教育 → ㄐㄧㄠˋ"
+          ],
+          "workedExampleData": {
+            "problemStatement": "「王老師在（教）室裡，（教）我們唱一首好聽的歌。」兩個「教」怎麼念？",
+            "steps": [
+              "第 1 步：「＿室」是上課的地方名稱 → 念四聲 ㄐㄧㄠˋ",
+              "第 2 步：「＿我們唱歌」是老師傳授的動作 → 念一聲 ㄐㄧㄠ",
+              "第 3 步：念一遍：在ㄐㄧㄠˋ室裡，ㄐㄧㄠ我們唱歌"
+            ],
+            "commonErrorContrast": "常見錯誤：把「教書、教人」念成四聲 ㄐㄧㄠˋ。",
+            "selfExplanationPrompt": "想一想：如果句子出現「我昨天明天去公園」，要怎麼修改才對？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u2"
+        },
+        {
+          "sceneId": "115-s2-g2-mandarin-u2-l6-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "暖身一題，準備和愛笑的大樹見面！",
+          "cognitiveChunks": [
+            "……終於……＝努力或等待後的結果"
+          ],
+          "warmupCheck": {
+            "prompt": "「下了一整天的雨，太陽公公（　）露出了笑臉。」空格裡填哪個詞最適合？",
+            "options": [
+              "終於",
+              "因為",
+              "雖然"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！「終於」表現出等了好久，太陽公公總算出來了！",
+            "feedbackRetry": "等雨停等了好久，總算放晴了，要用哪一個詞？"
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-mandarin-u3-l7",
+      "stageId": "115-s2-g2-mandarin-u3-l7",
+      "title": "第七課 月光河",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "115-s2-g2-mandarin-u3-l7-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第七課：「昔」部件家族與有感情地朗讀",
+          "narrationText": "在美麗的《月光河》旁，我們要認識「昔」字家族的三胞胎：借、惜、錯，還要練習用溫柔的語氣說出故事大意！",
+          "cognitiveChunks": [
+            "昔部件：借(亻)、惜(忄)、錯(金)",
+            "人借書、心愛惜、金認錯",
+            "不能「有邊讀邊」：借(ㄐㄧㄝˋ)、錯(ㄘㄨㄛˋ)",
+            "體會人物心情＋適當語氣朗讀"
+          ],
+          "analogyAnchor": "「昔」戴上不同的帽子（偏旁）就變身成不同職業：「亻」借東西、「忄」很珍惜、「金」會認錯！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "「昔」部件三兄弟",
+              "leftPoints": [
+                "借（亻＋昔）：借書、借過",
+                "惜（忄＋昔）：愛惜、可惜",
+                "錯（金＋昔）：認錯、沒錯"
+              ],
+              "rightTitle": "閱讀與朗讀",
+              "rightPoints": [
+                "注意：三字讀音不同別念錯",
+                "抓主角事件說大意、用語氣朗讀"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "看左邊部首分清意思",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "讀出月光下的心情",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u3"
+        },
+        {
+          "sceneId": "115-s2-g2-mandarin-u3-l7-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "部首＋「昔」的語境選字",
+          "narrationText": "只要看這個詞跟「人」、「心」還是「對錯」有關，就能選對「借、惜、錯」！",
+          "cognitiveChunks": [
+            "向人暫時拿 → 借",
+            "心裡很疼愛 → 惜",
+            "不對的地方 → 錯"
+          ],
+          "workedExampleData": {
+            "problemStatement": "「妹妹向我（1）彩色筆時不小心掉地上，她連忙說『真可（2），我不是故意做（3）的！』」怎麼填？",
+            "steps": [
+              "第 1 步：(1) 向人拿來用 → 「借」",
+              "第 2 步：(2) 心裡覺得遺憾 → 「惜」",
+              "第 3 步：(3) 做錯事 → 「錯」"
+            ],
+            "commonErrorContrast": "常見錯誤：把「愛惜」寫成「愛借」，或把「借、錯」也念成 ㄒㄧˊ。",
+            "selfExplanationPrompt": "想一想：「月光河」讀起來應該用大聲吼叫還是溫柔輕快的語氣？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u3"
+        },
+        {
+          "sceneId": "115-s2-g2-mandarin-u3-l7-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "暖身一題，準備划進月光河！",
+          "cognitiveChunks": [
+            "借(亻)、惜(忄)、錯(金)"
+          ],
+          "warmupCheck": {
+            "prompt": "「我們要（　）水資源，不要浪費水。」空格裡要填哪一個字？",
+            "options": [
+              "借",
+              "惜",
+              "錯"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！心裡珍惜要用豎心旁的「惜」（愛惜）！",
+            "feedbackRetry": "「愛惜」是發自內心的珍惜，選「忄（心）」部首的字喔！"
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-mandarin-u3-l8",
+      "stageId": "115-s2-g2-mandarin-u3-l8",
+      "title": "第八課 黃狗生蛋",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "115-s2-g2-mandarin-u3-l8-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第八課：多音「傳」、「鴨／鴉」與「如果……就……」",
+          "narrationText": "什麼？黃狗竟然會生蛋？！在《黃狗生蛋》裡，我們要分辨「傳」的兩個音、「鴨」和「鴉」，還要從動作對話看懂人物個性！",
+          "cognitiveChunks": [
+            "傳：傳說、流傳(ㄔㄨㄢˊ) / 自傳(ㄓㄨㄢˋ)",
+            "鴨(甲＋鳥) vs 鴉(牙＋鳥)",
+            "從動作、表情、對話推斷個性",
+            "句型：如果……就……"
+          ],
+          "analogyAnchor": "記住口訣：「甲」等鴨子水上漂，「牙」齒烏黑像烏「鴉」；故事流「傳(ㄔㄨㄢˊ)」天下，寫成名人生「傳(ㄓㄨㄢˋ)」！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "多音與形近字",
+              "leftPoints": [
+                "傳：傳說(ㄔㄨㄢˊ)、自傳(ㄓㄨㄢˋ)",
+                "鴨（甲＋鳥）vs 鴉（牙＋鳥）"
+              ],
+              "rightTitle": "閱讀與句型",
+              "rightPoints": [
+                "從動作表情推斷個性",
+                "如果（假設）……就（結果）……"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "「傳」與「鴨／鴉」",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "假設句＋人物推論",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u3"
+        },
+        {
+          "sceneId": "115-s2-g2-mandarin-u3-l8-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分辨「鴨」和「鴉」",
+          "narrationText": "兩個字都有「鳥」，只要記住左邊是「甲」還是「牙」！",
+          "cognitiveChunks": [
+            "甲＋鳥 → 鴨（鴨子）",
+            "牙＋鳥 → 鴉（烏鴉）"
+          ],
+          "workedExampleData": {
+            "problemStatement": "「湖面上有幾隻小黃（1），天上飛過一隻黑烏（2）。」怎麼填？",
+            "steps": [
+              "第 1 步：(1) 湖面上的小黃鴨 → 「甲＋鳥」的「鴨」",
+              "第 2 步：(2) 天上的黑烏鴉 → 「牙＋鳥」的「鴉」",
+              "第 3 步：念一遍確認沒有寫反"
+            ],
+            "commonErrorContrast": "常見錯誤：把「烏鴉」寫成「烏鴨」。",
+            "selfExplanationPrompt": "想一想：你能用「如果……就……」造一個有趣的故事假設句嗎？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u3"
+        },
+        {
+          "sceneId": "115-s2-g2-mandarin-u3-l8-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "暖身一題，準備走進奇想故事《黃狗生蛋》！",
+          "cognitiveChunks": [
+            "「傳說」念 ㄔㄨㄢˊ；「自傳」念 ㄓㄨㄢˋ"
+          ],
+          "warmupCheck": {
+            "prompt": "「這是一個流（　）很久的民間故事。」括號裡的「傳」要怎麼念？",
+            "options": [
+              "ㄔㄨㄢˊ",
+              "ㄓㄨㄢˋ",
+              "ㄓㄨㄢˇ"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！「流傳」念 ㄔㄨㄢˊ！",
+            "feedbackRetry": "「流傳」表示傳遞下來，要念 ㄔㄨㄢˊ 喔！"
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-mandarin-u3-l9",
+      "stageId": "115-s2-g2-mandarin-u3-l9",
+      "title": "第九課 神筆馬良",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "115-s2-g2-mandarin-u3-l9-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第九課：「銀／跟」「島／鳥」、專名號與寫景",
+          "narrationText": "拿起神奇畫筆吧！在《神筆馬良》裡，我們要分辨兩組超像的字、認識「專名號」，還要學會「遠、中、近」寫景法！",
+          "cognitiveChunks": [
+            "銀(金部) vs 跟(足部)",
+            "島(山在底) vs 鳥(四點在底)",
+            "專名號：標示人名、地名",
+            "句型：……不然……；遠→中→近寫景"
+          ],
+          "analogyAnchor": "「島」是海裡冒出來的一座「山」；「鳥」下面四點是鳥爪和尾巴——看底部一秒就分清！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "兩組形近字",
+              "leftPoints": [
+                "銀行（金部）vs 跟著（足部）",
+                "海島（山部）vs 小鳥（鳥部）"
+              ],
+              "rightTitle": "標點與寫景",
+              "rightPoints": [
+                "專名號標示人名地名（如馬良）",
+                "……不然……；遠、中、近寫景"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "看部首和底部部件",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "專名號＋遠中近寫景",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u3"
+        },
+        {
+          "sceneId": "115-s2-g2-mandarin-u3-l9-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "用「遠、中、近」描寫風景",
+          "narrationText": "眼睛像照相機一樣，從遠處慢慢拉近，景物就能寫得超清楚！",
+          "cognitiveChunks": [
+            "遠景：天空、高山",
+            "中景：草地、大樹",
+            "近景：腳邊的小花、溪水"
+          ],
+          "workedExampleData": {
+            "problemStatement": "請把「腳邊的小螞蟻」、「遠方的藍天白雲」、「中間的操場」排成「由遠到近」的順序！",
+            "steps": [
+              "第 1 步：最遠的 → 「遠方是藍天白雲」",
+              "第 2 步：中間的 → 「中間是寬闊的操場」",
+              "第 3 步：最近的 → 「近處腳邊有小螞蟻正在搬食物」"
+            ],
+            "commonErrorContrast": "常見錯誤：順序跳來跳去（一下子寫天上，一下子寫腳邊，又跳回遠山）。",
+            "selfExplanationPrompt": "想一想：「馬良」是人名，「臺灣」是地名，都要用什麼符號標示？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u3"
+        },
+        {
+          "sceneId": "115-s2-g2-mandarin-u3-l9-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "暖身一題，準備和神筆馬良一起去冒險！",
+          "cognitiveChunks": [
+            "島(山) vs 鳥(灬)"
+          ],
+          "warmupCheck": {
+            "prompt": "「綠（　）上飛來了一群美麗的小（　）。」空格依序應填：",
+            "options": [
+              "鳥；島",
+              "島；鳥",
+              "島；島"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！綠島底下是「山」，小鳥底下是四點！",
+            "feedbackRetry": "「綠島」是海裡的山（島），「小鳥」才是鳥部喔！"
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-mandarin-u4-l10",
+      "stageId": "115-s2-g2-mandarin-u4-l10",
+      "title": "第十課 小熊的邀請",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "115-s2-g2-mandarin-u4-l10-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第十課：「良」部件家族與寫邀請訊息",
+          "narrationText": "小熊寄來一張邀請卡！在《小熊的邀請》裡，我們要用「良」部件一次認識好多新字，還要學會把邀請卡寫清楚！",
+          "cognitiveChunks": [
+            "良部件：浪(氵)、朗(月)、狼(犭)、娘(女)",
+            "邀請卡三要素：時間、地點、活動",
+            "讀出詩歌的歡喜節奏",
+            "用完整句子寫出閱讀心得"
+          ],
+          "analogyAnchor": "邀請卡就像尋寶地圖：少寫了「時間」或「地點」，好朋友就會迷路找不到小熊家囉！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "「良」部件家族",
+              "leftPoints": [
+                "浪（氵＋良）：海浪",
+                "朗（良＋月）：明朗、晴朗",
+                "狼（犭＋良）：野狼；娘（女＋良）"
+              ],
+              "rightTitle": "邀請與閱讀",
+              "rightPoints": [
+                "邀請卡要寫清：時間、地點、活動",
+                "寫心得：喜歡的原因＋自己的想法"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "換部首認一串字",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "時間地點都要寫清楚",
                 "anchorPointId": "right"
               }
             ]
@@ -320,45 +910,46 @@
           "factGroundingSourceId": "115-s2/g2/mandarin#u4"
         },
         {
-          "sceneId": "u4-s2",
+          "sceneId": "115-s2-g2-mandarin-u4-l10-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "怎麼在圖書館挑到適合自己的書？",
-          "narrationText": "面對書架上滿滿的書，學會看書名、封面、目錄和試讀一頁，就不會挑到太難或看不懂的書。",
+          "title": "檢查邀請訊息少寫了什麼",
+          "narrationText": "送出邀請卡前，用「時間、地點、活動」三關卡檢查一遍！",
           "cognitiveChunks": [
-            "先看書名、封面和目錄",
-            "翻開一頁試讀看看字多不多"
+            "1. 時間（何時）",
+            "2. 地點（何處）",
+            "3. 活動（做什麼）"
           ],
           "workedExampleData": {
-            "problemStatement": "在《小讀者樂園》的書架前，想挑一本適合二年級自己讀的課外書，怎麼挑最好？",
+            "problemStatement": "小熊寫：「歡迎大家來我家開閱讀派對！」他漏掉了哪一個重要資訊？",
             "steps": [
-              "第 1 步：看書名和封面插圖，確認自己對這個主題有興趣",
-              "第 2 步：看看目錄，知道這本書大概有哪些章節",
-              "第 3 步：隨便翻開一頁試讀，字不會太多、又有注音幫忙就剛剛好"
+              "第 1 步：檢查地點 → 「我家」（有寫）",
+              "第 2 步：檢查活動 → 「開閱讀派對」（有寫）",
+              "第 3 步：檢查時間 → 沒寫幾月幾日幾點！（漏掉了「時間」）"
             ],
-            "commonErrorContrast": "常見錯誤：閉著眼睛隨便抽一本最厚的書，結果回家發現字太多看不懂。",
-            "selfExplanationPrompt": "想一想：寫一張邀請卡請好朋友來參加故事會，卡片裡一定要寫清楚哪三件事？",
+            "commonErrorContrast": "常見錯誤：以為大家都知道時間或地點，就忘記寫上去。",
+            "selfExplanationPrompt": "想一想：「浪、朗、狼」為什麼讀音都和「良」很接近？",
             "keepStepCardVisible": true
           },
           "factGroundingSourceId": "115-s2/g2/mandarin#u4"
         },
         {
-          "sceneId": "u4-s3",
+          "sceneId": "115-s2-g2-mandarin-u4-l10-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "練習一題圖書館的禮貌守則！",
+          "narrationText": "暖身一題，準備接受小熊的邀請！",
           "cognitiveChunks": [
-            "輕聲細語、愛惜公物"
+            "良＋偏旁＝浪、朗、狼、娘"
           ],
           "warmupCheck": {
-            "prompt": "走進像樂園一樣的圖書館看書時，哪一個行為最有公德心？",
+            "prompt": "「海（　）拍打在沙灘上。」空格裡要填哪一個「良」家族的字？",
             "options": [
-              "輕聲細語慢慢翻書，看完放回原位",
-              "在圖書館的書上畫自己的插圖",
-              "邊吃餅乾邊把書頁折起來"
+              "朗",
+              "浪",
+              "狼"
             ],
-            "answerIndex": 0,
-            "feedbackCorrect": "答對了！輕聲細語又愛惜書本，才是最棒的小讀者。",
-            "feedbackRetry": "圖書館的書是大家共用的，吃東西或畫圖會把書弄髒喔！"
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！海水拍打是「氵」部首的「海浪」！",
+            "feedbackRetry": "海浪和水有關，要選三點水「氵」的字喔！"
           },
           "factGroundingSourceId": "115-s2/g2/mandarin#u4"
         }
@@ -366,85 +957,283 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g2-mandarin-u5",
-      "stageId": "115-s2-g2-mandarin-u5",
-      "title": "閱讀階梯",
+      "lessonId": "lesson-115-s2-g2-mandarin-u4-l11",
+      "stageId": "115-s2-g2-mandarin-u4-l11",
+      "title": "第十一課 小讀者樂園",
       "ageBand": "AGE_6_8_LOWER",
       "subject": "LANGUAGE",
       "scenes": [
         {
-          "sceneId": "u5-s1",
+          "sceneId": "115-s2-g2-mandarin-u4-l11-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "分段抓重點與愛護社區環境",
-          "narrationText": "讀《江奶奶的雜貨店》這類比較長的故事時，一段一段整理出小重點，再串起來就能看懂整篇文章。",
+          "title": "第十一課：書名號《 》、圖書館與「不但……而且……」",
+          "narrationText": "歡迎來到《小讀者樂園》圖書館！今天要學會幫書名戴上《 》，遵守圖書館公德，還要練習遞進句「不但……而且……」！",
           "cognitiveChunks": [
-            "從題目猜測故事地點和人物",
-            "每讀完一段用一句話說重點",
-            "買東西自備環保袋、對長輩有禮貌"
+            "書名號《 》：標示書名、文章、報紙",
+            "圖書館公德：安靜、愛惜書本、準時歸還",
+            "句型：不但……而且……（更進一層）",
+            "部首統整：讀(言)、籍(竹)、閱(門)"
           ],
-          "analogyAnchor": "就像把一串珠子穿起來，每讀完一段就串上一顆「小重點」珠子，整串連起來就是整篇故事的大意！",
+          "analogyAnchor": "書名號《 》就像兩對小翅膀，把一本本好書的名字保護起來，一眼就知道這是一本書！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_compare",
             "params": {
-              "step1": "看題目猜故事",
-              "step2": "每段說一句重點",
-              "step3": "串成整篇大意"
+              "leftTitle": "書名號與公德",
+              "leftPoints": [
+                "《書名》用雙尖括號標示",
+                "圖書館：輕聲細語、愛護書籍"
+              ],
+              "rightTitle": "句型與部首",
+              "rightPoints": [
+                "不但……而且……（更進一層）",
+                "讀（言部）、籍（竹部）"
+              ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "江奶奶的雜貨店",
-                "anchorPointId": "step1"
+                "text": "好書戴上書名號《》",
+                "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "逐段整理小重點",
-                "anchorPointId": "step2"
+                "text": "遞進句讚美圖書館",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u4"
+        },
+        {
+          "sceneId": "115-s2-g2-mandarin-u4-l11-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "區分「專名號」與「書名號《 》」",
+          "narrationText": "兩個都是標示名稱的好幫手，但保護的對象不一樣喔！",
+          "cognitiveChunks": [
+            "人名、地名 → 專名號（直線）",
+            "書名、故事名、報紙名 → 書名號《 》"
+          ],
+          "workedExampleData": {
+            "problemStatement": "「今天我在（1）國語日報（2）上讀到一篇（3）臺灣（4）的風景介紹。」哪裡用書名號？",
+            "steps": [
+              "第 1 步：「國語日報」是報紙名稱 → 用書名號《國語日報》",
+              "第 2 步：「臺灣」是地名 → 用專名號（畫在下方或左方）",
+              "第 3 步：這樣書名和地名就不會搞混了！"
+            ],
+            "commonErrorContrast": "常見錯誤：把人名或城市地名也加上書名號《 》。",
+            "selfExplanationPrompt": "想一想：在圖書館裡借書和看書要遵守哪三件公德？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u4"
+        },
+        {
+          "sceneId": "115-s2-g2-mandarin-u4-l11-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "暖身一題，準備走進小讀者樂園！",
+          "cognitiveChunks": [
+            "書名用《 》"
+          ],
+          "warmupCheck": {
+            "prompt": "「這本（　）十萬個為什麼（　）非常有趣！」括號裡應該用哪一種標點符號？",
+            "options": [
+              "《 》書名號",
+              "？問號",
+              "……刪節號"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！《十萬個為什麼》是書名，要用書名號《 》！",
+            "feedbackRetry": "把書的名稱框起來的符號是哪一個呢？"
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-mandarin-u4-l12",
+      "stageId": "115-s2-g2-mandarin-u4-l12",
+      "title": "第十二課 巨人山",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "115-s2-g2-mandarin-u4-l12-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第十二課：《巨人山》因果推論與多元文化",
+          "narrationText": "一起走進充滿奇想的《巨人山》！這一課要練習從段落找出因果關係、用句子情境判讀詞義，並欣賞世界各地的多元文化！",
+          "cognitiveChunks": [
+            "預測與推論明示的因果關係",
+            "依句子情境判讀字形、字音、字義",
+            "「巨」是工部",
+            "多 E4：理解並尊重多元文化共存"
+          ],
+          "analogyAnchor": "閱讀就像積木城堡：讀故事存下好詞句（積累寫作材料），看懂因果關係就把積木拼得又穩又高！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "閱讀與識字",
+              "leftPoints": [
+                "找出段落明示的因果關係",
+                "依上下文情境判讀形音義"
+              ],
+              "rightTitle": "文化與分享",
+              "rightPoints": [
+                "尊重不同文化共存的事實",
+                "邊聽分享邊思考、適時提問"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "因果推論＋情境選字",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "多元文化與好書分享",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u4"
+        },
+        {
+          "sceneId": "115-s2-g2-mandarin-u4-l12-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "從段落中找「因果關係」",
+          "narrationText": "讀長句子或段落時，問自己「為什麼會這樣（因）？」和「結果發生什麼事（果）？」！",
+          "cognitiveChunks": [
+            "因：為什麼發生",
+            "果：後來怎麼樣了"
+          ],
+          "workedExampleData": {
+            "problemStatement": "「因為巨人山高高地擋住了寒冷的北風，所以山腳下的村莊冬天依然很溫暖。」找出原因和結果！",
+            "steps": [
+              "第 1 步：找「因為」後面的內容 → 原因：巨人山擋住了寒冷的北風",
+              "第 2 步：找「所以」後面的內容 → 結果：山腳下的村莊冬天依然溫暖",
+              "第 3 步：因果連起來就完全看懂段落重點了！"
+            ],
+            "commonErrorContrast": "常見錯誤：把因果倒過來，誤以為是村莊溫暖才長出巨人山。",
+            "selfExplanationPrompt": "想一想：在同學分享好書時，什麼時候提出問題最有禮貌？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u4"
+        },
+        {
+          "sceneId": "115-s2-g2-mandarin-u4-l12-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "暖身一題，準備探索巨人山！",
+          "cognitiveChunks": [
+            "尊重多元文化＋因果推論"
+          ],
+          "warmupCheck": {
+            "prompt": "邊聽同學分享好書心得時，下面哪一種表現最棒？",
+            "options": [
+              "邊聽邊思考，等同學講完適時舉手提問",
+              "一直插嘴打斷同學",
+              "轉頭和旁邊聊天"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！專心傾聽、邊聽邊想並在適當時機發問最有禮貌！",
+            "feedbackRetry": "尊重分享的人，要先專心聽完再適時舉手提問喔！"
+          },
+          "factGroundingSourceId": "115-s2/g2/mandarin#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-mandarin-u5-l1",
+      "stageId": "115-s2-g2-mandarin-u5-l1",
+      "title": "閱讀階梯：江奶奶的雜貨店",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "115-s2-g2-mandarin-u5-l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "閱讀階梯：標題預測與故事結構",
+          "narrationText": "歡迎光臨《江奶奶的雜貨店》！這是二年級最後一關，一起用標題預測、語境推論和故事結構，為二年級國語畫下完美句點！",
+          "cognitiveChunks": [
+            "課前預測：從標題猜內容",
+            "語境推論：從上下文猜詞義",
+            "故事結構：起因 → 經過 → 結果",
+            "品德：尊敬長輩、環保惜物"
+          ],
+          "analogyAnchor": "就像走進懷舊雜貨店尋寶：看招牌先猜裡面賣什麼（標題預測），再一層層整理貨架（故事結構）！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "閱讀策略總複習",
+              "leftPoints": [
+                "標題預測＋讀後驗證",
+                "上下文推論詞義",
+                "起因→經過→結果故事結構"
+              ],
+              "rightTitle": "生活品德實踐",
+              "rightPoints": [
+                "尊敬長輩、有禮貌問好",
+                "自備環保袋、愛物惜福"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "預測＋推論＋結構",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "暖心人情味與環保",
+                "anchorPointId": "right"
               }
             ]
           },
           "factGroundingSourceId": "115-s2/g2/mandarin#u5"
         },
         {
-          "sceneId": "u5-s2",
+          "sceneId": "115-s2-g2-mandarin-u5-l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "遇到不會的生字怎麼辦才不會卡住？",
-          "narrationText": "自己讀長故事時，遇到一兩個不會念的字先別停下來，讀前後句子猜意思，讀完一段再去查字典。",
+          "title": "用三步驟讀懂閱讀階梯",
+          "narrationText": "遇到較長的故事篇章時，按照這三步驟就能輕鬆抓出全篇重點！",
           "cognitiveChunks": [
-            "先讀前後句子猜意思",
-            "讀完一段再查字典確認"
+            "1. 看標題預測",
+            "2. 遇新詞推論",
+            "3. 整理故事結構"
           ],
           "workedExampleData": {
-            "problemStatement": "自己在「閱讀階梯」讀故事時，突然遇到一個不認識的新生字，怎麼做最好？",
+            "problemStatement": "拿到《江奶奶的雜貨店》這篇文章，讀前、讀中、讀後分別做什麼？",
             "steps": [
-              "第 1 步：先把這個字前面和後面的句子多讀一遍，猜猜看意思",
-              "第 2 步：繼續把這一段讀完，才不會打斷故事的樂趣",
-              "第 3 步：等讀完一段，再打開字典查清楚讀音和意思"
+              "第 1 步（讀前）：看標題預測「江奶奶在雜貨店裡發生了什麼暖心故事？」",
+              "第 2 步（讀中）：遇到不懂的詞，利用上下文線索推論詞義",
+              "第 3 步（讀後）：用「起因 → 經過 → 結果」整理出故事大意"
             ],
-            "commonErrorContrast": "常見錯誤：一遇到不會的字就立刻合上書不讀，或自己隨便亂編意思都不查證。",
-            "selfExplanationPrompt": "想一想：陪家人去巷口的小店買東西時，怎麼做最環保愛地球？",
+            "commonErrorContrast": "常見錯誤：急著一口氣念完卻沒想一想段落之間的因果與結構。",
+            "selfExplanationPrompt": "想一想：去雜貨店買東西怎麼做到環保愛地球？",
             "keepStepCardVisible": true
           },
           "factGroundingSourceId": "115-s2/g2/mandarin#u5"
         },
         {
-          "sceneId": "u5-s3",
+          "sceneId": "115-s2-g2-mandarin-u5-l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "練習一題抓文章重點的方法吧！",
+          "narrationText": "最後一題暖身，準備走進江奶奶的雜貨店！",
           "cognitiveChunks": [
-            "每段一句話抓重點"
+            "標題預測＋語境推論＋故事結構"
           ],
           "warmupCheck": {
-            "prompt": "讀比較長的故事《江奶奶的雜貨店》時，想抓住文章重點，哪一個方法最有用？",
+            "prompt": "「貨、買、賣」這三個和買東西有關的字，都有哪一個共同的部首？",
             "options": [
-              "讀完每一段後，用一句話說出這段在講誰和什麼事",
-              "只看第一句和最後一句，中間全部跳過",
-              "數一數總共有幾個「的」字"
+              "貝部",
+              "木部",
+              "水部"
             ],
             "answerIndex": 0,
-            "feedbackCorrect": "答對了！每段用一句話整理出小重點，再連起來就能掌握整篇文章。",
-            "feedbackRetry": "跳過中間的故事就看不懂經過了，試試看一段一段整理小重點喔！"
+            "feedbackCorrect": "答對了！古代用貝殼當錢幣，所以和錢財貨物有關的字多是「貝」部！",
+            "feedbackRetry": "古代用貝殼當作錢來買賣東西，想想看是哪一個部首呢？"
           },
           "factGroundingSourceId": "115-s2/g2/mandarin#u5"
         }

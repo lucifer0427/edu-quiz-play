@@ -64,11 +64,19 @@ export function Navbar({
   const isFocusMode = Boolean(progress.focusMode);
 
   const [menuOpen, setMenuOpen] = useState(false);
+  const [alignRight, setAlignRight] = useState(true);
   const [newProfileName, setNewProfileName] = useState('');
   const menuContainerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (!menuOpen) return;
+    const updateAlignment = () => {
+      if (!menuContainerRef.current) return;
+      const rect = menuContainerRef.current.getBoundingClientRect();
+      // w-72 = 288px; only align right if there is >= 300px room to the left of rect.right
+      setAlignRight(rect.right >= 300);
+    };
+    updateAlignment();
     const handleOutside = (e: MouseEvent) => {
       if (
         menuContainerRef.current &&
@@ -80,9 +88,11 @@ export function Navbar({
     const handleKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') setMenuOpen(false);
     };
+    window.addEventListener('resize', updateAlignment);
     window.addEventListener('mousedown', handleOutside);
     window.addEventListener('keydown', handleKey);
     return () => {
+      window.removeEventListener('resize', updateAlignment);
       window.removeEventListener('mousedown', handleOutside);
       window.removeEventListener('keydown', handleKey);
     };
@@ -186,7 +196,9 @@ export function Navbar({
             {menuOpen && (
               <div
                 role="menu"
-                className="absolute right-0 mt-2 w-72 rounded-2xl border-2 border-amber-200 bg-white p-3 shadow-xl"
+                className={`fixed inset-x-3 top-16 z-50 mx-auto max-w-xs rounded-2xl border-2 border-amber-200 bg-white p-3 shadow-xl sm:absolute sm:inset-x-auto sm:top-full sm:mx-0 sm:mt-2 sm:w-72 sm:max-w-none ${
+                  alignRight ? 'sm:right-0 sm:left-auto' : 'sm:left-0 sm:right-auto'
+                }`}
               >
                 <div className="mb-2 flex items-center justify-between gap-1.5 px-1 text-xs font-black text-slate-600">
                   <div className="flex items-center gap-1.5">

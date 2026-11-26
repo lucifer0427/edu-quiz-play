@@ -8,46 +8,44 @@
   "lessons": [
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g5-social-u1",
-      "stageId": "115-s2-g5-social-u1",
-      "title": "第一單元 我們的經濟活動",
+      "lessonId": "lesson-115-s2-g5-social-u1-l1",
+      "stageId": "115-s2-g5-social-u1-l1",
+      "title": "第1課 生產活動如何影響人們的生活？",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u1-s1",
+          "sceneId": "u1l1-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "生產活動變遷與綠色永續",
-          "narrationText": "生產活動從早期農林漁牧演變到現代工商業與服務業，讓生活更便利，但也消耗更多自然資源，因此現代生產與消費更強調環境永續。",
+          "title": "第1課 生產活動如何影響人們的生活？：核心概念",
+          "narrationText": "在「第一單元 我們的經濟活動」的「第1課 生產活動如何影響人們的生活？」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "技術提升使生活便利但資源消耗增加",
-            "清潔生產、減少包裝與資源循環再利用",
-            "自備環保袋餐具、選購在地當季產品"
+            "理解經濟型態變遷與資源利用對人們生活的影響"
           ],
-          "analogyAnchor": "地球資源就像一個共用的大型儲蓄罐：如果只是一直提領卻不補充保護，很快就會見底；節能與循環利用才能讓生活長長久久。",
+          "analogyAnchor": "把「第1課 生產活動如何影響人們的生活？」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "永續生產方式",
+              "leftTitle": "第1課 生產活動如何影響人們",
               "leftPoints": [
-                "節能減碳製程與減少過度包裝",
-                "推動資源再生與循環利用"
+                "理解經濟型態變遷與資源利用對人們生活的影響",
+                "理解經濟型態變遷與資源利用對人們生活的影響"
               ],
-              "rightTitle": "綠色消費行動",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "自備環保杯袋減少一次性塑膠",
-                "認明環保標章與在地當季產品"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "節能減碳循環生產",
+                "text": "第1課 生產活動如何",
                 "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "減塑與綠色消費",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -55,59 +53,45 @@
           "factGroundingSourceId": "115-s2/g5/social#u1"
         },
         {
-          "sceneId": "u1-s2",
+          "sceneId": "u1l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "理性消費、理財規劃與權益保障",
-          "narrationText": "聰明消費要分辨「需要」與「想要」、看清商品標示與安全；理財則從記帳、儲蓄與量入為出開始，遇到消費糾紛時要保留憑證依法申訴。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "購物先分辨「需要」與「想要」",
-            "記帳、儲蓄與預算分配做到量入為出",
-            "保留發票或訂單紀錄保障消費權益"
+            "理解經濟型態變遷與資源利用對人們生活的影響",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "小華這個月收到零用錢後，想買一雙新球鞋，但餘額還不夠；另外他上週買的文具回家後發現是瑕疵品。他該怎麼處理這兩件事？",
+            "problemStatement": "複習「第1課 生產活動如何影響人們的生活？」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：理財規劃——先記帳確認收支，若球鞋確實需要，訂定儲蓄目標每月存錢累積，不隨便借錢",
-              "第 2 步：消費維權——找出文具的購買發票或收據，拍下瑕疵照片",
-              "第 3 步：合法協商——帶憑證與店家理性溝通退換貨，必要時尋求消費者保護管道申訴"
+              "第 1 步：確認題目在問「第1課 生產活動如何影響人們」",
+              "第 2 步：對照本課核心「理解經濟型態變遷與資源利用對人們生活的影響」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：看到限時特價就衝動刷卡或借錢購買，或買到瑕疵品時隨手把發票丟掉而無法舉證。",
-            "selfExplanationPrompt": "想一想：在網路上購物時，除了價格以外，為什麼還要特別注意賣家信譽與個人資料安全？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第1課 生產活動如何影響」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s2/g5/social#u1"
         },
         {
-          "sceneId": "u1-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "遠離詐騙與守住荷包",
-          "topicSignalTitle": "辨識不實暴利訊息",
-          "narrationText": "網路時代消費方便，但遇見宣稱「快速翻倍獲利」或不明連結要求輸入密碼與身分證字號時，一定要提高警覺、向家人求證。",
-          "cognitiveChunks": [
-            "不輕信高報酬暴利投資訊息",
-            "保護帳號密碼與個人資料"
-          ],
-          "factGroundingSourceId": "115-s2/g5/social#u1"
-        },
-        {
-          "sceneId": "u1-s4",
+          "sceneId": "u1l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "先用這題確認保障消費權益的關鍵做法，再進入第一單元挑戰！",
+          "narrationText": "先做一題暖身確認，確認掌握「第1課 生產活動如何影響人們」後再開始挑戰！",
           "cognitiveChunks": [
-            "保留購買憑證是消費維權的關鍵"
+            "理解經濟型態變遷與資源利用對人們生活的影響"
           ],
           "warmupCheck": {
-            "prompt": "如果在商店買到過期或有瑕疵的商品，想要合法保障自己的消費權益，下列哪一項做法最恰當？",
+            "prompt": "關於「第1課 生產活動如何影響人們」，哪一項才是正確的學習重點？",
             "options": [
-              "保留發票或收據並拍照存證，先與店家協商退換貨或向消保單位申訴",
-              "把發票揉掉丟進垃圾桶，自認倒楣",
-              "在店門口大喊大叫推倒貨架",
-              "用假帳號在網路上散播不實謠言"
+              "理解經濟型態變遷與資源利用對人們生活的影響",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
             "answerIndex": 0,
-            "feedbackCorrect": "答對了！發票、收據或網購訂單紀錄是最有力的交易憑證，循合法管道協商或申訴最能保護自己。",
-            "feedbackRetry": "想一想，要跟店家證明這件東西是在這裡買的，哪一張紙千萬不能丟掉呢？"
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s2/g5/social#u1"
         }
@@ -115,106 +99,181 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g5-social-u2",
-      "stageId": "115-s2-g5-social-u2",
-      "title": "第二單元 清帝國時期臺灣的發展與改變",
+      "lessonId": "lesson-115-s2-g5-social-u1-l2",
+      "stageId": "115-s2-g5-social-u1-l2",
+      "title": "第2課 消費與理財如何影響人們的生活？",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u2-s1",
+          "sceneId": "u1l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "渡海開墾與族群互動變遷",
-          "narrationText": "清帝國時期許多先民因原鄉生活困苦冒險渡海來臺，興建水圳將草埔開闢為農田並形成聚落，但也因土地與水源競爭與原住民族產生衝突與互動。",
+          "title": "第2課 消費與理財如何影響人們的生活？：核心概念",
+          "narrationText": "在「第一單元 我們的經濟活動」的「第2課 消費與理財如何影響人們的生活？」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "先民為尋求耕地與生計冒險渡海來臺",
-            "開築水圳灌溉使草地變成農田聚落",
-            "開墾擴大引發土地衝突，也伴隨貿易融合"
+            "理解選擇與消費權益保障、合適的理財規劃"
           ],
-          "analogyAnchor": "把清代臺灣的拓墾想像成一幅不斷擴大的地圖：農田與村莊隨著水圳延伸而增加，但同時也擠壓到原本居住在山林與平地的原住民族空間。",
+          "analogyAnchor": "把「第2課 消費與理財如何影響人們的生活？」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_compare",
             "params": {
-              "steps": [
-                "先民冒險渡海來臺開墾與興修水圳",
-                "開港通商帶動茶葉、樟腦與蔗糖出口",
-                "外力入侵促使清廷積極治理與現代化"
+              "leftTitle": "第2課 消費與理財如何影響人",
+              "leftPoints": [
+                "理解選擇與消費權益保障、合適的理財規劃",
+                "理解選擇與消費權益保障、合適的理財規劃"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "移民拓墾與水圳",
-                "anchorPointId": "step1"
+                "text": "第2課 消費與理財如",
+                "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "開港通商與交流",
-                "anchorPointId": "step2"
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/social#u1"
+        },
+        {
+          "sceneId": "u1l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "理解選擇與消費權益保障、合適的理財規劃",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第2課 消費與理財如何影響人們的生活？」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第2課 消費與理財如何影響人」",
+              "第 2 步：對照本課核心「理解選擇與消費權益保障、合適的理財規劃」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第2課 消費與理財如何影」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/social#u1"
+        },
+        {
+          "sceneId": "u1l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第2課 消費與理財如何影響人」後再開始挑戰！",
+          "cognitiveChunks": [
+            "理解選擇與消費權益保障、合適的理財規劃"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第2課 消費與理財如何影響人」，哪一項才是正確的學習重點？",
+            "options": [
+              "理解選擇與消費權益保障、合適的理財規劃",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g5/social#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-social-u2-l1",
+      "stageId": "115-s2-g5-social-u2-l1",
+      "title": "第1課 移民的開墾如何改變臺灣社會？",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第1課 移民的開墾如何改變臺灣社會？：核心概念",
+          "narrationText": "在「第二單元 清帝國時期臺灣的發展與改變」的「第1課 移民的開墾如何改變臺灣社會？」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "理解先民冒險渡海來臺開墾的過程"
+          ],
+          "analogyAnchor": "把「第1課 移民的開墾如何改變臺灣社會？」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第1課 移民的開墾如何改變臺",
+              "leftPoints": [
+                "理解先民冒險渡海來臺開墾的過程",
+                "理解先民冒險渡海來臺開墾的過程"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第1課 移民的開墾如",
+                "anchorPointId": "left"
               },
               {
-                "id": "l3",
-                "text": "積極防禦與現代化",
-                "anchorPointId": "step3"
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
               }
             ]
           },
           "factGroundingSourceId": "115-s2/g5/social#u2"
         },
         {
-          "sceneId": "u2-s2",
+          "sceneId": "u2l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "開港通商與現代化治理的多面影響",
-          "narrationText": "清帝國後期開港通商讓臺灣物產外銷、經濟重心北移，也帶來西式醫療與教育交流；面對外力威脅後，清廷轉趨積極推動鐵路、電報等現代化建設。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "茶葉、樟腦與蔗糖出口帶動港口城鎮繁榮",
-            "西方人士帶來新式醫療與學校教育",
-            "修築鐵路、電報與開山撫墾具雙面影響"
+            "理解先民冒險渡海來臺開墾的過程",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "清帝國後期在臺灣修築鐵路、架設電報並進入山區推行撫墾措施，從多元與原住民族觀點來看，應該如何評價這段歷史？",
+            "problemStatement": "複習「第1課 移民的開墾如何改變臺灣社會？」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：肯定近代化基礎——交通與通訊建設提升了行政與經濟效率，使臺灣逐步接軌現代",
-              "第 2 步：看見族群衝擊——開山開路與撫墾推進同時壓縮了原住民族的傳統領域與生活文化",
-              "第 3 步：建立多元史觀——理解同一項歷史措施對不同群體可能帶來截然不同的感受與影響"
+              "第 1 步：確認題目在問「第1課 移民的開墾如何改變臺」",
+              "第 2 步：對照本課核心「理解先民冒險渡海來臺開墾的過程」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：只單方面歌頌現代化建設，而忽略開山撫墾過程中原住民族面臨的土地流失與抗爭。",
-            "selfExplanationPrompt": "想一想：開港通商後，為什麼臺灣的經濟重心會逐漸從南部擴展到北部？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第1課 移民的開墾如何改」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s2/g5/social#u2"
         },
         {
-          "sceneId": "u2-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "開港後的文化交會",
-          "topicSignalTitle": "醫療、教育與世界接軌",
-          "narrationText": "開港通商不只是商品的買賣，更讓西方傳教士與商旅走進臺灣城鎮，興辦醫院與新式學堂，為社會帶來新的知識與視野。",
-          "cognitiveChunks": [
-            "港口城市成為跨文化交流窗口",
-            "西式醫療與新式學堂陸續出現"
-          ],
-          "factGroundingSourceId": "115-s2/g5/social#u2"
-        },
-        {
-          "sceneId": "u2-s4",
+          "sceneId": "u2l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "先用這題確認開港通商對臺灣的影響，再進入第二單元挑戰！",
+          "narrationText": "先做一題暖身確認，確認掌握「第1課 移民的開墾如何改變臺」後再開始挑戰！",
           "cognitiveChunks": [
-            "開港通商促進物產外銷與文化交流"
+            "理解先民冒險渡海來臺開墾的過程"
           ],
           "warmupCheck": {
-            "prompt": "清帝國後期臺灣「開港通商」後，對臺灣的經濟貿易與社會文化帶來了什麼重要轉變？",
+            "prompt": "關於「第1課 移民的開墾如何改變臺」，哪一項才是正確的學習重點？",
             "options": [
-              "特產出口貿易大增且港口繁榮，西方人士也帶來新式醫療與教育文化交流",
-              "所有港口永久封鎖，斷絕與外界任何往來",
-              "全島停止耕作，人民全數改行開採石油",
-              "臺灣完全沒有任何商船進出"
+              "理解先民冒險渡海來臺開墾的過程",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
             "answerIndex": 0,
-            "feedbackCorrect": "答對了！開港通商讓臺灣物產連結世界市場，同時也開啟了西式醫療與教育等文化交流。",
-            "feedbackRetry": "把港口打開讓外國商船進來後，貿易和文化交流是變多還是變少呢？"
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s2/g5/social#u2"
         }
@@ -222,46 +281,226 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g5-social-u3",
-      "stageId": "115-s2-g5-social-u3",
-      "title": "第三單元 日治時期人民與政府的關係",
+      "lessonId": "lesson-115-s2-g5-social-u2-l2",
+      "stageId": "115-s2-g5-social-u2-l2",
+      "title": "第2課 開港通商如何影響經濟與文化？",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u3-s1",
+          "sceneId": "u2l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "殖民統治體制與國家權力",
-          "narrationText": "日治時期日本帝國在臺灣建立高度集權的殖民統治體制，透過嚴密警政與基層組織管理人民，在政治地位與資源上對臺灣人與原住民族造成差別待遇。",
+          "title": "第2課 開港通商如何影響經濟與文化？：核心概念",
+          "narrationText": "在「第二單元 清帝國時期臺灣的發展與改變」的「第2課 開港通商如何影響經濟與文化？」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "最高權力集中於殖民政府與長官",
-            "警察權力深入治安、戶口與衛生管理",
-            "臺灣人民缺乏平等參政與基本人權"
+            "理解清帝國開港通商後經濟變遷與西方人士帶來的文化交流。"
           ],
-          "analogyAnchor": "把殖民統治想像成一張細密的網：最高層掌握所有決策權，基層警察與連坐組織則深入每個村里，讓一般人民缺乏發聲與決定的空間。",
+          "analogyAnchor": "把「第2課 開港通商如何影響經濟與文化？」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "殖民統治控制",
+              "leftTitle": "第2課 開港通商如何影響經濟",
               "leftPoints": [
-                "行政、立法與軍事大權集中",
-                "嚴密警政監督日常、差別待遇"
+                "理解清帝國開港通商後經濟變遷與西方人士帶來的文化交流。",
+                "理解清帝國開港通商後經濟變遷與西方人士帶來的文化交流。"
               ],
-              "rightTitle": "臺灣人爭取權利",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "從早期武裝抗爭轉向非武力改革",
-                "請願、辦報與文化啟蒙運動"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "集權控管與不平等",
+                "text": "第2課 開港通商如何",
                 "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "請願改革爭取權利",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/social#u2"
+        },
+        {
+          "sceneId": "u2l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "理解清帝國開港通商後經濟變遷與西方人士帶來的文化交流。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第2課 開港通商如何影響經濟與文化？」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第2課 開港通商如何影響經濟」",
+              "第 2 步：對照本課核心「理解清帝國開港通商後經濟變遷與西方人士帶來。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第2課 開港通商如何影響」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/social#u2"
+        },
+        {
+          "sceneId": "u2l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第2課 開港通商如何影響經濟」後再開始挑戰！",
+          "cognitiveChunks": [
+            "理解清帝國開港通商後經濟變遷與西方人士帶來的文化交流。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第2課 開港通商如何影響經濟」，哪一項才是正確的學習重點？",
+            "options": [
+              "理解清帝國開港通商後經濟變遷與西方人士帶來的文化交流。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g5/social#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-social-u2-l3",
+      "stageId": "115-s2-g5-social-u2-l3",
+      "title": "第3課 開港後清帝國的統治措施有什麼變化？",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第3課 開港後清帝國的統治措施有什麼變化？：核心概念",
+          "narrationText": "在「第二單元 清帝國時期臺灣的發展與改變」的「第3課 開港後清帝國的統治措施有什麼變化？」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "理解外力入侵後清帝國統治措施調整，促使臺灣逐步現代化的過程。"
+          ],
+          "analogyAnchor": "把「第3課 開港後清帝國的統治措施有什麼變化？」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第3課 開港後清帝國的統治措",
+              "leftPoints": [
+                "理解外力入侵後清帝國統治措施調整",
+                "理解外力入侵後清帝國統治措施調整"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第3課 開港後清帝國",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/social#u2"
+        },
+        {
+          "sceneId": "u2l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "理解外力入侵後清帝國統治措施調整，促使臺灣逐步現代化的過程。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第3課 開港後清帝國的統治措施有什麼變化？」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第3課 開港後清帝國的統治措」",
+              "第 2 步：對照本課核心「理解外力入侵後清帝國統治措施調整」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第3課 開港後清帝國的統」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/social#u2"
+        },
+        {
+          "sceneId": "u2l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第3課 開港後清帝國的統治措」後再開始挑戰！",
+          "cognitiveChunks": [
+            "理解外力入侵後清帝國統治措施調整，促使臺灣逐步現代化的過程。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第3課 開港後清帝國的統治措」，哪一項才是正確的學習重點？",
+            "options": [
+              "理解外力入侵後清帝國統治措施調整，促使臺灣逐步現代化的過程。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g5/social#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-social-u3-l1",
+      "stageId": "115-s2-g5-social-u3-l1",
+      "title": "第1課 日本帝國如何統治臺灣？",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第1課 日本帝國如何統治臺灣？：核心概念",
+          "narrationText": "在「第三單元 日治時期人民與政府的關係」的「第1課 日本帝國如何統治臺灣？」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "探討日治時期政治與殖民統治制度發展，及國家權力運用對人民的影響。"
+          ],
+          "analogyAnchor": "把「第1課 日本帝國如何統治臺灣？」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第1課 日本帝國如何統治臺灣",
+              "leftPoints": [
+                "探討日治時期政治與殖民統治制度發展",
+                "探討日治時期政治與殖民統治制度發展"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第1課 日本帝國如何",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -269,59 +508,45 @@
           "factGroundingSourceId": "115-s2/g5/social#u3"
         },
         {
-          "sceneId": "u3-s2",
+          "sceneId": "u3l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "在逆境中爭取權利與人權反思",
-          "narrationText": "面對殖民政府的高壓控管，臺灣人民從早期的武裝抵抗，逐步轉向透過請願、成立社團與文化啟蒙等非武力方式爭取平等與參政權利。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "武裝抗爭受挫後轉為和平改革運動",
-            "創辦報刊與演講提升公民意識",
-            "承受監視與查禁仍在逆境中奮鬥"
+            "探討日治時期政治與殖民統治制度發展，及國家權力運用對人民的影響。",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "日治時期臺灣知識分子在殖民政府嚴密監視與言論限制下，仍不斷提出議會請願與舉辦文化演講，這段歷史帶給我們什麼啟示？",
+            "problemStatement": "複習「第1課 日本帝國如何統治臺灣？」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：辨識當時困境——殖民體制下缺乏言論與集會自由，改革者常遭打壓或逮捕",
-              "第 2 步：看見奮鬥策略——改以和平請願、辦報啟蒙與社會運動凝聚民眾共識",
-              "第 3 步：連結今日生活——明白現代民主法治與人權得來不易，應珍惜並尊重少數族群權益"
+              "第 1 步：確認題目在問「第1課 日本帝國如何統治臺灣」",
+              "第 2 步：對照本課核心「探討日治時期政治與殖民統治制度發展」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：以為現代人天生就擁有言論自由與投票權，或忽略殖民時期原住民族在山區面臨的強制移住與文化同化衝擊。",
-            "selfExplanationPrompt": "想一想：當一個國家權力過大卻沒有保障人權時，對不同族群的生活會造成什麼影響？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第1課 日本帝國如何統治」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s2/g5/social#u3"
         },
         {
-          "sceneId": "u3-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "守護多元文化與平權",
-          "topicSignalTitle": "從歷史看見人權價值",
-          "narrationText": "回顧日治時期臺灣漢人與原住民族面臨的不平等待遇，能讓我們更懂得守護今日的人權保障、言論自由與多元文化平權。",
-          "cognitiveChunks": [
-            "尊重少數族群語言與傳統領域",
-            "民主與人權需要公民共同守護"
-          ],
-          "factGroundingSourceId": "115-s2/g5/social#u3"
-        },
-        {
-          "sceneId": "u3-s4",
+          "sceneId": "u3l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "先用這題確認日治時期臺灣人民爭取權利的方式轉變，再進入第三單元挑戰！",
+          "narrationText": "先做一題暖身確認，確認掌握「第1課 日本帝國如何統治臺灣」後再開始挑戰！",
           "cognitiveChunks": [
-            "從武裝抗爭轉向非武力政治改革"
+            "探討日治時期政治與殖民統治制度發展，及國家權力運用對人民的影響。"
           ],
           "warmupCheck": {
-            "prompt": "面對日本殖民統治，臺灣人民在反抗與爭取權利的歷程中，隨著時代推移出現了什麼重要轉變？",
+            "prompt": "關於「第1課 日本帝國如何統治臺灣」，哪一項才是正確的學習重點？",
             "options": [
-              "早期多以武裝抗爭抵抗，後來轉而透過請願、社團與文化啟蒙等非武力運動爭取權利",
-              "從頭到尾五十年完全沒有任何抗爭或改革訴求",
-              "一開始就順利透過全國總統普選取得完全自治",
-              "殖民政府主動將所有權力交還給各地村長"
+              "探討日治時期政治與殖民統治制度發展，及國家權力運用對人民的影響。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
             "answerIndex": 0,
-            "feedbackCorrect": "答對了！武裝抵抗受挫後，臺灣知識分子與民眾改採和平請願、辦報與文化啟蒙等方式持續爭取平等權利。",
-            "feedbackRetry": "武力反抗犧牲慘重後，受過現代教育的臺灣人改用什麼較和平的方式發聲呢？"
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s2/g5/social#u3"
         }
@@ -329,46 +554,135 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g5-social-u4",
-      "stageId": "115-s2-g5-social-u4",
-      "title": "第四單元 日治時期的社會變遷",
+      "lessonId": "lesson-115-s2-g5-social-u3-l2",
+      "stageId": "115-s2-g5-social-u3-l2",
+      "title": "第2課 殖民統治下臺灣人如何爭取權利？",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u4-s1",
+          "sceneId": "u3l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "交通、產業建設與空間改變",
-          "narrationText": "日治時期興建縱貫鐵路、港口與大型水利、糖業及林業設施，縮短了南北空間距離並提升農業產能，但背後核心目的是供應殖民母國的經濟需求。",
+          "title": "第2課 殖民統治下臺灣人如何爭取權利？：核心概念",
+          "narrationText": "在「第三單元 日治時期人民與政府的關係」的「第2課 殖民統治下臺灣人如何爭取權利？」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "鐵公路與港口縮短南北交通時間",
-            "大型水利設施改善灌溉、提升產量",
-            "糖業與林業建設主要服務日本經濟需求"
+            "了解面對日本的殖民統治"
           ],
-          "analogyAnchor": "縱貫鐵路就像替臺灣裝上一條南北大動脈，讓原本需要走好幾天的路程縮短成一天，人流與貨物的移動速度從此大不同。",
+          "analogyAnchor": "把「第2課 殖民統治下臺灣人如何爭取權利？」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "生活與空間改變",
+              "leftTitle": "第2課 殖民統治下臺灣人如何",
               "leftPoints": [
-                "南北交通縮短、城鄉串聯",
-                "看天田獲得穩定水利灌溉"
+                "了解面對日本的殖民統治",
+                "了解面對日本的殖民統治"
               ],
-              "rightTitle": "殖民經濟目的",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "糖業與林業資源多運往日本",
-                "須從正反兩面客觀評價建設"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "交通水利改變空間",
+                "text": "第2課 殖民統治下臺",
                 "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "供應殖民母國利益",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/social#u3"
+        },
+        {
+          "sceneId": "u3l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "了解面對日本的殖民統治",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第2課 殖民統治下臺灣人如何爭取權利？」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第2課 殖民統治下臺灣人如何」",
+              "第 2 步：對照本課核心「了解面對日本的殖民統治」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第2課 殖民統治下臺灣人」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/social#u3"
+        },
+        {
+          "sceneId": "u3l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第2課 殖民統治下臺灣人如何」後再開始挑戰！",
+          "cognitiveChunks": [
+            "了解面對日本的殖民統治"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第2課 殖民統治下臺灣人如何」，哪一項才是正確的學習重點？",
+            "options": [
+              "了解面對日本的殖民統治",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g5/social#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-social-u4-l1",
+      "stageId": "115-s2-g5-social-u4-l1",
+      "title": "第1課 日治時期的建設帶來什麼影響？",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第1課 日治時期的建設帶來什麼影響？：核心概念",
+          "narrationText": "在「第四單元 日治時期的社會變遷」的「第1課 日治時期的建設帶來什麼影響？」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "理解日治時期的交通、糖業、林業"
+          ],
+          "analogyAnchor": "把「第1課 日治時期的建設帶來什麼影響？」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第1課 日治時期的建設帶來什",
+              "leftPoints": [
+                "理解日治時期的交通、糖業、林業",
+                "理解日治時期的交通、糖業、林業"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第1課 日治時期的建",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -376,59 +690,45 @@
           "factGroundingSourceId": "115-s2/g5/social#u4"
         },
         {
-          "sceneId": "u4-s2",
+          "sceneId": "u4l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "新式教育與現代生活節奏",
-          "narrationText": "日治時期推廣新式學校教育、男女受教機會逐步增加，同時導入星期制、標準時間與公共衛生防疫觀念，深刻改變了臺灣人的日常生活。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "新式學校普及現代知識但仍有差別待遇",
-            "女性受教機會增加，走入專業職場",
-            "星期制、守時觀念與現代公衛融入生活"
+            "理解日治時期的交通、糖業、林業",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "相較於傳統農業社會「日出而作、日落而息」的生活，日治時期人們的日常作息與衛生習慣出現了哪些現代化轉變？",
+            "problemStatement": "複習「第1課 日治時期的建設帶來什麼影響？」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：時間與作息制度化——推行標準時間與每週七天的星期制，配合火車與學校鐘聲養成守時習慣",
-              "第 2 步：公共衛生改善——導入自來水、預防接種與環境清潔觀念，有效控制傳染病",
-              "第 3 步：教育與休閒轉型——女性受教人數上升，城鎮出現公園、電影院與運動會等新式休閒"
+              "第 1 步：確認題目在問「第1課 日治時期的建設帶來什」",
+              "第 2 步：對照本課核心「理解日治時期的交通、糖業、林業」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：以為新式學校讓所有臺灣學童與日本學童享有完全平等的升學機會，而忽略體制中的族群差別待遇。",
-            "selfExplanationPrompt": "想一想：為什麼「星期制」和「鐘錶標準時間」的普及，會讓現代社會的交通與工作更有效率？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第1課 日治時期的建設帶」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s2/g5/social#u4"
         },
         {
-          "sceneId": "u4-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "性別平等與社會進步",
-          "topicSignalTitle": "女性走進校園與職場",
-          "narrationText": "雖然過程仍有重重限制，但新式女校的設立讓更多臺灣女孩有機會讀書識字，甚至成為教師與醫師，開啟性別觀念的新頁。",
-          "cognitiveChunks": [
-            "打破傳統「女子無才便是德」的束縛",
-            "女性開始參與專業工作與社會改革"
-          ],
-          "factGroundingSourceId": "115-s2/g5/social#u4"
-        },
-        {
-          "sceneId": "u4-s4",
+          "sceneId": "u4l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "先用這題確認日治時期作息與文化變遷，再進入第四單元挑戰！",
+          "narrationText": "先做一題暖身確認，確認掌握「第1課 日治時期的建設帶來什」後再開始挑戰！",
           "cognitiveChunks": [
-            "星期制與標準時間形塑現代生活節奏"
+            "理解日治時期的交通、糖業、林業"
           ],
           "warmupCheck": {
-            "prompt": "日治時期政府大力推行「星期制」與「標準時間」，這項改變對臺灣人的日常生活節奏帶來什麼影響？",
+            "prompt": "關於「第1課 日治時期的建設帶來什」，哪一項才是正確的學習重點？",
             "options": [
-              "人們開始依照鐘錶與星期週期規律工作、上學與休假，逐漸養成守時觀念",
-              "全國人民只能看太陽日影判斷幾點鐘，禁止使用時鐘",
-              "大家一年三百六十五天每天工作，完全沒有週末放假",
-              "學校全面取消上課鐘聲，學生隨時可以自由進出"
+              "理解日治時期的交通、糖業、林業",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
             "answerIndex": 0,
-            "feedbackCorrect": "答對了！標準時間與星期制搭配火車時刻表和學校鐘聲，讓「準時」與「星期天休息」成為現代日常。",
-            "feedbackRetry": "想一想，我們現在星期一到五上學、週末放假且看手錶準時集合，是受什麼制度影響呢？"
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s2/g5/social#u4"
         }
@@ -436,106 +736,272 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g5-social-u5",
-      "stageId": "115-s2-g5-social-u5",
-      "title": "主題探究與實作：穿越時空探家園與賞桃園",
+      "lessonId": "lesson-115-s2-g5-social-u4-l2",
+      "stageId": "115-s2-g5-social-u4-l2",
+      "title": "第2課 日治時期的教育有何改變與影響？",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u5-s1",
+          "sceneId": "u4l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "穿越時空探家園：歷史建築探究",
-          "narrationText": "留心觀察家鄉景物與歷史建築，透過查閱文獻、比對老照片與實地探訪，能了解建築的原由始末與保護措施，進而培養家鄉認同與珍視。",
+          "title": "第2課 日治時期的教育有何改變與影響？：核心概念",
+          "narrationText": "在「第四單元 日治時期的社會變遷」的「第2課 日治時期的教育有何改變與影響？」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "從觀察家鄉景物與提出好奇開始",
-            "結合地方誌、老照片與訪談查證原由",
-            "認識文化資產保護規範並參與分享"
+            "理解日治時期教育制度如何影響臺灣人民的日常生活與社會發展。"
           ],
-          "analogyAnchor": "每一座家鄉老建築就像一本立體的歷史課本：屋瓦、牌匾與門窗都記錄著先民的生活記憶，等待我們細心閱讀並守護。",
+          "analogyAnchor": "把「第2課 日治時期的教育有何改變與影響？」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_compare",
             "params": {
-              "steps": [
-                "觀察家鄉歷史建築與景物並提出問題",
-                "查閱文獻、老照片與訪談耆老查證始末",
-                "認識保護措施並製作導覽成果分享守護"
+              "leftTitle": "第2課 日治時期的教育有何改",
+              "leftPoints": [
+                "理解日治時期教育制度如何影響臺灣人民的日常生活與社會發。",
+                "理解日治時期教育制度如何影響臺灣人民的日常生活與社會發。"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "觀察家鄉提出疑問",
-                "anchorPointId": "step1"
+                "text": "第2課 日治時期的教",
+                "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "多方查證還原歷史",
-                "anchorPointId": "step2"
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/social#u4"
+        },
+        {
+          "sceneId": "u4l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "理解日治時期教育制度如何影響臺灣人民的日常生活與社會發展。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第2課 日治時期的教育有何改變與影響？」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第2課 日治時期的教育有何改」",
+              "第 2 步：對照本課核心「理解日治時期教育制度如何影響臺灣人民的日常。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第2課 日治時期的教育有」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/social#u4"
+        },
+        {
+          "sceneId": "u4l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第2課 日治時期的教育有何改」後再開始挑戰！",
+          "cognitiveChunks": [
+            "理解日治時期教育制度如何影響臺灣人民的日常生活與社會發展。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第2課 日治時期的教育有何改」，哪一項才是正確的學習重點？",
+            "options": [
+              "理解日治時期教育制度如何影響臺灣人民的日常生活與社會發展。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g5/social#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-social-u4-l3",
+      "stageId": "115-s2-g5-social-u4-l3",
+      "title": "第3課 日治時期的社會文化有何改變與影響？",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第3課 日治時期的社會文化有何改變與影響？：核心概念",
+          "narrationText": "在「第四單元 日治時期的社會變遷」的「第3課 日治時期的社會文化有何改變與影響？」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "理解日治時期作息制度與社會文化變遷對臺灣人民日常生活的影響。"
+          ],
+          "analogyAnchor": "把「第3課 日治時期的社會文化有何改變與影響？」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第3課 日治時期的社會文化有",
+              "leftPoints": [
+                "理解日治時期作息制度與社會文化變遷對臺灣人民日常生活的。",
+                "理解日治時期作息制度與社會文化變遷對臺灣人民日常生活的。"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第3課 日治時期的社",
+                "anchorPointId": "left"
               },
               {
-                "id": "l3",
-                "text": "文化保存與導覽",
-                "anchorPointId": "step3"
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/social#u4"
+        },
+        {
+          "sceneId": "u4l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "理解日治時期作息制度與社會文化變遷對臺灣人民日常生活的影響。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第3課 日治時期的社會文化有何改變與影響？」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第3課 日治時期的社會文化有」",
+              "第 2 步：對照本課核心「理解日治時期作息制度與社會文化變遷對臺灣人。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第3課 日治時期的社會文」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g5/social#u4"
+        },
+        {
+          "sceneId": "u4l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第3課 日治時期的社會文化有」後再開始挑戰！",
+          "cognitiveChunks": [
+            "理解日治時期作息制度與社會文化變遷對臺灣人民日常生活的影響。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第3課 日治時期的社會文化有」，哪一項才是正確的學習重點？",
+            "options": [
+              "理解日治時期作息制度與社會文化變遷對臺灣人民日常生活的影響。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g5/social#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g5-social-u5-l1",
+      "stageId": "115-s2-g5-social-u5-l1",
+      "title": "穿越時空探家園／桃園在地化課程 賞桃園-6節",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "穿越時空探家園／桃園在地化課程 賞桃園-6節",
+          "narrationText": "在「主題探究與實作單元」的「穿越時空探家園／桃園在地化課程 賞桃園-6節」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "透過引發學生對家鄉景物留心觀察，進一步資料蒐集及探訪"
+          ],
+          "analogyAnchor": "把「穿越時空探家園／桃園在地化課程 賞桃園-6節」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "穿越時空探家園／桃園在地化課",
+              "leftPoints": [
+                "透過引發學生對家鄉景物留心觀察，進一步資料蒐集及探訪",
+                "透過引發學生對家鄉景物留心觀察，進一步資料蒐集及探訪"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "穿越時空探家園／桃園",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
               }
             ]
           },
           "factGroundingSourceId": "115-s2/g5/social#u5"
         },
         {
-          "sceneId": "u5-s2",
+          "sceneId": "u5l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "《賞桃園》在地化課程與文化守護",
-          "narrationText": "透過桃園在地化課程《賞桃園》，我們認識家鄉獨特的埤塘文化與多元族群足跡，並學習如何在探訪時落實環境保護與古蹟保存。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "埤塘展現先民蓄水灌溉的生活智慧",
-            "多元族群共同耕耘家鄉的歷史記憶",
-            "參觀古蹟不刻字塗鴉、垃圾不落地"
+            "透過引發學生對家鄉景物留心觀察，進一步資料蒐集及探訪",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "小組在進行〈穿越時空探家園〉與《賞桃園》走讀活動時，發現一座老建築既有故事又面臨維護不易的困境，該如何進行探究與守護？",
+            "problemStatement": "複習「穿越時空探家園／桃園在地化課程 賞桃園-6節」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：多方查證歷史——對照地方文史紀錄、老照片與導覽員解說，了解建築興建原由與變遷",
-              "第 2 步：實踐無痕走讀——輕聲細語不打擾居民、不觸摸或塗鴉古蹟結構、垃圾帶走",
-              "第 3 步：轉化守護行動——製作結合歷史與保護建議的導覽海報或簡報，邀請更多人珍視家鄉"
+              "第 1 步：確認題目在問「穿越時空探家園／桃園在地化課」",
+              "第 2 步：對照本課核心「透過引發學生對家鄉景物留心觀察」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：參觀歷史建築時隨手在牆面或木門刻字留念，或把未經查證的網路傳聞寫進探究報告中。",
-            "selfExplanationPrompt": "想一想：五年級的小學生除了參觀古蹟，還能用哪些具體方式讓更多人認識並愛護家鄉文化資產？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「穿越時空探家園／桃園在地」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s2/g5/social#u5"
         },
         {
-          "sceneId": "u5-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "千塘之鄉與多元文化認同",
-          "topicSignalTitle": "看見土地與族群的連結",
-          "narrationText": "從桃園的埤塘景觀到各地的老街建築，理解自然環境與不同族群如何在家鄉共居互動，能深化我們對這塊土地的認同感。",
-          "cognitiveChunks": [
-            "認識家鄉多元族群的共居歷史",
-            "用行動支持文化資產活化與保存"
-          ],
-          "factGroundingSourceId": "115-s2/g5/social#u5"
-        },
-        {
-          "sceneId": "u5-s4",
+          "sceneId": "u5l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "先用這題確認歷史建築的正確保護態度，再進入第五單元挑戰！",
+          "narrationText": "先做一題暖身確認，確認掌握「穿越時空探家園／桃園在地化課」後再開始挑戰！",
           "cognitiveChunks": [
-            "維護原有風貌、不破壞不塗鴉"
+            "透過引發學生對家鄉景物留心觀察，進一步資料蒐集及探訪"
           ],
           "warmupCheck": {
-            "prompt": "了解家鄉歷史建築的珍貴價值後，下列哪一種做法最有助於真正保護這些文化資產？",
+            "prompt": "關於「穿越時空探家園／桃園在地化課」，哪一項才是正確的學習重點？",
             "options": [
-              "遵守參觀規範、維護原有建築風貌、不任意塗鴉破壞並支持妥善活化利用",
-              "用簽字筆在百年木門上刻下自己的名字留念",
-              "覺得老房子占地方，全部拆除改建為停車場",
-              "在古蹟庭園裡任意攀折百年老樹樹枝"
+              "透過引發學生對家鄉景物留心觀察，進一步資料蒐集及探訪",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
             "answerIndex": 0,
-            "feedbackCorrect": "答對了！歷史建築受損後難以復原，遵守規範、不塗鴉不破壞並支持修復活化，才能讓記憶長久保存。",
-            "feedbackRetry": "想一想，面對珍貴又脆弱的百年老建築，我們參觀時應該如何對待它呢？"
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s2/g5/social#u5"
         }

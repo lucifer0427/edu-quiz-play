@@ -123,11 +123,11 @@
           "prompt": "在《So Many Sounds》單元比對中英文動物叫聲時，英文裡的「Woof」是指哪一種動物在叫？",
           "options": [
             "小貓咪（喵喵）",
-            "小青蛙（呱呱）",
             "小狗狗（汪汪）",
+            "小青蛙（呱呱）",
             "小綿羊（咩咩）"
           ],
-          "answerIndex": 2,
+          "answerIndex": 1,
           "explanation": "英文用「Woof」表示小狗的叫聲，就像中文說小狗會「汪汪」叫一樣。",
           "hint": "點喇叭聽聽看「Woof, woof!」像哪一種動物的叫聲！",
           "speechText": "Woof, woof!",
@@ -142,11 +142,11 @@
           "prompt": "在森林裡玩遊戲時，同學跑太遠了，想大聲叫他「回來！」，要用哪一句英文？",
           "options": [
             "Listen!",
-            "Come back!",
             "Stop!",
+            "Come back!",
             "Louder!"
           ],
-          "answerIndex": 1,
+          "answerIndex": 2,
           "explanation": "「Come back!」的意思是「回來！」，用來提醒走遠的同學快點回到隊伍裡。",
           "hint": "想一想：「來」加上「往回」的英文片語是什麼？",
           "speechText": "Come back!",
@@ -179,12 +179,12 @@
           "id": "115-s1-g2-english-u1-q9",
           "prompt": "在〈聽！安全與自然的交響曲〉複習字母 Aa 到 Mm，下面哪一組小寫字母依照字母順序排得完全正確？",
           "options": [
-            "i, j, k",
             "i, k, j",
+            "i, j, k",
             "h, j, l",
             "j, i, k"
           ],
-          "answerIndex": 0,
+          "answerIndex": 1,
           "explanation": "字母表從 a 到 m 的順序是 a, b, c, d, e, f, g, h, i, j, k, l, m，所以 i 後面是 j 和 k。",
           "hint": "從 h 開始順順地唸出三個字母：h, i, ...",
           "speechText": "i, j, k",
@@ -199,11 +199,11 @@
           "prompt": "在〈So Many Sounds〉單元中，當你在馬路邊聽到平交道「噹噹噹」的警示聲，想提醒大家停下腳步時，可以說哪兩句英文？",
           "options": [
             "Hurry up! Run!",
-            "Listen! Stop!",
             "Come back! Dance!",
+            "Listen! Stop!",
             "Good morning! Thank you!"
           ],
-          "answerIndex": 1,
+          "answerIndex": 2,
           "explanation": "「Listen!」是「注意聽！」，「Stop!」是「停下來！」，聽到平交道警示聲一定要停看聽。",
           "hint": "先「注意聽」警示聲，再「停下來」安全等待喔！",
           "speechText": "Listen! Stop!",
@@ -334,10 +334,10 @@
           "options": [
             "A",
             "D",
-            "M",
-            "K"
+            "K",
+            "M"
           ],
-          "answerIndex": 3,
+          "answerIndex": 2,
           "explanation": "字母順序是 A, B, C, D, E, F, G, H, I, J, K, L, M，所以緊接在 J 後面的是 K。",
           "hint": "在心裡從 H, I, J 往下唱一個字母看看！",
           "speechText": "H, I, J, K",
@@ -351,12 +351,12 @@
           "id": "115-s1-g2-english-u2-q7",
           "prompt": "過馬路看到斑馬線和紅綠燈時，金牌安全小將要記住哪一個動作最安全？",
           "options": [
-            "停下來、左右看清楚、專心聽車聲再走",
             "不用看紅綠燈就直接往前跑（Run）",
             "邊過馬路邊閉著眼睛聊天",
-            "在斑馬線中間停下來玩遊戲"
+            "在斑馬線中間停下來玩遊戲",
+            "停下來、左右看清楚、專心聽車聲再走"
           ],
-          "answerIndex": 0,
+          "answerIndex": 3,
           "explanation": "過馬路前要先停（Stop）、看（Look）、聽（Listen），確認安全再走斑馬線。",
           "hint": "安全小將過馬路前一定要「停、看、聽」喔！",
           "speechText": "Stop, look, and listen!",
@@ -370,12 +370,12 @@
           "id": "115-s1-g2-english-u2-q8",
           "prompt": "聽聽看喇叭念的英文字母，下面哪一組「大寫和小寫」字母完全配對正確？",
           "options": [
+            "G - g",
             "G - q",
             "E - f",
-            "G - g",
             "C - o"
           ],
-          "answerIndex": 2,
+          "answerIndex": 0,
           "explanation": "大寫 G 配對小寫 g 是正確的！q 應配 Q、f 應配 F、o 應配 O。",
           "hint": "注意小寫 g 下面有一個彎鉤，別跟 q 弄混囉！",
           "speechText": "G, g",
@@ -447,12 +447,12 @@
           "id": "115-s1-g2-english-u3-q1",
           "prompt": "和小組討論怎麼走上學最安全時，你突然想到一個好方法，想說「我有一個主意！」，要說哪一句英文？",
           "options": [
-            "I have an idea!",
             "You're welcome.",
             "Good morning.",
+            "I have an idea!",
             "That is OK."
           ],
-          "answerIndex": 0,
+          "answerIndex": 2,
           "explanation": "「I have an idea!」的意思是「我有一個主意（點子）！」，idea 就是「主意、想法」。",
           "hint": "句子裡有「idea（主意）」和「I have（我有）」喔！",
           "speechText": "I have an idea!",
@@ -467,11 +467,11 @@
           "prompt": "同學說「I have an idea!」，你聽完覺得他的想法非常棒，想回答「好主意！」，英文怎麼說？",
           "options": [
             "Come back!",
-            "Good idea!",
             "Sorry.",
-            "Hurry up!"
+            "Hurry up!",
+            "Good idea!"
           ],
-          "answerIndex": 1,
+          "answerIndex": 3,
           "explanation": "稱讚別人的點子很棒時，可以開心地說「Good idea!（好主意！）」。",
           "hint": "用「好的（Good）」加上「主意（idea）」就是「好主意！」喔！",
           "speechText": "Good idea!",
@@ -485,12 +485,12 @@
           "id": "115-s1-g2-english-u3-q3",
           "prompt": "在社區探險繪本《Our Neighbourhood》裡，如果孩子在社區迷路或覺得不安全時，可以去哪裡尋求幫助？",
           "options": [
+            "找警察局、醫務室或愛心服務站的大人幫忙",
             "躲進沒有燈的地下室",
             "一個人跑進陌生人的車裡",
-            "找警察局、醫務室或愛心服務站的大人幫忙",
             "站在馬路中間大聲哭"
           ],
-          "answerIndex": 2,
+          "answerIndex": 0,
           "explanation": "警察局、學校醫務室和社區愛心服務站，都是社區裡可以保護我們的安全好鄰居。",
           "hint": "想一想這個單元認識了社區裡哪些安全服務的地方！",
           "speechText": "Our Neighbourhood",
@@ -505,11 +505,11 @@
           "prompt": "複習字母「Aa 到 Mm」的字卡時，下面哪一組「大寫和小寫」字母是同一張字卡？",
           "options": [
             "A - e",
+            "H - h",
             "B - d",
-            "M - w",
-            "H - h"
+            "M - w"
           ],
-          "answerIndex": 3,
+          "answerIndex": 1,
           "explanation": "大寫 H 配對小寫 h 完全正確！A 應配 a、B 應配 b、M 應配 m。",
           "hint": "找找看大寫和小寫屬於同一個字母的那一組！",
           "speechText": "H, h",
@@ -523,12 +523,12 @@
           "id": "115-s1-g2-english-u3-q5",
           "prompt": "排排看小寫字母順序！從 a 往後數到 m 時，緊接在「c, d, e」後面的兩個小寫字母是哪一組？",
           "options": [
-            "f, g",
             "g, h",
             "b, a",
+            "f, g",
             "l, m"
           ],
-          "answerIndex": 0,
+          "answerIndex": 2,
           "explanation": "字母順序是 a, b, c, d, e, f, g, h ...，所以接在 c, d, e 後面的是 f, g。",
           "hint": "小聲唱一下字母歌：a, b, c, d, e ... 接下來唱哪兩個？",
           "speechText": "c, d, e, f, g",
@@ -561,12 +561,12 @@
           "id": "115-s1-g2-english-u3-q7",
           "prompt": "在《Our Neighbourhood》認識社區安全小幫手時，如果不小心受傷流血了，應該去哪裡找人幫忙包紮？",
           "options": [
-            "跑去玩具店裡面躲起來",
             "去學校醫務室或社區診所、醫院",
+            "跑去玩具店裡面躲起來",
             "一個人坐在公園草地上等",
             "去飲料店買冰水來喝"
           ],
-          "answerIndex": 1,
+          "answerIndex": 0,
           "explanation": "受傷或身體不舒服時，要去學校醫務室或診所找護理師與醫生幫忙處理。",
           "hint": "哪一個地方有護理師阿姨或醫生可以幫忙擦藥包紮呢？",
           "speechText": "Our Neighbourhood",
@@ -581,11 +581,11 @@
           "prompt": "點喇叭聽聽看這組字母！在「Aa 到 Mm」之間，大寫「D」後面緊接著的是哪一個大寫字母？",
           "options": [
             "B",
-            "C",
             "E",
+            "C",
             "F"
           ],
-          "answerIndex": 2,
+          "answerIndex": 1,
           "explanation": "字母順序是 A, B, C, D, E, F ...，所以緊接在 D 後面的是 E。",
           "hint": "唱一唱字母歌：A, B, C, D，下一個是什麼呢？",
           "speechText": "D, E",
@@ -599,12 +599,12 @@
           "id": "115-s1-g2-english-u3-q9",
           "prompt": "在《Our Neighbourhood》認識社區時，同學提出一個保護社區環境的好辦法並說「I have an idea!」，你很贊成他的點子，應該怎麼回答？",
           "options": [
-            "Good idea!",
             "Come back!",
             "Stop!",
-            "Sorry!"
+            "Sorry!",
+            "Good idea!"
           ],
-          "answerIndex": 0,
+          "answerIndex": 3,
           "explanation": "聽到別人想到好點子說「I have an idea!」時，回答「Good idea!」就是稱讚「好主意！」。",
           "hint": "誇獎別人的主意很棒，要用「Good ...」開頭喔！",
           "speechText": "Good idea!",
@@ -618,12 +618,12 @@
           "id": "115-s1-g2-english-u3-q10",
           "prompt": "複習二年級上學期的字母「Aa 到 Mm」，下面哪一個大寫字母「不是」這學期 Aa 到 Mm 範圍裡的字母？",
           "options": [
-            "A",
             "P",
+            "A",
             "G",
             "M"
           ],
-          "answerIndex": 1,
+          "answerIndex": 0,
           "explanation": "「Aa 到 Mm」包含 A, B, C, D, E, F, G, H, I, J, K, L, M，字母 P 排在 M 後面。",
           "hint": "數到 M 就停下來，哪一個字母還在後面還沒唸到呢？",
           "speechText": "A, G, M",
@@ -657,12 +657,12 @@
           "id": "115-s1-g2-english-u4-q1",
           "prompt": "在繪本《The Doorbell Rang》的分享時間裡，把香噴噴的餅乾遞給朋友並說「這是給你的。」，英文怎麼說？",
           "options": [
-            "This is for you.",
             "Come back!",
             "Good morning.",
-            "I have an idea!"
+            "I have an idea!",
+            "This is for you."
           ],
-          "answerIndex": 0,
+          "answerIndex": 3,
           "explanation": "「This is for you.」的意思是「這是給你的。」，常用在送禮物或分享點心的時候。",
           "hint": "句子裡有「for you（給你的）」這兩個字喔！",
           "speechText": "This is for you.",
@@ -676,12 +676,12 @@
           "id": "115-s1-g2-english-u4-q2",
           "prompt": "朋友把貼紙送給你時，你開心地收下並對他說「謝謝你。」，這句英文要怎麼說？",
           "options": [
-            "Sorry.",
             "Thank you.",
+            "Sorry.",
             "Stop!",
             "Crawl!"
           ],
-          "answerIndex": 1,
+          "answerIndex": 0,
           "explanation": "收到別人的禮物、分享或幫忙時，都要記得有禮貌地說「Thank you.（謝謝你。）」。",
           "hint": "這是最常用來道謝的禮貌英語喔！",
           "speechText": "Thank you.",
@@ -696,11 +696,11 @@
           "prompt": "當好朋友笑著對你說「Thank you.」時，你想大方回答「不客氣。」，要說哪一句英文？",
           "options": [
             "Hurry up!",
-            "Listen!",
             "You're welcome.",
+            "Listen!",
             "Sorry."
           ],
-          "answerIndex": 2,
+          "answerIndex": 1,
           "explanation": "聽到別人說謝謝時，微笑回答「You're welcome.（不客氣。）」非常有禮貌。",
           "hint": "點喇叭聽聽看「不客氣」怎麼念喔！",
           "speechText": "You're welcome.",
@@ -715,11 +715,11 @@
           "prompt": "在繪本《The Doorbell Rang》（門鈴響了）裡，每當門鈴響起、又有新朋友來作客時，大家怎麼做最快樂？",
           "options": [
             "假裝沒人在家不開門",
-            "把餅乾再平分，大家一起開心分享",
             "趕快把所有餅乾藏進書包裡",
+            "把餅乾再平分，大家一起開心分享",
             "只准大人吃，不讓小孩吃"
           ],
-          "answerIndex": 1,
+          "answerIndex": 2,
           "explanation": "雖然來的人越來越多、每個人分到的餅乾變少，但大家一起分享點心與快樂，心情反而更幸福。",
           "hint": "看看這個單元的標題：「分享的快樂」喔！",
           "speechText": "The Doorbell Rang",
@@ -735,10 +735,10 @@
           "options": [
             "Stop! — 早上進教室跟老師打招呼",
             "Thank you. — 不小心踩到同學的鞋子",
-            "This is for you. — 拿點心或卡片送給朋友",
-            "You're welcome. — 請朋友走快一點不要遲到"
+            "You're welcome. — 請朋友走快一點不要遲到",
+            "This is for you. — 拿點心或卡片送給朋友"
           ],
-          "answerIndex": 2,
+          "answerIndex": 3,
           "explanation": "「This is for you.」是在送東西或分享給別人時說的；問好要說 Good morning、踩到人說 Sorry、請人走快點說 Hurry up。",
           "hint": "檢查每句英文真正的意思，只有一組情境和英文配對正確喔！",
           "speechText": "This is for you.",
@@ -752,12 +752,12 @@
           "id": "115-s1-g2-english-u4-q6",
           "prompt": "字母「Aa 到 Mm」總複習！下面四組英文字母卡中，哪一組的大小寫完全配對正確？",
           "options": [
+            "J - j",
             "B - d",
             "D - p",
-            "L - i",
-            "J - j"
+            "L - i"
           ],
-          "answerIndex": 3,
+          "answerIndex": 0,
           "explanation": "「J - j」的大寫與小寫配對完全正確！另外三組都把形狀相似的字母弄混了。",
           "hint": "注意小寫 j 下面有一條彎彎的鉤子，頭上有一點喔！",
           "speechText": "J, j",
@@ -771,12 +771,12 @@
           "id": "115-s1-g2-english-u4-q7",
           "prompt": "和同學一起過馬路或騎腳踏車時，懂得「禮讓和分享路權」是很棒的共好行動。下面哪一個做法最安全？",
           "options": [
-            "走在人行道或靠邊走，不推擠也禮讓行動較慢的人",
             "把整條人行道占滿，不讓別人走過去",
+            "走在人行道或靠邊走，不推擠也禮讓行動較慢的人",
             "在馬路中間突然停下來聊天",
             "看到有人要過馬路就故意擋在前面"
           ],
-          "answerIndex": 0,
+          "answerIndex": 1,
           "explanation": "路是大家共用的，互相禮讓、走在安全區域，每個人都能平安快樂出門與回家。",
           "hint": "想一想什麼做法能讓大家一起安全又舒服地走路呢？",
           "speechText": "Thank you!",
@@ -792,10 +792,10 @@
           "options": [
             "Sorry.",
             "Hurry up!",
-            "Stop!",
-            "You're welcome."
+            "You're welcome.",
+            "Stop!"
           ],
-          "answerIndex": 3,
+          "answerIndex": 2,
           "explanation": "別人對你說「Thank you.（謝謝你）」時，要禮貌回答「You're welcome.（不客氣。）」。",
           "hint": "聽到謝謝時，微笑回答「不客氣」的英文是哪一句呢？",
           "speechText": "You're welcome.",
@@ -809,12 +809,12 @@
           "id": "115-s1-g2-english-u4-q9",
           "prompt": "在〈分享的快樂〉單元中，把親手畫的小書籤送給同學時，應該說哪一句英文？",
           "options": [
+            "This is for you.",
             "Hurry up!",
             "I am sorry.",
-            "This is for you.",
             "Listen!"
           ],
-          "answerIndex": 2,
+          "answerIndex": 0,
           "explanation": "「This is for you.」的意思是「這是給你的。」，最適合在送禮物或分享點心時使用。",
           "hint": "把東西雙手遞給對方時會說的那句英文喔！",
           "speechText": "This is for you.",
@@ -829,11 +829,11 @@
           "prompt": "複習「Aa 到 Mm」的字母大小寫，大寫字母「K」和「L」對應的小寫字母是哪一組？",
           "options": [
             "h, i",
+            "k, l",
             "k, m",
-            "j, l",
-            "k, l"
+            "j, l"
           ],
-          "answerIndex": 3,
+          "answerIndex": 1,
           "explanation": "K 的小寫是 k，L 的小寫是 l。",
           "hint": "想一想「J, K, L, M」裡中間那兩個字母的小寫！",
           "speechText": "K, k, L, l",
@@ -841,6 +841,1266 @@
           "tags": [
             "Aa-Mm",
             "Letters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g2-english-u5",
+      "subjectId": "english",
+      "title": "Fun World 3 · Unit 1 Sounds Around Us",
+      "description": "《Fun World 3》Unit 1：學會字母 Aa (ant)、Bb (bird)、Cc (cup)，認識生活用語 Listen. 與國家 Italy！",
+      "difficulty": "easy",
+      "monsterId": "slime",
+      "monsterName": "字母螞蟻史萊姆",
+      "monsterHp": 110,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 2,
+        "publisher": "何嘉仁",
+        "bookSeries": "Fun World 3",
+        "unitNo": 5
+      },
+      "questions": [
+        {
+          "id": "115-s1-g2-english-u5-q1",
+          "prompt": "在《Fun World 3》Unit 1 中，字母 Aa 的代表單字「ant」是什麼意思？",
+          "options": [
+            "螞蟻",
+            "小鳥",
+            "杯子",
+            "鴨子"
+          ],
+          "answerIndex": 0,
+          "explanation": "Aa — ant 是「螞蟻」的意思！",
+          "hint": "a-n-t 是地上一隻隻小小爬行的昆蟲。",
+          "speechText": "A, ant",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Aa"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u5-q2",
+          "prompt": "在《Fun World 3》Unit 1 中，字母 Bb 的代表單字「bird」是什麼意思？",
+          "options": [
+            "杯子",
+            "小鳥",
+            "大象",
+            "螞蟻"
+          ],
+          "answerIndex": 1,
+          "explanation": "Bb — bird 是「小鳥」的意思！",
+          "hint": "b-i-r-d 會在天空中飛翔、在樹枝上唱歌。",
+          "speechText": "B, bird",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Bb"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u5-q3",
+          "prompt": "在《Fun World 3》Unit 1 中，字母 Cc 的代表單字「cup」是什麼意思？",
+          "options": [
+            "帽子",
+            "電風扇",
+            "杯子",
+            "鑰匙"
+          ],
+          "answerIndex": 2,
+          "explanation": "Cc — cup 是「杯子」的意思！",
+          "hint": "喝水或喝牛奶時會拿在手上的容器。",
+          "speechText": "C, cup",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Cc"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u5-q4",
+          "prompt": "《Fun World 3》Unit 1 的生活用語「Listen.」是什麼意思？",
+          "options": [
+            "請安靜。",
+            "早安。",
+            "對不起。",
+            "聽一聽。"
+          ],
+          "answerIndex": 3,
+          "explanation": "「Listen.」是「聽／仔細聽」的意思，呼應單元主題 Sounds Around Us（周遭的聲音）。",
+          "hint": "單元名稱是 Sounds Around Us，要用耳朵做的動作是什麼？",
+          "speechText": "Listen.",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Phrase"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u5-q5",
+          "prompt": "下列哪一組單字開頭字母都是「Aa, Bb, Cc」的代表字？",
+          "options": [
+            "ant, bird, cup",
+            "duck, elephant, fan",
+            "girl, hat, igloo",
+            "jam, key, lamp"
+          ],
+          "answerIndex": 0,
+          "explanation": "Fun World 3 Unit 1 的三個字母代表字依序是 ant (Aa)、bird (Bb)、cup (Cc)。",
+          "hint": "找找看 a、b、c 開頭的三個單字！",
+          "speechText": "ant, bird, cup",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Aa-Cc"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u5-q6",
+          "prompt": "《Fun World 3》Unit 1 介紹的國家「Italy」中文是什麼？",
+          "options": [
+            "新加坡",
+            "義大利",
+            "埃及",
+            "荷蘭"
+          ],
+          "answerIndex": 1,
+          "explanation": "Italy 是「義大利」，以披薩、義大利麵與威尼斯聞名。",
+          "hint": "這個國家在歐洲，形狀像一隻長靴喔！",
+          "speechText": "Italy",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Culture"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u5-q7",
+          "prompt": "聽到單字「bird」時，它的第一個發音字母是哪一個？",
+          "options": [
+            "Aa",
+            "Cc",
+            "Bb",
+            "Dd"
+          ],
+          "answerIndex": 2,
+          "explanation": "bird 的第一個字母是 b，發 /b/ 的音。",
+          "hint": "嘴巴輕閉再張開發出 /b/ 的音。",
+          "speechText": "bird",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Phonics"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u5-q8",
+          "prompt": "哪一個英文單字可以裝水或果汁來喝？",
+          "options": [
+            "ant",
+            "bird",
+            "fan",
+            "cup"
+          ],
+          "answerIndex": 3,
+          "explanation": "cup 是杯子，用來裝水或飲料。",
+          "hint": "三個字母拼成 c-u-p。",
+          "speechText": "cup",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u5-q9",
+          "prompt": "在課堂上想請大家注意聽老師或環境裡的聲音，會說哪一句？",
+          "options": [
+            "Thank you.",
+            "Listen.",
+            "Good idea.",
+            "I'm sorry."
+          ],
+          "answerIndex": 1,
+          "explanation": "用「Listen.」提醒大家打開耳朵仔細聽。",
+          "hint": "L 開頭的動詞，意思是「聽」。",
+          "speechText": "Listen.",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Classroom"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u5-q10",
+          "prompt": "字母「c」在單字「cup」裡發什麼音？",
+          "options": [
+            "/æ/",
+            "/b/",
+            "/k/",
+            "/d/"
+          ],
+          "answerIndex": 2,
+          "explanation": "在 cup 裡，字母 c 發 /k/ 的音。",
+          "hint": "念念看 cup，開頭是 /k/ 還是 /b/？",
+          "speechText": "cup",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Phonics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g2-english-u6",
+      "subjectId": "english",
+      "title": "Fun World 3 · Unit 2 Good Morning",
+      "description": "《Fun World 3》Unit 2：學會字母 Dd (duck)、Ee (elephant)、Ff (fan)，生活用語 Good morning / I'm sorry / That's OK，與國家 Singapore！",
+      "difficulty": "easy",
+      "monsterId": "goblin",
+      "monsterName": "音量遙控哥布林",
+      "monsterHp": 115,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 2,
+        "publisher": "何嘉仁",
+        "bookSeries": "Fun World 3",
+        "unitNo": 6
+      },
+      "questions": [
+        {
+          "id": "115-s1-g2-english-u6-q1",
+          "prompt": "在《Fun World 3》Unit 2 中，字母 Dd 的代表單字「duck」是什麼？",
+          "options": [
+            "大象",
+            "鴨子",
+            "電風扇",
+            "螞蟻"
+          ],
+          "answerIndex": 1,
+          "explanation": "Dd — duck 是「鴨子」的意思！",
+          "hint": "會在水池裡呱呱叫的動物。",
+          "speechText": "D, duck",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Dd"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u6-q2",
+          "prompt": "在《Fun World 3》Unit 2 中，字母 Ee 的代表單字「elephant」是什麼？",
+          "options": [
+            "鴨子",
+            "小鳥",
+            "大象",
+            "冰屋"
+          ],
+          "answerIndex": 2,
+          "explanation": "Ee — elephant 是「大象」的意思！",
+          "hint": "鼻子長長的、耳朵大大的陸地動物。",
+          "speechText": "E, elephant",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Ee"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u6-q3",
+          "prompt": "在《Fun World 3》Unit 2 中，字母 Ff 的代表單字「fan」是什麼？",
+          "options": [
+            "帽子",
+            "果醬",
+            "檯燈",
+            "電風扇／扇子"
+          ],
+          "answerIndex": 3,
+          "explanation": "Ff — fan 是「電風扇／扇子」的意思！",
+          "hint": "天氣熱的時候吹風涼快的電器。",
+          "speechText": "F, fan",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Ff"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u6-q4",
+          "prompt": "不小心撞到同學時，應該說「I'm sorry.」，同學可以很有禮貌地回答什麼？",
+          "options": [
+            "That's OK.",
+            "Good morning.",
+            "Listen.",
+            "Thank you."
+          ],
+          "answerIndex": 0,
+          "explanation": "聽到 I'm sorry.（對不起），可以回答「That's OK.」（沒關係）。",
+          "hint": "表達「沒關係」的英文句子是哪一句？",
+          "speechText": "I'm sorry. That's OK.",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Phrase"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u6-q5",
+          "prompt": "《Fun World 3》Unit 2 介紹的國家「Singapore」中文是什麼？",
+          "options": [
+            "義大利",
+            "新加坡",
+            "埃及",
+            "荷蘭"
+          ],
+          "answerIndex": 1,
+          "explanation": "Singapore 是「新加坡」，是東南亞著名的花園城市國家。",
+          "hint": "有魚尾獅雕像的國家喔！",
+          "speechText": "Singapore",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Culture"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u6-q6",
+          "prompt": "《Fun World 3》Unit 2 的跨領域活動「Voice Levels（聲音遙控器）」在學習什麼？",
+          "options": [
+            "認識世界地圖",
+            "學習聖誕節歌曲",
+            "判別不同場合適合的說話音量",
+            "分辨大小寫字母"
+          ],
+          "answerIndex": 2,
+          "explanation": "Voice Levels 教導大家在圖書館、教室或操場選擇適當的音量。",
+          "hint": "在圖書館要輕聲細語，操場才可以大聲喔！",
+          "speechText": "Voice Levels",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Life"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u6-q7",
+          "prompt": "早上進教室向老師問好，應該說哪一句英文？",
+          "options": [
+            "Good idea.",
+            "You're welcome.",
+            "I'm sorry.",
+            "Good morning."
+          ],
+          "answerIndex": 3,
+          "explanation": "「Good morning.」是「早安」的意思。",
+          "hint": "morning 是早上的意思喔！",
+          "speechText": "Good morning.",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Greeting"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u6-q8",
+          "prompt": "下面哪一組字母與代表字配對正確？",
+          "options": [
+            "Ff — fan",
+            "Dd — elephant",
+            "Ee — duck",
+            "Dd — fan"
+          ],
+          "answerIndex": 0,
+          "explanation": "Dd 是 duck，Ee 是 elephant，Ff 是 fan。",
+          "hint": "Ff 開頭的單字是 f-a-n。",
+          "speechText": "F, fan",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Dd-Ff"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u6-q9",
+          "prompt": "哪一個單字的開頭字母是 Ee，發 /ɛ/ 的短母音？",
+          "options": [
+            "duck",
+            "fan",
+            "elephant",
+            "cup"
+          ],
+          "answerIndex": 2,
+          "explanation": "elephant 由字母 Ee 開頭，發短母音 /ɛ/。",
+          "hint": "長鼻子的大動物。",
+          "speechText": "elephant",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Phonics"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u6-q10",
+          "prompt": "字母「f」和「d」分別對應哪兩個代表字？",
+          "options": [
+            "bird 和 cup",
+            "ant 和 elephant",
+            "hat 和 girl",
+            "fan 和 duck"
+          ],
+          "answerIndex": 3,
+          "explanation": "Ff 對應 fan，Dd 對應 duck。",
+          "hint": "回憶 Unit 2 的三個字：duck, elephant, fan。",
+          "speechText": "fan, duck",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Dd-Ff"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g2-english-u7",
+      "subjectId": "english",
+      "title": "Fun World 3 · Review 1（中秋節）",
+      "description": "《Fun World 3》Review 1：總複習字母 Aa–Ff 與 6 個代表單字，搭配中秋節文化與生活小鬧鐘時間管理！",
+      "difficulty": "easy",
+      "monsterId": "golem",
+      "monsterName": "月餅鬧鐘小石怪",
+      "monsterHp": 120,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 2,
+        "publisher": "何嘉仁",
+        "bookSeries": "Fun World 3",
+        "unitNo": 7
+      },
+      "questions": [
+        {
+          "id": "115-s1-g2-english-u7-q1",
+          "prompt": "複習 Aa–Ff 六個字母！下面哪一組字母順序完全正確？",
+          "options": [
+            "A, C, B, D, E, F",
+            "A, B, D, C, F, E",
+            "A, B, C, D, E, F",
+            "B, A, C, D, F, E"
+          ],
+          "answerIndex": 2,
+          "explanation": "英文字母前六個的正確順序是 A, B, C, D, E, F。",
+          "hint": "唱一次 ABC 字母歌的開頭確認順序！",
+          "speechText": "A, B, C, D, E, F",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Review 1"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u7-q2",
+          "prompt": "《Fun World 3》Review 1 搭配的台灣傳統節慶是哪一個？",
+          "options": [
+            "萬聖節",
+            "聖誕節",
+            "端午節",
+            "中秋節"
+          ],
+          "answerIndex": 3,
+          "explanation": "Fun World 3 Review 1 結合「中秋節」（Moon Festival），課本還有月餅貼紙活動！",
+          "hint": "秋天賞月、吃月餅和柚子的節日。",
+          "speechText": "Moon Festival",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Festival"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u7-q3",
+          "prompt": "請選出與「Aa, Bb, Cc」對應的代表單字組合：",
+          "options": [
+            "ant, bird, cup",
+            "ant, duck, fan",
+            "bird, elephant, cup",
+            "duck, elephant, fan"
+          ],
+          "answerIndex": 0,
+          "explanation": "Aa ant, Bb bird, Cc cup。",
+          "hint": "先想 a、b、c 開頭的三個字。",
+          "speechText": "ant, bird, cup",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Review 1"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u7-q4",
+          "prompt": "請選出與「Dd, Ee, Ff」對應的代表單字組合：",
+          "options": [
+            "ant, bird, cup",
+            "duck, elephant, fan",
+            "duck, girl, hat",
+            "egg, fan, cup"
+          ],
+          "answerIndex": 1,
+          "explanation": "Dd duck, Ee elephant, Ff fan。",
+          "hint": "想想看 d、e、f 開頭的三個字。",
+          "speechText": "duck, elephant, fan",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Review 1"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u7-q5",
+          "prompt": "下列哪一個單字「不是」動物？",
+          "options": [
+            "ant",
+            "bird",
+            "cup",
+            "duck"
+          ],
+          "answerIndex": 2,
+          "explanation": "ant（螞蟻）、bird（小鳥）、duck（鴨子）都是動物，cup（杯子）是物品。",
+          "hint": "哪一個是喝水用的東西，不會自己動？",
+          "speechText": "cup",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Review 1"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u7-q6",
+          "prompt": "小寫字母「b」和「d」常讓人搞混，請問「duck」是用哪一個開頭？",
+          "options": [
+            "b",
+            "e",
+            "f",
+            "d"
+          ],
+          "answerIndex": 3,
+          "explanation": "duck 是 d 開頭（小寫 d 圓肚子朝左）。",
+          "hint": "唸 duck，開頭是 /d/。",
+          "speechText": "duck",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Phonics"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u7-q7",
+          "prompt": "Review 1 的跨領域活動「生活小鬧鐘」主要在練習什麼好習慣？",
+          "options": [
+            "時間管理與規劃",
+            "打掃教室",
+            "認識食物",
+            "寫英文信"
+          ],
+          "answerIndex": 0,
+          "explanation": "「生活小鬧鐘」引導孩子學習規劃作息與管理時間。",
+          "hint": "鬧鐘是用來提醒時間的喔！",
+          "speechText": "Time management",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Life"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u7-q8",
+          "prompt": "想請同學仔細聽老師說話，可以說哪一句？",
+          "options": [
+            "Good morning.",
+            "Listen.",
+            "That's OK.",
+            "Thank you."
+          ],
+          "answerIndex": 1,
+          "explanation": "Unit 1 學過的「Listen.」表示「仔細聽」。",
+          "hint": "L 開頭的單字。",
+          "speechText": "Listen.",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Review 1"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u7-q9",
+          "prompt": "哪一個單字有 8 個字母，開頭是 Ee？",
+          "options": [
+            "ant",
+            "bird",
+            "duck",
+            "elephant"
+          ],
+          "answerIndex": 3,
+          "explanation": "e-l-e-p-h-a-n-t 共有 8 個字母，意思是「大象」。",
+          "hint": "長鼻子的動物，字比較長喔！",
+          "speechText": "elephant",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Review 1"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u7-q10",
+          "prompt": "在 Aa, Bb, Cc, Dd, Ee, Ff 中，哪兩個字母是「母音」？",
+          "options": [
+            "Aa 和 Ee",
+            "Bb 和 Cc",
+            "Dd 和 Ff",
+            "Cc 和 Ee"
+          ],
+          "answerIndex": 0,
+          "explanation": "英語 5 個母音是 A, E, I, O, U，在 Aa–Ff 裡包含 Aa 和 Ee。",
+          "hint": "背背看母音口訣 a, e, i, o, u！",
+          "speechText": "A and E",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Phonics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g2-english-u8",
+      "subjectId": "english",
+      "title": "Fun World 3 · Unit 3 Let's Clean Up",
+      "description": "《Fun World 3》Unit 3：學會字母 Gg (girl)、Hh (hat)、Ii (igloo)，生活用語 I have an idea / Good idea，與國家 Egypt！",
+      "difficulty": "medium",
+      "monsterId": "slime",
+      "monsterName": "冰屋點子史萊姆",
+      "monsterHp": 120,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 2,
+        "publisher": "何嘉仁",
+        "bookSeries": "Fun World 3",
+        "unitNo": 8
+      },
+      "questions": [
+        {
+          "id": "115-s1-g2-english-u8-q1",
+          "prompt": "在《Fun World 3》Unit 3 中，字母 Gg 的代表單字「girl」是什麼？",
+          "options": [
+            "男孩",
+            "帽子",
+            "冰屋",
+            "女孩"
+          ],
+          "answerIndex": 3,
+          "explanation": "Gg — girl 是「女孩／女生」的意思！",
+          "hint": "g-i-r-l 與 boy 相對。",
+          "speechText": "G, girl",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Gg"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u8-q2",
+          "prompt": "在《Fun World 3》Unit 3 中，字母 Hh 的代表單字「hat」是什麼？",
+          "options": [
+            "帽子",
+            "外套",
+            "杯子",
+            "鑰匙"
+          ],
+          "answerIndex": 0,
+          "explanation": "Hh — hat 是「帽子」的意思！",
+          "hint": "戴在頭上遮陽或保暖的物品。",
+          "speechText": "H, hat",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Hh"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u8-q3",
+          "prompt": "在《Fun World 3》Unit 3 中，字母 Ii 的代表單字「igloo」是什麼？",
+          "options": [
+            "帳篷",
+            "冰屋",
+            "學校",
+            "公園"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ii — igloo 是愛斯基摩人的圓頂「冰屋」！",
+          "hint": "用冰塊蓋起來的圓頂房子。",
+          "speechText": "I, igloo",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Ii"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u8-q4",
+          "prompt": "想出一個好主意時，可以對同學說「I have an idea.」，同學認同時會說什麼？",
+          "options": [
+            "Good morning.",
+            "Sorry.",
+            "Good idea.",
+            "Listen."
+          ],
+          "answerIndex": 2,
+          "explanation": "聽到「I have an idea.」（我有一個主意），稱讚這是好主意可以說「Good idea.」。",
+          "hint": "「好主意！」的英文跟 idea 有關喔！",
+          "speechText": "I have an idea. Good idea.",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Phrase"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u8-q5",
+          "prompt": "《Fun World 3》Unit 3 介紹的國家「Egypt」中文是什麼？",
+          "options": [
+            "荷蘭",
+            "義大利",
+            "新加坡",
+            "埃及"
+          ],
+          "answerIndex": 3,
+          "explanation": "Egypt 是「埃及」，以金字塔與獅身人面像聞名。",
+          "hint": "有金字塔和尼羅河的古文明國家。",
+          "speechText": "Egypt",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Culture"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u8-q6",
+          "prompt": "單元標題「Let's Clean Up」是什麼意思？",
+          "options": [
+            "我們來整理乾淨吧",
+            "我們去上學吧",
+            "祝你聖誕快樂",
+            "大家早安"
+          ],
+          "answerIndex": 0,
+          "explanation": "clean up 是「清理、收拾乾淨」，Let's Clean Up 是「我們一起收拾乾淨吧」。",
+          "hint": "clean 是乾淨的意思喔！",
+          "speechText": "Let's clean up.",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Title"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u8-q7",
+          "prompt": "單字「hat」的第一個字母 Hh 發什麼音？",
+          "options": [
+            "/g/",
+            "/h/",
+            "/ɪ/",
+            "/dʒ/"
+          ],
+          "answerIndex": 1,
+          "explanation": "Hh 在 hat 裡發輕輕吐氣的 /h/ 音。",
+          "hint": "把手放在嘴巴前面念 hat，會感覺到有氣吹出來喔！",
+          "speechText": "hat",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Phonics"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u8-q8",
+          "prompt": "下面哪一組字母與代表字完全對應正確？",
+          "options": [
+            "Hh — igloo",
+            "Ii — hat",
+            "Gg — girl",
+            "Gg — hat"
+          ],
+          "answerIndex": 2,
+          "explanation": "Gg 是 girl，Hh 是 hat，Ii 是 igloo。",
+          "hint": "找找 g 開頭的字！",
+          "speechText": "G, girl",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Gg-Ii"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u8-q9",
+          "prompt": "《Fun World 3》Unit 3 裡的「發音對對碰」活動在練習什麼？",
+          "options": [
+            "依字母發音分類配對",
+            "畫埃及金字塔",
+            "唱生日快樂歌",
+            "認識數字 1 到 10"
+          ],
+          "answerIndex": 0,
+          "explanation": "發音對對碰是把相同或對應發音規則的字母與代表字進行分類配對。",
+          "hint": "跟 Phonics（自然發音）有關的練習！",
+          "speechText": "Phonics matching",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Phonics"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u8-q10",
+          "prompt": "在 Aa–Ii 中，「Ii」是母音還是子音？它對應的代表字是哪一個？",
+          "options": [
+            "子音；igloo",
+            "母音；igloo",
+            "母音；girl",
+            "子音；hat"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ii 是 5 個母音（A, E, I, O, U）之一，Unit 3 的代表字是 igloo。",
+          "hint": "igloo 的第一個字母是 i！",
+          "speechText": "I, igloo",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Phonics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g2-english-u9",
+      "subjectId": "english",
+      "title": "Fun World 3 · Unit 4 Merry Christmas",
+      "description": "《Fun World 3》Unit 4：學會字母 Jj (jam)、Kk (key)、Ll (lamp)、Mm (mom)，禮貌用語 This is for you / Thank you / You're welcome，與國家 the Netherlands！",
+      "difficulty": "medium",
+      "monsterId": "bat",
+      "monsterName": "聖誕禮盒蝙蝠",
+      "monsterHp": 125,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 2,
+        "publisher": "何嘉仁",
+        "bookSeries": "Fun World 3",
+        "unitNo": 9
+      },
+      "questions": [
+        {
+          "id": "115-s1-g2-english-u9-q1",
+          "prompt": "在《Fun World 3》Unit 4 中，字母 Jj 的代表單字「jam」是什麼？",
+          "options": [
+            "果醬",
+            "果汁",
+            "鑰匙",
+            "檯燈"
+          ],
+          "answerIndex": 0,
+          "explanation": "Jj — jam 是「果醬」的意思，常塗在吐司上吃！",
+          "hint": "草莓或藍莓做成的甜抹醬。",
+          "speechText": "J, jam",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Jj"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u9-q2",
+          "prompt": "在《Fun World 3》Unit 4 中，字母 Kk 的代表單字「key」是什麼？",
+          "options": [
+            "風箏",
+            "鑰匙",
+            "國王",
+            "燈"
+          ],
+          "answerIndex": 1,
+          "explanation": "Kk — key 是「鑰匙」的意思！",
+          "hint": "用來打開家門或鎖頭的工具。",
+          "speechText": "K, key",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Kk"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u9-q3",
+          "prompt": "在《Fun World 3》Unit 4 中，字母 Ll 的代表單字「lamp」是什麼？",
+          "options": [
+            "獅子",
+            "果醬",
+            "檯燈／燈",
+            "媽媽"
+          ],
+          "answerIndex": 2,
+          "explanation": "Ll — lamp 是「檯燈／燈」的意思！",
+          "hint": "晚上看書時開在書桌上的照明燈。",
+          "speechText": "L, lamp",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Ll"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u9-q4",
+          "prompt": "在《Fun World 3》Unit 4 中，字母 Mm 的代表單字「mom」是什麼？",
+          "options": [
+            "爸爸",
+            "猴子",
+            "牛奶",
+            "媽媽"
+          ],
+          "answerIndex": 3,
+          "explanation": "Mm — mom 是「媽媽」的意思！",
+          "hint": "m-o-m，家裡最溫柔照顧我們的母親。",
+          "speechText": "M, mom",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Mm"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u9-q5",
+          "prompt": "送禮物給朋友時，可以說「This is for you.」，收到禮物的人說「Thank you.」後，送禮的人可以回答什麼？",
+          "options": [
+            "You're welcome.",
+            "I'm sorry.",
+            "Listen.",
+            "Good morning."
+          ],
+          "answerIndex": 0,
+          "explanation": "聽到 Thank you.（謝謝你），禮貌回應是「You're welcome.」（不客氣）。",
+          "hint": "「不客氣」的英文怎麼說？",
+          "speechText": "You're welcome.",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Phrase"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u9-q6",
+          "prompt": "《Fun World 3》Unit 4 介紹的國家「the Netherlands」中文是什麼？",
+          "options": [
+            "埃及",
+            "荷蘭",
+            "義大利",
+            "新加坡"
+          ],
+          "answerIndex": 1,
+          "explanation": "the Netherlands 是「荷蘭」，以風車、鬱金香與木鞋聞名。",
+          "hint": "有很多風車和鬱金香的歐洲國家！",
+          "speechText": "the Netherlands",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Culture"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u9-q7",
+          "prompt": "下列哪一組字母與代表字配對「完全正確」？",
+          "options": [
+            "Jj-key, Kk-jam, Ll-mom, Mm-lamp",
+            "Jj-lamp, Kk-mom, Ll-jam, Mm-key",
+            "Jj-jam, Kk-key, Ll-lamp, Mm-mom",
+            "Jj-mom, Kk-lamp, Ll-key, Mm-jam"
+          ],
+          "answerIndex": 2,
+          "explanation": "Jj jam, Kk key, Ll lamp, Mm mom！",
+          "hint": "看清楚每個單字的開頭字母 j, k, l, m。",
+          "speechText": "jam, key, lamp, mom",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Jj-Mm"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u9-q8",
+          "prompt": "小寫字母「j」和「i」上面都有一點，請問「jam」和「igloo」各是哪個字母開頭？",
+          "options": [
+            "jam 是 i；igloo 是 j",
+            "兩個都是 i",
+            "兩個都是 j",
+            "jam 是 j；igloo 是 i"
+          ],
+          "answerIndex": 3,
+          "explanation": "jam 由 j 開頭（下方有彎鉤），igloo 由 i 開頭（直線）。",
+          "hint": "j 下面有鉤子，發 /dʒ/ 的音！",
+          "speechText": "jam, igloo",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Phonics"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u9-q9",
+          "prompt": "在「This is for you.」這句話中，「for you」是什麼意思？",
+          "options": [
+            "對不起",
+            "給你的",
+            "早安",
+            "再見"
+          ],
+          "answerIndex": 1,
+          "explanation": "「This is for you.」意思是「這是給你的。」",
+          "hint": "送卡片或禮物時常說的話！",
+          "speechText": "This is for you.",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Phrase"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u9-q10",
+          "prompt": "從 Unit 1 到 Unit 4，二年級上學期一共學到哪一個字母為止？",
+          "options": [
+            "Hh",
+            "Jj",
+            "Mm",
+            "Zz"
+          ],
+          "answerIndex": 2,
+          "explanation": "Fun World 3（二上）涵蓋 Aa 到 Mm，共 13 個字母；Nn 到 Zz 在二下 Fun World 4 學習。",
+          "hint": "Unit 4 學的最後一個字母是 mom 的開頭！",
+          "speechText": "M, mom",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Jj-Mm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s1-g2-english-u10",
+      "subjectId": "english",
+      "title": "Fun World 3 · Review 2 & Final Review（農曆新年）",
+      "description": "《Fun World 3》Review 2 & Final Review：總複習字母 Aa–Mm 大小寫辨識、13 個代表單字、農曆新年與危機處理！",
+      "difficulty": "medium",
+      "monsterId": "dragon",
+      "monsterName": "新年拼圖小飛龍",
+      "monsterHp": 135,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 1,
+        "grade": 2,
+        "publisher": "何嘉仁",
+        "bookSeries": "Fun World 3",
+        "unitNo": 10
+      },
+      "questions": [
+        {
+          "id": "115-s1-g2-english-u10-q1",
+          "prompt": "總複習 Aa 到 Mm！下面哪一組「大寫與小寫」字母配對完全正確？",
+          "options": [
+            "G-q, I-l, M-w",
+            "G-g, J-j, L-l",
+            "B-d, F-t, K-h",
+            "C-o, E-f, H-n"
+          ],
+          "answerIndex": 1,
+          "explanation": "G-g、J-j、L-l 大小寫都正確；q 是 Q 的小寫、w 是 W 的小寫、d 是 D 的小寫。",
+          "hint": "仔細檢查每一個小寫字母有沒有寫錯邊或換成別的字！",
+          "speechText": "G, J, L",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Final Review"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u10-q2",
+          "prompt": "《Fun World 3》Review 2 搭配的傳統節慶是哪一個？",
+          "options": [
+            "萬聖節",
+            "端午節",
+            "農曆新年",
+            "感恩節"
+          ],
+          "answerIndex": 2,
+          "explanation": "Fun World 3 Review 2 介紹「農曆新年」（Chinese New Year / Lunar New Year）。",
+          "hint": "期末接近寒假、會貼春聯和領紅包的節日！",
+          "speechText": "Lunar New Year",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Festival"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u10-q3",
+          "prompt": "下面哪一個字母在 Aa 到 Mm 裡面「不是」母音？",
+          "options": [
+            "Aa",
+            "Ee",
+            "Ii",
+            "Mm"
+          ],
+          "answerIndex": 3,
+          "explanation": "Aa、Ee、Ii 是母音；Mm 是子音。",
+          "hint": "五個母音是 A, E, I, O, U，不包含 M！",
+          "speechText": "M is a consonant.",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Phonics"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u10-q4",
+          "prompt": "請選出「Gg, Hh, Ii, Jj, Kk, Ll, Mm」的正確順序缺漏：「G, H, __, J, K, __, M」",
+          "options": [
+            "I 和 L",
+            "L 和 I",
+            "E 和 F",
+            "F 和 H"
+          ],
+          "answerIndex": 0,
+          "explanation": "H 後面是 I，K 後面是 L，順序是 G, H, I, J, K, L, M。",
+          "hint": "從 G 開始往後數：G, H, I, J, K, L, M！",
+          "speechText": "G, H, I, J, K, L, M",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Final Review"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u10-q5",
+          "prompt": "把下列單字配對成「吃的東西」與「生活用品」，哪一組「都是吃的或動物」？",
+          "options": [
+            "cup, key, lamp",
+            "jam, ant, duck",
+            "hat, fan, igloo",
+            "key, cup, hat"
+          ],
+          "answerIndex": 1,
+          "explanation": "jam（果醬）是食物，ant（螞蟻）和 duck（鴨子）是動物；其餘都是物品或建築。",
+          "hint": "哪一組裡面沒有杯子、鑰匙、帽子或電風扇？",
+          "speechText": "jam, ant, duck",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u10-q6",
+          "prompt": "《Fun World 3》Review 2 的「生活糾察隊」單元在學習什麼？",
+          "options": [
+            "畫水彩畫",
+            "計算加法",
+            "生活中的危機處理與安全判斷",
+            "種植豆芽菜"
+          ],
+          "answerIndex": 2,
+          "explanation": "「生活糾察隊」引導孩子分辨危險情境並做出正確的應變與求助。",
+          "hint": "遇到危險時要懂得保護自己或求助！",
+          "speechText": "Safety first",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Life"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u10-q7",
+          "prompt": "下列哪一個國家「不是」Fun World 3（二上）介紹的國家？",
+          "options": [
+            "Italy（義大利）",
+            "Singapore（新加坡）",
+            "Egypt（埃及）",
+            "New Zealand（紐西蘭）"
+          ],
+          "answerIndex": 3,
+          "explanation": "Fun World 3 介紹 Italy、Singapore、Egypt、the Netherlands；New Zealand 在 Fun World 4（二下）Unit 1。",
+          "hint": "回憶 Unit 1–4 出現的四個國家！",
+          "speechText": "Italy, Singapore, Egypt, the Netherlands",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Culture"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u10-q8",
+          "prompt": "聽到「This is for you.」時，最有禮貌的回答是哪一句？",
+          "options": [
+            "Thank you.",
+            "I'm sorry.",
+            "Listen.",
+            "Good idea."
+          ],
+          "answerIndex": 0,
+          "explanation": "別人送東西給你說「This is for you.」，應該回答「Thank you.」。",
+          "hint": "表達感謝要說什麼？",
+          "speechText": "Thank you.",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Phrase"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u10-q9",
+          "prompt": "下面哪兩個單字「字首發音」與其字母最容易辨認，且小寫字母都向上高出格子？",
+          "options": [
+            "ant 和 cup",
+            "egg 和 jam",
+            "bird 和 hat",
+            "mom 和 fan"
+          ],
+          "answerIndex": 2,
+          "explanation": "小寫 b（bird）和 h（hat）都有往上的直線！",
+          "hint": "看看 b 和 h 的長相，上面都有一根長長的直線。",
+          "speechText": "bird, hat",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Letters"
+          ]
+        },
+        {
+          "id": "115-s1-g2-english-u10-q10",
+          "prompt": "完成 Fun World 3（Aa–Mm）後，下列哪個代表字是「冰屋」？",
+          "options": [
+            "island",
+            "jam",
+            "lamp",
+            "igloo"
+          ],
+          "answerIndex": 3,
+          "explanation": "Ii — igloo 是「冰屋」的意思。",
+          "hint": "i-g-l-o-o。",
+          "speechText": "igloo",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 3",
+            "Vocabulary"
           ]
         }
       ]

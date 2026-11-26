@@ -2361,3 +2361,198 @@ export function generateG3S2U9AreaSqCm(count = 6): Question[] {
   }
   return questions;
 }
+
+// ============================================================
+// 三上 第5章：角與形狀
+// ============================================================
+export function generateG3S1U5AnglesAndShapes(count = 6): Question[] {
+  const seed = Date.now() + Math.floor(Math.random() * 100000);
+  const questions: Question[] = [];
+  for (let i = 0; i < count; i++) {
+    const type = i % 3;
+    if (type === 0) {
+      const built = buildStringOptions('1 個頂點和 2 條直直的邊', [
+        '2 個頂點和 1 條彎彎的邊',
+        '3 個頂點和 3 條邊',
+        '1 個圓心和 1 條半徑',
+      ]);
+      questions.push(
+        makeQuestion(
+          'g3s1-u5',
+          seed,
+          i,
+          '在幾何圖形裡，一個「角」是由哪些部分組成的？',
+          built,
+          '角是由「1 個頂點」和從頂點出發的「2 條直邊」所組成的。',
+          '想想看用兩枝直尺拼成一個尖尖的角，有幾個頂點和幾條邊？',
+        ),
+      );
+    } else if (type === 1) {
+      const kind = pickRandom([
+        { name: '正方形', rightAngles: 4, extra: '4 條邊都一樣長，且有 4 個直角' },
+        { name: '長方形', rightAngles: 4, extra: '兩組對邊分別等長，且有 4 個直角' },
+      ]);
+      const built = buildNumericOptions(kind.rightAngles, [2, 3, 6], ' 個');
+      questions.push(
+        makeQuestion(
+          'g3s1-u5',
+          seed,
+          i,
+          `用三角板的直角比一比，一個「${kind.name}」的內部一共有幾個直角？`,
+          built,
+          `${kind.name}的定義是：${kind.extra}，所以共有 4 個直角。`,
+          '用三角板的直角量量看四個角落！',
+        ),
+      );
+    } else {
+      const built = buildStringOptions('張開的程度越大，角就越大（和邊畫得多長無關）', [
+        '兩條邊畫得越長，角就一定越大',
+        '頂點畫得越大顆，角就越大',
+        '直角比鈍角還要大',
+      ]);
+      questions.push(
+        makeQuestion(
+          'g3s1-u5',
+          seed,
+          i,
+          '比較兩個角的大小時，下列哪一個觀念是「正確」的？',
+          built,
+          '角的大小只看「兩條邊張開的程度」，和邊畫得有多長沒有關係！張開越大、角就越大。',
+          '把兩把扇子打開，角的大小是看扇子張開的角度，還是扇骨的長度呢？',
+        ),
+      );
+    }
+  }
+  return questions;
+}
+
+// ============================================================
+// 三上 第9章：列表與規律
+// ============================================================
+export function generateG3S1U9TablesAndPatterns(count = 6): Question[] {
+  const seed = Date.now() + Math.floor(Math.random() * 100000);
+  const questions: Question[] = [];
+  for (let i = 0; i < count; i++) {
+    const type = i % 3;
+    if (type === 0) {
+      const a = randomInt(15, 30);
+      const b = randomInt(10, 25);
+      const c = randomInt(8, 20);
+      const d = randomInt(12, 28);
+      const total = a + b + c + d;
+      const built = buildNumericOptions(total, [total + 10, total - 5, a + b + c], ' 件');
+      questions.push(
+        makeQuestion(
+          'g3s1-u9',
+          seed,
+          i,
+          `文具店統計今天賣出的商品數量：鉛筆 ${a} 件、橡皮擦 ${b} 件、直尺 ${c} 件、筆記本 ${d} 件。這四種文具一共賣出幾件？`,
+          built,
+          `把表格裡的四種數量加起來：${a} + ${b} + ${c} + ${d} = ${total} 件。`,
+          '把表格中每一項的數量全部加起來！',
+        ),
+      );
+    } else if (type === 1) {
+      const start = randomInt(4, 15);
+      const step = pickRandom([4, 5, 6, 7, 8, 9]);
+      const seq = [start, start + step, start + 2 * step, start + 3 * step];
+      const ans = start + 4 * step;
+      const built = buildNumericOptions(ans, [ans + step, ans - 2, seq[3] + 1]);
+      questions.push(
+        makeQuestion(
+          'g3s1-u9',
+          seed,
+          i,
+          `觀察這排數列的規律：「${seq.join('、')}、□」，請問空格 □ 裡應該填入哪一個數？`,
+          built,
+          `每往右一個數都固定加 ${step}，所以 ${seq[3]} + ${step} = ${ans}。`,
+          `算算看相鄰兩個數之間相差多少！`,
+        ),
+      );
+    } else {
+      const idx = randomInt(12, 20);
+      const cycle = ['紅', '黃', '藍'];
+      const ans = `${cycle[(idx - 1) % 3]}色`;
+      const others = ['紅色', '黃色', '藍色', '綠色'].filter((x) => x !== ans).slice(0, 3);
+      const built = buildStringOptions(ans, others);
+      questions.push(
+        makeQuestion(
+          'g3s1-u9',
+          seed,
+          i,
+          `氣球按照「紅、黃、藍、紅、黃、藍……」的規律排成一排，請問第 ${idx} 顆氣球是什麼顏色？`,
+          built,
+          `每 3 顆氣球為一組循環：${idx} ÷ 3 = ${Math.floor(idx / 3)} 餘 ${idx % 3}（餘 1 是紅、餘 2 是黃、整除是藍），所以第 ${idx} 顆是${ans}。`,
+          `每 3 顆重複一次，用 ${idx} 除以 3 看餘數！`,
+        ),
+      );
+    }
+  }
+  return questions;
+}
+
+// ============================================================
+// 三下 第4章：圓
+// ============================================================
+export function generateG3S2U4Circles(count = 6): Question[] {
+  const seed = Date.now() + Math.floor(Math.random() * 100000);
+  const questions: Question[] = [];
+  for (let i = 0; i < count; i++) {
+    const type = i % 3;
+    if (type === 0) {
+      const r = randomInt(3, 14);
+      const d = r * 2;
+      const askDiameter = randomInt(0, 1) === 0;
+      const ans = askDiameter ? d : r;
+      const built = buildNumericOptions(ans, [askDiameter ? r : d, ans + 2, ans + 4], ' 公分');
+      questions.push(
+        makeQuestion(
+          'g3s2-u4',
+          seed,
+          i,
+          askDiameter
+            ? `一個圓的半徑是 ${r} 公分，請問這個圓的「直徑」是多少公分？`
+            : `一個圓的直徑是 ${d} 公分，請問這個圓的「半徑」是多少公分？`,
+          built,
+          askDiameter
+            ? `直徑是半徑的 2 倍：${r} × 2 = ${d} 公分。`
+            : `半徑是直徑的一半：${d} ÷ 2 = ${r} 公分。`,
+          '記住口訣：「直徑 ＝ 半徑 × 2」！',
+        ),
+      );
+    } else if (type === 1) {
+      const r = randomInt(4, 9);
+      const built = buildNumericOptions(r, [r * 2, r + 2, r - 1], ' 公分');
+      questions.push(
+        makeQuestion(
+          'g3s2-u4',
+          seed,
+          i,
+          `用圓規畫圓時，把圓規兩腳張開的距離調成 ${r} 公分，畫出來的圓「半徑」是多少公分？`,
+          built,
+          `圓規針尖固定在圓心，筆尖到針尖的距離就是圓的半徑，所以半徑是 ${r} 公分。`,
+          '圓規兩腳張開的距離，就是從圓心到圓周的距離（半徑）喔！',
+        ),
+      );
+    } else {
+      const built = buildStringOptions('圓上最長的直線段就是直徑，而且會通過圓心', [
+        '一個圓只有 1 條半徑和 1 條直徑',
+        '圓的半徑越長，畫出來的圓反而越小',
+        '直徑不用通過圓心，只要連接圓周上兩點就好',
+      ]);
+      questions.push(
+        makeQuestion(
+          'g3s2-u4',
+          seed,
+          i,
+          '關於「圓」的性質，下列哪一句敘述是「正確」的？',
+          built,
+          '圓有無限多條半徑和直徑，直徑一定會通過圓心，也是圓內最長的線段。',
+          '想想看圓的直徑一定要經過哪一個點？',
+        ),
+      );
+    }
+  }
+  return questions;
+}
+

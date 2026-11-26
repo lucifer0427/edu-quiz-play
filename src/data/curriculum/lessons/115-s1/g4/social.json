@@ -8,47 +8,46 @@
   "lessons": [
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g4-social-u1",
-      "stageId": "115-s1-g4-social-u1",
-      "title": "一、交通與訊息",
+      "lessonId": "lesson-115-s1-g4-social-u1-l1",
+      "stageId": "115-s1-g4-social-u1-l1",
+      "title": "1.陸地的運輸",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u1-s1",
+          "sceneId": "u1l1-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "陸運、船運與空運的特色與串聯",
-          "narrationText": "陸運、船運與空運各有速度、載貨量與路線優勢，彼此串聯接駁才能把人與貨物順利送到目的地。",
+          "title": "陸地的運輸：核心概念",
+          "narrationText": "在「一、交通與訊息」的「1.陸地的運輸」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "陸運：軌道運輸載客多，公路運輸機動性高",
-            "船運：載貨量大且運費低，適合大宗貨物",
-            "空運：速度最快，適合急件與跨海長途",
-            "運輸串聯：機場港口須靠陸運接駁最後一哩"
+            "認識「1.陸地的運輸」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「1.陸地的運輸」的知識應用在日常生活中。",
+            "能用自己的話歸納「1.陸地的運輸」的重要發現與做法。"
           ],
-          "analogyAnchor": "不同運輸工具就像接力賽隊友：飛機或貨輪負責跨海長跑，貨車與捷運則負責把棒子穩穩送到家門口。",
+          "analogyAnchor": "把「1.陸地的運輸」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "船運（海運）",
+              "leftTitle": "1.陸地的運輸",
               "leftPoints": [
-                "單次載貨量極大",
-                "單位運費較低、航程較久"
+                "認識「1.陸地的運輸」的核心概念與現象",
+                "透過觀察與討論"
               ],
-              "rightTitle": "空運（飛機）",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "跨國速度最快",
-                "適合醫療急件與生鮮"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
-                "id": "u1-l1",
-                "text": "船運載量大成本低",
+                "id": "l1",
+                "text": "1.陸地的運輸",
                 "anchorPointId": "left"
               },
               {
-                "id": "u1-l2",
-                "text": "空運速度快適合急件",
+                "id": "l2",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -56,487 +55,1345 @@
           "factGroundingSourceId": "115-s1/g4/social#u1"
         },
         {
-          "sceneId": "u1-s2",
+          "sceneId": "u1l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "訊息傳播規範與真假訊息查證",
-          "narrationText": "通訊科技讓跨國聯繫更即時，但轉傳網路消息前必須查證來源、尊重著作權並保護他人隱私。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "不擅自公開他人照片與對話隱私",
-            "尊重原創著作權，不隨意盜用作品",
-            "眼見不一定為憑，截圖也能被偽造"
+            "認識「1.陸地的運輸」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "在群組看到「明天全臺學校永久放假，快轉發截圖領獎品」的訊息時，該怎麼判斷與處理？",
+            "problemStatement": "複習「1.陸地的運輸」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：保持冷靜不急著轉傳，先懷疑過度誇張或要求填個資的內容",
-              "第 2 步：檢查發布單位、日期與網址，不點擊陌生連結",
-              "第 3 步：前往教育部或學校官方網站、正規新聞管道交叉查證"
+              "第 1 步：確認題目在問「1.陸地的運輸」",
+              "第 2 步：對照本課核心「認識「1.陸地的運輸」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：只因為訊息附有截圖或很多朋友轉發，就直接相信並立刻轉傳給全班。",
-            "selfExplanationPrompt": "想一想：為什麼網路時代不能只憑一張截圖就「眼見為憑」？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「1.陸地的運輸」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s1/g4/social#u1"
         },
         {
-          "sceneId": "u1-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "數位公民的訊息使用守則",
-          "topicSignalTitle": "當個負責任的訊息使用者，要做到哪三件事？",
-          "narrationText": "使用網路與通訊軟體時，要做到查證真偽再分享、保護自己與他人隱私，並以禮貌尊重的態度溝通。",
-          "cognitiveChunks": [
-            "先查證再轉傳，不散布未經證實的謠言",
-            "保護個人與親友隱私資料",
-            "尊重智慧財產權與網路禮儀"
-          ],
-          "factGroundingSourceId": "115-s1/g4/social#u1"
-        },
-        {
-          "sceneId": "u1-s4",
+          "sceneId": "u1l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "先用這題確認運輸工具的串聯與選擇，準備挑戰第一關！",
+          "narrationText": "先做一題暖身確認，確認掌握「1.陸地的運輸」後再開始挑戰！",
           "cognitiveChunks": [
-            "跨海急件靠空運，落地接駁靠陸運"
+            "認識「1.陸地的運輸」的核心概念與現象，並理解其背後原因。"
           ],
           "warmupCheck": {
-            "prompt": "國外生鮮水果想在一天內送到臺灣超商架上，最合適的運輸串聯方式是什麼？",
+            "prompt": "關於「1.陸地的運輸」，哪一項才是正確的學習重點？",
             "options": [
-              "全部改用腳踏車從國外騎過太平洋",
-              "先由貨機空運至機場，再由冷藏貨車陸運配送",
-              "只用貨輪慢慢航行三個月再靠人力推車"
-            ],
-            "answerIndex": 1,
-            "feedbackCorrect": "答對了！空運爭取時間，落地後由冷藏貨車接駁，正是陸空串聯的便利性。",
-            "feedbackRetry": "生鮮水果需要保鮮與速度，跨國要選最快的運輸方式，進台灣後再靠什麼車送到超商呢？"
-          },
-          "factGroundingSourceId": "115-s1/g4/social#u1"
-        }
-      ]
-    },
-    {
-      "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g4-social-u2",
-      "stageId": "115-s1-g4-social-u2",
-      "title": "二、地圖上的家鄉",
-      "ageBand": "AGE_9_12_UPPER",
-      "subject": "SCIENCE_SOCIAL",
-      "scenes": [
-        {
-          "sceneId": "u2-s1",
-          "componentType": "ANCHOR_SCENE",
-          "title": "認識地圖三要素與八方位標",
-          "narrationText": "閱讀家鄉地圖前要先看懂圖名、方位標與圖例，並從四方位進階學會東北、東南、西北、西南等八方位。",
-          "cognitiveChunks": [
-            "圖名：說明地圖繪製的地區與主題",
-            "圖例：對照符號所代表的真實設施",
-            "八方位標：在四方位之間再細分四個斜向方位"
-          ],
-          "analogyAnchor": "地圖就像家鄉的縮小說明書：圖名是書名、圖例是符號字典、方位標則是指引東南西北的指南針。",
-          "visualSpec": {
-            "templateId": "concept_compare",
-            "params": {
-              "leftTitle": "基本四方位",
-              "leftPoints": [
-                "北（上）、南（下）",
-                "西（左）、東（右）"
-              ],
-              "rightTitle": "進階斜向方位",
-              "rightPoints": [
-                "東北（右上）、東南（右下）",
-                "西北（左上）、西南（左下）"
-              ]
-            },
-            "spatialLabels": [
-              {
-                "id": "u2-l1",
-                "text": "上北下南左西右東",
-                "anchorPointId": "left"
-              },
-              {
-                "id": "u2-l2",
-                "text": "八方位精準找方向",
-                "anchorPointId": "right"
-              }
-            ]
-          },
-          "factGroundingSourceId": "115-s1/g4/social#u2"
-        },
-        {
-          "sceneId": "u2-s2",
-          "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "活用八方位與圖例規劃家鄉路線",
-          "narrationText": "只要掌握方位標與圖例符號，就能判斷各景點的相對位置，安排順暢不繞遠路的家鄉探索行程。",
-          "cognitiveChunks": [
-            "先找方位標確認北方在哪一側",
-            "再依圖例辨識車站、學校、公園符號",
-            "串聯相鄰景點可節省移動時間"
-          ],
-          "workedExampleData": {
-            "problemStatement": "地圖上方為北方，若圖書館位在學校的右下方，圖書館在學校的哪一個方位？",
-            "steps": [
-              "第 1 步：確認基本方位，上方為北、下方為南、左方為西、右方為東",
-              "第 2 步：找出右下方介於「東方（右）」與「南方（下）」之間",
-              "第 3 步：結合兩個方位名稱，得出答案為「東南方」"
-            ],
-            "commonErrorContrast": "常見錯誤：看到右下方就隨意記成「南東方」或把左右東西方向搞反。",
-            "selfExplanationPrompt": "想一想：如果在同一張地圖上，郵局位在學校的左上方，郵局又在學校的哪個方位呢？",
-            "keepStepCardVisible": false
-          },
-          "factGroundingSourceId": "115-s1/g4/social#u2"
-        },
-        {
-          "sceneId": "u2-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "不同功能地圖的聰明搭配",
-          "topicSignalTitle": "規劃家鄉半日遊，該挑選哪幾種地圖？",
-          "narrationText": "交通路線圖能查詢公車與捷運站點，觀光導覽圖則標示古蹟、美術館與餐飲位置，兩者搭配能讓出遊更順利。",
-          "cognitiveChunks": [
-            "交通路線圖：查詢公車、捷運與轉乘站",
-            "觀光導覽圖：尋找景點、公園與服務設施",
-            "觀察設施分布也能認識家鄉發展重心"
-          ],
-          "factGroundingSourceId": "115-s1/g4/social#u2"
-        },
-        {
-          "sceneId": "u2-s4",
-          "componentType": "WARMUP_CHECK",
-          "title": "進場前暖身確認",
-          "narrationText": "先確認一次地圖要素的功能，再進入關卡挑戰！",
-          "cognitiveChunks": [
-            "圖例用來解釋地圖上的各種簡化符號"
-          ],
-          "warmupCheck": {
-            "prompt": "在地圖角落列出書本、十字、火車等小圖案並說明各自代表的真實設施，這個部分稱為什麼？",
-            "options": [
-              "圖名",
-              "圖例",
-              "方位標"
-            ],
-            "answerIndex": 1,
-            "feedbackCorrect": "完全正確！圖例就像符號小字典，幫我們快速看懂地圖上的設施。",
-            "feedbackRetry": "圖名是地圖的標題，方位標用來指方向，那解釋符號意義的區域叫什麼呢？"
-          },
-          "factGroundingSourceId": "115-s1/g4/social#u2"
-        }
-      ]
-    },
-    {
-      "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g4-social-u3",
-      "stageId": "115-s1-g4-social-u3",
-      "title": "三、認識家鄉景觀",
-      "ageBand": "AGE_9_12_UPPER",
-      "subject": "SCIENCE_SOCIAL",
-      "scenes": [
-        {
-          "sceneId": "u3-s1",
-          "componentType": "ANCHOR_SCENE",
-          "title": "自然風景與人為開發景觀",
-          "narrationText": "家鄉的景觀包含天然形成的自然風景，以及居民為了生活與交通需求所建造的人為開發景觀。",
-          "cognitiveChunks": [
-            "自然風景：山巒、溪流、瀑布、岩岸",
-            "人為開發：橋梁、公園、老街、水庫、車站",
-            "人地關係：居民依環境特性建設並使用家鄉空間"
-          ],
-          "analogyAnchor": "家鄉景觀就像一張雙層畫布：大自然先畫出山川與海岸，居民再依生活需要在畫布上添上橋梁、公園與老街。",
-          "visualSpec": {
-            "templateId": "concept_compare",
-            "params": {
-              "leftTitle": "自然風景",
-              "leftPoints": [
-                "山脈、河川與天然瀑布",
-                "海岸岩礁與天然濕地"
-              ],
-              "rightTitle": "人為開發景觀",
-              "rightPoints": [
-                "橋梁、堤防與火車站",
-                "古蹟老街、公園與水庫"
-              ]
-            },
-            "spatialLabels": [
-              {
-                "id": "u3-l1",
-                "text": "天然山川屬自然風景",
-                "anchorPointId": "left"
-              },
-              {
-                "id": "u3-l2",
-                "text": "建築橋梁屬人為開發",
-                "anchorPointId": "right"
-              }
-            ]
-          },
-          "factGroundingSourceId": "115-s1/g4/social#u3"
-        },
-        {
-          "sceneId": "u3-s2",
-          "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "寫在牆上的故事：地方史地探究",
-          "narrationText": "老建築牆面上的石碑、商號與題字保存了地方歷史記憶，透過實地記錄與文獻查證就能讀懂背後故事。",
-          "cognitiveChunks": [
-            "實地踏查：拍照與抄錄牆上年代、店號",
-            "多方查證：訪談地方耆老、查閱地方志",
-            "提出觀點：用照片與資料支持自己的看法"
-          ],
-          "workedExampleData": {
-            "problemStatement": "在老街踏查時發現牆上有刻著年代與商號的石碑，該如何進行深入探究並與同學分享？",
-            "steps": [
-              "第 1 步：遵守不觸碰、不塗鴉原則，拍下照片並抄寫文字內容",
-              "第 2 步：訪問當地長輩或查閱圖書館地方志、文化局資料核對歷史背景",
-              "第 3 步：整理證據照片與文獻資料，上台說明建築歷史與保存價值"
-            ],
-            "commonErrorContrast": "常見錯誤：在古蹟牆面塗鴉留念，或未經查證就憑感覺編造建築歷史故事。",
-            "selfExplanationPrompt": "想一想：為什麼分享觀察觀點時，必須附上實地照片與查證資料當作證據？",
-            "keepStepCardVisible": false
-          },
-          "factGroundingSourceId": "115-s1/g4/social#u3"
-        },
-        {
-          "sceneId": "u3-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "珍惜與維護家鄉景觀",
-          "topicSignalTitle": "參觀公園、濕地與古蹟時，怎麼做才算真正愛護家鄉？",
-          "narrationText": "家鄉的自然與人文景觀都是大家共同的寶藏，不攀爬塗鴉、隨手帶走垃圾，才能讓美景與歷史長久留存。",
-          "cognitiveChunks": [
-            "不塗鴉、不刻字、不攀爬歷史文物",
-            "垃圾不落地，共同維護環境整潔",
-            "支持社區環境保育與古蹟保存行動"
-          ],
-          "factGroundingSourceId": "115-s1/g4/social#u3"
-        },
-        {
-          "sceneId": "u3-s4",
-          "componentType": "WARMUP_CHECK",
-          "title": "進場前暖身確認",
-          "narrationText": "先分辨一次自然風景與人為開發景觀，再開始闖關！",
-          "cognitiveChunks": [
-            "未經人工建造的山川瀑布屬於自然風景"
-          ],
-          "warmupCheck": {
-            "prompt": "下列哪一項景觀屬於「人為開發」景觀？",
-            "options": [
-              "連綿的高山山脈",
-              "天然形成的溪流瀑布",
-              "跨越河川的鋼骨橋梁與火車站"
-            ],
-            "answerIndex": 2,
-            "feedbackCorrect": "答對了！橋梁與火車站是人們為了交通與生活便利而建造的人為開發景觀。",
-            "feedbackRetry": "想一想哪一個是人類設計建造出來的，而不是大自然原本就有的地形水景？"
-          },
-          "factGroundingSourceId": "115-s1/g4/social#u3"
-        }
-      ]
-    },
-    {
-      "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g4-social-u4",
-      "stageId": "115-s1-g4-social-u4",
-      "title": "四、家鄉的節慶",
-      "ageBand": "AGE_9_12_UPPER",
-      "subject": "SCIENCE_SOCIAL",
-      "scenes": [
-        {
-          "sceneId": "u4-s1",
-          "componentType": "ANCHOR_SCENE",
-          "title": "傳統節慶、地方特色與生活節日",
-          "narrationText": "家鄉的節慶豐富多元，既有慎終追遠、祈福團圓的傳統節慶，也有地方特色祭典與來自國外的多元節日。",
-          "cognitiveChunks": [
-            "傳統節慶：春節團圓、清明掃墓、端午划龍舟、中秋賞月",
-            "地方特色節慶：結合在地信仰、族群與歷史",
-            "外來與生活節日：反映多元價值與文化交流"
-          ],
-          "analogyAnchor": "一整年的日曆就像家鄉的文化萬花筒：不同族群與世代的節慶輪流登場，各自傳遞感謝、團圓與祝福的心意。",
-          "visualSpec": {
-            "templateId": "concept_compare",
-            "params": {
-              "leftTitle": "地方特色與傳統節慶",
-              "leftPoints": [
-                "紮根在地歷史與族群信仰",
-                "如清明、端午、原住民族祭儀"
-              ],
-              "rightTitle": "外來節慶與現代節日",
-              "rightPoints": [
-                "源自跨國交流或公共紀念價值",
-                "如耶誕節、教師節、世界地球日"
-              ]
-            },
-            "spatialLabels": [
-              {
-                "id": "u4-l1",
-                "text": "傳統節慶傳承歷史",
-                "anchorPointId": "left"
-              },
-              {
-                "id": "u4-l2",
-                "text": "多元節日豐富生活",
-                "anchorPointId": "right"
-              }
-            ]
-          },
-          "factGroundingSourceId": "115-s1/g4/social#u4"
-        },
-        {
-          "sceneId": "u4-s2",
-          "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "觀察日曆，探究節慶的由來與意義",
-          "narrationText": "面對生活中的節慶習俗，不只照著過節，更要學會提出好奇的問題並向長輩或資料求證。",
-          "cognitiveChunks": [
-            "觀察日曆上的國曆與農曆節日差異",
-            "提出有意義的「為什麼」探究問題",
-            "透過訪談長輩或查閱資料理解文化意義"
-          ],
-          "workedExampleData": {
-            "problemStatement": "翻閱日曆時發現各地同時有原住民族祭儀、客家義民文化、漢人廟會與新住民節慶，該如何看待與探究？",
-            "steps": [
-              "第 1 步：察覺家鄉由多元族群共同組成，各自保留珍貴的歲時文化",
-              "第 2 步：抱持好奇與尊重態度，針對感興趣的節日提出問題（例如服飾或食物意義）",
-              "第 3 步：透過社區分享、長輩訪談或圖書館資料深入了解異同與精神"
-            ],
-            "commonErrorContrast": "常見錯誤：看到和自己家裡不一樣的節慶習俗就覺得奇怪或取笑，不願理解背後文化。",
-            "selfExplanationPrompt": "想一想：母親節、教師節和世界地球日這類生活節日，分別在提醒我們關心或感謝什麼？",
-            "keepStepCardVisible": false
-          },
-          "factGroundingSourceId": "115-s1/g4/social#u4"
-        },
-        {
-          "sceneId": "u4-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "尊重與欣賞多元文化態度",
-          "topicSignalTitle": "遇到不同族群或國家的節慶習俗時，該抱持什麼態度？",
-          "narrationText": "文化沒有高低優劣之分，用開放、友善與欣賞的眼光認識不同節慶，能讓家鄉社區更加和諧共融。",
-          "cognitiveChunks": [
-            "理解不同族群節慶的歷史與祝福意義",
-            "尊重差異，不任意批評或取笑他人習俗",
-            "樂於參與跨文化交流活動"
-          ],
-          "factGroundingSourceId": "115-s1/g4/social#u4"
-        },
-        {
-          "sceneId": "u4-s4",
-          "componentType": "WARMUP_CHECK",
-          "title": "進場前暖身確認",
-          "narrationText": "先確認一次傳統節慶與習俗的配對，準備挑戰第四關！",
-          "cognitiveChunks": [
-            "每個傳統節慶都有對應的習俗與家庭意義"
-          ],
-          "warmupCheck": {
-            "prompt": "下列哪一組「傳統節慶與習俗意義」的配對完全正確？",
-            "options": [
-              "端午節：賞月吃月餅象徵團圓",
-              "清明節：掃墓祭祖表達慎終追遠",
-              "中秋節：划龍舟比賽並佩帶香包"
-            ],
-            "answerIndex": 1,
-            "feedbackCorrect": "完全正確！清明節掃墓祭祖表達對先人的懷念與追思。",
-            "feedbackRetry": "再對照一次：端午節划龍舟吃粽子、中秋節賞月吃月餅，哪一個才是清明節的習俗呢？"
-          },
-          "factGroundingSourceId": "115-s1/g4/social#u4"
-        }
-      ]
-    },
-    {
-      "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g4-social-u5",
-      "stageId": "115-s1-g4-social-u5",
-      "title": "〔探究〕家鄉的生活・探究方法123",
-      "ageBand": "AGE_9_12_UPPER",
-      "subject": "SCIENCE_SOCIAL",
-      "scenes": [
-        {
-          "sceneId": "u5-s1",
-          "componentType": "ANCHOR_SCENE",
-          "title": "從生活變遷學習分辨事實與意見",
-          "narrationText": "家鄉居民的生活會隨時代與科技變遷而改變；研究這些變化時，必須學會蒐集可信資訊並清楚區分事實與意見。",
-          "cognitiveChunks": [
-            "家鄉生活隨科技、交通與社會變遷持續演進",
-            "優先採用公部門、文獻與實地訪談等可信資料",
-            "事實可客觀查證，意見則是個人主觀感受"
-          ],
-          "analogyAnchor": "做探究就像當一位小偵探：客觀「事實」是能用尺量或查資料確認的證據，主觀「意見」則是每個人心裡不同的感想。",
-          "visualSpec": {
-            "templateId": "concept_compare",
-            "params": {
-              "leftTitle": "客觀「事實」",
-              "leftPoints": [
-                "可用數據、時間或現場核對",
-                "例如：每日停靠 28 班列車"
-              ],
-              "rightTitle": "主觀「意見」",
-              "rightPoints": [
-                "帶有個人喜好、評價或建議",
-                "例如：我覺得車站造型最帥氣"
-              ]
-            },
-            "spatialLabels": [
-              {
-                "id": "u5-l1",
-                "text": "事實可客觀查證真偽",
-                "anchorPointId": "left"
-              },
-              {
-                "id": "u5-l2",
-                "text": "意見屬個人感受評價",
-                "anchorPointId": "right"
-              }
-            ]
-          },
-          "factGroundingSourceId": "115-s1/g4/social#u5"
-        },
-        {
-          "sceneId": "u5-s2",
-          "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "探究方法 123：從提問到分享",
-          "narrationText": "進行家鄉生活變遷探究時，要依序訂出可查證的問題、蒐集可靠證據、分析事實與意見，最後誠實分享結論。",
-          "cognitiveChunks": [
-            "第 1 步：提出貼近生活且能查證的探究問題",
-            "第 2 步：從公所網站、地方志與耆老訪談蒐集資料",
-            "第 3 步：核對事實證據並上台分享、接受提問"
-          ],
-          "workedExampleData": {
-            "problemStatement": "想研究「家鄉商店街二十年來的改變」，應該選用哪些可靠資料，並如何分辨紀錄中的事實與意見？",
-            "steps": [
-              "第 1 步：選用鄉鎮市公所公開資料、圖書館老照片畫冊與老店老闆訪談紀錄",
-              "第 2 步：排除沒有署名與出處的匿名網路流言",
-              "第 3 步：將「民國九十五年啟用、設有幾樓」歸類為事實，將「我覺得最美味」歸類為意見"
-            ],
-            "commonErrorContrast": "常見錯誤：把匿名網友的主觀抱怨當成客觀史實，或發現資料與猜想不同時擅自塗改紀錄。",
-            "selfExplanationPrompt": "想一想：搭配《品桃園》等在地化家鄉教材一起學習，對認識自己的生活環境有什麼幫助？",
-            "keepStepCardVisible": false
-          },
-          "factGroundingSourceId": "115-s1/g4/social#u5"
-        },
-        {
-          "sceneId": "u5-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "連結在地教材與誠信探究態度",
-          "topicSignalTitle": "誠實呈現探究證據，從在地出發認識家鄉",
-          "narrationText": "結合在地化家鄉課程資源，能讓我們把抽象概念與每日走過的街道、公園連結起來，培養關心社區的情懷。",
-          "cognitiveChunks": [
-            "誠實記錄並註明資料來源，不抄襲他人報告",
-            "尊重證據，如實呈現與原本猜想不同的結果",
-            "從日常生活土地出發，關懷家鄉環境與文化"
-          ],
-          "factGroundingSourceId": "115-s1/g4/social#u5"
-        },
-        {
-          "sceneId": "u5-s4",
-          "componentType": "WARMUP_CHECK",
-          "title": "進場前暖身確認",
-          "narrationText": "先練習分辨一次事實與意見，再進入最終關卡！",
-          "cognitiveChunks": [
-            "能實地核對或查證數字時間的陳述才是事實"
-          ],
-          "warmupCheck": {
-            "prompt": "關於家鄉圖書館新館的敘述，哪一句屬於可以客觀查證的「事實」？",
-            "options": [
-              "新館共有三層樓，一樓為兒童閱覽區",
-              "我覺得新館的椅子顏色應該改成粉紅色",
-              "這座圖書館一定是全世界最漂亮的地方"
+              "認識「1.陸地的運輸」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
             "answerIndex": 0,
-            "feedbackCorrect": "答對了！樓層數與空間配置都可以實地確認，是標準的事實陳述。",
-            "feedbackRetry": "找找看哪一句沒有「我覺得」或「最漂亮」這類個人主觀感受，而是可以實地數一數的資訊？"
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-social-u1-l2",
+      "stageId": "115-s1-g4-social-u1-l2",
+      "title": "2.船運與空運",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1l2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "船運與空運：核心概念",
+          "narrationText": "在「一、交通與訊息」的「2.船運與空運」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「2.船運與空運」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「2.船運與空運」的知識應用在日常生活中。",
+            "能用自己的話歸納「2.船運與空運」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「2.船運與空運」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "2.船運與空運",
+              "leftPoints": [
+                "認識「2.船運與空運」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "2.船運與空運",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u1"
+        },
+        {
+          "sceneId": "u1l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「2.船運與空運」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「2.船運與空運」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「2.船運與空運」",
+              "第 2 步：對照本課核心「認識「2.船運與空運」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「2.船運與空運」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u1"
+        },
+        {
+          "sceneId": "u1l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「2.船運與空運」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「2.船運與空運」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「2.船運與空運」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「2.船運與空運」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-social-u1-l3",
+      "stageId": "115-s1-g4-social-u1-l3",
+      "title": "3.訊息的傳播",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "訊息的傳播：核心概念",
+          "narrationText": "在「一、交通與訊息」的「3.訊息的傳播」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「3.訊息的傳播」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「3.訊息的傳播」的知識應用在日常生活中。",
+            "能用自己的話歸納「3.訊息的傳播」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「3.訊息的傳播」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "3.訊息的傳播",
+              "leftPoints": [
+                "認識「3.訊息的傳播」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "3.訊息的傳播",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u1"
+        },
+        {
+          "sceneId": "u1l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「3.訊息的傳播」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「3.訊息的傳播」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「3.訊息的傳播」",
+              "第 2 步：對照本課核心「認識「3.訊息的傳播」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「3.訊息的傳播」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u1"
+        },
+        {
+          "sceneId": "u1l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「3.訊息的傳播」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「3.訊息的傳播」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「3.訊息的傳播」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「3.訊息的傳播」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-social-u1-l4",
+      "stageId": "115-s1-g4-social-u1-l4",
+      "title": "〈玩探究〉眼見為憑？分辨真假訊息",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1l4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "〈玩探究〉眼見為憑？分辨真假訊息：核心概念",
+          "narrationText": "在「一、交通與訊息」的「〈玩探究〉眼見為憑？分辨真假訊息」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「〈玩探究〉眼見為憑？",
+            "透過觀察與討論，將「〈玩探究〉眼見為憑？",
+            "能用自己的話歸納「〈玩探究〉眼見為憑？"
+          ],
+          "analogyAnchor": "把「〈玩探究〉眼見為憑？分辨真假訊息」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "〈玩探究〉眼見為憑？分辨真假",
+              "leftPoints": [
+                "認識「〈玩探究〉眼見為憑？",
+                "透過觀察與討論，將「〈玩探究〉眼見為憑？"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "〈玩探究〉眼見為憑？",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u1"
+        },
+        {
+          "sceneId": "u1l4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「〈玩探究〉眼見為憑？",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「〈玩探究〉眼見為憑？分辨真假訊息」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「〈玩探究〉眼見為憑？分辨真假」",
+              "第 2 步：對照本課核心「認識「〈玩探究〉眼見為憑？」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「〈玩探究〉眼見為憑？分辨」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u1"
+        },
+        {
+          "sceneId": "u1l4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「〈玩探究〉眼見為憑？分辨真假」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「〈玩探究〉眼見為憑？"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「〈玩探究〉眼見為憑？分辨真假」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「〈玩探究〉眼見為憑？",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-social-u2-l1",
+      "stageId": "115-s1-g4-social-u2-l1",
+      "title": "1.閱讀地圖認識家鄉",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "閱讀地圖認識家鄉：核心概念",
+          "narrationText": "在「二、地圖上的家鄉」的「1.閱讀地圖認識家鄉」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「1.閱讀地圖認識家鄉」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「1.閱讀地圖認識家鄉」的知識應用在日常生活中。",
+            "能用自己的話歸納「1.閱讀地圖認識家鄉」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「1.閱讀地圖認識家鄉」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "1.閱讀地圖認識家鄉",
+              "leftPoints": [
+                "認識「1.閱讀地圖認識家鄉」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "1.閱讀地圖認識家鄉",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u2"
+        },
+        {
+          "sceneId": "u2l1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「1.閱讀地圖認識家鄉」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「1.閱讀地圖認識家鄉」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「1.閱讀地圖認識家鄉」",
+              "第 2 步：對照本課核心「認識「1.閱讀地圖認識家鄉」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「1.閱讀地圖認識家鄉」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u2"
+        },
+        {
+          "sceneId": "u2l1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「1.閱讀地圖認識家鄉」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「1.閱讀地圖認識家鄉」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「1.閱讀地圖認識家鄉」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「1.閱讀地圖認識家鄉」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-social-u2-l2",
+      "stageId": "115-s1-g4-social-u2-l2",
+      "title": "2.家鄉的地圖",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "家鄉的地圖：核心概念",
+          "narrationText": "在「二、地圖上的家鄉」的「2.家鄉的地圖」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「2.家鄉的地圖」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「2.家鄉的地圖」的知識應用在日常生活中。",
+            "能用自己的話歸納「2.家鄉的地圖」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「2.家鄉的地圖」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "2.家鄉的地圖",
+              "leftPoints": [
+                "認識「2.家鄉的地圖」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "2.家鄉的地圖",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u2"
+        },
+        {
+          "sceneId": "u2l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「2.家鄉的地圖」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「2.家鄉的地圖」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「2.家鄉的地圖」",
+              "第 2 步：對照本課核心「認識「2.家鄉的地圖」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「2.家鄉的地圖」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u2"
+        },
+        {
+          "sceneId": "u2l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「2.家鄉的地圖」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「2.家鄉的地圖」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「2.家鄉的地圖」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「2.家鄉的地圖」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-social-u2-l3",
+      "stageId": "115-s1-g4-social-u2-l3",
+      "title": "〈玩探究〉善用地圖探究家鄉",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "〈玩探究〉善用地圖探究家鄉：核心概念",
+          "narrationText": "在「二、地圖上的家鄉」的「〈玩探究〉善用地圖探究家鄉」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「〈玩探究〉善用地圖探究家鄉」的核心概念與現象",
+            "透過觀察與討論",
+            "能用自己的話歸納「〈玩探究〉善用地圖探究家鄉」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「〈玩探究〉善用地圖探究家鄉」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "〈玩探究〉善用地圖探究家鄉",
+              "leftPoints": [
+                "認識「〈玩探究〉善用地圖探究家鄉」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "〈玩探究〉善用地圖探",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u2"
+        },
+        {
+          "sceneId": "u2l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「〈玩探究〉善用地圖探究家鄉」的核心概念與現象",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「〈玩探究〉善用地圖探究家鄉」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「〈玩探究〉善用地圖探究家鄉」",
+              "第 2 步：對照本課核心「認識「〈玩探究〉善用地圖探究家鄉」的核心概。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「〈玩探究〉善用地圖探究家」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u2"
+        },
+        {
+          "sceneId": "u2l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「〈玩探究〉善用地圖探究家鄉」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「〈玩探究〉善用地圖探究家鄉」的核心概念與現象"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「〈玩探究〉善用地圖探究家鄉」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「〈玩探究〉善用地圖探究家鄉」的核心概念與現象",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-social-u3-l1",
+      "stageId": "115-s1-g4-social-u3-l1",
+      "title": "1.家鄉的景觀",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "家鄉的景觀：核心概念",
+          "narrationText": "在「三、認識家鄉景觀」的「1.家鄉的景觀」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「1.家鄉的景觀」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「1.家鄉的景觀」的知識應用在日常生活中。",
+            "能用自己的話歸納「1.家鄉的景觀」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「1.家鄉的景觀」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "1.家鄉的景觀",
+              "leftPoints": [
+                "認識「1.家鄉的景觀」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "1.家鄉的景觀",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u3"
+        },
+        {
+          "sceneId": "u3l1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「1.家鄉的景觀」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「1.家鄉的景觀」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「1.家鄉的景觀」",
+              "第 2 步：對照本課核心「認識「1.家鄉的景觀」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「1.家鄉的景觀」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u3"
+        },
+        {
+          "sceneId": "u3l1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「1.家鄉的景觀」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「1.家鄉的景觀」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「1.家鄉的景觀」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「1.家鄉的景觀」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-social-u3-l2",
+      "stageId": "115-s1-g4-social-u3-l2",
+      "title": "2.家鄉景觀與生活",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3l2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "家鄉景觀與生活：核心概念",
+          "narrationText": "在「三、認識家鄉景觀」的「2.家鄉景觀與生活」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「2.家鄉景觀與生活」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「2.家鄉景觀與生活」的知識應用在日常生活中。",
+            "能用自己的話歸納「2.家鄉景觀與生活」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「2.家鄉景觀與生活」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "2.家鄉景觀與生活",
+              "leftPoints": [
+                "認識「2.家鄉景觀與生活」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "2.家鄉景觀與生活",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u3"
+        },
+        {
+          "sceneId": "u3l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「2.家鄉景觀與生活」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「2.家鄉景觀與生活」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「2.家鄉景觀與生活」",
+              "第 2 步：對照本課核心「認識「2.家鄉景觀與生活」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「2.家鄉景觀與生活」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u3"
+        },
+        {
+          "sceneId": "u3l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「2.家鄉景觀與生活」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「2.家鄉景觀與生活」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「2.家鄉景觀與生活」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「2.家鄉景觀與生活」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-social-u3-l3",
+      "stageId": "115-s1-g4-social-u3-l3",
+      "title": "〈玩探究〉寫在牆上的故事",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "〈玩探究〉寫在牆上的故事：核心概念",
+          "narrationText": "在「三、認識家鄉景觀」的「〈玩探究〉寫在牆上的故事」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「〈玩探究〉寫在牆上的故事」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論",
+            "能用自己的話歸納「〈玩探究〉寫在牆上的故事」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「〈玩探究〉寫在牆上的故事」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "〈玩探究〉寫在牆上的故事",
+              "leftPoints": [
+                "認識「〈玩探究〉寫在牆上的故事」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "〈玩探究〉寫在牆上的",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u3"
+        },
+        {
+          "sceneId": "u3l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「〈玩探究〉寫在牆上的故事」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「〈玩探究〉寫在牆上的故事」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「〈玩探究〉寫在牆上的故事」",
+              "第 2 步：對照本課核心「認識「〈玩探究〉寫在牆上的故事」的核心概念。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「〈玩探究〉寫在牆上的故事」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u3"
+        },
+        {
+          "sceneId": "u3l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「〈玩探究〉寫在牆上的故事」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「〈玩探究〉寫在牆上的故事」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「〈玩探究〉寫在牆上的故事」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「〈玩探究〉寫在牆上的故事」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-social-u4-l1",
+      "stageId": "115-s1-g4-social-u4-l1",
+      "title": "1.家鄉的傳統節慶",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "家鄉的傳統節慶：核心概念",
+          "narrationText": "在「四、家鄉的節慶」的「1.家鄉的傳統節慶」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「1.家鄉的傳統節慶」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「1.家鄉的傳統節慶」的知識應用在日常生活中。",
+            "能用自己的話歸納「1.家鄉的傳統節慶」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「1.家鄉的傳統節慶」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "1.家鄉的傳統節慶",
+              "leftPoints": [
+                "認識「1.家鄉的傳統節慶」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "1.家鄉的傳統節慶",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u4"
+        },
+        {
+          "sceneId": "u4l1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「1.家鄉的傳統節慶」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「1.家鄉的傳統節慶」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「1.家鄉的傳統節慶」",
+              "第 2 步：對照本課核心「認識「1.家鄉的傳統節慶」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「1.家鄉的傳統節慶」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u4"
+        },
+        {
+          "sceneId": "u4l1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「1.家鄉的傳統節慶」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「1.家鄉的傳統節慶」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「1.家鄉的傳統節慶」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「1.家鄉的傳統節慶」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-social-u4-l2",
+      "stageId": "115-s1-g4-social-u4-l2",
+      "title": "2.家鄉的特色節慶活動",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "家鄉的特色節慶活動：核心概念",
+          "narrationText": "在「四、家鄉的節慶」的「2.家鄉的特色節慶活動」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「2.家鄉的特色節慶活動」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「2.家鄉的特色節慶活動」的知識應用在日常生活中。",
+            "能用自己的話歸納「2.家鄉的特色節慶活動」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「2.家鄉的特色節慶活動」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "2.家鄉的特色節慶活動",
+              "leftPoints": [
+                "認識「2.家鄉的特色節慶活動」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "2.家鄉的特色節慶活",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u4"
+        },
+        {
+          "sceneId": "u4l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「2.家鄉的特色節慶活動」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「2.家鄉的特色節慶活動」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「2.家鄉的特色節慶活動」",
+              "第 2 步：對照本課核心「認識「2.家鄉的特色節慶活動」的核心概念與。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「2.家鄉的特色節慶活動」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u4"
+        },
+        {
+          "sceneId": "u4l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「2.家鄉的特色節慶活動」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「2.家鄉的特色節慶活動」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「2.家鄉的特色節慶活動」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「2.家鄉的特色節慶活動」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-social-u4-l3",
+      "stageId": "115-s1-g4-social-u4-l3",
+      "title": "3.發現生活中的節日",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "發現生活中的節日：核心概念",
+          "narrationText": "在「四、家鄉的節慶」的「3.發現生活中的節日」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「3.發現生活中的節日」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「3.發現生活中的節日」的知識應用在日常生活中。",
+            "能用自己的話歸納「3.發現生活中的節日」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「3.發現生活中的節日」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "3.發現生活中的節日",
+              "leftPoints": [
+                "認識「3.發現生活中的節日」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "3.發現生活中的節日",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u4"
+        },
+        {
+          "sceneId": "u4l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「3.發現生活中的節日」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「3.發現生活中的節日」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「3.發現生活中的節日」",
+              "第 2 步：對照本課核心「認識「3.發現生活中的節日」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「3.發現生活中的節日」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u4"
+        },
+        {
+          "sceneId": "u4l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「3.發現生活中的節日」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「3.發現生活中的節日」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「3.發現生活中的節日」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「3.發現生活中的節日」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-social-u4-l4",
+      "stageId": "115-s1-g4-social-u4-l4",
+      "title": "〈玩探究〉尋找生活中的節慶",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "〈玩探究〉尋找生活中的節慶：核心概念",
+          "narrationText": "在「四、家鄉的節慶」的「〈玩探究〉尋找生活中的節慶」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「〈玩探究〉尋找生活中的節慶」的核心概念與現象",
+            "透過觀察與討論",
+            "能用自己的話歸納「〈玩探究〉尋找生活中的節慶」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「〈玩探究〉尋找生活中的節慶」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "〈玩探究〉尋找生活中的節慶",
+              "leftPoints": [
+                "認識「〈玩探究〉尋找生活中的節慶」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "〈玩探究〉尋找生活中",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u4"
+        },
+        {
+          "sceneId": "u4l4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「〈玩探究〉尋找生活中的節慶」的核心概念與現象",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「〈玩探究〉尋找生活中的節慶」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「〈玩探究〉尋找生活中的節慶」",
+              "第 2 步：對照本課核心「認識「〈玩探究〉尋找生活中的節慶」的核心概。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「〈玩探究〉尋找生活中的節」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u4"
+        },
+        {
+          "sceneId": "u4l4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「〈玩探究〉尋找生活中的節慶」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「〈玩探究〉尋找生活中的節慶」的核心概念與現象"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「〈玩探究〉尋找生活中的節慶」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「〈玩探究〉尋找生活中的節慶」的核心概念與現象",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g4-social-u5-l1",
+      "stageId": "115-s1-g4-social-u5-l1",
+      "title": "〔探究〕家鄉的生活￭探究方法123",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "〔探究〕家鄉的生活￭探究方法123：核心概念",
+          "narrationText": "在「〔探究〕家鄉的生活￭探究方法123（另附桃園在地化課程《品桃園》）」的「〔探究〕家鄉的生活￭探究方法123」中",
+          "cognitiveChunks": [
+            "教材來源另載明以桃園在地化課程教材《品桃園》為輔（p.332 課程。"
+          ],
+          "analogyAnchor": "把「〔探究〕家鄉的生活￭探究方法123」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "〔探究〕家鄉的生活￭探究方法",
+              "leftPoints": [
+                "教材來源另載明以桃園在地化課程教材《品桃園》為輔（p.。",
+                "教材來源另載明以桃園在地化課程教材《品桃園》為輔（p.。"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "〔探究〕家鄉的生活￭",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u5"
+        },
+        {
+          "sceneId": "u5l1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "教材來源另載明以桃園在地化課程教材《品桃園》為輔（p.332 課程。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「〔探究〕家鄉的生活￭探究方法123」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「〔探究〕家鄉的生活￭探究方法」",
+              "第 2 步：對照本課核心「教材來源另載明以桃園在地化課程教材《品桃園。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「〔探究〕家鄉的生活￭探究」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g4/social#u5"
+        },
+        {
+          "sceneId": "u5l1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「〔探究〕家鄉的生活￭探究方法」後再開始挑戰！",
+          "cognitiveChunks": [
+            "教材來源另載明以桃園在地化課程教材《品桃園》為輔（p.332 課程。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「〔探究〕家鄉的生活￭探究方法」，哪一項才是正確的學習重點？",
+            "options": [
+              "教材來源另載明以桃園在地化課程教材《品桃園》為輔（p.332 課程。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s1/g4/social#u5"
         }

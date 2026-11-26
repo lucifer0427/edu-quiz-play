@@ -8,46 +8,44 @@
   "lessons": [
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g6-social-u1",
-      "stageId": "115-s1-g6-social-u1",
-      "title": "第一單元 民主政治的發展",
+      "lessonId": "lesson-115-s1-g6-social-u1-l1",
+      "stageId": "115-s1-g6-social-u1-l1",
+      "title": "第1課 臺灣人民爭取民主自由的歷程為何？",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "g6s1-social-u1-s1",
+          "sceneId": "u1l1-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "民主自由的歷程與權利義務的平衡",
-          "narrationText": "臺灣的民主制度是前人長期爭取而來，得來不易。在民主法治社會裡，人民依法享有受教育、言論自由與選舉等權利，同時也須履行納稅、守法與接受國民義務教育的責任。",
+          "title": "第1課 臺灣人民爭取民主自由的歷程為何？：核心概念",
+          "narrationText": "在「第一單元 民主政治的發展」的「第1課 臺灣人民爭取民主自由的歷程為何？」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "民主制度得來不易，需共同珍惜守護",
-            "人民權利：受教育、言論自由、選舉與福利",
-            "國民義務：納稅、守法、受國民義務教育"
+            "解析特定人物、事件、制度對臺灣歷史的影響"
           ],
-          "analogyAnchor": "權利與義務就像腳踏車的兩個輪子，人民履行納稅與守法的義務，國家才有資源與秩序保障每個人的權利。",
+          "analogyAnchor": "把「第1課 臺灣人民爭取民主自由的歷程為何？」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "人民基本權利",
+              "leftTitle": "第1課 臺灣人民爭取民主自由",
               "leftPoints": [
-                "受教育與社會福利保障",
-                "言論自由與選舉投票權"
+                "解析特定人物、事件、制度對臺灣歷史的影響",
+                "解析特定人物、事件、制度對臺灣歷史的影響"
               ],
-              "rightTitle": "國民應盡義務",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "依法誠實納稅與守法",
-                "適齡接受國民義務教育"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
-                "id": "g6s1-soc-u1-l1",
-                "text": "法律保障基本權利",
+                "id": "l1",
+                "text": "第1課 臺灣人民爭取",
                 "anchorPointId": "left"
               },
               {
-                "id": "g6s1-soc-u1-l2",
-                "text": "納稅守法撐起國家",
+                "id": "l2",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -55,58 +53,45 @@
           "factGroundingSourceId": "115-s1/g6/social#u1"
         },
         {
-          "sceneId": "g6s1-social-u1-s2",
+          "sceneId": "u1l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "政府施政與人民權利救濟步驟",
-          "narrationText": "民主國家以民為主，但政府政策有時仍可能影響個人或群體的合法權益，此時民眾可依循法定救濟途徑維護權益。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "政府決策應傾聽民意並尊重少數權益",
-            "權益受損時可透過合法程序請求救濟"
+            "解析特定人物、事件、制度對臺灣歷史的影響",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "如果社區居民認為政府機關的某項處分違法或不當，導致自身合法權益受損，應該依循哪些理性合法的步驟向政府提出救濟？",
+            "problemStatement": "複習「第1課 臺灣人民爭取民主自由的歷程為何？」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：蒐集相關公文、證據並向原承辦機關提出陳情或意見說明",
-              "第 2 步：若仍未獲得妥善解決，可依法向上級機關提起「訴願」請求重新審查",
-              "第 3 步：對訴願結果仍不服時，可向「行政法院」提起行政訴訟，由司法機關公正裁判"
+              "第 1 步：確認題目在問「第1課 臺灣人民爭取民主自由」",
+              "第 2 步：對照本課核心「解析特定人物、事件、制度對臺灣歷史的影響」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：誤以為只能默默忍受不敢發聲，或是採取噴漆、破壞公物、散播謠言等違法激烈手段抗議。",
-            "selfExplanationPrompt": "想一想：為什麼在行使自由權利時，不能侵害他人的合法權益或破壞公共秩序？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第1課 臺灣人民爭取民主」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s1/g6/social#u1"
         },
         {
-          "sceneId": "g6s1-social-u1-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "民主法治的界線與公民意識",
-          "topicSignalTitle": "珍惜民主成果，依法行使權利並履行義務",
-          "narrationText": "回顧特定人物、事件與制度對臺灣歷史的影響，能提醒我們民主自由需要每位公民理性參與、遵守法治並尊重他人權益。",
-          "cognitiveChunks": [
-            "自由權利以不侵害他人與公益為界線",
-            "陳情、訴願、行政訴訟是合法救濟管道"
-          ],
-          "factGroundingSourceId": "115-s1/g6/social#u1"
-        },
-        {
-          "sceneId": "g6s1-social-u1-s4",
+          "sceneId": "u1l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "先用這題確認你是否清楚「權利與義務」的關係！",
+          "narrationText": "先做一題暖身確認，確認掌握「第1課 臺灣人民爭取民主自由」後再開始挑戰！",
           "cognitiveChunks": [
-            "權利與義務相輔相成、缺一不可"
+            "解析特定人物、事件、制度對臺灣歷史的影響"
           ],
           "warmupCheck": {
-            "prompt": "在民主國家中，人民依法繳納稅金與遵守法律，和享有公園、學校等公共福利之間是什麼關係？",
+            "prompt": "關於「第1課 臺灣人民爭取民主自由」，哪一項才是正確的學習重點？",
             "options": [
-              "人民履行義務提供資源與秩序，國家才能保障大家的權利與福利",
-              "只有大人需要盡義務，小學生不需要遵守任何法律",
-              "權利與義務互相排斥，不能同時存在",
-              "只要不繳稅，國家一樣能免費提供所有公共建設"
+              "解析特定人物、事件、制度對臺灣歷史的影響",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
             "answerIndex": 0,
-            "feedbackCorrect": "完全正確！權利與義務相輔相成，全體國民盡義務，國家才能順利運作並保障人民權利。",
-            "feedbackRetry": "想一想：如果沒有人繳稅和守法，政府哪來的經費與秩序來蓋學校和公園呢？"
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s1/g6/social#u1"
         }
@@ -114,46 +99,226 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g6-social-u2",
-      "stageId": "115-s1-g6-social-u2",
-      "title": "第二單元 社會變遷下的個人發展與族群文化",
+      "lessonId": "lesson-115-s1-g6-social-u1-l2",
+      "stageId": "115-s1-g6-social-u1-l2",
+      "title": "第2課 臺灣人民有哪些權利和義務？",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "g6s1-social-u2-s1",
+          "sceneId": "u1l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "社會變遷中的個人發展與多元族群交流",
-          "narrationText": "每個人因年齡、生活經驗與背景不同，對社會事物常有不同的認知與感受。同時，臺灣匯聚了原住民族、閩南、客家與新住民等多元族群，彼此交流創造出豐富的文化多樣性。",
+          "title": "第2課 臺灣人民有哪些權利和義務？：核心概念",
+          "narrationText": "在「第一單元 民主政治的發展」的「第2課 臺灣人民有哪些權利和義務？」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "不同生活經驗造成對事務的不同感受",
-            "打破性別刻板印象，支持個人適性發展",
-            "多族群長期交流塑造臺灣多元文化"
+            "體認人民享有國家制度與福利的同時也必須付出義務"
           ],
-          "analogyAnchor": "臺灣的文化就像一座大花園，原住民族、閩南、客家與新住民文化各有特色，互相欣賞交流讓花園更繽紛。",
+          "analogyAnchor": "把「第2課 臺灣人民有哪些權利和義務？」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "個人與社會變遷",
+              "leftTitle": "第2課 臺灣人民有哪些權利和",
               "leftPoints": [
-                "尊重差異與換位思考",
-                "打破性別與角色刻板印象"
+                "體認人民享有國家制度與福利的同時也必須付出義務",
+                "體認人民享有國家制度與福利的同時也必須付出義務"
               ],
-              "rightTitle": "族群交流與文化",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "原住民族與漢人、新住民互動",
-                "欣賞並尊重文化多樣性"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
-                "id": "g6s1-soc-u2-l1",
-                "text": "尊重差異溝通協調",
+                "id": "l1",
+                "text": "第2課 臺灣人民有哪",
                 "anchorPointId": "left"
               },
               {
-                "id": "g6s1-soc-u2-l2",
-                "text": "多元文化交流共融",
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/social#u1"
+        },
+        {
+          "sceneId": "u1l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "體認人民享有國家制度與福利的同時也必須付出義務",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第2課 臺灣人民有哪些權利和義務？」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第2課 臺灣人民有哪些權利和」",
+              "第 2 步：對照本課核心「體認人民享有國家制度與福利的同時也必須付出。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第2課 臺灣人民有哪些權」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/social#u1"
+        },
+        {
+          "sceneId": "u1l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第2課 臺灣人民有哪些權利和」後再開始挑戰！",
+          "cognitiveChunks": [
+            "體認人民享有國家制度與福利的同時也必須付出義務"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第2課 臺灣人民有哪些權利和」，哪一項才是正確的學習重點？",
+            "options": [
+              "體認人民享有國家制度與福利的同時也必須付出義務",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/social#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-social-u1-l3",
+      "stageId": "115-s1-g6-social-u1-l3",
+      "title": "第3課 民主國家政府與人民的關係為何？",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第3課 民主國家政府與人民的關係為何？：核心概念",
+          "narrationText": "在「第一單元 民主政治的發展」的「第3課 民主國家政府與人民的關係為何？」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "體認政府政策以民為主，卻也可能傷害個人或群體的權益"
+          ],
+          "analogyAnchor": "把「第3課 民主國家政府與人民的關係為何？」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第3課 民主國家政府與人民的",
+              "leftPoints": [
+                "體認政府政策以民為主，卻也可能傷害個人或群體的權益",
+                "體認政府政策以民為主，卻也可能傷害個人或群體的權益"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第3課 民主國家政府",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/social#u1"
+        },
+        {
+          "sceneId": "u1l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "體認政府政策以民為主，卻也可能傷害個人或群體的權益",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第3課 民主國家政府與人民的關係為何？」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第3課 民主國家政府與人民的」",
+              "第 2 步：對照本課核心「體認政府政策以民為主」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第3課 民主國家政府與人」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/social#u1"
+        },
+        {
+          "sceneId": "u1l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第3課 民主國家政府與人民的」後再開始挑戰！",
+          "cognitiveChunks": [
+            "體認政府政策以民為主，卻也可能傷害個人或群體的權益"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第3課 民主國家政府與人民的」，哪一項才是正確的學習重點？",
+            "options": [
+              "體認政府政策以民為主，卻也可能傷害個人或群體的權益",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/social#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-social-u2-l1",
+      "stageId": "115-s1-g6-social-u2-l1",
+      "title": "第1課 個人發展如何受到社會變遷的影響？",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第1課 個人發展如何受到社會變遷的影響？：核心概念",
+          "narrationText": "在「第二單元 社會變遷下的個人發展與族群文化」的「第1課 個人發展如何受到社會變遷的影響？」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "透過分享與發表了解每個人對社會事物與環境有不同的認知、感受"
+          ],
+          "analogyAnchor": "把「第1課 個人發展如何受到社會變遷的影響？」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第1課 個人發展如何受到社會",
+              "leftPoints": [
+                "透過分享與發表了解每個人對社會事物與環境有不同的認知",
+                "透過分享與發表了解每個人對社會事物與環境有不同的認知"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第1課 個人發展如何",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -161,262 +326,409 @@
           "factGroundingSourceId": "115-s1/g6/social#u2"
         },
         {
-          "sceneId": "g6s1-social-u2-s2",
+          "sceneId": "u2l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "面對意見歧見與文化差異的溝通做法",
-          "narrationText": "當班級或社區對公共事務或家庭分工有不同想法時，透過理性傾聽與溝通協調，才能化解衝突並達成合作。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "先傾聽對方理由與需求，再理性表達觀點",
-            "文化只有差異沒有優劣之分"
+            "透過分享與發表了解每個人對社會事物與環境有不同的認知、感受",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "討論社區公園是否改建為停車場時，親子家庭希望保留綠地遊戲空間，開車上班族卻希望增加停車位，雙方該如何溝通協調？",
+            "problemStatement": "複習「第1課 個人發展如何受到社會變遷的影響？」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：先理解並尊重彼此出發點不同（孩子需要遊憩空間、車主需要停車便利）",
-              "第 2 步：透過社區會議讓雙方理性說明需求，避免互相指責或情緒對立",
-              "第 3 步：共同研擬折衷方案，例如評估地下停車場搭配地面綠地公園，兼顧多方需求"
+              "第 1 步：確認題目在問「第1課 個人發展如何受到社會」",
+              "第 2 步：對照本課核心「透過分享與發表了解每個人對社會事物與環境有。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：誤以為意見不同的人一定是故意作對，或認為大聲爭吵、強迫少數服從多數就能解決問題。",
-            "selfExplanationPrompt": "想一想：當我們在學校或社區遇見不同族群的節慶習俗時，可以用什麼具體態度表達尊重？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第1課 個人發展如何受到」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s1/g6/social#u2"
         },
         {
-          "sceneId": "g6s1-social-u2-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "性別平等、家庭溝通與多元共融",
-          "topicSignalTitle": "尊重每個人獨特的選擇與文化背景",
-          "narrationText": "在現代社會中，職業選擇與家務分工不再受傳統性別限制，每個人都能依興趣與能力發展潛能，並在多元文化互動中學會彼此欣賞。",
-          "cognitiveChunks": [
-            "家人透過溝通協調共同分擔家務",
-            "平等看待各種語言、飲食與傳統習俗"
-          ],
-          "factGroundingSourceId": "115-s1/g6/social#u2"
-        },
-        {
-          "sceneId": "g6s1-social-u2-s4",
+          "sceneId": "u2l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "先用這題確認面對多元意見與文化差異時應有的態度！",
+          "narrationText": "先做一題暖身確認，確認掌握「第1課 個人發展如何受到社會」後再開始挑戰！",
           "cognitiveChunks": [
-            "尊重差異、理性溝通與欣賞文化多樣性"
+            "透過分享與發表了解每個人對社會事物與環境有不同的認知、感受"
           ],
           "warmupCheck": {
-            "prompt": "面對社會變遷與團體中的不同意見時，培養哪一種能力最有助於化解歧見、達成合作？",
+            "prompt": "關於「第1課 個人發展如何受到社會」，哪一項才是正確的學習重點？",
             "options": [
-              "聲音越大聲越好，讓不同意見的人不敢說話",
-              "只要意見不合就立刻絕交不再往來",
-              "學習傾聽他人想法、理性表達觀點並溝通協調",
-              "每次討論都不表態，事後再私下抱怨"
-            ],
-            "answerIndex": 2,
-            "feedbackCorrect": "答對了！尊重差異並學習換位思考與溝通協調，是民主多元社會的重要素養。",
-            "feedbackRetry": "想一想：只靠大聲爭吵或沉默抱怨能解決問題嗎？試著選一個能讓雙方對話的選項！"
-          },
-          "factGroundingSourceId": "115-s1/g6/social#u2"
-        }
-      ]
-    },
-    {
-      "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g6-social-u3",
-      "stageId": "115-s1-g6-social-u3",
-      "title": "第三單元 戰後經濟發展、轉型與生活",
-      "ageBand": "AGE_9_12_UPPER",
-      "subject": "SCIENCE_SOCIAL",
-      "scenes": [
-        {
-          "sceneId": "g6s1-social-u3-s1",
-          "componentType": "ANCHOR_SCENE",
-          "title": "戰後經濟轉型與邁向科技島",
-          "narrationText": "戰後臺灣經濟從農業起步，歷經加工製造業與產業轉型，逐步發展半導體與資通訊產業邁向科技島。經濟發展與技術創新推動了生活科技產品不斷演進。",
-          "cognitiveChunks": [
-            "不同群體對經濟政策有不同感受，應予尊重",
-            "產品演進受經濟發展與技術創新雙重推動",
-            "產業轉型提升技術含量並改變日常生活"
-          ],
-          "analogyAnchor": "經濟發展與技術創新就像兩具推進器，一起把過去笨重的「黑金剛」電話推向輕薄多功能的智慧型手機。",
-          "visualSpec": {
-            "templateId": "flow_cause",
-            "params": {
-              "nodes": [
-                "農業起步改善基礎生活",
-                "工業與加工製造帶動成長",
-                "技術創新轉型邁向科技島",
-                "兼顧環境、人權與資安"
-              ]
-            },
-            "spatialLabels": [
-              {
-                "id": "g6s1-soc-u3-l1",
-                "text": "經濟推動產業轉型",
-                "anchorPointId": "step2"
-              },
-              {
-                "id": "g6s1-soc-u3-l2",
-                "text": "科技演進改變生活",
-                "anchorPointId": "step3"
-              }
-            ]
-          },
-          "factGroundingSourceId": "115-s1/g6/social#u3"
-        },
-        {
-          "sceneId": "g6s1-social-u3-s2",
-          "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "如何探究一項科技產品的演進與影響",
-          "narrationText": "選擇一項產品進行主題探究時，除了比較外觀與功能變化，更要分析它背後的技術創新、經濟背景與對生活造成的正負面影響。",
-          "cognitiveChunks": [
-            "比較不同年代產品的功能與技術突破",
-            "評估產品對生活習慣、環境與隱私的影響"
-          ],
-          "workedExampleData": {
-            "problemStatement": "如果小組選擇「行動電話」作為產品演進的探究主題，應該依循哪些步驟分析它對臺灣人生活的影響？",
-            "steps": [
-              "第 1 步：蒐集從早期黑金剛、按鍵手機到智慧型手機的演進資料與技術突破（晶片、網路）",
-              "第 2 步：分析經濟發展如何讓民眾更有能力購買，並帶動產業研發投入",
-              "第 3 步：評估它對生活帶來的便利（即時聯絡、學習）與隱憂（視力疲勞、個資風險）"
-            ],
-            "commonErrorContrast": "常見錯誤：只背誦產品規格或只看外觀好不好看，卻忽略分析產品如何改變人們的工作、人際互動與環境負擔。",
-            "selfExplanationPrompt": "想一想：在討論經濟開發計畫時，為什麼要同時傾聽期待就業的年輕人與擔心汙染的地方居民？",
-            "keepStepCardVisible": false
-          },
-          "factGroundingSourceId": "115-s1/g6/social#u3"
-        },
-        {
-          "sceneId": "g6s1-social-u3-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "做科技的主人：平衡便利、環保與人權",
-          "topicSignalTitle": "經濟成長須尊重多元意見，並守護隱私與環境",
-          "narrationText": "無論是經濟政策或科技產品，都會帶來不同感受與影響。培養自律、資安意識與對環境勞動權益的關懷，才能讓發展真正造福所有人。",
-          "cognitiveChunks": [
-            "開發計畫應透過公開評估尋求經濟與環保雙贏",
-            "使用連網裝置須留意護眼時間與個人資料安全"
-          ],
-          "factGroundingSourceId": "115-s1/g6/social#u3"
-        },
-        {
-          "sceneId": "g6s1-social-u3-s4",
-          "componentType": "WARMUP_CHECK",
-          "title": "進場前暖身確認",
-          "narrationText": "先用這題確認產品演進的推動力量與探究重點！",
-          "cognitiveChunks": [
-            "產品演進主要受經濟發展與技術創新影響"
-          ],
-          "warmupCheck": {
-            "prompt": "進行「探究一項產品的演進過程」時，除了比較不同年代的外觀與規格外，還應該特別探究哪一個重點？",
-            "options": [
-              "只背誦產品包裝盒上的條碼數字",
-              "分析產品如何改變人們的生活習慣，以及帶來的便利與負面影響",
-              "隨便編造每一代產品的價格寫在海報上",
-              "只看產品外盒顏色，不必了解它有什麼功能"
-            ],
-            "answerIndex": 1,
-            "feedbackCorrect": "完全正確！探究產品演進的核心，就是理解「技術創新、經濟發展與人們生活」之間的關聯。",
-            "feedbackRetry": "想一想社會科為什麼要研究科技產品？重點在於它怎麼影響人的生活與社會喔！"
-          },
-          "factGroundingSourceId": "115-s1/g6/social#u3"
-        }
-      ]
-    },
-    {
-      "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g6-social-u4",
-      "stageId": "115-s1-g6-social-u4",
-      "title": "第四單元 臺灣的城鄉與區域發展",
-      "ageBand": "AGE_9_12_UPPER",
-      "subject": "SCIENCE_SOCIAL",
-      "scenes": [
-        {
-          "sceneId": "g6s1-social-u4-s1",
-          "componentType": "ANCHOR_SCENE",
-          "title": "工業化帶動都市化與生活圈擴大",
-          "narrationText": "工業化在城鎮創造大量就業機會，吸引鄉村人口移入都市，形成都市化。隨著交通運輸改善，人們跨城鎮通勤往來頻繁，原本分散的聚落逐漸串聯成範圍更大的生活圈與區域。",
-          "cognitiveChunks": [
-            "工業化提供就業機會，加速人口向都市集中",
-            "都市化帶來繁榮，也產生塞車、高房價與垃圾課題",
-            "交通改善使跨區互動密切，形成大型生活圈"
-          ],
-          "analogyAnchor": "交通網路就像血管，把鄰近城鎮的就業、就學與購物串聯起來，讓原本各自獨立的小聚落合體成大生活圈。",
-          "visualSpec": {
-            "templateId": "flow_cause",
-            "params": {
-              "nodes": [
-                "工業化集中城鎮提供就業",
-                "人口移入促成都市化",
-                "交通改善串聯成生活圈",
-                "畫分四大區域促進均衡"
-              ]
-            },
-            "spatialLabels": [
-              {
-                "id": "g6s1-soc-u4-l1",
-                "text": "工業帶動人口移入",
-                "anchorPointId": "step2"
-              },
-              {
-                "id": "g6s1-soc-u4-l2",
-                "text": "交通串聯生活圈",
-                "anchorPointId": "step3"
-              }
-            ]
-          },
-          "factGroundingSourceId": "115-s1/g6/social#u4"
-        },
-        {
-          "sceneId": "g6s1-social-u4-s2",
-          "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "臺灣四大區域的畫分目標與城鄉互補",
-          "narrationText": "臺灣依地理環境與發展情況畫分為北部、中部、南部、東部四個區域（含鄰近離島），目的是整合各區條件，促進區域均衡發展與交流合作。",
-          "cognitiveChunks": [
-            "四大區域各有地形、氣候與產業特色",
-            "透過交通與網路交流，縮短城鄉與區域差距"
-          ],
-          "workedExampleData": {
-            "problemStatement": "面對都會區人口密集、交通擁擠，而部分鄉村與偏遠區域卻面臨人口外流與資源較少的落差，政府與各地區可以如何促進區域均衡發展？",
-            "steps": [
-              "第 1 步：依據北部、中部、南部、東部四大區域的地理與產業強項規劃建設與資源配置",
-              "第 2 步：加強跨區域交通與數位網路連結，讓農產、工業商品、醫療與教育資源得以互補共享",
-              "第 3 步：都會區加強排水綠地與防災規劃，鄉村則結合特色農業與生態觀光吸引青年返鄉"
-            ],
-            "commonErrorContrast": "常見錯誤：誤以為畫分四大區域是要限制人民移動，或以為四個區域的地形與產業都長得一模一樣。",
-            "selfExplanationPrompt": "想一想：你居住的縣市屬於臺灣哪一個區域？它和鄰近城鎮形成了什麼樣的生活圈互動？",
-            "keepStepCardVisible": false
-          },
-          "factGroundingSourceId": "115-s1/g6/social#u4"
-        },
-        {
-          "sceneId": "g6s1-social-u4-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "都市防災與城鄉永續共榮",
-          "topicSignalTitle": "重視都市排水防災，促進城鄉優勢互補",
-          "narrationText": "高度都市化地區須特別注意滯洪綠地、排水與防災避難規劃；同時透過區域調整與交流，讓農業產區、工商業都會與觀光自然區彼此支援、共同成長。",
-          "cognitiveChunks": [
-            "都市應保留綠地滯洪空間並完善排水系統",
-            "城鄉透過交通與數位連結互相支援共榮"
-          ],
-          "factGroundingSourceId": "115-s1/g6/social#u4"
-        },
-        {
-          "sceneId": "g6s1-social-u4-s4",
-          "componentType": "WARMUP_CHECK",
-          "title": "進場前暖身確認",
-          "narrationText": "先用這題確認臺灣畫分四大區域的主要目標！",
-          "cognitiveChunks": [
-            "區域畫分是為了資源配置與均衡發展"
-          ],
-          "warmupCheck": {
-            "prompt": "臺灣依地理環境與發展情況畫分為北部、中部、南部與東部四個區域，進行這項區域畫分最主要的目標是什麼？",
-            "options": [
-              "整合各區特色條件與建設規劃，促進區域均衡發展並改善差距",
-              "規定居民一生只能待在自己出生的那一區，不可跨區移動",
-              "把所有經費集中到單一城市，停止其他三個區域的建設",
-              "讓四個區域互相比賽誰蓋出最多工廠煙囪"
+              "透過分享與發表了解每個人對社會事物與環境有不同的認知、感受",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
             "answerIndex": 0,
-            "feedbackCorrect": "答對了！畫分四大區域是為了從整體國土出發妥善配置資源，縮小城鄉與區域差距。",
-            "feedbackRetry": "想一想：畫分區域不是為了築牆壁分開大家，而是為了讓各地發揮特色並一起均衡發展喔！"
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/social#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-social-u2-l2",
+      "stageId": "115-s1-g6-social-u2-l2",
+      "title": "第2課 族群交流如何影響臺灣社會？",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第2課 族群交流如何影響臺灣社會？：核心概念",
+          "narrationText": "在「第二單元 社會變遷下的個人發展與族群文化」的「第2課 族群交流如何影響臺灣社會？」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "透過觀察討論與實作分享，理解臺灣是個多元文化的地方"
+          ],
+          "analogyAnchor": "把「第2課 族群交流如何影響臺灣社會？」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第2課 族群交流如何影響臺灣",
+              "leftPoints": [
+                "透過觀察討論與實作分享，理解臺灣是個多元文化的地方",
+                "透過觀察討論與實作分享，理解臺灣是個多元文化的地方"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第2課 族群交流如何",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/social#u2"
+        },
+        {
+          "sceneId": "u2l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "透過觀察討論與實作分享，理解臺灣是個多元文化的地方",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第2課 族群交流如何影響臺灣社會？」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第2課 族群交流如何影響臺灣」",
+              "第 2 步：對照本課核心「透過觀察討論與實作分享」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第2課 族群交流如何影響」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/social#u2"
+        },
+        {
+          "sceneId": "u2l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第2課 族群交流如何影響臺灣」後再開始挑戰！",
+          "cognitiveChunks": [
+            "透過觀察討論與實作分享，理解臺灣是個多元文化的地方"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第2課 族群交流如何影響臺灣」，哪一項才是正確的學習重點？",
+            "options": [
+              "透過觀察討論與實作分享，理解臺灣是個多元文化的地方",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/social#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-social-u3-l1",
+      "stageId": "115-s1-g6-social-u3-l1",
+      "title": "第1課 戰後經濟發展如何影響人們生活？",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第1課 戰後經濟發展如何影響人們生活？：核心概念",
+          "narrationText": "在「第三單元 戰後經濟發展、轉型與生活」的「第1課 戰後經濟發展如何影響人們生活？」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "體認在經濟發展中人們對政策與措施有不同的感受與意見"
+          ],
+          "analogyAnchor": "把「第1課 戰後經濟發展如何影響人們生活？」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第1課 戰後經濟發展如何影響",
+              "leftPoints": [
+                "體認在經濟發展中人們對政策與措施有不同的感受與意見",
+                "體認在經濟發展中人們對政策與措施有不同的感受與意見"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第1課 戰後經濟發展",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/social#u3"
+        },
+        {
+          "sceneId": "u3l1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "體認在經濟發展中人們對政策與措施有不同的感受與意見",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第1課 戰後經濟發展如何影響人們生活？」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第1課 戰後經濟發展如何影響」",
+              "第 2 步：對照本課核心「體認在經濟發展中人們對政策與措施有不同的感。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第1課 戰後經濟發展如何」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/social#u3"
+        },
+        {
+          "sceneId": "u3l1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第1課 戰後經濟發展如何影響」後再開始挑戰！",
+          "cognitiveChunks": [
+            "體認在經濟發展中人們對政策與措施有不同的感受與意見"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第1課 戰後經濟發展如何影響」，哪一項才是正確的學習重點？",
+            "options": [
+              "體認在經濟發展中人們對政策與措施有不同的感受與意見",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/social#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-social-u3-l2",
+      "stageId": "115-s1-g6-social-u3-l2",
+      "title": "第2課 臺灣如何邁向科技島？",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3l2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第2課 臺灣如何邁向科技島？：核心概念",
+          "narrationText": "在「第三單元 戰後經濟發展、轉型與生活」的「第2課 臺灣如何邁向科技島？」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "選擇一項產品作為學習主題，探究其演進過程受經濟發展與技術創新的影響"
+          ],
+          "analogyAnchor": "把「第2課 臺灣如何邁向科技島？」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第2課 臺灣如何邁向科技島？",
+              "leftPoints": [
+                "選擇一項產品作為學習主題",
+                "選擇一項產品作為學習主題"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第2課 臺灣如何邁向",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/social#u3"
+        },
+        {
+          "sceneId": "u3l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "選擇一項產品作為學習主題，探究其演進過程受經濟發展與技術創新的影響",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第2課 臺灣如何邁向科技島？」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第2課 臺灣如何邁向科技島？」",
+              "第 2 步：對照本課核心「選擇一項產品作為學習主題」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第2課 臺灣如何邁向科技」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/social#u3"
+        },
+        {
+          "sceneId": "u3l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第2課 臺灣如何邁向科技島？」後再開始挑戰！",
+          "cognitiveChunks": [
+            "選擇一項產品作為學習主題，探究其演進過程受經濟發展與技術創新的影響"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第2課 臺灣如何邁向科技島？」，哪一項才是正確的學習重點？",
+            "options": [
+              "選擇一項產品作為學習主題，探究其演進過程受經濟發展與技術創新的影響",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/social#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-social-u4-l1",
+      "stageId": "115-s1-g6-social-u4-l1",
+      "title": "第1課 臺灣的工業化與都市化如何發展？",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第1課 臺灣的工業化與都市化如何發展？：核心概念",
+          "narrationText": "在「第四單元 臺灣的城鄉與區域發展」的「第1課 臺灣的工業化與都市化如何發展？」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "體認工業化帶動都市化的現象，關注都市化所帶來的影響。"
+          ],
+          "analogyAnchor": "把「第1課 臺灣的工業化與都市化如何發展？」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第1課 臺灣的工業化與都市化",
+              "leftPoints": [
+                "體認工業化帶動都市化的現象，關注都市化所帶來的影響。",
+                "體認工業化帶動都市化的現象，關注都市化所帶來的影響。"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第1課 臺灣的工業化",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/social#u4"
+        },
+        {
+          "sceneId": "u4l1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "體認工業化帶動都市化的現象，關注都市化所帶來的影響。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第1課 臺灣的工業化與都市化如何發展？」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第1課 臺灣的工業化與都市化」",
+              "第 2 步：對照本課核心「體認工業化帶動都市化的現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第1課 臺灣的工業化與都」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/social#u4"
+        },
+        {
+          "sceneId": "u4l1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第1課 臺灣的工業化與都市化」後再開始挑戰！",
+          "cognitiveChunks": [
+            "體認工業化帶動都市化的現象，關注都市化所帶來的影響。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第1課 臺灣的工業化與都市化」，哪一項才是正確的學習重點？",
+            "options": [
+              "體認工業化帶動都市化的現象，關注都市化所帶來的影響。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s1/g6/social#u4"
         }
@@ -424,101 +736,272 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g6-social-u5",
-      "stageId": "115-s1-g6-social-u5",
-      "title": "主題探究與實作單元",
+      "lessonId": "lesson-115-s1-g6-social-u4-l2",
+      "stageId": "115-s1-g6-social-u4-l2",
+      "title": "第2課 生活圈如何形成與發展？",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "g6s1-social-u5-s1",
+          "sceneId": "u4l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "臺灣向前行：從關心身邊公共事務出發",
-          "narrationText": "公共事務與眾人的生活品質及安全息息相關，例如通學步道安全、公園整潔與資源回收。身為小學生雖然還沒有選舉權，依然能透過觀察、查證與實際行動參與公共事務。",
+          "title": "第2課 生活圈如何形成與發展？：核心概念",
+          "narrationText": "在「第四單元 臺灣的城鄉與區域發展」的「第2課 生活圈如何形成與發展？」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "公共事務關係眾人利益，與個人私事不同",
-            "善用閱讀與資訊工具，多方查證資料來源",
-            "公民參與不分年齡，小學生也能具體行動"
+            "了解不同生活圈逐漸形成範圍更大的區域"
           ],
-          "analogyAnchor": "改善社區就像整理大家共用的教室，只要每個人從自己做得到的小行動開始，累積起來就能讓臺灣向前行。",
+          "analogyAnchor": "把「第2課 生活圈如何形成與發展？」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_compare",
             "params": {
-              "nodes": [
-                "觀察發現身邊公共問題",
-                "閱讀查證與訪談蒐集證據",
-                "評估資源擬定可行方案",
-                "付諸行動並檢討改進"
+              "leftTitle": "第2課 生活圈如何形成與發展",
+              "leftPoints": [
+                "了解不同生活圈逐漸形成範圍更大的區域",
+                "了解不同生活圈逐漸形成範圍更大的區域"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
-                "id": "g6s1-soc-u5-l1",
-                "text": "實地觀察查證資料",
-                "anchorPointId": "step2"
+                "id": "l1",
+                "text": "第2課 生活圈如何形",
+                "anchorPointId": "left"
               },
               {
-                "id": "g6s1-soc-u5-l2",
-                "text": "量力擬定具體行動",
-                "anchorPointId": "step3"
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/social#u4"
+        },
+        {
+          "sceneId": "u4l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "了解不同生活圈逐漸形成範圍更大的區域",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第2課 生活圈如何形成與發展？」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第2課 生活圈如何形成與發展」",
+              "第 2 步：對照本課核心「了解不同生活圈逐漸形成範圍更大的區域」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第2課 生活圈如何形成與」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/social#u4"
+        },
+        {
+          "sceneId": "u4l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第2課 生活圈如何形成與發展」後再開始挑戰！",
+          "cognitiveChunks": [
+            "了解不同生活圈逐漸形成範圍更大的區域"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第2課 生活圈如何形成與發展」，哪一項才是正確的學習重點？",
+            "options": [
+              "了解不同生活圈逐漸形成範圍更大的區域",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/social#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-social-u4-l3",
+      "stageId": "115-s1-g6-social-u4-l3",
+      "title": "第3課 區域如何畫分與調整？",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第3課 區域如何畫分與調整？：核心概念",
+          "narrationText": "在「第四單元 臺灣的城鄉與區域發展」的「第3課 區域如何畫分與調整？」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "覺察區域發展與交流的現象，關注臺灣四大區域的特色與發展現況。"
+          ],
+          "analogyAnchor": "把「第3課 區域如何畫分與調整？」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第3課 區域如何畫分與調整？",
+              "leftPoints": [
+                "覺察區域發展與交流的現象",
+                "覺察區域發展與交流的現象"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第3課 區域如何畫分",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/social#u4"
+        },
+        {
+          "sceneId": "u4l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "覺察區域發展與交流的現象，關注臺灣四大區域的特色與發展現況。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第3課 區域如何畫分與調整？」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第3課 區域如何畫分與調整？」",
+              "第 2 步：對照本課核心「覺察區域發展與交流的現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第3課 區域如何畫分與調」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/social#u4"
+        },
+        {
+          "sceneId": "u4l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第3課 區域如何畫分與調整？」後再開始挑戰！",
+          "cognitiveChunks": [
+            "覺察區域發展與交流的現象，關注臺灣四大區域的特色與發展現況。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第3課 區域如何畫分與調整？」，哪一項才是正確的學習重點？",
+            "options": [
+              "覺察區域發展與交流的現象，關注臺灣四大區域的特色與發展現況。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/social#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-social-u5-l1",
+      "stageId": "115-s1-g6-social-u5-l1",
+      "title": "臺灣向前行",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "臺灣向前行：核心概念",
+          "narrationText": "在「主題探究與實作單元」的「臺灣向前行」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "能提出自己可以投入所關心公共事務的具體行動（六上目標11）。"
+          ],
+          "analogyAnchor": "把「臺灣向前行」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "臺灣向前行",
+              "leftPoints": [
+                "能提出自己可以投入所關心公共事務的具體行動（六上目標1。",
+                "能提出自己可以投入所關心公共事務的具體行動（六上目標1。"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "臺灣向前行",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
               }
             ]
           },
           "factGroundingSourceId": "115-s1/g6/social#u5"
         },
         {
-          "sceneId": "g6s1-social-u5-s2",
+          "sceneId": "u5l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "公共事務探究與團隊行動的實作步驟",
-          "narrationText": "進行「臺灣向前行」探究實作時，要有條理地觀察問題、查證可靠資料、協調小組不同想法，並設計安全可行的具體方案。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "先觀察記錄與查證，再設計可行方案",
-            "團隊遇到不同想法可評估資源分工或表決"
+            "能提出自己可以投入所關心公共事務的具體行動（六上目標11）。",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "小組發現學校附近人行道常有積水與雜物阻礙通行，決定以此為主題進行探究與實作，應該怎麼規劃？",
+            "problemStatement": "複習「臺灣向前行」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：實地觀察拍照記錄積水與阻礙位置，並閱讀相關規範或訪談師長、里長了解原因",
-              "第 2 步：在小組內充分討論不同點子，評估時間、能力與安全性，擬定具體可行的改善方案（如繪製友善步道宣導圖或撰寫建議信）",
-              "第 3 步：實際執行方案後，記錄前後變化與他人回饋，檢討成效並思考下次如何改進"
+              "第 1 步：確認題目在問「臺灣向前行」",
+              "第 2 步：對照本課核心「能提出自己可以投入所關心公共事務的具體行動。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：只看沒有署名的誇張網路貼文就下結論，或訂定超出小學生能力範圍的空想計畫、執行後不檢討成效。",
-            "selfExplanationPrompt": "想一想：小組討論行動方案意見不同時，除了猜拳決定，還有什麼更好的民主協調方式？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「臺灣向前行」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s1/g6/social#u5"
         },
         {
-          "sceneId": "g6s1-social-u5-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "持續關心社會，實踐公民責任",
-          "topicSignalTitle": "實證查證、理性合作，讓關心延續到日常生活",
-          "narrationText": "社會環境不斷改變，公共參與不是交完一次報告就結束。持續關心身邊事務、誠實檢討行動成果，正是推動家園進步的重要力量。",
-          "cognitiveChunks": [
-            "優先採用專書、官方數據並交叉比對查證",
-            "行動後記錄回饋與困難，持續修正做法"
-          ],
-          "factGroundingSourceId": "115-s1/g6/social#u5"
-        },
-        {
-          "sceneId": "g6s1-social-u5-s4",
+          "sceneId": "u5l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "先用這題確認小學生可以如何安全又具體地參與公共事務！",
+          "narrationText": "先做一題暖身確認，確認掌握「臺灣向前行」後再開始挑戰！",
           "cognitiveChunks": [
-            "從日常做得到且合法安全的具體行動開始"
+            "能提出自己可以投入所關心公共事務的具體行動（六上目標11）。"
           ],
           "warmupCheck": {
-            "prompt": "六年級學生雖然還不能參加大選投票，但下列哪一項是自己可以實際投入公共事務的具體且可行行動？",
+            "prompt": "關於「臺灣向前行」，哪一項才是正確的學習重點？",
             "options": [
-              "自己偷偷修改馬路上的紅綠燈秒數",
-              "在班級或社區發起減塑宣導、參與整潔志工或撰寫建議信給學校與里長",
-              "認為改變社會是大人的事，小學生什麼都不能做",
-              "強迫同學把零用錢全部交出來由自己保管"
+              "能提出自己可以投入所關心公共事務的具體行動（六上目標11）。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
-            "answerIndex": 1,
-            "feedbackCorrect": "完全正確！發起環保宣導、當志工或理性寫建議信，都是安全、合法又很有力量的公民參與。",
-            "feedbackRetry": "想一想哪一個做法既合法安全，又是六年級學生在生活中真正做得到的喔！"
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s1/g6/social#u5"
         }

@@ -8,46 +8,45 @@
   "lessons": [
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g6-mandarin-u1",
-      "stageId": "115-s1-g6-mandarin-u1",
-      "title": "第壹單元 美好時刻",
+      "lessonId": "lesson-115-s1-g6-mandarin-u1-l1",
+      "stageId": "115-s1-g6-mandarin-u1-l1",
+      "title": "第一課 在天晴了的時候",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "LANGUAGE",
       "scenes": [
         {
-          "sceneId": "g6s1-mandarin-u1-s1",
+          "sceneId": "u1l1-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "從現代詩到律詩：寫景與抒情的觀察鏡頭",
-          "narrationText": "本單元透過現代詩〈在天晴了的時候〉、散文〈珍珠鳥〉與唐代律詩〈客至〉，學習動靜態摹寫、遠近景安排與寄情於景的寫作技巧。",
+          "title": "第一課 在天晴了的時候：核心概念",
+          "narrationText": "在「第壹單元 美好時刻」的「第一課 在天晴了的時候」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "現代詩：字數句數自由，善用擬人與譬喻",
-            "記敘文：依時間次序與動作細節呈現信賴情感",
-            "七言律詩：八句七字、偶數句押韻、中間兩聯對仗"
+            "認識現代詩的形式與寫作技巧，掌握主旨",
+            "能運用摹寫、擬人等方式描述景物動、靜態樣貌並抒發感受"
           ],
-          "analogyAnchor": "寫文章就像拿著攝影機，可以先拍遠方的山景，再拉近特寫門前的花草與人物動作。",
+          "analogyAnchor": "把「第一課 在天晴了的時候」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "現代詩（新詩）",
+              "leftTitle": "第一課 在天晴了的時候",
               "leftPoints": [
-                "字數與句數不固定",
-                "常運用擬人、譬喻營造畫面"
+                "認識現代詩的形式與寫作技巧，掌握主旨",
+                "能運用摹寫、擬人等方式描述景物動、靜態樣貌並抒發感受"
               ],
-              "rightTitle": "古典七言律詩",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "固定八句、每句七字",
-                "偶數句押韻且頷頸兩聯對仗"
+                "留意字形、讀音與句型脈絡",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
-                "id": "g6-m-u1-l1",
-                "text": "現代詩自由靈活",
+                "id": "l1",
+                "text": "第一課 在天晴了的時",
                 "anchorPointId": "left"
               },
               {
-                "id": "g6-m-u1-l2",
-                "text": "律詩講求格律對仗",
+                "id": "l2",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -55,58 +54,45 @@
           "factGroundingSourceId": "115-s1/g6/mandarin#u1"
         },
         {
-          "sceneId": "g6s1-mandarin-u1-s2",
+          "sceneId": "u1l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "動靜態摹寫與古詩改寫步驟",
-          "narrationText": "讀〈客至〉時先理解詩句景物與待客心情，再用流暢白話文重現遠景到近景的畫面。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "動態描寫呈現動作變化",
-            "靜態描寫呈現靜止形狀色彩"
+            "認識現代詩的形式與寫作技巧，掌握主旨",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "如何判斷句子屬於「動態描寫」還是「擬人修辭」？又該如何把古典詩改寫成白話文？",
+            "problemStatement": "複習「第一課 在天晴了的時候」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：看有沒有賦予自然景物「人的表情或動作」（例如太陽公公微笑招手），有就是擬人法",
-              "第 2 步：看景物是否在移動或變化（例如鳥兒拍動翅膀跳躍），有就是動態描寫",
-              "第 3 步：改寫古詩時，先查清字詞意思，再依遠近景順序用自然完整的白話文重述畫面與喜悅情感"
+              "第 1 步：確認題目在問「第一課 在天晴了的時候」",
+              "第 2 步：對照本課核心「認識現代詩的形式與寫作技巧，掌握主旨」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：把「彩虹像拱橋」的譬喻法誤認成擬人法，或改寫古詩時逐字硬翻導致語句不通順。",
-            "selfExplanationPrompt": "想一想：在〈珍珠鳥〉裡，哪些細膩的動作描寫讓你知道小鳥越來越信賴作者？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第一課 在天晴了的時候」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s1/g6/mandarin#u1"
         },
         {
-          "sceneId": "g6s1-mandarin-u1-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "寫作焦點：寄情於景與借事抒情",
-          "topicSignalTitle": "不直接寫「我好開心」，而是用景物與招待細節來表現！",
-          "narrationText": "高明的寫作常透過明亮的雨後景色或熱情打掃門前迎客的舉動，讓讀者自己感受到作者內心的喜悅，這就是寄情於景與借事抒情。",
-          "cognitiveChunks": [
-            "遠近景切換讓空間感更立體",
-            "天氣四字語詞可豐富景物層次"
-          ],
-          "factGroundingSourceId": "115-s1/g6/mandarin#u1"
-        },
-        {
-          "sceneId": "g6s1-mandarin-u1-s4",
+          "sceneId": "u1l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "先用這題確認律詩格律與修辭觀念！",
+          "narrationText": "先做一題暖身確認，確認掌握「第一課 在天晴了的時候」後再開始挑戰！",
           "cognitiveChunks": [
-            "律詩＝八句、偶數句押韻、中間兩聯對仗"
+            "認識現代詩的形式與寫作技巧，掌握主旨"
           ],
           "warmupCheck": {
-            "prompt": "下列哪一個句子運用了「擬人法」來描寫自然景物？",
+            "prompt": "關於「第一課 在天晴了的時候」，哪一項才是正確的學習重點？",
             "options": [
-              "雨後的草地上有許多晶瑩的水珠",
-              "微風輕輕梳著柳樹的長髮，低聲唱著歌",
-              "天邊出現了一道七彩的彩虹",
-              "操場旁邊的大樹高約五公尺"
+              "認識現代詩的形式與寫作技巧，掌握主旨",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
-            "answerIndex": 1,
-            "feedbackCorrect": "答對了！「梳著長髮、低聲唱歌」把微風當成人來描寫，正是生動的擬人法。",
-            "feedbackRetry": "找一個把大自然景物當成人類一樣，做出「梳頭髮、唱歌」這類人類動作的句子喔！"
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s1/g6/mandarin#u1"
         }
@@ -114,46 +100,322 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g6-mandarin-u2",
-      "stageId": "115-s1-g6-mandarin-u2",
+      "lessonId": "lesson-115-s1-g6-mandarin-u1-l2",
+      "stageId": "115-s1-g6-mandarin-u1-l2",
+      "title": "第二課 珍珠鳥",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1l2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第二課 珍珠鳥：核心概念",
+          "narrationText": "在「第壹單元 美好時刻」的「第二課 珍珠鳥」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識珍珠鳥的生活習性，理解作者和珍珠鳥互動",
+            "能找出事件發生的時間次序，學習運用細膩的動作描寫"
+          ],
+          "analogyAnchor": "把「第二課 珍珠鳥」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第二課 珍珠鳥",
+              "leftPoints": [
+                "認識珍珠鳥的生活習性，理解作者和珍珠鳥互動",
+                "能找出事件發生的時間次序，學習運用細膩的動作描寫"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "留意字形、讀音與句型脈絡",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第二課 珍珠鳥",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u1"
+        },
+        {
+          "sceneId": "u1l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識珍珠鳥的生活習性，理解作者和珍珠鳥互動",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第二課 珍珠鳥」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第二課 珍珠鳥」",
+              "第 2 步：對照本課核心「認識珍珠鳥的生活習性，理解作者和珍珠鳥互動」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第二課 珍珠鳥」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u1"
+        },
+        {
+          "sceneId": "u1l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第二課 珍珠鳥」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識珍珠鳥的生活習性，理解作者和珍珠鳥互動"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第二課 珍珠鳥」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識珍珠鳥的生活習性，理解作者和珍珠鳥互動",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-mandarin-u1-l3",
+      "stageId": "115-s1-g6-mandarin-u1-l3",
+      "title": "第三課 客至",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第三課 客至：核心概念",
+          "narrationText": "在「第壹單元 美好時刻」的「第三課 客至」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識作者生平與作品及律詩的形式、句數、字數",
+            "能將原詩改寫為白話文，辨別遠景、近景寫作技巧，知道「寄情於景」"
+          ],
+          "analogyAnchor": "把「第三課 客至」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第三課 客至",
+              "leftPoints": [
+                "認識作者生平與作品及律詩的形式、句數、字數",
+                "能將原詩改寫為白話文，辨別遠景、近景寫作技巧"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "留意字形、讀音與句型脈絡",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第三課 客至",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u1"
+        },
+        {
+          "sceneId": "u1l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識作者生平與作品及律詩的形式、句數、字數",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第三課 客至」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第三課 客至」",
+              "第 2 步：對照本課核心「認識作者生平與作品及律詩的形式、句數、字數」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第三課 客至」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u1"
+        },
+        {
+          "sceneId": "u1l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第三課 客至」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識作者生平與作品及律詩的形式、句數、字數"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第三課 客至」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識作者生平與作品及律詩的形式、句數、字數",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-mandarin-u1-l4",
+      "stageId": "115-s1-g6-mandarin-u1-l4",
+      "title": "語文天地一",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u1l4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "語文天地一：核心概念",
+          "narrationText": "在「第壹單元 美好時刻」的「語文天地一」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "理解「語文天地一」的課文大意、核心字詞形音義與句型表達。",
+            "能配合「語文天地一」朗讀課文並說出故事或文章重點。",
+            "運用「語文天地一」學到的語詞與句型，完整表達生活經驗。"
+          ],
+          "analogyAnchor": "把「語文天地一」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "語文天地一",
+              "leftPoints": [
+                "理解「語文天地一」的課文大意、核心字詞形音義與句型表達。",
+                "能配合「語文天地一」朗讀課文並說出故事或文章重點。"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "留意字形、讀音與句型脈絡",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文天地一",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u1"
+        },
+        {
+          "sceneId": "u1l4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "理解「語文天地一」的課文大意、核心字詞形音義與句型表達。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「語文天地一」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「語文天地一」",
+              "第 2 步：對照本課核心「理解「語文天地一」的課文大意」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「語文天地一」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u1"
+        },
+        {
+          "sceneId": "u1l4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「語文天地一」後再開始挑戰！",
+          "cognitiveChunks": [
+            "理解「語文天地一」的課文大意、核心字詞形音義與句型表達。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「語文天地一」，哪一項才是正確的學習重點？",
+            "options": [
+              "理解「語文天地一」的課文大意、核心字詞形音義與句型表達。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-mandarin-u2-l1",
+      "stageId": "115-s1-g6-mandarin-u2-l1",
       "title": "〈讀寫練功房〉來自遠方的信",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "LANGUAGE",
       "scenes": [
         {
-          "sceneId": "g6s1-mandarin-u2-s1",
+          "sceneId": "u2l1-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "比較傳統書信與電子郵件，並用文氏圖整理文化異同",
-          "narrationText": "電子郵件透過網路傳送，能快速寄出文字與照片附件；認識高雄與倫敦等不同城市特色時，可以用文氏圖把共同點與相異點分類清楚。",
+          "title": "〈讀寫練功房〉來自遠方的信：核心概念",
+          "narrationText": "在「〈讀寫練功房〉來自遠方的信」的「〈讀寫練功房〉來自遠方的信」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "電子郵件具備「主旨欄」、傳送即時、可附加檔案",
-            "傳統書信需貼郵票與信封地址，重親筆溫度",
-            "文氏圖重疊處填寫兩者的「共同點」"
+            "能比較電子郵件與傳統書信的不同",
+            "能認識臺灣高雄與英國倫敦的文化特色與差異"
           ],
-          "analogyAnchor": "文氏圖就像兩個交疊的呼拉圈，左邊放高雄獨有特色，右邊放倫敦獨有特色，中間重疊處放兩座城市都有的特點。",
+          "analogyAnchor": "把「〈讀寫練功房〉來自遠方的信」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "傳統紙本信件",
+              "leftTitle": "〈讀寫練功房〉來自遠方的信",
               "leftPoints": [
-                "需要信封、郵票與郵寄時間",
-                "保有手寫筆跡與實體紀念感"
+                "能比較電子郵件與傳統書信的不同",
+                "能認識臺灣高雄與英國倫敦的文化特色與差異"
               ],
-              "rightTitle": "電子郵件（E-mail）",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "具備主旨欄，傳送即時快速",
-                "可輕鬆夾帶數位照片與檔案"
+                "留意字形、讀音與句型脈絡",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
-                "id": "g6-m-u2-l1",
-                "text": "紙本重實體溫度",
+                "id": "l1",
+                "text": "〈讀寫練功房〉來自遠",
                 "anchorPointId": "left"
               },
               {
-                "id": "g6-m-u2-l2",
-                "text": "電郵重即時附件",
+                "id": "l2",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -161,266 +423,506 @@
           "factGroundingSourceId": "115-s1/g6/mandarin#u2"
         },
         {
-          "sceneId": "g6s1-mandarin-u2-s2",
+          "sceneId": "u2l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "撰寫電子郵件與文氏圖分類步驟",
-          "narrationText": "寄出跨國電子郵件給朋友或師長時，清楚的主旨與禮貌的問候語缺一不可；整理多篇閱讀資料時，先列清單再填入文氏圖。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "主旨欄要簡短明確說明來信目的",
-            "寄出前檢查收件人與附件是否夾帶"
+            "能比較電子郵件與傳統書信的不同",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "如何寫一封合乎禮儀的電子郵件，並用文氏圖整理臺灣高雄與英國倫敦的資料？",
+            "problemStatement": "複習「〈讀寫練功房〉來自遠方的信」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：在電子郵件「主旨欄」寫出明確主題（例如：高雄海港照片與旅遊心得分享）",
-              "第 2 步：內文先寫稱謂與問候，再說明重點，若要傳照片要確認已正確附加檔案",
-              "第 3 步：比較高雄與倫敦時，將各自特色放兩側圓圈，把「都是重要文化與交通都市」等共通點放中間重疊區"
+              "第 1 步：確認題目在問「〈讀寫練功房〉來自遠方的信」",
+              "第 2 步：對照本課核心「能比較電子郵件與傳統書信的不同」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：主旨欄空白或只寫「快看」，以及把只有單一城市才有的地標填進文氏圖中間重疊區。",
-            "selfExplanationPrompt": "想一想：面對不同國家的飲食、建築與生活習俗時，我們應該抱持什麼樣的態度？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「〈讀寫練功房〉來自遠方的」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s1/g6/mandarin#u2"
         },
         {
-          "sceneId": "g6s1-mandarin-u2-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "跨文化溝通的禮儀與胸懷",
-          "topicSignalTitle": "看見差異，學會欣賞與尊重多元文化",
-          "narrationText": "不論寫信給國內師長（如祝頌語「敬祝 教安」）或國外筆友，尊重彼此的文化差異並保持真誠好奇，就是最好的跨文化交流。",
-          "cognitiveChunks": [
-            "多文本閱讀可用文氏圖比較異同",
-            "尊重與理解不同城市的生活文化"
-          ],
-          "factGroundingSourceId": "115-s1/g6/mandarin#u2"
-        },
-        {
-          "sceneId": "g6s1-mandarin-u2-s4",
+          "sceneId": "u2l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "先用這題確認文氏圖與電子郵件格式觀念！",
+          "narrationText": "先做一題暖身確認，確認掌握「〈讀寫練功房〉來自遠方的信」後再開始挑戰！",
           "cognitiveChunks": [
-            "文氏圖重疊區域＝兩者共同特徵"
+            "能比較電子郵件與傳統書信的不同"
           ],
           "warmupCheck": {
-            "prompt": "使用「文氏圖」比較電子郵件與傳統書信時，兩個圓圈「中間重疊」的區域適合填入哪一項？",
+            "prompt": "關於「〈讀寫練功房〉來自遠方的信」，哪一項才是正確的學習重點？",
             "options": [
-              "需要貼上實體郵票才能寄出",
-              "可以一秒鐘傳送數位照片附件",
-              "都是用來傳遞訊息與表達情感的溝通工具",
-              "必須用毛筆親手書寫信封地址"
-            ],
-            "answerIndex": 2,
-            "feedbackCorrect": "完全正確！傳遞訊息與情感是兩者「共同」具備的功能，應該填在中間重疊區。",
-            "feedbackRetry": "中間重疊的區域要放「電子郵件和傳統書信兩邊都符合」的共同點喔！"
-          },
-          "factGroundingSourceId": "115-s1/g6/mandarin#u2"
-        }
-      ]
-    },
-    {
-      "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g6-mandarin-u3",
-      "stageId": "115-s1-g6-mandarin-u3",
-      "title": "第貳單元 工作圖像",
-      "ageBand": "AGE_9_12_UPPER",
-      "subject": "LANGUAGE",
-      "scenes": [
-        {
-          "sceneId": "g6s1-mandarin-u3-s1",
-          "componentType": "ANCHOR_SCENE",
-          "title": "寫作開頭兩大招：設問法與引用法",
-          "narrationText": "本單元透過〈贏得喝采的輸家〉、〈哇！原來如此〉與〈登月先鋒〉，認識公平競爭與職人精神，並練習設問法開頭、引用法開頭與人稱改寫。",
-          "cognitiveChunks": [
-            "設問法開頭：先提問題製造懸念，再引出下文說明",
-            "引用法開頭：引述名言俗諺增強文章說服力",
-            "第一人稱「我」改寫：視角與內心感受須同步調整"
-          ],
-          "analogyAnchor": "文章開頭就像店門口的招牌，用一個有趣的問題（設問）或一句經典名言（引用），能立刻吸引讀者走進來。",
-          "visualSpec": {
-            "templateId": "concept_compare",
-            "params": {
-              "leftTitle": "設問法開頭",
-              "leftPoints": [
-                "提出讀者好奇的疑問",
-                "適合事理類說明文帶出原理解說"
-              ],
-              "rightTitle": "引用法開頭",
-              "rightPoints": [
-                "引用名人名言、格言或俗諺",
-                "能快速點出主題並增加氣勢"
-              ]
-            },
-            "spatialLabels": [
-              {
-                "id": "g6-m-u3-l1",
-                "text": "設問法：先提問",
-                "anchorPointId": "left"
-              },
-              {
-                "id": "g6-m-u3-l2",
-                "text": "引用法：引名言",
-                "anchorPointId": "right"
-              }
-            ]
-          },
-          "factGroundingSourceId": "115-s1/g6/mandarin#u3"
-        },
-        {
-          "sceneId": "g6s1-mandarin-u3-s2",
-          "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "第三人稱改寫為第一人稱的注意事項",
-          "narrationText": "在〈語文天地二〉中，把「他」的故事改寫成「我」的故事，不只是把代名詞換掉，還要檢查視角合不合理。",
-          "cognitiveChunks": [
-            "確認「我」當時看得到、聽得到的情境",
-            "適時補充「我」當下的心理感受"
-          ],
-          "workedExampleData": {
-            "problemStatement": "如何將第三人稱敘述「小華站在起跑線上，心裡非常緊張」改寫為生動的第一人稱？",
-            "steps": [
-              "第 1 步：將主角視角換成「我」，把「小華」改為「我」",
-              "第 2 步：調整感受描寫，讓語氣更貼近當事人（例如：我站在起跑線上，心臟撲通撲通跳得飛快）",
-              "第 3 步：檢查全文人稱是否統一，避免寫一寫又跳回「他」，並確認沒寫到「我」看不見的他人內心"
-            ],
-            "commonErrorContrast": "常見錯誤：以為人稱改寫只是用電腦把「他」全部取代成「我」，結果連別人腦袋裡在想什麼都寫成「我知道他心裡想…」。",
-            "selfExplanationPrompt": "想一想：寫事理說明文介紹職業配備時，先寫現象、再寫原理、最後總結，為什麼讀起來比較有條理？",
-            "keepStepCardVisible": false
-          },
-          "factGroundingSourceId": "115-s1/g6/mandarin#u3"
-        },
-        {
-          "sceneId": "g6s1-mandarin-u3-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "從比賽與職業看見真正的價值",
-          "topicSignalTitle": "輸贏之外的運動家精神與日積月累的專業",
-          "narrationText": "公平競爭與尊重對手能贏得喝采；而太空人登月或各行各業的專業配備，背後都需要長期苦練與科學巧思。",
-          "cognitiveChunks": [
-            "對比技巧可凸顯精神價值",
-            "精準的四字語詞能展現職業特色（如妙手回春、作育英才）"
-          ],
-          "factGroundingSourceId": "115-s1/g6/mandarin#u3"
-        },
-        {
-          "sceneId": "g6s1-mandarin-u3-s4",
-          "componentType": "WARMUP_CHECK",
-          "title": "進場前暖身確認",
-          "narrationText": "先用這題辨識文章開頭的寫作技巧！",
-          "cognitiveChunks": [
-            "設問法＝提出問題；引用法＝引述名言俗諺"
-          ],
-          "warmupCheck": {
-            "prompt": "文章開頭寫：「俗話說『台上一分鐘，台下十年功』，每一次精彩表現都來自長久的練習。」這是運用了哪一種開頭技巧？",
-            "options": [
-              "設問法開頭",
-              "引用法開頭",
-              "倒敘法開頭",
-              "對話法開頭"
-            ],
-            "answerIndex": 1,
-            "feedbackCorrect": "完全正確！開頭引述俗諺「台上一分鐘，台下十年功」來帶出主題，正是引用法開頭。",
-            "feedbackRetry": "注意句子裡有「俗話說……」並加上引號引用一句話，這是哪一種開頭技巧呢？"
-          },
-          "factGroundingSourceId": "115-s1/g6/mandarin#u3"
-        }
-      ]
-    },
-    {
-      "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g6-mandarin-u4",
-      "stageId": "115-s1-g6-mandarin-u4",
-      "title": "第參單元 問題解決",
-      "ageBand": "AGE_9_12_UPPER",
-      "subject": "LANGUAGE",
-      "scenes": [
-        {
-          "sceneId": "g6s1-mandarin-u4-s1",
-          "componentType": "ANCHOR_SCENE",
-          "title": "說理的骨架：論點與論據，以及小說衝突高潮",
-          "narrationText": "閱讀〈明智的抉擇〉要分清作者主張（論點）與支持理由（論據）；閱讀〈飢渴好「火」伴〉與〈火燒連環船〉則要掌握衝突高潮與圖表整理策略。",
-          "cognitiveChunks": [
-            "論點＝作者想表達的立場或主張",
-            "論據＝支持論點的「事例」（故事事件）與「言例」（名言格言）",
-            "小說高潮＝危機最緊張、主角必須解決難題的時刻"
-          ],
-          "analogyAnchor": "論點就像屋頂，事例和言例等論據就像撐起屋頂的柱子，柱子越穩固，道理就越讓人信服。",
-          "visualSpec": {
-            "templateId": "flow_cause",
-            "params": {
-              "nodes": [
-                "提出明確主張（論點）",
-                "舉出具體故事（事例）",
-                "引述名人名言（言例）",
-                "提出可行做法（總結）"
-              ]
-            },
-            "spatialLabels": [
-              {
-                "id": "g6-m-u4-l1",
-                "text": "論點是主張",
-                "anchorPointId": "step1"
-              },
-              {
-                "id": "g6-m-u4-l2",
-                "text": "事例言例當論據",
-                "anchorPointId": "step2"
-              }
-            ]
-          },
-          "factGroundingSourceId": "115-s1/g6/mandarin#u4"
-        },
-        {
-          "sceneId": "g6s1-mandarin-u4-s2",
-          "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "用圖表整理情勢優劣與圖文筆記",
-          "narrationText": "讀歷史策略故事〈火燒連環船〉或說理文章時，畫一張比較表與因果脈絡圖，能幫我們看清雙方的優勢與計謀。",
-          "cognitiveChunks": [
-            "用表格並列各陣營的優勢與劣勢",
-            "用箭頭串聯事件發生的前因後果"
-          ],
-          "workedExampleData": {
-            "problemStatement": "在時間和資源有限的情況下，如何做出「明智的抉擇」並用圖文筆記整理〈火燒連環船〉的情勢？",
-            "steps": [
-              "第 1 步：做抉擇前，先釐清目標與現有時間、資源限制，分出輕重緩急",
-              "第 2 步：閱讀戰役或策略故事時，用表格左右對照兩方陣營的優劣條件",
-              "第 3 步：再用圖像與簡短關鍵字畫出因果脈絡，連結相關成語或諺語理解深意"
-            ],
-            "commonErrorContrast": "常見錯誤：做決定時只憑一時衝動沒評估後果，或讀長篇故事時只死背字詞卻沒釐清誰對誰、為什麼會贏。",
-            "selfExplanationPrompt": "想一想：在野外需要用火時，為了安全與防災，用火前和離開前分別要注意什麼？",
-            "keepStepCardVisible": false
-          },
-          "factGroundingSourceId": "115-s1/g6/mandarin#u4"
-        },
-        {
-          "sceneId": "g6s1-mandarin-u4-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "野外用火安全與冷靜應變",
-          "topicSignalTitle": "安全教育：遠離易燃物並確實熄滅餘燼",
-          "narrationText": "面對困難或野外突發狀況，冷靜思考並善用知識才能化險為夷；同時切記戶外生火必須保持通風、遠離乾草，結束後徹底撲滅火源。",
-          "cognitiveChunks": [
-            "保持冷靜、勇敢面對困難",
-            "野外生火離開前須用水或沙土完全滅火"
-          ],
-          "factGroundingSourceId": "115-s1/g6/mandarin#u4"
-        },
-        {
-          "sceneId": "g6s1-mandarin-u4-s4",
-          "componentType": "WARMUP_CHECK",
-          "title": "進場前暖身確認",
-          "narrationText": "先用這題分辨說理文章的「事例」與「言例」！",
-          "cognitiveChunks": [
-            "真實故事事件＝事例；名言格言＝言例"
-          ],
-          "warmupCheck": {
-            "prompt": "在〈明智的抉擇〉這類說理文章中，作者舉出「某位運動員放棄獎盃去扶起跌倒對手」的故事來支持自己的主張，這屬於哪一種論據？",
-            "options": [
-              "事例",
-              "言例",
-              "擬人法",
-              "誇飾法"
+              "能比較電子郵件與傳統書信的不同",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
             "answerIndex": 0,
-            "feedbackCorrect": "答對了！舉出真實或具體的故事事件來支持論點，就是「事例」說理。",
-            "feedbackRetry": "故事和具體事件是「事例」，引用名言佳句才是「言例」喔！"
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-mandarin-u3-l1",
+      "stageId": "115-s1-g6-mandarin-u3-l1",
+      "title": "第四課 贏得喝采的輸家",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第四課 贏得喝采的輸家：核心概念",
+          "narrationText": "在「第貳單元 工作圖像」的「第四課 贏得喝采的輸家」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "能了解與比較不同敘事人稱的寫作視角",
+            "能明白比賽過程中公平競爭的重要性，使用摹寫法開頭及善用對比寫作技巧"
+          ],
+          "analogyAnchor": "把「第四課 贏得喝采的輸家」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第四課 贏得喝采的輸家",
+              "leftPoints": [
+                "能了解與比較不同敘事人稱的寫作視角",
+                "能明白比賽過程中公平競爭的重要性"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "留意字形、讀音與句型脈絡",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第四課 贏得喝采的輸",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u3"
+        },
+        {
+          "sceneId": "u3l1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "能了解與比較不同敘事人稱的寫作視角",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第四課 贏得喝采的輸家」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第四課 贏得喝采的輸家」",
+              "第 2 步：對照本課核心「能了解與比較不同敘事人稱的寫作視角」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第四課 贏得喝采的輸家」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u3"
+        },
+        {
+          "sceneId": "u3l1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第四課 贏得喝采的輸家」後再開始挑戰！",
+          "cognitiveChunks": [
+            "能了解與比較不同敘事人稱的寫作視角"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第四課 贏得喝采的輸家」，哪一項才是正確的學習重點？",
+            "options": [
+              "能了解與比較不同敘事人稱的寫作視角",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-mandarin-u3-l2",
+      "stageId": "115-s1-g6-mandarin-u3-l2",
+      "title": "第五課 哇！原來如此",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3l2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第五課 哇！原來如此：核心概念",
+          "narrationText": "在「第貳單元 工作圖像」的「第五課 哇！原來如此」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "能讀懂內容，理解文中職業配備背後隱藏的祕密",
+            "能理解以「設問法」開頭的寫作技巧"
+          ],
+          "analogyAnchor": "把「第五課 哇！原來如此」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第五課 哇！原來如此",
+              "leftPoints": [
+                "能讀懂內容，理解文中職業配備背後隱藏的祕密",
+                "能理解以「設問法」開頭的寫作技巧"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "留意字形、讀音與句型脈絡",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第五課 哇！原來如此",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u3"
+        },
+        {
+          "sceneId": "u3l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "能讀懂內容，理解文中職業配備背後隱藏的祕密",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第五課 哇！原來如此」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第五課 哇！原來如此」",
+              "第 2 步：對照本課核心「能讀懂內容，理解文中職業配備背後隱藏的祕密」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第五課 哇！原來如此」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u3"
+        },
+        {
+          "sceneId": "u3l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第五課 哇！原來如此」後再開始挑戰！",
+          "cognitiveChunks": [
+            "能讀懂內容，理解文中職業配備背後隱藏的祕密"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第五課 哇！原來如此」，哪一項才是正確的學習重點？",
+            "options": [
+              "能讀懂內容，理解文中職業配備背後隱藏的祕密",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-mandarin-u3-l3",
+      "stageId": "115-s1-g6-mandarin-u3-l3",
+      "title": "第六課 登月先鋒",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第六課 登月先鋒：核心概念",
+          "narrationText": "在「第貳單元 工作圖像」的「第六課 登月先鋒」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識登月前的各種訓練",
+            "能熟練景物動態與靜態的描寫，掌握「引用法」開頭的寫作技巧"
+          ],
+          "analogyAnchor": "把「第六課 登月先鋒」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第六課 登月先鋒",
+              "leftPoints": [
+                "認識登月前的各種訓練",
+                "能熟練景物動態與靜態的描寫"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "留意字形、讀音與句型脈絡",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第六課 登月先鋒",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u3"
+        },
+        {
+          "sceneId": "u3l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識登月前的各種訓練",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第六課 登月先鋒」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第六課 登月先鋒」",
+              "第 2 步：對照本課核心「認識登月前的各種訓練」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第六課 登月先鋒」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u3"
+        },
+        {
+          "sceneId": "u3l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第六課 登月先鋒」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識登月前的各種訓練"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第六課 登月先鋒」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識登月前的各種訓練",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-mandarin-u3-l4",
+      "stageId": "115-s1-g6-mandarin-u3-l4",
+      "title": "語文天地二",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u3l4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "語文天地二：核心概念",
+          "narrationText": "在「第貳單元 工作圖像」的「語文天地二」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "理解「語文天地二」的課文大意、核心字詞形音義與句型表達。",
+            "能配合「語文天地二」朗讀課文並說出故事或文章重點。",
+            "運用「語文天地二」學到的語詞與句型，完整表達生活經驗。"
+          ],
+          "analogyAnchor": "把「語文天地二」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "語文天地二",
+              "leftPoints": [
+                "理解「語文天地二」的課文大意、核心字詞形音義與句型表達。",
+                "能配合「語文天地二」朗讀課文並說出故事或文章重點。"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "留意字形、讀音與句型脈絡",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文天地二",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u3"
+        },
+        {
+          "sceneId": "u3l4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "理解「語文天地二」的課文大意、核心字詞形音義與句型表達。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「語文天地二」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「語文天地二」",
+              "第 2 步：對照本課核心「理解「語文天地二」的課文大意」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「語文天地二」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u3"
+        },
+        {
+          "sceneId": "u3l4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「語文天地二」後再開始挑戰！",
+          "cognitiveChunks": [
+            "理解「語文天地二」的課文大意、核心字詞形音義與句型表達。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「語文天地二」，哪一項才是正確的學習重點？",
+            "options": [
+              "理解「語文天地二」的課文大意、核心字詞形音義與句型表達。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-mandarin-u4-l1",
+      "stageId": "115-s1-g6-mandarin-u4-l1",
+      "title": "第七課 明智的抉擇",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第七課 明智的抉擇：核心概念",
+          "narrationText": "在「第參單元 問題解決」的「第七課 明智的抉擇」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "知道說明的表述方式",
+            "能學會用事例、言例、提出做法等方式說理"
+          ],
+          "analogyAnchor": "把「第七課 明智的抉擇」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第七課 明智的抉擇",
+              "leftPoints": [
+                "知道說明的表述方式",
+                "能學會用事例、言例、提出做法等方式說理"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "留意字形、讀音與句型脈絡",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第七課 明智的抉擇",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u4"
+        },
+        {
+          "sceneId": "u4l1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "知道說明的表述方式",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第七課 明智的抉擇」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第七課 明智的抉擇」",
+              "第 2 步：對照本課核心「知道說明的表述方式」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第七課 明智的抉擇」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u4"
+        },
+        {
+          "sceneId": "u4l1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第七課 明智的抉擇」後再開始挑戰！",
+          "cognitiveChunks": [
+            "知道說明的表述方式"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第七課 明智的抉擇」，哪一項才是正確的學習重點？",
+            "options": [
+              "知道說明的表述方式",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s1/g6/mandarin#u4"
         }
@@ -428,313 +930,921 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g6-mandarin-u5",
-      "stageId": "115-s1-g6-mandarin-u5",
+      "lessonId": "lesson-115-s1-g6-mandarin-u4-l2",
+      "stageId": "115-s1-g6-mandarin-u4-l2",
+      "title": "第八課 飢渴好「火」伴",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4l2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第八課 飢渴好「火」伴：核心概念",
+          "narrationText": "在「第參單元 問題解決」的「第八課 飢渴好「火」伴」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "讀出小說中的衝突與高潮，認識野外生火的方法（六上目標61-62）。",
+            "能分辨不同人稱的敘述方式，學會敘述事物的技巧"
+          ],
+          "analogyAnchor": "把「第八課 飢渴好「火」伴」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第八課 飢渴好「火」伴",
+              "leftPoints": [
+                "讀出小說中的衝突與高潮",
+                "能分辨不同人稱的敘述方式，學會敘述事物的技巧"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "留意字形、讀音與句型脈絡",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第八課 飢渴好「火」",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u4"
+        },
+        {
+          "sceneId": "u4l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "讀出小說中的衝突與高潮，認識野外生火的方法（六上目標61-62）。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第八課 飢渴好「火」伴」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第八課 飢渴好「火」伴」",
+              "第 2 步：對照本課核心「讀出小說中的衝突與高潮」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第八課 飢渴好「火」伴」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u4"
+        },
+        {
+          "sceneId": "u4l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第八課 飢渴好「火」伴」後再開始挑戰！",
+          "cognitiveChunks": [
+            "讀出小說中的衝突與高潮，認識野外生火的方法（六上目標61-62）。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第八課 飢渴好「火」伴」，哪一項才是正確的學習重點？",
+            "options": [
+              "讀出小說中的衝突與高潮，認識野外生火的方法（六上目標61-62）。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-mandarin-u4-l3",
+      "stageId": "115-s1-g6-mandarin-u4-l3",
+      "title": "第九課 火燒連環船",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第九課 火燒連環船：核心概念",
+          "narrationText": "在「第參單元 問題解決」的「第九課 火燒連環船」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識火燒連環船中的主要人物及其性格",
+            "連結故事情節理解相關成語或諺語意思"
+          ],
+          "analogyAnchor": "把「第九課 火燒連環船」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第九課 火燒連環船",
+              "leftPoints": [
+                "認識火燒連環船中的主要人物及其性格",
+                "連結故事情節理解相關成語或諺語意思"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "留意字形、讀音與句型脈絡",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第九課 火燒連環船",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u4"
+        },
+        {
+          "sceneId": "u4l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識火燒連環船中的主要人物及其性格",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第九課 火燒連環船」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第九課 火燒連環船」",
+              "第 2 步：對照本課核心「認識火燒連環船中的主要人物及其性格」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第九課 火燒連環船」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u4"
+        },
+        {
+          "sceneId": "u4l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第九課 火燒連環船」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識火燒連環船中的主要人物及其性格"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第九課 火燒連環船」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識火燒連環船中的主要人物及其性格",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-mandarin-u4-l4",
+      "stageId": "115-s1-g6-mandarin-u4-l4",
+      "title": "語文天地三",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u4l4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "語文天地三：核心概念",
+          "narrationText": "在「第參單元 問題解決」的「語文天地三」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "理解「語文天地三」的課文大意、核心字詞形音義與句型表達。",
+            "能配合「語文天地三」朗讀課文並說出故事或文章重點。",
+            "運用「語文天地三」學到的語詞與句型，完整表達生活經驗。"
+          ],
+          "analogyAnchor": "把「語文天地三」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "語文天地三",
+              "leftPoints": [
+                "理解「語文天地三」的課文大意、核心字詞形音義與句型表達。",
+                "能配合「語文天地三」朗讀課文並說出故事或文章重點。"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "留意字形、讀音與句型脈絡",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文天地三",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u4"
+        },
+        {
+          "sceneId": "u4l4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "理解「語文天地三」的課文大意、核心字詞形音義與句型表達。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「語文天地三」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「語文天地三」",
+              "第 2 步：對照本課核心「理解「語文天地三」的課文大意」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「語文天地三」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u4"
+        },
+        {
+          "sceneId": "u4l4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「語文天地三」後再開始挑戰！",
+          "cognitiveChunks": [
+            "理解「語文天地三」的課文大意、核心字詞形音義與句型表達。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「語文天地三」，哪一項才是正確的學習重點？",
+            "options": [
+              "理解「語文天地三」的課文大意、核心字詞形音義與句型表達。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-mandarin-u5-l1",
+      "stageId": "115-s1-g6-mandarin-u5-l1",
       "title": "〈讀寫練功房〉名偵探福爾摩斯",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "LANGUAGE",
       "scenes": [
         {
-          "sceneId": "g6s1-mandarin-u5-s1",
+          "sceneId": "u5l1-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "像福爾摩斯一樣：觀察細節、推理與文章審視",
-          "narrationText": "偵探推理小說的樂趣在於從微小線索中邏輯推理；而寫完作文後，我們也要像偵探一樣重新「審視文章」，找出錯字、矛盾與離題句子來潤飾。",
+          "title": "〈讀寫練功房〉名偵探福爾摩斯：核心概念",
+          "narrationText": "在「〈讀寫練功房〉名偵探福爾摩斯」的「〈讀寫練功房〉名偵探福爾摩斯」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "推理小說：圍繞謎團、觀察線索、邏輯驗證",
-            "寫作伏筆：前面埋下細節線索，後面情節更合理",
-            "文章審視：檢查題意、邏輯連貫與語句通順"
+            "能認識不同的小說類型與偵探小說經典之作—福爾摩斯",
+            "能了解審視文章對於寫作的重要性"
           ],
-          "analogyAnchor": "寫文章初稿就像剛蓋好的毛坯屋，審視和修改潤飾就是幫房子檢查漏水並裝修得更美觀。",
-          "visualSpec": {
-            "templateId": "flow_cause",
-            "params": {
-              "nodes": [
-                "細心觀察異常細節",
-                "提出合理疑問假設",
-                "比對新線索驗證推論",
-                "審視文章並修改潤飾"
-              ]
-            },
-            "spatialLabels": [
-              {
-                "id": "g6-m-u5-l1",
-                "text": "觀察線索推論",
-                "anchorPointId": "step1"
-              },
-              {
-                "id": "g6-m-u5-l2",
-                "text": "重讀審視潤飾",
-                "anchorPointId": "step4"
-              }
-            ]
-          },
-          "factGroundingSourceId": "115-s1/g6/mandarin#u5"
-        },
-        {
-          "sceneId": "g6s1-mandarin-u5-s2",
-          "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "三步驟審視並修改文章草稿",
-          "narrationText": "當自己當第一位讀者重讀作文時，照著「看題意與邏輯 → 刪贅句 → 修語病錯字」的順序檢查最有效率。",
-          "cognitiveChunks": [
-            "先抓前後矛盾與離題贅句",
-            "再修錯別字與標點符號"
-          ],
-          "workedExampleData": {
-            "problemStatement": "草稿中寫道：「大熱天他穿著厚羽絨衣在冷氣房裡發抖流汗，接著去買了一支冰棒。」這句話該怎麼審視修改？",
-            "steps": [
-              "第 1 步：檢查生活邏輯：「發抖」與「流汗」、「大熱天」與「厚羽絨衣」互相矛盾",
-              "第 2 步：刪除不合常理或離題的贅詞，保留符合故事線索的細節（例如：大熱天他滿頭大汗走進便利商店買冰棒）",
-              "第 3 步：朗讀一遍確認語氣順暢、詞語精準"
-            ],
-            "commonErrorContrast": "常見錯誤：只檢查有沒有寫錯字，卻沒發現句子前後意思自相矛盾，或留著跟主線無關的碎念。",
-            "selfExplanationPrompt": "想一想：幫同學審視作文時，除了指出哪裡可以改得更通順，為什麼也要肯定對方寫得好的地方？",
-            "keepStepCardVisible": false
-          },
-          "factGroundingSourceId": "115-s1/g6/mandarin#u5"
-        },
-        {
-          "sceneId": "g6s1-mandarin-u5-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "認識不同類型的小說",
-          "topicSignalTitle": "推理、科幻、歷史、武俠各有特色",
-          "narrationText": "除了重視線索與邏輯的推理小說，還有以科學未來為舞台的科幻小說、以歷史為背景的歷史小說，以及重視江湖俠義的武俠小說。",
-          "cognitiveChunks": [
-            "推理小說重證據與邏輯",
-            "讀小說時主動標記線索與人物關係"
-          ],
-          "factGroundingSourceId": "115-s1/g6/mandarin#u5"
-        },
-        {
-          "sceneId": "g6s1-mandarin-u5-s4",
-          "componentType": "WARMUP_CHECK",
-          "title": "進場前暖身確認",
-          "narrationText": "先用這題練習找出草稿中的邏輯矛盾與修改重點！",
-          "cognitiveChunks": [
-            "好文章是反覆審視與修改出來的"
-          ],
-          "warmupCheck": {
-            "prompt": "完成作文初稿後，重新審視文章時最應該優先做的事是什麼？",
-            "options": [
-              "把所有簡單的詞語都改成沒人看懂的生僻字",
-              "檢查是否切合題意、前後邏輯是否合理，並刪除離題贅句",
-              "數一數整篇文章有幾個逗號就好",
-              "直接交出去，完全不重讀一遍"
-            ],
-            "answerIndex": 1,
-            "feedbackCorrect": "答對了！確認主旨切題、邏輯連貫並刪去多餘贅句，是修改文章最重要的第一步。",
-            "feedbackRetry": "審視文章最重要的是讓讀者看得懂、合情合理又緊扣主題喔！"
-          },
-          "factGroundingSourceId": "115-s1/g6/mandarin#u5"
-        }
-      ]
-    },
-    {
-      "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g6-mandarin-u6",
-      "stageId": "115-s1-g6-mandarin-u6",
-      "title": "第肆單元 文學之窗",
-      "ageBand": "AGE_9_12_UPPER",
-      "subject": "LANGUAGE",
-      "scenes": [
-        {
-          "sceneId": "g6s1-mandarin-u6-s1",
-          "componentType": "ANCHOR_SCENE",
-          "title": "跨越時空的文學之窗：古文、跨文化與寫作收尾",
-          "narrationText": "本單元包含古文短篇〈戲術〉、日本作家作品〈紀念照〉與〈少年筆耕〉，帶領我們學習細心觀察、首尾呼應、多角度理解與摹寫畫面結尾。",
-          "cognitiveChunks": [
-            "古文短篇：言簡意賅，配合注釋與上下文推敲詞義",
-            "首尾呼應：結尾回扣開頭意象或情感，結構完整",
-            "摹寫畫面結尾：用具體畫面留下餘韻與感動"
-          ],
-          "analogyAnchor": "「首尾呼應」就像電影開場出現的一張舊照片，在電影最後一幕又再次出現，讓觀眾把前後故事串在一起。",
+          "analogyAnchor": "把「〈讀寫練功房〉名偵探福爾摩斯」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "首尾呼應技巧",
+              "leftTitle": "〈讀寫練功房〉名偵探福爾摩斯",
               "leftPoints": [
-                "結尾再次扣回開頭物件或主題",
-                "讓文章結構前後貫通、圓融完整"
+                "能認識不同的小說類型與偵探小說經典之作—福爾摩斯",
+                "能了解審視文章對於寫作的重要性"
               ],
-              "rightTitle": "摹寫畫面結尾",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "描繪具體的視覺場景或背影",
-                "不說教，自然在讀者心中留下餘韻"
+                "留意字形、讀音與句型脈絡",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
-                "id": "g6-m-u6-l1",
-                "text": "首尾呼應結構緊",
+                "id": "l1",
+                "text": "〈讀寫練功房〉名偵探",
                 "anchorPointId": "left"
               },
               {
-                "id": "g6-m-u6-l2",
-                "text": "畫面結尾留餘韻",
+                "id": "l2",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
           },
-          "factGroundingSourceId": "115-s1/g6/mandarin#u6"
+          "factGroundingSourceId": "115-s1/g6/mandarin#u5"
         },
         {
-          "sceneId": "g6s1-mandarin-u6-s2",
+          "sceneId": "u5l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "練習換位思考：從不同角色立場看同一件事",
-          "narrationText": "讀〈少年筆耕〉時，同一件事站在爸爸的角度和站在兒子的角度看，心情與想法完全不同。試著分別分析兩人的立場！",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "同一事件因角色立場不同而有不同觀點",
-            "搭配四字語詞精準描寫角色情緒"
+            "能認識不同的小說類型與偵探小說經典之作—福爾摩斯",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "在〈少年筆耕〉中，當主角發現原本以為嚴厲的父親其實默默在為家庭辛勞付出時，如何運用「換位思考」理解角色心情？",
+            "problemStatement": "複習「〈讀寫練功房〉名偵探福爾摩斯」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：先站在孩子立場，找出原本困惑、委屈或「筋疲力盡」的原因",
-              "第 2 步：再轉換成父母立場，體會長輩背負生活壓力、不善表達卻深愛家人的心情",
-              "第 3 步：理解雙方觀點差異後，就更能體會親子之間的體諒與深厚親情"
+              "第 1 步：確認題目在問「〈讀寫練功房〉名偵探福爾摩斯」",
+              "第 2 步：對照本課核心「能認識不同的小說類型與偵探小說經典之作—福。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：只站在單一主角的角度指責另一方，忽略了每個人背後都有自己的責任與考量。",
-            "selfExplanationPrompt": "想一想：讀完不同時代或不同國家的作品後，你覺得人類有哪些情感是跨越時空都共通的？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「〈讀寫練功房〉名偵探福爾」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/mandarin#u6"
+          "factGroundingSourceId": "115-s1/g6/mandarin#u5"
         },
         {
-          "sceneId": "g6s1-mandarin-u6-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "細心觀察看門道，廣泛閱讀長智慧",
-          "topicSignalTitle": "從民間戲法到世界文學的共通情感",
-          "narrationText": "看〈戲術〉魔術表演時要細心觀察動作細節；讀〈紀念照〉與〈語文天地四〉時，則能從各地生活樣貌中體會人類共通的親情與真誠。",
-          "cognitiveChunks": [
-            "細心觀察能看出表演背後的巧思",
-            "廣泛閱讀不同文化作品能拓展視野"
-          ],
-          "factGroundingSourceId": "115-s1/g6/mandarin#u6"
-        },
-        {
-          "sceneId": "g6s1-mandarin-u6-s4",
+          "sceneId": "u5l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "先用這題確認「首尾呼應」與「摹寫畫面結尾」的觀念！",
+          "narrationText": "先做一題暖身確認，確認掌握「〈讀寫練功房〉名偵探福爾摩斯」後再開始挑戰！",
           "cognitiveChunks": [
-            "首尾呼應＝前後回扣；畫面結尾＝留下餘韻"
+            "能認識不同的小說類型與偵探小說經典之作—福爾摩斯"
           ],
           "warmupCheck": {
-            "prompt": "文章開頭描寫外婆家門前那棵老榕樹，結尾時又回到老榕樹下乘涼的溫馨場景，這種寫作技巧稱為什麼？",
+            "prompt": "關於「〈讀寫練功房〉名偵探福爾摩斯」，哪一項才是正確的學習重點？",
             "options": [
-              "設問開頭",
-              "首尾呼應",
-              "舉例駁斥",
-              "統計比較"
-            ],
-            "answerIndex": 1,
-            "feedbackCorrect": "答對了！結尾再度扣回開頭的老榕樹場景，讓全篇文章前後貫通，就是首尾呼應。",
-            "feedbackRetry": "「首」是開頭，「尾」是結尾，開頭和結尾都出現同一棵老榕樹彼此連結，叫什麼技巧呢？"
-          },
-          "factGroundingSourceId": "115-s1/g6/mandarin#u6"
-        }
-      ]
-    },
-    {
-      "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g6-mandarin-u7",
-      "stageId": "115-s1-g6-mandarin-u7",
-      "title": "〈閱讀充電站〉",
-      "ageBand": "AGE_9_12_UPPER",
-      "subject": "LANGUAGE",
-      "scenes": [
-        {
-          "sceneId": "g6s1-mandarin-u7-s1",
-          "componentType": "ANCHOR_SCENE",
-          "title": "說明文架構與武俠小說人物鬥智",
-          "narrationText": "〈閱讀充電站〉帶我們讀懂〈你可能不知道的職業〉的文章架構與職業價值，也透過〈黃蓉智退霍都〉認識武俠小說元素與人物刻畫。",
-          "cognitiveChunks": [
-            "職業說明架構：工作內容 → 特殊性 → 如何幫助人們",
-            "尊重每一種正當職業的價值與貢獻",
-            "武俠小說：江湖武林、武功招式、機智謀略與俠義"
-          ],
-          "analogyAnchor": "讀說明文像看建築藍圖，要先找到每一段共通的介紹架構；讀武俠小說像看高手過招，要看懂雙方對話與出招背後的計謀。",
-          "visualSpec": {
-            "templateId": "concept_compare",
-            "params": {
-              "leftTitle": "職業介紹說明文",
-              "leftPoints": [
-                "掌握「內容—特色—貢獻」架構",
-                "認識多元職業並拓展生涯想像"
-              ],
-              "rightTitle": "武俠小說節選",
-              "rightPoints": [
-                "從對話神態看懂人物性格",
-                "體會以智取勝的鬥智轉折"
-              ]
-            },
-            "spatialLabels": [
-              {
-                "id": "g6-m-u7-l1",
-                "text": "說明文抓段落架構",
-                "anchorPointId": "left"
-              },
-              {
-                "id": "g6-m-u7-l2",
-                "text": "武俠小說看鬥智",
-                "anchorPointId": "right"
-              }
-            ]
-          },
-          "factGroundingSourceId": "115-s1/g6/mandarin#u7"
-        },
-        {
-          "sceneId": "g6s1-mandarin-u7-s2",
-          "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "如何讀懂小說中的「人物刻畫」與「鬥智過程」",
-          "narrationText": "優秀的小說不會只寫「主角很聰明」，而是透過角色的對話、動作和應變計策，讓讀者自己看出他的「足智多謀」。",
-          "cognitiveChunks": [
-            "聽其言、觀其行，讀出角色性格",
-            "梳理「立場—困境—對策—結果」脈絡"
-          ],
-          "workedExampleData": {
-            "problemStatement": "閱讀〈黃蓉智退霍都〉這類鬥智故事時，如何一步步看懂角色的性格與退敵關鍵？",
-            "steps": [
-              "第 1 步：先釐清雙方立場與衝突（誰來挑釁、主角面臨什麼危機）",
-              "第 2 步：細讀兩人的對話機鋒與神態反應，辨別誰冷靜沉著、誰驕傲急躁",
-              "第 3 步：找出主角不靠蠻力、而是利用對方弱點設計對策的轉折點，體會足智多謀的巧妙"
-            ],
-            "commonErrorContrast": "常見錯誤：只看打鬥場面卻跳過人物對話，結果看不懂為什麼對手最後會知難而退。",
-            "selfExplanationPrompt": "想一想：如果讓你介紹一種平常少見的特殊職業，你會按照哪三個步驟來寫？",
-            "keepStepCardVisible": false
-          },
-          "factGroundingSourceId": "115-s1/g6/mandarin#u7"
-        },
-        {
-          "sceneId": "g6s1-mandarin-u7-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "看見百工百業的價值，培養未來想像",
-          "topicSignalTitle": "每一份默默付出的工作都值得尊敬",
-          "narrationText": "社會上有許多平常不容易注意到的職業，都在關鍵時刻幫助人們解決生活難題。認識它們能打破刻板印象，啟發我們探索未來的無限可能。",
-          "cognitiveChunks": [
-            "每個職業都有其專業技能與社會價值",
-            "培養對未來生涯的好奇與多元想像"
-          ],
-          "factGroundingSourceId": "115-s1/g6/mandarin#u7"
-        },
-        {
-          "sceneId": "g6s1-mandarin-u7-s4",
-          "componentType": "WARMUP_CHECK",
-          "title": "進場前暖身確認",
-          "narrationText": "先用這題確認說明文架構與人物刻畫的閱讀策略！",
-          "cognitiveChunks": [
-            "說明文抓架構，小說看言行與因果"
-          ],
-          "warmupCheck": {
-            "prompt": "閱讀介紹多種特殊職業的文章時，找出作者「描述各項職業的共同架構」有什麼好處？",
-            "options": [
-              "能更快掌握每種職業的重點並比較它們的特色與貢獻",
-              "可以把文章裡所有職業的薪水背起來",
-              "能讓自己完全不用閱讀文章內容",
-              "可以只看標點符號就猜出故事結局"
+              "能認識不同的小說類型與偵探小說經典之作—福爾摩斯",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
             "answerIndex": 0,
-            "feedbackCorrect": "完全正確！掌握文章的說明架構，能幫助我們高效率擷取重點與比較不同主題。",
-            "feedbackRetry": "想一想，如果每一段都用「工作內容→特殊性→如何助人」的順序介紹，抓到這個架構對閱讀有什麼幫助？"
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-mandarin-u6-l1",
+      "stageId": "115-s1-g6-mandarin-u6-l1",
+      "title": "第十課 戲術",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u6l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第十課 戲術：核心概念",
+          "narrationText": "在「第肆單元 文學之窗」的「第十課 戲術」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識古文短篇故事的文體與古代民間的戲法",
+            "能從文中敘述找出魔術表演技巧"
+          ],
+          "analogyAnchor": "把「第十課 戲術」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第十課 戲術",
+              "leftPoints": [
+                "認識古文短篇故事的文體與古代民間的戲法",
+                "能從文中敘述找出魔術表演技巧"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "留意字形、讀音與句型脈絡",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第十課 戲術",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u6"
+        },
+        {
+          "sceneId": "u6l1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識古文短篇故事的文體與古代民間的戲法",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第十課 戲術」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第十課 戲術」",
+              "第 2 步：對照本課核心「認識古文短篇故事的文體與古代民間的戲法」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第十課 戲術」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u6"
+        },
+        {
+          "sceneId": "u6l1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第十課 戲術」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識古文短篇故事的文體與古代民間的戲法"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第十課 戲術」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識古文短篇故事的文體與古代民間的戲法",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-mandarin-u6-l2",
+      "stageId": "115-s1-g6-mandarin-u6-l2",
+      "title": "第十一課 紀念照",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u6l2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第十一課 紀念照：核心概念",
+          "narrationText": "在「第肆單元 文學之窗」的「第十一課 紀念照」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識日本傳統家庭的生活樣貌與早期拍照的工具及景象",
+            "能掌握「首尾呼應」的文章寫作技巧"
+          ],
+          "analogyAnchor": "把「第十一課 紀念照」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第十一課 紀念照",
+              "leftPoints": [
+                "認識日本傳統家庭的生活樣貌與早期拍照的工具及景象",
+                "能掌握「首尾呼應」的文章寫作技巧"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "留意字形、讀音與句型脈絡",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第十一課 紀念照",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u6"
+        },
+        {
+          "sceneId": "u6l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識日本傳統家庭的生活樣貌與早期拍照的工具及景象",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第十一課 紀念照」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第十一課 紀念照」",
+              "第 2 步：對照本課核心「認識日本傳統家庭的生活樣貌與早期拍照的工具。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第十一課 紀念照」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u6"
+        },
+        {
+          "sceneId": "u6l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第十一課 紀念照」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識日本傳統家庭的生活樣貌與早期拍照的工具及景象"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第十一課 紀念照」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識日本傳統家庭的生活樣貌與早期拍照的工具及景象",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-mandarin-u6-l3",
+      "stageId": "115-s1-g6-mandarin-u6-l3",
+      "title": "第十二課 少年筆耕",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u6l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第十二課 少年筆耕：核心概念",
+          "narrationText": "在「第肆單元 文學之窗」的「第十二課 少年筆耕」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "能理解不同角色立場對同一事件會有不同觀點",
+            "能分析課文了解主角情緒反應與事件，依情境以四字語詞造句"
+          ],
+          "analogyAnchor": "把「第十二課 少年筆耕」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第十二課 少年筆耕",
+              "leftPoints": [
+                "能理解不同角色立場對同一事件會有不同觀點",
+                "能分析課文了解主角情緒反應與事件，依情境以四字語詞造句"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "留意字形、讀音與句型脈絡",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第十二課 少年筆耕",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u6"
+        },
+        {
+          "sceneId": "u6l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "能理解不同角色立場對同一事件會有不同觀點",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第十二課 少年筆耕」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第十二課 少年筆耕」",
+              "第 2 步：對照本課核心「能理解不同角色立場對同一事件會有不同觀點」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第十二課 少年筆耕」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u6"
+        },
+        {
+          "sceneId": "u6l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第十二課 少年筆耕」後再開始挑戰！",
+          "cognitiveChunks": [
+            "能理解不同角色立場對同一事件會有不同觀點"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第十二課 少年筆耕」，哪一項才是正確的學習重點？",
+            "options": [
+              "能理解不同角色立場對同一事件會有不同觀點",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-mandarin-u6-l4",
+      "stageId": "115-s1-g6-mandarin-u6-l4",
+      "title": "語文天地四",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u6l4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "語文天地四：核心概念",
+          "narrationText": "在「第肆單元 文學之窗」的「語文天地四」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "理解「語文天地四」的課文大意、核心字詞形音義與句型表達。",
+            "能配合「語文天地四」朗讀課文並說出故事或文章重點。",
+            "運用「語文天地四」學到的語詞與句型，完整表達生活經驗。"
+          ],
+          "analogyAnchor": "把「語文天地四」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "語文天地四",
+              "leftPoints": [
+                "理解「語文天地四」的課文大意、核心字詞形音義與句型表達。",
+                "能配合「語文天地四」朗讀課文並說出故事或文章重點。"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "留意字形、讀音與句型脈絡",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文天地四",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u6"
+        },
+        {
+          "sceneId": "u6l4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "理解「語文天地四」的課文大意、核心字詞形音義與句型表達。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「語文天地四」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「語文天地四」",
+              "第 2 步：對照本課核心「理解「語文天地四」的課文大意」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「語文天地四」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u6"
+        },
+        {
+          "sceneId": "u6l4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「語文天地四」後再開始挑戰！",
+          "cognitiveChunks": [
+            "理解「語文天地四」的課文大意、核心字詞形音義與句型表達。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「語文天地四」，哪一項才是正確的學習重點？",
+            "options": [
+              "理解「語文天地四」的課文大意、核心字詞形音義與句型表達。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-mandarin-u7-l1",
+      "stageId": "115-s1-g6-mandarin-u7-l1",
+      "title": "〈閱讀充電站〉你可能不知道的職業",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u7l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "〈閱讀充電站〉你可能不知道的職業：核心概念",
+          "narrationText": "在「〈閱讀充電站〉」的「〈閱讀充電站〉你可能不知道的職業」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "能認識本課所提到的職業工作內容與特殊性",
+            "能找出文章描述各項職業運用的架構"
+          ],
+          "analogyAnchor": "把「〈閱讀充電站〉你可能不知道的職業」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "〈閱讀充電站〉你可能不知道的",
+              "leftPoints": [
+                "能認識本課所提到的職業工作內容與特殊性",
+                "能找出文章描述各項職業運用的架構"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "留意字形、讀音與句型脈絡",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "〈閱讀充電站〉你可能",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u7"
+        },
+        {
+          "sceneId": "u7l1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "能認識本課所提到的職業工作內容與特殊性",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「〈閱讀充電站〉你可能不知道的職業」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「〈閱讀充電站〉你可能不知道的」",
+              "第 2 步：對照本課核心「能認識本課所提到的職業工作內容與特殊性」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「〈閱讀充電站〉你可能不知」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u7"
+        },
+        {
+          "sceneId": "u7l1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「〈閱讀充電站〉你可能不知道的」後再開始挑戰！",
+          "cognitiveChunks": [
+            "能認識本課所提到的職業工作內容與特殊性"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「〈閱讀充電站〉你可能不知道的」，哪一項才是正確的學習重點？",
+            "options": [
+              "能認識本課所提到的職業工作內容與特殊性",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u7"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-mandarin-u7-l2",
+      "stageId": "115-s1-g6-mandarin-u7-l2",
+      "title": "〈閱讀充電站〉黃蓉智退霍都",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u7l2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "〈閱讀充電站〉黃蓉智退霍都：核心概念",
+          "narrationText": "在「〈閱讀充電站〉」的「〈閱讀充電站〉黃蓉智退霍都」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "能藉由文章敘述了解人物性格及事件經過",
+            "能以適當閱讀理解策略閱讀，體會故事中人物鬥智過程"
+          ],
+          "analogyAnchor": "把「〈閱讀充電站〉黃蓉智退霍都」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "〈閱讀充電站〉黃蓉智退霍都",
+              "leftPoints": [
+                "能藉由文章敘述了解人物性格及事件經過",
+                "能以適當閱讀理解策略閱讀，體會故事中人物鬥智過程"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "留意字形、讀音與句型脈絡",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "〈閱讀充電站〉黃蓉智",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u7"
+        },
+        {
+          "sceneId": "u7l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "能藉由文章敘述了解人物性格及事件經過",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「〈閱讀充電站〉黃蓉智退霍都」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「〈閱讀充電站〉黃蓉智退霍都」",
+              "第 2 步：對照本課核心「能藉由文章敘述了解人物性格及事件經過」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「〈閱讀充電站〉黃蓉智退霍」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/mandarin#u7"
+        },
+        {
+          "sceneId": "u7l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「〈閱讀充電站〉黃蓉智退霍都」後再開始挑戰！",
+          "cognitiveChunks": [
+            "能藉由文章敘述了解人物性格及事件經過"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「〈閱讀充電站〉黃蓉智退霍都」，哪一項才是正確的學習重點？",
+            "options": [
+              "能藉由文章敘述了解人物性格及事件經過",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s1/g6/mandarin#u7"
         }

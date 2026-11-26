@@ -8,46 +8,46 @@
   "lessons": [
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g4-science-u1",
-      "stageId": "115-s2-g4-science-u1",
-      "title": "第一單元 太陽、月亮與月相",
+      "lessonId": "lesson-115-s2-g4-science-u1-l1",
+      "stageId": "115-s2-g4-science-u1-l1",
+      "title": "【活動1-1】白天的景象",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u1-s1",
+          "sceneId": "u1l1-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "太陽、影子的變化與月亮盈虧週期",
-          "narrationText": "白天能見太陽與雲朵，夜晚能見月亮與星星。太陽與月亮在同一天都會東升西落；物體影子與太陽方向相反；月相則以約一個月為循環週期。",
+          "title": "【活動1-1】白天的景象：核心概念",
+          "narrationText": "在「第一單元（課程架構表為圖片未擷取文字。",
           "cognitiveChunks": [
-            "太陽與月亮每天皆呈「東升西落」規律",
-            "影子方向與太陽相反，太陽越高影子越短",
-            "月相圓缺盈虧以約「一個月」為循環週期"
+            "認識「【活動1-1】白天的景象」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論",
+            "能用自己的話歸納「【活動1-1】白天的景象」的重要發現與做法。"
           ],
-          "analogyAnchor": "影子就像太陽的相反方向指南針：早上太陽在東方，影子就指向西方長長的；中午太陽高掛天空，影子就縮到最短。",
+          "analogyAnchor": "把「【活動1-1】白天的景象」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "一天中的位置變化",
+              "leftTitle": "【活動1-1】白天的景象",
               "leftPoints": [
-                "太陽東升西落，中午較高、影子較短",
-                "月亮同一晚也由東向西移動"
+                "認識「【活動1-1】白天的景象」的核心概念與現象",
+                "透過觀察與討論"
               ],
-              "rightTitle": "一個月的月相變化",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "亮面圓缺每天規律改變",
-                "約一個月完成一次圓缺循環"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
-                "id": "u1-l1",
-                "text": "日月皆東升西落",
+                "id": "l1",
+                "text": "【活動1-1】白天的",
                 "anchorPointId": "left"
               },
               {
-                "id": "u1-l2",
-                "text": "月相約一月一循環",
+                "id": "l2",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -55,59 +55,45 @@
           "factGroundingSourceId": "115-s2/g4/science#u1"
         },
         {
-          "sceneId": "u1-s2",
+          "sceneId": "u1l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "觀測太陽影子與長期記錄月相的方法",
-          "narrationText": "觀測太陽與影子時不可直視太陽以免傷眼；記錄月相變化則要固定安全地點，記下日期、方位與亮面圓缺形狀。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "光線直線前進，在背對太陽側形成影子",
-            "月亮有時在清晨或黃昏淡天空中也能看見",
-            "科學觀測需真實記錄日期、時間與形狀"
+            "認識「【活動1-1】白天的景象」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "從早上 8 點到中午 12 點觀察操場直竹竿的影子，長度和方向會如何變化？",
+            "problemStatement": "複習「【活動1-1】白天的景象」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：早上太陽在東方低空，影子偏向西方且長度較長",
-              "第 2 步：接近中午時，太陽位置越升越高",
-              "第 3 步：竹竿的影子會隨著太陽升高而逐漸變短，中午時最短"
+              "第 1 步：確認題目在問「【活動1-1】白天的景象」",
+              "第 2 步：對照本課核心「認識「【活動1-1】白天的景象」的核心概念。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：誤以為影子會跟太陽在同一個方向，或誤以為月亮一整晚都固定停在天上不動。",
-            "selfExplanationPrompt": "想一想：為什麼在同一個月裡，我們有時候在白天也能隱約看見月亮？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「【活動1-1】白天的景象」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s2/g4/science#u1"
         },
         {
-          "sceneId": "u1-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "天體觀測安全與記錄重點",
-          "topicSignalTitle": "觀測太陽和月亮時要注意什麼？",
-          "narrationText": "觀測太陽絕對不可以直接用眼睛直視，要改看地面影子或透過專用減光器材；觀測月亮則要在視野開闊的安全處持續記錄。",
-          "cognitiveChunks": [
-            "嚴禁肉眼直視太陽",
-            "月相記錄需寫明日期與亮面方向"
-          ],
-          "factGroundingSourceId": "115-s2/g4/science#u1"
-        },
-        {
-          "sceneId": "u1-s4",
+          "sceneId": "u1l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "先確認一次月相變化的循環週期，再進入關卡挑戰！",
+          "narrationText": "先做一題暖身確認，確認掌握「【活動1-1】白天的景象」後再開始挑戰！",
           "cognitiveChunks": [
-            "月相盈虧變化大約以一個月為一週期"
+            "認識「【活動1-1】白天的景象」的核心概念與現象，並理解其背後原因。"
           ],
           "warmupCheck": {
-            "prompt": "關於月亮圓缺盈虧的「月相變化」，下列哪一項時間循環週期最正確？",
+            "prompt": "關於「【活動1-1】白天的景象」，哪一項才是正確的學習重點？",
             "options": [
-              "大約每兩天重複一次",
-              "大約以一個月的時間為一個循環週期",
-              "每隔十年才改變一次形狀",
-              "每小時變換不同顏色但形狀不變"
+              "認識「【活動1-1】白天的景象」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
-            "answerIndex": 1,
-            "feedbackCorrect": "完全正確！從彎月變滿月再變回彎月，大約需要一個月的時間完成一次循環。",
-            "feedbackRetry": "想一想，從這個月的滿月到下一次再看到圓圓的滿月，大約要經過多久呢？"
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s2/g4/science#u1"
         }
@@ -115,46 +101,604 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g4-science-u2",
-      "stageId": "115-s2-g4-science-u2",
-      "title": "第二單元 毛細、虹吸與連通管",
+      "lessonId": "lesson-115-s2-g4-science-u1-l2",
+      "stageId": "115-s2-g4-science-u1-l2",
+      "title": "【活動1-2】夜晚的景象",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u2-s1",
+          "sceneId": "u1l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "水的三大移動本領：毛細、虹吸與連通管",
-          "narrationText": "水在細縫中爬升是毛細現象；靠裝滿水的軟管把水引向低處是虹吸現象；底部相通容器水面一定一樣高是連通管原理。",
+          "title": "【活動1-2】夜晚的景象：核心概念",
+          "narrationText": "在「第一單元（課程架構表為圖片未擷取文字。",
           "cognitiveChunks": [
-            "毛細現象：細縫越細，水爬升越高（如毛巾吸水）",
-            "虹吸現象：管內裝滿水 ＋ 出水口低於原水面",
-            "連通管：不論粗細形狀，靜止後水面必等高"
+            "認識「【活動1-2】夜晚的景象」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論",
+            "能用自己的話歸納「【活動1-2】夜晚的景象」的重要發現與做法。"
           ],
-          "analogyAnchor": "毛巾靠「微細縫隙」把水吸上來（毛細）；幫魚缸換水靠「裝滿水的低口軟管」把水引出來（虹吸）；熱水瓶水位窗靠「底部相通」顯示真實水位（連通管）。",
+          "analogyAnchor": "把「【活動1-2】夜晚的景象」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "毛細現象 vs. 虹吸現象",
+              "leftTitle": "【活動1-2】夜晚的景象",
               "leftPoints": [
-                "毛細：水沿細縫爬升（越細越高）",
-                "虹吸：管滿水且出水口低於水面"
+                "認識「【活動1-2】夜晚的景象」的核心概念與現象",
+                "透過觀察與討論"
               ],
-              "rightTitle": "連通管水平原理",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "底部相通、水面靜止必成水平",
-                "應用：熱水瓶水位窗、水管測水平"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
-                "id": "u2-l1",
-                "text": "細縫越細爬越高",
+                "id": "l1",
+                "text": "【活動1-2】夜晚的",
                 "anchorPointId": "left"
               },
               {
-                "id": "u2-l2",
-                "text": "相通水面必等高",
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u1"
+        },
+        {
+          "sceneId": "u1l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「【活動1-2】夜晚的景象」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「【活動1-2】夜晚的景象」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「【活動1-2】夜晚的景象」",
+              "第 2 步：對照本課核心「認識「【活動1-2】夜晚的景象」的核心概念。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「【活動1-2】夜晚的景象」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u1"
+        },
+        {
+          "sceneId": "u1l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「【活動1-2】夜晚的景象」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「【活動1-2】夜晚的景象」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「【活動1-2】夜晚的景象」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「【活動1-2】夜晚的景象」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-science-u1-l3",
+      "stageId": "115-s2-g4-science-u1-l3",
+      "title": "【活動2-1】太陽和影子",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "【活動2-1】太陽和影子：核心概念",
+          "narrationText": "在「第一單元（課程架構表為圖片未擷取文字。",
+          "cognitiveChunks": [
+            "認識「【活動2-1】太陽和影子」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論",
+            "能用自己的話歸納「【活動2-1】太陽和影子」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「【活動2-1】太陽和影子」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "【活動2-1】太陽和影子",
+              "leftPoints": [
+                "認識「【活動2-1】太陽和影子」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "【活動2-1】太陽和",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u1"
+        },
+        {
+          "sceneId": "u1l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「【活動2-1】太陽和影子」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「【活動2-1】太陽和影子」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「【活動2-1】太陽和影子」",
+              "第 2 步：對照本課核心「認識「【活動2-1】太陽和影子」的核心概念。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「【活動2-1】太陽和影子」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u1"
+        },
+        {
+          "sceneId": "u1l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「【活動2-1】太陽和影子」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「【活動2-1】太陽和影子」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「【活動2-1】太陽和影子」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「【活動2-1】太陽和影子」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-science-u1-l4",
+      "stageId": "115-s2-g4-science-u1-l4",
+      "title": "【活動2-2】一天中太陽位置的變化",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1l4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "【活動2-2】一天中太陽位置的變化：核心概念",
+          "narrationText": "在「第一單元（課程架構表為圖片未擷取文字。",
+          "cognitiveChunks": [
+            "認識「【活動2-2】一天中太陽位置的變化」的核心概念與現象",
+            "透過觀察與討論",
+            "能用自己的話歸納「【活動2-2】一天中太陽位置的變化」的重要發現與。"
+          ],
+          "analogyAnchor": "把「【活動2-2】一天中太陽位置的變化」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "【活動2-2】一天中太陽位置",
+              "leftPoints": [
+                "認識「【活動2-2】一天中太陽位置的變化」的核心概念與。",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "【活動2-2】一天中",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u1"
+        },
+        {
+          "sceneId": "u1l4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「【活動2-2】一天中太陽位置的變化」的核心概念與現象",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「【活動2-2】一天中太陽位置的變化」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「【活動2-2】一天中太陽位置」",
+              "第 2 步：對照本課核心「認識「【活動2-2】一天中太陽位置的變化」。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「【活動2-2】一天中太陽」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u1"
+        },
+        {
+          "sceneId": "u1l4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「【活動2-2】一天中太陽位置」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「【活動2-2】一天中太陽位置的變化」的核心概念與現象"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「【活動2-2】一天中太陽位置」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「【活動2-2】一天中太陽位置的變化」的核心概念與現象",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-science-u1-l5",
+      "stageId": "115-s2-g4-science-u1-l5",
+      "title": "【活動3-1】我知道的月亮",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1l5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "【活動3-1】我知道的月亮：核心概念",
+          "narrationText": "在「第一單元（課程架構表為圖片未擷取文字。",
+          "cognitiveChunks": [
+            "認識「【活動3-1】我知道的月亮」的核心概念與現象",
+            "透過觀察與討論",
+            "能用自己的話歸納「【活動3-1】我知道的月亮」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「【活動3-1】我知道的月亮」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "【活動3-1】我知道的月亮",
+              "leftPoints": [
+                "認識「【活動3-1】我知道的月亮」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "【活動3-1】我知道",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u1"
+        },
+        {
+          "sceneId": "u1l5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「【活動3-1】我知道的月亮」的核心概念與現象",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「【活動3-1】我知道的月亮」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「【活動3-1】我知道的月亮」",
+              "第 2 步：對照本課核心「認識「【活動3-1】我知道的月亮」的核心概。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「【活動3-1】我知道的月」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u1"
+        },
+        {
+          "sceneId": "u1l5-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「【活動3-1】我知道的月亮」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「【活動3-1】我知道的月亮」的核心概念與現象"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「【活動3-1】我知道的月亮」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「【活動3-1】我知道的月亮」的核心概念與現象",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-science-u1-l6",
+      "stageId": "115-s2-g4-science-u1-l6",
+      "title": "【活動3-2】月亮的位置改變了",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1l6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "【活動3-2】月亮的位置改變了：核心概念",
+          "narrationText": "在「第一單元（課程架構表為圖片未擷取文字。",
+          "cognitiveChunks": [
+            "認識「【活動3-2】月亮的位置改變了」的核心概念與現象",
+            "透過觀察與討論",
+            "能用自己的話歸納「【活動3-2】月亮的位置改變了」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「【活動3-2】月亮的位置改變了」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "【活動3-2】月亮的位置改變",
+              "leftPoints": [
+                "認識「【活動3-2】月亮的位置改變了」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "【活動3-2】月亮的",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u1"
+        },
+        {
+          "sceneId": "u1l6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「【活動3-2】月亮的位置改變了」的核心概念與現象",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「【活動3-2】月亮的位置改變了」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「【活動3-2】月亮的位置改變」",
+              "第 2 步：對照本課核心「認識「【活動3-2】月亮的位置改變了」的核。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「【活動3-2】月亮的位置」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u1"
+        },
+        {
+          "sceneId": "u1l6-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「【活動3-2】月亮的位置改變」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「【活動3-2】月亮的位置改變了」的核心概念與現象"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「【活動3-2】月亮的位置改變」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「【活動3-2】月亮的位置改變了」的核心概念與現象",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-science-u1-l7",
+      "stageId": "115-s2-g4-science-u1-l7",
+      "title": "【活動3-3】月相變化",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1l7-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "【活動3-3】月相變化：核心概念",
+          "narrationText": "在「第一單元（課程架構表為圖片未擷取文字。",
+          "cognitiveChunks": [
+            "認識「【活動3-3】月相變化」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「【活動3-3】月相變化」的知識應用在日常生活中。",
+            "能用自己的話歸納「【活動3-3】月相變化」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「【活動3-3】月相變化」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "【活動3-3】月相變化",
+              "leftPoints": [
+                "認識「【活動3-3】月相變化」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "【活動3-3】月相變",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u1"
+        },
+        {
+          "sceneId": "u1l7-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「【活動3-3】月相變化」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「【活動3-3】月相變化」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「【活動3-3】月相變化」",
+              "第 2 步：對照本課核心「認識「【活動3-3】月相變化」的核心概念與。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「【活動3-3】月相變化」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u1"
+        },
+        {
+          "sceneId": "u1l7-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「【活動3-3】月相變化」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「【活動3-3】月相變化」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「【活動3-3】月相變化」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「【活動3-3】月相變化」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-science-u2-l1",
+      "stageId": "115-s2-g4-science-u2-l1",
+      "title": "【活動1-1】大自然中水的移動",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "【活動1-1】大自然中水的移動：核心概念",
+          "narrationText": "在「第二單元（課程架構表為圖片未擷取文字。",
+          "cognitiveChunks": [
+            "認識「【活動1-1】大自然中水的移動」的核心概念與現象",
+            "透過觀察與討論",
+            "能用自己的話歸納「【活動1-1】大自然中水的移動」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「【活動1-1】大自然中水的移動」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "【活動1-1】大自然中水的移",
+              "leftPoints": [
+                "認識「【活動1-1】大自然中水的移動」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "【活動1-1】大自然",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -162,60 +706,45 @@
           "factGroundingSourceId": "115-s2/g4/science#u2"
         },
         {
-          "sceneId": "u2-s2",
+          "sceneId": "u2l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "成功操作虹吸現象與判斷連通管水位",
-          "narrationText": "做虹吸實驗常失敗的原因是管內有空氣或出水口太高；觀察連通管則別被容器的胖瘦寬窄騙了，兩邊水面高度永遠一樣。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "虹吸兩條件：管內充滿水、出水口低於水面",
-            "連通管與管子粗細、傾斜角度無關",
-            "衛生紙、抹布、宣紙皆利用毛細現象"
+            "認識「【活動1-1】大自然中水的移動」的核心概念與現象",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "如何用軟管把高處魚缸的水引流到低處水桶？又細管與寬瓶底部連通時水面高度如何？",
+            "problemStatement": "複習「【活動1-1】大自然中水的移動」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：虹吸操作：先把軟管全部裝滿水（趕出空氣），一端放魚缸水中",
-              "第 2 步：把軟管另一端（出水口）放得比魚缸原來的水面還要低，水就會流出",
-              "第 3 步：連通管靜止後，不論細管或寬瓶，兩邊水面都會停在同一水平高度"
+              "第 1 步：確認題目在問「【活動1-1】大自然中水的移」",
+              "第 2 步：對照本課核心「認識「【活動1-1】大自然中水的移動」的核。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：以為寬瓶子水多所以水面比較高，或以為空的乾軟管直接掛上魚缸就能出水。",
-            "selfExplanationPrompt": "想一想：為什麼兩片透明板中間夾出的細縫越大，水反而越不容易爬升？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「【活動1-1】大自然中水」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s2/g4/science#u2"
         },
         {
-          "sceneId": "u2-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "生活中的三大水現象對照表",
-          "topicSignalTitle": "遇到生活實例時，怎麼分辨是哪一種現象？",
-          "narrationText": "看到布料紙張吸水想「毛細」；看到裝滿水軟管跨越邊緣排水想「虹吸」；看到透明視窗看水位或長水管測兩邊等高想「連通管」。",
-          "cognitiveChunks": [
-            "抹布吸飲料 → 毛細現象",
-            "軟管幫魚缸換水 → 虹吸現象",
-            "熱水瓶水位窗 → 連通管原理"
-          ],
-          "factGroundingSourceId": "115-s2/g4/science#u2"
-        },
-        {
-          "sceneId": "u2-s4",
+          "sceneId": "u2l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "先做一題虹吸現象的操作條件檢查，準備進場挑戰！",
+          "narrationText": "先做一題暖身確認，確認掌握「【活動1-1】大自然中水的移」後再開始挑戰！",
           "cognitiveChunks": [
-            "管內充滿水 ＋ 出水口低於原水面"
+            "認識「【活動1-1】大自然中水的移動」的核心概念與現象"
           ],
           "warmupCheck": {
-            "prompt": "利用透明軟管做虹吸現象實驗時，必須同時滿足哪兩個條件才能讓水順利流出？",
+            "prompt": "關於「【活動1-1】大自然中水的移」，哪一項才是正確的學習重點？",
             "options": [
-              "軟管內保持乾燥且出水口高於水面",
-              "軟管內裝滿水，且出水口低於原本水槽的水面",
-              "軟管中間對折夾緊並舉高",
-              "兩端放在同一高度且不裝水"
+              "認識「【活動1-1】大自然中水的移動」的核心概念與現象",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
-            "answerIndex": 1,
-            "feedbackCorrect": "完全正確！管內充滿連續水柱且出水口低於原水面，水就會順利流出來。",
-            "feedbackRetry": "想一想水管裡不能有空氣阻隔，而且水要往比原本水面高還是低的地方流呢？"
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s2/g4/science#u2"
         }
@@ -223,46 +752,604 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g4-science-u3",
-      "stageId": "115-s2-g4-science-u3",
-      "title": "第三單元 昆蟲的構造、成長與生態地位",
+      "lessonId": "lesson-115-s2-g4-science-u2-l2",
+      "stageId": "115-s2-g4-science-u2-l2",
+      "title": "【活動1-2】水在細縫中的移動",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u3-s1",
+          "sceneId": "u2l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "昆蟲的三大部位、六隻腳與成長蛻變",
-          "narrationText": "昆蟲的身體明確分為「頭、胸、腹」三個部分，胸部上長有三對共六隻腳。昆蟲會經歷卵、幼蟲到成蟲的成長變化，對生態系非常重要。",
+          "title": "【活動1-2】水在細縫中的移動：核心概念",
+          "narrationText": "在「第二單元（課程架構表為圖片未擷取文字。",
           "cognitiveChunks": [
-            "昆蟲特徵：頭、胸、腹三部位 ＋ 胸部六隻腳",
-            "蜘蛛（八隻腳）、蚯蚓（無腳）都不是昆蟲",
-            "昆蟲擔任傳粉者、分解者與食物鏈重要角色"
+            "認識「【活動1-2】水在細縫中的移動」的核心概念與現象",
+            "透過觀察與討論",
+            "能用自己的話歸納「【活動1-2】水在細縫中的移動」的重要發現與做法。"
           ],
-          "analogyAnchor": "判斷昆蟲就像檢查兩張通行證：第一張看身體有沒有分成「頭、胸、腹」三節；第二張數看看胸部是不是長了「六隻腳」，兩張都符合才是昆蟲。",
+          "analogyAnchor": "把「【活動1-2】水在細縫中的移動」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "昆蟲（如螞蟻、蝴蝶）",
+              "leftTitle": "【活動1-2】水在細縫中的移",
               "leftPoints": [
-                "身體分為頭、胸、腹三部分",
-                "胸部有 3 對共 6 隻腳"
+                "認識「【活動1-2】水在細縫中的移動」的核心概念與現象",
+                "透過觀察與討論"
               ],
-              "rightTitle": "非昆蟲（易混淆動物）",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "蜘蛛：頭胸部與腹部兩部分、8 隻腳",
-                "蚯蚓：身體分節、沒有腳"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
-                "id": "u3-l1",
-                "text": "頭胸腹加六隻腳",
+                "id": "l1",
+                "text": "【活動1-2】水在細",
                 "anchorPointId": "left"
               },
               {
-                "id": "u3-l2",
-                "text": "蜘蛛八腳非昆蟲",
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u2"
+        },
+        {
+          "sceneId": "u2l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「【活動1-2】水在細縫中的移動」的核心概念與現象",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「【活動1-2】水在細縫中的移動」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「【活動1-2】水在細縫中的移」",
+              "第 2 步：對照本課核心「認識「【活動1-2】水在細縫中的移動」的核。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「【活動1-2】水在細縫中」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u2"
+        },
+        {
+          "sceneId": "u2l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「【活動1-2】水在細縫中的移」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「【活動1-2】水在細縫中的移動」的核心概念與現象"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「【活動1-2】水在細縫中的移」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「【活動1-2】水在細縫中的移動」的核心概念與現象",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-science-u2-l3",
+      "stageId": "115-s2-g4-science-u2-l3",
+      "title": "【活動1-3】生活中的毛細現象",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "【活動1-3】生活中的毛細現象：核心概念",
+          "narrationText": "在「第二單元（課程架構表為圖片未擷取文字。",
+          "cognitiveChunks": [
+            "認識「【活動1-3】生活中的毛細現象」的核心概念與現象",
+            "透過觀察與討論",
+            "能用自己的話歸納「【活動1-3】生活中的毛細現象」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「【活動1-3】生活中的毛細現象」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "【活動1-3】生活中的毛細現",
+              "leftPoints": [
+                "認識「【活動1-3】生活中的毛細現象」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "【活動1-3】生活中",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u2"
+        },
+        {
+          "sceneId": "u2l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「【活動1-3】生活中的毛細現象」的核心概念與現象",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「【活動1-3】生活中的毛細現象」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「【活動1-3】生活中的毛細現」",
+              "第 2 步：對照本課核心「認識「【活動1-3】生活中的毛細現象」的核。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「【活動1-3】生活中的毛」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u2"
+        },
+        {
+          "sceneId": "u2l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「【活動1-3】生活中的毛細現」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「【活動1-3】生活中的毛細現象」的核心概念與現象"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「【活動1-3】生活中的毛細現」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「【活動1-3】生活中的毛細現象」的核心概念與現象",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-science-u2-l4",
+      "stageId": "115-s2-g4-science-u2-l4",
+      "title": "【活動2-1】虹吸現象的條件",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "【活動2-1】虹吸現象的條件：核心概念",
+          "narrationText": "在「第二單元（課程架構表為圖片未擷取文字。",
+          "cognitiveChunks": [
+            "認識「【活動2-1】虹吸現象的條件」的核心概念與現象",
+            "透過觀察與討論",
+            "能用自己的話歸納「【活動2-1】虹吸現象的條件」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「【活動2-1】虹吸現象的條件」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "【活動2-1】虹吸現象的條件",
+              "leftPoints": [
+                "認識「【活動2-1】虹吸現象的條件」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "【活動2-1】虹吸現",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u2"
+        },
+        {
+          "sceneId": "u2l4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「【活動2-1】虹吸現象的條件」的核心概念與現象",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「【活動2-1】虹吸現象的條件」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「【活動2-1】虹吸現象的條件」",
+              "第 2 步：對照本課核心「認識「【活動2-1】虹吸現象的條件」的核心。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「【活動2-1】虹吸現象的」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u2"
+        },
+        {
+          "sceneId": "u2l4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「【活動2-1】虹吸現象的條件」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「【活動2-1】虹吸現象的條件」的核心概念與現象"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「【活動2-1】虹吸現象的條件」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「【活動2-1】虹吸現象的條件」的核心概念與現象",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-science-u2-l5",
+      "stageId": "115-s2-g4-science-u2-l5",
+      "title": "【活動3-1】水平的現象",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "【活動3-1】水平的現象：核心概念",
+          "narrationText": "在「第二單元（課程架構表為圖片未擷取文字。",
+          "cognitiveChunks": [
+            "認識「【活動3-1】水平的現象」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論",
+            "能用自己的話歸納「【活動3-1】水平的現象」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「【活動3-1】水平的現象」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "【活動3-1】水平的現象",
+              "leftPoints": [
+                "認識「【活動3-1】水平的現象」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "【活動3-1】水平的",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u2"
+        },
+        {
+          "sceneId": "u2l5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「【活動3-1】水平的現象」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「【活動3-1】水平的現象」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「【活動3-1】水平的現象」",
+              "第 2 步：對照本課核心「認識「【活動3-1】水平的現象」的核心概念。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「【活動3-1】水平的現象」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u2"
+        },
+        {
+          "sceneId": "u2l5-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「【活動3-1】水平的現象」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「【活動3-1】水平的現象」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「【活動3-1】水平的現象」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「【活動3-1】水平的現象」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-science-u2-l6",
+      "stageId": "115-s2-g4-science-u2-l6",
+      "title": "【活動3-2】奇妙的連通管",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "【活動3-2】奇妙的連通管：核心概念",
+          "narrationText": "在「第二單元（課程架構表為圖片未擷取文字。",
+          "cognitiveChunks": [
+            "認識「【活動3-2】奇妙的連通管」的核心概念與現象",
+            "透過觀察與討論",
+            "能用自己的話歸納「【活動3-2】奇妙的連通管」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「【活動3-2】奇妙的連通管」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "【活動3-2】奇妙的連通管",
+              "leftPoints": [
+                "認識「【活動3-2】奇妙的連通管」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "【活動3-2】奇妙的",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u2"
+        },
+        {
+          "sceneId": "u2l6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「【活動3-2】奇妙的連通管」的核心概念與現象",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「【活動3-2】奇妙的連通管」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「【活動3-2】奇妙的連通管」",
+              "第 2 步：對照本課核心「認識「【活動3-2】奇妙的連通管」的核心概。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「【活動3-2】奇妙的連通」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u2"
+        },
+        {
+          "sceneId": "u2l6-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「【活動3-2】奇妙的連通管」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「【活動3-2】奇妙的連通管」的核心概念與現象"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「【活動3-2】奇妙的連通管」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「【活動3-2】奇妙的連通管」的核心概念與現象",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-science-u2-l7",
+      "stageId": "115-s2-g4-science-u2-l7",
+      "title": "【活動3-3】連通管的生活應用",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l7-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "【活動3-3】連通管的生活應用：核心概念",
+          "narrationText": "在「第二單元（課程架構表為圖片未擷取文字。",
+          "cognitiveChunks": [
+            "認識「【活動3-3】連通管的生活應用」的核心概念與現象",
+            "透過觀察與討論",
+            "能用自己的話歸納「【活動3-3】連通管的生活應用」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「【活動3-3】連通管的生活應用」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "【活動3-3】連通管的生活應",
+              "leftPoints": [
+                "認識「【活動3-3】連通管的生活應用」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "【活動3-3】連通管",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u2"
+        },
+        {
+          "sceneId": "u2l7-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「【活動3-3】連通管的生活應用」的核心概念與現象",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「【活動3-3】連通管的生活應用」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「【活動3-3】連通管的生活應」",
+              "第 2 步：對照本課核心「認識「【活動3-3】連通管的生活應用」的核。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「【活動3-3】連通管的生」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u2"
+        },
+        {
+          "sceneId": "u2l7-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「【活動3-3】連通管的生活應」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「【活動3-3】連通管的生活應用」的核心概念與現象"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「【活動3-3】連通管的生活應」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「【活動3-3】連通管的生活應用」的核心概念與現象",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-science-u3-l1",
+      "stageId": "115-s2-g4-science-u3-l1",
+      "title": "【活動1-1】常見的小動物",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "【活動1-1】常見的小動物：核心概念",
+          "narrationText": "在「第三單元（課程架構表為圖片未擷取文字。",
+          "cognitiveChunks": [
+            "認識「【活動1-1】常見的小動物」的核心概念與現象",
+            "透過觀察與討論",
+            "能用自己的話歸納「【活動1-1】常見的小動物」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「【活動1-1】常見的小動物」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "【活動1-1】常見的小動物",
+              "leftPoints": [
+                "認識「【活動1-1】常見的小動物」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "【活動1-1】常見的",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -270,59 +1357,45 @@
           "factGroundingSourceId": "115-s2/g4/science#u3"
         },
         {
-          "sceneId": "u3-s2",
+          "sceneId": "u3l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "辨別昆蟲構造功能與成長變化",
-          "narrationText": "昆蟲的腳、翅膀與口器各自適應不同的生活環境；成長過程則會經歷蛻皮與形態變化，最後成為能產卵繁殖的成蟲。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "胸部是運動中心，長有三對腳與翅膀",
-            "口器與足部形態配合覓食與移動環境",
-            "蝴蝶（卵→幼蟲→蛹→成蟲）與蝗蟲都會蛻皮成長"
+            "認識「【活動1-1】常見的小動物」的核心概念與現象",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "同時看到螞蟻、蜘蛛與蚯蚓三種小動物，如何正確分類誰是昆蟲？",
+            "problemStatement": "複習「【活動1-1】常見的小動物」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：檢查螞蟻：身體有頭、胸、腹三部分，且胸部有 6 隻腳 → 是昆蟲",
-              "第 2 步：檢查蜘蛛：有 8 隻腳、身體只分頭胸部與腹部 → 不是昆蟲",
-              "第 3 步：檢查蚯蚓：身體細長無腳 → 不是昆蟲"
+              "第 1 步：確認題目在問「【活動1-1】常見的小動物」",
+              "第 2 步：對照本課核心「認識「【活動1-1】常見的小動物」的核心概。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：看到名稱裡有「蟲」或體型很小（如蜘蛛、蚯蚓）就誤以為全都是昆蟲。",
-            "selfExplanationPrompt": "想一想：如果自然界突然少了蜜蜂、蝴蝶與分解枯葉的小昆蟲，森林生態會發生什麼危機？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「【活動1-1】常見的小動」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s2/g4/science#u3"
         },
         {
-          "sceneId": "u3-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "戶外拜訪昆蟲與生態地位",
-          "topicSignalTitle": "小昆蟲對大自然有哪些大影響？",
-          "narrationText": "許多昆蟲幫開花植物傳播花粉、幫助分解枯枝落葉與排遺促進物質循環，同時也是鳥類與青蛙的食物來源。拜訪昆蟲時要保持距離、不傷害牠們！",
-          "cognitiveChunks": [
-            "傳粉、分解與食物鏈重要一環",
-            "實地觀察不拍打、不拔翅膀、不破壞棲地"
-          ],
-          "factGroundingSourceId": "115-s2/g4/science#u3"
-        },
-        {
-          "sceneId": "u3-s4",
+          "sceneId": "u3l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "先用這題練習用外部形態判斷昆蟲，再進入關卡！",
+          "narrationText": "先做一題暖身確認，確認掌握「【活動1-1】常見的小動物」後再開始挑戰！",
           "cognitiveChunks": [
-            "頭、胸、腹三部分 ＋ 六隻腳 ＝ 昆蟲"
+            "認識「【活動1-1】常見的小動物」的核心概念與現象"
           ],
           "warmupCheck": {
-            "prompt": "下列哪一組身體特徵是判斷「昆蟲」的正確標準？",
+            "prompt": "關於「【活動1-1】常見的小動物」，哪一項才是正確的學習重點？",
             "options": [
-              "身體分為兩部分、有八隻腳",
-              "身體細長柔軟、沒有任何腳",
-              "身體分為頭、胸、腹三部分，且胸部有六隻腳",
-              "背上背著硬殼、只有一隻腹足"
+              "認識「【活動1-1】常見的小動物」的核心概念與現象",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
-            "answerIndex": 2,
-            "feedbackCorrect": "完全正確！頭、胸、腹三部位加上胸部三對（六隻）腳，就是昆蟲的標準特徵。",
-            "feedbackRetry": "回想螞蟻和蝴蝶的身體構造，有幾個部位和幾隻腳呢？"
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s2/g4/science#u3"
         }
@@ -330,46 +1403,511 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g4-science-u4",
-      "stageId": "115-s2-g4-science-u4",
-      "title": "第四單元 能源與自然資源",
+      "lessonId": "lesson-115-s2-g4-science-u3-l2",
+      "stageId": "115-s2-g4-science-u3-l2",
+      "title": "【活動1-2】昆蟲的身體構造",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u4-s1",
+          "sceneId": "u3l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "不同形式的能量與自然資源分類",
-          "narrationText": "生物活動與日常生活都需要能量，能量有光能、熱能、電能、聲能等形式；自然資源則分為提供能量的資源與提供物質材料的資源。",
+          "title": "【活動1-2】昆蟲的身體構造：核心概念",
+          "narrationText": "在「第三單元（課程架構表為圖片未擷取文字。",
           "cognitiveChunks": [
-            "生物與家電交通都需要能量",
-            "能量形式：光能、熱能、電能、聲能等",
-            "資源有限，過度開發會破壞棲地與造成汙染"
+            "認識「【活動1-2】昆蟲的身體構造」的核心概念與現象",
+            "透過觀察與討論",
+            "能用自己的話歸納「【活動1-2】昆蟲的身體構造」的重要發現與做法。"
           ],
-          "analogyAnchor": "自然資源分成兩大寶庫：一座寶庫提供發電與動力的「能量」（陽光、風力、石油）；另一座寶庫提供造物與生存的「物質材料」（木材、礦產、淡水）。",
+          "analogyAnchor": "把「【活動1-2】昆蟲的身體構造」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "提供能量的自然資源",
+              "leftTitle": "【活動1-2】昆蟲的身體構造",
               "leftPoints": [
-                "再生能源：太陽能、風力、水力",
-                "有限化石能源：煤炭、石油、天然氣"
+                "認識「【活動1-2】昆蟲的身體構造」的核心概念與現象",
+                "透過觀察與討論"
               ],
-              "rightTitle": "提供物質的自然資源",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "木材、岩石、礦產金屬",
-                "淡水與土壤（儲量有限須珍惜）"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
-                "id": "u4-l1",
-                "text": "能量資源推動生活",
+                "id": "l1",
+                "text": "【活動1-2】昆蟲的",
                 "anchorPointId": "left"
               },
               {
-                "id": "u4-l2",
-                "text": "物質資源造物生存",
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u3"
+        },
+        {
+          "sceneId": "u3l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「【活動1-2】昆蟲的身體構造」的核心概念與現象",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「【活動1-2】昆蟲的身體構造」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「【活動1-2】昆蟲的身體構造」",
+              "第 2 步：對照本課核心「認識「【活動1-2】昆蟲的身體構造」的核心。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「【活動1-2】昆蟲的身體」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u3"
+        },
+        {
+          "sceneId": "u3l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「【活動1-2】昆蟲的身體構造」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「【活動1-2】昆蟲的身體構造」的核心概念與現象"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「【活動1-2】昆蟲的身體構造」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「【活動1-2】昆蟲的身體構造」的核心概念與現象",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-science-u3-l3",
+      "stageId": "115-s2-g4-science-u3-l3",
+      "title": "【活動1-3 拜訪昆蟲】",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "【活動1-3 拜訪昆蟲】：核心概念",
+          "narrationText": "在「第三單元（課程架構表為圖片未擷取文字。",
+          "cognitiveChunks": [
+            "認識「【活動1-3 拜訪昆蟲】」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論",
+            "能用自己的話歸納「【活動1-3 拜訪昆蟲】」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「【活動1-3 拜訪昆蟲】」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "【活動1-3 拜訪昆蟲】",
+              "leftPoints": [
+                "認識「【活動1-3 拜訪昆蟲】」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "【活動1-3 拜訪昆",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u3"
+        },
+        {
+          "sceneId": "u3l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「【活動1-3 拜訪昆蟲】」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「【活動1-3 拜訪昆蟲】」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「【活動1-3 拜訪昆蟲】」",
+              "第 2 步：對照本課核心「認識「【活動1-3 拜訪昆蟲】」的核心概念。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「【活動1-3 拜訪昆蟲】」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u3"
+        },
+        {
+          "sceneId": "u3l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「【活動1-3 拜訪昆蟲】」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「【活動1-3 拜訪昆蟲】」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「【活動1-3 拜訪昆蟲】」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「【活動1-3 拜訪昆蟲】」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-science-u3-l4",
+      "stageId": "115-s2-g4-science-u3-l4",
+      "title": "【活動2-1】昆蟲的身體構造與功能",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3l4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "【活動2-1】昆蟲的身體構造與功能：核心概念",
+          "narrationText": "在「第三單元（課程架構表為圖片未擷取文字。",
+          "cognitiveChunks": [
+            "認識「【活動2-1】昆蟲的身體構造與功能」的核心概念與現象",
+            "透過觀察與討論",
+            "能用自己的話歸納「【活動2-1】昆蟲的身體構造與功能」的重要發現與。"
+          ],
+          "analogyAnchor": "把「【活動2-1】昆蟲的身體構造與功能」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "【活動2-1】昆蟲的身體構造",
+              "leftPoints": [
+                "認識「【活動2-1】昆蟲的身體構造與功能」的核心概念與。",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "【活動2-1】昆蟲的",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u3"
+        },
+        {
+          "sceneId": "u3l4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「【活動2-1】昆蟲的身體構造與功能」的核心概念與現象",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「【活動2-1】昆蟲的身體構造與功能」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「【活動2-1】昆蟲的身體構造」",
+              "第 2 步：對照本課核心「認識「【活動2-1】昆蟲的身體構造與功能」。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「【活動2-1】昆蟲的身體」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u3"
+        },
+        {
+          "sceneId": "u3l4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「【活動2-1】昆蟲的身體構造」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「【活動2-1】昆蟲的身體構造與功能」的核心概念與現象"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「【活動2-1】昆蟲的身體構造」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「【活動2-1】昆蟲的身體構造與功能」的核心概念與現象",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-science-u3-l5",
+      "stageId": "115-s2-g4-science-u3-l5",
+      "title": "【活動2-2】昆蟲的成長變化",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3l5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "【活動2-2】昆蟲的成長變化：核心概念",
+          "narrationText": "在「第三單元（課程架構表為圖片未擷取文字。",
+          "cognitiveChunks": [
+            "認識「【活動2-2】昆蟲的成長變化」的核心概念與現象",
+            "透過觀察與討論",
+            "能用自己的話歸納「【活動2-2】昆蟲的成長變化」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「【活動2-2】昆蟲的成長變化」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "【活動2-2】昆蟲的成長變化",
+              "leftPoints": [
+                "認識「【活動2-2】昆蟲的成長變化」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "【活動2-2】昆蟲的",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u3"
+        },
+        {
+          "sceneId": "u3l5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「【活動2-2】昆蟲的成長變化」的核心概念與現象",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「【活動2-2】昆蟲的成長變化」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「【活動2-2】昆蟲的成長變化」",
+              "第 2 步：對照本課核心「認識「【活動2-2】昆蟲的成長變化」的核心。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「【活動2-2】昆蟲的成長」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u3"
+        },
+        {
+          "sceneId": "u3l5-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「【活動2-2】昆蟲的成長變化」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「【活動2-2】昆蟲的成長變化」的核心概念與現象"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「【活動2-2】昆蟲的成長變化」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「【活動2-2】昆蟲的成長變化」的核心概念與現象",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-science-u3-l6",
+      "stageId": "115-s2-g4-science-u3-l6",
+      "title": "【活動3-1】小昆蟲大影響",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3l6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "【活動3-1】小昆蟲大影響：核心概念",
+          "narrationText": "在「第三單元（課程架構表為圖片未擷取文字。",
+          "cognitiveChunks": [
+            "認識「【活動3-1】小昆蟲大影響」的核心概念與現象",
+            "透過觀察與討論",
+            "能用自己的話歸納「【活動3-1】小昆蟲大影響」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「【活動3-1】小昆蟲大影響」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "【活動3-1】小昆蟲大影響",
+              "leftPoints": [
+                "認識「【活動3-1】小昆蟲大影響」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "【活動3-1】小昆蟲",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u3"
+        },
+        {
+          "sceneId": "u3l6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「【活動3-1】小昆蟲大影響」的核心概念與現象",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「【活動3-1】小昆蟲大影響」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「【活動3-1】小昆蟲大影響」",
+              "第 2 步：對照本課核心「認識「【活動3-1】小昆蟲大影響」的核心概。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「【活動3-1】小昆蟲大影」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u3"
+        },
+        {
+          "sceneId": "u3l6-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「【活動3-1】小昆蟲大影響」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「【活動3-1】小昆蟲大影響」的核心概念與現象"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「【活動3-1】小昆蟲大影響」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「【活動3-1】小昆蟲大影響」的核心概念與現象",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-science-u4-l1",
+      "stageId": "115-s2-g4-science-u4-l1",
+      "title": "【活動1-1】我們需要能量",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "【活動1-1】我們需要能量：核心概念",
+          "narrationText": "在「第四單元（課程架構表為圖片未擷取文字。",
+          "cognitiveChunks": [
+            "認識「【活動1-1】我們需要能量」的核心概念與現象",
+            "透過觀察與討論",
+            "能用自己的話歸納「【活動1-1】我們需要能量」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「【活動1-1】我們需要能量」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "【活動1-1】我們需要能量",
+              "leftPoints": [
+                "認識「【活動1-1】我們需要能量」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "【活動1-1】我們需",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -377,60 +1915,696 @@
           "factGroundingSourceId": "115-s2/g4/science#u4"
         },
         {
-          "sceneId": "u4-s2",
+          "sceneId": "u4l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "資源有限性與日常低碳環保行動",
-          "narrationText": "化石能源與礦產形成漫長且儲量有限，過度開發會造成汙染與棲地破壞；從隨手關電、節水、減塑與分類回收做起，就能守護地球。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "再生能源（太陽能、風力）汙染較低",
-            "隨手關電關水、自備環保杯餐具",
-            "廢紙雙面利用並確實分類資源回收"
+            "認識「【活動1-1】我們需要能量」的核心概念與現象",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "開發自然資源會帶來什麼環境衝擊？小學生在生活中能做哪些環保行動？",
+            "problemStatement": "複習「【活動1-1】我們需要能量」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：過度開發易破壞森林棲地、引發水土流失與空氣水質汙染",
-              "第 2 步：實踐節約能源與節水：隨手關燈關風扇、用洗米水澆花",
-              "第 3 步：實踐垃圾減量與回收：自備環保水壺餐具、紙張雙面用並分類回收"
+              "第 1 步：確認題目在問「【活動1-1】我們需要能量」",
+              "第 2 步：對照本課核心「認識「【活動1-1】我們需要能量」的核心概。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：誤以為乾淨淡水或石油是用之不竭的，或把開冷氣同時開門窗當成正常習慣。",
-            "selfExplanationPrompt": "想一想：為什麼太陽能和風力被稱作「再生能源」，而煤炭和石油卻會有用完的一天？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「【活動1-1】我們需要能」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s2/g4/science#u4"
         },
         {
-          "sceneId": "u4-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "低碳節能減碳生活實踐",
-          "topicSignalTitle": "日常生活中哪些小動作最省能源又環保？",
-          "narrationText": "離座隨手關燈關風扇、短程步行代替開車、少用一次性塑膠袋與免洗餐具、確實做好資源回收，都是降低環境衝擊的環保好習慣！",
+          "sceneId": "u4l1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「【活動1-1】我們需要能量」後再開始挑戰！",
           "cognitiveChunks": [
-            "低碳：隨手關電、多步行或搭大眾運輸",
-            "減量：自備環保杯與環保袋",
-            "回收：資源分類再循環利用"
+            "認識「【活動1-1】我們需要能量」的核心概念與現象"
           ],
+          "warmupCheck": {
+            "prompt": "關於「【活動1-1】我們需要能量」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「【活動1-1】我們需要能量」的核心概念與現象",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-science-u4-l2",
+      "stageId": "115-s2-g4-science-u4-l2",
+      "title": "【活動1-2】不同形式的能量",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "【活動1-2】不同形式的能量：核心概念",
+          "narrationText": "在「第四單元（課程架構表為圖片未擷取文字。",
+          "cognitiveChunks": [
+            "認識「【活動1-2】不同形式的能量」的核心概念與現象",
+            "透過觀察與討論",
+            "能用自己的話歸納「【活動1-2】不同形式的能量」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「【活動1-2】不同形式的能量」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "【活動1-2】不同形式的能量",
+              "leftPoints": [
+                "認識「【活動1-2】不同形式的能量」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "【活動1-2】不同形",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
           "factGroundingSourceId": "115-s2/g4/science#u4"
         },
         {
-          "sceneId": "u4-s4",
+          "sceneId": "u4l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「【活動1-2】不同形式的能量」的核心概念與現象",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「【活動1-2】不同形式的能量」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「【活動1-2】不同形式的能量」",
+              "第 2 步：對照本課核心「認識「【活動1-2】不同形式的能量」的核心。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「【活動1-2】不同形式的」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u4"
+        },
+        {
+          "sceneId": "u4l2-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "用這題確認再生能源與資源分類，準備完成四下科學最後挑戰！",
+          "narrationText": "先做一題暖身確認，確認掌握「【活動1-2】不同形式的能量」後再開始挑戰！",
           "cognitiveChunks": [
-            "太陽能、風力為再生能源；化石能源儲量有限"
+            "認識「【活動1-2】不同形式的能量」的核心概念與現象"
           ],
           "warmupCheck": {
-            "prompt": "下列哪一組能源屬於可持續補充、對環境汙染較低的「再生能源」？",
+            "prompt": "關於「【活動1-2】不同形式的能量」，哪一項才是正確的學習重點？",
             "options": [
-              "煤炭與石油",
-              "太陽能與風力",
-              "天然氣與汽油",
-              "塑膠袋與電池"
+              "認識「【活動1-2】不同形式的能量」的核心概念與現象",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
-            "answerIndex": 1,
-            "feedbackCorrect": "完全正確！太陽能與風力可以自然持續補充，屬於潔淨的再生能源。",
-            "feedbackRetry": "找找看哪兩種能源來自每天都會出現的陽光和風呢？"
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-science-u4-l3",
+      "stageId": "115-s2-g4-science-u4-l3",
+      "title": "【活動1-3】生活中的能源",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "【活動1-3】生活中的能源：核心概念",
+          "narrationText": "在「第四單元（課程架構表為圖片未擷取文字。",
+          "cognitiveChunks": [
+            "認識「【活動1-3】生活中的能源」的核心概念與現象",
+            "透過觀察與討論",
+            "能用自己的話歸納「【活動1-3】生活中的能源」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「【活動1-3】生活中的能源」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "【活動1-3】生活中的能源",
+              "leftPoints": [
+                "認識「【活動1-3】生活中的能源」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "【活動1-3】生活中",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u4"
+        },
+        {
+          "sceneId": "u4l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「【活動1-3】生活中的能源」的核心概念與現象",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「【活動1-3】生活中的能源」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「【活動1-3】生活中的能源」",
+              "第 2 步：對照本課核心「認識「【活動1-3】生活中的能源」的核心概。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「【活動1-3】生活中的能」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u4"
+        },
+        {
+          "sceneId": "u4l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「【活動1-3】生活中的能源」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「【活動1-3】生活中的能源」的核心概念與現象"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「【活動1-3】生活中的能源」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「【活動1-3】生活中的能源」的核心概念與現象",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-science-u4-l4",
+      "stageId": "115-s2-g4-science-u4-l4",
+      "title": "【活動2-1】自然資源",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "【活動2-1】自然資源：核心概念",
+          "narrationText": "在「第四單元（課程架構表為圖片未擷取文字。",
+          "cognitiveChunks": [
+            "認識「【活動2-1】自然資源」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「【活動2-1】自然資源」的知識應用在日常生活中。",
+            "能用自己的話歸納「【活動2-1】自然資源」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「【活動2-1】自然資源」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "【活動2-1】自然資源",
+              "leftPoints": [
+                "認識「【活動2-1】自然資源」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "【活動2-1】自然資",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u4"
+        },
+        {
+          "sceneId": "u4l4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「【活動2-1】自然資源」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「【活動2-1】自然資源」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「【活動2-1】自然資源」",
+              "第 2 步：對照本課核心「認識「【活動2-1】自然資源」的核心概念與。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「【活動2-1】自然資源」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u4"
+        },
+        {
+          "sceneId": "u4l4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「【活動2-1】自然資源」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「【活動2-1】自然資源」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「【活動2-1】自然資源」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「【活動2-1】自然資源」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-science-u4-l5",
+      "stageId": "115-s2-g4-science-u4-l5",
+      "title": "【活動2-2】自然資源的運用",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "【活動2-2】自然資源的運用：核心概念",
+          "narrationText": "在「第四單元（課程架構表為圖片未擷取文字。",
+          "cognitiveChunks": [
+            "認識「【活動2-2】自然資源的運用」的核心概念與現象",
+            "透過觀察與討論",
+            "能用自己的話歸納「【活動2-2】自然資源的運用」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「【活動2-2】自然資源的運用」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "【活動2-2】自然資源的運用",
+              "leftPoints": [
+                "認識「【活動2-2】自然資源的運用」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "【活動2-2】自然資",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u4"
+        },
+        {
+          "sceneId": "u4l5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「【活動2-2】自然資源的運用」的核心概念與現象",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「【活動2-2】自然資源的運用」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「【活動2-2】自然資源的運用」",
+              "第 2 步：對照本課核心「認識「【活動2-2】自然資源的運用」的核心。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「【活動2-2】自然資源的」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u4"
+        },
+        {
+          "sceneId": "u4l5-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「【活動2-2】自然資源的運用」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「【活動2-2】自然資源的運用」的核心概念與現象"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「【活動2-2】自然資源的運用」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「【活動2-2】自然資源的運用」的核心概念與現象",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-science-u4-l6",
+      "stageId": "115-s2-g4-science-u4-l6",
+      "title": "【活動3-1】開發及應用自然資源的影響",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "【活動3-1】開發及應用自然資源的影響：核心概念",
+          "narrationText": "在「第四單元（課程架構表為圖片未擷取文字。",
+          "cognitiveChunks": [
+            "認識「【活動3-1】開發及應用自然資源的影響」的核心概念與現象",
+            "透過觀察與討論",
+            "能用自己的話歸納「【活動3-1】開發及應用自然資源的影響」的重要發。"
+          ],
+          "analogyAnchor": "把「【活動3-1】開發及應用自然資源的影響」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "【活動3-1】開發及應用自然",
+              "leftPoints": [
+                "認識「【活動3-1】開發及應用自然資源的影響」的核心概。",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "【活動3-1】開發及",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u4"
+        },
+        {
+          "sceneId": "u4l6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「【活動3-1】開發及應用自然資源的影響」的核心概念與現象",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「【活動3-1】開發及應用自然資源的影響」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「【活動3-1】開發及應用自然」",
+              "第 2 步：對照本課核心「認識「【活動3-1】開發及應用自然資源的影。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「【活動3-1】開發及應用」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u4"
+        },
+        {
+          "sceneId": "u4l6-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「【活動3-1】開發及應用自然」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「【活動3-1】開發及應用自然資源的影響」的核心概念與現象"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「【活動3-1】開發及應用自然」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「【活動3-1】開發及應用自然資源的影響」的核心概念與現象",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-science-u4-l7",
+      "stageId": "115-s2-g4-science-u4-l7",
+      "title": "【活動3-2】環保行動",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l7-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "【活動3-2】環保行動：核心概念",
+          "narrationText": "在「第四單元（課程架構表為圖片未擷取文字。",
+          "cognitiveChunks": [
+            "認識「【活動3-2】環保行動」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「【活動3-2】環保行動」的知識應用在日常生活中。",
+            "能用自己的話歸納「【活動3-2】環保行動」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「【活動3-2】環保行動」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "【活動3-2】環保行動",
+              "leftPoints": [
+                "認識「【活動3-2】環保行動」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "【活動3-2】環保行",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u4"
+        },
+        {
+          "sceneId": "u4l7-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「【活動3-2】環保行動」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「【活動3-2】環保行動」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「【活動3-2】環保行動」",
+              "第 2 步：對照本課核心「認識「【活動3-2】環保行動」的核心概念與。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「【活動3-2】環保行動」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u4"
+        },
+        {
+          "sceneId": "u4l7-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「【活動3-2】環保行動」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「【活動3-2】環保行動」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「【活動3-2】環保行動」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「【活動3-2】環保行動」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g4-science-u4-l8",
+      "stageId": "115-s2-g4-science-u4-l8",
+      "title": "【科學閱讀】",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l8-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "【科學閱讀】：核心概念",
+          "narrationText": "在「第四單元（課程架構表為圖片未擷取文字。",
+          "cognitiveChunks": [
+            "認識「【科學閱讀】」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「【科學閱讀】」的知識應用在日常生活中。",
+            "能用自己的話歸納「【科學閱讀】」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「【科學閱讀】」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "【科學閱讀】",
+              "leftPoints": [
+                "認識「【科學閱讀】」的核心概念與現象，並理解其背後原因。",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "【科學閱讀】",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u4"
+        },
+        {
+          "sceneId": "u4l8-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「【科學閱讀】」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「【科學閱讀】」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「【科學閱讀】」",
+              "第 2 步：對照本課核心「認識「【科學閱讀】」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「【科學閱讀】」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g4/science#u4"
+        },
+        {
+          "sceneId": "u4l8-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「【科學閱讀】」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「【科學閱讀】」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「【科學閱讀】」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「【科學閱讀】」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s2/g4/science#u4"
         }

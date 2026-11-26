@@ -363,6 +363,584 @@
           "factGroundingSourceId": "115-s1/g2/english#u4"
         }
       ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-english-u5",
+      "stageId": "115-s1-g2-english-u5",
+      "title": "Fun World 3 · Unit 1 Sounds Around Us",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "Aa–Cc 字母與生活停看聽",
+          "narrationText": "歡迎來到《Fun World 3》Unit 1！這一單元認識 Aa (ant)、Bb (bird)、Cc (cup)，並學會傾聽周圍的聲音。",
+          "cognitiveChunks": [
+            "Aa ant（螞蟻）",
+            "Bb bird（小鳥）",
+            "Cc cup（杯子）",
+            "Listen.（聽一聽）"
+          ],
+          "analogyAnchor": "就像義大利的街頭有各種聲音，打開耳朵「Listen.」，就能聽見 ant 爬過、bird 唱歌的聲音！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "字母與單字",
+              "leftPoints": [
+                "Aa — ant（螞蟻）",
+                "Bb — bird（小鳥）",
+                "Cc — cup（杯子）"
+              ],
+              "rightTitle": "生活用語與文化",
+              "rightPoints": [
+                "Listen.（仔細聽）",
+                "國家：Italy（義大利）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "Aa–Cc 發音字彙",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "文化與用語",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/english#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "字母與發音配對示範",
+          "narrationText": "記單字時，先聽開頭字母的發音，再連結圖像就不會忘記。",
+          "cognitiveChunks": [
+            "Aa 發 /æ/ → ant",
+            "Bb 發 /b/ → bird",
+            "Cc 發 /k/ → cup"
+          ],
+          "workedExampleData": {
+            "problemStatement": "如果老師說「Listen! What sound is /b/?」，你應該選哪個單字？",
+            "steps": [
+              "第 1 步：先聽字母音 /b/",
+              "第 2 步：找出開頭是 Bb 的單字 bird",
+              "第 3 步：確認 ant 是 /æ/、cup 是 /k/"
+            ],
+            "commonErrorContrast": "常見混淆：把小寫 b 和 d 看反。記得 b 的肚子朝右（bird），d 的肚子朝左（duck）。",
+            "selfExplanationPrompt": "想一想：哪一個字是「杯子」？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/english#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "準備好了嗎？先回答一題 Aa–Cc 暖身題！",
+          "cognitiveChunks": [
+            "Aa ant, Bb bird, Cc cup"
+          ],
+          "warmupCheck": {
+            "prompt": "「小鳥」的英文單字是哪一個？",
+            "options": [
+              "ant",
+              "bird",
+              "cup"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！Bb — bird 就是小鳥。",
+            "feedbackRetry": "再想想看，ant 是螞蟻，cup 是杯子喔！"
+          },
+          "factGroundingSourceId": "115-s1/g2/english#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-english-u6",
+      "stageId": "115-s1-g2-english-u6",
+      "title": "Fun World 3 · Unit 2 Good Morning",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "Dd–Ff 字母與聲音遙控器",
+          "narrationText": "《Fun World 3》Unit 2 帶來 Dd (duck)、Ee (elephant)、Ff (fan)，還有早安問候與道歉禮貌用語！",
+          "cognitiveChunks": [
+            "Dd duck（鴨子）",
+            "Ee elephant（大象）",
+            "Ff fan（電風扇）",
+            "I'm sorry. / That's OK."
+          ],
+          "analogyAnchor": "就像聲音遙控器可以調大聲或小聲，在圖書館輕聲說 I'm sorry.、早上精神說 Good morning.！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "字母與單字",
+              "leftPoints": [
+                "Dd — duck（鴨子）",
+                "Ee — elephant（大象）",
+                "Ff — fan（電風扇）"
+              ],
+              "rightTitle": "生活用語與文化",
+              "rightPoints": [
+                "Good morning.（早安）",
+                "I'm sorry. / That's OK.",
+                "國家：Singapore（新加坡）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "Dd–Ff 發音字彙",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "禮貌與文化",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/english#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "禮貌對話與字彙辨識",
+          "narrationText": "遇見不同情境時，選對回應的句子最有禮貌！",
+          "cognitiveChunks": [
+            "早上見面 → Good morning.",
+            "道歉 → I'm sorry. → That's OK."
+          ],
+          "workedExampleData": {
+            "problemStatement": "同學不小心踩到你的鞋子並說「I'm sorry.」，你該怎麼回答？",
+            "steps": [
+              "第 1 步：聽懂 I'm sorry. 是「對不起」",
+              "第 2 步：選擇原諒並回應「沒關係」",
+              "第 3 步：說出 That's OK."
+            ],
+            "commonErrorContrast": "常見錯誤：把「Thank you.」和「I'm sorry.」的回應搞混。謝謝要回 You're welcome.，對不起要回 That's OK.。",
+            "selfExplanationPrompt": "想一想：elephant 的第一個字母是哪一個？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/english#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "進場前先來一題 Unit 2 暖身題！",
+          "cognitiveChunks": [
+            "Dd duck, Ee elephant, Ff fan"
+          ],
+          "warmupCheck": {
+            "prompt": "天氣好熱想要吹風，需要用到哪一個英文單字的物品？",
+            "options": [
+              "duck",
+              "elephant",
+              "fan"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！fan 就是電風扇或扇子。",
+            "feedbackRetry": "再想想看，會吹出涼風的是 f 開頭的字喔！"
+          },
+          "factGroundingSourceId": "115-s1/g2/english#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-english-u7",
+      "stageId": "115-s1-g2-english-u7",
+      "title": "Fun World 3 · Review 1（中秋節）",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u7-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "Aa–Ff 總複習與中秋節小鬧鐘",
+          "narrationText": "在 Review 1 裡，我們把 Unit 1–2 的 Aa–Ff 字母和 6 個單字串起來複習，還要認識中秋節和時間管理！",
+          "cognitiveChunks": [
+            "Aa–Cc: ant, bird, cup",
+            "Dd–Ff: duck, elephant, fan",
+            "中秋節 Moon Festival",
+            "生活小鬧鐘：時間管理"
+          ],
+          "analogyAnchor": "就像中秋節晚上賞月前先把作業寫完，用「生活小鬧鐘」規劃時間，就能安心過節又記熟 Aa–Ff！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "Unit 1–2 單字",
+              "leftPoints": [
+                "ant, bird, cup",
+                "duck, elephant, fan"
+              ],
+              "rightTitle": "節慶與活動",
+              "rightPoints": [
+                "中秋節 Moon Festival",
+                "生活小鬧鐘（時間管理）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "6 個代表單字",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "文化與習慣",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/english#u7"
+        },
+        {
+          "sceneId": "u7-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "區分 Aa–Ff 動物與物品",
+          "narrationText": "把學過的 6 個單字分門別類，大腦記憶會更清楚。",
+          "cognitiveChunks": [
+            "動物類：ant, bird, duck, elephant",
+            "物品類：cup, fan"
+          ],
+          "workedExampleData": {
+            "problemStatement": "從 ant, bird, cup, duck, elephant, fan 中找出所有「物品」單字！",
+            "steps": [
+              "第 1 步：ant（螞蟻）、bird（鳥）、duck（鴨）、elephant（象）都是動物",
+              "第 2 步：cup（杯子）和 fan（電風扇）是生活用品",
+              "第 3 步：記住 4 個動物＋2 個物品"
+            ],
+            "commonErrorContrast": "常見錯誤：忘記把小寫 d (duck) 和小寫 b (bird) 分清楚。",
+            "selfExplanationPrompt": "想一想：Aa 和 Ee 是母音還是子音？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/english#u7"
+        },
+        {
+          "sceneId": "u7-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "來試一題 Review 1 暖身題吧！",
+          "cognitiveChunks": [
+            "A, B, C, D, E, F"
+          ],
+          "warmupCheck": {
+            "prompt": "字母順序「A, B, C, __, E, F」的空格裡應該填哪一個字母？",
+            "options": [
+              "D",
+              "G",
+              "H"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "太棒了！A, B, C, D, E, F 順序完全正確。",
+            "feedbackRetry": "再唱一次 A-B-C-D-E-F 確認看看喔！"
+          },
+          "factGroundingSourceId": "115-s1/g2/english#u7"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-english-u8",
+      "stageId": "115-s1-g2-english-u8",
+      "title": "Fun World 3 · Unit 3 Let's Clean Up",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u8-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "Gg–Ii 字母與點子交流",
+          "narrationText": "《Fun World 3》Unit 3 要學會 Gg (girl)、Hh (hat)、Ii (igloo)，還要學會分享點子的英文對話！",
+          "cognitiveChunks": [
+            "Gg girl（女孩）",
+            "Hh hat（帽子）",
+            "Ii igloo（冰屋）",
+            "I have an idea. / Good idea."
+          ],
+          "analogyAnchor": "就像在教室打掃（Let's Clean Up）時想出分工辦法，大聲說出「I have an idea.」，大家就會回答「Good idea.」！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "字母與單字",
+              "leftPoints": [
+                "Gg — girl（女孩）",
+                "Hh — hat（帽子）",
+                "Ii — igloo（冰屋）"
+              ],
+              "rightTitle": "生活用語與文化",
+              "rightPoints": [
+                "I have an idea.（我有一個主意）",
+                "Good idea.（好主意）",
+                "國家：Egypt（埃及）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "Gg–Ii 發音字彙",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "溝通與文化",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/english#u8"
+        },
+        {
+          "sceneId": "u8-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "吐氣音 Hh 與子母音辨識",
+          "narrationText": "練習 Hh 時把手心放在嘴前，念 hat 會有氣流吹在手上！",
+          "cognitiveChunks": [
+            "Gg /g/ → girl",
+            "Hh /h/ → hat（有氣流）",
+            "Ii /ɪ/ → igloo（母音）"
+          ],
+          "workedExampleData": {
+            "problemStatement": "念出 girl, hat, igloo 三個字，哪一個字的開頭會有明顯氣流吹到手上？",
+            "steps": [
+              "第 1 步：把手放在嘴巴前",
+              "第 2 步：依序念 girl (/g/)、hat (/h/)、igloo (/ɪ/)",
+              "第 3 步：發現只有 hat 開頭 /h/ 會吐出氣流"
+            ],
+            "commonErrorContrast": "常見混淆：把 Hh 的字母名（念作 /eɪtʃ/）跟它的字首發音（/h/）搞混。",
+            "selfExplanationPrompt": "想一想：igloo 是誰住的房子呢？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/english#u8"
+        },
+        {
+          "sceneId": "u8-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先試試這題 Unit 3 暖身題！",
+          "cognitiveChunks": [
+            "Gg girl, Hh hat, Ii igloo"
+          ],
+          "warmupCheck": {
+            "prompt": "戴在頭上的「帽子」，英文單字是哪一個？",
+            "options": [
+              "girl",
+              "hat",
+              "igloo"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！Hh — hat 就是帽子。",
+            "feedbackRetry": "再試試看，h-a-t 念作 hat，就是帽子喔！"
+          },
+          "factGroundingSourceId": "115-s1/g2/english#u8"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-english-u9",
+      "stageId": "115-s1-g2-english-u9",
+      "title": "Fun World 3 · Unit 4 Merry Christmas",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u9-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "Jj–Mm 字母與感恩送禮對話",
+          "narrationText": "《Fun World 3》Unit 4 帶來 Jj (jam)、Kk (key)、Ll (lamp)、Mm (mom)，並學會送禮物與道謝的三句黃金對話！",
+          "cognitiveChunks": [
+            "Jj jam / Kk key",
+            "Ll lamp / Mm mom",
+            "This is for you. 這是給你的",
+            "Thank you. / You're welcome."
+          ],
+          "analogyAnchor": "就像聖誕節交換禮物，雙手遞上禮物說「This is for you.」，對方說「Thank you.」，再微笑回「You're welcome.」！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "字母與單字",
+              "leftPoints": [
+                "Jj — jam（果醬）",
+                "Kk — key（鑰匙）",
+                "Ll — lamp（檯燈）",
+                "Mm — mom（媽媽）"
+              ],
+              "rightTitle": "生活用語與文化",
+              "rightPoints": [
+                "This is for you.（這是給你的）",
+                "Thank you. / You're welcome.",
+                "國家：the Netherlands（荷蘭）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "Jj–Mm 發音字彙",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "送禮與感謝",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/english#u9"
+        },
+        {
+          "sceneId": "u9-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "Jj–Mm 容易混淆字形與對話配對",
+          "narrationText": "分辨開頭字母 j, k, l, m 的字形與聲音，並記住送禮對話順序。",
+          "cognitiveChunks": [
+            "j-a-m → jam（果醬）",
+            "k-e-y → key（鑰匙）",
+            "l-a-m-p → lamp（檯燈）"
+          ],
+          "workedExampleData": {
+            "problemStatement": "送卡片給媽媽（mom）時，英文對話順序怎麼接最自然？",
+            "steps": [
+              "第 1 步：遞出卡片說「This is for you.」",
+              "第 2 步：媽媽開心回答「Thank you.」",
+              "第 3 步：你有禮貌地回答「You're welcome.」"
+            ],
+            "commonErrorContrast": "常見錯誤：把「You're welcome.」當成「歡迎光臨」而忘了它在感謝後代表「不客氣」。",
+            "selfExplanationPrompt": "想一想：打開門鎖要用 key 還是 lamp？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/english#u9"
+        },
+        {
+          "sceneId": "u9-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "完成這題暖身題，就準備進場挑戰聖誕禮盒怪！",
+          "cognitiveChunks": [
+            "Jj jam, Kk key, Ll lamp, Mm mom"
+          ],
+          "warmupCheck": {
+            "prompt": "晚上寫功課時桌上用來照明的「檯燈」，英文是哪一個？",
+            "options": [
+              "jam",
+              "key",
+              "lamp"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！Ll — lamp 就是檯燈。",
+            "feedbackRetry": "再想想看，l 開頭的 l-a-m-p 才是燈喔！"
+          },
+          "factGroundingSourceId": "115-s1/g2/english#u9"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g2-english-u10",
+      "stageId": "115-s1-g2-english-u10",
+      "title": "Fun World 3 · Review 2 & Final Review（農曆新年）",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u10-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "Aa–Mm 期末總複習",
+          "narrationText": "恭喜來到《Fun World 3》期末總複習！把整個學期的 13 個字母 Aa–Mm、代表單字和禮貌對話全部收進寶箱裡！",
+          "cognitiveChunks": [
+            "Aa–Ff: ant, bird, cup, duck, elephant, fan",
+            "Gg–Ii: girl, hat, igloo",
+            "Jj–Mm: jam, key, lamp, mom",
+            "母音：Aa, Ee, Ii"
+          ],
+          "analogyAnchor": "就像農曆新年大掃除把家裡整理得亮晶晶，拼圖小達人把 13 個字母的大小寫都排整齊！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "Aa–Mm 13 字母",
+              "leftPoints": [
+                "A-B-C-D-E-F",
+                "G-H-I-J-K-L-M"
+              ],
+              "rightTitle": "生活用語總整理",
+              "rightPoints": [
+                "Listen. / Good morning.",
+                "I'm sorry. / That's OK.",
+                "I have an idea. / Good idea.",
+                "This is for you. / Thank you. / You're welcome."
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "13 個字母與單字",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "4 組對話",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/english#u10"
+        },
+        {
+          "sceneId": "u10-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "易混淆大小寫字母檢查",
+          "narrationText": "期末考最常考大小寫配對，記得用特徵法檢查！",
+          "cognitiveChunks": [
+            "b 朝右、d 朝左",
+            "g 有圈圈、j 有一點",
+            "l 一條線、i 上面有一點"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在「B-d, G-g, I-l, M-w」中，哪一組大小寫才正確？",
+            "steps": [
+              "第 1 步：B 應該配 b（d 是 D 的小寫）",
+              "第 2 步：G 配 g 正確！",
+              "第 3 步：I 應該配 i（l 是 L），M 應該配 m（w 是 W）"
+            ],
+            "commonErrorContrast": "常見錯誤：因為 i 和 l 長得像，或 b 和 d 鏡像對稱而選錯。",
+            "selfExplanationPrompt": "想一想：Aa–Mm 裡有哪三個母音？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g2/english#u10"
+        },
+        {
+          "sceneId": "u10-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "最後一題暖身，挑戰 Aa–Mm 總複習！",
+          "cognitiveChunks": [
+            "Aa–Mm 大小寫辨識"
+          ],
+          "warmupCheck": {
+            "prompt": "大寫「J」的小寫是哪一個？",
+            "options": [
+              "i",
+              "j",
+              "l"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！J 配 j，下面有彎鉤！",
+            "feedbackRetry": "再看清楚，下面有小彎鉤、上面有一點的才是 j 喔！"
+          },
+          "factGroundingSourceId": "115-s1/g2/english#u10"
+        }
+      ]
     }
   ]
 }

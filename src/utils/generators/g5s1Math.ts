@@ -667,3 +667,269 @@ export function generateG5S1U9UnitFraction(count = 6): Question[] {
   }
   return results;
 }
+
+// ============================================================
+// 五上 第1章：折線圖
+// ============================================================
+export function generateG5S1U1LineChart(count = 6): Question[] {
+  const seed = Date.now() + Math.floor(Math.random() * 100000);
+  const results: Question[] = [];
+  for (let i = 0; i < count; i++) {
+    const type = i % 3;
+    if (type === 0) {
+      const built = buildStringOptions('一週每天的氣溫變化趨勢', [
+        '班上同學最喜歡的寵物種類人數',
+        '各班級捐出的二手書數量比較',
+        '圖書館各類書籍的百分比構成',
+      ]);
+      results.push(
+        makeQuestion(
+          'dyn-g5s1-u1',
+          seed,
+          i,
+          '下列哪一項統計資料「最適合」用「折線圖」來呈現？',
+          built,
+          '折線圖最適合呈現「數量隨時間連續變化的趨勢」，如氣溫、身高或每日銷量變化。',
+          '找找看哪一個選項和「時間變化趨勢」有關！',
+        ),
+      );
+    } else if (type === 1) {
+      const base = randomInt(20, 26);
+      const d1 = randomInt(2, 5);
+      const d2 = randomInt(1, 3);
+      const t2 = base + d1;
+      const t3 = t2 + d2;
+      const built = buildNumericOptions(d1, [d2, d1 + d2, t2], ' 度');
+      results.push(
+        makeQuestion(
+          'dyn-g5s1-u1',
+          seed,
+          i,
+          `氣溫折線圖顯示：上午 8 時 ${base} 度、上午 10 時 ${t2} 度、中午 12 時 ${t3} 度。哪一段時間的線段「比較陡峭（上升幅度較大）」，上升了幾度？`,
+          built,
+          `8 時到 10 時上升 ${t2} - ${base} = ${d1} 度；10 時到 12 時上升 ${t3} - ${t2} = ${d2} 度，較陡峭的上升了 ${d1} 度。`,
+          '分別算出兩段時間的溫度差，較大的那一段折線更陡峭！',
+        ),
+      );
+    } else {
+      const v1 = randomInt(150, 250);
+      const v2 = v1 + randomInt(30, 80);
+      const built = buildStringOptions('先用「省略符號（波浪線）」省略 0 到一定數值之間的空白刻度，再設定適當間隔', [
+        '把折線圖上的點全部塗掉只留數字',
+        '故意把縱軸數字從大到小倒著寫',
+        '不需要寫任何刻度單位，直接畫線就好',
+      ]);
+      results.push(
+        makeQuestion(
+          'dyn-g5s1-u1',
+          seed,
+          i,
+          `當折線圖的數值都集中在 ${v1} 到 ${v2} 之間時，為了讓變化趨勢更清楚，畫縱軸時可以怎麼處理？`,
+          built,
+          '當資料數值都很大時，在縱軸下方畫上「省略符號（波浪線）」省略前面空白，能讓數據變化更明顯！',
+          '想想看怎麼把 0 到最小值之間的空白縮短！',
+        ),
+      );
+    }
+  }
+  return results;
+}
+
+// ============================================================
+// 五上 第3章：平面圖形
+// ============================================================
+export function generateG5S1U3PlaneFigures(count = 6): Question[] {
+  const seed = Date.now() + Math.floor(Math.random() * 100000);
+  const results: Question[] = [];
+  for (let i = 0; i < count; i++) {
+    const type = i % 3;
+    if (type === 0) {
+      const a = randomInt(4, 7);
+      const b = randomInt(5, 8);
+      const cGood = a + b - randomInt(2, 3);
+      const good = `${a} 公分、${b} 公分、${cGood} 公分`;
+      const built = buildStringOptions(good, [
+        `${a} 公分、${b} 公分、${a + b} 公分`,
+        `${a} 公分、${b} 公分、${a + b + 3} 公分`,
+        `2 公分、${b} 公分、${b + 3} 公分`,
+      ]);
+      results.push(
+        makeQuestion(
+          'dyn-g5s1-u3',
+          seed,
+          i,
+          '下列哪一組長度的木棒「可以」圍成一個三角形？',
+          built,
+          `三角形「任意兩邊之和大於第三邊」：${a} + ${b} = ${a + b} > ${cGood}，所以「${good}」可以圍成三角形。`,
+          '檢查「較短兩邊加起來」有沒有「大於」最長的那一邊！',
+        ),
+      );
+    } else if (type === 1) {
+      const sides = pickRandom([
+        { name: '五邊形', n: 5 },
+        { name: '六邊形', n: 6 },
+        { name: '八邊形', n: 8 },
+      ]);
+      const ans = (sides.n - 2) * 180;
+      const built = buildNumericOptions(ans, [sides.n * 180, (sides.n - 1) * 180, 360], ' 度');
+      results.push(
+        makeQuestion(
+          'dyn-g5s1-u3',
+          seed,
+          i,
+          `把一個「${sides.name}」從同一個頂點畫對角線，可以分成 ${sides.n - 2} 個三角形。請問這個${sides.name}的內角和是多少度？`,
+          built,
+          `每個三角形內角和是 180 度，${sides.n - 2} 個三角形就是 180 × ${sides.n - 2} = ${ans} 度。`,
+          `用分成的三角形個數 ${sides.n - 2} 乘以 180 度！`,
+        ),
+      );
+    } else {
+      const s = pickRandom([6, 8, 9, 10, 12]);
+      const n = pickRandom([5, 6]);
+      const ans = s * n;
+      const built = buildNumericOptions(ans, [s * (n - 1), s * (n + 1), s + n], ' 公分');
+      results.push(
+        makeQuestion(
+          'dyn-g5s1-u3',
+          seed,
+          i,
+          `一個「正${n === 5 ? '五' : '六'}邊形」的每條邊長都是 ${s} 公分，請問它的周長是多少公分？`,
+          built,
+          `正${n === 5 ? '五' : '六'}邊形有 ${n} 條一樣長的邊，周長 = ${s} × ${n} = ${ans} 公分。`,
+          `正多邊形的每條邊都一樣長，乘以邊數 ${n} 即可！`,
+        ),
+      );
+    }
+  }
+  return results;
+}
+
+// ============================================================
+// 五上 第5章：立體形體
+// ============================================================
+export function generateG5S1U5SolidFigures(count = 6): Question[] {
+  const seed = Date.now() + Math.floor(Math.random() * 100000);
+  const results: Question[] = [];
+  for (let i = 0; i < count; i++) {
+    const type = i % 3;
+    if (type === 0) {
+      const built = buildStringOptions('互相垂直', ['互相平行', '互相重合', '沒有任何關係']);
+      results.push(
+        makeQuestion(
+          'dyn-g5s1-u5',
+          seed,
+          i,
+          '在長方體或正方體積木中，任意一個面與它的「相鄰面」（共用同一條邊的兩個面）之間，有什麼位置關係？',
+          built,
+          '長方體和正方體中，相鄰的面都「互相垂直」，相對的面則「互相平行」。',
+          '觀察盒子的上面和側面，它們交接的地方是不是直角（垂直）？',
+        ),
+      );
+    } else if (type === 1) {
+      const item = pickRandom([
+        { name: '五角柱', faces: 7, vertices: 10, edges: 15 },
+        { name: '六角柱', faces: 8, vertices: 12, edges: 18 },
+        { name: '四角錐', faces: 5, vertices: 5, edges: 8 },
+        { name: '五角錐', faces: 6, vertices: 6, edges: 10 },
+      ]);
+      const ask = pickRandom(['面的個數', '頂點數', '邊數']);
+      const ans = ask === '面的個數' ? item.faces : ask === '頂點數' ? item.vertices : item.edges;
+      const built = buildNumericOptions(ans, [item.faces + 2, item.edges - 2, ans + 3], ' 個');
+      results.push(
+        makeQuestion(
+          'dyn-g5s1-u5',
+          seed,
+          i,
+          `請問一個「${item.name}」一共有幾個${ask === '面的個數' ? '面' : ask === '頂點數' ? '頂點' : '邊'}？`,
+          built,
+          `${item.name}共有 ${item.faces} 個面、${item.vertices} 個頂點、${item.edges} 條邊。`,
+          '想一想角柱有上下兩個底面，角錐只有 1 個底面和 1 個尖頂點！',
+        ),
+      );
+    } else {
+      const s = randomInt(4, 12);
+      const ans = s * 12;
+      const built = buildNumericOptions(ans, [s * 6, s * 8, s * 4], ' 公分');
+      results.push(
+        makeQuestion(
+          'dyn-g5s1-u5',
+          seed,
+          i,
+          `一個正方體的邊長是 ${s} 公分，把它的所有邊長全部加起來，總邊長是多少公分？`,
+          built,
+          `正方體有 12 條一樣長的邊，總邊長 = ${s} × 12 = ${ans} 公分。`,
+          '數一數正方體一共有幾條邊（上面 4 條、下面 4 條、直立 4 條）！',
+        ),
+      );
+    }
+  }
+  return results;
+}
+
+// ============================================================
+// 五上 第10章：扇形
+// ============================================================
+export function generateG5S1U10Sectors(count = 6): Question[] {
+  const seed = Date.now() + Math.floor(Math.random() * 100000);
+  const results: Question[] = [];
+  for (let i = 0; i < count; i++) {
+    const type = i % 3;
+    if (type === 0) {
+      const built = buildStringOptions('兩條半徑和一段圓弧', [
+        '兩條直徑和一條直線',
+        '一條直徑和一段圓弧',
+        '三條一樣長的線段',
+      ]);
+      results.push(
+        makeQuestion(
+          'dyn-g5s1-u10',
+          seed,
+          i,
+          '「扇形」是由圓的哪些部分所圍成的圖形？',
+          built,
+          '扇形是由「兩條半徑」和「一段圓弧」所圍成的圖形，頂點就是圓心。',
+          '想想看切披薩時，從圓心切兩刀（兩條半徑），外面是彎彎的圓弧！',
+        ),
+      );
+    } else if (type === 1) {
+      const denom = pickRandom([2, 3, 4, 5, 6, 8, 9, 10, 12]);
+      const deg = 360 / denom;
+      const built = buildNumericOptions(deg, [180 / denom, deg + 15, Math.max(10, deg - 15)], ' 度');
+      results.push(
+        makeQuestion(
+          'dyn-g5s1-u10',
+          seed,
+          i,
+          `一個「1/${denom} 圓」的扇形，它的圓心角是多少度？`,
+          built,
+          `整個圓的圓心角是 360 度，1/${denom} 圓的圓心角 = 360 ÷ ${denom} = ${deg} 度。`,
+          `用周角 360 度除以分母 ${denom}！`,
+        ),
+      );
+    } else {
+      const deg = pickRandom([45, 60, 72, 90, 120, 180]);
+      const denom = 360 / deg;
+      const ans = `1/${denom} 圓`;
+      const built = buildStringOptions(
+        ans,
+        [2, 3, 4, 5, 6, 8]
+          .filter((d) => d !== denom)
+          .slice(0, 3)
+          .map((d) => `1/${d} 圓`),
+      );
+      results.push(
+        makeQuestion(
+          'dyn-g5s1-u10',
+          seed,
+          i,
+          `一個扇形的圓心角是 ${deg} 度，這個扇形是幾分之幾圓？`,
+          built,
+          `${deg} ÷ 360 = 1/${denom}，所以是 ${ans}。`,
+          `算算看 360 度除以 ${deg} 度等於幾等分！`,
+        ),
+      );
+    }
+  }
+  return results;
+}
+

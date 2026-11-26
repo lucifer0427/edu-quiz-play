@@ -221,7 +221,7 @@
       "id": "115-s2-g2-math-u2",
       "subjectId": "math",
       "title": "第2章 重量",
-      "description": "認識天平兩端高低與平行的意義，並學會使用相同大小的物品做重量的間接比較與個別單位比較。",
+      "description": "每次挑戰都會自動出題！認識天平兩端高低與平行的意義，並學會使用相同大小的物品做重量的間接比較與個別單位比較。",
       "difficulty": "easy",
       "monsterId": "slime",
       "monsterName": "天平砝碼史萊姆",
@@ -425,7 +425,8 @@
             "重量與天平"
           ]
         }
-      ]
+      ],
+      "generatorId": "g2s2-math-u2"
     },
     {
       "id": "115-s2-g2-math-u3",
@@ -643,7 +644,7 @@
       "id": "115-s2-g2-math-u4",
       "subjectId": "math",
       "title": "第4章 平面圖形與立體形體",
-      "description": "認識平面圖形的邊、角、頂點與周界，計算三角形、正方形與長方形的周長，並分辨正方體與長方體的特徵。",
+      "description": "每次挑戰都會自動出題！認識平面圖形的邊、角、頂點與周界，計算三角形、正方形與長方形的周長，並分辨正方體與長方體的特徵。",
       "difficulty": "medium",
       "monsterId": "bookSpirit",
       "monsterName": "方塊幾何精靈",
@@ -851,7 +852,8 @@
             "正方體"
           ]
         }
-      ]
+      ],
+      "generatorId": "g2s2-math-u4"
     },
     {
       "id": "115-s2-g2-math-u5",

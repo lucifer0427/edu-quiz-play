@@ -8,101 +8,91 @@
   "lessons": [
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g6-science-u1",
-      "stageId": "115-s1-g6-science-u1",
-      "title": "一、多樣的天氣變化",
+      "lessonId": "lesson-115-s1-g6-science-u1-l1",
+      "stageId": "115-s1-g6-science-u1-l1",
+      "title": "1.大氣中的水",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "g6s1-science-u1-s1",
+          "sceneId": "u1l1-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "大氣中的水形態與大自然的水循環",
-          "narrationText": "空氣中的水蒸氣遇冷會凝結成雲、霧、露、霜或降下成為雨、雪、雹；地表水受熱蒸發上升、冷卻降雨再流回海洋，形成生生不息的水循環。",
+          "title": "大氣中的水：核心概念",
+          "narrationText": "在「一、多樣的天氣變化」的「1.大氣中的水」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "雲與霧成因相同：高空為雲、近地面為霧",
-            "露（0℃ 以上凝結成小水滴）vs. 霜（0℃ 以下直接成小冰晶）",
-            "太陽能量驅動水循環：蒸發 → 凝結成雲 → 降水 → 匯流"
+            "認識大氣中水的各種形態。",
+            "認識雨、雹、雪、露和霜的成因及模擬露和霜形成的溫度差異。"
           ],
-          "analogyAnchor": "大自然就像一座巨大的水蒸餾循環系統，太陽把水蒸發送上天，高空冷氣再把它變成雲和雨送回大地。",
+          "analogyAnchor": "把「1.大氣中的水」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_compare",
             "params": {
-              "nodes": [
-                "太陽照射使水蒸發上升",
-                "高空遇冷凝結成雲",
-                "雨、雪、雹降落地面",
-                "匯流回河川與海洋"
+              "leftTitle": "1.大氣中的水",
+              "leftPoints": [
+                "認識大氣中水的各種形態。",
+                "認識雨、雹、雪、露和霜的成因及模擬露和霜形成的溫度差異。"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
-                "id": "g6-s-u1-l1",
-                "text": "蒸發上升成水氣",
-                "anchorPointId": "step1"
+                "id": "l1",
+                "text": "1.大氣中的水",
+                "anchorPointId": "left"
               },
               {
-                "id": "g6-s-u1-l2",
-                "text": "遇冷凝結降落",
-                "anchorPointId": "step3"
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
               }
             ]
           },
           "factGroundingSourceId": "115-s1/g6/science#u1"
         },
         {
-          "sceneId": "g6s1-science-u1-s2",
+          "sceneId": "u1l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "判讀衛星雲圖、地面天氣圖與鋒面",
-          "narrationText": "氣象預報會同時對照衛星雲圖與地面天氣圖：衛星雲圖看雲層厚薄與範圍，地面天氣圖看高低氣壓、鋒面與颱風符號。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "衛星雲圖白色越濃厚＝雲層越厚、可能降雨",
-            "鋒面通過臺灣常帶來雲雨或氣溫變化"
+            "認識大氣中水的各種形態。",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "在實驗室模擬「露」與「霜」的形成時，為什麼裝冰塊的杯子加食鹽後杯壁會結出白色小冰晶（霜），沒加食鹽只會出現小水滴（露）？",
+            "problemStatement": "複習「1.大氣中的水」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：僅裝冰塊時，杯壁溫度約在 0℃ 以上，空氣中的水蒸氣遇冷凝結成液態小水滴，這就是「露」",
-              "第 2 步：冰塊加入食鹽混合後，溫度會降到 0℃ 以下（零下）",
-              "第 3 步：當杯壁低於 0℃，水蒸氣遇冷直接變成固態小冰晶附著在杯壁，這就是「霜」"
+              "第 1 步：確認題目在問「1.大氣中的水」",
+              "第 2 步：對照本課核心「認識大氣中水的各種形態。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：誤以為霜是露水滴先結成一粒粒冰珠再黏上去，或誤以為雲和霧是由肉眼看不見的水蒸氣組成的。",
-            "selfExplanationPrompt": "想一想：在地面天氣圖上看到颱風符號與路徑圖時，我們該提早做哪些防颱準備？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「1.大氣中的水」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s1/g6/science#u1"
         },
         {
-          "sceneId": "g6s1-science-u1-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "颱風認識與防災應變要點",
-          "topicSignalTitle": "事先固定門窗、疏通排水，颱風天不觀浪",
-          "narrationText": "颱風來臨前應固定室外懸掛物、清理水溝、備妥手電筒與飲水乾糧；颱風期間待在室內，切勿前往海邊觀浪或山區溪流。",
-          "cognitiveChunks": [
-            "颱風路徑圖顯示中心位置與未來移動趨勢",
-            "停電時使用手電筒，不在密閉室內燃燒木炭"
-          ],
-          "factGroundingSourceId": "115-s1/g6/science#u1"
-        },
-        {
-          "sceneId": "g6s1-science-u1-s4",
+          "sceneId": "u1l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "先用這題確認「雲和霧」以及「露和霜」的成因差異！",
+          "narrationText": "先做一題暖身確認，確認掌握「1.大氣中的水」後再開始挑戰！",
           "cognitiveChunks": [
-            "雲與霧皆為小水滴或小冰晶，差別在高度"
+            "認識大氣中水的各種形態。"
           ],
           "warmupCheck": {
-            "prompt": "清晨葉片上的「露」與寒流來襲時葉片上的「霜」，形成條件最主要的差異是什麼？",
+            "prompt": "關於「1.大氣中的水」，哪一項才是正確的學習重點？",
             "options": [
-              "露在 0℃ 以上凝結成小水滴；霜在 0℃ 以下直接形成小冰晶",
-              "露只能在高山形成；霜只能在海邊形成",
-              "露是由雨水落下；霜是由白雲掉下來",
-              "兩者形成的溫度完全一樣"
+              "認識大氣中水的各種形態。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
             "answerIndex": 0,
-            "feedbackCorrect": "完全正確！溫度是否降到 0℃ 以下是形成「露」或「霜」的關鍵差異。",
-            "feedbackRetry": "想一想水變成冰的溫度界線（0℃）：露是液態小水滴，霜是固態小冰晶喔！"
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s1/g6/science#u1"
         }
@@ -110,211 +100,545 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g6-science-u2",
-      "stageId": "115-s1-g6-science-u2",
-      "title": "二、熱對物質的影響",
+      "lessonId": "lesson-115-s1-g6-science-u1-l2",
+      "stageId": "115-s1-g6-science-u1-l2",
+      "title": "2.天氣圖與天氣變化",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "g6s1-science-u2-s1",
+          "sceneId": "u1l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "熱脹冷縮現象與熱的三種傳播方式",
-          "narrationText": "固體、液體與氣體大多會熱脹冷縮（氣體最明顯、固體最小）；而熱會由高溫處傳向低溫處，方式包含傳導、對流與輻射。",
+          "title": "天氣圖與天氣變化：核心概念",
+          "narrationText": "在「一、多樣的天氣變化」的「2.天氣圖與天氣變化」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "熱脹冷縮幅度：氣體 ＞ 液體 ＞ 固體",
-            "傳導：透過固體（如金屬湯匙）直接傳熱",
-            "對流：液體與氣體受熱上升、遇冷下降的循環；輻射：不需介質（如陽光）"
+            "學習判讀衛星雲圖；認識地面天氣圖中的符號及其代表的意義；學習判讀衛。"
           ],
-          "analogyAnchor": "熱的傳導像排隊傳球、熱對流像接力賽跑來跑去換位置，熱輻射則像不用傳球直接把光和熱射過去！",
+          "analogyAnchor": "把「2.天氣圖與天氣變化」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "傳導與對流（需物質介質）",
+              "leftTitle": "2.天氣圖與天氣變化",
               "leftPoints": [
-                "傳導：固體（金屬）高溫傳低溫",
-                "對流：流體熱上升、冷下降循環"
+                "學習判讀衛星雲圖；認識地面天氣圖中的符號及其代表的意義。",
+                "學習判讀衛星雲圖；認識地面天氣圖中的符號及其代表的意義。"
               ],
-              "rightTitle": "熱輻射（不需介質）",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "可在真空外太空直接傳播",
-                "例如太陽光、電暖器放射熱能"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
-                "id": "g6-s-u2-l1",
-                "text": "傳導對流需物質",
+                "id": "l1",
+                "text": "2.天氣圖與天氣變化",
                 "anchorPointId": "left"
               },
               {
-                "id": "g6-s-u2-l2",
-                "text": "輻射可穿過真空",
+                "id": "l2",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
           },
-          "factGroundingSourceId": "115-s1/g6/science#u2"
+          "factGroundingSourceId": "115-s1/g6/science#u1"
         },
         {
-          "sceneId": "g6s1-science-u2-s2",
+          "sceneId": "u1l2-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "生活應用：伸縮縫、冷氣位置與保溫散熱",
-          "narrationText": "理解熱的傳播方向與三種方式後，就能判斷生活用品是為了「保溫（擋住熱散失）」還是「散熱（加速熱傳走）」。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "保溫：加蓋、用傳導慢材質（塑膠、木頭、真空層）",
-            "散熱：開蓋、用導熱快金屬散熱片、吹風扇加強對流"
+            "學習判讀衛星雲圖；認識地面天氣圖中的符號及其代表的意義；學習判讀衛。",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "為什麼冷氣機常裝在房間高處、電暖器放地面，而保溫瓶內壁有真空夾層與蓋子？",
+            "problemStatement": "複習「2.天氣圖與天氣變化」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：冷空氣較重會下降、熱空氣較輕會上升，冷氣裝高處與暖氣放低處都是為了促進室內「熱對流」",
-              "第 2 步：保溫瓶的蓋子能減少空氣「熱對流」帶走熱量",
-              "第 3 步：真空夾層中沒有空氣與物質，能同時大幅減少「熱傳導」與「熱對流」散失，達到保溫效果"
+              "第 1 步：確認題目在問「2.天氣圖與天氣變化」",
+              "第 2 步：對照本課核心「學習判讀衛星雲圖；認識地面天氣圖中的符號及。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：誤以為想讓熱湯快點變涼要蓋緊蓋子，或以為只有液體會熱脹冷縮。",
-            "selfExplanationPrompt": "想一想：把凹陷沒破的乒乓球泡進熱水裡會鼓回來，是球殼還是裡面的空氣膨脹造成的？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「2.天氣圖與天氣變化」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/science#u2"
+          "factGroundingSourceId": "115-s1/g6/science#u1"
         },
         {
-          "sceneId": "g6s1-science-u2-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "熱傳導的良導體與不良導體",
-          "topicSignalTitle": "鍋身用金屬傳熱，鍋柄用塑膠或木頭防燙",
-          "narrationText": "鐵、銅、鋁等金屬傳熱快（良導體），適合做鍋具與散熱片；木頭、塑膠、空氣傳熱慢（不良導體），適合做鍋柄與隔熱層。",
-          "cognitiveChunks": [
-            "熱永遠由高溫處傳向低溫處",
-            "金屬傳導快；木頭、塑膠、空氣傳導慢"
-          ],
-          "factGroundingSourceId": "115-s1/g6/science#u2"
-        },
-        {
-          "sceneId": "g6s1-science-u2-s4",
+          "sceneId": "u1l2-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "先用這題分辨熱的三種傳播方式！",
+          "narrationText": "先做一題暖身確認，確認掌握「2.天氣圖與天氣變化」後再開始挑戰！",
           "cognitiveChunks": [
-            "真空中唯一能傳熱的方式是熱輻射"
+            "學習判讀衛星雲圖；認識地面天氣圖中的符號及其代表的意義；學習判讀衛。"
           ],
           "warmupCheck": {
-            "prompt": "太陽的熱能可以穿過幾乎沒有空氣的外太空傳到地球，這是依靠哪一種熱傳播方式？",
+            "prompt": "關於「2.天氣圖與天氣變化」，哪一項才是正確的學習重點？",
             "options": [
-              "熱的傳導",
-              "熱的對流",
-              "熱輻射",
-              "熱脹冷縮"
-            ],
-            "answerIndex": 2,
-            "feedbackCorrect": "答對了！熱輻射不需要透過固體、液體或氣體當媒介，在真空中也能直接傳播。",
-            "feedbackRetry": "外太空沒有固體也沒有空氣，傳導和對流都無法進行喔！想一想太陽射過來的熱叫什麼？"
-          },
-          "factGroundingSourceId": "115-s1/g6/science#u2"
-        }
-      ]
-    },
-    {
-      "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g6-science-u3",
-      "stageId": "115-s1-g6-science-u3",
-      "title": "三、變動的大地",
-      "ageBand": "AGE_9_12_UPPER",
-      "subject": "SCIENCE_SOCIAL",
-      "scenes": [
-        {
-          "sceneId": "g6s1-science-u3-s1",
-          "componentType": "ANCHOR_SCENE",
-          "title": "流水與海浪如何雕刻大地地貌",
-          "narrationText": "河流與海水不斷進行侵蝕、搬運與堆積作用：上游水流急多侵蝕、下游水流緩多堆積；彎曲河道則呈現凹岸侵蝕、凸岸堆積。",
-          "cognitiveChunks": [
-            "上游（坡陡水急、大石頭）→ 中游（鵝卵石）→ 下游（水緩、細沙泥土）",
-            "彎曲河道：凹岸水流快（侵蝕）、凸岸水流慢（堆積）",
-            "海水侵蝕：海蝕崖、海蝕洞；海水堆積：沙灘、沙洲"
-          ],
-          "analogyAnchor": "流水就像一位雕刻師，在陡峭的山上用力把岩石切開（侵蝕），到了平緩的下游再把泥沙輕輕放下（堆積）。",
-          "visualSpec": {
-            "templateId": "concept_compare",
-            "params": {
-              "leftTitle": "侵蝕作用（水流快、衝擊強）",
-              "leftPoints": [
-                "河流上游、河道彎曲處「凹岸」",
-                "岩岸海蝕崖、海蝕洞、海蝕平台"
-              ],
-              "rightTitle": "堆積作用（水流慢、泥沙沉澱）",
-              "rightPoints": [
-                "河流下游平原、河道彎曲處「凸岸」",
-                "平緩海岸的沙灘、沙洲"
-              ]
-            },
-            "spatialLabels": [
-              {
-                "id": "g6-s-u3-l1",
-                "text": "水急侵蝕凹岸岩壁",
-                "anchorPointId": "left"
-              },
-              {
-                "id": "g6-s-u3-l2",
-                "text": "水緩堆積凸岸沙灘",
-                "anchorPointId": "right"
-              }
-            ]
-          },
-          "factGroundingSourceId": "115-s1/g6/science#u3"
-        },
-        {
-          "sceneId": "g6s1-science-u3-s2",
-          "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "地表的組成：岩石、礦物、土壤與化石",
-          "narrationText": "岩石是由一種或多種礦物組成的；經過長期的風化作用與生物遺體腐化分解，才形成土壤；地層中的化石則記錄了古生物與環境。",
-          "cognitiveChunks": [
-            "岩石由礦物組成，各有不同硬度與用途",
-            "土壤＝岩石風化碎屑 ＋ 生物遺體腐化分解物"
-          ],
-          "workedExampleData": {
-            "problemStatement": "在流水實驗中，我們把土堆堆高並增加水量，為什麼底部會沖出一道深溝？又為什麼山上岩層有時會發現貝類化石？",
-            "steps": [
-              "第 1 步：坡度變陡、水量變大時，水流速度加快，對土堆的「侵蝕與搬運作用」明顯增強，因此沖出深溝",
-              "第 2 步：化石保存了古生物的樣貌與棲息環境線索",
-              "第 3 步：高山出現海洋貝類化石，代表該岩層在古代曾位於海底，後來因地殼變動抬升成高山"
-            ],
-            "commonErrorContrast": "常見錯誤：把河道的凹岸和凸岸搞反（忘記外側被衝擊凹進去的是凹岸、內側凸出來堆積泥沙的是凸岸）。",
-            "selfExplanationPrompt": "想一想：沒有植物落葉與生物遺體腐化分解，單純只有石頭碎屑能變成肥沃的土壤嗎？",
-            "keepStepCardVisible": false
-          },
-          "factGroundingSourceId": "115-s1/g6/science#u3"
-        },
-        {
-          "sceneId": "g6s1-science-u3-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "記憶口訣：凹岸侵蝕、凸岸堆積",
-          "topicSignalTitle": "想像賽車過彎：外側衝力最大，內側比較平緩",
-          "narrationText": "水流經過彎道時就像車子轉彎，水會往外側（凹岸）衝撞，所以凹岸較深較陡；內側（凸岸）水流速度慢，泥沙就會慢慢堆積起來。",
-          "cognitiveChunks": [
-            "凹岸（外側）：水急、侵蝕、岸陡水深",
-            "凸岸（內側）：水緩、堆積、平緩沙洲"
-          ],
-          "factGroundingSourceId": "115-s1/g6/science#u3"
-        },
-        {
-          "sceneId": "g6s1-science-u3-s4",
-          "componentType": "WARMUP_CHECK",
-          "title": "進場前暖身確認",
-          "narrationText": "先用這題確認土壤形成與河流地貌的觀念！",
-          "cognitiveChunks": [
-            "土壤來自岩石風化碎屑與生物遺體分解"
-          ],
-          "warmupCheck": {
-            "prompt": "大自然中的「土壤」主要是由哪兩種物質經過漫長時間混合形成的？",
-            "options": [
-              "岩石風化碎屑與動植物遺體腐化分解後的物質",
-              "純粹的貝殼粉與海鹽",
-              "高空的雲朵與冰雹",
-              "火山岩漿直接冷卻成的玻璃"
+              "學習判讀衛星雲圖；認識地面天氣圖中的符號及其代表的意義；學習判讀衛。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
             "answerIndex": 0,
-            "feedbackCorrect": "答對了！岩石經過長期風化碎裂，再混入生物遺體腐化分解後的養分，才形成珍貴的土壤。",
-            "feedbackRetry": "想一想土壤裡除了石頭碎掉的小顆粒（風化碎屑），還需要什麼來自生物的成分？"
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/science#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-science-u1-l3",
+      "stageId": "115-s1-g6-science-u1-l3",
+      "title": "3.認識颱風",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識颱風：核心概念",
+          "narrationText": "在「一、多樣的天氣變化」的「3.認識颱風」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識颱風的天氣符號、颱風路徑圖等颱風知識。"
+          ],
+          "analogyAnchor": "把「3.認識颱風」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "3.認識颱風",
+              "leftPoints": [
+                "認識颱風的天氣符號、颱風路徑圖等颱風知識。",
+                "認識颱風的天氣符號、颱風路徑圖等颱風知識。"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "3.認識颱風",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/science#u1"
+        },
+        {
+          "sceneId": "u1l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識颱風的天氣符號、颱風路徑圖等颱風知識。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「3.認識颱風」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「3.認識颱風」",
+              "第 2 步：對照本課核心「認識颱風的天氣符號、颱風路徑圖等颱風知識。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「3.認識颱風」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/science#u1"
+        },
+        {
+          "sceneId": "u1l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「3.認識颱風」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識颱風的天氣符號、颱風路徑圖等颱風知識。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「3.認識颱風」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識颱風的天氣符號、颱風路徑圖等颱風知識。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/science#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-science-u2-l1",
+      "stageId": "115-s1-g6-science-u2-l1",
+      "title": "1.物質受熱後的變化",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "物質受熱後的變化：核心概念",
+          "narrationText": "在「二、熱對物質的影響」的「1.物質受熱後的變化」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "透過探究發現液體、氣體"
+          ],
+          "analogyAnchor": "把「1.物質受熱後的變化」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "1.物質受熱後的變化",
+              "leftPoints": [
+                "透過探究發現液體、氣體",
+                "透過探究發現液體、氣體"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "1.物質受熱後的變化",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/science#u2"
+        },
+        {
+          "sceneId": "u2l1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "透過探究發現液體、氣體",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「1.物質受熱後的變化」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「1.物質受熱後的變化」",
+              "第 2 步：對照本課核心「透過探究發現液體、氣體」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「1.物質受熱後的變化」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/science#u2"
+        },
+        {
+          "sceneId": "u2l1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「1.物質受熱後的變化」後再開始挑戰！",
+          "cognitiveChunks": [
+            "透過探究發現液體、氣體"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「1.物質受熱後的變化」，哪一項才是正確的學習重點？",
+            "options": [
+              "透過探究發現液體、氣體",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/science#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-science-u2-l2",
+      "stageId": "115-s1-g6-science-u2-l2",
+      "title": "2.熱的傳播方式",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "熱的傳播方式：核心概念",
+          "narrationText": "在「二、熱對物質的影響」的「2.熱的傳播方式」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "藉由實驗操作發現熱會由高溫處傳到低溫處（熱的傳導）"
+          ],
+          "analogyAnchor": "把「2.熱的傳播方式」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "2.熱的傳播方式",
+              "leftPoints": [
+                "藉由實驗操作發現熱會由高溫處傳到低溫處（熱的傳導）",
+                "藉由實驗操作發現熱會由高溫處傳到低溫處（熱的傳導）"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "2.熱的傳播方式",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/science#u2"
+        },
+        {
+          "sceneId": "u2l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "藉由實驗操作發現熱會由高溫處傳到低溫處（熱的傳導）",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「2.熱的傳播方式」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「2.熱的傳播方式」",
+              "第 2 步：對照本課核心「藉由實驗操作發現熱會由高溫處傳到低溫處（熱。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「2.熱的傳播方式」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/science#u2"
+        },
+        {
+          "sceneId": "u2l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「2.熱的傳播方式」後再開始挑戰！",
+          "cognitiveChunks": [
+            "藉由實驗操作發現熱會由高溫處傳到低溫處（熱的傳導）"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「2.熱的傳播方式」，哪一項才是正確的學習重點？",
+            "options": [
+              "藉由實驗操作發現熱會由高溫處傳到低溫處（熱的傳導）",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/science#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-science-u2-l3",
+      "stageId": "115-s1-g6-science-u2-l3",
+      "title": "3.保溫與散熱",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "保溫與散熱：核心概念",
+          "narrationText": "在「二、熱對物質的影響」的「3.保溫與散熱」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "透過日常生活經驗知道保溫的方法與散熱的方法（六上目標17-18）。"
+          ],
+          "analogyAnchor": "把「3.保溫與散熱」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "3.保溫與散熱",
+              "leftPoints": [
+                "透過日常生活經驗知道保溫的方法與散熱的方法（六上目標1。",
+                "透過日常生活經驗知道保溫的方法與散熱的方法（六上目標1。"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "3.保溫與散熱",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/science#u2"
+        },
+        {
+          "sceneId": "u2l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "透過日常生活經驗知道保溫的方法與散熱的方法（六上目標17-18）。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「3.保溫與散熱」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「3.保溫與散熱」",
+              "第 2 步：對照本課核心「透過日常生活經驗知道保溫的方法與散熱的方法。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「3.保溫與散熱」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/science#u2"
+        },
+        {
+          "sceneId": "u2l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「3.保溫與散熱」後再開始挑戰！",
+          "cognitiveChunks": [
+            "透過日常生活經驗知道保溫的方法與散熱的方法（六上目標17-18）。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「3.保溫與散熱」，哪一項才是正確的學習重點？",
+            "options": [
+              "透過日常生活經驗知道保溫的方法與散熱的方法（六上目標17-18）。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/science#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-science-u3-l1",
+      "stageId": "115-s1-g6-science-u3-l1",
+      "title": "1.流水的作用",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "流水的作用：核心概念",
+          "narrationText": "在「三、變動的大地」的「1.流水的作用」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "藉由資料與流水實驗認識流水改變大地樣貌及對地表形貌的影響"
+          ],
+          "analogyAnchor": "把「1.流水的作用」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "1.流水的作用",
+              "leftPoints": [
+                "藉由資料與流水實驗認識流水改變大地樣貌及對地表形貌的影響",
+                "藉由資料與流水實驗認識流水改變大地樣貌及對地表形貌的影響"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "1.流水的作用",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/science#u3"
+        },
+        {
+          "sceneId": "u3l1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "藉由資料與流水實驗認識流水改變大地樣貌及對地表形貌的影響",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「1.流水的作用」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「1.流水的作用」",
+              "第 2 步：對照本課核心「藉由資料與流水實驗認識流水改變大地樣貌及對。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「1.流水的作用」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/science#u3"
+        },
+        {
+          "sceneId": "u3l1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「1.流水的作用」後再開始挑戰！",
+          "cognitiveChunks": [
+            "藉由資料與流水實驗認識流水改變大地樣貌及對地表形貌的影響"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「1.流水的作用」，哪一項才是正確的學習重點？",
+            "options": [
+              "藉由資料與流水實驗認識流水改變大地樣貌及對地表形貌的影響",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s1/g6/science#u3"
         }
@@ -322,48 +646,226 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g6-science-u4",
-      "stageId": "115-s1-g6-science-u4",
-      "title": "四、奇妙的電磁世界",
+      "lessonId": "lesson-115-s1-g6-science-u3-l2",
+      "stageId": "115-s1-g6-science-u3-l2",
+      "title": "2.水岸地貌",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "g6s1-science-u4-s1",
+          "sceneId": "u3l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "地磁、電生磁與神奇的電磁鐵",
-          "narrationText": "指北針指針受地磁影響固定指向南北；當漆包線線圈通電時周圍會產生磁性使指針偏轉，在線圈內放入鐵芯就成為可控制開關的電磁鐵。",
+          "title": "水岸地貌：核心概念",
+          "narrationText": "在「三、變動的大地」的「2.水岸地貌」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "指北針指針本身是小磁鐵，受地球磁場（地磁）吸引",
-            "通電線圈產生磁性（電生磁），斷電磁性就消失",
-            "改變電池正負極方向，電磁鐵的 N、S 磁極會對調"
+            "藉由實驗知道河流中有凸岸與凹岸不同的地貌"
           ],
-          "analogyAnchor": "一般磁鐵像永遠開著的手電筒，電磁鐵則像有開關的燈泡，通電才吸得住東西，斷電就放開！",
+          "analogyAnchor": "把「2.水岸地貌」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "一般永久磁鐵",
+              "leftTitle": "2.水岸地貌",
               "leftPoints": [
-                "具有 N、S 極且能吸引鐵製品",
-                "磁性一直存在，無法隨意開關",
-                "磁力強弱與磁極固定不變"
+                "藉由實驗知道河流中有凸岸與凹岸不同的地貌",
+                "藉由實驗知道河流中有凸岸與凹岸不同的地貌"
               ],
-              "rightTitle": "電磁鐵",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "同樣有 N、S 極且能吸引鐵製品",
-                "通電才有磁性，斷電磁性消失",
-                "可調電池數或線圈數改變磁力"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
-                "id": "g6-s-u4-l1",
-                "text": "永久磁鐵磁極固定",
+                "id": "l1",
+                "text": "2.水岸地貌",
                 "anchorPointId": "left"
               },
               {
-                "id": "g6-s-u4-l2",
-                "text": "電磁鐵可開關調強",
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/science#u3"
+        },
+        {
+          "sceneId": "u3l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "藉由實驗知道河流中有凸岸與凹岸不同的地貌",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「2.水岸地貌」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「2.水岸地貌」",
+              "第 2 步：對照本課核心「藉由實驗知道河流中有凸岸與凹岸不同的地貌」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「2.水岸地貌」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/science#u3"
+        },
+        {
+          "sceneId": "u3l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「2.水岸地貌」後再開始挑戰！",
+          "cognitiveChunks": [
+            "藉由實驗知道河流中有凸岸與凹岸不同的地貌"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「2.水岸地貌」，哪一項才是正確的學習重點？",
+            "options": [
+              "藉由實驗知道河流中有凸岸與凹岸不同的地貌",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/science#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-science-u3-l3",
+      "stageId": "115-s1-g6-science-u3-l3",
+      "title": "3.地表組成",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "地表組成：核心概念",
+          "narrationText": "在「三、變動的大地」的「3.地表組成」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "透過觀察認識岩石與礦物及其生活中的應用。"
+          ],
+          "analogyAnchor": "把「3.地表組成」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "3.地表組成",
+              "leftPoints": [
+                "透過觀察認識岩石與礦物及其生活中的應用。",
+                "透過觀察認識岩石與礦物及其生活中的應用。"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "3.地表組成",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/science#u3"
+        },
+        {
+          "sceneId": "u3l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "透過觀察認識岩石與礦物及其生活中的應用。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「3.地表組成」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「3.地表組成」",
+              "第 2 步：對照本課核心「透過觀察認識岩石與礦物及其生活中的應用。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「3.地表組成」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/science#u3"
+        },
+        {
+          "sceneId": "u3l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「3.地表組成」後再開始挑戰！",
+          "cognitiveChunks": [
+            "透過觀察認識岩石與礦物及其生活中的應用。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「3.地表組成」，哪一項才是正確的學習重點？",
+            "options": [
+              "透過觀察認識岩石與礦物及其生活中的應用。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/science#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-science-u4-l1",
+      "stageId": "115-s1-g6-science-u4-l1",
+      "title": "1.指北針與地磁",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "指北針與地磁：核心概念",
+          "narrationText": "在「四、奇妙的電磁世界」的「1.指北針與地磁」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "透過實驗發現指北針的指針是磁鐵，受到地磁影響而固定指向南北。"
+          ],
+          "analogyAnchor": "把「1.指北針與地磁」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "1.指北針與地磁",
+              "leftPoints": [
+                "透過實驗發現指北針的指針是磁鐵",
+                "透過實驗發現指北針的指針是磁鐵"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "1.指北針與地磁",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -371,58 +873,227 @@
           "factGroundingSourceId": "115-s1/g6/science#u4"
         },
         {
-          "sceneId": "g6s1-science-u4-s2",
+          "sceneId": "u4l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "增強電磁鐵磁力的三大變因實驗",
-          "narrationText": "做控制變因實驗時，每次只能改變「一個」條件（例如只增加電池數量），其餘條件保持不變，才能公平比較磁力強弱。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "放入鐵芯（鐵釘）可大幅增強磁力",
-            "增加串聯電池數或增加線圈圈數，磁力變強"
+            "透過實驗發現指北針的指針是磁鐵，受到地磁影響而固定指向南北。",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "如何設計實驗讓同一個電磁鐵吸起更多支迴紋針？又該如何讓通電導線使指北針偏轉得更明顯？",
+            "problemStatement": "複習「1.指北針與地磁」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：在線圈中央放入鐵棒（鐵芯），能集中並增強磁場",
-              "第 2 步：增加漆包線纏繞的圈數，或串聯更多顆電池（增加電流）來增強電磁鐵磁力",
-              "第 3 步：測試通電導線使指北針偏轉時，將導線平行且盡量貼近指北針正上方，偏轉角度最明顯"
+              "第 1 步：確認題目在問「1.指北針與地磁」",
+              "第 2 步：對照本課核心「透過實驗發現指北針的指針是磁鐵」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：以為把電池「並聯」或把鐵芯換成木筷子能增強磁力，或做實驗時同時改變電池數又改變圈數（違反單一變因原則）。",
-            "selfExplanationPrompt": "想一想：生活中的電磁起重機、傳統電鈴和馬達，都是利用電磁鐵的哪一個最大優點？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「1.指北針與地磁」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s1/g6/science#u4"
         },
         {
-          "sceneId": "g6s1-science-u4-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "生活中的電磁應用與電磁波",
-          "topicSignalTitle": "從電器馬達到通訊電磁波的理性認識",
-          "narrationText": "電磁鐵廣泛用在電鈴、馬達與電磁起重機；手機與無線電器則會產生電磁波，只要依規範安全使用並保持適當距離即可放心。",
+          "sceneId": "u4l1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「1.指北針與地磁」後再開始挑戰！",
           "cognitiveChunks": [
-            "電鈴、馬達、電磁起重機皆應用電磁鐵",
-            "日常電器與通訊含電磁波，保持適當距離更安全"
+            "透過實驗發現指北針的指針是磁鐵，受到地磁影響而固定指向南北。"
           ],
+          "warmupCheck": {
+            "prompt": "關於「1.指北針與地磁」，哪一項才是正確的學習重點？",
+            "options": [
+              "透過實驗發現指北針的指針是磁鐵，受到地磁影響而固定指向南北。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/science#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-science-u4-l2",
+      "stageId": "115-s1-g6-science-u4-l2",
+      "title": "2.神奇的電磁鐵",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "神奇的電磁鐵：核心概念",
+          "narrationText": "在「四、奇妙的電磁世界」的「2.神奇的電磁鐵」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "透過實驗認識電磁鐵，探究影響電磁鐵磁力強弱的因素"
+          ],
+          "analogyAnchor": "把「2.神奇的電磁鐵」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "2.神奇的電磁鐵",
+              "leftPoints": [
+                "透過實驗認識電磁鐵，探究影響電磁鐵磁力強弱的因素",
+                "透過實驗認識電磁鐵，探究影響電磁鐵磁力強弱的因素"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "2.神奇的電磁鐵",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
           "factGroundingSourceId": "115-s1/g6/science#u4"
         },
         {
-          "sceneId": "g6s1-science-u4-s4",
+          "sceneId": "u4l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "透過實驗認識電磁鐵，探究影響電磁鐵磁力強弱的因素",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「2.神奇的電磁鐵」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「2.神奇的電磁鐵」",
+              "第 2 步：對照本課核心「透過實驗認識電磁鐵」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「2.神奇的電磁鐵」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/science#u4"
+        },
+        {
+          "sceneId": "u4l2-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "先用這題確認影響電磁鐵磁力強弱的因素！",
+          "narrationText": "先做一題暖身確認，確認掌握「2.神奇的電磁鐵」後再開始挑戰！",
           "cognitiveChunks": [
-            "多繞線圈、串聯電池可增強磁力"
+            "透過實驗認識電磁鐵，探究影響電磁鐵磁力強弱的因素"
           ],
           "warmupCheck": {
-            "prompt": "下列哪一種方法「無法」讓電磁鐵吸起更多支迴紋針？",
+            "prompt": "關於「2.神奇的電磁鐵」，哪一項才是正確的學習重點？",
             "options": [
-              "在線圈裡放入一根鐵釘當鐵芯",
-              "增加漆包線纏繞的圈數",
-              "增加串聯的電池個數",
-              "把線圈裡的鐵釘換成塑膠棒"
+              "透過實驗認識電磁鐵，探究影響電磁鐵磁力強弱的因素",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
-            "answerIndex": 3,
-            "feedbackCorrect": "完全正確！塑膠不會被磁化，把鐵釘換成塑膠棒會讓磁力大幅減弱。",
-            "feedbackRetry": "找出那個會讓磁力「變弱」而不是變強的選項喔！"
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g6/science#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g6-science-u4-l3",
+      "stageId": "115-s1-g6-science-u4-l3",
+      "title": "3.電磁作用與生活的關係",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "電磁作用與生活的關係：核心概念",
+          "narrationText": "在「四、奇妙的電磁世界」的「3.電磁作用與生活的關係」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "藉由資料認識日常生活中電磁鐵裝置應用在電器產品上（原文寫作「店器產。"
+          ],
+          "analogyAnchor": "把「3.電磁作用與生活的關係」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "3.電磁作用與生活的關係",
+              "leftPoints": [
+                "藉由資料認識日常生活中電磁鐵裝置應用在電器產品上（原文。",
+                "藉由資料認識日常生活中電磁鐵裝置應用在電器產品上（原文。"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "3.電磁作用與生活的",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g6/science#u4"
+        },
+        {
+          "sceneId": "u4l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "藉由資料認識日常生活中電磁鐵裝置應用在電器產品上（原文寫作「店器產。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「3.電磁作用與生活的關係」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「3.電磁作用與生活的關係」",
+              "第 2 步：對照本課核心「藉由資料認識日常生活中電磁鐵裝置應用在電器。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「3.電磁作用與生活的關係」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g6/science#u4"
+        },
+        {
+          "sceneId": "u4l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「3.電磁作用與生活的關係」後再開始挑戰！",
+          "cognitiveChunks": [
+            "藉由資料認識日常生活中電磁鐵裝置應用在電器產品上（原文寫作「店器產。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「3.電磁作用與生活的關係」，哪一項才是正確的學習重點？",
+            "options": [
+              "藉由資料認識日常生活中電磁鐵裝置應用在電器產品上（原文寫作「店器產。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s1/g6/science#u4"
         }

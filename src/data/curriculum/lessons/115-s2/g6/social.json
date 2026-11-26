@@ -8,46 +8,44 @@
   "lessons": [
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g6-social-u1",
-      "stageId": "115-s2-g6-social-u1",
-      "title": "第一單元 世界多元文化與科技發展對臺灣的影響",
+      "lessonId": "lesson-115-s2-g6-social-u1-l1",
+      "stageId": "115-s2-g6-social-u1-l1",
+      "title": "第1課 世界多元文化在臺灣如何展現？",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "g6s2-social-u1-s1",
+          "sceneId": "u1l1-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "世界多元文化交會與科技演進的雙面影響",
-          "narrationText": "臺灣透過貿易、觀光、留學與移民與世界頻繁互動，展現豐富的世界多元文化。同時，從蒸汽動力、能源科技到生物與資訊科技，不斷推動經濟型態轉變，也提醒我們須兼顧環境永續。",
+          "title": "第1課 世界多元文化在臺灣如何展現？：核心概念",
+          "narrationText": "在「第一單元 世界多元文化與科技發展對臺灣的影響」的「第1課 世界多元文化在臺灣如何展現？」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "臺灣與世界交流頻繁，展現多元文化面貌",
-            "蒸汽動力取代人力獸力，提升運輸與生產力",
-            "科技帶來便利，也須防範汙染與資安課題"
+            "了解臺灣與世界交流頻繁，認識世界多元文化在臺灣的展現。"
           ],
-          "analogyAnchor": "科技發展就像一艘航向未來的船，能源、生物與資訊科技提供前進的動力，而「環境永續」與「安全規範」就是確保船隻不偏離航道的舵。",
+          "analogyAnchor": "把「第1課 世界多元文化在臺灣如何展現？」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "科技帶來的便利與進步",
+              "leftTitle": "第1課 世界多元文化在臺灣如",
               "leftPoints": [
-                "蒸汽與再生能源提升生產力",
-                "生技醫藥育種與資訊即時連結"
+                "了解臺灣與世界交流頻繁，認識世界多元文化在臺灣的展現。",
+                "了解臺灣與世界交流頻繁，認識世界多元文化在臺灣的展現。"
               ],
-              "rightTitle": "須留意的課題與規範",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "減少化石汙染與保護海洋生態",
-                "防範個資外洩並回收電子廢物"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
-                "id": "g6s2-soc-u1-l1",
-                "text": "科技推動經濟生活",
+                "id": "l1",
+                "text": "第1課 世界多元文化",
                 "anchorPointId": "left"
               },
               {
-                "id": "g6s2-soc-u1-l2",
-                "text": "兼顧環境與資安",
+                "id": "l2",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -55,160 +53,318 @@
           "factGroundingSourceId": "115-s2/g6/social#u1"
         },
         {
-          "sceneId": "g6s2-social-u1-s2",
+          "sceneId": "u1l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "從能源到生技資訊：全面評估科技影響",
-          "narrationText": "探討能源、生物與資訊科技對臺灣的影響時，要學會同時從「經濟便利」與「環境永續及安全倫理」兩個面向進行平衡觀察。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "能源轉型須評估潔淨供電與海洋生態保育",
-            "生技應用須重倫理，資訊科技須防假訊息"
+            "了解臺灣與世界交流頻繁，認識世界多元文化在臺灣的展現。",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "臺灣近年積極在西部海域推動離岸風力發電，並廣泛應用生物與資訊科技。我們應如何評估這些科技發展對臺灣的整體影響？",
+            "problemStatement": "複習「第1課 世界多元文化在臺灣如何展現？」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：肯定正面貢獻——再生能源減少碳排，生物科技改良作物與研發疫苗，資訊科技提升學習與溝通效率",
-              "第 2 步：檢視潛在挑戰——海上風機可能影響海洋生態與漁業，資訊科技伴隨假訊息與數位落差，生技須嚴格審查安全",
-              "第 3 步：提出平衡做法——落實環境評估與漁民溝通、建立生技安全規範、推動電子廢棄物回收與數位素養教育"
+              "第 1 步：確認題目在問「第1課 世界多元文化在臺灣如」",
+              "第 2 步：對照本課核心「了解臺灣與世界交流頻繁」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：只看見科技產品好的一面而忽略汙染與資安風險，或誤以為只要發展再生能源就再也不必節約用電。",
-            "selfExplanationPrompt": "想一想：在社區遇見不同國家的飲食與節慶文化時，怎樣的態度能展現開放與尊重？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第1課 世界多元文化在臺」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s2/g6/social#u1"
         },
         {
-          "sceneId": "g6s2-social-u1-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "欣賞世界文化，守護永續環境",
-          "topicSignalTitle": "以開放心胸認識異國文化，以永續視野善用科技",
-          "narrationText": "接觸來自世界各地的文化時，應以尊重與欣賞替代嘲笑或排斥；面對日新月異的科技，更要思考如何保護海洋、空氣與個人數位安全。",
-          "cognitiveChunks": [
-            "尊重包容世界不同文化的歷史與生活智慧",
-            "經濟與科技發展必須以環境永續為基礎"
-          ],
-          "factGroundingSourceId": "115-s2/g6/social#u1"
-        },
-        {
-          "sceneId": "g6s2-social-u1-s4",
+          "sceneId": "u1l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "先用這題確認能源科技發展與環境永續之間的關聯！",
+          "narrationText": "先做一題暖身確認，確認掌握「第1課 世界多元文化在臺灣如」後再開始挑戰！",
           "cognitiveChunks": [
-            "能源科技推動經濟，同時須兼顧環境永續"
+            "了解臺灣與世界交流頻繁，認識世界多元文化在臺灣的展現。"
           ],
           "warmupCheck": {
-            "prompt": "從依賴煤炭、石油發電到推動太陽能與離岸風力等潔淨能源，回顧能源科技與經濟、環境的關係，我們最應體認到哪一個重點？",
+            "prompt": "關於「第1課 世界多元文化在臺灣如」，哪一項才是正確的學習重點？",
             "options": [
-              "地球上的煤炭與石油永遠用不完，不必節約能源",
-              "發展再生能源會讓家電全部壞掉，應該回到沒電的時代",
-              "能源科技提升生產力與便利，但也帶來汙染與耗竭，須兼顧環境永續",
-              "能源科技只影響發電廠工程師，跟一般民眾毫無關係"
-            ],
-            "answerIndex": 2,
-            "feedbackCorrect": "完全正確！能源支撐經濟與生活，但也可能帶來汙染，因此發展再生能源與節約用電非常關鍵。",
-            "feedbackRetry": "想一想：我們需要電力維持生活，但也要保護地球環境，不能無止境燃燒化石燃料喔！"
-          },
-          "factGroundingSourceId": "115-s2/g6/social#u1"
-        }
-      ]
-    },
-    {
-      "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g6-social-u2",
-      "stageId": "115-s2-g6-social-u2",
-      "title": "第二單元 臺灣走向世界",
-      "ageBand": "AGE_9_12_UPPER",
-      "subject": "SCIENCE_SOCIAL",
-      "scenes": [
-        {
-          "sceneId": "g6s2-social-u2-s1",
-          "componentType": "ANCHOR_SCENE",
-          "title": "參與國際事務與全球人權、環境議題",
-          "narrationText": "在全球化時代，臺灣與世界各國緊密相連。臺灣透過搜救隊、醫療與農技團隊參與國際合作展現影響力，同時我們也須共同關心跨國疾病人權與全球環境永續議題。",
-          "cognitiveChunks": [
-            "參與國際事務能貢獻專業並爭取國際支持",
-            "跨國疫情與醫療資源不均衝擊基本人權",
-            "氣候變遷與海洋汙染需要各國跨國合作"
-          ],
-          "analogyAnchor": "地球村就像一艘共同航行的大船，沒有任何國家能單獨面對疫情或氣候變遷，只有彼此伸出援手才能讓整艘船平安前進。",
-          "visualSpec": {
-            "templateId": "flow_cause",
-            "params": {
-              "nodes": [
-                "全球互賴沒有人是局外人",
-                "臺灣輸出醫療防災展現影響力",
-                "關心跨國疫情與醫療人權",
-                "實踐減塑節能盡世界公民責任"
-              ]
-            },
-            "spatialLabels": [
-              {
-                "id": "g6s2-soc-u2-l1",
-                "text": "跨國合作發揮影響",
-                "anchorPointId": "step2"
-              },
-              {
-                "id": "g6s2-soc-u2-l2",
-                "text": "守護人權與環境永續",
-                "anchorPointId": "step4"
-              }
-            ]
-          },
-          "factGroundingSourceId": "115-s2/g6/social#u2"
-        },
-        {
-          "sceneId": "g6s2-social-u2-s2",
-          "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "從跨國疾病與醫療不均看見人權意義",
-          "narrationText": "當某一地區爆發傳染病時，影響往往跨越國界。我們需要理解疾病防控與醫療資源分配，為何不只是醫學問題，更是重要的人權課題。",
-          "cognitiveChunks": [
-            "健康與醫療照護是每個人的基本人權",
-            "疫情中應反對歧視，照顧弱勢與性別平等"
-          ],
-          "workedExampleData": {
-            "problemStatement": "為什麼「全球醫療資源分配不均」與「跨國傳染疾病」會對全人類的基本人權造成嚴重衝擊？",
-            "steps": [
-              "第 1 步：健康權是基本人權，缺乏乾淨飲水、疫苗與醫護人員的地區，居民面臨更高的生病與死亡風險",
-              "第 2 步：疫情發生時，弱勢族群、偏遠居民與女性往往更容易面臨照顧不足或受教權受損的衝擊",
-              "第 3 步：傳染病會跨越國界，若弱勢地區成為防疫缺口，全球都更難共同控制疫情，因此需要國際醫療互助與平等關懷"
-            ],
-            "commonErrorContrast": "常見錯誤：誤以為只要自己國家醫院高級就不會受別國疫情影響，或為了防疫可以隨意歧視與標籤化特定地區民眾。",
-            "selfExplanationPrompt": "想一想：面對沒有國界的氣候變遷與海洋塑膠汙染，六年級的我們在日常生活中可以做哪些世界公民行動？",
-            "keepStepCardVisible": false
-          },
-          "factGroundingSourceId": "115-s2/g6/social#u2"
-        },
-        {
-          "sceneId": "g6s2-social-u2-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "從身邊做起，善盡世界公民責任",
-          "topicSignalTitle": "關注國際人權與環境，用日常行動愛護地球",
-          "narrationText": "大氣與海洋沒有國界線。從生活中實踐減塑、惜食與節能，關注國際醫療與人道援助，每位小學生都能成為負責任的世界公民。",
-          "cognitiveChunks": [
-            "臺灣以醫療、農技與民間公益贏得國際友誼",
-            "減塑惜食節能並分享理念是具體公民行動"
-          ],
-          "factGroundingSourceId": "115-s2/g6/social#u2"
-        },
-        {
-          "sceneId": "g6s2-social-u2-s4",
-          "componentType": "WARMUP_CHECK",
-          "title": "進場前暖身確認",
-          "narrationText": "先用這題確認為什麼環境問題需要全球跨國合作！",
-          "cognitiveChunks": [
-            "大氣與海洋相連互通，環境問題無國界"
-          ],
-          "warmupCheck": {
-            "prompt": "氣候變遷與海洋塑膠汙染等問題，為什麼不能只靠單一國家處理，而是世界公民都必須關心的「全球環境議題」？",
-            "options": [
-              "大氣與海洋相連互通，汙染與氣候變遷會跨越國界影響全人類，唯有跨國合作能改善",
-              "每個國家的領空都有玻璃隔絕，廢氣不可能飄進別的國家",
-              "只有海島小國會受氣候變遷影響，內陸工業國完全不會受波及",
-              "環境問題不必急著解決，等以後科技發達再搬到太陽表面居住"
+              "了解臺灣與世界交流頻繁，認識世界多元文化在臺灣的展現。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
             "answerIndex": 0,
-            "feedbackCorrect": "答對了！地球的大氣層與海洋是全人類共享的，跨國合作與個人實踐缺一不可。",
-            "feedbackRetry": "想一想：風和洋流會畫分國界線嗎？一個國家排出的汙染往往會影響全世界喔！"
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g6/social#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-social-u1-l2",
+      "stageId": "115-s2-g6-social-u1-l2",
+      "title": "第2課 能源科技的發展如何影響臺灣？",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1l2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第2課 能源科技的發展如何影響臺灣？：核心概念",
+          "narrationText": "在「第一單元 世界多元文化與科技發展對臺灣的影響」的「第2課 能源科技的發展如何影響臺灣？」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "理解蒸汽動力的發展與傳入臺灣"
+          ],
+          "analogyAnchor": "把「第2課 能源科技的發展如何影響臺灣？」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第2課 能源科技的發展如何影",
+              "leftPoints": [
+                "理解蒸汽動力的發展與傳入臺灣",
+                "理解蒸汽動力的發展與傳入臺灣"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第2課 能源科技的發",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/social#u1"
+        },
+        {
+          "sceneId": "u1l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "理解蒸汽動力的發展與傳入臺灣",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第2課 能源科技的發展如何影響臺灣？」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第2課 能源科技的發展如何影」",
+              "第 2 步：對照本課核心「理解蒸汽動力的發展與傳入臺灣」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第2課 能源科技的發展如」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/social#u1"
+        },
+        {
+          "sceneId": "u1l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第2課 能源科技的發展如何影」後再開始挑戰！",
+          "cognitiveChunks": [
+            "理解蒸汽動力的發展與傳入臺灣"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第2課 能源科技的發展如何影」，哪一項才是正確的學習重點？",
+            "options": [
+              "理解蒸汽動力的發展與傳入臺灣",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g6/social#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-social-u1-l3",
+      "stageId": "115-s2-g6-social-u1-l3",
+      "title": "第3課 生物、資訊科技的發展如何影響臺灣？",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第3課 生物、資訊科技的發展如何影響臺灣？：核心概念",
+          "narrationText": "在「第一單元 世界多元文化與科技發展對臺灣的影響」的「第3課 生物、資訊科技的發展如何影響臺灣？」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "探討生物科技與資訊科技發展對臺灣社會"
+          ],
+          "analogyAnchor": "把「第3課 生物、資訊科技的發展如何影響臺灣？」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第3課 生物、資訊科技的發展",
+              "leftPoints": [
+                "探討生物科技與資訊科技發展對臺灣社會",
+                "探討生物科技與資訊科技發展對臺灣社會"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第3課 生物、資訊科",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/social#u1"
+        },
+        {
+          "sceneId": "u1l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "探討生物科技與資訊科技發展對臺灣社會",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第3課 生物、資訊科技的發展如何影響臺灣？」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第3課 生物、資訊科技的發展」",
+              "第 2 步：對照本課核心「探討生物科技與資訊科技發展對臺灣社會」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第3課 生物、資訊科技的」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/social#u1"
+        },
+        {
+          "sceneId": "u1l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第3課 生物、資訊科技的發展」後再開始挑戰！",
+          "cognitiveChunks": [
+            "探討生物科技與資訊科技發展對臺灣社會"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第3課 生物、資訊科技的發展」，哪一項才是正確的學習重點？",
+            "options": [
+              "探討生物科技與資訊科技發展對臺灣社會",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g6/social#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-social-u2-l1",
+      "stageId": "115-s2-g6-social-u2-l1",
+      "title": "第1課 為什麼臺灣要參與國際事務？",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第1課 為什麼臺灣要參與國際事務？：核心概念",
+          "narrationText": "在「第二單元 臺灣走向世界」的「第1課 為什麼臺灣要參與國際事務？」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "透過臺灣參與國際社會的具體案例覺察臺灣的影響力"
+          ],
+          "analogyAnchor": "把「第1課 為什麼臺灣要參與國際事務？」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第1課 為什麼臺灣要參與國際",
+              "leftPoints": [
+                "透過臺灣參與國際社會的具體案例覺察臺灣的影響力",
+                "透過臺灣參與國際社會的具體案例覺察臺灣的影響力"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第1課 為什麼臺灣要",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/social#u2"
+        },
+        {
+          "sceneId": "u2l1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "透過臺灣參與國際社會的具體案例覺察臺灣的影響力",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第1課 為什麼臺灣要參與國際事務？」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第1課 為什麼臺灣要參與國際」",
+              "第 2 步：對照本課核心「透過臺灣參與國際社會的具體案例覺察臺灣的影。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第1課 為什麼臺灣要參與」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/social#u2"
+        },
+        {
+          "sceneId": "u2l1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第1課 為什麼臺灣要參與國際」後再開始挑戰！",
+          "cognitiveChunks": [
+            "透過臺灣參與國際社會的具體案例覺察臺灣的影響力"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第1課 為什麼臺灣要參與國際」，哪一項才是正確的學習重點？",
+            "options": [
+              "透過臺灣參與國際社會的具體案例覺察臺灣的影響力",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s2/g6/social#u2"
         }
@@ -216,101 +372,272 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g6-social-u3",
-      "stageId": "115-s2-g6-social-u3",
-      "title": "主題探究與實作單元",
+      "lessonId": "lesson-115-s2-g6-social-u2-l2",
+      "stageId": "115-s2-g6-social-u2-l2",
+      "title": "第2課 為什麼我們要關心人權議題？",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "g6s2-social-u3-s1",
+          "sceneId": "u2l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "科技改變生活：省思未來與實作改進",
-          "narrationText": "在「科技改變生活」主題探究與實作單元中，我們不僅要認識新科技的功能，更要省思人工智慧、自動化與數位工具未來對世界的影響，並針對問題提出具體改進做法。",
+          "title": "第2課 為什麼我們要關心人權議題？：核心概念",
+          "narrationText": "在「第二單元 臺灣走向世界」的「第2課 為什麼我們要關心人權議題？」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "省思科技未來發展帶來的助益與新挑戰",
-            "依「界定問題→查證訪談→提出改進」進行探究",
-            "重視通用設計、護眼查證與電子廢棄物回收"
+            "覺察某一國家或地區發生的疾病事件影響跨越國界"
           ],
-          "analogyAnchor": "面對未來科技就像學習騎單車，除了學會騎得快（善用功能），更要學會看路況與煞車（倫理思辨、查證與改進）。",
+          "analogyAnchor": "把「第2課 為什麼我們要關心人權議題？」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_compare",
             "params": {
-              "nodes": [
-                "界定科技生活探究問題",
-                "查證資料並訪談使用經驗",
-                "省思隱私、環境與包容盲點",
-                "提出改進做法並試行驗證"
+              "leftTitle": "第2課 為什麼我們要關心人權",
+              "leftPoints": [
+                "覺察某一國家或地區發生的疾病事件影響跨越國界",
+                "覺察某一國家或地區發生的疾病事件影響跨越國界"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
-                "id": "g6s2-soc-u3-l1",
-                "text": "省思科技雙面影響",
-                "anchorPointId": "step3"
+                "id": "l1",
+                "text": "第2課 為什麼我們要",
+                "anchorPointId": "left"
               },
               {
-                "id": "g6s2-soc-u3-l2",
-                "text": "提出改進並試行",
-                "anchorPointId": "step4"
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/social#u2"
+        },
+        {
+          "sceneId": "u2l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "覺察某一國家或地區發生的疾病事件影響跨越國界",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第2課 為什麼我們要關心人權議題？」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第2課 為什麼我們要關心人權」",
+              "第 2 步：對照本課核心「覺察某一國家或地區發生的疾病事件影響跨越國界」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第2課 為什麼我們要關心」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/social#u2"
+        },
+        {
+          "sceneId": "u2l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第2課 為什麼我們要關心人權」後再開始挑戰！",
+          "cognitiveChunks": [
+            "覺察某一國家或地區發生的疾病事件影響跨越國界"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第2課 為什麼我們要關心人權」，哪一項才是正確的學習重點？",
+            "options": [
+              "覺察某一國家或地區發生的疾病事件影響跨越國界",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g6/social#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-social-u2-l3",
+      "stageId": "115-s2-g6-social-u2-l3",
+      "title": "第3課 為什麼我們要關心環境議題？",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "第3課 為什麼我們要關心環境議題？：核心概念",
+          "narrationText": "在「第二單元 臺灣走向世界」的「第3課 為什麼我們要關心環境議題？」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "關心全球環境議題"
+          ],
+          "analogyAnchor": "把「第3課 為什麼我們要關心環境議題？」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "第3課 為什麼我們要關心環境",
+              "leftPoints": [
+                "關心全球環境議題",
+                "關心全球環境議題"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "第3課 為什麼我們要",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/social#u2"
+        },
+        {
+          "sceneId": "u2l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "關心全球環境議題",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「第3課 為什麼我們要關心環境議題？」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「第3課 為什麼我們要關心環境」",
+              "第 2 步：對照本課核心「關心全球環境議題」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「第3課 為什麼我們要關心」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g6/social#u2"
+        },
+        {
+          "sceneId": "u2l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「第3課 為什麼我們要關心環境」後再開始挑戰！",
+          "cognitiveChunks": [
+            "關心全球環境議題"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「第3課 為什麼我們要關心環境」，哪一項才是正確的學習重點？",
+            "options": [
+              "關心全球環境議題",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g6/social#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g6-social-u3-l1",
+      "stageId": "115-s2-g6-social-u3-l1",
+      "title": "科技改變生活",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "科技改變生活：核心概念",
+          "narrationText": "在「主題探究與實作單元」的「科技改變生活」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "能省思關於科技未來的發展對世界的影響"
+          ],
+          "analogyAnchor": "把「科技改變生活」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "科技改變生活",
+              "leftPoints": [
+                "能省思關於科技未來的發展對世界的影響",
+                "能省思關於科技未來的發展對世界的影響"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "科技改變生活",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
               }
             ]
           },
           "factGroundingSourceId": "115-s2/g6/social#u3"
         },
         {
-          "sceneId": "g6s2-social-u3-s2",
+          "sceneId": "u3l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "針對數位學習與生活問題提出改進做法",
-          "narrationText": "發現科技使用帶來的問題後，探究實作的關鍵是設計出對症下藥、可執行的「改進做法」，並接受他人回饋持續修正。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "對症下藥設計可執行的改進方案",
-            "聽取他人回饋，修正科技設計中的使用障礙"
+            "能省思關於科技未來的發展對世界的影響",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "小組實作調查發現，同學用平板查作業雖然很快，但常忘記護眼休息，且有時未查證就照抄網路或 AI 錯誤答案。該提出什麼具體改進做法？",
+            "problemStatement": "複習「科技改變生活」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：針對「忘記休息導致眼睛疲勞」，設計可執行的「用眼 30 分鐘休息 10 分鐘」班級公約",
-              "第 2 步：針對「未查證就照抄錯誤答案」，製作「資料來源查證檢核單」，練習交叉核對課本或官方資料",
-              "第 3 步：實際試行一週並蒐集同學回饋，檢視公約與檢核單是否真正有效並微調改進"
+              "第 1 步：確認題目在問「科技改變生活」",
+              "第 2 步：對照本課核心「能省思關於科技未來的發展對世界的影響」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：提出極端不可行的建議（如砸毀全校平板），或看到同學提醒設計盲點（如長輩看不懂小字）卻拒絕修改。",
-            "selfExplanationPrompt": "想一想：為什麼科技產品設計應該考量長輩或視障者需求，加入大字體、圖示或語音導引？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「科技改變生活」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s2/g6/social#u3"
         },
         {
-          "sceneId": "g6s2-social-u3-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "邁向未來的科技公民素養",
-          "topicSignalTitle": "終身學習善用科技，兼具倫理、查證與永續關懷",
-          "narrationText": "科技設備汰換快速容易產生電子廢棄物，因此惜物延長壽命與正確回收同樣重要。唯有具備獨立思考與負責任的公民，才能讓科技創造美好未來。",
-          "cognitiveChunks": [
-            "延長設備使用年限並落實合格回收電子廢物",
-            "具備終身學習、倫理思辨與查證意識"
-          ],
-          "factGroundingSourceId": "115-s2/g6/social#u3"
-        },
-        {
-          "sceneId": "g6s2-social-u3-s4",
+          "sceneId": "u3l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "先用這題確認對未來科技（如人工智慧與自動化）的平衡思考！",
+          "narrationText": "先做一題暖身確認，確認掌握「科技改變生活」後再開始挑戰！",
           "cognitiveChunks": [
-            "同時看見科技助益與隱私、轉型等新挑戰"
+            "能省思關於科技未來的發展對世界的影響"
           ],
           "warmupCheck": {
-            "prompt": "思考未來「人工智慧（AI）與自動化設備」普及後，對人類世界最可能同時帶來哪些助益與挑戰？",
+            "prompt": "關於「科技改變生活」，哪一項才是正確的學習重點？",
             "options": [
-              "機器人普及後，全人類的大腦都會停止思考，不需再學習讀寫",
-              "能協助危險工作、精準醫療與資訊整理，但也帶來隱私風險、假訊息與部分職業轉型挑戰",
-              "所有人工智慧系統從誕生起就百分之百零錯誤，永遠不會誤判",
-              "人工智慧會讓人類再也無法使用電力與網路，退回石器時代"
+              "能省思關於科技未來的發展對世界的影響",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
-            "answerIndex": 1,
-            "feedbackCorrect": "完全正確！面對未來科技，既要善用它協助危險或繁瑣工作的優點，也要提早因應隱私、假訊息與學習轉型的挑戰。",
-            "feedbackRetry": "想一想：科技既不會完美無缺，也不會讓大腦停止思考，試著選一個兼顧「好處與挑戰」的平衡答案！"
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s2/g6/social#u3"
         }

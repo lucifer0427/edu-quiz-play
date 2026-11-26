@@ -8,46 +8,46 @@
   "lessons": [
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g3-science-u1",
-      "stageId": "115-s1-g3-science-u1",
-      "title": "一、植物大發現",
+      "lessonId": "lesson-115-s1-g3-science-u1-l1",
+      "stageId": "115-s1-g3-science-u1-l1",
+      "title": "1、認識植物",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u1-s1",
+          "sceneId": "u1l1-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "觀察植物的根、莖、葉、花、果實",
-          "narrationText": "植物由根、莖、葉、花、果實和種子組成。觀察葉片看葉形、葉緣與葉脈；觀察根分成軸根與鬚根；觀察莖分成草本、木本和藤本莖。",
+          "title": "認識植物：核心概念",
+          "narrationText": "在「一、植物大發現」的「1、認識植物」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "葉片三特徵：葉形、葉緣、葉脈",
-            "根分軸根（主根＋側根）與鬚根",
-            "莖分草本莖、木本莖與藤本莖"
+            "認識「1、認識植物」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「1、認識植物」的知識應用在日常生活中。",
+            "能用自己的話歸納「1、認識植物」的重要發現與做法。"
           ],
-          "analogyAnchor": "大樹像撐起雨傘的建築，地下有穩固的根，中間有支撐的莖，上方有錯開曬太陽的葉片。",
+          "analogyAnchor": "把「1、認識植物」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "軸根",
+              "leftTitle": "1、認識植物",
               "leftPoints": [
-                "有 1 條明顯粗大的主根",
-                "主根旁邊長出較細側根"
+                "認識「1、認識植物」的核心概念與現象，並理解其背後原因。",
+                "透過觀察與討論，將"
               ],
-              "rightTitle": "鬚根",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "沒有明顯粗大的主根",
-                "長出許多粗細相近的細根"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "軸根有粗主根",
+                "text": "1、認識植物",
                 "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "鬚根細根散開",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -55,58 +55,45 @@
           "factGroundingSourceId": "115-s1/g3/science#u1"
         },
         {
-          "sceneId": "u1-s2",
+          "sceneId": "u1l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "分辨草本莖、木本莖與藤本莖",
-          "narrationText": "觀察植物的莖時，可以摸一摸軟硬並看它怎麼站立：大樹堅硬是木本，小草柔軟是草本，需要攀附架子的是藤本。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "葉片錯開生長能吸收更多陽光",
-            "香甜果實吸引動物幫助傳播種子"
+            "認識「1、認識植物」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "如何分辨校園裡大榕樹、酢漿草和牽牛花的莖種類？",
+            "problemStatement": "複習「1、認識植物」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：大榕樹樹幹粗硬有樹皮，屬於「木本莖」",
-              "第 2 步：酢漿草莖細軟多汁，屬於「草本莖」",
-              "第 3 步：牽牛花需要纏繞欄杆向上爬，屬於「藤本莖」"
+              "第 1 步：確認題目在問「1、認識植物」",
+              "第 2 步：對照本課核心「認識「1、認識植物」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：戶外觀察時隨手把整株植物拔起來，或把不認識的野果放進嘴巴試吃。",
-            "selfExplanationPrompt": "想一想：為什麼許多植物的果實都長得鮮豔又香甜，這對植物有什麼好處？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「1、認識植物」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s1/g3/science#u1"
         },
         {
-          "sceneId": "u1-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "愛護植物與珍惜自然資源",
-          "topicSignalTitle": "戶外觀察與日常生活中如何珍惜植物？",
-          "narrationText": "觀察植物時不任意攀折枝葉，用直尺與畫圖做紀錄；平時雙面重複利用紙張，就是愛惜植物資源的好習慣。",
-          "cognitiveChunks": [
-            "不攀折花木、不試吃陌生果實",
-            "節約用紙就是保護植物"
-          ],
-          "factGroundingSourceId": "115-s1/g3/science#u1"
-        },
-        {
-          "sceneId": "u1-s4",
+          "sceneId": "u1l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "確認一下觀察葉片特徵的三個重點再出發！",
+          "narrationText": "先做一題暖身確認，確認掌握「1、認識植物」後再開始挑戰！",
           "cognitiveChunks": [
-            "葉形、葉緣、葉脈"
+            "認識「1、認識植物」的核心概念與現象，並理解其背後原因。"
           ],
           "warmupCheck": {
-            "prompt": "比較兩種不同植物的葉子時，最適合從哪三個面向觀察與分類？",
+            "prompt": "關於「1、認識植物」，哪一項才是正確的學習重點？",
             "options": [
-              "價格、重量、味道",
-              "葉形、葉緣、葉脈",
-              "高度、溫度、聲音",
-              "硬度、氣味、甜度"
+              "認識「1、認識植物」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
-            "answerIndex": 1,
-            "feedbackCorrect": "答對了！觀察葉子主要看葉形、葉緣和葉脈的紋路。",
-            "feedbackRetry": "想一想拿著一片葉子仔細看時，會看它的外型、邊緣和葉面上的紋路喔！"
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s1/g3/science#u1"
         }
@@ -114,46 +101,232 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g3-science-u2",
-      "stageId": "115-s1-g3-science-u2",
-      "title": "二、磁鐵好好玩",
+      "lessonId": "lesson-115-s1-g3-science-u1-l2",
+      "stageId": "115-s1-g3-science-u1-l2",
+      "title": "2、植物的葉、莖、根",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u2-s1",
+          "sceneId": "u1l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "磁鐵的磁力與磁極特性",
-          "narrationText": "磁鐵的磁力能隔著紙張或塑膠吸引鐵製品，而且磁鐵兩端的「磁極（N 極與 S 極）」磁力最強，遵守同極相斥、異極相吸的規律。",
+          "title": "植物的葉、莖、根：核心概念",
+          "narrationText": "在「一、植物大發現」的「2、植物的葉、莖、根」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "磁鐵能隔著非鐵物品吸引鐵製品",
-            "磁鐵兩端磁極的磁力最強",
-            "同極相斥、異極相吸"
+            "認識「2、植物的葉、莖、根」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「2、植物的葉、莖、根」的知識應用在日常生活中。",
+            "能用自己的話歸納「2、植物的葉、莖、根」的重要發現與做法。"
           ],
-          "analogyAnchor": "就像兩位磁極小衛兵：相同的 N 對 N 會互相推開，不同的 N 對 S 則會手牽手吸在一起。",
+          "analogyAnchor": "把「2、植物的葉、莖、根」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "同極相斥",
+              "leftTitle": "2、植物的葉、莖、根",
               "leftPoints": [
-                "N 極靠近 N 極 → 互相推開",
-                "S 極靠近 S 極 → 互相推開"
+                "認識「2、植物的葉、莖、根」的核心概念與現象",
+                "透過觀察與討論，將"
               ],
-              "rightTitle": "異極相吸",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "N 極靠近 S 極 → 互相吸引",
-                "隔著薄紙也能產生磁力"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "同極互相推開",
+                "text": "2、植物的葉、莖、根",
                 "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "異極互相吸引",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u1"
+        },
+        {
+          "sceneId": "u1l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「2、植物的葉、莖、根」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「2、植物的葉、莖、根」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「2、植物的葉、莖、根」",
+              "第 2 步：對照本課核心「認識」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「2、植物的葉、莖、根」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u1"
+        },
+        {
+          "sceneId": "u1l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「2、植物的葉、莖、根」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「2、植物的葉、莖、根」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「2、植物的葉、莖、根」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「2、植物的葉、莖、根」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-science-u1-l3",
+      "stageId": "115-s1-g3-science-u1-l3",
+      "title": "3、植物的花、果實、種子",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "植物的花、果實、種子：核心概念",
+          "narrationText": "在「一、植物大發現」的「3、植物的花、果實、種子」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「3、植物的花、果實、種子」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將",
+            "能用自己的話歸納「3、植物的花、果實、種子」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「3、植物的花、果實、種子」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "3、植物的花、果實、種子",
+              "leftPoints": [
+                "認識「3、植物的花、果實、種子」的核心概念與現象",
+                "透過觀察與討論，將"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "3、植物的花、果實、",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u1"
+        },
+        {
+          "sceneId": "u1l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「3、植物的花、果實、種子」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「3、植物的花、果實、種子」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「3、植物的花、果實、種子」",
+              "第 2 步：對照本課核心「認識」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「3、植物的花、果實、種子」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u1"
+        },
+        {
+          "sceneId": "u1l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「3、植物的花、果實、種子」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「3、植物的花、果實、種子」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「3、植物的花、果實、種子」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「3、植物的花、果實、種子」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-science-u2-l1",
+      "stageId": "115-s1-g3-science-u2-l1",
+      "title": "1、磁鐵的磁力",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "磁鐵的磁力：核心概念",
+          "narrationText": "在「二、磁鐵好好玩」的「1、磁鐵的磁力」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「1、磁鐵的磁力」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「1、磁鐵的磁力」的知識應用在日常生活中。",
+            "能用自己的話歸納「1、磁鐵的磁力」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「1、磁鐵的磁力」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "1、磁鐵的磁力",
+              "leftPoints": [
+                "認識「1、磁鐵的磁力」的核心概念與現象",
+                "透過觀察與討論，將"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "1、磁鐵的磁力",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -161,58 +334,45 @@
           "factGroundingSourceId": "115-s1/g3/science#u2"
         },
         {
-          "sceneId": "u2-s2",
+          "sceneId": "u2l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "用已知磁鐵判斷未知磁極",
-          "narrationText": "撿到一塊沒有標記 N 極和 S 極的磁鐵時，只要拿有標記的磁鐵靠近測試，看它們是互相吸引還是推開就能知道答案。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "被 N 極推開的那一端一定是 N 極",
-            "隔物距離越厚，磁力越弱"
+            "認識「1、磁鐵的磁力」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "用已知磁鐵的「N 極」靠近不明磁鐵的左端，結果將它推開了，不明磁鐵的左端是什麼極？",
+            "problemStatement": "複習「1、磁鐵的磁力」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：觀察現象是「推開（排斥）」",
-              "第 2 步：根據「同極相斥」的規則，會和 N 極互相推開的一定也是 N 極",
-              "第 3 步：確定不明磁鐵的左端是 N 極"
+              "第 1 步：確認題目在問「1、磁鐵的磁力」",
+              "第 2 步：對照本課核心「認識「1、磁鐵的磁力」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：以為長條形磁鐵每個地方磁力都一樣強，或把塑膠尺誤認成會被磁鐵吸引。",
-            "selfExplanationPrompt": "想一想：把一疊厚書墊在磁鐵和迴紋針中間，為什麼吸起來的迴紋針變少了？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「1、磁鐵的磁力」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s1/g3/science#u2"
         },
         {
-          "sceneId": "u2-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "生活中的磁鐵妙用",
-          "topicSignalTitle": "生活裡哪些地方藏著磁鐵？",
-          "narrationText": "冰箱門邊緣的密封磁條、黑板上的磁性吸鐵、磁扣鉛筆盒，都是利用磁鐵吸力讓生活更方便的好設計！",
-          "cognitiveChunks": [
-            "冰箱門磁條、黑板吸鐵",
-            "橡皮筋靠彈力、膠帶靠黏性"
-          ],
-          "factGroundingSourceId": "115-s1/g3/science#u2"
-        },
-        {
-          "sceneId": "u2-s4",
+          "sceneId": "u2l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "先測試一下磁鐵能吸住哪一種物品吧！",
+          "narrationText": "先做一題暖身確認，確認掌握「1、磁鐵的磁力」後再開始挑戰！",
           "cognitiveChunks": [
-            "磁鐵吸引鐵製品"
+            "認識「1、磁鐵的磁力」的核心概念與現象，並理解其背後原因。"
           ],
           "warmupCheck": {
-            "prompt": "磁鐵靠近下面四樣文具時，能直接把哪一樣吸起來？",
+            "prompt": "關於「1、磁鐵的磁力」，哪一項才是正確的學習重點？",
             "options": [
-              "塑膠尺",
-              "橡皮擦",
-              "鐵製迴紋針",
-              "木頭鉛筆"
+              "認識「1、磁鐵的磁力」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
-            "answerIndex": 2,
-            "feedbackCorrect": "答對了！迴紋針是鐵製品，會被磁鐵的磁力吸引。",
-            "feedbackRetry": "塑膠、橡皮和木頭都不含鐵，不會被磁鐵吸住喔！"
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s1/g3/science#u2"
         }
@@ -220,41 +380,232 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g3-science-u3",
-      "stageId": "115-s1-g3-science-u3",
-      "title": "三、風與空氣",
+      "lessonId": "lesson-115-s1-g3-science-u2-l2",
+      "stageId": "115-s1-g3-science-u2-l2",
+      "title": "2、磁鐵的祕密",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u3-s1",
+          "sceneId": "u2l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "認識風力、風向與空氣的性質",
-          "narrationText": "空氣雖然看不見，卻占有空間、可以被壓縮而且有彈性；當空氣流動起來時，就形成了我們感受到的「風」。",
+          "title": "磁鐵的祕密：核心概念",
+          "narrationText": "在「二、磁鐵好好玩」的「2、磁鐵的祕密」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "風是流動的空氣",
-            "風向＝風「吹來」的方向",
-            "空氣占有空間、可被壓縮且有彈性"
+            "認識「2、磁鐵的祕密」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「2、磁鐵的祕密」的知識應用在日常生活中。",
+            "能用自己的話歸納「2、磁鐵的祕密」的重要發現與做法。"
           ],
-          "analogyAnchor": "把氣球吹飽、把注射筒出口堵住推活塞，都能親手感覺到看不見的空氣正占據空間並把你推回來。",
+          "analogyAnchor": "把「2、磁鐵的祕密」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_compare",
             "params": {
-              "steps": [
-                "空氣原本存在周圍",
-                "空氣開始流動",
-                "形成我們感受到的風"
+              "leftTitle": "2、磁鐵的祕密",
+              "leftPoints": [
+                "認識「2、磁鐵的祕密」的核心概念與現象",
+                "透過觀察與討論，將"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "空氣占有空間",
+                "text": "2、磁鐵的祕密",
                 "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "風向看吹來處",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u2"
+        },
+        {
+          "sceneId": "u2l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「2、磁鐵的祕密」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「2、磁鐵的祕密」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「2、磁鐵的祕密」",
+              "第 2 步：對照本課核心「認識「2、磁鐵的祕密」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「2、磁鐵的祕密」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u2"
+        },
+        {
+          "sceneId": "u2l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「2、磁鐵的祕密」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「2、磁鐵的祕密」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「2、磁鐵的祕密」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「2、磁鐵的祕密」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-science-u2-l3",
+      "stageId": "115-s1-g3-science-u2-l3",
+      "title": "3、磁鐵在生活中的應用",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "磁鐵在生活中的應用：核心概念",
+          "narrationText": "在「二、磁鐵好好玩」的「3、磁鐵在生活中的應用」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「3、磁鐵在生活中的應用」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「3、磁鐵在生活中的應用」的知識應用在日常生活中。",
+            "能用自己的話歸納「3、磁鐵在生活中的應用」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「3、磁鐵在生活中的應用」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "3、磁鐵在生活中的應用",
+              "leftPoints": [
+                "認識「3、磁鐵在生活中的應用」的核心概念與現象",
+                "透過觀察與討論，將"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "3、磁鐵在生活中的應",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u2"
+        },
+        {
+          "sceneId": "u2l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「3、磁鐵在生活中的應用」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「3、磁鐵在生活中的應用」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「3、磁鐵在生活中的應用」",
+              "第 2 步：對照本課核心「認識」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「3、磁鐵在生活中的應用」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u2"
+        },
+        {
+          "sceneId": "u2l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「3、磁鐵在生活中的應用」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「3、磁鐵在生活中的應用」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「3、磁鐵在生活中的應用」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「3、磁鐵在生活中的應用」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-science-u3-l1",
+      "stageId": "115-s1-g3-science-u3-l1",
+      "title": "1、風力與風向",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "風力與風向：核心概念",
+          "narrationText": "在「三、風與空氣」的「1、風力與風向」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「1、風力與風向」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「1、風力與風向」的知識應用在日常生活中。",
+            "能用自己的話歸納「1、風力與風向」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「1、風力與風向」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "1、風力與風向",
+              "leftPoints": [
+                "認識「1、風力與風向」的核心概念與現象",
+                "透過觀察與討論，將"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "1、風力與風向",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -262,58 +613,45 @@
           "factGroundingSourceId": "115-s1/g3/science#u3"
         },
         {
-          "sceneId": "u3-s2",
+          "sceneId": "u3l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "空杯塞紙壓入水中的科學原理",
-          "narrationText": "把塞著乾紙巾的杯子垂直壓入水底再拉起來，紙巾不會濕，是因為杯子裡原本裝滿了空氣，把水擋在外面。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "杯內空氣沒逃走，占據了空間",
-            "觀測自然風要選空曠無遮蔽處"
+            "認識「1、風力與風向」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "在操場看到國旗被吹向南方，風從北方吹來，應該記錄成什麼風向？",
+            "problemStatement": "複習「1、風力與風向」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：確認風向的定義是「風吹來的方向」",
-              "第 2 步：風是從北方吹向南方，來源方向是北方",
-              "第 3 步：因此要記錄為「北風」"
+              "第 1 步：確認題目在問「1、風力與風向」",
+              "第 2 步：對照本課核心「認識「1、風力與風向」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：看到國旗往南方飄，就誤把風向記錄成「南風」。",
-            "selfExplanationPrompt": "想一想：用自製風力風向計觀測校園的風時，為什麼不能躲在走廊電風扇前面量？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「1、風力與風向」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s1/g3/science#u3"
         },
         {
-          "sceneId": "u3-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "風與空氣在生活中的應用",
-          "topicSignalTitle": "生活中有哪些風與空氣的好幫手？",
-          "narrationText": "腳踏車輪胎與游泳圈靠空氣支撐彈性、風力發電機與風箏靠流動的風力運作、吹風機利用流動熱空氣吹乾頭髮。",
-          "cognitiveChunks": [
-            "輪胎、籃球、游泳圈充氣支撐",
-            "風力發電、放風箏、吹風機"
-          ],
-          "factGroundingSourceId": "115-s1/g3/science#u3"
-        },
-        {
-          "sceneId": "u3-s4",
+          "sceneId": "u3l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "先確認一下風向的判斷方式，再進場挑戰關卡！",
+          "narrationText": "先做一題暖身確認，確認掌握「1、風力與風向」後再開始挑戰！",
           "cognitiveChunks": [
-            "風向是指風吹來的方向"
+            "認識「1、風力與風向」的核心概念與現象，並理解其背後原因。"
           ],
           "warmupCheck": {
-            "prompt": "當風從「東方」吹向西方時，氣象紀錄上要寫成吹什麼風？",
+            "prompt": "關於「1、風力與風向」，哪一項才是正確的學習重點？",
             "options": [
-              "西風",
-              "東風",
-              "南風",
-              "北風"
+              "認識「1、風力與風向」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
-            "answerIndex": 1,
-            "feedbackCorrect": "答對了！風向看「吹來的方向」，從東方吹來就是東風。",
-            "feedbackRetry": "風向看的是風「從哪裡吹來」，而不是吹到哪裡去喔！"
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s1/g3/science#u3"
         }
@@ -321,46 +659,232 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g3-science-u4",
-      "stageId": "115-s1-g3-science-u4",
-      "title": "四、奇妙的溶解",
+      "lessonId": "lesson-115-s1-g3-science-u3-l2",
+      "stageId": "115-s1-g3-science-u3-l2",
+      "title": "2、奇妙的空氣",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u4-s1",
+          "sceneId": "u3l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "認識溶解現象與影響溶解的因素",
-          "narrationText": "食鹽、二砂和特砂加入水中攪拌後，會變成看不見顆粒、均勻分布且澄清透明的水溶液，這就是溶解；細沙則不能溶於水。",
+          "title": "奇妙的空氣：核心概念",
+          "narrationText": "在「三、風與空氣」的「2、奇妙的空氣」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "溶解後均勻分布、清澈透明不沉澱",
-            "食鹽與砂糖可溶；細沙不可溶",
-            "水中的溶解量有限度，溫度會影響溶解量"
+            "認識「2、奇妙的空氣」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「2、奇妙的空氣」的知識應用在日常生活中。",
+            "能用自己的話歸納「2、奇妙的空氣」的重要發現與做法。"
           ],
-          "analogyAnchor": "就像泡糖水時，把糖壓碎、用溫熱水加上攪拌，糖塊就會很快消失在整杯清澈的水裡。",
+          "analogyAnchor": "把「2、奇妙的空氣」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "可溶於水",
+              "leftTitle": "2、奇妙的空氣",
               "leftPoints": [
-                "食鹽、二砂、特砂",
-                "均勻澄清不沉澱"
+                "認識「2、奇妙的空氣」的核心概念與現象",
+                "透過觀察與討論，將"
               ],
-              "rightTitle": "不可溶於水",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "細沙",
-                "靜置後會沉在杯底"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "均勻澄清不沉澱",
+                "text": "2、奇妙的空氣",
                 "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "細沙會沉在杯底",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u3"
+        },
+        {
+          "sceneId": "u3l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「2、奇妙的空氣」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「2、奇妙的空氣」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「2、奇妙的空氣」",
+              "第 2 步：對照本課核心「認識「2、奇妙的空氣」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「2、奇妙的空氣」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u3"
+        },
+        {
+          "sceneId": "u3l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「2、奇妙的空氣」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「2、奇妙的空氣」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「2、奇妙的空氣」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「2、奇妙的空氣」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-science-u3-l3",
+      "stageId": "115-s1-g3-science-u3-l3",
+      "title": "3、空氣、風與生活",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "空氣、風與生活：核心概念",
+          "narrationText": "在「三、風與空氣」的「3、空氣、風與生活」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「3、空氣、風與生活」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「3、空氣、風與生活」的知識應用在日常生活中。",
+            "能用自己的話歸納「3、空氣、風與生活」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「3、空氣、風與生活」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "3、空氣、風與生活",
+              "leftPoints": [
+                "認識「3、空氣、風與生活」的核心概念與現象",
+                "透過觀察與討論，將"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "3、空氣、風與生活",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u3"
+        },
+        {
+          "sceneId": "u3l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「3、空氣、風與生活」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「3、空氣、風與生活」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「3、空氣、風與生活」",
+              "第 2 步：對照本課核心「認識「3、空氣、風與生活」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「3、空氣、風與生活」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u3"
+        },
+        {
+          "sceneId": "u3l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「3、空氣、風與生活」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「3、空氣、風與生活」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「3、空氣、風與生活」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「3、空氣、風與生活」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-science-u4-l1",
+      "stageId": "115-s1-g3-science-u4-l1",
+      "title": "1、分辨物質的方法",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "分辨物質的方法：核心概念",
+          "narrationText": "在「四、奇妙的溶解」的「1、分辨物質的方法」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「1、分辨物質的方法」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「1、分辨物質的方法」的知識應用在日常生活中。",
+            "能用自己的話歸納「1、分辨物質的方法」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「1、分辨物質的方法」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "1、分辨物質的方法",
+              "leftPoints": [
+                "認識「1、分辨物質的方法」的核心概念與現象",
+                "透過觀察與討論，將"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "1、分辨物質的方法",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -368,58 +892,231 @@
           "factGroundingSourceId": "115-s1/g3/science#u4"
         },
         {
-          "sceneId": "u4-s2",
+          "sceneId": "u4l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "為什麼加太多鹽最後會沉在杯底？",
-          "narrationText": "在一杯水裡不斷加鹽，最後杯底會出現不再溶解的鹽粒，因為水能溶解的量是有上限的；提高水溫通常可以溶解更多。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "固定水量與溫度下，溶解量有上限",
-            "熱水通常比冷水能溶解更多糖或鹽"
+            "認識「1、分辨物質的方法」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "想讓一顆方糖在水裡溶解得又快又多，該怎麼做比較好？",
+            "problemStatement": "複習「1、分辨物質的方法」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：把方糖壓碎，讓接觸水的表面積變大",
-              "第 2 步：使用溫熱的水（操作熱水時小心防燙傷）",
-              "第 3 步：用攪拌棒充分攪拌均勻"
+              "第 1 步：確認題目在問「1、分辨物質的方法」",
+              "第 2 步：對照本課核心「認識「1、分辨物質的方法」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：實驗室看到透明液體或白色粉末，直接用手沾來吃或用嘴品嚐。",
-            "selfExplanationPrompt": "想一想：煮湯加鹽調味和用過濾網撈起菜葉，哪一個才是「溶解」的應用？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「1、分辨物質的方法」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s1/g3/science#u4"
         },
         {
-          "sceneId": "u4-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "自然實驗室安全守則第一條",
-          "topicSignalTitle": "觀察未知粉末或液體時，什麼動作絕對禁止？",
-          "narrationText": "絕對不可以直接用嘴巴品嚐未知物質！聞氣味也要保持距離用手輕輕搧聞，使用熱水更要注意防止燙傷。",
+          "sceneId": "u4l1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「1、分辨物質的方法」後再開始挑戰！",
           "cognitiveChunks": [
-            "禁止用嘴巴品嚐未知實驗材料",
-            "操作熱水實驗要注意安全防燙"
+            "認識「1、分辨物質的方法」的核心概念與現象，並理解其背後原因。"
           ],
+          "warmupCheck": {
+            "prompt": "關於「1、分辨物質的方法」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「1、分辨物質的方法」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-science-u4-l2",
+      "stageId": "115-s1-g3-science-u4-l2",
+      "title": "2、物質在水中溶解了",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "物質在水中溶解了：核心概念",
+          "narrationText": "在「四、奇妙的溶解」的「2、物質在水中溶解了」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「2、物質在水中溶解了」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「2、物質在水中溶解了」的知識應用在日常生活中。",
+            "能用自己的話歸納「2、物質在水中溶解了」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「2、物質在水中溶解了」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "2、物質在水中溶解了",
+              "leftPoints": [
+                "認識「2、物質在水中溶解了」的核心概念與現象",
+                "透過觀察與討論，將"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "2、物質在水中溶解了",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
           "factGroundingSourceId": "115-s1/g3/science#u4"
         },
         {
-          "sceneId": "u4-s4",
+          "sceneId": "u4l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「2、物質在水中溶解了」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「2、物質在水中溶解了」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「2、物質在水中溶解了」",
+              "第 2 步：對照本課核心「認識」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「2、物質在水中溶解了」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u4"
+        },
+        {
+          "sceneId": "u4l2-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "用這題確認可溶與不可溶於水的物質吧！",
+          "narrationText": "先做一題暖身確認，確認掌握「2、物質在水中溶解了」後再開始挑戰！",
           "cognitiveChunks": [
-            "食鹽、二砂、特砂可溶；細沙不可溶"
+            "認識「2、物質在水中溶解了」的核心概念與現象，並理解其背後原因。"
           ],
           "warmupCheck": {
-            "prompt": "把下列四種材料分別放進清水中充分攪拌後靜置，哪一種會沉在杯底「不能溶解」？",
+            "prompt": "關於「2、物質在水中溶解了」，哪一項才是正確的學習重點？",
             "options": [
-              "食鹽",
-              "二砂",
-              "細沙",
-              "特砂"
+              "認識「2、物質在水中溶解了」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
-            "answerIndex": 2,
-            "feedbackCorrect": "答對了！細沙不能溶於水，靜置後會沉澱在杯底。",
-            "feedbackRetry": "食鹽、二砂和特砂都會在水中化開變成透明水溶液喔，哪一種是岩石碎屑呢？"
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g3-science-u4-l3",
+      "stageId": "115-s1-g3-science-u4-l3",
+      "title": "3、溶解的應用",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "溶解的應用：核心概念",
+          "narrationText": "在「四、奇妙的溶解」的「3、溶解的應用」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「3、溶解的應用」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「3、溶解的應用」的知識應用在日常生活中。",
+            "能用自己的話歸納「3、溶解的應用」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「3、溶解的應用」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "3、溶解的應用",
+              "leftPoints": [
+                "認識「3、溶解的應用」的核心概念與現象",
+                "透過觀察與討論，將"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "3、溶解的應用",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u4"
+        },
+        {
+          "sceneId": "u4l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「3、溶解的應用」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「3、溶解的應用」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「3、溶解的應用」",
+              "第 2 步：對照本課核心「認識「3、溶解的應用」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「3、溶解的應用」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u4"
+        },
+        {
+          "sceneId": "u4l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「3、溶解的應用」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「3、溶解的應用」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「3、溶解的應用」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「3、溶解的應用」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s1/g3/science#u4"
         }

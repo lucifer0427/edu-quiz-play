@@ -43,6 +43,22 @@
         "publisher": "何嘉仁（選書表）／學校自編彈性課程計畫",
         "book_series": "Fun World 3（選書表）／唱跳趣閱家二下（課程計畫）"
       }
+    },
+    {
+      "id": "src-3",
+      "source_tier": "tier1",
+      "source_title": "何嘉仁國小英語《Fun World》低年級教材課程大綱（Book 4）",
+      "source_url": "https://www.calameo.com/books/00037268118adf899ff0c",
+      "local_file": null,
+      "retrieved_at": "2026-11-26T05:18:28-08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 2,
+        "grade": 2,
+        "subject": "英語",
+        "publisher": "何嘉仁",
+        "book_series": "Fun World 4"
+      }
     }
   ],
   "units": [
@@ -144,14 +160,166 @@
           "confidence": "primary"
         }
       ]
+    },
+    {
+      "unit_no": 5,
+      "title": "Fun World 4 · Unit 1 Let's Read",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "Unit 1 Let's Read（Nn–Pp 字母與代表單字）",
+          "learning_points": [
+            "字母及代表字彙：Nn nose, Oo octopus, Pp pencil。",
+            "生活用語：\"Nice to meet you.\", \"Nice to meet you, too.\"。",
+            "國家／跨領域活動：New Zealand；聰明小讀者（閱讀並理解書本封面的資訊）。"
+          ],
+          "vocabulary": [
+            "nose",
+            "octopus",
+            "pencil",
+            "Nice to meet you.",
+            "Nice to meet you, too."
+          ],
+          "source_ref": "src-3",
+          "verbatim_excerpt": "[何嘉仁 Fun World Book 4 課程大綱] Unit 1 Let's Read | 字母及代表字彙：Nn nose, Oo octopus, Pp pencil | 生活用語：Nice to meet you. / Nice to meet you, too. | 國家：New Zealand | 學科活動：聰明小讀者。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "Fun World 4 · Unit 2 Visit the Museum",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "Unit 2 Visit the Museum（Qq–Ss 字母與代表單字）",
+          "learning_points": [
+            "字母及代表字彙：Qq queen, Rr rabbit, Ss snake。",
+            "生活用語：\"Have a nice day.\", \"You, too.\"。",
+            "國家／跨領域活動：the UK；地圖的秘密（閱讀並理解標誌圖示）。"
+          ],
+          "vocabulary": [
+            "queen",
+            "rabbit",
+            "snake",
+            "Have a nice day.",
+            "You, too."
+          ],
+          "source_ref": "src-3",
+          "verbatim_excerpt": "[何嘉仁 Fun World Book 4 課程大綱] Unit 2 Visit the Museum | 字母及代表字彙：Qq queen, Rr rabbit, Ss snake | 生活用語：Have a nice day. / You, too. | 國家：the UK | 學科活動：地圖的秘密。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 7,
+      "title": "Fun World 4 · Review 1（母親節）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "Review 1（Nn–Ss 複習與母親節）",
+          "learning_points": [
+            "複習字母 Nn–Ss 與代表字彙（nose, octopus, pencil, queen, rabbit, snake）。",
+            "節慶與跨領域活動：母親節；情境理解1（生活用語之溝通運用）。"
+          ],
+          "vocabulary": [
+            "nose",
+            "octopus",
+            "pencil",
+            "queen",
+            "rabbit",
+            "snake"
+          ],
+          "source_ref": "src-3",
+          "verbatim_excerpt": "[何嘉仁 Fun World Book 4 課程大綱] Review 1 | 節慶：母親節 | 學科活動：情境理解1（生活用語之溝通運用）。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 8,
+      "title": "Fun World 4 · Unit 3 Fun Time",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "Unit 3 Fun Time（Tt–Vv 字母與代表單字）",
+          "learning_points": [
+            "字母及代表字彙：Tt turtle, Uu up, Vv van。",
+            "生活用語：\"Let's play.\", \"Hurry up.\"。",
+            "國家／跨領域活動：the USA；購物小幫手（閱讀商品說明及相關資訊）。"
+          ],
+          "vocabulary": [
+            "turtle",
+            "up",
+            "van",
+            "Let's play.",
+            "Hurry up."
+          ],
+          "source_ref": "src-3",
+          "verbatim_excerpt": "[何嘉仁 Fun World Book 4 課程大綱] Unit 3 Fun Time | 字母及代表字彙：Tt turtle, Uu up, Vv van | 生活用語：Let's play. / Hurry up. | 國家：the USA | 學科活動：購物小幫手。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 9,
+      "title": "Fun World 4 · Unit 4 Be Thankful",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "Unit 4 Be Thankful（Ww–Zz 字母與代表單字）",
+          "learning_points": [
+            "字母及代表字彙：Ww window, Xx fox, Yy yellow, Zz zebra。",
+            "生活用語：\"Here you are.\", \"Thank you very much.\"。",
+            "國家／跨領域活動：Taiwan；寫信練習（閱讀收件與寄件資訊）。"
+          ],
+          "vocabulary": [
+            "window",
+            "fox",
+            "yellow",
+            "zebra",
+            "Here you are.",
+            "Thank you very much."
+          ],
+          "source_ref": "src-3",
+          "verbatim_excerpt": "[何嘉仁 Fun World Book 4 課程大綱] Unit 4 Be Thankful | 字母及代表字彙：Ww window, Xx fox, Yy yellow, Zz zebra | 生活用語：Here you are. / Thank you very much. | 國家：Taiwan | 學科活動：寫信練習。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 10,
+      "title": "Fun World 4 · Review 2 & Final Review（夏日活動）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "Review 2 & Final Review（Nn–Zz 總複習與夏日活動）",
+          "learning_points": [
+            "總複習大小寫字母 Nn–Zz 辨識與書寫格線位置。",
+            "主題與跨領域活動：夏日活動；情境理解2（理解圖意及發生順序）、字母菜園（觀察字母的書寫位置）。"
+          ],
+          "vocabulary": [
+            "turtle",
+            "up",
+            "van",
+            "window",
+            "fox",
+            "yellow",
+            "zebra"
+          ],
+          "source_ref": "src-3",
+          "verbatim_excerpt": "[何嘉仁 Fun World Book 4 課程大綱] Review 2 夏日活動（情境理解2） & Final Review 世界地圖（字母菜園：觀察字母的書寫位置）。",
+          "confidence": "primary"
+        }
+      ]
     }
   ],
   "gaps": [
     {
-      "field": "target.book_series / units[*]",
-      "reason": "ambiguous_edition",
-      "detail": "《115學年教科書版本.pdf》（src-2）於二年級英語欄列出「何嘉仁 3 Fun World（含 Qrcode 線上聽）」，但學校《115學年度課程計畫.pdf》（src-1）將低年級英語納入彈性學習課程【唱跳趣閱家】（PDF p.675-681，含 Nn-Zz 字母目標與4個繪本單元），並未載明何嘉仁英語課本下學期（Fun World 3 或 4）的實際課本單元目錄與單字表。",
-      "recommended_action": "已完整記錄校訂【唱跳趣閱家】二下4單元與課堂用語；若需依何嘉仁英語課本單元與單字出題，請提供下學期課本目次頁與 Word List 照片。"
+      "field": "units[4..9].story_details",
+      "reason": "source_not_found",
+      "detail": "已依何嘉仁《Fun World 4》官方課程大綱（src-3）補齊 Unit 1–4、Review 1–2 與 Final Review 單元名稱、Nn–Zz 代表單字與生活用語；唯課本內 Story Time 完整對話逐字稿尚未取得。",
+      "recommended_action": "若需依據課本 Story Time 對話細節出題，可提供課本內頁照片補充。"
     }
   ]
 }

@@ -2218,3 +2218,371 @@ export function generateG4S2U9TimeCalc(count = 6): Question[] {
   }
   return questions;
 }
+
+// ============================================================
+// 四上 第3章：角度
+// ============================================================
+export function generateG4S1U3Angles(count = 6): Question[] {
+  const seed = Date.now() + Math.floor(Math.random() * 100000);
+  const questions: Question[] = [];
+  for (let i = 0; i < count; i++) {
+    const type = i % 3;
+    if (type === 0) {
+      const a = randomInt(25, 75);
+      const b = 180 - a;
+      const built = buildNumericOptions(b, [90 - a > 0 ? 90 - a : a + 10, 360 - a, b + 10], ' 度');
+      questions.push(
+        makeQuestion(
+          'g4s1-u3',
+          seed,
+          i,
+          `兩個角合起來剛好形成一個「平角（180 度）」。已知其中一個角是 ${a} 度，另一個角是多少度？`,
+          built,
+          `平角是 180 度，所以另一個角 = 180 - ${a} = ${b} 度。`,
+          '1 個平角等於 180 度，用 180 減掉已知的角度！',
+        ),
+      );
+    } else if (type === 1) {
+      const hour = randomInt(2, 5);
+      const deg = hour * 30;
+      const built = buildNumericOptions(deg, [deg + 30, deg - 30, hour * 15], ' 度');
+      questions.push(
+        makeQuestion(
+          'g4s1-u3',
+          seed,
+          i,
+          `時鐘的鐘面分成 12 大格，1 大格是 30 度。請問「${hour} 點整」時，時針和分針夾成的較小角是多少度？`,
+          built,
+          `${hour} 點整時，時針和分針之間相差 ${hour} 大格，30 × ${hour} = ${deg} 度。`,
+          `數一數 ${hour} 點整時，12 到 ${hour} 之間有幾大格，再乘以 30 度！`,
+        ),
+      );
+    } else {
+      const deg = pickRandom([35, 65, 90, 125, 145]);
+      const ans = deg < 90 ? '銳角' : deg === 90 ? '直角' : '鈍角';
+      const built = buildStringOptions(ans, ['銳角', '直角', '鈍角', '平角'].filter((x) => x !== ans));
+      questions.push(
+        makeQuestion(
+          'g4s1-u3',
+          seed,
+          i,
+          `用量角器量出一個角是 ${deg} 度，這個角屬於哪一種角？`,
+          built,
+          `小於 90 度是銳角、等於 90 度是直角、大於 90 度且小於 180 度是鈍角。${deg} 度是${ans}。`,
+          '和 90 度的直角比比看，比較小、一樣大還是比較大？',
+        ),
+      );
+    }
+  }
+  return questions;
+}
+
+// ============================================================
+// 四上 第7章：三角形與全等
+// ============================================================
+export function generateG4S1U7Triangles(count = 6): Question[] {
+  const seed = Date.now() + Math.floor(Math.random() * 100000);
+  const questions: Question[] = [];
+  for (let i = 0; i < count; i++) {
+    const type = i % 3;
+    if (type === 0) {
+      const a = randomInt(30, 75);
+      const b = randomInt(30, 75);
+      const c = 180 - a - b;
+      const built = buildNumericOptions(c, [c + 10, Math.max(10, c - 10), 180 - a], ' 度');
+      questions.push(
+        makeQuestion(
+          'g4s1-u7',
+          seed,
+          i,
+          `一個三角形的三個內角和是 180 度。已知其中兩個角分別是 ${a} 度和 ${b} 度，第三個角是多少度？`,
+          built,
+          `三角形內角和是 180 度：180 - ${a} - ${b} = ${c} 度。`,
+          '用 180 度減去已知的兩個角度！',
+        ),
+      );
+    } else if (type === 1) {
+      const top = pickRandom([40, 50, 70, 80, 100]);
+      const base = (180 - top) / 2;
+      const built = buildNumericOptions(base, [top, 180 - top, base + 10], ' 度');
+      questions.push(
+        makeQuestion(
+          'g4s1-u7',
+          seed,
+          i,
+          `一個等腰三角形的頂角是 ${top} 度，請問它的其中一個「底角」是多少度？`,
+          built,
+          `等腰三角形的兩個底角相等：(180 - ${top}) ÷ 2 = ${base} 度。`,
+          '先用 180 減去頂角，再除以 2 就是一個底角！',
+        ),
+      );
+    } else {
+      const built = buildStringOptions('正三角形的 3 條邊一樣長，3 個角都是 60 度', [
+        '鈍角三角形裡面可以有 2 個鈍角',
+        '直角三角形裡面會有 2 個直角',
+        '全等三角形的形狀相同，但大小可以不一樣',
+      ]);
+      questions.push(
+        makeQuestion(
+          'g4s1-u7',
+          seed,
+          i,
+          '關於三角形與全等圖形，下列哪一句敘述是「正確」的？',
+          built,
+          '正三角形三邊等長、三個角都是 60 度；一個三角形最多只能有 1 個直角或 1 個鈍角；全等圖形必須大小和形狀都完全相同。',
+          '三角形內角和只有 180 度，不可能有兩個 90 度或兩個鈍角喔！',
+        ),
+      );
+    }
+  }
+  return questions;
+}
+
+// ============================================================
+// 四上 第10章：統計圖表
+// ============================================================
+export function generateG4S1U10Charts(count = 6): Question[] {
+  const seed = Date.now() + Math.floor(Math.random() * 100000);
+  const questions: Question[] = [];
+  for (let i = 0; i < count; i++) {
+    const type = i % 3;
+    if (type === 0) {
+      const unit = pickRandom([2, 4, 5, 10]);
+      const grids = randomInt(3, 8);
+      const ans = unit * grids;
+      const built = buildNumericOptions(ans, [unit + grids, ans + unit, Math.max(1, ans - unit)], ' 人');
+      questions.push(
+        makeQuestion(
+          'g4s1-u10',
+          seed,
+          i,
+          `在一張長條圖上，縱軸每 1 大格代表 ${unit} 人。如果「籃球社」的長條高度剛好是 ${grids} 大格，代表有多少人？`,
+          built,
+          `每大格 ${unit} 人，${grids} 大格就是 ${unit} × ${grids} = ${ans} 人。`,
+          `把 1 大格代表的人數 ${unit} 乘以格數 ${grids}！`,
+        ),
+      );
+    } else if (type === 1) {
+      const a = randomInt(12, 24);
+      const b = randomInt(8, 18);
+      const c = randomInt(10, 22);
+      const total = a + b + c;
+      const built = buildNumericOptions(total, [total + 4, total - 3, a + b], ' 人');
+      questions.push(
+        makeQuestion(
+          'g4s1-u10',
+          seed,
+          i,
+          `統計圖表顯示四年級最喜歡的水果：蘋果 ${a} 人、香蕉 ${b} 人、草莓 ${c} 人（每人投 1 票）。一共調查了多少人？`,
+          built,
+          `將三種水果的人數相加：${a} + ${b} + ${c} = ${total} 人。`,
+          '把長條圖上每一項的人數加起來！',
+        ),
+      );
+    } else {
+      const built = buildStringOptions('長條圖用長條高低比較各類別數量；折線圖適合看數量隨時間的變化', [
+        '統計圖表的縱軸刻度間隔可以忽大忽小',
+        '折線圖只能用來畫一個項目，不能畫兩條線比較',
+        '長條圖的橫軸和縱軸都不需要寫單位',
+      ]);
+      questions.push(
+        makeQuestion(
+          'g4s1-u10',
+          seed,
+          i,
+          '關於「長條圖」和「折線圖」，下列哪一個說法是「正確」的？',
+          built,
+          '長條圖適合比較不同類別的數量大小，折線圖適合觀察資料隨時間上升或下降的趨勢。',
+          '想想看什麼時候用長條圖、什麼時候用折線圖！',
+        ),
+      );
+    }
+  }
+  return questions;
+}
+
+// ============================================================
+// 四下 第3章：垂直、平行與四邊形
+// ============================================================
+export function generateG4S2U3Quadrilaterals(count = 6): Question[] {
+  const seed = Date.now() + Math.floor(Math.random() * 100000);
+  const questions: Question[] = [];
+  for (let i = 0; i < count; i++) {
+    const type = i % 3;
+    if (type === 0) {
+      const item = pickRandom([
+        { q: '兩條直線相交成直角（90 度）', a: '互相垂直', w: ['互相平行', '互不相關', '重疊成同一條線'] },
+        { q: '同一平面上兩條直線同時垂直於同一條直線，且永遠不會相交', a: '互相平行', w: ['互相垂直', '相交成銳角', '形成三角形'] },
+      ]);
+      const built = buildStringOptions(item.a, item.w);
+      questions.push(
+        makeQuestion(
+          'g4s2-u3',
+          seed,
+          i,
+          `當「${item.q}」時，這兩條直線的位置關係稱為什麼？`,
+          built,
+          `${item.q}就是「${item.a}」。`,
+          '想想看十字路口是垂直，鐵軌兩條線則是平行！',
+        ),
+      );
+    } else if (type === 1) {
+      const quad = pickRandom([
+        { name: '梯形', desc: '只有一雙對邊互相平行', wrong: ['兩雙對邊都互相平行', '四條邊都一樣長', '四個角都是直角'] },
+        { name: '平行四邊形', desc: '兩雙對邊分別互相平行且等長', wrong: ['只有一雙對邊平行', '四個角一定都是直角', '沒有任何邊互相平行'] },
+        { name: '菱形', desc: '四條邊都一樣長，且兩雙對邊互相平行', wrong: ['只有一雙對邊平行', '四條邊都不一樣長', '四個角一定都是直角'] },
+      ]);
+      const built = buildStringOptions(quad.desc, quad.wrong);
+      questions.push(
+        makeQuestion(
+          'g4s2-u3',
+          seed,
+          i,
+          `請問「${quad.name}」的定義與特徵是什麼？`,
+          built,
+          `${quad.name}的特徵是「${quad.desc}」。`,
+          `想一想 ${quad.name} 有幾雙對邊互相平行、邊長有沒有一樣長！`,
+        ),
+      );
+    } else {
+      const s = randomInt(5, 12);
+      const ans = s * 4;
+      const built = buildNumericOptions(ans, [s * 2, s * 3, ans + 4], ' 公分');
+      questions.push(
+        makeQuestion(
+          'g4s2-u3',
+          seed,
+          i,
+          `一個菱形的其中一條邊長是 ${s} 公分，請問這個菱形的周長是多少公分？`,
+          built,
+          `菱形的四條邊都一樣長，周長 = ${s} × 4 = ${ans} 公分。`,
+          '菱形的四條邊都一樣長，把邊長乘以 4！',
+        ),
+      );
+    }
+  }
+  return questions;
+}
+
+// ============================================================
+// 四下 第5章：形體的大小（體積）
+// ============================================================
+export function generateG4S2U5Volume(count = 6): Question[] {
+  const seed = Date.now() + Math.floor(Math.random() * 100000);
+  const questions: Question[] = [];
+  for (let i = 0; i < count; i++) {
+    const type = i % 3;
+    if (type === 0) {
+      const l = randomInt(3, 6);
+      const w = randomInt(2, 5);
+      const h = randomInt(2, 4);
+      const ans = l * w * h;
+      const built = buildNumericOptions(ans, [l * w, l + w + h, ans + l], ' 立方公分');
+      questions.push(
+        makeQuestion(
+          'g4s2-u5',
+          seed,
+          i,
+          `用 1 立方公分的白色積木堆成一個長方體，每排有 ${l} 個、一盤有 ${w} 排、共堆了 ${h} 層。這個長方體的體積是多少立方公分？`,
+          built,
+          `一層有 ${l} × ${w} = ${l * w} 個，共 ${h} 層，體積 = ${l * w} × ${h} = ${ans} 立方公分。`,
+          '先算 1 層有幾個積木，再乘以層數！',
+        ),
+      );
+    } else if (type === 1) {
+      const a = randomInt(8, 15);
+      const b = randomInt(5, 10);
+      const built = buildNumericOptions(a + b, [a, b, a * 2], ' 立方公分');
+      questions.push(
+        makeQuestion(
+          'g4s2-u5',
+          seed,
+          i,
+          `把一個體積 ${a} 立方公分的正方體積木和一個體積 ${b} 立方公分的長方體積木拼在一起，合起來的總體積是多少立方公分？`,
+          built,
+          `兩個形體不重疊拼在一起，總體積等於兩者相加：${a} + ${b} = ${a + b} 立方公分。`,
+          '總體積就是把兩個積木的體積加起來！',
+        ),
+      );
+    } else {
+      const built = buildStringOptions('1 立方公分', ['1 平方公分', '1 公分', '1 毫升平方']);
+      questions.push(
+        makeQuestion(
+          'g4s2-u5',
+          seed,
+          i,
+          '在數學上，邊長為 1 公分的正方體積木，它的體積是多少？',
+          built,
+          '邊長 1 公分的正方體，體積定義為 1 立方公分；「平方公分」是面積單位，「公分」是長度單位。',
+          '體積的單位要用「立方」喔！',
+        ),
+      );
+    }
+  }
+  return questions;
+}
+
+// ============================================================
+// 四下 第10章：規律
+// ============================================================
+export function generateG4S2U10Patterns(count = 6): Question[] {
+  const seed = Date.now() + Math.floor(Math.random() * 100000);
+  const questions: Question[] = [];
+  for (let i = 0; i < count; i++) {
+    const type = i % 3;
+    if (type === 0) {
+      const start = randomInt(2, 10);
+      const step = pickRandom([4, 5, 6, 7, 8]);
+      const s = [0, 1, 2, 3, 4, 5].map((k) => start + k * step);
+      const ans = s[4];
+      const built = buildNumericOptions(ans, [ans + step, ans - 2, s[3] + 1]);
+      questions.push(
+        makeQuestion(
+          'g4s2-u10',
+          seed,
+          i,
+          `觀察數列的規律：「${s[0]}、${s[1]}、${s[2]}、${s[3]}、□、${s[5]}」，請問空格 □ 裡應該填入什麼數？`,
+          built,
+          `相鄰兩數相差 ${step}，所以 □ = ${s[3]} + ${step} = ${ans}（驗算：${ans} + ${step} = ${s[5]}）。`,
+          `算算看 ${s[1]} - ${s[0]} 等於多少！`,
+        ),
+      );
+    } else if (type === 1) {
+      const n = randomInt(5, 10);
+      const ans = 2 * n + 2;
+      const built = buildNumericOptions(ans, [4 * n, 2 * n, ans + 2], ' 根');
+      questions.push(
+        makeQuestion(
+          'g4s2-u10',
+          seed,
+          i,
+          `用牙籤橫向排成一排三角形（相鄰共用一條邊）：排 1 個需要 3 根、2 個需要 5 根、3 個需要 7 根……排 ${n} 個三角形需要幾根牙籤？`,
+          built,
+          `第 1 個用 3 根，每多排 1 個就多 2 根：3 + (${n} - 1) × 2 = ${ans} 根。`,
+          '每多接 1 個三角形只會多出 2 根牙籤！',
+        ),
+      );
+    } else {
+      const seat = randomInt(13, 25);
+      const rem = seat % 4;
+      const pos = rem === 1 ? '靠左窗（第 1 欄）' : rem === 2 ? '左走道（第 2 欄）' : rem === 3 ? '右走道（第 3 欄）' : '靠右窗（第 4 欄）';
+      const built = buildStringOptions(
+        pos,
+        ['靠左窗（第 1 欄）', '左走道（第 2 欄）', '右走道（第 3 欄）', '靠右窗（第 4 欄）'].filter((x) => x !== pos),
+      );
+      questions.push(
+        makeQuestion(
+          'g4s2-u10',
+          seed,
+          i,
+          `火車每排有 4 個座位，依序編號為 1（靠左窗）、2（左走道）、3（右走道）、4（靠右窗），接著第 5 號在下一排靠左窗。請問 ${seat} 號座位在哪裡？`,
+          built,
+          `每排 4 個座位，${seat} ÷ 4 = ${Math.floor(seat / 4)} 餘 ${rem}（餘 0 代表第 4 欄），所以 ${seat} 號在「${pos}」。`,
+          `把座位號碼 ${seat} 除以 4，看餘數是多少！`,
+        ),
+      );
+    }
+  }
+  return questions;
+}
+

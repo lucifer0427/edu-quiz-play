@@ -157,8 +157,8 @@ function main() {
   );
   assert.equal(
     totalSynthesizedLessons,
-    650,
-    `預期合成 650 關微課程，實際為 ${totalSynthesizedLessons}`,
+    validStageIds.size,
+    `預期合成 ${validStageIds.size} 關微課程，實際為 ${totalSynthesizedLessons}`,
   );
 
   // 優先覆蓋檢查：五上數學 u1 應優先使用手寫精雕微課程；未傳 curatedPack 時應回退為自動合成

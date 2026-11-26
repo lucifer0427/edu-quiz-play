@@ -2361,3 +2361,70 @@ export function generateG5S2U9SurfaceArea(count = 6): Question[] {
   }
   return questions;
 }
+
+// ============================================================
+// 五下 第10章：線對稱圖形
+// ============================================================
+export function generateG5S2U10LineSymmetry(count = 6): Question[] {
+  const seed = Date.now() + Math.floor(Math.random() * 100000);
+  const questions: Question[] = [];
+  for (let i = 0; i < count; i++) {
+    const type = i % 3;
+    if (type === 0) {
+      const shape = pickRandom([
+        { name: '正方形', axes: 4 },
+        { name: '正三角形', axes: 3 },
+        { name: '長方形（長寬不等）', axes: 2 },
+        { name: '正五邊形', axes: 5 },
+        { name: '正六邊形', axes: 6 },
+        { name: '等腰三角形（非正三角形）', axes: 1 },
+      ]);
+      const built = buildNumericOptions(shape.axes, [0, shape.axes + 1, shape.axes === 1 ? 2 : 1], ' 條');
+      questions.push(
+        makeQuestion(
+          'g5s2-u10',
+          seed,
+          i,
+          `請問「${shape.name}」一共有幾條對稱軸？`,
+          built,
+          `${shape.name}沿著對稱軸對折兩側能完全重合，共有 ${shape.axes} 條對稱軸。`,
+          '想一想可以從幾個方向對折讓兩邊完全疊在一起！',
+        ),
+      );
+    } else if (type === 1) {
+      const built = buildStringOptions('平行四邊形（一般四邊不等或非矩形）', [
+        '正方形',
+        '長方形',
+        '等腰梯形',
+      ]);
+      questions.push(
+        makeQuestion(
+          'g5s2-u10',
+          seed,
+          i,
+          '下列哪一種四邊形「不是」線對稱圖形？',
+          built,
+          '一般的平行四邊形無論怎麼對折，兩邊都無法完全重合，所以不是線對稱圖形。',
+          '試著在腦海裡把每個圖形對折看看，哪一個怎麼折都疊不起來？',
+        ),
+      );
+    } else {
+      const dist = randomInt(3, 12);
+      const ans = dist * 2;
+      const built = buildNumericOptions(ans, [dist, ans + 2, dist + 2], ' 公分');
+      questions.push(
+        makeQuestion(
+          'g5s2-u10',
+          seed,
+          i,
+          `在線對稱圖形中，點 A 和點 B 是對稱點。如果點 A 到對稱軸的距離是 ${dist} 公分，那麼點 A 和點 B 之間的連線長是多少公分？`,
+          built,
+          `對稱點到對稱軸的距離相等，且連線垂直於對稱軸，所以總距離 = ${dist} × 2 = ${ans} 公分。`,
+          '對稱軸剛好在點 A 和點 B 的正中間！',
+        ),
+      );
+    }
+  }
+  return questions;
+}
+

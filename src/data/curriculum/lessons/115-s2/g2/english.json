@@ -370,6 +370,583 @@
           "factGroundingSourceId": "115-s2/g2/english#u4"
         }
       ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-english-u5",
+      "stageId": "115-s2-g2-english-u5",
+      "title": "Fun World 4 · Unit 1 Let's Read",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "Nn–Pp 字母與初次見面問候",
+          "narrationText": "歡迎進入二下《Fun World 4》Unit 1！認識 Nn (nose)、Oo (octopus)、Pp (pencil)，還要學會初次見面的問候！",
+          "cognitiveChunks": [
+            "Nn nose（鼻子）",
+            "Oo octopus（章魚）",
+            "Pp pencil（鉛筆）",
+            "Nice to meet you (, too)."
+          ],
+          "analogyAnchor": "就像拿到一本封面畫著章魚拿鉛筆的新書，跟新朋友說「Nice to meet you.」，對方回「Nice to meet you, too.」！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "字母與單字",
+              "leftPoints": [
+                "Nn — nose（鼻子）",
+                "Oo — octopus（章魚）",
+                "Pp — pencil（鉛筆）"
+              ],
+              "rightTitle": "生活用語與文化",
+              "rightPoints": [
+                "Nice to meet you. / Nice to meet you, too.",
+                "國家：New Zealand（紐西蘭）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "Nn–Pp 發音字彙",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "問候與文化",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/english#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分辨 n 和 p 與問候句型",
+          "narrationText": "記住 Nn, Oo, Pp 的發音與小寫字形，並學會用 too 回應問候。",
+          "cognitiveChunks": [
+            "n 鼻子 → nose",
+            "o 圓圓 → octopus",
+            "p 朝右下垂 → pencil"
+          ],
+          "workedExampleData": {
+            "problemStatement": "開學第一天遇到新同學，對方說「Nice to meet you.」，你要接哪一句？",
+            "steps": [
+              "第 1 步：理解 Nice to meet you. 是「很高興認識你」",
+              "第 2 步：在同樣的話後面加上「, too」表示「也是」",
+              "第 3 步：說出 Nice to meet you, too."
+            ],
+            "commonErrorContrast": "常見錯誤：忘記句尾的「too」，或把 too 誤寫成數字 two。",
+            "selfExplanationPrompt": "想一想：octopus 的第一個字母 Oo 是母音嗎？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/english#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先試一題 Unit 1 暖身題！",
+          "cognitiveChunks": [
+            "Nn nose, Oo octopus, Pp pencil"
+          ],
+          "warmupCheck": {
+            "prompt": "寫作業用的「鉛筆」，英文單字是哪一個？",
+            "options": [
+              "nose",
+              "octopus",
+              "pencil"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！Pp — pencil 就是鉛筆。",
+            "feedbackRetry": "再想想看，p 開頭的 p-e-n-c-i-l 才是鉛筆喔！"
+          },
+          "factGroundingSourceId": "115-s2/g2/english#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-english-u6",
+      "stageId": "115-s2-g2-english-u6",
+      "title": "Fun World 4 · Unit 2 Visit the Museum",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u6-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "Qq–Ss 字母與參觀博物館",
+          "narrationText": "《Fun World 4》Unit 2 要去英國參觀博物館！一起認識 Qq (queen)、Rr (rabbit)、Ss (snake) 和祝福語 Have a nice day.",
+          "cognitiveChunks": [
+            "Qq queen（皇后）",
+            "Rr rabbit（兔子）",
+            "Ss snake（蛇）",
+            "Have a nice day. / You, too."
+          ],
+          "analogyAnchor": "就像在博物館看地圖標誌找路一樣，看清楚 p（朝右）和 q（朝左）的方向就不會迷路！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "字母與單字",
+              "leftPoints": [
+                "Qq — queen（皇后）",
+                "Rr — rabbit（兔子）",
+                "Ss — snake（蛇）"
+              ],
+              "rightTitle": "生活用語與文化",
+              "rightPoints": [
+                "Have a nice day. / You, too.",
+                "國家：the UK（英國）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "Qq–Ss 發音字彙",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "祝福與文化",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/english#u6"
+        },
+        {
+          "sceneId": "u6-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "區分 p 與 q 的方向",
+          "narrationText": "把容易寫反的 p 和 q 用口訣記下來，寫字和認字都不會錯。",
+          "cognitiveChunks": [
+            "p 圓肚子在右 → pencil",
+            "q 圓肚子在左 → queen"
+          ],
+          "workedExampleData": {
+            "problemStatement": "「__ueen」和「__encil」該怎麼填入小寫的 p 或 q？",
+            "steps": [
+              "第 1 步：queen 念 /kw/，是 Qq → 圓肚子朝左寫 q",
+              "第 2 步：pencil 念 /p/，是 Pp → 圓肚子朝右寫 p",
+              "第 3 步：完成 queen 與 pencil"
+            ],
+            "commonErrorContrast": "常見錯誤：把 p 和 q 左右寫反，記得字母順序 p 在左邊欄位朝右看，q 在右邊回頭朝左看！",
+            "selfExplanationPrompt": "想一想：哪一個動物會發出 /s/ 的聲音？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/english#u6"
+        },
+        {
+          "sceneId": "u6-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "進場前先來一題 Unit 2 暖身題！",
+          "cognitiveChunks": [
+            "Qq queen, Rr rabbit, Ss snake"
+          ],
+          "warmupCheck": {
+            "prompt": "長耳朵、會跳躍的「兔子」，英文單字是哪一個？",
+            "options": [
+              "queen",
+              "rabbit",
+              "snake"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！Rr — rabbit 就是兔子。",
+            "feedbackRetry": "再想想看，r 開頭的 r-a-b-b-i-t 才是兔子喔！"
+          },
+          "factGroundingSourceId": "115-s2/g2/english#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-english-u7",
+      "stageId": "115-s2-g2-english-u7",
+      "title": "Fun World 4 · Review 1（母親節）",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u7-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "Nn–Ss 總複習與母親節對話",
+          "narrationText": "《Fun World 4》Review 1 帶我們複習 Nn–Ss 與 6 個代表單字，並在母親節暖心表達祝福！",
+          "cognitiveChunks": [
+            "Nn–Pp: nose, octopus, pencil",
+            "Qq–Ss: queen, rabbit, snake",
+            "母親節 Mother's Day",
+            "問候與祝福情境運用"
+          ],
+          "analogyAnchor": "就像送給媽媽一張親手畫的母親節卡片，把這兩課學到的 Nice to meet you. 與 Have a nice day. 靈活用在生活裡！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "Unit 1–2 單字",
+              "leftPoints": [
+                "nose, octopus, pencil",
+                "queen, rabbit, snake"
+              ],
+              "rightTitle": "節慶與對話",
+              "rightPoints": [
+                "母親節 Mother's Day",
+                "Nice to meet you. / Have a nice day."
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "6 個代表單字",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "節慶與溝通",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/english#u7"
+        },
+        {
+          "sceneId": "u7-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "區分「見面」與「道別」用語",
+          "narrationText": "在不同時間點遇見人，要選對打招呼或祝福的句子。",
+          "cognitiveChunks": [
+            "剛認識見面 → Nice to meet you.",
+            "要道別離開 → Have a nice day."
+          ],
+          "workedExampleData": {
+            "problemStatement": "剛認識新同學跟準備回家說再見，分別要說哪一句？",
+            "steps": [
+              "第 1 步：剛認識見面時，說「Nice to meet you.」",
+              "第 2 步：對方回「Nice to meet you, too.」",
+              "第 3 步：道別祝福時，說「Have a nice day.」，對方回「You, too.」"
+            ],
+            "commonErrorContrast": "常見錯誤：把 Nice to meet you. 用在已經要道別的時候。",
+            "selfExplanationPrompt": "想一想：N-O-P-Q-R-S 裡面唯一的母音是哪一個？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/english#u7"
+        },
+        {
+          "sceneId": "u7-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "完成這題暖身題，準備挑戰母親節花束石怪！",
+          "cognitiveChunks": [
+            "N, O, P, Q, R, S"
+          ],
+          "warmupCheck": {
+            "prompt": "「queen」是哪一個字母的代表單字？",
+            "options": [
+              "Pp",
+              "Qq",
+              "Rr"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！Qq — queen 就是皇后！",
+            "feedbackRetry": "再看清楚開頭字母，q-u-e-e-n 是 Qq 喔！"
+          },
+          "factGroundingSourceId": "115-s2/g2/english#u7"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-english-u8",
+      "stageId": "115-s2-g2-english-u8",
+      "title": "Fun World 4 · Unit 3 Fun Time",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u8-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "Tt–Vv 字母與一起玩吧",
+          "narrationText": "《Fun World 4》Unit 3 來到美國，一起認識 Tt (turtle)、Uu (up)、Vv (van)，還有下課最愛說的 Let's play.！",
+          "cognitiveChunks": [
+            "Tt turtle（烏龜）",
+            "Uu up（向上）",
+            "Vv van（箱型車）",
+            "Let's play. / Hurry up."
+          ],
+          "analogyAnchor": "就像約朋友下課去玩（Let's play.），看到朋友走得像烏龜（turtle）一樣慢，就會笑著說「Hurry up.」！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "字母與單字",
+              "leftPoints": [
+                "Tt — turtle（烏龜）",
+                "Uu — up（向上）",
+                "Vv — van（箱型車）"
+              ],
+              "rightTitle": "生活用語與文化",
+              "rightPoints": [
+                "Let's play.（我們來玩吧）",
+                "Hurry up.（快一點）",
+                "國家：the USA（美國）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "Tt–Vv 發音字彙",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "遊戲與文化",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/english#u8"
+        },
+        {
+          "sceneId": "u8-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "發好 Vv 與 Uu 的發音",
+          "narrationText": "特別注意 Vv 的咬唇震動音，和母音 Uu 的短音 /ʌ/。",
+          "cognitiveChunks": [
+            "Tt /t/ → turtle",
+            "Uu /ʌ/ → up",
+            "Vv /v/ → van（上牙輕碰下唇）"
+          ],
+          "workedExampleData": {
+            "problemStatement": "念 van 和 fan 時，嘴型一樣但有什麼差別？",
+            "steps": [
+              "第 1 步：兩個字都是上排牙齒輕碰下嘴唇",
+              "第 2 步：念 fan (/f/) 只吐氣、喉嚨不震動",
+              "第 3 步：念 van (/v/) 喉嚨要發出震動聲音！"
+            ],
+            "commonErrorContrast": "常見錯誤：把 Vv 念成 /w/（像 window 的開頭），忘了輕咬下嘴唇。",
+            "selfExplanationPrompt": "想一想：想約朋友玩遊戲要說 Let's play. 還是 Hurry up.？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/english#u8"
+        },
+        {
+          "sceneId": "u8-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "進場前來一題 Unit 3 暖身題！",
+          "cognitiveChunks": [
+            "Tt turtle, Uu up, Vv van"
+          ],
+          "warmupCheck": {
+            "prompt": "「箱型車」的英文單字是哪一個？",
+            "options": [
+              "turtle",
+              "up",
+              "van"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！Vv — van 就是箱型車。",
+            "feedbackRetry": "再想想看，v-a-n 念作 van 才是箱型車喔！"
+          },
+          "factGroundingSourceId": "115-s2/g2/english#u8"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-english-u9",
+      "stageId": "115-s2-g2-english-u9",
+      "title": "Fun World 4 · Unit 4 Be Thankful",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u9-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "Ww–Zz 字母與心存感謝",
+          "narrationText": "《Fun World 4》Unit 4 回到我們最熟悉的臺灣（Taiwan），學習最後 4 個字母 Ww, Xx, Yy, Zz 與感恩對話！",
+          "cognitiveChunks": [
+            "Ww window / Xx fox",
+            "Yy yellow / Zz zebra",
+            "Here you are.（給你）",
+            "Thank you very much.（非常謝謝你）"
+          ],
+          "analogyAnchor": "就像在臺灣寫一張感恩小卡寄給朋友，遞給他時說「Here you are.」，收到的人開心說「Thank you very much.」！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "字母與單字",
+              "leftPoints": [
+                "Ww — window（窗戶）",
+                "Xx — fox（狐狸）",
+                "Yy — yellow（黃色）",
+                "Zz — zebra（斑馬）"
+              ],
+              "rightTitle": "生活用語與文化",
+              "rightPoints": [
+                "Here you are.（給你）",
+                "Thank you very much.（非常謝謝你）",
+                "國家：Taiwan（臺灣）"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "Ww–Zz 發音字彙",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "感謝與文化",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/english#u9"
+        },
+        {
+          "sceneId": "u9-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "認清 Xx 在字尾與 Ww 發音",
+          "narrationText": "練習 Ww–Zz 時，注意 fox 的 x 在字尾發 /ks/，而 window 的 w 嘴唇要嘟圓。",
+          "cognitiveChunks": [
+            "Ww /w/ → window（嘟圓嘴）",
+            "Xx /ks/ → fox（在字尾）",
+            "Yy /j/ → yellow",
+            "Zz /z/ → zebra"
+          ],
+          "workedExampleData": {
+            "problemStatement": "為什麼 Xx 的代表字是「fox」，而不是「x」開頭的字？",
+            "steps": [
+              "第 1 步：英文裡 Xx 在字尾比在字首更常見（如 fox, box, six）",
+              "第 2 步：在 fox 裡，x 發出清楚的 /ks/ 音",
+              "第 3 步：記住 f-o-x 就是「狐狸」"
+            ],
+            "commonErrorContrast": "常見錯誤：把 Ww 的 /w/ 念成咬下唇的 /v/。記得 window 要嘟嘴唇、不能咬嘴唇！",
+            "selfExplanationPrompt": "想一想：香蕉和向日葵是什麼顏色的英文？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/english#u9"
+        },
+        {
+          "sceneId": "u9-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做這題暖身，準備迎接感謝蝠！",
+          "cognitiveChunks": [
+            "Ww window, Xx fox, Yy yellow, Zz zebra"
+          ],
+          "warmupCheck": {
+            "prompt": "身上有黑白條紋的「斑馬」，英文單字是哪一個？",
+            "options": [
+              "fox",
+              "yellow",
+              "zebra"
+            ],
+            "answerIndex": 2,
+            "feedbackCorrect": "答對了！Zz — zebra 就是斑馬。",
+            "feedbackRetry": "再想想看，最後一個字母 Zz 的代表字才是斑馬喔！"
+          },
+          "factGroundingSourceId": "115-s2/g2/english#u9"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-english-u10",
+      "stageId": "115-s2-g2-english-u10",
+      "title": "Fun World 4 · Review 2 & Final Review（夏日活動）",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u10-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "Nn–Zz 與 A–Z 26 字母畢業典禮",
+          "narrationText": "太棒了！學完 Nn–Zz，你已經認識全部 26 個英文字母 A 到 Z！一起進入「字母菜園」把格線位置與對話一次複習完畢！",
+          "cognitiveChunks": [
+            "Nn–Ss: nose, octopus, pencil, queen, rabbit, snake",
+            "Tt–Zz: turtle, up, van, window, fox, yellow, zebra",
+            "全部 5 個母音：A, E, I, O, U",
+            "往下長尾巴的字母：g, j, p, q, y"
+          ],
+          "analogyAnchor": "就像在「字母菜園」裡照顧小苗，有的字母長得高（b, d, h, k, l），有的往土裡紮根（g, j, p, q, y），每一格都整整齊齊！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "Nn–Zz 13 字母",
+              "leftPoints": [
+                "N-O-P-Q-R-S",
+                "T-U-V-W-X-Y-Z"
+              ],
+              "rightTitle": "生活用語總整理",
+              "rightPoints": [
+                "Nice to meet you. / Have a nice day.",
+                "Let's play. / Hurry up.",
+                "Here you are. / Thank you very much."
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "13 個字母與單字",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "3 組對話",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/english#u10"
+        },
+        {
+          "sceneId": "u10-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "四線格「字母菜園」書寫定位",
+          "narrationText": "二下重點目標之一，是把 Nn–Zz 寫在四線格的正確位置上！",
+          "cognitiveChunks": [
+            "住在中間格：n, o, r, s, u, v, w, x, z",
+            "往上伸出格：t（偏高）",
+            "往下長尾巴：p, q, y"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在「p, q, r, s, y」五個小寫字母中，哪幾個會往下延伸到最底線？",
+            "steps": [
+              "第 1 步：檢查 r 和 s → 乖乖坐在中間格",
+              "第 2 步：檢查 p, q, y → 都有往下的直線或尾巴",
+              "第 3 步：記住往下長的五兄弟：g, j, p, q, y"
+            ],
+            "commonErrorContrast": "常見錯誤：寫小寫 p 和 q 時把整顆圓圈寫到最底下一格，忘了圓圈要留在中間格！",
+            "selfExplanationPrompt": "想一想：A 到 Z 一共有幾個母音？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/english#u10"
+        },
+        {
+          "sceneId": "u10-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "完成這題最後暖身，就能挑戰字母菜園小飛龍！",
+          "cognitiveChunks": [
+            "A 到 Z 共 26 個字母"
+          ],
+          "warmupCheck": {
+            "prompt": "「n」和「u」哪一個開口朝上（像杯子），對應單字「up」？",
+            "options": [
+              "n",
+              "u",
+              "v"
+            ],
+            "answerIndex": 1,
+            "feedbackCorrect": "答對了！u 開口朝上，Uu — up 就是向上！",
+            "feedbackRetry": "再看清楚，像杯子一樣開口朝上的是 u 喔！"
+          },
+          "factGroundingSourceId": "115-s2/g2/english#u10"
+        }
+      ]
     }
   ]
 }

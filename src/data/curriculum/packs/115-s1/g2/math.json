@@ -645,7 +645,7 @@
       "id": "115-s1-g2-math-u4",
       "subjectId": "math",
       "title": "第4章 加減應用",
-      "description": "理解加法和減法的互逆關係，學會用相反運算來驗算，並解決不知道加數或減數的應用題。",
+      "description": "每次挑戰都會自動出題！理解加法和減法的互逆關係，學會用相反運算來驗算，並解決不知道加數或減數的應用題。",
       "difficulty": "medium",
       "monsterId": "bookSpirit",
       "monsterName": "互逆驗算精靈",
@@ -849,13 +849,14 @@
             "減數未知"
           ]
         }
-      ]
+      ],
+      "generatorId": "g2s1-math-u4"
     },
     {
       "id": "115-s1-g2-math-u5",
       "subjectId": "math",
       "title": "第5章 容量",
-      "description": "認識容器的容量，並用倒水直接比較、共同容器間接比較和用相同杯子數數看的方式比較容量大小。",
+      "description": "每次挑戰都會自動出題！認識容器的容量，並用倒水直接比較、共同容器間接比較和用相同杯子數數看的方式比較容量大小。",
       "difficulty": "medium",
       "monsterId": "slime",
       "monsterName": "水壺容量史萊姆",
@@ -1059,7 +1060,8 @@
             "直接比較"
           ]
         }
-      ]
+      ],
+      "generatorId": "g2s1-math-u5"
     },
     {
       "id": "115-s1-g2-math-u6",
@@ -1914,7 +1916,7 @@
       "id": "115-s1-g2-math-u10",
       "subjectId": "math",
       "title": "第10章 面的大小比較",
-      "description": "認識生活中平平的面，並用疊在一起的直接比較、描下來比的間接比較與鋪紙片的個別單位方法比大小。",
+      "description": "每次挑戰都會自動出題！認識生活中平平的面，並用疊在一起的直接比較、描下來比的間接比較與鋪紙片的個別單位方法比大小。",
       "difficulty": "hard",
       "monsterId": "treeGuardian",
       "monsterName": "拼圖面面樹靈",
@@ -2118,7 +2120,8 @@
             "面的直接比較"
           ]
         }
-      ]
+      ],
+      "generatorId": "g2s1-math-u10"
     }
   ]
 }

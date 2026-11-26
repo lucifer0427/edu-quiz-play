@@ -43,6 +43,14 @@
         "publisher": "翰林",
         "book_series": "7 Here We Go（選書表僅列起始單數冊，第八冊由課程計畫核實）"
       }
+    },
+    {
+      "id": "src-3",
+      "source_tier": "tier1",
+      "source_title": "113學年度英語單字王六年級單字題庫（翰林 Here We Go 8）",
+      "source_url": "https://www.ftps.kh.edu.tw/upload/19/104_57459/114%E5%B9%B4%E7%A6%8F%E6%9D%B1%E8%8B%B1%E8%AA%9E%E5%96%AE%E5%AD%97%E7%8E%8B%E5%96%AE%E5%AD%97%E9%A1%8C%E5%BA%AB.pdf",
+      "local_file": null,
+      "retrieved_at": "2026-11-26T06:00:00+08:00"
     }
   ],
   "units": [
@@ -75,7 +83,17 @@
             "主題：地點（第3-5週授課）；融入國際教育、閱讀素養教育。",
             "六下跨單元字母拼讀目標（PDF p.109）：能聽辨及運用字母拼讀法讀出以子音音組 (l-blends) pl, bl, cl, gl、(r-blends) cr, gr, tr, dr、(s-blends) sw, sp, st, sk 及短、長母音音組 a, e, i, o, u 所組成的字詞（PDF 原文寫作「(1-blends)」）。"
           ],
-          "vocabulary": [],
+          "vocabulary": [
+            "at home",
+            "at school",
+            "at the mall",
+            "at the movie theater",
+            "at the restaurant",
+            "at the zoo",
+            "was",
+            "were",
+            "yesterday"
+          ],
           "source_ref": "src-1",
           "verbatim_excerpt": "[PDF p.108 課程架構表] Unit 1 Where Were You Yesterday?；[PDF p.630 5-2教學進度總表] 第3-5週：地點 Unit 1 Where Were You Yesterday?；[PDF p.109] 下學期學習目標5。",
           "confidence": "primary"
@@ -92,7 +110,17 @@
           "learning_points": [
             "主題：日常活動（第6-8週授課）；融入國際教育、閱讀素養教育。"
           ],
-          "vocabulary": [],
+          "vocabulary": [
+            "cleaned my room",
+            "listened to music",
+            "played basketball",
+            "walked the dog",
+            "watched videos",
+            "visited a friend",
+            "did",
+            "last",
+            "night"
+          ],
           "source_ref": "src-1",
           "verbatim_excerpt": "[PDF p.108 課程架構表] Unit 2 What Did You Do Last Night?；[PDF p.631-632 5-2教學進度總表] 第6-8週：日常活動 Unit 2 What Did You Do Last Night?。",
           "confidence": "primary"

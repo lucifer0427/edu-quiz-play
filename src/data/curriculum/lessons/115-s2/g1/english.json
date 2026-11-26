@@ -427,6 +427,99 @@
           "factGroundingSourceId": "115-s2/g1/english#u4"
         }
       ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g1-english-u5",
+      "stageId": "115-s2-g1-english-u5",
+      "title": "26 個字母拼圖：T, U, V 與總複習",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "LANGUAGE",
+      "scenes": [
+        {
+          "sceneId": "u5-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "認識字母 T、U、V",
+          "narrationText": "在 S 和 W 中間住著 T、U、V 三個好朋友！認識它們的大小寫，就能把 26 個字母全部連起來！",
+          "cognitiveChunks": [
+            "字母順序：S → T → U → V → W",
+            "大小寫：T/t、U/u、V/v",
+            "A 到 Z 共有 26 個字母"
+          ],
+          "analogyAnchor": "u 像圓底小水杯，v 像尖底勝利手勢，兩個好朋友手牽手排在 t 的後面！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "字母 T U V",
+              "leftPoints": [
+                "T 配 t（橫槓小桌子）",
+                "U 配 u（圓底杯子）、V 配 v（尖底 V）"
+              ],
+              "rightTitle": "26 字母總整理",
+              "rightPoints": [
+                "Q, R, S, T, U, V, W, X, Y, Z",
+                "每個字母都有大寫和小寫"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "T/t U/u V/v",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "26 個英文字母",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/english#u5"
+        },
+        {
+          "sceneId": "u5-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "分清楚小寫 u 和 v",
+          "narrationText": "小寫 u 和 v 都是開口向上的字母，看清楚底部形狀就能一秒分出來！",
+          "cognitiveChunks": [
+            "u 的底部圓圓的",
+            "v 的底部尖尖的"
+          ],
+          "workedExampleData": {
+            "problemStatement": "在「R, S, ___, U, V」中，空缺的字母是哪一個？",
+            "steps": [
+              "第 1 步：從 R, S 開始念字母順序",
+              "第 2 步：S 的下一個字母是 T",
+              "第 3 步：確認順序為 R, S, T, U, V"
+            ],
+            "commonErrorContrast": "常見錯誤：把 U 和 V 順序顛倒，或把圓底的 u 與尖底的 v 搞混。",
+            "selfExplanationPrompt": "想一想：umbrella 的開頭字母是圓底的 u 還是尖底的 v？",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g1/english#u5"
+        },
+        {
+          "sceneId": "u5-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先練習這題字母順序，再進場挑戰 26 個字母關卡！",
+          "cognitiveChunks": [
+            "字母順序：S → T → U → V → W"
+          ],
+          "warmupCheck": {
+            "prompt": "在字母歌裡，排在 S 後面、U 前面的是哪一個字母？",
+            "options": [
+              "T",
+              "V",
+              "R"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！Q, R, S, T, U, V，S 後面就是 T！",
+            "feedbackRetry": "再唱一次 Q, R, S, ___ , U！"
+          },
+          "factGroundingSourceId": "115-s2/g1/english#u5"
+        }
+      ]
     }
   ]
 }

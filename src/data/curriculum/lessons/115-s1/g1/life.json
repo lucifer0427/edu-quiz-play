@@ -8,100 +8,90 @@
   "lessons": [
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g1-life-u1",
-      "stageId": "115-s1-g1-life-u1",
-      "title": "主題一、我上一年級了",
+      "lessonId": "lesson-115-s1-g1-life-u1-l1",
+      "stageId": "115-s1-g1-life-u1-l1",
+      "title": "單元1 上學了",
       "ageBand": "AGE_6_8_LOWER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u1-s1",
+          "sceneId": "u1l1-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "快樂平安當個小一新生",
-          "narrationText": "升上一年級了！上學有導護老師保護我們，進教室要自己整理抽屜、認識新朋友，還要學會垃圾分類。",
+          "title": "單元1 上學了：核心概念",
+          "narrationText": "在「主題一、我上一年級了」的「單元1 上學了」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "上下學聽導護老師與志工指揮",
-            "自己整理書包、抽屜與上廁所",
-            "垃圾分一般、資源回收、廚餘三類"
+            "去上學、2.適應小學和幼兒園的不一樣、3.認識新同學"
           ],
-          "analogyAnchor": "小學就像新冒險基地，自己會整理抽屜、會上蹲式馬桶，就是長大獨立的小學生囉！",
+          "analogyAnchor": "把「單元1 上學了」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_compare",
             "params": {
-              "steps": [
-                "早上導護保護過馬路",
-                "進教室交聯絡簿、整理抽屜",
-                "垃圾分三類，放學排路隊回家"
+              "leftTitle": "單元1 上學了",
+              "leftPoints": [
+                "去上學、2.適應小學和幼兒園的不一樣、3.認識新同學",
+                "去上學、2.適應小學和幼兒園的不一樣、3.認識新同學"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "上下學注意安全",
-                "anchorPointId": "step1"
+                "text": "單元1 上學了",
+                "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "愛整潔做環保",
-                "anchorPointId": "step3"
+                "text": "重點與應用",
+                "anchorPointId": "right"
               }
             ]
           },
           "factGroundingSourceId": "115-s1/g1/life#u1"
         },
         {
-          "sceneId": "u1-s2",
+          "sceneId": "u1l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "教室垃圾分類三大類",
-          "narrationText": "教室裡的垃圾不能全部丟進同一個桶子，要看清楚是哪一類再放進去。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "吃剩飯菜果皮→廚餘",
-            "乾淨瓶罐紙類→資源回收",
-            "不能回收的髒垃圾→一般垃圾"
+            "去上學、2.適應小學和幼兒園的不一樣、3.認識新同學",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "教室裡的垃圾分類通常分成哪三大類？",
+            "problemStatement": "複習「單元1 上學了」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：先看是不是吃剩的食物或果皮 → 放進「廚餘」",
-              "第 2 步：再看是不是乾淨的紙類、寶特瓶或鋁罐 → 放進「資源回收」",
-              "第 3 步：其他不能回收的衛生紙或髒紙屑 → 放進「一般垃圾」"
+              "第 1 步：確認題目在問「單元1 上學了」",
+              "第 2 步：對照本課核心「去上學、2.適應小學和幼兒園的不一樣」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：把喝完沒洗的飲料盒直接丟進一般垃圾，或是把衛生紙丟進資源回收。",
-            "selfExplanationPrompt": "想一想：在學校用蹲式馬桶上廁所時，臉要朝向哪一邊才對？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「單元1 上學了」的一個重點！",
             "keepStepCardVisible": true
           },
           "factGroundingSourceId": "115-s1/g1/life#u1"
         },
         {
-          "sceneId": "u1-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "我會正確使用蹲式馬桶",
-          "topicSignalTitle": "蹲式馬桶要面對哪一邊？",
-          "narrationText": "雙腳踩穩兩側踏板，臉要「面對」有圓頭或沖水閥的那一側蹲下，上完廁所記得沖水並用肥皂洗手。",
-          "cognitiveChunks": [
-            "面對圓頭或沖水閥那一側",
-            "上完廁所記得沖水洗手"
-          ],
-          "factGroundingSourceId": "115-s1/g1/life#u1"
-        },
-        {
-          "sceneId": "u1-s4",
+          "sceneId": "u1l1-s3",
           "componentType": "WARMUP_CHECK",
-          "title": "小手熱身題",
-          "narrationText": "答對這題一年級生活小問題就出發！",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「單元1 上學了」後再開始挑戰！",
           "cognitiveChunks": [
-            "導護老師與愛心志工保護過馬路"
+            "去上學、2.適應小學和幼兒園的不一樣、3.認識新同學"
           ],
           "warmupCheck": {
-            "prompt": "過馬路去上學時，校門口有誰會指揮交通、保護我們？",
+            "prompt": "關於「單元1 上學了」，哪一項才是正確的學習重點？",
             "options": [
-              "導護老師和愛心志工",
-              "郵差叔叔",
-              "賣早餐的老闆"
+              "去上學、2.適應小學和幼兒園的不一樣、3.認識新同學",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
             "answerIndex": 0,
-            "feedbackCorrect": "答對了！每天上下學都是導護老師和愛心志工辛苦保護我們過馬路！",
-            "feedbackRetry": "想一想，誰會穿著背心、拿著指揮旗站在路口呢？"
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s1/g1/life#u1"
         }
@@ -109,46 +99,135 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g1-life-u2",
-      "stageId": "115-s1-g1-life-u2",
-      "title": "主題二、認識校園",
+      "lessonId": "lesson-115-s1-g1-life-u1-l2",
+      "stageId": "115-s1-g1-life-u1-l2",
+      "title": "單元2 學校的一天",
       "ageBand": "AGE_6_8_LOWER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u2-s1",
+          "sceneId": "u1l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "安全探索校園每個角落",
-          "narrationText": "校園裡有操場、遊戲區、健康中心和學務處；下課要避開危險角落，遇到困難就知道要去哪裡請人幫忙。",
+          "title": "單元2 學校的一天：核心概念",
+          "narrationText": "在「主題一、我上一年級了」的「單元2 學校的一天」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "走廊樓梯靠右慢走不奔跑",
-            "遠離停車場車道與溼滑地板",
-            "受傷去健康中心、拾獲物品送學務處"
+            "一天學習的開始、2.上課了、3.學會好多事、4.愛整潔"
           ],
-          "analogyAnchor": "認識校園就像拿著藏寶圖，知道哪裡好玩、哪裡危險，還知道受傷或迷路時找誰求助。",
+          "analogyAnchor": "把「單元2 學校的一天」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "安全玩耍與禮儀",
+              "leftTitle": "單元2 學校的一天",
               "leftPoints": [
-                "走廊靠右慢走、器材排隊輪流玩",
-                "進辦公室前先敲門喊報告"
+                "一天學習的開始、2.上課了、3.學會好多事、4.愛整潔",
+                "一天學習的開始、2.上課了、3.學會好多事、4.愛整潔"
               ],
-              "rightTitle": "遇到困難找誰幫",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "受傷流血 → 健康中心",
-                "撿到遺失物 → 老師或學務處"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "走廊樓梯不奔跑",
+                "text": "單元2 學校的一天",
                 "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "求助處室記清楚",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/life#u1"
+        },
+        {
+          "sceneId": "u1l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "一天學習的開始、2.上課了、3.學會好多事、4.愛整潔",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「單元2 學校的一天」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「單元2 學校的一天」",
+              "第 2 步：對照本課核心「一天學習的開始、2.上課了、3.學會好多事」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「單元2 學校的一天」的一個重點！",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/life#u1"
+        },
+        {
+          "sceneId": "u1l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「單元2 學校的一天」後再開始挑戰！",
+          "cognitiveChunks": [
+            "一天學習的開始、2.上課了、3.學會好多事、4.愛整潔"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「單元2 學校的一天」，哪一項才是正確的學習重點？",
+            "options": [
+              "一天學習的開始、2.上課了、3.學會好多事、4.愛整潔",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g1/life#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-life-u2-l1",
+      "stageId": "115-s1-g1-life-u2-l1",
+      "title": "單元1 校園裡哪裡最好玩（5-2進度表作「單元1 校園哪裡最好玩」）",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "單元1 校園裡哪裡最好玩（5-2進度表作「單元1 。",
+          "narrationText": "在「主題二、認識校園」的「單元1 校園裡哪裡最好玩（5-2進度表作「單元1 校園哪裡最好玩」）」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "下課了，你會去哪裡？、2.一起到校園玩吧！"
+          ],
+          "analogyAnchor": "把「單元1 校園裡哪裡最好玩（5-2進度表作「單元1 校園哪裡最好玩」）」想成探索指南，先看懂核心線索",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "單元1 校園裡哪裡最好玩（5",
+              "leftPoints": [
+                "下課了，你會去哪裡？",
+                "下課了，你會去哪裡？"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "單元1 校園裡哪裡最",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -156,57 +235,45 @@
           "factGroundingSourceId": "115-s1/g1/life#u2"
         },
         {
-          "sceneId": "u2-s2",
+          "sceneId": "u2l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "遇到狀況要去哪個處室求助？",
-          "narrationText": "校園裡每個處室都有不同的功能，看清楚遇到什麼事，就能快速找到大人幫忙。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "跌倒流血找健康中心護理師",
-            "撿到物品交給老師或學務處"
+            "下課了，你會去哪裡？、2.一起到校園玩吧！",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "在操場不小心跌倒流血了，應該趕快去哪裡找護理師阿姨？",
+            "problemStatement": "複習「單元1 校園裡哪裡最好玩（5-2進度表作「單元1 校園哪裡最好玩」）」時",
             "steps": [
-              "第 1 步：先停下來，不要自己亂跑出校門",
-              "第 2 步：請同學陪自己，並馬上告訴老師",
-              "第 3 步：一起前往「健康中心」請護理師擦藥處理"
+              "第 1 步：確認題目在問「單元1 校園裡哪裡最好玩（5」",
+              "第 2 步：對照本課核心「下課了，你會去哪裡？」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：受傷流血了卻害羞躲起來，或自己一個人跑去校門外面。",
-            "selfExplanationPrompt": "想一想：進到老師辦公室找老師問事情前，要先做什麼禮貌動作？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「單元1 校園裡哪裡最好玩」的一個重點！",
             "keepStepCardVisible": true
           },
           "factGroundingSourceId": "115-s1/g1/life#u2"
         },
         {
-          "sceneId": "u2-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "校園危險角落不要去",
-          "topicSignalTitle": "哪些地方下課不可以追逐玩耍？",
-          "narrationText": "停車場車道、剛拖過水的溼滑地板、陽台欄杆和施工區都很危險，下課絕對不能在那裡跑跳。",
-          "cognitiveChunks": [
-            "停車場有車輛進出很危險",
-            "溼滑地板容易滑倒受傷"
-          ],
-          "factGroundingSourceId": "115-s1/g1/life#u2"
-        },
-        {
-          "sceneId": "u2-s4",
+          "sceneId": "u2l1-s3",
           "componentType": "WARMUP_CHECK",
-          "title": "小手熱身題",
-          "narrationText": "試試看這題校園禮儀小問題！",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「單元1 校園裡哪裡最好玩（5」後再開始挑戰！",
           "cognitiveChunks": [
-            "進辦公室先敲門喊報告"
+            "下課了，你會去哪裡？、2.一起到校園玩吧！"
           ],
           "warmupCheck": {
-            "prompt": "進到老師辦公室找老師問事情時，要有什麼好禮貌？",
+            "prompt": "關於「單元1 校園裡哪裡最好玩（5」，哪一項才是正確的學習重點？",
             "options": [
-              "先輕輕敲門，大聲說報告再進去",
-              "直接衝進去大喊大叫",
-              "在辦公室裡跑來跑去"
+              "下課了，你會去哪裡？、2.一起到校園玩吧！",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
             "answerIndex": 0,
-            "feedbackCorrect": "好棒！先敲門喊「報告」再進去，是最有禮貌的小學生！",
-            "feedbackRetry": "進到老師工作的房間前，門邊通常要先做什麼動作呢？"
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s1/g1/life#u2"
         }
@@ -214,99 +281,181 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g1-life-u3",
-      "stageId": "115-s1-g1-life-u3",
-      "title": "主題三、哇！好想吃",
+      "lessonId": "lesson-115-s1-g1-life-u2-l2",
+      "stageId": "115-s1-g1-life-u2-l2",
+      "title": "單元2 一起探索校園",
       "ageBand": "AGE_6_8_LOWER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u3-s1",
+          "sceneId": "u2l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "營養午餐從哪裡來？",
-          "narrationText": "營養午餐經過農夫種菜、市場採買、廚房烹煮與同學抬餐才能吃到，我們要抱著感謝的心把飯菜吃光光！",
+          "title": "單元2 一起探索校園：核心概念",
+          "narrationText": "在「主題二、認識校園」的「單元2 一起探索校園」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "看每日菜單就知道今天吃什麼",
-            "飯前用肥皂清水洗手、戴口罩打菜",
-            "少量試吃新食物、不浪費並說謝謝"
+            "校園裡還有哪些不同的地方？、2.校園尋寶趣、3.到哪裡請人幫忙？"
           ],
-          "analogyAnchor": "每一口香噴噴的白飯和青菜，都是農夫和廚房阿姨叔叔接力送來的愛心禮物。",
+          "analogyAnchor": "把「單元2 一起探索校園」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_compare",
             "params": {
-              "steps": [
-                "農夫辛苦耕種",
-                "廚房清洗烹煮",
-                "大家珍惜吃光說謝謝"
+              "leftTitle": "單元2 一起探索校園",
+              "leftPoints": [
+                "校園裡還有哪些不同的地方？",
+                "校園裡還有哪些不同的地方？"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "從產地到餐桌",
-                "anchorPointId": "step2"
+                "text": "單元2 一起探索校園",
+                "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "不浪費真感謝",
-                "anchorPointId": "step3"
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/life#u2"
+        },
+        {
+          "sceneId": "u2l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "校園裡還有哪些不同的地方？、2.校園尋寶趣、3.到哪裡請人幫忙？",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「單元2 一起探索校園」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「單元2 一起探索校園」",
+              "第 2 步：對照本課核心「校園裡還有哪些不同的地方？」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「單元2 一起探索校園」的一個重點！",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/life#u2"
+        },
+        {
+          "sceneId": "u2l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「單元2 一起探索校園」後再開始挑戰！",
+          "cognitiveChunks": [
+            "校園裡還有哪些不同的地方？、2.校園尋寶趣、3.到哪裡請人幫忙？"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「單元2 一起探索校園」，哪一項才是正確的學習重點？",
+            "options": [
+              "校園裡還有哪些不同的地方？、2.校園尋寶趣、3.到哪裡請人幫忙？",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g1/life#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-life-u3-l1",
+      "stageId": "115-s1-g1-life-u3-l1",
+      "title": "單元1 午餐大探索",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "單元1 午餐大探索：核心概念",
+          "narrationText": "在「主題三、哇！好想吃」的「單元1 午餐大探索」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "營養午餐吃什麼？、2.來找答案吧！、3.最喜歡的菜"
+          ],
+          "analogyAnchor": "把「單元1 午餐大探索」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "單元1 午餐大探索",
+              "leftPoints": [
+                "營養午餐吃什麼？、2.來找答案吧！、3.最喜歡的菜",
+                "營養午餐吃什麼？、2.來找答案吧！、3.最喜歡的菜"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "單元1 午餐大探索",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
               }
             ]
           },
           "factGroundingSourceId": "115-s1/g1/life#u3"
         },
         {
-          "sceneId": "u3-s2",
+          "sceneId": "u3l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "遇到沒吃過的菜怎麼辦？",
-          "narrationText": "看到不熟悉的蔬菜時，不要馬上倒掉，先盛一點點試試看，只拿吃得完的分量才不會浪費。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "先盛少量勇敢試吃",
-            "坐好細嚼慢嚥不講話"
+            "營養午餐吃什麼？、2.來找答案吧！、3.最喜歡的菜",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "看到餐盤裡有自己沒吃過的菜，怎麼做才是珍惜食物？",
+            "problemStatement": "複習「單元1 午餐大探索」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：打菜時先請同學給少一點點",
-              "第 2 步：坐好細嚼慢嚥，勇敢吃一口試試看",
-              "第 3 步：拿自己吃得完的分量，不把食物倒進廚餘桶"
+              "第 1 步：確認題目在問「單元1 午餐大探索」",
+              "第 2 步：對照本課核心「營養午餐吃什麼？、2.來找答案吧！」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：一次盛一大碗結果吃不完，最後全部倒進廚餘桶浪費食物。",
-            "selfExplanationPrompt": "想一想：吃完午餐後，喝完的牛奶空紙盒要放到哪裡呢？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「單元1 午餐大探索」的一個重點！",
             "keepStepCardVisible": true
           },
           "factGroundingSourceId": "115-s1/g1/life#u3"
         },
         {
-          "sceneId": "u3-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "排隊打菜與用餐好行為",
-          "topicSignalTitle": "打菜和吃飯時要注意什麼？",
-          "narrationText": "飯前先用肥皂洗手；排隊打菜時戴口罩不交談，才不會把口水噴進菜裡；吃飯坐好細嚼慢嚥才不會噎到。",
-          "cognitiveChunks": [
-            "飯前洗手、打菜戴口罩安靜排隊",
-            "細嚼慢嚥不邊跑邊吃"
-          ],
-          "factGroundingSourceId": "115-s1/g1/life#u3"
-        },
-        {
-          "sceneId": "u3-s4",
+          "sceneId": "u3l1-s3",
           "componentType": "WARMUP_CHECK",
-          "title": "小手熱身題",
-          "narrationText": "答對這題午餐小偵探題目吧！",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「單元1 午餐大探索」後再開始挑戰！",
           "cognitiveChunks": [
-            "教室菜單告訴我們今天的菜色"
+            "營養午餐吃什麼？、2.來找答案吧！、3.最喜歡的菜"
           ],
           "warmupCheck": {
-            "prompt": "想知道今天學校營養午餐吃什麼菜，可以從哪裡找答案？",
+            "prompt": "關於「單元1 午餐大探索」，哪一項才是正確的學習重點？",
             "options": [
-              "打開自己的鉛筆盒看",
-              "看教室貼的每日營養午餐菜單",
-              "猜拳決定今天吃什麼"
+              "營養午餐吃什麼？、2.來找答案吧！、3.最喜歡的菜",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
-            "answerIndex": 1,
-            "feedbackCorrect": "答對了！看教室的營養午餐菜單就知道今天有什麼好菜囉！",
-            "feedbackRetry": "教室牆上或聯絡簿裡有沒有寫著每天菜色的表格呢？"
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s1/g1/life#u3"
         }
@@ -314,46 +463,135 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g1-life-u4",
-      "stageId": "115-s1-g1-life-u4",
-      "title": "主題四、一起來閱讀",
+      "lessonId": "lesson-115-s1-g1-life-u3-l2",
+      "stageId": "115-s1-g1-life-u3-l2",
+      "title": "單元2 午餐家家酒",
       "ageBand": "AGE_6_8_LOWER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u4-s1",
+          "sceneId": "u3l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "認識書本構造與圖書館禮儀",
-          "narrationText": "每本書都有封面、封底、書背、目錄和頁碼；進圖書館要輕聲細語，用書籤夾進度，一起愛惜書本！",
+          "title": "單元2 午餐家家酒：核心概念",
+          "narrationText": "在「主題三、哇！好想吃」的「單元2 午餐家家酒」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "封面看書名、書背朝外放書架",
-            "目錄和頁碼幫忙快速找單元",
-            "圖書館不喧嘩、不飲食、準時還書"
+            "合作來扮家家酒、2.動手「做菜」啦、3.家家酒分享會"
           ],
-          "analogyAnchor": "書本也有自己的臉面和脊椎：「封面」是臉、「書背」是背，放回書架時要把書背朝外給大家看書名。",
+          "analogyAnchor": "把「單元2 午餐家家酒」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "書的構造",
+              "leftTitle": "單元2 午餐家家酒",
               "leftPoints": [
-                "封面（書名圖畫）、書背（放書架朝外）",
-                "目錄和頁碼（快速找單元）"
+                "合作來扮家家酒、2.動手「做菜」啦、3.家家酒分享會",
+                "合作來扮家家酒、2.動手「做菜」啦、3.家家酒分享會"
               ],
-              "rightTitle": "愛書與圖書館",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "輕聲細語、不帶飲料食物",
-                "用書籤夾頁，破頁交給老師修補"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "封面、書背、目錄",
+                "text": "單元2 午餐家家酒",
                 "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "用書籤保護書頁",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/life#u3"
+        },
+        {
+          "sceneId": "u3l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "合作來扮家家酒、2.動手「做菜」啦、3.家家酒分享會",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「單元2 午餐家家酒」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「單元2 午餐家家酒」",
+              "第 2 步：對照本課核心「合作來扮家家酒、2.動手「做菜」啦」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「單元2 午餐家家酒」的一個重點！",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/life#u3"
+        },
+        {
+          "sceneId": "u3l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「單元2 午餐家家酒」後再開始挑戰！",
+          "cognitiveChunks": [
+            "合作來扮家家酒、2.動手「做菜」啦、3.家家酒分享會"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「單元2 午餐家家酒」，哪一項才是正確的學習重點？",
+            "options": [
+              "合作來扮家家酒、2.動手「做菜」啦、3.家家酒分享會",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g1/life#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-life-u4-l1",
+      "stageId": "115-s1-g1-life-u4-l1",
+      "title": "單元1 不同課本比一比",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "單元1 不同課本比一比：核心概念",
+          "narrationText": "在「主題四、一起來閱讀」的「單元1 不同課本比一比」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "課本比一比、2.認識書的構造"
+          ],
+          "analogyAnchor": "把「單元1 不同課本比一比」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "單元1 不同課本比一比",
+              "leftPoints": [
+                "課本比一比、2.認識書的構造",
+                "課本比一比、2.認識書的構造"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "單元1 不同課本比一",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -361,58 +599,45 @@
           "factGroundingSourceId": "115-s1/g1/life#u4"
         },
         {
-          "sceneId": "u4-s2",
+          "sceneId": "u4l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "圖書館書本破了怎麼辦？",
-          "narrationText": "在圖書館看書時如果發現書頁破掉，千萬不要自己撕掉或用普通膠帶亂黏，要交給圖書館老師處理。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "不折書角、不反扣書本",
-            "破頁交給圖書館老師修補"
+            "課本比一比、2.認識書的構造",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "在圖書館翻開故事書，發現有一頁破掉了，應該怎麼辦？",
+            "problemStatement": "複習「單元1 不同課本比一比」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：輕輕闔上書本，不要再拉扯破掉的地方",
-              "第 2 步：不要自己撕掉，也不要用蠟筆塗畫",
-              "第 3 步：拿給圖書館老師或志工，請大人用專用修書膠帶修補"
+              "第 1 步：確認題目在問「單元1 不同課本比一比」",
+              "第 2 步：對照本課核心「課本比一比、2.認識書的構造」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：害怕被罵就偷偷塞回書架最裡面，或是自己順手把破頁撕掉。",
-            "selfExplanationPrompt": "想一想：書還沒看完要收起來時，用什麼小工具夾住最能保護書頁？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「單元1 不同課本比一比」的一個重點！",
             "keepStepCardVisible": true
           },
           "factGroundingSourceId": "115-s1/g1/life#u4"
         },
         {
-          "sceneId": "u4-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "放回書架的小秘訣",
-          "topicSignalTitle": "書背要朝向哪裡才找得到書？",
-          "narrationText": "把書直直放回書架時，要把印有書名的「書背」朝向外面，下一個想看書的小朋友才一眼就找得到。",
-          "cognitiveChunks": [
-            "書背朝外方便大家找書",
-            "借的書要在還書日期前歸還"
-          ],
-          "factGroundingSourceId": "115-s1/g1/life#u4"
-        },
-        {
-          "sceneId": "u4-s4",
+          "sceneId": "u4l1-s3",
           "componentType": "WARMUP_CHECK",
-          "title": "小手熱身題",
-          "narrationText": "考考你書本構造的小問題！",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「單元1 不同課本比一比」後再開始挑戰！",
           "cognitiveChunks": [
-            "封面寫著書名與大圖畫"
+            "課本比一比、2.認識書的構造"
           ],
           "warmupCheck": {
-            "prompt": "拿到一本新書時，最外面寫著書名和畫著大圖畫的那一面叫做什麼？",
+            "prompt": "關於「單元1 不同課本比一比」，哪一項才是正確的學習重點？",
             "options": [
-              "頁碼",
-              "目錄",
-              "封面",
-              "書背"
+              "課本比一比、2.認識書的構造",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
-            "answerIndex": 2,
-            "feedbackCorrect": "答對了！最外面有書名和插圖的就是「封面」！",
-            "feedbackRetry": "它就像書本的臉面一樣，一眼就能看到書名喔！"
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s1/g1/life#u4"
         }
@@ -420,46 +645,135 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g1-life-u5",
-      "stageId": "115-s1-g1-life-u5",
-      "title": "主題五、聲音好好玩",
+      "lessonId": "lesson-115-s1-g1-life-u4-l2",
+      "stageId": "115-s1-g1-life-u4-l2",
+      "title": "單元2 我愛圖書館",
       "ageBand": "AGE_6_8_LOWER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u5-s1",
+          "sceneId": "u4l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "聽聽身邊傳遞訊息的聲音",
-          "narrationText": "上下課鐘聲、救護車鳴笛聲都在傳遞重要訊息；我們也能用身體拍打或回收寶特瓶做成好玩的樂器和音效！",
+          "title": "單元2 我愛圖書館：核心概念",
+          "narrationText": "在「主題四、一起來閱讀」的「單元2 我愛圖書館」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "鐘聲與鳴笛聲傳遞生活訊息",
-            "拍手、踏腳讓身體變成樂器",
-            "用圖畫、線條或注音記錄聲音"
+            "在圖書館、2.應該怎麼辦？"
           ],
-          "analogyAnchor": "在空的寶特瓶裡放進小綠豆蓋緊，搖一搖就能變成沙鈴，自己就能幫故事配音效。",
+          "analogyAnchor": "把「單元2 我愛圖書館」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "環境聲音訊息",
+              "leftTitle": "單元2 我愛圖書館",
               "leftPoints": [
-                "上下課鐘聲：提醒上課或休息",
-                "救護車鳴笛：緊急救援要禮讓"
+                "在圖書館、2.應該怎麼辦？",
+                "在圖書館、2.應該怎麼辦？"
               ],
-              "rightTitle": "一起玩聲音",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "拍手、拍大腿、踏腳打節奏",
-                "寶特瓶裝綠豆做環保沙鈴"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "聽聲音懂訊息",
+                "text": "單元2 我愛圖書館",
                 "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "自製安全樂器",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/life#u4"
+        },
+        {
+          "sceneId": "u4l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "在圖書館、2.應該怎麼辦？",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「單元2 我愛圖書館」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「單元2 我愛圖書館」",
+              "第 2 步：對照本課核心「在圖書館、2.應該怎麼辦？」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「單元2 我愛圖書館」的一個重點！",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/life#u4"
+        },
+        {
+          "sceneId": "u4l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「單元2 我愛圖書館」後再開始挑戰！",
+          "cognitiveChunks": [
+            "在圖書館、2.應該怎麼辦？"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「單元2 我愛圖書館」，哪一項才是正確的學習重點？",
+            "options": [
+              "在圖書館、2.應該怎麼辦？",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g1/life#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-life-u5-l1",
+      "stageId": "115-s1-g1-life-u5-l1",
+      "title": "單元1 聲音哪裡來",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "單元1 聲音哪裡來：核心概念",
+          "narrationText": "在「主題五、聲音好好玩」的「單元1 聲音哪裡來」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "聲音從哪裡來？、2.記錄聲音的方式、3.討論大家的紀錄"
+          ],
+          "analogyAnchor": "把「單元1 聲音哪裡來」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "單元1 聲音哪裡來",
+              "leftPoints": [
+                "聲音從哪裡來？、2.記錄聲音的方式、3.討論大家的紀錄",
+                "聲音從哪裡來？、2.記錄聲音的方式、3.討論大家的紀錄"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "單元1 聲音哪裡來",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -467,57 +781,45 @@
           "factGroundingSourceId": "115-s1/g1/life#u5"
         },
         {
-          "sceneId": "u5-s2",
+          "sceneId": "u5l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "動手做環保沙鈴與雨聲音效",
-          "narrationText": "用身邊安全又環保的材料，就能模仿下雨聲或做出搖晃會響的沙鈴樂器。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "硬硬的小豆子在空瓶裡會發出沙沙聲",
-            "輕揉塑膠袋可模仿下雨聲"
+            "聲音從哪裡來？、2.記錄聲音的方式、3.討論大家的紀錄",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "想用回收的乾淨寶特瓶做一個「沙鈴」樂器，裡面放什麼搖一搖會發出聲音？",
+            "problemStatement": "複習「單元1 聲音哪裡來」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：準備一個乾燥乾淨的空寶特瓶",
-              "第 2 步：放進適量硬硬的小綠豆或小石子",
-              "第 3 步：把瓶蓋轉緊，上下搖一搖就會發出清脆沙沙聲"
+              "第 1 步：確認題目在問「單元1 聲音哪裡來」",
+              "第 2 步：對照本課核心「聲音從哪裡來？、2.記錄聲音的方式」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：在瓶子裡放軟綿綿的衛生紙或海綿，搖起來幾乎沒有聲音。",
-            "selfExplanationPrompt": "想一想：演故事需要「下大雨」的音效時，可以用身邊什麼安全物品模仿？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「單元1 聲音哪裡來」的一個重點！",
             "keepStepCardVisible": true
           },
           "factGroundingSourceId": "115-s1/g1/life#u5"
         },
         {
-          "sceneId": "u5-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "用圖畫和注音記錄聲音",
-          "topicSignalTitle": "還不會寫的國字怎麼記錄聲音？",
-          "narrationText": "聽到小鳥叫或風吹過時，可以畫出小鳥、波浪線條，或用注音符號寫「啾啾啾」，這樣就記得住聲音了！",
-          "cognitiveChunks": [
-            "畫圖案、大小線條記聲音",
-            "用注音符號記下聲音"
-          ],
-          "factGroundingSourceId": "115-s1/g1/life#u5"
-        },
-        {
-          "sceneId": "u5-s4",
+          "sceneId": "u5l1-s3",
           "componentType": "WARMUP_CHECK",
-          "title": "小手熱身題",
-          "narrationText": "聽聽看這題生活聲音的訊息！",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「單元1 聲音哪裡來」後再開始挑戰！",
           "cognitiveChunks": [
-            "救護車鳴笛要禮讓通行"
+            "聲音從哪裡來？、2.記錄聲音的方式、3.討論大家的紀錄"
           ],
           "warmupCheck": {
-            "prompt": "走在路邊聽到救護車「喔伊喔伊」的鳴笛聲，代表什麼意思？",
+            "prompt": "關於「單元1 聲音哪裡來」，哪一項才是正確的學習重點？",
             "options": [
-              "車上有緊急需要送醫的人，行人和車輛要禮讓通行",
-              "有賣冰淇淋的車子經過",
-              "公園正在舉辦音樂會"
+              "聲音從哪裡來？、2.記錄聲音的方式、3.討論大家的紀錄",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
             "answerIndex": 0,
-            "feedbackCorrect": "答對了！聽到救護車鳴笛聲要提高警覺並主動禮讓，幫忙搶救生命！",
-            "feedbackRetry": "救護車開得又快又響，車上載著急需幫忙的病人喔！"
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s1/g1/life#u5"
         }
@@ -525,46 +827,135 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g1-life-u6",
-      "stageId": "115-s1-g1-life-u6",
-      "title": "主題六、新的一年",
+      "lessonId": "lesson-115-s1-g1-life-u5-l2",
+      "stageId": "115-s1-g1-life-u5-l2",
+      "title": "單元2 一起玩聲音",
       "ageBand": "AGE_6_8_LOWER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u6-s1",
+          "sceneId": "u5l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "迎接熱鬧喜氣的新年",
-          "narrationText": "我們會慶祝國曆 1 月 1 日元旦與農曆春節兩個新年；聽年獸傳說、吃除夕團圓飯說吉祥話，並寫下新年祝福！",
+          "title": "單元2 一起玩聲音：核心概念",
+          "narrationText": "在「主題五、聲音好好玩」的「單元2 一起玩聲音」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "兩個新年：國曆元旦、農曆過年",
-            "年獸怕紅色、亮光和鞭炮聲",
-            "年夜飯吉祥話：魚（年年有餘）、蘋果（平安）、橘子（大吉）"
+            "身體也可以發出聲音、2.將發現的聲音組合起來"
           ],
-          "analogyAnchor": "除夕夜全家人圍在圓桌旁吃飯，就像把愛和祝福團圓聚在一起。",
+          "analogyAnchor": "把「單元2 一起玩聲音」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "過年習俗由來",
+              "leftTitle": "單元2 一起玩聲音",
               "leftPoints": [
-                "貼紅春聯、點燈、放鞭炮嚇年獸",
-                "唱〈恭喜恭喜〉配咚鏘節奏"
+                "身體也可以發出聲音、2.將發現的聲音組合起來",
+                "身體也可以發出聲音、2.將發現的聲音組合起來"
               ],
-              "rightTitle": "年夜飯吉祥話",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "吃魚：年年有餘",
-                "蘋果：平平安安 ／ 橘子：大吉大利"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "紅春聯與咚鏘鼓聲",
+                "text": "單元2 一起玩聲音",
                 "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "團圓飯吉祥話",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/life#u5"
+        },
+        {
+          "sceneId": "u5l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "身體也可以發出聲音、2.將發現的聲音組合起來",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「單元2 一起玩聲音」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「單元2 一起玩聲音」",
+              "第 2 步：對照本課核心「身體也可以發出聲音」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「單元2 一起玩聲音」的一個重點！",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/life#u5"
+        },
+        {
+          "sceneId": "u5l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「單元2 一起玩聲音」後再開始挑戰！",
+          "cognitiveChunks": [
+            "身體也可以發出聲音、2.將發現的聲音組合起來"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「單元2 一起玩聲音」，哪一項才是正確的學習重點？",
+            "options": [
+              "身體也可以發出聲音、2.將發現的聲音組合起來",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g1/life#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-life-u6-l1",
+      "stageId": "115-s1-g1-life-u6-l1",
+      "title": "單元1 迎接新的一年",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u6l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "單元1 迎接新的一年：核心概念",
+          "narrationText": "在「主題六、新的一年」的「單元1 迎接新的一年」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "跨年的活動、2.新年來了、3.年獸的傳說、4.恭喜恭喜"
+          ],
+          "analogyAnchor": "把「單元1 迎接新的一年」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "單元1 迎接新的一年",
+              "leftPoints": [
+                "跨年的活動、2.新年來了、3.年獸的傳說、4.恭喜恭喜",
+                "跨年的活動、2.新年來了、3.年獸的傳說、4.恭喜恭喜"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "單元1 迎接新的一年",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -572,57 +963,227 @@
           "factGroundingSourceId": "115-s1/g1/life#u6"
         },
         {
-          "sceneId": "u6-s2",
+          "sceneId": "u6l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "配對年夜飯食物的吉祥話",
-          "narrationText": "過年常吃和好聽字詞同音的食物，用同音聯想就能記住每一道菜的吉祥話。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "魚＝餘（年年有餘）",
-            "蘋＝平（平安）、橘＝吉（大吉）"
+            "跨年的活動、2.新年來了、3.年獸的傳說、4.恭喜恭喜",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "除夕吃團圓飯時，桌上端出一條「魚」，這道菜代表什麼吉祥話？",
+            "problemStatement": "複習「單元1 迎接新的一年」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：唸一唸「魚」的讀音，想一想和哪一個字同音",
-              "第 2 步：「魚」和「餘」（多出來的意思）讀音一樣",
-              "第 3 步：所以吃魚象徵「年年有餘」，祝福新的一年豐足有剩餘"
+              "第 1 步：確認題目在問「單元1 迎接新的一年」",
+              "第 2 步：對照本課核心「跨年的活動、2.新年來了、3.年獸的傳說」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：把魚的吉祥話跟代表平平安安的蘋果、大吉大利的橘子搞混。",
-            "selfExplanationPrompt": "想一想：傳說中的「年獸」最害怕哪三樣東西呢？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「單元1 迎接新的一年」的一個重點！",
             "keepStepCardVisible": true
           },
           "factGroundingSourceId": "115-s1/g1/life#u6"
         },
         {
-          "sceneId": "u6-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "向長輩拜年與感恩祝福",
-          "topicSignalTitle": "拜年和寫祝福卡有什麼意義？",
-          "narrationText": "過年向長輩或老師拜年說吉祥話，並把感謝和願望寫進新年祝福卡，能把溫暖的心意傳遞給照顧我們的人。",
+          "sceneId": "u6l1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「單元1 迎接新的一年」後再開始挑戰！",
           "cognitiveChunks": [
-            "拜年表達感謝與新年祝福",
-            "除夕夜珍惜家人團圓時光"
+            "跨年的活動、2.新年來了、3.年獸的傳說、4.恭喜恭喜"
           ],
+          "warmupCheck": {
+            "prompt": "關於「單元1 迎接新的一年」，哪一項才是正確的學習重點？",
+            "options": [
+              "跨年的活動、2.新年來了、3.年獸的傳說、4.恭喜恭喜",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g1/life#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-life-u6-l2",
+      "stageId": "115-s1-g1-life-u6-l2",
+      "title": "單元2 除夕團圓夜",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u6l2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "單元2 除夕團圓夜：核心概念",
+          "narrationText": "在「主題六、新的一年」的「單元2 除夕團圓夜」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "準備過除夕、2.豐盛的年夜飯、3.好玩的除夕夜"
+          ],
+          "analogyAnchor": "把「單元2 除夕團圓夜」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "單元2 除夕團圓夜",
+              "leftPoints": [
+                "準備過除夕、2.豐盛的年夜飯",
+                "準備過除夕、2.豐盛的年夜飯"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "單元2 除夕團圓夜",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
           "factGroundingSourceId": "115-s1/g1/life#u6"
         },
         {
-          "sceneId": "u6-s4",
-          "componentType": "WARMUP_CHECK",
-          "title": "小手熱身題",
-          "narrationText": "答對這題年獸小故事，就準備好挑戰關卡囉！",
+          "sceneId": "u6l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "年獸怕紅色、亮光與響亮聲音"
+            "準備過除夕、2.豐盛的年夜飯、3.好玩的除夕夜",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「單元2 除夕團圓夜」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「單元2 除夕團圓夜」",
+              "第 2 步：對照本課核心「準備過除夕、2.豐盛的年夜飯」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「單元2 除夕團圓夜」的一個重點！",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/life#u6"
+        },
+        {
+          "sceneId": "u6l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「單元2 除夕團圓夜」後再開始挑戰！",
+          "cognitiveChunks": [
+            "準備過除夕、2.豐盛的年夜飯、3.好玩的除夕夜"
           ],
           "warmupCheck": {
-            "prompt": "傳說中可怕的「年獸」，最害怕人們用哪三樣東西嚇跑牠？",
+            "prompt": "關於「單元2 除夕團圓夜」，哪一項才是正確的學習重點？",
             "options": [
-              "紅色的春聯衣服、明亮的燈火和響亮的鞭炮聲",
-              "甜甜的糖果、果汁和餅乾",
-              "安靜的黑夜和軟軟的枕頭"
+              "準備過除夕、2.豐盛的年夜飯、3.好玩的除夕夜",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
             "answerIndex": 0,
-            "feedbackCorrect": "答對了！紅色、亮光和響亮的鞭炮聲最能嚇跑年獸！",
-            "feedbackRetry": "想一想過年門口會貼什麼顏色的春聯，晚上還會發出什麼響亮的聲音？"
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g1/life#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g1-life-u6-l3",
+      "stageId": "115-s1-g1-life-u6-l3",
+      "title": "單元3 過新年了",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u6l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "單元3 過新年了：核心概念",
+          "narrationText": "在「主題六、新的一年」的「單元3 過新年了」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "新年的活動、2.祝福感恩祈願"
+          ],
+          "analogyAnchor": "把「單元3 過新年了」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "單元3 過新年了",
+              "leftPoints": [
+                "新年的活動、2.祝福感恩祈願",
+                "新年的活動、2.祝福感恩祈願"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "單元3 過新年了",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/life#u6"
+        },
+        {
+          "sceneId": "u6l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "新年的活動、2.祝福感恩祈願",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「單元3 過新年了」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「單元3 過新年了」",
+              "第 2 步：對照本課核心「新年的活動」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「單元3 過新年了」的一個重點！",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s1/g1/life#u6"
+        },
+        {
+          "sceneId": "u6l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「單元3 過新年了」後再開始挑戰！",
+          "cognitiveChunks": [
+            "新年的活動、2.祝福感恩祈願"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「單元3 過新年了」，哪一項才是正確的學習重點？",
+            "options": [
+              "新年的活動、2.祝福感恩祈願",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s1/g1/life#u6"
         }

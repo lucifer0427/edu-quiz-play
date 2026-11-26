@@ -123,11 +123,11 @@
           "prompt": "二年級下學期開始認識英文字母「Nn 到 Zz」！下面哪一組「大寫和小寫」字母的配對完全正確？",
           "options": [
             "N - u",
-            "P - q",
             "R - r",
+            "P - q",
             "Q - p"
           ],
-          "answerIndex": 2,
+          "answerIndex": 1,
           "explanation": "大寫 R 配對小寫 r 是完全正確的！小寫 p 和 q 左右方向不同、n 和 u 則是上下開口方向相反。",
           "hint": "小心別被左右相反的小寫 p、q 騙了，找出真正同一個字母的大小寫！",
           "speechText": "R, r",
@@ -142,11 +142,11 @@
           "prompt": "邊走邊玩手機不看紅綠燈、或者睡前不刷牙，這些都是「壞習慣！」。英文「壞習慣！」怎麼說？",
           "options": [
             "Good habit!",
-            "Bad habit!",
             "Brush teeth!",
+            "Bad habit!",
             "Please sit down."
           ],
-          "answerIndex": 1,
+          "answerIndex": 2,
           "explanation": "「Bad」是壞的，「habit」是習慣，所以「Bad habit!」就是「壞習慣！」。",
           "hint": "點喇叭聽聽看，開頭是 Bad 的那一句就是「壞習慣！」喔！",
           "speechText": "Bad habit!",
@@ -179,12 +179,12 @@
           "id": "115-s2-g2-english-u1-q9",
           "prompt": "唱字母歌練習「Nn 到 Zz」時，排在大寫字母「Q, R」後面的字母是誰？",
           "options": [
-            "S",
             "T",
+            "S",
             "P",
             "O"
           ],
-          "answerIndex": 0,
+          "answerIndex": 1,
           "explanation": "字母順序是 ... N, O, P, Q, R, S, T，所以 Q、R 後面是 S。",
           "hint": "唸唸看 P, Q, R, ___，下一個是誰呢？",
           "speechText": "Q, R, S",
@@ -199,11 +199,11 @@
           "prompt": "在繪本《The Crocodile and the Dentist》裡，如果鱷魚害怕看牙醫，我們可以怎麼安慰牠？",
           "options": [
             "跟牠說以後永遠不要刷牙了",
-            "鼓勵牠勇敢張開嘴巴讓牙醫檢查，牙齒才不會痛",
             "叫牠用力咬牙醫的手",
+            "鼓勵牠勇敢張開嘴巴讓牙醫檢查，牙齒才不會痛",
             "叫牠躲起來不要去看醫生"
           ],
-          "answerIndex": 1,
+          "answerIndex": 2,
           "explanation": "勇敢配合牙醫檢查並養成每天刷牙的好習慣，牙齒才會健康不痛痛。",
           "hint": "想一想，怎樣才能像「Good habit」一樣保護牙齒呢？",
           "speechText": "Good habit",
@@ -258,10 +258,10 @@
           "options": [
             "Tree",
             "Water",
-            "Brave",
-            "Recycle"
+            "Recycle",
+            "Brave"
           ],
-          "answerIndex": 3,
+          "answerIndex": 2,
           "explanation": "「Recycle」的意思就是「回收再利用」，幫資源找到新生命。",
           "hint": "點喇叭聽聽看「資源回收（Recycle）」怎麼念！",
           "speechText": "Recycle",
@@ -275,12 +275,12 @@
           "id": "115-s2-g2-english-u2-q3",
           "prompt": "讀完繪本《Somebody Swallowed Stanley》（有人把塑膠袋史丹利吞下去了）後，為了減少海洋塑膠袋危機，我們怎麼做最棒？",
           "options": [
-            "出門自備環保袋重複使用（Reuse），少拿塑膠袋",
             "把用完的塑膠袋直接丟進排水溝或海邊",
             "買一塊橡皮擦也一定要多拿三個塑膠袋",
-            "把塑膠袋當成玩具在海面上亂丟"
+            "把塑膠袋當成玩具在海面上亂丟",
+            "出門自備環保袋重複使用（Reuse），少拿塑膠袋"
           ],
-          "answerIndex": 0,
+          "answerIndex": 3,
           "explanation": "重複使用環保袋（Reuse）並減少拿取一次性塑膠袋（Reduce），才能保護大海裡的動物不誤食塑膠袋。",
           "hint": "想要救救海洋裡的海龜和魚兒，要用環保 3R 裡的哪一個行動呢？",
           "speechText": "Reduce, Reuse, Recycle",
@@ -294,12 +294,12 @@
           "id": "115-s2-g2-english-u2-q4",
           "prompt": "開學認識新朋友或遇到新同學時，微笑著對他說「很高興認識你。」，要用哪一句英文打招呼？",
           "options": [
+            "Nice to meet you.",
             "Hurry up!",
             "Bad habit!",
-            "Nice to meet you.",
             "Brush teeth."
           ],
-          "answerIndex": 2,
+          "answerIndex": 0,
           "explanation": "「Nice to meet you.」的意思是「很高興認識你。」，meet 是見面、認識的意思。",
           "hint": "句子裡有「Nice（很好的）」和「meet you（見到你）」喔！",
           "speechText": "Nice to meet you.",
@@ -334,10 +334,10 @@
           "options": [
             "Water",
             "Earth",
-            "Reduce",
-            "Tree"
+            "Tree",
+            "Reduce"
           ],
-          "answerIndex": 3,
+          "answerIndex": 2,
           "explanation": "「Tree」就是「樹、樹木」；Water 是水、Earth 是地球、Reduce 是減量。",
           "hint": "點喇叭聽聽看「樹（Tree）」的發音喔！",
           "speechText": "Tree",
@@ -351,12 +351,12 @@
           "id": "115-s2-g2-english-u2-q7",
           "prompt": "愛護地球的 3R 行動「Reduce, Reuse, Recycle」中，少買不需要的東西、少拿塑膠袋來「減少垃圾量」，是哪一個字？",
           "options": [
-            "Reduce",
             "Tree",
             "Earth",
-            "Sure"
+            "Sure",
+            "Reduce"
           ],
-          "answerIndex": 0,
+          "answerIndex": 3,
           "explanation": "「Reduce」的意思是「減量、減少使用」，從源頭少用一次性物品最環保！",
           "hint": "點喇叭聽聽看「減量（Reduce）」怎麼念喔！",
           "speechText": "Reduce",
@@ -370,12 +370,12 @@
           "id": "115-s2-g2-english-u2-q8",
           "prompt": "在《The Earth Book》裡，我們每天洗手、喝水都要珍惜的「水」，英文單字是哪一個？",
           "options": [
+            "Water",
             "Earth",
             "Tree",
-            "Water",
             "Reuse"
           ],
-          "answerIndex": 2,
+          "answerIndex": 0,
           "explanation": "「Water」就是「水」，記得洗完手要關緊水龍頭節約用水喔！",
           "hint": "這個單字以字母 W 開頭，每天口渴都要喝它喔！",
           "speechText": "Water",
@@ -466,12 +466,12 @@
           "id": "115-s2-g2-english-u3-q2",
           "prompt": "看到同學東西掉了主動幫忙撿起來，真是又「善良（Kind）」又「樂於助人的」。請問「樂於助人的」英文單字是哪一個？",
           "options": [
-            "Helpful",
             "Dentist",
             "Recycle",
-            "Bad habit"
+            "Bad habit",
+            "Helpful"
           ],
-          "answerIndex": 0,
+          "answerIndex": 3,
           "explanation": "「Help」是幫忙，加上字尾變成「Helpful」，意思就是「樂於助人的、有幫助的」。",
           "hint": "裡面藏著「幫忙（help）」這四個字母的單字就是答案喔！",
           "speechText": "Helpful",
@@ -485,12 +485,12 @@
           "id": "115-s2-g2-english-u3-q3",
           "prompt": "同學幫你撿起掉在地上的鉛筆盒，笑著對你說「Here you are.（給你。）」，你想真誠地回答「非常謝謝你。」，要說哪一句？",
           "options": [
+            "Thank you very much.",
             "May I come in?",
             "Hurry up!",
-            "Nice to meet you.",
-            "Thank you very much."
+            "Nice to meet you."
           ],
-          "answerIndex": 3,
+          "answerIndex": 0,
           "explanation": "「Thank you very much.」的意思是「非常謝謝你。」，比「Thank you.」更表達滿滿的感謝。",
           "hint": "看到裡面有「Thank you」和「very much（非常）」的那一句就是囉！",
           "speechText": "Thank you very much.",
@@ -542,12 +542,12 @@
           "id": "115-s2-g2-english-u3-q6",
           "prompt": "複習英文字母「Nn 到 Zz」的順序！從 N 往後唸時，緊接在「S, T, U」後面的兩個大寫字母是哪一組？",
           "options": [
-            "V, W",
             "W, X",
             "X, Y",
-            "P, Q"
+            "P, Q",
+            "V, W"
           ],
-          "answerIndex": 0,
+          "answerIndex": 3,
           "explanation": "字母順序是 N, O, P, Q, R, S, T, U, V, W, X, Y, Z，所以接在 S, T, U 後面的是 V, W。",
           "hint": "在心裡輕輕唱字母歌：S, T, U ... 接下來要唱哪兩個字母呢？",
           "speechText": "S, T, U, V, W",
@@ -561,12 +561,12 @@
           "id": "115-s2-g2-english-u3-q7",
           "prompt": "對同學很溫柔、說話很有禮貌，形容一個人「善良的、親切的」，要用哪一個英文單字？",
           "options": [
-            "Summer",
             "Kind",
+            "Summer",
             "Dentist",
             "Recycle"
           ],
-          "answerIndex": 1,
+          "answerIndex": 0,
           "explanation": "「Kind」的意思是「善良的、親切的」，和 Brave、Helpful 一樣都是超級英雄的好特質。",
           "hint": "這個形容詞以字母 K 開頭，代表「仁慈、親切」的意思喔！",
           "speechText": "Kind",
@@ -581,11 +581,11 @@
           "prompt": "在《This Is My Family》裡，想感謝家人每天照顧我們，大聲對爸爸媽媽說「非常謝謝你。」，英文怎麼說？",
           "options": [
             "May I come in?",
+            "Thank you very much.",
             "Wait for me!",
-            "Bad habit!",
-            "Thank you very much."
+            "Bad habit!"
           ],
-          "answerIndex": 3,
+          "answerIndex": 1,
           "explanation": "「Thank you very much.」表示「非常謝謝你。」，對家人說出感謝會讓家裡更溫暖。",
           "hint": "找找看裡面有「Thank you（謝謝你）」的那一句喔！",
           "speechText": "Thank you very much.",
@@ -599,12 +599,12 @@
           "id": "115-s2-g2-english-u3-q9",
           "prompt": "在「Nn 到 Zz」字母順序裡，排在「U, V」後面的兩個大寫字母是哪一組？",
           "options": [
-            "W, X",
             "S, T",
             "Y, Z",
-            "P, Q"
+            "P, Q",
+            "W, X"
           ],
-          "answerIndex": 0,
+          "answerIndex": 3,
           "explanation": "字母順序是 ... S, T, U, V, W, X, Y, Z，所以 U、V 後面是 W, X。",
           "hint": "唸唸看 S, T, U, V, ___, ___！",
           "speechText": "U, V, W, X",
@@ -618,12 +618,12 @@
           "id": "115-s2-g2-english-u3-q10",
           "prompt": "當你把水彩筆遞給同學，說「Here you are.」，同學回答「Thank you very much.」時，這段對話表現出什麼？",
           "options": [
-            "彼此生氣不講話",
             "互相幫忙又有禮貌的好相處",
+            "彼此生氣不講話",
             "忘記帶作業",
             "在教室裡大聲吵鬧"
           ],
-          "answerIndex": 1,
+          "answerIndex": 0,
           "explanation": "借東西說「給你」和「非常謝謝你」，是有禮貌又友愛的好表現。",
           "hint": "Here you are 和 Thank you very much 都是很溫暖的禮貌用語喔！",
           "speechText": "Here you are. Thank you very much.",
@@ -676,12 +676,12 @@
           "id": "115-s2-g2-english-u4-q2",
           "prompt": "戶外探索準備出發了，你的鞋帶剛好鬆開需要綁一下，想大聲叫前面的同學「等等我！」，英文要怎麼說？",
           "options": [
-            "May I come in?",
             "Wait for me!",
+            "May I come in?",
             "Here you are.",
             "Good habit!"
           ],
-          "answerIndex": 1,
+          "answerIndex": 0,
           "explanation": "「Wait」是等待，「for me」是等我，合起來「Wait for me!」就是「等等我！」。",
           "hint": "找找看裡面有「等（Wait）」和「我（me）」的那一句喔！",
           "speechText": "Wait for me!",
@@ -695,12 +695,12 @@
           "id": "115-s2-g2-english-u4-q3",
           "prompt": "早上搭公車或走進校門後，你想微笑著祝福朋友「祝你有美好的一天！」，要說下面哪一句英文？",
           "options": [
-            "Have a nice day.",
             "Bad habit!",
+            "Have a nice day.",
             "Brush teeth.",
             "May I borrow a pen?"
           ],
-          "answerIndex": 0,
+          "answerIndex": 1,
           "explanation": "「Have a nice day.」是非常親切的祝福語，意思是「祝你有美好的一天。」。",
           "hint": "句子裡有「nice（美好的）」和「day（一天）」喔！",
           "speechText": "Have a nice day.",
@@ -753,12 +753,12 @@
           "id": "115-s2-g2-english-u4-q6",
           "prompt": "校園尋寶大考驗！下面四組「Nn 到 Zz」的英文字母卡中，哪一組的大小寫配對完全正確？",
           "options": [
-            "N - m",
             "T - t",
+            "N - m",
             "Q - p",
             "U - n"
           ],
-          "answerIndex": 1,
+          "answerIndex": 0,
           "explanation": "「T - t」的大寫與小寫配對完全正確！另外三組都把長得相像的字母弄混了。",
           "hint": "注意小寫 t 像一個小小的十字架下面彎起來，不會跟別的字母搞混喔！",
           "speechText": "T, t",
@@ -772,12 +772,12 @@
           "id": "115-s2-g2-english-u4-q7",
           "prompt": "繪本《Summer》帶領大家去夏日戶外探索。請問單字「Summer」指的是哪一個季節？",
           "options": [
-            "夏天",
             "冬天",
+            "夏天",
             "秋天",
             "春天"
           ],
-          "answerIndex": 0,
+          "answerIndex": 1,
           "explanation": "「Summer」的意思是「夏天」，太陽很大、可以去泳池安全戲水的季節。",
           "hint": "看看這個單元的名稱「夏日安全冒險王」就知道了喔！",
           "speechText": "Summer",
@@ -810,12 +810,12 @@
           "id": "115-s2-g2-english-u4-q9",
           "prompt": "在「夏日安全冒險王」搭公車或捷運等大眾運輸工具時，下面哪一個行為最安全又有禮貌？",
           "options": [
+            "排隊上車、坐好並握緊扶手",
             "在車廂裡跑來跑去大叫",
             "把頭和手伸出車窗外",
-            "排隊上車、坐好並握緊扶手",
             "把垃圾塞在座位下面"
           ],
-          "answerIndex": 2,
+          "answerIndex": 0,
           "explanation": "搭乘大眾運輸工具要排隊上下車，站立時握緊扶手、不奔跑喧嘩，才安全又有公德心。",
           "hint": "搭公車或捷運時，怎麼做才不會跌倒也不吵到別人呢？",
           "speechText": "Have a nice day.",
@@ -830,11 +830,11 @@
           "prompt": "把「Nn 到 Zz」的大寫「T, U, V」變成小寫字母，下面哪一組全部都對？",
           "options": [
             "t, n, v",
+            "t, u, v",
             "f, u, v",
-            "t, u, w",
-            "t, u, v"
+            "t, u, w"
           ],
-          "answerIndex": 3,
+          "answerIndex": 1,
           "explanation": "大寫 T 配小寫 t，大寫 U 配小寫 u，大寫 V 配小寫 v。",
           "hint": "注意 u 圓圓的開口朝上，v 尖尖的像小山谷喔！",
           "speechText": "t, u, v",
@@ -842,6 +842,1266 @@
           "tags": [
             "Nn-Zz",
             "Letters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g2-english-u5",
+      "subjectId": "english",
+      "title": "Fun World 4 · Unit 1 Let's Read",
+      "description": "《Fun World 4》Unit 1：學會字母 Nn (nose)、Oo (octopus)、Pp (pencil)，生活用語 Nice to meet you，與國家 New Zealand！",
+      "difficulty": "easy",
+      "monsterId": "slime",
+      "monsterName": "章魚書本史萊姆",
+      "monsterHp": 110,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 2,
+        "publisher": "何嘉仁",
+        "bookSeries": "Fun World 4",
+        "unitNo": 5
+      },
+      "questions": [
+        {
+          "id": "115-s2-g2-english-u5-q1",
+          "prompt": "在《Fun World 4》Unit 1 中，字母 Nn 的代表單字「nose」是什麼？",
+          "options": [
+            "鼻子",
+            "眼睛",
+            "嘴巴",
+            "耳朵"
+          ],
+          "answerIndex": 0,
+          "explanation": "Nn — nose 是「鼻子」的意思！",
+          "hint": "在臉部中間用來聞味道和呼吸的部位。",
+          "speechText": "N, nose",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Nn"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u5-q2",
+          "prompt": "在《Fun World 4》Unit 1 中，字母 Oo 的代表單字「octopus」是什麼？",
+          "options": [
+            "貓頭鷹",
+            "章魚",
+            "橘子",
+            "鉛筆"
+          ],
+          "answerIndex": 1,
+          "explanation": "Oo — octopus 是有八隻腳的「章魚」！",
+          "hint": "住在海裡、有八隻觸手的海洋動物。",
+          "speechText": "O, octopus",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Oo"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u5-q3",
+          "prompt": "在《Fun World 4》Unit 1 中，字母 Pp 的代表單字「pencil」是什麼？",
+          "options": [
+            "書本",
+            "橡皮擦",
+            "鉛筆",
+            "尺"
+          ],
+          "answerIndex": 2,
+          "explanation": "Pp — pencil 是「鉛筆」的意思！",
+          "hint": "寫字和畫畫時最常用的文具。",
+          "speechText": "P, pencil",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Pp"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u5-q4",
+          "prompt": "初次見面說「Nice to meet you.」，對方很有禮貌地怎麼回答？",
+          "options": [
+            "I'm sorry.",
+            "Hurry up!",
+            "Here you are.",
+            "Nice to meet you, too."
+          ],
+          "answerIndex": 3,
+          "explanation": "聽到「Nice to meet you.」（很高興認識你），回答「Nice to meet you, too.」（我也很高興認識你）。",
+          "hint": "在句尾加上「, too.」表示「也」！",
+          "speechText": "Nice to meet you, too.",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Phrase"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u5-q5",
+          "prompt": "《Fun World 4》Unit 1 介紹的國家「New Zealand」中文是什麼？",
+          "options": [
+            "紐西蘭",
+            "英國",
+            "美國",
+            "臺灣"
+          ],
+          "answerIndex": 0,
+          "explanation": "New Zealand 是「紐西蘭」，以奇異鳥和美麗草原聞名。",
+          "hint": "在澳洲旁邊、有奇異鳥的國家！",
+          "speechText": "New Zealand",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Culture"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u5-q6",
+          "prompt": "《Fun World 4》Unit 1 的「聰明小讀者」活動教大家看書本的哪個部分？",
+          "options": [
+            "看時鐘報讀時間",
+            "閱讀並理解書本封面的資訊",
+            "認識交通號誌",
+            "寫信封地址"
+          ],
+          "answerIndex": 1,
+          "explanation": "「聰明小讀者」帶大家從書本封面找出書名、作者與故事線索！",
+          "hint": "拿到一本新書最先看到的外面那一頁。",
+          "speechText": "Book cover",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Reading"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u5-q7",
+          "prompt": "請選出「Nn, Oo, Pp」的正確代表單字組合：",
+          "options": [
+            "queen, rabbit, snake",
+            "turtle, up, van",
+            "nose, octopus, pencil",
+            "window, fox, zebra"
+          ],
+          "answerIndex": 2,
+          "explanation": "Nn nose, Oo octopus, Pp pencil！",
+          "hint": "找 n、o、p 開頭的三個單字。",
+          "speechText": "nose, octopus, pencil",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Nn-Pp"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u5-q8",
+          "prompt": "在 Nn, Oo, Pp 三個字母中，哪一個是「母音」？",
+          "options": [
+            "Nn",
+            "Pp",
+            "三個都不是",
+            "Oo"
+          ],
+          "answerIndex": 3,
+          "explanation": "5 個母音是 A, E, I, O, U，所以 Oo 是母音！",
+          "hint": "母音口訣 a, e, i, o, u！",
+          "speechText": "O is a vowel.",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Phonics"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u5-q9",
+          "prompt": "字母 Pp 在單字「pencil」裡發什麼音？",
+          "options": [
+            "/b/",
+            "/p/",
+            "/n/",
+            "/ɑ/"
+          ],
+          "answerIndex": 1,
+          "explanation": "Pp 發無聲子音 /p/，念 pencil 時雙唇緊閉再送氣爆破。",
+          "hint": "輕輕念 p-p-pencil！",
+          "speechText": "pencil",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Phonics"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u5-q10",
+          "prompt": "下面哪一個英文單字是指「在海洋裡游泳的動物」？",
+          "options": [
+            "nose",
+            "pencil",
+            "octopus",
+            "window"
+          ],
+          "answerIndex": 2,
+          "explanation": "octopus（章魚）是海洋動物。",
+          "hint": "o 開頭的動物。",
+          "speechText": "octopus",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Vocabulary"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g2-english-u6",
+      "subjectId": "english",
+      "title": "Fun World 4 · Unit 2 Visit the Museum",
+      "description": "《Fun World 4》Unit 2：學會字母 Qq (queen)、Rr (rabbit)、Ss (snake)，生活用語 Have a nice day / You, too，與國家 the UK！",
+      "difficulty": "easy",
+      "monsterId": "goblin",
+      "monsterName": "博物館皇冠哥布林",
+      "monsterHp": 115,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 2,
+        "publisher": "何嘉仁",
+        "bookSeries": "Fun World 4",
+        "unitNo": 6
+      },
+      "questions": [
+        {
+          "id": "115-s2-g2-english-u6-q1",
+          "prompt": "在《Fun World 4》Unit 2 中，字母 Qq 的代表單字「queen」是什麼？",
+          "options": [
+            "國王",
+            "皇后／女王",
+            "兔子",
+            "蛇"
+          ],
+          "answerIndex": 1,
+          "explanation": "Qq — queen 是「皇后／女王」的意思！",
+          "hint": "戴著皇冠的女性統治者。",
+          "speechText": "Q, queen",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Qq"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u6-q2",
+          "prompt": "在《Fun World 4》Unit 2 中，字母 Rr 的代表單字「rabbit」是什麼？",
+          "options": [
+            "烏龜",
+            "狐狸",
+            "兔子",
+            "斑馬"
+          ],
+          "answerIndex": 2,
+          "explanation": "Rr — rabbit 是「兔子」的意思！",
+          "hint": "耳朵長長、愛吃紅蘿蔔、跳來跳去的動物。",
+          "speechText": "R, rabbit",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Rr"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u6-q3",
+          "prompt": "在《Fun World 4》Unit 2 中，字母 Ss 的代表單字「snake」是什麼？",
+          "options": [
+            "兔子",
+            "烏龜",
+            "小鳥",
+            "蛇"
+          ],
+          "answerIndex": 3,
+          "explanation": "Ss — snake 是「蛇」的意思！",
+          "hint": "沒有腳、身體長長在地上滑行的動物。",
+          "speechText": "S, snake",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Ss"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u6-q4",
+          "prompt": "朋友祝你「Have a nice day.」（祝你有美好的一天），你可以怎麼回應？",
+          "options": [
+            "You, too.",
+            "Hurry up.",
+            "Let's play.",
+            "Here you are."
+          ],
+          "answerIndex": 0,
+          "explanation": "聽到「Have a nice day.」，最簡潔親切的回應是「You, too.」（你也是喔）。",
+          "hint": "兩個字的回應，意思是「你也是」。",
+          "speechText": "Have a nice day. You, too.",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Phrase"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u6-q5",
+          "prompt": "《Fun World 4》Unit 2 介紹的國家「the UK」中文是什麼？",
+          "options": [
+            "美國",
+            "英國",
+            "紐西蘭",
+            "臺灣"
+          ],
+          "answerIndex": 1,
+          "explanation": "the UK 是「英國」（United Kingdom），倫敦有著名的大英博物館與大笨鐘。",
+          "hint": "大英博物館所在的歐洲島國！",
+          "speechText": "the UK",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Culture"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u6-q6",
+          "prompt": "單元主題「Visit the Museum」是什麼意思？",
+          "options": [
+            "去露營",
+            "玩躲避球",
+            "參觀博物館",
+            "去買菜"
+          ],
+          "answerIndex": 2,
+          "explanation": "Visit the Museum 是「參觀博物館」。",
+          "hint": "museum 是展示文物與藝術品的地方喔！",
+          "speechText": "Visit the Museum",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Title"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u6-q7",
+          "prompt": "《Fun World 4》Unit 2 的「地圖的秘密」跨領域活動在練習什麼？",
+          "options": [
+            "畫水果",
+            "背九九乘法",
+            "認識樂器",
+            "閱讀並理解標誌圖示"
+          ],
+          "answerIndex": 3,
+          "explanation": "在博物館或街道上，要學會看懂地圖與各種標誌圖示（如出口、洗手間、禁止觸摸）。",
+          "hint": "看地圖時會有很多小圖案告訴你方向和規定！",
+          "speechText": "Map signs",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Life"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u6-q8",
+          "prompt": "下面哪一組字母與代表字對應正確？",
+          "options": [
+            "Qq — queen",
+            "Rr — snake",
+            "Ss — rabbit",
+            "Qq — rabbit"
+          ],
+          "answerIndex": 0,
+          "explanation": "Qq 是 queen，Rr 是 rabbit，Ss 是 snake。",
+          "hint": "queen 是 q 開頭！",
+          "speechText": "Q, queen",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Qq-Ss"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u6-q9",
+          "prompt": "單字「snake」的第一個字母 Ss 發什麼音？",
+          "options": [
+            "/r/",
+            "/kw/",
+            "/s/",
+            "/t/"
+          ],
+          "answerIndex": 2,
+          "explanation": "Ss 發 /s/，聽起來就像蛇吐信嘶嘶的聲音！",
+          "hint": "像氣球漏氣「嘶～」的聲音。",
+          "speechText": "snake",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Phonics"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u6-q10",
+          "prompt": "字母「q」和「p」長得很像，請問「queen」的開頭小寫「q」尾巴朝哪裡彎？",
+          "options": [
+            "圓肚子在右，直線往上",
+            "沒有圓肚子",
+            "像圓圈 O",
+            "圓肚子在左，尾巴往下再向右勾（或直下）"
+          ],
+          "answerIndex": 3,
+          "explanation": "小寫 p 圓肚子在右、q 圓肚子在左！記住 p (pencil) 朝右、q (queen) 朝左。",
+          "hint": "b 和 p 肚子朝右；d 和 q 肚子朝左！",
+          "speechText": "queen",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Letters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g2-english-u7",
+      "subjectId": "english",
+      "title": "Fun World 4 · Review 1（母親節）",
+      "description": "《Fun World 4》Review 1：總複習字母 Nn–Ss 與 6 個代表單字，搭配母親節情境與生活用語溝通！",
+      "difficulty": "easy",
+      "monsterId": "golem",
+      "monsterName": "康乃馨花束石怪",
+      "monsterHp": 120,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 2,
+        "publisher": "何嘉仁",
+        "bookSeries": "Fun World 4",
+        "unitNo": 7
+      },
+      "questions": [
+        {
+          "id": "115-s2-g2-english-u7-q1",
+          "prompt": "複習 Nn–Ss 六個字母！下面哪一組順序完全正確？",
+          "options": [
+            "N, P, O, Q, R, S",
+            "N, O, Q, P, S, R",
+            "N, O, P, Q, R, S",
+            "M, N, O, Q, P, S"
+          ],
+          "answerIndex": 2,
+          "explanation": "正確順序是 N, O, P, Q, R, S。",
+          "hint": "照順序念：N-O-P-Q-R-S！",
+          "speechText": "N, O, P, Q, R, S",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Review 1"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u7-q2",
+          "prompt": "《Fun World 4》Review 1 搭配的五月重要節慶是哪一個？",
+          "options": [
+            "萬聖節",
+            "農曆新年",
+            "中秋節",
+            "母親節"
+          ],
+          "answerIndex": 3,
+          "explanation": "Fun World 4 Review 1 結合「母親節」（Mother's Day），課本還有製作母親節卡片活動！",
+          "hint": "五月第二個星期天向媽媽表達感謝的節日。",
+          "speechText": "Mother's Day",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Festival"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u7-q3",
+          "prompt": "請選出「Nn, Oo, Pp」的代表單字組合：",
+          "options": [
+            "nose, octopus, pencil",
+            "queen, rabbit, snake",
+            "ant, bird, cup",
+            "turtle, up, van"
+          ],
+          "answerIndex": 0,
+          "explanation": "Nn nose, Oo octopus, Pp pencil。",
+          "hint": "先找 n, o, p 開頭的字。",
+          "speechText": "nose, octopus, pencil",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Review 1"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u7-q4",
+          "prompt": "請選出「Qq, Rr, Ss」的代表單字組合：",
+          "options": [
+            "nose, octopus, pencil",
+            "queen, rabbit, snake",
+            "girl, hat, igloo",
+            "jam, key, lamp"
+          ],
+          "answerIndex": 1,
+          "explanation": "Qq queen, Rr rabbit, Ss snake。",
+          "hint": "找 q, r, s 開頭的字。",
+          "speechText": "queen, rabbit, snake",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Review 1"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u7-q5",
+          "prompt": "把下列單字分類，哪一個「是動物」？",
+          "options": [
+            "pencil",
+            "nose",
+            "rabbit",
+            "cup"
+          ],
+          "answerIndex": 2,
+          "explanation": "rabbit（兔子）是動物；pencil（鉛筆）、cup（杯子）是物品，nose（鼻子）是身體部位。",
+          "hint": "長耳朵的動物！",
+          "speechText": "rabbit",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u7-q6",
+          "prompt": "與人分別時對方說「Have a nice day.」，下面哪一句回應最適合？",
+          "options": [
+            "Nice to meet you.",
+            "I have an idea.",
+            "Listen.",
+            "You, too."
+          ],
+          "answerIndex": 3,
+          "explanation": "「You, too.」（你也是）用來回應「Have a nice day.」。",
+          "hint": "兩個字的親切回應！",
+          "speechText": "You, too.",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Phrase"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u7-q7",
+          "prompt": "初次見面想表達「很高興認識你」，英文要說哪一句？",
+          "options": [
+            "Nice to meet you.",
+            "Have a nice day.",
+            "Thank you.",
+            "Hurry up."
+          ],
+          "answerIndex": 0,
+          "explanation": "「Nice to meet you.」是初次見面的問候語。",
+          "hint": "meet 是「見面、認識」的意思。",
+          "speechText": "Nice to meet you.",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Phrase"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u7-q8",
+          "prompt": "在 Nn, Oo, Pp, Qq, Rr, Ss 中，哪一個字母是母音？",
+          "options": [
+            "Nn",
+            "Oo",
+            "Qq",
+            "Rr"
+          ],
+          "answerIndex": 1,
+          "explanation": "Oo 是母音（A, E, I, O, U 之一）。",
+          "hint": "圓圓像甜甜圈的字母！",
+          "speechText": "O is a vowel.",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Phonics"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u7-q9",
+          "prompt": "母親節想在卡片上祝媽媽「母親節快樂！」，可以說哪一句？",
+          "options": [
+            "Merry Christmas!",
+            "Good morning!",
+            "I'm sorry.",
+            "Happy Mother's Day!"
+          ],
+          "answerIndex": 3,
+          "explanation": "「Happy Mother's Day!」就是「母親節快樂！」。",
+          "hint": "Mother 是媽媽的意思喔！",
+          "speechText": "Happy Mother's Day!",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Festival"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u7-q10",
+          "prompt": "哪兩個單字在《Fun World 4》Unit 1–2 中「都是海洋或陸地上的野生動物」？",
+          "options": [
+            "octopus 和 snake",
+            "nose 和 pencil",
+            "pencil 和 queen",
+            "nose 和 queen"
+          ],
+          "answerIndex": 0,
+          "explanation": "octopus（章魚）與 snake（蛇）都是動物。",
+          "hint": "找兩個動物名字！",
+          "speechText": "octopus, snake",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Vocabulary"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g2-english-u8",
+      "subjectId": "english",
+      "title": "Fun World 4 · Unit 3 Fun Time",
+      "description": "《Fun World 4》Unit 3：學會字母 Tt (turtle)、Uu (up)、Vv (van)，生活用語 Let's play / Hurry up，與國家 the USA！",
+      "difficulty": "medium",
+      "monsterId": "slime",
+      "monsterName": "小烏龜廂型車史萊姆",
+      "monsterHp": 120,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 2,
+        "publisher": "何嘉仁",
+        "bookSeries": "Fun World 4",
+        "unitNo": 8
+      },
+      "questions": [
+        {
+          "id": "115-s2-g2-english-u8-q1",
+          "prompt": "在《Fun World 4》Unit 3 中，字母 Tt 的代表單字「turtle」是什麼？",
+          "options": [
+            "兔子",
+            "蛇",
+            "斑馬",
+            "烏龜"
+          ],
+          "answerIndex": 3,
+          "explanation": "Tt — turtle 是「烏龜」的意思！",
+          "hint": "背著硬殼、慢慢爬的動物。",
+          "speechText": "T, turtle",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Tt"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u8-q2",
+          "prompt": "在《Fun World 4》Unit 3 中，字母 Uu 的代表單字「up」是什麼？",
+          "options": [
+            "向上／在上面",
+            "向下",
+            "箱型車",
+            "窗戶"
+          ],
+          "answerIndex": 0,
+          "explanation": "Uu — up 是「向上／往上」的意思！",
+          "hint": "Hurry up! 裡面也有這個字喔，手指指著天空方向！",
+          "speechText": "U, up",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Uu"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u8-q3",
+          "prompt": "在《Fun World 4》Unit 3 中，字母 Vv 的代表單字「van」是什麼？",
+          "options": [
+            "腳踏車",
+            "箱型車／小貨車",
+            "火車",
+            "飛機"
+          ],
+          "answerIndex": 1,
+          "explanation": "Vv — van 是「箱型車／休旅貨車」的意思！",
+          "hint": "v-a-n，路上常見的四輪車子。",
+          "speechText": "V, van",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Vv"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u8-q4",
+          "prompt": "下課想約同學「我們一起玩吧！」，要說哪一句英文？",
+          "options": [
+            "Hurry up.",
+            "Here you are.",
+            "Let's play.",
+            "Thank you."
+          ],
+          "answerIndex": 2,
+          "explanation": "「Let's play.」意思是「我們來玩吧！」。",
+          "hint": "play 是「玩」的意思喔！",
+          "speechText": "Let's play.",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Phrase"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u8-q5",
+          "prompt": "想提醒動作慢的同伴「快一點！」，英文要說哪一句？",
+          "options": [
+            "Let's play.",
+            "You, too.",
+            "Nice to meet you.",
+            "Hurry up."
+          ],
+          "answerIndex": 3,
+          "explanation": "「Hurry up.」意思是「快一點！趕快！」。",
+          "hint": "裡面有 Unit 3 學的單字 up！",
+          "speechText": "Hurry up.",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Phrase"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u8-q6",
+          "prompt": "《Fun World 4》Unit 3 介紹的國家「the USA」中文是什麼？",
+          "options": [
+            "美國",
+            "英國",
+            "紐西蘭",
+            "臺灣"
+          ],
+          "answerIndex": 0,
+          "explanation": "the USA（United States of America）是「美國」。",
+          "hint": "有自由女神像的國家！",
+          "speechText": "the USA",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Culture"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u8-q7",
+          "prompt": "《Fun World 4》Unit 3 的跨領域活動「購物小幫手」在練習什麼？",
+          "options": [
+            "學寫毛筆字",
+            "閱讀商品說明及相關資訊",
+            "認識昆蟲",
+            "練習跳繩"
+          ],
+          "answerIndex": 1,
+          "explanation": "「購物小幫手」讓大家看懂商品包裝上的說明與標示。",
+          "hint": "買東西前看清楚包裝上的資訊！",
+          "speechText": "Shopping helper",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Life"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u8-q8",
+          "prompt": "在 Tt, Uu, Vv 三個字母中，哪一個是「母音」？",
+          "options": [
+            "Tt",
+            "Vv",
+            "Uu",
+            "三個都是"
+          ],
+          "answerIndex": 2,
+          "explanation": "5 個母音是 A, E, I, O, U，所以 Uu 是母音！",
+          "hint": "念母音口訣 a, e, i, o, u 的最後一個！",
+          "speechText": "U is a vowel.",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Phonics"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u8-q9",
+          "prompt": "單字「van」的第一個字母 Vv 發音時，牙齒和嘴唇要怎麼擺？",
+          "options": [
+            "上排牙齒輕輕碰下嘴唇震動發 /v/",
+            "雙唇緊閉不震動",
+            "嘴巴張大發 /ɑ/",
+            "舌頭捲起來"
+          ],
+          "answerIndex": 0,
+          "explanation": "Vv 發 /v/，上排門牙輕碰下嘴唇並發出有聲震動！",
+          "hint": "跟 /f/ 嘴型一樣，但喉嚨要震動喔！",
+          "speechText": "van",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Phonics"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u8-q10",
+          "prompt": "請選出「Tt, Uu, Vv」的代表單字組合：",
+          "options": [
+            "queen, rabbit, snake",
+            "turtle, up, van",
+            "window, fox, zebra",
+            "nose, octopus, pencil"
+          ],
+          "answerIndex": 1,
+          "explanation": "Tt turtle, Uu up, Vv van！",
+          "hint": "找 t, u, v 開頭的單字。",
+          "speechText": "turtle, up, van",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Tt-Vv"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g2-english-u9",
+      "subjectId": "english",
+      "title": "Fun World 4 · Unit 4 Be Thankful",
+      "description": "《Fun World 4》Unit 4：學會字母 Ww (window)、Xx (fox)、Yy (yellow)、Zz (zebra)，生活用語 Here you are / Thank you very much，與國家 Taiwan！",
+      "difficulty": "medium",
+      "monsterId": "bat",
+      "monsterName": "斑馬狐狸感謝蝠",
+      "monsterHp": 125,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 2,
+        "publisher": "何嘉仁",
+        "bookSeries": "Fun World 4",
+        "unitNo": 9
+      },
+      "questions": [
+        {
+          "id": "115-s2-g2-english-u9-q1",
+          "prompt": "在《Fun World 4》Unit 4 中，字母 Ww 的代表單字「window」是什麼？",
+          "options": [
+            "窗戶",
+            "門",
+            "桌子",
+            "椅子"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ww — window 是「窗戶」的意思！",
+          "hint": "房間牆壁上可以打開看風景、透氣的地方。",
+          "speechText": "W, window",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Ww"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u9-q2",
+          "prompt": "在《Fun World 4》Unit 4 中，字母 Xx 的代表單字「fox」是什麼？",
+          "options": [
+            "箱子",
+            "狐狸",
+            "斑馬",
+            "兔子"
+          ],
+          "answerIndex": 1,
+          "explanation": "Xx — fox 是「狐狸」的意思（x 在字尾發 /ks/ 的音）！",
+          "hint": "尾巴蓬鬆、紅棕色、聰明機警的動物。",
+          "speechText": "X, fox",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Xx"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u9-q3",
+          "prompt": "在《Fun World 4》Unit 4 中，字母 Yy 的代表單字「yellow」是什麼顏色？",
+          "options": [
+            "紅色",
+            "藍色",
+            "黃色",
+            "綠色"
+          ],
+          "answerIndex": 2,
+          "explanation": "Yy — yellow 是「黃色」的意思！",
+          "hint": "香蕉和向日葵的顏色！",
+          "speechText": "Y, yellow",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Yy"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u9-q4",
+          "prompt": "在《Fun World 4》Unit 4 中，字母 Zz 的代表單字「zebra」是什麼？",
+          "options": [
+            "長頸鹿",
+            "獅子",
+            "大象",
+            "斑馬"
+          ],
+          "answerIndex": 3,
+          "explanation": "Zz — zebra 是身上有黑白條紋的「斑馬」！",
+          "hint": "z-e-b-r-a，馬路上的「斑馬線」就是用牠命名的。",
+          "speechText": "Z, zebra",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Zz"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u9-q5",
+          "prompt": "遞東西給別人時說「Here you are.」，收到的人非常感謝可以回答什麼？",
+          "options": [
+            "Thank you very much.",
+            "Hurry up.",
+            "Nice to meet you.",
+            "Listen."
+          ],
+          "answerIndex": 0,
+          "explanation": "「Here you are.」（給你）之後，可以說「Thank you very much.」（非常謝謝你）。",
+          "hint": "「非常謝謝你」是哪一句？",
+          "speechText": "Here you are. Thank you very much.",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Phrase"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u9-q6",
+          "prompt": "《Fun World 4》Unit 4 介紹的國家「Taiwan」就是哪裡？",
+          "options": [
+            "美國",
+            "臺灣",
+            "英國",
+            "荷蘭"
+          ],
+          "answerIndex": 1,
+          "explanation": "Taiwan 就是我們居住的美麗家園「臺灣」！",
+          "hint": "T-a-i-w-a-n！",
+          "speechText": "Taiwan",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Culture"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u9-q7",
+          "prompt": "單元主題「Be thankful」是什麼意思？",
+          "options": [
+            "快一點",
+            "去博物館",
+            "心存感謝",
+            "安靜"
+          ],
+          "answerIndex": 2,
+          "explanation": "Be thankful 是「心存感謝／懂得感恩」的意思！",
+          "hint": "thank 是「感謝」，加上 -ful 變成「充滿感謝的」。",
+          "speechText": "Be thankful",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Title"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u9-q8",
+          "prompt": "在《Fun World 4》Unit 4 中，哪一個單字的「Xx」是放在字尾而不是字首？",
+          "options": [
+            "window",
+            "yellow",
+            "zebra",
+            "fox"
+          ],
+          "answerIndex": 3,
+          "explanation": "f-o-x 的字母 x 在字尾，發 /ks/ 的音。",
+          "hint": "只有三個字母的小動物。",
+          "speechText": "fox",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Phonics"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u9-q9",
+          "prompt": "《Fun World 4》Unit 4 的「寫信練習」跨領域活動在學習閱讀什麼資訊？",
+          "options": [
+            "食物營養標示",
+            "收件與寄件資訊",
+            "紅綠燈號誌",
+            "動物叫聲"
+          ],
+          "answerIndex": 1,
+          "explanation": "寫信練習教大家看懂信封上的收件人（To）與寄件人（From）資訊！",
+          "hint": "寄信前要寫在信封上的資料。",
+          "speechText": "Write a letter",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Life"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u9-q10",
+          "prompt": "請選出「Ww, Xx, Yy, Zz」的四個代表單字組合：",
+          "options": [
+            "turtle, up, van, queen",
+            "nose, octopus, pencil, rabbit",
+            "window, fox, yellow, zebra",
+            "ant, bird, cup, duck"
+          ],
+          "answerIndex": 2,
+          "explanation": "Ww window, Xx fox, Yy yellow, Zz zebra！",
+          "hint": "窗戶、狐狸、黃色、斑馬。",
+          "speechText": "window, fox, yellow, zebra",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Ww-Zz"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115-s2-g2-english-u10",
+      "subjectId": "english",
+      "title": "Fun World 4 · Review 2 & Final Review（夏日活動）",
+      "description": "《Fun World 4》Review 2 & Final Review：總複習 Nn–Zz（進而串聯 A–Z 26 字母）、書寫格線位置與夏日活動！",
+      "difficulty": "medium",
+      "monsterId": "dragon",
+      "monsterName": "字母菜園小飛龍",
+      "monsterHp": 135,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 2,
+        "publisher": "何嘉仁",
+        "bookSeries": "Fun World 4",
+        "unitNo": 10
+      },
+      "questions": [
+        {
+          "id": "115-s2-g2-english-u10-q1",
+          "prompt": "總複習 Nn 到 Zz！下面哪一組字母順序完全正確？",
+          "options": [
+            "T, V, U, W, X, Z, Y",
+            "T, U, V, W, X, Y, Z",
+            "S, T, U, W, V, X, Z",
+            "T, U, W, V, Y, X, Z"
+          ],
+          "answerIndex": 1,
+          "explanation": "最後七個字母的正確順序是 T, U, V, W, X, Y, Z。",
+          "hint": "把字母歌的最後一句唱出來確認！",
+          "speechText": "T, U, V, W, X, Y, Z",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Final Review"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u10-q2",
+          "prompt": "在英語四線格（字母菜園）書寫小寫字母時，哪一組小寫字母都會「往下伸出底下格線」？",
+          "options": [
+            "a, c, e, o, u",
+            "b, d, h, k, l",
+            "g, j, p, q, y",
+            "m, n, r, s, v"
+          ],
+          "answerIndex": 2,
+          "explanation": "g, j, p, q, y 這五個小寫字母都有「小尾巴」往下延伸到第 4 條線！",
+          "hint": "找找看下面有長腳或小彎鉤的字母！",
+          "speechText": "g, j, p, q, y",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Writing"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u10-q3",
+          "prompt": "從 A 到 Z 一共 26 個字母中，哪 5 個是「母音字母」？",
+          "options": [
+            "A, B, C, D, E",
+            "N, O, P, Q, R",
+            "V, W, X, Y, Z",
+            "A, E, I, O, U"
+          ],
+          "answerIndex": 3,
+          "explanation": "英語 5 個母音字母是 A, E, I, O, U！",
+          "hint": "背熟五個母音：a, e, i, o, u！",
+          "speechText": "A, E, I, O, U",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Phonics"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u10-q4",
+          "prompt": "《Fun World 4》Review 2 的主題是什麼？",
+          "options": [
+            "夏日活動",
+            "萬聖節",
+            "農曆新年",
+            "聖誕節"
+          ],
+          "answerIndex": 0,
+          "explanation": "Fun World 4 Review 2 主題是「夏日活動」，搭配情境理解與順序判斷！",
+          "hint": "二下期末快放暑假時的季節活動。",
+          "speechText": "Summer activities",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Review 2"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u10-q5",
+          "prompt": "下面哪一組國家是《Fun World 4》（二下）介紹的？",
+          "options": [
+            "Italy, Singapore, Egypt, the Netherlands",
+            "New Zealand, the UK, the USA, Taiwan",
+            "Canada, Brazil, Japan, Australia",
+            "France, Russia, Thailand, Egypt"
+          ],
+          "answerIndex": 1,
+          "explanation": "Fun World 4 Unit 1–4 介紹了紐西蘭、英國、美國與臺灣！",
+          "hint": "Unit 4 的最後一個國家是我們的家鄉 Taiwan 喔！",
+          "speechText": "New Zealand, the UK, the USA, Taiwan",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Culture"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u10-q6",
+          "prompt": "把單字配對成「顏色」與「交通工具」，下面哪一組正確？",
+          "options": [
+            "zebra（黃色）、window（交通工具）",
+            "fox（顏色）、turtle（交通工具）",
+            "yellow（黃色）、van（箱型車）",
+            "up（顏色）、pencil（交通工具）"
+          ],
+          "answerIndex": 2,
+          "explanation": "yellow 是黃色，van 是箱型車！",
+          "hint": "想想看哪個字代表顏色、哪個字代表車子。",
+          "speechText": "yellow, van",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u10-q7",
+          "prompt": "小寫字母「n」和「u」長得像上下顛倒，請問「nose」和「up」各是用哪個字母開頭？",
+          "options": [
+            "nose 用 u；up 用 n",
+            "兩個都用 n",
+            "兩個都用 u",
+            "nose 用 n；up 用 u"
+          ],
+          "answerIndex": 3,
+          "explanation": "nose 由 n 開頭（開口朝下），up 由 u 開頭（開口朝上像杯子）。",
+          "hint": "u 像往上開口的杯子，up 就是「向上」！",
+          "speechText": "nose, up",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Letters"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u10-q8",
+          "prompt": "如果朋友幫你撿起掉在地上的鉛筆並說「Here you are.」，你應該怎麼回答？",
+          "options": [
+            "Thank you very much.",
+            "Hurry up.",
+            "Nice to meet you.",
+            "I'm sorry."
+          ],
+          "answerIndex": 0,
+          "explanation": "別人幫你忙、把東西拿給你說「Here you are.」，要回答「Thank you very much.」（非常謝謝你）。",
+          "hint": "向幫忙你的人表達感謝！",
+          "speechText": "Thank you very much.",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Phrase"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u10-q9",
+          "prompt": "在 Nn–Zz 的單字中，哪三個都是「動物」？",
+          "options": [
+            "nose, pencil, window",
+            "up, yellow, van",
+            "octopus, rabbit, zebra",
+            "window, up, pencil"
+          ],
+          "answerIndex": 2,
+          "explanation": "octopus（章魚）、rabbit（兔子）、zebra（斑馬）都是動物！",
+          "hint": "找找海裡、草地和草原上的動物！",
+          "speechText": "octopus, rabbit, zebra",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Vocabulary"
+          ]
+        },
+        {
+          "id": "115-s2-g2-english-u10-q10",
+          "prompt": "二年級上下學期全部完成後，我們已經認識了英文字母表全部幾個字母？",
+          "options": [
+            "13 個（A 到 M）",
+            "10 個（A 到 J）",
+            "20 個（A 到 T）",
+            "26 個（A 到 Z）"
+          ],
+          "answerIndex": 3,
+          "explanation": "二上學了 Aa–Mm（13 個），二下學了 Nn–Zz（13 個），合計完成全部 26 個英文字母！",
+          "hint": "13 + 13 等於多少？",
+          "speechText": "26 letters, A to Z",
+          "speechLang": "en-US",
+          "tags": [
+            "Fun World 4",
+            "Final Review"
           ]
         }
       ]

@@ -1974,3 +1974,569 @@ export function generateG2S2U10UnitFractions(count = 6): Question[] {
   }
   return questions;
 }
+
+/**
+ * 二上 第4章 加減應用（加減互逆關係、解題與驗算）
+ */
+export function generateG2S1U4AddSubRelation(count = 6): Question[] {
+  const seed = nextSeed();
+  const questions: Question[] = [];
+  for (let i = 0; i < count; i++) {
+    const mode = i % 3;
+    if (mode === 0) {
+      // 加法與減法互逆：a + □ = total 或 □ + a = total
+      const a = randomInt(18, 55);
+      const ans = randomInt(15, 44);
+      const total = a + ans;
+      const isLeft = randomInt(0, 1) === 0;
+      const prompt = isLeft
+        ? `算式「□ ＋ ${a} ＝ ${total}」中，□ 裡應該填入哪一個數字？`
+        : `算式「${a} ＋ □ ＝ ${total}」中，□ 裡應該填入哪一個數字？`;
+      questions.push(
+        makeQuestion(
+          'g2s1-u4',
+          seed,
+          i,
+          prompt,
+          buildNumericOptions(ans, [total + a, ans + 10, ans - 1], '', 1),
+          `利用加減互逆關係，用總數減掉已知的部分：${total} － ${a} ＝ ${ans}。`,
+          '想想看，全部加起來是總數，用總數減掉另一個數就會找到 □ 喔！',
+        ),
+      );
+    } else if (mode === 1) {
+      // 減法求未知數：total - □ = rem 或 □ - sub = rem
+      const sub = randomInt(16, 48);
+      const rem = randomInt(14, 50);
+      const total = sub + rem;
+      const askOriginal = randomInt(0, 1) === 0;
+      if (askOriginal) {
+        questions.push(
+          makeQuestion(
+            'g2s1-u4',
+            seed,
+            i,
+            `小明原有 □ 張貼紙，送給弟弟 ${sub} 張後，還剩下 ${rem} 張，小明原來有幾張貼紙？`,
+            buildNumericOptions(total, [Math.abs(rem - sub), total + 10, total - 10], ' 張', 1),
+            `把送出去的 ${sub} 張和剩下的 ${rem} 張合起來就是原來的數量：${sub} ＋ ${rem} ＝ ${total} 張。`,
+            '求「原來有幾個」時，要把用掉的和剩下的加回來喔！',
+          ),
+        );
+      } else {
+        questions.push(
+          makeQuestion(
+            'g2s1-u4',
+            seed,
+            i,
+            `箱子裡有 ${total} 顆蘋果，拿走 □ 顆後，還剩下 ${rem} 顆，請問拿走了幾顆蘋果？`,
+            buildNumericOptions(sub, [total + rem, sub + 10, sub - 2], ' 顆', 1),
+            `用原來的 ${total} 顆減掉剩下的 ${rem} 顆，就是拿走的數量：${total} － ${rem} ＝ ${sub} 顆。`,
+            '從原來的數量減掉剩下的，就會知道拿走多少了！',
+          ),
+        );
+      }
+    } else {
+      // 驗算觀念
+      const a = randomInt(25, 65);
+      const b = randomInt(12, 34);
+      const sum = a + b;
+      const askSubCheck = randomInt(0, 1) === 0;
+      if (askSubCheck) {
+        const ans = `${sum} － ${b} ＝ ${a}`;
+        const wrongs = [
+          `${sum} ＋ ${b} ＝ ${sum + b}`,
+          `${a} － ${b} ＝ ${a - b}`,
+          `${sum} － ${a} ＝ ${sum}`,
+        ];
+        questions.push(
+          makeQuestion(
+            'g2s1-u4',
+            seed,
+            i,
+            `計算「${a} ＋ ${b} ＝ ${sum}」後，下面哪一個減法算式可以用來「驗算」是否算對？`,
+            buildStringOptions(ans, wrongs),
+            `加法可以用減法來驗算：把和 ${sum} 減掉其中一個加數 ${b}，看看是否等於 ${a}！`,
+            '加法驗算時，要用算出來的總和去減掉其中一個數喔！',
+          ),
+        );
+      } else {
+        const diff = a - b;
+        const ans = `${diff} ＋ ${b} ＝ ${a}`;
+        const wrongs = [
+          `${a} ＋ ${b} ＝ ${a + b}`,
+          `${b} － ${diff}`,
+          `${a} ＋ ${diff} ＝ ${a + diff}`,
+        ];
+        questions.push(
+          makeQuestion(
+            'g2s1-u4',
+            seed,
+            i,
+            `計算「${a} － ${b} ＝ ${diff}」後，下面哪一個加法算式可以用來「驗算」是否算對？`,
+            buildStringOptions(ans, wrongs),
+            `減法可以用加法來驗算：把差 ${diff} 加上減數 ${b}，看看是否等於被減數 ${a}！`,
+            '把「剩下的」加上「減掉的」，看看是不是變回原來的數！',
+          ),
+        );
+      }
+    }
+  }
+  return questions;
+}
+
+/**
+ * 二上 第5章 容量（認識容量、直接與間接比較）
+ */
+export function generateG2S1U5Capacity(count = 6): Question[] {
+  const seed = nextSeed();
+  const questions: Question[] = [];
+  for (let i = 0; i < count; i++) {
+    const mode = i % 3;
+    if (mode === 0) {
+      // 間接比較：用小杯子量水壺
+      const cupsA = randomInt(4, 7);
+      const cupsB = cupsA + randomInt(2, 4);
+      const askMore = randomInt(0, 1) === 0;
+      const diff = cupsB - cupsA;
+      if (askMore) {
+        const ans = `藍水壺，多裝 ${diff} 小杯`;
+        const wrongs = [
+          `紅水壺，多裝 ${diff} 小杯`,
+          `藍水壺，多裝 ${cupsB} 小杯`,
+          '兩個水壺容量一樣大',
+        ];
+        questions.push(
+          makeQuestion(
+            'g2s1-u5',
+            seed,
+            i,
+            `用同一個小紙杯裝水倒進水壺：紅水壺裝滿需要 ${cupsA} 小杯，藍水壺裝滿需要 ${cupsB} 小杯。哪一個水壺容量比較大？大多少？`,
+            buildStringOptions(ans, wrongs),
+            `用相同小杯子測量，裝越多杯代表容量越大：${cupsB} ＞ ${cupsA}，藍水壺多裝 ${cupsB} － ${cupsA} ＝ ${diff} 小杯。`,
+            '先比誰倒進去的杯數比較多，再相減算出相差幾杯！',
+          ),
+        );
+      } else {
+        questions.push(
+          makeQuestion(
+            'g2s1-u5',
+            seed,
+            i,
+            `紅水壺可以裝滿 ${cupsA} 小杯水，藍水壺可以裝滿 ${cupsB} 小杯水。把兩個水壺都裝滿，一共可以倒出幾小杯水？`,
+            buildNumericOptions(cupsA + cupsB, [diff, cupsB, cupsA + cupsB + 2], ' 小杯', 2),
+            `把兩個水壺的杯數加起來：${cupsA} ＋ ${cupsB} ＝ ${cupsA + cupsB} 小杯。`,
+            '把兩個水壺倒出來的杯數加在一起喔！',
+          ),
+        );
+      }
+    } else if (mode === 1) {
+      // 直接比較倒水現象
+      const scenario = randomInt(0, 1);
+      if (scenario === 0) {
+        const ans = '大瓶子的容量比較大';
+        const wrongs = [
+          '小碗的容量比較大',
+          '大瓶子和小碗容量一樣大',
+          '無法比較兩個容器的容量',
+        ];
+        questions.push(
+          makeQuestion(
+            'g2s1-u5',
+            seed,
+            i,
+            '把裝滿水的小碗倒進空的大瓶子裡，大瓶子還沒裝滿。這代表什麼意思？',
+            buildStringOptions(ans, wrongs),
+            '小碗全部的水倒進去後，大瓶子還有空間，表示「大瓶子的容量比較大」。',
+            '倒完之後大瓶子還有空位，誰能裝的水比較多呢？',
+          ),
+        );
+      } else {
+        const ans = 'A 杯的容量比較大';
+        const wrongs = [
+          'B 杯的容量比較大',
+          '兩杯容量一樣大',
+          'B 杯比較高所以比較大',
+        ];
+        questions.push(
+          makeQuestion(
+            'g2s1-u5',
+            seed,
+            i,
+            '把裝滿水的 A 杯全部倒進空的 B 杯裡，水滿出來流到桌上了。這代表哪一個杯子的容量比較大？',
+            buildStringOptions(ans, wrongs),
+            'B 杯裝不下 A 杯所有的水還滿出來，表示 A 杯裝得比較多，也就是 A 杯容量比較大！',
+            '水從 B 杯滿出來了，表示哪一杯原本裝得比較多？',
+          ),
+        );
+      }
+    } else {
+      // 同一瓶水分別倒進不同大小的杯子
+      const smallCups = randomInt(6, 9);
+      const bigCups = randomInt(3, 5);
+      const ans = '甲杯';
+      const wrongs = ['乙杯', '甲杯和乙杯一樣大', '水壺變小了'];
+      questions.push(
+        makeQuestion(
+          'g2s1-u5',
+          seed,
+          i,
+          `同一瓶果汁剛好可以倒滿 ${bigCups} 個甲杯，也可以倒滿 ${smallCups} 個乙杯。請問「甲杯」和「乙杯」哪一個杯子的容量比較大？`,
+          buildStringOptions(ans, wrongs),
+          `同樣多的果汁，倒成 ${bigCups} 個甲杯就裝完了，乙杯卻要 ${smallCups} 個才裝完，代表「每一個甲杯」能裝比較多，所以甲杯比較大！`,
+          '同樣一瓶水，裝進比較大的杯子時，需要幾個杯子呢？是比較多還是比較少？',
+        ),
+      );
+    }
+  }
+  return questions;
+}
+
+/**
+ * 二上 第10章 面的大小比較（直接比較、間接與格子比較）
+ */
+export function generateG2S1U10AreaComparison(count = 6): Question[] {
+  const seed = nextSeed();
+  const questions: Question[] = [];
+  for (let i = 0; i < count; i++) {
+    const mode = i % 3;
+    if (mode === 0) {
+      // 方格紙點數比較
+      const wA = randomInt(3, 5);
+      const hA = randomInt(2, 4);
+      const areaA = wA * hA;
+      const areaB = areaA + randomInt(2, 5);
+      const diff = areaB - areaA;
+      const askDiff = randomInt(0, 1) === 0;
+      if (askDiff) {
+        questions.push(
+          makeQuestion(
+            'g2s1-u10',
+            seed,
+            i,
+            `在方格紙上畫出兩個圖形：甲圖形佔了 ${areaA} 格，乙圖形佔了 ${areaB} 格。請問乙圖形的面比甲圖形大幾格？`,
+            buildNumericOptions(diff, [areaA + areaB, areaB, diff + 2], ' 格', 1),
+            `用相同大小的方格比較面的大小，直接相減：${areaB} － ${areaA} ＝ ${diff} 格。`,
+            '兩個圖形都是用一樣大的方格數的，把格子數相減就知道大幾格囉！',
+          ),
+        );
+      } else {
+        questions.push(
+          makeQuestion(
+            'g2s1-u10',
+            seed,
+            i,
+            `一個長方形貼紙在方格紙上，橫排每排有 ${wA} 格，直排共有 ${hA} 排，這張貼紙的面一共佔了幾格？`,
+            buildNumericOptions(areaA, [wA + hA, areaA + 2, areaA - 2], ' 格', 2),
+            `每排 ${wA} 格，共有 ${hA} 排，一共是 ${wA} × ${hA} ＝ ${areaA} 格。`,
+            '可以一排一排數，或用乘法「每排格數 × 排數」算出來喔！',
+          ),
+        );
+      }
+    } else if (mode === 1) {
+      // 直接重疊比較
+      const scenario = randomInt(0, 1);
+      if (scenario === 0) {
+        const ans = '數學課本的封面比較大';
+        const wrongs = [
+          '貼紙的面比較大',
+          '兩個面一樣大',
+          '不能疊在一起比較',
+        ];
+        questions.push(
+          makeQuestion(
+            'g2s1-u10',
+            seed,
+            i,
+            '把一張正方形貼紙平平地放在數學課本封面上，貼紙完全被包在封面裡面沒有超出來。哪一個面比較大？',
+            buildStringOptions(ans, wrongs),
+            '用「直接比較」把兩個面重疊對齊，完全包住對方的面比較大，所以數學課本封面比較大！',
+            '想一想，誰把誰整個蓋住或包在裡面？',
+          ),
+        );
+      } else {
+        const ans = '把兩張色紙對齊疊在一起看哪一張超出來';
+        const wrongs = [
+          '把色紙剪成碎紙再丟掉',
+          '只看色紙的顏色深淺',
+          '用天平秤哪一張比較重',
+        ];
+        questions.push(
+          makeQuestion(
+            'g2s1-u10',
+            seed,
+            i,
+            '想知道紅紙和藍紙哪一張的面比較大，下面哪一種「直接比較」的方法最正確？',
+            buildStringOptions(ans, wrongs),
+            '比較兩張紙面的大小，最直接的方法就是「對齊邊角重疊在一起」，看哪一張有超出來！',
+            '要比較「面的大小」，不是比重量也不是比顏色喔！',
+          ),
+        );
+      }
+    } else {
+      // 用同一種卡片間接比較
+      const cardsA = randomInt(5, 8);
+      const cardsB = cardsA + randomInt(2, 4);
+      const ans = '講桌桌面比較大';
+      const wrongs = ['學生課桌比較大', '兩張桌子一樣大', '卡片越小桌子越小'];
+      questions.push(
+        makeQuestion(
+          'g2s1-u10',
+          seed,
+          i,
+          `用一樣大的正方形紙卡鋪滿桌面：學生課桌剛好鋪了 ${cardsA} 張，講桌桌面剛好鋪了 ${cardsB} 張。哪一張桌子的面比較大？`,
+          buildStringOptions(ans, wrongs),
+          `用一樣大的紙卡當作共同單位，鋪越多張代表桌面越大：${cardsB} 張 ＞ ${cardsA} 張，所以講桌桌面比較大！`,
+          '紙卡都一樣大張，鋪了比較多張的那一張桌子就比較大喔！',
+        ),
+      );
+    }
+  }
+  return questions;
+}
+
+/**
+ * 二下 第2章 重量（重量與天平、間接與個別單位比較）
+ */
+export function generateG2S2U2Weight(count = 6): Question[] {
+  const seed = nextSeed();
+  const questions: Question[] = [];
+  for (let i = 0; i < count; i++) {
+    const mode = i % 3;
+    if (mode === 0) {
+      // 天平高低判斷
+      const scenario = randomInt(0, 1);
+      if (scenario === 0) {
+        const ans = '蘋果比較重';
+        const wrongs = ['橘子比較重', '蘋果和橘子一樣重', '天平壞掉了'];
+        questions.push(
+          makeQuestion(
+            'g2s2-u2',
+            seed,
+            i,
+            '把蘋果放在天平左盤、橘子放在右盤，結果「左盤往下沉、右盤往上翹」。請問哪一樣水果比較重？',
+            buildStringOptions(ans, wrongs),
+            '天平的原理是「重的一邊會往下沉，輕的一邊會往上翹」，所以左盤的蘋果比較重！',
+            '想一想玩翹翹板時，比較重的人會往下面沉下去還是翹高高？',
+          ),
+        );
+      } else {
+        const ans = '一樣重';
+        const wrongs = ['鉛筆盒比較重', '故事書比較重', '無法比較誰輕誰重'];
+        questions.push(
+          makeQuestion(
+            'g2s2-u2',
+            seed,
+            i,
+            '把鉛筆盒放在天平左盤、故事書放在右盤，天平兩端「保持水平一樣高」。這表示它們的重量如何？',
+            buildStringOptions(ans, wrongs),
+            '當「天平兩端保持水平一樣高（平衡）」時，代表左右兩邊的東西一樣重！',
+            '天平平平的沒有歪向任何一邊，表示兩邊重量怎麼樣？',
+          ),
+        );
+      }
+    } else if (mode === 1) {
+      // 個別單位（幾個積木或彈珠）比較
+      const blocksA = randomInt(6, 12);
+      const blocksB = blocksA + randomInt(3, 6);
+      const diff = blocksB - blocksA;
+      const askDiff = randomInt(0, 1) === 0;
+      if (askDiff) {
+        questions.push(
+          makeQuestion(
+            'g2s2-u2',
+            seed,
+            i,
+            `用一樣重的積木在天平上秤重：剪刀和 ${blocksA} 個積木一樣重，膠水瓶和 ${blocksB} 個積木一樣重。膠水瓶比剪刀重幾個積木？`,
+            buildNumericOptions(diff, [blocksA + blocksB, blocksB, diff + 1], ' 個積木', 1),
+            `使用相同重量的積木做個別單位比較：${blocksB} － ${blocksA} ＝ ${diff} 個積木。`,
+            '兩邊都是用一樣重的積木量的，只要把積木個數相減就好喔！',
+          ),
+        );
+      } else {
+        questions.push(
+          makeQuestion(
+            'g2s2-u2',
+            seed,
+            i,
+            `一顆橡皮擦和 ${blocksA} 個小螺帽一樣重，一枝彩色筆和 ${blocksB} 個小螺帽一樣重。兩樣東西合起來和幾個小螺帽一樣重？`,
+            buildNumericOptions(blocksA + blocksB, [diff, blocksB, blocksA + blocksB - 2], ' 個小螺帽', 2),
+            `把兩樣東西分別等於的小螺帽數量加起來：${blocksA} ＋ ${blocksB} ＝ ${blocksA + blocksB} 個小螺帽。`,
+            '把橡皮擦和彩色筆的螺帽數量加在一起喔！',
+          ),
+        );
+      }
+    } else {
+      // 遞移性間接比較
+      const ans = '西瓜最重，草莓最輕';
+      const wrongs = [
+        '鳳梨最重，西瓜最輕',
+        '草莓最重，西瓜最輕',
+        '鳳梨比西瓜還要重',
+      ];
+      questions.push(
+        makeQuestion(
+          'g2s2-u2',
+          seed,
+          i,
+          '在天平上比較重量：西瓜比鳳梨重，鳳梨又比草莓重。請問這三種水果誰最重、誰最輕？',
+          buildStringOptions(ans, wrongs),
+          '西瓜 ＞ 鳳梨 ＞ 草莓，所以西瓜最重、草莓最輕！',
+          '照順序排排看：西瓜 ＞ 鳳梨，鳳梨 ＞ 草莓，誰排在最前面？',
+        ),
+      );
+    }
+  }
+  return questions;
+}
+
+/**
+ * 二下 第4章 平面圖形與立體形體（邊角頂點、周長、正方體與長方體）
+ */
+export function generateG2S2U4PlaneAndSolidShapes(count = 6): Question[] {
+  const seed = nextSeed();
+  const questions: Question[] = [];
+  for (let i = 0; i < count; i++) {
+    const mode = i % 4;
+    if (mode === 0) {
+      // 正方形或長方形周長計算
+      const isSquare = randomInt(0, 1) === 0;
+      if (isSquare) {
+        const side = randomInt(3, 9);
+        const perimeter = side * 4;
+        questions.push(
+          makeQuestion(
+            'g2s2-u4',
+            seed,
+            i,
+            `一張正方形色紙的每條邊長都是 ${side} 公分，請問這張正方形色紙的「周長」是幾公分？`,
+            buildNumericOptions(perimeter, [side * 2, side * 3, side + 4], ' 公分', 4),
+            `正方形有 4 條一樣長的邊，周長 ＝ ${side} ＋ ${side} ＋ ${side} ＋ ${side} ＝ ${side} × 4 ＝ ${perimeter} 公分。`,
+            '正方形有 4 條一樣長的邊，把四條邊全部加起來就是周長喔！',
+          ),
+        );
+      } else {
+        const len = randomInt(6, 12);
+        const wid = randomInt(3, 5);
+        const perimeter = (len + wid) * 2;
+        questions.push(
+          makeQuestion(
+            'g2s2-u4',
+            seed,
+            i,
+            `一張長方形卡片，長邊是 ${len} 公分，寬邊是 ${wid} 公分，這張卡片的「周長」一共是幾公分？`,
+            buildNumericOptions(perimeter, [len + wid, len * 2 + wid, len + wid * 2], ' 公分', 4),
+            `長方形有 2 條長邊和 2 條寬邊，周長 ＝ ${len} ＋ ${wid} ＋ ${len} ＋ ${wid} ＝ ${perimeter} 公分。`,
+            '別忘了長方形有 4 條邊（2 條長邊＋2 條寬邊），只加兩條邊會少算一半喔！',
+          ),
+        );
+      }
+    } else if (mode === 1) {
+      // 三角形周長
+      const a = randomInt(4, 8);
+      const b = randomInt(4, 8);
+      const c = randomInt(4, 8);
+      const perimeter = a + b + c;
+      questions.push(
+        makeQuestion(
+          'g2s2-u4',
+          seed,
+          i,
+          `一個三角形的三條邊分別長 ${a} 公分、${b} 公分和 ${c} 公分，這個三角形的周長是幾公分？`,
+          buildNumericOptions(perimeter, [a + b, perimeter + 2, perimeter - 2], ' 公分', 4),
+          `三角形的周長就是把三條邊長加起來：${a} ＋ ${b} ＋ ${c} ＝ ${perimeter} 公分。`,
+          '周長就是圖形外面一圈所有邊長的總和喔！',
+        ),
+      );
+    } else if (mode === 2) {
+      // 平面圖形的邊、角、頂點數量
+      const shapeIdx = randomInt(0, 2);
+      if (shapeIdx === 0) {
+        const ans = '3 條邊、3 個角、3 個頂點';
+        const wrongs = [
+          '4 條邊、4 個角、4 個頂點',
+          '3 條邊、4 個角、3 個頂點',
+          '6 條邊、6 個角、6 個頂點',
+        ];
+        questions.push(
+          makeQuestion(
+            'g2s2-u4',
+            seed,
+            i,
+            '一個「三角形」有幾條邊、幾個角和幾個頂點？',
+            buildStringOptions(ans, wrongs),
+            '三角形有 3 條直直的邊、3 個角和 3 個頂點。',
+            '看看名字裡的「三」角形，數數看有幾個尖尖的頂點和邊！',
+          ),
+        );
+      } else {
+        const ans = '正方形的四條邊都一樣長，長方形的對邊一樣長';
+        const wrongs = [
+          '正方形只有 3 個直角，長方形有 4 個',
+          '長方形的四條邊一定全部一樣長',
+          '正方形有 6 條邊，長方形有 4 條邊',
+        ];
+        questions.push(
+          makeQuestion(
+            'g2s2-u4',
+            seed,
+            i,
+            '「正方形」和「長方形」都有 4 條邊和 4 個直角，它們最大的差別是什麼？',
+            buildStringOptions(ans, wrongs),
+            '正方形 4 條邊全部一樣長；長方形則是上下兩條對邊一樣長、左右兩條對邊一樣長。',
+            '用尺量量看正方形的四條邊和長方形的長邊、寬邊喔！',
+          ),
+        );
+      }
+    } else {
+      // 正方體與長方體的面、邊、頂點
+      const prop = randomInt(0, 2);
+      if (prop === 0) {
+        questions.push(
+          makeQuestion(
+            'g2s2-u4',
+            seed,
+            i,
+            '一個「正方體」盒子一共有幾個面？每個面是什麼形狀？',
+            buildStringOptions(
+              '6 個面，每個面都是大小相同的正方形',
+              ['4 個面，每個面都是正方形', '6 個面，每個面都是三角形', '8 個面，每個面都是圓形'],
+            ),
+            '正方體像骰子一樣，共有上、下、前、後、左、右 6 個面，而且 6 個面都是大小完全相同的正方形！',
+            '想想看骰子上面有 1 到 6 點，一共有幾個面？',
+          ),
+        );
+      } else if (prop === 1) {
+        questions.push(
+          makeQuestion(
+            'g2s2-u4',
+            seed,
+            i,
+            '一個「正方體」或「長方體」積木，一共有幾個頂點和幾條邊？',
+            buildStringOptions(
+              '8 個頂點、12 條邊',
+              ['6 個頂點、8 條邊', '4 個頂點、4 條邊', '12 個頂點、6 條邊'],
+            ),
+            '正方體和長方體都有 6 個面、8 個頂點（上面 4 個、下面 4 個）和 12 條邊（上 4、下 4、直 4）！',
+            '數一數盒子上面有 4 個角、下面有 4 個角，邊則有上、下、直立共三組 4 條喔！',
+          ),
+        );
+      } else {
+        questions.push(
+          makeQuestion(
+            'g2s2-u4',
+            seed,
+            i,
+            '「長方體」的 6 個面是什麼形狀？',
+            buildStringOptions(
+              '6 個都是長方形，或 4 個長方形加上 2 個正方形',
+              ['6 個全部都是圓形', '6 個全部都是三角形', '只有 2 個面，其他是彎曲的'],
+            ),
+            '長方體有 6 個面，可能是 6 個長方形，或是 4 個長方形配 2 個對面的正方形！',
+            '觀察一下面紙盒或牙膏盒的 6 個面長什麼樣子！',
+          ),
+        );
+      }
+    }
+  }
+  return questions;
+}
+

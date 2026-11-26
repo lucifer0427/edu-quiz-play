@@ -43,6 +43,22 @@
         "publisher": "何嘉仁（選書表）／學校自編彈性課程計畫",
         "book_series": "Fun World 3（選書表）／唱跳趣閱家二上（課程計畫）"
       }
+    },
+    {
+      "id": "src-3",
+      "source_tier": "tier1",
+      "source_title": "何嘉仁國小英語《Fun World》低年級教材課程大綱（Book 3）",
+      "source_url": "https://www.calameo.com/books/00037268118adf899ff0c",
+      "local_file": null,
+      "retrieved_at": "2026-11-26T05:18:28-08:00",
+      "matched_metadata": {
+        "academic_year": 115,
+        "semester": 1,
+        "grade": 2,
+        "subject": "英語",
+        "publisher": "何嘉仁",
+        "book_series": "Fun World 3"
+      }
     }
   ],
   "units": [
@@ -139,14 +155,167 @@
           "confidence": "primary"
         }
       ]
+    },
+    {
+      "unit_no": 5,
+      "title": "Fun World 3 · Unit 1 Sounds Around Us",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "Unit 1 Sounds Around Us（Aa–Cc 字母與代表單字）",
+          "learning_points": [
+            "字母及代表字彙：Aa ant, Bb bird, Cc cup。",
+            "生活用語：\"Listen.\"。",
+            "國家／跨領域活動：Italy；生活停看聽（觀察生活中的聲音）。"
+          ],
+          "vocabulary": [
+            "ant",
+            "bird",
+            "cup",
+            "Listen."
+          ],
+          "source_ref": "src-3",
+          "verbatim_excerpt": "[何嘉仁 Fun World Book 3 課程大綱] Unit 1 Sounds Around Us | 字母及代表字彙：Aa ant, Bb bird, Cc cup | 生活用語：Listen. | 國家：Italy | 學科活動：生活停看聽（觀察生活中的聲音）。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 6,
+      "title": "Fun World 3 · Unit 2 Good Morning",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "Unit 2 Good Morning（Dd–Ff 字母與代表單字）",
+          "learning_points": [
+            "字母及代表字彙：Dd duck, Ee elephant, Ff fan。",
+            "生活用語：\"Good morning.\", \"I'm sorry.\", \"That's OK.\"。",
+            "國家／跨領域活動：Singapore；聲音遙控器 Voice Levels（判別不同情境的音量大小）。"
+          ],
+          "vocabulary": [
+            "duck",
+            "elephant",
+            "fan",
+            "Good morning.",
+            "I'm sorry.",
+            "That's OK."
+          ],
+          "source_ref": "src-3",
+          "verbatim_excerpt": "[何嘉仁 Fun World Book 3 課程大綱] Unit 2 Good Morning | 字母及代表字彙：Dd duck, Ee elephant, Ff fan | 生活用語：Good morning. / I'm sorry. / That's OK. | 國家：Singapore | 學科活動：聲音遙控器 Voice Levels。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 7,
+      "title": "Fun World 3 · Review 1（中秋節）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "Review 1（Aa–Ff 複習與中秋節文化）",
+          "learning_points": [
+            "複習字母 Aa–Ff 與代表字彙（ant, bird, cup, duck, elephant, fan）。",
+            "節慶與跨領域活動：中秋節（Moon Festival）；生活小鬧鐘（時間管理與規劃）。"
+          ],
+          "vocabulary": [
+            "ant",
+            "bird",
+            "cup",
+            "duck",
+            "elephant",
+            "fan"
+          ],
+          "source_ref": "src-3",
+          "verbatim_excerpt": "[何嘉仁 Fun World Book 3 課程大綱] Review 1 | 節慶：中秋節 | 學科活動：生活小鬧鐘（時間管理與規劃）。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 8,
+      "title": "Fun World 3 · Unit 3 Let's Clean Up",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "Unit 3 Let's Clean Up（Gg–Ii 字母與代表單字）",
+          "learning_points": [
+            "字母及代表字彙：Gg girl, Hh hat, Ii igloo。",
+            "生活用語：\"I have an idea.\", \"Good idea.\"。",
+            "國家／跨領域活動：Egypt；發音對對碰1（依發音將字母分類）。"
+          ],
+          "vocabulary": [
+            "girl",
+            "hat",
+            "igloo",
+            "I have an idea.",
+            "Good idea."
+          ],
+          "source_ref": "src-3",
+          "verbatim_excerpt": "[何嘉仁 Fun World Book 3 課程大綱] Unit 3 Let's Clean Up | 字母及代表字彙：Gg girl, Hh hat, Ii igloo | 生活用語：I have an idea. / Good idea. | 國家：Egypt | 學科活動：發音對對碰1。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 9,
+      "title": "Fun World 3 · Unit 4 Merry Christmas",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "Unit 4 Merry Christmas（Jj–Mm 字母與代表單字）",
+          "learning_points": [
+            "字母及代表字彙：Jj jam, Kk key, Ll lamp, Mm mom。",
+            "生活用語：\"This is for you.\", \"Thank you.\", \"You're welcome.\"。",
+            "國家／跨領域活動：the Netherlands；發音對對碰2（依發音將字母分類）。"
+          ],
+          "vocabulary": [
+            "jam",
+            "key",
+            "lamp",
+            "mom",
+            "This is for you.",
+            "Thank you.",
+            "You're welcome."
+          ],
+          "source_ref": "src-3",
+          "verbatim_excerpt": "[何嘉仁 Fun World Book 3 課程大綱] Unit 4 Merry Christmas | 字母及代表字彙：Jj jam, Kk key, Ll lamp, Mm mom | 生活用語：This is for you. / Thank you. / You're welcome. | 國家：the Netherlands。",
+          "confidence": "primary"
+        }
+      ]
+    },
+    {
+      "unit_no": 10,
+      "title": "Fun World 3 · Review 2 & Final Review（農曆新年）",
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "title": "Review 2 & Final Review（Aa–Mm 總複習與農曆新年）",
+          "learning_points": [
+            "總複習大小寫字母 Aa–Mm 辨識與代表單字。",
+            "節慶與跨領域活動：農曆新年；生活糾察隊（生活中的危機處理）、拼圖小達人（大小寫字母辨識）。"
+          ],
+          "vocabulary": [
+            "girl",
+            "hat",
+            "igloo",
+            "jam",
+            "key",
+            "lamp",
+            "mom"
+          ],
+          "source_ref": "src-3",
+          "verbatim_excerpt": "[何嘉仁 Fun World Book 3 課程大綱] Review 2 農曆新年（生活糾察隊） & Final Review 世界地圖（拼圖小達人：大小寫字母辨識）。",
+          "confidence": "primary"
+        }
+      ]
     }
   ],
   "gaps": [
     {
-      "field": "target.book_series / units[*]",
-      "reason": "ambiguous_edition",
-      "detail": "《115學年教科書版本.pdf》（src-2）於二年級英語欄列出「何嘉仁 3 Fun World（含 Qrcode 線上聽）」，但學校《115學年度課程計畫.pdf》（src-1）5-3-1 未設低年級英語欄，而將低年級英語納入彈性學習課程【唱跳趣閱家】（PDF p.670-675，含 Aa〜Mm 字母目標與4個繪本單元），且未載明《Fun World 3》課本各單元名稱與代表單字。",
-      "recommended_action": "已完整記錄校訂【唱跳趣閱家】二上4單元與課堂用語；若需依《何嘉仁 Fun World 3》課本單元與單字出題，請提供該書目次頁與 Word List 照片。"
+      "field": "units[4..9].story_details",
+      "reason": "source_not_found",
+      "detail": "已依何嘉仁《Fun World 3》官方課程大綱（src-3）補齊 Unit 1–4、Review 1–2 與 Final Review 單元名稱、Aa–Mm 代表單字與生活用語；唯課本內 Story Time 完整對話逐字稿尚未取得。",
+      "recommended_action": "若需依據課本 Story Time 對話細節出題，可提供課本內頁照片補充。"
     }
   ]
 }

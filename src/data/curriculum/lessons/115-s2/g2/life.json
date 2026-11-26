@@ -8,46 +8,44 @@
   "lessons": [
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g2-life-u1",
-      "stageId": "115-s2-g2-life-u1",
-      "title": "主題一、有你真好",
+      "lessonId": "lesson-115-s2-g2-life-u1-l1",
+      "stageId": "115-s2-g2-life-u1-l1",
+      "title": "單元1 謝謝你的幫忙",
       "ageBand": "AGE_6_8_LOWER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u1-s1",
+          "sceneId": "u1l1-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "謝謝幫助我們的人，也學習適當幫忙",
-          "narrationText": "每天上學有導護志工保護我們過馬路，學校裡也有熱心的志工幫忙整理圖書，我們也能主動伸出雙手幫助同學。",
+          "title": "單元1 謝謝你的幫忙：核心概念",
+          "narrationText": "在「主題一、有你真好」的「單元1 謝謝你的幫忙」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "在對方需要時給予適當幫忙",
-            "助人後心裡會覺得快樂",
-            "認識導護志工和學校志工"
+            "根據情境提出看法、知道適當幫忙有助解決問題"
           ],
-          "analogyAnchor": "就像同學練習綁鞋帶時，我們先陪著示範、不搶著代勞，這樣既幫到忙又能讓他學會自己做！",
+          "analogyAnchor": "把「單元1 謝謝你的幫忙」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "適當的幫忙",
+              "leftTitle": "單元1 謝謝你的幫忙",
               "leftPoints": [
-                "本子掉了蹲下來一起撿",
-                "陪同學練習、需要時再協助"
+                "根據情境提出看法、知道適當幫忙有助解決問題",
+                "根據情境提出看法、知道適當幫忙有助解決問題"
               ],
-              "rightTitle": "感謝校園志工",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "導護志工路口護安全",
-                "問好道謝並做感謝徽章"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "適時引導不代勞",
+                "text": "單元1 謝謝你的幫忙",
                 "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "對志工說聲謝謝",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -55,45 +53,45 @@
           "factGroundingSourceId": "115-s2/g2/life#u1"
         },
         {
-          "sceneId": "u1-s2",
+          "sceneId": "u1l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "什麼才是「適當的幫忙」？",
-          "narrationText": "幫忙同學不是把事情全部搶過來自己做，而是看對方真正需要什麼協助。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "給對方練習的機會",
-            "需要時再伸出援手"
+            "根據情境提出看法、知道適當幫忙有助解決問題",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "同學正在練習自己綁鞋帶，我們怎麼做才算是「適當的幫忙」？",
+            "problemStatement": "複習「單元1 謝謝你的幫忙」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：先在一旁鼓勵他，讓他試著自己綁看看",
-              "第 2 步：如果他卡住了，示範步驟給他看",
-              "第 3 步：等他真的需要時再伸手協助，讓他學會獨立完成"
+              "第 1 步：確認題目在問「單元1 謝謝你的幫忙」",
+              "第 2 步：對照本課核心「根據情境提出看法、知道適當幫忙有助解決問題」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：立刻推開同學的手直接幫他綁好，這樣同學永遠學不會自己綁鞋帶。",
-            "selfExplanationPrompt": "想一想：做「感謝徽章」送給學校志工時，怎麼做最能表達心意？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「單元1 謝謝你的幫忙」的一個重點！",
             "keepStepCardVisible": true
           },
           "factGroundingSourceId": "115-s2/g2/life#u1"
         },
         {
-          "sceneId": "u1-s3",
+          "sceneId": "u1l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "先答對這題，再開始挑戰第一主題！",
+          "narrationText": "先做一題暖身確認，確認掌握「單元1 謝謝你的幫忙」後再開始挑戰！",
           "cognitiveChunks": [
-            "導護老師和志工守護通學安全"
+            "根據情境提出看法、知道適當幫忙有助解決問題"
           ],
           "warmupCheck": {
-            "prompt": "每天早上上學時，是誰在校門口和路口指揮交通、守護大家過馬路的安全？",
+            "prompt": "關於「單元1 謝謝你的幫忙」，哪一項才是正確的學習重點？",
             "options": [
-              "穿著背心、拿指揮旗的導護老師和導護志工",
-              "菜市場裡賣菜的老闆",
-              "躲在教室看書的同學"
+              "根據情境提出看法、知道適當幫忙有助解決問題",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
             "answerIndex": 0,
-            "feedbackCorrect": "答對了！導護老師和導護志工每天早起守護大家安全，記得向他們說早安和謝謝喔！",
-            "feedbackRetry": "想一想，過斑馬線時是誰穿著亮亮背心拿著指揮旗呢？"
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s2/g2/life#u1"
         }
@@ -101,357 +99,909 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g2-life-u2",
-      "stageId": "115-s2-g2-life-u2",
-      "title": "主題二、小種子長大了",
+      "lessonId": "lesson-115-s2-g2-life-u1-l2",
+      "stageId": "115-s2-g2-life-u1-l2",
+      "title": "單元2 校園生活中幫助我們的人",
       "ageBand": "AGE_6_8_LOWER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u2-s1",
+          "sceneId": "u1l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "從找種子到看著小苗發芽長大",
-          "narrationText": "我們可以用放大鏡觀察小小的種子，準備花盆、泥土、小鏟子和澆水壺把種子種下去，每天記錄它發芽長大的樣子。",
+          "title": "單元2 校園生活中幫助我們的人：核心概念",
+          "narrationText": "在「主題一、有你真好」的「單元2 校園生活中幫助我們的人」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "用放大鏡看清楚細小種子",
-            "種植需要覆土、空氣和適量水",
-            "記錄長高多少與長出幾片葉子"
+            "認識維護上學安全的人與導護志工"
           ],
-          "analogyAnchor": "種在土裡的小種子就像蓋著泥土小棉被的小寶寶，只要有適量陽光和水，就會慢慢探出頭來發芽！",
-          "visualSpec": {
-            "templateId": "flow_cause",
-            "params": {
-              "step1": "用放大鏡觀察種子",
-              "step2": "放土、播種、澆適量水",
-              "step3": "觀察發芽與葉片變化"
-            },
-            "spatialLabels": [
-              {
-                "id": "l1",
-                "text": "不放進嘴裡吃",
-                "anchorPointId": "step1"
-              },
-              {
-                "id": "l2",
-                "text": "記錄高度與葉數",
-                "anchorPointId": "step3"
-              }
-            ]
-          },
-          "factGroundingSourceId": "115-s2/g2/life#u2"
-        },
-        {
-          "sceneId": "u2-s2",
-          "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "小苗垂頭喪氣、泥土乾巴巴怎麼辦？",
-          "narrationText": "照顧植物時要注意泥土濕度和陽光；如果泥土乾了、葉子垂下來，代表小苗口渴了需要澆水。",
-          "cognitiveChunks": [
-            "缺水時要幫小苗適量澆水",
-            "不可倒含糖飲料或放冰箱"
-          ],
-          "workedExampleData": {
-            "problemStatement": "幾天沒澆水，發現小苗的葉子垂垂的、泥土摸起來乾巴巴的，該怎麼辦？",
-            "steps": [
-              "第 1 步：判斷原因：泥土太乾、葉子下垂表示植物缺水了",
-              "第 2 步：馬上用澆水壺幫小苗澆適量的清水",
-              "第 3 步：把盆栽放在有適當陽光和空氣的地方"
-            ],
-            "commonErrorContrast": "常見錯誤：倒果汁給植物喝，或是把植物放進冰箱，這反而會害植物枯死。",
-            "selfExplanationPrompt": "想一想：把種子種進土裡時，為什麼不能把整桶水倒進去讓種子泡在深水裡？",
-            "keepStepCardVisible": true
-          },
-          "factGroundingSourceId": "115-s2/g2/life#u2"
-        },
-        {
-          "sceneId": "u2-s3",
-          "componentType": "WARMUP_CHECK",
-          "title": "進場前暖身確認",
-          "narrationText": "選一選種植植物需要準備哪些工具！",
-          "cognitiveChunks": [
-            "花盆、培養土、小鏟子、澆水壺"
-          ],
-          "warmupCheck": {
-            "prompt": "把種子種進盆栽之前，需要準備好哪一組種植工具？",
-            "options": [
-              "籃球、跳繩和足球",
-              "花盆、培養土、小鏟子和澆水壺",
-              "水彩筆、調色盤和膠水"
-            ],
-            "answerIndex": 1,
-            "feedbackCorrect": "答對了！花盆、培養土、小鏟子和澆水壺都是種植必備的好工具。",
-            "feedbackRetry": "想一想，要裝泥土、挖小洞和澆水，需要哪一組工具呢？"
-          },
-          "factGroundingSourceId": "115-s2/g2/life#u2"
-        }
-      ]
-    },
-    {
-      "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g2-life-u3",
-      "stageId": "115-s2-g2-life-u3",
-      "title": "主題三、美麗的彩色世界",
-      "ageBand": "AGE_6_8_LOWER",
-      "subject": "SCIENCE_SOCIAL",
-      "scenes": [
-        {
-          "sceneId": "u3-s1",
-          "componentType": "ANCHOR_SCENE",
-          "title": "發現校園色彩與水彩混色魔法",
-          "narrationText": "校園裡有深綠、黃綠等各種顏色；用水彩畫畫時，紅、黃、藍三種顏色互相混合，就能變出橘、綠、紫等新顏色！",
-          "cognitiveChunks": [
-            "用深綠、黃綠等具體名稱描述",
-            "黃＋藍＝綠，紅＋黃＝橘",
-            "紅＋藍＝紫，作品可做成書籤卡片"
-          ],
-          "analogyAnchor": "就像調色盤裡的變色遊戲：黃色加藍色變出草地的綠，紅色加黃色變出香甜的橘！",
+          "analogyAnchor": "把「單元2 校園生活中幫助我們的人」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "暖色與感覺",
+              "leftTitle": "單元2 校園生活中幫助我們的",
               "leftPoints": [
-                "紅、橘、黃色暖呼呼",
-                "聯想到太陽和橘子"
+                "認識維護上學安全的人與導護志工",
+                "認識維護上學安全的人與導護志工"
               ],
-              "rightTitle": "水彩混色公式",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "黃＋藍＝綠色",
-                "紅＋黃＝橘色、紅＋藍＝紫色"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "黃加藍變綠色",
-                "anchorPointId": "right"
-              },
-              {
-                "id": "l2",
-                "text": "紅加黃變橘色",
-                "anchorPointId": "left"
-              }
-            ]
-          },
-          "factGroundingSourceId": "115-s2/g2/life#u3"
-        },
-        {
-          "sceneId": "u3-s2",
-          "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "調色盤沒有綠色顏料怎麼辦？",
-          "narrationText": "只要掌握紅、黃、藍三種顏料的混色規則，就算缺了綠色、橘色或紫色，也能自己調出來。",
-          "cognitiveChunks": [
-            "黃色＋藍色＝綠色",
-            "畫完要洗淨水彩筆和調色盤"
-          ],
-          "workedExampleData": {
-            "problemStatement": "用水彩畫草地時，調色盤裡沒有綠色顏料，把哪兩種顏料混在一起就能調出綠色？",
-            "steps": [
-              "第 1 步：回想三原色混色：紅、黃、藍",
-              "第 2 步：把亮亮的黃色和像大海一樣的藍色擠在一起",
-              "第 3 步：用水彩筆拌勻，就會調出草地的綠色囉"
-            ],
-            "commonErrorContrast": "常見錯誤：把紅色和藍色混在一起（那會變成紫色），或把黑色和白色混在一起（變成灰色）。",
-            "selfExplanationPrompt": "想一想：如果想要調出橘子的「橘色」，要拿哪兩種顏料來混呢？",
-            "keepStepCardVisible": true
-          },
-          "factGroundingSourceId": "115-s2/g2/life#u3"
-        },
-        {
-          "sceneId": "u3-s3",
-          "componentType": "WARMUP_CHECK",
-          "title": "進場前暖身確認",
-          "narrationText": "試試看用形容詞說出色彩給人的感覺！",
-          "cognitiveChunks": [
-            "紅橘色帶來溫暖與活力"
-          ],
-          "warmupCheck": {
-            "prompt": "看到亮亮的橘色或鮮紅色時，哪一句形容詞最能表達對這個顏色的感覺和聯想？",
-            "options": [
-              "感覺冰冰冷冷的，像北極大雪堆",
-              "感覺黑漆漆的，什麼都看不到",
-              "感覺暖呼呼又充滿活力，像太陽或香甜的橘子"
-            ],
-            "answerIndex": 2,
-            "feedbackCorrect": "答對了！紅、橘色屬於暖色系，會讓人聯想到太陽和充滿活力的感覺。",
-            "feedbackRetry": "紅紅橘橘的顏色看起來像太陽還是像雪堆呢？"
-          },
-          "factGroundingSourceId": "115-s2/g2/life#u3"
-        }
-      ]
-    },
-    {
-      "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g2-life-u4",
-      "stageId": "115-s2-g2-life-u4",
-      "title": "主題四、環保達人",
-      "ageBand": "AGE_6_8_LOWER",
-      "subject": "SCIENCE_SOCIAL",
-      "scenes": [
-        {
-          "sceneId": "u4-s1",
-          "componentType": "ANCHOR_SCENE",
-          "title": "認識資源回收與垃圾減量",
-          "narrationText": "看到四個箭頭圍成正方形的「資源回收標誌」，代表可以分類回收再利用；平時少用一次性物品，還能把舊瓶改造成環保樂器。",
-          "cognitiveChunks": [
-            "四箭頭正方形＝資源回收標誌",
-            "鋁箔包要倒掉、沖洗、壓扁再回收",
-            "自備水壺餐具與環保袋減少垃圾"
-          ],
-          "analogyAnchor": "就像鋁箔包如果沒壓扁會占滿整個回收籃，洗乾淨壓扁後就能多裝好多個，乾淨又省空間！",
-          "visualSpec": {
-            "templateId": "flow_cause",
-            "params": {
-              "step1": "倒掉殘留飲料並沖洗",
-              "step2": "把空盒壓扁摺好",
-              "step3": "放進正確的回收籃"
-            },
-            "spatialLabels": [
-              {
-                "id": "l1",
-                "text": "先沖洗才不發臭",
-                "anchorPointId": "step1"
-              },
-              {
-                "id": "l2",
-                "text": "壓扁省空間裝更多",
-                "anchorPointId": "step2"
-              }
-            ]
-          },
-          "factGroundingSourceId": "115-s2/g2/life#u4"
-        },
-        {
-          "sceneId": "u4-s2",
-          "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "鋁箔包空盒回收的三個步驟",
-          "narrationText": "飲料喝完準備回收時，不能整盒直接丟進回收籃，先清洗再壓扁才會衛生又省空間。",
-          "cognitiveChunks": [
-            "步驟一：倒淨並沖洗",
-            "步驟二：壓扁摺好省空間"
-          ],
-          "workedExampleData": {
-            "problemStatement": "喝完的鋁箔包飲料空盒準備放進資源回收籃前，怎麼處理才衛生又能裝更多？",
-            "steps": [
-              "第 1 步：先把裡面殘留的飲料倒乾淨，並用清水簡單沖洗",
-              "第 2 步：把空盒的角落拉開、壓扁摺好縮小體積",
-              "第 3 步：放進教室對應的資源回收籃裡"
-            ],
-            "commonErrorContrast": "常見錯誤：還留著半盒飲料就直接丟進去，結果流滿地發臭，也沒有壓扁占空間。",
-            "selfExplanationPrompt": "想一想：家裡很多乾淨的塑膠袋不想堆成一團，可以怎麼收納下次重複使用？",
-            "keepStepCardVisible": true
-          },
-          "factGroundingSourceId": "115-s2/g2/life#u4"
-        },
-        {
-          "sceneId": "u4-s3",
-          "componentType": "WARMUP_CHECK",
-          "title": "進場前暖身確認",
-          "narrationText": "練習一題垃圾減量的好習慣吧！",
-          "cognitiveChunks": [
-            "自備環保用品減少一次性垃圾"
-          ],
-          "warmupCheck": {
-            "prompt": "想響應「垃圾減量大作戰」，下面哪一個日常好習慣最有幫助？",
-            "options": [
-              "出門自備水壺、環保餐具和購物袋",
-              "每次買東西都多拿三個塑膠袋",
-              "把垃圾丟進別班的垃圾桶"
-            ],
-            "answerIndex": 0,
-            "feedbackCorrect": "答對了！從源頭少拿一次性免洗包裝，才能真正減少垃圾量。",
-            "feedbackRetry": "想要讓垃圾桶不要一直滿出來，要少拿用一次就丟的東西喔！"
-          },
-          "factGroundingSourceId": "115-s2/g2/life#u4"
-        }
-      ]
-    },
-    {
-      "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g2-life-u5",
-      "stageId": "115-s2-g2-life-u5",
-      "title": "主題五、光和影",
-      "ageBand": "AGE_6_8_LOWER",
-      "subject": "SCIENCE_SOCIAL",
-      "scenes": [
-        {
-          "sceneId": "u5-s1",
-          "componentType": "ANCHOR_SCENE",
-          "title": "光線被擋住就會變出影子",
-          "narrationText": "只要有光源（太陽、手電筒、電燈）照到不透明的物體，後面就會出現影子；物體越靠近光源，影子就越大。",
-          "cognitiveChunks": [
-            "產生影子一定要有光線",
-            "物體越靠近光源，影子越大",
-            "物體越靠近牆面，影子越小"
-          ],
-          "analogyAnchor": "就像拿著小紙偶靠近手電筒時，它擋住的光線角度變大，牆上的影子就會像巨人一樣變大！",
-          "visualSpec": {
-            "templateId": "concept_compare",
-            "params": {
-              "leftTitle": "紙偶靠近手電筒",
-              "leftPoints": [
-                "離光源近、離牆面遠",
-                "牆上的影子變大"
-              ],
-              "rightTitle": "紙偶靠近白牆",
-              "rightPoints": [
-                "離光源遠、離牆面近",
-                "牆上的影子變小"
-              ]
-            },
-            "spatialLabels": [
-              {
-                "id": "l1",
-                "text": "靠近光源影子大",
+                "text": "單元2 校園生活中幫",
                 "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "靠近牆面影子小",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
           },
+          "factGroundingSourceId": "115-s2/g2/life#u1"
+        },
+        {
+          "sceneId": "u1l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識維護上學安全的人與導護志工",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「單元2 校園生活中幫助我們的人」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「單元2 校園生活中幫助我們的」",
+              "第 2 步：對照本課核心「認識維護上學安全的人與導護志工」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「單元2 校園生活中幫助我」的一個重點！",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u1"
+        },
+        {
+          "sceneId": "u1l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「單元2 校園生活中幫助我們的」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識維護上學安全的人與導護志工"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「單元2 校園生活中幫助我們的」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識維護上學安全的人與導護志工",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-life-u2-l1",
+      "stageId": "115-s2-g2-life-u2-l1",
+      "title": "單元1 種子在哪裡",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "單元1 種子在哪裡：核心概念",
+          "narrationText": "在「主題二、小種子長大了」的「單元1 種子在哪裡」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "運用工具在校園尋找並用不同方式觀察種子的不同（目標16-19）。"
+          ],
+          "analogyAnchor": "把「單元1 種子在哪裡」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "單元1 種子在哪裡",
+              "leftPoints": [
+                "運用工具在校園尋找並用不同方式觀察種子的不同（目標16。",
+                "運用工具在校園尋找並用不同方式觀察種子的不同（目標16。"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "單元1 種子在哪裡",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u2"
+        },
+        {
+          "sceneId": "u2l1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "運用工具在校園尋找並用不同方式觀察種子的不同（目標16-19）。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「單元1 種子在哪裡」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「單元1 種子在哪裡」",
+              "第 2 步：對照本課核心「運用工具在校園尋找並用不同方式觀察種子的不。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「單元1 種子在哪裡」的一個重點！",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u2"
+        },
+        {
+          "sceneId": "u2l1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「單元1 種子在哪裡」後再開始挑戰！",
+          "cognitiveChunks": [
+            "運用工具在校園尋找並用不同方式觀察種子的不同（目標16-19）。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「單元1 種子在哪裡」，哪一項才是正確的學習重點？",
+            "options": [
+              "運用工具在校園尋找並用不同方式觀察種子的不同（目標16-19）。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-life-u2-l2",
+      "stageId": "115-s2-g2-life-u2-l2",
+      "title": "單元2 一起來種吧！",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "單元2 一起來種吧！：核心概念",
+          "narrationText": "在「主題二、小種子長大了」的「單元2 一起來種吧！」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "討論生活中有哪些種子並決定種植"
+          ],
+          "analogyAnchor": "把「單元2 一起來種吧！」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "單元2 一起來種吧！",
+              "leftPoints": [
+                "討論生活中有哪些種子並決定種植",
+                "討論生活中有哪些種子並決定種植"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "單元2 一起來種吧！",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u2"
+        },
+        {
+          "sceneId": "u2l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "討論生活中有哪些種子並決定種植",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「單元2 一起來種吧！」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「單元2 一起來種吧！」",
+              "第 2 步：對照本課核心「討論生活中有哪些種子並決定種植」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「單元2 一起來種吧！」的一個重點！",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u2"
+        },
+        {
+          "sceneId": "u2l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「單元2 一起來種吧！」後再開始挑戰！",
+          "cognitiveChunks": [
+            "討論生活中有哪些種子並決定種植"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「單元2 一起來種吧！」，哪一項才是正確的學習重點？",
+            "options": [
+              "討論生活中有哪些種子並決定種植",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-life-u2-l3",
+      "stageId": "115-s2-g2-life-u2-l3",
+      "title": "單元3 種子發芽了",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "單元3 種子發芽了：核心概念",
+          "narrationText": "在「主題二、小種子長大了」的「單元3 種子發芽了」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "觀察種子發芽與生長變化"
+          ],
+          "analogyAnchor": "把「單元3 種子發芽了」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "單元3 種子發芽了",
+              "leftPoints": [
+                "觀察種子發芽與生長變化",
+                "觀察種子發芽與生長變化"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "單元3 種子發芽了",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u2"
+        },
+        {
+          "sceneId": "u2l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "觀察種子發芽與生長變化",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「單元3 種子發芽了」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「單元3 種子發芽了」",
+              "第 2 步：對照本課核心「觀察種子發芽與生長變化」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「單元3 種子發芽了」的一個重點！",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u2"
+        },
+        {
+          "sceneId": "u2l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「單元3 種子發芽了」後再開始挑戰！",
+          "cognitiveChunks": [
+            "觀察種子發芽與生長變化"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「單元3 種子發芽了」，哪一項才是正確的學習重點？",
+            "options": [
+              "觀察種子發芽與生長變化",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-life-u3-l1",
+      "stageId": "115-s2-g2-life-u3-l1",
+      "title": "單元1 一起找顏色",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "單元1 一起找顏色：核心概念",
+          "narrationText": "在「主題三、美麗的彩色世界」的「單元1 一起找顏色」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "具體描述物體色彩名稱"
+          ],
+          "analogyAnchor": "把「單元1 一起找顏色」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "單元1 一起找顏色",
+              "leftPoints": [
+                "具體描述物體色彩名稱",
+                "具體描述物體色彩名稱"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "單元1 一起找顏色",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u3"
+        },
+        {
+          "sceneId": "u3l1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "具體描述物體色彩名稱",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「單元1 一起找顏色」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「單元1 一起找顏色」",
+              "第 2 步：對照本課核心「具體描述物體色彩名稱」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「單元1 一起找顏色」的一個重點！",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u3"
+        },
+        {
+          "sceneId": "u3l1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「單元1 一起找顏色」後再開始挑戰！",
+          "cognitiveChunks": [
+            "具體描述物體色彩名稱"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「單元1 一起找顏色」，哪一項才是正確的學習重點？",
+            "options": [
+              "具體描述物體色彩名稱",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-life-u3-l2",
+      "stageId": "115-s2-g2-life-u3-l2",
+      "title": "單元2 色彩真奇妙",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3l2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "單元2 色彩真奇妙：核心概念",
+          "narrationText": "在「主題三、美麗的彩色世界」的「單元2 色彩真奇妙」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "探索喜歡的色彩"
+          ],
+          "analogyAnchor": "把「單元2 色彩真奇妙」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "單元2 色彩真奇妙",
+              "leftPoints": [
+                "探索喜歡的色彩",
+                "探索喜歡的色彩"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "單元2 色彩真奇妙",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u3"
+        },
+        {
+          "sceneId": "u3l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "探索喜歡的色彩",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「單元2 色彩真奇妙」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「單元2 色彩真奇妙」",
+              "第 2 步：對照本課核心「探索喜歡的色彩」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「單元2 色彩真奇妙」的一個重點！",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u3"
+        },
+        {
+          "sceneId": "u3l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「單元2 色彩真奇妙」後再開始挑戰！",
+          "cognitiveChunks": [
+            "探索喜歡的色彩"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「單元2 色彩真奇妙」，哪一項才是正確的學習重點？",
+            "options": [
+              "探索喜歡的色彩",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-life-u4-l1",
+      "stageId": "115-s2-g2-life-u4-l1",
+      "title": "單元1 大掃除時間",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "單元1 大掃除時間：核心概念",
+          "narrationText": "在「主題四、環保達人」的「單元1 大掃除時間」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "分工合作整理教室"
+          ],
+          "analogyAnchor": "把「單元1 大掃除時間」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "單元1 大掃除時間",
+              "leftPoints": [
+                "分工合作整理教室",
+                "分工合作整理教室"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "單元1 大掃除時間",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u4"
+        },
+        {
+          "sceneId": "u4l1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "分工合作整理教室",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「單元1 大掃除時間」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「單元1 大掃除時間」",
+              "第 2 步：對照本課核心「分工合作整理教室」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「單元1 大掃除時間」的一個重點！",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u4"
+        },
+        {
+          "sceneId": "u4l1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「單元1 大掃除時間」後再開始挑戰！",
+          "cognitiveChunks": [
+            "分工合作整理教室"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「單元1 大掃除時間」，哪一項才是正確的學習重點？",
+            "options": [
+              "分工合作整理教室",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-life-u4-l2",
+      "stageId": "115-s2-g2-life-u4-l2",
+      "title": "單元2 垃圾減量大作戰",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "單元2 垃圾減量大作戰：核心概念",
+          "narrationText": "在「主題四、環保達人」的「單元2 垃圾減量大作戰」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "覺察教室垃圾產生原因與垃圾量太多的環境影響。"
+          ],
+          "analogyAnchor": "把「單元2 垃圾減量大作戰」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "單元2 垃圾減量大作戰",
+              "leftPoints": [
+                "覺察教室垃圾產生原因與垃圾量太多的環境影響。",
+                "覺察教室垃圾產生原因與垃圾量太多的環境影響。"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "單元2 垃圾減量大作",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u4"
+        },
+        {
+          "sceneId": "u4l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "覺察教室垃圾產生原因與垃圾量太多的環境影響。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「單元2 垃圾減量大作戰」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「單元2 垃圾減量大作戰」",
+              "第 2 步：對照本課核心「覺察教室垃圾產生原因與垃圾量太多的環境影響。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「單元2 垃圾減量大作戰」的一個重點！",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u4"
+        },
+        {
+          "sceneId": "u4l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「單元2 垃圾減量大作戰」後再開始挑戰！",
+          "cognitiveChunks": [
+            "覺察教室垃圾產生原因與垃圾量太多的環境影響。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「單元2 垃圾減量大作戰」，哪一項才是正確的學習重點？",
+            "options": [
+              "覺察教室垃圾產生原因與垃圾量太多的環境影響。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-life-u4-l3",
+      "stageId": "115-s2-g2-life-u4-l3",
+      "title": "單元3 神奇變身術",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "單元3 神奇變身術：核心概念",
+          "narrationText": "在「主題四、環保達人」的「單元3 神奇變身術」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "體驗自製環保樂器樂趣"
+          ],
+          "analogyAnchor": "把「單元3 神奇變身術」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "單元3 神奇變身術",
+              "leftPoints": [
+                "體驗自製環保樂器樂趣",
+                "體驗自製環保樂器樂趣"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "單元3 神奇變身術",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u4"
+        },
+        {
+          "sceneId": "u4l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "體驗自製環保樂器樂趣",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「單元3 神奇變身術」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「單元3 神奇變身術」",
+              "第 2 步：對照本課核心「體驗自製環保樂器樂趣」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「單元3 神奇變身術」的一個重點！",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u4"
+        },
+        {
+          "sceneId": "u4l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「單元3 神奇變身術」後再開始挑戰！",
+          "cognitiveChunks": [
+            "體驗自製環保樂器樂趣"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「單元3 神奇變身術」，哪一項才是正確的學習重點？",
+            "options": [
+              "體驗自製環保樂器樂趣",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-life-u5-l1",
+      "stageId": "115-s2-g2-life-u5-l1",
+      "title": "單元1 和影子玩遊戲",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "單元1 和影子玩遊戲：核心概念",
+          "narrationText": "在「主題五、光和影」的「單元1 和影子玩遊戲」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "玩踩影子遊戲、發現校園不同影子與組合影子怪獸（目標54-57）。"
+          ],
+          "analogyAnchor": "把「單元1 和影子玩遊戲」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "單元1 和影子玩遊戲",
+              "leftPoints": [
+                "玩踩影子遊戲",
+                "玩踩影子遊戲"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "單元1 和影子玩遊戲",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
           "factGroundingSourceId": "115-s2/g2/life#u5"
         },
         {
-          "sceneId": "u5-s2",
+          "sceneId": "u5l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "怎麼讓牆上的影子變大或變小？",
-          "narrationText": "操作手電筒和紙偶時，改變紙偶和手電筒之間的距離，就能輕鬆控制影子的大小。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "靠近手電筒→影子變大",
-            "遠離手電筒→影子變小"
+            "玩踩影子遊戲、發現校園不同影子與組合影子怪獸（目標54-57）。",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "拿手電筒照著小紙偶投射到白牆上，把小紙偶慢慢移動到「更靠近手電筒」的地方，影子會怎麼變？",
+            "problemStatement": "複習「單元1 和影子玩遊戲」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：固定手電筒和白牆的位置",
-              "第 2 步：把小紙偶往手電筒方向移近",
-              "第 3 步：紙偶擋住更多光線，牆上的影子就會變得越來越大"
+              "第 1 步：確認題目在問「單元1 和影子玩遊戲」",
+              "第 2 步：對照本課核心「玩踩影子遊戲」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：以為紙偶離牆壁越遠影子就會縮得越小，其實剛好相反。",
-            "selfExplanationPrompt": "想一想：如果把房間裡所有的燈都關掉變得一片漆黑，還能變出影子嗎？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「單元1 和影子玩遊戲」的一個重點！",
             "keepStepCardVisible": true
           },
           "factGroundingSourceId": "115-s2/g2/life#u5"
         },
         {
-          "sceneId": "u5-s3",
+          "sceneId": "u5l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "先答對這題光源與影子的問題！",
+          "narrationText": "先做一題暖身確認，確認掌握「單元1 和影子玩遊戲」後再開始挑戰！",
           "cognitiveChunks": [
-            "沒光線就沒有影子"
+            "玩踩影子遊戲、發現校園不同影子與組合影子怪獸（目標54-57）。"
           ],
           "warmupCheck": {
-            "prompt": "在拉上窗簾的教室裡想讓紙偶出現影子，可以使用哪一種常見的光源？",
+            "prompt": "關於「單元1 和影子玩遊戲」，哪一項才是正確的學習重點？",
             "options": [
-              "會發出亮光的手電筒或電燈",
-              "沒開電源的木頭積木",
-              "裝著冷開水的塑膠水壺"
+              "玩踩影子遊戲、發現校園不同影子與組合影子怪獸（目標54-57）。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
             "answerIndex": 0,
-            "feedbackCorrect": "答對了！手電筒和電燈會發光，能照出清楚的影子。",
-            "feedbackRetry": "要能自己發出亮光的東西才能當光源喔！"
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s2/g2/life#u5"
         }
@@ -459,46 +1009,226 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g2-life-u6",
-      "stageId": "115-s2-g2-life-u6",
-      "title": "主題六、成長與學習",
+      "lessonId": "lesson-115-s2-g2-life-u5-l2",
+      "stageId": "115-s2-g2-life-u5-l2",
+      "title": "單元2 光影好朋友",
       "ageBand": "AGE_6_8_LOWER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u6-s1",
+          "sceneId": "u5l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "發現自己的成長，準備迎接三年級",
-          "narrationText": "這兩年我們長高了、學會自己整理書包與作品，升上三年級後會有自然、社會等新科目和更多整天課，我們已經準備好了！",
+          "title": "單元2 光影好朋友：核心概念",
+          "narrationText": "在「主題五、光和影」的「單元2 光影好朋友」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "身高長高、能力也變更好",
-            "用資料夾或作品盒保存學習成果",
-            "三年級有自然、社會和更多整天課"
+            "討論教室影子如何產生"
           ],
-          "analogyAnchor": "就像小樹苗慢慢長出新葉子一樣，我們靠自己的努力長大，也要早睡早起、主動發問迎接三年級的新挑戰！",
+          "analogyAnchor": "把「單元2 光影好朋友」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "二年級的成長",
+              "leftTitle": "單元2 光影好朋友",
               "leftPoints": [
-                "會自己整理書包、分擔家事",
-                "整理作品放進資料夾保存"
+                "討論教室影子如何產生",
+                "討論教室影子如何產生"
               ],
-              "rightTitle": "三年級新生活",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "多出自然和社會新科目",
-                "整天課變多、早睡早起有精神"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "自己負責分擔工作",
+                "text": "單元2 光影好朋友",
                 "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "迎接三年級新課表",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u5"
+        },
+        {
+          "sceneId": "u5l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "討論教室影子如何產生",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「單元2 光影好朋友」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「單元2 光影好朋友」",
+              "第 2 步：對照本課核心「討論教室影子如何產生」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「單元2 光影好朋友」的一個重點！",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u5"
+        },
+        {
+          "sceneId": "u5l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「單元2 光影好朋友」後再開始挑戰！",
+          "cognitiveChunks": [
+            "討論教室影子如何產生"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「單元2 光影好朋友」，哪一項才是正確的學習重點？",
+            "options": [
+              "討論教室影子如何產生",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-life-u5-l3",
+      "stageId": "115-s2-g2-life-u5-l3",
+      "title": "單元3 影子表演秀",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u5l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "單元3 影子表演秀：核心概念",
+          "narrationText": "在「主題五、光和影」的「單元3 影子表演秀」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "討論影子表演秀內容與準備工作，製作道具並合作演出（目標63-65）。"
+          ],
+          "analogyAnchor": "把「單元3 影子表演秀」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "單元3 影子表演秀",
+              "leftPoints": [
+                "討論影子表演秀內容與準備工作",
+                "討論影子表演秀內容與準備工作"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "單元3 影子表演秀",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u5"
+        },
+        {
+          "sceneId": "u5l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "討論影子表演秀內容與準備工作，製作道具並合作演出（目標63-65）。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「單元3 影子表演秀」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「單元3 影子表演秀」",
+              "第 2 步：對照本課核心「討論影子表演秀內容與準備工作」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「單元3 影子表演秀」的一個重點！",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u5"
+        },
+        {
+          "sceneId": "u5l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「單元3 影子表演秀」後再開始挑戰！",
+          "cognitiveChunks": [
+            "討論影子表演秀內容與準備工作，製作道具並合作演出（目標63-65）。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「單元3 影子表演秀」，哪一項才是正確的學習重點？",
+            "options": [
+              "討論影子表演秀內容與準備工作，製作道具並合作演出（目標63-65）。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u5"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-life-u6-l1",
+      "stageId": "115-s2-g2-life-u6-l1",
+      "title": "單元1 成長的發現",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u6l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "單元1 成長的發現：核心概念",
+          "narrationText": "在「主題六、成長與學習」的「單元1 成長的發現」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "察覺身體漸漸成長與能力變好、分擔責任"
+          ],
+          "analogyAnchor": "把「單元1 成長的發現」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "單元1 成長的發現",
+              "leftPoints": [
+                "察覺身體漸漸成長與能力變好、分擔責任",
+                "察覺身體漸漸成長與能力變好、分擔責任"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "單元1 成長的發現",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -506,45 +1236,136 @@
           "factGroundingSourceId": "115-s2/g2/life#u6"
         },
         {
-          "sceneId": "u6-s2",
+          "sceneId": "u6l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "三年級和二年級有什麼不一樣？",
-          "narrationText": "比較二年級和三年級的課表，會發現科目變多、留在學校吃午餐與上整天課的天數也變多了。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "新增自然、社會等科目",
-            "整天課變多需規律作息"
+            "察覺身體漸漸成長與能力變好、分擔責任",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "看一看三年級的課表，準備升上三年級迎接新生活時，會發現什麼不一樣？",
+            "problemStatement": "複習「單元1 成長的發現」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：數一數全週上課節數，發現下午有更多整天課要留在學校",
-              "第 2 步：看看課表上的科目名稱，多了「自然」、「社會」等新科目",
-              "第 3 步：練習早睡早起、自己檢查書包，就能順利適應新生活"
+              "第 1 步：確認題目在問「單元1 成長的發現」",
+              "第 2 步：對照本課核心「察覺身體漸漸成長與能力變好、分擔責任」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：以為三年級跟二年級上課時間完全一樣，或以為不用寫作業。",
-            "selfExplanationPrompt": "想一想：這學期累積的圖畫作品和學習單，用什麼方法整理保存最好？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「單元1 成長的發現」的一個重點！",
             "keepStepCardVisible": true
           },
           "factGroundingSourceId": "115-s2/g2/life#u6"
         },
         {
-          "sceneId": "u6-s3",
+          "sceneId": "u6l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "練習一題欣賞同學才藝表演的好禮儀吧！",
+          "narrationText": "先做一題暖身確認，確認掌握「單元1 成長的發現」後再開始挑戰！",
           "cognitiveChunks": [
-            "安靜專心欣賞並拍手鼓勵"
+            "察覺身體漸漸成長與能力變好、分擔責任"
           ],
           "warmupCheck": {
-            "prompt": "班上舉辦展現才藝的同樂活動，當同學勇敢上台表演時，台下的我們應該怎麼做？",
+            "prompt": "關於「單元1 成長的發現」，哪一項才是正確的學習重點？",
             "options": [
-              "大聲在台下聊天不看台上",
-              "安靜專心欣賞，表演結束後熱情拍手鼓勵",
-              "發出噓聲嚇唬同學"
+              "察覺身體漸漸成長與能力變好、分擔責任",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
-            "answerIndex": 1,
-            "feedbackCorrect": "答對了！專心觀看並給予熱情掌聲，是最有風度的小觀眾。",
-            "feedbackRetry": "換成你站在台上表演時，一定也希望大家專心聽完後給你掌聲吧！"
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u6"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g2-life-u6-l2",
+      "stageId": "115-s2-g2-life-u6-l2",
+      "title": "單元2 迎接新生活",
+      "ageBand": "AGE_6_8_LOWER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u6l2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "單元2 迎接新生活：核心概念",
+          "narrationText": "在「主題六、成長與學習」的「單元2 迎接新生活」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "探究三年級和二年級的差異（從課表發現學習生活不同）"
+          ],
+          "analogyAnchor": "把「單元2 迎接新生活」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "單元2 迎接新生活",
+              "leftPoints": [
+                "探究三年級和二年級的差異（從課表發現學習生活不同）",
+                "探究三年級和二年級的差異（從課表發現學習生活不同）"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "單元2 迎接新生活",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u6"
+        },
+        {
+          "sceneId": "u6l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "探究三年級和二年級的差異（從課表發現學習生活不同）",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「單元2 迎接新生活」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「單元2 迎接新生活」",
+              "第 2 步：對照本課核心「探究三年級和二年級的差異（從課表發現學習生。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「單元2 迎接新生活」的一個重點！",
+            "keepStepCardVisible": true
+          },
+          "factGroundingSourceId": "115-s2/g2/life#u6"
+        },
+        {
+          "sceneId": "u6l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「單元2 迎接新生活」後再開始挑戰！",
+          "cognitiveChunks": [
+            "探究三年級和二年級的差異（從課表發現學習生活不同）"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「單元2 迎接新生活」，哪一項才是正確的學習重點？",
+            "options": [
+              "探究三年級和二年級的差異（從課表發現學習生活不同）",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s2/g2/life#u6"
         }

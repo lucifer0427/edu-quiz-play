@@ -43,6 +43,14 @@
         "publisher": "翰林",
         "book_series": "5 Here We Go（選書表僅列起始單數冊，第六冊由課程計畫核實）"
       }
+    },
+    {
+      "id": "src-3",
+      "source_tier": "tier1",
+      "source_title": "113學年度英語單字王五年級單字題庫（翰林 Here We Go 6）",
+      "source_url": "https://www.ftps.kh.edu.tw/upload/19/101_11569/%E7%A6%8F%E6%9D%B1%E8%8B%B1%E8%AA%9E%E5%96%AE%E5%AD%97%E7%8E%8B_%E4%BA%94%E5%B9%B4%E7%B4%9A%E5%96%AE%E5%AD%97%E9%A1%8C%E5%BA%AB.pdf",
+      "local_file": null,
+      "retrieved_at": "2026-11-26T06:00:00+08:00"
     }
   ],
   "units": [
@@ -57,7 +65,13 @@
             "第1-2週起始暖身單元（融入閱讀素養教育）。",
             "五下整體數字目標（p.103）：能聽辨並說出數字 100-1000。"
           ],
-          "vocabulary": [],
+          "vocabulary": [
+            "one hundred",
+            "two hundred",
+            "three hundred",
+            "five hundred",
+            "one thousand"
+          ],
           "source_ref": "src-1",
           "verbatim_excerpt": "[PDF p.613 5-2教學進度總表] 第1-2週：開學預備週 Starter【閱讀素養教育】；[PDF p.103] 下學期學習目標1：能聽辨並說出數字 100-1000。",
           "confidence": "primary"
@@ -75,7 +89,19 @@
             "主題：Body Parts 身體部位（進度總表第3-6週）。",
             "融入安全教育、閱讀素養教育；五下字母拼讀目標（跨單元見 p.103）：能聽辨及運用字母拼讀法念出以 ng, nk, wh, ph, th (unvoiced), th (voiced), ch, sh 所組成的字詞。"
           ],
-          "vocabulary": [],
+          "vocabulary": [
+            "eye",
+            "ear",
+            "nose",
+            "mouth",
+            "hand",
+            "arm",
+            "leg",
+            "foot",
+            "feet",
+            "wrong",
+            "hurt"
+          ],
           "source_ref": "src-1",
           "verbatim_excerpt": "[PDF p.102 課程架構表] 英語 五下（Here We Go：Unit 1 What’s Wrong?；[PDF p.613-615] 第3-6週：Body Parts 身體部位 Unit 1 What’s Wrong?；[PDF p.103] 下學期學習目標5。",
           "confidence": "primary"
@@ -93,7 +119,17 @@
             "主題：Illness 病症（進度總表第7-10週）。",
             "融入國際教育、閱讀素養教育、家庭教育。"
           ],
-          "vocabulary": [],
+          "vocabulary": [
+            "cold",
+            "fever",
+            "runny nose",
+            "sore throat",
+            "headache",
+            "toothache",
+            "stomachache",
+            "have",
+            "has"
+          ],
           "source_ref": "src-1",
           "verbatim_excerpt": "[PDF p.102 課程架構表] Unit 2 Do You Have a Headache?；[PDF p.615-616] 第7-10週：Illness 病症 Unit 2 Do You Have a Headache?。",
           "confidence": "primary"

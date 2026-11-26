@@ -43,6 +43,14 @@
         "publisher": "翰林",
         "book_series": "Here We Go 第七冊"
       }
+    },
+    {
+      "id": "src-3",
+      "source_tier": "tier1",
+      "source_title": "113學年度英語單字王六年級單字題庫（翰林 Here We Go 7）",
+      "source_url": "https://www.ftps.kh.edu.tw/upload/19/104_57459/114%E5%B9%B4%E7%A6%8F%E6%9D%B1%E8%8B%B1%E8%AA%9E%E5%96%AE%E5%AD%97%E7%8E%8B%E5%96%AE%E5%AD%97%E9%A1%8C%E5%BA%AB.pdf",
+      "local_file": null,
+      "retrieved_at": "2026-11-26T06:00:00+08:00"
     }
   ],
   "units": [
@@ -85,7 +93,17 @@
             "主題：Countries 國家（第3-6週授課）；融入國際教育、閱讀素養教育。",
             "六上跨單元拼讀與讀寫目標（PDF p.109）：能聽懂並跟讀故事對話；能聽懂、辨識、說出並摹寫所學單字及句子；能聽辨及運用字母拼讀法讀出以 -er, -or, ir, ur, ar, or, oi, oy, ou, ow 所組成的字詞。"
           ],
-          "vocabulary": [],
+          "vocabulary": [
+            "Australia",
+            "India",
+            "Japan",
+            "Singapore",
+            "Spain",
+            "Taiwan",
+            "the UK",
+            "the USA",
+            "from"
+          ],
           "source_ref": "src-1",
           "verbatim_excerpt": "[PDF p.107 課程架構表] Unit 1 Where Are You From?；[PDF p.622-623 5-2教學進度總表] 第3-6週：Countries 國家 Unit 1 Where Are You From?；[PDF p.109] 上學期學習目標2-4。",
           "confidence": "primary"
@@ -102,7 +120,17 @@
           "learning_points": [
             "主題：Transportation 交通工具（第7-10週授課）；融入國際教育、閱讀素養教育、戶外教育。"
           ],
-          "vocabulary": [],
+          "vocabulary": [
+            "by bike",
+            "by bus",
+            "by car",
+            "by metro",
+            "by scooter",
+            "by taxi",
+            "by train",
+            "on foot",
+            "school"
+          ],
           "source_ref": "src-1",
           "verbatim_excerpt": "[PDF p.107 課程架構表] Unit 2 How Do You Go to School?；[PDF p.623-624 5-2教學進度總表] 第7-10週：Transportation 交通工具 Unit 2 How Do You Go to School?。",
           "confidence": "primary"
@@ -137,7 +165,18 @@
             "主題：Activities 日常活動（第12-15週授課）；融入國際教育、閱讀素養教育、家庭教育。",
             "註：5-1-1 課程架構表（PDF p.107）列為「Unit 3 What Do You Do on Weekeneds?」（原表拼寫 Weekeneds），5-2 教學進度總表（PDF p.625-626）則列為「Activities 日常活動 Unit 3 What Do You Do in Your Free Time?」。"
           ],
-          "vocabulary": [],
+          "vocabulary": [
+            "go jogging",
+            "listen to music",
+            "play baseball",
+            "play basketball",
+            "ride a bike",
+            "study English",
+            "surf the Internet",
+            "watch TV",
+            "weekend",
+            "free time"
+          ],
           "source_ref": "src-1",
           "verbatim_excerpt": "[PDF p.107 課程架構表] Unit 3 What Do You Do on Weekeneds?；[PDF p.625-626 5-2教學進度總表] 第12-15週：Activities 日常活動 Unit 3 What Do You Do in Your Free Time?。",
           "confidence": "primary"
@@ -154,7 +193,15 @@
           "learning_points": [
             "主題：Daily Routines 生活作息（第16-19週授課）；融入國際教育、閱讀素養教育。"
           ],
-          "vocabulary": [],
+          "vocabulary": [
+            "get up",
+            "go to school",
+            "have lunch",
+            "go home",
+            "do my homework",
+            "take a shower",
+            "go to bed"
+          ],
           "source_ref": "src-1",
           "verbatim_excerpt": "[PDF p.107 課程架構表] Unit 4 What Time Do You Get Up?；[PDF p.627-628 5-2教學進度總表] 第16-19週：Daily Routines 生活作息 Unit 4 What Time Do You Get Up?。",
           "confidence": "primary"

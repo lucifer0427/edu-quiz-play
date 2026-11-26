@@ -844,6 +844,216 @@
           ]
         }
       ]
+    },
+    {
+      "id": "115-s2-g1-english-u5",
+      "subjectId": "english",
+      "title": "26 個字母拼圖：T, U, V 與總複習",
+      "description": "補齊字母 T、U、V 的大小寫與順序，並複習 A–Z 全部 26 個英文字母！",
+      "difficulty": "easy",
+      "monsterId": "slime",
+      "monsterName": "字母拼圖怪",
+      "monsterHp": 110,
+      "curriculum": {
+        "academicYear": 115,
+        "semester": 2,
+        "grade": 1,
+        "publisher": "翰林",
+        "bookSeries": "Twinkle 1 / 唱跳趣閱家一下",
+        "unitNo": 5
+      },
+      "questions": [
+        {
+          "id": "115-s2-g1-english-u5-q1",
+          "prompt": "在 26 個英文字母順序裡，排在「S」後面、「U」前面的是哪一個字母？",
+          "options": [
+            "T",
+            "R",
+            "V",
+            "W"
+          ],
+          "answerIndex": 0,
+          "explanation": "字母順序是 Q, R, S, T, U, V, W，排在 S 後面的是 T！",
+          "hint": "唱一次字母歌：Q, R, S, ___...",
+          "speechText": "T",
+          "speechLang": "en-US",
+          "tags": [
+            "Alphabet T-V",
+            "A-Z Review"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u5-q2",
+          "prompt": "大寫字母「T」像一把小雨傘或小桌子，它的小寫字母是哪一個？",
+          "options": [
+            "f",
+            "t",
+            "l",
+            "i"
+          ],
+          "answerIndex": 1,
+          "explanation": "T 的小寫是 t，中間有一橫；f 頭頂是彎的，l 是一直線，i 上面有一點。",
+          "hint": "找找看有一橫交叉的 t！",
+          "speechText": "t",
+          "speechLang": "en-US",
+          "tags": [
+            "Alphabet T-V",
+            "A-Z Review"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u5-q3",
+          "prompt": "大寫字母「U」像一個微笑的杯子，排在它後面的字母是誰？",
+          "options": [
+            "S",
+            "T",
+            "V",
+            "W"
+          ],
+          "answerIndex": 2,
+          "explanation": "字母順序是 S, T, U, V, W，U 的後面是 V！",
+          "hint": "想一想 S, T, U 之後是哪一個字母？",
+          "speechText": "V",
+          "speechLang": "en-US",
+          "tags": [
+            "Alphabet T-V",
+            "A-Z Review"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u5-q4",
+          "prompt": "比一比大小寫配對，下面哪一組「U」和「V」的大小寫都正確？",
+          "options": [
+            "U-v / V-u",
+            "U-n / V-y",
+            "U-w / V-w",
+            "U-u / V-v"
+          ],
+          "answerIndex": 3,
+          "explanation": "U 的小寫是 u（開口向上），V 的小寫是 v（尖尖的 V 字形）。",
+          "hint": "U 和 V 的大小寫長得都很像原本的形狀，只是比較小喔！",
+          "speechText": "U, V",
+          "speechLang": "en-US",
+          "tags": [
+            "Alphabet T-V",
+            "A-Z Review"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u5-q5",
+          "prompt": "在「T, U, V」三個字母裡，小寫有「圓弧底部的杯子形狀」的是哪一個？",
+          "options": [
+            "u",
+            "t",
+            "v",
+            "r"
+          ],
+          "answerIndex": 0,
+          "explanation": "小寫 u 底部圓圓的，而 v 的底部是尖尖的！",
+          "hint": "圓底杯子是 u，尖底勝利手勢是 v。",
+          "speechText": "u",
+          "speechLang": "en-US",
+          "tags": [
+            "Alphabet T-V",
+            "A-Z Review"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u5-q6",
+          "prompt": "英文單字 \"tiger\"（老虎）的第一個字母是什麼？",
+          "options": [
+            "D",
+            "T",
+            "P",
+            "V"
+          ],
+          "answerIndex": 1,
+          "explanation": "tiger（老虎）以字母 t 開頭，發 /t/ 的音！",
+          "hint": "點喇叭聽聽看 tiger 的開頭音。",
+          "speechText": "tiger",
+          "speechLang": "en-US",
+          "tags": [
+            "Alphabet T-V",
+            "A-Z Review"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u5-q7",
+          "prompt": "英文單字 \"umbrella\"（雨傘）的第一個字母是什麼？",
+          "options": [
+            "A",
+            "O",
+            "U",
+            "V"
+          ],
+          "answerIndex": 2,
+          "explanation": "umbrella（雨傘）以母音字母 u 開頭！",
+          "hint": "點喇叭聽聽看 umbrella 的開頭音。",
+          "speechText": "umbrella",
+          "speechLang": "en-US",
+          "tags": [
+            "Alphabet T-V",
+            "A-Z Review"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u5-q8",
+          "prompt": "在字母繪本《Chicka Chicka Boom Boom》中，26 個字母依序爬上椰子樹。請問「V」的後面接著是哪兩個字母？",
+          "options": [
+            "T, U",
+            "X, Y",
+            "Y, Z",
+            "W, X"
+          ],
+          "answerIndex": 3,
+          "explanation": "字母順序是 T, U, V, W, X, Y, Z，所以 V 後面接著 W 和 X！",
+          "hint": "從 S, T, U, V 繼續往下念！",
+          "speechText": "W, X",
+          "speechLang": "en-US",
+          "tags": [
+            "Alphabet T-V",
+            "A-Z Review"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u5-q9",
+          "prompt": "請選出完全按照正確順序排列的一組字母：",
+          "options": [
+            "R, S, T, U, V",
+            "S, T, V, U, W",
+            "Q, S, R, T, U",
+            "T, U, W, V, X"
+          ],
+          "answerIndex": 0,
+          "explanation": "正確順序是 Q, R, S, T, U, V, W, X, Y, Z。",
+          "hint": "檢查每一個選項有沒有前後顛倒喔！",
+          "speechText": "R, S, T, U, V",
+          "speechLang": "en-US",
+          "tags": [
+            "Alphabet T-V",
+            "A-Z Review"
+          ]
+        },
+        {
+          "id": "115-s2-g1-english-u5-q10",
+          "prompt": "從 A 到 Z 一共有幾個英文字母？",
+          "options": [
+            "24 個",
+            "26 個",
+            "25 個",
+            "28 個"
+          ],
+          "answerIndex": 1,
+          "explanation": "英文字母從 A 到 Z 總共有 26 個字母，每個字母都有大寫和小寫！",
+          "hint": "數一數整個字母表 A–Z！",
+          "speechText": "twenty-six letters",
+          "speechLang": "en-US",
+          "tags": [
+            "Alphabet T-V",
+            "A-Z Review"
+          ]
+        }
+      ]
     }
   ]
 }

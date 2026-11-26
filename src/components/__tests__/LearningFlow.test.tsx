@@ -28,6 +28,7 @@ import { BattleSummary, type BattleResult } from '../BattleSummary';
 import { DailyMissionCard } from '../DailyMissionCard';
 import { EyeCareModal } from '../EyeCareModal';
 import { HeroShop } from '../HeroShop';
+import { Navbar } from '../Navbar';
 import { LessonPlayer } from '../LessonPlayer';
 import { MathToolsModal } from '../MathToolsModal';
 import { ProfileSelectorModal } from '../ProfileSelectorModal';
@@ -747,5 +748,46 @@ describe('Engagement, Hanzi & Deep Teaching Features', () => {
     ).toBeInTheDocument();
     fireEvent.click(screen.getByRole('button', { name: /回看微課/ }));
     expect(onOpenLesson).toHaveBeenCalledWith('math', '單元一：整數加法');
+  });
+
+  it('Navbar profile dropdown uses viewport-safe positioning and submits new child name', () => {
+    const onCreateProfile = vi.fn();
+    render(
+      <Navbar
+        progress={{ ...DEFAULT_PROGRESS, nickname: '小二寶' }}
+        activeTab="map"
+        profiles={[
+          {
+            id: 'default',
+            nickname: '小二寶',
+            selectedAvatarId: 'hero-knight',
+            createdAt: '2026-11-26T00:00:00Z',
+            defaultGrade: 2,
+          },
+        ]}
+        activeProfileId="default"
+        onChangeTab={vi.fn()}
+        onToggleSound={vi.fn()}
+        onToggleFocusMode={vi.fn()}
+        onSwitchProfile={vi.fn()}
+        onCreateProfile={onCreateProfile}
+        onDeleteProfile={vi.fn()}
+      />,
+    );
+
+    const toggleBtn = screen.getByRole('button', {
+      name: /小二寶/,
+    });
+    fireEvent.click(toggleBtn);
+
+    const menu = screen.getByRole('menu');
+    expect(menu.className).toContain('fixed');
+    expect(menu.className).toContain('inset-x-3');
+    expect(menu.className).toContain('sm:left-0');
+
+    const input = screen.getByPlaceholderText('輸入新學童暱稱（如：妹妹）');
+    fireEvent.change(input, { target: { value: '二年級弟弟' } });
+    fireEvent.click(screen.getByRole('button', { name: '新增' }));
+    expect(onCreateProfile).toHaveBeenCalledWith('二年級弟弟');
   });
 });

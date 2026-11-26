@@ -42,7 +42,7 @@ export function ProfileSelectorModal({
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/65 p-4 backdrop-blur-sm">
-      <div className="w-full max-w-2xl rounded-3xl border-4 border-amber-300 bg-gradient-to-b from-amber-50 to-white p-6 shadow-2xl">
+      <div className="max-h-[90vh] w-full max-w-2xl overflow-y-auto rounded-3xl border-4 border-amber-300 bg-gradient-to-b from-amber-50 to-white p-6 shadow-2xl">
         <div className="mb-5 flex items-center justify-between">
           <div className="flex items-center gap-2.5">
             <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-amber-400 text-white shadow-sm">

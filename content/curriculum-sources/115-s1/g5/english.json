@@ -43,6 +43,14 @@
         "publisher": "翰林",
         "book_series": "Here We Go 第五冊"
       }
+    },
+    {
+      "id": "src-3",
+      "source_tier": "tier1",
+      "source_title": "113學年度英語單字王五年級單字題庫（翰林 Here We Go 5）",
+      "source_url": "https://www.ftps.kh.edu.tw/upload/19/101_11569/%E7%A6%8F%E6%9D%B1%E8%8B%B1%E8%AA%9E%E5%96%AE%E5%AD%97%E7%8E%8B_%E4%BA%94%E5%B9%B4%E7%B4%9A%E5%96%AE%E5%AD%97%E9%A1%8C%E5%BA%AB.pdf",
+      "local_file": null,
+      "retrieved_at": "2026-11-26T06:00:00+08:00"
     }
   ],
   "units": [
@@ -56,7 +64,18 @@
           "learning_points": [
             "預備週暖身：世界地圖概念、字母拼讀與舊單元字詞句型複習（融入國際教育）。"
           ],
-          "vocabulary": [],
+          "vocabulary": [
+            "ten",
+            "twenty",
+            "thirty",
+            "forty",
+            "fifty",
+            "sixty",
+            "seventy",
+            "eighty",
+            "ninety",
+            "one hundred"
+          ],
           "source_ref": "src-1",
           "verbatim_excerpt": "[PDF p.604 5-2教學進度總表] 第1週：開學預備週 World Map, Phonics Review, Word& Sentence Review【國際教育】。",
           "confidence": "primary"
@@ -85,7 +104,16 @@
             "主題：Days of the Week 星期（進度總表第3-6週）。",
             "五上字母拼讀與語言目標（跨單元見 p.103）：能聽辨、辨識並說出所學單字及句子；能聽辨及運用字母拼讀法念出以 a_e, ai, ay, e_e, ee, ea, i_e, ie, y, o_e, oa, ow, u_e, ue, ui 所組成的字詞。"
           ],
-          "vocabulary": [],
+          "vocabulary": [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "today"
+          ],
           "source_ref": "src-1",
           "verbatim_excerpt": "[PDF p.101 課程架構表] 英語 五上（Here We Go 第五冊）：Unit 1 What Day Is Today?；[PDF p.605-606] 第3-6週：Days of the Week 星期 Unit 1 What Day Is Today?。",
           "confidence": "primary"
@@ -103,7 +131,19 @@
             "主題：Subjects 科目（進度總表第7-10週）。",
             "融入國際教育、閱讀素養教育。"
           ],
-          "vocabulary": [],
+          "vocabulary": [
+            "art",
+            "Chinese",
+            "English",
+            "math",
+            "music",
+            "PE",
+            "science",
+            "social studies",
+            "have",
+            "class",
+            "does"
+          ],
           "source_ref": "src-1",
           "verbatim_excerpt": "[PDF p.101 課程架構表] Unit 2 Do You Have PE Class o...；[PDF p.607-608] 第7-10週：Subjects 科目 Unit 2 Do You Have PE Class on Monday?。",
           "confidence": "primary"
@@ -138,7 +178,19 @@
             "主題：Places 社區場所（進度總表第12-15週）。",
             "融入國際教育、閱讀素養教育。"
           ],
-          "vocabulary": [],
+          "vocabulary": [
+            "bank",
+            "bookstore",
+            "hospital",
+            "library",
+            "museum",
+            "park",
+            "post office",
+            "supermarket",
+            "go to",
+            "road",
+            "street"
+          ],
           "source_ref": "src-1",
           "verbatim_excerpt": "[PDF p.101 課程架構表] Unit 3 Where Are You Going?；[PDF p.609-610] 第12-15週：Places 社區場所 Unit 3 Where Are You Going?。",
           "confidence": "primary"
@@ -156,7 +208,17 @@
             "主題：Animals 動物（進度總表第16-19週）。",
             "融入國際教育、閱讀素養教育、環境教育。"
           ],
-          "vocabulary": [],
+          "vocabulary": [
+            "elephant",
+            "horse",
+            "lion",
+            "monkey",
+            "tiger",
+            "turtle",
+            "zebra",
+            "koala",
+            "How many"
+          ],
           "source_ref": "src-1",
           "verbatim_excerpt": "[PDF p.101 課程架構表] Unit 4 How Many Koalas Are There?；[PDF p.610-612] 第16-19週：Animals 動物 Unit 4 How Many Koalas Are There?。",
           "confidence": "primary"

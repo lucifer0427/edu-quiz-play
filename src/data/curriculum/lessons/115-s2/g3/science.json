@@ -8,41 +8,46 @@
   "lessons": [
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g3-science-u1",
-      "stageId": "115-s2-g3-science-u1",
-      "title": "一、快樂小農夫",
+      "lessonId": "lesson-115-s2-g3-science-u1-l1",
+      "stageId": "115-s2-g3-science-u1-l1",
+      "title": "1.菜園大發現",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u1-s1",
+          "sceneId": "u1l1-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "從播種到收成：照顧小菜苗的秘密",
-          "narrationText": "種菜前先查資料了解適合季節與環境，播種後觀察植物經歷發芽、長出根莖葉到開花結果，並學會解決向光性、缺水、太密集與蟲害問題。",
+          "title": "菜園大發現：核心概念",
+          "narrationText": "在「一、快樂小農夫」的「1.菜園大發現」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "種植前先查資料備齊工具與土壤",
-            "植物生長順序：發芽→根莖葉→開花結果",
-            "菜苗朝陽光彎曲＝向光性"
+            "認識「1.菜園大發現」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「1.菜園大發現」的知識應用在日常生活中。",
+            "能用自己的話歸納「1.菜園大發現」的重要發現與做法。"
           ],
-          "analogyAnchor": "小菜苗就像剛入學的新生，需要剛好的陽光、鬆軟透氣的土壤、適量水分，以及足夠不擁擠的座位才能健康長大。",
+          "analogyAnchor": "把「1.菜園大發現」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_compare",
             "params": {
-              "steps": [
-                "查資料備土選種",
-                "發芽長出根莖葉",
-                "疏苗澆水與防蟲"
+              "leftTitle": "1.菜園大發現",
+              "leftPoints": [
+                "認識「1.菜園大發現」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "定期轉盆防歪斜",
+                "text": "1.菜園大發現",
                 "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "疏苗與友善防蟲",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -50,58 +55,45 @@
           "factGroundingSourceId": "115-s2/g3/science#u1"
         },
         {
-          "sceneId": "u1-s2",
+          "sceneId": "u1l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "解決菜園四大常見難題",
-          "narrationText": "菜苗歪向窗外時要定期轉動花盆；種太擠時要適當疏苗；土乾葉垂時要適量澆水；長菜蟲時則用人工捉除或防蟲網等友善方法。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "向光性歪斜 → 定期轉動花盆",
-            "太密集 → 疏苗；長菜蟲 → 友善防蟲"
+            "認識「1.菜園大發現」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "發現菜苗種得太密集，而且葉片軟軟下垂、土壤乾裂時，怎麼辦？",
+            "problemStatement": "複習「1.菜園大發現」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：過於擁擠會互搶陽光與養分，所以要「適當疏苗分株」",
-              "第 2 步：土壤乾裂、葉片軟垂是缺水徵兆，要「適度澆水保持濕潤」",
-              "第 3 步：持續在小農夫日記記錄改善後的生長變化"
+              "第 1 步：確認題目在問「1.菜園大發現」",
+              "第 2 步：對照本課核心「認識「1.菜園大發現」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：看到長菜蟲就直接倒漂白水或放火燒，或播種後每天灌滿水淹過盆口讓種子無法呼吸。",
-            "selfExplanationPrompt": "想一想：我們常吃的空心菜、白蘿蔔和番茄，分別是吃植物的哪一個部位？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「1.菜園大發現」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s2/g3/science#u1"
         },
         {
-          "sceneId": "u1-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "菜園大發現：餐桌蔬菜的食用部位",
-          "topicSignalTitle": "我們吃的是葉子、根還是果實？",
-          "narrationText": "空心菜、菠菜吃葉與嫩莖；白蘿蔔、胡蘿蔔吃地下膨大的根；小黃瓜和番茄則是吃果實喔！",
-          "cognitiveChunks": [
-            "葉菜類：空心菜、菠菜",
-            "根菜類：白蘿蔔、胡蘿蔔"
-          ],
-          "factGroundingSourceId": "115-s2/g3/science#u1"
-        },
-        {
-          "sceneId": "u1-s4",
+          "sceneId": "u1l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "先用這題確認蔬菜的向光性該怎麼照顧！",
+          "narrationText": "先做一題暖身確認，確認掌握「1.菜園大發現」後再開始挑戰！",
           "cognitiveChunks": [
-            "向光性＝朝光源方向生長"
+            "認識「1.菜園大發現」的核心概念與現象，並理解其背後原因。"
           ],
           "warmupCheck": {
-            "prompt": "窗台上的小菜苗總是歪著身體朝有陽光的那一側長，這是什麼現象？該怎麼處理？",
+            "prompt": "關於「1.菜園大發現」，哪一項才是正確的學習重點？",
             "options": [
-              "菜苗生病了，應該丟進垃圾桶",
-              "這是向光性，可以定期轉動花盆讓它長得端正",
-              "被電風扇吹歪了，用膠帶黏住",
-              "把植物關進全黑的箱子裡"
+              "認識「1.菜園大發現」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
-            "answerIndex": 1,
-            "feedbackCorrect": "答對了！植物朝向陽光生長叫作向光性，定期轉動花盆就能讓它均衡直立。",
-            "feedbackRetry": "植物喜歡陽光所以會往有光的地方彎過去，試著轉動花盆換個方向照太陽看看！"
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s2/g3/science#u1"
         }
@@ -109,46 +101,232 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g3-science-u2",
-      "stageId": "115-s2-g3-science-u2",
-      "title": "二、千變萬化的水",
+      "lessonId": "lesson-115-s2-g3-science-u1-l2",
+      "stageId": "115-s2-g3-science-u1-l2",
+      "title": "2.種植前的準備",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u2-s1",
+          "sceneId": "u1l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "毛細現象與水的三態變化",
-          "narrationText": "水能沿著衛生紙、棉線或抹布裡的細小縫隙移動，這叫「毛細現象」。水也會隨溫度變成固態冰塊、液態水或看不見的氣態水蒸氣。",
+          "title": "種植前的準備：核心概念",
+          "narrationText": "在「一、快樂小農夫」的「2.種植前的準備」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "毛細現象：水沿細小縫隙移動",
-            "三態：固態（冰）、液態（水）、氣態（水蒸氣）",
-            "氣態水蒸氣是透明看不見的"
+            "認識「2.種植前的準備」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「2.種植前的準備」的知識應用在日常生活中。",
+            "能用自己的話歸納「2.種植前的準備」的重要發現與做法。"
           ],
-          "analogyAnchor": "就像用棉質毛巾擦乾手、用抹布吸乾打翻的飲料，都是靠布料纖維裡的細縫把水吸進去的毛細現象。",
+          "analogyAnchor": "把「2.種植前的準備」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "毛細現象",
+              "leftTitle": "2.種植前的準備",
               "leftPoints": [
-                "衛生紙、棉線、抹布有細縫",
-                "塑膠尺光滑沒有細縫，不會吸水"
+                "認識「2.種植前的準備」的核心概念與現象",
+                "透過觀察與討論"
               ],
-              "rightTitle": "水的三態變化",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "冰塊吸熱融化成液態水",
-                "水蒸氣遇冷（冰杯壁／冷空氣）凝結成小水珠"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "細縫產生毛細",
+                "text": "2.種植前的準備",
                 "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "遇冷會凝結成水",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u1"
+        },
+        {
+          "sceneId": "u1l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「2.種植前的準備」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「2.種植前的準備」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「2.種植前的準備」",
+              "第 2 步：對照本課核心「認識「2.種植前的準備」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「2.種植前的準備」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u1"
+        },
+        {
+          "sceneId": "u1l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「2.種植前的準備」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「2.種植前的準備」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「2.種植前的準備」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「2.種植前的準備」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-science-u1-l3",
+      "stageId": "115-s2-g3-science-u1-l3",
+      "title": "3.小農夫日記",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "小農夫日記：核心概念",
+          "narrationText": "在「一、快樂小農夫」的「3.小農夫日記」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「3.小農夫日記」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「3.小農夫日記」的知識應用在日常生活中。",
+            "能用自己的話歸納「3.小農夫日記」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「3.小農夫日記」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "3.小農夫日記",
+              "leftPoints": [
+                "認識「3.小農夫日記」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "3.小農夫日記",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u1"
+        },
+        {
+          "sceneId": "u1l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「3.小農夫日記」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「3.小農夫日記」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「3.小農夫日記」",
+              "第 2 步：對照本課核心「認識「3.小農夫日記」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「3.小農夫日記」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u1"
+        },
+        {
+          "sceneId": "u1l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「3.小農夫日記」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「3.小農夫日記」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「3.小農夫日記」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「3.小農夫日記」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-science-u2-l1",
+      "stageId": "115-s2-g3-science-u2-l1",
+      "title": "1.毛細現象",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "毛細現象：核心概念",
+          "narrationText": "在「二、千變萬化的水」的「1.毛細現象」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「1.毛細現象」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「1.毛細現象」的知識應用在日常生活中。",
+            "能用自己的話歸納「1.毛細現象」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「1.毛細現象」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "1.毛細現象",
+              "leftPoints": [
+                "認識「1.毛細現象」的核心概念與現象，並理解其背後原因。",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "1.毛細現象",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -156,58 +334,45 @@
           "factGroundingSourceId": "115-s2/g3/science#u2"
         },
         {
-          "sceneId": "u2-s2",
+          "sceneId": "u2l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "冰杯外的水珠與熱水壺白煙從哪來？",
-          "narrationText": "冰杯子外壁冒水珠不是杯子漏水，熱水壺冒出的白煙也不是氣態水蒸氣！兩者都是空氣或水蒸氣「遇冷」凝結成液態小水珠。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "冰杯外水珠＝空氣中水蒸氣遇冷凝結",
-            "熱水壺白煙＝高溫水蒸氣遇冷凝結成小水滴"
+            "認識「1.毛細現象」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "把冰塊放進常溫桌上的杯子裡，為什麼杯子外壁會冒出許多小水珠？",
+            "problemStatement": "複習「1.毛細現象」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：冰塊吸熱融化，讓杯壁變得冰冰涼涼的",
-              "第 2 步：杯子周圍空氣裡原本就有看不見的「水蒸氣」",
-              "第 3 步：水蒸氣碰到冰冷杯壁遇冷，凝結成液態小水珠附著在杯外"
+              "第 1 步：確認題目在問「1.毛細現象」",
+              "第 2 步：對照本課核心「認識「1.毛細現象」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：以為杯外小水珠是從杯底漏出來的，或以為水壺口的「白煙」就是氣態水蒸氣。",
-            "selfExplanationPrompt": "想一想：在生活中，我們有哪些簡單又有效的「節約用水」好方法？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「1.毛細現象」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s2/g3/science#u2"
         },
         {
-          "sceneId": "u2-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "珍惜有限的淡水資源",
-          "topicSignalTitle": "為什麼地球表面水很多卻還要省水？",
-          "narrationText": "大海裡的水是鹹的不能直接喝，人類和動植物依賴的乾淨淡水資源有限，所以刷牙抹肥皂時要關水、洗米水拿來澆花拖地！",
-          "cognitiveChunks": [
-            "可用淡水資源有限，海水太鹹不能直接飲用",
-            "一水多用（洗米水澆花）與隨手關水"
-          ],
-          "factGroundingSourceId": "115-s2/g3/science#u2"
-        },
-        {
-          "sceneId": "u2-s4",
+          "sceneId": "u2l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "先檢核一下哪一種物品會產生毛細現象吧！",
+          "narrationText": "先做一題暖身確認，確認掌握「1.毛細現象」後再開始挑戰！",
           "cognitiveChunks": [
-            "有細小縫隙的物品才能產生毛細現象"
+            "認識「1.毛細現象」的核心概念與現象，並理解其背後原因。"
           ],
           "warmupCheck": {
-            "prompt": "把下列四樣物品一端放進紅水杯裡，哪一樣最容易觀察到紅水往上爬的「毛細現象」？",
+            "prompt": "關於「1.毛細現象」，哪一項才是正確的學習重點？",
             "options": [
-              "塑膠尺",
-              "玻璃棒",
-              "棉線或擦手紙",
-              "不鏽鋼湯匙"
+              "認識「1.毛細現象」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
-            "answerIndex": 2,
-            "feedbackCorrect": "答對了！棉線與擦手紙內部有很多細小縫隙，水會透過毛細現象往上爬。",
-            "feedbackRetry": "塑膠、玻璃和不鏽鋼表面光滑沒有細縫，水爬不上去喔！"
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s2/g3/science#u2"
         }
@@ -215,46 +380,232 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g3-science-u3",
-      "stageId": "115-s2-g3-science-u3",
-      "title": "三、天氣停看聽",
+      "lessonId": "lesson-115-s2-g3-science-u2-l2",
+      "stageId": "115-s2-g3-science-u2-l2",
+      "title": "2.水的三態變化",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u3-s1",
+          "sceneId": "u2l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "觀測氣溫、雨量與查詢氣象預報",
-          "narrationText": "觀測天氣看雲量陰晴雨、氣溫與風勢。量氣溫要放陰涼通風處平視液柱；做簡易雨量器要選上下一樣粗細的直筒平底容器並放空曠處。",
+          "title": "水的三態變化：核心概念",
+          "narrationText": "在「二、千變萬化的水」的「2.水的三態變化」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "氣溫計放通風陰涼處、平視液柱頂端",
-            "雨量器：上下同寬平底直筒、放空曠處",
-            "降雨機率＝下雨的可能性（機會大小）"
+            "認識「2.水的三態變化」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「2.水的三態變化」的知識應用在日常生活中。",
+            "能用自己的話歸納「2.水的三態變化」的重要發現與做法。"
           ],
-          "analogyAnchor": "氣象工具就像天氣小偵探的放大鏡：不能被大太陽曬到或被屋簷滴水干擾，量出來的數據才會真實。",
+          "analogyAnchor": "把「2.水的三態變化」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "氣溫計正確用法",
+              "leftTitle": "2.水的三態變化",
               "leftPoints": [
-                "放在通風無太陽直射的陰涼處",
-                "眼睛視線與液柱頂端保持水平"
+                "認識「2.水的三態變化」的核心概念與現象",
+                "透過觀察與討論"
               ],
-              "rightTitle": "簡易雨量器原則",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "上下一樣粗細、平底直筒容器",
-                "放在空曠無遮蔽物的平坦處"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "陰涼通風處平視",
+                "text": "2.水的三態變化",
                 "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "直筒平底放空曠",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u2"
+        },
+        {
+          "sceneId": "u2l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「2.水的三態變化」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「2.水的三態變化」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「2.水的三態變化」",
+              "第 2 步：對照本課核心「認識「2.水的三態變化」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「2.水的三態變化」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u2"
+        },
+        {
+          "sceneId": "u2l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「2.水的三態變化」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「2.水的三態變化」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「2.水的三態變化」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「2.水的三態變化」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-science-u2-l3",
+      "stageId": "115-s2-g3-science-u2-l3",
+      "title": "3.水在生活中的應用",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "水在生活中的應用：核心概念",
+          "narrationText": "在「二、千變萬化的水」的「3.水在生活中的應用」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「3.水在生活中的應用」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「3.水在生活中的應用」的知識應用在日常生活中。",
+            "能用自己的話歸納「3.水在生活中的應用」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「3.水在生活中的應用」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "3.水在生活中的應用",
+              "leftPoints": [
+                "認識「3.水在生活中的應用」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "3.水在生活中的應用",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u2"
+        },
+        {
+          "sceneId": "u2l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「3.水在生活中的應用」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「3.水在生活中的應用」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「3.水在生活中的應用」",
+              "第 2 步：對照本課核心「認識「3.水在生活中的應用」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「3.水在生活中的應用」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u2"
+        },
+        {
+          "sceneId": "u2l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「3.水在生活中的應用」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「3.水在生活中的應用」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「3.水在生活中的應用」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「3.水在生活中的應用」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-science-u3-l1",
+      "stageId": "115-s2-g3-science-u3-l1",
+      "title": "1.觀測天氣",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "觀測天氣：核心概念",
+          "narrationText": "在「三、天氣停看聽」的「1.觀測天氣」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「1.觀測天氣」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「1.觀測天氣」的知識應用在日常生活中。",
+            "能用自己的話歸納「1.觀測天氣」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「1.觀測天氣」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "1.觀測天氣",
+              "leftPoints": [
+                "認識「1.觀測天氣」的核心概念與現象，並理解其背後原因。",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "1.觀測天氣",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -262,58 +613,45 @@
           "factGroundingSourceId": "115-s2/g3/science#u3"
         },
         {
-          "sceneId": "u3-s2",
+          "sceneId": "u3l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "看懂氣象預報並做好生活因應",
-          "narrationText": "出門前上中央氣象署網站查詢氣溫與降雨機率，就能決定要帶雨傘還是穿保暖外套；看到強風冷氣團預報時也要固定陽台物品。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "降雨機率 80%＝八成機會下雨（非下 80 小時）",
-            "依預報準備雨具或保暖衣物"
+            "認識「1.觀測天氣」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "明天氣象預報「冷氣團報到、氣溫大幅下降且風勢強勁」，該怎麼準備？",
+            "problemStatement": "複習「1.觀測天氣」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：穿衣方面：準備保暖外套、帽子與圍巾預防著涼",
-              "第 2 步：居家安全：提醒家人固定陽台容易被強風吹落的物品",
-              "第 3 步：持續留意中央氣象署最新預報調整戶外計畫"
+              "第 1 步：確認題目在問「1.觀測天氣」",
+              "第 2 步：對照本課核心「認識「1.觀測天氣」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：以為「降雨機率 10%」代表只會下 10 分鐘的雨，或測氣溫時用手緊握底部的紅色液囊。",
-            "selfExplanationPrompt": "想一想：根據臺灣四季溫度變化，夏季、冬季與春秋各有什麼不同的氣候與生活影響？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「1.觀測天氣」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s2/g3/science#u3"
         },
         {
-          "sceneId": "u3-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "一天氣溫變化與臺灣四季特色",
-          "topicSignalTitle": "一天什麼時候較熱？臺灣四季有什麼變化？",
-          "narrationText": "受太陽照射影響，一天當中通常中午較熱、早晚較涼；臺灣夏季炎熱、冬季受冷氣團影響較冷，春秋較溫和，影響著人們衣著與飲食。",
-          "cognitiveChunks": [
-            "一天中中午時段氣溫較高",
-            "臺灣夏季炎熱、冬季較冷、春秋溫和"
-          ],
-          "factGroundingSourceId": "115-s2/g3/science#u3"
-        },
-        {
-          "sceneId": "u3-s4",
+          "sceneId": "u3l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "來檢核一下自製簡易雨量器的挑選與擺放原則吧！",
+          "narrationText": "先做一題暖身確認，確認掌握「1.觀測天氣」後再開始挑戰！",
           "cognitiveChunks": [
-            "上下一樣粗細的平底直筒容器"
+            "認識「1.觀測天氣」的核心概念與現象，並理解其背後原因。"
           ],
           "warmupCheck": {
-            "prompt": "製作「簡易雨量器」測量雨量時，哪一種容器與擺放方式最正確？",
+            "prompt": "關於「1.觀測天氣」，哪一項才是正確的學習重點？",
             "options": [
-              "上寬下窄的漏斗，放在大樹下",
-              "上下一樣粗細的平底直筒容器，放在空曠平坦處",
-              "窄口花瓶，放在屋簷底下接水",
-              "有破洞的塑膠杯，撐傘遮在上面"
+              "認識「1.觀測天氣」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
-            "answerIndex": 1,
-            "feedbackCorrect": "答對了！雨量看雨水高度，必須用上下同寬的平底直筒容器並放在空曠無遮蔽處。",
-            "feedbackRetry": "如果瓶子上下粗細不同，或放在屋簷樹下被遮住，量出來的雨水高度就會不準喔！"
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s2/g3/science#u3"
         }
@@ -321,46 +659,232 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s2-g3-science-u4",
-      "stageId": "115-s2-g3-science-u4",
-      "title": "四、動物王國",
+      "lessonId": "lesson-115-s2-g3-science-u3-l2",
+      "stageId": "115-s2-g3-science-u3-l2",
+      "title": "2.氣象預報",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u4-s1",
+          "sceneId": "u3l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "動物身體構造、生存條件與保育",
-          "narrationText": "不同動物有適合棲息環境的身體構造（如羽毛、鱗片、發達後腿），牠們都需要養分能量、陽光、空氣、水和土壤才能生存，我們要珍愛並保育動物。",
+          "title": "氣象預報：核心概念",
+          "narrationText": "在「三、天氣停看聽」的「2.氣象預報」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "觀察記錄：身體分部、附肢與體表覆蓋物",
-            "生存要件：養分能量、陽光、空氣、水、土壤",
-            "愛護動物：不驚擾野鳥、不棄養寵物"
+            "認識「2.氣象預報」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「2.氣象預報」的知識應用在日常生活中。",
+            "能用自己的話歸納「2.氣象預報」的重要發現與做法。"
           ],
-          "analogyAnchor": "動物的身體構造就像量身訂做的運動裝備：魚有鰭游泳、鳥有羽毛飛翔、兔子有強壯後腳跳躍。",
+          "analogyAnchor": "把「2.氣象預報」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "動物構造與功能",
+              "leftTitle": "2.氣象預報",
               "leftPoints": [
-                "體表：鳥羽毛、魚鱗片、犬貓毛髮",
-                "運動：兔後腳跳躍、蛇身體扭動"
+                "認識「2.氣象預報」的核心概念與現象，並理解其背後原因。",
+                "透過觀察與討論"
               ],
-              "rightTitle": "生物生存要素",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "進食獲取能量與養分",
-                "陽光、空氣、水與土壤"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "構造配合環境",
+                "text": "2.氣象預報",
                 "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "不驚擾不棄養",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u3"
+        },
+        {
+          "sceneId": "u3l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「2.氣象預報」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「2.氣象預報」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「2.氣象預報」",
+              "第 2 步：對照本課核心「認識「2.氣象預報」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「2.氣象預報」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u3"
+        },
+        {
+          "sceneId": "u3l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「2.氣象預報」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「2.氣象預報」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「2.氣象預報」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「2.氣象預報」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-science-u3-l3",
+      "stageId": "115-s2-g3-science-u3-l3",
+      "title": "3.季節與生活",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "季節與生活：核心概念",
+          "narrationText": "在「三、天氣停看聽」的「3.季節與生活」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「3.季節與生活」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「3.季節與生活」的知識應用在日常生活中。",
+            "能用自己的話歸納「3.季節與生活」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「3.季節與生活」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "3.季節與生活",
+              "leftPoints": [
+                "認識「3.季節與生活」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "3.季節與生活",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u3"
+        },
+        {
+          "sceneId": "u3l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「3.季節與生活」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「3.季節與生活」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「3.季節與生活」",
+              "第 2 步：對照本課核心「認識「3.季節與生活」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「3.季節與生活」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u3"
+        },
+        {
+          "sceneId": "u3l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「3.季節與生活」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「3.季節與生活」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「3.季節與生活」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「3.季節與生活」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-science-u4-l1",
+      "stageId": "115-s2-g3-science-u4-l1",
+      "title": "1.動物的身體構造與功能",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "動物的身體構造與功能：核心概念",
+          "narrationText": "在「四、動物王國」的「1.動物的身體構造與功能」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「1.動物的身體構造與功能」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論",
+            "能用自己的話歸納「1.動物的身體構造與功能」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「1.動物的身體構造與功能」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "1.動物的身體構造與功能",
+              "leftPoints": [
+                "認識「1.動物的身體構造與功能」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "1.動物的身體構造與",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -368,58 +892,231 @@
           "factGroundingSourceId": "115-s2/g3/science#u4"
         },
         {
-          "sceneId": "u4-s2",
+          "sceneId": "u4l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "客觀記錄動物特徵與實踐愛護行動",
-          "narrationText": "畫動物觀察紀錄表時要忠實畫出看到的部位，不亂加帽子或眼鏡；愛護動物則要從不亂丟垃圾、不拿鳥蛋和不任意棄養做起。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "科學紀錄要客觀忠實",
-            "進食是為了獲取能量與養分維持生命"
+            "認識「1.動物的身體構造與功能」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "在公園散步看見一窩正在孵蛋的野鳥，回家又想照顧好寵物狗，該怎麼做？",
+            "problemStatement": "複習「1.動物的身體構造與功能」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：對待野生動物：保持安全距離靜靜觀察，不拿鳥蛋、不破壞棲地",
-              "第 2 步：對待家中寵物：事前了解習性與需求，長期負責照顧絕不棄養",
-              "第 3 步：平時做好垃圾分類與環境整潔，守護所有動物的家園"
+              "第 1 步：確認題目在問「1.動物的身體構造與功能」",
+              "第 2 步：對照本課核心「認識「1.動物的身體構造與功能」的核心概念。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：覺得寵物長大不可愛就帶去山區「放生」，或為了好玩把野鳥蛋帶回家。",
-            "selfExplanationPrompt": "想一想：如果去郊遊時把零食包裝袋隨手丟在溪邊草叢，對動物的生存會有什麼危害？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「1.動物的身體構造與功能」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s2/g3/science#u4"
         },
         {
-          "sceneId": "u4-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "小學生也能做到的動物保育行動",
-          "topicSignalTitle": "我們在日常生活中能為動物做什麼？",
-          "narrationText": "不亂丟垃圾危害棲地、拒買瀕危動物製品、飼養前先評估責任，並和家人分享尊重生命的觀念，就是最棒的保育行動力！",
+          "sceneId": "u4l1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「1.動物的身體構造與功能」後再開始挑戰！",
           "cognitiveChunks": [
-            "不買瀕危保育類動物製品",
-            "保護自然環境整潔就是保護棲地"
+            "認識「1.動物的身體構造與功能」的核心概念與現象，並理解其背後原因。"
           ],
+          "warmupCheck": {
+            "prompt": "關於「1.動物的身體構造與功能」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「1.動物的身體構造與功能」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-science-u4-l2",
+      "stageId": "115-s2-g3-science-u4-l2",
+      "title": "2.動物的生存",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "動物的生存：核心概念",
+          "narrationText": "在「四、動物王國」的「2.動物的生存」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「2.動物的生存」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「2.動物的生存」的知識應用在日常生活中。",
+            "能用自己的話歸納「2.動物的生存」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「2.動物的生存」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "2.動物的生存",
+              "leftPoints": [
+                "認識「2.動物的生存」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "2.動物的生存",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
           "factGroundingSourceId": "115-s2/g3/science#u4"
         },
         {
-          "sceneId": "u4-s4",
+          "sceneId": "u4l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「2.動物的生存」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「2.動物的生存」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「2.動物的生存」",
+              "第 2 步：對照本課核心「認識「2.動物的生存」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「2.動物的生存」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u4"
+        },
+        {
+          "sceneId": "u4l2-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "確認一下生物生存必備的自然環境要素再進場挑戰吧！",
+          "narrationText": "先做一題暖身確認，確認掌握「2.動物的生存」後再開始挑戰！",
           "cognitiveChunks": [
-            "陽光、空氣、水與土壤"
+            "認識「2.動物的生存」的核心概念與現象，並理解其背後原因。"
           ],
           "warmupCheck": {
-            "prompt": "自然界的動物和植物除了養分與能量外，還必須依賴哪一組基本自然環境要素才能生存？",
+            "prompt": "關於「2.動物的生存」，哪一項才是正確的學習重點？",
             "options": [
-              "電視、電動玩具、塑膠袋、霓虹燈",
-              "陽光、空氣、水和土壤",
-              "汽車、柏油路、冷氣機、音響",
-              "彈珠、汽水、手電筒、鉛筆"
+              "認識「2.動物的生存」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
-            "answerIndex": 1,
-            "feedbackCorrect": "答對了！陽光、空氣、水與土壤是維持生物生命與活動的重要環境要素。",
-            "feedbackRetry": "挑出只有「大自然原本就有」的基本生存條件喔！"
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s2-g3-science-u4-l3",
+      "stageId": "115-s2-g3-science-u4-l3",
+      "title": "3.愛護動物",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "愛護動物：核心概念",
+          "narrationText": "在「四、動物王國」的「3.愛護動物」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「3.愛護動物」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「3.愛護動物」的知識應用在日常生活中。",
+            "能用自己的話歸納「3.愛護動物」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「3.愛護動物」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "3.愛護動物",
+              "leftPoints": [
+                "認識「3.愛護動物」的核心概念與現象，並理解其背後原因。",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "3.愛護動物",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u4"
+        },
+        {
+          "sceneId": "u4l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「3.愛護動物」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「3.愛護動物」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「3.愛護動物」",
+              "第 2 步：對照本課核心「認識「3.愛護動物」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「3.愛護動物」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s2/g3/science#u4"
+        },
+        {
+          "sceneId": "u4l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「3.愛護動物」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「3.愛護動物」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「3.愛護動物」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「3.愛護動物」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s2/g3/science#u4"
         }

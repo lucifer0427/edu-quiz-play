@@ -8,46 +8,44 @@
   "lessons": [
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g5-science-u1",
-      "stageId": "115-s1-g5-science-u1",
-      "title": "第一單元 太陽的祕密",
+      "lessonId": "lesson-115-s1-g5-science-u1-l1",
+      "stageId": "115-s1-g5-science-u1-l1",
+      "title": "1.太陽與生活",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u1-s1",
+          "sceneId": "u1l1-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "太陽的位置變化與日影規律",
-          "narrationText": "太陽的光和熱不只維持地球生物生存，還能轉換成電能與熱能；一天中太陽在天空的方位與高度角規律變化，讓古人能用日晷來計時。",
+          "title": "太陽與生活：核心概念",
+          "narrationText": "在「第一單元 太陽的祕密」的「1.太陽與生活」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "影子的方向永遠與太陽方位相反",
-            "太陽高度角越高，影子越短",
-            "臺灣夏季正午高度角最高、白天最長"
+            "了解太陽的光和熱會影響地球生物生存。"
           ],
-          "analogyAnchor": "把手電筒當作太陽、鉛筆當作竹竿：手電筒從低處斜照時影子拉得很長，移到頭頂正上方時影子就縮到最短。",
+          "analogyAnchor": "把「1.太陽與生活」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "早晚／冬季",
+              "leftTitle": "1.太陽與生活",
               "leftPoints": [
-                "太陽高度角較低",
-                "影子較長"
+                "了解太陽的光和熱會影響地球生物生存。",
+                "了解太陽的光和熱會影響地球生物生存。"
               ],
-              "rightTitle": "正午／夏季",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "太陽高度角較高",
-                "影子較短、日照較長"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "高度角低＝影子長",
+                "text": "1.太陽與生活",
                 "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "高度角高＝影子短",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
@@ -55,59 +53,45 @@
           "factGroundingSourceId": "115-s1/g5/science#u1"
         },
         {
-          "sceneId": "u1-s2",
+          "sceneId": "u1l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "光的折射、色散與彩虹條件",
-          "narrationText": "光在不同介質（如空氣與水、玻璃）中行進方向會偏折，這就是光的折射；陽光是由不同色光組成的，經過水滴或三稜鏡就會分散成彩虹。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "斜放水中的筷子看似折斷是光的折射",
-            "觀察彩虹必須背對太陽看水滴",
-            "放大鏡利用凸透鏡折射聚光"
+            "了解太陽的光和熱會影響地球生物生存。",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "晴朗早晨在操場立一根竹竿，到了接近中午時，竹竿的影子方位與長度會怎麼改變？",
+            "problemStatement": "複習「1.太陽與生活」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：判斷太陽位置——早上太陽在東方，接近中午太陽升到南方較高處",
-              "第 2 步：判斷影子方位——影子永遠在太陽的反方向，會從偏西方往北方移動",
-              "第 3 步：判斷影子長度——中午太陽高度角升高，影子會逐漸變短"
+              "第 1 步：確認題目在問「1.太陽與生活」",
+              "第 2 步：對照本課核心「了解太陽的光和熱會影響地球生物生存。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：以為正午太陽最強所以影子也最長，或誤以為看彩虹要正對著太陽看。",
-            "selfExplanationPrompt": "想一想：用噴水器製造人造彩虹時，為什麼一定要背對太陽站立？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「1.太陽與生活」的一個重點！",
             "keepStepCardVisible": false
           },
           "factGroundingSourceId": "115-s1/g5/science#u1"
         },
         {
-          "sceneId": "u1-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "生活中的太陽能應用",
-          "topicSignalTitle": "光電轉換與熱能利用",
-          "narrationText": "太陽能發電板能將「光能」轉換成電能供電器使用，太陽能熱水器則是吸收太陽「熱能」把水加熱，兩者都是友善環境的能源。",
-          "cognitiveChunks": [
-            "太陽能板：光能轉電能",
-            "太陽能熱水器：熱能加熱水"
-          ],
-          "factGroundingSourceId": "115-s1/g5/science#u1"
-        },
-        {
-          "sceneId": "u1-s4",
+          "sceneId": "u1l1-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "先用這題確認光線在不同介質中的現象，再進入第一單元挑戰！",
+          "narrationText": "先做一題暖身確認，確認掌握「1.太陽與生活」後再開始挑戰！",
           "cognitiveChunks": [
-            "光通過不同介質會發生折射"
+            "了解太陽的光和熱會影響地球生物生存。"
           ],
           "warmupCheck": {
-            "prompt": "把筷子斜插進裝水的透明玻璃杯裡，從側面看覺得筷子在水面處好像折斷了，這是什麼現象？",
+            "prompt": "關於「1.太陽與生活」，哪一項才是正確的學習重點？",
             "options": [
-              "光的折射",
-              "水把筷子泡軟了",
-              "光的顏色消失",
-              "地球引力變大"
+              "了解太陽的光和熱會影響地球生物生存。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
             "answerIndex": 0,
-            "feedbackCorrect": "答對了！光從水進入空氣時行進方向發生偏折，這就是光的折射現象。",
-            "feedbackRetry": "光在空氣和水中的傳播速度不同，斜射通過交界處會轉彎喔！"
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s1/g5/science#u1"
         }
@@ -115,320 +99,1093 @@
     },
     {
       "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g5-science-u2",
-      "stageId": "115-s1-g5-science-u2",
-      "title": "第二單元 千變萬化的植物",
+      "lessonId": "lesson-115-s1-g5-science-u1-l2",
+      "stageId": "115-s1-g5-science-u1-l2",
+      "title": "2.太陽的位置變化",
       "ageBand": "AGE_9_12_UPPER",
       "subject": "SCIENCE_SOCIAL",
       "scenes": [
         {
-          "sceneId": "u2-s1",
+          "sceneId": "u1l2-s1",
           "componentType": "ANCHOR_SCENE",
-          "title": "植物的適應與水分運輸",
-          "narrationText": "植物會因應不同環境演化出特殊構造（如仙人掌的針狀葉與儲水莖），並透過根、莖、葉的合作完成水分運輸與光合作用。",
+          "title": "太陽的位置變化：核心概念",
+          "narrationText": "在「第一單元 太陽的祕密」的「2.太陽的位置變化」中，我們要一起掌握本課最重要的學習重點與應用。",
           "cognitiveChunks": [
-            "根吸水 → 莖輸送 → 葉蒸散水蒸氣",
-            "葉綠體行光合作用製造養分並釋放氧氣",
-            "仙人掌針狀葉可減少水分散失"
+            "透過觀察日晷，了解不同光源位置對影子長度與方位的影響。"
           ],
-          "analogyAnchor": "植物的身體就像一座自給自足的綠色工廠：根是抽水站、莖是輸送管線、葉片則是利用陽光製造養分的太陽能廚房。",
-          "visualSpec": {
-            "templateId": "flow_cause",
-            "params": {
-              "steps": [
-                "根部吸收土壤中的水分",
-                "莖內的構造向上輸送到葉",
-                "葉片行光合作用與蒸散作用"
-              ]
-            },
-            "spatialLabels": [
-              {
-                "id": "l1",
-                "text": "根吸收水分",
-                "anchorPointId": "step1"
-              },
-              {
-                "id": "l2",
-                "text": "莖向上輸送",
-                "anchorPointId": "step2"
-              },
-              {
-                "id": "l3",
-                "text": "葉光合與蒸散",
-                "anchorPointId": "step3"
-              }
-            ]
-          },
-          "factGroundingSourceId": "115-s1/g5/science#u2"
-        },
-        {
-          "sceneId": "u2-s2",
-          "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "植物的繁殖方式與二分法分類",
-          "narrationText": "植物除了靠花朵授粉結成果實與種子繁衍外，還能利用根、莖、葉等營養器官繁殖；分類植物時則要使用客觀的二分法。",
-          "cognitiveChunks": [
-            "授粉後：子房變果實、胚珠變種子",
-            "落地生根用葉繁殖、蒲公英靠風力傳播",
-            "二分法必須依據客觀形態特徵"
-          ],
-          "workedExampleData": {
-            "problemStatement": "要將「榕樹、非洲鳳仙花、睡蓮、筆筒樹」用二分法分類，該選什麼標準才正確？",
-            "steps": [
-              "第 1 步：排除主觀標準——不能用「好不好看、喜不喜歡」分類",
-              "第 2 步：尋找客觀特徵——觀察莖的性質（木本／草本）或生長環境（水生／陸生）",
-              "第 3 步：完成二分——例如依「水生／陸生」分成睡蓮與其他三種植物"
-            ],
-            "commonErrorContrast": "常見錯誤：把花朵的「花瓣」誤以為會發育成果實，或把「是否喜歡」當成科學分類標準。",
-            "selfExplanationPrompt": "想一想：在「有葉片 vs. 摘除葉片」的植物套袋實驗中，為什麼只有有葉片的袋內出現許多水珠？",
-            "keepStepCardVisible": false
-          },
-          "factGroundingSourceId": "115-s1/g5/science#u2"
-        },
-        {
-          "sceneId": "u2-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "種子的傳播妙招",
-          "topicSignalTitle": "依果實種子構造判斷傳播方式",
-          "narrationText": "蒲公英與昭和草有輕盈冠毛可隨風飄散；大花咸豐草有倒鉤可附著動物毛皮；鳳仙花果莢會彈裂；椰子則靠海浪漂流。",
-          "cognitiveChunks": [
-            "冠毛：風力傳播 / 倒鉤：動物傳播",
-            "果莢彈開：自力 / 纖維層：水力"
-          ],
-          "factGroundingSourceId": "115-s1/g5/science#u2"
-        },
-        {
-          "sceneId": "u2-s4",
-          "componentType": "WARMUP_CHECK",
-          "title": "進場前暖身確認",
-          "narrationText": "先用這題確認花朵授粉後的構造發育，再開始挑戰第二單元！",
-          "cognitiveChunks": [
-            "子房發育成果實、胚珠發育成種子"
-          ],
-          "warmupCheck": {
-            "prompt": "開花植物完成授粉後，雌蕊中的哪兩個構造會分別發育成果實和種子？",
-            "options": [
-              "花瓣變果實、花萼變種子",
-              "子房變果實、胚珠變種子",
-              "雄蕊變果實、花托變種子",
-              "葉柄變果實、根毛變種子"
-            ],
-            "answerIndex": 1,
-            "feedbackCorrect": "完全正確！外層的子房膨大成為果實，裡面的胚珠則發育成種子。",
-            "feedbackRetry": "果實裡面包著種子，對應雌蕊裡外層包著內層的「子房」和「胚珠」喔！"
-          },
-          "factGroundingSourceId": "115-s1/g5/science#u2"
-        }
-      ]
-    },
-    {
-      "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g5-science-u3",
-      "stageId": "115-s1-g5-science-u3",
-      "title": "第三單元 神奇的水溶液",
-      "ageBand": "AGE_9_12_UPPER",
-      "subject": "SCIENCE_SOCIAL",
-      "scenes": [
-        {
-          "sceneId": "u3-s1",
-          "componentType": "ANCHOR_SCENE",
-          "title": "水溶液的溶解、蒸發與酸鹼性",
-          "narrationText": "海水和食鹽水都是物質均勻溶解在水中形成的水溶液，必須靠蒸發水分才能把鹽分離出來；我們也能用石蕊試紙或紫色高麗菜汁檢驗水溶液的酸鹼性。",
-          "cognitiveChunks": [
-            "溶解後的食鹽無法用濾紙過濾分離",
-            "石蕊試紙口訣：酸變紅、鹼變藍",
-            "中性水溶液（純水、糖水、食鹽水）不變色"
-          ],
-          "analogyAnchor": "把石蕊試紙想像成酸鹼小偵探：遇到酸性（檸檬汁、白醋）會害羞變紅，遇到鹼性（小蘇打水、肥皂水）則會變成藍色。",
+          "analogyAnchor": "把「2.太陽的位置變化」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
           "visualSpec": {
             "templateId": "concept_compare",
             "params": {
-              "leftTitle": "酸性與中性",
+              "leftTitle": "2.太陽的位置變化",
               "leftPoints": [
-                "酸性：藍色石蕊試紙變紅",
-                "中性：紅藍試紙皆不變色"
+                "透過觀察日晷，了解不同光源位置對影子長度與方位的影響。",
+                "透過觀察日晷，了解不同光源位置對影子長度與方位的影響。"
               ],
-              "rightTitle": "鹼性水溶液",
+              "rightTitle": "學習行動小秘訣",
               "rightPoints": [
-                "紅色石蕊試紙變藍",
-                "如小蘇打水、石灰水"
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "酸讓藍試紙變紅",
+                "text": "2.太陽的位置變化",
                 "anchorPointId": "left"
               },
               {
                 "id": "l2",
-                "text": "鹼讓紅試紙變藍",
+                "text": "重點與應用",
                 "anchorPointId": "right"
               }
             ]
           },
-          "factGroundingSourceId": "115-s1/g5/science#u3"
+          "factGroundingSourceId": "115-s1/g5/science#u1"
         },
         {
-          "sceneId": "u3-s2",
+          "sceneId": "u1l2-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "天然指示劑與水溶液導電性",
-          "narrationText": "除了石蕊試紙，紫色高麗菜汁遇酸偏紅、遇中性維持紫色、遇鹼呈藍綠色；此外，酸鹼鹽類水溶液能導電，而純水與糖水幾乎不導電。",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
           "cognitiveChunks": [
-            "紫色高麗菜汁：酸紅、中紫、鹼藍綠",
-            "食鹽水、小蘇打水、檸檬酸水可導電",
-            "清潔劑不可隨意混合以免產生毒氣"
+            "透過觀察日晷，了解不同光源位置對影子長度與方位的影響。",
+            "排除與本課概念矛盾的說法"
           ],
           "workedExampleData": {
-            "problemStatement": "用紅、藍石蕊試紙檢驗一杯液體，結果「紅試紙變藍，藍試紙不變色」，這杯液體屬於哪一類？",
+            "problemStatement": "複習「2.太陽的位置變化」時，哪一項才是正確的學習重點？",
             "steps": [
-              "第 1 步：觀察變色試紙——紅色試紙變成藍色",
-              "第 2 步：對照口訣「酸變紅、鹼變藍」——會變藍代表是鹼性",
-              "第 3 步：確認常見例子——可能是小蘇打水、肥皂水或石灰水"
+              "第 1 步：確認題目在問「2.太陽的位置變化」",
+              "第 2 步：對照本課核心「透過觀察日晷」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
             ],
-            "commonErrorContrast": "常見錯誤：以為所有溶解在水裡的東西（如糖水）都能讓 LED 燈發亮，或以為食鹽水可以用濾網過濾出鹽巴。",
-            "selfExplanationPrompt": "想一想：為什麼洗完手沒有擦乾之前，絕對不能碰觸電源開關或插頭？",
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「2.太陽的位置變化」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/science#u3"
+          "factGroundingSourceId": "115-s1/g5/science#u1"
         },
         {
-          "sceneId": "u3-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "居家安全與導電常識",
-          "topicSignalTitle": "手溼不碰電器，清潔劑不亂混",
-          "narrationText": "自來水與汗水含有溶解的礦物質與鹽分，具有導電性，因此手溼時觸碰電器容易觸電；打掃時也不能將鹽酸與漂白水混合，以免產生有毒氣體。",
-          "cognitiveChunks": [
-            "自來水與汗水能導電，手溼防觸電",
-            "不同清潔劑不可隨意混合"
-          ],
-          "factGroundingSourceId": "115-s1/g5/science#u3"
-        },
-        {
-          "sceneId": "u3-s4",
+          "sceneId": "u1l2-s3",
           "componentType": "WARMUP_CHECK",
           "title": "進場前暖身確認",
-          "narrationText": "先用這題確認水溶液的導電性，再進入第三單元關卡！",
+          "narrationText": "先做一題暖身確認，確認掌握「2.太陽的位置變化」後再開始挑戰！",
           "cognitiveChunks": [
-            "酸、鹼、鹽類水溶液具有導電性"
+            "透過觀察日晷，了解不同光源位置對影子長度與方位的影響。"
           ],
           "warmupCheck": {
-            "prompt": "用簡易 LED 導電檢測器測試下列水溶液，哪一組最能讓燈泡明顯發亮？",
+            "prompt": "關於「2.太陽的位置變化」，哪一項才是正確的學習重點？",
             "options": [
-              "糖水、蒸餾純水",
-              "食鹽水、小蘇打水、檸檬酸水",
-              "只有蒸餾純水會亮",
-              "濃糖水與純水"
-            ],
-            "answerIndex": 1,
-            "feedbackCorrect": "答對了！食鹽水、小蘇打水與檸檬酸水都能導電讓 LED 燈發亮。",
-            "feedbackRetry": "提醒一下：純水和糖水幾乎不導電，要找酸、鹼或鹽類的水溶液喔！"
-          },
-          "factGroundingSourceId": "115-s1/g5/science#u3"
-        }
-      ]
-    },
-    {
-      "schemaVersion": "2026.1",
-      "lessonId": "lesson-115-s1-g5-science-u4",
-      "stageId": "115-s1-g5-science-u4",
-      "title": "第四單元 力與運動",
-      "ageBand": "AGE_9_12_UPPER",
-      "subject": "SCIENCE_SOCIAL",
-      "scenes": [
-        {
-          "sceneId": "u4-s1",
-          "componentType": "ANCHOR_SCENE",
-          "title": "接觸力、超距力與二力平衡",
-          "narrationText": "自然界的力可分為需要接觸才能作用的「接觸力」（推力、拉力、摩擦力、浮力），以及隔空就能作用的「超距力」（地球引力、磁力、靜電力）。",
-          "cognitiveChunks": [
-            "地球引力、磁力、靜電力屬於超距力",
-            "物體重量就是地球對物體的引力大小",
-            "二力相反：相等則靜止，不等則向大力側移動"
-          ],
-          "analogyAnchor": "拔河比賽最能看出二力平衡：兩隊朝相反方向拉繩子，力氣一樣大時繩結靜止不動，哪一隊力氣比較大，繩結就會往哪邊移動。",
-          "visualSpec": {
-            "templateId": "concept_compare",
-            "params": {
-              "leftTitle": "接觸力",
-              "leftPoints": [
-                "推力、拉力、風力",
-                "摩擦力、浮力"
-              ],
-              "rightTitle": "超距力（非接觸力）",
-              "rightPoints": [
-                "地球引力（重力）",
-                "磁力、靜電力"
-              ]
-            },
-            "spatialLabels": [
-              {
-                "id": "l1",
-                "text": "須接觸：推拉摩擦",
-                "anchorPointId": "left"
-              },
-              {
-                "id": "l2",
-                "text": "可隔空：重力磁力",
-                "anchorPointId": "right"
-              }
-            ]
-          },
-          "factGroundingSourceId": "115-s1/g5/science#u4"
-        },
-        {
-          "sceneId": "u4-s2",
-          "componentType": "WORKED_EXAMPLE_SPLIT",
-          "title": "計算彈簧伸長量與總長度",
-          "narrationText": "在彈性限度內，彈簧受到的拉力越大、伸長量就越多，且「伸長量」與「砝碼重量」成正比，計算總長度時別忘了加上原長。",
-          "cognitiveChunks": [
-            "伸長量 = 掛重後總長 - 彈簧原長",
-            "總長度 = 彈簧原長 + 總伸長量",
-            "相同距離花費時間越短，速度越快"
-          ],
-          "workedExampleData": {
-            "problemStatement": "原長 10 公分的彈簧掛 1 個 50g 砝碼總長變 12 公分，改掛 3 個相同砝碼時，伸長量與總長度各是多少？",
-            "steps": [
-              "第 1 步：算 1 個砝碼的伸長量：12 - 10 = 2 公分",
-              "第 2 步：算 3 個砝碼的總伸長量：2 × 3 = 6 公分",
-              "第 3 步：加上彈簧原長：10 + 6 = 16 公分（總長度）"
-            ],
-            "commonErrorContrast": "常見錯誤：直接拿總長 12 公分乘以 3 得到 36 公分，忘記先把彈簧原本的 10 公分扣掉再算伸長量。",
-            "selfExplanationPrompt": "想一想：物體從越高的地方自由落下，落地前的速度與動能會怎麼變化？",
-            "keepStepCardVisible": false
-          },
-          "factGroundingSourceId": "115-s1/g5/science#u4"
-        },
-        {
-          "sceneId": "u4-s3",
-          "componentType": "TOPIC_SIGNAL_BOX",
-          "title": "摩擦力的大小與生活應用",
-          "topicSignalTitle": "增加防滑 vs. 減少阻力",
-          "narrationText": "接觸面越粗糙，產生的摩擦力越大；生活中有時要增加摩擦力防滑（鞋底刻紋、輪胎胎紋、止滑粉），有時則要減少摩擦力讓移動順暢（鏈條加潤滑油）。",
-          "cognitiveChunks": [
-            "粗糙面摩擦力大、光滑面摩擦力小",
-            "鞋底刻紋增摩擦；潤滑油減摩擦"
-          ],
-          "factGroundingSourceId": "115-s1/g5/science#u4"
-        },
-        {
-          "sceneId": "u4-s4",
-          "componentType": "WARMUP_CHECK",
-          "title": "進場前暖身確認",
-          "narrationText": "先用這題確認超距力的種類，再進入第四單元挑戰！",
-          "cognitiveChunks": [
-            "重力、磁力、靜電力不需接觸即可作用"
-          ],
-          "warmupCheck": {
-            "prompt": "下列哪一種力不需要物體彼此接觸，就能隔空產生作用？",
-            "options": [
-              "地球引力（重力）",
-              "手推門的推力",
-              "鞋底與地面的摩擦力",
-              "水對木塊的浮力"
+              "透過觀察日晷，了解不同光源位置對影子長度與方位的影響。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
             ],
             "answerIndex": 0,
-            "feedbackCorrect": "答對了！地球引力、磁力與靜電力都是可以隔空作用的超距力。",
-            "feedbackRetry": "想一想蘋果沒有被繩子拉著為什麼會往下掉？那就是超距力喔！"
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-science-u1-l3",
+      "stageId": "115-s1-g5-science-u1-l3",
+      "title": "3.光的折射",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u1l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "光的折射：核心概念",
+          "narrationText": "在「第一單元 太陽的祕密」的「3.光的折射」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "觀察彩虹現象與出現條件及與太陽相對位置關係。"
+          ],
+          "analogyAnchor": "把「3.光的折射」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "3.光的折射",
+              "leftPoints": [
+                "觀察彩虹現象與出現條件及與太陽相對位置關係。",
+                "觀察彩虹現象與出現條件及與太陽相對位置關係。"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "3.光的折射",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u1"
+        },
+        {
+          "sceneId": "u1l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "觀察彩虹現象與出現條件及與太陽相對位置關係。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「3.光的折射」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「3.光的折射」",
+              "第 2 步：對照本課核心「觀察彩虹現象與出現條件及與太陽相對位置關係。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「3.光的折射」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u1"
+        },
+        {
+          "sceneId": "u1l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「3.光的折射」後再開始挑戰！",
+          "cognitiveChunks": [
+            "觀察彩虹現象與出現條件及與太陽相對位置關係。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「3.光的折射」，哪一項才是正確的學習重點？",
+            "options": [
+              "觀察彩虹現象與出現條件及與太陽相對位置關係。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-science-u2-l1",
+      "stageId": "115-s1-g5-science-u2-l1",
+      "title": "1.不同環境的植物",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "不同環境的植物：核心概念",
+          "narrationText": "在「第二單元 千變萬化的植物」的「1.不同環境的植物」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "觀察植物為了適應不同環境所發展出來不同形態的特徵。"
+          ],
+          "analogyAnchor": "把「1.不同環境的植物」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "1.不同環境的植物",
+              "leftPoints": [
+                "觀察植物為了適應不同環境所發展出來不同形態的特徵。",
+                "觀察植物為了適應不同環境所發展出來不同形態的特徵。"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "1.不同環境的植物",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u2"
+        },
+        {
+          "sceneId": "u2l1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "觀察植物為了適應不同環境所發展出來不同形態的特徵。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「1.不同環境的植物」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「1.不同環境的植物」",
+              "第 2 步：對照本課核心「觀察植物為了適應不同環境所發展出來不同形態。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「1.不同環境的植物」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u2"
+        },
+        {
+          "sceneId": "u2l1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「1.不同環境的植物」後再開始挑戰！",
+          "cognitiveChunks": [
+            "觀察植物為了適應不同環境所發展出來不同形態的特徵。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「1.不同環境的植物」，哪一項才是正確的學習重點？",
+            "options": [
+              "觀察植物為了適應不同環境所發展出來不同形態的特徵。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-science-u2-l2",
+      "stageId": "115-s1-g5-science-u2-l2",
+      "title": "2.植物存活的本事",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "植物存活的本事：核心概念",
+          "narrationText": "在「第二單元 千變萬化的植物」的「2.植物存活的本事」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "知道植物生長所需的養分是經由光合作用從太陽光獲得的。"
+          ],
+          "analogyAnchor": "把「2.植物存活的本事」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "2.植物存活的本事",
+              "leftPoints": [
+                "知道植物生長所需的養分是經由光合作用從太陽光獲得的。",
+                "知道植物生長所需的養分是經由光合作用從太陽光獲得的。"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "2.植物存活的本事",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u2"
+        },
+        {
+          "sceneId": "u2l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "知道植物生長所需的養分是經由光合作用從太陽光獲得的。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「2.植物存活的本事」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「2.植物存活的本事」",
+              "第 2 步：對照本課核心「知道植物生長所需的養分是經由光合作用從太陽。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「2.植物存活的本事」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u2"
+        },
+        {
+          "sceneId": "u2l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「2.植物存活的本事」後再開始挑戰！",
+          "cognitiveChunks": [
+            "知道植物生長所需的養分是經由光合作用從太陽光獲得的。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「2.植物存活的本事」，哪一項才是正確的學習重點？",
+            "options": [
+              "知道植物生長所需的養分是經由光合作用從太陽光獲得的。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-science-u2-l3",
+      "stageId": "115-s1-g5-science-u2-l3",
+      "title": "3.植物繁衍大顯身手",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "植物繁衍大顯身手：核心概念",
+          "narrationText": "在「第二單元 千變萬化的植物」的「3.植物繁衍大顯身手」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "觀察花朵的雄蕊與雌蕊及授粉形成果實產生種子；了解種子傳播方式。"
+          ],
+          "analogyAnchor": "把「3.植物繁衍大顯身手」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "3.植物繁衍大顯身手",
+              "leftPoints": [
+                "觀察花朵的雄蕊與雌蕊及授粉形成果實產生種子。",
+                "觀察花朵的雄蕊與雌蕊及授粉形成果實產生種子。"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "3.植物繁衍大顯身手",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u2"
+        },
+        {
+          "sceneId": "u2l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "觀察花朵的雄蕊與雌蕊及授粉形成果實產生種子；了解種子傳播方式。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「3.植物繁衍大顯身手」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「3.植物繁衍大顯身手」",
+              "第 2 步：對照本課核心「觀察花朵的雄蕊與雌蕊及授粉形成果實產生種子。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「3.植物繁衍大顯身手」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u2"
+        },
+        {
+          "sceneId": "u2l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「3.植物繁衍大顯身手」後再開始挑戰！",
+          "cognitiveChunks": [
+            "觀察花朵的雄蕊與雌蕊及授粉形成果實產生種子；了解種子傳播方式。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「3.植物繁衍大顯身手」，哪一項才是正確的學習重點？",
+            "options": [
+              "觀察花朵的雄蕊與雌蕊及授粉形成果實產生種子；了解種子傳播方式。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-science-u2-l4",
+      "stageId": "115-s1-g5-science-u2-l4",
+      "title": "4.植物的特徵和分類",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u2l4-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "植物的特徵和分類：核心概念",
+          "narrationText": "在「第二單元 千變萬化的植物」的「4.植物的特徵和分類」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "認識「4.植物的特徵和分類」的核心概念與現象，並理解其背後原因。",
+            "透過觀察與討論，將「4.植物的特徵和分類」的知識應用在日常生活中。",
+            "能用自己的話歸納「4.植物的特徵和分類」的重要發現與做法。"
+          ],
+          "analogyAnchor": "把「4.植物的特徵和分類」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "4.植物的特徵和分類",
+              "leftPoints": [
+                "認識「4.植物的特徵和分類」的核心概念與現象",
+                "透過觀察與討論"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "4.植物的特徵和分類",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u2"
+        },
+        {
+          "sceneId": "u2l4-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "認識「4.植物的特徵和分類」的核心概念與現象，並理解其背後原因。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「4.植物的特徵和分類」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「4.植物的特徵和分類」",
+              "第 2 步：對照本課核心「認識「4.植物的特徵和分類」的核心概念與現象」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「4.植物的特徵和分類」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u2"
+        },
+        {
+          "sceneId": "u2l4-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「4.植物的特徵和分類」後再開始挑戰！",
+          "cognitiveChunks": [
+            "認識「4.植物的特徵和分類」的核心概念與現象，並理解其背後原因。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「4.植物的特徵和分類」，哪一項才是正確的學習重點？",
+            "options": [
+              "認識「4.植物的特徵和分類」的核心概念與現象，並理解其背後原因。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-science-u3-l1",
+      "stageId": "115-s1-g5-science-u3-l1",
+      "title": "1.水溶液中的物質",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "水溶液中的物質：核心概念",
+          "narrationText": "在「第三單元 神奇的水溶液」的「1.水溶液中的物質」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "透過觀察海水水溶液，了解水溶液是不同物質溶解在水中所組成的混合物。"
+          ],
+          "analogyAnchor": "把「1.水溶液中的物質」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "1.水溶液中的物質",
+              "leftPoints": [
+                "透過觀察海水水溶液",
+                "透過觀察海水水溶液"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "1.水溶液中的物質",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u3"
+        },
+        {
+          "sceneId": "u3l1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "透過觀察海水水溶液，了解水溶液是不同物質溶解在水中所組成的混合物。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「1.水溶液中的物質」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「1.水溶液中的物質」",
+              "第 2 步：對照本課核心「透過觀察海水水溶液」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「1.水溶液中的物質」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u3"
+        },
+        {
+          "sceneId": "u3l1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「1.水溶液中的物質」後再開始挑戰！",
+          "cognitiveChunks": [
+            "透過觀察海水水溶液，了解水溶液是不同物質溶解在水中所組成的混合物。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「1.水溶液中的物質」，哪一項才是正確的學習重點？",
+            "options": [
+              "透過觀察海水水溶液，了解水溶液是不同物質溶解在水中所組成的混合物。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-science-u3-l2",
+      "stageId": "115-s1-g5-science-u3-l2",
+      "title": "2.水溶液的酸鹼性",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3l2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "水溶液的酸鹼性：核心概念",
+          "narrationText": "在「第三單元 神奇的水溶液」的「2.水溶液的酸鹼性」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "利用石蕊試紙和自製酸鹼指示劑檢驗水溶液酸鹼性並定義酸性、中性"
+          ],
+          "analogyAnchor": "把「2.水溶液的酸鹼性」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "2.水溶液的酸鹼性",
+              "leftPoints": [
+                "利用石蕊試紙和自製酸鹼指示劑檢驗水溶液酸鹼性並定義酸性",
+                "利用石蕊試紙和自製酸鹼指示劑檢驗水溶液酸鹼性並定義酸性"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "2.水溶液的酸鹼性",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u3"
+        },
+        {
+          "sceneId": "u3l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "利用石蕊試紙和自製酸鹼指示劑檢驗水溶液酸鹼性並定義酸性、中性",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「2.水溶液的酸鹼性」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「2.水溶液的酸鹼性」",
+              "第 2 步：對照本課核心「利用石蕊試紙和自製酸鹼指示劑檢驗水溶液酸鹼。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「2.水溶液的酸鹼性」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u3"
+        },
+        {
+          "sceneId": "u3l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「2.水溶液的酸鹼性」後再開始挑戰！",
+          "cognitiveChunks": [
+            "利用石蕊試紙和自製酸鹼指示劑檢驗水溶液酸鹼性並定義酸性、中性"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「2.水溶液的酸鹼性」，哪一項才是正確的學習重點？",
+            "options": [
+              "利用石蕊試紙和自製酸鹼指示劑檢驗水溶液酸鹼性並定義酸性、中性",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-science-u3-l3",
+      "stageId": "115-s1-g5-science-u3-l3",
+      "title": "3.水溶液的導電性",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u3l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "水溶液的導電性：核心概念",
+          "narrationText": "在「第三單元 神奇的水溶液」的「3.水溶液的導電性」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "透過實驗了解許多水溶液具有導電性，並能注意生活中的用電安全。"
+          ],
+          "analogyAnchor": "把「3.水溶液的導電性」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "3.水溶液的導電性",
+              "leftPoints": [
+                "透過實驗了解許多水溶液具有導電性",
+                "透過實驗了解許多水溶液具有導電性"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "3.水溶液的導電性",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u3"
+        },
+        {
+          "sceneId": "u3l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "透過實驗了解許多水溶液具有導電性，並能注意生活中的用電安全。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「3.水溶液的導電性」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「3.水溶液的導電性」",
+              "第 2 步：對照本課核心「透過實驗了解許多水溶液具有導電性」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「3.水溶液的導電性」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u3"
+        },
+        {
+          "sceneId": "u3l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「3.水溶液的導電性」後再開始挑戰！",
+          "cognitiveChunks": [
+            "透過實驗了解許多水溶液具有導電性，並能注意生活中的用電安全。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「3.水溶液的導電性」，哪一項才是正確的學習重點？",
+            "options": [
+              "透過實驗了解許多水溶液具有導電性，並能注意生活中的用電安全。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u3"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-science-u4-l1",
+      "stageId": "115-s1-g5-science-u4-l1",
+      "title": "1.地球引力",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l1-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "地球引力：核心概念",
+          "narrationText": "在「第四單元 力與運動」的「1.地球引力」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "察覺物體向下運動受地球引力作用；辨別接觸力與超距力。"
+          ],
+          "analogyAnchor": "把「1.地球引力」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "1.地球引力",
+              "leftPoints": [
+                "察覺物體向下運動受地球引力作用；辨別接觸力與超距力。",
+                "察覺物體向下運動受地球引力作用；辨別接觸力與超距力。"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "1.地球引力",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u4"
+        },
+        {
+          "sceneId": "u4l1-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "察覺物體向下運動受地球引力作用；辨別接觸力與超距力。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「1.地球引力」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「1.地球引力」",
+              "第 2 步：對照本課核心「察覺物體向下運動受地球引力作用。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「1.地球引力」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u4"
+        },
+        {
+          "sceneId": "u4l1-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「1.地球引力」後再開始挑戰！",
+          "cognitiveChunks": [
+            "察覺物體向下運動受地球引力作用；辨別接觸力與超距力。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「1.地球引力」，哪一項才是正確的學習重點？",
+            "options": [
+              "察覺物體向下運動受地球引力作用；辨別接觸力與超距力。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-science-u4-l2",
+      "stageId": "115-s1-g5-science-u4-l2",
+      "title": "2.力的測量",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l2-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "力的測量：核心概念",
+          "narrationText": "在「第四單元 力與運動」的「2.力的測量」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "察覺力的大小可由物體形變或運動狀態改變得知。"
+          ],
+          "analogyAnchor": "把「2.力的測量」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "2.力的測量",
+              "leftPoints": [
+                "察覺力的大小可由物體形變或運動狀態改變得知。",
+                "察覺力的大小可由物體形變或運動狀態改變得知。"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "2.力的測量",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u4"
+        },
+        {
+          "sceneId": "u4l2-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "察覺力的大小可由物體形變或運動狀態改變得知。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「2.力的測量」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「2.力的測量」",
+              "第 2 步：對照本課核心「察覺力的大小可由物體形變或運動狀態改變得知。」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「2.力的測量」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u4"
+        },
+        {
+          "sceneId": "u4l2-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「2.力的測量」後再開始挑戰！",
+          "cognitiveChunks": [
+            "察覺力的大小可由物體形變或運動狀態改變得知。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「2.力的測量」，哪一項才是正確的學習重點？",
+            "options": [
+              "察覺力的大小可由物體形變或運動狀態改變得知。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u4"
+        }
+      ]
+    },
+    {
+      "schemaVersion": "2026.1",
+      "lessonId": "lesson-115-s1-g5-science-u4-l3",
+      "stageId": "115-s1-g5-science-u4-l3",
+      "title": "3.摩擦力",
+      "ageBand": "AGE_9_12_UPPER",
+      "subject": "SCIENCE_SOCIAL",
+      "scenes": [
+        {
+          "sceneId": "u4l3-s1",
+          "componentType": "ANCHOR_SCENE",
+          "title": "摩擦力：核心概念",
+          "narrationText": "在「第四單元 力與運動」的「3.摩擦力」中，我們要一起掌握本課最重要的學習重點與應用。",
+          "cognitiveChunks": [
+            "能分辨物質表面的結構與性質不同，其可產生的摩擦力不同。"
+          ],
+          "analogyAnchor": "把「3.摩擦力」想成探索指南，先看懂核心線索，就能輕鬆解開每一題！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "3.摩擦力",
+              "leftPoints": [
+                "能分辨物質表面的結構與性質不同，其可產生的摩擦力不同。",
+                "能分辨物質表面的結構與性質不同，其可產生的摩擦力不同。"
+              ],
+              "rightTitle": "學習行動小秘訣",
+              "rightPoints": [
+                "細心觀察現象並思考因果",
+                "結合生活情境實際驗證運用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "3.摩擦力",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "重點與應用",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u4"
+        },
+        {
+          "sceneId": "u4l3-s2",
+          "componentType": "WORKED_EXAMPLE_SPLIT",
+          "title": "掌握重點不迷路",
+          "narrationText": "作答時先抓出題目的關鍵字，再對照本課學到的知識或語文規則選出正解！",
+          "cognitiveChunks": [
+            "能分辨物質表面的結構與性質不同，其可產生的摩擦力不同。",
+            "排除與本課概念矛盾的說法"
+          ],
+          "workedExampleData": {
+            "problemStatement": "複習「3.摩擦力」時，哪一項才是正確的學習重點？",
+            "steps": [
+              "第 1 步：確認題目在問「3.摩擦力」",
+              "第 2 步：對照本課核心「能分辨物質表面的結構與性質不同」",
+              "第 3 步：排除沒有根據或相反的干擾選項"
+            ],
+            "commonErrorContrast": "常見錯誤：未先看清題目關鍵字或字形細節，只憑直覺快選而出錯。",
+            "selfExplanationPrompt": "試著用自己的話說出「3.摩擦力」的一個重點！",
+            "keepStepCardVisible": false
+          },
+          "factGroundingSourceId": "115-s1/g5/science#u4"
+        },
+        {
+          "sceneId": "u4l3-s3",
+          "componentType": "WARMUP_CHECK",
+          "title": "進場前暖身確認",
+          "narrationText": "先做一題暖身確認，確認掌握「3.摩擦力」後再開始挑戰！",
+          "cognitiveChunks": [
+            "能分辨物質表面的結構與性質不同，其可產生的摩擦力不同。"
+          ],
+          "warmupCheck": {
+            "prompt": "關於「3.摩擦力」，哪一項才是正確的學習重點？",
+            "options": [
+              "能分辨物質表面的結構與性質不同，其可產生的摩擦力不同。",
+              "不需觀察或查證，憑感覺猜測即可",
+              "跳過核心重點，只背誦課本頁碼"
+            ],
+            "answerIndex": 0,
+            "feedbackCorrect": "答對了！你已經抓住本課的核心重點了！",
+            "feedbackRetry": "再看一下前一張重點卡片，找找看哪一項才是本課要學的內容！"
           },
           "factGroundingSourceId": "115-s1/g5/science#u4"
         }

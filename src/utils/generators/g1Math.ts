@@ -2204,3 +2204,281 @@ export function generateG1S2U9CalendarDate(count = 6): Question[] {
   }
   return questions;
 }
+
+// ============================================================
+// 一上 第二單元：比長短
+// ============================================================
+export function generateG1S1U2CompareLength(count = 6): Question[] {
+  const seed = Date.now() + Math.floor(Math.random() * 100000);
+  const questions: Question[] = [];
+  for (let i = 0; i < count; i++) {
+    const type = i % 3;
+    if (type === 0) {
+      const a = randomInt(4, 8);
+      const b = a + randomInt(2, 5);
+      const c = b + randomInt(2, 5);
+      const askLongest = randomInt(0, 1) === 0;
+      const ans = askLongest ? `丙繩（${c} 格）` : `甲繩（${a} 格）`;
+      const built = buildStringOptions(ans, [
+        `乙繩（${b} 格）`,
+        askLongest ? `甲繩（${a} 格）` : `丙繩（${c} 格）`,
+        `丁繩（${a + 1} 格）`,
+      ]);
+      questions.push(
+        makeQuestion(
+          'g1s1-u2',
+          seed,
+          i,
+          `在格子紙上拉直比較：甲繩佔 ${a} 格、乙繩佔 ${b} 格、丙繩佔 ${c} 格、丁繩佔 ${a + 1} 格。哪一條繩子「${askLongest ? '最長' : '最短'}」？`,
+          built,
+          `${c} > ${b} > ${a + 1} > ${a}，所以${askLongest ? '最長' : '最短'}的是 ${ans}。`,
+          `數一數每一條繩子佔了幾格，格數越${askLongest ? '多越長' : '少越短'}！`,
+          `請問哪一條繩子${askLongest ? '最長' : '最短'}呢？`,
+        ),
+      );
+    } else if (type === 1) {
+      const itemA = pickRandom(['紅鉛筆', '藍蠟筆', '綠尺子', '黃吸管']);
+      const itemB = pickRandom(['小木棒', '花毛線', '紙膠帶', '橘彩帶']);
+      const ans = '先把兩枝的一端對齊，再拉直比較另一端';
+      const built = buildStringOptions(ans, [
+        '把其中一枝彎起來再比',
+        '隨便擺在桌上，看哪一枝顏色比較深',
+        '只看右邊有沒有突出來，不管左邊有沒有對齊',
+      ]);
+      questions.push(
+        makeQuestion(
+          'g1s1-u2',
+          seed,
+          i,
+          `拿 ${itemA} 和 ${itemB}「比長短」時，怎樣擺放才能比得最準確？`,
+          built,
+          '比長短一定要「拉直」並且「把其中一端對齊」，看另一端誰突出來就比較長！',
+          '想想看，起跑線要對齊才公平喔！',
+          `拿${itemA}和${itemB}比長短，要怎麼擺放才準確？`,
+        ),
+      );
+    } else {
+      const diff = randomInt(2, 6);
+      const shortLen = randomInt(5, 10);
+      const longLen = shortLen + diff;
+      const built = buildNumericOptions(diff, [shortLen, longLen, diff + 1], ' 格', 1, 20);
+      questions.push(
+        makeQuestion(
+          'g1s1-u2',
+          seed,
+          i,
+          `一枝鉛筆和 ${longLen} 個一樣長的迴紋針一樣長，一塊橡皮擦和 ${shortLen} 個迴紋針一樣長。鉛筆比橡皮擦長幾個迴紋針？`,
+          built,
+          `用相同的迴紋針來比，${longLen} - ${shortLen} = ${diff}，所以長 ${diff} 個迴紋針。`,
+          `把鉛筆的 ${longLen} 個減掉橡皮擦的 ${shortLen} 個！`,
+          `鉛筆比橡皮擦長幾個迴紋針？`,
+        ),
+      );
+    }
+  }
+  return questions;
+}
+
+// ============================================================
+// 一上 第五單元：方盒、圓罐、球
+// ============================================================
+export function generateG1S1U5SolidShapes(count = 6): Question[] {
+  const seed = Date.now() + Math.floor(Math.random() * 100000);
+  const questions: Question[] = [];
+  for (let i = 0; i < count; i++) {
+    const type = i % 3;
+    if (type === 0) {
+      const target = pickRandom([
+        { q: '往四面八方滾來滾去、沒有平平的面', a: '皮球（球體）', w: ['牙膏盒（長方體）', '魔術方塊（正方體）', '方糖（正方體）'] },
+        { q: '直立時可以穩穩站著，橫放推一下會往前後滾動', a: '圓柱形飲料罐（圓罐）', w: ['籃球（球體）', '大紙箱（方盒）', '積木方塊（方盒）'] },
+        { q: '有 6 個平平的面，每個面都長得一模一樣的正方形', a: '骰子（正方體）', w: ['橘子（球體）', '膠水瓶（圓罐）', '彈珠（球體）'] },
+      ]);
+      const built = buildStringOptions(target.a, target.w);
+      questions.push(
+        makeQuestion(
+          'g1s1-u5',
+          seed,
+          i,
+          `下面哪一種物品放在平平的地板上，「${target.q}」？`,
+          built,
+          `${target.a} 的特徵正是「${target.q}」。`,
+          '想一想球、圓罐、方盒摸起來和滾動起來的樣子！',
+          `下面哪一種物品${target.q}？`,
+        ),
+      );
+    } else if (type === 1) {
+      const a = randomInt(2, 5);
+      const b = randomInt(2, 5);
+      const ans = a + b;
+      const built = buildNumericOptions(ans, [a, b, ans + 2], ' 個', 1, 15);
+      questions.push(
+        makeQuestion(
+          'g1s1-u5',
+          seed,
+          i,
+          `小美用積木堆城堡，用了 ${a} 個方盒積木和 ${b} 個圓罐積木，她一共用了幾個這兩種積木？`,
+          built,
+          `方盒和圓罐合起來有 ${a} + ${b} = ${ans} 個。`,
+          '把方盒積木和圓罐積木的數量加起來！',
+          `小美一共用了幾個這兩種積木？`,
+        ),
+      );
+    } else {
+      const built = buildStringOptions('圓罐（圓柱體）上下兩個面都是圓圓平平的', [
+        '球體有很多平平的面，很容易疊高高',
+        '方盒放在地上推一下會一直往旁邊滾',
+        '正方體和球體都能像輪子一樣滾動',
+      ]);
+      questions.push(
+        makeQuestion(
+          'g1s1-u5',
+          seed,
+          i,
+          '關於「方盒、圓罐、球」這三種立體形體，下面哪一句話是「正確」的？',
+          built,
+          '圓罐（圓柱體）上下有兩個平平的圓形面，可以站立；橫放時也能滾動。',
+          '找找看哪一個符合我們平常摸到圓罐的樣子！',
+          '關於方盒、圓罐和球，哪一句話是正確的？',
+        ),
+      );
+    }
+  }
+  return questions;
+}
+
+// ============================================================
+// 一下 第三單元：圖形與分類
+// ============================================================
+export function generateG1S2U3PlaneShapes(count = 6): Question[] {
+  const seed = Date.now() + Math.floor(Math.random() * 100000);
+  const questions: Question[] = [];
+  for (let i = 0; i < count; i++) {
+    const type = i % 3;
+    if (type === 0) {
+      const item = pickRandom([
+        { desc: '有 3 條直直的邊和 3 個尖尖的角', ans: '三角形', wrong: ['圓形', '正方形', '長方形'] },
+        { desc: '邊緣彎彎的、沒有尖尖的角', ans: '圓形', wrong: ['三角形', '正方形', '長方形'] },
+        { desc: '有 4 條一樣長的直邊和 4 個直角', ans: '正方形', wrong: ['三角形', '圓形', '長方形'] },
+        { desc: '有 4 條直直的邊，對面兩條邊一樣長，但相鄰的邊一長一短', ans: '長方形', wrong: ['三角形', '圓形', '正方形'] },
+      ]);
+      const built = buildStringOptions(item.ans, item.wrong);
+      questions.push(
+        makeQuestion(
+          'g1s2-u3',
+          seed,
+          i,
+          `下面哪一種平面圖形「${item.desc}」？`,
+          built,
+          `${item.ans} 的特徵是「${item.desc}」。`,
+          '數一數這個圖形有幾條邊、幾個角！',
+          `下面哪一種平面圖形${item.desc}？`,
+        ),
+      );
+    } else if (type === 1) {
+      const tri = randomInt(3, 6);
+      const sq = randomInt(2, 5);
+      const cir = randomInt(2, 6);
+      const askShape = pickRandom(['三角形', '正方形', '圓形']);
+      const ans = askShape === '三角形' ? tri : askShape === '正方形' ? sq : cir;
+      const built = buildNumericOptions(ans, [tri + sq, ans + 2, Math.max(1, ans - 1)], ' 個', 1, 20);
+      questions.push(
+        makeQuestion(
+          'g1s2-u3',
+          seed,
+          i,
+          `桌子上有 ${tri} 個三角形、${sq} 個正方形和 ${cir} 個圓形紙卡。如果按「形狀」分類，${askShape}一共有幾個？`,
+          built,
+          `把所有${askShape}分在一起數，一共有 ${ans} 個。`,
+          `只看題目裡提到的「${askShape}」有幾個喔！`,
+          `按形狀分類，${askShape}一共有幾個？`,
+        ),
+      );
+    } else {
+      const red = randomInt(3, 7);
+      const blue = randomInt(2, 6);
+      const ans = red + blue;
+      const built = buildNumericOptions(ans, [red, blue, ans + 2], ' 個', 1, 20);
+      questions.push(
+        makeQuestion(
+          'g1s2-u3',
+          seed,
+          i,
+          `把圖形紙卡按「顏色」分成紅色和藍色兩堆：紅色有 ${red} 個，藍色有 ${blue} 個。這兩堆合起來一共有幾個圖形紙卡？`,
+          built,
+          `把紅色和藍色的數量加起來：${red} + ${blue} = ${ans} 個。`,
+          '把兩堆紙卡的數量加在一起！',
+          '這兩堆合起來一共有幾個圖形紙卡？',
+        ),
+      );
+    }
+  }
+  return questions;
+}
+
+// ============================================================
+// 一下 第五單元：有多長
+// ============================================================
+export function generateG1S2U5LengthMeasure(count = 6): Question[] {
+  const seed = Date.now() + Math.floor(Math.random() * 100000);
+  const questions: Question[] = [];
+  for (let i = 0; i < count; i++) {
+    const type = i % 3;
+    if (type === 0) {
+      const a = randomInt(4, 9);
+      const b = a + randomInt(2, 5);
+      const built = buildNumericOptions(a + b, [b - a, a * 2, a + b + 2], ' 個', 1, 30);
+      questions.push(
+        makeQuestion(
+          'g1s2-u5',
+          seed,
+          i,
+          `紅筆和 ${a} 個橡皮擦一樣長，藍筆和 ${b} 個橡皮擦一樣長。把紅筆和藍筆接在一起，總共會和幾個橡皮擦一樣長？`,
+          built,
+          `因為都用一樣長的橡皮擦量，接在一起就是 ${a} + ${b} = ${a + b} 個橡皮擦長。`,
+          '把兩枝筆各自量出來的橡皮擦數量加起來！',
+          '紅筆和藍筆接在一起，和幾個橡皮擦一樣長？',
+        ),
+      );
+    } else if (type === 1) {
+      const built = buildStringOptions('書桌比較寬', [
+        '書櫃比較寬',
+        '書桌和書櫃一樣寬',
+        '無法比較',
+      ]);
+      questions.push(
+        makeQuestion(
+          'g1s2-u5',
+          seed,
+          i,
+          '用一條藍繩子量書桌剛好一樣寬，這條藍繩子又比書櫃還要長一點。請問「書桌」和「書櫃」哪一個比較寬？',
+          built,
+          '書桌 ＝ 藍繩子，而藍繩子 ＞ 書櫃，所以書桌比書櫃寬！',
+          '用藍繩子當作中間的小幫手來比一比！',
+          '書桌和書櫃哪一個比較寬？',
+        ),
+      );
+    } else {
+      const clips = randomInt(6, 12);
+      const ans = `${clips} 個迴紋針`;
+      const built = buildStringOptions(ans, [
+        `${clips - 2} 個迴紋針`,
+        `${clips + 3} 個迴紋針`,
+        '必須用不同大小的迴紋針混在一起量',
+      ]);
+      questions.push(
+        makeQuestion(
+          'g1s2-u5',
+          seed,
+          i,
+          `用「一樣大的迴紋針」一個接一個排直，從起點排到終點剛好用了 ${clips} 個，沒有空隙也沒有重疊。這本課本的寬度大約是多少？`,
+          built,
+          `從頭到尾不留空隙也不重疊地排了 ${clips} 個相同的迴紋針，長度就是 ${clips} 個迴紋針長。`,
+          '數一數總共接了幾個一樣大的迴紋針！',
+          `這本課本的寬度大約是多少？`,
+        ),
+      );
+    }
+  }
+  return questions;
+}
+
