@@ -1,25 +1,38 @@
 import { Sparkles, X } from 'lucide-react';
 import { lazy, Suspense, useCallback, useEffect, useRef, useState } from 'react';
-import { BattleArena, type BattleResult } from './components/BattleArena';
+import type { BattleResult } from './components/BattleArena';
 import { CertificateModal } from './components/CertificateModal';
 import { Navbar } from './components/Navbar';
 import { WorldMap } from './components/WorldMap';
 import { loadLessonPack } from './data/curriculum/lessonLoader';
+import { getCurriculumCatalog, loadQuizPack } from './data/curriculum/loader';
 import { extractHanziCharacters } from './data/hanziVocab';
 import type { LessonScript } from './types/lesson';
 import type {
   ActiveTab,
   BattleMode,
+  ExamPlan,
   FamilyRewardItem,
+  Grade,
   LocalProfileMeta,
   PlayerProgress,
   Stage,
+  SubjectId,
 } from './types/quiz';
 
+const BattleArena = lazy(() =>
+  import('./components/BattleArena').then((m) => ({ default: m.BattleArena })),
+);
 const ExamReview = lazy(() => import('./components/ExamReview'));
+const EyeCareModal = lazy(() => import('./components/EyeCareModal'));
 const HanziPractice = lazy(() => import('./components/HanziPractice'));
 const HeroShop = lazy(() => import('./components/HeroShop'));
 const LessonPlayer = lazy(() => import('./components/LessonPlayer'));
+const MathToolsModal = lazy(() => import('./components/MathToolsModal'));
+const ProfileSelectorModal = lazy(
+  () => import('./components/ProfileSelectorModal'),
+);
+const SiblingDuoArena = lazy(() => import('./components/SiblingDuoArena'));
 const TeacherPanel = lazy(() => import('./components/TeacherPanel'));
 const WrongBook = lazy(() => import('./components/WrongBook'));
 import {
@@ -79,9 +92,34 @@ export function App() {
     chars: string[];
     title: string;
   } | null>(null);
+  const [duoOpen, setDuoOpen] = useState(false);
+  const [mathToolsOpen, setMathToolsOpen] = useState(false);
+  const [eyeCareOpen, setEyeCareOpen] = useState(false);
+  const [profileSelectorOpen, setProfileSelectorOpen] = useState(() => {
+    if (typeof window === 'undefined') return false;
+    return (
+      listProfiles().length >= 2 &&
+      !window.sessionStorage.getItem('edu_profile_chosen')
+    );
+  });
   const prevBadgeIdsRef = useRef<Set<string>>(
     new Set(progress.unlockedBadgeIds ?? []),
   );
+
+  // 每 20 分鐘專注學習跳出護眼休息提醒（頁面隱藏時暫停計時）
+  useEffect(() => {
+    if (progress.eyeCareEnabled === false || eyeCareOpen) return;
+    let activeSeconds = 0;
+    const interval = window.setInterval(() => {
+      if (typeof document !== 'undefined' && document.hidden) return;
+      activeSeconds += 1;
+      if (activeSeconds >= 1200) {
+        activeSeconds = 0;
+        setEyeCareOpen(true);
+      }
+    }, 1000);
+    return () => window.clearInterval(interval);
+  }, [activeProfileId, eyeCareOpen, progress.eyeCareEnabled]);
 
   useEffect(() => {
     const currentIds = progress.unlockedBadgeIds ?? [];
@@ -215,18 +253,21 @@ export function App() {
     setActiveLesson(null);
   }, []);
 
-  const handleCreateProfile = useCallback((nickname: string) => {
-    playTap();
-    const res = createProfile(nickname);
-    prevBadgeIdsRef.current = new Set(res.progress.unlockedBadgeIds ?? []);
-    setRecentBadges([]);
-    setActiveProfileId(res.activeProfileId);
-    setProgress(res.progress);
-    setProfiles(res.profiles);
-    setSoundEnabled(res.progress.soundEnabled);
-    setActiveBattle(null);
-    setActiveLesson(null);
-  }, []);
+  const handleCreateProfile = useCallback(
+    (nickname: string, defaultGrade?: Grade) => {
+      playTap();
+      const res = createProfile(nickname, defaultGrade);
+      prevBadgeIdsRef.current = new Set(res.progress.unlockedBadgeIds ?? []);
+      setRecentBadges([]);
+      setActiveProfileId(res.activeProfileId);
+      setProgress(res.progress);
+      setProfiles(res.profiles);
+      setSoundEnabled(res.progress.soundEnabled);
+      setActiveBattle(null);
+      setActiveLesson(null);
+    },
+    [],
+  );
 
   const handleDeleteProfile = useCallback((profileId: string) => {
     playTap();
@@ -254,6 +295,93 @@ export function App() {
       setActiveLesson(null);
     },
     [activeProfileId],
+  );
+
+  const handleAwardCoins = useCallback((amount: number) => {
+    if (amount <= 0) return;
+    setProgress((prev) => ({
+      ...prev,
+      coins: prev.coins + amount,
+    }));
+  }, []);
+
+  const handleSaveCustomHanziList = useCallback(
+    (title: string, chars: string[]) => {
+      setProgress((prev) => ({
+        ...prev,
+        customHanziLists: [
+          {
+            id: `hanzi-${Date.now()}`,
+            title,
+            chars,
+            createdAt: new Date().toISOString(),
+          },
+          ...(prev.customHanziLists ?? []),
+        ].slice(0, 12),
+      }));
+    },
+    [],
+  );
+
+  const handleDeleteCustomHanziList = useCallback((id: string) => {
+    setProgress((prev) => ({
+      ...prev,
+      customHanziLists: (prev.customHanziLists ?? []).filter(
+        (l) => l.id !== id,
+      ),
+    }));
+  }, []);
+
+  const handleUpdateExamPlan = useCallback((plan: ExamPlan | undefined) => {
+    setProgress((prev) => ({
+      ...prev,
+      examPlan: plan,
+    }));
+  }, []);
+
+  const handleToggleEyeCare = useCallback(() => {
+    setProgress((prev) => ({
+      ...prev,
+      eyeCareEnabled: prev.eyeCareEnabled === false ? true : false,
+    }));
+  }, []);
+
+  const handleUpdateDefaultGrade = useCallback(
+    (grade: Grade | undefined) => {
+      setProgress((prev) => {
+        const next: PlayerProgress = {
+          ...prev,
+          defaultGrade: grade,
+          selectedGrade: grade ?? prev.selectedGrade,
+        };
+        setProfiles(syncActiveProfileMeta(next, activeProfileId));
+        return next;
+      });
+    },
+    [activeProfileId],
+  );
+
+  const handleOpenLessonForWrongQuestion = useCallback(
+    async (subjectId: SubjectId, stageTitle?: string) => {
+      if (subjectId === 'custom') return;
+      const grade = progress.selectedGrade ?? 5;
+      const semester = progress.selectedSemester ?? 1;
+      const { academicYear } = getCurriculumCatalog();
+      const pack = await loadQuizPack(academicYear, semester, grade, subjectId);
+      const lessonPack = await loadLessonPack(
+        academicYear,
+        semester,
+        grade,
+        subjectId,
+      );
+      if (!pack || !lessonPack || pack.stages.length === 0) return;
+      const targetStage =
+        (stageTitle ? pack.stages.find((s) => s.title === stageTitle) : undefined) ??
+        pack.stages[0];
+      const { lesson } = resolveLessonForStage(lessonPack, targetStage);
+      setActiveLesson({ lesson, stage: targetStage });
+    },
+    [progress.selectedGrade, progress.selectedSemester],
   );
 
   const markLessonCompleted = useCallback((lessonId: string) => {
@@ -566,7 +694,11 @@ export function App() {
   };
 
   return (
-    <div className="min-h-screen bg-amber-50 pb-12">
+    <div
+      className={`min-h-screen bg-amber-50 pb-12 ${
+        (progress.selectedGrade ?? 5) <= 2 ? 'text-[17px]' : ''
+      }`}
+    >
       <Navbar
         progress={progress}
         activeTab={activeTab}
@@ -586,6 +718,18 @@ export function App() {
         onSwitchProfile={handleSwitchProfile}
         onCreateProfile={handleCreateProfile}
         onDeleteProfile={handleDeleteProfile}
+        onOpenDuoMode={() => {
+          playTap();
+          setDuoOpen(true);
+        }}
+        onOpenMathTools={() => {
+          playTap();
+          setMathToolsOpen(true);
+        }}
+        onOpenProfileSelector={() => {
+          playTap();
+          setProfileSelectorOpen(true);
+        }}
       />
 
       {recentBadges.length > 0 && (
@@ -658,36 +802,44 @@ export function App() {
 
       <main>
         {activeBattle ? (
-          <BattleArena
-            stage={activeBattle.stage}
-            selectedAvatarId={progress.selectedAvatarId}
-            currentXp={progress.xp}
-            previousStars={progress.stageStars[activeBattle.stage.id] ?? 0}
-            battleMode={activeBattle.mode}
-            isWrongReviewMode={activeBattle.mode === 'wrong-review'}
-            focusMode={Boolean(progress.focusMode)}
-            speechSlowMode={progress.speechRateMode === 'slow'}
-            autoReadQuestion={Boolean(progress.autoReadQuestion)}
-            onToggleFocusMode={handleToggleFocusMode}
-            onToggleSpeechSlow={handleToggleSpeechSlow}
-            onToggleAutoRead={handleToggleAutoRead}
-            onReviewLesson={
-              activeBattle.stage.subjectId !== 'custom'
-                ? () => {
-                    void handleReviewStageLesson(activeBattle.stage);
-                  }
-                : undefined
+          <Suspense
+            fallback={
+              <div className="mx-auto max-w-2xl px-4 py-12 text-center text-sm font-black text-slate-600">
+                正在準備冒險對戰關卡...
+              </div>
             }
-            onOpenCertificate={() =>
-              setCertificateState({
-                open: true,
-                title: `成功通關「${activeBattle.stage.title}」`,
-                subtitle: '完成關卡挑戰，持續累積學習能量！',
-              })
-            }
-            onFinishBattle={handleFinishBattle}
-            onExit={() => setActiveBattle(null)}
-          />
+          >
+            <BattleArena
+              stage={activeBattle.stage}
+              selectedAvatarId={progress.selectedAvatarId}
+              currentXp={progress.xp}
+              previousStars={progress.stageStars[activeBattle.stage.id] ?? 0}
+              battleMode={activeBattle.mode}
+              isWrongReviewMode={activeBattle.mode === 'wrong-review'}
+              focusMode={Boolean(progress.focusMode)}
+              speechSlowMode={progress.speechRateMode === 'slow'}
+              autoReadQuestion={Boolean(progress.autoReadQuestion)}
+              onToggleFocusMode={handleToggleFocusMode}
+              onToggleSpeechSlow={handleToggleSpeechSlow}
+              onToggleAutoRead={handleToggleAutoRead}
+              onReviewLesson={
+                activeBattle.stage.subjectId !== 'custom'
+                  ? () => {
+                      void handleReviewStageLesson(activeBattle.stage);
+                    }
+                  : undefined
+              }
+              onOpenCertificate={() =>
+                setCertificateState({
+                  open: true,
+                  title: `成功通關「${activeBattle.stage.title}」`,
+                  subtitle: '完成關卡挑戰，持續累積學習能量！',
+                })
+              }
+              onFinishBattle={handleFinishBattle}
+              onExit={() => setActiveBattle(null)}
+            />
+          </Suspense>
         ) : activeLesson ? (
           <Suspense
             fallback={
@@ -778,6 +930,8 @@ export function App() {
               initialChars={hanziContext?.chars}
               initialTitle={hanziContext?.title}
               onCompleteHanzi={handleCompleteHanzi}
+              onSaveCustomList={handleSaveCustomHanziList}
+              onDeleteCustomList={handleDeleteCustomHanziList}
             />
           </Suspense>
         ) : activeTab === 'exam' ? (
@@ -802,6 +956,7 @@ export function App() {
                 playTap();
                 setActiveLesson({ lesson, stage });
               }}
+              onUpdateExamPlan={handleUpdateExamPlan}
               onUpdateMapFilter={handleUpdateMapFilter}
             />
           </Suspense>
@@ -819,6 +974,9 @@ export function App() {
               onStartWrongReview={(reviewStage) =>
                 setActiveBattle({ stage: reviewStage, mode: 'wrong-review' })
               }
+              onOpenLessonForQuestion={(subjectId, stageTitle) => {
+                void handleOpenLessonForWrongQuestion(subjectId, stageTitle);
+              }}
             />
           </Suspense>
         ) : activeTab === 'shop' ? (
@@ -838,6 +996,9 @@ export function App() {
               onMarkRewardUsed={handleMarkRewardUsed}
               onUpdateFamilyRewards={handleUpdateFamilyRewards}
               onUpdateParentPin={handleUpdateParentPin}
+              onToggleEyeCare={handleToggleEyeCare}
+              onUpdateDefaultGrade={handleUpdateDefaultGrade}
+              onImportProgress={handleImportProgress}
             />
           </Suspense>
         ) : (
@@ -870,6 +1031,70 @@ export function App() {
           setCertificateState((prev) => ({ ...prev, open: false }))
         }
       />
+
+      <Suspense fallback={null}>
+        {duoOpen && (
+          <SiblingDuoArena
+            open={duoOpen}
+            defaultGradeA={
+              profiles.find((p) => (p.defaultGrade ?? 0) >= 3)?.defaultGrade ?? 5
+            }
+            defaultGradeB={
+              profiles.find((p) => (p.defaultGrade ?? 9) <= 2)?.defaultGrade ?? 2
+            }
+            defaultNameA={
+              profiles.find((p) => (p.defaultGrade ?? 0) >= 3)?.nickname ?? '大寶'
+            }
+            defaultNameB={
+              profiles.find((p) => (p.defaultGrade ?? 9) <= 2)?.nickname ?? '二寶'
+            }
+            onAwardCoins={handleAwardCoins}
+            onClose={() => setDuoOpen(false)}
+          />
+        )}
+        {mathToolsOpen && (
+          <MathToolsModal
+            open={mathToolsOpen}
+            onAwardCoins={handleAwardCoins}
+            onClose={() => setMathToolsOpen(false)}
+          />
+        )}
+        {eyeCareOpen && (
+          <EyeCareModal
+            open={eyeCareOpen}
+            onComplete={(coins) => {
+              handleAwardCoins(coins);
+              setEyeCareOpen(false);
+            }}
+            onSkip={() => setEyeCareOpen(false)}
+          />
+        )}
+        {profileSelectorOpen && (
+          <ProfileSelectorModal
+            open={profileSelectorOpen}
+            profiles={profiles}
+            activeProfileId={activeProfileId}
+            onSelectProfile={(id) => {
+              if (typeof window !== 'undefined') {
+                window.sessionStorage.setItem('edu_profile_chosen', '1');
+              }
+              handleSwitchProfile(id);
+            }}
+            onCreateProfile={(name, grade) => {
+              if (typeof window !== 'undefined') {
+                window.sessionStorage.setItem('edu_profile_chosen', '1');
+              }
+              handleCreateProfile(name, grade);
+            }}
+            onClose={() => {
+              if (typeof window !== 'undefined') {
+                window.sessionStorage.setItem('edu_profile_chosen', '1');
+              }
+              setProfileSelectorOpen(false);
+            }}
+          />
+        )}
+      </Suspense>
     </div>
   );
 }

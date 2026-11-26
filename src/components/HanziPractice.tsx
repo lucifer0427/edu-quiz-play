@@ -13,7 +13,7 @@ import {
   extractHanziCharacters,
   GRADE_HANZI_VOCAB,
 } from '../data/hanziVocab';
-import type { Grade, PlayerProgress } from '../types/quiz';
+import type { CustomHanziList, Grade, PlayerProgress } from '../types/quiz';
 import { playCorrect, playTap, playVictory } from '../utils/sound';
 import { isSpeechSupported, speakText } from '../utils/speech';
 
@@ -22,6 +22,8 @@ export interface HanziPracticeProps {
   initialChars?: string[];
   initialTitle?: string;
   onCompleteHanzi: (char: string) => void;
+  onSaveCustomList?: (title: string, chars: string[]) => void;
+  onDeleteCustomList?: (id: string) => void;
 }
 
 type PracticeStage = 'demo' | 'trace' | 'blind';
@@ -34,6 +36,8 @@ export function HanziPractice({
   initialChars,
   initialTitle,
   onCompleteHanzi,
+  onSaveCustomList,
+  onDeleteCustomList,
 }: HanziPracticeProps) {
   const [grade, setGrade] = useState<Grade>(progress.selectedGrade ?? 1);
   const [customInput, setCustomInput] = useState('');
@@ -327,21 +331,76 @@ export function HanziPractice({
               自訂練字
             </button>
             {customChars.length > 0 && (
-              <button
-                type="button"
-                onClick={() => {
-                  playTap();
-                  setCustomChars([]);
-                  setCustomInput('');
-                  setSelectedIndex(0);
-                }}
-                className="rounded-xl bg-slate-100 px-2.5 py-1.5 text-xs font-bold text-slate-600 hover:bg-slate-200"
-              >
-                恢復年級字庫
-              </button>
+              <>
+                {onSaveCustomList && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      playTap();
+                      const label = `聯絡簿 ${new Date().getMonth() + 1}/${new Date().getDate()}（${customChars.slice(0, 3).join('')}）`;
+                      onSaveCustomList(label, customChars);
+                    }}
+                    className="rounded-xl bg-emerald-500 px-2.5 py-1.5 text-xs font-black text-white hover:bg-emerald-400"
+                  >
+                    儲存生字單
+                  </button>
+                )}
+                <button
+                  type="button"
+                  onClick={() => {
+                    playTap();
+                    setCustomChars([]);
+                    setCustomInput('');
+                    setSelectedIndex(0);
+                  }}
+                  className="rounded-xl bg-slate-100 px-2.5 py-1.5 text-xs font-bold text-slate-600 hover:bg-slate-200"
+                >
+                  恢復年級字庫
+                </button>
+              </>
             )}
           </form>
         </div>
+
+        {(progress.customHanziLists?.length ?? 0) > 0 && (
+          <div className="flex flex-wrap items-center gap-2 rounded-2xl bg-sky-50/70 px-3 py-2">
+            <span className="text-xs font-black text-sky-700">
+              已儲存聯絡簿：
+            </span>
+            {(progress.customHanziLists as CustomHanziList[]).map((list) => (
+              <div
+                key={list.id}
+                className="inline-flex items-center gap-1 rounded-xl border border-sky-200 bg-white px-2.5 py-1 text-xs font-bold text-slate-700"
+              >
+                <button
+                  type="button"
+                  onClick={() => {
+                    playTap();
+                    setCustomChars(list.chars);
+                    setSelectedIndex(0);
+                    setStageMode('demo');
+                  }}
+                  className="hover:text-sky-600"
+                >
+                  {list.title} ({list.chars.length}字)
+                </button>
+                {onDeleteCustomList && (
+                  <button
+                    type="button"
+                    aria-label={`刪除 ${list.title}`}
+                    onClick={() => {
+                      playTap();
+                      onDeleteCustomList(list.id);
+                    }}
+                    className="ml-1 text-slate-400 hover:text-rose-500"
+                  >
+                    ×
+                  </button>
+                )}
+              </div>
+            ))}
+          </div>
+        )}
 
         {/* 選字列 */}
         <div className="flex flex-wrap gap-2 pt-1">

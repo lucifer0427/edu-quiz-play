@@ -13,7 +13,11 @@ import {
   recordDailyStudyActivity,
 } from '../../utils/dailyStudy';
 import { buildSubjectDiagnostics } from '../../utils/learningDiagnostics';
-import { DEFAULT_PROGRESS } from '../../utils/progressImport';
+import {
+  decodeProgressSyncCode,
+  DEFAULT_PROGRESS,
+  encodeProgressSyncCode,
+} from '../../utils/progressImport';
 import { shuffleQuestionOptions } from '../../utils/questionUtils';
 import {
   decodeCustomStageFromHash,
@@ -22,8 +26,12 @@ import {
 import { BattleArena } from '../BattleArena';
 import { BattleSummary, type BattleResult } from '../BattleSummary';
 import { DailyMissionCard } from '../DailyMissionCard';
+import { EyeCareModal } from '../EyeCareModal';
 import { HeroShop } from '../HeroShop';
 import { LessonPlayer } from '../LessonPlayer';
+import { MathToolsModal } from '../MathToolsModal';
+import { ProfileSelectorModal } from '../ProfileSelectorModal';
+import { SiblingDuoArena } from '../SiblingDuoArena';
 import { StageCard } from '../StageCard';
 import { WrongBook } from '../WrongBook';
 
@@ -622,5 +630,122 @@ describe('Engagement, Hanzi & Deep Teaching Features', () => {
 
     fireEvent.click(screen.getByRole('button', { name: /練寫本單元國字/ }));
     expect(onPracticeHanzi).toHaveBeenCalledWith(mandarinStage);
+  });
+
+  it('encodeProgressSyncCode & decodeProgressSyncCode round-trips Chinese nicknames cleanly', () => {
+    const sample = {
+      ...DEFAULT_PROGRESS,
+      nickname: '五年級大寶',
+      defaultGrade: 5 as const,
+      coins: 320,
+    };
+    const code = encodeProgressSyncCode(sample);
+    expect(code.startsWith('EQP1:')).toBe(true);
+    const decoded = decodeProgressSyncCode(code);
+    expect(decoded.ok).toBe(true);
+    if (decoded.ok) {
+      expect(decoded.progress.nickname).toBe('五年級大寶');
+      expect(decoded.progress.defaultGrade).toBe(5);
+      expect(decoded.progress.coins).toBe(320);
+    }
+  });
+
+  it('ProfileSelectorModal displays dual-child grades and creates grade-bound profile', () => {
+    const onCreate = vi.fn();
+    render(
+      <ProfileSelectorModal
+        open={true}
+        profiles={[
+          {
+            id: 'default',
+            nickname: '大寶',
+            selectedAvatarId: 'hero-knight',
+            defaultGrade: 5,
+            createdAt: '2026-01-01T00:00:00.000Z',
+          },
+          {
+            id: 'p2',
+            nickname: '二寶',
+            selectedAvatarId: 'hero-mage',
+            defaultGrade: 2,
+            createdAt: '2026-01-01T00:00:00.000Z',
+          },
+        ]}
+        activeProfileId="default"
+        onSelectProfile={vi.fn()}
+        onCreateProfile={onCreate}
+        onClose={vi.fn()}
+      />,
+    );
+
+    expect(screen.getByText('5 年級專屬')).toBeInTheDocument();
+    expect(screen.getByText('2 年級專屬')).toBeInTheDocument();
+    fireEvent.click(screen.getByRole('button', { name: /新增孩子學習檔案/ }));
+    fireEvent.change(
+      screen.getByPlaceholderText('輸入暱稱（例如：弟弟、姊姊）'),
+      { target: { value: '小寶' } },
+    );
+    fireEvent.click(screen.getByRole('button', { name: '建立並進入' }));
+    expect(onCreate).toHaveBeenCalledWith('小寶', 2);
+  });
+
+  it('MathToolsModal switches between 9x9 blitz and interactive clock', () => {
+    render(
+      <MathToolsModal open={true} onAwardCoins={vi.fn()} onClose={vi.fn()} />,
+    );
+    expect(screen.getByText('九九乘法 60 秒快閃挑戰')).toBeInTheDocument();
+    fireEvent.click(screen.getByRole('button', { name: /互動時鐘教具/ }));
+    expect(screen.getByText('3 點 15 分')).toBeInTheDocument();
+    fireEvent.click(screen.getByRole('button', { name: '+15 分' }));
+    expect(screen.getByText('3 點 30 分')).toBeInTheDocument();
+  });
+
+  it('SiblingDuoArena renders setup with co-op and versus modes', () => {
+    render(
+      <SiblingDuoArena open={true} onAwardCoins={vi.fn()} onClose={vi.fn()} />,
+    );
+    expect(
+      screen.getByText('雙寶同機合作 / 跨年級公平 PK'),
+    ).toBeInTheDocument();
+    expect(screen.getByText('合作打魔王（推薦）')).toBeInTheDocument();
+    expect(screen.getByText('公平 PK 競速賽')).toBeInTheDocument();
+  });
+
+  it('EyeCareModal renders countdown and skip action', () => {
+    const onSkip = vi.fn();
+    render(
+      <EyeCareModal open={true} onComplete={vi.fn()} onSkip={onSkip} />,
+    );
+    expect(screen.getByText('護眼休息時間到囉！')).toBeInTheDocument();
+    fireEvent.click(screen.getByRole('button', { name: '先略過這次提醒' }));
+    expect(onSkip).toHaveBeenCalledTimes(1);
+  });
+
+  it('WrongBook renders print A4 button and Review Lesson button', () => {
+    const onOpenLesson = vi.fn();
+    render(
+      <WrongBook
+        progress={{
+          ...DEFAULT_PROGRESS,
+          wrongQuestionIds: [SAMPLE_STAGE.questions[0].id],
+          wrongQuestionSnapshots: {
+            [SAMPLE_STAGE.questions[0].id]: {
+              ...SAMPLE_STAGE.questions[0],
+              subjectId: 'math',
+              stageTitle: '單元一：整數加法',
+            },
+          },
+        }}
+        onRemoveWrongId={vi.fn()}
+        onStartWrongReview={vi.fn()}
+        onOpenLessonForQuestion={onOpenLesson}
+      />,
+    );
+
+    expect(
+      screen.getByRole('button', { name: /列印 A4 錯題卷/ }),
+    ).toBeInTheDocument();
+    fireEvent.click(screen.getByRole('button', { name: /回看微課/ }));
+    expect(onOpenLesson).toHaveBeenCalledWith('math', '單元一：整數加法');
   });
 });

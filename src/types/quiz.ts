@@ -200,9 +200,23 @@ export interface RedeemedRewardRecord {
   used: boolean;
 }
 
+export interface CustomHanziList {
+  id: string;
+  title: string;
+  chars: string[];
+  createdAt: string;
+}
+
+export interface ExamPlan {
+  title: string;
+  examDate: string; // YYYY-MM-DD
+  subjectIds: SubjectId[];
+}
+
 export interface PlayerProgress {
   schemaVersion?: number;
   nickname: string;
+  defaultGrade?: Grade;
   selectedAvatarId: string;
   unlockedAvatarIds: string[];
   xp: number;
@@ -215,16 +229,19 @@ export interface PlayerProgress {
   totalRepairedCount?: number;
   soundEnabled: boolean;
   focusMode?: boolean;
+  eyeCareEnabled?: boolean;
   speechRateMode?: 'normal' | 'slow';
   autoReadQuestion?: boolean;
   lowerGradeNudgeDismissed?: boolean;
   fsrsCards?: Record<string, FsrsCardState>;
   completedLessonIds?: string[];
   practicedHanzi?: Record<string, HanziPracticeRecord>;
+  customHanziLists?: CustomHanziList[];
   unlockedBadgeIds?: string[];
   familyRewards?: FamilyRewardItem[];
   redeemedRewards?: RedeemedRewardRecord[];
   parentPin?: string;
+  examPlan?: ExamPlan;
   customStages: Stage[];
   selectedView?: MapViewMode;
   selectedGrade?: Grade;
@@ -241,6 +258,7 @@ export interface LocalProfileMeta {
   id: string;
   nickname: string;
   selectedAvatarId: string;
+  defaultGrade?: Grade;
   createdAt: string;
 }
 

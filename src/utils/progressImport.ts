@@ -239,6 +239,39 @@ export function normalizeProgress(
       /^\d{4}-\d{2}-\d{2}$/.test(parsed.lastStudyDate)
         ? parsed.lastStudyDate
         : undefined,
+    defaultGrade:
+      parsed.defaultGrade !== undefined
+        ? normalizeGrade(parsed.defaultGrade)
+        : undefined,
+    eyeCareEnabled:
+      typeof parsed.eyeCareEnabled === 'boolean' ? parsed.eyeCareEnabled : true,
+    customHanziLists: Array.isArray(parsed.customHanziLists)
+      ? parsed.customHanziLists.filter(
+          (item) =>
+            item &&
+            typeof item === 'object' &&
+            typeof item.id === 'string' &&
+            typeof item.title === 'string' &&
+            Array.isArray(item.chars) &&
+            item.chars.length > 0,
+        )
+      : undefined,
+    examPlan:
+      parsed.examPlan &&
+      typeof parsed.examPlan === 'object' &&
+      typeof parsed.examPlan.title === 'string' &&
+      typeof parsed.examPlan.examDate === 'string' &&
+      /^\d{4}-\d{2}-\d{2}$/.test(parsed.examPlan.examDate) &&
+      Array.isArray(parsed.examPlan.subjectIds)
+        ? {
+            title: parsed.examPlan.title.trim().slice(0, 40) || '段考衝刺計畫',
+            examDate: parsed.examPlan.examDate,
+            subjectIds: parsed.examPlan.subjectIds.filter(
+              (s): s is SubjectId =>
+                typeof s === 'string' && VALID_SUBJECT_IDS.has(s),
+            ),
+          }
+        : undefined,
     dailyActivity:
       parsed.dailyActivity &&
       typeof parsed.dailyActivity === 'object' &&
@@ -324,4 +357,41 @@ export function parseImportedProgressJson(
     ok: true,
     progress: normalizeProgress(candidate),
   };
+}
+
+const SYNC_CODE_PREFIX = 'EQP1:';
+
+export function encodeProgressSyncCode(progress: PlayerProgress): string {
+  const json = JSON.stringify({
+    exportedAt: new Date().toISOString(),
+    progress,
+  });
+  const bytes = new TextEncoder().encode(json);
+  let binary = '';
+  for (let i = 0; i < bytes.length; i++) {
+    binary += String.fromCharCode(bytes[i]);
+  }
+  return `${SYNC_CODE_PREFIX}${btoa(binary)}`;
+}
+
+export function decodeProgressSyncCode(code: string): ImportProgressResult {
+  const trimmed = code.trim();
+  if (!trimmed) {
+    return { ok: false, error: '請先貼上同步碼。' };
+  }
+  if (!trimmed.startsWith(SYNC_CODE_PREFIX)) {
+    return parseImportedProgressJson(trimmed);
+  }
+  try {
+    const b64 = trimmed.slice(SYNC_CODE_PREFIX.length).replace(/\s+/g, '');
+    const binary = atob(b64);
+    const bytes = new Uint8Array(binary.length);
+    for (let i = 0; i < binary.length; i++) {
+      bytes[i] = binary.charCodeAt(i);
+    }
+    const json = new TextDecoder().decode(bytes);
+    return parseImportedProgressJson(json);
+  } catch {
+    return { ok: false, error: '同步碼格式無效或已損毀，請重新複製。' };
+  }
 }

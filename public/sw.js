@@ -1,4 +1,4 @@
-const CACHE_NAME = 'edu-quiz-play-v2';
+const CACHE_NAME = 'edu-quiz-play-v3';
 const APP_SHELL = ['./', './index.html', './manifest.webmanifest', './icon.svg'];
 
 self.addEventListener('install', (event) => {
@@ -26,6 +26,28 @@ self.addEventListener('fetch', (event) => {
   if (request.method !== 'GET') return;
 
   const url = new URL(request.url);
+
+  // Cache HanziWriter stroke JSON data from CDN for offline handwriting practice
+  if (
+    (url.hostname === 'cdn.jsdelivr.net' || url.hostname === 'unpkg.com') &&
+    url.pathname.includes('hanzi-writer-data')
+  ) {
+    event.respondWith(
+      caches.match(request).then(
+        (cached) =>
+          cached ||
+          fetch(request).then((response) => {
+            if (response.ok) {
+              const copy = response.clone();
+              caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
+            }
+            return response;
+          }),
+      ),
+    );
+    return;
+  }
+
   if (url.origin !== self.location.origin) return;
 
   if (request.mode === 'navigate') {

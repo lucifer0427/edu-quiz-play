@@ -1,4 +1,5 @@
 import type {
+  Grade,
   LocalProfileMeta,
   PlayerProgress,
   Stage,
@@ -101,6 +102,12 @@ function readProfileIndex(): StoredProfileIndex {
             item.selectedAvatarId.trim() !== ''
               ? item.selectedAvatarId
               : 'hero-knight',
+          defaultGrade:
+            typeof item.defaultGrade === 'number' &&
+            item.defaultGrade >= 1 &&
+            item.defaultGrade <= 6
+              ? (item.defaultGrade as Grade)
+              : undefined,
           createdAt:
             typeof item.createdAt === 'string'
               ? item.createdAt
@@ -184,6 +191,7 @@ export function syncActiveProfileMeta(
           ...profile,
           nickname: progress.nickname,
           selectedAvatarId: progress.selectedAvatarId,
+          defaultGrade: progress.defaultGrade ?? profile.defaultGrade,
         }
       : profile,
   );
@@ -206,14 +214,30 @@ export function switchProfile(profileId: string): {
     activeProfileId: nextId,
     profiles: index.profiles,
   });
+  const loaded = loadProgress(nextId);
+  const meta = index.profiles.find((p) => p.id === nextId);
+  const effectiveGrade = loaded.defaultGrade ?? meta?.defaultGrade;
+  const adjusted: PlayerProgress =
+    effectiveGrade !== undefined
+      ? {
+          ...loaded,
+          defaultGrade: effectiveGrade,
+          selectedGrade: effectiveGrade,
+          autoReadQuestion:
+            loaded.autoReadQuestion ?? (effectiveGrade <= 2 ? true : false),
+        }
+      : loaded;
   return {
     activeProfileId: nextId,
-    progress: loadProgress(nextId),
+    progress: adjusted,
     profiles: index.profiles,
   };
 }
 
-export function createProfile(nickname: string): {
+export function createProfile(
+  nickname: string,
+  defaultGrade?: Grade,
+): {
   activeProfileId: string;
   progress: PlayerProgress;
   profiles: LocalProfileMeta[];
@@ -221,14 +245,19 @@ export function createProfile(nickname: string): {
   const cleanName = nickname.trim().slice(0, 20) || '新勇者';
   const index = readProfileIndex();
   const id = `p-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 6)}`;
+  const grade = defaultGrade ?? 5;
   const newProgress: PlayerProgress = {
     ...DEFAULT_PROGRESS,
     nickname: cleanName,
+    defaultGrade: defaultGrade,
+    selectedGrade: grade,
+    autoReadQuestion: grade <= 2,
   };
   const newMeta: LocalProfileMeta = {
     id,
     nickname: cleanName,
     selectedAvatarId: newProgress.selectedAvatarId,
+    defaultGrade,
     createdAt: new Date().toISOString(),
   };
   const nextProfiles = [...index.profiles, newMeta];

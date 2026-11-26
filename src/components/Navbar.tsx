@@ -10,11 +10,13 @@ import {
   PenTool,
   ShoppingBag,
   Sparkles,
+  Swords,
   Trash2,
   UserPlus,
   Users,
   Volume2,
   VolumeX,
+  Zap,
 } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
 import type {
@@ -37,6 +39,9 @@ interface NavbarProps {
   onSwitchProfile: (profileId: string) => void;
   onCreateProfile: (nickname: string) => void;
   onDeleteProfile: (profileId: string) => void;
+  onOpenDuoMode?: () => void;
+  onOpenMathTools?: () => void;
+  onOpenProfileSelector?: () => void;
 }
 
 export function Navbar({
@@ -50,6 +55,9 @@ export function Navbar({
   onSwitchProfile,
   onCreateProfile,
   onDeleteProfile,
+  onOpenDuoMode,
+  onOpenMathTools,
+  onOpenProfileSelector,
 }: NavbarProps) {
   const levelInfo = getLevelFromXp(progress.xp);
   const dueWrongCount = countDueWrongQuestions(progress);
@@ -180,9 +188,23 @@ export function Navbar({
                 role="menu"
                 className="absolute right-0 mt-2 w-72 rounded-2xl border-2 border-amber-200 bg-white p-3 shadow-xl"
               >
-                <div className="mb-2 flex items-center gap-1.5 px-1 text-xs font-black text-slate-600">
-                  <Users className="h-3.5 w-3.5 text-amber-600" />
-                  <span>本機學童檔案切換（各別保存紀錄）</span>
+                <div className="mb-2 flex items-center justify-between gap-1.5 px-1 text-xs font-black text-slate-600">
+                  <div className="flex items-center gap-1.5">
+                    <Users className="h-3.5 w-3.5 text-amber-600" />
+                    <span>本機學童檔案</span>
+                  </div>
+                  {onOpenProfileSelector && (
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setMenuOpen(false);
+                        onOpenProfileSelector();
+                      }}
+                      className="rounded-lg bg-amber-100 px-2 py-0.5 text-[11px] font-black text-amber-800 hover:bg-amber-200"
+                    >
+                      大頭像選單
+                    </button>
+                  )}
                 </div>
 
                 <div className="max-h-52 space-y-1.5 overflow-y-auto">
@@ -214,6 +236,7 @@ export function Navbar({
                           <div className="min-w-0 flex-1">
                             <div className="truncate text-xs font-black text-slate-800">
                               {profile.nickname}
+                              {profile.defaultGrade ? ` (${profile.defaultGrade}年)` : ''}
                             </div>
                             {isCurrent && (
                               <div className="text-[10px] font-bold text-amber-700">
@@ -266,6 +289,30 @@ export function Navbar({
               </div>
             )}
           </div>
+
+          {onOpenDuoMode && (
+            <button
+              type="button"
+              onClick={onOpenDuoMode}
+              title="雙寶同機合作打魔王 / 跨年級公平 PK"
+              className="flex h-10 items-center gap-1 rounded-xl border border-violet-200 bg-violet-50 px-2.5 text-xs font-black text-violet-700 transition hover:bg-violet-100"
+            >
+              <Swords className="h-4 w-4" />
+              <span className="hidden lg:inline">雙人對戰</span>
+            </button>
+          )}
+
+          {onOpenMathTools && (
+            <button
+              type="button"
+              onClick={onOpenMathTools}
+              title="九九乘法閃電戰與互動時鐘教具"
+              className="flex h-10 items-center gap-1 rounded-xl border border-sky-200 bg-sky-50 px-2.5 text-xs font-black text-sky-700 transition hover:bg-sky-100"
+            >
+              <Zap className="h-4 w-4" />
+              <span className="hidden lg:inline">數學教具</span>
+            </button>
+          )}
 
           <div
             className="flex items-center gap-1.5 rounded-xl border border-yellow-300 bg-yellow-50 px-3 py-1.5 text-sm font-black text-yellow-800"

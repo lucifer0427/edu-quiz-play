@@ -1,6 +1,7 @@
 import {
   AlertTriangle,
   BookOpen,
+  Calendar,
   CheckCircle2,
   ChevronDown,
   ChevronUp,
@@ -29,6 +30,7 @@ import { SUBJECT_META } from '../data/subjects';
 import type { LessonPack, LessonScript } from '../types/lesson';
 import type {
   CurriculumSubjectEntry,
+  ExamPlan,
   Grade,
   PlayerProgress,
   Question,
@@ -48,6 +50,7 @@ interface ExamReviewProps {
   onStartMockExam: (mockStage: Stage) => void;
   onStartStage: (stage: Stage) => void;
   onStartLesson: (lesson: LessonScript, stage: Stage) => void;
+  onUpdateExamPlan?: (plan: ExamPlan | undefined) => void;
   onUpdateMapFilter: (
     patch: Partial<
       Pick<
@@ -93,10 +96,20 @@ export function ExamReview({
   onStartMockExam,
   onStartStage,
   onStartLesson,
+  onUpdateExamPlan,
   onUpdateMapFilter,
 }: ExamReviewProps) {
   const catalog = useMemo(() => getCurriculumCatalog(), []);
   const speechAvailable = isSpeechSupported();
+
+  const [showPlanEditor, setShowPlanEditor] = useState(false);
+  const [planTitle, setPlanTitle] = useState(
+    progress.examPlan?.title ?? `${progress.selectedGrade ?? 5}年級段考衝刺`,
+  );
+  const [planDate, setPlanDate] = useState(
+    progress.examPlan?.examDate ??
+      new Date(Date.now() + 7 * 86400000).toISOString().slice(0, 10),
+  );
 
   const [grade, setGrade] = useState<Grade>(progress.selectedGrade ?? 5);
   const [semester, setSemester] = useState<Semester>(
@@ -565,6 +578,114 @@ export function ExamReview({
           </div>
         </div>
       </section>
+
+      {/* 段考倒數衝刺計畫 */}
+      {onUpdateExamPlan && (
+        <section className="rounded-3xl border-2 border-indigo-200 bg-gradient-to-r from-indigo-50 to-sky-50 p-4 shadow-xs print:hidden">
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <div className="flex items-center gap-2.5">
+              <Calendar className="h-5 w-5 text-indigo-600" />
+              {progress.examPlan ? (() => {
+                const diffMs =
+                  new Date(`${progress.examPlan.examDate}T00:00:00`).getTime() -
+                  new Date(new Date().toISOString().slice(0, 10) + 'T00:00:00').getTime();
+                const daysLeft = Math.max(0, Math.ceil(diffMs / 86400000));
+                const dailyUnits =
+                  daysLeft > 0
+                    ? Math.max(1, Math.ceil(selectedDigests.length / daysLeft))
+                    : selectedDigests.length;
+                return (
+                  <div>
+                    <div className="text-sm font-black text-indigo-950">
+                      📅 {progress.examPlan.title} ·{' '}
+                      <span className="text-rose-600">
+                        {daysLeft === 0 ? '就是今天！' : `倒數 ${daysLeft} 天`}
+                      </span>
+                    </div>
+                    <div className="text-xs font-bold text-indigo-700">
+                      本次範圍 {selectedDigests.length} 個單元，建議每天複習{' '}
+                      <span className="font-black text-indigo-950">
+                        {dailyUnits} 個單元
+                      </span>{' '}
+                      ＋ 清空到期錯題
+                    </div>
+                  </div>
+                );
+              })() : (
+                <div>
+                  <div className="text-sm font-black text-indigo-950">
+                    📅 段考倒數衝刺計畫
+                  </div>
+                  <div className="text-xs font-medium text-indigo-700">
+                    設定期中／期末考日期，自動幫你算出每天要複習幾個單元
+                  </div>
+                </div>
+              )}
+            </div>
+            <div className="flex items-center gap-2">
+              <button
+                type="button"
+                onClick={() => {
+                  playTap();
+                  setShowPlanEditor((v) => !v);
+                }}
+                className="rounded-xl bg-white px-3 py-1.5 text-xs font-black text-indigo-700 shadow-xs hover:bg-indigo-100"
+              >
+                {progress.examPlan ? '調整考試日期' : '設定段考計畫'}
+              </button>
+              {progress.examPlan && (
+                <button
+                  type="button"
+                  onClick={() => {
+                    playTap();
+                    onUpdateExamPlan(undefined);
+                  }}
+                  className="rounded-xl bg-white/70 px-2.5 py-1.5 text-xs font-bold text-slate-500 hover:text-rose-600"
+                >
+                  清除
+                </button>
+              )}
+            </div>
+          </div>
+
+          {showPlanEditor && (
+            <form
+              onSubmit={(e) => {
+                e.preventDefault();
+                playTap();
+                onUpdateExamPlan({
+                  title: planTitle.trim() || `${grade}年級段考衝刺`,
+                  examDate: planDate,
+                  subjectIds: [subjectId],
+                });
+                setShowPlanEditor(false);
+              }}
+              className="mt-3 flex flex-wrap items-center gap-2 border-t border-indigo-200 pt-3"
+            >
+              <input
+                type="text"
+                value={planTitle}
+                onChange={(e) => setPlanTitle(e.target.value)}
+                maxLength={30}
+                placeholder="例如：五上期中考"
+                className="rounded-xl border border-indigo-200 bg-white px-3 py-1.5 text-xs font-bold text-slate-800"
+              />
+              <input
+                type="date"
+                value={planDate}
+                onChange={(e) => setPlanDate(e.target.value)}
+                className="rounded-xl border border-indigo-200 bg-white px-3 py-1.5 text-xs font-bold text-slate-800"
+              />
+              <button
+                type="submit"
+                className="rounded-xl bg-indigo-600 px-3.5 py-1.5 text-xs font-black text-white hover:bg-indigo-500"
+              >
+                儲存計畫
+              </button>
+            </form>
+          )}
+        </section>
+      )}
 
       {/* 年級、學期、科目與單元範圍選擇 */}
       <section className="space-y-4 rounded-3xl border-2 border-slate-200 bg-white p-5 shadow-sm print:hidden">

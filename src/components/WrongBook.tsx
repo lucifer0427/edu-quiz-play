@@ -1,8 +1,10 @@
 import {
   Archive,
   BookCheck,
+  BookOpen,
   Clock,
   Play,
+  Printer,
   Sprout,
   Trash2,
   Volume2,
@@ -31,6 +33,7 @@ interface WrongBookProps {
   progress: PlayerProgress;
   onRemoveWrongId: (questionId: string) => void;
   onStartWrongReview: (reviewStage: Stage) => void;
+  onOpenLessonForQuestion?: (subjectId: SubjectId, stageTitle?: string) => void;
 }
 
 interface WrongQuestionItem {
@@ -50,6 +53,7 @@ export function WrongBook({
   progress,
   onRemoveWrongId,
   onStartWrongReview,
+  onOpenLessonForQuestion,
 }: WrongBookProps) {
   const speechAvailable = isSpeechSupported();
   const [subjectFilter, setSubjectFilter] = useState<SubjectId | 'all'>('all');
@@ -187,7 +191,8 @@ export function WrongBook({
   };
 
   return (
-    <div className="mx-auto max-w-4xl space-y-6 px-4 py-6">
+    <>
+    <div className="mx-auto max-w-4xl space-y-6 px-4 py-6 print:hidden">
       <section className="space-y-4 rounded-3xl border-2 border-rose-200 bg-gradient-to-r from-rose-50 to-orange-50 p-6">
         <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
           <div>
@@ -200,33 +205,48 @@ export function WrongBook({
             </p>
           </div>
 
-          {dueFilteredItems.length > 0 ? (
-            <button
-              type="button"
-              onClick={() => launchReview(dueFilteredItems, false)}
-              className="btn-3d inline-flex shrink-0 items-center gap-2 rounded-2xl bg-rose-500 px-5 py-3 text-base font-black text-white shadow-[0_4px_0_#be123c] hover:bg-rose-400"
-            >
-              <Play className="h-5 w-5 fill-white" />
-              <span>
-                啟動今日複習戰 ({Math.min(dueFilteredItems.length, MICRO_QUIZ_CAP)}{' '}
-                題)
-              </span>
-            </button>
-          ) : (
-            filteredItems.length > 0 && (
+          <div className="flex flex-wrap items-center gap-2">
+            {filteredItems.length > 0 && (
               <button
                 type="button"
-                onClick={() => launchReview(filteredItems, true)}
-                className="btn-3d inline-flex shrink-0 items-center gap-2 rounded-2xl border-2 border-emerald-400 bg-white px-4 py-2.5 text-sm font-black text-emerald-800 shadow-[0_3px_0_#34d399] hover:bg-emerald-50"
+                onClick={() => {
+                  playTap();
+                  window.print();
+                }}
+                className="inline-flex shrink-0 items-center gap-1.5 rounded-2xl border-2 border-slate-300 bg-white px-3.5 py-2.5 text-xs font-black text-slate-700 shadow-xs hover:bg-slate-50"
               >
-                <Play className="h-4 w-4 fill-emerald-600 text-emerald-600" />
+                <Printer className="h-4 w-4" />
+                <span>列印 A4 錯題卷</span>
+              </button>
+            )}
+            {dueFilteredItems.length > 0 ? (
+              <button
+                type="button"
+                onClick={() => launchReview(dueFilteredItems, false)}
+                className="btn-3d inline-flex shrink-0 items-center gap-2 rounded-2xl bg-rose-500 px-5 py-3 text-base font-black text-white shadow-[0_4px_0_#be123c] hover:bg-rose-400"
+              >
+                <Play className="h-5 w-5 fill-white" />
                 <span>
-                  提前練習 ({Math.min(filteredItems.length, MICRO_QUIZ_CAP)}{' '}
-                  題 · 今日已達標)
+                  啟動今日複習戰 ({Math.min(dueFilteredItems.length, MICRO_QUIZ_CAP)}{' '}
+                  題)
                 </span>
               </button>
-            )
-          )}
+            ) : (
+              filteredItems.length > 0 && (
+                <button
+                  type="button"
+                  onClick={() => launchReview(filteredItems, true)}
+                  className="btn-3d inline-flex shrink-0 items-center gap-2 rounded-2xl border-2 border-emerald-400 bg-white px-4 py-2.5 text-sm font-black text-emerald-800 shadow-[0_3px_0_#34d399] hover:bg-emerald-50"
+                >
+                  <Play className="h-4 w-4 fill-emerald-600 text-emerald-600" />
+                  <span>
+                    提前練習 ({Math.min(filteredItems.length, MICRO_QUIZ_CAP)}{' '}
+                    題 · 今日已達標)
+                  </span>
+                </button>
+              )
+            )}
+          </div>
         </div>
 
         {wrongItems.length > 0 && (
@@ -395,6 +415,20 @@ export function WrongBook({
                   </div>
 
                   <div className="flex shrink-0 items-center gap-1.5">
+                    {onOpenLessonForQuestion && subjectId !== 'custom' && (
+                      <button
+                        type="button"
+                        onClick={() => {
+                          playTap();
+                          onOpenLessonForQuestion(subjectId, stageTitle);
+                        }}
+                        className="inline-flex items-center gap-1 rounded-xl bg-sky-50 px-2.5 py-1.5 text-xs font-black text-sky-700 hover:bg-sky-100"
+                        title="回到該單元微課程複習觀念"
+                      >
+                        <BookOpen className="h-3.5 w-3.5" />
+                        <span>回看微課</span>
+                      </button>
+                    )}
                     {speechAvailable && (
                       <button
                         type="button"
@@ -471,6 +505,63 @@ export function WrongBook({
         </div>
       )}
     </div>
+
+    {filteredItems.length > 0 && (
+      <div className="hidden print:block print:p-6 print:text-slate-900">
+        <div className="mb-6 border-b-2 border-slate-800 pb-3">
+          <h1 className="text-xl font-black">
+            知識大冒險 · 錯題精選複習卷
+          </h1>
+          <div className="mt-1 flex justify-between text-xs font-bold text-slate-600">
+            <span>學生：{progress.nickname}</span>
+            <span>
+              列印日期：{new Date().toLocaleDateString('zh-TW')} · 共{' '}
+              {filteredItems.length} 題
+            </span>
+          </div>
+        </div>
+
+        <ol className="space-y-5">
+          {filteredItems.map((item, idx) => (
+            <li
+              key={`print-${item.question.id}`}
+              className="break-inside-avoid border-b border-slate-200 pb-3"
+            >
+              <div className="text-sm font-bold">
+                {idx + 1}. {item.question.prompt}
+              </div>
+              <div className="mt-2 grid grid-cols-2 gap-2 text-xs">
+                {item.question.options.map((opt, oIdx) => (
+                  <div key={oIdx}>
+                    ({['A', 'B', 'C', 'D'][oIdx]}) {opt}
+                  </div>
+                ))}
+              </div>
+              <div className="mt-2 text-xs text-slate-500">
+                作答：________
+              </div>
+            </li>
+          ))}
+        </ol>
+
+        <div className="mt-8 break-before-page border-t-2 border-slate-800 pt-4">
+          <h2 className="mb-3 text-base font-black">解答與解析</h2>
+          <ol className="space-y-2 text-xs">
+            {filteredItems.map((item, idx) => (
+              <li key={`ans-${item.question.id}`}>
+                <span className="font-bold">
+                  {idx + 1}. 答案：({['A', 'B', 'C', 'D'][item.question.answerIndex]}){' '}
+                  {item.question.options[item.question.answerIndex]}
+                </span>
+                {' — '}
+                <span>{item.question.explanation}</span>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </div>
+    )}
+    </>
   );
 }
 

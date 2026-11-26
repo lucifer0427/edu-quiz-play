@@ -232,6 +232,41 @@ export function BattleSummary({
           </div>
         )}
 
+        {result.attemptOutcomes.length > 0 && (() => {
+          const rushedWrongs = result.attemptOutcomes.filter(
+            (o) => !o.wasCorrect && o.responseTimeMs > 0 && o.responseTimeMs < 2500,
+          ).length;
+          const hintWrongs = result.attemptOutcomes.filter(
+            (o) => !o.wasCorrect && o.usedHint,
+          ).length;
+          const avgSec = Math.round(
+            result.attemptOutcomes.reduce((s, o) => s + o.responseTimeMs, 0) /
+              result.attemptOutcomes.length /
+              1000,
+          );
+          const advice =
+            rushedWrongs >= 2
+              ? '⚡ 發現有幾題不到 2.5 秒就作答而失誤，下次先圈出關鍵字再選答案喔！'
+              : hintWrongs >= 2
+                ? '💡 使用提示後仍答錯較多，建議先回看「課程教學」把核心觀念弄懂！'
+                : result.wrongQuestions.length > 0 && result.subjectId === 'math'
+                  ? '🧮 偶有計算小失誤，建議搭配右上角「計算紙」列算式驗算！'
+                  : '🌟 答題節奏穩健又專心，繼續保持這個好習慣！';
+          return (
+            <div className="mt-5 rounded-2xl border-2 border-sky-200 bg-sky-50/70 p-4 text-left">
+              <div className="flex flex-wrap items-center justify-between gap-2 text-xs font-black text-sky-800">
+                <span>🔍 本局作答習慣診斷</span>
+                <span className="rounded-full bg-white px-2.5 py-0.5 text-sky-700">
+                  平均每題 {avgSec} 秒
+                </span>
+              </div>
+              <p className="mt-1.5 text-xs font-bold leading-relaxed text-slate-700">
+                {advice}
+              </p>
+            </div>
+          );
+        })()}
+
         <div className="mt-6 flex flex-wrap justify-center gap-3">
           {needsLessonReview && onReviewLesson && (
             <button

@@ -2,19 +2,31 @@ import {
   Award,
   Check,
   Coins,
+  Copy,
   Edit3,
+  Eye,
   Gift,
   Lock,
   Plus,
   Sparkles,
   Trash2,
   Unlock,
+  Users,
 } from 'lucide-react';
 import { useEffect, useMemo, useState } from 'react';
 import { HERO_AVATARS } from '../data/avatars';
-import type { FamilyRewardItem, PlayerProgress } from '../types/quiz';
+import type { FamilyRewardItem, Grade, PlayerProgress } from '../types/quiz';
 import { DEFAULT_FAMILY_REWARDS, evaluateBadges } from '../utils/badges';
+import {
+  decodeProgressSyncCode,
+  encodeProgressSyncCode,
+} from '../utils/progressImport';
 import { playTap, playUnlock } from '../utils/sound';
+import {
+  getLevelFromXp,
+  listProfiles,
+  loadProgress,
+} from '../utils/storage';
 import { HeroSprite } from './GameSprites';
 import { ParentGateModal } from './ParentGateModal';
 
@@ -27,6 +39,9 @@ interface HeroShopProps {
   onMarkRewardUsed?: (redeemedId: string) => void;
   onUpdateFamilyRewards?: (rewards: FamilyRewardItem[]) => void;
   onUpdateParentPin?: (pin: string | undefined) => void;
+  onToggleEyeCare?: () => void;
+  onUpdateDefaultGrade?: (grade: Grade | undefined) => void;
+  onImportProgress?: (imported: PlayerProgress) => void;
 }
 
 export function HeroShop({
@@ -38,6 +53,9 @@ export function HeroShop({
   onMarkRewardUsed,
   onUpdateFamilyRewards,
   onUpdateParentPin,
+  onToggleEyeCare,
+  onUpdateDefaultGrade,
+  onImportProgress,
 }: HeroShopProps) {
   const [nameInput, setNameInput] = useState(progress.nickname);
   const [savedNotice, setSavedNotice] = useState(false);
@@ -47,6 +65,9 @@ export function HeroShop({
   const [parentGateOpen, setParentGateOpen] = useState(false);
   const [pinInput, setPinInput] = useState(progress.parentPin ?? '');
   const [pinSaved, setPinSaved] = useState(false);
+  const [syncCodeInput, setSyncCodeInput] = useState('');
+  const [syncNotice, setSyncNotice] = useState<string | null>(null);
+  const [reportCopied, setReportCopied] = useState(false);
 
   const badges = useMemo(() => evaluateBadges(progress), [progress]);
   const unlockedBadgeCount = badges.filter((b) => b.unlocked).length;
@@ -466,6 +487,184 @@ export function HeroShop({
                     <span className="font-black text-emerald-600">✓ 已儲存</span>
                   )}
                 </form>
+              )}
+
+              {/* 雙寶學習並排總覽 & 週報 */}
+              {(() => {
+                const allProfiles = listProfiles();
+                const summaries = allProfiles.map((meta) => {
+                  const p =
+                    meta.nickname === progress.nickname &&
+                    meta.selectedAvatarId === progress.selectedAvatarId
+                      ? progress
+                      : loadProgress(meta.id);
+                  const lv = getLevelFromXp(p.xp);
+                  const acc =
+                    p.totalAnswered > 0
+                      ? Math.round((p.totalCorrect / p.totalAnswered) * 100)
+                      : 0;
+                  return { meta, p, lv, acc };
+                });
+
+                const handleCopyReport = () => {
+                  playTap();
+                  const lines = summaries.map(
+                    ({ p, lv, acc }) =>
+                      `• ${p.nickname}（${p.defaultGrade ?? p.selectedGrade ?? 5}年級）Lv.${lv.level}｜金幣 ${p.coins}｜連續 ${p.studyStreakDays ?? 0} 天｜總答對率 ${acc}%｜待複習錯題 ${p.wrongQuestionIds.length} 題`,
+                  );
+                  const report = `【知識大冒險 · 雙寶學習週報】\n${lines.join('\n')}`;
+                  if (navigator.clipboard?.writeText) {
+                    navigator.clipboard.writeText(report).catch(() => {});
+                  }
+                  setReportCopied(true);
+                  window.setTimeout(() => setReportCopied(false), 2000);
+                };
+
+                return (
+                  <div className="space-y-3 rounded-2xl border-2 border-sky-200 bg-sky-50/50 p-4 text-xs">
+                    <div className="flex flex-wrap items-center justify-between gap-2">
+                      <div className="flex items-center gap-1.5 text-sm font-black text-sky-900">
+                        <Users className="h-4 w-4 text-sky-600" />
+                        <span>雙寶並排學習總覽</span>
+                      </div>
+                      <button
+                        type="button"
+                        onClick={handleCopyReport}
+                        className="inline-flex items-center gap-1 rounded-xl bg-white px-3 py-1.5 font-black text-sky-700 shadow-2xs hover:bg-sky-100"
+                      >
+                        <Copy className="h-3.5 w-3.5" />
+                        <span>{reportCopied ? '✓ 已複製週報' : '複製學習週報'}</span>
+                      </button>
+                    </div>
+                    <div className="grid gap-2.5 sm:grid-cols-2">
+                      {summaries.map(({ meta, p, lv, acc }) => (
+                        <div
+                          key={meta.id}
+                          className="rounded-xl border border-sky-200 bg-white p-3"
+                        >
+                          <div className="flex items-center justify-between">
+                            <span className="text-sm font-black text-slate-800">
+                              {p.nickname}
+                            </span>
+                            <span className="rounded-full bg-sky-100 px-2 py-0.5 text-[11px] font-black text-sky-700">
+                              {p.defaultGrade ?? p.selectedGrade ?? 5} 年級 · Lv.
+                              {lv.level}
+                            </span>
+                          </div>
+                          <div className="mt-2 grid grid-cols-2 gap-1.5 text-[11px] font-bold text-slate-600">
+                            <span>🔥 連勝：{p.studyStreakDays ?? 0} 天</span>
+                            <span>🪙 金幣：{p.coins}</span>
+                            <span>🎯 正確率：{acc}%</span>
+                            <span>📝 錯題：{p.wrongQuestionIds.length} 題</span>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                );
+              })()}
+
+              {/* 護眼提醒與綁定年級 */}
+              {(onToggleEyeCare || onUpdateDefaultGrade) && (
+                <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl bg-slate-50 p-3 text-xs">
+                  {onToggleEyeCare && (
+                    <label className="inline-flex cursor-pointer items-center gap-2 font-black text-slate-700">
+                      <Eye className="h-4 w-4 text-emerald-600" />
+                      <input
+                        type="checkbox"
+                        checked={progress.eyeCareEnabled !== false}
+                        onChange={() => {
+                          playTap();
+                          onToggleEyeCare();
+                        }}
+                        className="h-4 w-4 rounded accent-emerald-600"
+                      />
+                      每 20 分鐘護眼休息提醒（完成送 20 金幣）
+                    </label>
+                  )}
+                  {onUpdateDefaultGrade && (
+                    <div className="flex items-center gap-1">
+                      <span className="font-black text-slate-600">
+                        此檔案綁定年級：
+                      </span>
+                      {([1, 2, 3, 4, 5, 6] as Grade[]).map((g) => (
+                        <button
+                          key={g}
+                          type="button"
+                          onClick={() => {
+                            playTap();
+                            onUpdateDefaultGrade(
+                              progress.defaultGrade === g ? undefined : g,
+                            );
+                          }}
+                          className={`h-7 w-7 rounded-lg font-black ${
+                            progress.defaultGrade === g
+                              ? 'bg-sky-600 text-white'
+                              : 'bg-white text-slate-600 hover:bg-slate-200'
+                          }`}
+                        >
+                          {g}
+                        </button>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {/* 跨裝置同步碼 */}
+              {onImportProgress && (
+                <div className="space-y-2 rounded-2xl bg-slate-50 p-3 text-xs">
+                  <div className="flex flex-wrap items-center justify-between gap-2">
+                    <span className="font-black text-slate-700">
+                      📲 跨裝置同步碼（平板 ↔ 手機快速轉移目前檔案進度）
+                    </span>
+                    <button
+                      type="button"
+                      onClick={() => {
+                        playTap();
+                        const code = encodeProgressSyncCode(progress);
+                        setSyncCodeInput(code);
+                        if (navigator.clipboard?.writeText) {
+                          navigator.clipboard.writeText(code).catch(() => {});
+                        }
+                        setSyncNotice('已產生並複製同步碼！可貼到另一台裝置匯入。');
+                      }}
+                      className="inline-flex items-center gap-1 rounded-xl bg-indigo-600 px-3 py-1.5 font-black text-white hover:bg-indigo-500"
+                    >
+                      <Copy className="h-3.5 w-3.5" />
+                      <span>產生並複製同步碼</span>
+                    </button>
+                  </div>
+                  <div className="flex flex-wrap items-center gap-2">
+                    <input
+                      type="text"
+                      value={syncCodeInput}
+                      onChange={(e) => setSyncCodeInput(e.target.value)}
+                      placeholder="貼上 EQP1:... 同步碼"
+                      className="min-w-[200px] flex-1 rounded-xl border border-slate-300 bg-white px-3 py-1.5 font-mono text-[11px] text-slate-800"
+                    />
+                    <button
+                      type="button"
+                      onClick={() => {
+                        playTap();
+                        const res = decodeProgressSyncCode(syncCodeInput);
+                        if (!res.ok) {
+                          setSyncNotice(res.error);
+                          return;
+                        }
+                        onImportProgress(res.progress);
+                        setSyncCodeInput('');
+                        setSyncNotice('✓ 同步碼匯入成功！');
+                      }}
+                      className="rounded-xl bg-emerald-600 px-3 py-1.5 font-black text-white hover:bg-emerald-500"
+                    >
+                      匯入同步碼
+                    </button>
+                  </div>
+                  {syncNotice && (
+                    <div className="font-bold text-indigo-700">{syncNotice}</div>
+                  )}
+                </div>
               )}
             </div>
           )}
