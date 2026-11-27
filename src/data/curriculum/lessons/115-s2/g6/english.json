@@ -74,7 +74,24 @@
             "selfExplanationPrompt": "想一想：當朋友即將轉學或參加比賽時，可以用哪一句兩個字的英文祝福他？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/english#u0"
+          "factGroundingSourceId": "115-s2/g6/english#u0",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "句首字母 w 必",
+                "這是一句肯定直述",
+                "1,200 拆成"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-english-u0-s3",
@@ -137,7 +154,7 @@
               "leftTitle": "單數主詞配 was",
               "leftPoints": [
                 "I / He / She / Amy → was",
-                "否定縮寫：wasn't"
+                "Was Amy at the museum? → Yes, she was. / No, she wasn't."
               ],
               "rightTitle": "複數與 you 配 were",
               "rightPoints": [
@@ -180,7 +197,24 @@
             "selfExplanationPrompt": "想一想：l-blends（如 blue, play）和 r-blends（如 train, green）在拼讀時有什麼差異？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/english#u1"
+          "factGroundingSourceId": "115-s2/g6/english#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "問句主詞是 yo",
+                "回答的主詞變成 ",
+                "若是問兩個人 \""
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-english-u1-s3",
@@ -286,7 +320,24 @@
             "selfExplanationPrompt": "想一想：s-blends（sw, sp, st, sk）開頭的單字，你能舉出哪三個？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/english#u2"
+          "factGroundingSourceId": "115-s2/g6/english#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "問句已經有過去式",
+                "go 是不規則動",
+                "正確答句為 Sh"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-english-u2-s3",
@@ -387,7 +438,24 @@
             "selfExplanationPrompt": "想一想：在日記中看到 wasn't at the zoo, was at the museum 時，作者到底去哪裡了？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/english#u3"
+          "factGroundingSourceId": "115-s2/g6/english#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "句首時間是 Ye",
+                "後半句的動詞 d",
+                "修正後為 Yes"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-english-u3-s3",
@@ -493,7 +561,24 @@
             "selfExplanationPrompt": "想一想：在環境教育觀念下，買衣服時如何做到不浪費？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/english#u4"
+          "factGroundingSourceId": "115-s2/g6/english#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "socks（襪子",
+                "回答複數物品的價",
+                "one hund"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-english-u4-s3",
@@ -599,7 +684,24 @@
             "selfExplanationPrompt": "想一想：cute 和 flute 都是 u_e 結構（長母音 u），那 cut、cup 中的 u 發的是短母音還是長母音？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/english#u5"
+          "factGroundingSourceId": "115-s2/g6/english#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "若想回答夏天，第",
+                "形容夏天炎熱晴朗",
+                "若改問冬天，則是"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-english-u5-s3",
@@ -705,7 +807,24 @@
             "selfExplanationPrompt": "想一想：認識世界各國不同的特色運動時，我們應該抱持什麼樣的文化態度？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/english#u6"
+          "factGroundingSourceId": "115-s2/g6/english#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "從計畫找到天氣線",
+                "表達喜歡某項運動",
+                "球類運動前面不加"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-english-u6-s3",

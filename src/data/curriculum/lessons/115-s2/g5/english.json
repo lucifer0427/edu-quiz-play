@@ -74,7 +74,24 @@
             "selfExplanationPrompt": "想一想：three hundred boys 和 two hundred girls 一共有幾位學生？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/english#u0"
+          "factGroundingSourceId": "115-s2/g5/english#u0",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先唸百位數——7",
+                "加上連接詞——中",
+                "再唸十位數——8"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u0-s3",
@@ -181,7 +198,24 @@
             "selfExplanationPrompt": "想一想：騎腳踏車戴安全帽是為了保護哪一個身體部位？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/english#u1"
+          "factGroundingSourceId": "115-s2/g5/english#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "把手指輕輕放在喉",
+                "唸出 thumb",
+                "唸出 this,"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -288,7 +322,24 @@
             "selfExplanationPrompt": "想一想：當家人肚子痛（stomachache）時，哪一句照顧建議最合理？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/english#u2"
+          "factGroundingSourceId": "115-s2/g5/english#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "看主詞——Amy",
+                "檢查動詞規則——",
+                "確認正確寫法——"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -394,7 +445,24 @@
             "selfExplanationPrompt": "想一想：\"Wash your hands often and cover your mouth when you cough.\" 在提醒什麼好習慣？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/english#u3"
+          "factGroundingSourceId": "115-s2/g5/english#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "看問句開頭——W",
+                "檢查答句——Ye",
+                "修正回答——應改"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -500,7 +568,24 @@
             "selfExplanationPrompt": "想一想：自備環保筷並把食物吃完的環保惜食習慣，英文怎麼說？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/english#u4"
+          "factGroundingSourceId": "115-s2/g5/english#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "看問句開頭——開",
+                "判斷 Yes/N",
+                "說出正確答句——"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -606,7 +691,24 @@
             "selfExplanationPrompt": "想一想：週末去郊外健行遮陽防雨，背包裡最適合帶哪兩樣物品？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/english#u5"
+          "factGroundingSourceId": "115-s2/g5/english#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "判斷主詞單複數—",
+                "選出問句 be ",
+                "選出答句主詞代名"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",
@@ -669,7 +771,7 @@
               "leftTitle": "亞洲常見餐具",
               "leftPoints": [
                 "chopsticks (筷子)",
-                "如臺灣、日本飲食文化"
+                "西餐使用 fork 與 knife，尊重多元文化"
               ],
               "rightTitle": "歐美西餐餐具",
               "rightPoints": [
@@ -713,7 +815,24 @@
             "selfExplanationPrompt": "想一想：當同學幫你撿回水壺時，除了說 It's mine.，補上哪一句最有禮貌？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/english#u6"
+          "factGroundingSourceId": "115-s2/g5/english#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "看問句名詞——u",
+                "檢查答句代名詞—",
+                "修正答句——複數"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u6-s3",

@@ -70,7 +70,24 @@
             "selfExplanationPrompt": "想一想：為什麼行行出狀元，且每一種正當職業都不該受到性別刻板印象限制？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/health-pe#u1"
+          "factGroundingSourceId": "115-s2/g6/health-pe#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "多元自我評價——",
+                "探索連結——將細",
+                "踏實行動——從六"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-hp-u1-s3",
@@ -132,7 +149,7 @@
             "params": {
               "leftTitle": "廣告迷思 vs. 科學事實",
               "leftPoints": [
-                "迷思：電子煙水蒸氣很無害",
+                "電子煙含尼古丁與有害化學物，我國全面禁止",
                 "事實：含尼古丁毒物傷腦傷肺"
               ],
               "rightTitle": "拒癮行動與協助",
@@ -176,7 +193,24 @@
             "selfExplanationPrompt": "想一想：六年級學生可以用哪些安全又尊重人權的方式，在學校或社區公開提倡拒癮信念？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/health-pe#u2"
+          "factGroundingSourceId": "115-s2/g6/health-pe#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "堅定拒絕——禮貌",
+                "安全脫身——若對",
+                "專業協助——對已"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-hp-u2-s3",
@@ -278,7 +312,24 @@
             "selfExplanationPrompt": "想一想：當同學染病休養康復返校後，全班應該抱持什麼樣的品德與相處態度？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/health-pe#u3"
+          "factGroundingSourceId": "115-s2/g6/health-pe#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "水痘與新冠——接",
+                "病毒性肝炎——A",
+                "結核病——出現咳"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-hp-u3-s3",
@@ -380,7 +431,24 @@
             "selfExplanationPrompt": "想一想：在面對生活兩難抉擇時，為什麼「列出可行方案並比較優缺點與後果」能幫我們減少後悔？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/health-pe#u4"
+          "factGroundingSourceId": "115-s2/g6/health-pe#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "人際溝通——冷靜",
+                "批判與決定——將",
+                "健康承諾——寫下"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-hp-u4-s3",
@@ -442,8 +510,8 @@
             "params": {
               "leftTitle": "毛筆筆法特徵",
               "leftPoints": [
-                "輕盈滑動（掠、挑）",
-                "用力收筆定住（頓筆）"
+                "「永」字含八種筆法，展現多樣方向與勁道",
+                "手肘、肩膀、膝蓋與足尖皆可書寫空間軌跡"
               ],
               "rightTitle": "肢體舞蹈表現",
               "rightPoints": [
@@ -486,7 +554,24 @@
             "selfExplanationPrompt": "想一想：除了雙手手臂，你還可以用身體哪些部位寫出立體的空間線條？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/health-pe#u5"
+          "factGroundingSourceId": "115-s2/g6/health-pe#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "安全暖身——先確",
+                "編排呼應——安排",
+                "美感分享——展演"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-hp-u5-s3",
@@ -588,7 +673,24 @@
             "selfExplanationPrompt": "想一想：運鈴時發現扯鈴越轉越歪快要從棉線滑掉（偏鈴），棍子該怎麼微調修正？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/health-pe#u6"
+          "factGroundingSourceId": "115-s2/g6/health-pe#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "場地安全——選擇",
+                "拋接要領——高拋",
+                "隊形與應變——設"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-hp-u6-s3",
@@ -694,7 +796,24 @@
             "selfExplanationPrompt": "想一想：用戰術板加上手持裝置影片輔助排球練習，對團隊進步有什麼好處？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/health-pe#u7"
+          "factGroundingSourceId": "115-s2/g6/health-pe#u7",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "場上安全——課前",
+                "低手修正——雙手",
+                "戰術討論——利用"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-hp-u7-s3",
@@ -756,7 +875,7 @@
             "params": {
               "leftTitle": "發球與拍面修正",
               "leftPoints": [
-                "端線外垂直上拋不遮擋",
+                "發球：端線外公開垂直拋球，先落己方再過網",
                 "球常飛高出界須微前傾下壓拍面"
               ],
               "rightTitle": "戰術與雙打規則",
@@ -800,7 +919,24 @@
             "selfExplanationPrompt": "想一想：為什麼桌球經常被推薦為適合各年齡層一起參與的「終身運動」？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/health-pe#u8"
+          "factGroundingSourceId": "115-s2/g6/health-pe#u8",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "拍面修正——察覺",
+                "戰術調動——不跟",
+                "培養球感——課後"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-hp-u8-s3",
@@ -906,7 +1042,24 @@
             "selfExplanationPrompt": "想一想：為什麼角力比賽必須在鋪有厚實彈性的圓形角力墊上進行？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/health-pe#u9"
+          "factGroundingSourceId": "115-s2/g6/health-pe#u9",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "賽前檢查——穿著",
+                "低姿防禦——保持",
+                "護身與禮儀——若"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-hp-u9-s3",
@@ -1012,7 +1165,24 @@
             "selfExplanationPrompt": "想一想：生活中「拋球、擲球、滾球」這三種送球動作分別適合用在什麼情境？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/health-pe#u10"
+          "factGroundingSourceId": "115-s2/g6/health-pe#u10",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "姿勢檢視——木球",
+                "觀察修正——冷靜",
+                "終身樂活——欣賞"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-hp-u10-s3",
@@ -1118,7 +1288,24 @@
             "selfExplanationPrompt": "想一想：為什麼水球選手在水中傳球與接球時需要持續運用「踩水」動作？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/health-pe#u11"
+          "factGroundingSourceId": "115-s2/g6/health-pe#u11",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "下水前準備——在",
+                "游泳接力——下一",
+                "水球規則——一般"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-hp-u11-s3",

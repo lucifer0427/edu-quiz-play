@@ -31,7 +31,7 @@
               "leftTitle": "形狀相同（大小不同）",
               "leftPoints": [
                 "C / c、O / o、S / s",
-                "只差在格線高低與大小"
+                "每個字母都有大寫與小寫配對"
               ],
               "rightTitle": "容易混淆的方向雙胞胎",
               "rightPoints": [
@@ -74,7 +74,24 @@
             "selfExplanationPrompt": "想一想：老師上課說「Get ready!」時，是在請大家做什麼？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/english#u0"
+          "factGroundingSourceId": "115-s1/g3/english#u0",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認 b 和 d",
+                "檢查 G 的小寫",
+                "因此只有 G -"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u0-s3",
@@ -175,7 +192,24 @@
             "selfExplanationPrompt": "想一想：把禮物交給朋友時，要說哪一句英文才親切又有禮貌？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/english#u1"
+          "factGroundingSourceId": "115-s1/g3/english#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "聽懂問句裡有Ho",
+                "找出數字 8 的",
+                "套入句型回答I "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -237,7 +271,7 @@
             "params": {
               "leftTitle": "心情情緒詞",
               "leftPoints": [
-                "happy（開心的）",
+                "happy（開心）／sad（難過）",
                 "sad（難過的）、angry（生氣的）"
               ],
               "rightTitle": "身體感受詞",
@@ -281,7 +315,24 @@
             "selfExplanationPrompt": "想一想：當同學說「I am sad.」時，你可以用什麼行動展現關心與同理心？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/english#u2"
+          "factGroundingSourceId": "115-s1/g3/english#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "回想身體感受的單",
+                "剛跑完操場想休息",
+                "完成句子I am"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -343,7 +394,7 @@
             "params": {
               "leftTitle": "How are you?",
               "leftPoints": [
-                "問心情或近況（你好嗎？）",
+                "看圖與標題先預測故事內容",
                 "答：I am fine, thank you."
               ],
               "rightTitle": "How old are you?",
@@ -387,7 +438,24 @@
             "selfExplanationPrompt": "想一想：birthday 和 boy 這兩個單字，開頭的第一個字母和發音有什麼相同之處？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/english#u3"
+          "factGroundingSourceId": "115-s1/g3/english#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認 happy",
+                "cake（蛋糕）",
+                "找出不同類的是 "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -493,7 +561,24 @@
             "selfExplanationPrompt": "想一想：長大後不常玩的舊玩具，怎麼處理最符合愛護環境與分享的精神？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/english#u4"
+          "factGroundingSourceId": "115-s1/g3/english#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認問句開頭是I",
+                "盒子裡真的是球，",
+                "回答Yes, i"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -599,7 +684,24 @@
             "selfExplanationPrompt": "想一想：12 月的聖誕節有哪些常見的國外節慶習俗？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/english#u5"
+          "factGroundingSourceId": "115-s1/g3/english#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先找出顏色單字r",
+                "再找出後面的物品",
+                "合起來翻譯成它是"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",
@@ -705,7 +807,24 @@
             "selfExplanationPrompt": "想一想：在字母表最後面的四個大寫字母，順序是不是 W, X, Y, Z？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/english#u6"
+          "factGroundingSourceId": "115-s1/g3/english#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "看到What i",
+                "問物品要用It ",
+                "選出It is "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u6-s3",

@@ -31,7 +31,7 @@
               "leftTitle": "第一課：來買菜喔",
               "leftPoints": [
                 "菜頭（白蘿蔔）、菜蔬（蔬菜）",
-                "句型：我上佮意食菜頭。"
+                "上佮意＝最喜歡、食＝吃"
               ],
               "rightTitle": "第二課：歡喜食甲飽",
               "rightPoints": [
@@ -49,6 +49,36 @@
                 "id": "l2",
                 "text": "正確用餐具食甲飽",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/minnan#u1"
+        },
+        {
+          "sceneId": "115-s2-g2-minnan-u1-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「第一單元 來食好食物」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -75,7 +105,24 @@
             "selfExplanationPrompt": "想一想：媽媽問「你上佮意食啥物菜蔬？」時，你要怎麼回答她？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g2/minnan#u1"
+          "factGroundingSourceId": "115-s2/g2/minnan#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先選一個人當主詞",
+                "再選一樣吃飯用的",
+                "接上搭配這個餐具"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -124,8 +171,8 @@
             "params": {
               "leftTitle": "第三課：月娘變魔術",
               "leftPoints": [
-                "月亮形狀有時彎彎有時圓圓",
-                "我有看著天頂的月娘"
+                "月娘＝月亮、天頂的＝天上的",
+                "有看著＝有看見"
               ],
               "rightTitle": "第四課：西北雨與防災",
               "rightPoints": [
@@ -143,6 +190,36 @@
                 "id": "l2",
                 "text": "遇西北雨進屋避雷",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/minnan#u2"
+        },
+        {
+          "sceneId": "115-s2-g2-minnan-u2-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「第二單元 奇妙的大自然」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -169,7 +246,24 @@
             "selfExplanationPrompt": "想一想：晚上在陽台吹風時，怎麼用閩南語跟阿公說「我有看見天上的月亮」？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g2/minnan#u2"
+          "factGroundingSourceId": "115-s2/g2/minnan#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "立刻停止戶外玩耍",
+                "遠離高大的樹木和",
+                "趕快進到堅固的屋"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -218,7 +312,7 @@
             "params": {
               "leftTitle": "騎鐵馬（近距離）",
               "leftPoints": [
-                "用腳踩踏板前進的腳踏車",
+                "利便＝方便、便利",
                 "戴安全帽、雙手握車把禮讓行人"
               ],
               "rightTitle": "坐火車（遠距離）",
@@ -237,6 +331,36 @@
                 "id": "l2",
                 "text": "火車排隊守秩序",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/minnan#u3"
+        },
+        {
+          "sceneId": "115-s2-g2-minnan-u3-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「第三單元 利便的交通」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -263,7 +387,24 @@
             "selfExplanationPrompt": "想一想：每天早上過馬路時，可以用哪一句閩南語感謝導護老師和志工？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g2/minnan#u3"
+          "factGroundingSourceId": "115-s2/g2/minnan#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "在月台等車時，站",
+                "車門打開後排隊依",
+                "坐好後在車廂內輕"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -332,6 +473,46 @@
           "factGroundingSourceId": "115-s2/g2/minnan#u4"
         },
         {
+          "sceneId": "115-s2-g2-minnan-u4-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "掌握「第四單元 期末故事」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "cognitiveChunks": [
+            "先圈出題幹關鍵字與限制條件，不急著搶答",
+            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
+            "選出答案後代回原題檢查一次，確認邏輯通順"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "正確解題思路",
+              "leftPoints": [
+                "掌握「第四單元 期末故事」的核心規則與判斷條件",
+                "照步驟拆解線索，完成後再回頭核對一次"
+              ],
+              "rightTitle": "最常見陷阱",
+              "rightPoints": [
+                "還沒看清題目條件或關鍵字就憑直覺搶答",
+                "忽略單位、順序或題目中的反義詞提示"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "正確思路",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "避開陷阱",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/minnan#u4"
+        },
+        {
           "sceneId": "u4-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "防雷安全與「佮」的造句練習",
@@ -352,7 +533,24 @@
             "selfExplanationPrompt": "想一想：怎麼用「佮（和、跟）」造一句和好朋友一起玩的閩南語句子？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g2/minnan#u4"
+          "factGroundingSourceId": "115-s2/g2/minnan#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "立刻離開空曠操場",
+                "趕緊進到堅固的室",
+                "不要碰觸電器插頭"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",

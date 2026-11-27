@@ -55,6 +55,36 @@
           "factGroundingSourceId": "115-s1/g5/hakka#u1"
         },
         {
+          "sceneId": "115-s1-g5-hakka-u1-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「第一單元 現下摎未來」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/hakka#u1"
+        },
+        {
           "sceneId": "u1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "用客語同理提醒與感謝工作者",
@@ -74,7 +104,24 @@
             "commonErrorContrast": "常見錯誤：關燈熬夜滑手機不休息，或把「當無閒」誤會成很閒沒事做。",
             "selfExplanationPrompt": "想一想：桃竹苗客庄的「東方美人茶」為什麼又常被稱為「膨風茶」？"
           },
-          "factGroundingSourceId": "115-s1/g5/hakka#u1"
+          "factGroundingSourceId": "115-s1/g5/hakka#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "遇見同學大聲看手",
+                "遇見忙碌指揮交通",
+                "記住每個正當行業"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -143,6 +190,46 @@
           "factGroundingSourceId": "115-s1/g5/hakka#u2"
         },
         {
+          "sceneId": "115-s1-g5-hakka-u2-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "掌握「第二單元 客家料理」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "cognitiveChunks": [
+            "先圈出題幹關鍵字與限制條件，不急著搶答",
+            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
+            "選出答案後代回原題檢查一次，確認邏輯通順"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "正確解題思路",
+              "leftPoints": [
+                "掌握「第二單元 客家料理」的核心規則與判斷條件",
+                "照步驟拆解線索，完成後再回頭核對一次"
+              ],
+              "rightTitle": "最常見陷阱",
+              "rightPoints": [
+                "還沒看清題目條件或關鍵字就憑直覺搶答",
+                "忽略單位、順序或題目中的反義詞提示"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "正確思路",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "避開陷阱",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/hakka#u2"
+        },
+        {
           "sceneId": "u2-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "認識客家飲食背後的惜食精神",
@@ -162,7 +249,24 @@
             "commonErrorContrast": "常見錯誤：只顧點滿整桌菜吃兩口就倒掉，或以為鹹菜只是為了把鹽巴用完。",
             "selfExplanationPrompt": "想一想：客家重要慶典「好米收冬祭」通常在什麼季節舉行？主要感謝誰的保佑？"
           },
-          "factGroundingSourceId": "115-s1/g5/hakka#u2"
+          "factGroundingSourceId": "115-s1/g5/hakka#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "理解先民因山區勞",
+                "運用盛產酸桔製成",
+                "在日常生活中實踐"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -211,8 +315,8 @@
             "params": {
               "leftTitle": "客庄名產與旅遊",
               "leftPoints": [
-                "北埔：膨風茶、柿餅",
-                "美濃：油紙傘、客家粄條"
+                "靚靚＝非常美麗漂亮",
+                "北埔柿餅膨風茶、美濃油紙傘粄條"
               ],
               "rightTitle": "苗栗三義與家庭關懷",
               "rightPoints": [
@@ -230,6 +334,36 @@
                 "id": "l2",
                 "text": "三義樟腦與木雕工藝",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/hakka#u3"
+        },
+        {
+          "sceneId": "115-s1-g5-hakka-u3-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「第三單元 靚靚个寶島」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -255,7 +389,24 @@
             "commonErrorContrast": "常見錯誤：去參觀三義木雕博物館時用手去摳木雕花紋，或在景點牆壁刻字。",
             "selfExplanationPrompt": "想一想：留意並記住爸爸媽媽或阿公阿婆愛吃的客家名產，能帶給家庭什麼溫暖？"
           },
-          "factGroundingSourceId": "115-s1/g5/hakka#u3"
+          "factGroundingSourceId": "115-s1/g5/hakka#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "抓時間與人物 →",
+                "看交通與地點 →",
+                "看目的 →看木雕"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -329,6 +480,36 @@
           "factGroundingSourceId": "115-s1/g5/hakka#u4"
         },
         {
+          "sceneId": "115-s1-g5-hakka-u4-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「第四單元 期末歌謠與複習活動」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/hakka#u4"
+        },
+        {
           "sceneId": "u4-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "破解五上總複習閱讀短文",
@@ -348,7 +529,24 @@
             "commonErrorContrast": "常見錯誤：把「麼个（什麼）」誤以為是「哪裡（哪位）」，或把「失禮（對不起）」當作「謝謝（承蒙你）」。",
             "selfExplanationPrompt": "想一想：如果夥伴用客語問「食晝吂？」，而你已經吃飽了，該怎麼用客語回答？"
           },
-          "factGroundingSourceId": "115-s1/g5/hakka#u4"
+          "factGroundingSourceId": "115-s1/g5/hakka#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂時間與人物 ",
+                "讀懂行程 →去新",
+                "讀懂心情 →真暢"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",

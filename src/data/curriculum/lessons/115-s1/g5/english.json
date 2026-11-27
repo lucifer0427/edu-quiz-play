@@ -30,7 +30,7 @@
             "params": {
               "leftTitle": "十幾 (-teen)",
               "leftPoints": [
-                "sixteen (16)",
+                "整十結尾是 -ty，十幾結尾是 -teen",
                 "seventeen (17)"
               ],
               "rightTitle": "整十 (-ty)",
@@ -75,7 +75,24 @@
             "selfExplanationPrompt": "想一想：數字 100 的英文怎麼說？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/english#u0"
+          "factGroundingSourceId": "115-s1/g5/english#u0",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察字尾——ca",
+                "看 name——",
+                "確認讀音——na"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u0-s3",
@@ -182,7 +199,24 @@
             "selfExplanationPrompt": "想一想：Wednesday 中間哪一個字母是不發音的？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/english#u1"
+          "factGroundingSourceId": "115-s1/g5/english#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "檢查拼讀規則——",
+                "唸出四個字——c",
+                "找出不同項——b"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -289,7 +323,24 @@
             "selfExplanationPrompt": "想一想：如果星期五有美術課，I have art class ___ Friday. 空格要填哪個介系詞？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/english#u2"
+          "factGroundingSourceId": "115-s1/g5/english#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "看問句開頭助動詞",
+                "確定答句主詞與助",
+                "寫出否定簡答——"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -395,7 +446,24 @@
             "selfExplanationPrompt": "想一想：my, cry, sky 的字尾 y 和哪一個單字的母音一樣發 /aɪ/？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/english#u3"
+          "factGroundingSourceId": "115-s1/g5/english#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "圈出助動詞——句",
+                "檢查後面動詞——",
+                "改正句子——把 "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -502,7 +570,24 @@
             "selfExplanationPrompt": "想一想：coat, road, window 和 frog 四個字中，哪一個不是長母音 O？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/english#u4"
+          "factGroundingSourceId": "115-s1/g5/english#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "看問句主詞——主",
+                "對照答句線索——",
+                "填入 be 動詞"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -565,7 +650,7 @@
               "leftTitle": "單數 (1 隻)",
               "leftPoints": [
                 "There is only one lion.",
-                "名詞不加 s"
+                "只有 1 隻用 There is；2 隻以上用 There are"
               ],
               "rightTitle": "複數 (2 隻以上)",
               "rightPoints": [
@@ -609,7 +694,24 @@
             "selfExplanationPrompt": "想一想：在床邊掛上等待聖誕老人放禮物的物品，英文叫做什麼？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/english#u5"
+          "factGroundingSourceId": "115-s1/g5/english#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "判斷數量單複數—",
+                "選擇句型開頭——",
+                "拼出數字與複數名"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",
@@ -716,7 +818,24 @@
             "selfExplanationPrompt": "想一想：認識外國不同的飲食、語言與節慶時，我們應該抱持什麼態度？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/english#u6"
+          "factGroundingSourceId": "115-s1/g5/english#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "檢查問句名詞——",
+                "檢查答句數量——",
+                "修正 be 動詞"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u6-s3",

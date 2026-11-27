@@ -70,7 +70,24 @@
             "selfExplanationPrompt": "想一想：在賣場選購牙刷與牙膏時，為什麼不能只看卡通包裝或便宜的特價散裝品？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/health-pe#u1"
+          "factGroundingSourceId": "115-s2/g4/health-pe#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "用牙線或牙線棒輕",
+                "挑選刷頭適中的合",
+                "請家長陪同定期看"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -132,8 +149,8 @@
             "params": {
               "leftTitle": "實體店面購物",
               "leftPoints": [
-                "能現場觸摸並檢查效期包裝",
-                "須花交通時間前往商店"
+                "不被「滿額送贈品」誘惑，先分清需要與想要",
+                "比較實體店面與網路購物的優缺點與風險"
               ],
               "rightTitle": "網路購物",
               "rightPoints": [
@@ -177,7 +194,24 @@
             "selfExplanationPrompt": "想一想：為什麼公園門口沒有廠商與有效日期標示、價格又超便宜的散裝軟糖絕對不能買？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/health-pe#u2"
+          "factGroundingSourceId": "115-s2/g4/health-pe#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "買食品前檢查包裝",
+                "結帳現場核對金額",
+                "網購瑕疵或不合商"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -239,7 +273,7 @@
             "params": {
               "leftTitle": "迎接青春期變化",
               "leftPoints": [
-                "身高、變聲與長痘因人而異",
+                "以正向態度接納青春期發育速度的個別差異",
                 "溫和洗臉、不擠痘、規律作息"
               ],
               "rightTitle": "尊重互動與夢想",
@@ -284,7 +318,24 @@
             "selfExplanationPrompt": "想一想：青春期皮脂腺分泌較旺盛長出青春痘時，日常洗臉與飲食作息該怎麼照顧？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/health-pe#u3"
+          "factGroundingSourceId": "115-s2/g4/health-pe#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "遇到不舒服或侵犯",
+                "不隱忍也不自責，",
+                "反駁性別刻板印象"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -386,7 +437,24 @@
             "selfExplanationPrompt": "想一想：如果地震發生當下人剛好在戶外空曠操場，沒有桌子可以躲時應該怎麼保護自己？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/health-pe#u4"
+          "factGroundingSourceId": "115-s2/g4/health-pe#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "颱風登陸前清理排",
+                "颱風期間待在堅固",
+                "雨後遇混濁積水與"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -448,7 +516,7 @@
             "params": {
               "leftTitle": "登階與健走休閒",
               "leftPoints": [
-                "穿止滑鞋、全腳掌穩踩階面",
+                "家庭運動採循序漸進、固定時段與互相鼓勵",
                 "抬頭擺臂健走不傷膝、全齡宜"
               ],
               "rightTitle": "傳統武術「臥虎藏龍」",
@@ -493,7 +561,24 @@
             "selfExplanationPrompt": "想一想：為什麼「健走」特別適合國小學生、爸媽以及爺爺奶奶一起參與？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/health-pe#u5"
+          "factGroundingSourceId": "115-s2/g4/health-pe#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "與家人商量固定時",
+                "運動前後確實暖身",
+                "武術練習前先暖身"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",
@@ -555,8 +640,8 @@
             "params": {
               "leftTitle": "運動前：動態伸展",
               "leftPoints": [
-                "活絡關節並提升體溫",
-                "如擺臂繞環、高抬腿"
+                "良好柔軟度使動作靈活並減少扭傷拉傷",
+                "運動前「動態伸展」熱身；運動後「靜態伸展」放鬆"
               ],
               "rightTitle": "運動後：靜態伸展",
               "rightPoints": [
@@ -600,7 +685,24 @@
             "selfExplanationPrompt": "想一想：為什麼「用身體作畫」如果每個人都只做一模一樣的立正姿勢，就很難看出創意主題？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/health-pe#u6"
+          "factGroundingSourceId": "115-s2/g4/health-pe#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認體操軟墊平整",
+                "身體作畫先討論共",
+                "踢毽子先練習用手"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u6-s3",
@@ -662,8 +764,8 @@
             "params": {
               "leftTitle": "足球與籃球突破",
               "leftPoints": [
-                "足球腳內側傳停、小步盤球",
-                "籃球指腹控球、抬頭找隊友"
+                "足球：腳內側（足弓）面積大最穩，盤球球離腳近",
+                "籃球：指腹壓控、抬頭觀察場上，勿抱球走步"
               ],
               "rightTitle": "躲避球與羽球基礎",
               "rightPoints": [
@@ -707,7 +809,24 @@
             "selfExplanationPrompt": "想一想：初學羽球時，為什麼要先從「向上連續托球」開始練，而不是一開始就用全力殺球？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/health-pe#u7"
+          "factGroundingSourceId": "115-s2/g4/health-pe#u7",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "躲避球進攻先與內",
+                "羽球同隊保持安全",
+                "足球滾進別組場地"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u7-s3",
@@ -809,7 +928,24 @@
             "selfExplanationPrompt": "想一想：為什麼看似平靜無波的溪流或海灣，只要立有「禁止戲水」紅色警告牌就絕對不能下水？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/health-pe#u8"
+          "factGroundingSourceId": "115-s2/g4/health-pe#u8",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "入水前先淋浴適應",
+                "蹬牆潛行時雙手伸",
+                "若不慎落水切勿舉"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u8-s3",

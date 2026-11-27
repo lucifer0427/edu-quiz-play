@@ -55,6 +55,36 @@
           "factGroundingSourceId": "115-s1/g2/math#u1"
         },
         {
+          "sceneId": "115-s1-g2-math-u1-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "面對「第1章 200 以內的數」的題目，請照著上方流程圖操作：先圈出已知數字與單位，再用圖示或線段整理數量關係，最後列式計算並檢查大小是否合理。",
+          "cognitiveChunks": [
+            "第 1 步：圈出題目給的數字、單位與最後要問的目標",
+            "第 2 步：在腦中或紙上畫出數量關係，決定運算方向",
+            "第 3 步：計算後回頭檢查進位、借位與單位是否一致"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "圈出已知條件",
+                "畫圖整理關係",
+                "列式計算驗算"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "數學三步解題法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u1"
+        },
+        {
           "sceneId": "u1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "數錢幣寫出三位數",
@@ -75,7 +105,24 @@
             "selfExplanationPrompt": "想一想：如果撲滿裡再多放 2 個 10 元，108 元會變成多少元？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s1/g2/math#u1"
+          "factGroundingSourceId": "115-s1/g2/math#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "1 張 100 ",
+                "沒有 10 元硬",
+                "8 個 1 元，"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -143,6 +190,46 @@
           "factGroundingSourceId": "115-s1/g2/math#u2"
         },
         {
+          "sceneId": "115-s1-g2-math-u2-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "掌握「第2章 二位數的加減法」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "cognitiveChunks": [
+            "先圈出題幹關鍵字與限制條件，不急著搶答",
+            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
+            "選出答案後代回原題檢查一次，確認邏輯通順"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "正確解題思路",
+              "leftPoints": [
+                "掌握「第2章 二位數的加減法」的核心規則與判斷條件",
+                "照步驟拆解線索，完成後再回頭核對一次"
+              ],
+              "rightTitle": "最常見陷阱",
+              "rightPoints": [
+                "還沒看清題目條件或關鍵字就憑直覺搶答",
+                "忽略單位、順序或題目中的反義詞提示"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "正確思路",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "避開陷阱",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u2"
+        },
+        {
           "sceneId": "u2-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "退位減法怎麼借",
@@ -163,7 +250,24 @@
             "selfExplanationPrompt": "想一想：用 26 + 16 算算看，會不會剛好變回 42 呢？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s1/g2/math#u2"
+          "factGroundingSourceId": "115-s1/g2/math#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "個位 2 不夠減",
+                "12 - 6 =",
+                "十位剩 3，3 "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -231,6 +335,36 @@
           "factGroundingSourceId": "115-s1/g2/math#u3"
         },
         {
+          "sceneId": "115-s1-g2-math-u3-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "面對「第3章 認識公分」的題目，請照著上方流程圖操作：先圈出已知數字與單位，再用圖示或線段整理數量關係，最後列式計算並檢查大小是否合理。",
+          "cognitiveChunks": [
+            "第 1 步：圈出題目給的數字、單位與最後要問的目標",
+            "第 2 步：在腦中或紙上畫出數量關係，決定運算方向",
+            "第 3 步：計算後回頭檢查進位、借位與單位是否一致"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "圈出已知條件",
+                "畫圖整理關係",
+                "列式計算驗算"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "數學三步解題法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u3"
+        },
+        {
           "sceneId": "u3-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "斷掉的直尺也能量",
@@ -250,7 +384,24 @@
             "selfExplanationPrompt": "想一想：如果鉛筆從刻度 2 量到刻度 10，它長幾公分？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s1/g2/math#u3"
+          "factGroundingSourceId": "115-s1/g2/math#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "找到起點刻度 3",
+                "數一數或相減：8",
+                "每一大格是 1 "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -300,7 +451,7 @@
             "params": {
               "leftTitle": "加法驗算",
               "leftPoints": [
-                "25 + 18 = 43",
+                "部分＋部分＝全部",
                 "用 43 - 18 = 25 檢查"
               ],
               "rightTitle": "減法驗算",
@@ -319,6 +470,36 @@
                 "id": "l2",
                 "text": "減法用加法驗算",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u4"
+        },
+        {
+          "sceneId": "115-s1-g2-math-u4-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "面對「第4章 加減應用」的題目，請照著上方流程圖操作：先圈出已知數字與單位，再用圖示或線段整理數量關係，最後列式計算並檢查大小是否合理。",
+          "cognitiveChunks": [
+            "第 1 步：圈出題目給的數字、單位與最後要問的目標",
+            "第 2 步：在腦中或紙上畫出數量關係，決定運算方向",
+            "第 3 步：計算後回頭檢查進位、借位與單位是否一致"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "圈出已知條件",
+                "畫圖整理關係",
+                "列式計算驗算"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "數學三步解題法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -344,7 +525,24 @@
             "selfExplanationPrompt": "想一想：如果原本不知道有幾顆，吃掉 14 顆剩 28 顆，該怎麼算原本有幾顆？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s1/g2/math#u4"
+          "factGroundingSourceId": "115-s1/g2/math#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "寫出算式 24 ",
+                "全部是 40 顆",
+                "驗算 24 + "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -411,6 +609,46 @@
           "factGroundingSourceId": "115-s1/g2/math#u5"
         },
         {
+          "sceneId": "115-s1-g2-math-u5-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "掌握「第5章 容量」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "cognitiveChunks": [
+            "先圈出題幹關鍵字與限制條件，不急著搶答",
+            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
+            "選出答案後代回原題檢查一次，確認邏輯通順"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "正確解題思路",
+              "leftPoints": [
+                "掌握「第5章 容量」的核心規則與判斷條件",
+                "照步驟拆解線索，完成後再回頭核對一次"
+              ],
+              "rightTitle": "最常見陷阱",
+              "rightPoints": [
+                "還沒看清題目條件或關鍵字就憑直覺搶答",
+                "忽略單位、順序或題目中的反義詞提示"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "正確思路",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "避開陷阱",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u5"
+        },
+        {
           "sceneId": "u5-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "用小杯子比一比",
@@ -430,7 +668,24 @@
             "selfExplanationPrompt": "想一想：如果把大寶特瓶倒滿水後倒進玻璃杯，玻璃杯滿了寶特瓶還有剩，誰比較大？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s1/g2/math#u5"
+          "factGroundingSourceId": "115-s1/g2/math#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認兩個水壺用的",
+                "紅水壺裝 5 杯",
+                "8 杯比 5 杯"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",
@@ -497,6 +752,46 @@
           "factGroundingSourceId": "115-s1/g2/math#u6"
         },
         {
+          "sceneId": "115-s1-g2-math-u6-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "掌握「第6章 加減兩步驟」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "cognitiveChunks": [
+            "先圈出題幹關鍵字與限制條件，不急著搶答",
+            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
+            "選出答案後代回原題檢查一次，確認邏輯通順"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "正確解題思路",
+              "leftPoints": [
+                "掌握「第6章 加減兩步驟」的核心規則與判斷條件",
+                "照步驟拆解線索，完成後再回頭核對一次"
+              ],
+              "rightTitle": "最常見陷阱",
+              "rightPoints": [
+                "還沒看清題目條件或關鍵字就憑直覺搶答",
+                "忽略單位、順序或題目中的反義詞提示"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "正確思路",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "避開陷阱",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u6"
+        },
+        {
           "sceneId": "u6-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "湊成整十更好算",
@@ -516,7 +811,24 @@
             "selfExplanationPrompt": "想一想：如果先算 24 + 18 = 42，再加上 16，結果一樣是 58 嗎？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s1/g2/math#u6"
+          "factGroundingSourceId": "115-s1/g2/math#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先算 16 + ",
+                "再用 40 加上",
+                "一共有 58 顆"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u6-s3",
@@ -566,7 +878,7 @@
               "leftTitle": "連加寫法",
               "leftPoints": [
                 "5 + 5 + 5 + 5",
-                "一共有 4 個 5 相加"
+                "乘數＝一共有幾組（幾倍）"
               ],
               "rightTitle": "乘法寫法",
               "rightPoints": [
@@ -584,6 +896,36 @@
                 "id": "l2",
                 "text": "寫成5×4",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u7"
+        },
+        {
+          "sceneId": "115-s1-g2-math-u7-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "面對「第7章 乘法（一）」的題目，請照著上方流程圖操作：先圈出已知數字與單位，再用圖示或線段整理數量關係，最後列式計算並檢查大小是否合理。",
+          "cognitiveChunks": [
+            "第 1 步：圈出題目給的數字、單位與最後要問的目標",
+            "第 2 步：在腦中或紙上畫出數量關係，決定運算方向",
+            "第 3 步：計算後回頭檢查進位、借位與單位是否一致"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "圈出已知條件",
+                "畫圖整理關係",
+                "列式計算驗算"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "數學三步解題法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -609,7 +951,24 @@
             "selfExplanationPrompt": "想一想：如果 1 個蛋糕切 8 塊，4 個蛋糕要寫成 8 × 4 還是 8 + 4？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s1/g2/math#u7"
+          "factGroundingSourceId": "115-s1/g2/math#u7",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "一隻青蛙有 2 ",
+                "共有 7 隻青蛙",
+                "背口訣二七十四，"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u7-s3",
@@ -675,6 +1034,36 @@
           "factGroundingSourceId": "115-s1/g2/math#u8"
         },
         {
+          "sceneId": "115-s1-g2-math-u8-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "面對「第8章 時間」的題目，請照著上方流程圖操作：先圈出已知數字與單位，再用圖示或線段整理數量關係，最後列式計算並檢查大小是否合理。",
+          "cognitiveChunks": [
+            "第 1 步：圈出題目給的數字、單位與最後要問的目標",
+            "第 2 步：在腦中或紙上畫出數量關係，決定運算方向",
+            "第 3 步：計算後回頭檢查進位、借位與單位是否一致"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "圈出已知條件",
+                "畫圖整理關係",
+                "列式計算驗算"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "數學三步解題法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u8"
+        },
+        {
           "sceneId": "u8-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "點數經過了幾分鐘",
@@ -694,7 +1083,24 @@
             "selfExplanationPrompt": "想一想：如果長針從數字 2 走到數字 5，經過了幾分鐘？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s1/g2/math#u8"
+          "factGroundingSourceId": "115-s1/g2/math#u8",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "4 點 45 分",
+                "從 9 數到 1",
+                "每大格 5 分鐘"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u8-s3",
@@ -743,8 +1149,8 @@
             "params": {
               "leftTitle": "3 和 6 的乘法",
               "leftPoints": [
-                "3 × 6 = 18",
-                "6 × 6 = 36"
+                "3 的乘法多一倍就是 6 的乘法",
+                "7 天是一星期，9 排好隊很好數"
               ],
               "rightTitle": "7 和 9 的乘法",
               "rightPoints": [
@@ -762,6 +1168,36 @@
                 "id": "l2",
                 "text": "九七六十三",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u9"
+        },
+        {
+          "sceneId": "115-s1-g2-math-u9-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "面對「第9章 乘法（二）」的題目，請照著上方流程圖操作：先圈出已知數字與單位，再用圖示或線段整理數量關係，最後列式計算並檢查大小是否合理。",
+          "cognitiveChunks": [
+            "第 1 步：圈出題目給的數字、單位與最後要問的目標",
+            "第 2 步：在腦中或紙上畫出數量關係，決定運算方向",
+            "第 3 步：計算後回頭檢查進位、借位與單位是否一致"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "圈出已知條件",
+                "畫圖整理關係",
+                "列式計算驗算"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "數學三步解題法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -787,7 +1223,24 @@
             "selfExplanationPrompt": "想一想：如果買 9 盒鉛筆，每盒 6 枝，算式要寫成什麼？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s1/g2/math#u9"
+          "factGroundingSourceId": "115-s1/g2/math#u9",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "一星期有 7 天",
+                "有 6 個星期，",
+                "背口訣七六四十二"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u9-s3",
@@ -854,6 +1307,36 @@
           "factGroundingSourceId": "115-s1/g2/math#u10"
         },
         {
+          "sceneId": "115-s1-g2-math-u10-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "面對「第10章 面的大小比較」的題目，請照著上方流程圖操作：先圈出已知數字與單位，再用圖示或線段整理數量關係，最後列式計算並檢查大小是否合理。",
+          "cognitiveChunks": [
+            "第 1 步：圈出題目給的數字、單位與最後要問的目標",
+            "第 2 步：在腦中或紙上畫出數量關係，決定運算方向",
+            "第 3 步：計算後回頭檢查進位、借位與單位是否一致"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "圈出已知條件",
+                "畫圖整理關係",
+                "列式計算驗算"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "數學三步解題法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g2/math#u10"
+        },
+        {
           "sceneId": "u10-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "用相同紙片鋪滿來比較",
@@ -873,7 +1356,24 @@
             "selfExplanationPrompt": "想一想：如果兩張圖畫都用一樣大的方格紙鋪滿，而且都是 15 張，誰比較大？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s1/g2/math#u10"
+          "factGroundingSourceId": "115-s1/g2/math#u10",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認兩張桌面用的",
+                "比較張數：12 ",
+                "鋪比較多張的甲桌"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u10-s3",

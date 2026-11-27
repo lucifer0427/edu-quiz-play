@@ -75,7 +75,24 @@
             "selfExplanationPrompt": "想一想：用四捨五入法取概數到千位後約是 7000 的整數，最大與最小分別是多少？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/math#u1"
+          "factGroundingSourceId": "115-s2/g4/math#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "圈出目標位數萬位",
+                "只看右邊相鄰的千",
+                "因為 4 小於 "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -182,7 +199,24 @@
             "selfExplanationPrompt": "想一想：計算「640 - 158 - 142」時，為什麼括號裡面要變成「158 + 142」？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/math#u2"
+          "factGroundingSourceId": "115-s2/g4/math#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "(85 - 37",
+                "由左而右算 48",
+                "簡算 37 × "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -290,7 +324,24 @@
             "selfExplanationPrompt": "想一想：用三角板和直尺畫平行線時，為什麼直尺要按住不動讓三角板沿著邊平移？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/math#u3"
+          "factGroundingSourceId": "115-s2/g4/math#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "只要四條邊都等長",
+                "四個角都是 90",
+                "若只有一雙對邊平"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -390,7 +441,24 @@
             "selfExplanationPrompt": "想一想：計算 2 又 5/8 + 1 又 7/8 時，分數部分加起來變成 12/8，要怎麼進位？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/math#u4"
+          "factGroundingSourceId": "115-s2/g4/math#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "5 借出 1 改",
+                "把 1 又 3/",
+                "計算 7/4 ×"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -490,7 +558,24 @@
             "selfExplanationPrompt": "想一想：拼出一個每邊長 3 公分的實心大正方體，為什麼需要 27 個而不是 9 個小積木？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/math#u5"
+          "factGroundingSourceId": "115-s2/g4/math#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "長方體一層有 5",
+                "小樓梯分三層相加",
+                "確認單位寫成立方"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",
@@ -594,7 +679,24 @@
             "selfExplanationPrompt": "想一想：計算 1.25 × 12 時，125 × 12 = 1500，點完兩位小數點後變成多少？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/math#u6"
+          "factGroundingSourceId": "115-s2/g4/math#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "2.45 × 4",
+                "被乘數 2.45",
+                "0.36 × 2"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u6-s3",
@@ -694,7 +796,24 @@
             "selfExplanationPrompt": "想一想：把 6 平方公尺換算成平方公分時，要在 6 後面補幾個 0？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/math#u7"
+          "factGroundingSourceId": "115-s2/g4/math#u7",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "正方形邊長 = ",
+                "草坪大長方形面積",
+                "相減得剩下草坪面"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u7-s3",
@@ -793,7 +912,24 @@
             "selfExplanationPrompt": "想一想：把「2/5」換成小數時，要把分母 5 乘以多少變成 10？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/math#u8"
+          "factGroundingSourceId": "115-s2/g4/math#u8",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "把 1/2 分子",
+                "同分母相加：4/",
+                "把 3/4 分子"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u8-s3",
@@ -893,7 +1029,24 @@
             "selfExplanationPrompt": "想一想：從 8 月 3 日 21 時 20 分到 8 月 4 日 6 時 10 分，到半夜 24 時這段經過了多久？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/math#u9"
+          "factGroundingSourceId": "115-s2/g4/math#u9",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先把下午 2 時",
+                "15 分不夠減 ",
+                "相減得 13 -"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u9-s3",
@@ -996,7 +1149,24 @@
             "selfExplanationPrompt": "想一想：如果數列是「2、5、10、17、26、□」，相鄰兩數的差依序是 +3、+5、+7、+9，下一個要加幾？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/math#u10"
+          "factGroundingSourceId": "115-s2/g4/math#u10",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "一組有 4 種顏",
+                "餘數是 3，對應",
+                "用 3 × 5 "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u10-s3",

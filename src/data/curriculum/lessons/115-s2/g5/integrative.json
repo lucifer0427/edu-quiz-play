@@ -75,7 +75,24 @@
             "selfExplanationPrompt": "想一想：為什麼每次學習計畫結束後寫下自我檢核反思，能幫助下一次挑戰更順利？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/integrative#u1"
+          "factGroundingSourceId": "115-s2/g5/integrative#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "優先順序與環境管",
+                "檢核與彈性修正—",
+                "正向獎勵與反思—"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -182,7 +199,24 @@
             "selfExplanationPrompt": "想一想：生活中的圓角書桌或圖示分類垃圾桶，為什麼能稱為「以人為本」的好設計？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/integrative#u2"
+          "factGroundingSourceId": "115-s2/g5/integrative#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "分析成因與改造—",
+                "籌備美展動線——",
+                "導覽介紹價值——"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -289,7 +323,24 @@
             "selfExplanationPrompt": "想一想：為什麼同樣是廚師或醫師，在學校廚房、醫院急診室與診所的作息和環境會有很大差別？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/integrative#u3"
+          "factGroundingSourceId": "115-s2/g5/integrative#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "連結興趣與價值觀",
+                "實地訪談禮儀——",
+                "立下五年級目標—"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -396,7 +447,24 @@
             "selfExplanationPrompt": "想一想：為什麼說把垃圾藏進看不見的掩埋場，並不能真正解決地球資源耗竭的問題？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/integrative#u4"
+          "factGroundingSourceId": "115-s2/g5/integrative#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "改善教室回收——",
+                "禮貌溝通護生態—",
+                "從自身減量——日"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -459,7 +527,7 @@
               "leftTitle": "人與自然關懷",
               "leftPoints": [
                 "安靜保持距離觀察，不驚擾抓捕動物",
-                "親近山林公園綠意紓解壓力"
+                "成長包含生理、心理、能力與人際四面向"
               ],
               "rightTitle": "我的成長與尊重",
               "rightPoints": [
@@ -503,7 +571,24 @@
             "selfExplanationPrompt": "想一想：從一年級到五年級，除了身高變高以外，你在情緒控制和人際相處上有哪些進步？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/integrative#u5"
+          "factGroundingSourceId": "115-s2/g5/integrative#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "實踐自然不打擾—",
+                "正向面對青春期—",
+                "尊重成長差異——"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",

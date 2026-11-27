@@ -70,7 +70,24 @@
             "selfExplanationPrompt": "想一想：如果在電腦教室發現上一位同學忘了登出 Gmail，最負責任的做法是什麼？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/computer#u1"
+          "factGroundingSourceId": "115-s1/g4/computer#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認照片對焦清楚",
+                "點擊帳號頭像執行",
+                "從裝置登入清單中"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -133,7 +150,7 @@
               "leftTitle": "非同步學習平台",
               "leftPoints": [
                 "Google Classroom 收發作業",
-                "學習吧閱讀教材與測驗"
+                "學習吧：閱讀數位教材與完成線上練習"
               ],
               "rightTitle": "同步視訊課堂",
               "rightPoints": [
@@ -177,7 +194,24 @@
             "selfExplanationPrompt": "想一想：在 Google Meet 上課時，為什麼沒有輪到自己發言時要先把麥克風靜音？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/computer#u2"
+          "factGroundingSourceId": "115-s1/g4/computer#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先有禮貌問候並寫",
+                "具體描述遇到的問",
+                "加上謝謝老師完成"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -279,7 +313,24 @@
             "selfExplanationPrompt": "想一想：同時打開路網圖、票價查詢和 Classroom 時，使用瀏覽器哪一項功能來回對照最方便？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/computer#u3"
+          "factGroundingSourceId": "115-s1/g4/computer#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "點選臺北大眾捷運",
+                "使用螢幕截圖工具",
+                "在 Classr"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -341,8 +392,8 @@
             "params": {
               "leftTitle": "文字進階搜尋",
               "leftPoints": [
-                "算式求解與跨幣別換算",
-                "減號「-」排除不相關詞彙"
+                "搜尋列計算：直接輸入算式或「100 美元 台幣」",
+                "排除關鍵字：在不想出現的詞前加「-」（如 企鵝 -玩具）"
               ],
               "rightTitle": "視覺與工具輔助",
               "rightPoints": [
@@ -386,7 +437,24 @@
             "selfExplanationPrompt": "想一想：如果在搜尋「企鵝」時跳出一堆玩具店廣告，應該怎麼修改搜尋關鍵字？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/computer#u4"
+          "factGroundingSourceId": "115-s1/g4/computer#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "啟動瀏覽器內建翻",
+                "對照課本與權威百",
+                "將常用辭典或學習"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -448,8 +516,8 @@
             "params": {
               "leftTitle": "高空地圖與地景",
               "leftPoints": [
-                "觀察行政區範圍與邊界",
-                "衛星模式看地形與地質"
+                "搜尋鄉鎮區（如魚池鄉）可看見行政區邊界線",
+                "衛星／地景視角能觀察火山、山脈等真實地貌"
               ],
               "rightTitle": "地面街景與路徑",
               "rightPoints": [
@@ -493,7 +561,24 @@
             "selfExplanationPrompt": "想一想：在街景服務中，為什麼路人的臉部與汽車車牌都會被自動加上模糊馬賽克？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/computer#u5"
+          "factGroundingSourceId": "115-s1/g4/computer#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "輸入起點與終點，",
+                "切換衛星或地景視",
+                "將右下角小黃人拖"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",
@@ -555,8 +640,8 @@
             "params": {
               "leftTitle": "回覆 vs 全部回覆",
               "leftPoints": [
-                "回覆：只回給原寄件者",
-                "全部回覆：寄給名單所有人"
+                "Email 三要素：主旨、稱呼、正文",
+                "設定個人頭像、簽名檔與聯絡人群組提升效率"
               ],
               "rightTitle": "轉寄（Forward）",
               "rightPoints": [
@@ -600,7 +685,24 @@
             "selfExplanationPrompt": "想一想：設定好「簽名檔」之後，每次寫新郵件時能幫我們省下什麼動作？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/computer#u6"
+          "factGroundingSourceId": "115-s1/g4/computer#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認美術老師不在",
+                "點擊信件功能中的",
+                "輸入美術老師的 "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u6-s3",
@@ -702,7 +804,24 @@
             "selfExplanationPrompt": "想一想：觀摩同學的電子相簿與宣導短片時，怎樣的回饋方式最有幫助？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/computer#u7"
+          "factGroundingSourceId": "115-s1/g4/computer#u7",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "用照片去背去除雜",
+                "深色背景配淺色字",
+                "宣導短片搭配正確"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u7-s3",
@@ -764,8 +883,8 @@
             "params": {
               "leftTitle": "面對陌生資訊與個資",
               "leftPoints": [
-                "不輕信轉傳送平板等假訊息",
-                "不外洩身分證、住址與密碼"
+                "數位問卷：以客觀統計數據參與校園事務",
+                "保護隱私：不隨意填寫個資給陌生抽獎視窗"
               ],
               "rightTitle": "線上互動與作品引用",
               "rightPoints": [
@@ -809,7 +928,24 @@
             "selfExplanationPrompt": "想一想：期末離開電腦教室前，哪一個從第一週貫穿到第 21 週的安全收尾動作絕對不能忘？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/computer#u8"
+          "factGroundingSourceId": "115-s1/g4/computer#u8",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "辨識這是常見的個",
+                "立刻關閉視窗，絕",
+                "不轉傳該訊息，並"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u8-s3",

@@ -70,7 +70,24 @@
             "selfExplanationPrompt": "想一想：如果算式裡有 1/3，為什麼通常要把小數換成分數來算比較準確？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/math#u1"
+          "factGroundingSourceId": "115-s2/g6/math#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "第一題兩邊都有 ",
+                "第二題先算括號內",
+                "除以 1/4 等"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-u1-s3",
@@ -132,8 +149,8 @@
             "params": {
               "leftTitle": "速率相加（合力）",
               "leftPoints": [
-                "兩人相向而行（相遇）",
-                "兩人反方向而行（相背）",
+                "相向相遇或反方向相背：距離和 ÷ 速率和",
+                "同方向追趕：距離差 ÷ 速率差",
                 "順流船速（船速 ＋ 水速）"
               ],
               "rightTitle": "速率相減（抵銷）",
@@ -177,7 +194,24 @@
             "selfExplanationPrompt": "想一想：在相同距離下，如果下山花的時間是上山的 2/3，下山的速率是上山的幾倍？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/math#u2"
+          "factGroundingSourceId": "115-s2/g6/math#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先算弟弟已經領先",
+                "算姊姊每分鐘能追",
+                "追趕時間 = 3"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-u2-s3",
@@ -241,7 +275,40 @@
               "height": 6,
               "unit": "cm"
             },
-            "allowedControls": ["UNFOLD_SLIDER", "ORBIT_RESET"]
+            "allowedControls": [
+              "UNFOLD_SLIDER",
+              "ORBIT_RESET"
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g6/math#u3"
+        },
+        {
+          "sceneId": "115-s2-g6-math-u3-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "面對「第三單元 柱體體積與表面積」的題目，請照著上方流程圖操作：先圈出已知數字與單位，再用圖示或線段整理數量關係，最後列式計算並檢查大小是否合理。",
+          "cognitiveChunks": [
+            "第 1 步：圈出題目給的數字、單位與最後要問的目標",
+            "第 2 步：在腦中或紙上畫出數量關係，決定運算方向",
+            "第 3 步：計算後回頭檢查進位、借位與單位是否一致"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "圈出已知條件",
+                "畫圖整理關係",
+                "列式計算驗算"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "數學三步解題法",
+                "anchorPointId": "bottom"
+              }
+            ]
           },
           "factGroundingSourceId": "115-s2/g6/math#u3"
         },
@@ -265,7 +332,24 @@
             "selfExplanationPrompt": "想一想：無論是三角柱、四角柱還是圓柱，側面積展開後的長方形長邊都一定等於什麼？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/math#u3"
+          "factGroundingSourceId": "115-s2/g6/math#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "算單個圓底面積：",
+                "算圓柱體積（底面",
+                "算展開長方形側面"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-u3-s3",
@@ -352,7 +436,24 @@
             "selfExplanationPrompt": "想一想：如果甲數是乙數的 4 倍，交換基準量改以甲數為 1 時，乙數會是甲數的幾倍？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/math#u4"
+          "factGroundingSourceId": "115-s2/g6/math#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "把衣服當作基準量",
+                "衣服和褲子合起來",
+                "反求基準量（衣服"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-u4-s3",
@@ -414,7 +515,7 @@
             "params": {
               "leftTitle": "雞兔／和差／年齡",
               "leftPoints": [
-                "雞兔：算總差 ÷ 單個差",
+                "雞兔問題：先全部假設成一種，看總數差多少再替換",
                 "年齡：兩人相差歲數永遠不變"
               ],
               "rightTitle": "加法與乘法計數原理",
@@ -458,7 +559,24 @@
             "selfExplanationPrompt": "想一想：如果題目問「3 種主餐搭 4 種飲料有幾種點法」，為什麼要用乘法而不是加法？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/math#u5"
+          "factGroundingSourceId": "115-s2/g6/math#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "假設 14 隻全",
+                "比實際的 40 ",
+                "每把 1 隻雞換"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-u5-s3",
@@ -560,7 +678,24 @@
             "selfExplanationPrompt": "想一想：如果抽獎圓形圖中安慰獎佔 50%、頭獎佔 5%，閉眼抽籤最可能抽到哪一個？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/math#u6"
+          "factGroundingSourceId": "115-s2/g6/math#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "算運動社圓心角：",
+                "算運動社人數：4",
+                "若製作圓形百分圖"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-u6-s3",

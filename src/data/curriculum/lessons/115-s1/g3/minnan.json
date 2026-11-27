@@ -31,7 +31,7 @@
               "leftTitle": "三餐與夜市對話",
               "leftPoints": [
                 "早頓（早餐）、食晝（午餐）、暗頓（晚餐）",
-                "頭家請問愛偌濟錢？勞力！"
+                "踅夜市＝逛夜市，點餐問「愛偌濟錢？勞力」"
               ],
               "rightTitle": "ABB 食物滋味疊字詞",
               "rightPoints": [
@@ -49,6 +49,36 @@
                 "id": "l2",
                 "text": "ABB詞形容食物滋味",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/minnan#u1"
+        },
+        {
+          "sceneId": "115-s1-g3-minnan-u1-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「一、食食」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -74,7 +104,24 @@
             "selfExplanationPrompt": "想一想：在逛夜市買豆花時，向「頭家」問價錢並道謝要怎麼說最禮貌？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/minnan#u1"
+          "factGroundingSourceId": "115-s1/g3/minnan#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "檢查字形結構：第",
+                "排除 AABB（",
+                "領餐時說咱作伙鬥"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -145,6 +192,46 @@
           "factGroundingSourceId": "115-s1/g3/minnan#u2"
         },
         {
+          "sceneId": "115-s1-g3-minnan-u2-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "掌握「二、健康的生活」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "cognitiveChunks": [
+            "先圈出題幹關鍵字與限制條件，不急著搶答",
+            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
+            "選出答案後代回原題檢查一次，確認邏輯通順"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "正確解題思路",
+              "leftPoints": [
+                "掌握「二、健康的生活」的核心規則與判斷條件",
+                "照步驟拆解線索，完成後再回頭核對一次"
+              ],
+              "rightTitle": "最常見陷阱",
+              "rightPoints": [
+                "還沒看清題目條件或關鍵字就憑直覺搶答",
+                "忽略單位、順序或題目中的反義詞提示"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "正確思路",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "避開陷阱",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/minnan#u2"
+        },
+        {
           "sceneId": "u2-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "讀懂「上」與「gâu」的句型應用",
@@ -164,7 +251,24 @@
             "selfExplanationPrompt": "想一想：運動會除了當選手，幫忙畫海報、計時或整理場地對生涯探索有什麼幫助？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/minnan#u2"
+          "factGroundingSourceId": "115-s1/g3/minnan#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "拆解上（siōn",
+                "gâu（賢）是指",
+                "賽後向對手說多謝"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -240,6 +344,36 @@
           "factGroundingSourceId": "115-s1/g3/minnan#u3"
         },
         {
+          "sceneId": "115-s1-g3-minnan-u3-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「三、行行出狀元」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/minnan#u3"
+        },
+        {
           "sceneId": "u3-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "社區對話與俗諺意涵解析",
@@ -259,7 +393,24 @@
             "selfExplanationPrompt": "想一想：如果沒有郵差、清潔隊員、醫生和攤販頭家的付出，我們的社區生活會變成什麼樣子？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/minnan#u3"
+          "factGroundingSourceId": "115-s1/g3/minnan#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "微笑向老闆問候：",
+                "結帳後真誠道謝：",
+                "記住一枝草，一點"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",

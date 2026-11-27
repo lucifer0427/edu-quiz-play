@@ -30,7 +30,7 @@
             "params": {
               "leftTitle": "每日禮貌用語",
               "leftPoints": [
-                "早上問好：敖早",
+                "囡仔＝小朋友、讀冊＝讀書",
                 "謝謝幫忙：多謝、道別：再會"
               ],
               "rightTitle": "阮兜的家人稱謂",
@@ -49,6 +49,36 @@
                 "id": "l2",
                 "text": "阮兜就是我們家",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/minnan#u1"
+        },
+        {
+          "sceneId": "115-s1-g1-minnan-u1-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「一、禮貌的囡仔」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -74,7 +104,24 @@
             "selfExplanationPrompt": "想一想：「阮兜的人」裡的「阿公」和「阿媽」，分別是指家裡的哪兩位長輩？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s1/g1/minnan#u1"
+          "factGroundingSourceId": "115-s1/g1/minnan#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先分辨情境是受到",
+                "道謝要說多謝！",
+                "早上見面才說敖早"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -125,8 +172,8 @@
             "params": {
               "leftTitle": "書包裡的文具詞彙",
               "leftPoints": [
-                "冊包＝書包",
-                "鉛筆、尺、拭仔（橡皮擦）"
+                "冊包＝書包、拭仔＝橡皮擦",
+                "借文具說「請問，會當借我無？」"
               ],
               "rightTitle": "借物與整潔好習慣",
               "rightPoints": [
@@ -144,6 +191,36 @@
                 "id": "l2",
                 "text": "借物要先說請問",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/minnan#u2"
+        },
+        {
+          "sceneId": "115-s1-g1-minnan-u2-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「二、我的鉛筆盒仔」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -169,7 +246,24 @@
             "selfExplanationPrompt": "想一想：書桌上的橡皮擦屑可以直接吹到地上或塞進抽屜嗎？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s1/g1/minnan#u2"
+          "factGroundingSourceId": "115-s1/g1/minnan#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先說請問，讓對方",
+                "客氣問這支尺會當",
+                "用完立刻還給同學"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -240,6 +334,46 @@
           "factGroundingSourceId": "115-s1/g1/minnan#u3"
         },
         {
+          "sceneId": "115-s1-g1-minnan-u3-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "掌握「三、古錐的動物」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "cognitiveChunks": [
+            "先圈出題幹關鍵字與限制條件，不急著搶答",
+            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
+            "選出答案後代回原題檢查一次，確認邏輯通順"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "正確解題思路",
+              "leftPoints": [
+                "掌握「三、古錐的動物」的核心規則與判斷條件",
+                "照步驟拆解線索，完成後再回頭核對一次"
+              ],
+              "rightTitle": "最常見陷阱",
+              "rightPoints": [
+                "還沒看清題目條件或關鍵字就憑直覺搶答",
+                "忽略單位、順序或題目中的反義詞提示"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "正確思路",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "避開陷阱",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/minnan#u3"
+        },
+        {
           "sceneId": "u3-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "用閩南語數一數物品數量",
@@ -259,7 +393,24 @@
             "selfExplanationPrompt": "想一想：在校園樹下看到鳥仔時，為什麼要安靜保持距離觀察？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s1/g1/minnan#u3"
+          "factGroundingSourceId": "115-s1/g1/minnan#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先數一、兩、三、",
+                "兩支鉛筆就是 2",
+                "四本冊就是 4 "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -335,6 +486,36 @@
           "factGroundingSourceId": "115-s1/g1/minnan#u4"
         },
         {
+          "sceneId": "115-s1-g1-minnan-u4-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「期末歌謠與節慶」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g1/minnan#u4"
+        },
+        {
           "sceneId": "u4-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "過年拜年與收紅包禮儀",
@@ -354,7 +535,24 @@
             "selfExplanationPrompt": "想一想：俗諺「食果子，拜樹頭」是在提醒我們養成什麼好品德？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s1/g1/minnan#u4"
+          "factGroundingSourceId": "115-s1/g1/minnan#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先說吉祥話祝福長",
+                "用雙手恭敬接下紅",
+                "微笑大聲說多謝！"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",

@@ -55,6 +55,36 @@
           "factGroundingSourceId": "115-s2/g5/arts#u1"
         },
         {
+          "sceneId": "115-s2-g5-arts-u1-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「第一單元 歌聲滿行囊」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/arts#u1"
+        },
+        {
           "sceneId": "u1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "直笛二部合奏的調整策略",
@@ -74,7 +104,24 @@
             "selfExplanationPrompt": "想一想：把演唱、三角鐵鈴鼓伴奏和肢體律動結合起來，對表現歌曲風格有什麼幫助？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/arts#u1"
+          "factGroundingSourceId": "115-s2/g5/arts#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "起吹前兩聲部先對",
+                "專心看著自己的樂",
+                "同時用耳朵傾聽第"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -145,6 +192,46 @@
           "factGroundingSourceId": "115-s2/g5/arts#u2"
         },
         {
+          "sceneId": "115-s2-g5-arts-u2-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "掌握「第二單元 愛的樂章」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "cognitiveChunks": [
+            "先圈出題幹關鍵字與限制條件，不急著搶答",
+            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
+            "選出答案後代回原題檢查一次，確認邏輯通順"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "正確解題思路",
+              "leftPoints": [
+                "掌握「第二單元 愛的樂章」的核心規則與判斷條件",
+                "照步驟拆解線索，完成後再回頭核對一次"
+              ],
+              "rightTitle": "最常見陷阱",
+              "rightPoints": [
+                "還沒看清題目條件或關鍵字就憑直覺搶答",
+                "忽略單位、順序或題目中的反義詞提示"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "正確思路",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "避開陷阱",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/arts#u2"
+        },
+        {
           "sceneId": "u2-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "解決高音直笛破音與換氣難題",
@@ -164,7 +251,24 @@
             "selfExplanationPrompt": "想一想：認識這塊土地上不同族群傳唱的家鄉歌謠，帶給我們什麼文化收穫？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/arts#u2"
+          "factGroundingSourceId": "115-s2/g5/arts#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "檢查左手大拇指後",
+                "調整吹氣力道，用",
+                "依照樂譜換氣記號"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -240,6 +344,36 @@
           "factGroundingSourceId": "115-s2/g5/arts#u3"
         },
         {
+          "sceneId": "115-s2-g5-arts-u3-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「第三單元 漫畫與偶」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/arts#u3"
+        },
+        {
           "sceneId": "u3-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "漫畫表現手法與立體化關鍵",
@@ -259,7 +393,24 @@
             "selfExplanationPrompt": "想一想：角色頭上畫出「發亮的燈泡」或「大滴汗水」時，分別代表什麼心情或狀態？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/arts#u3"
+          "factGroundingSourceId": "115-s2/g5/arts#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "結合角色性格設計",
+                "安排大小分格控制",
+                "立體化時構思側面"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -330,6 +481,46 @@
           "factGroundingSourceId": "115-s2/g5/arts#u4"
         },
         {
+          "sceneId": "115-s2-g5-arts-u4-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "掌握「第四單元 探索藝術的密碼」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "cognitiveChunks": [
+            "先圈出題幹關鍵字與限制條件，不急著搶答",
+            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
+            "選出答案後代回原題檢查一次，確認邏輯通順"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "正確解題思路",
+              "leftPoints": [
+                "掌握「第四單元 探索藝術的密碼」的核心規則與判斷條件",
+                "照步驟拆解線索，完成後再回頭核對一次"
+              ],
+              "rightTitle": "最常見陷阱",
+              "rightPoints": [
+                "還沒看清題目條件或關鍵字就憑直覺搶答",
+                "忽略單位、順序或題目中的反義詞提示"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "正確思路",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "避開陷阱",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/arts#u4"
+        },
+        {
           "sceneId": "u4-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "解讀與發表非具象藝術密碼",
@@ -349,7 +540,24 @@
             "selfExplanationPrompt": "想一想：走出教室觀察樹葉脈絡與地面磚塊紋路，主要是培養我們什麼樣的觀察能力？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/arts#u4"
+          "factGroundingSourceId": "115-s2/g5/arts#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "運用規律漸變，例",
+                "若結合音樂，以點",
+                "發表時分享自己運"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -425,6 +633,36 @@
           "factGroundingSourceId": "115-s2/g5/arts#u5"
         },
         {
+          "sceneId": "115-s2-g5-arts-u5-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「第五單元 熱鬧慶典」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/arts#u5"
+        },
+        {
           "sceneId": "u5-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "多人操作大型戲偶與文化敬意",
@@ -444,7 +682,24 @@
             "selfExplanationPrompt": "想一想：戴上面具後臉部表情被遮住了，表演者要靠什麼讓觀眾看懂角色的心情？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/arts#u5"
+          "factGroundingSourceId": "115-s2/g5/arts#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先理解傳統面具圖",
+                "操作大偶前熟悉重",
+                "控制頭與左右手的"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",
@@ -515,6 +770,46 @@
           "factGroundingSourceId": "115-s2/g5/arts#u6"
         },
         {
+          "sceneId": "115-s2-g5-arts-u6-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "掌握「第六單元 自然之美」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "cognitiveChunks": [
+            "先圈出題幹關鍵字與限制條件，不急著搶答",
+            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
+            "選出答案後代回原題檢查一次，確認邏輯通順"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "正確解題思路",
+              "leftPoints": [
+                "掌握「第六單元 自然之美」的核心規則與判斷條件",
+                "照步驟拆解線索，完成後再回頭核對一次"
+              ],
+              "rightTitle": "最常見陷阱",
+              "rightPoints": [
+                "還沒看清題目條件或關鍵字就憑直覺搶答",
+                "忽略單位、順序或題目中的反義詞提示"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "正確思路",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "避開陷阱",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/arts#u6"
+        },
+        {
           "sceneId": "u6-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "設計思考迭代與桌上劇場分工",
@@ -534,7 +829,24 @@
             "selfExplanationPrompt": "想一想：整個第六單元把種子迷宮、歌曲習唱與桌上劇場圍繞「自然」串聯起來，展現了什麼學習精神？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/arts#u6"
+          "factGroundingSourceId": "115-s2/g5/arts#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "運用設計思考測試",
+                "桌上劇場依組員特",
+                "一起走位彩排，操"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u6-s3",

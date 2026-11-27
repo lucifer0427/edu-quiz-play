@@ -75,7 +75,24 @@
             "selfExplanationPrompt": "想一想：老師請大家把課本打開時，會說哪一句 Classroom English？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/english#u0"
+          "factGroundingSourceId": "115-s1/g4/english#u0",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "17 是 sev",
+                "20 是 twe",
+                "Moon 指月亮"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u0-s3",
@@ -138,7 +155,7 @@
               "leftTitle": "詢問天氣",
               "leftPoints": [
                 "How's the weather?",
-                "（今天天氣如何？）"
+                "答句：It's sunny / rainy / windy / cloudy."
               ],
               "rightTitle": "回答天氣（It's + 天氣詞）",
               "rightPoints": [
@@ -182,7 +199,24 @@
             "selfExplanationPrompt": "想一想：如果說 \"It's warm and sunny in Taipei.\" 代表臺北的天氣如何？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/english#u1"
+          "factGroundingSourceId": "115-s1/g4/english#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "用虛主詞 It ",
+                "有風是 wind",
+                "念 van 時喉"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -289,7 +323,24 @@
             "selfExplanationPrompt": "想一想：如果看到運動完喘氣的同學說 \"I'm tired.\"，他現在是什麼感覺？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/english#u2"
+          "factGroundingSourceId": "115-s1/g4/english#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "否定回答先說 N",
+                "把問句的 you",
+                "加上否定詞，組成"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -396,7 +447,24 @@
             "selfExplanationPrompt": "想一想：\"How's the weather?\" 和 \"Are you hungry?\" 這兩句開頭為什麼分別是 How's 和 Are？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/english#u3"
+          "factGroundingSourceId": "115-s1/g4/english#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先理解前一句It",
+                "天氣很熱時，身體",
+                "用 I 開頭表達"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -459,7 +527,7 @@
             "params": {
               "leftTitle": "單數（只有 1 個）",
               "leftPoints": [
-                "What's this?",
+                "單數近物：this → It's a/an ...",
                 "It's an apple. / a banana."
               ],
               "rightTitle": "複數（2 個以上）",
@@ -504,7 +572,24 @@
             "selfExplanationPrompt": "想一想：如果問句是 \"Are these sandwiches?\"，肯定簡答要用 it 還是 they？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/english#u4"
+          "factGroundingSourceId": "115-s1/g4/english#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "問句是複數的 t",
+                "apple 超過",
+                "組合成完整回答："
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -567,7 +652,7 @@
             "params": {
               "leftTitle": "禮貌接受對方好意",
               "leftPoints": [
-                "Yes, please.",
+                "問句：Do you want some + 食物/飲料?",
                 "I want some pizza, please."
               ],
               "rightTitle": "禮貌婉拒對方好意",
@@ -612,7 +697,24 @@
             "selfExplanationPrompt": "想一想：如果對方問 \"What do you want to drink?\"，應該回答 cake 還是 milk？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/english#u5"
+          "factGroundingSourceId": "115-s1/g4/english#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "用 I want",
+                "cookies（",
+                "句尾加上 ple"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",
@@ -719,7 +821,24 @@
             "selfExplanationPrompt": "想一想：面對世界各地和自己家鄉很不一樣的料理與餐具，我們應該抱持什麼態度？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/english#u6"
+          "factGroundingSourceId": "115-s1/g4/english#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "回答天氣很涼爽：",
+                "回答感覺是的，我",
+                "禮貌點餐我想要一"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u6-s3",

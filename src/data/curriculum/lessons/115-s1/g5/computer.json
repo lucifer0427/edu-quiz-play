@@ -75,7 +75,24 @@
             "selfExplanationPrompt": "想一想：如果條件 A 為真、條件 B 為假，「A AND B」和「A OR B」哪一個結果會是真？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/computer#u1"
+          "factGroundingSourceId": "115-s1/g5/computer#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "追蹤執行順序——",
+                "找出邏輯漏洞——",
+                "修正積木結構——"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -182,7 +199,24 @@
             "selfExplanationPrompt": "想一想：用畫筆畫圖時，「停筆」和「筆跡全部清除」這兩個積木各自在什麼時候使用？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/computer#u2"
+          "factGroundingSourceId": "115-s1/g5/computer#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "變數初始化——必",
+                "檢查條件邊界——",
+                "跨角色同步——主"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -289,7 +323,24 @@
             "selfExplanationPrompt": "想一想：如果角色被草叢擋住了，應該使用外觀類的哪一個積木讓它顯示在最前面？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/computer#u3"
+          "factGroundingSourceId": "115-s1/g5/computer#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "理解分身上限——",
+                "正確清除分身——",
+                "避免重複計數——"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",

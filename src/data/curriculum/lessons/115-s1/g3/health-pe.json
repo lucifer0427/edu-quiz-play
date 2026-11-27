@@ -30,8 +30,8 @@
             "params": {
               "leftTitle": "吃出健康原則",
               "leftPoints": [
-                "各類食物均衡、少油炸高糖",
-                "口渴喝白開水、惜食不浪費"
+                "均衡攝取全穀、豆魚蛋肉與蔬果",
+                "多喝白開水、夾取吃得完的分量"
               ],
               "rightTitle": "聰明選購把關",
               "rightPoints": [
@@ -74,7 +74,24 @@
             "selfExplanationPrompt": "想一想：個人喜好、同學都在買和廣告宣傳，會怎麼影響我們想吃某樣食物的決定？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/health-pe#u1"
+          "factGroundingSourceId": "115-s1/g3/health-pe#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "減少油炸肉類，補",
+                "吃營養午餐遇到沒",
+                "不被促銷贈品吸引"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -176,7 +193,24 @@
             "selfExplanationPrompt": "想一想：兒童期的我們比起嬰兒時期多了哪些生活自理能力？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/health-pe#u2"
+          "factGroundingSourceId": "115-s1/g3/health-pe#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "理解每個人發育速",
+                "自己坐姿端正保護",
+                "在家放輕腳步讓嬰"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -282,7 +316,24 @@
             "selfExplanationPrompt": "想一想：如果大家把過期藥水直接倒進馬桶或洗碗槽，最後會對河川與生態造成什麼影響？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/health-pe#u3"
+          "factGroundingSourceId": "115-s1/g3/health-pe#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "吃藥前核對藥袋上",
+                "不把自己的處方藥",
+                "過期變質藥品絕不"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -388,7 +439,24 @@
             "selfExplanationPrompt": "想一想：為什麼跳繩時用「手腕」轉繩比整個肩膀像大風車一樣甩動更省力穩定？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/health-pe#u4"
+          "factGroundingSourceId": "115-s1/g3/health-pe#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "雙腳踩住跳繩中段",
+                "練習時綁好鞋帶、",
+                "壓線球爭議理性溝"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -494,7 +562,24 @@
             "selfExplanationPrompt": "想一想：為什麼跑步前後都需要做伸展暖身與緩和運動？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/health-pe#u5"
+          "factGroundingSourceId": "115-s1/g3/health-pe#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "下水前先做暖身操",
+                "在老師與救生員照",
+                "假日親水只去有合"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",
@@ -600,7 +685,24 @@
             "selfExplanationPrompt": "想一想：跳兔子舞時如果身邊同學轉圈方向一時搞混慢半拍，你可以怎麼用友善的方式幫他？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/health-pe#u6"
+          "factGroundingSourceId": "115-s1/g3/health-pe#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "清空口袋鉛筆鑰匙",
+                "前滾翻時雙手撐墊",
+                "後滾翻時雙手屈肘"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u6-s3",

@@ -55,6 +55,46 @@
           "factGroundingSourceId": "115-s1/g4/arts#u1"
         },
         {
+          "sceneId": "115-s1-g4-arts-u1-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "掌握「第壹單元 視覺萬花筒」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "cognitiveChunks": [
+            "先圈出題幹關鍵字與限制條件，不急著搶答",
+            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
+            "選出答案後代回原題檢查一次，確認邏輯通順"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "正確解題思路",
+              "leftPoints": [
+                "掌握「第壹單元 視覺萬花筒」的核心規則與判斷條件",
+                "照步驟拆解線索，完成後再回頭核對一次"
+              ],
+              "rightTitle": "最常見陷阱",
+              "rightPoints": [
+                "還沒看清題目條件或關鍵字就憑直覺搶答",
+                "忽略單位、順序或題目中的反義詞提示"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "正確思路",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "避開陷阱",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/arts#u1"
+        },
+        {
           "sceneId": "u1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "用點線面分析生活中的造型",
@@ -74,7 +114,24 @@
             "commonErrorContrast": "常見錯誤：以為色紙剪開後不能重組，或只畫單調直線忽略疏密與色面層次。",
             "selfExplanationPrompt": "想一想：祕魯高原上的「納斯卡線」是古人運用什麼方式在大地上形成巨大圖案的？"
           },
-          "factGroundingSourceId": "115-s1/g4/arts#u1"
+          "factGroundingSourceId": "115-s1/g4/arts#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "用色塊剪貼出背景",
+                "用直立、斜線或曲",
+                "在重點位置加上密"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -123,7 +180,7 @@
             "params": {
               "leftTitle": "聲音百變秀",
               "leftPoints": [
-                "塑膠袋、豆子鐵罐模擬風雨",
+                "利用生活物品材質設計擬真音效",
                 "語速快慢、音量強弱表達情緒"
               ],
               "rightTitle": "肢體與職業默劇",
@@ -142,6 +199,36 @@
                 "id": "l2",
                 "text": "暖身後演活默劇",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/arts#u2"
+        },
+        {
+          "sceneId": "115-s1-g4-arts-u2-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「第貳單元 表演任我行」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -167,7 +254,24 @@
             "commonErrorContrast": "常見錯誤：只顧著快速轉圈圈沒做代表動作，或動作太小太快讓觀眾看不清。",
             "selfExplanationPrompt": "想一想：朗讀「你真的要一個人去嗎？」時，用顫抖放慢的語氣和生氣大吼的語氣有什麼不同？"
           },
-          "factGroundingSourceId": "115-s1/g4/arts#u2"
+          "factGroundingSourceId": "115-s1/g4/arts#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "挑選該職業最具代",
+                "把動作適度放大、",
+                "配合專注的眼神視"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -241,6 +345,36 @@
           "factGroundingSourceId": "115-s1/g4/arts#u3"
         },
         {
+          "sceneId": "115-s1-g4-arts-u3-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「第參單元 音樂美樂地」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/arts#u3"
+        },
+        {
           "sceneId": "u3-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "分辨樂譜記號與高音直笛吹奏訣竅",
@@ -260,7 +394,24 @@
             "commonErrorContrast": "常見錯誤：吹低音 Re 和 Mi 時使盡全力猛吹，反而吹出刺耳的高八度破音。",
             "selfExplanationPrompt": "想一想：附點八分音符（3/4 拍）加上十六分音符（1/4 拍）合起來一共有幾拍？"
           },
-          "factGroundingSourceId": "115-s1/g4/arts#u3"
+          "factGroundingSourceId": "115-s1/g4/arts#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認五線譜位置：",
+                "手指確實把對應的",
+                "因為低音域按孔多"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -329,6 +480,46 @@
           "factGroundingSourceId": "115-s1/g4/arts#u4"
         },
         {
+          "sceneId": "115-s1-g4-arts-u4-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "掌握「第肆單元 統整課程」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "cognitiveChunks": [
+            "先圈出題幹關鍵字與限制條件，不急著搶答",
+            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
+            "選出答案後代回原題檢查一次，確認邏輯通順"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "正確解題思路",
+              "leftPoints": [
+                "掌握「第肆單元 統整課程」的核心規則與判斷條件",
+                "照步驟拆解線索，完成後再回頭核對一次"
+              ],
+              "rightTitle": "最常見陷阱",
+              "rightPoints": [
+                "還沒看清題目條件或關鍵字就憑直覺搶答",
+                "忽略單位、順序或題目中的反義詞提示"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "正確思路",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "避開陷阱",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g4/arts#u4"
+        },
+        {
           "sceneId": "u4-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "把音樂與舞蹈轉譯成點線面",
@@ -348,7 +539,24 @@
             "commonErrorContrast": "常見錯誤：以為點線面只能用在畫圖，忽略音樂與舞蹈中也有點與線的節奏對比。",
             "selfExplanationPrompt": "想一想：欣賞同學跨科創作發表時，可以怎麼具體稱讚對方的亮點？"
           },
-          "factGroundingSourceId": "115-s1/g4/arts#u4"
+          "factGroundingSourceId": "115-s1/g4/arts#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "聽到短促輕快音符",
+                "聽到柔美長樂句時",
+                "群舞聚在一起的區"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",

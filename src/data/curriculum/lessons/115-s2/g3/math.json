@@ -69,7 +69,24 @@
             "selfExplanationPrompt": "想一想：如果題目問「148 顆氣球每箱裝 8 顆，全部裝完至少要幾個箱子」，餘數 4 顆怎麼辦？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g3/math#u1"
+          "factGroundingSourceId": "115-s2/g3/math#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "百位 6 ÷ 6",
+                "十位 1 不夠除",
+                "把個位 8 放下"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -172,7 +189,24 @@
             "selfExplanationPrompt": "想一想：5280 毫升改寫成幾公升幾毫升時，千位的 5 代表什麼單位？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g3/math#u2"
+          "factGroundingSourceId": "115-s2/g3/math#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "200 毫升不夠",
+                "4 公升 200",
+                "1200 - 6"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -270,7 +304,24 @@
             "selfExplanationPrompt": "想一想：3/7 + 4/7 算出來是 7/7，這個數也可以直接寫成哪一個整數？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g3/math#u3"
+          "factGroundingSourceId": "115-s2/g3/math#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "把完整 1 個披",
+                "計算 6/6 -",
+                "盤子上還剩下 4"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -332,8 +383,8 @@
             "params": {
               "leftTitle": "半徑",
               "leftPoints": [
-                "從圓心連到圓周",
-                "圓規張開的距離＝半徑"
+                "直徑＝半徑 × 2",
+                "半徑＝直徑 ÷ 2"
               ],
               "rightTitle": "直徑",
               "rightPoints": [
@@ -376,7 +427,24 @@
             "selfExplanationPrompt": "想一想：甲圓半徑 6 公分、乙圓直徑 10 公分，哪一個圓比較大？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g3/math#u4"
+          "factGroundingSourceId": "115-s2/g3/math#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認圓規張開的距",
+                "已知直徑是 10",
+                "算出 10 ÷ "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -476,7 +544,23 @@
             "selfExplanationPrompt": "想一想：如果這題先算 60 × 5 = 300 元，再用 1750 - 300，結果是不是也一樣是 1450 元？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g3/math#u5"
+          "factGroundingSourceId": "115-s2/g3/math#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先算特價後1 件",
+                "再算買 5 件一"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",
@@ -579,7 +663,24 @@
             "selfExplanationPrompt": "想一想：2.6 + 1.8 時，十分位 6 + 8 = 14 個 0.1，為什麼要往個位進 1？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g3/math#u6"
+          "factGroundingSourceId": "115-s2/g3/math#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "把整數 3 寫成",
+                "十分位 0 不夠",
+                "十分位 10 -"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u6-s3",
@@ -677,7 +778,24 @@
             "selfExplanationPrompt": "想一想：3 分 25 秒換算成秒時，為什麼不是 325 秒？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g3/math#u7"
+          "factGroundingSourceId": "115-s2/g3/math#u7",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "把下午 2 時 ",
+                "10 分不夠減 ",
+                "70 - 30 "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u7-s3",
@@ -783,7 +901,24 @@
             "selfExplanationPrompt": "想一想：計算 215 ÷ 6 = 35 …… 5 後，要怎麼列式驗算才對？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g3/math#u8"
+          "factGroundingSourceId": "115-s2/g3/math#u8",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "第一題括號在最前",
+                "第二題括號在中間",
+                "把算出的數字代回"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u8-s3",
@@ -883,7 +1018,24 @@
             "selfExplanationPrompt": "想一想：把甲（15 平方公分）和乙（12 平方公分）兩張貼紙「不重疊」拼在一起，總面積會變嗎？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g3/math#u9"
+          "factGroundingSourceId": "115-s2/g3/math#u9",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先算 6 個半格",
+                "把整格和拼成的整",
+                "得到面積是 17"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u9-s3",

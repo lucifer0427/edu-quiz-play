@@ -30,8 +30,8 @@
             "params": {
               "leftTitle": "生活科技語詞",
               "leftPoints": [
-                "科技佮（和）生活、手機仔",
-                "久看螢幕會傷目睭（眼睛）"
+                "「佮（kah）」表示「和、與」",
+                "「手機仔」是手機、「目睭」是眼睛"
               ],
               "rightTitle": "職業與尊重",
               "rightPoints": [
@@ -75,7 +75,24 @@
             "selfExplanationPrompt": "想一想：「食果子，拜樹頭；食米飯，敬田頭」這句俗諺提醒我們對各行各業抱持什麼態度？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/minnan#u1"
+          "factGroundingSourceId": "115-s1/g5/minnan#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "拆解手機仔——名",
+                "拆解作田人——作",
+                "拆解目睭——指臉"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -182,7 +199,24 @@
             "selfExplanationPrompt": "想一想：當你跟家人吵架覺得「足受氣」時，怎麼做才能轉化成正向和諧的關係？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/minnan#u2"
+          "factGroundingSourceId": "115-s1/g5/minnan#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "辨識情緒——看懂",
+                "避開傷人話——不",
+                "送出正向語句——"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -245,7 +279,7 @@
               "leftTitle": "北中舊地名對照",
               "leftPoints": [
                 "雞籠＝基隆、艋舺＝萬華（獨木舟）",
-                "桃仔園＝桃園、竹塹＝新竹"
+                "桃園舊名「桃仔園」、萬華舊名「艋舺」"
               ],
               "rightTitle": "南部舊地名對照",
               "rightPoints": [
@@ -289,7 +323,24 @@
             "selfExplanationPrompt": "想一想：為什麼課文〈臺灣美麗的海翁〉會用「海翁」來形容臺灣？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/minnan#u3"
+          "factGroundingSourceId": "115-s1/g5/minnan#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "從字音聯想——雞",
+                "記住北部古城——",
+                "記住南部故事——"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -396,7 +447,24 @@
             "selfExplanationPrompt": "想一想：當同學流利唸完閩南語課文時，怎麼用閩南語稱讚他？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/minnan#u4"
+          "factGroundingSourceId": "115-s1/g5/minnan#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "解讀問候——熬早",
+                "選擇連接與疑問—",
+                "串聯全句——雞籠"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",

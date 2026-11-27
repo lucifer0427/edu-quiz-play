@@ -30,7 +30,7 @@
             "params": {
               "leftTitle": "有效溝通訣竅",
               "leftPoints": [
-                "溫和清楚表達，不命令嘲諷",
+                "友善語氣＋眼神專心傾聽不插嘴",
                 "眼神專心傾聽、不打斷不翻白眼"
               ],
               "rightTitle": "誠意道歉與接納",
@@ -74,7 +74,24 @@
             "selfExplanationPrompt": "想一想：為什麼「站在對方立場思考（同理心）」能讓道歉真正觸動對方的心並修復友誼？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/integrative#u1"
+          "factGroundingSourceId": "115-s2/g4/integrative#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "弄濕習作時立刻停",
+                "意見不同時專心聽",
+                "當別人真誠道歉時"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -176,7 +193,24 @@
             "selfExplanationPrompt": "想一想：用家裡喝完的乾淨寶特瓶和舊鞋盒改造成筆筒與分類盒，兼顧了哪兩項好處？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/integrative#u2"
+          "factGroundingSourceId": "115-s2/g4/integrative#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "把失敗當線索，在",
+                "實作前先畫草圖確",
+                "對同學作品給予具"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -278,7 +312,24 @@
             "selfExplanationPrompt": "想一想：看到拿拐杖的同學慢慢走上樓梯時，怎麼開口詢問與協助最尊重對方？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/integrative#u3"
+          "factGroundingSourceId": "115-s2/g4/integrative#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "出勤前明確分配整",
+                "服務中水桶破洞時",
+                "服務結束後全組討"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -384,7 +435,24 @@
             "selfExplanationPrompt": "想一想：完成環保行動後回到班上分享體驗與心得，對全班會產生什麼正面影響？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/integrative#u4"
+          "factGroundingSourceId": "115-s2/g4/integrative#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "個人計畫訂得具體",
+                "公園淨園前先邀約",
+                "撿拾後將可回收寶"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -486,7 +554,24 @@
             "selfExplanationPrompt": "想一想：我們可以怎麼用拍照記錄、繪製海報或創意分享，讓家鄉的傳統文化在現代繼續發光？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/integrative#u5"
+          "factGroundingSourceId": "115-s2/g4/integrative#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "訪問前事先預約說",
+                "參加不同族群或新",
+                "帶表弟先聽家鄉文"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",

@@ -74,7 +74,24 @@
             "selfExplanationPrompt": "想一想：用「心智圖或分類表格」整理自然與社會課重點，比單純死背文字有什麼好處？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/integrative#u1"
+          "factGroundingSourceId": "115-s1/g4/integrative#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "透過自我檢核表覺",
+                "彈性修正成放學精",
+                "與同學共學互助，"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -180,7 +197,24 @@
             "selfExplanationPrompt": "想一想：當班上好朋友情緒低落趴在桌上不說話時，你可以怎麼溫柔陪伴他？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/integrative#u2"
+          "factGroundingSourceId": "115-s1/g4/integrative#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "想發脾氣時先深呼",
+                "若行動卡執行遇到",
+                "調整睡覺時間與鬧"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -282,7 +316,24 @@
             "selfExplanationPrompt": "想一想：「行行出狀元」告訴我們，四年級的你現在可以培養哪些好習慣替未來職業理想鋪路？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/integrative#u3"
+          "factGroundingSourceId": "115-s1/g4/integrative#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "事前禮貌徵詢同意",
+                "訪問時專心傾聽記",
+                "生活中上下公車微"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -388,7 +439,24 @@
             "selfExplanationPrompt": "想一想：踏查結束整理出「社區便利資源介紹」後，怎麼分享與回饋才讓社區變得更好？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/integrative#u4"
+          "factGroundingSourceId": "115-s1/g4/integrative#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "與老師家長確認安",
+                "組員明確分工誰負",
+                "現場保持輕聲細語"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -490,7 +558,24 @@
             "selfExplanationPrompt": "想一想：做完「生活危機情境演練」後，為什麼全班還要一起省思執行結果哪裡可以改進？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/integrative#u5"
+          "factGroundingSourceId": "115-s1/g4/integrative#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "聞到瓦斯味千萬不",
+                "對送禮物或虛寶換",
+                "走失或遇險時走進"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",

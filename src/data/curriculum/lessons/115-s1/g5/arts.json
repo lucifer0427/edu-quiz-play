@@ -55,6 +55,36 @@
           "factGroundingSourceId": "115-s1/g5/arts#u1"
         },
         {
+          "sceneId": "115-s1-g5-arts-u1-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「第一單元 真善美的旋律」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/arts#u1"
+        },
+        {
           "sceneId": "u1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "F 大調樂理與直笛運舌辨析",
@@ -74,7 +104,24 @@
             "selfExplanationPrompt": "想一想：《鱒魚》鋼琴五重奏是由鋼琴加上哪四件弦樂器一起合奏的？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/arts#u1"
+          "factGroundingSourceId": "115-s1/g5/arts#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認 F 大調調",
+                "以四分音符為 1",
+                "遇到圓滑線時用同"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -150,6 +197,36 @@
           "factGroundingSourceId": "115-s1/g5/arts#u2"
         },
         {
+          "sceneId": "115-s1-g5-arts-u2-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「第二單元 歡唱人生」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/arts#u2"
+        },
+        {
           "sceneId": "u2-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "計算附點音符與分辨彈撥樂器",
@@ -169,7 +246,24 @@
             "selfExplanationPrompt": "想一想：在節慶樂曲中，琵琶和古箏通常運用什麼樣的節奏來表現熱鬧喜慶？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/arts#u2"
+          "factGroundingSourceId": "115-s1/g5/arts#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "四分音符本身占 ",
+                "1 + 0.5 ",
+                "合奏時保持氣息穩"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -245,6 +339,36 @@
           "factGroundingSourceId": "115-s1/g5/arts#u3"
         },
         {
+          "sceneId": "115-s1-g5-arts-u3-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「第三單元 美就在你身邊」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/arts#u3"
+        },
+        {
           "sceneId": "u3-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "設計思考改造小書房步驟",
@@ -264,7 +388,24 @@
             "selfExplanationPrompt": "想一想：設計學校運動會旗幟時，為什麼要避免把幾十種複雜文字寫滿旗面？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/arts#u3"
+          "factGroundingSourceId": "115-s1/g5/arts#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "運用設計思考第一",
+                "牆面選用高明度淺",
+                "閱讀角落避免刺眼"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -335,6 +476,46 @@
           "factGroundingSourceId": "115-s1/g5/arts#u4"
         },
         {
+          "sceneId": "115-s1-g5-arts-u4-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "掌握「第四單元 變換角度看世界」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "cognitiveChunks": [
+            "先圈出題幹關鍵字與限制條件，不急著搶答",
+            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
+            "選出答案後代回原題檢查一次，確認邏輯通順"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "正確解題思路",
+              "leftPoints": [
+                "掌握「第四單元 變換角度看世界」的核心規則與判斷條件",
+                "照步驟拆解線索，完成後再回頭核對一次"
+              ],
+              "rightTitle": "最常見陷阱",
+              "rightPoints": [
+                "還沒看清題目條件或關鍵字就憑直覺搶答",
+                "忽略單位、順序或題目中的反義詞提示"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "正確思路",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "避開陷阱",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/arts#u4"
+        },
+        {
           "sceneId": "u4-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "運用景別與透視法編排立體故事",
@@ -354,7 +535,24 @@
             "selfExplanationPrompt": "想一想：當我們移動視角從側面看茶壺，再從正上方俯視茶壺，看到的形狀會一樣嗎？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/arts#u4"
+          "factGroundingSourceId": "115-s1/g5/arts#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "第一格用遠景拍整",
+                "第二格切換中景拍",
+                "製作隧道書時讓近"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -430,6 +628,36 @@
           "factGroundingSourceId": "115-s1/g5/arts#u5"
         },
         {
+          "sceneId": "115-s1-g5-arts-u5-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「第五單元 手的魔法世界」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/arts#u5"
+        },
+        {
           "sceneId": "u5-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "偶戲情緒表達與口白區分",
@@ -449,7 +677,24 @@
             "selfExplanationPrompt": "想一想：傳統布袋戲中，「三分前場、七分後場」這句話說明了後場音樂有什麼重要性？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/arts#u5"
+          "factGroundingSourceId": "115-s1/g5/arts#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "輪到哪隻偶說話就",
+                "表現害羞或難過時",
+                "布袋戲一人分飾多"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",
@@ -525,6 +770,36 @@
           "factGroundingSourceId": "115-s1/g5/arts#u6"
         },
         {
+          "sceneId": "115-s1-g5-arts-u6-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「第六單元 我們的故事」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g5/arts#u6"
+        },
+        {
           "sceneId": "u6-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "撰寫故事大綱與設計戲劇配樂",
@@ -544,7 +819,24 @@
             "selfExplanationPrompt": "想一想：兩位同學演出對口相聲時，為什麼不能搶話大喊而要留出停頓時間？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/arts#u6"
+          "factGroundingSourceId": "115-s1/g5/arts#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先寫出完整故事大",
+                "主角悄悄躲藏時，",
+                "被怪物發現逃跑時"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u6-s3",

@@ -70,7 +70,24 @@
             "selfExplanationPrompt": "想一想：為什麼海洋廢棄物對深海生物會造成嚴重的威脅？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/computer#u1"
+          "factGroundingSourceId": "115-s2/g4/computer#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "把文字改成白色或",
+                "以班級座號-姓名",
+                "上傳並同步至雲端"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -132,8 +149,8 @@
             "params": {
               "leftTitle": "一般 2D 平面圖片",
               "leftPoints": [
-                "只能從單一固定角度觀看",
-                "無法自由旋轉看背面構造"
+                "使用 3C 保持充足光線、適當距離與定時遠眺",
+                "教育主題範本統一協調配色與字體風格"
               ],
               "rightTitle": "立體 3D 模型",
               "rightPoints": [
@@ -177,7 +194,24 @@
             "selfExplanationPrompt": "想一想：用眼三十分鐘、休息十分鐘之外，看螢幕時還要注意哪些光線與距離原則？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/computer#u2"
+          "factGroundingSourceId": "115-s2/g4/computer#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "套用協調的教育主",
+                "插入眼球或相關 ",
+                "依講解節奏安排重"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -279,7 +313,24 @@
             "selfExplanationPrompt": "想一想：把筆記上傳到指定雲端路徑後，為什麼還要點進去檢查檔案能不能正常開啟預覽？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/computer#u3"
+          "factGroundingSourceId": "115-s2/g4/computer#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "使用裁剪工具切去",
+                "拖曳圖片四個角落",
+                "為每頁補上主題標"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -381,7 +432,24 @@
             "selfExplanationPrompt": "想一想：在 Chrome 搜尋「台灣藍鵲」與「國王企鵝」照片時，為什麼要用精確的物種名稱當關鍵字？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/computer#u4"
+          "factGroundingSourceId": "115-s2/g4/computer#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "按住Shift ",
+                "替每個按鈕設定超",
+                "依口頭報告順序編"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -443,8 +511,8 @@
             "params": {
               "leftTitle": "動畫設定",
               "leftPoints": [
-                "針對單頁內的文字或圖片",
-                "控制物件登場或強調動作"
+                "步行搭車、冷氣配電扇與減用一次性餐具落實低碳",
+                "「從大綱插入投影片」快速將 Word 大綱變簡報"
               ],
               "rightTitle": "轉場特效",
               "rightPoints": [
@@ -488,7 +556,24 @@
             "selfExplanationPrompt": "想一想：為什麼把簡報匯出成 MP4 影片檔後，還需要再備份到 Google 雲端硬碟？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/computer#u5"
+          "factGroundingSourceId": "115-s2/g4/computer#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "在 PowerP",
+                "設定好第一頁標題",
+                "全部套用清爽轉場"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",
@@ -550,8 +635,8 @@
             "params": {
               "leftTitle": "投影片母片（總控制台）",
               "leftPoints": [
-                "統一全局標題位置與底圖",
-                "設定柔和背景漸層效果"
+                "SmartArt 流程圖清楚呈現洗手等步驟先後順序",
+                "階層縮排整理大項與次要細項，變更色彩換配色"
               ],
               "rightTitle": "校閱註解（編輯便利貼）",
               "rightPoints": [
@@ -595,7 +680,24 @@
             "selfExplanationPrompt": "想一想：為什麼編輯視窗看起來沒問題，上台前還是必須按下 F5 進行播放測試？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/computer#u6"
+          "factGroundingSourceId": "115-s2/g4/computer#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "開啟檢視 → 投",
+                "選用 Smart",
+                "用新增註解寫下協"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u6-s3",
@@ -697,7 +799,24 @@
             "selfExplanationPrompt": "想一想：我們可以如何兼顧「天燈祈福文化傳承」與「山林環境保護」？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/computer#u7"
+          "factGroundingSourceId": "115-s2/g4/computer#u7",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "用插入 → 表格",
+                "插入視訊與音訊，",
+                "替天燈插畫點選新"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u7-s3",
@@ -799,7 +918,24 @@
             "selfExplanationPrompt": "想一想：學期末離開電腦教室前，除了確認作品雲端備份之外，還一定要做哪兩個資安動作？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/computer#u8"
+          "factGroundingSourceId": "115-s2/g4/computer#u8",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "消化文章後擷取重",
+                "運用母片或範本統",
+                "上台大方說明危險"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u8-s3",

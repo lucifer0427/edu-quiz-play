@@ -53,6 +53,36 @@
           "factGroundingSourceId": "115-s2/g5/mandarin#u1"
         },
         {
+          "sceneId": "115-s2-g5-mandarin-u1-l1-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「第一課 你會怎麼回答？」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/mandarin#u1"
+        },
+        {
           "sceneId": "u1l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "掌握重點不迷路",
@@ -72,7 +102,24 @@
             "selfExplanationPrompt": "試著用自己的話說出「第一課 你會怎麼回答？」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/mandarin#u1"
+          "factGroundingSourceId": "115-s2/g5/mandarin#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認題目在問第一",
+                "對照本課核心藉由",
+                "排除沒有根據或相"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1l1-s3",
@@ -144,6 +191,36 @@
           "factGroundingSourceId": "115-s2/g5/mandarin#u1"
         },
         {
+          "sceneId": "115-s2-g5-mandarin-u1-l2-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「第二課 智救養馬人」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/mandarin#u1"
+        },
+        {
           "sceneId": "u1l2-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "掌握重點不迷路",
@@ -163,7 +240,24 @@
             "selfExplanationPrompt": "試著用自己的話說出「第二課 智救養馬人」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/mandarin#u1"
+          "factGroundingSourceId": "115-s2/g5/mandarin#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認題目在問第二",
+                "對照本課核心藉由",
+                "排除沒有根據或相"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1l2-s3",
@@ -235,6 +329,36 @@
           "factGroundingSourceId": "115-s2/g5/mandarin#u1"
         },
         {
+          "sceneId": "115-s2-g5-mandarin-u1-l3-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「第三課 真正的聰明」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/mandarin#u1"
+        },
+        {
           "sceneId": "u1l3-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "掌握重點不迷路",
@@ -254,7 +378,24 @@
             "selfExplanationPrompt": "試著用自己的話說出「第三課 真正的「聰明」」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/mandarin#u1"
+          "factGroundingSourceId": "115-s2/g5/mandarin#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認題目在問第三",
+                "對照本課核心藉由",
+                "排除沒有根據或相"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1l3-s3",
@@ -328,6 +469,36 @@
           "factGroundingSourceId": "115-s2/g5/mandarin#u1"
         },
         {
+          "sceneId": "115-s2-g5-mandarin-u1-l4-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「學習地圖一」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/mandarin#u1"
+        },
+        {
           "sceneId": "u1l4-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "掌握重點不迷路",
@@ -347,7 +518,24 @@
             "selfExplanationPrompt": "試著用自己的話說出「學習地圖一」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/mandarin#u1"
+          "factGroundingSourceId": "115-s2/g5/mandarin#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認題目在問學習",
+                "對照本課核心理解",
+                "排除沒有根據或相"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1l4-s3",
@@ -419,6 +607,36 @@
           "factGroundingSourceId": "115-s2/g5/mandarin#u2"
         },
         {
+          "sceneId": "115-s2-g5-mandarin-u2-l1-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「第四課 小記者，出動！」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/mandarin#u2"
+        },
+        {
           "sceneId": "u2l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "掌握重點不迷路",
@@ -438,7 +656,24 @@
             "selfExplanationPrompt": "試著用自己的話說出「第四課 小記者，出動！」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/mandarin#u2"
+          "factGroundingSourceId": "115-s2/g5/mandarin#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認題目在問第四",
+                "對照本課核心認識",
+                "排除沒有根據或相"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2l1-s3",
@@ -510,6 +745,36 @@
           "factGroundingSourceId": "115-s2/g5/mandarin#u2"
         },
         {
+          "sceneId": "115-s2-g5-mandarin-u2-l2-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「第五課 奇幻光芒的祕密」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/mandarin#u2"
+        },
+        {
           "sceneId": "u2l2-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "掌握重點不迷路",
@@ -529,7 +794,24 @@
             "selfExplanationPrompt": "試著用自己的話說出「第五課 奇幻光芒的祕密」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/mandarin#u2"
+          "factGroundingSourceId": "115-s2/g5/mandarin#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認題目在問第五",
+                "對照本課核心認識",
+                "排除沒有根據或相"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2l2-s3",
@@ -601,6 +883,36 @@
           "factGroundingSourceId": "115-s2/g5/mandarin#u2"
         },
         {
+          "sceneId": "115-s2-g5-mandarin-u2-l3-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「第六課 人聲就是戲」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/mandarin#u2"
+        },
+        {
           "sceneId": "u2l3-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "掌握重點不迷路",
@@ -620,7 +932,24 @@
             "selfExplanationPrompt": "試著用自己的話說出「第六課 人「聲」就是戲」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/mandarin#u2"
+          "factGroundingSourceId": "115-s2/g5/mandarin#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認題目在問第六",
+                "對照本課核心認識",
+                "排除沒有根據或相"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2l3-s3",
@@ -694,6 +1023,36 @@
           "factGroundingSourceId": "115-s2/g5/mandarin#u2"
         },
         {
+          "sceneId": "115-s2-g5-mandarin-u2-l4-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「學習地圖二」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/mandarin#u2"
+        },
+        {
           "sceneId": "u2l4-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "掌握重點不迷路",
@@ -713,7 +1072,24 @@
             "selfExplanationPrompt": "試著用自己的話說出「學習地圖二」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/mandarin#u2"
+          "factGroundingSourceId": "115-s2/g5/mandarin#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認題目在問學習",
+                "對照本課核心理解",
+                "排除沒有根據或相"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2l4-s3",
@@ -785,6 +1161,36 @@
           "factGroundingSourceId": "115-s2/g5/mandarin#u3"
         },
         {
+          "sceneId": "115-s2-g5-mandarin-u3-l1-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「溜出不一樣的人生——楊元慶」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/mandarin#u3"
+        },
+        {
           "sceneId": "u3l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "掌握重點不迷路",
@@ -804,7 +1210,24 @@
             "selfExplanationPrompt": "試著用自己的話說出「「溜」出不一樣的人生——」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/mandarin#u3"
+          "factGroundingSourceId": "115-s2/g5/mandarin#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認題目在問溜出",
+                "對照本課核心融入",
+                "排除沒有根據或相"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3l1-s3",
@@ -876,6 +1299,36 @@
           "factGroundingSourceId": "115-s2/g5/mandarin#u4"
         },
         {
+          "sceneId": "115-s2-g5-mandarin-u4-l1-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「第七課 題西林壁」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/mandarin#u4"
+        },
+        {
           "sceneId": "u4l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "掌握重點不迷路",
@@ -895,7 +1348,24 @@
             "selfExplanationPrompt": "試著用自己的話說出「第七課 題西林壁」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/mandarin#u4"
+          "factGroundingSourceId": "115-s2/g5/mandarin#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認題目在問第七",
+                "對照本課核心透過",
+                "排除沒有根據或相"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4l1-s3",
@@ -967,6 +1437,36 @@
           "factGroundingSourceId": "115-s2/g5/mandarin#u4"
         },
         {
+          "sceneId": "115-s2-g5-mandarin-u4-l2-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「第八課 海洋的殺手」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/mandarin#u4"
+        },
+        {
           "sceneId": "u4l2-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "掌握重點不迷路",
@@ -986,7 +1486,24 @@
             "selfExplanationPrompt": "試著用自己的話說出「第八課 海洋的殺手」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/mandarin#u4"
+          "factGroundingSourceId": "115-s2/g5/mandarin#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認題目在問第八",
+                "對照本課核心透過",
+                "排除沒有根據或相"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4l2-s3",
@@ -1058,6 +1575,36 @@
           "factGroundingSourceId": "115-s2/g5/mandarin#u4"
         },
         {
+          "sceneId": "115-s2-g5-mandarin-u4-l3-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「第九課 你想做人魚嗎？」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/mandarin#u4"
+        },
+        {
           "sceneId": "u4l3-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "掌握重點不迷路",
@@ -1077,7 +1624,24 @@
             "selfExplanationPrompt": "試著用自己的話說出「第九課 你想做人魚嗎？」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/mandarin#u4"
+          "factGroundingSourceId": "115-s2/g5/mandarin#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認題目在問第九",
+                "對照本課核心透過",
+                "排除沒有根據或相"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4l3-s3",
@@ -1151,6 +1715,36 @@
           "factGroundingSourceId": "115-s2/g5/mandarin#u4"
         },
         {
+          "sceneId": "115-s2-g5-mandarin-u4-l4-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「學習地圖三」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/mandarin#u4"
+        },
+        {
           "sceneId": "u4l4-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "掌握重點不迷路",
@@ -1170,7 +1764,24 @@
             "selfExplanationPrompt": "試著用自己的話說出「學習地圖三」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/mandarin#u4"
+          "factGroundingSourceId": "115-s2/g5/mandarin#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認題目在問學習",
+                "對照本課核心理解",
+                "排除沒有根據或相"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4l4-s3",
@@ -1242,6 +1853,36 @@
           "factGroundingSourceId": "115-s2/g5/mandarin#u5"
         },
         {
+          "sceneId": "115-s2-g5-mandarin-u5-l1-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「第十課 玉米人的奇蹟」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/mandarin#u5"
+        },
+        {
           "sceneId": "u5l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "掌握重點不迷路",
@@ -1261,7 +1902,24 @@
             "selfExplanationPrompt": "試著用自己的話說出「第十課 玉米人的奇蹟」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/mandarin#u5"
+          "factGroundingSourceId": "115-s2/g5/mandarin#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認題目在問第十",
+                "對照本課核心透過",
+                "排除沒有根據或相"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5l1-s3",
@@ -1333,6 +1991,36 @@
           "factGroundingSourceId": "115-s2/g5/mandarin#u5"
         },
         {
+          "sceneId": "115-s2-g5-mandarin-u5-l2-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「第十一課 幸福的火苗」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/mandarin#u5"
+        },
+        {
           "sceneId": "u5l2-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "掌握重點不迷路",
@@ -1352,7 +2040,24 @@
             "selfExplanationPrompt": "試著用自己的話說出「第十一課 幸福的火苗」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/mandarin#u5"
+          "factGroundingSourceId": "115-s2/g5/mandarin#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認題目在問第十",
+                "對照本課核心透過",
+                "排除沒有根據或相"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5l2-s3",
@@ -1424,6 +2129,36 @@
           "factGroundingSourceId": "115-s2/g5/mandarin#u5"
         },
         {
+          "sceneId": "115-s2-g5-mandarin-u5-l3-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「第十二課 神農嘗百草」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/mandarin#u5"
+        },
+        {
           "sceneId": "u5l3-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "掌握重點不迷路",
@@ -1443,7 +2178,24 @@
             "selfExplanationPrompt": "試著用自己的話說出「第十二課 神農嘗百草」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/mandarin#u5"
+          "factGroundingSourceId": "115-s2/g5/mandarin#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認題目在問第十",
+                "對照本課核心透過",
+                "排除沒有根據或相"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5l3-s3",
@@ -1517,6 +2269,36 @@
           "factGroundingSourceId": "115-s2/g5/mandarin#u5"
         },
         {
+          "sceneId": "115-s2-g5-mandarin-u5-l4-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「學習地圖四」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/mandarin#u5"
+        },
+        {
           "sceneId": "u5l4-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "掌握重點不迷路",
@@ -1536,7 +2318,24 @@
             "selfExplanationPrompt": "試著用自己的話說出「學習地圖四」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/mandarin#u5"
+          "factGroundingSourceId": "115-s2/g5/mandarin#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認題目在問學習",
+                "對照本課核心理解",
+                "排除沒有根據或相"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5l4-s3",
@@ -1608,6 +2407,36 @@
           "factGroundingSourceId": "115-s2/g5/mandarin#u6"
         },
         {
+          "sceneId": "115-s2-g5-mandarin-u6-l1-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「旗魚王」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/mandarin#u6"
+        },
+        {
           "sceneId": "u6l1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "掌握重點不迷路",
@@ -1627,7 +2456,24 @@
             "selfExplanationPrompt": "試著用自己的話說出「旗魚王」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/mandarin#u6"
+          "factGroundingSourceId": "115-s2/g5/mandarin#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認題目在問旗魚",
+                "對照本課核心融入",
+                "排除沒有根據或相"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u6l1-s3",

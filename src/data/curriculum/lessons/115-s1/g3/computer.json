@@ -30,8 +30,8 @@
             "params": {
               "leftTitle": "電腦硬體比擬",
               "leftPoints": [
-                "螢幕＝眼睛（顯示畫面）",
-                "主機＝大腦；鍵鼠＝手腳"
+                "直角坐姿、保持視距與做護眼操",
+                "螢幕像眼睛、主機像大腦、鍵鼠像手腳"
               ],
               "rightTitle": "離座三部曲",
               "rightPoints": [
@@ -74,7 +74,24 @@
             "selfExplanationPrompt": "想一想：用電腦一陣子後，為什麼要看遠方和做護眼操，而不是換看手機？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/computer#u1"
+          "factGroundingSourceId": "115-s1/g3/computer#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先關閉所有正在使",
+                "從作業系統開始選",
+                "完成離座三部曲："
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -180,7 +197,24 @@
             "selfExplanationPrompt": "想一想：為什麼調整滑鼠指標的顏色、大小或移動軌跡，能幫助新手操作更準確？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/computer#u2"
+          "factGroundingSourceId": "115-s1/g3/computer#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "將游標移到目標物",
+                "在桌面上平順滑動",
+                "確認位置後再鬆開"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -286,7 +320,24 @@
             "selfExplanationPrompt": "想一想：系統內建的「小算盤」、「天氣」和「鬧鐘與時鐘」，哪一個最適合提醒自己三十分鐘休息眼睛？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/computer#u3"
+          "factGroundingSourceId": "115-s1/g3/computer#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "將滑鼠移到視窗邊",
+                "或將兩個視窗標題",
+                "也可以點選下方工"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -388,7 +439,24 @@
             "selfExplanationPrompt": "想一想：除了捷運路線圖，Google 地圖還會提供哪些有用的資訊幫助我們出門旅行？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/computer#u4"
+          "factGroundingSourceId": "115-s1/g3/computer#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "將截取下來的路線",
+                "在瀏覽器點選個人",
+                "在公用電腦上進一"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -451,7 +519,7 @@
               "leftTitle": "基準列與定位鍵",
               "leftPoints": [
                 "左手 ASDF、右手 JKL;",
-                "F 與 J 有小凸起記號"
+                "F 與 J 鍵小凸起幫助盲打定位"
               ],
               "rightTitle": "大小寫與空白鍵",
               "rightPoints": [
@@ -494,7 +562,24 @@
             "selfExplanationPrompt": "想一想：評估英文短文打字測驗表現時，為什麼不能只看打得有多快，還要看「準確性」？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/computer#u5"
+          "factGroundingSourceId": "115-s1/g3/computer#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "用一隻手的小指按",
+                "另一隻手用負責 ",
+                "放開 Shift"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",
@@ -596,7 +681,24 @@
             "selfExplanationPrompt": "想一想：學會中文輸入法後，除了打作業文章，還能應用在生活中的哪些溝通情境？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/computer#u6"
+          "factGroundingSourceId": "115-s1/g3/computer#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "看到 `su3c",
+                "依序輸入注音與聲",
+                "遇到同音字時按向"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u6-s3",
@@ -698,7 +800,24 @@
             "selfExplanationPrompt": "想一想：為什麼「稍微放慢節奏專注一次按對」，整體完成速度反而會比猛敲亂按更快？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/computer#u7"
+          "factGroundingSourceId": "115-s1/g3/computer#u7",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "把練習時間集中在",
+                "在維持 95% ",
+                "客觀比較這次與上"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u7-s3",
@@ -804,7 +923,24 @@
             "selfExplanationPrompt": "想一想：在「夢想家園創作展」觀摩同學的作品時，可以從哪兩個角度給予真誠又具體的讚美？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/computer#u8"
+          "factGroundingSourceId": "115-s1/g3/computer#u8",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "立刻按復原（Ct",
+                "用放大鏡檢查欲填",
+                "把缺口線條補接完"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u8-s3",
@@ -866,7 +1002,7 @@
             "params": {
               "leftTitle": "搬移 vs 複製",
               "leftPoints": [
-                "剪下＋貼上：從舊位置搬走",
+                "資料夾依主題類型分門別類收納",
                 "複製＋貼上：兩邊各留一份備份"
               ],
               "rightTitle": "資源回收筒",
@@ -910,7 +1046,24 @@
             "selfExplanationPrompt": "想一想：把「複製貼上」和「剪下貼上」分別用在什麼時候才不會產生一堆重複檔案？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/computer#u9"
+          "factGroundingSourceId": "115-s1/g3/computer#u9",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "點開桌面上的資源",
+                "在該檔案上按右鍵",
+                "替檔案取好清楚的"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u9-s3",
@@ -1012,7 +1165,24 @@
             "selfExplanationPrompt": "想一想：如果收到一封陌生人寄來寫著「恭喜中獎十萬元，快點這裡輸入帳號密碼」的信，你應該怎麼處理？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/computer#u10"
+          "factGroundingSourceId": "115-s1/g3/computer#u10",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認信件已寄出，",
+                "關閉所有視窗後從",
+                "完成離座三部曲："
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u10-s3",

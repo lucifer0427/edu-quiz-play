@@ -30,8 +30,8 @@
             "params": {
               "leftTitle": "萬級（左四位）",
               "leftPoints": [
-                "千萬、百萬、十萬、萬",
-                "讀完這四位加上「萬」字"
+                "個級：千、百、十、個",
+                "萬級：千萬、百萬、十萬、萬"
               ],
               "rightTitle": "個級（右四位）",
               "rightPoints": [
@@ -75,7 +75,24 @@
             "selfExplanationPrompt": "想一想：如果題目是「五千萬零二十」，個級的四位數應該寫成什麼？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/math#u1"
+          "factGroundingSourceId": "115-s1/g4/math#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "圈出萬字，前面是",
+                "萬字後面是零五百",
+                "兩級合併起來，寫"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -179,7 +196,24 @@
             "selfExplanationPrompt": "想一想：計算 125 × 112 時，可以把 112 拆成哪三個數分別乘以 125？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/math#u2"
+          "factGroundingSourceId": "115-s1/g4/math#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先遮住末尾共 3",
+                "計算非零部分 4",
+                "在 100 後面"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -280,7 +314,24 @@
             "selfExplanationPrompt": "想一想：讀量角器刻度前，要如何確認該看內圈還是外圈？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/math#u3"
+          "factGroundingSourceId": "115-s1/g4/math#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "從 12 到 4",
+                "每大格 30 度",
+                "120 度大於 "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -380,7 +431,24 @@
             "selfExplanationPrompt": "想一想：比較「2 又 5/9」和「21/9」的大小時，怎麼換會最快？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/math#u4"
+          "factGroundingSourceId": "115-s1/g4/math#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "3 又 4/7 ",
+                "23/5 用除法",
+                "商 4 當整數、"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -481,7 +549,24 @@
             "selfExplanationPrompt": "想一想：比較「3 公里 90 公尺」和「3850 公尺」誰長時，先怎麼換算最不容易錯？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/math#u5"
+          "factGroundingSourceId": "115-s1/g4/math#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "4 公里 = 4",
+                "減法退位：把 1",
+                "1000 - 4"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",
@@ -585,7 +670,24 @@
             "selfExplanationPrompt": "想一想：如果算「3560 ÷ 250」，最多可以同時劃掉幾個 0？餘數要補幾個 0？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/math#u6"
+          "factGroundingSourceId": "115-s1/g4/math#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "被除數與除數同時",
+                "商維持 7 不變",
+                "驗算 700 ×"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u6-s3",
@@ -649,7 +751,7 @@
               "leftTitle": "依角度分類",
               "leftPoints": [
                 "銳角：三個角都小於 90 度",
-                "直角：有一個 90 度角",
+                "依邊分：正三角形、等腰三角形",
                 "鈍角：有一個大於 90 度角"
               ],
               "rightTitle": "依邊長分類",
@@ -694,7 +796,24 @@
             "selfExplanationPrompt": "想一想：正三角形的每個角都是 60 度，那正三角形一定同時也是哪一種三角形？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/math#u7"
+          "factGroundingSourceId": "115-s1/g4/math#u7",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "三角形三個內角合",
+                "扣掉 90 度直",
+                "等腰三角形兩底角"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u7-s3",
@@ -798,7 +917,24 @@
             "selfExplanationPrompt": "想一想：計算「240 ÷ 6 × 4」時，為什麼一定要從左邊的除法開始算？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/math#u8"
+          "factGroundingSourceId": "115-s1/g4/math#u8",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "題目要先算特價後",
+                "減法優先級比乘法",
+                "再乘以 6 雙，"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u8-s3",
@@ -899,7 +1035,24 @@
             "selfExplanationPrompt": "想一想：比較 1.48 和 1.5 的大小時，把 1.5 看成什麼比較好比？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/math#u9"
+          "factGroundingSourceId": "115-s1/g4/math#u9",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "把整數 5 改寫",
+                "百分位不夠減，從",
+                "計算 10 - "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u9-s3",
@@ -962,8 +1115,8 @@
             "params": {
               "leftTitle": "長條圖",
               "leftPoints": [
-                "橫軸放不同類別項目",
-                "比較誰多、誰少、相差多少"
+                "長條圖：比較不同類別數量",
+                "折線圖：觀察隨時間變化趨勢"
               ],
               "rightTitle": "折線圖",
               "rightPoints": [
@@ -1007,7 +1160,24 @@
             "selfExplanationPrompt": "想一想：如果資料是 15、30、45、25，縱軸設定成每 1 小格代表幾人最好畫？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/math#u10"
+          "factGroundingSourceId": "115-s1/g4/math#u10",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "算出 3 大格的",
+                "算出半大格的人數",
+                "兩者相加 12 "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u10-s3",

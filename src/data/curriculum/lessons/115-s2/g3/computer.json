@@ -31,7 +31,7 @@
               "leftTitle": "日記版面設計",
               "leftPoints": [
                 "主標題：置中對齊、放大深色粗體",
-                "日記正文：靠左或左右對齊"
+                "Word 3D 模型可 360 度旋轉觀察構造"
               ],
               "rightTitle": "3D 與存檔規範",
               "rightPoints": [
@@ -74,7 +74,24 @@
             "selfExplanationPrompt": "想一想：寫完北極熊的日記後，我們在日常生活中能用哪一個小行動幫忙減緩全球暖化？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g3/computer#u1"
+          "factGroundingSourceId": "115-s2/g3/computer#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "檢查標題是否置中",
+                "點選儲存檔案並確",
+                "命名為清楚包含班"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -180,7 +197,24 @@
             "selfExplanationPrompt": "想一想：為什麼「項目符號」特別適合用來條列飲用水、雨衣、急救包等登山必備用品清單？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g3/computer#u2"
+          "factGroundingSourceId": "115-s2/g3/computer#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "立刻按下鍵盤快速",
+                "若復原後想改回原",
+                "選取設定好格式的"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -282,7 +316,24 @@
             "selfExplanationPrompt": "想一想：在表格旁插入「防詐騙警語圖片」後，可以套用哪些圖片特效讓它更吸睛？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g3/computer#u3"
+          "factGroundingSourceId": "115-s2/g3/computer#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "用滑鼠拖曳欄線（",
+                "將游標點在表格最",
+                "套用表格樣式統一"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -388,7 +439,24 @@
             "selfExplanationPrompt": "想一想：創用 CC 的小人圖示「姓名標示（BY）」提醒我們在使用別人圖片時要做到什麼？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g3/computer#u4"
+          "factGroundingSourceId": "115-s2/g3/computer#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "選取表格中央相鄰",
+                "搜尋明確標示合法",
+                "請同學試玩前自己"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -494,7 +562,24 @@
             "selfExplanationPrompt": "想一想：替整張紙張四週加上花邊裝飾的「頁面框線」，和只框住一段話的段落框線有什麼不同？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g3/computer#u5"
+          "factGroundingSourceId": "115-s2/g3/computer#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "點選照片，將文繞",
+                "開啟尋找與取代（",
+                "按下全部取代，一"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",
@@ -600,7 +685,24 @@
             "selfExplanationPrompt": "想一想：在文字窗格打字時，按下 Enter 鍵和按下 Tab 鍵分別會有什麼效果？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g3/computer#u6"
+          "factGroundingSourceId": "115-s2/g3/computer#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "選取原本的 Sm",
+                "開啟左側文字窗格",
+                "使用變更色彩與S"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u6-s3",
@@ -706,7 +808,24 @@
             "selfExplanationPrompt": "想一想：卡片做好互換分享時，寫上一句什麼交通安全小叮嚀最實用又溫暖？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g3/computer#u7"
+          "factGroundingSourceId": "115-s2/g3/computer#u7",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "調整圖層順序，選",
+                "在紅綠燈上執行取",
+                "改好後再重新群組"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u7-s3",
@@ -808,7 +927,24 @@
             "selfExplanationPrompt": "想一想：在家鄉環境發表會上報告時，除了展示漂亮的圖表，我們可以提出哪些日常生活中做得到的減污小行動？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g3/computer#u8"
+          "factGroundingSourceId": "115-s2/g3/computer#u8",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "在封面結尾處插入",
+                "插入頁碼後，在頁",
+                "將完成的報告另存"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u8-s3",

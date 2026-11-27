@@ -30,8 +30,8 @@
             "params": {
               "leftTitle": "字母大小寫",
               "leftPoints": [
-                "A 配 a、B 配 b",
-                "C 配 c，照順序排隊"
+                "字母順序：A、B、C",
+                "打招呼說 Hello!，再見說 Goodbye!"
               ],
               "rightTitle": "社交打招呼",
               "rightPoints": [
@@ -74,7 +74,24 @@
             "selfExplanationPrompt": "想一想：歌曲《Dance》裡的 dance 是什麼動作呢？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s1/g1/english#u1"
+          "factGroundingSourceId": "115-s1/g1/english#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先親切打招呼說H",
+                "接著說I am ",
+                "加上名字，合起來"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -135,8 +152,8 @@
             "params": {
               "leftTitle": "字母 D E F",
               "leftPoints": [
-                "D 配 d（肚子在左邊）",
-                "E 配 e、F 配 f"
+                "字母順序：D、E、F",
+                "請別人幫忙說 Please"
               ],
               "rightTitle": "禮貌三寶",
               "rightPoints": [
@@ -179,7 +196,24 @@
             "selfExplanationPrompt": "想一想：大寫字母 D 的小寫 d，圓肚子在哪一邊呢？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s1/g1/english#u2"
+          "factGroundingSourceId": "115-s1/g1/english#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "收到同學幫忙，有",
+                "聽到別人道謝時，",
+                "如果是不小心撞到"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -280,7 +314,24 @@
             "selfExplanationPrompt": "想一想：小寫字母 i 頭上有一顆小圓點，它的大寫字母是誰？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s1/g1/english#u3"
+          "factGroundingSourceId": "115-s1/g1/english#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "認出英文單字ST",
+                "馬上停下腳步，站",
+                "左右看看有沒有來"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -385,7 +436,24 @@
             "selfExplanationPrompt": "想一想：小寫字母 m 有幾個彎彎的小拱門呢？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s1/g1/english#u4"
+          "factGroundingSourceId": "115-s1/g1/english#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "第一單元學 A–",
+                "第三單元學 G–",
+                "這學期學到 M "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",

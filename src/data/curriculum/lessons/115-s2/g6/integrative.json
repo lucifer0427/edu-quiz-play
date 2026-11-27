@@ -70,7 +70,24 @@
             "selfExplanationPrompt": "想一想：當同學分享一個少見卻充滿愛心與創意的夢想職業（如動物輔具設計師）時，我們該怎麼回應？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/integrative#u1"
+          "factGroundingSourceId": "115-s2/g6/integrative#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "運用官方職業資訊",
+                "從現在開始設定短",
+                "培養終身學習好奇"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -132,8 +149,8 @@
             "params": {
               "leftTitle": "高風險不可靠資訊",
               "leftPoints": [
-                "無作者與日期、標題誇張",
-                "誘使點擊陌生連結領優惠"
+                "誇大訊息先查公信機構（醫療、政府）與出處日期",
+                "覺察演算法依搜尋點擊推播廣告，避免衝動消費"
               ],
               "rightTitle": "可靠與妥善資源運用",
               "rightPoints": [
@@ -177,7 +194,24 @@
             "selfExplanationPrompt": "想一想：為什麼購物或影音平台總是剛好推送我們最近聊過或看過的玩具與點心廣告？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/integrative#u2"
+          "factGroundingSourceId": "115-s2/g6/integrative#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "園遊會向社區環保",
+                "向衛生所與警政單",
+                "針對長輩視力將文"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -279,7 +313,24 @@
             "selfExplanationPrompt": "想一想：為什麼許多同學在參與服務學習後，反而覺得「受惠最多的其實是自己」？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/integrative#u3"
+          "factGroundingSourceId": "115-s2/g6/integrative#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "誠實反思上次盲點",
+                "服務前先與受助單",
+                "現場先禮貌詢問對"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",

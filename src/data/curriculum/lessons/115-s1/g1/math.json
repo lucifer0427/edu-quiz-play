@@ -67,7 +67,24 @@
             "selfExplanationPrompt": "想一想：如果盤子裡空空的，一個圈圈也沒有，要寫成數字幾？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s1/g1/math#u1"
+          "factGroundingSourceId": "115-s1/g1/math#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "從最左邊開始點：",
+                "接著往下點：6、",
+                "最後停在 7，所"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -129,8 +146,8 @@
             "params": {
               "leftTitle": "直線",
               "leftPoints": [
-                "直直連過去，距離最短",
-                "可用直尺畫出直線"
+                "比長短要先對齊起點",
+                "彎彎的線要先拉直再比"
               ],
               "rightTitle": "曲線",
               "rightPoints": [
@@ -173,7 +190,24 @@
             "selfExplanationPrompt": "想一想：用什麼文具可以幫我們在紙上畫出又平又直的線？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s1/g1/math#u2"
+          "factGroundingSourceId": "115-s1/g1/math#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "把紅鉛筆和藍蠟筆",
+                "把兩枝筆左邊的筆",
+                "看右邊哪一枝伸出"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -271,7 +305,24 @@
             "selfExplanationPrompt": "想一想：一個布丁配一支湯匙，有 7 個布丁和 5 支湯匙，誰不夠？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s1/g1/math#u3"
+          "factGroundingSourceId": "115-s1/g1/math#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "從前面數出第 1",
+                "接著數小華後面的",
+                "數一數，後面還有"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -367,7 +418,24 @@
             "selfExplanationPrompt": "想一想：左手 5 顆糖、右手 5 顆糖，合起來一共有幾顆？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s1/g1/math#u4"
+          "factGroundingSourceId": "115-s1/g1/math#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "伸出 6 根手指",
+                "把哥哥拿走的 2",
+                "數一數還立著的手"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -429,8 +497,8 @@
             "params": {
               "leftTitle": "方盒與圓罐",
               "leftPoints": [
-                "都有平平的面，可以站穩",
-                "描邊會出現正方形或圓形"
+                "方盒：都是平平的面，疊高最穩",
+                "圓罐：上下平平的圓面，橫放能滾"
               ],
               "rightTitle": "球",
               "rightPoints": [
@@ -473,7 +541,24 @@
             "selfExplanationPrompt": "想一想：如果改拿六面一樣大的正方體方盒來描，會描出什麼圖形？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s1/g1/math#u5"
+          "factGroundingSourceId": "115-s1/g1/math#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "摸一摸圓罐底部，",
+                "壓在白紙上用鉛筆",
+                "拿開圓罐後，紙上"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",
@@ -577,7 +662,24 @@
             "selfExplanationPrompt": "想一想：27 是由幾個十和幾個一合起來的呢？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s1/g1/math#u6"
+          "factGroundingSourceId": "115-s1/g1/math#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "1 包是 10 ",
+                "從 20 接著數",
+                "2 個十和 4 "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u6-s3",
@@ -673,7 +775,24 @@
             "selfExplanationPrompt": "想一想：花瓶裡原來有 5 朵花，今天一朵也沒放進去（+ 0），現在有幾朵花？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s1/g1/math#u7"
+          "factGroundingSourceId": "115-s1/g1/math#u7",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "又送給她會變多，",
+                "心裡記住 6，伸",
+                "得到 6 + 3"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u7-s3",
@@ -768,7 +887,24 @@
             "selfExplanationPrompt": "想一想：荷葉上有 6 隻青蛙，6 隻全部跳走，還剩幾隻？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s1/g1/math#u8"
+          "factGroundingSourceId": "115-s1/g1/math#u8",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "橘子被拿走會變少",
+                "寫出減法算式：1",
+                "10 減 3 等"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u8-s3",
@@ -866,7 +1002,24 @@
             "selfExplanationPrompt": "想一想：下午放學長針指 6、短針在 4 和 5 中間，是幾點呢？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s1/g1/math#u9"
+          "factGroundingSourceId": "115-s1/g1/math#u9",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "長針指著 6，表",
+                "短針剛走過 12",
+                "合起來唸作12 "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u9-s3",

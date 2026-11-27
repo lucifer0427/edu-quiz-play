@@ -30,7 +30,7 @@
             "params": {
               "leftTitle": "自行車與行路安全",
               "leftPoints": [
-                "戴安全帽、檢查煞車再騎乘",
+                "行路＝走路、愛細義＝要小心注意",
                 "巷口無號誌停看聽、走斑馬線"
               ],
               "rightTitle": "北埔古蹟與擂茶",
@@ -49,6 +49,36 @@
                 "id": "l2",
                 "text": "北埔古蹟與擂茶文化",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/hakka#u1"
+        },
+        {
+          "sceneId": "115-s2-g3-hakka-u1-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「單元一：自行車、行路愛細義」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -74,7 +104,24 @@
             "commonErrorContrast": "常見錯誤：邊低頭看平板邊放手騎車，或以為擂茶是把冰塊和汽水倒進塑膠袋搖晃。",
             "selfExplanationPrompt": "想一想：傳統客家「擂茶」名字裡的「擂」是什麼動作？要放進哪些食材研磨？"
           },
-          "factGroundingSourceId": "115-s2/g3/hakka#u1"
+          "factGroundingSourceId": "115-s2/g3/hakka#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "稱呼爸爸媽媽 →",
+                "提醒安全駕駛 →",
+                "經過路口遵守紅綠"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -148,6 +195,36 @@
           "factGroundingSourceId": "115-s2/g3/hakka#u2"
         },
         {
+          "sceneId": "115-s2-g3-hakka-u2-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「單元二：運動會、踢毽仔」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/hakka#u2"
+        },
+        {
           "sceneId": "u2-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "安全遊戲與多元分工發掘潛能",
@@ -167,7 +244,24 @@
             "commonErrorContrast": "常見錯誤：規定只有跑得快的男生能玩，或認為沒拿獎牌、幫忙畫海報計分就沒有價值。",
             "selfExplanationPrompt": "想一想：認識南臺灣「六堆運動會」的歷史背景後，為什麼這項運動會被譽為「大武山下的小奧運」？"
           },
-          "factGroundingSourceId": "115-s2/g3/hakka#u2"
+          "factGroundingSourceId": "115-s2/g3/hakka#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "避開樓梯口、走廊",
+                "友善邀請不分性別",
+                "練習用腳內側、腳"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -241,6 +335,36 @@
           "factGroundingSourceId": "115-s2/g3/hakka#u3"
         },
         {
+          "sceneId": "115-s2-g3-hakka-u3-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「單元三：鬧熱過五月節」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/hakka#u3"
+        },
+        {
           "sceneId": "u3-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "分辨客家粄粽特色與客語拼音功用",
@@ -260,7 +384,24 @@
             "commonErrorContrast": "常見錯誤：以為只有自己習慣的那種粽子才叫粽子，或認為客語拼音是要取代漢字。",
             "selfExplanationPrompt": "想一想：五月節門口插「艾草摎菖蒲」與配戴香包，除了祈福還有什麼實用的生活智慧？"
           },
-          "factGroundingSourceId": "115-s2/g3/hakka#u3"
+          "factGroundingSourceId": "115-s2/g3/hakka#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先把糯米與在來米",
+                "在Ｑ軟的粄皮裡包",
+                "用粽葉包好蒸熟，"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -329,6 +470,46 @@
           "factGroundingSourceId": "115-s2/g3/hakka#u4"
         },
         {
+          "sceneId": "115-s2-g3-hakka-u4-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "掌握「單元四：期末歌謠與複習活動」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "cognitiveChunks": [
+            "先圈出題幹關鍵字與限制條件，不急著搶答",
+            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
+            "選出答案後代回原題檢查一次，確認邏輯通順"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "正確解題思路",
+              "leftPoints": [
+                "掌握「單元四：期末歌謠與複習活動」的核心規則與判斷條件",
+                "照步驟拆解線索，完成後再回頭核對一次"
+              ],
+              "rightTitle": "最常見陷阱",
+              "rightPoints": [
+                "還沒看清題目條件或關鍵字就憑直覺搶答",
+                "忽略單位、順序或題目中的反義詞提示"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "正確思路",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "避開陷阱",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g3/hakka#u4"
+        },
+        {
           "sceneId": "u4-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "破解〈出任務囉！〉文化尋寶與俗諺",
@@ -348,7 +529,24 @@
             "commonErrorContrast": "常見錯誤：夥伴答錯就指責換人，或把「行路愛細義」記成過馬路不用看車。",
             "selfExplanationPrompt": "想一想：客家俗諺「出門看天色，入門看面色」提醒我們在生活裡要培養哪兩種觀察力？"
           },
-          "factGroundingSourceId": "115-s2/g3/hakka#u4"
+          "factGroundingSourceId": "115-s2/g3/hakka#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "不責怪夥伴也不塗",
+                "一起回頭複習線索",
+                "暑假持續和家人長"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",

@@ -30,8 +30,8 @@
             "params": {
               "leftTitle": "認識你我他",
               "leftPoints": [
-                "主動邀請新同學安心融入",
-                "依能力與意願公平分工"
+                "分工互補不分性別發揮專長",
+                "遵守規則維護團隊安全公平"
               ],
               "rightTitle": "共同的任務",
               "rightPoints": [
@@ -49,6 +49,36 @@
                 "id": "l2",
                 "text": "守紀律重團隊榮譽",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/integrative#u1"
+        },
+        {
+          "sceneId": "115-s1-g3-integrative-u1-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「一、當我們同在一起」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -74,7 +104,24 @@
             "commonErrorContrast": "常見錯誤：誰聲音大就聽誰的，或因為意見沒被採用就生氣退出小組。",
             "selfExplanationPrompt": "想一想：小組全力合作卻沒拿到第一名時，怎樣看待團隊的付出與榮譽？"
           },
-          "factGroundingSourceId": "115-s1/g3/integrative#u1"
+          "factGroundingSourceId": "115-s1/g3/integrative#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "暫停爭吵，讓雙方",
+                "一起看看能不能把",
+                "如果還是無法決定"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -143,6 +190,46 @@
           "factGroundingSourceId": "115-s1/g3/integrative#u2"
         },
         {
+          "sceneId": "115-s1-g3-integrative-u2-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "掌握「二、情緒觀測站」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "cognitiveChunks": [
+            "先圈出題幹關鍵字與限制條件，不急著搶答",
+            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
+            "選出答案後代回原題檢查一次，確認邏輯通順"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "正確解題思路",
+              "leftPoints": [
+                "掌握「二、情緒觀測站」的核心規則與判斷條件",
+                "照步驟拆解線索，完成後再回頭核對一次"
+              ],
+              "rightTitle": "最常見陷阱",
+              "rightPoints": [
+                "還沒看清題目條件或關鍵字就憑直覺搶答",
+                "忽略單位、順序或題目中的反義詞提示"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "正確思路",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "避開陷阱",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/integrative#u2"
+        },
+        {
           "sceneId": "u2-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "生氣與緊張時的情緒轉彎三步驟",
@@ -162,7 +249,24 @@
             "commonErrorContrast": "常見錯誤：氣急敗壞把對方的書包砸在地上，或壓抑情緒笑說「男生不能哭」。",
             "selfExplanationPrompt": "想一想：下大雨不能去操場踢球時，換成什麼想法能讓心情平靜下來？"
           },
-          "factGroundingSourceId": "115-s1/g3/integrative#u2"
+          "factGroundingSourceId": "115-s1/g3/integrative#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先停下來深呼吸冷",
+                "誠實說出感受 →",
+                "邀請對方一起善後"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -212,7 +316,7 @@
               "leftTitle": "興趣面面觀",
               "leftPoints": [
                 "發掘日常助人、實作、觀察長處",
-                "保持好奇勇敢體驗新活動"
+                "分享興趣要說出做了什麼與感受"
               ],
               "rightTitle": "興趣分享會",
               "rightPoints": [
@@ -230,6 +334,36 @@
                 "id": "l2",
                 "text": "觀摩分享拓寬興趣",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/integrative#u3"
+        },
+        {
+          "sceneId": "115-s1-g3-integrative-u3-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「三、自我的探索」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -255,7 +389,24 @@
             "commonErrorContrast": "常見錯誤：覺得沒拿過第一名就沒有長處，或嫉妒同學表演好而在台下起鬨。",
             "selfExplanationPrompt": "想一想：當你和好朋友的興趣完全不一樣時，可以怎麼互相欣賞？"
           },
-          "factGroundingSourceId": "115-s1/g3/integrative#u3"
+          "factGroundingSourceId": "115-s1/g3/integrative#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "挑選自己最有熱情",
+                "整理小故事，說說",
+                "練習清楚的音量，"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -304,8 +455,8 @@
             "params": {
               "leftTitle": "危險搜查隊（校園）",
               "leftPoints": [
-                "飲水機旁鋪防滑墊與標示",
-                "壞掉遊具不冒險使用快通報"
+                "調查校園危險並畫地圖提出改造",
+                "器材毀損立刻遠離並通報師長"
               ],
               "rightTitle": "居住好安心（居家社區）",
               "rightPoints": [
@@ -323,6 +474,36 @@
                 "id": "l2",
                 "text": "居家與路口避開風險",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/integrative#u4"
+        },
+        {
+          "sceneId": "115-s1-g3-integrative-u4-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「四、安全的生活」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -348,7 +529,24 @@
             "commonErrorContrast": "常見錯誤：發現盪鞦韆鐵鍊生鏽鬆脫還想「自己輕沒關係」上去試盪，或火災地震時衝進電梯。",
             "selfExplanationPrompt": "想一想：步行經過社區巷口時，為什麼要遠離大型車輛轉彎的內輪差區域？"
           },
-          "factGroundingSourceId": "115-s1/g3/integrative#u4"
+          "factGroundingSourceId": "115-s1/g3/integrative#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "把危險地點與原因",
+                "建議放置吸水防滑",
+                "重新調整桌椅位置"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -417,6 +615,46 @@
           "factGroundingSourceId": "115-s1/g3/integrative#u5"
         },
         {
+          "sceneId": "115-s1-g3-integrative-u5-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "掌握「五、生活智慧王」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "cognitiveChunks": [
+            "先圈出題幹關鍵字與限制條件，不急著搶答",
+            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
+            "選出答案後代回原題檢查一次，確認邏輯通順"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "正確解題思路",
+              "leftPoints": [
+                "掌握「五、生活智慧王」的核心規則與判斷條件",
+                "照步驟拆解線索，完成後再回頭核對一次"
+              ],
+              "rightTitle": "最常見陷阱",
+              "rightPoints": [
+                "還沒看清題目條件或關鍵字就憑直覺搶答",
+                "忽略單位、順序或題目中的反義詞提示"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "正確思路",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "避開陷阱",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/integrative#u5"
+        },
+        {
           "sceneId": "u5-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "解決家務難題與改良積木機關",
@@ -436,7 +674,24 @@
             "commonErrorContrast": "常見錯誤：氣急敗壞踩碎積木，或拿硬彈珠用拋石器對著同學發射。",
             "selfExplanationPrompt": "想一想：在家裡幫忙使用吸塵器或清潔劑時，有哪些絕對不能忽略的安全守則？"
           },
-          "factGroundingSourceId": "115-s1/g3/integrative#u5"
+          "factGroundingSourceId": "115-s1/g3/integrative#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "耐心觀察球卡在哪",
+                "檢查積木高度、角",
+                "使用安全軟球再次"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",

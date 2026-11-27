@@ -74,7 +74,24 @@
             "selfExplanationPrompt": "想一想：〈懶尸个草蜢(仔)〉這個寓言故事最想培養我們什麼生活態度？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/hakka#u1"
+          "factGroundingSourceId": "115-s1/g6/hakka#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "拆解詞彙——風搓",
+                "防災應變——遇見",
+                "寓言啟發——牢記"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-hakka-u1-s3",
@@ -136,7 +153,7 @@
             "params": {
               "leftTitle": "臺灣名勝：雙堂屋",
               "leftPoints": [
-                "兩進合院格局與伙房屋文化",
+                "雙堂屋為前堂後堂兩進合院的客家傳統建築",
                 "珍惜古蹟、愛護環境不亂塗鴉"
               ],
               "rightTitle": "異國風情：荷蘭風車",
@@ -180,7 +197,24 @@
             "selfExplanationPrompt": "想一想：造訪不同國家與家鄉名勝時，「各庄有各庄个例，各鄉有各鄉个俗」提醒我們抱持什麼態度？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/hakka#u2"
+          "factGroundingSourceId": "115-s1/g6/hakka#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "解析提問——放尞",
+                "解析指路——這片",
+                "讚美與護境——抵"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-hakka-u2-s3",
@@ -242,8 +276,8 @@
             "params": {
               "leftTitle": "客家傳統藝文代表",
               "leftPoints": [
-                "客家八音（傳統吹打樂）",
-                "客家採茶戲、平板／山歌子"
+                "〈桃花開〉以傳統古調結合順口歌詞陶冶藝文",
+                "客家傳統藝文：客家八音、採茶戲、山歌"
               ],
               "rightTitle": "藝文對話與觀演禮儀",
               "rightPoints": [
@@ -286,7 +320,24 @@
             "selfExplanationPrompt": "想一想：在六年級學習並欣賞〈桃花開〉等客家傳統歌謠，對文化傳承有什麼重要意義？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/hakka#u3"
+          "factGroundingSourceId": "115-s1/g6/hakka#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "客語邀約——使用",
+                "觀演禮儀——準時",
+                "讚美與傳承——散"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-hakka-u3-s3",
@@ -388,7 +439,24 @@
             "selfExplanationPrompt": "想一想：在客語俗諺「食果子，拜樹頭；食米飯，敬田頭」背後，想教導我們什麼做人處事的道理？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/hakka#u4"
+          "factGroundingSourceId": "115-s1/g6/hakka#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "禮貌道謝——對撐",
+                "好奇詢問——看見",
+                "道別回家——時間"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-hakka-u4-s3",

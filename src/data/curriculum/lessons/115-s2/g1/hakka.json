@@ -31,7 +31,7 @@
               "leftTitle": "戶外觀察與愛護自然",
               "leftPoints": [
                 "油菜花黃澄澄、小蜜蜂傳花粉",
-                "安靜欣賞不摘花也不抓蟲仔"
+                "麼个蟲仔＝什麼小蟲子，安靜觀察不抓"
               ],
               "rightTitle": "客家掃墓安全與環保",
               "rightPoints": [
@@ -49,6 +49,36 @@
                 "id": "l2",
                 "text": "掃墓慎終追遠重安全",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/hakka#u1"
+        },
+        {
+          "sceneId": "115-s2-g1-hakka-u1-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「第一單元：油菜花與蟲仔」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -74,7 +104,24 @@
             "selfExplanationPrompt": "想一想：在花叢間飛來飛去幫忙傳播花粉的小昆蟲，可能是哪一種蟲仔？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g1/hakka#u1"
+          "factGroundingSourceId": "115-s2/g1/hakka#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "緊牽大人的手在山",
+                "不自己拿打火機玩",
+                "祭拜完把飲料罐和"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -150,6 +197,36 @@
           "factGroundingSourceId": "115-s2/g1/hakka#u2"
         },
         {
+          "sceneId": "115-s2-g1-hakka-u2-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「第二單元：貓仔好洗面與油桐花」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/hakka#u2"
+        },
+        {
           "sceneId": "u2-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "認識清潔用品與浴室安全",
@@ -169,7 +246,24 @@
             "selfExplanationPrompt": "想一想：到山林賞油桐花時，可以為了拍照而用力搖動樹幹或刻樹皮嗎？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g1/hakka#u2"
+          "factGroundingSourceId": "115-s2/g1/hakka#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "保持浴室地面乾爽",
+                "不奔跑也不跳高，",
+                "洗髮精與清潔劑只"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -245,6 +339,36 @@
           "factGroundingSourceId": "115-s2/g1/hakka#u3"
         },
         {
+          "sceneId": "115-s2-g1-hakka-u3-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「第三單元：彩色个衫與熱天果子」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/hakka#u3"
+        },
+        {
           "sceneId": "u3-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "選顏色學安全與介紹水果",
@@ -264,7 +388,24 @@
             "selfExplanationPrompt": "想一想：男生可不可以喜歡穿粉紅色或花花衣服？為什麼？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g1/hakka#u3"
+          "factGroundingSourceId": "115-s2/g1/hakka#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "想想看天色暗時，",
+                "挑選亮黃色、亮橘",
+                "讓汽車機車駕駛遠"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -335,6 +476,46 @@
           "factGroundingSourceId": "115-s2/g1/hakka#u4"
         },
         {
+          "sceneId": "115-s2-g1-hakka-u4-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "掌握「第四單元：期末歌謠與複習活動」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "cognitiveChunks": [
+            "先圈出題幹關鍵字與限制條件，不急著搶答",
+            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
+            "選出答案後代回原題檢查一次，確認邏輯通順"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "正確解題思路",
+              "leftPoints": [
+                "掌握「第四單元：期末歌謠與複習活動」的核心規則與判斷條件",
+                "照步驟拆解線索，完成後再回頭核對一次"
+              ],
+              "rightTitle": "最常見陷阱",
+              "rightPoints": [
+                "還沒看清題目條件或關鍵字就憑直覺搶答",
+                "忽略單位、順序或題目中的反義詞提示"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "正確思路",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "避開陷阱",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/hakka#u4"
+        },
+        {
           "sceneId": "u4-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "學期客語詞彙與對話總複習",
@@ -354,7 +535,24 @@
             "selfExplanationPrompt": "想一想：俗諺「人愛惜面，樹愛惜皮」提醒我們平常要做什麼樣的好孩子？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g1/hakka#u4"
+          "factGroundingSourceId": "115-s2/g1/hakka#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "搞麼个？是問在做",
+                "他在看蝴蝶（揚蝶",
+                "記得貓仔是小貓、"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",

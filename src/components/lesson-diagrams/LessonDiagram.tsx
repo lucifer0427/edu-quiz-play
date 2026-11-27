@@ -497,6 +497,15 @@ function NumberLineTemplate({
   );
 }
 
+function wrapSvgText(text: string, maxCharsPerLine = 6): string[] {
+  const clean = text.trim();
+  if (clean.length <= maxCharsPerLine) return [clean];
+  const first = clean.slice(0, maxCharsPerLine);
+  const rest = clean.slice(maxCharsPerLine);
+  if (rest.length <= maxCharsPerLine) return [first, rest];
+  return [first, `${rest.slice(0, maxCharsPerLine - 1)}…`];
+}
+
 function FlowCauseTemplate({
   params,
   labels,
@@ -508,69 +517,120 @@ function FlowCauseTemplate({
   const displayNodes =
     nodes.length > 0 ? nodes.slice(0, 4) : labels.slice(0, 4).map((l) => l.text);
   const count = Math.max(2, displayNodes.length);
-  const width = 440;
-  const gap = 22;
+  const width = 460;
+  const gap = 24;
   const boxW = (width - 24 - gap * (count - 1)) / count;
+  const stepColors = [
+    { fill: '#e0f2fe', stroke: '#0284c7', badge: '#0369a1' },
+    { fill: '#fef3c7', stroke: '#d97706', badge: '#b45309' },
+    { fill: '#ede9fe', stroke: '#7c3aed', badge: '#6d28d9' },
+    { fill: '#dcfce7', stroke: '#16a34a', badge: '#15803d' },
+  ];
 
   return (
     <svg
-      viewBox="0 0 440 108"
-      className="h-auto w-full max-w-lg"
+      viewBox="0 0 460 132"
+      className="h-auto w-full max-w-xl"
       role="img"
       aria-label="解題步驟流程圖"
     >
       {displayNodes.map((text, idx) => {
         const x = 12 + idx * (boxW + gap);
+        const palette =
+          idx === count - 1
+            ? stepColors[3]
+            : stepColors[idx % (stepColors.length - 1)];
+        const lines = wrapSvgText(text, count >= 4 ? 5 : 7);
+
         return (
           <g key={idx}>
             <rect
               x={x}
-              y={18}
+              y={22}
               width={boxW}
-              height={62}
-              rx="12"
-              fill={idx === 0 ? '#e0f2fe' : idx === count - 1 ? '#dcfce7' : '#fef3c7'}
-              stroke="#334155"
+              height={78}
+              rx="14"
+              fill={palette.fill}
+              stroke={palette.stroke}
+              strokeWidth="2.2"
+            />
+            <circle
+              cx={x + boxW / 2}
+              cy={22}
+              r="11"
+              fill={palette.badge}
+              stroke="#ffffff"
               strokeWidth="2"
             />
             <text
               x={x + boxW / 2}
-              y={36}
+              y={26}
               textAnchor="middle"
-              className="fill-slate-500 text-[10px] font-black"
+              className="fill-white text-[11px] font-black"
             >
-              步驟 {idx + 1}
+              {idx + 1}
             </text>
             <text
               x={x + boxW / 2}
-              y={58}
+              y={lines.length === 1 ? 64 : 55}
               textAnchor="middle"
-              className="fill-slate-900 text-xs font-black"
+              className="fill-slate-900 text-[12px] font-black"
             >
-              {text.length > 10 ? `${text.slice(0, 9)}…` : text}
+              {lines.map((line, lIdx) => (
+                <tspan
+                  key={lIdx}
+                  x={x + boxW / 2}
+                  dy={lIdx === 0 ? 0 : 16}
+                >
+                  {line}
+                </tspan>
+              ))}
             </text>
             {idx < count - 1 && (
-              <path
-                d={`M ${x + boxW + 4} 49 L ${x + boxW + gap - 4} 49 M ${x + boxW + gap - 9} 44 L ${x + boxW + gap - 4} 49 L ${x + boxW + gap - 9} 54`}
-                fill="none"
-                stroke="#0f172a"
-                strokeWidth="2.2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
+              <g>
+                <line
+                  x1={x + boxW + 3}
+                  y1={61}
+                  x2={x + boxW + gap - 5}
+                  y2={61}
+                  stroke="#0f172a"
+                  strokeWidth="2.5"
+                  strokeLinecap="round"
+                />
+                <path
+                  d={`M ${x + boxW + gap - 10} 55 L ${x + boxW + gap - 3} 61 L ${x + boxW + gap - 10} 67`}
+                  fill="none"
+                  stroke="#0f172a"
+                  strokeWidth="2.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </g>
             )}
           </g>
         );
       })}
       {labels[0] && nodes.length > 0 && (
-        <text
-          x={width / 2}
-          y="99"
-          textAnchor="middle"
-          className="fill-slate-600 text-[11px] font-bold"
-        >
-          {labels[0].text}
-        </text>
+        <g>
+          <rect
+            x={width / 2 - 90}
+            y={107}
+            width={180}
+            height={20}
+            rx="10"
+            fill="#f1f5f9"
+            stroke="#cbd5e1"
+            strokeWidth="1"
+          />
+          <text
+            x={width / 2}
+            y={121}
+            textAnchor="middle"
+            className="fill-slate-700 text-[11px] font-black"
+          >
+            {labels[0].text}
+          </text>
+        </g>
       )}
     </svg>
   );
@@ -589,22 +649,133 @@ function ConceptCompareTemplate({
   const rightPoints = listParam(params, 'rightPoints');
 
   return (
-    <div className="grid w-full gap-3 sm:grid-cols-2">
-      <div className="rounded-xl border-2 border-sky-200 bg-sky-50/70 p-3">
-        <div className="text-sm font-black text-sky-900">{leftTitle}</div>
-        <ul className="mt-1.5 space-y-1 text-xs font-bold text-slate-700">
-          {leftPoints.map((p, idx) => (
-            <li key={idx}>• {p}</li>
-          ))}
-        </ul>
-      </div>
-      <div className="rounded-xl border-2 border-amber-200 bg-amber-50/70 p-3">
-        <div className="text-sm font-black text-amber-900">{rightTitle}</div>
-        <ul className="mt-1.5 space-y-1 text-xs font-bold text-slate-700">
-          {rightPoints.map((p, idx) => (
-            <li key={idx}>• {p}</li>
-          ))}
-        </ul>
+    <div className="w-full space-y-2.5">
+      {/* 視覺化雙欄對照圖示 */}
+      <svg
+        viewBox="0 0 460 66"
+        className="mx-auto h-auto w-full max-w-lg"
+        role="img"
+        aria-label={`${leftTitle} 與 ${rightTitle} 觀念對照圖`}
+      >
+        <rect
+          x="10"
+          y="10"
+          width="178"
+          height="46"
+          rx="14"
+          fill="#e0f2fe"
+          stroke="#0284c7"
+          strokeWidth="2.2"
+        />
+        <text
+          x="99"
+          y="30"
+          textAnchor="middle"
+          className="fill-sky-700 text-[10px] font-black"
+        >
+          {labels[0]?.text ?? '核心重點'}
+        </text>
+        <text
+          x="99"
+          y="47"
+          textAnchor="middle"
+          className="fill-sky-950 text-[13px] font-black"
+        >
+          {leftTitle.length > 10 ? `${leftTitle.slice(0, 9)}…` : leftTitle}
+        </text>
+
+        {/* 中央雙向對比符號 */}
+        <line
+          x1="192"
+          y1="33"
+          x2="268"
+          y2="33"
+          stroke="#94a3b8"
+          strokeWidth="2"
+          strokeDasharray="4 3"
+        />
+        <circle
+          cx="230"
+          cy="33"
+          r="15"
+          fill="#f8fafc"
+          stroke="#64748b"
+          strokeWidth="2"
+        />
+        <text
+          x="230"
+          y="37"
+          textAnchor="middle"
+          className="fill-slate-700 text-[11px] font-black"
+        >
+          對照
+        </text>
+
+        <rect
+          x="272"
+          y="10"
+          width="178"
+          height="46"
+          rx="14"
+          fill="#fef3c7"
+          stroke="#d97706"
+          strokeWidth="2.2"
+        />
+        <text
+          x="361"
+          y="30"
+          textAnchor="middle"
+          className="fill-amber-700 text-[10px] font-black"
+        >
+          {labels[1]?.text ?? '判斷技巧'}
+        </text>
+        <text
+          x="361"
+          y="47"
+          textAnchor="middle"
+          className="fill-amber-950 text-[13px] font-black"
+        >
+          {rightTitle.length > 10 ? `${rightTitle.slice(0, 9)}…` : rightTitle}
+        </text>
+      </svg>
+
+      <div className="grid w-full gap-3 sm:grid-cols-2">
+        <div className="rounded-xl border-2 border-sky-200 bg-sky-50/70 p-3">
+          <div className="flex items-center gap-1.5 text-sm font-black text-sky-900">
+            <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-sky-600 text-[11px] font-black text-white">
+              A
+            </span>
+            <span>{leftTitle}</span>
+          </div>
+          <ul className="mt-2 space-y-1.5 text-xs font-bold text-slate-700">
+            {leftPoints.map((p, idx) => (
+              <li key={idx} className="flex items-start gap-1.5">
+                <span className="mt-0.5 inline-flex h-4 w-4 shrink-0 items-center justify-center rounded bg-sky-200 text-[10px] font-black text-sky-900">
+                  {idx + 1}
+                </span>
+                <span>{p}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="rounded-xl border-2 border-amber-200 bg-amber-50/70 p-3">
+          <div className="flex items-center gap-1.5 text-sm font-black text-amber-900">
+            <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-amber-600 text-[11px] font-black text-white">
+              B
+            </span>
+            <span>{rightTitle}</span>
+          </div>
+          <ul className="mt-2 space-y-1.5 text-xs font-bold text-slate-700">
+            {rightPoints.map((p, idx) => (
+              <li key={idx} className="flex items-start gap-1.5">
+                <span className="mt-0.5 inline-flex h-4 w-4 shrink-0 items-center justify-center rounded bg-amber-200 text-[10px] font-black text-amber-900">
+                  {idx + 1}
+                </span>
+                <span>{p}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </div>
   );

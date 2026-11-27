@@ -75,7 +75,24 @@
             "selfExplanationPrompt": "想一想：當同學不小心弄濕你的作業本並誠懇道歉時，怎麼回應最能展現風度？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/health-pe#u1"
+          "factGroundingSourceId": "115-s1/g5/health-pe#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "冷靜降溫——先深",
+                "雙向溝通——平和",
+                "友善邀請——在小"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -182,7 +199,24 @@
             "selfExplanationPrompt": "想一想：如果自己準備一份健康早餐，如何同時包含全穀雜糧、優質蛋白與蔬菜？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/health-pe#u2"
+          "factGroundingSourceId": "115-s1/g5/health-pe#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "計算總份數——整",
+                "算出總糖量——2",
+                "判讀成分表——原"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -289,7 +323,24 @@
             "selfExplanationPrompt": "想一想：如果在校園看到同學突然昏倒或受傷，為什麼不可以隨便把人用力搖醒或背著跑？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/health-pe#u3"
+          "factGroundingSourceId": "115-s1/g5/health-pe#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "休息與冰敷——停",
+                "8 字型包紮——",
+                "檢查循環與護理—"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -396,7 +447,24 @@
             "selfExplanationPrompt": "想一想：如果執行每週運動計畫時發現小腿痠痛或目標太難達成，應該如何調整？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/health-pe#u4"
+          "factGroundingSourceId": "115-s1/g5/health-pe#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "修正拔河安全——",
+                "建立拔河合力——",
+                "修正平板撐線條—"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -503,7 +571,24 @@
             "selfExplanationPrompt": "想一想：在多人追逐或繞角錐遊戲中，如何同時跑得快又不會撞到其他同學？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/health-pe#u5"
+          "factGroundingSourceId": "115-s1/g5/health-pe#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "穩定情緒——先鼓",
+                "聚焦流程檢討——",
+                "照顧全隊步調——"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",
@@ -565,7 +650,7 @@
             "params": {
               "leftTitle": "運動家品格",
               "leftPoints": [
-                "尊重規則與裁判判決不抗議",
+                "服從裁判判決，賽後向對手致謝握手",
                 "贏不嘲笑、輸不氣餒並檢討再練"
               ],
               "rightTitle": "跑步與手球技能",
@@ -610,7 +695,24 @@
             "selfExplanationPrompt": "想一想：如果平常沒有運動習慣，要如何從自己喜歡的活動開始「超越自我」？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/health-pe#u6"
+          "factGroundingSourceId": "115-s1/g5/health-pe#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "修正接力交棒——",
+                "落實跑後緩和——",
+                "改善手球接球——"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u6-s3",
@@ -672,7 +774,7 @@
             "params": {
               "leftTitle": "籃球與鬥牛戰術",
               "leftPoints": [
-                "空手跑位拉開空間接應隊友",
+                "籃球投籃：微彎伸直壓腕；鬥牛守轉攻須回三分線外",
                 "半場搶籃板須回三分線外再進攻"
               ],
               "rightTitle": "樂樂棒與桌球規則",
@@ -717,7 +819,24 @@
             "selfExplanationPrompt": "想一想：打籃球時如果隊友正在運球被防守，其他沒有拿球的隊友擠在他身邊好，還是跑開到空檔好？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/health-pe#u7"
+          "factGroundingSourceId": "115-s1/g5/health-pe#u7",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "打者安全放棒——",
+                "判斷強迫進壘——",
+                "三壘手傳球——優"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u7-s3",

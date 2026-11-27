@@ -30,7 +30,7 @@
             "params": {
               "leftTitle": "常見資安威脅途徑",
               "leftPoints": [
-                "釣魚信件與限時中獎短網址",
+                "強密碼須混合大小寫、數字與符號且不共用",
                 "不明免費／盜版軟體與隨身碟"
               ],
               "rightTitle": "資安小尖兵防禦術",
@@ -74,7 +74,24 @@
             "selfExplanationPrompt": "想一想：為什麼把密碼設成 123456 或生日非常危險？好的密碼應該包含哪些元素？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/computer#u1"
+          "factGroundingSourceId": "115-s2/g6/computer#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "抓出三大詐騙疑點",
+                "絕不點擊短網址也",
+                "向師長或官方管道"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-computer-u1-s3",
@@ -180,7 +197,24 @@
             "selfExplanationPrompt": "想一想：從麥坤小車的自動緊急煞車與車道維持實作中，我們在真實馬路上應該養成哪些守法與防禦駕駛觀念？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/computer#u2"
+          "factGroundingSourceId": "115-s2/g6/computer#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "針對循跡衝出黑線",
+                "針對無線遙控干擾",
+                "確保同一組的遙控"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-computer-u2-s3",
@@ -282,7 +316,24 @@
             "selfExplanationPrompt": "想一想：在 Canva 連接 Google 硬碟後，對製作去背畢業感謝卡與小組簡報有什麼好處？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/computer#u3"
+          "factGroundingSourceId": "115-s2/g6/computer#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "全組先確認簡報架",
+                "給予 Gemin",
+                "至政府機關（如環"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-computer-u3-s3",
@@ -384,7 +435,24 @@
             "selfExplanationPrompt": "想一想：如果專題影片前段是「環境汙染的嚴肅數據分析」、後段是「感人的畢業祝福結論」，兩段的背景音樂風格應該怎麼挑選？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/computer#u4"
+          "factGroundingSourceId": "115-s2/g6/computer#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "在音樂軌道中調低",
+                "確認字幕放在下方",
+                "選用合法授權（軟"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-computer-u4-s3",

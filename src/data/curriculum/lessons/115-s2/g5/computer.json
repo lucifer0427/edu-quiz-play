@@ -75,7 +75,24 @@
             "selfExplanationPrompt": "想一想：在雲端教室進行同儕互評時，寫出「哪些內容」才能真正幫助同學改進作品？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/computer#u1"
+          "factGroundingSourceId": "115-s2/g5/computer#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "挑選幾何工具——",
+                "設定外觀與對稱—",
+                "選擇正確格式——"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -182,7 +199,24 @@
             "selfExplanationPrompt": "想一想：如何讓大圓與小圓的中心點在左右與上下方向都完全重疊在正中央？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/computer#u2"
+          "factGroundingSourceId": "115-s2/g5/computer#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "合併輪廓——選取",
+                "挖出缺口——將小",
+                "滿版鋪排——將畫"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -289,7 +323,24 @@
             "selfExplanationPrompt": "想一想：使用「CC 授權（創用 CC）」素材時，我們應該注意遵守哪些授權條款？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/computer#u3"
+          "factGroundingSourceId": "115-s2/g5/computer#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "鎖定背景——在圖",
+                "調整順序——將小",
+                "匯出展示——執行"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -396,7 +447,24 @@
             "selfExplanationPrompt": "想一想：把 Inkscape 畫的平面海洋生物轉成 3D 模型後，可以用在哪些減塑生活用品或裝飾上？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/computer#u4"
+          "factGroundingSourceId": "115-s2/g5/computer#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "挖空保留杯底——",
+                "多角度檢查——使",
+                "跨軟體延伸——若"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",

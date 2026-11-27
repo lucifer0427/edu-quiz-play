@@ -74,7 +74,24 @@
             "selfExplanationPrompt": "想一想：為什麼「用冷水隨便沖兩秒手指尖」不能有效洗掉流感病毒？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g3/health-pe#u1"
+          "factGroundingSourceId": "115-s2/g3/health-pe#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "發高燒全身痠痛時",
+                "突然想咳或打噴嚏",
+                "全班定期擦拭門把"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -180,7 +197,24 @@
             "selfExplanationPrompt": "想一想：為什麼看書三十分鐘休息時，「到戶外看遠方綠樹」有用，而「拿起手機看影片」卻沒有讓眼睛休息？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g3/health-pe#u2"
+          "factGroundingSourceId": "115-s2/g3/health-pe#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "擤鼻涕時按住一側",
+                "洗澡耳朵進水時，",
+                "將牙線輕輕前後拉"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -286,7 +320,24 @@
             "selfExplanationPrompt": "想一想：當你被誤會心裡非常生氣委屈時，有哪一個安全的情緒調適方法不會傷害別人也不會弄壞東西？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g3/health-pe#u3"
+          "factGroundingSourceId": "115-s2/g3/health-pe#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "在人行道等公車停",
+                "洗完手一定要先擦",
+                "遠離滾燙湯鍋與瓦"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -392,7 +443,24 @@
             "selfExplanationPrompt": "想一想：當組裡有接球還不太熟練的同學時，怎麼安排比賽才符合人權教育精神？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g3/health-pe#u4"
+          "factGroundingSourceId": "115-s2/g3/health-pe#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "躲避球可先傳給角",
+                "擔任躲避球內場防",
+                "棒球守備主動迎向"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -498,7 +566,24 @@
             "selfExplanationPrompt": "想一想：為什麼做平衡木練習時，眼睛看前方目標比低頭一直盯著自己腳尖更容易走得穩？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g3/health-pe#u5"
+          "factGroundingSourceId": "115-s2/g3/health-pe#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "起跳前膝蓋微蹲、",
+                "落地瞬間用前腳掌",
+                "上單槓前確認槓下"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",
@@ -604,7 +689,24 @@
             "selfExplanationPrompt": "想一想：透過學跳不同地方或文化特色的鴨子舞與水舞，對我們認識世界有什麼特別的收穫？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g3/health-pe#u6"
+          "factGroundingSourceId": "115-s2/g3/health-pe#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "拔河絕不把繩子纏",
+                "戶外運動會注意補",
+                "踢毽子先用手輕拋"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u6-s3",

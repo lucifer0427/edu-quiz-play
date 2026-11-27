@@ -30,8 +30,8 @@
             "params": {
               "leftTitle": "健康飲食習慣",
               "leftPoints": [
-                "三餐定時定量且食物多樣化",
-                "多喝白開水、少油少糖烹調"
+                "全穀雜糧類：提供醣類作為日常活動熱量",
+                "蔬菜水果類：提供維生素、礦物質與膳食纖維"
               ],
               "rightTitle": "不良飲食習慣",
               "rightPoints": [
@@ -75,7 +75,24 @@
             "selfExplanationPrompt": "想一想：如果只吃肉和白飯、完全不吃青菜水果，身體容易出現什麼問題？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/health-pe#u1"
+          "factGroundingSourceId": "115-s1/g4/health-pe#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "把含糖手搖飲與炸",
+                "午餐選用糙米飯、",
+                "每天記錄飲食並搭"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -177,7 +194,24 @@
             "selfExplanationPrompt": "想一想：當好朋友在接力賽不小心掉棒自責時，你會對他說哪一句溫暖鼓勵的話？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/health-pe#u2"
+          "factGroundingSourceId": "115-s1/g4/health-pe#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "對爸爸用溫和有禮",
+                "才藝卡關時不摔道",
+                "平時主動幫忙摺衣"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -239,8 +273,8 @@
             "params": {
               "leftTitle": "成癮物質危害",
               "leftPoints": [
-                "香菸與電子煙含成癮毒物",
-                "檳榔致癌、酒精傷大腦肝臟"
+                "二手菸與附著家具的三手菸傷害兒童呼吸系統",
+                "檳榔本身含致癌物；酒精傷害發育中大腦與肝臟"
               ],
               "rightTitle": "健康防禦與紓壓",
               "rightPoints": [
@@ -284,7 +318,24 @@
             "selfExplanationPrompt": "想一想：除了個人健康之外，菸蒂、檳榔種植與酒後駕車還會對環境和社會造成什麼傷害？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/health-pe#u3"
+          "factGroundingSourceId": "115-s1/g4/health-pe#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "對陌生人或損友眼",
+                "不接受任何激將法",
+                "對家裡長輩溫和表"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -346,8 +397,8 @@
             "params": {
               "leftTitle": "體適能檢測項目",
               "leftPoints": [
-                "坐姿體前彎 → 柔軟度",
-                "仰臥起坐 → 腹部肌耐力"
+                "坐姿體前彎評估柔軟度；仰臥起坐評估腹部肌耐力",
+                "規律有氧運動（慢跑、跳繩）循序提升心肺耐力"
               ],
               "rightTitle": "體操支撐與安全",
               "rightPoints": [
@@ -391,7 +442,24 @@
             "selfExplanationPrompt": "想一想：如果體適能檢測發現「心肺耐力」較弱，平常可以安排哪些運動來循序提升？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/health-pe#u4"
+          "factGroundingSourceId": "115-s1/g4/health-pe#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "運動前先充分伸展",
+                "支撐時雙臂伸直推",
+                "確認槓下安全軟墊"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -453,8 +521,8 @@
             "params": {
               "leftTitle": "扯鈴民俗體育",
               "leftPoints": [
-                "一拉一放有節奏加速",
-                "微調鈴棍前後修正水平"
+                "扯鈴加速：順旋轉方向一拉一放交替施力",
+                "飛盤擲盤：手腕帶動旋轉並保持盤面水平"
               ],
               "rightTitle": "飛盤擲接與策略",
               "rightPoints": [
@@ -498,7 +566,24 @@
             "selfExplanationPrompt": "想一想：看到同學成功做出扯鈴拋接動作而自己還在掉鈴時，怎樣的態度最值得學習？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/health-pe#u5"
+          "factGroundingSourceId": "115-s1/g4/health-pe#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "扯鈴歪斜時觀察傾",
+                "飛盤遊戲中無球隊",
+                "練習時注意開闊場"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",
@@ -600,7 +685,24 @@
             "selfExplanationPrompt": "想一想：奧運除了追求更快、更高、更強之外，五個相扣的圓環還象徵什麼重要的精神？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/health-pe#u6"
+          "factGroundingSourceId": "115-s1/g4/health-pe#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "側對投擲方向，重",
+                "全組朝同一指定方",
+                "等所有同學擲完並"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u6-s3",
@@ -662,8 +764,8 @@
             "params": {
               "leftTitle": "籃球個人攻防技巧",
               "leftPoints": [
-                "指腹壓球抬頭看場上",
-                "側身用護球手隔離對手"
+                "籃球傳球瞄準胸前跨步送球；運球用指腹壓球並抬頭",
+                "受迫運球時側身護球，把身體隔在球與對手之間"
               ],
               "rightTitle": "團隊防守與隔網默契",
               "rightPoints": [
@@ -707,7 +809,24 @@
             "selfExplanationPrompt": "想一想：練習籃球運球時，為什麼要抬頭觀察場上而不是一直低頭盯著球？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/health-pe#u7"
+          "factGroundingSourceId": "115-s1/g4/health-pe#u7",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "樂樂棒球外野手迅",
+                "隔網球類兩人看到",
+                "打擊完輕放球棒不"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u7-s3",

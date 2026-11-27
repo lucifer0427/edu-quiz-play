@@ -74,7 +74,24 @@
             "selfExplanationPrompt": "想一想：俗諺「食飯皇帝大」在臺灣生活文化裡想提醒大家什麼重要的餐桌心態？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/minnan#u1"
+          "factGroundingSourceId": "115-s1/g4/minnan#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "轉描寫席間溫馨的",
+                "合總結這次辦桌感",
+                "遇到長輩或同學的"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -176,7 +193,24 @@
             "selfExplanationPrompt": "想一想：閩南語俗諺「緊紡無好紗，緊行無好步」用來提醒交通安全，有什麼道理？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/minnan#u2"
+          "factGroundingSourceId": "115-s1/g4/minnan#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "愛細膩是要小心注",
+                "紅燈欲起來矣是紅",
+                "咱愛先停落來是我"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -282,7 +316,24 @@
             "selfExplanationPrompt": "想一想：打掃完教室變得「清氣溜溜」後，全班一起維護整潔和感謝夥伴有什麼重要？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g4/minnan#u3"
+          "factGroundingSourceId": "115-s1/g4/minnan#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "省省仔用是要節約",
+                "掃手佮畚斗掃塗跤",
+                "共糞埽倒好是把垃"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",

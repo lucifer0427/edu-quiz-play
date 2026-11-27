@@ -55,6 +55,46 @@
           "factGroundingSourceId": "115-s2/g4/arts#u1"
         },
         {
+          "sceneId": "115-s2-g4-arts-u1-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "掌握「第壹單元 視覺萬花筒」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "cognitiveChunks": [
+            "先圈出題幹關鍵字與限制條件，不急著搶答",
+            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
+            "選出答案後代回原題檢查一次，確認邏輯通順"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "正確解題思路",
+              "leftPoints": [
+                "掌握「第壹單元 視覺萬花筒」的核心規則與判斷條件",
+                "照步驟拆解線索，完成後再回頭核對一次"
+              ],
+              "rightTitle": "最常見陷阱",
+              "rightPoints": [
+                "還沒看清題目條件或關鍵字就憑直覺搶答",
+                "忽略單位、順序或題目中的反義詞提示"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "正確思路",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "避開陷阱",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/arts#u1"
+        },
+        {
           "sceneId": "u1-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "四格漫畫與手翻動畫書設計訣竅",
@@ -74,7 +114,24 @@
             "commonErrorContrast": "常見錯誤：第一頁畫小狗、第二頁突然跳去畫大樓，或只畫第一頁後面都留白。",
             "selfExplanationPrompt": "想一想：用手機或平板拍攝〈有你真好〉立體卡片分享給親友時，要注意哪些數位素養？"
           },
-          "factGroundingSourceId": "115-s2/g4/arts#u1"
+          "factGroundingSourceId": "115-s2/g4/arts#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先簡化主角造型，",
+                "相鄰兩頁的圖案位",
+                "整疊對齊訂好後快"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -123,7 +180,7 @@
             "params": {
               "leftTitle": "默劇與童話畫面",
               "leftPoints": [
-                "旁述留白、表演者傾聽呼應",
+                "旁述默劇講求說演節奏與傾聽",
                 "定格凝結瞬間、流動順暢轉場"
               ],
               "rightTitle": "光影與影子狂想",
@@ -142,6 +199,36 @@
                 "id": "l2",
                 "text": "調距離放大影子輪廓",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/arts#u2"
+        },
+        {
+          "sceneId": "115-s2-g4-arts-u2-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「第貳單元 表演任我行」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -167,7 +254,24 @@
             "commonErrorContrast": "常見錯誤：定格時邊聊天邊晃動身體，或每次換幕都全員跑下台再重上。",
             "selfExplanationPrompt": "想一想：使用手電筒玩〈奇幻光影Show〉時，為什麼不能讓強光直射同學的眼睛？"
           },
-          "factGroundingSourceId": "115-s2/g4/arts#u2"
+          "factGroundingSourceId": "115-s2/g4/arts#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先設計四個代表故",
+                "定格時保持數秒靜",
+                "切換時用符合角色"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -241,6 +345,36 @@
           "factGroundingSourceId": "115-s2/g4/arts#u3"
         },
         {
+          "sceneId": "115-s2-g4-arts-u3-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「第參單元 音樂美樂地」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/arts#u3"
+        },
+        {
           "sceneId": "u3-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "分辨擊樂器音高與吹好直笛高音 E",
@@ -260,7 +394,24 @@
             "commonErrorContrast": "常見錯誤：吹高音 E 時把背孔完全封死，並鼓起雙頰用盡全身力氣亂吹。",
             "selfExplanationPrompt": "想一想：為什麼鐵琴、木琴是有固定音高擊樂器，而木魚、響棒與三角鐵屬於無固定音高擊樂器？"
           },
-          "factGroundingSourceId": "115-s2/g4/arts#u3"
+          "factGroundingSourceId": "115-s2/g4/arts#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "檢查左手大拇指，",
+                "其餘指孔按緊不漏",
+                "用集中、平穩且適"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -334,6 +485,36 @@
           "factGroundingSourceId": "115-s2/g4/arts#u4"
         },
         {
+          "sceneId": "115-s2-g4-arts-u4-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「第肆單元 統整課程」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g4/arts#u4"
+        },
+        {
           "sceneId": "u4-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "設計跨科「喜怒哀樂」情緒短劇",
@@ -353,7 +534,24 @@
             "commonErrorContrast": "常見錯誤：認為男生不能演出哀傷流淚、女生只能演安靜微笑，或嘲笑畫出難過心情的同學。",
             "selfExplanationPrompt": "想一想：看見同學用作品表現自己孤單難過的心情時，怎麼回應最有同理心？"
           },
-          "factGroundingSourceId": "115-s2/g4/arts#u4"
+          "factGroundingSourceId": "115-s2/g4/arts#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "全組一起討論故事",
+                "美術設計對應色調",
+                "演員隨音樂與佈景"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",

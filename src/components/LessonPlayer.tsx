@@ -287,6 +287,10 @@ export function LessonPlayer({
 
         {currentScene.componentType === 'WORKED_EXAMPLE_SPLIT' && (
           <div className="space-y-4">
+            {currentScene.visualSpec && (
+              <LessonDiagram spec={currentScene.visualSpec} />
+            )}
+
             <p className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm leading-relaxed font-bold text-slate-800">
               {currentScene.narrationText}
             </p>
@@ -407,6 +411,10 @@ export function LessonPlayer({
 
         {currentScene.componentType === 'WARMUP_CHECK' && (
           <div className="space-y-4">
+            {currentScene.visualSpec && (
+              <LessonDiagram spec={currentScene.visualSpec} />
+            )}
+
             <div className="rounded-2xl border border-emerald-200 bg-emerald-50/70 px-4 py-3 text-xs font-black text-emerald-900 sm:text-sm">
               🎯 進場前零扣血暖身確認：{currentScene.narrationText}
             </div>

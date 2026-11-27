@@ -75,7 +75,24 @@
             "selfExplanationPrompt": "想一想：為什麼下課走出教室到操場看遠方綠色景物，能幫助預防近視？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/health-pe#u1"
+          "factGroundingSourceId": "115-s2/g5/health-pe#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "安排順序——先完",
+                "調整姿勢——坐在",
+                "睡前斷網與衛生—"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -182,7 +199,24 @@
             "selfExplanationPrompt": "想一想：為什麼了解生命的有限與自然循環後，反而會讓我們更懂得把握當下珍惜家人？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/health-pe#u2"
+          "factGroundingSourceId": "115-s2/g5/health-pe#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "溫暖陪伴同學——",
+                "冷靜傾聽家人——",
+                "協商雙贏方案——"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -289,7 +323,24 @@
             "selfExplanationPrompt": "想一想：為什麼影視作品常把主角煩惱時抽菸喝酒拍得很帥，卻沒拍出後面的真實代價？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/health-pe#u3"
+          "factGroundingSourceId": "115-s2/g5/health-pe#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "堅定拒絕不猶豫—",
+                "迅速離開現場——",
+                "立刻通報求助——"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -396,7 +447,24 @@
             "selfExplanationPrompt": "想一想：計步器或運動紀錄 App 這類科技資源，如何正確幫助我們維持健康體位？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/health-pe#u4"
+          "factGroundingSourceId": "115-s2/g5/health-pe#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "導正體位觀念——",
+                "修正跳繩落地——",
+                "統一團體節拍——"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -459,7 +527,7 @@
               "leftTitle": "飛盤協調技巧",
               "leftPoints": [
                 "跨步轉腰水平甩出、雙手上下夾接",
-                "不朝人臉近距離投擲保安全"
+                "擲飛盤：側身跨步轉腰、維持盤面水平"
               ],
               "rightTitle": "團體合作與同理",
               "rightPoints": [
@@ -503,7 +571,24 @@
             "selfExplanationPrompt": "想一想：用毛巾、繩子和交通桿這類生活器材玩團體遊戲，能培養我們哪些運動以外的能力？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/health-pe#u5"
+          "factGroundingSourceId": "115-s2/g5/health-pe#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "整合步調——調整",
+                "同理與調整——安",
+                "安全與收尾——確"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",
@@ -610,7 +695,24 @@
             "selfExplanationPrompt": "想一想：與同學進行〈武術雙人對練〉時，為什麼必須事前約定動作順序並控制距離？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/health-pe#u6"
+          "factGroundingSourceId": "115-s2/g5/health-pe#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "長跑安全調整——",
+                "修正跳遠助跑——",
+                "修正跳遠落地——"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u6-s3",
@@ -717,7 +819,24 @@
             "selfExplanationPrompt": "想一想：雙打接羽球時，兩位隊友之間為什麼要出聲喊「我來」或「你的」互相呼應？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/health-pe#u7"
+          "factGroundingSourceId": "115-s2/g5/health-pe#u7",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "足球無球跑位——",
+                "足球規範防守——",
+                "羽球突破瓶頸——"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u7-s3",
@@ -824,7 +943,24 @@
             "selfExplanationPrompt": "想一想：為什麼「表面平靜無波」的溪流底下，依然可能隱藏危險？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/health-pe#u8"
+          "factGroundingSourceId": "115-s2/g5/health-pe#u8",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "修正呼吸節奏——",
+                "保持流線打水——",
+                "冷靜自救與救人—"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u8-s3",

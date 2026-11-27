@@ -418,8 +418,84 @@ function buildWarmupCheckData(
   };
 }
 
+function buildStepFlowVisualSpec(
+  stage: Stage,
+  subject: LessonSubject,
+  anchorVisualSpec: LessonVisualSpec,
+  unitSummary?: CurriculumUnitSummary,
+): LessonVisualSpec {
+  const cleanTitle = sanitizeLessonText(stage.title) || '本單元';
+  const unitLessons =
+    unitSummary?.lessonTitles
+      ?.map((t) => clampSpatialLabel(t, '單元重點'))
+      .filter(Boolean)
+      .slice(0, 3) ?? [];
+
+  if (anchorVisualSpec.templateId === 'flow_cause') {
+    return {
+      templateId: 'concept_compare',
+      params: {
+        leftTitle: '正確解題思路',
+        rightTitle: '最常見陷阱',
+        leftPoints: [
+          `先確認「${cleanTitle}」的關鍵條件與單位`,
+          '照步驟拆解關係，一步步檢查答案合理性',
+        ],
+        rightPoints: [
+          '跳過審題直接心算或猜測，漏看關鍵字',
+          '忘記核對單位、正負方向或上下文線索',
+        ],
+      },
+      spatialLabels: [
+        { id: 'l1', text: '正確思路', anchorPointId: 'left' },
+        { id: 'l2', text: '避開陷阱', anchorPointId: 'right' },
+      ],
+    };
+  }
+
+  if (subject === 'MATH') {
+    return {
+      templateId: 'flow_cause',
+      params: {
+        nodes: ['圈出已知條件', '畫圖或列算式', '檢查單位合理性'],
+      },
+      spatialLabels: [
+        { id: 'l1', text: '數學解題三步驟', anchorPointId: 'bottom' },
+      ],
+    };
+  }
+
+  if (subject === 'LANGUAGE') {
+    return {
+      templateId: 'flow_cause',
+      params: {
+        nodes:
+          unitLessons.length >= 2
+            ? [unitLessons[0], unitLessons[1], '統整句意與用詞']
+            : ['讀懂題幹問題', '回文章找線索', '核對字形與語意'],
+      },
+      spatialLabels: [
+        { id: 'l1', text: '語文閱讀三步驟', anchorPointId: 'bottom' },
+      ],
+    };
+  }
+
+  return {
+    templateId: 'flow_cause',
+    params: {
+      nodes:
+        unitLessons.length >= 2
+          ? [unitLessons[0], unitLessons[1], '歸納原理與應用']
+          : ['觀察生活現象', '找出因果與規律', '驗證是否符合條件'],
+    },
+    spatialLabels: [
+      { id: 'l1', text: '探究思考三步驟', anchorPointId: 'bottom' },
+    ],
+  };
+}
+
 /**
- * 依據關卡、題庫與課綱單元摘要，確定性合成 3 幕符合雙層認知護欄的互動微課程。
+ * 依據關卡、題庫與課綱單元摘要，確定性合成 4 幕符合雙層認知護欄的圖解式互動微課程。
  */
 export function synthesizeLessonForStage(
   stage: Stage,
@@ -431,6 +507,12 @@ export function synthesizeLessonForStage(
   const cleanTitle = sanitizeLessonText(stage.title) || '觀念導航';
   const chunks = buildCognitiveChunks(stage, unitSummary);
   const anchorVisualSpec = buildAnchorVisualSpec(stage, subject, unitSummary);
+  const stepFlowVisualSpec = buildStepFlowVisualSpec(
+    stage,
+    subject,
+    anchorVisualSpec,
+    unitSummary,
+  );
 
   const questions = Array.isArray(stage.questions) ? stage.questions : [];
   const exampleQuestion = questions[0];
@@ -444,13 +526,20 @@ export function synthesizeLessonForStage(
 
   const anchorNarration =
     sanitizeLessonText(
-      `歡迎來到「${cleanTitle}」觀念微課程！先掌握這幾個重點：${chunks.join('；')}。`,
-    ) || `一起認識「${cleanTitle}」的核心概念！`;
+      `歡迎來到「${cleanTitle}」觀念微課程！先看上方圖解掌握核心概念：${chunks.join('；')}。`,
+    ) || `一起透過圖解認識「${cleanTitle}」的核心概念！`;
+
+  const stepFlowNarration =
+    subject === 'MATH'
+      ? `看懂「${cleanTitle}」的概念後，解題時請照著上方流程圖操作：先圈出已知條件與單位，再畫圖或列式推導，最後回頭驗算是否合理。`
+      : subject === 'LANGUAGE'
+        ? `掌握「${cleanTitle}」的關鍵在「先讀題、再找線索、最後核對語意」：照著上方流程圖的順序思考，就能避開相似字詞或斷章取義的陷阱。`
+        : `學習「${cleanTitle}」時，建議用上方流程圖的三個步驟：先觀察現象與特徵，再找出背後的因果規律，最後回到題目條件做確認。`;
 
   const exampleNarration =
     subject === 'MATH'
-      ? '接著看一題實際示範：左邊照著步驟一步步推導，右邊提醒你最容易踩到的陷阱。'
-      : '接著透過一題真實例題，對照正確思考脈絡與常見誤區，建立穩固的判斷標準。';
+      ? '接著看一題實際示範：結合上方圖解，左邊照著步驟一步步推導，右邊提醒你最容易踩到的陷阱。'
+      : '接著透過一題真實例題，結合圖解對照正確思考脈絡與常見誤區，建立穩固的判斷標準。';
 
   const warmupNarration =
     '最後來一題零懲罰暖身小試，答錯也能再試一次，準備好就能直接上場挑戰！';
@@ -459,7 +548,7 @@ export function synthesizeLessonForStage(
     {
       sceneId: 's1-anchor',
       componentType: 'ANCHOR_SCENE',
-      title: `認識「${cleanTitle}」`,
+      title: `圖解核心「${cleanTitle}」`,
       narrationText: anchorNarration,
       cognitiveChunks: chunks,
       analogyAnchor: sanitizeLessonText(stage.description) || undefined,
@@ -467,7 +556,35 @@ export function synthesizeLessonForStage(
       factGroundingSourceId,
     },
     {
-      sceneId: 's2-example',
+      sceneId: 's2-step-flow',
+      componentType: 'ANCHOR_SCENE',
+      title: '思考流程與解題口訣圖解',
+      narrationText: stepFlowNarration,
+      cognitiveChunks:
+        subject === 'MATH'
+          ? [
+              '第 1 步：圈出題目數字、單位與要求',
+              '第 2 步：用圖示或算式整理數量關係',
+              '第 3 步：代回原題檢查大小與單位是否合理',
+            ]
+          : subject === 'LANGUAGE'
+            ? [
+                '第 1 步：先讀懂題幹到底在問什麼',
+                '第 2 步：從上下文、部首或詞性找線索',
+                '第 3 步：把選項代回原句念一次確認通順',
+              ]
+            : [
+                '第 1 步：先分辨題目觀察的對象與條件',
+                '第 2 步：連結課本學過的特徵、因果或規律',
+                '第 3 步：逐一排除矛盾選項，選出最完整答案',
+              ],
+      analogyAnchor:
+        '把思考步驟當成檢查清單，一格一格打勾就不會漏看關鍵條件！',
+      visualSpec: stepFlowVisualSpec,
+      factGroundingSourceId,
+    },
+    {
+      sceneId: 's3-example',
       componentType: 'WORKED_EXAMPLE_SPLIT',
       title: '示範拆解與易錯對比',
       narrationText: exampleNarration,
@@ -475,11 +592,12 @@ export function synthesizeLessonForStage(
         '先圈出題幹已知條件與要回答的目標',
         '照步驟核對關係，避開右欄常見陷阱',
       ],
+      visualSpec: anchorVisualSpec,
       workedExampleData,
       factGroundingSourceId,
     },
     {
-      sceneId: 's3-warmup',
+      sceneId: 's4-warmup',
       componentType: 'WARMUP_CHECK',
       title: '零懲罰暖身小試',
       narrationText: warmupNarration,

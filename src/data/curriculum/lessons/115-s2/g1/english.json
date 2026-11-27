@@ -74,7 +74,24 @@
             "selfExplanationPrompt": "想一想：在 N, O, P 這三個字母裡，排在 N 和 P 中間的是誰？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g1/english#u1"
+          "factGroundingSourceId": "115-s2/g1/english#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "大寫 N 變小寫",
+                "大寫 O 變小寫",
+                "大寫 P 變小寫"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -136,7 +153,7 @@
               "leftTitle": "字母 Q R S",
               "leftPoints": [
                 "Q 配 q（圓圈在左）、R 配 r",
-                "S 配 s（彎彎像小蛇）"
+                "大小寫配對：Q/q、R/r、S/s"
               ],
               "rightTitle": "實地考察禮儀安全",
               "rightPoints": [
@@ -179,7 +196,24 @@
             "selfExplanationPrompt": "想一想：在 P, Q, ___, S 裡面，中間空著的大寫字母是誰？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g1/english#u2"
+          "factGroundingSourceId": "115-s2/g1/english#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "記住 Q 的小寫",
+                "檢查右邊的直線，",
+                "找到圓圈在左、直"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -285,7 +319,24 @@
             "selfExplanationPrompt": "想一想：讀完《Yo! Yes?》後，看到同學書本掉滿地時該怎麼做？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g1/english#u3"
+          "factGroundingSourceId": "115-s2/g1/english#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "早上見面打招呼，",
+                "朋友間熱情打招呼",
+                "大寫 H, E,"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -390,7 +441,24 @@
             "selfExplanationPrompt": "想一想：下課想邀請同學一起玩遊戲時，要說哪一句英文？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g1/english#u4"
+          "factGroundingSourceId": "115-s2/g1/english#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "大寫 W 開口朝",
+                "大寫 X 像叉叉",
+                "大寫 Z 像閃電"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -452,7 +520,7 @@
             "params": {
               "leftTitle": "字母 T U V",
               "leftPoints": [
-                "T 配 t（橫槓小桌子）",
+                "字母順序：S → T → U → V → W",
                 "U 配 u（圓底杯子）、V 配 v（尖底 V）"
               ],
               "rightTitle": "26 字母總整理",
@@ -471,6 +539,36 @@
                 "id": "l2",
                 "text": "26 個英文字母",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/english#u5"
+        },
+        {
+          "sceneId": "115-s2-g1-english-u5-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「26 個字母拼圖：T, U, V 與總複習」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -496,7 +594,24 @@
             "selfExplanationPrompt": "想一想：umbrella 的開頭字母是圓底的 u 還是尖底的 v？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g1/english#u5"
+          "factGroundingSourceId": "115-s2/g1/english#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "從 R, S 開",
+                "S 的下一個字母",
+                "確認順序為 R,"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",

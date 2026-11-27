@@ -31,7 +31,7 @@
               "leftTitle": "國樂吹管：嗩吶",
               "leftPoints": [
                 "木製錐形管身＋雙簧片＋碗口",
-                "音色高亢響亮具穿透力"
+                "嗩吶木製雙簧高亢 vs. 小號銅管按鍵亮麗"
               ],
               "rightTitle": "西洋銅管：小號",
               "rightPoints": [
@@ -74,7 +74,24 @@
             "selfExplanationPrompt": "想一想：現代國樂團的「二胡、高胡、中胡」與「琵琶、古箏」分別屬於哪一類樂器？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/arts#u1"
+          "factGroundingSourceId": "115-s1/g6/arts#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "直笛指法——左手",
+                "氣息控制——吹氣",
+                "文化賞析——透過"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-arts-u1-s3",
@@ -180,7 +197,24 @@
             "selfExplanationPrompt": "想一想：把臺灣歷史故事或母語歌謠融入音樂劇創作，對文化傳承有什麼意義？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/arts#u2"
+          "factGroundingSourceId": "115-s1/g6/arts#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "直笛除錯——確認",
+                "氣息調整——使用",
+                "唱演合一——演唱"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-arts-u2-s3",
@@ -282,7 +316,24 @@
             "selfExplanationPrompt": "想一想：翻開繪本封面第一眼看見的「蝴蝶頁」，通常有什麼巧妙功用？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/arts#u3"
+          "factGroundingSourceId": "115-s1/g6/arts#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "靈感發想——透過",
+                "樣書規劃——先摺",
+                "正式完稿——確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-arts-u3-s3",
@@ -384,7 +435,24 @@
             "selfExplanationPrompt": "想一想：在動畫構圖中，可以運用哪些視覺線條或元素來表現出「速度感與戲劇張力」？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/arts#u4"
+          "factGroundingSourceId": "115-s1/g6/arts#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "固定設備與光源—",
+                "明確分工——安排",
+                "首映交流——完成"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-arts-u4-s3",
@@ -446,8 +514,8 @@
             "params": {
               "leftTitle": "傳統大舞台表演",
               "leftPoints": [
-                "動作與表情須適度放大",
-                "投射宏亮聲音至後排觀眾"
+                "戲劇組成：劇本、演員、舞台空間與觀眾",
+                "影像表演表情須自然細膩，特寫放大眼神情緒"
               ],
               "rightTitle": "影像鏡頭表演",
               "rightPoints": [
@@ -490,7 +558,24 @@
             "selfExplanationPrompt": "想一想：完成一部影像表演短片，除了幕前演員，幕後製作團隊有哪些重要工作？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/arts#u5"
+          "factGroundingSourceId": "115-s1/g6/arts#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "環境與光線——選",
+                "交流與景別——演",
+                "平權選角——打破"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-arts-u5-s3",
@@ -592,7 +677,24 @@
             "selfExplanationPrompt": "想一想：把音樂、視覺藝術與表演藝術串聯起來探討「海洋家園」，對我們學習環境教育有什麼深層價值？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/arts#u6"
+          "factGroundingSourceId": "115-s1/g6/arts#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "音樂詮釋——先讀",
+                "視覺創作——在深",
+                "群舞表現——透過"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-arts-u6-s3",

@@ -75,7 +75,24 @@
             "selfExplanationPrompt": "想一想：當組員上台緊張忘詞時，說 \"Take your time. You can do it!\" 傳達了什麼心意？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/english#u0"
+          "factGroundingSourceId": "115-s2/g4/english#u0",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "5 的倍數個位數",
+                "25 是 twe",
+                "注意 30 字尾"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u0-s3",
@@ -175,7 +192,24 @@
             "selfExplanationPrompt": "想一想：24 小時制的「16:00」換算成 12 小時制的英語整點，應該怎麼說？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/english#u1"
+          "factGroundingSourceId": "115-s2/g4/english#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "7:30 先唸小",
+                "該吃早餐了用 I",
+                "字尾有不發音 e"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -282,7 +316,24 @@
             "selfExplanationPrompt": "想一想：如果問復活節小兔 \"What are you doing?\"，牠回答 \"I am hiding Easter eggs.\" 是什麼意思？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/english#u2"
+          "factGroundingSourceId": "115-s2/g4/english#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "主詞用 I，搭配",
+                "把動作 draw",
+                "組合成完整句子："
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -389,7 +440,24 @@
             "selfExplanationPrompt": "想一想：在音樂課上想告訴老師「我正在唱歌」，應該說 \"I am singing.\" 還是 \"I am sleeping.\"？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/english#u3"
+          "factGroundingSourceId": "115-s2/g4/english#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "three th",
+                "cleaning",
+                "note 和 h"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -451,7 +519,7 @@
             "params": {
               "leftTitle": "單字合寫（不空格）",
               "leftPoints": [
-                "bedroom（臥室）",
+                "kitchen（廚房）、dining room（餐廳）",
                 "bathroom（浴室）、kitchen（廚房）"
               ],
               "rightTitle": "兩個字分開寫",
@@ -496,7 +564,24 @@
             "selfExplanationPrompt": "想一想：如果句子寫 \"I'm in the dining room. I'm eating dinner!\"，這是家裡的哪一個空間？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/english#u4"
+          "factGroundingSourceId": "115-s2/g4/english#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "媽媽問 you，",
+                "在房間裡面要用介",
+                "組合成完整句子："
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -604,7 +689,24 @@
             "selfExplanationPrompt": "想一想：如果球滾到桌子「下面」，介系詞應該用 in、on 還是 under？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/english#u5"
+          "factGroundingSourceId": "115-s2/g4/english#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "hat 只有一頂",
+                "在床上面用介系詞",
+                "cute 結尾有"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",
@@ -711,7 +813,24 @@
             "selfExplanationPrompt": "想一想：認識世界各地不同文化風格的地標時，我們應該抱持什麼樣的態度？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/english#u6"
+          "factGroundingSourceId": "115-s2/g4/english#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "抓出時間線索：e",
+                "抓出爸爸的動作與",
+                "抓出貓咪的動作與"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u6-s3",

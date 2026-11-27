@@ -75,7 +75,24 @@
             "selfExplanationPrompt": "想一想：為什麼家庭緊急避難包每隔半年就要檢查一次裡面的東西？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/integrative#u1"
+          "factGroundingSourceId": "115-s1/g5/integrative#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "處理逃生梯雜物—",
+                "處理用電過載——",
+                "建立防災地圖——"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -137,8 +154,8 @@
             "params": {
               "leftTitle": "角色放大鏡",
               "leftPoints": [
-                "每個分工角色都一樣重要",
-                "依個人創意或細心優勢分工"
+                "人在不同團體可依需求扮演不同角色",
+                "創意發想＋細心統整發揮特質互補"
               ],
               "rightTitle": "解決團體問題",
               "rightPoints": [
@@ -182,7 +199,24 @@
             "selfExplanationPrompt": "想一想：當組員提出一個看起來還不太完整的新點子時，怎麼回應才不會打擊他的信心？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/integrative#u2"
+          "factGroundingSourceId": "115-s1/g5/integrative#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "解決意見分歧——",
+                "協助逃避組員——",
+                "建立結束習慣——"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -289,7 +323,24 @@
             "selfExplanationPrompt": "想一想：當朋友因為心愛的寵物過世而哭泣時，說什麼話最能讓他感受到被理解？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/integrative#u3"
+          "factGroundingSourceId": "115-s1/g5/integrative#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "用我訊息溝通遲到",
+                "不人身攻擊——避",
+                "挺身守護多元——"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -396,7 +447,24 @@
             "selfExplanationPrompt": "想一想：班上有剛來臺灣的新住民同學和家人，我們可以如何幫助他們更快適應社區生活？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/integrative#u4"
+          "factGroundingSourceId": "115-s1/g5/integrative#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先問再幫——遇到",
+                "守護無障礙通道—",
+                "結合專業資源——"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -503,7 +571,24 @@
             "selfExplanationPrompt": "想一想：為什麼圖書館的書要準時歸還、愛心待用餐不能自己不缺卻搶著拿？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g5/integrative#u5"
+          "factGroundingSourceId": "115-s1/g5/integrative#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "配對福利專線——",
+                "配對物資機構——",
+                "珍惜與回饋——不"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",

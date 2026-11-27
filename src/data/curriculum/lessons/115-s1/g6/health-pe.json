@@ -74,7 +74,24 @@
             "selfExplanationPrompt": "想一想：買文具前先檢查家裡還有沒有沒用完的筆，屬於 3R 中的哪一項？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/health-pe#u1"
+          "factGroundingSourceId": "115-s1/g6/health-pe#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "個人保健——取消",
+                "安全通報——不擅",
+                "日常實踐——外出"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-hp-u1-s3",
@@ -176,7 +193,24 @@
             "selfExplanationPrompt": "想一想：為什麼醫師常提醒發育期青少年盡量早睡且睡飽？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/health-pe#u2"
+          "factGroundingSourceId": "115-s1/g6/health-pe#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "環境防跌——清除",
+                "照明便利——確保",
+                "體貼溝通——面向"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-hp-u2-s3",
@@ -282,7 +316,24 @@
             "selfExplanationPrompt": "想一想：當同學因為宗教或文化習慣不能吃豬肉或特定食物時，我們該如何表現尊重？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/health-pe#u3"
+          "factGroundingSourceId": "115-s1/g6/health-pe#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "澱粉代換——地瓜",
+                "補足蔬果——另外",
+                "減油減糖——油炸"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-hp-u3-s3",
@@ -388,7 +439,24 @@
             "selfExplanationPrompt": "想一想：在青春期欣賞一位同學時，怎樣的互動與表達方式才尊重對方的交友空間？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/health-pe#u4"
+          "factGroundingSourceId": "115-s1/g6/health-pe#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "堅定拒絕且絕對不",
+                "千萬不要把對話紀",
+                "立刻封鎖對方並告"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-hp-u4-s3",
@@ -490,7 +558,24 @@
             "selfExplanationPrompt": "想一想：與隊友一起完成修改式三項全能接力時，怎樣的態度最能展現團隊精神？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/health-pe#u5"
+          "factGroundingSourceId": "115-s1/g6/health-pe#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "安全檢核——每次",
+                "強度監測——運用",
+                "循序漸進——每次"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-hp-u5-s3",
@@ -552,8 +637,8 @@
             "params": {
               "leftTitle": "跳遠關鍵要領",
               "leftPoints": [
-                "擺臂帶動身體向前上方躍起",
-                "屈膝緩衝並向前倒不後坐"
+                "瞬發力＝肌力×速度，助於起跳瞬間騰空",
+                "跳遠落地屈膝緩衝並向前倒，切忌向後撐手"
               ],
               "rightTitle": "跳高關鍵要領",
               "rightPoints": [
@@ -596,7 +681,24 @@
             "selfExplanationPrompt": "想一想：體育課記錄跳高與跳遠「前測與後測」成績的主要學習意義是什麼？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/health-pe#u6"
+          "factGroundingSourceId": "115-s1/g6/health-pe#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "場地安全——每次",
+                "急性處理——扭傷",
+                "防護與追蹤——康"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-hp-u6-s3",
@@ -698,7 +800,24 @@
             "selfExplanationPrompt": "想一想：平時可以透過哪些伸展、握力與肌耐力訓練來提升拔河持久戰的表現？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/health-pe#u7"
+          "factGroundingSourceId": "115-s1/g6/health-pe#u7",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "開賽檢錄——確認",
+                "聽令合力——看懂",
+                "安全退場——聽到"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-hp-u7-s3",
@@ -760,7 +879,7 @@
             "params": {
               "leftTitle": "腳內側（足弓）",
               "leftPoints": [
-                "觸球面積大且平穩",
+                "腳內側停球瞬間微微後撤卸力緩衝不彈飛",
                 "適合緩衝停球與短距離精準傳球"
               ],
               "rightTitle": "腳外側（腳背外側）",
@@ -804,7 +923,24 @@
             "selfExplanationPrompt": "想一想：為什麼足球員需要強大的「肌耐力」來撐過整場比賽？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/health-pe#u8"
+          "factGroundingSourceId": "115-s1/g6/health-pe#u8",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "射門修正——將支",
+                "動態傳球——觀察",
+                "體能規劃——搭配"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-hp-u8-s3",
@@ -910,7 +1046,24 @@
             "selfExplanationPrompt": "想一想：一對一盯人防守會切入又會投籃的對手時，防守站位與腳步移動應該注意什麼？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/health-pe#u9"
+          "factGroundingSourceId": "115-s1/g6/health-pe#u9",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "遵守出線規則——",
+                "無球跑位接應——",
+                "錄影檢視修正——"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-hp-u9-s3",
@@ -972,8 +1125,8 @@
             "params": {
               "leftTitle": "靜止平衡控制",
               "leftPoints": [
-                "單腳支撐站立或燕式平衡",
-                "收緊核心＋盯緊前方定點"
+                "核心收緊、視線看前方定點、雙臂張開助平衡",
+                "靜止平衡（單腳站／燕式）vs. 動態平衡（行走／轉體）"
               ],
               "rightTitle": "動態與旋轉平衡",
               "rightPoints": [
@@ -1016,7 +1169,24 @@
             "selfExplanationPrompt": "想一想：為什麼轉體前強調雙腳前腳掌踩穩並稍微收回雙臂？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/health-pe#u10"
+          "factGroundingSourceId": "115-s1/g6/health-pe#u10",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "場地檢視——確認",
+                "雙人默契——合作",
+                "安全下木——一旦"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-hp-u10-s3",
@@ -1078,8 +1248,8 @@
             "params": {
               "leftTitle": "靠球策略 (Pointing)",
               "leftPoints": [
-                "觀察地面坡度與碎石軟硬",
-                "高拋或低滾將球停在目標旁"
+                "雙腳須踩在投擲圈內不踏出直到球落地",
+                "誰的球離目標球「較遠」，就輪到誰繼續投球"
               ],
               "rightTitle": "打擊策略 (Shooting)",
               "rightPoints": [
@@ -1122,7 +1292,24 @@
             "selfExplanationPrompt": "想一想：法式滾球在場上非常重視哪些優雅的禮儀與運動家風度？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/health-pe#u11"
+          "factGroundingSourceId": "115-s1/g6/health-pe#u11",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "策略應變——面對",
+                "輪流順序——在所",
+                "公正計分——一局"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-hp-u11-s3",

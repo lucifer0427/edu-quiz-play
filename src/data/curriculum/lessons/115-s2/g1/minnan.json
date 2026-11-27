@@ -30,8 +30,8 @@
             "params": {
               "leftTitle": "圖書館（看冊、借冊）",
               "leftPoints": [
-                "輕聲細語安靜閱讀",
-                "不奔跑、不爬高書架"
+                "歡喜＝開心、高興的心情",
+                "圖書館安靜看書借書、操場跑跳運動"
               ],
               "rightTitle": "操場（運動、做體操）",
               "rightPoints": [
@@ -49,6 +49,36 @@
                 "id": "l2",
                 "text": "操場做體操運動",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/minnan#u1"
+        },
+        {
+          "sceneId": "115-s2-g1-minnan-u1-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「一、歡喜去學校」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -74,7 +104,24 @@
             "selfExplanationPrompt": "想一想：如果在圖書館找不到書或拿不到高處的書，應該自己爬書架還是請老師志工幫忙？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g1/minnan#u1"
+          "factGroundingSourceId": "115-s2/g1/minnan#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "用咱做伙（我們一",
+                "說出地點和事情去",
+                "加上好無？（好嗎"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -125,7 +172,7 @@
             "params": {
               "leftTitle": "動物與水果詞彙",
               "leftPoints": [
-                "鳥鼠（小老鼠）、食（吃）",
+                "鳥鼠＝小老鼠、食菝仔＝吃芭樂",
                 "菝仔（芭樂）、弓蕉（香蕉）"
               ],
               "rightTitle": "校園顏色與惜物",
@@ -144,6 +191,36 @@
                 "id": "l2",
                 "text": "菝仔芭樂、弓蕉香蕉",
                 "anchorPointId": "left"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/minnan#u2"
+        },
+        {
+          "sceneId": "115-s2-g1-minnan-u2-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「二、彩色的世界」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -169,7 +246,24 @@
             "selfExplanationPrompt": "想一想：在戶外寫生少了一支蠟筆時，跟同學好好討論輪流共用是不是比搶走更好？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g1/minnan#u2"
+          "factGroundingSourceId": "115-s2/g1/minnan#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "鳥鼠是指小老鼠",
+                "食是吃東西的吃",
+                "菝仔是綠皮脆脆的"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -221,7 +315,7 @@
               "leftTitle": "臉部五官閩南語",
               "leftPoints": [
                 "目睭（眼睛）、耳仔（耳朵）",
-                "鼻仔（鼻子）、喙（嘴巴）"
+                "目睭＝眼睛、耳仔＝耳朵、鼻仔＝鼻子、喙＝嘴巴"
               ],
               "rightTitle": "愛護身體與尊重",
               "rightPoints": [
@@ -239,6 +333,36 @@
                 "id": "l2",
                 "text": "尊重彼此身體界線",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/minnan#u3"
+        },
+        {
+          "sceneId": "115-s2-g1-minnan-u3-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "學習「三、我的身軀」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "cognitiveChunks": [
+            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
+            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
+            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "讀懂題幹問題",
+                "找字形與文意",
+                "代入原句確認"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "語文三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -264,7 +388,24 @@
             "selfExplanationPrompt": "想一想：和男生女生同學一起玩遊戲時，可以隨便掀起別人的衣服或強抱對方嗎？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g1/minnan#u3"
+          "factGroundingSourceId": "115-s2/g1/minnan#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "緊去是趕快去，佮",
+                "面是指臉，所以洗",
+                "整句就是趕快去洗"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -335,6 +476,46 @@
           "factGroundingSourceId": "115-s2/g1/minnan#u4"
         },
         {
+          "sceneId": "115-s2-g1-minnan-u4-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "掌握「期末念謠」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "cognitiveChunks": [
+            "先圈出題幹關鍵字與限制條件，不急著搶答",
+            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
+            "選出答案後代回原題檢查一次，確認邏輯通順"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "正確解題思路",
+              "leftPoints": [
+                "掌握「期末念謠」的核心規則與判斷條件",
+                "照步驟拆解線索，完成後再回頭核對一次"
+              ],
+              "rightTitle": "最常見陷阱",
+              "rightPoints": [
+                "還沒看清題目條件或關鍵字就憑直覺搶答",
+                "忽略單位、順序或題目中的反義詞提示"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "正確思路",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "避開陷阱",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g1/minnan#u4"
+        },
+        {
           "sceneId": "u4-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "學期詞彙大總結與俗諺品德",
@@ -354,7 +535,24 @@
             "selfExplanationPrompt": "想一想：放假回家後，怎麼把這首好聽的念謠分享給阿公阿媽聽？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g1/minnan#u4"
+          "factGroundingSourceId": "115-s2/g1/minnan#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "記住詞意：天頂是",
+                "保護安全：不攀爬",
+                "培養好品德：從小"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",

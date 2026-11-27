@@ -30,8 +30,8 @@
             "params": {
               "leftTitle": "傳統民間技藝",
               "leftPoints": [
-                "捏麵尪仔、布袋戲、畫糖",
-                "稱讚老師傅「真有功夫」"
+                "「捏」是用手塑形、「尪仔」是人偶公仔",
+                "布袋戲、畫糖、真有功夫（精湛手藝）"
               ],
               "rightTitle": "迎媽祖祭典",
               "rightPoints": [
@@ -75,7 +75,24 @@
             "selfExplanationPrompt": "想一想：俗諺「三月痟媽祖」生動描繪了什麼樣的臺灣民俗景象？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/minnan#u1"
+          "factGroundingSourceId": "115-s2/g5/minnan#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "熱情邀請——說歡",
+                "介紹詞彙——說明",
+                "公德與尊重——陪"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -182,7 +199,24 @@
             "selfExplanationPrompt": "想一想：為了讓同學幫自己寫功課而故意說好聽話，算不算是真正的「好喙」？為什麼？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/minnan#u2"
+          "factGroundingSourceId": "115-s2/g5/minnan#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "稱讚值日生——說",
+                "祝賀阿媽壽辰——",
+                "回應長輩呵咾——"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -245,7 +279,7 @@
               "leftTitle": "島嶼地形地貌",
               "leftPoints": [
                 "山崙（山丘）、溪仔（溪流）、海邊",
-                "草埔與山坪（平坦開闊地）"
+                "「山崙」小山丘、「溪仔」小溪、「坪／埔」平緩草地"
               ],
               "rightTitle": "防災與氣候照顧",
               "rightPoints": [
@@ -289,7 +323,24 @@
             "selfExplanationPrompt": "想一想：閩南語說「細膩（sè-jī）路滑」，這裡的「細膩」和國語的「細膩」有什麼不同？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/minnan#u3"
+          "factGroundingSourceId": "115-s2/g5/minnan#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "地動應變——保持",
+                "風颱與天冷照顧—",
+                "無痕旅遊——平日"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -396,7 +447,24 @@
             "selfExplanationPrompt": "想一想：如果短文提到「雖然拄著小地動，但逐家平常有學好防災知識，冷靜護頭，平安轉來厝裡」，平安回家的關鍵是什麼？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/minnan#u4"
+          "factGroundingSourceId": "115-s2/g5/minnan#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "辨識入聲韻尾——",
+                "辨析詞意對照——",
+                "禮貌回應稱讚——"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",

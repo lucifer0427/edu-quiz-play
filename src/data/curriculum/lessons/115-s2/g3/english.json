@@ -74,7 +74,24 @@
             "selfExplanationPrompt": "想一想：拿到新課本先看目錄頁（單元名稱與頁碼），對學習有什麼好處？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g3/english#u0"
+          "factGroundingSourceId": "115-s2/g3/english#u0",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先看第一個字母，",
+                "再看中間的母音，",
+                "看最後一個字母，"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u0-s3",
@@ -180,7 +197,24 @@
             "selfExplanationPrompt": "想一想：在動物園看見告示牌「Be kind to animals.」，是在提醒我們什麼？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g3/english#u1"
+          "factGroundingSourceId": "115-s2/g3/english#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "數量是 two（",
+                "複數前面不可以放",
+                "在 duck 字"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -242,7 +276,7 @@
             "params": {
               "leftTitle": "肯定能力",
               "leftPoints": [
-                "Yes, I can.",
+                "問能力：Can you swim / sing?",
                 "A bird can fly.（接原形動詞）"
               ],
               "rightTitle": "否定能力",
@@ -286,7 +320,24 @@
             "selfExplanationPrompt": "想一想：當同學不會某個動作時，說「Let's help each other!」是什麼意思？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g3/english#u2"
+          "factGroundingSourceId": "115-s2/g3/english#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "找到助動詞can",
+                "確認黃金規則：c",
+                "fly 是原形動"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -392,7 +443,24 @@
             "selfExplanationPrompt": "想一想：在繪本裡讀到「They can work together.」，是在稱讚角色做到什麼？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g3/english#u3"
+          "factGroundingSourceId": "115-s2/g3/english#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認事實：小狗的",
+                "a dog 是單",
+                "問句用 Can "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -498,7 +566,24 @@
             "selfExplanationPrompt": "想一想：母親節是五月的第二個星期日，英文裡的「五月」和「星期日」怎麼拼？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g3/english#u4"
+          "factGroundingSourceId": "115-s2/g3/english#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "主詞是第三人稱單",
+                "形容詞 big ",
+                "因為是兩隻眼睛（"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -604,7 +689,24 @@
             "selfExplanationPrompt": "想一想：為什麼「A woman can be a police officer, and a man can be a nurse.」體現了性別平等？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g3/english#u5"
+          "factGroundingSourceId": "115-s2/g3/english#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認問句的主詞是",
+                "確認是肯定回答，",
+                "照抄主詞和 be"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",
@@ -710,7 +812,24 @@
             "selfExplanationPrompt": "想一想：dog, box, hot, bus 四個字裡，哪一個的母音字母與發音和其他三個不同？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g3/english#u6"
+          "factGroundingSourceId": "115-s2/g3/english#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "看到My fat",
+                "看到He can",
+                "合起來就是Leo"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u6-s3",

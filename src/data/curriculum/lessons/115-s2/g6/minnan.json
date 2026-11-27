@@ -75,7 +75,24 @@
             "selfExplanationPrompt": "想一想：生活中有哪些消費場所（如「夜市仔」、「雜貨店」、「菜市仔」）各自有什麼特色？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/minnan#u1"
+          "factGroundingSourceId": "115-s2/g6/minnan#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "用 ABB 疊字",
+                "親切稱呼頭家並禮",
+                "自備環保袋餐具不"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -137,7 +154,7 @@
             "params": {
               "leftTitle": "生活智慧俗諺",
               "leftPoints": [
-                "春天後母面：春天天氣多變",
+                "苦楝四季：春紫花、夏濃蔭、秋黃葉、冬金黃果實",
                 "食果子，拜樹頭：飲水思源感恩"
               ],
               "rightTitle": "漢詩與對話文白音",
@@ -182,7 +199,24 @@
             "selfExplanationPrompt": "想一想：「樹頭徛予在，毋驚樹尾做風颱」這句俗諺在比喻什麼道理？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/minnan#u2"
+          "factGroundingSourceId": "115-s2/g6/minnan#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "選用食果子，拜樹",
+                "熱情邀請同學說咱",
+                "朗誦賴和〈題畫扇"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -244,8 +278,8 @@
             "params": {
               "leftTitle": "畢業與感恩花語",
               "leftPoints": [
-                "鳳凰花：六月畢業珍重祝福",
-                "康乃馨：感恩親情與師長"
+                "畢業祝福：「事事項項攏順勢」、「平安順遂」",
+                "鳳凰花六月火紅盛開，象徵校園畢業離情與祝福"
               ],
               "rightTitle": "向日葵與祝福回應",
               "rightPoints": [
@@ -289,7 +323,24 @@
             "selfExplanationPrompt": "想一想：在邁向國中生涯之前，自我認識與時間管理對我們有什麼重要幫助？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/minnan#u3"
+          "factGroundingSourceId": "115-s2/g6/minnan#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "挑選象徵朝氣光明",
+                "寫下祝你畢業快樂",
+                "若好友緊張灰心，"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -396,7 +447,24 @@
             "selfExplanationPrompt": "想一想：用哪一句臺灣俗諺來勉勵即將升上國中的自己打好基礎、不怕未來風雨挑戰最貼切？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/minnan#u4"
+          "factGroundingSourceId": "115-s2/g6/minnan#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "依顏色與質感對照",
+                "確認句子搭配合理",
+                "畢業週留言寫多謝"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",

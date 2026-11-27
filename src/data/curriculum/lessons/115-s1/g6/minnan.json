@@ -30,8 +30,8 @@
             "params": {
               "leftTitle": "句型「……當咧……」",
               "leftPoints": [
-                "意思：正在進行某個動作",
-                "例：這馬阿兄當咧整理舊冊"
+                "公益詞彙：做志工、捐物資、幫贊（幫忙協助）",
+                "句型「……當咧……」表示動作正在進行"
               ],
               "rightTitle": "連讀變調基本規律",
               "rightPoints": [
@@ -75,7 +75,24 @@
             "selfExplanationPrompt": "想一想：為什麼「好心有好報／助人為快樂之本」能呼應第一單元的公益精神？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/minnan#u1"
+          "factGroundingSourceId": "115-s1/g6/minnan#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "找出關鍵詞逐家（",
+                "組合成句逐家這馬",
+                "做公益前先了解受"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -138,7 +155,7 @@
               "leftTitle": "「……哪會……」",
               "leftPoints": [
                 "意思：怎麼會……（驚訝疑問）",
-                "例：這箱荔枝哪會遮爾甜？"
+                "句型「……哪會……」表達「怎麼會」的驚訝疑問"
               ],
               "rightTitle": "「……毋但……閣……」",
               "rightPoints": [
@@ -182,7 +199,24 @@
             "selfExplanationPrompt": "想一想：六年級參加畢業旅行時，有哪些表現能同時展現「戶外教育」與「品德教育」的素養？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/minnan#u2"
+          "factGroundingSourceId": "115-s1/g6/minnan#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "驚訝讚歎怎麼會這",
+                "連接兩件正面收穫",
+                "辨識漢字揣是尋找"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -244,7 +278,7 @@
             "params": {
               "leftTitle": "「到底……抑……」選擇問句",
               "leftPoints": [
-                "意思：到底……還是……",
+                "句型「……到底……抑……」表示「到底……還是……」",
                 "例：到底欲食壽司，抑是披薩？"
               ],
               "rightTitle": "「食桌」與「開講」詞彙",
@@ -289,7 +323,24 @@
             "selfExplanationPrompt": "想一想：當跨國家庭同學帶來沒吃過的家鄉香料料理時，怎樣的回應最能展現「地球人」的胸懷？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/minnan#u3"
+          "factGroundingSourceId": "115-s1/g6/minnan#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "套用選擇疑問句型",
+                "認讀好料（美味佳",
+                "同桌食桌請長輩先"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -396,7 +447,24 @@
             "selfExplanationPrompt": "想一想：「語詞聲調大無仝」和「語句鬥看覓」這兩個活動名稱裡的「無仝」與「鬥」各是什麼意思？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/minnan#u4"
+          "factGroundingSourceId": "115-s1/g6/minnan#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認導遊後面說欲",
+                "依主詞＋到底＋選",
+                "記得旅行中受到幫"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",

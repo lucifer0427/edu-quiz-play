@@ -74,7 +74,24 @@
             "selfExplanationPrompt": "想一想：為什麼「媽祖信仰」在臺灣的發展會與「海洋教育」緊密相連？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/hakka#u1"
+          "factGroundingSourceId": "115-s2/g6/hakka#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "客語邀約——用這",
+                "環保勸導——看見",
+                "民俗尊重——欣賞"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-hakka-u1-s3",
@@ -180,7 +197,24 @@
             "selfExplanationPrompt": "想一想：當好朋友即將參加重要比賽或畢業時，你想送給他哪一句客語祝福話？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/hakka#u2"
+          "factGroundingSourceId": "115-s2/g6/hakka#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "解析晨起對話——",
+                "體會賢文俗諺——",
+                "傳遞祝福——認識"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-hakka-u2-s3",
@@ -282,7 +316,24 @@
             "selfExplanationPrompt": "想一想：用客語吟誦唐詩〈送孟浩然之廣陵〉時，跟用國語朗讀有什麼特別的韻味感受？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/hakka#u3"
+          "factGroundingSourceId": "115-s2/g6/hakka#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "感恩師長——對老",
+                "惜別祝福——透過",
+                "志氣前行——牢記"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-hakka-u3-s3",

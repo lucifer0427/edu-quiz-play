@@ -848,4 +848,88 @@ describe('Engagement, Hanzi & Deep Teaching Features', () => {
     fireEvent.click(screen.getByText('同題即時搶答'));
     expect(screen.getByRole('button', { name: '開始即時搶答賽！' })).toBeInTheDocument();
   });
+
+  it('LessonPlayer renders visual diagrams in both ANCHOR_SCENE and WORKED_EXAMPLE_SPLIT', () => {
+    const richLesson: LessonScript = {
+      schemaVersion: '2026.1',
+      lessonId: 'lesson-rich-diagram-test',
+      stageId: 'test-stage-1',
+      subject: 'MATH',
+      ageBand: 'AGE_9_12_UPPER',
+      title: '圖解教學測試微課程',
+      scenes: [
+        {
+          sceneId: 's1-anchor',
+          componentType: 'ANCHOR_SCENE',
+          title: '核心觀念對照',
+          narrationText: '先用對照圖比較兩個重點。',
+          cognitiveChunks: ['重點一', '重點二'],
+          visualSpec: {
+            templateId: 'concept_compare',
+            params: {
+              leftTitle: '分子',
+              leftPoints: ['代表取了幾份'],
+              rightTitle: '分母',
+              rightPoints: ['代表平分成幾份'],
+            },
+            spatialLabels: [
+              { id: 'l1', text: '分子', anchorPointId: 'left' },
+              { id: 'l2', text: '分母', anchorPointId: 'right' },
+            ],
+          },
+          factGroundingSourceId: 'test-source',
+        },
+        {
+          sceneId: 's2-example',
+          componentType: 'WORKED_EXAMPLE_SPLIT',
+          title: '示範拆解與流程圖',
+          narrationText: '看圖照著步驟做一次。',
+          cognitiveChunks: ['照步驟算'],
+          visualSpec: {
+            templateId: 'flow_cause',
+            params: {
+              nodes: ['圈出條件', '畫圖列式', '驗算答案'],
+            },
+            spatialLabels: [
+              { id: 'l1', text: '三步解題流程', anchorPointId: 'bottom' },
+            ],
+          },
+          workedExampleData: {
+            problemStatement: '1/2 + 1/2 = ?',
+            steps: ['第 1 步：分母相同直接相加分子'],
+            commonErrorContrast: '常見錯誤：把分母也相加。',
+            keepStepCardVisible: false,
+          },
+          factGroundingSourceId: 'test-source',
+        },
+      ],
+    };
+
+    render(
+      <LessonPlayer
+        lesson={richLesson}
+        stage={SAMPLE_STAGE}
+        alreadyCompleted={false}
+        onExit={vi.fn()}
+        onCompleteAndStartQuiz={vi.fn()}
+        onCompleteAndExit={vi.fn()}
+      />,
+    );
+
+    // Scene 1: concept_compare SVG diagram + numbered points
+    expect(
+      screen.getByRole('img', { name: '分子 與 分母 觀念對照圖' }),
+    ).toBeInTheDocument();
+    expect(screen.getByText('代表取了幾份')).toBeInTheDocument();
+
+    // Advance to Scene 2 (WORKED_EXAMPLE_SPLIT)
+    fireEvent.click(screen.getByRole('button', { name: '下一幕' }));
+
+    // Scene 2: flow_cause SVG diagram rendered inside WORKED_EXAMPLE_SPLIT
+    expect(
+      screen.getByRole('img', { name: '解題步驟流程圖' }),
+    ).toBeInTheDocument();
+    expect(screen.getByText('三步解題流程')).toBeInTheDocument();
+    expect(screen.getByText(/1\/2 \+ 1\/2 = \?/)).toBeInTheDocument();
+  });
 });

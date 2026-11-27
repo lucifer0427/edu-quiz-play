@@ -31,10 +31,22 @@
               "min": 0.001,
               "max": 1000,
               "markers": [
-                { "value": 0.001, "label": "千分位" },
-                { "value": 0.01, "label": "百分位" },
-                { "value": 0.1, "label": "十分位" },
-                { "value": 1, "label": "個位" }
+                {
+                  "value": 0.001,
+                  "label": "千分位"
+                },
+                {
+                  "value": 0.01,
+                  "label": "百分位"
+                },
+                {
+                  "value": 0.1,
+                  "label": "十分位"
+                },
+                {
+                  "value": 1,
+                  "label": "個位"
+                }
               ]
             },
             "spatialLabels": [
@@ -47,6 +59,36 @@
                 "id": "l2",
                 "text": "右移一位÷10",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u1"
+        },
+        {
+          "sceneId": "115-s2-g5-math-u1-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "面對「第1章 數的十進位結構」的題目，請照著上方流程圖操作：先圈出已知數字與單位，再用圖示或線段整理數量關係，最後列式計算並檢查大小是否合理。",
+          "cognitiveChunks": [
+            "第 1 步：圈出題目給的數字、單位與最後要問的目標",
+            "第 2 步：在腦中或紙上畫出數量關係，決定運算方向",
+            "第 3 步：計算後回頭檢查進位、借位與單位是否一致"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "圈出已知條件",
+                "畫圖整理關係",
+                "列式計算驗算"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "數學三步解題法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -73,7 +115,24 @@
             "selfExplanationPrompt": "想一想：把十分位的 0.1 除以 10，會變成哪一個位值？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/math#u1"
+          "factGroundingSourceId": "115-s2/g5/math#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "乘法先算 45 ",
+                "數末尾的 0：3",
+                "除法同時劃掉 3"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -141,6 +200,36 @@
           "factGroundingSourceId": "115-s2/g5/math#u2"
         },
         {
+          "sceneId": "115-s2-g5-math-u2-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "面對「第2章 分數的計算」的題目，請照著上方流程圖操作：先圈出已知數字與單位，再用圖示或線段整理數量關係，最後列式計算並檢查大小是否合理。",
+          "cognitiveChunks": [
+            "第 1 步：圈出題目給的數字、單位與最後要問的目標",
+            "第 2 步：在腦中或紙上畫出數量關係，決定運算方向",
+            "第 3 步：計算後回頭檢查進位、借位與單位是否一致"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "圈出已知條件",
+                "畫圖整理關係",
+                "列式計算驗算"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "數學三步解題法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u2"
+        },
+        {
           "sceneId": "u2-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "分數乘法交叉約分與除法轉化",
@@ -160,7 +249,24 @@
             "selfExplanationPrompt": "想一想：不直接算出來，5/6 × 3/4 和 5/6 哪一個比較大？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/math#u2"
+          "factGroundingSourceId": "115-s2/g5/math#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "交叉約分：4 與",
+                "分子乘分子、分母",
+                "分數除以整數改寫"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -213,7 +319,40 @@
               "height": 3,
               "unit": "cm"
             },
-            "allowedControls": ["LAYER_SLICE", "ORBIT_RESET"]
+            "allowedControls": [
+              "LAYER_SLICE",
+              "ORBIT_RESET"
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u3"
+        },
+        {
+          "sceneId": "115-s2-g5-math-u3-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "面對「第3章 長方體與正方體的體積」的題目，請照著上方流程圖操作：先圈出已知數字與單位，再用圖示或線段整理數量關係，最後列式計算並檢查大小是否合理。",
+          "cognitiveChunks": [
+            "第 1 步：圈出題目給的數字、單位與最後要問的目標",
+            "第 2 步：在腦中或紙上畫出數量關係，決定運算方向",
+            "第 3 步：計算後回頭檢查進位、借位與單位是否一致"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "圈出已知條件",
+                "畫圖整理關係",
+                "列式計算驗算"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "數學三步解題法",
+                "anchorPointId": "bottom"
+              }
+            ]
           },
           "factGroundingSourceId": "115-s2/g5/math#u3"
         },
@@ -238,7 +377,24 @@
             "selfExplanationPrompt": "想一想：把正方體的每條邊長都變成原來的 2 倍，體積會變成原來的幾倍？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/math#u3"
+          "factGroundingSourceId": "115-s2/g5/math#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認長、寬、高的",
+                "先算一層底面積：",
+                "再乘以層數（高 "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g5s2-u3-s3",
@@ -308,6 +464,46 @@
           "factGroundingSourceId": "115-s2/g5/math#u4"
         },
         {
+          "sceneId": "115-s2-g5-math-u4-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "掌握「第4章 小數」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "cognitiveChunks": [
+            "先圈出題幹關鍵字與限制條件，不急著搶答",
+            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
+            "選出答案後代回原題檢查一次，確認邏輯通順"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "正確解題思路",
+              "leftPoints": [
+                "掌握「第4章 小數」的核心規則與判斷條件",
+                "照步驟拆解線索，完成後再回頭核對一次"
+              ],
+              "rightTitle": "最常見陷阱",
+              "rightPoints": [
+                "還沒看清題目條件或關鍵字就憑直覺搶答",
+                "忽略單位、順序或題目中的反義詞提示"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "正確思路",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "避開陷阱",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u4"
+        },
+        {
           "sceneId": "u4-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "小數乘小數與四捨五入取概數",
@@ -327,7 +523,24 @@
             "selfExplanationPrompt": "想一想：0.840 最後面的 0 為什麼可以省略不寫？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/math#u4"
+          "factGroundingSourceId": "115-s2/g5/math#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "算 24 × 3",
+                "算 20 ÷ 7",
+                "取到小數第一位看"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -378,10 +591,22 @@
               "min": 1,
               "max": 1000000,
               "markers": [
-                { "value": 1, "label": "平方公尺" },
-                { "value": 100, "label": "1公畝" },
-                { "value": 10000, "label": "1公頃" },
-                { "value": 1000000, "label": "1平方公里" }
+                {
+                  "value": 1,
+                  "label": "平方公尺"
+                },
+                {
+                  "value": 100,
+                  "label": "1公畝"
+                },
+                {
+                  "value": 10000,
+                  "label": "1公頃"
+                },
+                {
+                  "value": 1000000,
+                  "label": "1平方公里"
+                }
               ]
             },
             "spatialLabels": [
@@ -394,6 +619,36 @@
                 "id": "l2",
                 "text": "1公噸＝1000公斤",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u5"
+        },
+        {
+          "sceneId": "115-s2-g5-math-u5-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "面對「第5章 生活中的大單位」的題目，請照著上方流程圖操作：先圈出已知數字與單位，再用圖示或線段整理數量關係，最後列式計算並檢查大小是否合理。",
+          "cognitiveChunks": [
+            "第 1 步：圈出題目給的數字、單位與最後要問的目標",
+            "第 2 步：在腦中或紙上畫出數量關係，決定運算方向",
+            "第 3 步：計算後回頭檢查進位、借位與單位是否一致"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "圈出已知條件",
+                "畫圖整理關係",
+                "列式計算驗算"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "數學三步解題法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -419,7 +674,24 @@
             "selfExplanationPrompt": "想一想：3.45 公噸等於多少公斤？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/math#u5"
+          "factGroundingSourceId": "115-s2/g5/math#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "全部換算成公頃：",
+                "350 公畝 ÷",
+                "比較大小：5 公"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",
@@ -486,6 +758,36 @@
           "factGroundingSourceId": "115-s2/g5/math#u6"
         },
         {
+          "sceneId": "115-s2-g5-math-u6-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "面對「第6章 時間的乘除」的題目，請照著上方流程圖操作：先圈出已知數字與單位，再用圖示或線段整理數量關係，最後列式計算並檢查大小是否合理。",
+          "cognitiveChunks": [
+            "第 1 步：圈出題目給的數字、單位與最後要問的目標",
+            "第 2 步：在腦中或紙上畫出數量關係，決定運算方向",
+            "第 3 步：計算後回頭檢查進位、借位與單位是否一致"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "圈出已知條件",
+                "畫圖整理關係",
+                "列式計算驗算"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "數學三步解題法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u6"
+        },
+        {
           "sceneId": "u6-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "時間乘法進位與時間除法換算",
@@ -505,7 +807,24 @@
             "selfExplanationPrompt": "想一想：32 小時換算成幾日幾小時，要除以 24 還是 60？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/math#u6"
+          "factGroundingSourceId": "115-s2/g5/math#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "時、分分別乘以 ",
+                "把分鐘滿 60 ",
+                "加進小時：5 +"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u6-s3",
@@ -556,7 +875,7 @@
               "leftTitle": "有蓋容器",
               "leftPoints": [
                 "長、寬、高皆減 2 倍厚度",
-                "內部空間較小"
+                "1 公升＝1000 毫升＝1000 立方公分"
               ],
               "rightTitle": "無蓋容器",
               "rightPoints": [
@@ -574,6 +893,36 @@
                 "id": "l2",
                 "text": "無蓋高減1倍厚",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u7"
+        },
+        {
+          "sceneId": "115-s2-g5-math-u7-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "面對「第7章 容積」的題目，請照著上方流程圖操作：先圈出已知數字與單位，再用圖示或線段整理數量關係，最後列式計算並檢查大小是否合理。",
+          "cognitiveChunks": [
+            "第 1 步：圈出題目給的數字、單位與最後要問的目標",
+            "第 2 步：在腦中或紙上畫出數量關係，決定運算方向",
+            "第 3 步：計算後回頭檢查進位、借位與單位是否一致"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "圈出已知條件",
+                "畫圖整理關係",
+                "列式計算驗算"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "數學三步解題法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -599,7 +948,24 @@
             "selfExplanationPrompt": "想一想：如果水杯原本已經裝滿水，放進鋼珠後溢出 65 毫升的水，鋼珠體積是多少立方公分？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/math#u7"
+          "factGroundingSourceId": "115-s2/g5/math#u7",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "算水面上升的高度",
+                "算水槽底面積：2",
+                "相乘得上升水體積"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u7-s3",
@@ -666,6 +1032,36 @@
           "factGroundingSourceId": "115-s2/g5/math#u8"
         },
         {
+          "sceneId": "115-s2-g5-math-u8-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "面對「第8章 比率與百分率」的題目，請照著上方流程圖操作：先圈出已知數字與單位，再用圖示或線段整理數量關係，最後列式計算並檢查大小是否合理。",
+          "cognitiveChunks": [
+            "第 1 步：圈出題目給的數字、單位與最後要問的目標",
+            "第 2 步：在腦中或紙上畫出數量關係，決定運算方向",
+            "第 3 步：計算後回頭檢查進位、借位與單位是否一致"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "圈出已知條件",
+                "畫圖整理關係",
+                "列式計算驗算"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "數學三步解題法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u8"
+        },
+        {
           "sceneId": "u8-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "區分「打折」與「減價（off）」",
@@ -685,7 +1081,24 @@
             "selfExplanationPrompt": "想一想：原價 1000 元的書包特價 850 元，相當於打了幾折？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/math#u8"
+          "factGroundingSourceId": "115-s2/g5/math#u8",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "把二成五換算成百",
+                "算加價金額：80",
+                "加上原本成本：8"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u8-s3",
@@ -738,7 +1151,40 @@
               "height": 2,
               "unit": "cm"
             },
-            "allowedControls": ["UNFOLD_SLIDER", "ORBIT_RESET"]
+            "allowedControls": [
+              "UNFOLD_SLIDER",
+              "ORBIT_RESET"
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u9"
+        },
+        {
+          "sceneId": "115-s2-g5-math-u9-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "面對「第9章 表面積」的題目，請照著上方流程圖操作：先圈出已知數字與單位，再用圖示或線段整理數量關係，最後列式計算並檢查大小是否合理。",
+          "cognitiveChunks": [
+            "第 1 步：圈出題目給的數字、單位與最後要問的目標",
+            "第 2 步：在腦中或紙上畫出數量關係，決定運算方向",
+            "第 3 步：計算後回頭檢查進位、借位與單位是否一致"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "圈出已知條件",
+                "畫圖整理關係",
+                "列式計算驗算"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "數學三步解題法",
+                "anchorPointId": "bottom"
+              }
+            ]
           },
           "factGroundingSourceId": "115-s2/g5/math#u9"
         },
@@ -762,7 +1208,24 @@
             "selfExplanationPrompt": "想一想：如果正方體 6 個面都一模一樣，表面積只要先算 1 個面再乘以多少？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/math#u9"
+          "factGroundingSourceId": "115-s2/g5/math#u9",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "算上下面（長×寬",
+                "算前後面（長×高",
+                "三組面各有一對（"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g5s2-u9-s3",
@@ -830,6 +1293,36 @@
           "factGroundingSourceId": "115-s2/g5/math#u10"
         },
         {
+          "sceneId": "115-s2-g5-math-u10-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "面對「第10章 線對稱圖形」的題目，請照著上方流程圖操作：先圈出已知數字與單位，再用圖示或線段整理數量關係，最後列式計算並檢查大小是否合理。",
+          "cognitiveChunks": [
+            "第 1 步：圈出題目給的數字、單位與最後要問的目標",
+            "第 2 步：在腦中或紙上畫出數量關係，決定運算方向",
+            "第 3 步：計算後回頭檢查進位、借位與單位是否一致"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "圈出已知條件",
+                "畫圖整理關係",
+                "列式計算驗算"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "數學三步解題法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g5/math#u10"
+        },
+        {
           "sceneId": "u10-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "判斷幾何圖形對稱軸與畫另一半",
@@ -849,7 +1342,24 @@
             "selfExplanationPrompt": "想一想：標準大寫英文字母 A、F、G、Z 中，哪一個是線對稱圖形？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g5/math#u10"
+          "factGroundingSourceId": "115-s2/g5/math#u10",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "從已知圖形的每個",
+                "在對稱軸另一側量",
+                "依照原本頂點的連"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u10-s3",

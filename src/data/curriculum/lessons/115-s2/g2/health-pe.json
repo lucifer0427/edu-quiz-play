@@ -30,8 +30,8 @@
             "params": {
               "leftTitle": "潔牙行動家",
               "leftPoints": [
-                "三餐飯後與睡前刷牙",
-                "內側、外側、咬合面都刷到"
+                "飯後睡前輕柔刷牙每面都刷到",
+                "如廁沖水、飯前便後肥皂洗手"
               ],
               "rightTitle": "每天好習慣",
               "rightPoints": [
@@ -49,6 +49,36 @@
                 "id": "l2",
                 "text": "洗手沖水坐端正",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u1"
+        },
+        {
+          "sceneId": "115-s2-g2-health-pe-u1-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「單元一、健康習慣真重要」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -75,7 +105,24 @@
             "selfExplanationPrompt": "想一想：為什麼睡覺前那一趟刷牙特別重要？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g2/health-pe#u1"
+          "factGroundingSourceId": "115-s2/g2/health-pe#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "力道輕柔，一顆一",
+                "每顆牙齒的外側、",
+                "刷完把牙刷沖乾淨"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -124,8 +171,8 @@
             "params": {
               "leftTitle": "我愛家人好表現",
               "leftPoints": [
-                "觀察家人疲勞並安靜體諒",
-                "發現錯了冷靜後誠實道歉"
+                "說謝謝、主動幫忙表達關愛",
+                "意見不同時商量輪流或合作"
               ],
               "rightTitle": "家庭休閒樂趣多",
               "rightPoints": [
@@ -143,6 +190,36 @@
                 "id": "l2",
                 "text": "全家互動更親近",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u2"
+        },
+        {
+          "sceneId": "115-s2-g2-health-pe-u2-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「單元二、讓家人更親近」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -169,7 +246,24 @@
             "selfExplanationPrompt": "想一想：看到爸爸媽媽下班很累時，你可以做什麼安靜又貼心的小事？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g2/health-pe#u2"
+          "factGroundingSourceId": "115-s2/g2/health-pe#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先停下來不搶奪，",
+                "好好說出自己想玩",
+                "一起商量輪流玩的"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -238,6 +332,46 @@
           "factGroundingSourceId": "115-s2/g2/health-pe#u3"
         },
         {
+          "sceneId": "115-s2-g2-health-pe-u3-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "掌握「單元三、健康舒適的社區」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "cognitiveChunks": [
+            "先圈出題幹關鍵字與限制條件，不急著搶答",
+            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
+            "選出答案後代回原題檢查一次，確認邏輯通順"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "正確解題思路",
+              "leftPoints": [
+                "掌握「單元三、健康舒適的社區」的核心規則與判斷條件",
+                "照步驟拆解線索，完成後再回頭核對一次"
+              ],
+              "rightTitle": "最常見陷阱",
+              "rightPoints": [
+                "還沒看清題目條件或關鍵字就憑直覺搶答",
+                "忽略單位、順序或題目中的反義詞提示"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "正確思路",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "避開陷阱",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u3"
+        },
+        {
           "sceneId": "u3-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "預防登革熱與愛護社區做法",
@@ -258,7 +392,24 @@
             "selfExplanationPrompt": "想一想：去社區公園散步時，怎樣做才是有公德心的好居民？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g2/health-pe#u3"
+          "factGroundingSourceId": "115-s2/g2/health-pe#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "定期把底盤和瓶罐",
+                "把容器內壁刷洗乾",
+                "用不到的空瓶要倒"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -327,6 +478,46 @@
           "factGroundingSourceId": "115-s2/g2/health-pe#u4"
         },
         {
+          "sceneId": "115-s2-g2-health-pe-u4-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "掌握「單元四、運動新體驗」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "cognitiveChunks": [
+            "先圈出題幹關鍵字與限制條件，不急著搶答",
+            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
+            "選出答案後代回原題檢查一次，確認邏輯通順"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "正確解題思路",
+              "leftPoints": [
+                "掌握「單元四、運動新體驗」的核心規則與判斷條件",
+                "照步驟拆解線索，完成後再回頭核對一次"
+              ],
+              "rightTitle": "最常見陷阱",
+              "rightPoints": [
+                "還沒看清題目條件或關鍵字就憑直覺搶答",
+                "忽略單位、順序或題目中的反義詞提示"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "正確思路",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "避開陷阱",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u4"
+        },
+        {
           "sceneId": "u4-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "平衡木與跳箱安全步驟",
@@ -347,7 +538,24 @@
             "selfExplanationPrompt": "想一想：在平衡木上練習走路時，為什麼眼睛要看前方不能看天花板？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g2/health-pe#u4"
+          "factGroundingSourceId": "115-s2/g2/health-pe#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "眼睛看清楚前方的",
+                "雙腳併攏或與肩同",
+                "落地瞬間膝蓋微彎"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -416,6 +624,46 @@
           "factGroundingSourceId": "115-s2/g2/health-pe#u5"
         },
         {
+          "sceneId": "115-s2-g2-health-pe-u5-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "掌握「單元五、運動 GO！」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "cognitiveChunks": [
+            "先圈出題幹關鍵字與限制條件，不急著搶答",
+            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
+            "選出答案後代回原題檢查一次，確認邏輯通順"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "正確解題思路",
+              "leftPoints": [
+                "掌握「單元五、運動 GO！」的核心規則與判斷條件",
+                "照步驟拆解線索，完成後再回頭核對一次"
+              ],
+              "rightTitle": "最常見陷阱",
+              "rightPoints": [
+                "還沒看清題目條件或關鍵字就憑直覺搶答",
+                "忽略單位、順序或題目中的反義詞提示"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "正確思路",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "避開陷阱",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u5"
+        },
+        {
           "sceneId": "u5-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "運動傷害處理與合作跳繩",
@@ -436,7 +684,24 @@
             "selfExplanationPrompt": "想一想：和朋友玩雙人跑步跳繩時，怎樣才不會被繩子絆倒？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g2/health-pe#u5"
+          "factGroundingSourceId": "115-s2/g2/health-pe#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "立刻停止運動坐下",
+                "馬上通知老師或身",
+                "前往健康中心請校"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",
@@ -485,8 +750,8 @@
             "params": {
               "leftTitle": "手部與持棒遊戲",
               "leftPoints": [
-                "拋球畫弧線往胸前飛",
-                "推推樂棒頭不舉高過頭"
+                "拋球畫弧線、接球手放胸前",
+                "推推樂看準方向平順輕推"
               ],
               "rightTitle": "足部控球與安全",
               "rightPoints": [
@@ -504,6 +769,36 @@
                 "id": "l2",
                 "text": "不對人用力猛踢",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u6"
+        },
+        {
+          "sceneId": "115-s2-g2-health-pe-u6-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「單元六、我喜歡玩球」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -530,7 +825,24 @@
             "selfExplanationPrompt": "想一想：玩「推推樂」拿球棒推球時，為什麼不可以把球棒高高舉過頭頂？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g2/health-pe#u6"
+          "factGroundingSourceId": "115-s2/g2/health-pe#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "眼睛偶爾抬頭看前",
+                "每一步都用腳輕輕",
+                "讓球一直保持在離"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u6-s3",
@@ -580,7 +892,7 @@
               "leftTitle": "多元運動體驗",
               "leftPoints": [
                 "武林高手節奏模仿、收操緩和",
-                "蜘蛛人攀岩運用全身與四肢"
+                "武林高手配合節拍且保持距離"
               ],
               "rightTitle": "場地與遊戲安全",
               "rightPoints": [
@@ -598,6 +910,36 @@
                 "id": "l2",
                 "text": "排隊輪流不推擠",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u7"
+        },
+        {
+          "sceneId": "115-s2-g2-health-pe-u7-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「單元七、運動萬花筒」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -624,7 +966,24 @@
             "selfExplanationPrompt": "想一想：玩「跳躍精靈」橡皮筋繩遊戲時，撐繩子的同學為什麼不能突然放手？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g2/health-pe#u7"
+          "factGroundingSourceId": "115-s2/g2/health-pe#u7",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認牆面下方有安",
+                "一次只讓一位同學",
+                "雙手抓緊岩點、雙"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u7-s3",
@@ -693,6 +1052,46 @@
           "factGroundingSourceId": "115-s2/g2/health-pe#u8"
         },
         {
+          "sceneId": "115-s2-g2-health-pe-u8-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "掌握「單元八、玩水樂翻天」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "cognitiveChunks": [
+            "先圈出題幹關鍵字與限制條件，不急著搶答",
+            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
+            "選出答案後代回原題檢查一次，確認邏輯通順"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "concept_compare",
+            "params": {
+              "leftTitle": "正確解題思路",
+              "leftPoints": [
+                "掌握「單元八、玩水樂翻天」的核心規則與判斷條件",
+                "照步驟拆解線索，完成後再回頭核對一次"
+              ],
+              "rightTitle": "最常見陷阱",
+              "rightPoints": [
+                "還沒看清題目條件或關鍵字就憑直覺搶答",
+                "忽略單位、順序或題目中的反義詞提示"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "正確思路",
+                "anchorPointId": "left"
+              },
+              {
+                "id": "l2",
+                "text": "避開陷阱",
+                "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s2/g2/health-pe#u8"
+        },
+        {
           "sceneId": "u8-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "水中韻律呼吸與抽筋應變",
@@ -713,7 +1112,24 @@
             "selfExplanationPrompt": "想一想：練習水母漂後想要站起來換氣時，雙手和雙腳要怎麼做？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g2/health-pe#u8"
+          "factGroundingSourceId": "115-s2/g2/health-pe#u8",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "立刻停止游泳或玩",
+                "擦乾身體並披上毛",
+                "馬上告訴老師、救"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u8-s3",

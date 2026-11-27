@@ -73,7 +73,24 @@
             "selfExplanationPrompt": "想一想：如果把 4073 讀出來，百位的 0 要讀嗎？個位如果是 0 又該怎麼讀？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/math#u1"
+          "factGroundingSourceId": "115-s1/g3/math#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "寫出千位是 4（",
+                "沒有一百元硬幣，",
+                "十位寫 7、個位"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -135,8 +152,8 @@
             "params": {
               "leftTitle": "四位數加法",
               "leftPoints": [
-                "從個位加起",
-                "滿 10 向前一位進 1"
+                "同位值上下對齊（個對個、千對千）",
+                "加法滿 10 向左進 1"
               ],
               "rightTitle": "四位數減法",
               "rightPoints": [
@@ -179,7 +196,24 @@
             "selfExplanationPrompt": "想一想：為什麼加法驗算時要把「算出的答案」加上「減掉的數」？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/math#u2"
+          "factGroundingSourceId": "115-s1/g3/math#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "向千位借 1，千",
+                "個位 10-6=",
+                "用加法驗算：35"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -282,7 +316,24 @@
             "selfExplanationPrompt": "想一想：如果把 12 公分先全部換成 120 毫米再減 43 毫米，答案會一樣嗎？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/math#u3"
+          "factGroundingSourceId": "115-s1/g3/math#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "12 公分沒有毫",
+                "毫米相減：10 ",
+                "公分相減：11 "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -383,7 +434,24 @@
             "selfExplanationPrompt": "想一想：如果用「300 × 4 + 7 × 4」來心算，結果是不是也是 1228？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/math#u4"
+          "factGroundingSourceId": "115-s1/g3/math#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "個位 7 × 4",
+                "十位 0 × 4",
+                "百位 3 × 4"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -483,7 +551,24 @@
             "selfExplanationPrompt": "想一想：把正方形課本轉一個角度斜斜擺在桌上，它的四個角還是直角嗎？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/math#u5"
+          "factGroundingSourceId": "115-s1/g3/math#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "用三角板檢查四個",
+                "用直尺量四條邊的",
+                "四邊都一樣長是正"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",
@@ -545,8 +630,8 @@
             "params": {
               "leftTitle": "分裝與除",
               "leftPoints": [
-                "每幾個裝成一份",
-                "問可以裝幾份"
+                "被除數 ÷ 除數＝商 ⋯⋯ 餘數",
+                "餘數一定要比除數小"
               ],
               "rightTitle": "平分與除",
               "rightPoints": [
@@ -589,7 +674,24 @@
             "selfExplanationPrompt": "想一想：如果題目問「38 顆蘋果每 5 顆裝一袋，全部裝完最少要幾個袋子」，餘數該怎麼辦？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/math#u6"
+          "factGroundingSourceId": "115-s1/g3/math#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "想 6 的乘法，",
+                "商寫 7，47 ",
+                "檢查餘數 5 <"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u6-s3",
@@ -693,7 +795,24 @@
             "selfExplanationPrompt": "想一想：4080 公克改寫成幾公斤幾公克時，為什麼不是 4 公斤 800 公克？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/math#u7"
+          "factGroundingSourceId": "115-s1/g3/math#u7",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "150 公克不夠",
+                "2 公斤 150",
+                "1150 - 4"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u7-s3",
@@ -791,7 +910,24 @@
             "selfExplanationPrompt": "想一想：同分母分數比大小時（例如 5/9 和 7/9），為什麼可以直接比分子？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/math#u8"
+          "factGroundingSourceId": "115-s1/g3/math#u8",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "把 1 條緞帶平",
+                "剪去 4 份（4",
+                "7 - 4 = "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u8-s3",
@@ -853,8 +989,8 @@
             "params": {
               "leftTitle": "圖案重複規律",
               "leftPoints": [
-                "先找出幾張為一組",
-                "用除法餘數找第幾個"
+                "二維表格要同時對照「橫列」和「直行」",
+                "圖案規律先框出重複的一組"
               ],
               "rightTitle": "數字增減規律",
               "rightPoints": [
@@ -897,7 +1033,24 @@
             "selfExplanationPrompt": "想一想：如果剛好整除（餘數是 0），那代表這一組的第幾個顏色？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/math#u9"
+          "factGroundingSourceId": "115-s1/g3/math#u9",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "看出每 3 面（",
+                "計算 11 ÷ ",
+                "餘 2 代表新一"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u9-s3",

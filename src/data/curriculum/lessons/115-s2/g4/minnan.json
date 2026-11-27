@@ -74,7 +74,24 @@
             "selfExplanationPrompt": "想一想：俗諺「千金買厝，萬金買厝邊」為什麼說好鄰居比昂貴的房子更難得珍貴？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/minnan#u1"
+          "factGroundingSourceId": "115-s2/g4/minnan#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "出門前與家人確認",
+                "結帳時禮貌問店員",
+                "接過商品與發票找"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -180,7 +197,24 @@
             "selfExplanationPrompt": "想一想：俗諺「食果子，拜樹頭；食米飯，敬田頭」和愛護野生動物棲地有什麼關聯？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/minnan#u2"
+          "factGroundingSourceId": "115-s2/g4/minnan#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "用毋通（不要）溫",
+                "提醒糞埽毋通烏白",
+                "反思人類用完就丟"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -282,7 +316,24 @@
             "selfExplanationPrompt": "想一想：俗諺「一日之計在於晨，一年之計在於春」提醒我們在時間規劃上該把握什麼時候？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g4/minnan#u3"
+          "factGroundingSourceId": "115-s2/g4/minnan#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "下晡四點轉來厝是",
+                "下午五點半先完成",
+                "暗頓後閣看半點鐘"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",

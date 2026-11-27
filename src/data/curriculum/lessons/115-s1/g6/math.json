@@ -30,8 +30,8 @@
             "params": {
               "leftTitle": "最大公因數",
               "leftPoints": [
-                "短除法只乘左邊共同除數",
-                "常用於平分物品、分數約分"
+                "20 以內質數：2, 3, 5, 7, 11, 13, 17, 19",
+                "1 既不是質數也不是合數"
               ],
               "rightTitle": "最小公倍數",
               "rightPoints": [
@@ -74,7 +74,24 @@
             "selfExplanationPrompt": "想一想：如果兩個數的最大公因數是 1（互質），它們的最小公倍數要怎麼算？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/math#u1"
+          "factGroundingSourceId": "115-s1/g6/math#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先同除以公因數 ",
+                "6 和 9 同除",
+                "左邊除數相乘 2"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-math-u1-s3",
@@ -174,7 +191,24 @@
             "selfExplanationPrompt": "想一想：為什麼 5/2 ÷ 5/6 算完的商是 3，會比原來的被除數 2 又 1/2 還要大？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/math#u2"
+          "factGroundingSourceId": "115-s1/g6/math#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先把帶分數化為假",
+                "除以 5/6 改",
+                "分子分母交叉約分"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-math-u2-s3",
@@ -277,7 +311,24 @@
             "selfExplanationPrompt": "想一想：把 n = 1、2、3 代入「3 × n + 1」，算出來是不是剛好是 4、7、10？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/math#u3"
+          "factGroundingSourceId": "115-s1/g6/math#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察數量變化：4",
+                "把第 1 個正方",
+                "排 n 個就需要"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-math-u3-s3",
@@ -378,7 +429,24 @@
             "selfExplanationPrompt": "想一想：6 瓶 × 0.9 公升 = 5.4 公升，再加上剩下的 0.2 公升，剛好等於原本的 5.6 公升嗎？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/math#u4"
+          "factGroundingSourceId": "115-s1/g6/math#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "把 5.6 和 ",
+                "56 ÷ 9 =",
+                "餘數的小數點要對"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-math-u4-s3",
@@ -440,8 +508,8 @@
             "params": {
               "leftTitle": "比（a : b）",
               "leftPoints": [
-                "表示前項與後項的倍數關係",
-                "前後項順序不能任意對調"
+                "a : b 的比值 ＝ a ÷ b（可寫成分數 a/b）",
+                "前後項同乘或同除一個不為 0 的數，比值不變"
               ],
               "rightTitle": "比值（a ÷ b）",
               "rightPoints": [
@@ -484,7 +552,24 @@
             "selfExplanationPrompt": "想一想：如果題目給的是小數比 0.6 : 0.8，要怎麼先變成最簡單整數比？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/math#u5"
+          "factGroundingSourceId": "115-s1/g6/math#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "計算總份數：3 ",
+                "算出 1 份有幾",
+                "甲佔 3 份，所"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-math-u5-s3",
@@ -587,7 +672,24 @@
             "selfExplanationPrompt": "想一想：如果題目問的是「半圓形」的周長，除了半圓弧長，還要加上哪一段長度？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/math#u6"
+          "factGroundingSourceId": "115-s1/g6/math#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先算完整圓周長：",
+                "算 1/4 圓的",
+                "加上兩條半徑：1"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-math-u6-s3",
@@ -687,7 +789,24 @@
             "selfExplanationPrompt": "想一想：如果是綁繩子的羊吃草問題，木樁綁在穀倉牆角外，羊的活動範圍會受到牆壁什麼限制？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/math#u7"
+          "factGroundingSourceId": "115-s1/g6/math#u7",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "算大圓面積的平方",
+                "算小圓面積的平方",
+                "相減後乘以 3."
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-math-u7-s3",
@@ -794,7 +913,24 @@
             "selfExplanationPrompt": "想一想：如果上山 6 公里花 2 小時、下山 6 公里花 1 小時，全程的平均時速是多少？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/math#u8"
+          "factGroundingSourceId": "115-s1/g6/math#u8",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "先把距離換成公尺",
+                "把 1 小時換成",
+                "再把 1 分鐘換"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-math-u8-s3",
@@ -856,8 +992,8 @@
             "params": {
               "leftTitle": "放大圖／縮圖性質",
               "leftPoints": [
-                "對應角大小永遠相等",
-                "對應邊長同時乘以縮放倍率"
+                "對應角永遠相等（度數不變）",
+                "對應邊長成相同比例（n 倍放大圖邊長變 n 倍）"
               ],
               "rightTitle": "地圖比例尺",
               "rightPoints": [
@@ -900,7 +1036,24 @@
             "selfExplanationPrompt": "想一想：如果實際距離 2 公里畫在地圖上變成 4 公分，怎麼寫成「1 : □」的比例尺？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/math#u9"
+          "factGroundingSourceId": "115-s1/g6/math#u9",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "算出實際距離（公",
+                "先把公分換成公尺",
+                "再把公尺換成公里"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-math-u9-s3",

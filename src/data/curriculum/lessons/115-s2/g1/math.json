@@ -67,7 +67,24 @@
             "selfExplanationPrompt": "想一想：35 顆彈珠每 10 顆裝 1 袋，可以裝滿幾袋又多幾顆？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g1/math#u1"
+          "factGroundingSourceId": "115-s2/g1/math#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "10 個一數，4",
+                "接著數 3 個一",
+                "4 個十和 3 "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1-s3",
@@ -168,7 +185,24 @@
             "selfExplanationPrompt": "想一想：如果知道 6 + 9 = 15，那麼交換位置變成 9 + 6 會等於多少？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g1/math#u2"
+          "factGroundingSourceId": "115-s2/g1/math#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "9 只要再加 1",
+                "把 6 分成 1",
+                "再算 10 + "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2-s3",
@@ -231,7 +265,7 @@
               "leftTitle": "正方形與長方形",
               "leftPoints": [
                 "都有 4 條直邊和 4 個角",
-                "正方形 4 邊一樣長"
+                "正方形 4 邊等長；長方形對邊等長"
               ],
               "rightTitle": "三角形與圓形",
               "rightPoints": [
@@ -274,7 +308,24 @@
             "selfExplanationPrompt": "想一想：把紅蘋果和紅草莓放在同一堆，是依照什麼特徵分類的？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g1/math#u3"
+          "factGroundingSourceId": "115-s2/g1/math#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "找出三種水果的票",
+                "比比看三個數字誰",
+                "所以票數最多的是"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3-s3",
@@ -375,7 +426,24 @@
             "selfExplanationPrompt": "想一想：16 - 9 = 7，15 - 9 = 6，那麼 14 - 9 會等於多少？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g1/math#u4"
+          "factGroundingSourceId": "115-s2/g1/math#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "把 15 分成 ",
+                "先用 10 減掉",
+                "再把剩下的 5 "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4-s3",
@@ -437,8 +505,8 @@
             "params": {
               "leftTitle": "正確量法",
               "leftPoints": [
-                "從起點對齊",
-                "一個緊接一個排成直線"
+                "搬不動時用繩子做間接比較",
+                "量長度要一個緊接一個排成直線"
               ],
               "rightTitle": "錯誤量法",
               "rightPoints": [
@@ -481,7 +549,24 @@
             "selfExplanationPrompt": "想一想：10 個迴紋針長的紙帶，剪掉 3 個迴紋針長後，還剩幾個迴紋針長？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g1/math#u5"
+          "factGroundingSourceId": "115-s2/g1/math#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "兩根吸管用的都是",
+                "頭尾接在一起會變",
+                "5 + 4 = "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u5-s3",
@@ -579,7 +664,24 @@
             "selfExplanationPrompt": "想一想：6 個十和 9 個一合起來要寫成哪一個數字？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g1/math#u6"
+          "factGroundingSourceId": "115-s2/g1/math#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "百數表每一橫排有",
+                "往下移一格，十位",
+                "56 多 10 "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u6-s3",
@@ -685,7 +787,24 @@
             "selfExplanationPrompt": "想一想：買一盒 34 元的彩色筆，只用 10 元硬幣付錢，最少要付幾個 10 元才夠？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g1/math#u7"
+          "factGroundingSourceId": "115-s2/g1/math#u7",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "從最大的 50 ",
+                "接著十個一數 2",
+                "最後數 3 個 "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u7-s3",
@@ -786,7 +905,24 @@
             "selfExplanationPrompt": "想一想：故事書有 65 頁，看了 29 頁，還有幾頁沒看要怎麼借位算？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g1/math#u8"
+          "factGroundingSourceId": "115-s2/g1/math#u8",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "個位 2 不夠減",
+                "個位先減：12 ",
+                "十位剩 4 減 "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u8-s3",
@@ -882,7 +1018,24 @@
             "selfExplanationPrompt": "想一想：3 月 31 日是 3 月最後一天，過完這天明天會是幾月幾日？",
             "keepStepCardVisible": true
           },
-          "factGroundingSourceId": "115-s2/g1/math#u9"
+          "factGroundingSourceId": "115-s2/g1/math#u9",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "記住一個星期有 ",
+                "從 6 日再過 ",
+                "所以下一個星期一"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u9-s3",

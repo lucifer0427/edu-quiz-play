@@ -70,7 +70,24 @@
             "selfExplanationPrompt": "想一想：為什麼「創作旋律再親自用直笛吹奏出來」的學習流程，能讓我們對音階結構與節奏掌握更深刻？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/arts#u1"
+          "factGroundingSourceId": "115-s2/g6/arts#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "直笛吹奏——保持",
+                "合奏平衡——歌聲",
+                "多元欣賞——聽到"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-arts-u1-s3",
@@ -132,8 +149,8 @@
             "params": {
               "leftTitle": "畢業合唱與律動",
               "leftPoints": [
-                "品味歌詞傳達深厚祝福情意",
-                "傾聽同伴音量音準融入團隊"
+                "肢體律動讓抽象拍點具象化，記住節奏型態",
+                "附點與切分節奏增添推動力與情感張力"
               ],
               "rightTitle": "直笛二部合奏",
               "rightPoints": [
@@ -176,7 +193,24 @@
             "selfExplanationPrompt": "想一想：樂譜中出現「附點節奏」或「切分音」時，通常會帶給歌曲什麼樣的聽覺感受？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/arts#u2"
+          "factGroundingSourceId": "115-s2/g6/arts#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "穩固獨立——先與",
+                "同步起收——演出",
+                "合唱融合——演唱"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-arts-u2-s3",
@@ -282,7 +316,24 @@
             "selfExplanationPrompt": "想一想：在〈讓看展有「藝」思〉製作的導覽手冊裡，包含哪些內容最能幫助參觀者順暢看懂展覽？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/arts#u3"
+          "factGroundingSourceId": "115-s2/g6/arts#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "視覺與色彩——設",
+                "資訊分層——字體",
+                "立體卡與導覽——"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-arts-u3-s3",
@@ -384,7 +435,24 @@
             "selfExplanationPrompt": "想一想：什麼是「共融式遊戲場」？為什麼保障每個人遊戲的權利也是人權教育的重要一環？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/arts#u4"
+          "factGroundingSourceId": "115-s2/g6/arts#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "分類歸納需求——",
+                "空間配置——在基",
+                "模型與展示——以"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-arts-u4-s3",
@@ -490,7 +558,24 @@
             "selfExplanationPrompt": "想一想：在「圓形／環形舞臺」演戲時，演員的走位與面向和在傳統「鏡框式舞臺」有什麼不同？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/arts#u5"
+          "factGroundingSourceId": "115-s2/g6/arts#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "戲服平權與敘事—",
+                "舞臺實用性——確",
+                "劇場禮儀——準時"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-arts-u5-s3",
@@ -592,7 +677,24 @@
             "selfExplanationPrompt": "想一想：全班合唱畢業歌時搭配溫柔整齊的肢體律動，對台上同學與台下觀眾有什麼影響？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s2/g6/arts#u6"
+          "factGroundingSourceId": "115-s2/g6/arts#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "自畫像創作——觀",
+                "劇本來源——全班",
+                "平權參與——融入"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s2-arts-u6-s3",

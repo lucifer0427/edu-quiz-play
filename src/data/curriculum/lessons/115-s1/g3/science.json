@@ -31,7 +31,7 @@
               "leftTitle": "1、認識植物",
               "leftPoints": [
                 "認識「1、認識植物」的核心概念與現象，並理解其背後原因。",
-                "透過觀察與討論，將"
+                "透過觀察與討論，將「1、認識植物」的知識應用在日常生活中。"
               ],
               "rightTitle": "學習行動小秘訣",
               "rightPoints": [
@@ -49,6 +49,36 @@
                 "id": "l2",
                 "text": "重點與應用",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u1"
+        },
+        {
+          "sceneId": "115-s1-g3-science-u1-l1-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「1、認識植物」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -74,7 +104,24 @@
             "selfExplanationPrompt": "試著用自己的話說出「1、認識植物」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/science#u1"
+          "factGroundingSourceId": "115-s1/g3/science#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認題目在問1、",
+                "對照本課核心認識",
+                "排除沒有根據或相"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1l1-s3",
@@ -124,7 +171,7 @@
               "leftTitle": "2、植物的葉、莖、根",
               "leftPoints": [
                 "認識「2、植物的葉、莖、根」的核心概念與現象",
-                "透過觀察與討論，將"
+                "透過觀察與討論，將「2、植物的葉、莖、根」的知識應用在日常生活中。"
               ],
               "rightTitle": "學習行動小秘訣",
               "rightPoints": [
@@ -142,6 +189,36 @@
                 "id": "l2",
                 "text": "重點與應用",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u1"
+        },
+        {
+          "sceneId": "115-s1-g3-science-u1-l2-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「2、植物的葉、莖、根」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -167,7 +244,24 @@
             "selfExplanationPrompt": "試著用自己的話說出「2、植物的葉、莖、根」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/science#u1"
+          "factGroundingSourceId": "115-s1/g3/science#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認題目在問2、",
+                "對照本課核心認識",
+                "排除沒有根據或相"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1l2-s3",
@@ -241,6 +335,36 @@
           "factGroundingSourceId": "115-s1/g3/science#u1"
         },
         {
+          "sceneId": "115-s1-g3-science-u1-l3-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「3、植物的花、果實、種子」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u1"
+        },
+        {
           "sceneId": "u1l3-s2",
           "componentType": "WORKED_EXAMPLE_SPLIT",
           "title": "掌握重點不迷路",
@@ -260,7 +384,24 @@
             "selfExplanationPrompt": "試著用自己的話說出「3、植物的花、果實、種子」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/science#u1"
+          "factGroundingSourceId": "115-s1/g3/science#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認題目在問3、",
+                "對照本課核心認識",
+                "排除沒有根據或相"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u1l3-s3",
@@ -310,7 +451,7 @@
               "leftTitle": "1、磁鐵的磁力",
               "leftPoints": [
                 "認識「1、磁鐵的磁力」的核心概念與現象",
-                "透過觀察與討論，將"
+                "透過觀察與討論，將「1、磁鐵的磁力」的知識應用在日常生活中。"
               ],
               "rightTitle": "學習行動小秘訣",
               "rightPoints": [
@@ -328,6 +469,36 @@
                 "id": "l2",
                 "text": "重點與應用",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u2"
+        },
+        {
+          "sceneId": "115-s1-g3-science-u2-l1-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「1、磁鐵的磁力」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -353,7 +524,24 @@
             "selfExplanationPrompt": "試著用自己的話說出「1、磁鐵的磁力」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/science#u2"
+          "factGroundingSourceId": "115-s1/g3/science#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認題目在問1、",
+                "對照本課核心認識",
+                "排除沒有根據或相"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2l1-s3",
@@ -403,7 +591,7 @@
               "leftTitle": "2、磁鐵的祕密",
               "leftPoints": [
                 "認識「2、磁鐵的祕密」的核心概念與現象",
-                "透過觀察與討論，將"
+                "透過觀察與討論，將「2、磁鐵的祕密」的知識應用在日常生活中。"
               ],
               "rightTitle": "學習行動小秘訣",
               "rightPoints": [
@@ -421,6 +609,36 @@
                 "id": "l2",
                 "text": "重點與應用",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u2"
+        },
+        {
+          "sceneId": "115-s1-g3-science-u2-l2-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「2、磁鐵的祕密」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -446,7 +664,24 @@
             "selfExplanationPrompt": "試著用自己的話說出「2、磁鐵的祕密」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/science#u2"
+          "factGroundingSourceId": "115-s1/g3/science#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認題目在問2、",
+                "對照本課核心認識",
+                "排除沒有根據或相"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2l2-s3",
@@ -496,7 +731,7 @@
               "leftTitle": "3、磁鐵在生活中的應用",
               "leftPoints": [
                 "認識「3、磁鐵在生活中的應用」的核心概念與現象",
-                "透過觀察與討論，將"
+                "透過觀察與討論，將「3、磁鐵在生活中的應用」的知識應用在日常生活中。"
               ],
               "rightTitle": "學習行動小秘訣",
               "rightPoints": [
@@ -514,6 +749,36 @@
                 "id": "l2",
                 "text": "重點與應用",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u2"
+        },
+        {
+          "sceneId": "115-s1-g3-science-u2-l3-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「3、磁鐵在生活中的應用」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -539,7 +804,24 @@
             "selfExplanationPrompt": "試著用自己的話說出「3、磁鐵在生活中的應用」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/science#u2"
+          "factGroundingSourceId": "115-s1/g3/science#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認題目在問3、",
+                "對照本課核心認識",
+                "排除沒有根據或相"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u2l3-s3",
@@ -589,7 +871,7 @@
               "leftTitle": "1、風力與風向",
               "leftPoints": [
                 "認識「1、風力與風向」的核心概念與現象",
-                "透過觀察與討論，將"
+                "透過觀察與討論，將「1、風力與風向」的知識應用在日常生活中。"
               ],
               "rightTitle": "學習行動小秘訣",
               "rightPoints": [
@@ -607,6 +889,36 @@
                 "id": "l2",
                 "text": "重點與應用",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u3"
+        },
+        {
+          "sceneId": "115-s1-g3-science-u3-l1-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「1、風力與風向」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -632,7 +944,24 @@
             "selfExplanationPrompt": "試著用自己的話說出「1、風力與風向」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/science#u3"
+          "factGroundingSourceId": "115-s1/g3/science#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認題目在問1、",
+                "對照本課核心認識",
+                "排除沒有根據或相"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3l1-s3",
@@ -682,7 +1011,7 @@
               "leftTitle": "2、奇妙的空氣",
               "leftPoints": [
                 "認識「2、奇妙的空氣」的核心概念與現象",
-                "透過觀察與討論，將"
+                "透過觀察與討論，將「2、奇妙的空氣」的知識應用在日常生活中。"
               ],
               "rightTitle": "學習行動小秘訣",
               "rightPoints": [
@@ -700,6 +1029,36 @@
                 "id": "l2",
                 "text": "重點與應用",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u3"
+        },
+        {
+          "sceneId": "115-s1-g3-science-u3-l2-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「2、奇妙的空氣」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -725,7 +1084,24 @@
             "selfExplanationPrompt": "試著用自己的話說出「2、奇妙的空氣」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/science#u3"
+          "factGroundingSourceId": "115-s1/g3/science#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認題目在問2、",
+                "對照本課核心認識",
+                "排除沒有根據或相"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3l2-s3",
@@ -775,7 +1151,7 @@
               "leftTitle": "3、空氣、風與生活",
               "leftPoints": [
                 "認識「3、空氣、風與生活」的核心概念與現象",
-                "透過觀察與討論，將"
+                "透過觀察與討論，將「3、空氣、風與生活」的知識應用在日常生活中。"
               ],
               "rightTitle": "學習行動小秘訣",
               "rightPoints": [
@@ -793,6 +1169,36 @@
                 "id": "l2",
                 "text": "重點與應用",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u3"
+        },
+        {
+          "sceneId": "115-s1-g3-science-u3-l3-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「3、空氣、風與生活」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -818,7 +1224,24 @@
             "selfExplanationPrompt": "試著用自己的話說出「3、空氣、風與生活」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/science#u3"
+          "factGroundingSourceId": "115-s1/g3/science#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認題目在問3、",
+                "對照本課核心認識",
+                "排除沒有根據或相"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u3l3-s3",
@@ -868,7 +1291,7 @@
               "leftTitle": "1、分辨物質的方法",
               "leftPoints": [
                 "認識「1、分辨物質的方法」的核心概念與現象",
-                "透過觀察與討論，將"
+                "透過觀察與討論，將「1、分辨物質的方法」的知識應用在日常生活中。"
               ],
               "rightTitle": "學習行動小秘訣",
               "rightPoints": [
@@ -886,6 +1309,36 @@
                 "id": "l2",
                 "text": "重點與應用",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u4"
+        },
+        {
+          "sceneId": "115-s1-g3-science-u4-l1-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「1、分辨物質的方法」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -911,7 +1364,24 @@
             "selfExplanationPrompt": "試著用自己的話說出「1、分辨物質的方法」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/science#u4"
+          "factGroundingSourceId": "115-s1/g3/science#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認題目在問1、",
+                "對照本課核心認識",
+                "排除沒有根據或相"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4l1-s3",
@@ -961,7 +1431,7 @@
               "leftTitle": "2、物質在水中溶解了",
               "leftPoints": [
                 "認識「2、物質在水中溶解了」的核心概念與現象",
-                "透過觀察與討論，將"
+                "透過觀察與討論，將「2、物質在水中溶解了」的知識應用在日常生活中。"
               ],
               "rightTitle": "學習行動小秘訣",
               "rightPoints": [
@@ -979,6 +1449,36 @@
                 "id": "l2",
                 "text": "重點與應用",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u4"
+        },
+        {
+          "sceneId": "115-s1-g3-science-u4-l2-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「2、物質在水中溶解了」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -1004,7 +1504,24 @@
             "selfExplanationPrompt": "試著用自己的話說出「2、物質在水中溶解了」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/science#u4"
+          "factGroundingSourceId": "115-s1/g3/science#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認題目在問2、",
+                "對照本課核心認識",
+                "排除沒有根據或相"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4l2-s3",
@@ -1054,7 +1571,7 @@
               "leftTitle": "3、溶解的應用",
               "leftPoints": [
                 "認識「3、溶解的應用」的核心概念與現象",
-                "透過觀察與討論，將"
+                "透過觀察與討論，將「3、溶解的應用」的知識應用在日常生活中。"
               ],
               "rightTitle": "學習行動小秘訣",
               "rightPoints": [
@@ -1072,6 +1589,36 @@
                 "id": "l2",
                 "text": "重點與應用",
                 "anchorPointId": "right"
+              }
+            ]
+          },
+          "factGroundingSourceId": "115-s1/g3/science#u4"
+        },
+        {
+          "sceneId": "115-s1-g3-science-u4-l3-s1b-flow",
+          "componentType": "ANCHOR_SCENE",
+          "title": "圖解思考步驟與解題口訣",
+          "narrationText": "理解「3、溶解的應用」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "cognitiveChunks": [
+            "第 1 步：先看清題目描述的情境、對象與變化條件",
+            "第 2 步：回想課本學過的原理、分類標準或生活規範",
+            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+          ],
+          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "觀察現象特徵",
+                "連結因果原理",
+                "排除錯誤敘述"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "探究三步思考法",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -1097,7 +1644,24 @@
             "selfExplanationPrompt": "試著用自己的話說出「3、溶解的應用」的一個重點！",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g3/science#u4"
+          "factGroundingSourceId": "115-s1/g3/science#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "確認題目在問3、",
+                "對照本課核心認識",
+                "排除沒有根據或相"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "u4l3-s3",

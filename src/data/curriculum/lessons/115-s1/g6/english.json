@@ -74,7 +74,24 @@
             "selfExplanationPrompt": "想一想：在 World Map & Fast Facts 裡，地球上的七大洲（continents）你認識哪幾個英文名稱？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/english#u0"
+          "factGroundingSourceId": "115-s1/g6/english#u0",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "Room 305",
+                "80% 是百分比",
+                "bike 有字尾"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-english-u0-s3",
@@ -180,7 +197,24 @@
             "selfExplanationPrompt": "想一想：為什麼 teacher 字尾是 -er，而 doctor 字尾是 -or，但兩個字尾聽起來都一樣？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/english#u1"
+          "factGroundingSourceId": "115-s1/g6/english#u1",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "主詞 Amy 是",
+                "回答的代名詞用 ",
+                "若是簡答 \"Is"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-english-u1-s3",
@@ -286,7 +320,24 @@
             "selfExplanationPrompt": "想一想：如果問句開頭是 \"Does Mia go to school by bus?\"，否定簡答要怎麼回答？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/english#u2"
+          "factGroundingSourceId": "115-s1/g6/english#u2",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "主詞 Ken 是",
+                "問句裡已經有 d",
+                "交通方式騎腳踏車"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-english-u2-s3",
@@ -392,7 +443,24 @@
             "selfExplanationPrompt": "想一想：如果主詞是 \"you and your sister\"（你和你妹妹），回答時要用哪一個代名詞？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/english#u3"
+          "factGroundingSourceId": "115-s1/g6/english#u3",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "問句是 \"Is ",
+                "She 是第三人",
+                "騎腳踏車應使用介"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-english-u3-s3",
@@ -498,7 +566,24 @@
             "selfExplanationPrompt": "想一想：oi 和 oy 都發 /ɔɪ/ 的音，為什麼 coin 用 oi 而 toy 用 oy？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/english#u4"
+          "factGroundingSourceId": "115-s1/g6/english#u4",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "主詞 your ",
+                "有助動詞 doe",
+                "答句主詞 He "
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-english-u4-s3",
@@ -597,7 +682,24 @@
             "selfExplanationPrompt": "想一想：snow 和 cow 都含有 ow，為什麼唸起來不一樣？哪一個和 house 一樣發 /aʊ/？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/english#u5"
+          "factGroundingSourceId": "115-s1/g6/english#u5",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "主詞 Tom 是",
+                "時間 7:15 ",
+                "具體時刻前面加上"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-english-u5-s3",
@@ -703,7 +805,24 @@
             "selfExplanationPrompt": "想一想：認識不同國家過新年的習俗時，最重要的是抱持什麼樣的態度？",
             "keepStepCardVisible": false
           },
-          "factGroundingSourceId": "115-s1/g6/english#u6"
+          "factGroundingSourceId": "115-s1/g6/english#u6",
+          "visualSpec": {
+            "templateId": "flow_cause",
+            "params": {
+              "nodes": [
+                "題目開頭是 Wh",
+                "在短文第一句找到",
+                "用第三人稱單數完"
+              ]
+            },
+            "spatialLabels": [
+              {
+                "id": "l1",
+                "text": "例題拆解步驟",
+                "anchorPointId": "bottom"
+              }
+            ]
+          }
         },
         {
           "sceneId": "g6s1-english-u6-s3",
