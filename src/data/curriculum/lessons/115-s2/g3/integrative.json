@@ -30,8 +30,8 @@
             "params": {
               "leftTitle": "溝通小偵探",
               "leftPoints": [
-                "友善徵詢、不命令搶拿物品",
-                "眼神專注點頭提問是好傾聽"
+                "借物禮貌徵詢並承諾歸還",
+                "說出事實、感受與解決辦法"
               ],
               "rightTitle": "大家來溝通",
               "rightPoints": [
@@ -55,29 +55,32 @@
           "factGroundingSourceId": "115-s2/g3/integrative#u1"
         },
         {
-          "sceneId": "115-s2-g3-integrative-u1-s1b-flow",
+          "sceneId": "115-s2-g3-integrative-u1-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "理解「一、你我好關係」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "title": "一、你我好關係：知識架構心智圖",
+          "narrationText": "透過上方探究學習心智圖，掌握「一、你我好關係」的觀察線索、因果關聯與生活應用，作答時就能精準判斷！",
           "cognitiveChunks": [
-            "第 1 步：先看清題目描述的情境、對象與變化條件",
-            "第 2 步：回想課本學過的原理、分類標準或生活規範",
-            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+            "觀察現象：仔細留意生活中的特徵與變化線索",
+            "思考原因：連結課本學過的自然原理或社會規範",
+            "比較異同：分辨不同情境下的條件差異與影響",
+            "生活應用：將所學知識運用在日常判斷與行動中"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_map",
             "params": {
-              "nodes": [
-                "觀察現象特徵",
-                "連結因果原理",
-                "排除錯誤敘述"
+              "center": "一、你我好關係",
+              "branches": [
+                "觀察現象：仔細留意生活中的特徵與變化線索",
+                "思考原因：連結課本學過的自然原理或社會規範",
+                "比較異同：分辨不同情境下的條件差異與影響",
+                "生活應用：將所學知識運用在日常判斷與行動中"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "探究三步思考法",
+                "text": "探究學習心智圖",
                 "anchorPointId": "bottom"
               }
             ]
@@ -109,15 +112,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "先深呼吸冷靜下來",
-                "說出事實與感受 ",
-                "加上合作解決的做"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -190,40 +193,33 @@
           "factGroundingSourceId": "115-s2/g3/integrative#u2"
         },
         {
-          "sceneId": "115-s2-g3-integrative-u2-s1b-flow",
+          "sceneId": "115-s2-g3-integrative-u2-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "掌握「二、學習桃花源」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "title": "二、學習桃花源：知識架構心智圖",
+          "narrationText": "透過上方知識心智圖，記住植物四大器官的分工合作：根吸水、莖輸送、葉造養分、花果負責繁殖，作答時就能迅速對應正確功能！",
           "cognitiveChunks": [
-            "先圈出題幹關鍵字與限制條件，不急著搶答",
-            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
-            "選出答案後代回原題檢查一次，確認邏輯通順"
+            "根部功能：吸收水分養分並固定植株",
+            "莖部功能：支撐植物並輸送水分養分",
+            "葉片功能：吸收陽光進行光合作用",
+            "花與果實：授粉結果以繁殖下一代"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "concept_compare",
+            "templateId": "concept_map",
             "params": {
-              "leftTitle": "正確解題思路",
-              "leftPoints": [
-                "掌握「二、學習桃花源」的核心規則與判斷條件",
-                "照步驟拆解線索，完成後再回頭核對一次"
-              ],
-              "rightTitle": "最常見陷阱",
-              "rightPoints": [
-                "還沒看清題目條件或關鍵字就憑直覺搶答",
-                "忽略單位、順序或題目中的反義詞提示"
+              "center": "二、學習桃花源",
+              "branches": [
+                "根部功能：吸收水分養分並固定植株",
+                "莖部功能：支撐植物並輸送水分養分",
+                "葉片功能：吸收陽光進行光合作用",
+                "花與果實：授粉結果以繁殖下一代"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "正確思路",
-                "anchorPointId": "left"
-              },
-              {
-                "id": "l2",
-                "text": "避開陷阱",
-                "anchorPointId": "right"
+                "text": "植物構造心智圖",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -254,15 +250,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "先把桌上玩具平板",
-                "閱讀時用螢光筆畫",
-                "畫成心智圖或比較"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -316,7 +312,7 @@
               "leftTitle": "校園發現美",
               "leftPoints": [
                 "觀察花木光影與助人溫暖身影",
-                "用畫畫、拍照、寫詩等多元方式表達"
+                "看見垃圾先撿起分類再拍照"
               ],
               "rightTitle": "校園的美化",
               "rightPoints": [
@@ -340,29 +336,32 @@
           "factGroundingSourceId": "115-s2/g3/integrative#u3"
         },
         {
-          "sceneId": "115-s2-g3-integrative-u3-s1b-flow",
+          "sceneId": "115-s2-g3-integrative-u3-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "理解「三、一起尋美趣」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "title": "三、一起尋美趣：知識架構心智圖",
+          "narrationText": "透過上方知識心智圖，記住植物四大器官的分工合作：根吸水、莖輸送、葉造養分、花果負責繁殖，作答時就能迅速對應正確功能！",
           "cognitiveChunks": [
-            "第 1 步：先看清題目描述的情境、對象與變化條件",
-            "第 2 步：回想課本學過的原理、分類標準或生活規範",
-            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+            "根部功能：吸收水分養分並固定植株",
+            "莖部功能：支撐植物並輸送水分養分",
+            "葉片功能：吸收陽光進行光合作用",
+            "花與果實：授粉結果以繁殖下一代"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_map",
             "params": {
-              "nodes": [
-                "觀察現象特徵",
-                "連結因果原理",
-                "排除錯誤敘述"
+              "center": "三、一起尋美趣",
+              "branches": [
+                "根部功能：吸收水分養分並固定植株",
+                "莖部功能：支撐植物並輸送水分養分",
+                "葉片功能：吸收陽光進行光合作用",
+                "花與果實：授粉結果以繁殖下一代"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "探究三步思考法",
+                "text": "植物構造心智圖",
                 "anchorPointId": "bottom"
               }
             ]
@@ -394,15 +393,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "確認位置安全，不",
-                "善用回收紙盒與圖",
-                "安排值日輪流擦拭"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -475,40 +474,33 @@
           "factGroundingSourceId": "115-s2/g3/integrative#u4"
         },
         {
-          "sceneId": "115-s2-g3-integrative-u4-s1b-flow",
+          "sceneId": "115-s2-g3-integrative-u4-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "掌握「四、環保綠生活」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "title": "四、環保綠生活：知識架構心智圖",
+          "narrationText": "利用上方水的變化心智圖，把三態轉換、受熱蒸發與遇冷凝結串連起來，遇到實驗現象題就能立刻推論出正確原因！",
           "cognitiveChunks": [
-            "先圈出題幹關鍵字與限制條件，不急著搶答",
-            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
-            "選出答案後代回原題檢查一次，確認邏輯通順"
+            "三態變化：固態冰、液態水與氣態水蒸氣",
+            "溫度影響：受熱蒸發成氣體、遇冷會凝結",
+            "溶解現象：糖鹽等物質能均勻分散於水中",
+            "珍惜水資源：養成節約用水與分類不汙染習慣"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "concept_compare",
+            "templateId": "concept_map",
             "params": {
-              "leftTitle": "正確解題思路",
-              "leftPoints": [
-                "掌握「四、環保綠生活」的核心規則與判斷條件",
-                "照步驟拆解線索，完成後再回頭核對一次"
-              ],
-              "rightTitle": "最常見陷阱",
-              "rightPoints": [
-                "還沒看清題目條件或關鍵字就憑直覺搶答",
-                "忽略單位、順序或題目中的反義詞提示"
+              "center": "四、環保綠生活",
+              "branches": [
+                "三態變化：固態冰、液態水與氣態水蒸氣",
+                "溫度影響：受熱蒸發成氣體、遇冷會凝結",
+                "溶解現象：糖鹽等物質能均勻分散於水中",
+                "珍惜水資源：養成節約用水與分類不汙染習慣"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "正確思路",
-                "anchorPointId": "left"
-              },
-              {
-                "id": "l2",
-                "text": "避開陷阱",
-                "anchorPointId": "right"
+                "text": "水的變化心智圖",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -539,15 +531,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "踏查時結伴注意安",
-                "手繪溫馨提醒小海",
-                "從自己與家人做起"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -620,40 +612,33 @@
           "factGroundingSourceId": "115-s2/g3/integrative#u5"
         },
         {
-          "sceneId": "115-s2-g3-integrative-u5-s1b-flow",
+          "sceneId": "115-s2-g3-integrative-u5-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "掌握「五、社區文化行」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "title": "五、社區文化行：知識架構心智圖",
+          "narrationText": "學歷史文化不靠死背年代！透過上方心智圖抓住「時間順序、多元族群互動與生活改變」三條主線，故事自然記起來！",
           "cognitiveChunks": [
-            "先圈出題幹關鍵字與限制條件，不急著搶答",
-            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
-            "選出答案後代回原題檢查一次，確認邏輯通順"
+            "時代脈絡：按時間先後整理重要事件與人物",
+            "多元族群：尊重原住民族與各時期移民文化",
+            "生活演變：從傳統農耕手工業到現代化社會",
+            "文化保存：愛護古蹟、習俗與家鄉歷史記憶"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "concept_compare",
+            "templateId": "concept_map",
             "params": {
-              "leftTitle": "正確解題思路",
-              "leftPoints": [
-                "掌握「五、社區文化行」的核心規則與判斷條件",
-                "照步驟拆解線索，完成後再回頭核對一次"
-              ],
-              "rightTitle": "最常見陷阱",
-              "rightPoints": [
-                "還沒看清題目條件或關鍵字就憑直覺搶答",
-                "忽略單位、順序或題目中的反義詞提示"
+              "center": "五、社區文化行",
+              "branches": [
+                "時代脈絡：按時間先後整理重要事件與人物",
+                "多元族群：尊重原住民族與各時期移民文化",
+                "生活演變：從傳統農耕手工業到現代化社會",
+                "文化保存：愛護古蹟、習俗與家鄉歷史記憶"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "正確思路",
-                "anchorPointId": "left"
-              },
-              {
-                "id": "l2",
-                "text": "避開陷阱",
-                "anchorPointId": "right"
+                "text": "歷史文化心智圖",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -684,15 +669,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "分享文化活動時，",
-                "若遇到新住民或不",
-                "積木升降台車或插"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]

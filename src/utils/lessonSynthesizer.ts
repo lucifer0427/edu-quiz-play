@@ -418,18 +418,66 @@ function buildWarmupCheckData(
   };
 }
 
+function sanitizeDiagramPhrase(text: string, fallback: string): string {
+  const cleaned = sanitizeLessonText(text)
+    .replace(/^第\s*\d+\s*步[：:]\s*/u, '')
+    .replace(/[「」『』]/g, '')
+    .trim();
+  if (!cleaned) return fallback;
+  // 移除結尾不完整的標點或連接詞，避免出現斷頭殘句
+  const trimmed = cleaned.replace(/[，、。；：]+$/u, '').trim();
+  if (!trimmed || /[的與和、，「（或把從是]$/u.test(trimmed)) {
+    return fallback;
+  }
+  return trimmed;
+}
+
 function buildStepFlowVisualSpec(
   stage: Stage,
   subject: LessonSubject,
   anchorVisualSpec: LessonVisualSpec,
   unitSummary?: CurriculumUnitSummary,
 ): LessonVisualSpec {
-  const cleanTitle = sanitizeLessonText(stage.title) || '本單元';
+  const cleanTitle = sanitizeDiagramPhrase(stage.title, '本單元核心');
   const unitLessons =
     unitSummary?.lessonTitles
-      ?.map((t) => clampSpatialLabel(t, '單元重點'))
-      .filter(Boolean)
+      ?.map((t) => sanitizeDiagramPhrase(t, ''))
+      .filter((t) => t.length >= 2 && t.length <= 16)
       .slice(0, 3) ?? [];
+
+  if (subject === 'LANGUAGE') {
+    const branches =
+      unitLessons.length >= 2
+        ? [...unitLessons, '統整字形語意與句型']
+        : ['讀懂題意：先找出題幹關鍵問句', '字詞脈絡：結合部首、讀音與前後文', '代入檢查：放回原句念一次確認通順'];
+    return {
+      templateId: 'concept_map',
+      params: {
+        center: cleanTitle,
+        branches,
+      },
+      spatialLabels: [
+        { id: 'l1', text: '語文知識心智圖', anchorPointId: 'bottom' },
+      ],
+    };
+  }
+
+  if (subject === 'SCIENCE_SOCIAL') {
+    const branches =
+      unitLessons.length >= 2
+        ? [...unitLessons, '歸納原理並應用於生活']
+        : ['觀察特徵：留意現象與變化條件', '因果規律：理解背後原理與關聯', '生活應用：結合實例排除錯誤敘述'];
+    return {
+      templateId: 'concept_map',
+      params: {
+        center: cleanTitle,
+        branches,
+      },
+      spatialLabels: [
+        { id: 'l1', text: '單元知識心智圖', anchorPointId: 'bottom' },
+      ],
+    };
+  }
 
   if (anchorVisualSpec.templateId === 'flow_cause') {
     return {
@@ -443,7 +491,7 @@ function buildStepFlowVisualSpec(
         ],
         rightPoints: [
           '跳過審題直接心算或猜測，漏看關鍵字',
-          '忘記核對單位、正負方向或上下文線索',
+          '忘記核對單位、正負方向或進退位',
         ],
       },
       spatialLabels: [
@@ -453,14 +501,65 @@ function buildStepFlowVisualSpec(
     };
   }
 
+  return {
+    templateId: 'flow_cause',
+    params: {
+      nodes: ['圈出已知條件', '畫圖或列算式', '檢查單位合理性'],
+    },
+    spatialLabels: [
+      { id: 'l1', text: '數學解題三步驟', anchorPointId: 'bottom' },
+    ],
+  };
+}
+
+function buildWorkedExampleVisualSpec(
+  subject: LessonSubject,
+  workedExampleData: WorkedExampleData,
+): LessonVisualSpec {
+  const stmt = workedExampleData.problemStatement ?? '';
+
   if (subject === 'MATH') {
+    const fracMatch = /(\d+)\s*\/\s*(\d+)/.exec(stmt);
+    if (fracMatch) {
+      const num = Math.max(1, Math.min(12, Number(fracMatch[1])));
+      const den = Math.max(2, Math.min(12, Number(fracMatch[2])));
+      if (num <= den) {
+        return {
+          templateId: 'fraction_bar',
+          params: { denominator: den, numerator: num, scaleFactor: 1 },
+          spatialLabels: [
+            { id: 'l1', text: `例題分數 ${num}/${den}`, anchorPointId: 'top' },
+          ],
+        };
+      }
+    }
+
+    const baseHeightMatch = /底[^\d]*(\d+)[^\d]+高[^\d]*(\d+)/.exec(stmt);
+    if (baseHeightMatch) {
+      const base = Math.max(2, Math.min(12, Number(baseHeightMatch[1])));
+      const height = Math.max(2, Math.min(10, Number(baseHeightMatch[2])));
+      const shape = /三角形/.test(stmt)
+        ? 'triangle'
+        : /平行四邊形/.test(stmt)
+          ? 'parallelogram'
+          : 'rect';
+      return {
+        templateId: 'rect_geometry',
+        params: { shape, base, height, unit: 'cm' },
+        spatialLabels: [
+          { id: 'l1', text: `底 ${base} cm`, anchorPointId: 'bottom' },
+          { id: 'l2', text: `高 ${height} cm`, anchorPointId: 'height' },
+        ],
+      };
+    }
+
     return {
       templateId: 'flow_cause',
       params: {
-        nodes: ['圈出已知條件', '畫圖或列算式', '檢查單位合理性'],
+        nodes: ['讀懂題意條件', '依序分步計算', '核對答數單位'],
       },
       spatialLabels: [
-        { id: 'l1', text: '數學解題三步驟', anchorPointId: 'bottom' },
+        { id: 'l1', text: '例題拆解流程', anchorPointId: 'bottom' },
       ],
     };
   }
@@ -469,13 +568,10 @@ function buildStepFlowVisualSpec(
     return {
       templateId: 'flow_cause',
       params: {
-        nodes:
-          unitLessons.length >= 2
-            ? [unitLessons[0], unitLessons[1], '統整句意與用詞']
-            : ['讀懂題幹問題', '回文章找線索', '核對字形與語意'],
+        nodes: ['抓出題目重點', '比對字詞線索', '回讀確認通順'],
       },
       spatialLabels: [
-        { id: 'l1', text: '語文閱讀三步驟', anchorPointId: 'bottom' },
+        { id: 'l1', text: '語文例題拆解', anchorPointId: 'bottom' },
       ],
     };
   }
@@ -483,13 +579,10 @@ function buildStepFlowVisualSpec(
   return {
     templateId: 'flow_cause',
     params: {
-      nodes:
-        unitLessons.length >= 2
-          ? [unitLessons[0], unitLessons[1], '歸納原理與應用']
-          : ['觀察生活現象', '找出因果與規律', '驗證是否符合條件'],
+      nodes: ['看清情境條件', '對照課本原理', '排除錯誤選項'],
     },
     spatialLabels: [
-      { id: 'l1', text: '探究思考三步驟', anchorPointId: 'bottom' },
+      { id: 'l1', text: '探究例題拆解', anchorPointId: 'bottom' },
     ],
   };
 }
@@ -522,6 +615,10 @@ export function synthesizeLessonForStage(
     ageBand,
     exampleQuestion,
   );
+  const exampleVisualSpec = buildWorkedExampleVisualSpec(
+    subject,
+    workedExampleData,
+  );
   const warmupCheck = buildWarmupCheckData(stage, ageBand, questions);
 
   const anchorNarration =
@@ -533,13 +630,13 @@ export function synthesizeLessonForStage(
     subject === 'MATH'
       ? `看懂「${cleanTitle}」的概念後，解題時請照著上方流程圖操作：先圈出已知條件與單位，再畫圖或列式推導，最後回頭驗算是否合理。`
       : subject === 'LANGUAGE'
-        ? `掌握「${cleanTitle}」的關鍵在「先讀題、再找線索、最後核對語意」：照著上方流程圖的順序思考，就能避開相似字詞或斷章取義的陷阱。`
-        : `學習「${cleanTitle}」時，建議用上方流程圖的三個步驟：先觀察現象與特徵，再找出背後的因果規律，最後回到題目條件做確認。`;
+        ? `透過上方知識心智圖，把「${cleanTitle}」的重點串連起來：先讀懂題目問什麼，再從字形、詞性或前後文找線索，最後代回原句確認通順。`
+        : `透過上方知識心智圖，把「${cleanTitle}」的觀念架構整理清楚：先觀察現象與特徵，再連結因果原理，最後回到題目條件做確認。`;
 
   const exampleNarration =
     subject === 'MATH'
-      ? '接著看一題實際示範：結合上方圖解，左邊照著步驟一步步推導，右邊提醒你最容易踩到的陷阱。'
-      : '接著透過一題真實例題，結合圖解對照正確思考脈絡與常見誤區，建立穩固的判斷標準。';
+      ? '接著看一題實際示範：結合上方例題圖解，左邊照著步驟一步步推導，右邊提醒你最容易踩到的陷阱。'
+      : '接著透過一題真實例題，結合上方拆解圖對照正確思考脈絡與常見誤區，建立穩固的判斷標準。';
 
   const warmupNarration =
     '最後來一題零懲罰暖身小試，答錯也能再試一次，準備好就能直接上場挑戰！';
@@ -558,7 +655,10 @@ export function synthesizeLessonForStage(
     {
       sceneId: 's2-step-flow',
       componentType: 'ANCHOR_SCENE',
-      title: '思考流程與解題口訣圖解',
+      title:
+        subject === 'MATH'
+          ? '思考流程與解題口訣圖解'
+          : '知識架構心智圖與學習口訣',
       narrationText: stepFlowNarration,
       cognitiveChunks:
         subject === 'MATH'
@@ -592,7 +692,7 @@ export function synthesizeLessonForStage(
         '先圈出題幹已知條件與要回答的目標',
         '照步驟核對關係，避開右欄常見陷阱',
       ],
-      visualSpec: anchorVisualSpec,
+      visualSpec: exampleVisualSpec,
       workedExampleData,
       factGroundingSourceId,
     },

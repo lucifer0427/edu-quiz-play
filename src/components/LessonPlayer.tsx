@@ -146,12 +146,17 @@ export function LessonPlayer({
             <>
               <button
                 type="button"
-                onClick={() =>
-                  speakText(currentScene.narrationText, 'zh-TW', {
+                onClick={() => {
+                  const speechContent =
+                    currentScene.componentType === 'WORKED_EXAMPLE_SPLIT' &&
+                    currentScene.workedExampleData?.problemStatement
+                      ? `${currentScene.narrationText}。例題：${currentScene.workedExampleData.problemStatement}`
+                      : currentScene.narrationText;
+                  speakText(speechContent, 'zh-TW', {
                     grade: speechGrade,
                     slowMode: speechSlowMode,
-                  })
-                }
+                  });
+                }}
                 className="inline-flex items-center gap-1.5 rounded-xl border border-violet-200 bg-violet-50 px-3 py-1.5 text-xs font-black text-violet-700 hover:bg-violet-100"
               >
                 <Volume2 className="h-4 w-4" />
@@ -218,7 +223,10 @@ export function LessonPlayer({
         {currentScene.componentType === 'ANCHOR_SCENE' && (
           <div className="space-y-4">
             {currentScene.visualSpec && (
-              <LessonDiagram spec={currentScene.visualSpec} />
+              <LessonDiagram
+                key={currentScene.sceneId}
+                spec={currentScene.visualSpec}
+              />
             )}
 
             <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
@@ -288,7 +296,10 @@ export function LessonPlayer({
         {currentScene.componentType === 'WORKED_EXAMPLE_SPLIT' && (
           <div className="space-y-4">
             {currentScene.visualSpec && (
-              <LessonDiagram spec={currentScene.visualSpec} />
+              <LessonDiagram
+                key={currentScene.sceneId}
+                spec={currentScene.visualSpec}
+              />
             )}
 
             <p className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm leading-relaxed font-bold text-slate-800">
@@ -412,7 +423,10 @@ export function LessonPlayer({
         {currentScene.componentType === 'WARMUP_CHECK' && (
           <div className="space-y-4">
             {currentScene.visualSpec && (
-              <LessonDiagram spec={currentScene.visualSpec} />
+              <LessonDiagram
+                key={currentScene.sceneId}
+                spec={currentScene.visualSpec}
+              />
             )}
 
             <div className="rounded-2xl border border-emerald-200 bg-emerald-50/70 px-4 py-3 text-xs font-black text-emerald-900 sm:text-sm">

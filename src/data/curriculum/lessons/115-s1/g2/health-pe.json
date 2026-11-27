@@ -30,8 +30,8 @@
             "params": {
               "leftTitle": "天天均衡吃",
               "leftPoints": [
-                "均衡攝取六大類食物不偏食",
-                "少吃油炸與高糖零食"
+                "全穀雜糧、蔬菜、水果",
+                "豆魚蛋肉、乳品、堅果種子"
               ],
               "rightTitle": "飲食安全小秘訣",
               "rightPoints": [
@@ -55,29 +55,32 @@
           "factGroundingSourceId": "115-s1/g2/health-pe#u1"
         },
         {
-          "sceneId": "115-s1-g2-health-pe-u1-s1b-flow",
+          "sceneId": "115-s1-g2-health-pe-u1-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "理解「單元一、吃出健康和活力」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "title": "吃出健康和活力：知識架構心智圖",
+          "narrationText": "把力與機械的四個關鍵收進上方心智圖：先判斷受力方向與接觸面粗糙度，再找支點與施力臂長短，就能判斷省力或費力！",
           "cognitiveChunks": [
-            "第 1 步：先看清題目描述的情境、對象與變化條件",
-            "第 2 步：回想課本學過的原理、分類標準或生活規範",
-            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+            "力的作用：能改變物體形狀或運動快慢方向",
+            "摩擦力：接觸面越粗糙、正向力越大阻力越大",
+            "槓桿原理：認識支點、施力點與抗力點位置",
+            "簡單機械：運用斜面、滑輪與輪軸幫助省力"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_map",
             "params": {
-              "nodes": [
-                "觀察現象特徵",
-                "連結因果原理",
-                "排除錯誤敘述"
+              "center": "吃出健康和活力",
+              "branches": [
+                "力的作用：能改變物體形狀或運動快慢方向",
+                "摩擦力：接觸面越粗糙、正向力越大阻力越大",
+                "槓桿原理：認識支點、施力點與抗力點位置",
+                "簡單機械：運用斜面、滑輪與輪軸幫助省力"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "探究三步思考法",
+                "text": "力與機械心智圖",
                 "anchorPointId": "bottom"
               }
             ]
@@ -110,15 +113,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "看包裝有沒有破損",
-                "看清楚保存期限，",
-                "打開後如果聞到酸"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -171,8 +174,8 @@
             "params": {
               "leftTitle": "感官好主人",
               "leftPoints": [
-                "認識並欣賞自己的優點",
-                "眼睛看書光線充足、定時休息"
+                "看書坐端正、光線要明亮",
+                "音量適中不挖耳不挖鼻"
               ],
               "rightTitle": "感官救護站",
               "rightPoints": [
@@ -196,29 +199,32 @@
           "factGroundingSourceId": "115-s1/g2/health-pe#u2"
         },
         {
-          "sceneId": "115-s1-g2-health-pe-u2-s1b-flow",
+          "sceneId": "115-s1-g2-health-pe-u2-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "理解「單元二、我真的不錯」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "title": "我真的不錯：知識架構心智圖",
+          "narrationText": "透過上方探究學習心智圖，掌握「我真的不錯」的觀察線索、因果關聯與生活應用，作答時就能精準判斷！",
           "cognitiveChunks": [
-            "第 1 步：先看清題目描述的情境、對象與變化條件",
-            "第 2 步：回想課本學過的原理、分類標準或生活規範",
-            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+            "觀察現象：仔細留意生活中的特徵與變化線索",
+            "思考原因：連結課本學過的自然原理或社會規範",
+            "比較異同：分辨不同情境下的條件差異與影響",
+            "生活應用：將所學知識運用在日常判斷與行動中"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_map",
             "params": {
-              "nodes": [
-                "觀察現象特徵",
-                "連結因果原理",
-                "排除錯誤敘述"
+              "center": "我真的不錯",
+              "branches": [
+                "觀察現象：仔細留意生活中的特徵與變化線索",
+                "思考原因：連結課本學過的自然原理或社會規範",
+                "比較異同：分辨不同情境下的條件差異與影響",
+                "生活應用：將所學知識運用在日常判斷與行動中"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "探究三步思考法",
+                "text": "探究學習心智圖",
                 "anchorPointId": "bottom"
               }
             ]
@@ -251,15 +257,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "先坐下來，頭稍微",
-                "用手指輕輕壓住鼻",
-                "立刻請老師或校護"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -332,40 +338,33 @@
           "factGroundingSourceId": "115-s1/g2/health-pe#u3"
         },
         {
-          "sceneId": "115-s1-g2-health-pe-u3-s1b-flow",
+          "sceneId": "115-s1-g2-health-pe-u3-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "掌握「單元三、拒絕菸酒」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "title": "拒絕菸酒：知識架構心智圖",
+          "narrationText": "看上方健康安全心智圖，記住「暖身保護、正確動作與日常衛生」三大原則，讓身體更強壯也遠離運動傷害！",
           "cognitiveChunks": [
-            "先圈出題幹關鍵字與限制條件，不急著搶答",
-            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
-            "選出答案後代回原題檢查一次，確認邏輯通順"
+            "正確觀念：了解均衡飲食、作息與衛生的重要性",
+            "運動暖身：活動前先暖身、結束後做緩和伸展",
+            "安全防護：留意場地環境與器材正確使用方式",
+            "日常實踐：把好習慣落實在每天的校園與家庭中"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "concept_compare",
+            "templateId": "concept_map",
             "params": {
-              "leftTitle": "正確解題思路",
-              "leftPoints": [
-                "掌握「單元三、拒絕菸酒」的核心規則與判斷條件",
-                "照步驟拆解線索，完成後再回頭核對一次"
-              ],
-              "rightTitle": "最常見陷阱",
-              "rightPoints": [
-                "還沒看清題目條件或關鍵字就憑直覺搶答",
-                "忽略單位、順序或題目中的反義詞提示"
+              "center": "拒絕菸酒",
+              "branches": [
+                "正確觀念：了解均衡飲食、作息與衛生的重要性",
+                "運動暖身：活動前先暖身、結束後做緩和伸展",
+                "安全防護：留意場地環境與器材正確使用方式",
+                "日常實踐：把好習慣落實在每天的校園與家庭中"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "正確思路",
-                "anchorPointId": "left"
-              },
-              {
-                "id": "l2",
-                "text": "避開陷阱",
-                "anchorPointId": "right"
+                "text": "健康安全心智圖",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -397,15 +396,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "保持禮貌微笑，但",
-                "清楚說出謝謝，小",
-                "如果遇到有人吸菸"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -478,40 +477,33 @@
           "factGroundingSourceId": "115-s1/g2/health-pe#u4"
         },
         {
-          "sceneId": "115-s1-g2-health-pe-u4-s1b-flow",
+          "sceneId": "115-s1-g2-health-pe-u4-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "掌握「單元四、運動新視野」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "title": "運動新視野：知識架構心智圖",
+          "narrationText": "把力與機械的四個關鍵收進上方心智圖：先判斷受力方向與接觸面粗糙度，再找支點與施力臂長短，就能判斷省力或費力！",
           "cognitiveChunks": [
-            "先圈出題幹關鍵字與限制條件，不急著搶答",
-            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
-            "選出答案後代回原題檢查一次，確認邏輯通順"
+            "力的作用：能改變物體形狀或運動快慢方向",
+            "摩擦力：接觸面越粗糙、正向力越大阻力越大",
+            "槓桿原理：認識支點、施力點與抗力點位置",
+            "簡單機械：運用斜面、滑輪與輪軸幫助省力"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "concept_compare",
+            "templateId": "concept_map",
             "params": {
-              "leftTitle": "正確解題思路",
-              "leftPoints": [
-                "掌握「單元四、運動新視野」的核心規則與判斷條件",
-                "照步驟拆解線索，完成後再回頭核對一次"
-              ],
-              "rightTitle": "最常見陷阱",
-              "rightPoints": [
-                "還沒看清題目條件或關鍵字就憑直覺搶答",
-                "忽略單位、順序或題目中的反義詞提示"
+              "center": "運動新視野",
+              "branches": [
+                "力的作用：能改變物體形狀或運動快慢方向",
+                "摩擦力：接觸面越粗糙、正向力越大阻力越大",
+                "槓桿原理：認識支點、施力點與抗力點位置",
+                "簡單機械：運用斜面、滑輪與輪軸幫助省力"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "正確思路",
-                "anchorPointId": "left"
-              },
-              {
-                "id": "l2",
-                "text": "避開陷阱",
-                "anchorPointId": "right"
+                "text": "力與機械心智圖",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -543,15 +535,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "雙腳踩住繩中點量",
-                "雙臂靠近身體兩側",
-                "眼睛看前方，等繩"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -604,8 +596,8 @@
             "params": {
               "leftTitle": "學校運動資源",
               "leftPoints": [
-                "善用操場與運動社團培養習慣",
-                "借用學校器材要登記並歸還"
+                "操場、球場與運動社團",
+                "器材依規定借用並歸還原位"
               ],
               "rightTitle": "選鞋與穿鞋妙招",
               "rightPoints": [
@@ -629,29 +621,32 @@
           "factGroundingSourceId": "115-s1/g2/health-pe#u5"
         },
         {
-          "sceneId": "115-s1-g2-health-pe-u5-s1b-flow",
+          "sceneId": "115-s1-g2-health-pe-u5-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "理解「單元五、運動有妙招」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "title": "運動有妙招：知識架構心智圖",
+          "narrationText": "把力與機械的四個關鍵收進上方心智圖：先判斷受力方向與接觸面粗糙度，再找支點與施力臂長短，就能判斷省力或費力！",
           "cognitiveChunks": [
-            "第 1 步：先看清題目描述的情境、對象與變化條件",
-            "第 2 步：回想課本學過的原理、分類標準或生活規範",
-            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+            "力的作用：能改變物體形狀或運動快慢方向",
+            "摩擦力：接觸面越粗糙、正向力越大阻力越大",
+            "槓桿原理：認識支點、施力點與抗力點位置",
+            "簡單機械：運用斜面、滑輪與輪軸幫助省力"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_map",
             "params": {
-              "nodes": [
-                "觀察現象特徵",
-                "連結因果原理",
-                "排除錯誤敘述"
+              "center": "運動有妙招",
+              "branches": [
+                "力的作用：能改變物體形狀或運動快慢方向",
+                "摩擦力：接觸面越粗糙、正向力越大阻力越大",
+                "槓桿原理：認識支點、施力點與抗力點位置",
+                "簡單機械：運用斜面、滑輪與輪軸幫助省力"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "探究三步思考法",
+                "text": "力與機械心智圖",
                 "anchorPointId": "bottom"
               }
             ]
@@ -684,15 +679,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "先把鞋帶放鬆，不",
-                "腳伸進去後輕輕頓",
-                "把鞋舌拉平並好好"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -765,40 +760,33 @@
           "factGroundingSourceId": "115-s1/g2/health-pe#u6"
         },
         {
-          "sceneId": "115-s1-g2-health-pe-u6-s1b-flow",
+          "sceneId": "115-s1-g2-health-pe-u6-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "掌握「單元六、身體動起來」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "title": "身體動起來：知識架構心智圖",
+          "narrationText": "透過上方公民規則心智圖，理解規則不是為了限制，而是為了保障大家的安全與公平，遇到情境題就能選出最尊重他人的做法！",
           "cognitiveChunks": [
-            "先圈出題幹關鍵字與限制條件，不急著搶答",
-            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
-            "選出答案後代回原題檢查一次，確認邏輯通順"
+            "辨識規範：看懂標誌符號與班級社區公約",
+            "權利義務：享有保障的同時也要履行應盡責任",
+            "理性溝通：透過開會投票與傾聽解決不同意見",
+            "安全守護：遵守規則保護自己，遇危主動求助"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "concept_compare",
+            "templateId": "concept_map",
             "params": {
-              "leftTitle": "正確解題思路",
-              "leftPoints": [
-                "掌握「單元六、身體動起來」的核心規則與判斷條件",
-                "照步驟拆解線索，完成後再回頭核對一次"
-              ],
-              "rightTitle": "最常見陷阱",
-              "rightPoints": [
-                "還沒看清題目條件或關鍵字就憑直覺搶答",
-                "忽略單位、順序或題目中的反義詞提示"
+              "center": "身體動起來",
+              "branches": [
+                "辨識規範：看懂標誌符號與班級社區公約",
+                "權利義務：享有保障的同時也要履行應盡責任",
+                "理性溝通：透過開會投票與傾聽解決不同意見",
+                "安全守護：遵守規則保護自己，遇危主動求助"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "正確思路",
-                "anchorPointId": "left"
-              },
-              {
-                "id": "l2",
-                "text": "避開陷阱",
-                "anchorPointId": "right"
+                "text": "公民規則心智圖",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -830,15 +818,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "雙腳稍微打開站穩",
-                "呼拉圈貼緊腰部，",
-                "跟著圈轉動的節奏"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -891,8 +879,8 @@
             "params": {
               "leftTitle": "陸上體能練習",
               "leftPoints": [
-                "折返跑看清前方放低重心轉彎",
-                "投擲站穩眼神注視目標"
+                "跑步看前方、保持安全間隔",
+                "射準先站穩、眼睛盯住目標"
               ],
               "rightTitle": "水上安全與衛生",
               "rightPoints": [
@@ -916,29 +904,32 @@
           "factGroundingSourceId": "115-s1/g2/health-pe#u7"
         },
         {
-          "sceneId": "115-s1-g2-health-pe-u7-s1b-flow",
+          "sceneId": "115-s1-g2-health-pe-u7-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "理解「單元七、我是快樂運動員」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "title": "我是快樂運動員：知識架構心智圖",
+          "narrationText": "利用上方水的變化心智圖，把三態轉換、受熱蒸發與遇冷凝結串連起來，遇到實驗現象題就能立刻推論出正確原因！",
           "cognitiveChunks": [
-            "第 1 步：先看清題目描述的情境、對象與變化條件",
-            "第 2 步：回想課本學過的原理、分類標準或生活規範",
-            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+            "三態變化：固態冰、液態水與氣態水蒸氣",
+            "溫度影響：受熱蒸發成氣體、遇冷會凝結",
+            "溶解現象：糖鹽等物質能均勻分散於水中",
+            "珍惜水資源：養成節約用水與分類不汙染習慣"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_map",
             "params": {
-              "nodes": [
-                "觀察現象特徵",
-                "連結因果原理",
-                "排除錯誤敘述"
+              "center": "我是快樂運動員",
+              "branches": [
+                "三態變化：固態冰、液態水與氣態水蒸氣",
+                "溫度影響：受熱蒸發成氣體、遇冷會凝結",
+                "溶解現象：糖鹽等物質能均勻分散於水中",
+                "珍惜水資源：養成節約用水與分類不汙染習慣"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "探究三步思考法",
+                "text": "水的變化心智圖",
                 "anchorPointId": "bottom"
               }
             ]
@@ -971,15 +962,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "千萬不可以自己跳",
-                "立刻大聲向附近的",
-                "明確指出同學所在"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -1032,8 +1023,8 @@
             "params": {
               "leftTitle": "控球與傳球技巧",
               "leftPoints": [
-                "桌球顛球拍面平坦力道輕",
-                "滾地躲避球貼地滾保護頭臉"
+                "傳球丟向夥伴胸腰之間",
+                "控球力道適中讓球在身邊"
               ],
               "rightTitle": "安全與運動精神",
               "rightPoints": [
@@ -1057,29 +1048,32 @@
           "factGroundingSourceId": "115-s1/g2/health-pe#u8"
         },
         {
-          "sceneId": "115-s1-g2-health-pe-u8-s1b-flow",
+          "sceneId": "115-s1-g2-health-pe-u8-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "理解「單元八、球兒真好玩」不能只靠死背！請看上方流程圖：先觀察生活中的現象與特徵，再連結背後的因果或規則原理，最後逐一排除錯誤選項。",
+          "title": "球兒真好玩：知識架構心智圖",
+          "narrationText": "把力與機械的四個關鍵收進上方心智圖：先判斷受力方向與接觸面粗糙度，再找支點與施力臂長短，就能判斷省力或費力！",
           "cognitiveChunks": [
-            "第 1 步：先看清題目描述的情境、對象與變化條件",
-            "第 2 步：回想課本學過的原理、分類標準或生活規範",
-            "第 3 步：逐一檢查每個選項，剔除與事實相反的敘述"
+            "力的作用：能改變物體形狀或運動快慢方向",
+            "摩擦力：接觸面越粗糙、正向力越大阻力越大",
+            "槓桿原理：認識支點、施力點與抗力點位置",
+            "簡單機械：運用斜面、滑輪與輪軸幫助省力"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_map",
             "params": {
-              "nodes": [
-                "觀察現象特徵",
-                "連結因果原理",
-                "排除錯誤敘述"
+              "center": "球兒真好玩",
+              "branches": [
+                "力的作用：能改變物體形狀或運動快慢方向",
+                "摩擦力：接觸面越粗糙、正向力越大阻力越大",
+                "槓桿原理：認識支點、施力點與抗力點位置",
+                "簡單機械：運用斜面、滑輪與輪軸幫助省力"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "探究三步思考法",
+                "text": "力與機械心智圖",
                 "anchorPointId": "bottom"
               }
             ]
@@ -1112,15 +1106,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "從起點朝一壘方向",
-                "依序跑向一壘、二",
-                "經過壘包時踩穩，"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]

@@ -30,8 +30,8 @@
             "params": {
               "leftTitle": "字母大小寫",
               "leftPoints": [
-                "字母順序：A、B、C",
-                "打招呼說 Hello!，再見說 Goodbye!"
+                "A 配 a、B 配 b",
+                "C 配 c，照順序排隊"
               ],
               "rightTitle": "社交打招呼",
               "rightPoints": [
@@ -79,15 +79,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "先親切打招呼說H",
-                "接著說I am ",
-                "加上名字，合起來"
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -152,8 +152,8 @@
             "params": {
               "leftTitle": "字母 D E F",
               "leftPoints": [
-                "字母順序：D、E、F",
-                "請別人幫忙說 Please"
+                "D 配 d（肚子在左邊）",
+                "E 配 e、F 配 f"
               ],
               "rightTitle": "禮貌三寶",
               "rightPoints": [
@@ -201,15 +201,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "收到同學幫忙，有",
-                "聽到別人道謝時，",
-                "如果是不小心撞到"
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -319,15 +319,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "認出英文單字ST",
-                "馬上停下腳步，站",
-                "左右看看有沒有來"
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -441,15 +441,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "第一單元學 A–",
-                "第三單元學 G–",
-                "這學期學到 M "
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]

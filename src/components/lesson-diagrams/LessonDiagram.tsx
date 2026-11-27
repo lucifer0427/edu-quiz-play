@@ -500,10 +500,26 @@ function NumberLineTemplate({
 function wrapSvgText(text: string, maxCharsPerLine = 6): string[] {
   const clean = text.trim();
   if (clean.length <= maxCharsPerLine) return [clean];
-  const first = clean.slice(0, maxCharsPerLine);
-  const rest = clean.slice(maxCharsPerLine);
-  if (rest.length <= maxCharsPerLine) return [first, rest];
-  return [first, `${rest.slice(0, maxCharsPerLine - 1)}…`];
+
+  // 優先在空白、標點或分隔符號附近斷行，避免拆斷數字或詞彙
+  const ideal = Math.min(maxCharsPerLine, Math.ceil(clean.length / 2));
+  let splitIdx = -1;
+  for (let i = maxCharsPerLine; i >= Math.max(2, ideal - 2); i--) {
+    const ch = clean[i - 1];
+    if (/[ 、，：；·/\-→]/.test(ch)) {
+      splitIdx = i;
+      break;
+    }
+  }
+  if (splitIdx === -1) {
+    splitIdx = maxCharsPerLine;
+  }
+
+  const first = clean.slice(0, splitIdx).trim();
+  const rest = clean.slice(splitIdx).trim();
+  if (!rest) return [first];
+  if (rest.length <= maxCharsPerLine + 1) return [first, rest];
+  return [first, `${rest.slice(0, maxCharsPerLine)}…`];
 }
 
 function FlowCauseTemplate({
@@ -647,21 +663,23 @@ function ConceptCompareTemplate({
   const rightTitle = strParam(params, 'rightTitle', labels[1]?.text ?? '概念 B');
   const leftPoints = listParam(params, 'leftPoints');
   const rightPoints = listParam(params, 'rightPoints');
+  const leftLines = wrapSvgText(leftTitle, 11);
+  const rightLines = wrapSvgText(rightTitle, 11);
 
   return (
     <div className="w-full space-y-2.5">
       {/* 視覺化雙欄對照圖示 */}
       <svg
-        viewBox="0 0 460 66"
+        viewBox="0 0 460 76"
         className="mx-auto h-auto w-full max-w-lg"
         role="img"
         aria-label={`${leftTitle} 與 ${rightTitle} 觀念對照圖`}
       >
         <rect
           x="10"
-          y="10"
+          y="8"
           width="178"
-          height="46"
+          height="60"
           rx="14"
           fill="#e0f2fe"
           stroke="#0284c7"
@@ -669,7 +687,7 @@ function ConceptCompareTemplate({
         />
         <text
           x="99"
-          y="30"
+          y="24"
           textAnchor="middle"
           className="fill-sky-700 text-[10px] font-black"
         >
@@ -677,26 +695,30 @@ function ConceptCompareTemplate({
         </text>
         <text
           x="99"
-          y="47"
+          y={leftLines.length === 1 ? 48 : 42}
           textAnchor="middle"
-          className="fill-sky-950 text-[13px] font-black"
+          className="fill-sky-950 text-[12px] font-black"
         >
-          {leftTitle.length > 10 ? `${leftTitle.slice(0, 9)}…` : leftTitle}
+          {leftLines.map((line, idx) => (
+            <tspan key={idx} x="99" dy={idx === 0 ? 0 : 15}>
+              {line}
+            </tspan>
+          ))}
         </text>
 
         {/* 中央雙向對比符號 */}
         <line
           x1="192"
-          y1="33"
+          y1="38"
           x2="268"
-          y2="33"
+          y2="38"
           stroke="#94a3b8"
           strokeWidth="2"
           strokeDasharray="4 3"
         />
         <circle
           cx="230"
-          cy="33"
+          cy="38"
           r="15"
           fill="#f8fafc"
           stroke="#64748b"
@@ -704,7 +726,7 @@ function ConceptCompareTemplate({
         />
         <text
           x="230"
-          y="37"
+          y="42"
           textAnchor="middle"
           className="fill-slate-700 text-[11px] font-black"
         >
@@ -713,9 +735,9 @@ function ConceptCompareTemplate({
 
         <rect
           x="272"
-          y="10"
+          y="8"
           width="178"
-          height="46"
+          height="60"
           rx="14"
           fill="#fef3c7"
           stroke="#d97706"
@@ -723,7 +745,7 @@ function ConceptCompareTemplate({
         />
         <text
           x="361"
-          y="30"
+          y="24"
           textAnchor="middle"
           className="fill-amber-700 text-[10px] font-black"
         >
@@ -731,11 +753,15 @@ function ConceptCompareTemplate({
         </text>
         <text
           x="361"
-          y="47"
+          y={rightLines.length === 1 ? 48 : 42}
           textAnchor="middle"
-          className="fill-amber-950 text-[13px] font-black"
+          className="fill-amber-950 text-[12px] font-black"
         >
-          {rightTitle.length > 10 ? `${rightTitle.slice(0, 9)}…` : rightTitle}
+          {rightLines.map((line, idx) => (
+            <tspan key={idx} x="361" dy={idx === 0 ? 0 : 15}>
+              {line}
+            </tspan>
+          ))}
         </text>
       </svg>
 
@@ -776,6 +802,164 @@ function ConceptCompareTemplate({
             ))}
           </ul>
         </div>
+      </div>
+    </div>
+  );
+}
+
+function ConceptMapTemplate({
+  params,
+  labels,
+}: {
+  params: DiagramParams;
+  labels: SpatialLabel[];
+}) {
+  const center = strParam(params, 'center', labels[0]?.text ?? '核心主題');
+  const branches = listParam(params, 'branches').slice(0, 4);
+  const displayBranches =
+    branches.length >= 2
+      ? branches
+      : labels.slice(0, 3).map((l) => l.text);
+  const count = Math.max(2, displayBranches.length);
+  const width = 460;
+  const centerLines = wrapSvgText(center, 10);
+
+  const branchPalettes = [
+    { fill: '#e0f2fe', stroke: '#0284c7', badge: '#0369a1' },
+    { fill: '#fef3c7', stroke: '#d97706', badge: '#b45309' },
+    { fill: '#dcfce7', stroke: '#16a34a', badge: '#15803d' },
+    { fill: '#ede9fe', stroke: '#7c3aed', badge: '#6d28d9' },
+  ];
+
+  const gap = 14;
+  const boxW = (width - 24 - gap * (count - 1)) / count;
+
+  return (
+    <div className="w-full space-y-2.5">
+      <svg
+        viewBox="0 0 460 198"
+        className="mx-auto h-auto w-full max-w-xl"
+        role="img"
+        aria-label={`${center} 知識心智圖`}
+      >
+        {/* 中心主題框 */}
+        <rect
+          x="130"
+          y="10"
+          width="200"
+          height="50"
+          rx="25"
+          fill="#0f172a"
+          stroke="#38bdf8"
+          strokeWidth="3"
+        />
+        <text
+          x="230"
+          y={centerLines.length === 1 ? 40 : 32}
+          textAnchor="middle"
+          className="fill-white text-[13px] font-black"
+        >
+          {centerLines.map((line, idx) => (
+            <tspan key={idx} x="230" dy={idx === 0 ? 0 : 16}>
+              {line}
+            </tspan>
+          ))}
+        </text>
+
+        {/* 放射狀連線與分支節點 */}
+        {displayBranches.map((branchText, idx) => {
+          const x = 12 + idx * (boxW + gap);
+          const cx = x + boxW / 2;
+          const palette = branchPalettes[idx % branchPalettes.length];
+          const shortTitle = branchText.split(/[：:]/)[0] ?? branchText;
+          const lines = wrapSvgText(shortTitle, count >= 4 ? 5 : 7);
+
+          return (
+            <g key={idx}>
+              <path
+                d={`M 230 60 C 230 84, ${cx} 76, ${cx} 102`}
+                fill="none"
+                stroke={palette.stroke}
+                strokeWidth="2.4"
+              />
+              <circle cx={cx} cy="102" r="4" fill={palette.stroke} />
+              <rect
+                x={x}
+                y="106"
+                width={boxW}
+                height="66"
+                rx="13"
+                fill={palette.fill}
+                stroke={palette.stroke}
+                strokeWidth="2"
+              />
+              <circle
+                cx={x + 15}
+                cy="121"
+                r="8"
+                fill={palette.badge}
+              />
+              <text
+                x={x + 15}
+                y="125"
+                textAnchor="middle"
+                className="fill-white text-[10px] font-black"
+              >
+                {idx + 1}
+              </text>
+              <text
+                x={cx}
+                y={lines.length === 1 ? 148 : 140}
+                textAnchor="middle"
+                className="fill-slate-900 text-[11px] font-black"
+              >
+                {lines.map((line, lIdx) => (
+                  <tspan key={lIdx} x={cx} dy={lIdx === 0 ? 0 : 15}>
+                    {line}
+                  </tspan>
+                ))}
+              </text>
+            </g>
+          );
+        })}
+
+        {labels[0] && (
+          <g>
+            <rect
+              x={width / 2 - 96}
+              y="177"
+              width="192"
+              height="18"
+              rx="9"
+              fill="#f1f5f9"
+              stroke="#cbd5e1"
+              strokeWidth="1"
+            />
+            <text
+              x={width / 2}
+              y="190"
+              textAnchor="middle"
+              className="fill-slate-700 text-[10px] font-black"
+            >
+              {labels[0].text}
+            </text>
+          </g>
+        )}
+      </svg>
+
+      {/* 分支完整說明小卡 */}
+      <div className="grid gap-2 sm:grid-cols-2">
+        {displayBranches.map((branch, idx) => (
+          <div
+            key={idx}
+            className="flex items-start gap-2 rounded-xl border border-slate-200 bg-slate-50/80 px-3 py-2 text-xs font-bold text-slate-700"
+          >
+            <span className="mt-0.5 inline-flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-slate-800 text-[10px] font-black text-white">
+              {idx + 1}
+            </span>
+            <span>{branch}</span>
+          </div>
+        ))}
       </div>
     </div>
   );
@@ -996,6 +1180,8 @@ export function LessonDiagram({ spec }: LessonDiagramProps) {
         return (
           <ConceptCompareTemplate params={effectiveParams} labels={labels} />
         );
+      case 'concept_map':
+        return <ConceptMapTemplate params={effectiveParams} labels={labels} />;
       case 'clock_face':
         return <ClockFaceTemplate params={effectiveParams} labels={labels} />;
       default:

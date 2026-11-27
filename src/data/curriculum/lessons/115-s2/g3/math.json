@@ -74,15 +74,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "百位 6 ÷ 6",
-                "十位 1 不夠除",
-                "把個位 8 放下"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -194,15 +194,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "200 毫升不夠",
-                "4 公升 200",
-                "1200 - 6"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -306,19 +306,17 @@
           },
           "factGroundingSourceId": "115-s2/g3/math#u3",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "fraction_bar",
             "params": {
-              "nodes": [
-                "把完整 1 個披",
-                "計算 6/6 -",
-                "盤子上還剩下 4"
-              ]
+              "denominator": 6,
+              "numerator": 2,
+              "scaleFactor": 1
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
-                "anchorPointId": "bottom"
+                "text": "例題分數 2/6",
+                "anchorPointId": "top"
               }
             ]
           }
@@ -383,8 +381,8 @@
             "params": {
               "leftTitle": "半徑",
               "leftPoints": [
-                "直徑＝半徑 × 2",
-                "半徑＝直徑 ÷ 2"
+                "從圓心連到圓周",
+                "圓規張開的距離＝半徑"
               ],
               "rightTitle": "直徑",
               "rightPoints": [
@@ -432,15 +430,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "確認圓規張開的距",
-                "已知直徑是 10",
-                "算出 10 ÷ "
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -549,14 +547,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "先算特價後1 件",
-                "再算買 5 件一"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -668,15 +667,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "把整數 3 寫成",
-                "十分位 0 不夠",
-                "十分位 10 -"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -780,18 +779,15 @@
           },
           "factGroundingSourceId": "115-s2/g3/math#u7",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "clock_face",
             "params": {
-              "nodes": [
-                "把下午 2 時 ",
-                "10 分不夠減 ",
-                "70 - 30 "
-              ]
+              "hour": 9,
+              "minute": 30
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "9點30分",
                 "anchorPointId": "bottom"
               }
             ]
@@ -906,15 +902,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "第一題括號在最前",
-                "第二題括號在中間",
-                "把算出的數字代回"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -1023,15 +1019,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "先算 6 個半格",
-                "把整格和拼成的整",
-                "得到面積是 17"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]

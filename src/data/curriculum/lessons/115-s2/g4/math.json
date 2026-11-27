@@ -80,15 +80,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "圈出目標位數萬位",
-                "只看右邊相鄰的千",
-                "因為 4 小於 "
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -204,15 +204,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "(85 - 37",
-                "由左而右算 48",
-                "簡算 37 × "
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -329,15 +329,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "只要四條邊都等長",
-                "四個角都是 90",
-                "若只有一雙對邊平"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -443,19 +443,17 @@
           },
           "factGroundingSourceId": "115-s2/g4/math#u4",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "fraction_bar",
             "params": {
-              "nodes": [
-                "5 借出 1 改",
-                "把 1 又 3/",
-                "計算 7/4 ×"
-              ]
+              "denominator": 7,
+              "numerator": 3,
+              "scaleFactor": 1
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
-                "anchorPointId": "bottom"
+                "text": "例題分數 3/7",
+                "anchorPointId": "top"
               }
             ]
           }
@@ -563,15 +561,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "長方體一層有 5",
-                "小樓梯分三層相加",
-                "確認單位寫成立方"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -684,15 +682,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "2.45 × 4",
-                "被乘數 2.45",
-                "0.36 × 2"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -801,15 +799,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "正方形邊長 = ",
-                "草坪大長方形面積",
-                "相減得剩下草坪面"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -914,19 +912,17 @@
           },
           "factGroundingSourceId": "115-s2/g4/math#u8",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "fraction_bar",
             "params": {
-              "nodes": [
-                "把 1/2 分子",
-                "同分母相加：4/",
-                "把 3/4 分子"
-              ]
+              "denominator": 2,
+              "numerator": 1,
+              "scaleFactor": 1
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
-                "anchorPointId": "bottom"
+                "text": "例題分數 1/2",
+                "anchorPointId": "top"
               }
             ]
           }
@@ -1031,18 +1027,15 @@
           },
           "factGroundingSourceId": "115-s2/g4/math#u9",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "clock_face",
             "params": {
-              "nodes": [
-                "先把下午 2 時",
-                "15 分不夠減 ",
-                "相減得 13 -"
-              ]
+              "hour": 9,
+              "minute": 40
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "9點40分",
                 "anchorPointId": "bottom"
               }
             ]
@@ -1154,15 +1147,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "一組有 4 種顏",
-                "餘數是 3，對應",
-                "用 3 × 5 "
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]

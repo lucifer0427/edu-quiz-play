@@ -30,8 +30,8 @@
             "params": {
               "leftTitle": "萬級（左四位）",
               "leftPoints": [
-                "個級：千、百、十、個",
-                "萬級：千萬、百萬、十萬、萬"
+                "千萬、百萬、十萬、萬",
+                "讀完這四位加上「萬」字"
               ],
               "rightTitle": "個級（右四位）",
               "rightPoints": [
@@ -80,15 +80,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "圈出萬字，前面是",
-                "萬字後面是零五百",
-                "兩級合併起來，寫"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -201,15 +201,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "先遮住末尾共 3",
-                "計算非零部分 4",
-                "在 100 後面"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -319,15 +319,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "從 12 到 4",
-                "每大格 30 度",
-                "120 度大於 "
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -433,19 +433,17 @@
           },
           "factGroundingSourceId": "115-s1/g4/math#u4",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "fraction_bar",
             "params": {
-              "nodes": [
-                "3 又 4/7 ",
-                "23/5 用除法",
-                "商 4 當整數、"
-              ]
+              "denominator": 7,
+              "numerator": 4,
+              "scaleFactor": 1
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
-                "anchorPointId": "bottom"
+                "text": "例題分數 4/7",
+                "anchorPointId": "top"
               }
             ]
           }
@@ -554,15 +552,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "4 公里 = 4",
-                "減法退位：把 1",
-                "1000 - 4"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -675,15 +673,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "被除數與除數同時",
-                "商維持 7 不變",
-                "驗算 700 ×"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -751,7 +749,7 @@
               "leftTitle": "依角度分類",
               "leftPoints": [
                 "銳角：三個角都小於 90 度",
-                "依邊分：正三角形、等腰三角形",
+                "直角：有一個 90 度角",
                 "鈍角：有一個大於 90 度角"
               ],
               "rightTitle": "依邊長分類",
@@ -801,15 +799,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "三角形三個內角合",
-                "扣掉 90 度直",
-                "等腰三角形兩底角"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -922,15 +920,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "題目要先算特價後",
-                "減法優先級比乘法",
-                "再乘以 6 雙，"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -1040,15 +1038,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "把整數 5 改寫",
-                "百分位不夠減，從",
-                "計算 10 - "
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -1115,8 +1113,8 @@
             "params": {
               "leftTitle": "長條圖",
               "leftPoints": [
-                "長條圖：比較不同類別數量",
-                "折線圖：觀察隨時間變化趨勢"
+                "橫軸放不同類別項目",
+                "比較誰多、誰少、相差多少"
               ],
               "rightTitle": "折線圖",
               "rightPoints": [
@@ -1165,15 +1163,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "算出 3 大格的",
-                "算出半大格的人數",
-                "兩者相加 12 "
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]

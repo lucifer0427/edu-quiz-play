@@ -78,15 +78,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "寫出千位是 4（",
-                "沒有一百元硬幣，",
-                "十位寫 7、個位"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -152,8 +152,8 @@
             "params": {
               "leftTitle": "四位數加法",
               "leftPoints": [
-                "同位值上下對齊（個對個、千對千）",
-                "加法滿 10 向左進 1"
+                "從個位加起",
+                "滿 10 向前一位進 1"
               ],
               "rightTitle": "四位數減法",
               "rightPoints": [
@@ -201,15 +201,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "向千位借 1，千",
-                "個位 10-6=",
-                "用加法驗算：35"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -321,15 +321,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "12 公分沒有毫",
-                "毫米相減：10 ",
-                "公分相減：11 "
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -439,15 +439,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "個位 7 × 4",
-                "十位 0 × 4",
-                "百位 3 × 4"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -556,15 +556,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "用三角板檢查四個",
-                "用直尺量四條邊的",
-                "四邊都一樣長是正"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -630,8 +630,8 @@
             "params": {
               "leftTitle": "分裝與除",
               "leftPoints": [
-                "被除數 ÷ 除數＝商 ⋯⋯ 餘數",
-                "餘數一定要比除數小"
+                "每幾個裝成一份",
+                "問可以裝幾份"
               ],
               "rightTitle": "平分與除",
               "rightPoints": [
@@ -679,15 +679,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "想 6 的乘法，",
-                "商寫 7，47 ",
-                "檢查餘數 5 <"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -800,15 +800,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "150 公克不夠",
-                "2 公斤 150",
-                "1150 - 4"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -912,19 +912,17 @@
           },
           "factGroundingSourceId": "115-s1/g3/math#u8",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "fraction_bar",
             "params": {
-              "nodes": [
-                "把 1 條緞帶平",
-                "剪去 4 份（4",
-                "7 - 4 = "
-              ]
+              "denominator": 7,
+              "numerator": 4,
+              "scaleFactor": 1
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
-                "anchorPointId": "bottom"
+                "text": "例題分數 4/7",
+                "anchorPointId": "top"
               }
             ]
           }
@@ -989,8 +987,8 @@
             "params": {
               "leftTitle": "圖案重複規律",
               "leftPoints": [
-                "二維表格要同時對照「橫列」和「直行」",
-                "圖案規律先框出重複的一組"
+                "先找出幾張為一組",
+                "用除法餘數找第幾個"
               ],
               "rightTitle": "數字增減規律",
               "rightPoints": [
@@ -1038,15 +1036,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "看出每 3 面（",
-                "計算 11 ÷ ",
-                "餘 2 代表新一"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]

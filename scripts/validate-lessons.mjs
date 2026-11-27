@@ -27,6 +27,7 @@ const ALLOWED_TEMPLATES = new Set([
   'number_line',
   'flow_cause',
   'concept_compare',
+  'concept_map',
   'clock_face',
 ]);
 const BANNED_SEDUCTIVE_TOKENS = [
@@ -277,6 +278,64 @@ export function validateLessonPack(
               );
             }
             checkSeductiveTokens(text, sceneWhere, errors);
+          }
+        }
+
+        const params = scene.visualSpec.params ?? {};
+        const TRUNCATED_END_RE = /(?:[的、，「（或把從是]|，將)$/;
+        const checkDiagramPhrase = (phrase, fieldName) => {
+          const text = typeof phrase === 'string' ? phrase.trim() : '';
+          if (!text) {
+            errors.push(`${sceneWhere} ${fieldName} 不可為空`);
+            return;
+          }
+          if (TRUNCATED_END_RE.test(text)) {
+            errors.push(
+              `${sceneWhere} ${fieldName}「${text}」疑似被截斷（結尾字元不完整）`,
+            );
+          }
+          const openQuotes = (text.match(/「/g) ?? []).length;
+          const closeQuotes = (text.match(/」/g) ?? []).length;
+          if (openQuotes !== closeQuotes) {
+            errors.push(
+              `${sceneWhere} ${fieldName}「${text}」引號未閉合`,
+            );
+          }
+          checkSeductiveTokens(text, `${sceneWhere} ${fieldName}`, errors);
+        };
+
+        if (
+          scene.visualSpec.templateId === 'flow_cause' &&
+          Array.isArray(params.nodes)
+        ) {
+          params.nodes.forEach((node, idx) =>
+            checkDiagramPhrase(node, `flow_cause.nodes[${idx}]`),
+          );
+        }
+
+        if (scene.visualSpec.templateId === 'concept_map') {
+          checkDiagramPhrase(params.center, 'concept_map.center');
+          if (!Array.isArray(params.branches) || params.branches.length < 2) {
+            errors.push(
+              `${sceneWhere} concept_map.branches 至少需要 2 個分支重點`,
+            );
+          } else {
+            params.branches.forEach((branch, idx) =>
+              checkDiagramPhrase(branch, `concept_map.branches[${idx}]`),
+            );
+          }
+        }
+
+        if (scene.visualSpec.templateId === 'concept_compare') {
+          if (Array.isArray(params.leftPoints)) {
+            params.leftPoints.forEach((pt, idx) =>
+              checkDiagramPhrase(pt, `concept_compare.leftPoints[${idx}]`),
+            );
+          }
+          if (Array.isArray(params.rightPoints)) {
+            params.rightPoints.forEach((pt, idx) =>
+              checkDiagramPhrase(pt, `concept_compare.rightPoints[${idx}]`),
+            );
           }
         }
       }

@@ -72,19 +72,17 @@
           },
           "factGroundingSourceId": "115-s2/g6/math#u1",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "fraction_bar",
             "params": {
-              "nodes": [
-                "第一題兩邊都有 ",
-                "第二題先算括號內",
-                "除以 1/4 等"
-              ]
+              "denominator": 5,
+              "numerator": 4,
+              "scaleFactor": 1
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
-                "anchorPointId": "bottom"
+                "text": "例題分數 4/5",
+                "anchorPointId": "top"
               }
             ]
           }
@@ -149,8 +147,8 @@
             "params": {
               "leftTitle": "速率相加（合力）",
               "leftPoints": [
-                "相向相遇或反方向相背：距離和 ÷ 速率和",
-                "同方向追趕：距離差 ÷ 速率差",
+                "兩人相向而行（相遇）",
+                "兩人反方向而行（相背）",
                 "順流船速（船速 ＋ 水速）"
               ],
               "rightTitle": "速率相減（抵銷）",
@@ -199,15 +197,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "先算弟弟已經領先",
-                "算姊姊每分鐘能追",
-                "追趕時間 = 3"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -283,29 +281,32 @@
           "factGroundingSourceId": "115-s2/g6/math#u3"
         },
         {
-          "sceneId": "115-s2-g6-math-u3-s1b-flow",
+          "sceneId": "115-s2-g6-math-u3-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "面對「第三單元 柱體體積與表面積」的題目，請照著上方流程圖操作：先圈出已知數字與單位，再用圖示或線段整理數量關係，最後列式計算並檢查大小是否合理。",
+          "title": "單元 柱體體積與表面積：知識架構心智圖",
+          "narrationText": "看上方幾何圖形心智圖：先分清題目問周長、面積還是體積，再確認底和高互相垂直，最後檢查平方或立方單位！",
           "cognitiveChunks": [
-            "第 1 步：圈出題目給的數字、單位與最後要問的目標",
-            "第 2 步：在腦中或紙上畫出數量關係，決定運算方向",
-            "第 3 步：計算後回頭檢查進位、借位與單位是否一致"
+            "辨識圖形：先確認邊長、角度與底高的對應位置",
+            "周長面積：周長是外圍一圈長，面積是內部大小",
+            "公式推導：三角形與梯形別忘最後要除以 2",
+            "單位確認：長度用 cm、面積用 cm²、體積用 cm³"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_map",
             "params": {
-              "nodes": [
-                "圈出已知條件",
-                "畫圖整理關係",
-                "列式計算驗算"
+              "center": "單元 柱體體積與表面積",
+              "branches": [
+                "辨識圖形：先確認邊長、角度與底高的對應位置",
+                "周長面積：周長是外圍一圈長，面積是內部大小",
+                "公式推導：三角形與梯形別忘最後要除以 2",
+                "單位確認：長度用 cm、面積用 cm²、體積用 cm³"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "數學三步解題法",
+                "text": "幾何圖形心智圖",
                 "anchorPointId": "bottom"
               }
             ]
@@ -334,19 +335,23 @@
           },
           "factGroundingSourceId": "115-s2/g6/math#u3",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "rect_geometry",
             "params": {
-              "nodes": [
-                "算單個圓底面積：",
-                "算圓柱體積（底面",
-                "算展開長方形側面"
-              ]
+              "shape": "rect",
+              "base": 2,
+              "height": 5,
+              "unit": "cm"
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "底 2 cm",
                 "anchorPointId": "bottom"
+              },
+              {
+                "id": "l2",
+                "text": "高 5 cm",
+                "anchorPointId": "height"
               }
             ]
           }
@@ -441,15 +446,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "把衣服當作基準量",
-                "衣服和褲子合起來",
-                "反求基準量（衣服"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -515,7 +520,7 @@
             "params": {
               "leftTitle": "雞兔／和差／年齡",
               "leftPoints": [
-                "雞兔問題：先全部假設成一種，看總數差多少再替換",
+                "雞兔：算總差 ÷ 單個差",
                 "年齡：兩人相差歲數永遠不變"
               ],
               "rightTitle": "加法與乘法計數原理",
@@ -564,15 +569,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "假設 14 隻全",
-                "比實際的 40 ",
-                "每把 1 隻雞換"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -683,15 +688,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "算運動社圓心角：",
-                "算運動社人數：4",
-                "若製作圓形百分圖"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]

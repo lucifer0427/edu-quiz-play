@@ -30,8 +30,8 @@
             "params": {
               "leftTitle": "最大公因數",
               "leftPoints": [
-                "20 以內質數：2, 3, 5, 7, 11, 13, 17, 19",
-                "1 既不是質數也不是合數"
+                "短除法只乘左邊共同除數",
+                "常用於平分物品、分數約分"
               ],
               "rightTitle": "最小公倍數",
               "rightPoints": [
@@ -79,15 +79,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "先同除以公因數 ",
-                "6 和 9 同除",
-                "左邊除數相乘 2"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -193,19 +193,17 @@
           },
           "factGroundingSourceId": "115-s1/g6/math#u2",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "fraction_bar",
             "params": {
-              "nodes": [
-                "先把帶分數化為假",
-                "除以 5/6 改",
-                "分子分母交叉約分"
-              ]
+              "denominator": 2,
+              "numerator": 1,
+              "scaleFactor": 1
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
-                "anchorPointId": "bottom"
+                "text": "例題分數 1/2",
+                "anchorPointId": "top"
               }
             ]
           }
@@ -316,15 +314,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "觀察數量變化：4",
-                "把第 1 個正方",
-                "排 n 個就需要"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -434,15 +432,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "把 5.6 和 ",
-                "56 ÷ 9 =",
-                "餘數的小數點要對"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -508,8 +506,8 @@
             "params": {
               "leftTitle": "比（a : b）",
               "leftPoints": [
-                "a : b 的比值 ＝ a ÷ b（可寫成分數 a/b）",
-                "前後項同乘或同除一個不為 0 的數，比值不變"
+                "表示前項與後項的倍數關係",
+                "前後項順序不能任意對調"
               ],
               "rightTitle": "比值（a ÷ b）",
               "rightPoints": [
@@ -557,15 +555,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "計算總份數：3 ",
-                "算出 1 份有幾",
-                "甲佔 3 份，所"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -674,19 +672,17 @@
           },
           "factGroundingSourceId": "115-s1/g6/math#u6",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "fraction_bar",
             "params": {
-              "nodes": [
-                "先算完整圓周長：",
-                "算 1/4 圓的",
-                "加上兩條半徑：1"
-              ]
+              "denominator": 4,
+              "numerator": 1,
+              "scaleFactor": 1
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
-                "anchorPointId": "bottom"
+                "text": "例題分數 1/4",
+                "anchorPointId": "top"
               }
             ]
           }
@@ -794,15 +790,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "算大圓面積的平方",
-                "算小圓面積的平方",
-                "相減後乘以 3."
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -918,15 +914,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "先把距離換成公尺",
-                "把 1 小時換成",
-                "再把 1 分鐘換"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -992,8 +988,8 @@
             "params": {
               "leftTitle": "放大圖／縮圖性質",
               "leftPoints": [
-                "對應角永遠相等（度數不變）",
-                "對應邊長成相同比例（n 倍放大圖邊長變 n 倍）"
+                "對應角大小永遠相等",
+                "對應邊長同時乘以縮放倍率"
               ],
               "rightTitle": "地圖比例尺",
               "rightPoints": [
@@ -1041,15 +1037,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "算出實際距離（公",
-                "先把公分換成公尺",
-                "再把公尺換成公里"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]

@@ -55,29 +55,32 @@
           "factGroundingSourceId": "115-s2/g2/english#u1"
         },
         {
-          "sceneId": "115-s2-g2-english-u1-s1b-flow",
+          "sceneId": "115-s2-g2-english-u1-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "學習「第1–4週：生活小達人：安全與健康的好習慣」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "title": "生活小達人：安全與健康的好習慣：知識架構心智圖",
+          "narrationText": "透過上方公民規則心智圖，理解規則不是為了限制，而是為了保障大家的安全與公平，遇到情境題就能選出最尊重他人的做法！",
           "cognitiveChunks": [
-            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
-            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
-            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+            "辨識規範：看懂標誌符號與班級社區公約",
+            "權利義務：享有保障的同時也要履行應盡責任",
+            "理性溝通：透過開會投票與傾聽解決不同意見",
+            "安全守護：遵守規則保護自己，遇危主動求助"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_map",
             "params": {
-              "nodes": [
-                "讀懂題幹問題",
-                "找字形與文意",
-                "代入原句確認"
+              "center": "生活小達人：安全與健康的好習慣",
+              "branches": [
+                "辨識規範：看懂標誌符號與班級社區公約",
+                "權利義務：享有保障的同時也要履行應盡責任",
+                "理性溝通：透過開會投票與傾聽解決不同意見",
+                "安全守護：遵守規則保護自己，遇危主動求助"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "語文三步思考法",
+                "text": "公民規則心智圖",
                 "anchorPointId": "bottom"
               }
             ]
@@ -109,15 +112,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "檢查N - u：",
-                "檢查P - q：",
-                "檢查R - r："
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -188,40 +191,33 @@
           "factGroundingSourceId": "115-s2/g2/english#u2"
         },
         {
-          "sceneId": "115-s2-g2-english-u2-s1b-flow",
+          "sceneId": "115-s2-g2-english-u2-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "掌握「第5–9週：守護地球小尖兵：安全探索與行動」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "title": "守護地球小尖兵：安全探索與行動：知識架構心智圖",
+          "narrationText": "透過上方知識心智圖，記住植物四大器官的分工合作：根吸水、莖輸送、葉造養分、花果負責繁殖，作答時就能迅速對應正確功能！",
           "cognitiveChunks": [
-            "先圈出題幹關鍵字與限制條件，不急著搶答",
-            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
-            "選出答案後代回原題檢查一次，確認邏輯通順"
+            "根部功能：吸收水分養分並固定植株",
+            "莖部功能：支撐植物並輸送水分養分",
+            "葉片功能：吸收陽光進行光合作用",
+            "花與果實：授粉結果以繁殖下一代"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "concept_compare",
+            "templateId": "concept_map",
             "params": {
-              "leftTitle": "正確解題思路",
-              "leftPoints": [
-                "掌握「第5–9週：守護地球小尖兵：安全探索與行動」的核心規則與判斷條件",
-                "照步驟拆解線索，完成後再回頭核對一次"
-              ],
-              "rightTitle": "最常見陷阱",
-              "rightPoints": [
-                "還沒看清題目條件或關鍵字就憑直覺搶答",
-                "忽略單位、順序或題目中的反義詞提示"
+              "center": "守護地球小尖兵：安全探索與行動",
+              "branches": [
+                "根部功能：吸收水分養分並固定植株",
+                "莖部功能：支撐植物並輸送水分養分",
+                "葉片功能：吸收陽光進行光合作用",
+                "花與果實：授粉結果以繁殖下一代"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "正確思路",
-                "anchorPointId": "left"
-              },
-              {
-                "id": "l2",
-                "text": "避開陷阱",
-                "anchorPointId": "right"
+                "text": "植物構造心智圖",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -252,15 +248,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "要借東西時用Ma",
-                "對方答應借你時回",
-                "接到手後別忘了說"
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -338,29 +334,32 @@
           "factGroundingSourceId": "115-s2/g2/english#u3"
         },
         {
-          "sceneId": "115-s2-g2-english-u3-s1b-flow",
+          "sceneId": "115-s2-g2-english-u3-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "學習「第10–14週：生活中的守護者：超級英雄特訓班」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "title": "生活中的守護者：超級英雄特訓班：知識架構心智圖",
+          "narrationText": "透過上方知識心智圖，把「生活中的守護者：超級英雄特訓班」的字詞、句型與段落主旨串連起來，閱讀與作答時就能更有條理！",
           "cognitiveChunks": [
-            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
-            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
-            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+            "字詞基礎：掌握本課重點生字的讀音、部首與字義",
+            "句型運用：觀察關鍵詞在句子裡的搭配與語氣",
+            "文意理解：找出段落重點句並歸納全課主旨",
+            "朗讀表達：大聲念出課文並試著用自己的話複述"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_map",
             "params": {
-              "nodes": [
-                "讀懂題幹問題",
-                "找字形與文意",
-                "代入原句確認"
+              "center": "生活中的守護者：超級英雄特訓班",
+              "branches": [
+                "字詞基礎：掌握本課重點生字的讀音、部首與字義",
+                "句型運用：觀察關鍵詞在句子裡的搭配與語氣",
+                "文意理解：找出段落重點句並歸納全課主旨",
+                "朗讀表達：大聲念出課文並試著用自己的話複述"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "語文三步思考法",
+                "text": "語文閱讀心智圖",
                 "anchorPointId": "bottom"
               }
             ]
@@ -392,15 +391,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "在心裡從頭唱一遍",
-                "接著往下唱兩個字",
-                "確認完整順序 S"
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -478,29 +477,32 @@
           "factGroundingSourceId": "115-s2/g2/english#u4"
         },
         {
-          "sceneId": "115-s2-g2-english-u4-s1b-flow",
+          "sceneId": "115-s2-g2-english-u4-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "學習「第15–21週：夏日安全冒險王：戶外探索趣」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "title": "夏日安全冒險王：戶外探索趣：知識架構心智圖",
+          "narrationText": "利用上方水的變化心智圖，把三態轉換、受熱蒸發與遇冷凝結串連起來，遇到實驗現象題就能立刻推論出正確原因！",
           "cognitiveChunks": [
-            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
-            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
-            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+            "三態變化：固態冰、液態水與氣態水蒸氣",
+            "溫度影響：受熱蒸發成氣體、遇冷會凝結",
+            "溶解現象：糖鹽等物質能均勻分散於水中",
+            "珍惜水資源：養成節約用水與分類不汙染習慣"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_map",
             "params": {
-              "nodes": [
-                "讀懂題幹問題",
-                "找字形與文意",
-                "代入原句確認"
+              "center": "夏日安全冒險王：戶外探索趣",
+              "branches": [
+                "三態變化：固態冰、液態水與氣態水蒸氣",
+                "溫度影響：受熱蒸發成氣體、遇冷會凝結",
+                "溶解現象：糖鹽等物質能均勻分散於水中",
+                "珍惜水資源：養成節約用水與分類不汙染習慣"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "語文三步思考法",
+                "text": "水的變化心智圖",
                 "anchorPointId": "bottom"
               }
             ]
@@ -532,15 +534,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "檢查N - m：",
-                "檢查U - n：",
-                "檢查T - t："
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -620,29 +622,32 @@
           "factGroundingSourceId": "115-s2/g2/english#u5"
         },
         {
-          "sceneId": "115-s2-g2-english-u5-s1b-flow",
+          "sceneId": "115-s2-g2-english-u5-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "學習「Fun World 4 · Unit 1 Let's Read」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "title": "Fun World 4 · Unit：知識架構心智圖",
+          "narrationText": "透過上方語文溝通心智圖，把單字放進真實生活對話情境一起記憶，邊念邊聯想畫面就能說得自然又流利！",
           "cognitiveChunks": [
-            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
-            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
-            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+            "情境辨識：先看清對話發生的場合與對象",
+            "核心句型：掌握問句與答句的固定搭配結構",
+            "發音拼讀：大聲念出來連結字音與字形記憶",
+            "禮貌表達：在生活對話中自然運用學過的句子"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_map",
             "params": {
-              "nodes": [
-                "讀懂題幹問題",
-                "找字形與文意",
-                "代入原句確認"
+              "center": "Fun World 4 · Unit",
+              "branches": [
+                "情境辨識：先看清對話發生的場合與對象",
+                "核心句型：掌握問句與答句的固定搭配結構",
+                "發音拼讀：大聲念出來連結字音與字形記憶",
+                "禮貌表達：在生活對話中自然運用學過的句子"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "語文三步思考法",
+                "text": "語文溝通心智圖",
                 "anchorPointId": "bottom"
               }
             ]
@@ -675,15 +680,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "理解 Nice ",
-                "在同樣的話後面加",
-                "說出 Nice "
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -763,29 +768,32 @@
           "factGroundingSourceId": "115-s2/g2/english#u6"
         },
         {
-          "sceneId": "115-s2-g2-english-u6-s1b-flow",
+          "sceneId": "115-s2-g2-english-u6-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "學習「Fun World 4 · Unit 2 Visit the Museum」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "title": "Fun World 4 · Unit：知識架構心智圖",
+          "narrationText": "透過上方語文溝通心智圖，把單字放進真實生活對話情境一起記憶，邊念邊聯想畫面就能說得自然又流利！",
           "cognitiveChunks": [
-            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
-            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
-            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+            "情境辨識：先看清對話發生的場合與對象",
+            "核心句型：掌握問句與答句的固定搭配結構",
+            "發音拼讀：大聲念出來連結字音與字形記憶",
+            "禮貌表達：在生活對話中自然運用學過的句子"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_map",
             "params": {
-              "nodes": [
-                "讀懂題幹問題",
-                "找字形與文意",
-                "代入原句確認"
+              "center": "Fun World 4 · Unit",
+              "branches": [
+                "情境辨識：先看清對話發生的場合與對象",
+                "核心句型：掌握問句與答句的固定搭配結構",
+                "發音拼讀：大聲念出來連結字音與字形記憶",
+                "禮貌表達：在生活對話中自然運用學過的句子"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "語文三步思考法",
+                "text": "語文溝通心智圖",
                 "anchorPointId": "bottom"
               }
             ]
@@ -817,15 +825,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "queen 念 ",
-                "pencil 念",
-                "完成 queen"
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -904,29 +912,32 @@
           "factGroundingSourceId": "115-s2/g2/english#u7"
         },
         {
-          "sceneId": "115-s2-g2-english-u7-s1b-flow",
+          "sceneId": "115-s2-g2-english-u7-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "學習「Fun World 4 · Review 1（母親節）」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "title": "Fun World 4 · Revi：知識架構心智圖",
+          "narrationText": "透過上方知識心智圖，把「Fun World 4 · Revi」的字詞、句型與段落主旨串連起來，閱讀與作答時就能更有條理！",
           "cognitiveChunks": [
-            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
-            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
-            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+            "字詞基礎：掌握本課重點生字的讀音、部首與字義",
+            "句型運用：觀察關鍵詞在句子裡的搭配與語氣",
+            "文意理解：找出段落重點句並歸納全課主旨",
+            "朗讀表達：大聲念出課文並試著用自己的話複述"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_map",
             "params": {
-              "nodes": [
-                "讀懂題幹問題",
-                "找字形與文意",
-                "代入原句確認"
+              "center": "Fun World 4 · Revi",
+              "branches": [
+                "字詞基礎：掌握本課重點生字的讀音、部首與字義",
+                "句型運用：觀察關鍵詞在句子裡的搭配與語氣",
+                "文意理解：找出段落重點句並歸納全課主旨",
+                "朗讀表達：大聲念出課文並試著用自己的話複述"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "語文三步思考法",
+                "text": "語文閱讀心智圖",
                 "anchorPointId": "bottom"
               }
             ]
@@ -958,15 +969,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "剛認識見面時，說",
-                "對方回Nice ",
-                "道別祝福時，說H"
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -1021,7 +1032,7 @@
               "leftTitle": "字母與單字",
               "leftPoints": [
                 "Tt — turtle（烏龜）",
-                "Uu up（向上）",
+                "Uu — up（向上）",
                 "Vv — van（箱型車）"
               ],
               "rightTitle": "生活用語與文化",
@@ -1047,29 +1058,32 @@
           "factGroundingSourceId": "115-s2/g2/english#u8"
         },
         {
-          "sceneId": "115-s2-g2-english-u8-s1b-flow",
+          "sceneId": "115-s2-g2-english-u8-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "學習「Fun World 4 · Unit 3 Fun Time」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "title": "Fun World 4 · Unit：知識架構心智圖",
+          "narrationText": "透過上方語文溝通心智圖，把單字放進真實生活對話情境一起記憶，邊念邊聯想畫面就能說得自然又流利！",
           "cognitiveChunks": [
-            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
-            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
-            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+            "情境辨識：先看清對話發生的場合與對象",
+            "核心句型：掌握問句與答句的固定搭配結構",
+            "發音拼讀：大聲念出來連結字音與字形記憶",
+            "禮貌表達：在生活對話中自然運用學過的句子"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_map",
             "params": {
-              "nodes": [
-                "讀懂題幹問題",
-                "找字形與文意",
-                "代入原句確認"
+              "center": "Fun World 4 · Unit",
+              "branches": [
+                "情境辨識：先看清對話發生的場合與對象",
+                "核心句型：掌握問句與答句的固定搭配結構",
+                "發音拼讀：大聲念出來連結字音與字形記憶",
+                "禮貌表達：在生活對話中自然運用學過的句子"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "語文三步思考法",
+                "text": "語文溝通心智圖",
                 "anchorPointId": "bottom"
               }
             ]
@@ -1102,15 +1116,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "兩個字都是上排牙",
-                "念 fan (/",
-                "念 van (/"
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -1165,7 +1179,7 @@
               "leftTitle": "字母與單字",
               "leftPoints": [
                 "Ww — window（窗戶）",
-                "Yy yellow / Zz zebra",
+                "Xx — fox（狐狸）",
                 "Yy — yellow（黃色）",
                 "Zz — zebra（斑馬）"
               ],
@@ -1192,29 +1206,32 @@
           "factGroundingSourceId": "115-s2/g2/english#u9"
         },
         {
-          "sceneId": "115-s2-g2-english-u9-s1b-flow",
+          "sceneId": "115-s2-g2-english-u9-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "學習「Fun World 4 · Unit 4 Be Thankful」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "title": "Fun World 4 · Unit：知識架構心智圖",
+          "narrationText": "透過上方語文溝通心智圖，把單字放進真實生活對話情境一起記憶，邊念邊聯想畫面就能說得自然又流利！",
           "cognitiveChunks": [
-            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
-            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
-            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+            "情境辨識：先看清對話發生的場合與對象",
+            "核心句型：掌握問句與答句的固定搭配結構",
+            "發音拼讀：大聲念出來連結字音與字形記憶",
+            "禮貌表達：在生活對話中自然運用學過的句子"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_map",
             "params": {
-              "nodes": [
-                "讀懂題幹問題",
-                "找字形與文意",
-                "代入原句確認"
+              "center": "Fun World 4 · Unit",
+              "branches": [
+                "情境辨識：先看清對話發生的場合與對象",
+                "核心句型：掌握問句與答句的固定搭配結構",
+                "發音拼讀：大聲念出來連結字音與字形記憶",
+                "禮貌表達：在生活對話中自然運用學過的句子"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "語文三步思考法",
+                "text": "語文溝通心智圖",
                 "anchorPointId": "bottom"
               }
             ]
@@ -1248,15 +1265,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "英文裡 Xx 在",
-                "在 fox 裡，",
-                "記住 f-o-x"
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -1310,7 +1327,7 @@
             "params": {
               "leftTitle": "Nn–Zz 13 字母",
               "leftPoints": [
-                "Nn–Ss: nose, octopus, pencil, queen, rabbit, snake",
+                "N-O-P-Q-R-S",
                 "T-U-V-W-X-Y-Z"
               ],
               "rightTitle": "生活用語總整理",
@@ -1336,29 +1353,32 @@
           "factGroundingSourceId": "115-s2/g2/english#u10"
         },
         {
-          "sceneId": "115-s2-g2-english-u10-s1b-flow",
+          "sceneId": "115-s2-g2-english-u10-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "學習「Fun World 4 · Review 2 & Final Review（夏日活動）」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "title": "Fun World 4 · Revi：知識架構心智圖",
+          "narrationText": "透過上方時間與速率心智圖，特別留意「60 進位不是 100 進位」，先把單位換一致再計算就不會出錯！",
           "cognitiveChunks": [
-            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
-            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
-            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+            "時間換算：1 小時＝60 分、1 分＝60 秒",
+            "經過時間：結束時刻減開始時刻，不夠要借 60",
+            "速率關係：速率＝距離÷時間，單位要先統一",
+            "畫線輔助：畫時間軸標出起點與終點最不易錯"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_map",
             "params": {
-              "nodes": [
-                "讀懂題幹問題",
-                "找字形與文意",
-                "代入原句確認"
+              "center": "Fun World 4 · Revi",
+              "branches": [
+                "時間換算：1 小時＝60 分、1 分＝60 秒",
+                "經過時間：結束時刻減開始時刻，不夠要借 60",
+                "速率關係：速率＝距離÷時間，單位要先統一",
+                "畫線輔助：畫時間軸標出起點與終點最不易錯"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "語文三步思考法",
+                "text": "時間速率心智圖",
                 "anchorPointId": "bottom"
               }
             ]
@@ -1391,15 +1411,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "檢查 r 和 s",
-                "檢查 p, q,",
-                "記住往下長的五兄"
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]

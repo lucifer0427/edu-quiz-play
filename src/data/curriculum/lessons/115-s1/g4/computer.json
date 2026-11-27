@@ -75,15 +75,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "確認照片對焦清楚",
-                "點擊帳號頭像執行",
-                "從裝置登入清單中"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -150,7 +150,7 @@
               "leftTitle": "非同步學習平台",
               "leftPoints": [
                 "Google Classroom 收發作業",
-                "學習吧：閱讀數位教材與完成線上練習"
+                "學習吧閱讀教材與測驗"
               ],
               "rightTitle": "同步視訊課堂",
               "rightPoints": [
@@ -199,15 +199,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "先有禮貌問候並寫",
-                "具體描述遇到的問",
-                "加上謝謝老師完成"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -318,15 +318,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "點選臺北大眾捷運",
-                "使用螢幕截圖工具",
-                "在 Classr"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -392,8 +392,8 @@
             "params": {
               "leftTitle": "文字進階搜尋",
               "leftPoints": [
-                "搜尋列計算：直接輸入算式或「100 美元 台幣」",
-                "排除關鍵字：在不想出現的詞前加「-」（如 企鵝 -玩具）"
+                "算式求解與跨幣別換算",
+                "減號「-」排除不相關詞彙"
               ],
               "rightTitle": "視覺與工具輔助",
               "rightPoints": [
@@ -442,15 +442,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "啟動瀏覽器內建翻",
-                "對照課本與權威百",
-                "將常用辭典或學習"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -516,8 +516,8 @@
             "params": {
               "leftTitle": "高空地圖與地景",
               "leftPoints": [
-                "搜尋鄉鎮區（如魚池鄉）可看見行政區邊界線",
-                "衛星／地景視角能觀察火山、山脈等真實地貌"
+                "觀察行政區範圍與邊界",
+                "衛星模式看地形與地質"
               ],
               "rightTitle": "地面街景與路徑",
               "rightPoints": [
@@ -566,15 +566,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "輸入起點與終點，",
-                "切換衛星或地景視",
-                "將右下角小黃人拖"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -640,8 +640,8 @@
             "params": {
               "leftTitle": "回覆 vs 全部回覆",
               "leftPoints": [
-                "Email 三要素：主旨、稱呼、正文",
-                "設定個人頭像、簽名檔與聯絡人群組提升效率"
+                "回覆：只回給原寄件者",
+                "全部回覆：寄給名單所有人"
               ],
               "rightTitle": "轉寄（Forward）",
               "rightPoints": [
@@ -690,15 +690,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "確認美術老師不在",
-                "點擊信件功能中的",
-                "輸入美術老師的 "
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -809,15 +809,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "用照片去背去除雜",
-                "深色背景配淺色字",
-                "宣導短片搭配正確"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -883,8 +883,8 @@
             "params": {
               "leftTitle": "面對陌生資訊與個資",
               "leftPoints": [
-                "數位問卷：以客觀統計數據參與校園事務",
-                "保護隱私：不隨意填寫個資給陌生抽獎視窗"
+                "不輕信轉傳送平板等假訊息",
+                "不外洩身分證、住址與密碼"
               ],
               "rightTitle": "線上互動與作品引用",
               "rightPoints": [
@@ -933,15 +933,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "辨識這是常見的個",
-                "立刻關閉視窗，絕",
-                "不轉傳該訊息，並"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]

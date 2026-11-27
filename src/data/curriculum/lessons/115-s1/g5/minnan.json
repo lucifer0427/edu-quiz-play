@@ -30,8 +30,8 @@
             "params": {
               "leftTitle": "生活科技語詞",
               "leftPoints": [
-                "「佮（kah）」表示「和、與」",
-                "「手機仔」是手機、「目睭」是眼睛"
+                "科技佮（和）生活、手機仔",
+                "久看螢幕會傷目睭（眼睛）"
               ],
               "rightTitle": "職業與尊重",
               "rightPoints": [
@@ -80,15 +80,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "拆解手機仔——名",
-                "拆解作田人——作",
-                "拆解目睭——指臉"
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -204,15 +204,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "辨識情緒——看懂",
-                "避開傷人話——不",
-                "送出正向語句——"
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -279,7 +279,7 @@
               "leftTitle": "北中舊地名對照",
               "leftPoints": [
                 "雞籠＝基隆、艋舺＝萬華（獨木舟）",
-                "桃園舊名「桃仔園」、萬華舊名「艋舺」"
+                "桃仔園＝桃園、竹塹＝新竹"
               ],
               "rightTitle": "南部舊地名對照",
               "rightPoints": [
@@ -328,15 +328,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "從字音聯想——雞",
-                "記住北部古城——",
-                "記住南部故事——"
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -452,15 +452,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "解讀問候——熬早",
-                "選擇連接與疑問—",
-                "串聯全句——雞籠"
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]

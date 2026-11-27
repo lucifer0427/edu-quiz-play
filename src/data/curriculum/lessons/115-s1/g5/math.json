@@ -30,8 +30,8 @@
             "params": {
               "leftTitle": "長條圖",
               "leftPoints": [
-                "長條圖比各類別大小",
-                "折線圖看隨時間變化趨勢"
+                "比較不同項目的數量",
+                "例如：最愛水果人數統計"
               ],
               "rightTitle": "折線圖",
               "rightPoints": [
@@ -80,15 +80,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "計算 1→2 月",
-                "計算 2→3 月",
-                "計算 3→4 月"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -181,29 +181,32 @@
           "factGroundingSourceId": "115-s1/g5/math#u2"
         },
         {
-          "sceneId": "115-s1-g5-math-u2-s1b-flow",
+          "sceneId": "115-s1-g5-math-u2-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "面對「第2章 倍數與因數」的題目，請照著上方流程圖操作：先圈出已知數字與單位，再用圖示或線段整理數量關係，最後列式計算並檢查大小是否合理。",
+          "title": "倍數與因數：知識架構心智圖",
+          "narrationText": "用上方心智圖秒分因數與倍數：分東西要剛好分完找「公因數」，幾天後再次相遇找「公倍數」！",
           "cognitiveChunks": [
-            "第 1 步：圈出題目給的數字、單位與最後要問的目標",
-            "第 2 步：在腦中或紙上畫出數量關係，決定運算方向",
-            "第 3 步：計算後回頭檢查進位、借位與單位是否一致"
+            "因數概念：能整除原數的數，從 1 開始成對找",
+            "倍數概念：原數乘上 1、2、3…，共有無限多個",
+            "質數合數：質數只有 1 和自己兩因數，1 不是質數",
+            "應用判斷：平分剪裁找公因數，週期重疊找公倍數"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_map",
             "params": {
-              "nodes": [
-                "圈出已知條件",
-                "畫圖整理關係",
-                "列式計算驗算"
+              "center": "倍數與因數",
+              "branches": [
+                "因數概念：能整除原數的數，從 1 開始成對找",
+                "倍數概念：原數乘上 1、2、3…，共有無限多個",
+                "質數合數：質數只有 1 和自己兩因數，1 不是質數",
+                "應用判斷：平分剪裁找公因數，週期重疊找公倍數"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "數學三步解題法",
+                "text": "因數倍數心智圖",
                 "anchorPointId": "bottom"
               }
             ]
@@ -236,15 +239,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "1 × 18 =",
-                "2 × 9 = ",
-                "3 × 6 = "
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -299,8 +302,8 @@
             "params": {
               "leftTitle": "三角形性質",
               "leftPoints": [
-                "最短兩邊和 > 最長邊才能圍成三角形",
-                "三角形 3 個內角和＝180°"
+                "任兩邊和 ＞ 第三邊",
+                "內角和固定為 180°"
               ],
               "rightTitle": "四邊形與多邊形",
               "rightPoints": [
@@ -324,29 +327,32 @@
           "factGroundingSourceId": "115-s1/g5/math#u3"
         },
         {
-          "sceneId": "115-s1-g5-math-u3-s1b-flow",
+          "sceneId": "115-s1-g5-math-u3-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "面對「第3章 平面圖形」的題目，請照著上方流程圖操作：先圈出已知數字與單位，再用圖示或線段整理數量關係，最後列式計算並檢查大小是否合理。",
+          "title": "平面圖形：知識架構心智圖",
+          "narrationText": "透過上方公民規則心智圖，理解規則不是為了限制，而是為了保障大家的安全與公平，遇到情境題就能選出最尊重他人的做法！",
           "cognitiveChunks": [
-            "第 1 步：圈出題目給的數字、單位與最後要問的目標",
-            "第 2 步：在腦中或紙上畫出數量關係，決定運算方向",
-            "第 3 步：計算後回頭檢查進位、借位與單位是否一致"
+            "辨識規範：看懂標誌符號與班級社區公約",
+            "權利義務：享有保障的同時也要履行應盡責任",
+            "理性溝通：透過開會投票與傾聽解決不同意見",
+            "安全守護：遵守規則保護自己，遇危主動求助"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_map",
             "params": {
-              "nodes": [
-                "圈出已知條件",
-                "畫圖整理關係",
-                "列式計算驗算"
+              "center": "平面圖形",
+              "branches": [
+                "辨識規範：看懂標誌符號與班級社區公約",
+                "權利義務：享有保障的同時也要履行應盡責任",
+                "理性溝通：透過開會投票與傾聽解決不同意見",
+                "安全守護：遵守規則保護自己，遇危主動求助"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "數學三步解題法",
+                "text": "公民規則心智圖",
                 "anchorPointId": "bottom"
               }
             ]
@@ -379,15 +385,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "找出最長邊是 9",
-                "計算最短兩邊的和",
-                "9 沒有大於 9"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -468,29 +474,32 @@
           "factGroundingSourceId": "115-s1/g5/math#u4"
         },
         {
-          "sceneId": "115-s1-g5-math-u4-s1b-flow",
+          "sceneId": "115-s1-g5-math-u4-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "面對「第4章 公倍數與公因數」的題目，請照著上方流程圖操作：先圈出已知數字與單位，再用圖示或線段整理數量關係，最後列式計算並檢查大小是否合理。",
+          "title": "公倍數與公因數：知識架構心智圖",
+          "narrationText": "用上方心智圖秒分因數與倍數：分東西要剛好分完找「公因數」，幾天後再次相遇找「公倍數」！",
           "cognitiveChunks": [
-            "第 1 步：圈出題目給的數字、單位與最後要問的目標",
-            "第 2 步：在腦中或紙上畫出數量關係，決定運算方向",
-            "第 3 步：計算後回頭檢查進位、借位與單位是否一致"
+            "因數概念：能整除原數的數，從 1 開始成對找",
+            "倍數概念：原數乘上 1、2、3…，共有無限多個",
+            "質數合數：質數只有 1 和自己兩因數，1 不是質數",
+            "應用判斷：平分剪裁找公因數，週期重疊找公倍數"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_map",
             "params": {
-              "nodes": [
-                "圈出已知條件",
-                "畫圖整理關係",
-                "列式計算驗算"
+              "center": "公倍數與公因數",
+              "branches": [
+                "因數概念：能整除原數的數，從 1 開始成對找",
+                "倍數概念：原數乘上 1、2、3…，共有無限多個",
+                "質數合數：質數只有 1 和自己兩因數，1 不是質數",
+                "應用判斷：平分剪裁找公因數，週期重疊找公倍數"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "數學三步解題法",
+                "text": "因數倍數心智圖",
                 "anchorPointId": "bottom"
               }
             ]
@@ -522,15 +531,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "題目要把球平分裝",
-                "12 的因數有 ",
-                "公因數是 1, "
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -586,7 +595,7 @@
               "leftTitle": "角柱（n 角柱）",
               "leftPoints": [
                 "底面 2 個（上下全等平行）",
-                "角錐：1 個底面、側面是三角形",
+                "側面是長方形",
                 "面數：n + 2｜頂點：2n｜邊：3n"
               ],
               "rightTitle": "角錐（n 角錐）",
@@ -612,29 +621,32 @@
           "factGroundingSourceId": "115-s1/g5/math#u5"
         },
         {
-          "sceneId": "115-s1-g5-math-u5-s1b-flow",
+          "sceneId": "115-s1-g5-math-u5-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "面對「第5章 立體形體」的題目，請照著上方流程圖操作：先圈出已知數字與單位，再用圖示或線段整理數量關係，最後列式計算並檢查大小是否合理。",
+          "title": "立體形體：知識架構心智圖",
+          "narrationText": "看上方幾何圖形心智圖：先分清題目問周長、面積還是體積，再確認底和高互相垂直，最後檢查平方或立方單位！",
           "cognitiveChunks": [
-            "第 1 步：圈出題目給的數字、單位與最後要問的目標",
-            "第 2 步：在腦中或紙上畫出數量關係，決定運算方向",
-            "第 3 步：計算後回頭檢查進位、借位與單位是否一致"
+            "辨識圖形：先確認邊長、角度與底高的對應位置",
+            "周長面積：周長是外圍一圈長，面積是內部大小",
+            "公式推導：三角形與梯形別忘最後要除以 2",
+            "單位確認：長度用 cm、面積用 cm²、體積用 cm³"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_map",
             "params": {
-              "nodes": [
-                "圈出已知條件",
-                "畫圖整理關係",
-                "列式計算驗算"
+              "center": "立體形體",
+              "branches": [
+                "辨識圖形：先確認邊長、角度與底高的對應位置",
+                "周長面積：周長是外圍一圈長，面積是內部大小",
+                "公式推導：三角形與梯形別忘最後要除以 2",
+                "單位確認：長度用 cm、面積用 cm²、體積用 cm³"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "數學三步解題法",
+                "text": "幾何圖形心智圖",
                 "anchorPointId": "bottom"
               }
             ]
@@ -666,15 +678,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "底面是五邊形（n",
-                "上底 5 個頂點",
-                "上底 5 條邊 "
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -768,15 +780,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "發現兩項都有共同",
-                "運用分配律合併：",
-                "先算括號 6 +"
+                "圈出已知條件",
+                "列式分步推導",
+                "驗算答數單位"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "數學例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -872,29 +884,32 @@
           "factGroundingSourceId": "115-s1/g5/math#u7"
         },
         {
-          "sceneId": "115-s1-g5-math-u7-s1b-flow",
+          "sceneId": "115-s1-g5-math-u7-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "面對「第7章 擴、約分與加減」的題目，請照著上方流程圖操作：先圈出已知數字與單位，再用圖示或線段整理數量關係，最後列式計算並檢查大小是否合理。",
+          "title": "擴、約分與加減：知識架構心智圖",
+          "narrationText": "記住上方分數心智圖四大守則：分母代表切幾份、加減先通分、結果再約分，算分數題就能又快又準！",
           "cognitiveChunks": [
-            "第 1 步：圈出題目給的數字、單位與最後要問的目標",
-            "第 2 步：在腦中或紙上畫出數量關係，決定運算方向",
-            "第 3 步：計算後回頭檢查進位、借位與單位是否一致"
+            "基本意義：分母是平分總份數、分子是取幾份",
+            "等值分數：分子分母同乘或同除相同不為零數",
+            "加減關鍵：異分母必先通分，分母不變加減分子",
+            "結果檢查：答案化為最簡分數並確認大小合理"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_map",
             "params": {
-              "nodes": [
-                "圈出已知條件",
-                "畫圖整理關係",
-                "列式計算驗算"
+              "center": "擴、約分與加減",
+              "branches": [
+                "基本意義：分母是平分總份數、分子是取幾份",
+                "等值分數：分子分母同乘或同除相同不為零數",
+                "加減關鍵：異分母必先通分，分母不變加減分子",
+                "結果檢查：答案化為最簡分數並確認大小合理"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "數學三步解題法",
+                "text": "分數運算心智圖",
                 "anchorPointId": "bottom"
               }
             ]
@@ -924,19 +939,17 @@
           },
           "factGroundingSourceId": "115-s1/g5/math#u7",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "fraction_bar",
             "params": {
-              "nodes": [
-                "2 和 3 的最",
-                "擴分兩分數：1/",
-                "同分母相加，分母"
-              ]
+              "denominator": 2,
+              "numerator": 1,
+              "scaleFactor": 1
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
-                "anchorPointId": "bottom"
+                "text": "例題分數 1/2",
+                "anchorPointId": "top"
               }
             ]
           }
@@ -1012,29 +1025,32 @@
           "factGroundingSourceId": "115-s1/g5/math#u8"
         },
         {
-          "sceneId": "115-s1-g5-math-u8-s1b-flow",
+          "sceneId": "115-s1-g5-math-u8-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "面對「第8章 面積」的題目，請照著上方流程圖操作：先圈出已知數字與單位，再用圖示或線段整理數量關係，最後列式計算並檢查大小是否合理。",
+          "title": "面積：知識架構心智圖",
+          "narrationText": "看上方幾何圖形心智圖：先分清題目問周長、面積還是體積，再確認底和高互相垂直，最後檢查平方或立方單位！",
           "cognitiveChunks": [
-            "第 1 步：圈出題目給的數字、單位與最後要問的目標",
-            "第 2 步：在腦中或紙上畫出數量關係，決定運算方向",
-            "第 3 步：計算後回頭檢查進位、借位與單位是否一致"
+            "辨識圖形：先確認邊長、角度與底高的對應位置",
+            "周長面積：周長是外圍一圈長，面積是內部大小",
+            "公式推導：三角形與梯形別忘最後要除以 2",
+            "單位確認：長度用 cm、面積用 cm²、體積用 cm³"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_map",
             "params": {
-              "nodes": [
-                "圈出已知條件",
-                "畫圖整理關係",
-                "列式計算驗算"
+              "center": "面積",
+              "branches": [
+                "辨識圖形：先確認邊長、角度與底高的對應位置",
+                "周長面積：周長是外圍一圈長，面積是內部大小",
+                "公式推導：三角形與梯形別忘最後要除以 2",
+                "單位確認：長度用 cm、面積用 cm²、體積用 cm³"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "數學三步解題法",
+                "text": "幾何圖形心智圖",
                 "anchorPointId": "bottom"
               }
             ]
@@ -1063,19 +1079,23 @@
           },
           "factGroundingSourceId": "115-s1/g5/math#u8",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "rect_geometry",
             "params": {
-              "nodes": [
-                "確認對應的底是 ",
-                "先乘出同底同高平",
-                "三角形是平行四邊"
-              ]
+              "shape": "triangle",
+              "base": 8,
+              "height": 5,
+              "unit": "cm"
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "底 8 cm",
                 "anchorPointId": "bottom"
+              },
+              {
+                "id": "l2",
+                "text": "高 5 cm",
+                "anchorPointId": "height"
               }
             ]
           }
@@ -1143,40 +1163,33 @@
           "factGroundingSourceId": "115-s1/g5/math#u9"
         },
         {
-          "sceneId": "115-s1-g5-math-u9-s1b-flow",
+          "sceneId": "115-s1-g5-math-u9-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "掌握「第9章 乘以幾分之一」的概念後，解題時記得先對照「正確思路」與「常見陷阱」：把條件看清楚再作答，就能大幅減少粗心失分！",
+          "title": "乘以幾分之一：知識架構心智圖",
+          "narrationText": "記住上方分數心智圖四大守則：分母代表切幾份、加減先通分、結果再約分，算分數題就能又快又準！",
           "cognitiveChunks": [
-            "先圈出題幹關鍵字與限制條件，不急著搶答",
-            "遇到容易混淆的選項時，逐一比對是否符合課本規則",
-            "選出答案後代回原題檢查一次，確認邏輯通順"
+            "基本意義：分母是平分總份數、分子是取幾份",
+            "等值分數：分子分母同乘或同除相同不為零數",
+            "加減關鍵：異分母必先通分，分母不變加減分子",
+            "結果檢查：答案化為最簡分數並確認大小合理"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "concept_compare",
+            "templateId": "concept_map",
             "params": {
-              "leftTitle": "正確解題思路",
-              "leftPoints": [
-                "掌握「第9章 乘以幾分之一」的核心規則與判斷條件",
-                "照步驟拆解線索，完成後再回頭核對一次"
-              ],
-              "rightTitle": "最常見陷阱",
-              "rightPoints": [
-                "還沒看清題目條件或關鍵字就憑直覺搶答",
-                "忽略單位、順序或題目中的反義詞提示"
+              "center": "乘以幾分之一",
+              "branches": [
+                "基本意義：分母是平分總份數、分子是取幾份",
+                "等值分數：分子分母同乘或同除相同不為零數",
+                "加減關鍵：異分母必先通分，分母不變加減分子",
+                "結果檢查：答案化為最簡分數並確認大小合理"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "正確思路",
-                "anchorPointId": "left"
-              },
-              {
-                "id": "l2",
-                "text": "避開陷阱",
-                "anchorPointId": "right"
+                "text": "分數運算心智圖",
+                "anchorPointId": "bottom"
               }
             ]
           },
@@ -1204,19 +1217,17 @@
           },
           "factGroundingSourceId": "115-s1/g5/math#u9",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "fraction_bar",
             "params": {
-              "nodes": [
-                "被平分的是 3 ",
-                "直接改寫為分數表",
-                "求 20 的 1"
-              ]
+              "denominator": 4,
+              "numerator": 1,
+              "scaleFactor": 1
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
-                "anchorPointId": "bottom"
+                "text": "例題分數 1/4",
+                "anchorPointId": "top"
               }
             ]
           }
@@ -1294,29 +1305,32 @@
           "factGroundingSourceId": "115-s1/g5/math#u10"
         },
         {
-          "sceneId": "115-s1-g5-math-u10-s1b-flow",
+          "sceneId": "115-s1-g5-math-u10-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "面對「第10章 扇形」的題目，請照著上方流程圖操作：先圈出已知數字與單位，再用圖示或線段整理數量關係，最後列式計算並檢查大小是否合理。",
+          "title": "扇形：知識架構心智圖",
+          "narrationText": "看上方幾何圖形心智圖：先分清題目問周長、面積還是體積，再確認底和高互相垂直，最後檢查平方或立方單位！",
           "cognitiveChunks": [
-            "第 1 步：圈出題目給的數字、單位與最後要問的目標",
-            "第 2 步：在腦中或紙上畫出數量關係，決定運算方向",
-            "第 3 步：計算後回頭檢查進位、借位與單位是否一致"
+            "辨識圖形：先確認邊長、角度與底高的對應位置",
+            "周長面積：周長是外圍一圈長，面積是內部大小",
+            "公式推導：三角形與梯形別忘最後要除以 2",
+            "單位確認：長度用 cm、面積用 cm²、體積用 cm³"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_map",
             "params": {
-              "nodes": [
-                "圈出已知條件",
-                "畫圖整理關係",
-                "列式計算驗算"
+              "center": "扇形",
+              "branches": [
+                "辨識圖形：先確認邊長、角度與底高的對應位置",
+                "周長面積：周長是外圍一圈長，面積是內部大小",
+                "公式推導：三角形與梯形別忘最後要除以 2",
+                "單位確認：長度用 cm、面積用 cm²、體積用 cm³"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "數學三步解題法",
+                "text": "幾何圖形心智圖",
                 "anchorPointId": "bottom"
               }
             ]
@@ -1345,19 +1359,17 @@
           },
           "factGroundingSourceId": "115-s1/g5/math#u10",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "fraction_bar",
             "params": {
-              "nodes": [
-                "記住一個完整的圓",
-                "把 360° 平",
-                "算出圓心角為 6"
-              ]
+              "denominator": 6,
+              "numerator": 1,
+              "scaleFactor": 1
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
-                "anchorPointId": "bottom"
+                "text": "例題分數 1/6",
+                "anchorPointId": "top"
               }
             ]
           }

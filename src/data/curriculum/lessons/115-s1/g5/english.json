@@ -30,7 +30,7 @@
             "params": {
               "leftTitle": "十幾 (-teen)",
               "leftPoints": [
-                "整十結尾是 -ty，十幾結尾是 -teen",
+                "sixteen (16)",
                 "seventeen (17)"
               ],
               "rightTitle": "整十 (-ty)",
@@ -80,15 +80,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "觀察字尾——ca",
-                "看 name——",
-                "確認讀音——na"
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -204,15 +204,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "檢查拼讀規則——",
-                "唸出四個字——c",
-                "找出不同項——b"
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -328,15 +328,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "看問句開頭助動詞",
-                "確定答句主詞與助",
-                "寫出否定簡答——"
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -451,15 +451,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "圈出助動詞——句",
-                "檢查後面動詞——",
-                "改正句子——把 "
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -575,15 +575,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "看問句主詞——主",
-                "對照答句線索——",
-                "填入 be 動詞"
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -650,7 +650,7 @@
               "leftTitle": "單數 (1 隻)",
               "leftPoints": [
                 "There is only one lion.",
-                "只有 1 隻用 There is；2 隻以上用 There are"
+                "名詞不加 s"
               ],
               "rightTitle": "複數 (2 隻以上)",
               "rightPoints": [
@@ -699,15 +699,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "判斷數量單複數—",
-                "選擇句型開頭——",
-                "拼出數字與複數名"
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -823,15 +823,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "檢查問句名詞——",
-                "檢查答句數量——",
-                "修正 be 動詞"
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]

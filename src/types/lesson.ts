@@ -22,6 +22,7 @@ export type LessonDiagramTemplateId =
   | 'number_line'
   | 'flow_cause'
   | 'concept_compare'
+  | 'concept_map'
   | 'clock_face';
 
 export interface SpatialLabel {

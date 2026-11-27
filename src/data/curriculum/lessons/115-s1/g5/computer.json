@@ -80,15 +80,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "追蹤執行順序——",
-                "找出邏輯漏洞——",
-                "修正積木結構——"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -204,15 +204,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "變數初始化——必",
-                "檢查條件邊界——",
-                "跨角色同步——主"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -328,15 +328,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "理解分身上限——",
-                "正確清除分身——",
-                "避免重複計數——"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]

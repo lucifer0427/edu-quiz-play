@@ -79,15 +79,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "大寫 N 變小寫",
-                "大寫 O 變小寫",
-                "大寫 P 變小寫"
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -153,7 +153,7 @@
               "leftTitle": "字母 Q R S",
               "leftPoints": [
                 "Q 配 q（圓圈在左）、R 配 r",
-                "大小寫配對：Q/q、R/r、S/s"
+                "S 配 s（彎彎像小蛇）"
               ],
               "rightTitle": "實地考察禮儀安全",
               "rightPoints": [
@@ -201,15 +201,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "記住 Q 的小寫",
-                "檢查右邊的直線，",
-                "找到圓圈在左、直"
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -324,15 +324,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "早上見面打招呼，",
-                "朋友間熱情打招呼",
-                "大寫 H, E,"
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -446,15 +446,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "大寫 W 開口朝",
-                "大寫 X 像叉叉",
-                "大寫 Z 像閃電"
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -520,7 +520,7 @@
             "params": {
               "leftTitle": "字母 T U V",
               "leftPoints": [
-                "字母順序：S → T → U → V → W",
+                "T 配 t（橫槓小桌子）",
                 "U 配 u（圓底杯子）、V 配 v（尖底 V）"
               ],
               "rightTitle": "26 字母總整理",
@@ -545,29 +545,32 @@
           "factGroundingSourceId": "115-s2/g1/english#u5"
         },
         {
-          "sceneId": "115-s2-g1-english-u5-s1b-flow",
+          "sceneId": "115-s2-g1-english-u5-s1b-map",
           "componentType": "ANCHOR_SCENE",
-          "title": "圖解思考步驟與解題口訣",
-          "narrationText": "學習「26 個字母拼圖：T, U, V 與總複習」時，建議照著上方流程圖的三個步驟思考：先看懂題目在問什麼，再從字形、詞性或上下文找線索，最後把答案代回原句念一次確認通順。",
+          "title": "26 個字母拼圖：T, U, V 與：知識架構心智圖",
+          "narrationText": "透過上方字音字形心智圖，用「部首推字義、造詞辨多音」的方法記憶國字，比死背更有效也不容易寫錯！",
           "cognitiveChunks": [
-            "第 1 步：先讀懂題幹想考的是字音字形、詞義還是文意理解",
-            "第 2 步：利用部首、造詞或前後句線索縮小範圍",
-            "第 3 步：把選好的字詞放回句子念一遍，檢查語氣與搭配"
+            "聲調辨析：仔細念出一至四聲與輕聲的差別",
+            "部首聯想：從部首判斷字義（如水部多與水有關）",
+            "形近字區分：比對筆畫長短與部件差異避免寫錯",
+            "造詞應用：放入常用語詞與句子裡確認用法正確"
           ],
-          "analogyAnchor": "把思考步驟當成破關地圖，照著第 1 → 2 → 3 步前進就不容易掉進陷阱！",
+          "analogyAnchor": "把心智圖想成知識地圖，記住中心主題與四個分支，複習時一眼就能想起整課重點！",
           "visualSpec": {
-            "templateId": "flow_cause",
+            "templateId": "concept_map",
             "params": {
-              "nodes": [
-                "讀懂題幹問題",
-                "找字形與文意",
-                "代入原句確認"
+              "center": "26 個字母拼圖：T, U, V 與",
+              "branches": [
+                "聲調辨析：仔細念出一至四聲與輕聲的差別",
+                "部首聯想：從部首判斷字義（如水部多與水有關）",
+                "形近字區分：比對筆畫長短與部件差異避免寫錯",
+                "造詞應用：放入常用語詞與句子裡確認用法正確"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "語文三步思考法",
+                "text": "字音字形心智圖",
                 "anchorPointId": "bottom"
               }
             ]
@@ -599,15 +602,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "從 R, S 開",
-                "S 的下一個字母",
-                "確認順序為 R,"
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]

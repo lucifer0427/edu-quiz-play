@@ -30,7 +30,7 @@
             "params": {
               "leftTitle": "常見資安威脅途徑",
               "leftPoints": [
-                "強密碼須混合大小寫、數字與符號且不共用",
+                "釣魚信件與限時中獎短網址",
                 "不明免費／盜版軟體與隨身碟"
               ],
               "rightTitle": "資安小尖兵防禦術",
@@ -79,15 +79,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "抓出三大詐騙疑點",
-                "絕不點擊短網址也",
-                "向師長或官方管道"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -202,15 +202,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "針對循跡衝出黑線",
-                "針對無線遙控干擾",
-                "確保同一組的遙控"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -321,15 +321,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "全組先確認簡報架",
-                "給予 Gemin",
-                "至政府機關（如環"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -440,15 +440,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "在音樂軌道中調低",
-                "確認字幕放在下方",
-                "選用合法授權（軟"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]

@@ -30,8 +30,8 @@
             "params": {
               "leftTitle": "電腦硬體比擬",
               "leftPoints": [
-                "直角坐姿、保持視距與做護眼操",
-                "螢幕像眼睛、主機像大腦、鍵鼠像手腳"
+                "螢幕＝眼睛（顯示畫面）",
+                "主機＝大腦；鍵鼠＝手腳"
               ],
               "rightTitle": "離座三部曲",
               "rightPoints": [
@@ -79,15 +79,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "先關閉所有正在使",
-                "從作業系統開始選",
-                "完成離座三部曲："
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -202,15 +202,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "將游標移到目標物",
-                "在桌面上平順滑動",
-                "確認位置後再鬆開"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -325,15 +325,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "將滑鼠移到視窗邊",
-                "或將兩個視窗標題",
-                "也可以點選下方工"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -444,15 +444,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "將截取下來的路線",
-                "在瀏覽器點選個人",
-                "在公用電腦上進一"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -519,7 +519,7 @@
               "leftTitle": "基準列與定位鍵",
               "leftPoints": [
                 "左手 ASDF、右手 JKL;",
-                "F 與 J 鍵小凸起幫助盲打定位"
+                "F 與 J 有小凸起記號"
               ],
               "rightTitle": "大小寫與空白鍵",
               "rightPoints": [
@@ -567,15 +567,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "用一隻手的小指按",
-                "另一隻手用負責 ",
-                "放開 Shift"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -686,15 +686,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "看到 `su3c",
-                "依序輸入注音與聲",
-                "遇到同音字時按向"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -805,15 +805,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "把練習時間集中在",
-                "在維持 95% ",
-                "客觀比較這次與上"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -928,15 +928,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "立刻按復原（Ct",
-                "用放大鏡檢查欲填",
-                "把缺口線條補接完"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -1002,7 +1002,7 @@
             "params": {
               "leftTitle": "搬移 vs 複製",
               "leftPoints": [
-                "資料夾依主題類型分門別類收納",
+                "剪下＋貼上：從舊位置搬走",
                 "複製＋貼上：兩邊各留一份備份"
               ],
               "rightTitle": "資源回收筒",
@@ -1051,15 +1051,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "點開桌面上的資源",
-                "在該檔案上按右鍵",
-                "替檔案取好清楚的"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -1170,15 +1170,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "確認信件已寄出，",
-                "關閉所有視窗後從",
-                "完成離座三部曲："
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]

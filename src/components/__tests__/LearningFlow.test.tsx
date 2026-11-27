@@ -880,6 +880,28 @@ describe('Engagement, Hanzi & Deep Teaching Features', () => {
           factGroundingSourceId: 'test-source',
         },
         {
+          sceneId: 's1b-map',
+          componentType: 'ANCHOR_SCENE',
+          title: '植物構造心智圖',
+          narrationText: '用知識心智圖記住四大器官功能。',
+          cognitiveChunks: ['根吸水', '莖輸送', '葉製造養分'],
+          visualSpec: {
+            templateId: 'concept_map',
+            params: {
+              center: '認識植物',
+              branches: [
+                '根部功能：吸收水分養分',
+                '莖部功能：支撐與輸送',
+                '葉片功能：進行光合作用',
+              ],
+            },
+            spatialLabels: [
+              { id: 'l1', text: '植物構造心智圖', anchorPointId: 'bottom' },
+            ],
+          },
+          factGroundingSourceId: 'test-source',
+        },
+        {
           sceneId: 's2-example',
           componentType: 'WORKED_EXAMPLE_SPLIT',
           title: '示範拆解與流程圖',
@@ -922,10 +944,17 @@ describe('Engagement, Hanzi & Deep Teaching Features', () => {
     ).toBeInTheDocument();
     expect(screen.getByText('代表取了幾份')).toBeInTheDocument();
 
-    // Advance to Scene 2 (WORKED_EXAMPLE_SPLIT)
+    // Advance to Scene 2 (concept_map)
+    fireEvent.click(screen.getByRole('button', { name: '下一幕' }));
+    expect(
+      screen.getByRole('img', { name: '認識植物 知識心智圖' }),
+    ).toBeInTheDocument();
+    expect(screen.getByText('根部功能：吸收水分養分')).toBeInTheDocument();
+
+    // Advance to Scene 3 (WORKED_EXAMPLE_SPLIT)
     fireEvent.click(screen.getByRole('button', { name: '下一幕' }));
 
-    // Scene 2: flow_cause SVG diagram rendered inside WORKED_EXAMPLE_SPLIT
+    // Scene 3: flow_cause SVG diagram rendered inside WORKED_EXAMPLE_SPLIT
     expect(
       screen.getByRole('img', { name: '解題步驟流程圖' }),
     ).toBeInTheDocument();

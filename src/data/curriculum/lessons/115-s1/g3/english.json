@@ -31,7 +31,7 @@
               "leftTitle": "形狀相同（大小不同）",
               "leftPoints": [
                 "C / c、O / o、S / s",
-                "每個字母都有大寫與小寫配對"
+                "只差在格線高低與大小"
               ],
               "rightTitle": "容易混淆的方向雙胞胎",
               "rightPoints": [
@@ -79,15 +79,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "確認 b 和 d",
-                "檢查 G 的小寫",
-                "因此只有 G -"
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -197,15 +197,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "聽懂問句裡有Ho",
-                "找出數字 8 的",
-                "套入句型回答I "
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -271,7 +271,7 @@
             "params": {
               "leftTitle": "心情情緒詞",
               "leftPoints": [
-                "happy（開心）／sad（難過）",
+                "happy（開心的）",
                 "sad（難過的）、angry（生氣的）"
               ],
               "rightTitle": "身體感受詞",
@@ -320,15 +320,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "回想身體感受的單",
-                "剛跑完操場想休息",
-                "完成句子I am"
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -394,7 +394,7 @@
             "params": {
               "leftTitle": "How are you?",
               "leftPoints": [
-                "看圖與標題先預測故事內容",
+                "問心情或近況（你好嗎？）",
                 "答：I am fine, thank you."
               ],
               "rightTitle": "How old are you?",
@@ -443,15 +443,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "確認 happy",
-                "cake（蛋糕）",
-                "找出不同類的是 "
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -566,15 +566,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "確認問句開頭是I",
-                "盒子裡真的是球，",
-                "回答Yes, i"
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -689,15 +689,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "先找出顏色單字r",
-                "再找出後面的物品",
-                "合起來翻譯成它是"
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -812,15 +812,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "看到What i",
-                "問物品要用It ",
-                "選出It is "
+                "讀懂題幹問題",
+                "核對字詞文意",
+                "回讀確認通順"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "語文例題三步驟",
                 "anchorPointId": "bottom"
               }
             ]

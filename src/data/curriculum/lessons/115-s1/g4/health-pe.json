@@ -30,8 +30,8 @@
             "params": {
               "leftTitle": "健康飲食習慣",
               "leftPoints": [
-                "全穀雜糧類：提供醣類作為日常活動熱量",
-                "蔬菜水果類：提供維生素、礦物質與膳食纖維"
+                "三餐定時定量且食物多樣化",
+                "多喝白開水、少油少糖烹調"
               ],
               "rightTitle": "不良飲食習慣",
               "rightPoints": [
@@ -80,15 +80,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "把含糖手搖飲與炸",
-                "午餐選用糙米飯、",
-                "每天記錄飲食並搭"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -199,15 +199,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "對爸爸用溫和有禮",
-                "才藝卡關時不摔道",
-                "平時主動幫忙摺衣"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -273,8 +273,8 @@
             "params": {
               "leftTitle": "成癮物質危害",
               "leftPoints": [
-                "二手菸與附著家具的三手菸傷害兒童呼吸系統",
-                "檳榔本身含致癌物；酒精傷害發育中大腦與肝臟"
+                "香菸與電子煙含成癮毒物",
+                "檳榔致癌、酒精傷大腦肝臟"
               ],
               "rightTitle": "健康防禦與紓壓",
               "rightPoints": [
@@ -323,15 +323,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "對陌生人或損友眼",
-                "不接受任何激將法",
-                "對家裡長輩溫和表"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -397,8 +397,8 @@
             "params": {
               "leftTitle": "體適能檢測項目",
               "leftPoints": [
-                "坐姿體前彎評估柔軟度；仰臥起坐評估腹部肌耐力",
-                "規律有氧運動（慢跑、跳繩）循序提升心肺耐力"
+                "坐姿體前彎 → 柔軟度",
+                "仰臥起坐 → 腹部肌耐力"
               ],
               "rightTitle": "體操支撐與安全",
               "rightPoints": [
@@ -447,15 +447,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "運動前先充分伸展",
-                "支撐時雙臂伸直推",
-                "確認槓下安全軟墊"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -521,8 +521,8 @@
             "params": {
               "leftTitle": "扯鈴民俗體育",
               "leftPoints": [
-                "扯鈴加速：順旋轉方向一拉一放交替施力",
-                "飛盤擲盤：手腕帶動旋轉並保持盤面水平"
+                "一拉一放有節奏加速",
+                "微調鈴棍前後修正水平"
               ],
               "rightTitle": "飛盤擲接與策略",
               "rightPoints": [
@@ -571,15 +571,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "扯鈴歪斜時觀察傾",
-                "飛盤遊戲中無球隊",
-                "練習時注意開闊場"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -690,15 +690,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "側對投擲方向，重",
-                "全組朝同一指定方",
-                "等所有同學擲完並"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
@@ -764,8 +764,8 @@
             "params": {
               "leftTitle": "籃球個人攻防技巧",
               "leftPoints": [
-                "籃球傳球瞄準胸前跨步送球；運球用指腹壓球並抬頭",
-                "受迫運球時側身護球，把身體隔在球與對手之間"
+                "指腹壓球抬頭看場上",
+                "側身用護球手隔離對手"
               ],
               "rightTitle": "團隊防守與隔網默契",
               "rightPoints": [
@@ -814,15 +814,15 @@
             "templateId": "flow_cause",
             "params": {
               "nodes": [
-                "樂樂棒球外野手迅",
-                "隔網球類兩人看到",
-                "打擊完輕放球棒不"
+                "看清題目情境",
+                "對照核心原理",
+                "排除矛盾選項"
               ]
             },
             "spatialLabels": [
               {
                 "id": "l1",
-                "text": "例題拆解步驟",
+                "text": "例題拆解三步驟",
                 "anchorPointId": "bottom"
               }
             ]
