@@ -705,11 +705,10 @@ describe('Engagement, Hanzi & Deep Teaching Features', () => {
     render(
       <SiblingDuoArena open={true} onAwardCoins={vi.fn()} onClose={vi.fn()} />,
     );
-    expect(
-      screen.getByText('雙寶同機合作 / 跨年級公平 PK'),
-    ).toBeInTheDocument();
-    expect(screen.getByText('合作打魔王（推薦）')).toBeInTheDocument();
-    expect(screen.getByText('公平 PK 競速賽')).toBeInTheDocument();
+    expect(screen.getByText('雙人對戰模式')).toBeInTheDocument();
+    expect(screen.getByText('合作打魔王')).toBeInTheDocument();
+    expect(screen.getByText('公平競速賽')).toBeInTheDocument();
+    expect(screen.getByText('同題即時搶答')).toBeInTheDocument();
   });
 
   it('EyeCareModal renders countdown and skip action', () => {
@@ -789,5 +788,64 @@ describe('Engagement, Hanzi & Deep Teaching Features', () => {
     fireEvent.change(input, { target: { value: '二年級弟弟' } });
     fireEvent.click(screen.getByRole('button', { name: '新增' }));
     expect(onCreateProfile).toHaveBeenCalledWith('二年級弟弟');
+  });
+
+  it('Navbar displays prominent 對戰模式 button and SiblingDuoArena supports all subjects and speed duel mode', async () => {
+    const onOpenDuoMode = vi.fn();
+    render(
+      <Navbar
+        progress={{ ...DEFAULT_PROGRESS, nickname: '哥哥' }}
+        activeTab="map"
+        profiles={[]}
+        activeProfileId="default"
+        onChangeTab={vi.fn()}
+        onToggleSound={vi.fn()}
+        onToggleFocusMode={vi.fn()}
+        onSwitchProfile={vi.fn()}
+        onCreateProfile={vi.fn()}
+        onDeleteProfile={vi.fn()}
+        onOpenDuoMode={onOpenDuoMode}
+      />,
+    );
+
+    const battleBtn = screen.getByRole('button', { name: '對戰模式' });
+    fireEvent.click(battleBtn);
+    expect(onOpenDuoMode).toHaveBeenCalledTimes(1);
+
+    cleanup();
+
+    render(
+      <SiblingDuoArena
+        open
+        profiles={[
+          {
+            id: 'p1',
+            nickname: '小宇',
+            selectedAvatarId: 'hero-knight',
+            defaultGrade: 5,
+            createdAt: '2026-11-26T00:00:00Z',
+          },
+          {
+            id: 'p2',
+            nickname: '小晴',
+            selectedAvatarId: 'hero-mage',
+            defaultGrade: 2,
+            createdAt: '2026-11-26T00:00:00Z',
+          },
+        ]}
+        onAwardCoins={vi.fn()}
+        onClose={vi.fn()}
+      />,
+    );
+
+    expect(screen.getByText('合作打魔王')).toBeInTheDocument();
+    expect(screen.getByText('公平競速賽')).toBeInTheDocument();
+    expect(screen.getByText('同題即時搶答')).toBeInTheDocument();
+    expect(screen.getByText('生活／自然')).toBeInTheDocument();
+    expect(screen.getByText('社會')).toBeInTheDocument();
+    expect(screen.getByText('全科綜合')).toBeInTheDocument();
+
+    fireEvent.click(screen.getByText('同題即時搶答'));
+    expect(screen.getByRole('button', { name: '開始即時搶答賽！' })).toBeInTheDocument();
   });
 });

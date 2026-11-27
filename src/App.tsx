@@ -1041,6 +1041,7 @@ export function App() {
         {duoOpen && (
           <SiblingDuoArena
             open={duoOpen}
+            profiles={profiles}
             defaultGradeA={
               profiles.find((p) => (p.defaultGrade ?? 0) >= 3)?.defaultGrade ?? 5
             }

@@ -163,6 +163,17 @@ export function Navbar({
               </button>
             );
           })}
+          {onOpenDuoMode && (
+            <button
+              type="button"
+              onClick={onOpenDuoMode}
+              title="雙人合作打魔王 / 公平 PK / 同題即時搶答"
+              className="relative flex shrink-0 items-center gap-1.5 rounded-xl bg-gradient-to-r from-violet-600 to-fuchsia-600 px-3 py-2 text-sm font-black text-white shadow-sm transition hover:brightness-110"
+            >
+              <Swords className="h-4 w-4" />
+              <span>對戰模式</span>
+            </button>
+          )}
         </nav>
 
         <div className="order-2 flex items-center gap-2.5 md:order-3">
@@ -301,18 +312,6 @@ export function Navbar({
               </div>
             )}
           </div>
-
-          {onOpenDuoMode && (
-            <button
-              type="button"
-              onClick={onOpenDuoMode}
-              title="雙寶同機合作打魔王 / 跨年級公平 PK"
-              className="flex h-10 items-center gap-1 rounded-xl border border-violet-200 bg-violet-50 px-2.5 text-xs font-black text-violet-700 transition hover:bg-violet-100"
-            >
-              <Swords className="h-4 w-4" />
-              <span className="hidden lg:inline">雙人對戰</span>
-            </button>
-          )}
 
           {onOpenMathTools && (
             <button
