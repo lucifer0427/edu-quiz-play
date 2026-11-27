@@ -7,6 +7,7 @@ import { WorldMap } from './components/WorldMap';
 import { loadLessonPack } from './data/curriculum/lessonLoader';
 import { getCurriculumCatalog, loadQuizPack } from './data/curriculum/loader';
 import { extractHanziCharacters } from './data/hanziVocab';
+import { useEyeCareTimer } from './hooks/useEyeCareTimer';
 import type { LessonScript } from './types/lesson';
 import type {
   ActiveTab,
@@ -94,7 +95,10 @@ export function App() {
   } | null>(null);
   const [duoOpen, setDuoOpen] = useState(false);
   const [mathToolsOpen, setMathToolsOpen] = useState(false);
-  const [eyeCareOpen, setEyeCareOpen] = useState(false);
+  const { eyeCareOpen, setEyeCareOpen } = useEyeCareTimer({
+    enabled: progress.eyeCareEnabled !== false,
+    resetKey: activeProfileId,
+  });
   const [profileSelectorOpen, setProfileSelectorOpen] = useState(() => {
     if (typeof window === 'undefined') return false;
     return (
@@ -105,21 +109,6 @@ export function App() {
   const prevBadgeIdsRef = useRef<Set<string>>(
     new Set(progress.unlockedBadgeIds ?? []),
   );
-
-  // 每 20 分鐘專注學習跳出護眼休息提醒（頁面隱藏時暫停計時）
-  useEffect(() => {
-    if (progress.eyeCareEnabled === false || eyeCareOpen) return;
-    let activeSeconds = 0;
-    const interval = window.setInterval(() => {
-      if (typeof document !== 'undefined' && document.hidden) return;
-      activeSeconds += 1;
-      if (activeSeconds >= 1200) {
-        activeSeconds = 0;
-        setEyeCareOpen(true);
-      }
-    }, 1000);
-    return () => window.clearInterval(interval);
-  }, [activeProfileId, eyeCareOpen, progress.eyeCareEnabled]);
 
   useEffect(() => {
     const currentIds = progress.unlockedBadgeIds ?? [];

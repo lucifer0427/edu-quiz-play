@@ -1,5 +1,11 @@
-const CACHE_NAME = 'edu-quiz-play-v3';
+const CACHE_NAME = 'edu-quiz-play-v4';
 const APP_SHELL = ['./', './index.html', './manifest.webmanifest', './icon.svg'];
+
+self.addEventListener('message', (event) => {
+  if (event.data && event.data.type === 'SKIP_WAITING') {
+    self.skipWaiting();
+  }
+});
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
