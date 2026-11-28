@@ -108,6 +108,9 @@ export interface Question {
   tags?: string[];
   subjectId?: SubjectId;
   stageTitle?: string;
+  sourceGrade?: Grade;
+  sourceSemester?: Semester;
+  sourceStageId?: string;
   interleavingOriginTag?: InterleavingOriginTag;
   interleavingSourceUnit?: string;
 }
@@ -210,8 +213,35 @@ export interface CustomHanziList {
 export interface ExamPlan {
   title: string;
   examDate: string; // YYYY-MM-DD
+  grade?: Grade;
+  semester?: Semester;
+  preset?: 'midterm' | 'final' | 'all' | 'custom';
   subjectIds: SubjectId[];
+  stageIdsBySubject?: Record<string, string[]>;
 }
+
+export interface MockExamUnitScore {
+  stageTitle: string;
+  correct: number;
+  total: number;
+}
+
+export interface MockExamRecord {
+  id: string;
+  takenAt: string;
+  grade: Grade;
+  semester: Semester;
+  subjectId: SubjectId;
+  title: string;
+  score: number;
+  correctCount: number;
+  totalCount: number;
+  durationSec: number;
+  timeLimitSec?: number;
+  unitBreakdown: MockExamUnitScore[];
+}
+
+export type WrongReasonTag = 'careless' | 'misread' | 'concept';
 
 export interface PlayerProgress {
   schemaVersion?: number;
@@ -224,6 +254,8 @@ export interface PlayerProgress {
   stageStars: Record<string, number>;
   wrongQuestionIds: string[];
   wrongQuestionSnapshots?: Record<string, Question>;
+  wrongMistakeCounts?: Record<string, number>;
+  wrongReasonTags?: Record<string, WrongReasonTag>;
   totalCorrect: number;
   totalAnswered: number;
   totalRepairedCount?: number;
@@ -242,6 +274,7 @@ export interface PlayerProgress {
   redeemedRewards?: RedeemedRewardRecord[];
   parentPin?: string;
   examPlan?: ExamPlan;
+  mockExamHistory?: MockExamRecord[];
   customStages: Stage[];
   selectedView?: MapViewMode;
   selectedGrade?: Grade;

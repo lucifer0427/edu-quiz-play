@@ -26,7 +26,7 @@ export interface HanziPracticeProps {
   onDeleteCustomList?: (id: string) => void;
 }
 
-type PracticeStage = 'demo' | 'trace' | 'blind';
+type PracticeStage = 'demo' | 'trace' | 'blind' | 'dictation';
 
 const GRADES: Grade[] = [1, 2, 3, 4, 5, 6];
 const CANVAS_SIZE = 280;
@@ -51,6 +51,8 @@ export function HanziPractice({
     '先看一次筆順動畫，準備好了就點「開始描紅」喔！',
   );
   const [completedInSession, setCompletedInSession] = useState<string[]>([]);
+  const [dictationPassed, setDictationPassed] = useState<string[]>([]);
+  const [dictationRevealed, setDictationRevealed] = useState(false);
 
   useEffect(() => {
     if (initialChars && initialChars.length > 0) {
@@ -139,12 +141,18 @@ export function HanziPractice({
       host.innerHTML = '';
     }
     setFallbackCanvas(false);
+    setDictationRevealed(false);
     clearFallbackCanvas();
 
     if (stageMode === 'demo') {
       setStatusMessage('👀 看一看筆順怎麼寫，也可以點右上方聽發音喔！');
     } else if (stageMode === 'trace') {
       setStatusMessage('✍️ 請沿著淡淡的字形描紅寫一次！');
+    } else if (stageMode === 'dictation') {
+      setStatusMessage('🎧 生字聽寫小考！聽發音與造詞填空，憑記憶寫出國字！');
+      if (speechAvailable) {
+        speakCurrentChar();
+      }
     } else {
       setStatusMessage('🧠 挑戰空白田字格盲寫！憑記憶把字寫出來吧！');
     }
@@ -156,7 +164,7 @@ export function HanziPractice({
         width: CANVAS_SIZE,
         height: CANVAS_SIZE,
         padding: 16,
-        showOutline: stageMode !== 'blind',
+        showOutline: stageMode === 'demo' || stageMode === 'trace',
         showCharacter: stageMode === 'demo',
         strokeAnimationSpeed: grade <= 2 ? 0.8 : 1.1,
         delayBetweenStrokes: 240,
@@ -194,6 +202,12 @@ export function HanziPractice({
               setStatusMessage(
                 '✨ 描紅成功！接下來試試看「空白盲寫」檢驗自己記住了沒！',
               );
+            } else if (stageMode === 'dictation') {
+              setDictationRevealed(true);
+              setDictationPassed((prev) =>
+                prev.includes(activeChar) ? prev : [...prev, activeChar],
+              );
+              markCharacterCompleted(activeChar);
             } else {
               markCharacterCompleted(activeChar);
             }
@@ -409,6 +423,10 @@ export function HanziPractice({
             const practiced =
               (progress.practicedHanzi?.[item.char]?.count ?? 0) > 0 ||
               completedInSession.includes(item.char);
+            const hideInDictation =
+              stageMode === 'dictation' &&
+              !dictationPassed.includes(item.char) &&
+              !(isSelected && dictationRevealed);
             return (
               <button
                 key={`${item.char}-${idx}`}
@@ -416,9 +434,13 @@ export function HanziPractice({
                 onClick={() => {
                   playTap();
                   setSelectedIndex(idx);
-                  setStageMode('demo');
+                  if (stageMode !== 'dictation') {
+                    setStageMode('demo');
+                  }
                 }}
-                className={`relative flex h-11 w-11 items-center justify-center rounded-2xl border-2 text-xl font-black transition ${
+                className={`relative flex h-11 min-w-[2.75rem] items-center justify-center rounded-2xl border-2 px-1.5 font-black transition ${
+                  hideInDictation ? 'text-xs' : 'text-xl'
+                } ${
                   isSelected
                     ? 'border-sky-500 bg-sky-50 text-sky-900 shadow-xs'
                     : practiced
@@ -426,7 +448,7 @@ export function HanziPractice({
                       : 'border-slate-200 bg-white text-slate-800 hover:bg-slate-50'
                 }`}
               >
-                {item.char}
+                {hideInDictation ? `#${idx + 1}` : item.char}
                 {practiced && (
                   <CheckCircle2 className="absolute -top-1.5 -right-1.5 h-4 w-4 rounded-full bg-white text-emerald-500" />
                 )}
@@ -556,7 +578,17 @@ export function HanziPractice({
                 </button>
                 <button
                   type="button"
-                  onClick={() => markCharacterCompleted(activeChar)}
+                  onClick={() => {
+                    if (stageMode === 'dictation') {
+                      setDictationRevealed(true);
+                      setDictationPassed((prev) =>
+                        prev.includes(activeChar)
+                          ? prev
+                          : [...prev, activeChar],
+                      );
+                    }
+                    markCharacterCompleted(activeChar);
+                  }}
                   className="inline-flex items-center gap-1.5 rounded-xl bg-emerald-500 px-3.5 py-1.5 text-xs font-black text-white shadow-2xs hover:bg-emerald-400"
                 >
                   <CheckCircle2 className="h-3.5 w-3.5" />
@@ -573,7 +605,9 @@ export function HanziPractice({
               <div>
                 <div className="flex flex-wrap items-center gap-2">
                   <span className="text-4xl font-black text-slate-900">
-                    {activeChar}
+                    {stageMode === 'dictation' && !dictationRevealed
+                      ? '？'
+                      : activeChar}
                   </span>
                   {activeEntry.zhuyin && (
                     <span className="rounded-xl border border-sky-200 bg-sky-50 px-2.5 py-1 text-sm font-black text-sky-900">
@@ -581,11 +615,16 @@ export function HanziPractice({
                     </span>
                   )}
                   <span className="rounded-xl bg-amber-100 px-3 py-1 text-xs font-black text-amber-900">
-                    造詞：{activeEntry.word}
+                    造詞：
+                    {stageMode === 'dictation' && !dictationRevealed
+                      ? activeEntry.word.replaceAll(activeChar, '（　）')
+                      : activeEntry.word}
                   </span>
                 </div>
                 <p className="mt-1 text-xs font-bold text-slate-500">
                   已練習 {practicedCount} 次
+                  {dictationPassed.length > 0 &&
+                    ` · 本次聽寫過關 ${dictationPassed.length} 字`}
                 </p>
               </div>
 
@@ -601,8 +640,8 @@ export function HanziPractice({
               )}
             </div>
 
-            {/* 三段式切換按鈕 */}
-            <div className="grid grid-cols-3 gap-2">
+            {/* 四段式切換按鈕 */}
+            <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
               <button
                 type="button"
                 onClick={() => {
@@ -647,6 +686,21 @@ export function HanziPractice({
               >
                 <Sparkles className="h-4 w-4" />
                 <span>3. 空白盲寫</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  playTap();
+                  setStageMode('dictation');
+                }}
+                className={`flex items-center justify-center gap-1.5 rounded-2xl border-2 px-3 py-2.5 text-xs font-black transition sm:text-sm ${
+                  stageMode === 'dictation'
+                    ? 'border-violet-500 bg-violet-50 text-violet-900 shadow-xs'
+                    : 'border-slate-200 bg-white text-slate-600 hover:bg-slate-50'
+                }`}
+              >
+                <Volume2 className="h-4 w-4" />
+                <span>4. 聽寫小考</span>
               </button>
             </div>
 

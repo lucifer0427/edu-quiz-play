@@ -6,6 +6,9 @@ import {
   ChevronDown,
   ChevronUp,
   ClipboardCheck,
+  Clock,
+  Eye,
+  EyeOff,
   Filter,
   Lightbulb,
   Play,
@@ -14,6 +17,7 @@ import {
   Sparkles,
   Star,
   Target,
+  TrendingUp,
   Volume2,
 } from 'lucide-react';
 import { useEffect, useMemo, useState } from 'react';
@@ -40,14 +44,25 @@ import type {
   SubjectId,
   WorkedExampleData,
 } from '../types/quiz';
+import { buildExamSprintSummary } from '../utils/examPlanner';
 import { resolveStageQuestionsAsync } from '../utils/generators/registry';
 import { buildSubjectDiagnostics } from '../utils/learningDiagnostics';
 import { playTap } from '../utils/sound';
 import { isSpeechSupported, speakText, stopSpeech } from '../utils/speech';
+import {
+  EnglishSpellingModal,
+  extractSpellingWords,
+} from './EnglishSpellingModal';
 
 interface ExamReviewProps {
   progress: PlayerProgress;
   onStartMockExam: (mockStage: Stage) => void;
+  onStartRealMockExam?: (
+    mockStage: Stage,
+    grade: Grade,
+    semester: Semester,
+    timeLimitSec?: number,
+  ) => void;
   onStartStage: (stage: Stage) => void;
   onStartLesson: (lesson: LessonScript, stage: Stage) => void;
   onUpdateExamPlan?: (plan: ExamPlan | undefined) => void;
@@ -64,9 +79,16 @@ interface ExamReviewProps {
 type ExamPreset = 'midterm' | 'final' | 'all' | 'custom';
 type ReviewMode = 'notes' | 'mock';
 type MockStrategy = 'weakness-first' | 'balanced';
+type MockExamStyle = 'real' | 'practice';
 
 const GRADES: Grade[] = [1, 2, 3, 4, 5, 6];
-const QUESTION_COUNT_OPTIONS = [10, 15, 20] as const;
+const QUESTION_COUNT_OPTIONS = [10, 15, 20, 25] as const;
+const TIME_LIMIT_OPTIONS = [
+  { minutes: 0, label: '不限時' },
+  { minutes: 15, label: '15 分鐘' },
+  { minutes: 25, label: '25 分鐘' },
+  { minutes: 40, label: '40 分鐘' },
+] as const;
 
 interface UnitDigest {
   stage: Stage;
@@ -91,9 +113,52 @@ function shuffleArray<T>(items: T[]): T[] {
   return copy;
 }
 
+function ClozeText({ text, enabled }: { text: string; enabled: boolean }) {
+  const [revealedMap, setRevealedMap] = useState<Record<number, boolean>>({});
+  useEffect(() => {
+    setRevealedMap({});
+  }, [enabled, text]);
+
+  if (!enabled) return <span>{text}</span>;
+
+  const parts = text.split(/(「[^」]+」|『[^』]+』|\d+(?:\.\d+)?%?)/g);
+  if (parts.length <= 1) return <span>{text}</span>;
+
+  return (
+    <span>
+      {parts.map((part, idx) => {
+        const isMaskTarget =
+          /^(「[^」]+」|『[^』]+』|\d+(?:\.\d+)?%?)$/.test(part);
+        if (!isMaskTarget) return <span key={idx}>{part}</span>;
+        const revealed = Boolean(revealedMap[idx]);
+        return (
+          <button
+            key={idx}
+            type="button"
+            onClick={(e) => {
+              e.stopPropagation();
+              playTap();
+              setRevealedMap((prev) => ({ ...prev, [idx]: !prev[idx] }));
+            }}
+            className={`mx-0.5 inline-block rounded-lg px-1.5 py-0.5 text-xs font-black transition ${
+              revealed
+                ? 'bg-emerald-100 text-emerald-900'
+                : 'bg-slate-800 text-amber-200 hover:bg-slate-700'
+            }`}
+            title={revealed ? '點擊再次遮住' : '點擊顯示關鍵字'}
+          >
+            {revealed ? part : '點擊回想'}
+          </button>
+        );
+      })}
+    </span>
+  );
+}
+
 export function ExamReview({
   progress,
   onStartMockExam,
+  onStartRealMockExam,
   onStartStage,
   onStartLesson,
   onUpdateExamPlan,
@@ -101,25 +166,6 @@ export function ExamReview({
 }: ExamReviewProps) {
   const catalog = useMemo(() => getCurriculumCatalog(), []);
   const speechAvailable = isSpeechSupported();
-
-  const [showPlanEditor, setShowPlanEditor] = useState(false);
-  const [planTitle, setPlanTitle] = useState(
-    progress.examPlan?.title ?? `${progress.selectedGrade ?? 5}年級段考衝刺`,
-  );
-  const [planDate, setPlanDate] = useState(
-    progress.examPlan?.examDate ??
-      new Date(Date.now() + 7 * 86400000).toISOString().slice(0, 10),
-  );
-
-  useEffect(() => {
-    setPlanTitle(
-      progress.examPlan?.title ?? `${progress.selectedGrade ?? 5}年級段考衝刺`,
-    );
-    setPlanDate(
-      progress.examPlan?.examDate ??
-        new Date(Date.now() + 7 * 86400000).toISOString().slice(0, 10),
-    );
-  }, [progress.examPlan, progress.selectedGrade]);
 
   const [grade, setGrade] = useState<Grade>(progress.selectedGrade ?? 5);
   const [semester, setSemester] = useState<Semester>(
@@ -133,6 +179,81 @@ export function ExamReview({
       : 'mandarin',
   );
 
+  const [showPlanEditor, setShowPlanEditor] = useState(false);
+  const [planTitle, setPlanTitle] = useState(
+    progress.examPlan?.title ?? `${progress.selectedGrade ?? 5}年級段考衝刺`,
+  );
+  const [planDate, setPlanDate] = useState(
+    progress.examPlan?.examDate ??
+      new Date(Date.now() + 7 * 86400000).toISOString().slice(0, 10),
+  );
+  const [planSubjects, setPlanSubjects] = useState<SubjectId[]>(
+    progress.examPlan?.subjectIds && progress.examPlan.subjectIds.length > 0
+      ? progress.examPlan.subjectIds
+      : ['mandarin', 'math'],
+  );
+  const [planPreset, setPlanPreset] = useState<'midterm' | 'final' | 'all'>(
+    progress.examPlan?.preset === 'final' || progress.examPlan?.preset === 'all'
+      ? progress.examPlan.preset
+      : 'midterm',
+  );
+  const [planPacks, setPlanPacks] = useState<
+    Partial<Record<SubjectId, QuizPack | null>>
+  >({});
+
+  useEffect(() => {
+    setPlanTitle(
+      progress.examPlan?.title ?? `${progress.selectedGrade ?? 5}年級段考衝刺`,
+    );
+    setPlanDate(
+      progress.examPlan?.examDate ??
+        new Date(Date.now() + 7 * 86400000).toISOString().slice(0, 10),
+    );
+    if (progress.examPlan?.subjectIds && progress.examPlan.subjectIds.length > 0) {
+      setPlanSubjects(progress.examPlan.subjectIds);
+    }
+    if (
+      progress.examPlan?.preset === 'midterm' ||
+      progress.examPlan?.preset === 'final' ||
+      progress.examPlan?.preset === 'all'
+    ) {
+      setPlanPreset(progress.examPlan.preset);
+    }
+  }, [progress.examPlan, progress.selectedGrade]);
+
+  useEffect(() => {
+    const plan = progress.examPlan;
+    if (!plan || plan.subjectIds.length === 0) {
+      setPlanPacks({});
+      return;
+    }
+    let active = true;
+    const planGrade = plan.grade ?? grade;
+    const planSemester = plan.semester ?? semester;
+    Promise.all(
+      plan.subjectIds.map(async (sid) => {
+        if (sid === 'custom') return [sid, null] as const;
+        const p = await loadQuizPack(
+          catalog.academicYear,
+          planSemester,
+          planGrade,
+          sid,
+        ).catch(() => null);
+        return [sid, p] as const;
+      }),
+    ).then((entries) => {
+      if (!active) return;
+      const next: Partial<Record<SubjectId, QuizPack | null>> = {};
+      for (const [sid, p] of entries) {
+        next[sid] = p;
+      }
+      setPlanPacks(next);
+    });
+    return () => {
+      active = false;
+    };
+  }, [catalog.academicYear, grade, progress.examPlan, semester]);
+
   const [gradeEntries, setGradeEntries] = useState<CurriculumSubjectEntry[]>(
     [],
   );
@@ -144,13 +265,23 @@ export function ExamReview({
   const [selectedStageIds, setSelectedStageIds] = useState<string[]>([]);
   const [mode, setMode] = useState<ReviewMode>('notes');
   const [onlyWeakUnits, setOnlyWeakUnits] = useState(false);
+  const [clozeMode, setClozeMode] = useState(false);
   const [expandedIds, setExpandedIds] = useState<Record<string, boolean>>({});
   const [speakingId, setSpeakingId] = useState<string | null>(null);
 
   const [mockCount, setMockCount] = useState<number>(15);
   const [mockStrategy, setMockStrategy] =
     useState<MockStrategy>('weakness-first');
+  const [examStyle, setExamStyle] = useState<MockExamStyle>('real');
+  const [timeLimitMin, setTimeLimitMin] = useState<number>(
+    (progress.selectedGrade ?? 5) <= 2 ? 0 : 25,
+  );
   const [buildingMock, setBuildingMock] = useState(false);
+  const [printPaper, setPrintPaper] = useState<{
+    title: string;
+    questions: Question[];
+  } | null>(null);
+  const [spellingModalOpen, setSpellingModalOpen] = useState(false);
 
   const semesterEntries = useMemo(
     () => gradeEntries.filter((entry) => entry.semester === semester),
@@ -414,120 +545,170 @@ export function ExamReview({
     });
   };
 
+  const examSprintSummary = useMemo(() => {
+    if (!progress.examPlan) return null;
+    return buildExamSprintSummary(progress.examPlan, planPacks, progress);
+  }, [planPacks, progress]);
+
+  const spellingWords = useMemo(
+    () =>
+      extractSpellingWords(selectedDigests.flatMap((d) => d.stage.questions)),
+    [selectedDigests],
+  );
+
+  const assembleMockPaper = async (): Promise<{
+    title: string;
+    questions: Question[];
+    stage: Stage;
+  } | null> => {
+    if (selectedDigests.length === 0) return null;
+    const targetCount = mockCount;
+    const perUnitPools = await Promise.all(
+      selectedDigests.map(async (digest) => {
+        const resolved = await resolveStageQuestionsAsync(digest.stage);
+        const mergedMap = new Map<string, Question>();
+        for (const q of [...resolved, ...digest.stage.questions]) {
+          if (!mergedMap.has(q.id)) {
+            mergedMap.set(q.id, {
+              ...q,
+              subjectId: digest.stage.subjectId,
+              stageTitle: digest.stage.title,
+              sourceGrade: grade,
+              sourceSemester: semester,
+              sourceStageId: digest.stage.id,
+            });
+          }
+        }
+        return {
+          digest,
+          questions: Array.from(mergedMap.values()),
+        };
+      }),
+    );
+
+    const picked: Question[] = [];
+    const usedPromptSet = new Set<string>();
+    const pushUnique = (q: Question): boolean => {
+      const key = q.prompt.trim();
+      if (usedPromptSet.has(key)) return false;
+      usedPromptSet.add(key);
+      picked.push(q);
+      return true;
+    };
+
+    if (mockStrategy === 'weakness-first') {
+      const wrongPool = shuffleArray(
+        selectedDigests.flatMap((d) => d.wrongQuestions),
+      );
+      for (const q of wrongPool) {
+        if (picked.length >= targetCount) break;
+        pushUnique(q);
+      }
+
+      const weakPools = shuffleArray(
+        perUnitPools.filter((p) => p.digest.stars < 3),
+      ).map((p) => shuffleArray(p.questions));
+      let round = 0;
+      while (picked.length < targetCount && weakPools.length > 0 && round < 10) {
+        let addedInRound = false;
+        for (const pool of weakPools) {
+          if (picked.length >= targetCount) break;
+          const candidate = pool.find((q) => !usedPromptSet.has(q.prompt.trim()));
+          if (candidate && pushUnique(candidate)) {
+            addedInRound = true;
+          }
+        }
+        if (!addedInRound) break;
+        round++;
+      }
+    }
+
+    const allShuffledPools = shuffleArray(perUnitPools).map((p) =>
+      shuffleArray(p.questions),
+    );
+    let round = 0;
+    while (
+      picked.length < targetCount &&
+      allShuffledPools.length > 0 &&
+      round < 12
+    ) {
+      let added = false;
+      for (const pool of allShuffledPools) {
+        if (picked.length >= targetCount) break;
+        const candidate = pool.find((q) => !usedPromptSet.has(q.prompt.trim()));
+        if (candidate && pushUnique(candidate)) {
+          added = true;
+        }
+      }
+      if (!added) break;
+      round++;
+    }
+
+    const meta = SUBJECT_META[subjectId];
+    const presetLabel =
+      preset === 'midterm'
+        ? '期中模擬複習'
+        : preset === 'final'
+          ? '期末模擬複習'
+          : preset === 'all'
+            ? '全學期總複習'
+            : '自選範圍複習';
+
+    const title = `${grade}年級${semester === 1 ? '上' : '下'}學期 ${meta.shortName}・${presetLabel}`;
+    const finalQuestions = shuffleArray(picked);
+    const mockStage: Stage = {
+      id: `exam-mock-${grade}-s${semester}-${subjectId}-${Date.now()}`,
+      subjectId,
+      title,
+      description: `涵蓋 ${selectedDigests.length} 個單元、精選 ${finalQuestions.length} 題考前模擬複習`,
+      difficulty: 'medium',
+      monsterId: 'flameDragon',
+      monsterName: '段考大魔王',
+      monsterHp: Math.max(120, finalQuestions.length * 18),
+      questions: finalQuestions,
+    };
+    return { title, questions: finalQuestions, stage: mockStage };
+  };
+
   const handleStartMockQuiz = async () => {
     if (selectedDigests.length === 0 || buildingMock) return;
     playTap();
     setBuildingMock(true);
 
     try {
-      const targetCount = mockCount;
-      // 先為每個選定單元取得題庫（結合錯題快照、靜態題與動態數學題）
-      const perUnitPools = await Promise.all(
-        selectedDigests.map(async (digest) => {
-          const resolved = await resolveStageQuestionsAsync(digest.stage);
-          const mergedMap = new Map<string, Question>();
-          for (const q of [...resolved, ...digest.stage.questions]) {
-            if (!mergedMap.has(q.id)) {
-              mergedMap.set(q.id, {
-                ...q,
-                subjectId: digest.stage.subjectId,
-                stageTitle: digest.stage.title,
-              });
-            }
-          }
-          return {
-            digest,
-            questions: Array.from(mergedMap.values()),
-          };
-        }),
-      );
-
-      const picked: Question[] = [];
-      const usedPromptSet = new Set<string>();
-      const pushUnique = (q: Question): boolean => {
-        const key = q.prompt.trim();
-        if (usedPromptSet.has(key)) return false;
-        usedPromptSet.add(key);
-        picked.push(q);
-        return true;
-      };
-
-      if (mockStrategy === 'weakness-first') {
-        // 1. 優先放入錯題本中有紀錄的題目（含動態數學題快照）
-        const wrongPool = shuffleArray(
-          selectedDigests.flatMap((d) => d.wrongQuestions),
-        );
-        for (const q of wrongPool) {
-          if (picked.length >= targetCount) break;
-          pushUnique(q);
-        }
-
-        // 2. 其次從未滿 3 星的單元各抽題
-        const weakPools = shuffleArray(
-          perUnitPools.filter((p) => p.digest.stars < 3),
-        ).map((p) => shuffleArray(p.questions));
-        let round = 0;
-        while (picked.length < targetCount && weakPools.length > 0 && round < 10) {
-          let addedInRound = false;
-          for (const pool of weakPools) {
-            if (picked.length >= targetCount) break;
-            const candidate = pool.find((q) => !usedPromptSet.has(q.prompt.trim()));
-            if (candidate && pushUnique(candidate)) {
-              addedInRound = true;
-            }
-          }
-          if (!addedInRound) break;
-          round++;
-        }
-      }
-
-      // 3. 剩餘名額從全部選定單元輪流均勻抽題
-      const allShuffledPools = shuffleArray(perUnitPools).map((p) =>
-        shuffleArray(p.questions),
-      );
-      let round = 0;
-      while (
-        picked.length < targetCount &&
-        allShuffledPools.length > 0 &&
-        round < 12
-      ) {
-        let added = false;
-        for (const pool of allShuffledPools) {
-          if (picked.length >= targetCount) break;
-          const candidate = pool.find((q) => !usedPromptSet.has(q.prompt.trim()));
-          if (candidate && pushUnique(candidate)) {
-            added = true;
-          }
-        }
-        if (!added) break;
-        round++;
-      }
-
-      const subjectMeta = SUBJECT_META[subjectId];
-      const presetLabel =
-        preset === 'midterm'
-          ? '期中模擬複習'
-          : preset === 'final'
-            ? '期末模擬複習'
-            : preset === 'all'
-              ? '全學期總複習'
-              : '自選範圍複習';
-
-      const mockStage: Stage = {
-        id: `exam-mock-${grade}-s${semester}-${subjectId}-${Date.now()}`,
-        subjectId,
-        title: `${grade}年級${semester === 1 ? '上' : '下'}學期 ${subjectMeta.shortName}・${presetLabel}`,
-        description: `涵蓋 ${selectedDigests.length} 個單元、精選 ${picked.length} 題考前模擬複習`,
-        difficulty: 'medium',
-        monsterId: 'flameDragon',
-        monsterName: '段考大魔王',
-        monsterHp: Math.max(120, picked.length * 18),
-        questions: shuffleArray(picked),
-      };
-
+      const assembled = await assembleMockPaper();
+      if (!assembled) return;
       stopSpeech();
       setSpeakingId(null);
-      onStartMockExam(mockStage);
+      if (examStyle === 'real' && onStartRealMockExam) {
+        onStartRealMockExam(
+          assembled.stage,
+          grade,
+          semester,
+          timeLimitMin > 0 ? timeLimitMin * 60 : undefined,
+        );
+      } else {
+        onStartMockExam(assembled.stage);
+      }
+    } finally {
+      setBuildingMock(false);
+    }
+  };
+
+  const handlePrintMockPaper = async () => {
+    if (selectedDigests.length === 0 || buildingMock) return;
+    playTap();
+    setBuildingMock(true);
+    try {
+      const assembled = await assembleMockPaper();
+      if (!assembled) return;
+      setPrintPaper({
+        title: assembled.title,
+        questions: assembled.questions,
+      });
+      setTimeout(() => {
+        window.print();
+      }, 120);
     } finally {
       setBuildingMock(false);
     }
@@ -536,7 +717,12 @@ export function ExamReview({
   const subjectMeta = SUBJECT_META[subjectId];
 
   return (
-    <div className="mx-auto max-w-6xl space-y-6 px-4 py-6">
+    <>
+    <div
+      className={`mx-auto max-w-6xl space-y-6 px-4 py-6 ${
+        mode === 'mock' && printPaper ? 'print:hidden' : ''
+      }`}
+    >
       {/* 標題與列印按鈕 */}
       <section className="rounded-3xl border-2 border-amber-200 bg-gradient-to-br from-amber-50 via-white to-orange-50 p-5 shadow-sm print:border-slate-300 print:bg-white">
         <div className="flex flex-wrap items-center justify-between gap-4">
@@ -555,6 +741,18 @@ export function ExamReview({
           </div>
 
           <div className="flex flex-wrap items-center gap-2 print:hidden">
+            {subjectId === 'english' && (
+              <button
+                type="button"
+                onClick={() => {
+                  playTap();
+                  setSpellingModalOpen(true);
+                }}
+                className="flex items-center gap-1.5 rounded-xl border border-violet-300 bg-violet-50 px-3.5 py-2 text-sm font-black text-violet-800 hover:bg-violet-100"
+              >
+                <span>🔤 英語聽音拼字</span>
+              </button>
+            )}
             <button
               type="button"
               onClick={() => {
@@ -591,48 +789,64 @@ export function ExamReview({
 
       {/* 段考倒數衝刺計畫 */}
       {onUpdateExamPlan && (
-        <section className="rounded-3xl border-2 border-indigo-200 bg-gradient-to-r from-indigo-50 to-sky-50 p-4 shadow-xs print:hidden">
+        <section className="space-y-3 rounded-3xl border-2 border-indigo-200 bg-gradient-to-r from-indigo-50 to-sky-50 p-4 shadow-xs print:hidden">
           <div className="flex flex-wrap items-center justify-between gap-3">
             <div className="flex items-center gap-2.5">
               <Calendar className="h-5 w-5 text-indigo-600" />
-              {progress.examPlan ? (() => {
-                const diffMs =
-                  new Date(`${progress.examPlan.examDate}T00:00:00`).getTime() -
-                  new Date(new Date().toISOString().slice(0, 10) + 'T00:00:00').getTime();
-                const daysLeft = Math.max(0, Math.ceil(diffMs / 86400000));
-                const dailyUnits =
-                  daysLeft > 0
-                    ? Math.max(1, Math.ceil(selectedDigests.length / daysLeft))
-                    : selectedDigests.length;
-                return (
-                  <div>
-                    <div className="text-sm font-black text-indigo-950">
-                      📅 {progress.examPlan.title} ·{' '}
-                      <span className="text-rose-600">
-                        {daysLeft === 0 ? '就是今天！' : `倒數 ${daysLeft} 天`}
-                      </span>
+              {progress.examPlan ? (
+                (() => {
+                  const daysLeft = examSprintSummary?.daysLeft ?? 0;
+                  return (
+                    <div>
+                      <div className="flex flex-wrap items-center gap-2 text-sm font-black text-indigo-950">
+                        <span>📅 {progress.examPlan.title}</span>
+                        <span className="rounded-full bg-rose-100 px-2 py-0.5 text-xs text-rose-700">
+                          {daysLeft === 0
+                            ? '就是今天！'
+                            : daysLeft < 0
+                              ? '已過期'
+                              : `倒數 ${daysLeft} 天`}
+                        </span>
+                        {examSprintSummary && (
+                          <span className="rounded-full bg-indigo-100 px-2 py-0.5 text-xs text-indigo-800">
+                            整體準備度 {examSprintSummary.overallReadinessPercent}%
+                          </span>
+                        )}
+                      </div>
+                      <div className="mt-0.5 text-xs font-bold text-indigo-700">
+                        {examSprintSummary?.recommendationText ??
+                          `本次範圍 ${selectedDigests.length} 個單元`}
+                      </div>
                     </div>
-                    <div className="text-xs font-bold text-indigo-700">
-                      本次範圍 {selectedDigests.length} 個單元，建議每天複習{' '}
-                      <span className="font-black text-indigo-950">
-                        {dailyUnits} 個單元
-                      </span>{' '}
-                      ＋ 清空到期錯題
-                    </div>
-                  </div>
-                );
-              })() : (
+                  );
+                })()
+              ) : (
                 <div>
                   <div className="text-sm font-black text-indigo-950">
-                    📅 段考倒數衝刺計畫
+                    📅 多科段考倒數衝刺計畫
                   </div>
                   <div className="text-xs font-medium text-indigo-700">
-                    設定期中／期末考日期，自動幫你算出每天要複習幾個單元
+                    一次設定要考的科目與日期，首頁每日任務自動推播複習進度
                   </div>
                 </div>
               )}
             </div>
             <div className="flex items-center gap-2">
+              {examSprintSummary?.priorityTask && (
+                <button
+                  type="button"
+                  onClick={() => {
+                    playTap();
+                    onStartStage(examSprintSummary.priorityTask!.stage);
+                  }}
+                  className="inline-flex items-center gap-1 rounded-xl bg-amber-400 px-3 py-1.5 text-xs font-black text-slate-900 shadow-xs hover:bg-amber-300"
+                >
+                  <Play className="h-3.5 w-3.5 fill-slate-900" />
+                  <span>
+                    衝刺：{SUBJECT_META[examSprintSummary.priorityTask.subjectId].shortName}
+                  </span>
+                </button>
+              )}
               <button
                 type="button"
                 onClick={() => {
@@ -641,7 +855,7 @@ export function ExamReview({
                 }}
                 className="rounded-xl bg-white px-3 py-1.5 text-xs font-black text-indigo-700 shadow-xs hover:bg-indigo-100"
               >
-                {progress.examPlan ? '調整考試日期' : '設定段考計畫'}
+                {progress.examPlan ? '調整計畫' : '設定段考計畫'}
               </button>
               {progress.examPlan && (
                 <button
@@ -658,39 +872,148 @@ export function ExamReview({
             </div>
           </div>
 
+          {examSprintSummary && examSprintSummary.subjectReadiness.length > 0 && (
+            <div className="grid gap-2 border-t border-indigo-200/70 pt-3 sm:grid-cols-2 lg:grid-cols-3">
+              {examSprintSummary.subjectReadiness.map((sr) => {
+                const meta = SUBJECT_META[sr.subjectId];
+                const barTone =
+                  sr.readinessPercent >= 80
+                    ? 'bg-emerald-500'
+                    : sr.readinessPercent >= 50
+                      ? 'bg-amber-500'
+                      : 'bg-rose-500';
+                return (
+                  <div
+                    key={sr.subjectId}
+                    className="rounded-2xl border border-indigo-100 bg-white/90 p-2.5"
+                  >
+                    <div className="flex items-center justify-between text-xs font-black text-slate-800">
+                      <span>{meta.shortName}</span>
+                      <span>
+                        {sr.threeStarCount}/{sr.unitCount} 單元滿星 ·{' '}
+                        {sr.readinessPercent}%
+                      </span>
+                    </div>
+                    <div className="mt-1.5 h-1.5 overflow-hidden rounded-full bg-slate-100">
+                      <div
+                        className={`h-full rounded-full ${barTone}`}
+                        style={{ width: `${sr.readinessPercent}%` }}
+                      />
+                    </div>
+                    {sr.wrongInScopeCount > 0 && (
+                      <div className="mt-1 text-[11px] font-bold text-rose-600">
+                        含 {sr.wrongInScopeCount} 題範圍錯題待清
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          )}
+
           {showPlanEditor && (
             <form
               onSubmit={(e) => {
                 e.preventDefault();
                 playTap();
+                const validSubjectIds = new Set(
+                  semesterEntries.map((entry) => entry.subjectId),
+                );
+                const filteredSubjects = planSubjects.filter((id) =>
+                  validSubjectIds.has(id as Exclude<SubjectId, 'custom'>),
+                );
+                const chosenSubjects =
+                  filteredSubjects.length > 0 ? filteredSubjects : [subjectId];
                 onUpdateExamPlan({
                   title: planTitle.trim() || `${grade}年級段考衝刺`,
                   examDate: planDate,
-                  subjectIds: [subjectId],
+                  grade,
+                  semester,
+                  preset: planPreset,
+                  subjectIds: chosenSubjects,
                 });
                 setShowPlanEditor(false);
               }}
-              className="mt-3 flex flex-wrap items-center gap-2 border-t border-indigo-200 pt-3"
+              className="mt-2 space-y-3 border-t border-indigo-200 pt-3"
             >
-              <input
-                type="text"
-                value={planTitle}
-                onChange={(e) => setPlanTitle(e.target.value)}
-                maxLength={30}
-                placeholder="例如：五上期中考"
-                className="rounded-xl border border-indigo-200 bg-white px-3 py-1.5 text-xs font-bold text-slate-800"
-              />
-              <input
-                type="date"
-                value={planDate}
-                onChange={(e) => setPlanDate(e.target.value)}
-                className="rounded-xl border border-indigo-200 bg-white px-3 py-1.5 text-xs font-bold text-slate-800"
-              />
+              <div className="flex flex-wrap items-center gap-2">
+                <input
+                  type="text"
+                  value={planTitle}
+                  onChange={(e) => setPlanTitle(e.target.value)}
+                  maxLength={30}
+                  placeholder="例如：五上期中考"
+                  className="rounded-xl border border-indigo-200 bg-white px-3 py-1.5 text-xs font-bold text-slate-800"
+                />
+                <input
+                  type="date"
+                  value={planDate}
+                  onChange={(e) => setPlanDate(e.target.value)}
+                  className="rounded-xl border border-indigo-200 bg-white px-3 py-1.5 text-xs font-bold text-slate-800"
+                />
+                <div className="flex items-center gap-1">
+                  {(
+                    [
+                      { id: 'midterm', label: '期中範圍' },
+                      { id: 'final', label: '期末範圍' },
+                      { id: 'all', label: '全學期' },
+                    ] as const
+                  ).map((p) => (
+                    <button
+                      key={p.id}
+                      type="button"
+                      onClick={() => {
+                        playTap();
+                        setPlanPreset(p.id);
+                      }}
+                      className={`rounded-lg px-2.5 py-1 text-xs font-black ${
+                        planPreset === p.id
+                          ? 'bg-indigo-600 text-white'
+                          : 'bg-white text-slate-600 hover:bg-indigo-100'
+                      }`}
+                    >
+                      {p.label}
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              <div className="flex flex-wrap items-center gap-1.5">
+                <span className="text-xs font-black text-indigo-900">
+                  考試科目（可複選）：
+                </span>
+                {semesterEntries.map((entry) => {
+                  const meta = SUBJECT_META[entry.subjectId];
+                  const active = planSubjects.includes(entry.subjectId);
+                  return (
+                    <button
+                      key={`plan-${entry.subjectId}`}
+                      type="button"
+                      onClick={() => {
+                        playTap();
+                        setPlanSubjects((prev) =>
+                          prev.includes(entry.subjectId)
+                            ? prev.filter((id) => id !== entry.subjectId)
+                            : [...prev, entry.subjectId],
+                        );
+                      }}
+                      className={`rounded-xl border px-2.5 py-1 text-xs font-black transition ${
+                        active
+                          ? 'border-indigo-500 bg-indigo-600 text-white'
+                          : 'border-indigo-200 bg-white text-slate-600 hover:bg-indigo-100'
+                      }`}
+                    >
+                      {meta.shortName}
+                    </button>
+                  );
+                })}
+              </div>
+
               <button
                 type="submit"
-                className="rounded-xl bg-indigo-600 px-3.5 py-1.5 text-xs font-black text-white hover:bg-indigo-500"
+                className="rounded-xl bg-indigo-600 px-4 py-1.5 text-xs font-black text-white hover:bg-indigo-500"
               >
-                儲存計畫
+                儲存段考衝刺計畫
               </button>
             </form>
           )}
@@ -891,6 +1214,26 @@ export function ExamReview({
               >
                 <Filter className="h-3.5 w-3.5" />
                 只看需加強單元（{summaryStats.weakUnitCount}）
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  playTap();
+                  setClozeMode((v) => !v);
+                }}
+                aria-pressed={clozeMode}
+                className={`flex items-center gap-1.5 rounded-xl border px-3 py-1.5 text-xs font-black transition ${
+                  clozeMode
+                    ? 'border-indigo-400 bg-indigo-50 text-indigo-800'
+                    : 'border-slate-200 bg-white text-slate-600 hover:bg-slate-50'
+                }`}
+              >
+                {clozeMode ? (
+                  <EyeOff className="h-3.5 w-3.5" />
+                ) : (
+                  <Eye className="h-3.5 w-3.5" />
+                )}
+                {clozeMode ? '遮罩背誦中（點關鍵字翻開）' : '遮罩背誦'}
               </button>
               <button
                 type="button"
@@ -1112,7 +1455,7 @@ export function ExamReview({
                                   <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-sky-500 text-[11px] font-black text-white">
                                     {idx + 1}
                                   </span>
-                                  <span>{point}</span>
+                                  <ClozeText text={point} enabled={clozeMode} />
                                 </li>
                               ))}
                             </ul>
@@ -1182,104 +1525,310 @@ export function ExamReview({
         </section>
       ) : (
         /* 考前模擬測驗設定卡 */
-        <section className="rounded-3xl border-2 border-indigo-200 bg-white p-6 shadow-sm">
-          <div className="mx-auto max-w-2xl space-y-6">
-            <div className="text-center">
-              <div className="mx-auto mb-3 flex h-14 w-14 items-center justify-center rounded-2xl bg-indigo-100 text-indigo-600">
-                <Rocket className="h-7 w-7" />
-              </div>
-              <h3 className="text-xl font-black text-slate-800">
-                組卷考前模擬總複習
-              </h3>
-              <p className="mt-1 text-sm font-bold text-slate-500">
-                從已選的 {summaryStats.unitCount} 個單元（題庫池共{' '}
-                {summaryStats.totalQuestions} 題
-                {subjectId === 'math' ? '＋動態算式題' : ''}）自動抽題實戰！
-              </p>
-            </div>
-
-            <div className="grid gap-4 sm:grid-cols-2">
-              <div className="space-y-2 rounded-2xl border border-slate-200 bg-slate-50 p-4">
-                <div className="text-xs font-black text-slate-600">
-                  1. 選擇模擬題數
+        <div className="space-y-6 print:hidden">
+          <section className="rounded-3xl border-2 border-indigo-200 bg-white p-6 shadow-sm">
+            <div className="mx-auto max-w-2xl space-y-5">
+              <div className="text-center">
+                <div className="mx-auto mb-3 flex h-14 w-14 items-center justify-center rounded-2xl bg-indigo-100 text-indigo-600">
+                  <Rocket className="h-7 w-7" />
                 </div>
-                <div className="flex gap-2">
-                  {QUESTION_COUNT_OPTIONS.map((cnt) => (
+                <h3 className="text-xl font-black text-slate-800">
+                  組卷考前模擬總複習
+                </h3>
+                <p className="mt-1 text-sm font-bold text-slate-500">
+                  從已選的 {summaryStats.unitCount} 個單元（題庫池共{' '}
+                  {summaryStats.totalQuestions} 題
+                  {subjectId === 'math' ? '＋動態算式題' : ''}）自動抽題實戰！
+                </p>
+              </div>
+
+              {/* 模式切換：真實段考 vs 練習模擬 */}
+              <div className="grid gap-3 sm:grid-cols-2">
+                <button
+                  type="button"
+                  onClick={() => {
+                    playTap();
+                    setExamStyle('real');
+                  }}
+                  className={`rounded-2xl border-2 p-3.5 text-left transition ${
+                    examStyle === 'real'
+                      ? 'border-indigo-500 bg-indigo-50/70'
+                      : 'border-slate-200 bg-white hover:bg-slate-50'
+                  }`}
+                >
+                  <div className="text-sm font-black text-slate-800">
+                    📝 真實段考模式（推薦）
+                  </div>
+                  <div className="mt-0.5 text-xs font-bold text-slate-500">
+                    支援計時、跳題檢查、交卷統一批改與百分制成績單
+                  </div>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => {
+                    playTap();
+                    setExamStyle('practice');
+                  }}
+                  className={`rounded-2xl border-2 p-3.5 text-left transition ${
+                    examStyle === 'practice'
+                      ? 'border-amber-400 bg-amber-50/70'
+                      : 'border-slate-200 bg-white hover:bg-slate-50'
+                  }`}
+                >
+                  <div className="text-sm font-black text-slate-800">
+                    ⚔️ 輕鬆練習模式
+                  </div>
+                  <div className="mt-0.5 text-xs font-bold text-slate-500">
+                    每題即時公佈對錯與提示，答錯 3 題後自動重練
+                  </div>
+                </button>
+              </div>
+
+              <div className="grid gap-4 sm:grid-cols-2">
+                <div className="space-y-2 rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                  <div className="text-xs font-black text-slate-600">
+                    1. 選擇模擬題數
+                  </div>
+                  <div className="flex gap-2">
+                    {QUESTION_COUNT_OPTIONS.map((cnt) => (
+                      <button
+                        key={cnt}
+                        type="button"
+                        onClick={() => {
+                          playTap();
+                          setMockCount(cnt);
+                        }}
+                        className={`flex-1 rounded-xl py-2 text-sm font-black transition ${
+                          mockCount === cnt
+                            ? 'bg-indigo-500 text-white shadow-sm'
+                            : 'border border-slate-200 bg-white text-slate-700 hover:bg-indigo-50'
+                        }`}
+                      >
+                        {cnt} 題
+                      </button>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="space-y-2 rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                  <div className="text-xs font-black text-slate-600">
+                    2. 出題優先順序
+                  </div>
+                  <div className="flex gap-2">
                     <button
-                      key={cnt}
                       type="button"
                       onClick={() => {
                         playTap();
-                        setMockCount(cnt);
+                        setMockStrategy('weakness-first');
                       }}
-                      className={`flex-1 rounded-xl py-2 text-sm font-black transition ${
-                        mockCount === cnt
-                          ? 'bg-indigo-500 text-white shadow-sm'
-                          : 'border border-slate-200 bg-white text-slate-700 hover:bg-indigo-50'
+                      className={`flex-1 rounded-xl px-2 py-2 text-xs font-black transition ${
+                        mockStrategy === 'weakness-first'
+                          ? 'bg-rose-500 text-white shadow-sm'
+                          : 'border border-slate-200 bg-white text-slate-700 hover:bg-rose-50'
                       }`}
                     >
-                      {cnt} 題
+                      弱點錯題優先
                     </button>
-                  ))}
+                    <button
+                      type="button"
+                      onClick={() => {
+                        playTap();
+                        setMockStrategy('balanced');
+                      }}
+                      className={`flex-1 rounded-xl px-2 py-2 text-xs font-black transition ${
+                        mockStrategy === 'balanced'
+                          ? 'bg-emerald-500 text-white shadow-sm'
+                          : 'border border-slate-200 bg-white text-slate-700 hover:bg-emerald-50'
+                      }`}
+                    >
+                      各單元平均抽題
+                    </button>
+                  </div>
                 </div>
               </div>
 
-              <div className="space-y-2 rounded-2xl border border-slate-200 bg-slate-50 p-4">
-                <div className="text-xs font-black text-slate-600">
-                  2. 出題優先順序
+              {examStyle === 'real' && (
+                <div className="space-y-2 rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                  <div className="flex items-center gap-1.5 text-xs font-black text-slate-600">
+                    <Clock className="h-3.5 w-3.5" />
+                    <span>3. 考試時間限制（低年級建議不限時）</span>
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    {TIME_LIMIT_OPTIONS.map((opt) => (
+                      <button
+                        key={opt.minutes}
+                        type="button"
+                        onClick={() => {
+                          playTap();
+                          setTimeLimitMin(opt.minutes);
+                        }}
+                        className={`flex-1 rounded-xl px-3 py-2 text-xs font-black transition ${
+                          timeLimitMin === opt.minutes
+                            ? 'bg-sky-500 text-white shadow-sm'
+                            : 'border border-slate-200 bg-white text-slate-700 hover:bg-sky-50'
+                        }`}
+                      >
+                        {opt.label}
+                      </button>
+                    ))}
+                  </div>
                 </div>
-                <div className="flex gap-2">
-                  <button
-                    type="button"
-                    onClick={() => {
-                      playTap();
-                      setMockStrategy('weakness-first');
-                    }}
-                    className={`flex-1 rounded-xl px-2 py-2 text-xs font-black transition ${
-                      mockStrategy === 'weakness-first'
-                        ? 'bg-rose-500 text-white shadow-sm'
-                        : 'border border-slate-200 bg-white text-slate-700 hover:bg-rose-50'
-                    }`}
-                  >
-                    弱點錯題優先
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => {
-                      playTap();
-                      setMockStrategy('balanced');
-                    }}
-                    className={`flex-1 rounded-xl px-2 py-2 text-xs font-black transition ${
-                      mockStrategy === 'balanced'
-                        ? 'bg-emerald-500 text-white shadow-sm'
-                        : 'border border-slate-200 bg-white text-slate-700 hover:bg-emerald-50'
-                    }`}
-                  >
-                    各單元平均抽題
-                  </button>
-                </div>
+              )}
+
+              <div className="rounded-2xl border border-amber-200 bg-amber-50/70 p-4 text-xs font-bold text-amber-900">
+                💡 模擬測驗模式不影響單關最高星數紀錄；答錯的題目仍會自動收錄進「錯題本」與 FSRS 記憶排程，並正常獲得 XP 與金幣！
+              </div>
+
+              <div className="flex flex-col gap-3 sm:flex-row">
+                <button
+                  type="button"
+                  disabled={buildingMock}
+                  onClick={handleStartMockQuiz}
+                  className="btn-3d flex flex-1 items-center justify-center gap-2 rounded-2xl bg-indigo-500 py-4 text-base font-black text-white shadow-[0_4px_0_#4338ca] hover:bg-indigo-400 disabled:opacity-60"
+                >
+                  <Rocket className="h-5 w-5" />
+                  {buildingMock
+                    ? '正在組卷中...'
+                    : `開始 ${mockCount} 題${examStyle === 'real' ? '真實段考' : '模擬練習'}`}
+                </button>
+                <button
+                  type="button"
+                  disabled={buildingMock}
+                  onClick={handlePrintMockPaper}
+                  className="inline-flex items-center justify-center gap-2 rounded-2xl border-2 border-slate-300 bg-white px-5 py-4 text-sm font-black text-slate-700 shadow-xs hover:bg-slate-50 disabled:opacity-60"
+                >
+                  <Printer className="h-4 w-4" />
+                  <span>列印 A4 模擬考卷</span>
+                </button>
               </div>
             </div>
+          </section>
 
-            <div className="rounded-2xl border border-amber-200 bg-amber-50/70 p-4 text-xs font-bold text-amber-900">
-              💡 模擬測驗模式不影響單關最高星數紀錄；答錯的題目仍會自動收錄進「錯題本」與 FSRS 記憶排程，並正常獲得 XP 與金幣！
-            </div>
-
-            <button
-              type="button"
-              disabled={buildingMock}
-              onClick={handleStartMockQuiz}
-              className="btn-3d flex w-full items-center justify-center gap-2 rounded-2xl bg-indigo-500 py-4 text-base font-black text-white shadow-[0_4px_0_#4338ca] hover:bg-indigo-400 disabled:opacity-60"
-            >
-              <Rocket className="h-5 w-5" />
-              {buildingMock
-                ? '正在組卷中...'
-                : `開始 ${mockCount} 題考前模擬測驗`}
-            </button>
-          </div>
-        </section>
+          {/* 歷次模擬考成績紀錄 */}
+          {(progress.mockExamHistory ?? []).length > 0 && (
+            <section className="rounded-3xl border-2 border-slate-200 bg-white p-5 shadow-xs">
+              <div className="mb-3 flex items-center gap-2">
+                <TrendingUp className="h-5 w-5 text-indigo-600" />
+                <h3 className="text-base font-black text-slate-800">
+                  歷次真實模擬考成績紀錄
+                </h3>
+              </div>
+              <div className="space-y-2.5">
+                {(progress.mockExamHistory ?? []).slice(0, 8).map((rec) => {
+                  const tone =
+                    rec.score >= 85
+                      ? 'bg-emerald-500'
+                      : rec.score >= 60
+                        ? 'bg-amber-500'
+                        : 'bg-rose-500';
+                  const textTone =
+                    rec.score >= 85
+                      ? 'text-emerald-700'
+                      : rec.score >= 60
+                        ? 'text-amber-700'
+                        : 'text-rose-700';
+                  return (
+                    <div
+                      key={rec.id}
+                      className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-slate-100 bg-slate-50/70 px-4 py-2.5"
+                    >
+                      <div className="min-w-0 flex-1">
+                        <div className="truncate text-sm font-black text-slate-800">
+                          {rec.title}
+                        </div>
+                        <div className="text-[11px] font-bold text-slate-500">
+                          {new Date(rec.takenAt).toLocaleDateString('zh-TW')} · 答對{' '}
+                          {rec.correctCount}/{rec.totalCount} 題 · 耗時{' '}
+                          {Math.floor(rec.durationSec / 60)}分
+                          {rec.durationSec % 60}秒
+                        </div>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <div className="hidden h-2 w-24 overflow-hidden rounded-full bg-slate-200 sm:block">
+                          <div
+                            className={`h-full rounded-full ${tone}`}
+                            style={{ width: `${rec.score}%` }}
+                          />
+                        </div>
+                        <div className={`text-lg font-black ${textTone}`}>
+                          {rec.score} 分
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </section>
+          )}
+        </div>
       )}
     </div>
+
+    {/* 列印專用：A4 空白模擬考卷＋解答卷 */}
+    {mode === 'mock' && printPaper && (
+      <div className="hidden print:block print:p-6 print:text-slate-900">
+        <div className="mb-5 border-b-2 border-slate-800 pb-3">
+          <h1 className="text-xl font-black">
+            知識大冒險 · {printPaper.title}
+          </h1>
+          <div className="mt-2 flex flex-wrap justify-between gap-4 text-xs font-bold text-slate-700">
+            <span>姓名：{progress.nickname}</span>
+            <span>
+              日期：{new Date().toLocaleDateString('zh-TW')} · 共{' '}
+              {printPaper.questions.length} 題
+            </span>
+            <span>得分：________ / 100 分</span>
+          </div>
+        </div>
+
+        <ol className="space-y-4">
+          {printPaper.questions.map((q, idx) => (
+            <li
+              key={`mock-print-${q.id}-${idx}`}
+              className="break-inside-avoid border-b border-slate-200 pb-3"
+            >
+              <div className="text-sm font-bold">
+                （　）{idx + 1}. {q.prompt}
+              </div>
+              <div className="mt-2 grid grid-cols-2 gap-1.5 pl-4 text-xs">
+                {q.options.map((opt, oIdx) => (
+                  <div key={oIdx}>
+                    ({['A', 'B', 'C', 'D'][oIdx]}) {opt}
+                  </div>
+                ))}
+              </div>
+            </li>
+          ))}
+        </ol>
+
+        <div className="mt-8 break-before-page border-t-2 border-slate-800 pt-4">
+          <h2 className="mb-3 text-base font-black">
+            參考答案與小老師解析 — {printPaper.title}
+          </h2>
+          <ol className="space-y-2 text-xs">
+            {printPaper.questions.map((q, idx) => (
+              <li key={`mock-ans-${q.id}-${idx}`}>
+                <span className="font-bold">
+                  {idx + 1}. 答案：({['A', 'B', 'C', 'D'][q.answerIndex]}){' '}
+                  {q.options[q.answerIndex]}
+                </span>
+                {' — '}
+                <span>{q.explanation}</span>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </div>
+    )}
+    <EnglishSpellingModal
+      open={spellingModalOpen}
+      title={`${grade}年級${semester === 1 ? '上' : '下'}學期 英語單字拼寫`}
+      grade={grade}
+      words={spellingWords}
+      speechSlowMode={progress.speechRateMode === 'slow'}
+      onClose={() => setSpellingModalOpen(false)}
+    />
+    </>
   );
 }
 

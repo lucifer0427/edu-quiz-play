@@ -174,6 +174,34 @@ export function normalizeProgress(
       !Array.isArray(parsed.wrongQuestionSnapshots)
         ? parsed.wrongQuestionSnapshots
         : {},
+    wrongMistakeCounts:
+      parsed.wrongMistakeCounts &&
+      typeof parsed.wrongMistakeCounts === 'object' &&
+      !Array.isArray(parsed.wrongMistakeCounts)
+        ? Object.fromEntries(
+            Object.entries(parsed.wrongMistakeCounts).filter(
+              ([k, v]) =>
+                typeof k === 'string' &&
+                k.trim() !== '' &&
+                typeof v === 'number' &&
+                Number.isFinite(v) &&
+                v >= 1,
+            ).map(([k, v]) => [k, Math.floor(v)]),
+          )
+        : undefined,
+    wrongReasonTags:
+      parsed.wrongReasonTags &&
+      typeof parsed.wrongReasonTags === 'object' &&
+      !Array.isArray(parsed.wrongReasonTags)
+        ? Object.fromEntries(
+            Object.entries(parsed.wrongReasonTags).filter(
+              ([k, v]) =>
+                typeof k === 'string' &&
+                k.trim() !== '' &&
+                (v === 'careless' || v === 'misread' || v === 'concept'),
+            ),
+          )
+        : undefined,
     fsrsCards,
     completedLessonIds,
     practicedHanzi:
@@ -266,12 +294,90 @@ export function normalizeProgress(
         ? {
             title: parsed.examPlan.title.trim().slice(0, 40) || '段考衝刺計畫',
             examDate: parsed.examPlan.examDate,
+            grade:
+              parsed.examPlan.grade !== undefined
+                ? normalizeGrade(parsed.examPlan.grade)
+                : undefined,
+            semester:
+              parsed.examPlan.semester === 1 || parsed.examPlan.semester === 2
+                ? parsed.examPlan.semester
+                : undefined,
+            preset:
+              parsed.examPlan.preset === 'midterm' ||
+              parsed.examPlan.preset === 'final' ||
+              parsed.examPlan.preset === 'all' ||
+              parsed.examPlan.preset === 'custom'
+                ? parsed.examPlan.preset
+                : undefined,
             subjectIds: parsed.examPlan.subjectIds.filter(
               (s): s is SubjectId =>
                 typeof s === 'string' && VALID_SUBJECT_IDS.has(s),
             ),
+            stageIdsBySubject:
+              parsed.examPlan.stageIdsBySubject &&
+              typeof parsed.examPlan.stageIdsBySubject === 'object' &&
+              !Array.isArray(parsed.examPlan.stageIdsBySubject)
+                ? Object.fromEntries(
+                    Object.entries(parsed.examPlan.stageIdsBySubject)
+                      .filter(
+                        ([k, v]) =>
+                          VALID_SUBJECT_IDS.has(k) && Array.isArray(v),
+                      )
+                      .map(([k, v]) => [
+                        k,
+                        v.filter(
+                          (id): id is string =>
+                            typeof id === 'string' && id.trim() !== '',
+                        ),
+                      ]),
+                  )
+                : undefined,
           }
         : undefined,
+    mockExamHistory: Array.isArray(parsed.mockExamHistory)
+      ? parsed.mockExamHistory
+          .filter(
+            (r) =>
+              r &&
+              typeof r === 'object' &&
+              typeof r.id === 'string' &&
+              typeof r.takenAt === 'string' &&
+              typeof r.score === 'number' &&
+              Number.isFinite(r.score) &&
+              typeof r.totalCount === 'number' &&
+              Number.isFinite(r.totalCount) &&
+              r.totalCount > 0,
+          )
+          .slice(0, 30)
+          .map((r) => ({
+            ...r,
+            grade: normalizeGrade(r.grade),
+            semester: normalizeSemester(r.semester),
+            subjectId: VALID_SUBJECT_IDS.has(r.subjectId)
+              ? r.subjectId
+              : 'custom',
+            score: Math.max(0, Math.min(100, Math.round(r.score))),
+            correctCount: nonNegativeInt(r.correctCount, 0),
+            totalCount: Math.max(1, Math.floor(r.totalCount)),
+            durationSec: nonNegativeInt(r.durationSec, 1),
+            unitBreakdown: Array.isArray(r.unitBreakdown)
+              ? r.unitBreakdown
+                  .filter(
+                    (u) =>
+                      u &&
+                      typeof u === 'object' &&
+                      typeof u.stageTitle === 'string' &&
+                      typeof u.total === 'number' &&
+                      u.total > 0,
+                  )
+                  .map((u) => ({
+                    stageTitle: u.stageTitle,
+                    correct: nonNegativeInt(u.correct, 0),
+                    total: Math.max(1, Math.floor(u.total)),
+                  }))
+              : [],
+          }))
+      : undefined,
     dailyActivity:
       parsed.dailyActivity &&
       typeof parsed.dailyActivity === 'object' &&

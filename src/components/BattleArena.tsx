@@ -167,6 +167,8 @@ export function BattleArena({
   const [conceptDrawerLesson, setConceptDrawerLesson] =
     useState<LessonScript | null>(null);
   const [scratchpadOpen, setScratchpadOpen] = useState(false);
+  const [numericFillMode, setNumericFillMode] = useState(false);
+  const [numericInput, setNumericInput] = useState('');
   const [listeningMode, setListeningMode] = useState(false);
   const [listeningRevealed, setListeningRevealed] = useState(false);
 
@@ -616,6 +618,7 @@ export function BattleArena({
     setSelectedOption(null);
     setHintLevel(0);
     setManualEliminatedIndices([]);
+    setNumericInput('');
     setListeningRevealed(false);
     hintUsedRef.current = false;
     questionStartRef.current = Date.now();
@@ -629,10 +632,60 @@ export function BattleArena({
     queue.length,
   ]);
 
+  const isNumericFillActive = Boolean(
+    numericFillMode &&
+      currentQuestion &&
+      (stage.subjectId === 'math' || currentQuestion.subjectId === 'math') &&
+      /^-?\d+(?:\.\d+)?$/.test(
+        currentQuestion.options[currentQuestion.answerIndex]?.trim() ?? '',
+      ),
+  );
+
+  const handleSubmitNumericInput = useCallback(() => {
+    if (!currentQuestion || numericInput.trim() === '' || numericInput === '-') {
+      return;
+    }
+    const target = Number(
+      currentQuestion.options[currentQuestion.answerIndex]?.trim(),
+    );
+    const userVal = Number(numericInput.trim());
+    if (Number.isFinite(userVal) && userVal === target) {
+      handleSelectOption(currentQuestion.answerIndex);
+    } else {
+      const wrongIdx = currentQuestion.options.findIndex(
+        (_, i) => i !== currentQuestion.answerIndex,
+      );
+      handleSelectOption(wrongIdx >= 0 ? wrongIdx : 0);
+    }
+  }, [currentQuestion, handleSelectOption, numericInput]);
+
   useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {
       if (finishedResult || isLoadingQuestions) return;
       if (selectedOption === null) {
+        if (isNumericFillActive) {
+          if (/^[0-9]$/.test(e.key)) {
+            e.preventDefault();
+            setNumericInput((prev) => (prev.length < 12 ? prev + e.key : prev));
+          } else if (e.key === '.') {
+            e.preventDefault();
+            setNumericInput((prev) =>
+              prev.includes('.') ? prev : `${prev || '0'}.`,
+            );
+          } else if (e.key === '-') {
+            e.preventDefault();
+            setNumericInput((prev) =>
+              prev.startsWith('-') ? prev.slice(1) : `-${prev}`,
+            );
+          } else if (e.key === 'Backspace') {
+            e.preventDefault();
+            setNumericInput((prev) => prev.slice(0, -1));
+          } else if (e.key === 'Enter') {
+            e.preventDefault();
+            handleSubmitNumericInput();
+          }
+          return;
+        }
         const keyPos = ['1', '2', '3', '4'].indexOf(e.key);
         const target = keyPos !== -1 ? visibleOptionEntries[keyPos] : undefined;
         if (target && !manualEliminatedSet.has(target.origIndex)) {
@@ -649,8 +702,10 @@ export function BattleArena({
     finishedResult,
     handleNext,
     handleSelectOption,
+    handleSubmitNumericInput,
     isLoadingQuestions,
     isNextLocked,
+    isNumericFillActive,
     manualEliminatedSet,
     selectedOption,
     visibleOptionEntries,
@@ -1027,23 +1082,47 @@ export function BattleArena({
           <div className="flex flex-wrap shrink-0 items-center gap-2">
             {(stage.subjectId === 'math' ||
               currentQuestion.subjectId === 'math') && (
-              <button
-                type="button"
-                onClick={() => {
-                  playTap();
-                  setScratchpadOpen((prev) => !prev);
-                }}
-                aria-pressed={scratchpadOpen}
-                className={`inline-flex items-center gap-1 rounded-xl border px-2.5 py-2 text-xs font-black transition ${
-                  scratchpadOpen
-                    ? 'border-sky-400 bg-sky-100 text-sky-900'
-                    : 'border-slate-200 bg-slate-50 text-slate-700 hover:bg-sky-50'
-                }`}
-                title="開啟／收合計算草稿板"
-              >
-                <PenTool className="h-3.5 w-3.5" />
-                <span>{scratchpadOpen ? '收合草稿板' : '計算草稿板'}</span>
-              </button>
+              <>
+                <button
+                  type="button"
+                  onClick={() => {
+                    playTap();
+                    setScratchpadOpen((prev) => !prev);
+                  }}
+                  aria-pressed={scratchpadOpen}
+                  className={`inline-flex items-center gap-1 rounded-xl border px-2.5 py-2 text-xs font-black transition ${
+                    scratchpadOpen
+                      ? 'border-sky-400 bg-sky-100 text-sky-900'
+                      : 'border-slate-200 bg-slate-50 text-slate-700 hover:bg-sky-50'
+                  }`}
+                  title="開啟／收合計算草稿板"
+                >
+                  <PenTool className="h-3.5 w-3.5" />
+                  <span>{scratchpadOpen ? '收合草稿板' : '計算草稿板'}</span>
+                </button>
+                {/^-?\d+(?:\.\d+)?$/.test(
+                  currentQuestion.options[currentQuestion.answerIndex]?.trim() ??
+                    '',
+                ) && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      playTap();
+                      setNumericFillMode((prev) => !prev);
+                      setNumericInput('');
+                    }}
+                    aria-pressed={numericFillMode}
+                    className={`inline-flex items-center gap-1 rounded-xl border px-2.5 py-2 text-xs font-black transition ${
+                      numericFillMode
+                        ? 'border-amber-400 bg-amber-100 text-amber-900'
+                        : 'border-slate-200 bg-slate-50 text-slate-700 hover:bg-amber-50'
+                    }`}
+                    title="隱藏選項，改用數字鍵盤直接填答"
+                  >
+                    <span>🔢 {numericFillMode ? '直填挑戰中' : '直填挑戰'}</span>
+                  </button>
+                )}
+              </>
             )}
 
             {speechAvailable &&
@@ -1212,45 +1291,116 @@ export function BattleArena({
           </div>
         )}
 
-        <div className="mt-5 grid gap-3 sm:grid-cols-2">
-          {visibleOptionEntries.map(({ option, origIndex }, visIdx) => {
-            const isEliminated = manualEliminatedSet.has(origIndex);
-            const isThisSelected = selectedOption === origIndex;
-            const isCorrectOption = origIndex === currentQuestion.answerIndex;
-
-            let buttonStyle = OPTION_COLORS[visIdx % OPTION_COLORS.length];
-            if (isEliminated && !isAnswered) {
-              buttonStyle =
-                'cursor-not-allowed border-slate-200 bg-slate-100 text-slate-400 opacity-40 line-through';
-            } else if (isAnswered) {
-              if (isCorrectOption) {
-                buttonStyle =
-                  'bg-emerald-500 border-emerald-600 text-white shadow-[0_4px_0_#047857]';
-              } else if (isThisSelected) {
-                buttonStyle =
-                  'bg-rose-500 border-rose-600 text-white shadow-[0_4px_0_#be123c]';
-              } else {
-                buttonStyle =
-                  'bg-slate-100 border-slate-200 text-slate-400 opacity-75';
-              }
-            }
-
-            return (
+        {numericFillMode &&
+        !isAnswered &&
+        (stage.subjectId === 'math' ||
+          currentQuestion.subjectId === 'math') &&
+        /^-?\d+(?:\.\d+)?$/.test(
+          currentQuestion.options[currentQuestion.answerIndex]?.trim() ?? '',
+        ) ? (
+          <div className="mt-5 space-y-4 rounded-2xl border-2 border-amber-200 bg-amber-50/60 p-4">
+            <div className="flex items-center justify-between gap-2 rounded-xl border-2 border-amber-300 bg-white px-4 py-3">
+              <span className="text-xs font-black text-slate-500">你的答案：</span>
+              <span className="font-mono text-2xl font-black text-slate-900">
+                {numericInput || '—'}
+              </span>
+            </div>
+            <div className="grid grid-cols-4 gap-2">
+              {['1', '2', '3', '⌫', '4', '5', '6', '-', '7', '8', '9', '.', '0', '清除'].map(
+                (key) => (
+                  <button
+                    key={key}
+                    type="button"
+                    onClick={() => {
+                      playTap();
+                      if (key === '⌫') {
+                        setNumericInput((prev) => prev.slice(0, -1));
+                      } else if (key === '清除') {
+                        setNumericInput('');
+                      } else if (key === '-') {
+                        setNumericInput((prev) =>
+                          prev.startsWith('-') ? prev.slice(1) : `-${prev}`,
+                        );
+                      } else if (key === '.') {
+                        setNumericInput((prev) =>
+                          prev.includes('.') ? prev : `${prev || '0'}.`,
+                        );
+                      } else if (numericInput.length < 12) {
+                        setNumericInput((prev) => prev + key);
+                      }
+                    }}
+                    className={`rounded-xl border border-slate-200 bg-white py-3 text-lg font-black text-slate-800 shadow-2xs hover:bg-sky-50 ${
+                      key === '清除' ? 'col-span-2 text-sm text-rose-600' : ''
+                    }`}
+                  >
+                    {key}
+                  </button>
+                ),
+              )}
               <button
-                key={origIndex}
                 type="button"
-                disabled={isAnswered || isEliminated}
-                onClick={() => handleSelectOption(origIndex)}
-                className={`btn-3d flex items-center gap-3 rounded-2xl border-2 px-4 py-4 text-left text-base font-black transition sm:text-lg ${buttonStyle}`}
+                disabled={numericInput.trim() === '' || numericInput === '-'}
+                onClick={() => {
+                  const target = Number(
+                    currentQuestion.options[currentQuestion.answerIndex]?.trim(),
+                  );
+                  const userVal = Number(numericInput.trim());
+                  if (Number.isFinite(userVal) && userVal === target) {
+                    handleSelectOption(currentQuestion.answerIndex);
+                  } else {
+                    const wrongIdx = currentQuestion.options.findIndex(
+                      (_, i) => i !== currentQuestion.answerIndex,
+                    );
+                    handleSelectOption(wrongIdx >= 0 ? wrongIdx : 0);
+                  }
+                }}
+                className="col-span-1 rounded-xl bg-indigo-600 py-3 text-sm font-black text-white shadow-xs hover:bg-indigo-500 disabled:opacity-40"
               >
-                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl bg-white/80 text-sm font-black text-slate-800">
-                  {OPTION_LABELS[visIdx]}
-                </span>
-                <span className="flex-1">{option}</span>
+                送出
               </button>
-            );
-          })}
-        </div>
+            </div>
+          </div>
+        ) : (
+          <div className="mt-5 grid gap-3 sm:grid-cols-2">
+            {visibleOptionEntries.map(({ option, origIndex }, visIdx) => {
+              const isEliminated = manualEliminatedSet.has(origIndex);
+              const isThisSelected = selectedOption === origIndex;
+              const isCorrectOption = origIndex === currentQuestion.answerIndex;
+
+              let buttonStyle = OPTION_COLORS[visIdx % OPTION_COLORS.length];
+              if (isEliminated && !isAnswered) {
+                buttonStyle =
+                  'cursor-not-allowed border-slate-200 bg-slate-100 text-slate-400 opacity-40 line-through';
+              } else if (isAnswered) {
+                if (isCorrectOption) {
+                  buttonStyle =
+                    'bg-emerald-500 border-emerald-600 text-white shadow-[0_4px_0_#047857]';
+                } else if (isThisSelected) {
+                  buttonStyle =
+                    'bg-rose-500 border-rose-600 text-white shadow-[0_4px_0_#be123c]';
+                } else {
+                  buttonStyle =
+                    'bg-slate-100 border-slate-200 text-slate-400 opacity-75';
+                }
+              }
+
+              return (
+                <button
+                  key={origIndex}
+                  type="button"
+                  disabled={isAnswered || isEliminated}
+                  onClick={() => handleSelectOption(origIndex)}
+                  className={`btn-3d flex items-center gap-3 rounded-2xl border-2 px-4 py-4 text-left text-base font-black transition sm:text-lg ${buttonStyle}`}
+                >
+                  <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl bg-white/80 text-sm font-black text-slate-800">
+                    {OPTION_LABELS[visIdx]}
+                  </span>
+                  <span className="flex-1">{option}</span>
+                </button>
+              );
+            })}
+          </div>
+        )}
 
         {isAnswered && (
           <div

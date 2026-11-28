@@ -487,6 +487,46 @@ function main() {
   }
 
   printCoverage(sourceResult.catalog, packResult.covered);
+  printQualityAudit();
+}
+
+function printQualityAudit() {
+  const packFiles = walkJsonFiles(PACKS_DIR);
+  const templatePatterns = [
+    /最核心的學習(重點|目標)是下列哪一項/,
+    /只背誦課文標題與頁碼/,
+    /做實驗時同時改變所有條件/,
+    /融入[^\s]{2,6}教育/,
+    /的課堂探究或活動時，哪一種學習方法最恰當/,
+    /應用在日常生活中，下列哪一項做法最正確/,
+    /的探究內容，下列哪一個敘述最符合課堂所學/,
+  ];
+  let templateCount = 0;
+  let duplicateAnsStages = 0;
+
+  for (const filePath of packFiles) {
+    const pack = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    for (const stage of pack.stages ?? []) {
+      const seenAnswers = new Set();
+      let hasDup = false;
+      for (const q of stage.questions ?? []) {
+        const text = `${q.prompt ?? ''} ${(q.options ?? []).join(' ')}`;
+        if (templatePatterns.some((re) => re.test(text))) {
+          templateCount += 1;
+        }
+        const ans = q.options?.[q.answerIndex]?.trim();
+        if (ans && seenAnswers.has(ans)) {
+          hasDup = true;
+        }
+        if (ans) seenAnswers.add(ans);
+      }
+      if (hasDup) duplicateAnsStages += 1;
+    }
+  }
+
+  console.log(
+    `題庫品質巡檢：樣板題 ${templateCount} 題、含重複正解關卡 ${duplicateAnsStages} 關`,
+  );
 }
 
 function printCoverage(catalog, covered) {

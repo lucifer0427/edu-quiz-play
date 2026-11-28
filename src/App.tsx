@@ -1,6 +1,7 @@
 import { Sparkles, X } from 'lucide-react';
 import { lazy, Suspense, useCallback, useEffect, useRef, useState } from 'react';
 import type { BattleResult } from './components/BattleArena';
+import type { MockExamFinishPayload } from './components/MockExamArena';
 import { CertificateModal } from './components/CertificateModal';
 import { Navbar } from './components/Navbar';
 import { WorldMap } from './components/WorldMap';
@@ -17,13 +18,16 @@ import type {
   Grade,
   LocalProfileMeta,
   PlayerProgress,
+  Semester,
   Stage,
   SubjectId,
+  WrongReasonTag,
 } from './types/quiz';
 
 const BattleArena = lazy(() =>
   import('./components/BattleArena').then((m) => ({ default: m.BattleArena })),
 );
+const MockExamArena = lazy(() => import('./components/MockExamArena'));
 const ExamReview = lazy(() => import('./components/ExamReview'));
 const EyeCareModal = lazy(() => import('./components/EyeCareModal'));
 const HanziPractice = lazy(() => import('./components/HanziPractice'));
@@ -73,6 +77,12 @@ export function App() {
   const [activeBattle, setActiveBattle] = useState<{
     stage: Stage;
     mode: BattleMode;
+  } | null>(null);
+  const [activeMockExam, setActiveMockExam] = useState<{
+    stage: Stage;
+    grade: Grade;
+    semester: Semester;
+    timeLimitSec?: number;
   } | null>(null);
   const [activeLesson, setActiveLesson] = useState<{
     lesson: LessonScript;
@@ -244,6 +254,7 @@ export function App() {
     setProfiles(res.profiles);
     setSoundEnabled(res.progress.soundEnabled);
     setActiveBattle(null);
+    setActiveMockExam(null);
     setActiveLesson(null);
   }, []);
 
@@ -356,10 +367,16 @@ export function App() {
   );
 
   const handleOpenLessonForWrongQuestion = useCallback(
-    async (subjectId: SubjectId, stageTitle?: string) => {
+    async (
+      subjectId: SubjectId,
+      stageTitle?: string,
+      sourceGrade?: Grade,
+      sourceSemester?: Semester,
+      sourceStageId?: string,
+    ) => {
       if (subjectId === 'custom') return;
-      const grade = progress.selectedGrade ?? 5;
-      const semester = progress.selectedSemester ?? 1;
+      const grade = sourceGrade ?? progress.selectedGrade ?? 5;
+      const semester = sourceSemester ?? progress.selectedSemester ?? 1;
       const { academicYear } = getCurriculumCatalog();
       const pack = await loadQuizPack(academicYear, semester, grade, subjectId);
       const lessonPack = await loadLessonPack(
@@ -370,9 +387,14 @@ export function App() {
       );
       if (!pack || !lessonPack || pack.stages.length === 0) return;
       const targetStage =
+        (sourceStageId
+          ? pack.stages.find((s) => s.id === sourceStageId)
+          : undefined) ??
         (stageTitle ? pack.stages.find((s) => s.title === stageTitle) : undefined) ??
         pack.stages[0];
       const { lesson } = resolveLessonForStage(lessonPack, targetStage);
+      setActiveMockExam(null);
+      setActiveBattle(null);
       setActiveLesson({ lesson, stage: targetStage });
     },
     [progress.selectedGrade, progress.selectedSemester],
@@ -422,7 +444,10 @@ export function App() {
 
       const wrongSet = new Set(prev.wrongQuestionIds);
       const nextSnapshots = { ...(prev.wrongQuestionSnapshots ?? {}) };
+      const nextMistakeCounts = { ...(prev.wrongMistakeCounts ?? {}) };
       const nextFsrsCards = { ...(prev.fsrsCards ?? {}) };
+      const fallbackGrade = prev.selectedGrade ?? 5;
+      const fallbackSemester = prev.selectedSemester ?? 1;
 
       result.wrongQuestions.forEach((q) => {
         wrongSet.add(q.id);
@@ -430,6 +455,9 @@ export function App() {
           ...q,
           subjectId: q.subjectId ?? result.subjectId,
           stageTitle: q.stageTitle ?? result.stageTitle,
+          sourceGrade: q.sourceGrade ?? fallbackGrade,
+          sourceSemester: q.sourceSemester ?? fallbackSemester,
+          sourceStageId: q.sourceStageId ?? result.stageId,
         };
       });
 
@@ -442,10 +470,14 @@ export function App() {
 
         if (!outcome.wasCorrect) {
           wrongSet.add(q.id);
+          nextMistakeCounts[q.id] = (nextMistakeCounts[q.id] ?? 0) + 1;
           nextSnapshots[q.id] = {
             ...q,
             subjectId: q.subjectId ?? result.subjectId,
             stageTitle: q.stageTitle ?? result.stageTitle,
+            sourceGrade: q.sourceGrade ?? fallbackGrade,
+            sourceSemester: q.sourceSemester ?? fallbackSemester,
+            sourceStageId: q.sourceStageId ?? result.stageId,
           };
         }
 
@@ -482,6 +514,7 @@ export function App() {
         stageStars: nextStageStars,
         wrongQuestionIds: Array.from(wrongSet),
         wrongQuestionSnapshots: nextSnapshots,
+        wrongMistakeCounts: nextMistakeCounts,
         fsrsCards: nextFsrsCards,
       };
       const newBadges = findNewlyEarnedBadges(nextProgress);
@@ -497,6 +530,99 @@ export function App() {
       };
     });
   }, []);
+
+  const handleFinishMockExam = useCallback((payload: MockExamFinishPayload) => {
+    const now = new Date();
+    setProgress((prev) => {
+      const wrongSet = new Set(prev.wrongQuestionIds);
+      const nextSnapshots = { ...(prev.wrongQuestionSnapshots ?? {}) };
+      const nextMistakeCounts = { ...(prev.wrongMistakeCounts ?? {}) };
+      const nextFsrsCards = { ...(prev.fsrsCards ?? {}) };
+
+      for (const outcome of payload.attemptOutcomes) {
+        const q = outcome.question;
+        const shouldTrack =
+          !outcome.wasCorrect || wrongSet.has(q.id) || q.id in nextFsrsCards;
+        if (!shouldTrack) continue;
+
+        if (!outcome.wasCorrect) {
+          wrongSet.add(q.id);
+          nextMistakeCounts[q.id] = (nextMistakeCounts[q.id] ?? 0) + 1;
+          nextSnapshots[q.id] = {
+            ...q,
+            subjectId: q.subjectId ?? payload.record.subjectId,
+            sourceGrade: q.sourceGrade ?? payload.record.grade,
+            sourceSemester: q.sourceSemester ?? payload.record.semester,
+          };
+        }
+
+        nextFsrsCards[q.id] = reviewFsrsCard(
+          nextFsrsCards[q.id],
+          q.id,
+          {
+            wasCorrect: outcome.wasCorrect,
+            usedHint: outcome.usedHint,
+            responseTimeMs: outcome.responseTimeMs,
+          },
+          now,
+        );
+      }
+
+      const dailyPatch = recordDailyStudyActivity(
+        prev,
+        { answered: payload.record.totalCount },
+        now,
+      );
+
+      const nextHistory = [
+        payload.record,
+        ...(prev.mockExamHistory ?? []),
+      ].slice(0, 30);
+
+      const nextProgress: PlayerProgress = {
+        ...prev,
+        ...dailyPatch,
+        xp: prev.xp + payload.xpEarned,
+        coins: prev.coins + payload.coinsEarned,
+        totalCorrect: prev.totalCorrect + payload.record.correctCount,
+        totalAnswered: prev.totalAnswered + payload.record.totalCount,
+        wrongQuestionIds: Array.from(wrongSet),
+        wrongQuestionSnapshots: nextSnapshots,
+        wrongMistakeCounts: nextMistakeCounts,
+        fsrsCards: nextFsrsCards,
+        mockExamHistory: nextHistory,
+      };
+      const newBadges = findNewlyEarnedBadges(nextProgress);
+      if (newBadges.length === 0) return nextProgress;
+      const bonusCoins = newBadges.reduce((sum, b) => sum + b.rewardCoins, 0);
+      return {
+        ...nextProgress,
+        coins: nextProgress.coins + bonusCoins,
+        unlockedBadgeIds: [
+          ...(nextProgress.unlockedBadgeIds ?? []),
+          ...newBadges.map((b) => b.id),
+        ],
+      };
+    });
+  }, []);
+
+  const handleSetWrongReasonTag = useCallback(
+    (questionId: string, tag: WrongReasonTag | undefined) => {
+      setProgress((prev) => {
+        const nextTags = { ...(prev.wrongReasonTags ?? {}) };
+        if (tag) {
+          nextTags[questionId] = tag;
+        } else {
+          delete nextTags[questionId];
+        }
+        return {
+          ...prev,
+          wrongReasonTags: nextTags,
+        };
+      });
+    },
+    [],
+  );
 
   const handleSelectAvatar = (avatarId: string) => {
     setProgress((prev) => ({ ...prev, selectedAvatarId: avatarId }));
@@ -662,12 +788,15 @@ export function App() {
       delete nextSnapshots[questionId];
       const nextFsrsCards = { ...(prev.fsrsCards ?? {}) };
       delete nextFsrsCards[questionId];
+      const nextReasonTags = { ...(prev.wrongReasonTags ?? {}) };
+      delete nextReasonTags[questionId];
       return {
         ...prev,
         wrongQuestionIds: prev.wrongQuestionIds.filter(
           (id) => id !== questionId,
         ),
         wrongQuestionSnapshots: nextSnapshots,
+        wrongReasonTags: nextReasonTags,
         fsrsCards: nextFsrsCards,
       };
     });
@@ -701,6 +830,7 @@ export function App() {
         onChangeTab={(tab) => {
           playTap();
           setActiveBattle(null);
+          setActiveMockExam(null);
           setActiveLesson(null);
           if (tab === 'hanzi') {
             setHanziContext(null);
@@ -795,7 +925,51 @@ export function App() {
       )}
 
       <main>
-        {activeBattle ? (
+        {activeMockExam ? (
+          <Suspense
+            fallback={
+              <div className="mx-auto max-w-2xl px-4 py-12 text-center text-sm font-black text-slate-600">
+                正在準備真實段考考場...
+              </div>
+            }
+          >
+            <MockExamArena
+              stage={activeMockExam.stage}
+              grade={activeMockExam.grade}
+              semester={activeMockExam.semester}
+              timeLimitSec={activeMockExam.timeLimitSec}
+              previousRecord={(progress.mockExamHistory ?? []).find(
+                (r) =>
+                  r.subjectId === activeMockExam.stage.subjectId &&
+                  r.grade === activeMockExam.grade &&
+                  r.semester === activeMockExam.semester,
+              )}
+              speechSlowMode={progress.speechRateMode === 'slow'}
+              onFinishExam={handleFinishMockExam}
+              onRetryWrongOnly={(wrongQs) => {
+                setActiveMockExam({
+                  ...activeMockExam,
+                  stage: {
+                    ...activeMockExam.stage,
+                    id: `exam-retry-${Date.now()}`,
+                    title: `${activeMockExam.stage.title}（錯題重考）`,
+                    questions: wrongQs,
+                  },
+                  timeLimitSec: undefined,
+                });
+              }}
+              onOpenUnitLesson={(stageTitle) => {
+                void handleOpenLessonForWrongQuestion(
+                  activeMockExam.stage.subjectId,
+                  stageTitle,
+                  activeMockExam.grade,
+                  activeMockExam.semester,
+                );
+              }}
+              onExit={() => setActiveMockExam(null)}
+            />
+          </Suspense>
+        ) : activeBattle ? (
           <Suspense
             fallback={
               <div className="mx-auto max-w-2xl px-4 py-12 text-center text-sm font-black text-slate-600">
@@ -942,6 +1116,15 @@ export function App() {
                 playTap();
                 setActiveBattle({ stage: mockStage, mode: 'mock-exam' });
               }}
+              onStartRealMockExam={(mockStage, examGrade, examSemester, timeLimitSec) => {
+                playTap();
+                setActiveMockExam({
+                  stage: mockStage,
+                  grade: examGrade,
+                  semester: examSemester,
+                  timeLimitSec,
+                });
+              }}
               onStartStage={(stage) => {
                 playTap();
                 setActiveBattle({ stage, mode: 'stage' });
@@ -965,11 +1148,24 @@ export function App() {
             <WrongBook
               progress={progress}
               onRemoveWrongId={handleRemoveWrongId}
+              onSetWrongReasonTag={handleSetWrongReasonTag}
               onStartWrongReview={(reviewStage) =>
                 setActiveBattle({ stage: reviewStage, mode: 'wrong-review' })
               }
-              onOpenLessonForQuestion={(subjectId, stageTitle) => {
-                void handleOpenLessonForWrongQuestion(subjectId, stageTitle);
+              onOpenLessonForQuestion={(
+                subjectId,
+                stageTitle,
+                sourceGrade,
+                sourceSemester,
+                sourceStageId,
+              ) => {
+                void handleOpenLessonForWrongQuestion(
+                  subjectId,
+                  stageTitle,
+                  sourceGrade,
+                  sourceSemester,
+                  sourceStageId,
+                );
               }}
             />
           </Suspense>

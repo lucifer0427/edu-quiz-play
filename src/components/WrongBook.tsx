@@ -3,6 +3,7 @@ import {
   BookCheck,
   BookOpen,
   Clock,
+  Flame,
   Play,
   Printer,
   Sprout,
@@ -14,10 +15,13 @@ import { BUILTIN_STAGES } from '../data/quizzes';
 import { SUBJECT_META, SUBJECT_ORDER } from '../data/subjects';
 import type {
   FsrsCardState,
+  Grade,
   PlayerProgress,
   Question,
+  Semester,
   Stage,
   SubjectId,
+  WrongReasonTag,
 } from '../types/quiz';
 import {
   getMasteryStage,
@@ -32,31 +36,62 @@ import { QuestionVisual } from './QuestionVisual';
 interface WrongBookProps {
   progress: PlayerProgress;
   onRemoveWrongId: (questionId: string) => void;
+  onSetWrongReasonTag?: (
+    questionId: string,
+    tag: WrongReasonTag | undefined,
+  ) => void;
   onStartWrongReview: (reviewStage: Stage) => void;
-  onOpenLessonForQuestion?: (subjectId: SubjectId, stageTitle?: string) => void;
+  onOpenLessonForQuestion?: (
+    subjectId: SubjectId,
+    stageTitle?: string,
+    sourceGrade?: Grade,
+    sourceSemester?: Semester,
+    sourceStageId?: string,
+  ) => void;
 }
 
 interface WrongQuestionItem {
   question: Question;
   subjectId: SubjectId;
   stageTitle?: string;
+  sourceGrade?: Grade;
+  sourceSemester?: Semester;
+  sourceStageId?: string;
   card?: FsrsCardState;
+  mistakeCount: number;
+  reasonTag?: WrongReasonTag;
   isDue: boolean;
   isMastered: boolean;
   mastery: MasteryStageInfo;
   dueTimestamp: number;
 }
 
-const MICRO_QUIZ_CAP = 5;
+const REVIEW_CAP_OPTIONS = [
+  { value: 5, label: '日常 5 題' },
+  { value: 10, label: '掃雷 10 題' },
+  { value: 15, label: '15 題' },
+  { value: 999, label: '全部一次清' },
+] as const;
+
+const REASON_TAGS: Array<{ id: WrongReasonTag; label: string }> = [
+  { id: 'careless', label: '粗心算錯' },
+  { id: 'misread', label: '看錯題意' },
+  { id: 'concept', label: '觀念不熟' },
+];
 
 export function WrongBook({
   progress,
   onRemoveWrongId,
+  onSetWrongReasonTag,
   onStartWrongReview,
   onOpenLessonForQuestion,
 }: WrongBookProps) {
   const speechAvailable = isSpeechSupported();
   const [subjectFilter, setSubjectFilter] = useState<SubjectId | 'all'>('all');
+  const [focusFilter, setFocusFilter] = useState<'all' | 'stubborn' | 'exam'>(
+    'all',
+  );
+  const [reviewCap, setReviewCap] = useState<number>(5);
 
   const wrongItems = useMemo(() => {
     const now = new Date();
@@ -85,12 +120,18 @@ export function WrongBook({
       const due = isCardDue(card, now);
       const mastered = isCardMastered(card);
       const parsedDue = card ? new Date(card.dueAt).getTime() : 0;
+      const mistakeCount = progress.wrongMistakeCounts?.[id] ?? 1;
 
       items.push({
         question,
         subjectId: snap?.subjectId ?? fallback?.subjectId ?? 'custom',
         stageTitle: snap?.stageTitle ?? fallback?.stageTitle,
+        sourceGrade: snap?.sourceGrade,
+        sourceSemester: snap?.sourceSemester,
+        sourceStageId: snap?.sourceStageId,
         card,
+        mistakeCount,
+        reasonTag: progress.wrongReasonTags?.[id],
         isDue: due,
         isMastered: mastered,
         mastery: getMasteryStage(card),
@@ -100,6 +141,9 @@ export function WrongBook({
 
     items.sort((a, b) => {
       if (a.isDue !== b.isDue) return a.isDue ? -1 : 1;
+      if (b.mistakeCount !== a.mistakeCount) {
+        return b.mistakeCount - a.mistakeCount;
+      }
       return a.dueTimestamp - b.dueTimestamp;
     });
 
@@ -107,8 +151,10 @@ export function WrongBook({
   }, [
     progress.customStages,
     progress.fsrsCards,
+    progress.wrongMistakeCounts,
     progress.wrongQuestionIds,
     progress.wrongQuestionSnapshots,
+    progress.wrongReasonTags,
   ]);
 
   const subjectCounts = useMemo(() => {
@@ -129,13 +175,28 @@ export function WrongBook({
       ? subjectFilter
       : 'all';
 
-  const filteredItems = useMemo(
-    () =>
+  const examSubjectSet = useMemo(
+    () => new Set(progress.examPlan?.subjectIds ?? []),
+    [progress.examPlan?.subjectIds],
+  );
+
+  const stubbornCount = useMemo(
+    () => wrongItems.filter((item) => item.mistakeCount >= 2).length,
+    [wrongItems],
+  );
+
+  const filteredItems = useMemo(() => {
+    let list =
       effectiveFilter === 'all'
         ? wrongItems
-        : wrongItems.filter((item) => item.subjectId === effectiveFilter),
-    [effectiveFilter, wrongItems],
-  );
+        : wrongItems.filter((item) => item.subjectId === effectiveFilter);
+    if (focusFilter === 'stubborn') {
+      list = list.filter((item) => item.mistakeCount >= 2);
+    } else if (focusFilter === 'exam' && examSubjectSet.size > 0) {
+      list = list.filter((item) => examSubjectSet.has(item.subjectId));
+    }
+    return list;
+  }, [effectiveFilter, examSubjectSet, focusFilter, wrongItems]);
 
   const dueFilteredItems = useMemo(
     () => filteredItems.filter((item) => item.isDue),
@@ -166,8 +227,9 @@ export function WrongBook({
   const launchReview = (sourceItems: WrongQuestionItem[], earlyPractice: boolean) => {
     if (sourceItems.length === 0) return;
     playTap();
+    const effectiveCap = Math.min(sourceItems.length, reviewCap);
     const reviewQuestions = sourceItems
-      .slice(0, MICRO_QUIZ_CAP)
+      .slice(0, effectiveCap)
       .map((item) => item.question);
     const reviewSubjectId =
       effectiveFilter === 'all' ? 'custom' : effectiveFilter;
@@ -180,7 +242,7 @@ export function WrongBook({
           ? `${prefix}特訓戰`
           : `${SUBJECT_META[effectiveFilter].shortName}${prefix}戰`,
       description:
-        '每次精選最多 5 題高效率回想，答對後記憶樹會自動成長並延長複習間隔！',
+        '高效率主動回想複習，答對後記憶樹會自動成長並延長複習間隔！',
       difficulty: 'medium',
       monsterId: 'bookSpirit',
       monsterName: '遺忘曲線魔王',
@@ -200,8 +262,7 @@ export function WrongBook({
               記憶樹錯題本（FSRS 排程）
             </h2>
             <p className="mt-1 text-sm font-medium text-slate-600">
-              答對不會立刻消失，而是依記憶曲線跨日鞏固。每次微複習最多{' '}
-              {MICRO_QUIZ_CAP} 題，輕鬆把錯題種成長期記憶大樹！
+              答對不會立刻消失，而是依記憶曲線跨日鞏固。平時建議每次 5 題，考前可切換集中掃雷！
             </p>
           </div>
 
@@ -227,7 +288,7 @@ export function WrongBook({
               >
                 <Play className="h-5 w-5 fill-white" />
                 <span>
-                  啟動今日複習戰 ({Math.min(dueFilteredItems.length, MICRO_QUIZ_CAP)}{' '}
+                  啟動今日複習戰 ({Math.min(dueFilteredItems.length, reviewCap)}{' '}
                   題)
                 </span>
               </button>
@@ -240,7 +301,7 @@ export function WrongBook({
                 >
                   <Play className="h-4 w-4 fill-emerald-600 text-emerald-600" />
                   <span>
-                    提前練習 ({Math.min(filteredItems.length, MICRO_QUIZ_CAP)}{' '}
+                    提前練習 ({Math.min(filteredItems.length, reviewCap)}{' '}
                     題 · 今日已達標)
                   </span>
                 </button>
@@ -248,6 +309,82 @@ export function WrongBook({
             )}
           </div>
         </div>
+
+        {wrongItems.length > 0 && (
+          <div className="flex flex-wrap items-center justify-between gap-2 rounded-2xl border border-rose-200/80 bg-white/80 px-3.5 py-2.5">
+            <div className="flex flex-wrap items-center gap-1.5">
+              <span className="text-xs font-black text-slate-600">
+                考前掃雷題數：
+              </span>
+              {REVIEW_CAP_OPTIONS.map((opt) => (
+                <button
+                  key={opt.value}
+                  type="button"
+                  onClick={() => {
+                    playTap();
+                    setReviewCap(opt.value);
+                  }}
+                  className={`rounded-xl px-2.5 py-1 text-xs font-black transition ${
+                    reviewCap === opt.value
+                      ? 'bg-rose-500 text-white'
+                      : 'bg-slate-100 text-slate-600 hover:bg-rose-100'
+                  }`}
+                >
+                  {opt.label}
+                </button>
+              ))}
+            </div>
+            <div className="flex flex-wrap items-center gap-1.5">
+              <button
+                type="button"
+                onClick={() => {
+                  playTap();
+                  setFocusFilter('all');
+                }}
+                className={`rounded-xl px-2.5 py-1 text-xs font-black ${
+                  focusFilter === 'all'
+                    ? 'bg-slate-800 text-white'
+                    : 'bg-slate-100 text-slate-600'
+                }`}
+              >
+                全部
+              </button>
+              {stubbornCount > 0 && (
+                <button
+                  type="button"
+                  onClick={() => {
+                    playTap();
+                    setFocusFilter('stubborn');
+                  }}
+                  className={`inline-flex items-center gap-1 rounded-xl px-2.5 py-1 text-xs font-black ${
+                    focusFilter === 'stubborn'
+                      ? 'bg-orange-500 text-white'
+                      : 'bg-orange-50 text-orange-800 hover:bg-orange-100'
+                  }`}
+                >
+                  <Flame className="h-3 w-3" />
+                  頑固錯題 ({stubbornCount})
+                </button>
+              )}
+              {examSubjectSet.size > 0 && (
+                <button
+                  type="button"
+                  onClick={() => {
+                    playTap();
+                    setFocusFilter('exam');
+                  }}
+                  className={`rounded-xl px-2.5 py-1 text-xs font-black ${
+                    focusFilter === 'exam'
+                      ? 'bg-indigo-600 text-white'
+                      : 'bg-indigo-50 text-indigo-800 hover:bg-indigo-100'
+                  }`}
+                >
+                  📅 段考科目
+                </button>
+              )}
+            </div>
+          </div>
+        )}
 
         {wrongItems.length > 0 && (
           <div className="grid grid-cols-3 gap-2.5 sm:gap-3">
@@ -402,6 +539,12 @@ export function WrongBook({
                       ⏳ 鞏固排程中
                     </span>
                   )}
+                  {item.mistakeCount >= 2 && (
+                    <span className="inline-flex items-center gap-1 rounded-full bg-orange-100 px-2.5 py-0.5 text-xs font-black text-orange-800">
+                      <Flame className="h-3 w-3" />
+                      頑固錯題（錯 {item.mistakeCount} 次）
+                    </span>
+                  )}
                 </div>
 
                 <div className="flex items-start justify-between gap-3">
@@ -420,7 +563,17 @@ export function WrongBook({
                         type="button"
                         onClick={() => {
                           playTap();
-                          onOpenLessonForQuestion(subjectId, stageTitle);
+                          if (item.sourceGrade !== undefined) {
+                            onOpenLessonForQuestion(
+                              subjectId,
+                              stageTitle,
+                              item.sourceGrade,
+                              item.sourceSemester,
+                              item.sourceStageId,
+                            );
+                          } else {
+                            onOpenLessonForQuestion(subjectId, stageTitle);
+                          }
                         }}
                         className="inline-flex items-center gap-1 rounded-xl bg-sky-50 px-2.5 py-1.5 text-xs font-black text-sky-700 hover:bg-sky-100"
                         title="回到該單元微課程複習觀念"
@@ -499,6 +652,34 @@ export function WrongBook({
                   <span className="font-black">小老師解析：</span>
                   {q.explanation}
                 </div>
+
+                {onSetWrongReasonTag && (
+                  <div className="mt-2.5 flex flex-wrap items-center gap-1.5">
+                    <span className="text-[11px] font-bold text-slate-500">
+                      錯因備忘：
+                    </span>
+                    {REASON_TAGS.map((rt) => {
+                      const active = item.reasonTag === rt.id;
+                      return (
+                        <button
+                          key={rt.id}
+                          type="button"
+                          onClick={() => {
+                            playTap();
+                            onSetWrongReasonTag(q.id, active ? undefined : rt.id);
+                          }}
+                          className={`rounded-lg border px-2 py-0.5 text-[11px] font-black transition ${
+                            active
+                              ? 'border-indigo-400 bg-indigo-50 text-indigo-800'
+                              : 'border-slate-200 bg-white text-slate-500 hover:bg-slate-50'
+                          }`}
+                        >
+                          {rt.label}
+                        </button>
+                      );
+                    })}
+                  </div>
+                )}
               </div>
             );
           })}

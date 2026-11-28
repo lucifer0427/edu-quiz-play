@@ -1,6 +1,7 @@
 import {
   Award,
   BookOpen,
+  Calendar,
   CheckCircle2,
   ClipboardCheck,
   Flame,
@@ -8,8 +9,10 @@ import {
   Play,
   Swords,
 } from 'lucide-react';
+import { SUBJECT_META } from '../data/subjects';
 import type { LessonScript } from '../types/lesson';
 import type { Semester, Stage } from '../types/quiz';
+import type { ExamSprintSummary } from '../utils/examPlanner';
 import { playTap } from '../utils/sound';
 
 const DAILY_GOAL_OPTIONS = [5, 10, 15, 20] as const;
@@ -34,6 +37,7 @@ export interface DailyMissionCardProps {
     lessonCompleted: boolean;
     stars: number;
   } | null;
+  examSprint?: ExamSprintSummary | null;
   onStartStage: (stage: Stage) => void;
   onStartLesson?: (lesson: LessonScript, stage: Stage) => void;
   onGoWrongBook: () => void;
@@ -51,6 +55,7 @@ export function DailyMissionCard({
   dueWrongCount,
   totalWrongCount,
   recommendedNext,
+  examSprint,
   onStartStage,
   onStartLesson,
   onGoWrongBook,
@@ -61,6 +66,59 @@ export function DailyMissionCard({
 }: DailyMissionCardProps) {
   return (
     <section className="space-y-4 rounded-3xl border-2 border-sky-200 bg-white p-5 shadow-xs">
+      {examSprint && examSprint.daysLeft >= 0 && (
+        <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-indigo-200 bg-gradient-to-r from-indigo-50 to-sky-50 px-4 py-3">
+          <div className="flex items-start gap-2.5">
+            <Calendar className="mt-0.5 h-4 w-4 shrink-0 text-indigo-600" />
+            <div>
+              <div className="flex flex-wrap items-center gap-2 text-xs font-black text-indigo-950 sm:text-sm">
+                <span>{examSprint.title}</span>
+                <span className="rounded-full bg-rose-100 px-2 py-0.5 text-[11px] text-rose-700">
+                  {examSprint.daysLeft === 0
+                    ? '就是今天！'
+                    : `倒數 ${examSprint.daysLeft} 天`}
+                </span>
+                <span className="rounded-full bg-white px-2 py-0.5 text-[11px] text-indigo-700">
+                  {examSprint.phaseLabel} · 準備度 {examSprint.overallReadinessPercent}%
+                </span>
+              </div>
+              <p className="mt-0.5 text-xs font-bold text-indigo-800">
+                {examSprint.priorityTask
+                  ? `今日優先衝刺：${SUBJECT_META[examSprint.priorityTask.subjectId].shortName}《${examSprint.priorityTask.stage.title}》（${examSprint.priorityTask.reason}）`
+                  : examSprint.recommendationText}
+              </p>
+            </div>
+          </div>
+
+          <div className="flex flex-wrap items-center gap-2">
+            {examSprint.priorityTask && (
+              <button
+                type="button"
+                onClick={() => {
+                  playTap();
+                  onStartStage(examSprint.priorityTask!.stage);
+                }}
+                className="inline-flex items-center gap-1 rounded-xl bg-indigo-600 px-3 py-1.5 text-xs font-black text-white shadow-2xs hover:bg-indigo-500"
+              >
+                <Play className="h-3.5 w-3.5 fill-white" />
+                <span>立即衝刺</span>
+              </button>
+            )}
+            {onGoExamReview && (
+              <button
+                type="button"
+                onClick={() => {
+                  playTap();
+                  onGoExamReview();
+                }}
+                className="rounded-xl border border-indigo-200 bg-white px-3 py-1.5 text-xs font-black text-indigo-700 hover:bg-indigo-100"
+              >
+                考前中心
+              </button>
+            )}
+          </div>
+        </div>
+      )}
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div className="flex items-center gap-2.5">
           <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-sky-500 text-white shadow-xs">

@@ -32,6 +32,7 @@ import type {
   SubjectId,
 } from '../types/quiz';
 import { getTodayStudyStats } from '../utils/dailyStudy';
+import { buildExamSprintSummary } from '../utils/examPlanner';
 import { countDueWrongQuestions } from '../utils/fsrs';
 import { resolveLessonForStage } from '../utils/lessonSynthesizer';
 import { playTap } from '../utils/sound';
@@ -240,6 +241,48 @@ export function WorldMap({
     packState.key === packKey ? packState.lessonPack : null;
   const packLoading = packState.key === packKey && packState.loading;
 
+  const [examPlanPacks, setExamPlanPacks] = useState<
+    Partial<Record<SubjectId, QuizPack | null>>
+  >({});
+
+  useEffect(() => {
+    const plan = progress.examPlan;
+    if (!plan || plan.subjectIds.length === 0) {
+      setExamPlanPacks({});
+      return;
+    }
+    let cancelled = false;
+    const planGrade = plan.grade ?? activeGrade;
+    const planSemester = plan.semester ?? activeSemester;
+    void Promise.all(
+      plan.subjectIds.map(async (sid) => {
+        if (sid === 'custom') return [sid, null] as const;
+        const p = await loadQuizPack(
+          catalog.academicYear,
+          planSemester,
+          planGrade,
+          sid,
+        ).catch(() => null);
+        return [sid, p] as const;
+      }),
+    ).then((entries) => {
+      if (cancelled) return;
+      const next: Partial<Record<SubjectId, QuizPack | null>> = {};
+      for (const [sid, p] of entries) {
+        next[sid] = p;
+      }
+      setExamPlanPacks(next);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [activeGrade, activeSemester, catalog.academicYear, progress.examPlan]);
+
+  const examSprint = useMemo(() => {
+    if (!progress.examPlan) return null;
+    return buildExamSprintSummary(progress.examPlan, examPlanPacks, progress);
+  }, [examPlanPacks, progress]);
+
   const curriculumEntry = useMemo(
     () =>
       findCurriculumEntry(
@@ -383,6 +426,7 @@ export function WorldMap({
         dueWrongCount={dueWrongCount}
         totalWrongCount={progress.wrongQuestionIds.length}
         recommendedNext={recommendedNext}
+        examSprint={examSprint}
         onStartStage={onStartStage}
         onStartLesson={onStartLesson}
         onGoWrongBook={onGoWrongBook}
